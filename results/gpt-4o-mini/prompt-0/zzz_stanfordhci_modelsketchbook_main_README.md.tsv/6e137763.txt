@@ -1,0 +1,1 @@
+[PDF](https://hci.stanford.edu/publications/2023/Lam_ModelSketching_CHI23.pdf) | [Arxiv](https://arxiv.org/abs/2303.02884)  ## tl;dr Machine learning practitioners often end up tunneling on **low-level technical details** like model architectures and performance metrics.

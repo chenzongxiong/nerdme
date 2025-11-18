@@ -1,0 +1,29 @@
+The <SOFTWARE>Megaman</SOFTWARE> is a tool for installing and managing various software packages. You can download the Jupyter Notebook version of the <SOFTWARE>Megaman</SOFTWARE> from <https://github.com/mmp2/megaman/blob/master/examples/megaman_install_usage_colab.ipynb>. 
+
+## ~~Installation with Conda~~
+To install the <SOFTWARE>Megaman</SOFTWARE> with Conda, you can use the following command:
+```bash
+conda install -c conda-forge megaman
+```
+This will install the <SOFTWARE>Megaman</SOFTWARE> package and its dependencies.
+
+## ~~Installation with Pip~~
+Alternatively, you can install the <SOFTWARE>Megaman</SOFTWARE> using Pip:
+```bash
+pip install megaman
+```
+This will install the <SOFTWARE>Megaman</SOFTWARE> package and its dependencies.
+
+## ~~Installation with Conda (for Windows)~~
+If you are using Windows, you can install the <SOFTWARE>Megaman</SOFTWARE> using Conda by running the following command:
+```bash
+conda install -c conda-forge megaman
+```
+This will install the <SOFTWARE>Megaman</SOFTWARE> package and its dependencies.
+
+## ~~Installation with Pip (for Windows)~~
+Alternatively, you can install the <SOFTWARE>Megaman</SOFTWARE> using Pip on Windows by running the following command:
+```bash
+pip install megaman
+```
+This will install the <SOFTWARE>Megaman</SOFTWARE> package and its dependencies.

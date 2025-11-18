@@ -1,0 +1,1 @@
+One one terminal/screen run GERBIL by: ``` cd gerbil .

@@ -1,0 +1,1 @@
+`Please download the <SOFTWARE>ImageNet-pretrained ResNet-v1-101 model</SOFTWARE> manually from [OneDrive](https://1drv.ms/u/s!<URL>).`

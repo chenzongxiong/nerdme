@@ -1,0 +1,3 @@
+The <SOFTWARE>conda</SOFTWARE> command is used to manage multiple Python environments. To activate the environment, run: `<SOFTWARE>conda</SOFTWARE> activate <PROJECT>Fisher Information</PROJECT>`
+
+3.

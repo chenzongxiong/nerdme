@@ -1,0 +1,3 @@
+```markdown
+`<SOFTWARE>train.py</SOFTWARE>` reproduces [<PUBLICATION>EarthPT-700M</PUBLICATION>](https://arxiv.org/abs/2309.07207) when trained on 14B time series 'tokens' of ClearSky EO data within the TL UK National Grid tile.
+```

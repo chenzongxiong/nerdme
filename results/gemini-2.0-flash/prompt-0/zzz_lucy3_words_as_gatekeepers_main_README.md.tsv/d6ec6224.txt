@@ -1,0 +1,1 @@
+**Social implication experiments** - `Domain Language Analysis` is a notebook that generates data for some of the tables of example jargon in the <PUBLICATION>paper</PUBLICATION>.

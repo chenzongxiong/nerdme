@@ -1,0 +1,3 @@
+```markdown
+jury eval --predictions /path/to/predictions.txt --references /path/to/references.txt --reduce_fn max --export /path/to/export.txt  You can also provide prediction folders and reference folders to evaluate multiple experiments.
+```

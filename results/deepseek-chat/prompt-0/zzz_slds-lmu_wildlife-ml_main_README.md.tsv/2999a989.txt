@@ -1,0 +1,1 @@
+If the `<SOFTWARE>Evaluator</SOFTWARE>` is supposed to discard boxes that do not meet the MD confidence threshold as empty, it is advisable to also set the `<EVALMETRIC>conf_threshold</EVALMETRIC>` parameter.

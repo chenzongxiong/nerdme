@@ -1,0 +1,1 @@
+The automatically segmented `<SOFTWARE>AX CMR</SOFTWARE>` is obtained through the inverse transformation of the segmentation.

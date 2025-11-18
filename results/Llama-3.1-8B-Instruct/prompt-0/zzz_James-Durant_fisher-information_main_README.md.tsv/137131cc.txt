@@ -1,0 +1,1 @@
+Install <SOFTWARE>pip</SOFTWARE> by running: `conda install <SOFTWARE>pip</SOFTWARE>`

@@ -1,0 +1,9 @@
+`Crowdsourcing <PROJECT>CrowdAI</PROJECT>`, to collect and annotate large-scale datasets for various tasks, such as `<DATASET>ImageNet</DATASET>` and `<DATASET>COCO</DATASET>`. These datasets have been instrumental in driving the progress of computer vision research.
+
+For instance, the `<ONTOLOGY>ImageNet Ontology</ONTOLOGY>` is a semantic framework that provides a structured representation of the concepts and relationships within the `<DATASET>ImageNet</DATASET>` dataset.
+
+Moreover, the `<CONFERENCE>CVPR 2023</CONFERENCE>` workshop on `<WORKSHOP>Thermal Image Super-Resolution</WORKSHOP>` will delve into the latest advancements in thermal image super-resolution techniques.
+
+The `<SOFTWARE>Protege ontology editor</SOFTWARE>` is widely used for creating ontologies, and it can be employed to explore and edit the resource.
+
+Lastly, the evaluation metrics used in this study are `<EVALMETRIC>Precision

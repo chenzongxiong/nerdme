@@ -1,0 +1,1 @@
+Subsequently, a best-of-N strategy is deployed to recommend the optimal prompt.

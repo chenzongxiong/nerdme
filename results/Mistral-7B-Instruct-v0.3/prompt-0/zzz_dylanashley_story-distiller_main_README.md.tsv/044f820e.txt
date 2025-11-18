@@ -1,0 +1,1 @@
+The preprocessing to extract `<SOFTWARE>CLIP</SOFTWARE>` features from images can be done straightforwardly using the `<SOFTWARE>official implementation</SOFTWARE>` at [this `<URL>https://github.com/openai/CLIP</URL>`].

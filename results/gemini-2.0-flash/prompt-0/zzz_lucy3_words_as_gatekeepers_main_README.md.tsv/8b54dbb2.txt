@@ -1,0 +1,1 @@
+- `data_process/clean_up_wikipedia.py`: sample a subset of <DATASET>Wikipedia</DATASET>  - `create_mag_mapping()` in `val_data_process/fos_analysis.py`: get all <DATASET>MAG</DATASET> IDs to fos

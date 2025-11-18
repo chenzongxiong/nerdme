@@ -1,0 +1,377 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# A Glitch in the Matrix?
+1-1	0-1	#	_	_	
+1-2	2-3	A	*[1]	PUBLICATION[1]	
+1-3	4-10	Glitch	*[1]	PUBLICATION[1]	
+1-4	11-13	in	*[1]	PUBLICATION[1]	
+1-5	14-17	the	*[1]	PUBLICATION[1]	
+1-6	18-24	Matrix	*[1]	PUBLICATION[1]	
+1-7	24-25	?	*[1]	PUBLICATION[1]	
+
+#Text=Locating and Detecting Language Model Grounding with Fakepedia
+#Text=
+#Text=This repository contains the data and code to reproduce the results of our paper: https://arxiv.org/abs/2312.02073
+#Text=
+#Text=Please use the following citation:
+#Text=
+#Text=```
+#Text=@misc{monea2023glitch,
+#Text=      title={A Glitch in the Matrix?
+2-1	26-34	Locating	*[1]	PUBLICATION[1]	
+2-2	35-38	and	*[1]	PUBLICATION[1]	
+2-3	39-48	Detecting	*[1]	PUBLICATION[1]	
+2-4	49-57	Language	*[1]	PUBLICATION[1]	
+2-5	58-63	Model	*[1]	PUBLICATION[1]	
+2-6	64-73	Grounding	*[1]	PUBLICATION[1]	
+2-7	74-78	with	*[1]	PUBLICATION[1]	
+2-8	79-88	Fakepedia	*[1]|*[2]	PUBLICATION[1]|DATASET[2]	
+2-9	90-94	This	_	_	
+2-10	95-105	repository	_	_	
+2-11	106-114	contains	_	_	
+2-12	115-118	the	_	_	
+2-13	119-123	data	_	_	
+2-14	124-127	and	_	_	
+2-15	128-132	code	_	_	
+2-16	133-135	to	_	_	
+2-17	136-145	reproduce	_	_	
+2-18	146-149	the	_	_	
+2-19	150-157	results	_	_	
+2-20	158-160	of	_	_	
+2-21	161-164	our	_	_	
+2-22	165-170	paper	_	_	
+2-23	170-171	:	_	_	
+2-24	172-177	https	_	_	
+2-25	177-178	:	_	_	
+2-26	178-179	/	_	_	
+2-27	179-180	/	_	_	
+2-28	180-189	arxiv.org	_	_	
+2-29	189-190	/	_	_	
+2-30	190-193	abs	_	_	
+2-31	193-194	/	_	_	
+2-32	194-204	2312.02073	_	_	
+2-33	206-212	Please	_	_	
+2-34	213-216	use	_	_	
+2-35	217-220	the	_	_	
+2-36	221-230	following	_	_	
+2-37	231-239	citation	_	_	
+2-38	239-240	:	_	_	
+2-39	242-243	`	_	_	
+2-40	243-244	`	_	_	
+2-41	244-245	`	_	_	
+2-42	246-247	@	_	_	
+2-43	247-251	misc	_	_	
+2-44	251-252	{	_	_	
+2-45	252-267	monea2023glitch	_	_	
+2-46	267-268	,	_	_	
+2-47	275-280	title	_	_	
+2-48	280-281	=	_	_	
+2-49	281-282	{	_	_	
+2-50	282-283	A	*[3]	PUBLICATION[3]	
+2-51	284-290	Glitch	*[3]	PUBLICATION[3]	
+2-52	291-293	in	*[3]	PUBLICATION[3]	
+2-53	294-297	the	*[3]	PUBLICATION[3]	
+2-54	298-304	Matrix	*[3]	PUBLICATION[3]	
+2-55	304-305	?	*[3]	PUBLICATION[3]	
+
+#Text=Locating and Detecting Language Model Grounding with Fakepedia}, 
+#Text=      author={Giovanni Monea and Maxime Peyrard and Martin Josifoski and Vishrav Chaudhary and Jason Eisner and Emre Kıcıman and Hamid Palangi and Barun Patra and Robert West},
+#Text=      year={2023},
+#Text=      eprint={2312.02073},
+#Text=      archivePrefix={arXiv},
+#Text=      primaryClass={cs.CL}
+#Text=}
+#Text=```
+#Text=
+#Text=> **Abstract:** Large language models (LLMs) have an impressive ability to draw on novel information supplied in their context.
+3-1	306-314	Locating	*[3]	PUBLICATION[3]	
+3-2	315-318	and	*[3]	PUBLICATION[3]	
+3-3	319-328	Detecting	*[3]	PUBLICATION[3]	
+3-4	329-337	Language	*[3]	PUBLICATION[3]	
+3-5	338-343	Model	*[3]	PUBLICATION[3]	
+3-6	344-353	Grounding	*[3]	PUBLICATION[3]	
+3-7	354-358	with	*[3]	PUBLICATION[3]	
+3-8	359-368	Fakepedia	*[3]|*[4]	PUBLICATION[3]|DATASET[4]	
+3-9	368-369	}	_	_	
+3-10	369-370	,	_	_	
+3-11	378-384	author	_	_	
+3-12	384-385	=	_	_	
+3-13	385-386	{	_	_	
+3-14	386-394	Giovanni	_	_	
+3-15	395-400	Monea	_	_	
+3-16	401-404	and	_	_	
+3-17	405-411	Maxime	_	_	
+3-18	412-419	Peyrard	_	_	
+3-19	420-423	and	_	_	
+3-20	424-430	Martin	_	_	
+3-21	431-440	Josifoski	_	_	
+3-22	441-444	and	_	_	
+3-23	445-452	Vishrav	_	_	
+3-24	453-462	Chaudhary	_	_	
+3-25	463-466	and	_	_	
+3-26	467-472	Jason	_	_	
+3-27	473-479	Eisner	_	_	
+3-28	480-483	and	_	_	
+3-29	484-488	Emre	_	_	
+3-30	489-496	Kıcıman	_	_	
+3-31	497-500	and	_	_	
+3-32	501-506	Hamid	_	_	
+3-33	507-514	Palangi	_	_	
+3-34	515-518	and	_	_	
+3-35	519-524	Barun	_	_	
+3-36	525-530	Patra	_	_	
+3-37	531-534	and	_	_	
+3-38	535-541	Robert	_	_	
+3-39	542-546	West	_	_	
+3-40	546-547	}	_	_	
+3-41	547-548	,	_	_	
+3-42	555-559	year	_	_	
+3-43	559-560	=	_	_	
+3-44	560-561	{	_	_	
+3-45	561-565	2023	_	_	
+3-46	565-566	}	_	_	
+3-47	566-567	,	_	_	
+3-48	574-580	eprint	_	_	
+3-49	580-581	=	_	_	
+3-50	581-582	{	_	_	
+3-51	582-592	2312.02073	_	_	
+3-52	592-593	}	_	_	
+3-53	593-594	,	_	_	
+3-54	601-614	archivePrefix	_	_	
+3-55	614-615	=	_	_	
+3-56	615-616	{	_	_	
+3-57	616-621	arXiv	_	_	
+3-58	621-622	}	_	_	
+3-59	622-623	,	_	_	
+3-60	630-642	primaryClass	_	_	
+3-61	642-643	=	_	_	
+3-62	643-644	{	_	_	
+3-63	644-649	cs.CL	_	_	
+3-64	649-650	}	_	_	
+3-65	651-652	}	_	_	
+3-66	653-654	`	_	_	
+3-67	654-655	`	_	_	
+3-68	655-656	`	_	_	
+3-69	658-659	>	_	_	
+3-70	660-661	*	_	_	
+3-71	661-662	*	_	_	
+3-72	662-670	Abstract	_	_	
+3-73	670-671	:	_	_	
+3-74	671-672	*	_	_	
+3-75	672-673	*	_	_	
+3-76	674-679	Large	_	_	
+3-77	680-688	language	_	_	
+3-78	689-695	models	_	_	
+3-79	696-697	(	_	_	
+3-80	697-701	LLMs	_	_	
+3-81	701-702	)	_	_	
+3-82	703-707	have	_	_	
+3-83	708-710	an	_	_	
+3-84	711-721	impressive	_	_	
+3-85	722-729	ability	_	_	
+3-86	730-732	to	_	_	
+3-87	733-737	draw	_	_	
+3-88	738-740	on	_	_	
+3-89	741-746	novel	_	_	
+3-90	747-758	information	_	_	
+3-91	759-767	supplied	_	_	
+3-92	768-770	in	_	_	
+3-93	771-776	their	_	_	
+3-94	777-784	context	_	_	
+3-95	784-785	.	_	_	
+
+#Text=Yet the mechanisms underlying this contextual grounding remain unknown, especially in situations where contextual information contradicts factual knowledge stored in the parameters, which LLMs also excel at recalling.
+4-1	786-789	Yet	_	_	
+4-2	790-793	the	_	_	
+4-3	794-804	mechanisms	_	_	
+4-4	805-815	underlying	_	_	
+4-5	816-820	this	_	_	
+4-6	821-831	contextual	_	_	
+4-7	832-841	grounding	_	_	
+4-8	842-848	remain	_	_	
+4-9	849-856	unknown	_	_	
+4-10	856-857	,	_	_	
+4-11	858-868	especially	_	_	
+4-12	869-871	in	_	_	
+4-13	872-882	situations	_	_	
+4-14	883-888	where	_	_	
+4-15	889-899	contextual	_	_	
+4-16	900-911	information	_	_	
+4-17	912-923	contradicts	_	_	
+4-18	924-931	factual	_	_	
+4-19	932-941	knowledge	_	_	
+4-20	942-948	stored	_	_	
+4-21	949-951	in	_	_	
+4-22	952-955	the	_	_	
+4-23	956-966	parameters	_	_	
+4-24	966-967	,	_	_	
+4-25	968-973	which	_	_	
+4-26	974-978	LLMs	_	_	
+4-27	979-983	also	_	_	
+4-28	984-989	excel	_	_	
+4-29	990-992	at	_	_	
+4-30	993-1002	recalling	_	_	
+4-31	1002-1003	.	_	_	
+
+#Text=Favoring the contextual information is critical for retrieval-augmented generation methods, which enrich the context with up-to-date information, hoping that grounding can rectify outdated or noisy stored knowledge.
+5-1	1004-1012	Favoring	_	_	
+5-2	1013-1016	the	_	_	
+5-3	1017-1027	contextual	_	_	
+5-4	1028-1039	information	_	_	
+5-5	1040-1042	is	_	_	
+5-6	1043-1051	critical	_	_	
+5-7	1052-1055	for	_	_	
+5-8	1056-1075	retrieval-augmented	_	_	
+5-9	1076-1086	generation	_	_	
+5-10	1087-1094	methods	_	_	
+5-11	1094-1095	,	_	_	
+5-12	1096-1101	which	_	_	
+5-13	1102-1108	enrich	_	_	
+5-14	1109-1112	the	_	_	
+5-15	1113-1120	context	_	_	
+5-16	1121-1125	with	_	_	
+5-17	1126-1136	up-to-date	_	_	
+5-18	1137-1148	information	_	_	
+5-19	1148-1149	,	_	_	
+5-20	1150-1156	hoping	_	_	
+5-21	1157-1161	that	_	_	
+5-22	1162-1171	grounding	_	_	
+5-23	1172-1175	can	_	_	
+5-24	1176-1183	rectify	_	_	
+5-25	1184-1192	outdated	_	_	
+5-26	1193-1195	or	_	_	
+5-27	1196-1201	noisy	_	_	
+5-28	1202-1208	stored	_	_	
+5-29	1209-1218	knowledge	_	_	
+5-30	1218-1219	.	_	_	
+
+#Text=We present a novel method to study grounding abilities using Fakepedia, a dataset of counterfactual texts constructed to clash with a model's internal parametric knowledge.
+6-1	1220-1222	We	_	_	
+6-2	1223-1230	present	_	_	
+6-3	1231-1232	a	_	_	
+6-4	1233-1238	novel	_	_	
+6-5	1239-1245	method	_	_	
+6-6	1246-1248	to	_	_	
+6-7	1249-1254	study	_	_	
+6-8	1255-1264	grounding	_	_	
+6-9	1265-1274	abilities	_	_	
+6-10	1275-1280	using	_	_	
+6-11	1281-1290	Fakepedia	*	DATASET	
+6-12	1290-1291	,	_	_	
+6-13	1292-1293	a	_	_	
+6-14	1294-1301	dataset	_	_	
+6-15	1302-1304	of	_	_	
+6-16	1305-1319	counterfactual	_	_	
+6-17	1320-1325	texts	_	_	
+6-18	1326-1337	constructed	_	_	
+6-19	1338-1340	to	_	_	
+6-20	1341-1346	clash	_	_	
+6-21	1347-1351	with	_	_	
+6-22	1352-1353	a	_	_	
+6-23	1354-1361	model's	_	_	
+6-24	1362-1370	internal	_	_	
+6-25	1371-1381	parametric	_	_	
+6-26	1382-1391	knowledge	_	_	
+6-27	1391-1392	.	_	_	
+
+#Text=We benchmark various LLMs with Fakepedia and then we conduct a causal mediation analysis, based on our Masked Grouped Causal Tracing (MGCT), on LLM components when answering Fakepedia queries.
+7-1	1393-1395	We	_	_	
+7-2	1396-1405	benchmark	_	_	
+7-3	1406-1413	various	_	_	
+7-4	1414-1418	LLMs	_	_	
+7-5	1419-1423	with	_	_	
+7-6	1424-1433	Fakepedia	*	DATASET	
+7-7	1434-1437	and	_	_	
+7-8	1438-1442	then	_	_	
+7-9	1443-1445	we	_	_	
+7-10	1446-1453	conduct	_	_	
+7-11	1454-1455	a	_	_	
+7-12	1456-1462	causal	_	_	
+7-13	1463-1472	mediation	_	_	
+7-14	1473-1481	analysis	_	_	
+7-15	1481-1482	,	_	_	
+7-16	1483-1488	based	_	_	
+7-17	1489-1491	on	_	_	
+7-18	1492-1495	our	_	_	
+7-19	1496-1502	Masked	_	_	
+7-20	1503-1510	Grouped	_	_	
+7-21	1511-1517	Causal	_	_	
+7-22	1518-1525	Tracing	_	_	
+7-23	1526-1527	(	_	_	
+7-24	1527-1531	MGCT	_	_	
+7-25	1531-1532	)	_	_	
+7-26	1532-1533	,	_	_	
+7-27	1534-1536	on	_	_	
+7-28	1537-1540	LLM	_	_	
+7-29	1541-1551	components	_	_	
+7-30	1552-1556	when	_	_	
+7-31	1557-1566	answering	_	_	
+7-32	1567-1576	Fakepedia	*	DATASET	
+7-33	1577-1584	queries	_	_	
+7-34	1584-1585	.	_	_	
+
+#Text=Within this analysis, we identify distinct computational patterns between grounded and ungrounded responses.
+8-1	1586-1592	Within	_	_	
+8-2	1593-1597	this	_	_	
+8-3	1598-1606	analysis	_	_	
+8-4	1606-1607	,	_	_	
+8-5	1608-1610	we	_	_	
+8-6	1611-1619	identify	_	_	
+8-7	1620-1628	distinct	_	_	
+8-8	1629-1642	computational	_	_	
+8-9	1643-1651	patterns	_	_	
+8-10	1652-1659	between	_	_	
+8-11	1660-1668	grounded	_	_	
+8-12	1669-1672	and	_	_	
+8-13	1673-1683	ungrounded	_	_	
+8-14	1684-1693	responses	_	_	
+8-15	1693-1694	.	_	_	
+
+#Text=We finally demonstrate that distinguishing grounded from ungrounded responses is achievable through computational analysis alone.
+9-1	1695-1697	We	_	_	
+9-2	1698-1705	finally	_	_	
+9-3	1706-1717	demonstrate	_	_	
+9-4	1718-1722	that	_	_	
+9-5	1723-1737	distinguishing	_	_	
+9-6	1738-1746	grounded	_	_	
+9-7	1747-1751	from	_	_	
+9-8	1752-1762	ungrounded	_	_	
+9-9	1763-1772	responses	_	_	
+9-10	1773-1775	is	_	_	
+9-11	1776-1786	achievable	_	_	
+9-12	1787-1794	through	_	_	
+9-13	1795-1808	computational	_	_	
+9-14	1809-1817	analysis	_	_	
+9-15	1818-1823	alone	_	_	
+9-16	1823-1824	.	_	_	
+
+#Text=Our results, together with existing findings about factual recall mechanisms, provide a coherent narrative of how grounding and factual recall mechanisms interact within LLMs.
+10-1	1825-1828	Our	_	_	
+10-2	1829-1836	results	_	_	
+10-3	1836-1837	,	_	_	
+10-4	1838-1846	together	_	_	
+10-5	1847-1851	with	_	_	
+10-6	1852-1860	existing	_	_	
+10-7	1861-1869	findings	_	_	
+10-8	1870-1875	about	_	_	
+10-9	1876-1883	factual	_	_	
+10-10	1884-1890	recall	_	_	
+10-11	1891-1901	mechanisms	_	_	
+10-12	1901-1902	,	_	_	
+10-13	1903-1910	provide	_	_	
+10-14	1911-1912	a	_	_	
+10-15	1913-1921	coherent	_	_	
+10-16	1922-1931	narrative	_	_	
+10-17	1932-1934	of	_	_	
+10-18	1935-1938	how	_	_	
+10-19	1939-1948	grounding	_	_	
+10-20	1949-1952	and	_	_	
+10-21	1953-1960	factual	_	_	
+10-22	1961-1967	recall	_	_	
+10-23	1968-1978	mechanisms	_	_	
+10-24	1979-1987	interact	_	_	
+10-25	1988-1994	within	_	_	
+10-26	1995-1999	LLMs	_	_	
+10-27	1999-2000	.	_	_	

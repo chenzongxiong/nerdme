@@ -1,0 +1,1 @@
+Please refer to `<PROJECT>Ego4D</PROJECT>` and `<PROJECT>EgoVLP</PROJECT>`'s documentation for more details on feature extraction.

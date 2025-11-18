@@ -1,0 +1,3 @@
+```markdown
+/data/<DATASET>test_split</DATASET>`.   #### Shell scripts  The script "<SOFTWARE>run.bash</SOFTWARE>" is one-shot execution of all methods
+```

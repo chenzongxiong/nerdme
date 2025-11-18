@@ -1,0 +1,1 @@
+The <SOFTWARE>MegaMan</SOFTWARE> project is a <PROJECT>Python</PROJECT> package that provides a simple way to create and manage game development projects. It can be downloaded from the <DATASET>Pypi</DATASET> repository. The <SOFTWARE>MegaMan</SOFTWARE> project is written in <PROGLANG>Python</PROGLANG> and uses the <SOFTWARE>Pygame</SOFTWARE> library for game development.

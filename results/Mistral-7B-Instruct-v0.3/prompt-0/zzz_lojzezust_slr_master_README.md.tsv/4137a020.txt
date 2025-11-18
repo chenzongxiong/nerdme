@@ -1,0 +1,6 @@
+```bash
+export <PROGRAM>CUDA_VISIBLE_DEVICES=0,1</PROGRAM> python <SOFTWARE>tools/generate_pseudo_labels.py</SOFTWARE> \
+--architecture <PROJECT>wasr_resnet101_imu</PROJECT> \
+--weights-file <PUBLICATION>output/logs/wasr_slr_warmup/version_0/checkpoints/last.ckpt</PUBLICATION> \
+--output-dir <DATASET>output/pseudo_labels/wasr_slr_warmup_v0</DATASET>
+```

@@ -1,0 +1,2 @@
+```python train_keys = ['img_id1.xx_001', 'img_id1.xx_002', 'img_id2.xx_001'] ```  Using a key based initialization, one can easily derive cross validation splits, test sets or other variants based on one MD file.
+```

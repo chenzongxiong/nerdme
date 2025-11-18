@@ -1,0 +1,5 @@
+The given input text does not contain any identifiable entities based on the provided guidelines. Here is the text as-is:
+
+```
+color=yellow&label=Stars) [!
+```

@@ -1,0 +1,1 @@
+```bash export CUDA_VISIBLE_DEVICES=0,1 <PROGLANG>python</PROGLANG> tools/generate_pseudo_labels.py \ --architecture wasr_resnet101_imu \ --weights-file output/logs/wasr_slr_warmup/version_0/checkpoints/last.ckpt \ --output-dir output/pseudo_labels/wasr_slr_warmup_v0 ``` This creates the pseudo-labels and stores them into `output/pseudo_labels/wasr_slr_warmup_v0`

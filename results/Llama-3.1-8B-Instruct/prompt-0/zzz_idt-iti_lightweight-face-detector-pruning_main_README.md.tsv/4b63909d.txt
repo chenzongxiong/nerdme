@@ -1,0 +1,1 @@
+Subsequently, move the created <SOFTWARE>lite_scripted_model.ptl</SOFTWARE> to your android application`s <SOFTWARE>asset</SOFTWARE> folder.

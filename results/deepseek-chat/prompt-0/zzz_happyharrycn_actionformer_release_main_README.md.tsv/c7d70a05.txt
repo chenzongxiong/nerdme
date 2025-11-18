@@ -1,0 +1,1 @@
+**Details**: The features are extracted from the <SOFTWARE>SlowFast</SOFTWARE> model pretrained on the training set of <DATASET>EPIC Kitchens 100</DATASET> (action classification) using clips of `32 frames` at a frame rate of `30 fps` and a stride of `16 frames`.

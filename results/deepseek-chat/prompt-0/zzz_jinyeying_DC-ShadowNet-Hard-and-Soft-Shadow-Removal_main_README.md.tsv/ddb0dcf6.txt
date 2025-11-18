@@ -1,0 +1,3 @@
+```markdown
+url=https://<PROJECT>paperswithcode</PROJECT>.com/badge/dc-shadownet-single-image-hard-and-soft-1/shadow-removal-on-<DATASET>srd</DATASET>)(https://<PROJECT>paperswithcode</PROJECT>.com/sota/shadow-removal-on-<DATASET>srd</DATASET>?
+```

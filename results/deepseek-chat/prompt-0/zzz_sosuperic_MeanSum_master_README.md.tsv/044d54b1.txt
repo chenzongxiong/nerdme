@@ -1,0 +1,3 @@
+```markdown
+# <SOFTWARE>MeanSum</SOFTWARE>: A Model for Unsupervised Neural Multi-Document Abstractive Summarization  Corresponding paper, accepted to <CONFERENCE>ICML 2019</CONFERENCE>: [https://arxiv.org/abs/1810.05739](https://arxiv.org/abs/1810.05739).  ## Requirements  Main requirements: - <PROGLANG>python 3</PROGLANG> - <SOFTWARE>torch 0.4.0</SOFTWARE>  Rest of python packages in ```requirements.txt```.
+```

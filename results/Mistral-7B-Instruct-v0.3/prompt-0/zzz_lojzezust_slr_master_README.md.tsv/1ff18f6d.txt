@@ -1,0 +1,3 @@
+`Download the <DATASET>MaSTr1325 dataset</DATASET> and corresponding <DATASET>weak annotations</DATASET>.`
+`[MaSTr1325 dataset](https://box.vicos.si/borja/viamaro/index.html)`
+`[weak annotations](https://github.com/lojzezust/SLR/releases/download/weights_v2/mastr_slr.zip)`

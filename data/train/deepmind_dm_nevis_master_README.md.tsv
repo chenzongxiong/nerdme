@@ -1,0 +1,3141 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=<div align="center">
+#Text=
+#Text=# 🏝️ NEVIS'22
+#Text=
+#Text=[!
+1-1	0-1	<	_	_	
+1-2	1-4	div	_	_	
+1-3	5-10	align	_	_	
+1-4	10-11	=	_	_	
+1-5	11-12	"	_	_	
+1-6	12-18	center	_	_	
+1-7	18-19	"	_	_	
+1-8	19-20	>	_	_	
+1-9	22-23	#	_	_	
+1-10	24-27	🏝️	_	_	
+1-11	28-33	NEVIS	_	_	
+1-12	33-34	'	_	_	
+1-13	34-36	22	_	_	
+1-14	38-39	[	_	_	
+1-15	39-40	!	_	_	
+
+#Text=[Paper](https://img.shields.io/badge/arXiv-2211.11747-red)](https://arxiv.org/abs/2211.11747)
+#Text=[!
+2-1	40-41	[	_	_	
+2-2	41-46	Paper	_	_	
+2-3	46-47	]	_	_	
+2-4	47-48	(	_	_	
+2-5	48-53	https	_	_	
+2-6	53-54	:	_	_	
+2-7	54-55	/	_	_	
+2-8	55-56	/	_	_	
+2-9	56-70	img.shields.io	_	_	
+2-10	70-71	/	_	_	
+2-11	71-76	badge	_	_	
+2-12	76-77	/	_	_	
+2-13	77-82	arXiv	_	_	
+2-14	82-83	-	_	_	
+2-15	83-93	2211.11747	_	_	
+2-16	93-94	-	_	_	
+2-17	94-97	red	_	_	
+2-18	97-98	)	_	_	
+2-19	98-99	]	_	_	
+2-20	99-100	(	_	_	
+2-21	100-105	https	_	_	
+2-22	105-106	:	_	_	
+2-23	106-107	/	_	_	
+2-24	107-108	/	_	_	
+2-25	108-117	arxiv.org	_	_	
+2-26	117-118	/	_	_	
+2-27	118-121	abs	_	_	
+2-28	121-122	/	_	_	
+2-29	122-132	2211.11747	_	_	
+2-30	132-133	)	_	_	
+2-31	134-135	[	_	_	
+2-32	135-136	!	_	_	
+
+#Text=[Blog](https://img.shields.io/badge/blog-link-blue)](https://www.deepmind.com/blog/benchmarking-the-next-generation-of-never-ending-learners)
+#Text=
+#Text=</div>
+#Text=
+#Text=NEVIS’22 is a benchmark for measuring the performance of algorithms in the field
+#Text=of continual learning.
+3-1	136-137	[	_	_	
+3-2	137-141	Blog	_	_	
+3-3	141-142	]	_	_	
+3-4	142-143	(	_	_	
+3-5	143-148	https	_	_	
+3-6	148-149	:	_	_	
+3-7	149-150	/	_	_	
+3-8	150-151	/	_	_	
+3-9	151-165	img.shields.io	_	_	
+3-10	165-166	/	_	_	
+3-11	166-171	badge	_	_	
+3-12	171-172	/	_	_	
+3-13	172-186	blog-link-blue	_	_	
+3-14	186-187	)	_	_	
+3-15	187-188	]	_	_	
+3-16	188-189	(	_	_	
+3-17	189-194	https	_	_	
+3-18	194-195	:	_	_	
+3-19	195-196	/	_	_	
+3-20	196-197	/	_	_	
+3-21	197-213	www.deepmind.com	_	_	
+3-22	213-214	/	_	_	
+3-23	214-218	blog	_	_	
+3-24	218-219	/	_	_	
+3-25	219-276	benchmarking-the-next-generation-of-never-ending-learners	_	_	
+3-26	276-277	)	_	_	
+3-27	279-280	<	_	_	
+3-28	280-281	/	_	_	
+3-29	281-284	div	_	_	
+3-30	284-285	>	_	_	
+3-31	287-292	NEVIS	_	_	
+3-32	292-293	’	_	_	
+3-33	293-295	22	_	_	
+3-34	296-298	is	_	_	
+3-35	299-300	a	_	_	
+3-36	301-310	benchmark	_	_	
+3-37	311-314	for	_	_	
+3-38	315-324	measuring	_	_	
+3-39	325-328	the	_	_	
+3-40	329-340	performance	_	_	
+3-41	341-343	of	_	_	
+3-42	344-354	algorithms	_	_	
+3-43	355-357	in	_	_	
+3-44	358-361	the	_	_	
+3-45	362-367	field	_	_	
+3-46	368-370	of	_	_	
+3-47	371-380	continual	_	_	
+3-48	381-389	learning	_	_	
+3-49	389-390	.	_	_	
+
+#Text=Please see the accompanying [paper] for more details.
+4-1	391-397	Please	_	_	
+4-2	398-401	see	_	_	
+4-3	402-405	the	_	_	
+4-4	406-418	accompanying	_	_	
+4-5	419-420	[	_	_	
+4-6	420-425	paper	_	_	
+4-7	425-426	]	_	_	
+4-8	427-430	for	_	_	
+4-9	431-435	more	_	_	
+4-10	436-443	details	_	_	
+4-11	443-444	.	_	_	
+
+#Text=Within this Python package, we provide three components,
+#Text=
+#Text=1.
+5-1	446-452	Within	_	_	
+5-2	453-457	this	_	_	
+5-3	458-464	Python	*	PROGLANG	
+5-4	465-472	package	_	_	
+5-5	472-473	,	_	_	
+5-6	474-476	we	_	_	
+5-7	477-484	provide	_	_	
+5-8	485-490	three	_	_	
+5-9	491-501	components	_	_	
+5-10	501-502	,	_	_	
+5-11	504-505	1	_	_	
+5-12	505-506	.	_	_	
+
+#Text=Library code to download and post-process datasets that are not available
+#Text=    within [tfds], so that the stream used in the [paper] can be replicated.
+#Text=2.
+6-1	508-515	Library	_	_	
+6-2	516-520	code	_	_	
+6-3	521-523	to	_	_	
+6-4	524-532	download	_	_	
+6-5	533-536	and	_	_	
+6-6	537-549	post-process	_	_	
+6-7	550-558	datasets	_	_	
+6-8	559-563	that	_	_	
+6-9	564-567	are	_	_	
+6-10	568-571	not	_	_	
+6-11	572-581	available	_	_	
+6-12	586-592	within	_	_	
+6-13	593-594	[	_	_	
+6-14	594-598	tfds	_	_	
+6-15	598-599	]	_	_	
+6-16	599-600	,	_	_	
+6-17	601-603	so	_	_	
+6-18	604-608	that	_	_	
+6-19	609-612	the	_	_	
+6-20	613-619	stream	_	_	
+6-21	620-624	used	_	_	
+6-22	625-627	in	_	_	
+6-23	628-631	the	_	_	
+6-24	632-633	[	_	_	
+6-25	633-638	paper	_	_	
+6-26	638-639	]	_	_	
+6-27	640-643	can	_	_	
+6-28	644-646	be	_	_	
+6-29	647-657	replicated	_	_	
+6-30	657-658	.	_	_	
+6-31	659-660	2	_	_	
+6-32	660-661	.	_	_	
+
+#Text=A package to combine the NEVIS’22 datasets into a *stream*, and robustly
+#Text=    evaluate learners using the evaluation protocol proposed in the NEVIS’22
+#Text=    [paper].
+#Text=3.
+7-1	663-664	A	_	_	
+7-2	665-672	package	_	_	
+7-3	673-675	to	_	_	
+7-4	676-683	combine	_	_	
+7-5	684-687	the	_	_	
+7-6	688-693	NEVIS	_	_	
+7-7	693-694	’	_	_	
+7-8	694-696	22	_	_	
+7-9	697-705	datasets	_	_	
+7-10	706-710	into	_	_	
+7-11	711-712	a	_	_	
+7-12	713-714	*	_	_	
+7-13	714-720	stream	_	_	
+7-14	720-721	*	_	_	
+7-15	721-722	,	_	_	
+7-16	723-726	and	_	_	
+7-17	727-735	robustly	_	_	
+7-18	740-748	evaluate	_	_	
+7-19	749-757	learners	_	_	
+7-20	758-763	using	_	_	
+7-21	764-767	the	_	_	
+7-22	768-778	evaluation	_	_	
+7-23	779-787	protocol	_	_	
+7-24	788-796	proposed	_	_	
+7-25	797-799	in	_	_	
+7-26	800-803	the	_	_	
+7-27	804-809	NEVIS	_	_	
+7-28	809-810	’	_	_	
+7-29	810-812	22	_	_	
+7-30	817-818	[	_	_	
+7-31	818-823	paper	_	_	
+7-32	823-824	]	_	_	
+7-33	824-825	.	_	_	
+7-34	826-827	3	_	_	
+7-35	827-828	.	_	_	
+
+#Text=Baseline learners implemented in JAX and PyTorch.
+8-1	830-838	Baseline	_	_	
+8-2	839-847	learners	_	_	
+8-3	848-859	implemented	_	_	
+8-4	860-862	in	_	_	
+8-5	863-866	JAX	*	SOFTWARE	
+8-6	867-870	and	_	_	
+8-7	871-878	PyTorch	*	SOFTWARE	
+8-8	878-879	.	_	_	
+
+#Text=The JAX learners are
+#Text=    identical to the learners used for the figures in the [paper], the PyTorch
+#Text=    learners are provided for example purposes.
+9-1	880-883	The	_	_	
+9-2	884-887	JAX	*	SOFTWARE	
+9-3	888-896	learners	_	_	
+9-4	897-900	are	_	_	
+9-5	905-914	identical	_	_	
+9-6	915-917	to	_	_	
+9-7	918-921	the	_	_	
+9-8	922-930	learners	_	_	
+9-9	931-935	used	_	_	
+9-10	936-939	for	_	_	
+9-11	940-943	the	_	_	
+9-12	944-951	figures	_	_	
+9-13	952-954	in	_	_	
+9-14	955-958	the	_	_	
+9-15	959-960	[	_	_	
+9-16	960-965	paper	_	_	
+9-17	965-966	]	_	_	
+9-18	966-967	,	_	_	
+9-19	968-971	the	_	_	
+9-20	972-979	PyTorch	*	SOFTWARE	
+9-21	984-992	learners	_	_	
+9-22	993-996	are	_	_	
+9-23	997-1005	provided	_	_	
+9-24	1006-1009	for	_	_	
+9-25	1010-1017	example	_	_	
+9-26	1018-1026	purposes	_	_	
+9-27	1026-1027	.	_	_	
+
+#Text=NEVIS’22 is composed of 106 tasks chronologically sorted and extracted from
+#Text=publications randomly sampled from online proceedings of major computer vision
+#Text=conferences over the past three decades.
+10-1	1029-1034	NEVIS	_	_	
+10-2	1034-1035	’	_	_	
+10-3	1035-1037	22	_	_	
+10-4	1038-1040	is	_	_	
+10-5	1041-1049	composed	_	_	
+10-6	1050-1052	of	_	_	
+10-7	1053-1056	106	_	_	
+10-8	1057-1062	tasks	_	_	
+10-9	1063-1078	chronologically	_	_	
+10-10	1079-1085	sorted	_	_	
+10-11	1086-1089	and	_	_	
+10-12	1090-1099	extracted	_	_	
+10-13	1100-1104	from	_	_	
+10-14	1105-1117	publications	_	_	
+10-15	1118-1126	randomly	_	_	
+10-16	1127-1134	sampled	_	_	
+10-17	1135-1139	from	_	_	
+10-18	1140-1146	online	_	_	
+10-19	1147-1158	proceedings	_	_	
+10-20	1159-1161	of	_	_	
+10-21	1162-1167	major	_	_	
+10-22	1168-1176	computer	_	_	
+10-23	1177-1183	vision	_	_	
+10-24	1184-1195	conferences	_	_	
+10-25	1196-1200	over	_	_	
+10-26	1201-1204	the	_	_	
+10-27	1205-1209	past	_	_	
+10-28	1210-1215	three	_	_	
+10-29	1216-1223	decades	_	_	
+10-30	1223-1224	.	_	_	
+
+#Text=Each task is a supervised
+#Text=classification task, which is the most well understood setting in machine
+#Text=learning.
+11-1	1225-1229	Each	_	_	
+11-2	1230-1234	task	_	_	
+11-3	1235-1237	is	_	_	
+11-4	1238-1239	a	_	_	
+11-5	1240-1250	supervised	_	_	
+11-6	1251-1265	classification	_	_	
+11-7	1266-1270	task	_	_	
+11-8	1270-1271	,	_	_	
+11-9	1272-1277	which	_	_	
+11-10	1278-1280	is	_	_	
+11-11	1281-1284	the	_	_	
+11-12	1285-1289	most	_	_	
+11-13	1290-1294	well	_	_	
+11-14	1295-1305	understood	_	_	
+11-15	1306-1313	setting	_	_	
+11-16	1314-1316	in	_	_	
+11-17	1317-1324	machine	_	_	
+11-18	1325-1333	learning	_	_	
+11-19	1333-1334	.	_	_	
+
+#Text=The challenge is how to automatically transfer knowledge across
+#Text=related tasks in order to achieve a higher performance or be more efficient on
+#Text=the next task.
+12-1	1335-1338	The	_	_	
+12-2	1339-1348	challenge	_	_	
+12-3	1349-1351	is	_	_	
+12-4	1352-1355	how	_	_	
+12-5	1356-1358	to	_	_	
+12-6	1359-1372	automatically	_	_	
+12-7	1373-1381	transfer	_	_	
+12-8	1382-1391	knowledge	_	_	
+12-9	1392-1398	across	_	_	
+12-10	1399-1406	related	_	_	
+12-11	1407-1412	tasks	_	_	
+12-12	1413-1415	in	_	_	
+12-13	1416-1421	order	_	_	
+12-14	1422-1424	to	_	_	
+12-15	1425-1432	achieve	_	_	
+12-16	1433-1434	a	_	_	
+12-17	1435-1441	higher	_	_	
+12-18	1442-1453	performance	_	_	
+12-19	1454-1456	or	_	_	
+12-20	1457-1459	be	_	_	
+12-21	1460-1464	more	_	_	
+12-22	1465-1474	efficient	_	_	
+12-23	1475-1477	on	_	_	
+12-24	1478-1481	the	_	_	
+12-25	1482-1486	next	_	_	
+12-26	1487-1491	task	_	_	
+12-27	1491-1492	.	_	_	
+
+#Text=By construction, NEVIS’22 is reproducible, diverse and at a scale sufficiently
+#Text=large to test state of the art learning algorithms.
+13-1	1494-1496	By	_	_	
+13-2	1497-1509	construction	_	_	
+13-3	1509-1510	,	_	_	
+13-4	1511-1516	NEVIS	_	_	
+13-5	1516-1517	’	_	_	
+13-6	1517-1519	22	_	_	
+13-7	1520-1522	is	_	_	
+13-8	1523-1535	reproducible	_	_	
+13-9	1535-1536	,	_	_	
+13-10	1537-1544	diverse	_	_	
+13-11	1545-1548	and	_	_	
+13-12	1549-1551	at	_	_	
+13-13	1552-1553	a	_	_	
+13-14	1554-1559	scale	_	_	
+13-15	1560-1572	sufficiently	_	_	
+13-16	1573-1578	large	_	_	
+13-17	1579-1581	to	_	_	
+13-18	1582-1586	test	_	_	
+13-19	1587-1592	state	_	_	
+13-20	1593-1595	of	_	_	
+13-21	1596-1599	the	_	_	
+13-22	1600-1603	art	_	_	
+13-23	1604-1612	learning	_	_	
+13-24	1613-1623	algorithms	_	_	
+13-25	1623-1624	.	_	_	
+
+#Text=The task selection process
+#Text=does not favor any particular approach, but merely tracks what the computer
+#Text=vision community has deemed interesting over time.
+14-1	1625-1628	The	_	_	
+14-2	1629-1633	task	_	_	
+14-3	1634-1643	selection	_	_	
+14-4	1644-1651	process	_	_	
+14-5	1652-1656	does	_	_	
+14-6	1657-1660	not	_	_	
+14-7	1661-1666	favor	_	_	
+14-8	1667-1670	any	_	_	
+14-9	1671-1681	particular	_	_	
+14-10	1682-1690	approach	_	_	
+14-11	1690-1691	,	_	_	
+14-12	1692-1695	but	_	_	
+14-13	1696-1702	merely	_	_	
+14-14	1703-1709	tracks	_	_	
+14-15	1710-1714	what	_	_	
+14-16	1715-1718	the	_	_	
+14-17	1719-1727	computer	_	_	
+14-18	1728-1734	vision	_	_	
+14-19	1735-1744	community	_	_	
+14-20	1745-1748	has	_	_	
+14-21	1749-1755	deemed	_	_	
+14-22	1756-1767	interesting	_	_	
+14-23	1768-1772	over	_	_	
+14-24	1773-1777	time	_	_	
+14-25	1777-1778	.	_	_	
+
+#Text=NEVIS’22 is not just about
+#Text=data, it is also about the methodology used to train and evaluate learners.
+15-1	1779-1784	NEVIS	_	_	
+15-2	1784-1785	’	_	_	
+15-3	1785-1787	22	_	_	
+15-4	1788-1790	is	_	_	
+15-5	1791-1794	not	_	_	
+15-6	1795-1799	just	_	_	
+15-7	1800-1805	about	_	_	
+15-8	1806-1810	data	_	_	
+15-9	1810-1811	,	_	_	
+15-10	1812-1814	it	_	_	
+15-11	1815-1817	is	_	_	
+15-12	1818-1822	also	_	_	
+15-13	1823-1828	about	_	_	
+15-14	1829-1832	the	_	_	
+15-15	1833-1844	methodology	_	_	
+15-16	1845-1849	used	_	_	
+15-17	1850-1852	to	_	_	
+15-18	1853-1858	train	_	_	
+15-19	1859-1862	and	_	_	
+15-20	1863-1871	evaluate	_	_	
+15-21	1872-1880	learners	_	_	
+15-22	1880-1881	.	_	_	
+
+#Text=We
+#Text=evaluate learners in terms of their ability to learn future tasks, as measured
+#Text=by their trade-off between error rate and compute measured in the number of
+#Text=floating-point operations.
+16-1	1882-1884	We	_	_	
+16-2	1885-1893	evaluate	_	_	
+16-3	1894-1902	learners	_	_	
+16-4	1903-1905	in	_	_	
+16-5	1906-1911	terms	_	_	
+16-6	1912-1914	of	_	_	
+16-7	1915-1920	their	_	_	
+16-8	1921-1928	ability	_	_	
+16-9	1929-1931	to	_	_	
+16-10	1932-1937	learn	_	_	
+16-11	1938-1944	future	_	_	
+16-12	1945-1950	tasks	_	_	
+16-13	1950-1951	,	_	_	
+16-14	1952-1954	as	_	_	
+16-15	1955-1963	measured	_	_	
+16-16	1964-1966	by	_	_	
+16-17	1967-1972	their	_	_	
+16-18	1973-1982	trade-off	_	_	
+16-19	1983-1990	between	_	_	
+16-20	1991-1996	error	_	_	
+16-21	1997-2001	rate	_	_	
+16-22	2002-2005	and	_	_	
+16-23	2006-2013	compute	_	_	
+16-24	2014-2022	measured	_	_	
+16-25	2023-2025	in	_	_	
+16-26	2026-2029	the	_	_	
+16-27	2030-2036	number	_	_	
+16-28	2037-2039	of	_	_	
+16-29	2040-2054	floating-point	_	_	
+16-30	2055-2065	operations	_	_	
+16-31	2065-2066	.	_	_	
+
+#Text=In NEVIS’22, achieving lower error rate is by itself
+#Text=not sufficient, if this comes at an unreasonable computational cost.
+17-1	2067-2069	In	_	_	
+17-2	2070-2075	NEVIS	_	_	
+17-3	2075-2076	’	_	_	
+17-4	2076-2078	22	_	_	
+17-5	2078-2079	,	_	_	
+17-6	2080-2089	achieving	_	_	
+17-7	2090-2095	lower	_	_	
+17-8	2096-2101	error	_	_	
+17-9	2102-2106	rate	_	_	
+17-10	2107-2109	is	_	_	
+17-11	2110-2112	by	_	_	
+17-12	2113-2119	itself	_	_	
+17-13	2120-2123	not	_	_	
+17-14	2124-2134	sufficient	_	_	
+17-15	2134-2135	,	_	_	
+17-16	2136-2138	if	_	_	
+17-17	2139-2143	this	_	_	
+17-18	2144-2149	comes	_	_	
+17-19	2150-2152	at	_	_	
+17-20	2153-2155	an	_	_	
+17-21	2156-2168	unreasonable	_	_	
+17-22	2169-2182	computational	_	_	
+17-23	2183-2187	cost	_	_	
+17-24	2187-2188	.	_	_	
+
+#Text=Instead, we
+#Text=incentivise both accurate and efficient models.
+18-1	2189-2196	Instead	_	_	
+18-2	2196-2197	,	_	_	
+18-3	2198-2200	we	_	_	
+18-4	2201-2212	incentivise	_	_	
+18-5	2213-2217	both	_	_	
+18-6	2218-2226	accurate	_	_	
+18-7	2227-2230	and	_	_	
+18-8	2231-2240	efficient	_	_	
+18-9	2241-2247	models	_	_	
+18-10	2247-2248	.	_	_	
+
+#Text=You can read more about NEVIS'22 in our [paper] and our [blog post].
+#Text=
+#Text=## 0.
+19-1	2250-2253	You	_	_	
+19-2	2254-2257	can	_	_	
+19-3	2258-2262	read	_	_	
+19-4	2263-2267	more	_	_	
+19-5	2268-2273	about	_	_	
+19-6	2274-2279	NEVIS	_	_	
+19-7	2279-2280	'	_	_	
+19-8	2280-2282	22	_	_	
+19-9	2283-2285	in	_	_	
+19-10	2286-2289	our	_	_	
+19-11	2290-2291	[	_	_	
+19-12	2291-2296	paper	_	_	
+19-13	2296-2297	]	_	_	
+19-14	2298-2301	and	_	_	
+19-15	2302-2305	our	_	_	
+19-16	2306-2307	[	_	_	
+19-17	2307-2311	blog	_	_	
+19-18	2312-2316	post	_	_	
+19-19	2316-2317	]	_	_	
+19-20	2317-2318	.	_	_	
+19-21	2320-2321	#	_	_	
+19-22	2321-2322	#	_	_	
+19-23	2323-2324	0	_	_	
+19-24	2324-2325	.	_	_	
+
+#Text=Dependencies
+#Text=
+#Text=Please follow these steps and read in details section 1. and 2. before launching
+#Text=anything
+20-1	2326-2338	Dependencies	_	_	
+20-2	2340-2346	Please	_	_	
+20-3	2347-2353	follow	_	_	
+20-4	2354-2359	these	_	_	
+20-5	2360-2365	steps	_	_	
+20-6	2366-2369	and	_	_	
+20-7	2370-2374	read	_	_	
+20-8	2375-2377	in	_	_	
+20-9	2378-2385	details	_	_	
+20-10	2386-2393	section	_	_	
+20-11	2394-2395	1	_	_	
+20-12	2395-2396	.	_	_	
+20-13	2397-2400	and	_	_	
+20-14	2401-2402	2	_	_	
+20-15	2402-2403	.	_	_	
+20-16	2404-2410	before	_	_	
+20-17	2411-2420	launching	_	_	
+20-18	2421-2429	anything	_	_	
+
+#Text=.
+21-1	2429-2430	.	_	_	
+
+#Text=-   Our datasets use the Tensorflow(-datasets) API.
+22-1	2432-2433	-	_	_	
+22-2	2436-2439	Our	_	_	
+22-3	2440-2448	datasets	_	_	
+22-4	2449-2452	use	_	_	
+22-5	2453-2456	the	_	_	
+22-6	2457-2467	Tensorflow	*	SOFTWARE	
+22-7	2467-2468	(	_	_	
+22-8	2468-2469	-	_	_	
+22-9	2469-2477	datasets	_	_	
+22-10	2477-2478	)	_	_	
+22-11	2479-2482	API	_	_	
+22-12	2482-2483	.	_	_	
+
+#Text=Our JAX learners use
+#Text=    TensorFlow and JAX, and our PyTorch Learners use PyTorch.
+23-1	2484-2487	Our	_	_	
+23-2	2488-2491	JAX	*	SOFTWARE	
+23-3	2492-2500	learners	_	_	
+23-4	2501-2504	use	_	_	
+23-5	2509-2519	TensorFlow	*	SOFTWARE	
+23-6	2520-2523	and	_	_	
+23-7	2524-2527	JAX	*	SOFTWARE	
+23-8	2527-2528	,	_	_	
+23-9	2529-2532	and	_	_	
+23-10	2533-2536	our	_	_	
+23-11	2537-2544	PyTorch	*	SOFTWARE	
+23-12	2545-2553	Learners	_	_	
+23-13	2554-2557	use	_	_	
+23-14	2558-2565	PyTorch	*	SOFTWARE	
+23-15	2565-2566	.	_	_	
+
+#Text=Each (datasets,
+#Text=    jax learners, and pytorch learners) have their own `requirements.txt` that
+#Text=    you are welcome to install with `pip` and a Python version above 3.8
+24-1	2567-2571	Each	_	_	
+24-2	2572-2573	(	_	_	
+24-3	2573-2581	datasets	_	_	
+24-4	2581-2582	,	_	_	
+24-5	2587-2590	jax	*	SOFTWARE	
+24-6	2591-2599	learners	_	_	
+24-7	2599-2600	,	_	_	
+24-8	2601-2604	and	_	_	
+24-9	2605-2612	pytorch	*	SOFTWARE	
+24-10	2613-2621	learners	_	_	
+24-11	2621-2622	)	_	_	
+24-12	2623-2627	have	_	_	
+24-13	2628-2633	their	_	_	
+24-14	2634-2637	own	_	_	
+24-15	2638-2639	`	_	_	
+24-16	2639-2655	requirements.txt	_	_	
+24-17	2655-2656	`	_	_	
+24-18	2657-2661	that	_	_	
+24-19	2666-2669	you	_	_	
+24-20	2670-2673	are	_	_	
+24-21	2674-2681	welcome	_	_	
+24-22	2682-2684	to	_	_	
+24-23	2685-2692	install	_	_	
+24-24	2693-2697	with	_	_	
+24-25	2698-2699	`	_	_	
+24-26	2699-2702	pip	*	SOFTWARE	
+24-27	2702-2703	`	_	_	
+24-28	2704-2707	and	_	_	
+24-29	2708-2709	a	_	_	
+24-30	2710-2716	Python	*	PROGLANG	
+24-31	2717-2724	version	_	_	
+24-32	2725-2730	above	_	_	
+24-33	2731-2734	3.8	_	_	
+
+#Text=.
+25-1	2734-2735	.	_	_	
+
+#Text=-   It is also possible to run the code directly using the provided Dockerfiles.
+26-1	2737-2738	-	_	_	
+26-2	2741-2743	It	_	_	
+26-3	2744-2746	is	_	_	
+26-4	2747-2751	also	_	_	
+26-5	2752-2760	possible	_	_	
+26-6	2761-2763	to	_	_	
+26-7	2764-2767	run	_	_	
+26-8	2768-2771	the	_	_	
+26-9	2772-2776	code	_	_	
+26-10	2777-2785	directly	_	_	
+26-11	2786-2791	using	_	_	
+26-12	2792-2795	the	_	_	
+26-13	2796-2804	provided	_	_	
+26-14	2805-2816	Dockerfiles	_	_	
+26-15	2816-2817	.	_	_	
+
+#Text=see [here](https://docs.docker.com/get-docker/) for installing Docker
+27-1	2822-2825	see	_	_	
+27-2	2826-2827	[	_	_	
+27-3	2827-2831	here	_	_	
+27-4	2831-2832	]	_	_	
+27-5	2832-2833	(	_	_	
+27-6	2833-2838	https	_	_	
+27-7	2838-2839	:	_	_	
+27-8	2839-2840	/	_	_	
+27-9	2840-2841	/	_	_	
+27-10	2841-2856	docs.docker.com	_	_	
+27-10.1	2846-2852	docker	*	SOFTWARE	
+27-11	2856-2857	/	_	_	
+27-12	2857-2867	get-docker	_	_	
+27-13	2867-2868	/	_	_	
+27-14	2868-2869	)	_	_	
+27-15	2870-2873	for	_	_	
+27-16	2874-2884	installing	_	_	
+27-17	2885-2891	Docker	*	SOFTWARE	
+
+#Text=.
+28-1	2891-2892	.	_	_	
+
+#Text=-   Some datasets are downloaded from Kaggle.
+29-1	2894-2895	-	_	_	
+29-2	2898-2902	Some	_	_	
+29-3	2903-2911	datasets	_	_	
+29-4	2912-2915	are	_	_	
+29-5	2916-2926	downloaded	_	_	
+29-6	2927-2931	from	_	_	
+29-7	2932-2938	Kaggle	*	SOFTWARE	
+29-8	2938-2939	.	_	_	
+
+#Text=See the
+#Text=    [Kaggle website](https://www.kaggle.com/docs/api) for configuring your
+#Text=    credentials, and place them in the folder ~/.kaggle.
+#Text=
+#Text=## 1.
+30-1	2940-2943	See	_	_	
+30-2	2944-2947	the	_	_	
+30-3	2952-2953	[	_	_	
+30-4	2953-2959	Kaggle	_	_	
+30-5	2960-2967	website	_	_	
+30-6	2967-2968	]	_	_	
+30-7	2968-2969	(	_	_	
+30-8	2969-2974	https	_	_	
+30-9	2974-2975	:	_	_	
+30-10	2975-2976	/	_	_	
+30-11	2976-2977	/	_	_	
+30-12	2977-2991	www.kaggle.com	_	_	
+30-13	2991-2992	/	_	_	
+30-14	2992-2996	docs	_	_	
+30-15	2996-2997	/	_	_	
+30-16	2997-3000	api	_	_	
+30-17	3000-3001	)	_	_	
+30-18	3002-3005	for	_	_	
+30-19	3006-3017	configuring	_	_	
+30-20	3018-3022	your	_	_	
+30-21	3027-3038	credentials	_	_	
+30-22	3038-3039	,	_	_	
+30-23	3040-3043	and	_	_	
+30-24	3044-3049	place	_	_	
+30-25	3050-3054	them	_	_	
+30-26	3055-3057	in	_	_	
+30-27	3058-3061	the	_	_	
+30-28	3062-3068	folder	_	_	
+30-29	3069-3070	~	_	_	
+30-30	3070-3071	/	_	_	
+30-31	3071-3072	.	_	_	
+30-32	3072-3078	kaggle	_	_	
+30-33	3078-3079	.	_	_	
+30-34	3081-3082	#	_	_	
+30-35	3082-3083	#	_	_	
+30-36	3084-3085	1	_	_	
+30-37	3085-3086	.	_	_	
+
+#Text=Replicating the NEVIS'22 stream
+#Text=
+#Text=In NEVIS'22, we train and evaluate on *streams*.
+31-1	3087-3098	Replicating	_	_	
+31-2	3099-3102	the	_	_	
+31-3	3103-3108	NEVIS	_	_	
+31-4	3108-3109	'	_	_	
+31-5	3109-3111	22	_	_	
+31-6	3112-3118	stream	_	_	
+31-7	3120-3122	In	_	_	
+31-8	3123-3128	NEVIS	_	_	
+31-9	3128-3129	'	_	_	
+31-10	3129-3131	22	_	_	
+31-11	3131-3132	,	_	_	
+31-12	3133-3135	we	_	_	
+31-13	3136-3141	train	_	_	
+31-14	3142-3145	and	_	_	
+31-15	3146-3154	evaluate	_	_	
+31-16	3155-3157	on	_	_	
+31-17	3158-3159	*	_	_	
+31-18	3159-3166	streams	_	_	
+31-19	3166-3167	*	_	_	
+31-20	3167-3168	.	_	_	
+
+#Text=Each stream is a sequence of
+#Text=datasets.
+32-1	3169-3173	Each	_	_	
+32-2	3174-3180	stream	_	_	
+32-3	3181-3183	is	_	_	
+32-4	3184-3185	a	_	_	
+32-5	3186-3194	sequence	_	_	
+32-6	3195-3197	of	_	_	
+32-7	3198-3206	datasets	_	_	
+32-8	3206-3207	.	_	_	
+
+#Text=Some streams have a large number of datasets, up to 106, allowing us
+#Text=to evaluate Large-Scale Continual Learning.
+33-1	3208-3212	Some	_	_	
+33-2	3213-3220	streams	_	_	
+33-3	3221-3225	have	_	_	
+33-4	3226-3227	a	_	_	
+33-5	3228-3233	large	_	_	
+33-6	3234-3240	number	_	_	
+33-7	3241-3243	of	_	_	
+33-8	3244-3252	datasets	_	_	
+33-9	3252-3253	,	_	_	
+33-10	3254-3256	up	_	_	
+33-11	3257-3259	to	_	_	
+33-12	3260-3263	106	_	_	
+33-13	3263-3264	,	_	_	
+33-14	3265-3273	allowing	_	_	
+33-15	3274-3276	us	_	_	
+33-16	3277-3279	to	_	_	
+33-17	3280-3288	evaluate	_	_	
+33-18	3289-3300	Large-Scale	_	_	
+33-19	3301-3310	Continual	_	_	
+33-20	3311-3319	Learning	_	_	
+33-21	3319-3320	.	_	_	
+
+#Text=There are three different sources for datasets in NEVIS'22:
+#Text=
+#Text=1.
+34-1	3322-3327	There	_	_	
+34-2	3328-3331	are	_	_	
+34-3	3332-3337	three	_	_	
+34-4	3338-3347	different	_	_	
+34-5	3348-3355	sources	_	_	
+34-6	3356-3359	for	_	_	
+34-7	3360-3368	datasets	_	_	
+34-8	3369-3371	in	_	_	
+34-9	3372-3377	NEVIS	_	_	
+34-10	3377-3378	'	_	_	
+34-11	3378-3380	22	_	_	
+34-12	3380-3381	:	_	_	
+34-13	3383-3384	1	_	_	
+34-14	3384-3385	.	_	_	
+
+#Text=**Datasets on Tensorflow-Datasets (TFDS)**: they will be downloaded
+#Text=    automatically when needed
+#Text=
+#Text=2.
+35-1	3387-3388	*	_	_	
+35-2	3388-3389	*	_	_	
+35-3	3389-3397	Datasets	_	_	
+35-4	3398-3400	on	_	_	
+35-5	3401-3420	Tensorflow-Datasets	_	_	
+35-6	3421-3422	(	_	_	
+35-7	3422-3426	TFDS	_	_	
+35-8	3426-3427	)	_	_	
+35-9	3427-3428	*	_	_	
+35-10	3428-3429	*	_	_	
+35-11	3429-3430	:	_	_	
+35-12	3431-3435	they	_	_	
+35-13	3436-3440	will	_	_	
+35-14	3441-3443	be	_	_	
+35-15	3444-3454	downloaded	_	_	
+35-16	3459-3472	automatically	_	_	
+35-17	3473-3477	when	_	_	
+35-18	3478-3484	needed	_	_	
+35-19	3486-3487	2	_	_	
+35-20	3487-3488	.	_	_	
+
+#Text=**Custom dataset downloaders**: you need the `.
+36-1	3490-3491	*	_	_	
+36-2	3491-3492	*	_	_	
+36-3	3492-3498	Custom	_	_	
+36-4	3499-3506	dataset	_	_	
+36-5	3507-3518	downloaders	_	_	
+36-6	3518-3519	*	_	_	
+36-7	3519-3520	*	_	_	
+36-8	3520-3521	:	_	_	
+36-9	3522-3525	you	_	_	
+36-10	3526-3530	need	_	_	
+36-11	3531-3534	the	_	_	
+36-12	3535-3536	`	_	_	
+36-13	3536-3537	.	_	_	
+
+#Text=/build_dataset.sh` script
+#Text=
+#Text=3.
+37-1	3537-3538	/	_	_	
+37-2	3538-3554	build_dataset.sh	_	_	
+37-3	3554-3555	`	_	_	
+37-4	3556-3562	script	_	_	
+37-5	3564-3565	3	_	_	
+37-6	3565-3566	.	_	_	
+
+#Text=**Manual dataset download**: you need to download data yourself
+#Text=
+#Text=Note that we do not host or distribute these datasets, instead we provide URLS
+#Text=to their original source to help you download them at your own risk.
+38-1	3568-3569	*	_	_	
+38-2	3569-3570	*	_	_	
+38-3	3570-3576	Manual	_	_	
+38-4	3577-3584	dataset	_	_	
+38-5	3585-3593	download	_	_	
+38-6	3593-3594	*	_	_	
+38-7	3594-3595	*	_	_	
+38-8	3595-3596	:	_	_	
+38-9	3597-3600	you	_	_	
+38-10	3601-3605	need	_	_	
+38-11	3606-3608	to	_	_	
+38-12	3609-3617	download	_	_	
+38-13	3618-3622	data	_	_	
+38-14	3623-3631	yourself	_	_	
+38-15	3633-3637	Note	_	_	
+38-16	3638-3642	that	_	_	
+38-17	3643-3645	we	_	_	
+38-18	3646-3648	do	_	_	
+38-19	3649-3652	not	_	_	
+38-20	3653-3657	host	_	_	
+38-21	3658-3660	or	_	_	
+38-22	3661-3671	distribute	_	_	
+38-23	3672-3677	these	_	_	
+38-24	3678-3686	datasets	_	_	
+38-25	3686-3687	,	_	_	
+38-26	3688-3695	instead	_	_	
+38-27	3696-3698	we	_	_	
+38-28	3699-3706	provide	_	_	
+38-29	3707-3711	URLS	_	_	
+38-30	3712-3714	to	_	_	
+38-31	3715-3720	their	_	_	
+38-32	3721-3729	original	_	_	
+38-33	3730-3736	source	_	_	
+38-34	3737-3739	to	_	_	
+38-35	3740-3744	help	_	_	
+38-36	3745-3748	you	_	_	
+38-37	3749-3757	download	_	_	
+38-38	3758-3762	them	_	_	
+38-39	3763-3765	at	_	_	
+38-40	3766-3770	your	_	_	
+38-41	3771-3774	own	_	_	
+38-42	3775-3779	risk	_	_	
+38-43	3779-3780	.	_	_	
+
+#Text=We do not
+#Text=vouch for their quality or fairness, or claim that you have license to use the
+#Text=dataset.
+39-1	3781-3783	We	_	_	
+39-2	3784-3786	do	_	_	
+39-3	3787-3790	not	_	_	
+39-4	3791-3796	vouch	_	_	
+39-5	3797-3800	for	_	_	
+39-6	3801-3806	their	_	_	
+39-7	3807-3814	quality	_	_	
+39-8	3815-3817	or	_	_	
+39-9	3818-3826	fairness	_	_	
+39-10	3826-3827	,	_	_	
+39-11	3828-3830	or	_	_	
+39-12	3831-3836	claim	_	_	
+39-13	3837-3841	that	_	_	
+39-14	3842-3845	you	_	_	
+39-15	3846-3850	have	_	_	
+39-16	3851-3858	license	_	_	
+39-17	3859-3861	to	_	_	
+39-18	3862-3865	use	_	_	
+39-19	3866-3869	the	_	_	
+39-20	3870-3877	dataset	_	_	
+39-21	3877-3878	.	_	_	
+
+#Text=It is your responsibility to determine whether you have permission to
+#Text=use the dataset under the dataset's license.
+40-1	3879-3881	It	_	_	
+40-2	3882-3884	is	_	_	
+40-3	3885-3889	your	_	_	
+40-4	3890-3904	responsibility	_	_	
+40-5	3905-3907	to	_	_	
+40-6	3908-3917	determine	_	_	
+40-7	3918-3925	whether	_	_	
+40-8	3926-3929	you	_	_	
+40-9	3930-3934	have	_	_	
+40-10	3935-3945	permission	_	_	
+40-11	3946-3948	to	_	_	
+40-12	3949-3952	use	_	_	
+40-13	3953-3956	the	_	_	
+40-14	3957-3964	dataset	_	_	
+40-15	3965-3970	under	_	_	
+40-16	3971-3974	the	_	_	
+40-17	3975-3984	dataset's	_	_	
+40-18	3985-3992	license	_	_	
+40-19	3992-3993	.	_	_	
+
+#Text=If you're a dataset owner and wish
+#Text=to update any part of it (description, citation, etc.), or do not want your
+#Text=dataset URL to be included in this library, please get in touch through a GitHub
+#Text=issue.
+41-1	3994-3996	If	_	_	
+41-2	3997-4003	you're	_	_	
+41-3	4004-4005	a	_	_	
+41-4	4006-4013	dataset	_	_	
+41-5	4014-4019	owner	_	_	
+41-6	4020-4023	and	_	_	
+41-7	4024-4028	wish	_	_	
+41-8	4029-4031	to	_	_	
+41-9	4032-4038	update	_	_	
+41-10	4039-4042	any	_	_	
+41-11	4043-4047	part	_	_	
+41-12	4048-4050	of	_	_	
+41-13	4051-4053	it	_	_	
+41-14	4054-4055	(	_	_	
+41-15	4055-4066	description	_	_	
+41-16	4066-4067	,	_	_	
+41-17	4068-4076	citation	_	_	
+41-18	4076-4077	,	_	_	
+41-19	4078-4081	etc	_	_	
+41-20	4081-4082	.	_	_	
+41-21	4082-4083	)	_	_	
+41-22	4083-4084	,	_	_	
+41-23	4085-4087	or	_	_	
+41-24	4088-4090	do	_	_	
+41-25	4091-4094	not	_	_	
+41-26	4095-4099	want	_	_	
+41-27	4100-4104	your	_	_	
+41-28	4105-4112	dataset	_	_	
+41-29	4113-4116	URL	_	_	
+41-30	4117-4119	to	_	_	
+41-31	4120-4122	be	_	_	
+41-32	4123-4131	included	_	_	
+41-33	4132-4134	in	_	_	
+41-34	4135-4139	this	_	_	
+41-35	4140-4147	library	_	_	
+41-36	4147-4148	,	_	_	
+41-37	4149-4155	please	_	_	
+41-38	4156-4159	get	_	_	
+41-39	4160-4162	in	_	_	
+41-40	4163-4168	touch	_	_	
+41-41	4169-4176	through	_	_	
+41-42	4177-4178	a	_	_	
+41-43	4179-4185	GitHub	*	SOFTWARE	
+41-44	4186-4191	issue	_	_	
+41-45	4191-4192	.	_	_	
+
+#Text=Thanks for your contribution to the ML community!
+42-1	4193-4199	Thanks	_	_	
+42-2	4200-4203	for	_	_	
+42-3	4204-4208	your	_	_	
+42-4	4209-4221	contribution	_	_	
+42-5	4222-4224	to	_	_	
+42-6	4225-4228	the	_	_	
+42-7	4229-4231	ML	_	_	
+42-8	4232-4241	community	_	_	
+42-9	4241-4242	!	_	_	
+
+#Text=We do our best to keep datasets URLs up-to-date.
+43-1	4244-4246	We	_	_	
+43-2	4247-4249	do	_	_	
+43-3	4250-4253	our	_	_	
+43-4	4254-4258	best	_	_	
+43-5	4259-4261	to	_	_	
+43-6	4262-4266	keep	_	_	
+43-7	4267-4275	datasets	_	_	
+43-8	4276-4280	URLs	_	_	
+43-9	4281-4291	up-to-date	_	_	
+43-10	4291-4292	.	_	_	
+
+#Text=If a dataset doesn't download,
+#Text=please contact the dataset owners and open an issue to let us know.
+44-1	4293-4295	If	_	_	
+44-2	4296-4297	a	_	_	
+44-3	4298-4305	dataset	_	_	
+44-4	4306-4313	doesn't	_	_	
+44-5	4314-4322	download	_	_	
+44-6	4322-4323	,	_	_	
+44-7	4324-4330	please	_	_	
+44-8	4331-4338	contact	_	_	
+44-9	4339-4342	the	_	_	
+44-10	4343-4350	dataset	_	_	
+44-11	4351-4357	owners	_	_	
+44-12	4358-4361	and	_	_	
+44-13	4362-4366	open	_	_	
+44-14	4367-4369	an	_	_	
+44-15	4370-4375	issue	_	_	
+44-16	4376-4378	to	_	_	
+44-17	4379-4382	let	_	_	
+44-18	4383-4385	us	_	_	
+44-19	4386-4390	know	_	_	
+44-20	4390-4391	.	_	_	
+
+#Text=If a dataset
+#Text=doesn't get fixed by the owners, we will remove it from our benchmark.
+#Text=
+#Text=### 1.1.
+45-1	4392-4394	If	_	_	
+45-2	4395-4396	a	_	_	
+45-3	4397-4404	dataset	_	_	
+45-4	4405-4412	doesn't	_	_	
+45-5	4413-4416	get	_	_	
+45-6	4417-4422	fixed	_	_	
+45-7	4423-4425	by	_	_	
+45-8	4426-4429	the	_	_	
+45-9	4430-4436	owners	_	_	
+45-10	4436-4437	,	_	_	
+45-11	4438-4440	we	_	_	
+45-12	4441-4445	will	_	_	
+45-13	4446-4452	remove	_	_	
+45-14	4453-4455	it	_	_	
+45-15	4456-4460	from	_	_	
+45-16	4461-4464	our	_	_	
+45-17	4465-4474	benchmark	_	_	
+45-18	4474-4475	.	_	_	
+45-19	4477-4478	#	_	_	
+45-20	4478-4479	#	_	_	
+45-21	4479-4480	#	_	_	
+45-22	4481-4484	1.1	_	_	
+45-23	4484-4485	.	_	_	
+
+#Text=TFDS Datasets
+#Text=
+#Text=Different streams are available, each is made of a sequence of datasets.
+46-1	4486-4490	TFDS	_	_	
+46-2	4491-4499	Datasets	_	_	
+46-3	4501-4510	Different	_	_	
+46-4	4511-4518	streams	_	_	
+46-5	4519-4522	are	_	_	
+46-6	4523-4532	available	_	_	
+46-7	4532-4533	,	_	_	
+46-8	4534-4538	each	_	_	
+46-9	4539-4541	is	_	_	
+46-10	4542-4546	made	_	_	
+46-11	4547-4549	of	_	_	
+46-12	4550-4551	a	_	_	
+46-13	4552-4560	sequence	_	_	
+46-14	4561-4563	of	_	_	
+46-15	4564-4572	datasets	_	_	
+46-16	4572-4573	.	_	_	
+
+#Text=When
+#Text=iterating the datasets of a stream, TFDS datasets are automatically downloaded
+#Text=on-the-fly if they don't exist.
+#Text=
+#Text=### 1.2.
+47-1	4574-4578	When	_	_	
+47-2	4579-4588	iterating	_	_	
+47-3	4589-4592	the	_	_	
+47-4	4593-4601	datasets	_	_	
+47-5	4602-4604	of	_	_	
+47-6	4605-4606	a	_	_	
+47-7	4607-4613	stream	_	_	
+47-8	4613-4614	,	_	_	
+47-9	4615-4619	TFDS	_	_	
+47-10	4620-4628	datasets	_	_	
+47-11	4629-4632	are	_	_	
+47-12	4633-4646	automatically	_	_	
+47-13	4647-4657	downloaded	_	_	
+47-14	4658-4668	on-the-fly	_	_	
+47-15	4669-4671	if	_	_	
+47-16	4672-4676	they	_	_	
+47-17	4677-4682	don't	_	_	
+47-18	4683-4688	exist	_	_	
+47-19	4688-4689	.	_	_	
+47-20	4691-4692	#	_	_	
+47-21	4692-4693	#	_	_	
+47-22	4693-4694	#	_	_	
+47-23	4695-4698	1.2	_	_	
+47-24	4698-4699	.	_	_	
+
+#Text=Custom Dataset Downloaders
+#Text=
+#Text=Many datasets implemented in Nevis can be automatically downloaded.
+48-1	4700-4706	Custom	_	_	
+48-2	4707-4714	Dataset	_	_	
+48-3	4715-4726	Downloaders	_	_	
+48-4	4728-4732	Many	_	_	
+48-5	4733-4741	datasets	_	_	
+48-6	4742-4753	implemented	_	_	
+48-7	4754-4756	in	_	_	
+48-8	4757-4762	Nevis	_	_	
+48-9	4763-4766	can	_	_	
+48-10	4767-4769	be	_	_	
+48-11	4770-4783	automatically	_	_	
+48-12	4784-4794	downloaded	_	_	
+48-13	4794-4795	.	_	_	
+
+#Text=This has to
+#Text=be done in advance of training with the script `.
+49-1	4796-4800	This	_	_	
+49-2	4801-4804	has	_	_	
+49-3	4805-4807	to	_	_	
+49-4	4808-4810	be	_	_	
+49-5	4811-4815	done	_	_	
+49-6	4816-4818	in	_	_	
+49-7	4819-4826	advance	_	_	
+49-8	4827-4829	of	_	_	
+49-9	4830-4838	training	_	_	
+49-10	4839-4843	with	_	_	
+49-11	4844-4847	the	_	_	
+49-12	4848-4854	script	_	_	
+49-13	4855-4856	`	_	_	
+49-14	4856-4857	.	_	_	
+
+#Text=/build_dataset.sh`:
+#Text=
+#Text=```bash
+#Text=$ .
+50-1	4857-4858	/	_	_	
+50-2	4858-4874	build_dataset.sh	_	_	
+50-3	4874-4875	`	_	_	
+50-4	4875-4876	:	_	_	
+50-5	4878-4879	`	_	_	
+50-6	4879-4880	`	_	_	
+50-7	4880-4881	`	_	_	
+50-8	4881-4885	bash	_	_	
+50-9	4886-4887	$	_	_	
+50-10	4888-4889	.	_	_	
+
+#Text=/build_dataset.sh -h
+#Text=Usage:
+#Text=        -d <DATASET_NAME> | Dataset name
+#Text=        -s <STREAM_NAME>  | Stream variant name (FULL|SHORT|TINY|DEBUG|...)
+51-1	4889-4890	/	_	_	
+51-2	4890-4906	build_dataset.sh	_	_	
+51-3	4907-4908	-	_	_	
+51-4	4908-4909	h	_	_	
+51-5	4910-4915	Usage	_	_	
+51-6	4915-4916	:	_	_	
+51-7	4925-4926	-	_	_	
+51-8	4926-4927	d	_	_	
+51-9	4928-4929	<	_	_	
+51-10	4929-4941	DATASET_NAME	_	_	
+51-11	4941-4942	>	_	_	
+51-12	4943-4944	|	_	_	
+51-13	4945-4952	Dataset	_	_	
+51-14	4953-4957	name	_	_	
+51-15	4966-4967	-	_	_	
+51-16	4967-4968	s	_	_	
+51-17	4969-4970	<	_	_	
+51-18	4970-4981	STREAM_NAME	_	_	
+51-19	4981-4982	>	_	_	
+51-20	4984-4985	|	_	_	
+51-21	4986-4992	Stream	_	_	
+51-22	4993-5000	variant	_	_	
+51-23	5001-5005	name	_	_	
+51-24	5006-5007	(	_	_	
+51-25	5007-5011	FULL	_	_	
+51-26	5011-5012	|	_	_	
+51-27	5012-5017	SHORT	_	_	
+51-28	5017-5018	|	_	_	
+51-29	5018-5022	TINY	_	_	
+51-30	5022-5023	|	_	_	
+51-31	5023-5028	DEBUG	_	_	
+51-32	5028-5029	|	_	_	
+51-33	5029-5030	.	_	_	
+51-34	5030-5031	.	_	_	
+51-35	5031-5032	.	_	_	
+51-36	5032-5033	)	_	_	
+
+#Text=-b                | Build docker before running
+#Text=        -e                | Develop mode where code is mounted
+#Text=        -h                | Help message
+#Text=```
+#Text=
+#Text=If running for the first time, pass the option `-b` alongside other commands to
+#Text=build the **docker** (`nevis-data`).
+52-1	5042-5043	-	_	_	
+52-2	5043-5044	b	_	_	
+52-3	5060-5061	|	_	_	
+52-4	5062-5067	Build	_	_	
+52-5	5068-5074	docker	*	SOFTWARE	
+52-6	5075-5081	before	_	_	
+52-7	5082-5089	running	_	_	
+52-8	5098-5099	-	_	_	
+52-9	5099-5100	e	_	_	
+52-10	5116-5117	|	_	_	
+52-11	5118-5125	Develop	_	_	
+52-12	5126-5130	mode	_	_	
+52-13	5131-5136	where	_	_	
+52-14	5137-5141	code	_	_	
+52-15	5142-5144	is	_	_	
+52-16	5145-5152	mounted	_	_	
+52-17	5161-5162	-	_	_	
+52-18	5162-5163	h	_	_	
+52-19	5179-5180	|	_	_	
+52-20	5181-5185	Help	_	_	
+52-21	5186-5193	message	_	_	
+52-22	5194-5195	`	_	_	
+52-23	5195-5196	`	_	_	
+52-24	5196-5197	`	_	_	
+52-25	5199-5201	If	_	_	
+52-26	5202-5209	running	_	_	
+52-27	5210-5213	for	_	_	
+52-28	5214-5217	the	_	_	
+52-29	5218-5223	first	_	_	
+52-30	5224-5228	time	_	_	
+52-31	5228-5229	,	_	_	
+52-32	5230-5234	pass	_	_	
+52-33	5235-5238	the	_	_	
+52-34	5239-5245	option	_	_	
+52-35	5246-5247	`	_	_	
+52-36	5247-5248	-	_	_	
+52-37	5248-5249	b	_	_	
+52-38	5249-5250	`	_	_	
+52-39	5251-5260	alongside	_	_	
+52-40	5261-5266	other	_	_	
+52-41	5267-5275	commands	_	_	
+52-42	5276-5278	to	_	_	
+52-43	5279-5284	build	_	_	
+52-44	5285-5288	the	_	_	
+52-45	5289-5290	*	_	_	
+52-46	5290-5291	*	_	_	
+52-47	5291-5297	docker	*	SOFTWARE	
+52-48	5297-5298	*	_	_	
+52-49	5298-5299	*	_	_	
+52-50	5300-5301	(	_	_	
+52-51	5301-5302	`	_	_	
+52-52	5302-5312	nevis-data	_	_	
+52-53	5312-5313	`	_	_	
+52-54	5313-5314	)	_	_	
+52-55	5314-5315	.	_	_	
+
+#Text=The develop mode is useful if you need to
+#Text=change the codebase (e.g. for adding a new dataset) and need to debug quickly
+#Text=without having to re-building the docker everytime (you still need to build the
+#Text=docker in develop mode!
+53-1	5316-5319	The	_	_	
+53-2	5320-5327	develop	_	_	
+53-3	5328-5332	mode	_	_	
+53-4	5333-5335	is	_	_	
+53-5	5336-5342	useful	_	_	
+53-6	5343-5345	if	_	_	
+53-7	5346-5349	you	_	_	
+53-8	5350-5354	need	_	_	
+53-9	5355-5357	to	_	_	
+53-10	5358-5364	change	_	_	
+53-11	5365-5368	the	_	_	
+53-12	5369-5377	codebase	_	_	
+53-13	5378-5379	(	_	_	
+53-14	5379-5382	e.g	_	_	
+53-15	5382-5383	.	_	_	
+53-16	5384-5387	for	_	_	
+53-17	5388-5394	adding	_	_	
+53-18	5395-5396	a	_	_	
+53-19	5397-5400	new	_	_	
+53-20	5401-5408	dataset	_	_	
+53-21	5408-5409	)	_	_	
+53-22	5410-5413	and	_	_	
+53-23	5414-5418	need	_	_	
+53-24	5419-5421	to	_	_	
+53-25	5422-5427	debug	_	_	
+53-26	5428-5435	quickly	_	_	
+53-27	5436-5443	without	_	_	
+53-28	5444-5450	having	_	_	
+53-29	5451-5453	to	_	_	
+53-30	5454-5465	re-building	_	_	
+53-31	5466-5469	the	_	_	
+53-32	5470-5476	docker	*	SOFTWARE	
+53-33	5477-5486	everytime	_	_	
+53-34	5487-5488	(	_	_	
+53-35	5488-5491	you	_	_	
+53-36	5492-5497	still	_	_	
+53-37	5498-5502	need	_	_	
+53-38	5503-5505	to	_	_	
+53-39	5506-5511	build	_	_	
+53-40	5512-5515	the	_	_	
+53-41	5516-5522	docker	_	_	
+53-42	5523-5525	in	_	_	
+53-43	5526-5533	develop	_	_	
+53-44	5534-5538	mode	_	_	
+53-45	5538-5539	!	_	_	
+
+#Text=`-b -e`).
+54-1	5540-5541	`	_	_	
+54-2	5541-5542	-	_	_	
+54-3	5542-5543	b	_	_	
+54-4	5544-5545	-	_	_	
+54-5	5545-5546	e	_	_	
+54-6	5546-5547	`	_	_	
+54-7	5547-5548	)	_	_	
+54-8	5548-5549	.	_	_	
+
+#Text=See in `dm_nevis/streams/nevis_stream.py` the enum `NEVISStreamVariant` for the
+#Text=full list of downloadable streams.
+55-1	5551-5554	See	_	_	
+55-2	5555-5557	in	_	_	
+55-3	5558-5559	`	_	_	
+55-4	5559-5567	dm_nevis	_	_	
+55-5	5567-5568	/	_	_	
+55-6	5568-5575	streams	_	_	
+55-7	5575-5576	/	_	_	
+55-8	5576-5591	nevis_stream.py	_	_	
+55-9	5591-5592	`	_	_	
+55-10	5593-5596	the	_	_	
+55-11	5597-5601	enum	_	_	
+55-12	5602-5603	`	_	_	
+55-13	5603-5621	NEVISStreamVariant	_	_	
+55-14	5621-5622	`	_	_	
+55-15	5623-5626	for	_	_	
+55-16	5627-5630	the	_	_	
+55-17	5631-5635	full	_	_	
+55-18	5636-5640	list	_	_	
+55-19	5641-5643	of	_	_	
+55-20	5644-5656	downloadable	_	_	
+55-21	5657-5664	streams	_	_	
+55-22	5664-5665	.	_	_	
+
+#Text=Some datasets are downloaded from Kaggle.
+56-1	5667-5671	Some	_	_	
+56-2	5672-5680	datasets	_	_	
+56-3	5681-5684	are	_	_	
+56-4	5685-5695	downloaded	_	_	
+56-5	5696-5700	from	_	_	
+56-6	5701-5707	Kaggle	*	SOFTWARE	
+56-7	5707-5708	.	_	_	
+
+#Text=See on the
+#Text=[Kaggle website](https://www.kaggle.com/docs/api) how to configure your
+#Text=credentials and place them in the folder `~/.kaggle`.
+#Text=
+#Text=### 1.3.
+57-1	5709-5712	See	_	_	
+57-2	5713-5715	on	_	_	
+57-3	5716-5719	the	_	_	
+57-4	5720-5721	[	_	_	
+57-5	5721-5727	Kaggle	*	SOFTWARE	
+57-6	5728-5735	website	_	_	
+57-7	5735-5736	]	_	_	
+57-8	5736-5737	(	_	_	
+57-9	5737-5742	https	_	_	
+57-10	5742-5743	:	_	_	
+57-11	5743-5744	/	_	_	
+57-12	5744-5745	/	_	_	
+57-13	5745-5759	www.kaggle.com	_	_	
+57-13.1	5749-5755	kaggle	*	SOFTWARE	
+57-14	5759-5760	/	_	_	
+57-15	5760-5764	docs	_	_	
+57-16	5764-5765	/	_	_	
+57-17	5765-5768	api	_	_	
+57-18	5768-5769	)	_	_	
+57-19	5770-5773	how	_	_	
+57-20	5774-5776	to	_	_	
+57-21	5777-5786	configure	_	_	
+57-22	5787-5791	your	_	_	
+57-23	5792-5803	credentials	_	_	
+57-24	5804-5807	and	_	_	
+57-25	5808-5813	place	_	_	
+57-26	5814-5818	them	_	_	
+57-27	5819-5821	in	_	_	
+57-28	5822-5825	the	_	_	
+57-29	5826-5832	folder	_	_	
+57-30	5833-5834	`	_	_	
+57-31	5834-5835	~	_	_	
+57-32	5835-5836	/	_	_	
+57-33	5836-5837	.	_	_	
+57-34	5837-5843	kaggle	*	SOFTWARE	
+57-35	5843-5844	`	_	_	
+57-36	5844-5845	.	_	_	
+57-37	5847-5848	#	_	_	
+57-38	5848-5849	#	_	_	
+57-39	5849-5850	#	_	_	
+57-40	5851-5854	1.3	_	_	
+57-41	5854-5855	.	_	_	
+
+#Text=Manual Download
+#Text=
+#Text=ImageNet is a TFDS Dataset but it needs to be downloaded manually.
+58-1	5856-5862	Manual	_	_	
+58-2	5863-5871	Download	_	_	
+58-3	5873-5881	ImageNet	*	DATASET	
+58-4	5882-5884	is	_	_	
+58-5	5885-5886	a	_	_	
+58-6	5887-5891	TFDS	_	_	
+58-7	5892-5899	Dataset	_	_	
+58-8	5900-5903	but	_	_	
+58-9	5904-5906	it	_	_	
+58-10	5907-5912	needs	_	_	
+58-11	5913-5915	to	_	_	
+58-12	5916-5918	be	_	_	
+58-13	5919-5929	downloaded	_	_	
+58-14	5930-5938	manually	_	_	
+58-15	5938-5939	.	_	_	
+
+#Text=Please check
+#Text=the [instructions](https://www.tensorflow.org/datasets/catalog/imagenet2012).
+59-1	5940-5946	Please	_	_	
+59-2	5947-5952	check	_	_	
+59-3	5953-5956	the	_	_	
+59-4	5957-5958	[	_	_	
+59-5	5958-5970	instructions	_	_	
+59-6	5970-5971	]	_	_	
+59-7	5971-5972	(	_	_	
+59-8	5972-5977	https	_	_	
+59-9	5977-5978	:	_	_	
+59-10	5978-5979	/	_	_	
+59-11	5979-5980	/	_	_	
+59-12	5980-5998	www.tensorflow.org	_	_	
+59-12.1	5984-5994	tensorflow	*	SOFTWARE	
+59-13	5998-5999	/	_	_	
+59-14	5999-6007	datasets	_	_	
+59-15	6007-6008	/	_	_	
+59-16	6008-6015	catalog	_	_	
+59-17	6015-6016	/	_	_	
+59-18	6016-6028	imagenet2012	*	DATASET	
+59-19	6028-6029	)	_	_	
+59-20	6029-6030	.	_	_	
+
+#Text=For info, TFDS will look for datasets in the directory defined by the
+#Text=environment variable `TFDS_DATA_DIR`.
+#Text=
+#Text=## 2.
+60-1	6032-6035	For	_	_	
+60-2	6036-6040	info	_	_	
+60-3	6040-6041	,	_	_	
+60-4	6042-6046	TFDS	_	_	
+60-5	6047-6051	will	_	_	
+60-6	6052-6056	look	_	_	
+60-7	6057-6060	for	_	_	
+60-8	6061-6069	datasets	_	_	
+60-9	6070-6072	in	_	_	
+60-10	6073-6076	the	_	_	
+60-11	6077-6086	directory	_	_	
+60-12	6087-6094	defined	_	_	
+60-13	6095-6097	by	_	_	
+60-14	6098-6101	the	_	_	
+60-15	6102-6113	environment	_	_	
+60-16	6114-6122	variable	_	_	
+60-17	6123-6124	`	_	_	
+60-18	6124-6137	TFDS_DATA_DIR	_	_	
+60-19	6137-6138	`	_	_	
+60-20	6138-6139	.	_	_	
+60-21	6141-6142	#	_	_	
+60-22	6142-6143	#	_	_	
+60-23	6144-6145	2	_	_	
+60-24	6145-6146	.	_	_	
+
+#Text=Experiments
+#Text=
+#Text=Each experiment consists of training a model on a stream of multiple datasets.
+61-1	6147-6158	Experiments	_	_	
+61-2	6160-6164	Each	_	_	
+61-3	6165-6175	experiment	_	_	
+61-4	6176-6184	consists	_	_	
+61-5	6185-6187	of	_	_	
+61-6	6188-6196	training	_	_	
+61-7	6197-6198	a	_	_	
+61-8	6199-6204	model	_	_	
+61-9	6205-6207	on	_	_	
+61-10	6208-6209	a	_	_	
+61-11	6210-6216	stream	_	_	
+61-12	6217-6219	of	_	_	
+61-13	6220-6228	multiple	_	_	
+61-14	6229-6237	datasets	_	_	
+61-15	6237-6238	.	_	_	
+
+#Text=Thus, this command will train a model on each dataset.
+62-1	6239-6243	Thus	_	_	
+62-2	6243-6244	,	_	_	
+62-3	6245-6249	this	_	_	
+62-4	6250-6257	command	_	_	
+62-5	6258-6262	will	_	_	
+62-6	6263-6268	train	_	_	
+62-7	6269-6270	a	_	_	
+62-8	6271-6276	model	_	_	
+62-9	6277-6279	on	_	_	
+62-10	6280-6284	each	_	_	
+62-11	6285-6292	dataset	_	_	
+62-12	6292-6293	.	_	_	
+
+#Text=We provide two main
+#Text=paradigms of learners: *independent* and *finetune from previous*.
+63-1	6294-6296	We	_	_	
+63-2	6297-6304	provide	_	_	
+63-3	6305-6308	two	_	_	
+63-4	6309-6313	main	_	_	
+63-5	6314-6323	paradigms	_	_	
+63-6	6324-6326	of	_	_	
+63-7	6327-6335	learners	_	_	
+63-8	6335-6336	:	_	_	
+63-9	6337-6338	*	_	_	
+63-10	6338-6349	independent	_	_	
+63-11	6349-6350	*	_	_	
+63-12	6351-6354	and	_	_	
+63-13	6355-6356	*	_	_	
+63-14	6356-6364	finetune	_	_	
+63-15	6365-6369	from	_	_	
+63-16	6370-6378	previous	_	_	
+63-17	6378-6379	*	_	_	
+63-18	6379-6380	.	_	_	
+
+#Text=In the
+#Text=former, we create a new randomly initialized model for each dataset.
+64-1	6381-6383	In	_	_	
+64-2	6384-6387	the	_	_	
+64-3	6388-6394	former	_	_	
+64-4	6394-6395	,	_	_	
+64-5	6396-6398	we	_	_	
+64-6	6399-6405	create	_	_	
+64-7	6406-6407	a	_	_	
+64-8	6408-6411	new	_	_	
+64-9	6412-6420	randomly	_	_	
+64-10	6421-6432	initialized	_	_	
+64-11	6433-6438	model	_	_	
+64-12	6439-6442	for	_	_	
+64-13	6443-6447	each	_	_	
+64-14	6448-6455	dataset	_	_	
+64-15	6455-6456	.	_	_	
+
+#Text=In the
+#Text=latter, a model is initialized for the first dataset of the stream, and tuned
+#Text=sequentially for all datasets.
+65-1	6457-6459	In	_	_	
+65-2	6460-6463	the	_	_	
+65-3	6464-6470	latter	_	_	
+65-4	6470-6471	,	_	_	
+65-5	6472-6473	a	_	_	
+65-6	6474-6479	model	_	_	
+65-7	6480-6482	is	_	_	
+65-8	6483-6494	initialized	_	_	
+65-9	6495-6498	for	_	_	
+65-10	6499-6502	the	_	_	
+65-11	6503-6508	first	_	_	
+65-12	6509-6516	dataset	_	_	
+65-13	6517-6519	of	_	_	
+65-14	6520-6523	the	_	_	
+65-15	6524-6530	stream	_	_	
+65-16	6530-6531	,	_	_	
+65-17	6532-6535	and	_	_	
+65-18	6536-6541	tuned	_	_	
+65-19	6542-6554	sequentially	_	_	
+65-20	6555-6558	for	_	_	
+65-21	6559-6562	all	_	_	
+65-22	6563-6571	datasets	_	_	
+65-23	6571-6572	.	_	_	
+
+#Text=To launch an experiment, run:
+#Text=
+#Text=```
+#Text=.
+66-1	6574-6576	To	_	_	
+66-2	6577-6583	launch	_	_	
+66-3	6584-6586	an	_	_	
+66-4	6587-6597	experiment	_	_	
+66-5	6597-6598	,	_	_	
+66-6	6599-6602	run	_	_	
+66-7	6602-6603	:	_	_	
+66-8	6605-6606	`	_	_	
+66-9	6606-6607	`	_	_	
+66-10	6607-6608	`	_	_	
+66-11	6609-6610	.	_	_	
+
+#Text=/launch_local.sh <X> example
+#Text=```
+#Text=
+#Text=With `<X>` being the framework to use (`jax` or `torch`), second argument is the
+#Text=config to use.
+67-1	6610-6611	/	_	_	
+67-2	6611-6626	launch_local.sh	_	_	
+67-3	6627-6628	<	_	_	
+67-4	6628-6629	X	_	_	
+67-5	6629-6630	>	_	_	
+67-6	6631-6638	example	_	_	
+67-7	6639-6640	`	_	_	
+67-8	6640-6641	`	_	_	
+67-9	6641-6642	`	_	_	
+67-10	6644-6648	With	_	_	
+67-11	6649-6650	`	_	_	
+67-12	6650-6651	<	_	_	
+67-13	6651-6652	X	_	_	
+67-14	6652-6653	>	_	_	
+67-15	6653-6654	`	_	_	
+67-16	6655-6660	being	_	_	
+67-17	6661-6664	the	_	_	
+67-18	6665-6674	framework	_	_	
+67-19	6675-6677	to	_	_	
+67-20	6678-6681	use	_	_	
+67-21	6682-6683	(	_	_	
+67-22	6683-6684	`	_	_	
+67-23	6684-6687	jax	*	SOFTWARE	
+67-24	6687-6688	`	_	_	
+67-25	6689-6691	or	_	_	
+67-26	6692-6693	`	_	_	
+67-27	6693-6698	torch	*	SOFTWARE	
+67-28	6698-6699	`	_	_	
+67-29	6699-6700	)	_	_	
+67-30	6700-6701	,	_	_	
+67-31	6702-6708	second	_	_	
+67-32	6709-6717	argument	_	_	
+67-33	6718-6720	is	_	_	
+67-34	6721-6724	the	_	_	
+67-35	6725-6731	config	_	_	
+67-36	6732-6734	to	_	_	
+67-37	6735-6738	use	_	_	
+67-38	6738-6739	.	_	_	
+
+#Text=Note that for the torch version, if you want to run on gpu instead of cpu, you
+#Text=need to provide the gpu id with `--device <GPU_ID>`.
+68-1	6741-6745	Note	_	_	
+68-2	6746-6750	that	_	_	
+68-3	6751-6754	for	_	_	
+68-4	6755-6758	the	_	_	
+68-5	6759-6764	torch	_	_	
+68-6	6765-6772	version	_	_	
+68-7	6772-6773	,	_	_	
+68-8	6774-6776	if	_	_	
+68-9	6777-6780	you	_	_	
+68-10	6781-6785	want	_	_	
+68-11	6786-6788	to	_	_	
+68-12	6789-6792	run	_	_	
+68-13	6793-6795	on	_	_	
+68-14	6796-6799	gpu	_	_	
+68-15	6800-6807	instead	_	_	
+68-16	6808-6810	of	_	_	
+68-17	6811-6814	cpu	_	_	
+68-18	6814-6815	,	_	_	
+68-19	6816-6819	you	_	_	
+68-20	6820-6824	need	_	_	
+68-21	6825-6827	to	_	_	
+68-22	6828-6835	provide	_	_	
+68-23	6836-6839	the	_	_	
+68-24	6840-6843	gpu	_	_	
+68-25	6844-6846	id	_	_	
+68-26	6847-6851	with	_	_	
+68-27	6852-6853	`	_	_	
+68-28	6853-6854	-	_	_	
+68-29	6854-6855	-	_	_	
+68-30	6855-6861	device	_	_	
+68-31	6862-6863	<	_	_	
+68-32	6863-6869	GPU_ID	_	_	
+68-33	6869-6870	>	_	_	
+68-34	6870-6871	`	_	_	
+68-35	6871-6872	.	_	_	
+
+#Text=By default, the code is
+#Text=using the id `-1` to symbolize cpu.
+#Text=
+#Text=## Output directory for metrics
+#Text=
+#Text=By default the metrics computed by `experiments_<X>/metrics/nevis_metrics.py`
+#Text=will be written in `.
+69-1	6873-6875	By	_	_	
+69-2	6876-6883	default	_	_	
+69-3	6883-6884	,	_	_	
+69-4	6885-6888	the	_	_	
+69-5	6889-6893	code	_	_	
+69-6	6894-6896	is	_	_	
+69-7	6897-6902	using	_	_	
+69-8	6903-6906	the	_	_	
+69-9	6907-6909	id	_	_	
+69-10	6910-6911	`	_	_	
+69-11	6911-6912	-	_	_	
+69-12	6912-6913	1	_	_	
+69-13	6913-6914	`	_	_	
+69-14	6915-6917	to	_	_	
+69-15	6918-6927	symbolize	_	_	
+69-16	6928-6931	cpu	_	_	
+69-17	6931-6932	.	_	_	
+69-18	6934-6935	#	_	_	
+69-19	6935-6936	#	_	_	
+69-20	6937-6943	Output	_	_	
+69-21	6944-6953	directory	_	_	
+69-22	6954-6957	for	_	_	
+69-23	6958-6965	metrics	_	_	
+69-24	6967-6969	By	_	_	
+69-25	6970-6977	default	_	_	
+69-26	6978-6981	the	_	_	
+69-27	6982-6989	metrics	_	_	
+69-28	6990-6998	computed	_	_	
+69-29	6999-7001	by	_	_	
+69-30	7002-7003	`	_	_	
+69-31	7003-7014	experiments	_	_	
+69-32	7014-7015	_	_	_	
+69-33	7015-7016	<	_	_	
+69-34	7016-7017	X	_	_	
+69-35	7017-7018	>	_	_	
+69-36	7018-7019	/	_	_	
+69-37	7019-7026	metrics	_	_	
+69-38	7026-7027	/	_	_	
+69-39	7027-7043	nevis_metrics.py	_	_	
+69-40	7043-7044	`	_	_	
+69-41	7045-7049	will	_	_	
+69-42	7050-7052	be	_	_	
+69-43	7053-7060	written	_	_	
+69-44	7061-7063	in	_	_	
+69-45	7064-7065	`	_	_	
+69-46	7065-7066	.	_	_	
+
+#Text=/nevis_output_dir`.
+70-1	7066-7067	/	_	_	
+70-2	7067-7083	nevis_output_dir	_	_	
+70-3	7083-7084	`	_	_	
+70-4	7084-7085	.	_	_	
+
+#Text=You can specify a different path by overriding the environment variable
+#Text=`NEVIS_DEFAULT_OUTPUT_DIR`.
+#Text=
+#Text=## Metrics visualization with TensorBoard
+#Text=
+#Text=The TensorBoard events file will be saved to `~/nevis/tensorboard`.
+71-1	7087-7090	You	_	_	
+71-2	7091-7094	can	_	_	
+71-3	7095-7102	specify	_	_	
+71-4	7103-7104	a	_	_	
+71-5	7105-7114	different	_	_	
+71-6	7115-7119	path	_	_	
+71-7	7120-7122	by	_	_	
+71-8	7123-7133	overriding	_	_	
+71-9	7134-7137	the	_	_	
+71-10	7138-7149	environment	_	_	
+71-11	7150-7158	variable	_	_	
+71-12	7159-7160	`	_	_	
+71-13	7160-7184	NEVIS_DEFAULT_OUTPUT_DIR	_	_	
+71-14	7184-7185	`	_	_	
+71-15	7185-7186	.	_	_	
+71-16	7188-7189	#	_	_	
+71-17	7189-7190	#	_	_	
+71-18	7191-7198	Metrics	_	_	
+71-19	7199-7212	visualization	_	_	
+71-20	7213-7217	with	_	_	
+71-21	7218-7229	TensorBoard	*	SOFTWARE	
+71-22	7231-7234	The	_	_	
+71-23	7235-7246	TensorBoard	*	SOFTWARE	
+71-24	7247-7253	events	_	_	
+71-25	7254-7258	file	_	_	
+71-26	7259-7263	will	_	_	
+71-27	7264-7266	be	_	_	
+71-28	7267-7272	saved	_	_	
+71-29	7273-7275	to	_	_	
+71-30	7276-7277	`	_	_	
+71-31	7277-7278	~	_	_	
+71-32	7278-7279	/	_	_	
+71-33	7279-7284	nevis	_	_	
+71-34	7284-7285	/	_	_	
+71-35	7285-7296	tensorboard	*	SOFTWARE	
+71-36	7296-7297	`	_	_	
+71-37	7297-7298	.	_	_	
+
+#Text=Each run
+#Text=will create a folder below this directory named with the date and time when the
+#Text=run was launched.
+72-1	7299-7303	Each	_	_	
+72-2	7304-7307	run	_	_	
+72-3	7308-7312	will	_	_	
+72-4	7313-7319	create	_	_	
+72-5	7320-7321	a	_	_	
+72-6	7322-7328	folder	_	_	
+72-7	7329-7334	below	_	_	
+72-8	7335-7339	this	_	_	
+72-9	7340-7349	directory	_	_	
+72-10	7350-7355	named	_	_	
+72-11	7356-7360	with	_	_	
+72-12	7361-7364	the	_	_	
+72-13	7365-7369	date	_	_	
+72-14	7370-7373	and	_	_	
+72-15	7374-7378	time	_	_	
+72-16	7379-7383	when	_	_	
+72-17	7384-7387	the	_	_	
+72-18	7388-7391	run	_	_	
+72-19	7392-7395	was	_	_	
+72-20	7396-7404	launched	_	_	
+72-21	7404-7405	.	_	_	
+
+#Text=The tensorboard can be launched with the following command.
+73-1	7407-7410	The	_	_	
+73-2	7411-7422	tensorboard	*	SOFTWARE	
+73-3	7423-7426	can	_	_	
+73-4	7427-7429	be	_	_	
+73-5	7430-7438	launched	_	_	
+73-6	7439-7443	with	_	_	
+73-7	7444-7447	the	_	_	
+73-8	7448-7457	following	_	_	
+73-9	7458-7465	command	_	_	
+73-10	7465-7466	.	_	_	
+
+#Text=`tensorboard --lodir=~/nevis/tensorboard`
+#Text=
+#Text=You will need to have `tensorboard` installed outside the docker using
+#Text=
+#Text=```bash
+#Text=pip install tensorboard
+#Text=```
+#Text=
+#Text=Regarding the different groups of plots on tensorboard dashboard: -
+#Text=`benchmark_metrics` contains metrics from prediction events across the stream,
+#Text=where the x-axis is the index (0-based) of the most training event. -
+#Text=`train_event_<i>` contains training and validation metrics on the training index
+#Text=with index `i`.
+#Text=
+#Text=## 3.
+74-1	7468-7469	`	_	_	
+74-2	7469-7480	tensorboard	*	SOFTWARE	
+74-3	7481-7482	-	_	_	
+74-4	7482-7483	-	_	_	
+74-5	7483-7488	lodir	_	_	
+74-6	7488-7489	=	_	_	
+74-7	7489-7490	~	_	_	
+74-8	7490-7491	/	_	_	
+74-9	7491-7496	nevis	_	_	
+74-10	7496-7497	/	_	_	
+74-11	7497-7508	tensorboard	*	SOFTWARE	
+74-12	7508-7509	`	_	_	
+74-13	7511-7514	You	_	_	
+74-14	7515-7519	will	_	_	
+74-15	7520-7524	need	_	_	
+74-16	7525-7527	to	_	_	
+74-17	7528-7532	have	_	_	
+74-18	7533-7534	`	_	_	
+74-19	7534-7545	tensorboard	*	SOFTWARE	
+74-20	7545-7546	`	_	_	
+74-21	7547-7556	installed	_	_	
+74-22	7557-7564	outside	_	_	
+74-23	7565-7568	the	_	_	
+74-24	7569-7575	docker	*	SOFTWARE	
+74-25	7576-7581	using	_	_	
+74-26	7583-7584	`	_	_	
+74-27	7584-7585	`	_	_	
+74-28	7585-7586	`	_	_	
+74-29	7586-7590	bash	_	_	
+74-30	7591-7594	pip	_	_	
+74-31	7595-7602	install	_	_	
+74-32	7603-7614	tensorboard	*	SOFTWARE	
+74-33	7615-7616	`	_	_	
+74-34	7616-7617	`	_	_	
+74-35	7617-7618	`	_	_	
+74-36	7620-7629	Regarding	_	_	
+74-37	7630-7633	the	_	_	
+74-38	7634-7643	different	_	_	
+74-39	7644-7650	groups	_	_	
+74-40	7651-7653	of	_	_	
+74-41	7654-7659	plots	_	_	
+74-42	7660-7662	on	_	_	
+74-43	7663-7674	tensorboard	*	SOFTWARE	
+74-44	7675-7684	dashboard	_	_	
+74-45	7684-7685	:	_	_	
+74-46	7686-7687	-	_	_	
+74-47	7688-7689	`	_	_	
+74-48	7689-7706	benchmark_metrics	_	_	
+74-49	7706-7707	`	_	_	
+74-50	7708-7716	contains	_	_	
+74-51	7717-7724	metrics	_	_	
+74-52	7725-7729	from	_	_	
+74-53	7730-7740	prediction	_	_	
+74-54	7741-7747	events	_	_	
+74-55	7748-7754	across	_	_	
+74-56	7755-7758	the	_	_	
+74-57	7759-7765	stream	_	_	
+74-58	7765-7766	,	_	_	
+74-59	7767-7772	where	_	_	
+74-60	7773-7776	the	_	_	
+74-61	7777-7783	x-axis	_	_	
+74-62	7784-7786	is	_	_	
+74-63	7787-7790	the	_	_	
+74-64	7791-7796	index	_	_	
+74-65	7797-7798	(	_	_	
+74-66	7798-7799	0	_	_	
+74-67	7799-7800	-	_	_	
+74-68	7800-7805	based	_	_	
+74-69	7805-7806	)	_	_	
+74-70	7807-7809	of	_	_	
+74-71	7810-7813	the	_	_	
+74-72	7814-7818	most	_	_	
+74-73	7819-7827	training	_	_	
+74-74	7828-7833	event	_	_	
+74-75	7833-7834	.	_	_	
+74-76	7835-7836	-	_	_	
+74-77	7837-7838	`	_	_	
+74-78	7838-7849	train_event	_	_	
+74-79	7849-7850	_	_	_	
+74-80	7850-7851	<	_	_	
+74-81	7851-7852	i	_	_	
+74-82	7852-7853	>	_	_	
+74-83	7853-7854	`	_	_	
+74-84	7855-7863	contains	_	_	
+74-85	7864-7872	training	_	_	
+74-86	7873-7876	and	_	_	
+74-87	7877-7887	validation	_	_	
+74-88	7888-7895	metrics	_	_	
+74-89	7896-7898	on	_	_	
+74-90	7899-7902	the	_	_	
+74-91	7903-7911	training	_	_	
+74-92	7912-7917	index	_	_	
+74-93	7918-7922	with	_	_	
+74-94	7923-7928	index	_	_	
+74-95	7929-7930	`	_	_	
+74-96	7930-7931	i	_	_	
+74-97	7931-7932	`	_	_	
+74-98	7932-7933	.	_	_	
+74-99	7935-7936	#	_	_	
+74-100	7936-7937	#	_	_	
+74-101	7938-7939	3	_	_	
+74-102	7939-7940	.	_	_	
+
+#Text=Example
+#Text=
+#Text=Let's take an example learner (returns always zeros) that we will "train" on the
+#Text=DEBUG stream made of Pascal VOC 2007 and Coil100 datasets.
+75-1	7941-7948	Example	_	_	
+75-2	7950-7955	Let's	_	_	
+75-3	7956-7960	take	_	_	
+75-4	7961-7963	an	_	_	
+75-5	7964-7971	example	_	_	
+75-6	7972-7979	learner	_	_	
+75-7	7980-7981	(	_	_	
+75-8	7981-7988	returns	_	_	
+75-9	7989-7995	always	_	_	
+75-10	7996-8001	zeros	_	_	
+75-11	8001-8002	)	_	_	
+75-12	8003-8007	that	_	_	
+75-13	8008-8010	we	_	_	
+75-14	8011-8015	will	_	_	
+75-15	8016-8017	"	_	_	
+75-16	8017-8022	train	_	_	
+75-17	8022-8023	"	_	_	
+75-18	8024-8026	on	_	_	
+75-19	8027-8030	the	_	_	
+75-20	8031-8036	DEBUG	_	_	
+75-21	8037-8043	stream	_	_	
+75-22	8044-8048	made	_	_	
+75-23	8049-8051	of	_	_	
+75-24	8052-8058	Pascal	*[1]	DATASET[1]	
+75-25	8059-8062	VOC	*[1]	DATASET[1]	
+75-26	8063-8067	2007	*[1]	DATASET[1]	
+75-27	8068-8071	and	_	_	
+75-28	8072-8079	Coil100	*	DATASET	
+75-29	8080-8088	datasets	_	_	
+75-30	8088-8089	.	_	_	
+
+#Text=Pascal VOC 2007 is a TFDS dataset so it will be automatically downloaded when
+#Text=needed.
+76-1	8091-8097	Pascal	*[2]	DATASET[2]	
+76-2	8098-8101	VOC	*[2]	DATASET[2]	
+76-3	8102-8106	2007	*[2]	DATASET[2]	
+76-4	8107-8109	is	_	_	
+76-5	8110-8111	a	_	_	
+76-6	8112-8116	TFDS	_	_	
+76-7	8117-8124	dataset	_	_	
+76-8	8125-8127	so	_	_	
+76-9	8128-8130	it	_	_	
+76-10	8131-8135	will	_	_	
+76-11	8136-8138	be	_	_	
+76-12	8139-8152	automatically	_	_	
+76-13	8153-8163	downloaded	_	_	
+76-14	8164-8168	when	_	_	
+76-15	8169-8175	needed	_	_	
+76-16	8175-8176	.	_	_	
+
+#Text=First we download Coil100 dataset:
+#Text=
+#Text=```bash
+#Text=.
+77-1	8178-8183	First	_	_	
+77-2	8184-8186	we	_	_	
+77-3	8187-8195	download	_	_	
+77-4	8196-8203	Coil100	*	DATASET	
+77-5	8204-8211	dataset	_	_	
+77-6	8211-8212	:	_	_	
+77-7	8214-8215	`	_	_	
+77-8	8215-8216	`	_	_	
+77-9	8216-8217	`	_	_	
+77-10	8217-8221	bash	_	_	
+77-11	8222-8223	.	_	_	
+
+#Text=/build_dataset.sh -e -b -s debug
+#Text=```
+#Text=
+#Text=Note that since the DEBUG stream only downloads Coil100, we could also have used
+#Text=`-d coil100` instead of `-s debug`.
+78-1	8223-8224	/	_	_	
+78-2	8224-8240	build_dataset.sh	_	_	
+78-3	8241-8242	-	_	_	
+78-4	8242-8243	e	_	_	
+78-5	8244-8245	-	_	_	
+78-6	8245-8246	b	_	_	
+78-7	8247-8248	-	_	_	
+78-8	8248-8249	s	_	_	
+78-9	8250-8255	debug	_	_	
+78-10	8256-8257	`	_	_	
+78-11	8257-8258	`	_	_	
+78-12	8258-8259	`	_	_	
+78-13	8261-8265	Note	_	_	
+78-14	8266-8270	that	_	_	
+78-15	8271-8276	since	_	_	
+78-16	8277-8280	the	_	_	
+78-17	8281-8286	DEBUG	_	_	
+78-18	8287-8293	stream	_	_	
+78-19	8294-8298	only	_	_	
+78-20	8299-8308	downloads	_	_	
+78-21	8309-8316	Coil100	*	DATASET	
+78-22	8316-8317	,	_	_	
+78-23	8318-8320	we	_	_	
+78-24	8321-8326	could	_	_	
+78-25	8327-8331	also	_	_	
+78-26	8332-8336	have	_	_	
+78-27	8337-8341	used	_	_	
+78-28	8342-8343	`	_	_	
+78-29	8343-8344	-	_	_	
+78-30	8344-8345	d	_	_	
+78-31	8346-8353	coil100	*	DATASET	
+78-32	8353-8354	`	_	_	
+78-33	8355-8362	instead	_	_	
+78-34	8363-8365	of	_	_	
+78-35	8366-8367	`	_	_	
+78-36	8367-8368	-	_	_	
+78-37	8368-8369	s	_	_	
+78-38	8370-8375	debug	_	_	
+78-39	8375-8376	`	_	_	
+78-40	8376-8377	.	_	_	
+
+#Text=As you can see in the script
+#Text=`build_dataset.sh`, we download data in `~/nevis`.
+79-1	8378-8380	As	_	_	
+79-2	8381-8384	you	_	_	
+79-3	8385-8388	can	_	_	
+79-4	8389-8392	see	_	_	
+79-5	8393-8395	in	_	_	
+79-6	8396-8399	the	_	_	
+79-7	8400-8406	script	_	_	
+79-8	8407-8408	`	_	_	
+79-9	8408-8424	build_dataset.sh	_	_	
+79-10	8424-8425	`	_	_	
+79-11	8425-8426	,	_	_	
+79-12	8427-8429	we	_	_	
+79-13	8430-8438	download	_	_	
+79-14	8439-8443	data	_	_	
+79-15	8444-8446	in	_	_	
+79-16	8447-8448	`	_	_	
+79-17	8448-8449	~	_	_	
+79-18	8449-8450	/	_	_	
+79-19	8450-8455	nevis	_	_	
+79-20	8455-8456	`	_	_	
+79-21	8456-8457	.	_	_	
+
+#Text=You can change this directory
+#Text=by overriding the env variable `LOCAL_DIR` in the script.
+80-1	8458-8461	You	_	_	
+80-2	8462-8465	can	_	_	
+80-3	8466-8472	change	_	_	
+80-4	8473-8477	this	_	_	
+80-5	8478-8487	directory	_	_	
+80-6	8488-8490	by	_	_	
+80-7	8491-8501	overriding	_	_	
+80-8	8502-8505	the	_	_	
+80-9	8506-8509	env	_	_	
+80-10	8510-8518	variable	_	_	
+80-11	8519-8520	`	_	_	
+80-12	8520-8529	LOCAL_DIR	_	_	
+80-13	8529-8530	`	_	_	
+80-14	8531-8533	in	_	_	
+80-15	8534-8537	the	_	_	
+80-16	8538-8544	script	_	_	
+80-17	8544-8545	.	_	_	
+
+#Text=Then, we launch the example learner:
+#Text=
+#Text=```bash
+#Text=.
+81-1	8547-8551	Then	_	_	
+81-2	8551-8552	,	_	_	
+81-3	8553-8555	we	_	_	
+81-4	8556-8562	launch	_	_	
+81-5	8563-8566	the	_	_	
+81-6	8567-8574	example	_	_	
+81-7	8575-8582	learner	_	_	
+81-8	8582-8583	:	_	_	
+81-9	8585-8586	`	_	_	
+81-10	8586-8587	`	_	_	
+81-11	8587-8588	`	_	_	
+81-12	8588-8592	bash	_	_	
+81-13	8593-8594	.	_	_	
+
+#Text=/launch_local.sh jax example
+#Text=```
+#Text=
+#Text=Note that the stream `DEBUG` is already specified in the config
+#Text=`.
+82-1	8594-8595	/	_	_	
+82-2	8595-8610	launch_local.sh	_	_	
+82-3	8611-8614	jax	_	_	
+82-4	8615-8622	example	_	_	
+82-5	8623-8624	`	_	_	
+82-6	8624-8625	`	_	_	
+82-7	8625-8626	`	_	_	
+82-8	8628-8632	Note	_	_	
+82-9	8633-8637	that	_	_	
+82-10	8638-8641	the	_	_	
+82-11	8642-8648	stream	_	_	
+82-12	8649-8650	`	_	_	
+82-13	8650-8655	DEBUG	_	_	
+82-14	8655-8656	`	_	_	
+82-15	8657-8659	is	_	_	
+82-16	8660-8667	already	_	_	
+82-17	8668-8677	specified	_	_	
+82-18	8678-8680	in	_	_	
+82-19	8681-8684	the	_	_	
+82-20	8685-8691	config	_	_	
+82-21	8692-8693	`	_	_	
+82-22	8693-8694	.	_	_	
+
+#Text=/experiments_jax/config/example.py`.
+#Text=
+#Text=## 4.
+83-1	8694-8695	/	_	_	
+83-2	8695-8710	experiments_jax	_	_	
+83-3	8710-8711	/	_	_	
+83-4	8711-8717	config	_	_	
+83-5	8717-8718	/	_	_	
+83-6	8718-8728	example.py	_	_	
+83-7	8728-8729	`	_	_	
+83-8	8729-8730	.	_	_	
+83-9	8732-8733	#	_	_	
+83-10	8733-8734	#	_	_	
+83-11	8735-8736	4	_	_	
+83-12	8736-8737	.	_	_	
+
+#Text=Baselines
+#Text=
+#Text=We provide several baselines, defined in the `learners/` directory with configurations
+#Text=in the `configs/` directory.
+84-1	8738-8747	Baselines	_	_	
+84-2	8749-8751	We	_	_	
+84-3	8752-8759	provide	_	_	
+84-4	8760-8767	several	_	_	
+84-5	8768-8777	baselines	_	_	
+84-6	8777-8778	,	_	_	
+84-7	8779-8786	defined	_	_	
+84-8	8787-8789	in	_	_	
+84-9	8790-8793	the	_	_	
+84-10	8794-8795	`	_	_	
+84-11	8795-8803	learners	_	_	
+84-12	8803-8804	/	_	_	
+84-13	8804-8805	`	_	_	
+84-14	8806-8815	directory	_	_	
+84-15	8816-8820	with	_	_	
+84-16	8821-8835	configurations	_	_	
+84-17	8836-8838	in	_	_	
+84-18	8839-8842	the	_	_	
+84-19	8843-8844	`	_	_	
+84-20	8844-8851	configs	_	_	
+84-21	8851-8852	/	_	_	
+84-22	8852-8853	`	_	_	
+84-23	8854-8863	directory	_	_	
+84-24	8863-8864	.	_	_	
+
+#Text=Note that the same approach might have multiple configurations.
+85-1	8865-8869	Note	_	_	
+85-2	8870-8874	that	_	_	
+85-3	8875-8878	the	_	_	
+85-4	8879-8883	same	_	_	
+85-5	8884-8892	approach	_	_	
+85-6	8893-8898	might	_	_	
+85-7	8899-8903	have	_	_	
+85-8	8904-8912	multiple	_	_	
+85-9	8913-8927	configurations	_	_	
+85-10	8927-8928	.	_	_	
+
+#Text=Reminder, to run configuration `configs/X.py`, do `.
+86-1	8930-8938	Reminder	_	_	
+86-2	8938-8939	,	_	_	
+86-3	8940-8942	to	_	_	
+86-4	8943-8946	run	_	_	
+86-5	8947-8960	configuration	_	_	
+86-6	8961-8962	`	_	_	
+86-7	8962-8969	configs	_	_	
+86-8	8969-8970	/	_	_	
+86-9	8970-8974	X.py	_	_	
+86-10	8974-8975	`	_	_	
+86-11	8975-8976	,	_	_	
+86-12	8977-8979	do	_	_	
+86-13	8980-8981	`	_	_	
+86-14	8981-8982	.	_	_	
+
+#Text=/launch_local.sh jax X.py`.
+87-1	8982-8983	/	_	_	
+87-2	8983-8998	launch_local.sh	_	_	
+87-3	8999-9002	jax	*	SOFTWARE	
+87-4	9003-9007	X.py	_	_	
+87-5	9007-9008	`	_	_	
+87-6	9008-9009	.	_	_	
+
+#Text=We provide the following baselines:
+#Text=- **Independent**, in `configs/finetuning_ind.py` where each dataset is learned by an independent model
+#Text=- **Previous**, in `configs/finetuning_prev.py` where we learn sequentially each dataset and initialize its parameters from the parameter vector learned on the previous task.
+#Text=- **Dynamic**, in `configs/finetuning_dknn.py`. where the initialization of task T is chosen among the models which have been trained on a dataset most similar to the current dataset.
+88-1	9011-9013	We	_	_	
+88-2	9014-9021	provide	_	_	
+88-3	9022-9025	the	_	_	
+88-4	9026-9035	following	_	_	
+88-5	9036-9045	baselines	_	_	
+88-6	9045-9046	:	_	_	
+88-7	9047-9048	-	_	_	
+88-8	9049-9050	*	_	_	
+88-9	9050-9051	*	_	_	
+88-10	9051-9062	Independent	_	_	
+88-11	9062-9063	*	_	_	
+88-12	9063-9064	*	_	_	
+88-13	9064-9065	,	_	_	
+88-14	9066-9068	in	_	_	
+88-15	9069-9070	`	_	_	
+88-16	9070-9077	configs	_	_	
+88-17	9077-9078	/	_	_	
+88-18	9078-9095	finetuning_ind.py	_	_	
+88-19	9095-9096	`	_	_	
+88-20	9097-9102	where	_	_	
+88-21	9103-9107	each	_	_	
+88-22	9108-9115	dataset	_	_	
+88-23	9116-9118	is	_	_	
+88-24	9119-9126	learned	_	_	
+88-25	9127-9129	by	_	_	
+88-26	9130-9132	an	_	_	
+88-27	9133-9144	independent	_	_	
+88-28	9145-9150	model	_	_	
+88-29	9151-9152	-	_	_	
+88-30	9153-9154	*	_	_	
+88-31	9154-9155	*	_	_	
+88-32	9155-9163	Previous	_	_	
+88-33	9163-9164	*	_	_	
+88-34	9164-9165	*	_	_	
+88-35	9165-9166	,	_	_	
+88-36	9167-9169	in	_	_	
+88-37	9170-9171	`	_	_	
+88-38	9171-9178	configs	_	_	
+88-39	9178-9179	/	_	_	
+88-40	9179-9197	finetuning_prev.py	_	_	
+88-41	9197-9198	`	_	_	
+88-42	9199-9204	where	_	_	
+88-43	9205-9207	we	_	_	
+88-44	9208-9213	learn	_	_	
+88-45	9214-9226	sequentially	_	_	
+88-46	9227-9231	each	_	_	
+88-47	9232-9239	dataset	_	_	
+88-48	9240-9243	and	_	_	
+88-49	9244-9254	initialize	_	_	
+88-50	9255-9258	its	_	_	
+88-51	9259-9269	parameters	_	_	
+88-52	9270-9274	from	_	_	
+88-53	9275-9278	the	_	_	
+88-54	9279-9288	parameter	_	_	
+88-55	9289-9295	vector	_	_	
+88-56	9296-9303	learned	_	_	
+88-57	9304-9306	on	_	_	
+88-58	9307-9310	the	_	_	
+88-59	9311-9319	previous	_	_	
+88-60	9320-9324	task	_	_	
+88-61	9324-9325	.	_	_	
+88-62	9326-9327	-	_	_	
+88-63	9328-9329	*	_	_	
+88-64	9329-9330	*	_	_	
+88-65	9330-9337	Dynamic	_	_	
+88-66	9337-9338	*	_	_	
+88-67	9338-9339	*	_	_	
+88-68	9339-9340	,	_	_	
+88-69	9341-9343	in	_	_	
+88-70	9344-9345	`	_	_	
+88-71	9345-9352	configs	_	_	
+88-72	9352-9353	/	_	_	
+88-73	9353-9371	finetuning_dknn.py	_	_	
+88-74	9371-9372	`	_	_	
+88-75	9372-9373	.	_	_	
+88-76	9374-9379	where	_	_	
+88-77	9380-9383	the	_	_	
+88-78	9384-9398	initialization	_	_	
+88-79	9399-9401	of	_	_	
+88-80	9402-9406	task	_	_	
+88-81	9407-9408	T	_	_	
+88-82	9409-9411	is	_	_	
+88-83	9412-9418	chosen	_	_	
+88-84	9419-9424	among	_	_	
+88-85	9425-9428	the	_	_	
+88-86	9429-9435	models	_	_	
+88-87	9436-9441	which	_	_	
+88-88	9442-9446	have	_	_	
+88-89	9447-9451	been	_	_	
+88-90	9452-9459	trained	_	_	
+88-91	9460-9462	on	_	_	
+88-92	9463-9464	a	_	_	
+88-93	9465-9472	dataset	_	_	
+88-94	9473-9477	most	_	_	
+88-95	9478-9485	similar	_	_	
+88-96	9486-9488	to	_	_	
+88-97	9489-9492	the	_	_	
+88-98	9493-9500	current	_	_	
+88-99	9501-9508	dataset	_	_	
+88-100	9508-9509	.	_	_	
+
+#Text=This baseline performs hyperparameter tuning while learning the task, following the protocol described in our tech report.
+89-1	9510-9514	This	_	_	
+89-2	9515-9523	baseline	_	_	
+89-3	9524-9532	performs	_	_	
+89-4	9533-9547	hyperparameter	_	_	
+89-5	9548-9554	tuning	_	_	
+89-6	9555-9560	while	_	_	
+89-7	9561-9569	learning	_	_	
+89-8	9570-9573	the	_	_	
+89-9	9574-9578	task	_	_	
+89-10	9578-9579	,	_	_	
+89-11	9580-9589	following	_	_	
+89-12	9590-9593	the	_	_	
+89-13	9594-9602	protocol	_	_	
+89-14	9603-9612	described	_	_	
+89-15	9613-9615	in	_	_	
+89-16	9616-9619	our	_	_	
+89-17	9620-9624	tech	_	_	
+89-18	9625-9631	report	_	_	
+89-19	9631-9632	.	_	_	
+
+#Text=Variants are also proposed, such as cheaper configurations in `configs/cheap_finetuning_dknn.py` which use a smaller net and fewer trials of hyper-parameter search.
+90-1	9635-9643	Variants	_	_	
+90-2	9644-9647	are	_	_	
+90-3	9648-9652	also	_	_	
+90-4	9653-9661	proposed	_	_	
+90-5	9661-9662	,	_	_	
+90-6	9663-9667	such	_	_	
+90-7	9668-9670	as	_	_	
+90-8	9671-9678	cheaper	_	_	
+90-9	9679-9693	configurations	_	_	
+90-10	9694-9696	in	_	_	
+90-11	9697-9698	`	_	_	
+90-12	9698-9705	configs	_	_	
+90-13	9705-9706	/	_	_	
+90-14	9706-9730	cheap_finetuning_dknn.py	_	_	
+90-15	9730-9731	`	_	_	
+90-16	9732-9737	which	_	_	
+90-17	9738-9741	use	_	_	
+90-18	9742-9743	a	_	_	
+90-19	9744-9751	smaller	_	_	
+90-20	9752-9755	net	_	_	
+90-21	9756-9759	and	_	_	
+90-22	9760-9765	fewer	_	_	
+90-23	9766-9772	trials	_	_	
+90-24	9773-9775	of	_	_	
+90-25	9776-9791	hyper-parameter	_	_	
+90-26	9792-9798	search	_	_	
+90-27	9798-9799	.	_	_	
+
+#Text=These are the best entry point for people who have access to only one or few GPUs.
+91-1	9800-9805	These	_	_	
+91-2	9806-9809	are	_	_	
+91-3	9810-9813	the	_	_	
+91-4	9814-9818	best	_	_	
+91-5	9819-9824	entry	_	_	
+91-6	9825-9830	point	_	_	
+91-7	9831-9834	for	_	_	
+91-8	9835-9841	people	_	_	
+91-9	9842-9845	who	_	_	
+91-10	9846-9850	have	_	_	
+91-11	9851-9857	access	_	_	
+91-12	9858-9860	to	_	_	
+91-13	9861-9865	only	_	_	
+91-14	9866-9869	one	_	_	
+91-15	9870-9872	or	_	_	
+91-16	9873-9876	few	_	_	
+91-17	9877-9881	GPUs	_	_	
+91-18	9881-9882	.	_	_	
+
+#Text=It is also possible to run a pretrained model on the Nevis stream.
+92-1	9885-9887	It	_	_	
+92-2	9888-9890	is	_	_	
+92-3	9891-9895	also	_	_	
+92-4	9896-9904	possible	_	_	
+92-5	9905-9907	to	_	_	
+92-6	9908-9911	run	_	_	
+92-7	9912-9913	a	_	_	
+92-8	9914-9924	pretrained	_	_	
+92-9	9925-9930	model	_	_	
+92-10	9931-9933	on	_	_	
+92-11	9934-9937	the	_	_	
+92-12	9938-9943	Nevis	_	_	
+92-13	9944-9950	stream	_	_	
+92-14	9950-9951	.	_	_	
+
+#Text=First train 
+#Text=your own pretrained model.
+93-1	9952-9957	First	_	_	
+93-2	9958-9963	train	_	_	
+93-3	9965-9969	your	_	_	
+93-4	9970-9973	own	_	_	
+93-5	9974-9984	pretrained	_	_	
+93-6	9985-9990	model	_	_	
+93-7	9990-9991	.	_	_	
+
+#Text=For example on ImageNet, run the configuration `configs/pretrain_imagenet.py`.
+94-1	9992-9995	For	_	_	
+94-2	9996-10003	example	_	_	
+94-3	10004-10006	on	_	_	
+94-4	10007-10015	ImageNet	*	DATASET	
+94-5	10015-10016	,	_	_	
+94-6	10017-10020	run	_	_	
+94-7	10021-10024	the	_	_	
+94-8	10025-10038	configuration	_	_	
+94-9	10039-10040	`	_	_	
+94-10	10040-10047	configs	_	_	
+94-11	10047-10048	/	_	_	
+94-12	10048-10068	pretrain_imagenet.py	_	_	
+94-13	10068-10069	`	_	_	
+94-14	10069-10070	.	_	_	
+
+#Text=Collect the resulting checkpoint, see configuration file to see where it's saved.
+95-1	10071-10078	Collect	_	_	
+95-2	10079-10082	the	_	_	
+95-3	10083-10092	resulting	_	_	
+95-4	10093-10103	checkpoint	_	_	
+95-5	10103-10104	,	_	_	
+95-6	10105-10108	see	_	_	
+95-7	10109-10122	configuration	_	_	
+95-8	10123-10127	file	_	_	
+95-9	10128-10130	to	_	_	
+95-10	10131-10134	see	_	_	
+95-11	10135-10140	where	_	_	
+95-12	10141-10145	it's	_	_	
+95-13	10146-10151	saved	_	_	
+95-14	10151-10152	.	_	_	
+
+#Text=Then, use this checkpoint for `configs/finetuning_ind_pretrained.py`.
+#Text=
+#Text=## 5.
+96-1	10154-10158	Then	_	_	
+96-2	10158-10159	,	_	_	
+96-3	10160-10163	use	_	_	
+96-4	10164-10168	this	_	_	
+96-5	10169-10179	checkpoint	_	_	
+96-6	10180-10183	for	_	_	
+96-7	10184-10185	`	_	_	
+96-8	10185-10192	configs	_	_	
+96-9	10192-10193	/	_	_	
+96-10	10193-10221	finetuning_ind_pretrained.py	_	_	
+96-11	10221-10222	`	_	_	
+96-12	10222-10223	.	_	_	
+96-13	10225-10226	#	_	_	
+96-14	10226-10227	#	_	_	
+96-15	10228-10229	5	_	_	
+96-16	10229-10230	.	_	_	
+
+#Text=Code paths
+#Text=
+#Text=The code is structured as follows:
+#Text=
+#Text=```bash
+#Text=|--- dm_nevis/
+#Text=|    |--- benchmarker/
+#Text=|    |--- datasets_storage/
+#Text=|    |--- streams/
+#Text=|--- experiments_jax/
+#Text=|    |--- launch.py
+#Text=|    |--- experiment.py
+#Text=|    |--- configs/
+#Text=|    |--- learners/
+#Text=|    |--- metrics/
+#Text=|    |--- environment/
+#Text=|    |--- training/
+#Text=|--- experiments_torch/
+#Text=|    |--- launch.py
+#Text=|    |--- experiment.py
+#Text=|    |--- configs/
+#Text=|    |--- learners/
+#Text=|    |--- metrics/
+#Text=|    |--- environment/
+#Text=|    |--- training/
+#Text=```
+#Text=
+#Text=`dm_nevis/` is the library of the benchmark, containing the `benchmarker/`
+#Text=library, which implements the evaluation protocol used in the [paper].
+97-1	10231-10235	Code	_	_	
+97-2	10236-10241	paths	_	_	
+97-3	10243-10246	The	_	_	
+97-4	10247-10251	code	_	_	
+97-5	10252-10254	is	_	_	
+97-6	10255-10265	structured	_	_	
+97-7	10266-10268	as	_	_	
+97-8	10269-10276	follows	_	_	
+97-9	10276-10277	:	_	_	
+97-10	10279-10280	`	_	_	
+97-11	10280-10281	`	_	_	
+97-12	10281-10282	`	_	_	
+97-13	10282-10286	bash	*	PROGLANG	
+97-14	10287-10288	|	_	_	
+97-15	10288-10289	-	_	_	
+97-16	10289-10290	-	_	_	
+97-17	10290-10291	-	_	_	
+97-18	10292-10300	dm_nevis	_	_	
+97-19	10300-10301	/	_	_	
+97-20	10302-10303	|	_	_	
+97-21	10307-10308	|	_	_	
+97-22	10308-10309	-	_	_	
+97-23	10309-10310	-	_	_	
+97-24	10310-10311	-	_	_	
+97-25	10312-10323	benchmarker	_	_	
+97-26	10323-10324	/	_	_	
+97-27	10325-10326	|	_	_	
+97-28	10330-10331	|	_	_	
+97-29	10331-10332	-	_	_	
+97-30	10332-10333	-	_	_	
+97-31	10333-10334	-	_	_	
+97-32	10335-10351	datasets_storage	_	_	
+97-33	10351-10352	/	_	_	
+97-34	10353-10354	|	_	_	
+97-35	10358-10359	|	_	_	
+97-36	10359-10360	-	_	_	
+97-37	10360-10361	-	_	_	
+97-38	10361-10362	-	_	_	
+97-39	10363-10370	streams	_	_	
+97-40	10370-10371	/	_	_	
+97-41	10372-10373	|	_	_	
+97-42	10373-10374	-	_	_	
+97-43	10374-10375	-	_	_	
+97-44	10375-10376	-	_	_	
+97-45	10377-10392	experiments_jax	_	_	
+97-46	10392-10393	/	_	_	
+97-47	10394-10395	|	_	_	
+97-48	10399-10400	|	_	_	
+97-49	10400-10401	-	_	_	
+97-50	10401-10402	-	_	_	
+97-51	10402-10403	-	_	_	
+97-52	10404-10413	launch.py	_	_	
+97-53	10414-10415	|	_	_	
+97-54	10419-10420	|	_	_	
+97-55	10420-10421	-	_	_	
+97-56	10421-10422	-	_	_	
+97-57	10422-10423	-	_	_	
+97-58	10424-10437	experiment.py	_	_	
+97-59	10438-10439	|	_	_	
+97-60	10443-10444	|	_	_	
+97-61	10444-10445	-	_	_	
+97-62	10445-10446	-	_	_	
+97-63	10446-10447	-	_	_	
+97-64	10448-10455	configs	_	_	
+97-65	10455-10456	/	_	_	
+97-66	10457-10458	|	_	_	
+97-67	10462-10463	|	_	_	
+97-68	10463-10464	-	_	_	
+97-69	10464-10465	-	_	_	
+97-70	10465-10466	-	_	_	
+97-71	10467-10475	learners	_	_	
+97-72	10475-10476	/	_	_	
+97-73	10477-10478	|	_	_	
+97-74	10482-10483	|	_	_	
+97-75	10483-10484	-	_	_	
+97-76	10484-10485	-	_	_	
+97-77	10485-10486	-	_	_	
+97-78	10487-10494	metrics	_	_	
+97-79	10494-10495	/	_	_	
+97-80	10496-10497	|	_	_	
+97-81	10501-10502	|	_	_	
+97-82	10502-10503	-	_	_	
+97-83	10503-10504	-	_	_	
+97-84	10504-10505	-	_	_	
+97-85	10506-10517	environment	_	_	
+97-86	10517-10518	/	_	_	
+97-87	10519-10520	|	_	_	
+97-88	10524-10525	|	_	_	
+97-89	10525-10526	-	_	_	
+97-90	10526-10527	-	_	_	
+97-91	10527-10528	-	_	_	
+97-92	10529-10537	training	_	_	
+97-93	10537-10538	/	_	_	
+97-94	10539-10540	|	_	_	
+97-95	10540-10541	-	_	_	
+97-96	10541-10542	-	_	_	
+97-97	10542-10543	-	_	_	
+97-98	10544-10561	experiments_torch	_	_	
+97-99	10561-10562	/	_	_	
+97-100	10563-10564	|	_	_	
+97-101	10568-10569	|	_	_	
+97-102	10569-10570	-	_	_	
+97-103	10570-10571	-	_	_	
+97-104	10571-10572	-	_	_	
+97-105	10573-10582	launch.py	_	_	
+97-106	10583-10584	|	_	_	
+97-107	10588-10589	|	_	_	
+97-108	10589-10590	-	_	_	
+97-109	10590-10591	-	_	_	
+97-110	10591-10592	-	_	_	
+97-111	10593-10606	experiment.py	_	_	
+97-112	10607-10608	|	_	_	
+97-113	10612-10613	|	_	_	
+97-114	10613-10614	-	_	_	
+97-115	10614-10615	-	_	_	
+97-116	10615-10616	-	_	_	
+97-117	10617-10624	configs	_	_	
+97-118	10624-10625	/	_	_	
+97-119	10626-10627	|	_	_	
+97-120	10631-10632	|	_	_	
+97-121	10632-10633	-	_	_	
+97-122	10633-10634	-	_	_	
+97-123	10634-10635	-	_	_	
+97-124	10636-10644	learners	_	_	
+97-125	10644-10645	/	_	_	
+97-126	10646-10647	|	_	_	
+97-127	10651-10652	|	_	_	
+97-128	10652-10653	-	_	_	
+97-129	10653-10654	-	_	_	
+97-130	10654-10655	-	_	_	
+97-131	10656-10663	metrics	_	_	
+97-132	10663-10664	/	_	_	
+97-133	10665-10666	|	_	_	
+97-134	10670-10671	|	_	_	
+97-135	10671-10672	-	_	_	
+97-136	10672-10673	-	_	_	
+97-137	10673-10674	-	_	_	
+97-138	10675-10686	environment	_	_	
+97-139	10686-10687	/	_	_	
+97-140	10688-10689	|	_	_	
+97-141	10693-10694	|	_	_	
+97-142	10694-10695	-	_	_	
+97-143	10695-10696	-	_	_	
+97-144	10696-10697	-	_	_	
+97-145	10698-10706	training	_	_	
+97-146	10706-10707	/	_	_	
+97-147	10708-10709	`	_	_	
+97-148	10709-10710	`	_	_	
+97-149	10710-10711	`	_	_	
+97-150	10713-10714	`	_	_	
+97-151	10714-10722	dm_nevis	_	_	
+97-152	10722-10723	/	_	_	
+97-153	10723-10724	`	_	_	
+97-154	10725-10727	is	_	_	
+97-155	10728-10731	the	_	_	
+97-156	10732-10739	library	_	_	
+97-157	10740-10742	of	_	_	
+97-158	10743-10746	the	_	_	
+97-159	10747-10756	benchmark	_	_	
+97-160	10756-10757	,	_	_	
+97-161	10758-10768	containing	_	_	
+97-162	10769-10772	the	_	_	
+97-163	10773-10774	`	_	_	
+97-164	10774-10785	benchmarker	_	_	
+97-165	10785-10786	/	_	_	
+97-166	10786-10787	`	_	_	
+97-167	10788-10795	library	_	_	
+97-168	10795-10796	,	_	_	
+97-169	10797-10802	which	_	_	
+97-170	10803-10813	implements	_	_	
+97-171	10814-10817	the	_	_	
+97-172	10818-10828	evaluation	_	_	
+97-173	10829-10837	protocol	_	_	
+97-174	10838-10842	used	_	_	
+97-175	10843-10845	in	_	_	
+97-176	10846-10849	the	_	_	
+97-177	10850-10851	[	_	_	
+97-178	10851-10856	paper	_	_	
+97-179	10856-10857	]	_	_	
+97-180	10857-10858	.	_	_	
+
+#Text=`datasets_storage/` is a package to support the downloading and preparation of
+#Text=datasets, and `streams/` is a package defining different streams.
+98-1	10859-10860	`	_	_	
+98-2	10860-10876	datasets_storage	_	_	
+98-3	10876-10877	/	_	_	
+98-4	10877-10878	`	_	_	
+98-5	10879-10881	is	_	_	
+98-6	10882-10883	a	_	_	
+98-7	10884-10891	package	_	_	
+98-8	10892-10894	to	_	_	
+98-9	10895-10902	support	_	_	
+98-10	10903-10906	the	_	_	
+98-11	10907-10918	downloading	_	_	
+98-12	10919-10922	and	_	_	
+98-13	10923-10934	preparation	_	_	
+98-14	10935-10937	of	_	_	
+98-15	10938-10946	datasets	_	_	
+98-16	10946-10947	,	_	_	
+98-17	10948-10951	and	_	_	
+98-18	10952-10953	`	_	_	
+98-19	10953-10960	streams	_	_	
+98-20	10960-10961	/	_	_	
+98-21	10961-10962	`	_	_	
+98-22	10963-10965	is	_	_	
+98-23	10966-10967	a	_	_	
+98-24	10968-10975	package	_	_	
+98-25	10976-10984	defining	_	_	
+98-26	10985-10994	different	_	_	
+98-27	10995-11002	streams	_	_	
+98-28	11002-11003	.	_	_	
+
+#Text=There are two directories containing baseline model implementations, one for jax
+#Text=(`experiments_jax`), and one for pytorch (`experiments_torch`).
+99-1	11005-11010	There	_	_	
+99-2	11011-11014	are	_	_	
+99-3	11015-11018	two	_	_	
+99-4	11019-11030	directories	_	_	
+99-5	11031-11041	containing	_	_	
+99-6	11042-11050	baseline	_	_	
+99-7	11051-11056	model	_	_	
+99-8	11057-11072	implementations	_	_	
+99-9	11072-11073	,	_	_	
+99-10	11074-11077	one	_	_	
+99-11	11078-11081	for	_	_	
+99-12	11082-11085	jax	*	SOFTWARE	
+99-13	11086-11087	(	_	_	
+99-14	11087-11088	`	_	_	
+99-15	11088-11103	experiments_jax	_	_	
+99-15.1	11100-11103	jax	*	SOFTWARE	
+99-16	11103-11104	`	_	_	
+99-17	11104-11105	)	_	_	
+99-18	11105-11106	,	_	_	
+99-19	11107-11110	and	_	_	
+99-20	11111-11114	one	_	_	
+99-21	11115-11118	for	_	_	
+99-22	11119-11126	pytorch	*	SOFTWARE	
+99-23	11127-11128	(	_	_	
+99-24	11128-11129	`	_	_	
+99-25	11129-11146	experiments_torch	_	_	
+99-25.1	11141-11146	torch	*	SOFTWARE	
+99-26	11146-11147	`	_	_	
+99-27	11147-11148	)	_	_	
+99-28	11148-11149	.	_	_	
+
+#Text=In each,
+#Text=`launch.py` is the Docker entrypoint, `experiment.py` is the module where all
+#Text=the execution happens, `configs/` provides the hyperparameters for each learner,
+#Text=`learners/` implements the learners (note: in some cases, there are different
+#Text=configs for the same learner), `metrics/` implements the metrics used in
+#Text=NEVIS'22, `environment/` provides the logger and checkpointer, and `training/`
+#Text=provides learner-agnostic utilities such as the heads, the backbone, but also a
+#Text=flops counter for example
+100-1	11150-11152	In	_	_	
+100-2	11153-11157	each	_	_	
+100-3	11157-11158	,	_	_	
+100-4	11159-11160	`	_	_	
+100-5	11160-11169	launch.py	_	_	
+100-6	11169-11170	`	_	_	
+100-7	11171-11173	is	_	_	
+100-8	11174-11177	the	_	_	
+100-9	11178-11184	Docker	*	SOFTWARE	
+100-10	11185-11195	entrypoint	_	_	
+100-11	11195-11196	,	_	_	
+100-12	11197-11198	`	_	_	
+100-13	11198-11211	experiment.py	_	_	
+100-14	11211-11212	`	_	_	
+100-15	11213-11215	is	_	_	
+100-16	11216-11219	the	_	_	
+100-17	11220-11226	module	_	_	
+100-18	11227-11232	where	_	_	
+100-19	11233-11236	all	_	_	
+100-20	11237-11240	the	_	_	
+100-21	11241-11250	execution	_	_	
+100-22	11251-11258	happens	_	_	
+100-23	11258-11259	,	_	_	
+100-24	11260-11261	`	_	_	
+100-25	11261-11268	configs	_	_	
+100-26	11268-11269	/	_	_	
+100-27	11269-11270	`	_	_	
+100-28	11271-11279	provides	_	_	
+100-29	11280-11283	the	_	_	
+100-30	11284-11299	hyperparameters	_	_	
+100-31	11300-11303	for	_	_	
+100-32	11304-11308	each	_	_	
+100-33	11309-11316	learner	_	_	
+100-34	11316-11317	,	_	_	
+100-35	11318-11319	`	_	_	
+100-36	11319-11327	learners	_	_	
+100-37	11327-11328	/	_	_	
+100-38	11328-11329	`	_	_	
+100-39	11330-11340	implements	_	_	
+100-40	11341-11344	the	_	_	
+100-41	11345-11353	learners	_	_	
+100-42	11354-11355	(	_	_	
+100-43	11355-11359	note	_	_	
+100-44	11359-11360	:	_	_	
+100-45	11361-11363	in	_	_	
+100-46	11364-11368	some	_	_	
+100-47	11369-11374	cases	_	_	
+100-48	11374-11375	,	_	_	
+100-49	11376-11381	there	_	_	
+100-50	11382-11385	are	_	_	
+100-51	11386-11395	different	_	_	
+100-52	11396-11403	configs	_	_	
+100-53	11404-11407	for	_	_	
+100-54	11408-11411	the	_	_	
+100-55	11412-11416	same	_	_	
+100-56	11417-11424	learner	_	_	
+100-57	11424-11425	)	_	_	
+100-58	11425-11426	,	_	_	
+100-59	11427-11428	`	_	_	
+100-60	11428-11435	metrics	_	_	
+100-61	11435-11436	/	_	_	
+100-62	11436-11437	`	_	_	
+100-63	11438-11448	implements	_	_	
+100-64	11449-11452	the	_	_	
+100-65	11453-11460	metrics	_	_	
+100-66	11461-11465	used	_	_	
+100-67	11466-11468	in	_	_	
+100-68	11469-11474	NEVIS	*[3]	SOFTWARE[3]	
+100-69	11474-11475	'	*[3]	SOFTWARE[3]	
+100-70	11475-11477	22	*[3]	SOFTWARE[3]	
+100-71	11477-11478	,	_	_	
+100-72	11479-11480	`	_	_	
+100-73	11480-11491	environment	_	_	
+100-74	11491-11492	/	_	_	
+100-75	11492-11493	`	_	_	
+100-76	11494-11502	provides	_	_	
+100-77	11503-11506	the	_	_	
+100-78	11507-11513	logger	_	_	
+100-79	11514-11517	and	_	_	
+100-80	11518-11530	checkpointer	_	_	
+100-81	11530-11531	,	_	_	
+100-82	11532-11535	and	_	_	
+100-83	11536-11537	`	_	_	
+100-84	11537-11545	training	_	_	
+100-85	11545-11546	/	_	_	
+100-86	11546-11547	`	_	_	
+100-87	11548-11556	provides	_	_	
+100-88	11557-11573	learner-agnostic	_	_	
+100-89	11574-11583	utilities	_	_	
+100-90	11584-11588	such	_	_	
+100-91	11589-11591	as	_	_	
+100-92	11592-11595	the	_	_	
+100-93	11596-11601	heads	_	_	
+100-94	11601-11602	,	_	_	
+100-95	11603-11606	the	_	_	
+100-96	11607-11615	backbone	_	_	
+100-97	11615-11616	,	_	_	
+100-98	11617-11620	but	_	_	
+100-99	11621-11625	also	_	_	
+100-100	11626-11627	a	_	_	
+100-101	11628-11633	flops	_	_	
+100-102	11634-11641	counter	_	_	
+100-103	11642-11645	for	_	_	
+100-104	11646-11653	example	_	_	
+
+#Text=.
+101-1	11653-11654	.	_	_	
+
+#Text=# Contact
+#Text=
+#Text=If you wish to contact us, please raise a GitHub issue.
+102-1	11656-11657	#	_	_	
+102-2	11658-11665	Contact	_	_	
+102-3	11667-11669	If	_	_	
+102-4	11670-11673	you	_	_	
+102-5	11674-11678	wish	_	_	
+102-6	11679-11681	to	_	_	
+102-7	11682-11689	contact	_	_	
+102-8	11690-11692	us	_	_	
+102-9	11692-11693	,	_	_	
+102-10	11694-11700	please	_	_	
+102-11	11701-11706	raise	_	_	
+102-12	11707-11708	a	_	_	
+102-13	11709-11715	GitHub	*	SOFTWARE	
+102-14	11716-11721	issue	_	_	
+102-15	11721-11722	.	_	_	
+
+#Text=If you are using the NEVIS'22 benchmark, please cite the following paper,
+#Text=
+#Text=```bibtex
+#Text=@article{bornschein2022nevis,
+#Text=  author={Bornschein, J\\"org and Galashov, Alexandre and Hemsley, Ross and Rannen-Triki, Amal and Chen, Yutian and Chaudhry, Arslan and He, Xu Owen and Douillard, Arthur and Caccia, Massimo and Feng, Qixuang and Shen, Jiajun and Rebuffi, Sylvestre-Alvise and Stacpoole, Kitty and de las Casas, Diego and Hawkins, Will and Lazaridou, Angeliki and Teh, Yee Whye and Rusu, Andrei A. and Pascanu, Razvan and Ranzato, Marc'Aurelio},
+#Text=  title={Nevis\\'22: A Stream of 100 Tasks Sampled from 30 Years of Computer Vision Research},
+#Text=  journal={CoRR},
+#Text=  volume={abs/2211.11747},
+#Text=  year={2022},
+#Text=  url={https://arxiv.org/abs/2211.11747},
+#Text=  eprinttype={arXiv}
+#Text=}
+#Text=```
+#Text=
+#Text=[paper]: https://arxiv.org/abs/2211.11747
+#Text=[blog post]: https://www.deepmind.com/blog/benchmarking-the-next-generation-of-never-ending-learners
+#Text=[tfds]: https://www.tensorflow.org/datasets/api_docs/python/tfds
+103-1	11724-11726	If	_	_	
+103-2	11727-11730	you	_	_	
+103-3	11731-11734	are	_	_	
+103-4	11735-11740	using	_	_	
+103-5	11741-11744	the	_	_	
+103-6	11745-11750	NEVIS	*[4]	SOFTWARE[4]	
+103-7	11750-11751	'	*[4]	SOFTWARE[4]	
+103-8	11751-11753	22	*[4]	SOFTWARE[4]	
+103-9	11754-11763	benchmark	_	_	
+103-10	11763-11764	,	_	_	
+103-11	11765-11771	please	_	_	
+103-12	11772-11776	cite	_	_	
+103-13	11777-11780	the	_	_	
+103-14	11781-11790	following	_	_	
+103-15	11791-11796	paper	_	_	
+103-16	11796-11797	,	_	_	
+103-17	11799-11800	`	_	_	
+103-18	11800-11801	`	_	_	
+103-19	11801-11802	`	_	_	
+103-20	11802-11808	bibtex	_	_	
+103-21	11809-11810	@	_	_	
+103-22	11810-11817	article	_	_	
+103-23	11817-11818	{	_	_	
+103-24	11818-11837	bornschein2022nevis	_	_	
+103-25	11837-11838	,	_	_	
+103-26	11841-11847	author	_	_	
+103-27	11847-11848	=	_	_	
+103-28	11848-11849	{	_	_	
+103-29	11849-11859	Bornschein	_	_	
+103-30	11859-11860	,	_	_	
+103-31	11861-11862	J	_	_	
+103-32	11862-11863	\	_	_	
+103-33	11863-11864	"	_	_	
+103-34	11864-11867	org	_	_	
+103-35	11868-11871	and	_	_	
+103-36	11872-11880	Galashov	_	_	
+103-37	11880-11881	,	_	_	
+103-38	11882-11891	Alexandre	_	_	
+103-39	11892-11895	and	_	_	
+103-40	11896-11903	Hemsley	_	_	
+103-41	11903-11904	,	_	_	
+103-42	11905-11909	Ross	_	_	
+103-43	11910-11913	and	_	_	
+103-44	11914-11926	Rannen-Triki	_	_	
+103-45	11926-11927	,	_	_	
+103-46	11928-11932	Amal	_	_	
+103-47	11933-11936	and	_	_	
+103-48	11937-11941	Chen	_	_	
+103-49	11941-11942	,	_	_	
+103-50	11943-11949	Yutian	_	_	
+103-51	11950-11953	and	_	_	
+103-52	11954-11962	Chaudhry	_	_	
+103-53	11962-11963	,	_	_	
+103-54	11964-11970	Arslan	_	_	
+103-55	11971-11974	and	_	_	
+103-56	11975-11977	He	_	_	
+103-57	11977-11978	,	_	_	
+103-58	11979-11981	Xu	_	_	
+103-59	11982-11986	Owen	_	_	
+103-60	11987-11990	and	_	_	
+103-61	11991-12000	Douillard	_	_	
+103-62	12000-12001	,	_	_	
+103-63	12002-12008	Arthur	_	_	
+103-64	12009-12012	and	_	_	
+103-65	12013-12019	Caccia	_	_	
+103-66	12019-12020	,	_	_	
+103-67	12021-12028	Massimo	_	_	
+103-68	12029-12032	and	_	_	
+103-69	12033-12037	Feng	_	_	
+103-70	12037-12038	,	_	_	
+103-71	12039-12046	Qixuang	_	_	
+103-72	12047-12050	and	_	_	
+103-73	12051-12055	Shen	_	_	
+103-74	12055-12056	,	_	_	
+103-75	12057-12063	Jiajun	_	_	
+103-76	12064-12067	and	_	_	
+103-77	12068-12075	Rebuffi	_	_	
+103-78	12075-12076	,	_	_	
+103-79	12077-12093	Sylvestre-Alvise	_	_	
+103-80	12094-12097	and	_	_	
+103-81	12098-12107	Stacpoole	_	_	
+103-82	12107-12108	,	_	_	
+103-83	12109-12114	Kitty	_	_	
+103-84	12115-12118	and	_	_	
+103-85	12119-12121	de	_	_	
+103-86	12122-12125	las	_	_	
+103-87	12126-12131	Casas	_	_	
+103-88	12131-12132	,	_	_	
+103-89	12133-12138	Diego	_	_	
+103-90	12139-12142	and	_	_	
+103-91	12143-12150	Hawkins	_	_	
+103-92	12150-12151	,	_	_	
+103-93	12152-12156	Will	_	_	
+103-94	12157-12160	and	_	_	
+103-95	12161-12170	Lazaridou	_	_	
+103-96	12170-12171	,	_	_	
+103-97	12172-12180	Angeliki	_	_	
+103-98	12181-12184	and	_	_	
+103-99	12185-12188	Teh	_	_	
+103-100	12188-12189	,	_	_	
+103-101	12190-12193	Yee	_	_	
+103-102	12194-12198	Whye	_	_	
+103-103	12199-12202	and	_	_	
+103-104	12203-12207	Rusu	_	_	
+103-105	12207-12208	,	_	_	
+103-106	12209-12215	Andrei	_	_	
+103-107	12216-12217	A	_	_	
+103-108	12217-12218	.	_	_	
+103-109	12219-12222	and	_	_	
+103-110	12223-12230	Pascanu	_	_	
+103-111	12230-12231	,	_	_	
+103-112	12232-12238	Razvan	_	_	
+103-113	12239-12242	and	_	_	
+103-114	12243-12250	Ranzato	_	_	
+103-115	12250-12251	,	_	_	
+103-116	12252-12264	Marc'Aurelio	_	_	
+103-117	12264-12265	}	_	_	
+103-118	12265-12266	,	_	_	
+103-119	12269-12274	title	_	_	
+103-120	12274-12275	=	_	_	
+103-121	12275-12276	{	_	_	
+103-122	12276-12281	Nevis	*[5]	PUBLICATION[5]	
+103-123	12281-12282	\	*[5]	PUBLICATION[5]	
+103-124	12282-12283	'	*[5]	PUBLICATION[5]	
+103-125	12283-12285	22	*[5]	PUBLICATION[5]	
+103-126	12285-12286	:	*[5]	PUBLICATION[5]	
+103-127	12287-12288	A	*[5]	PUBLICATION[5]	
+103-128	12289-12295	Stream	*[5]	PUBLICATION[5]	
+103-129	12296-12298	of	*[5]	PUBLICATION[5]	
+103-130	12299-12302	100	*[5]	PUBLICATION[5]	
+103-131	12303-12308	Tasks	*[5]	PUBLICATION[5]	
+103-132	12309-12316	Sampled	*[5]	PUBLICATION[5]	
+103-133	12317-12321	from	*[5]	PUBLICATION[5]	
+103-134	12322-12324	30	*[5]	PUBLICATION[5]	
+103-135	12325-12330	Years	*[5]	PUBLICATION[5]	
+103-136	12331-12333	of	*[5]	PUBLICATION[5]	
+103-137	12334-12342	Computer	*[5]	PUBLICATION[5]	
+103-138	12343-12349	Vision	*[5]	PUBLICATION[5]	
+103-139	12350-12358	Research	*[5]	PUBLICATION[5]	
+103-140	12358-12359	}	_	_	
+103-141	12359-12360	,	_	_	
+103-142	12363-12370	journal	_	_	
+103-143	12370-12371	=	_	_	
+103-144	12371-12372	{	_	_	
+103-145	12372-12376	CoRR	_	_	
+103-146	12376-12377	}	_	_	
+103-147	12377-12378	,	_	_	
+103-148	12381-12387	volume	_	_	
+103-149	12387-12388	=	_	_	
+103-150	12388-12389	{	_	_	
+103-151	12389-12392	abs	_	_	
+103-152	12392-12393	/	_	_	
+103-153	12393-12403	2211.11747	_	_	
+103-154	12403-12404	}	_	_	
+103-155	12404-12405	,	_	_	
+103-156	12408-12412	year	_	_	
+103-157	12412-12413	=	_	_	
+103-158	12413-12414	{	_	_	
+103-159	12414-12418	2022	_	_	
+103-160	12418-12419	}	_	_	
+103-161	12419-12420	,	_	_	
+103-162	12423-12426	url	_	_	
+103-163	12426-12427	=	_	_	
+103-164	12427-12428	{	_	_	
+103-165	12428-12433	https	_	_	
+103-166	12433-12434	:	_	_	
+103-167	12434-12435	/	_	_	
+103-168	12435-12436	/	_	_	
+103-169	12436-12445	arxiv.org	_	_	
+103-170	12445-12446	/	_	_	
+103-171	12446-12449	abs	_	_	
+103-172	12449-12450	/	_	_	
+103-173	12450-12460	2211.11747	_	_	
+103-174	12460-12461	}	_	_	
+103-175	12461-12462	,	_	_	
+103-176	12465-12475	eprinttype	_	_	
+103-177	12475-12476	=	_	_	
+103-178	12476-12477	{	_	_	
+103-179	12477-12482	arXiv	_	_	
+103-180	12482-12483	}	_	_	
+103-181	12484-12485	}	_	_	
+103-182	12486-12487	`	_	_	
+103-183	12487-12488	`	_	_	
+103-184	12488-12489	`	_	_	
+103-185	12491-12492	[	_	_	
+103-186	12492-12497	paper	_	_	
+103-187	12497-12498	]	_	_	
+103-188	12498-12499	:	_	_	
+103-189	12500-12505	https	_	_	
+103-190	12505-12506	:	_	_	
+103-191	12506-12507	/	_	_	
+103-192	12507-12508	/	_	_	
+103-193	12508-12517	arxiv.org	_	_	
+103-194	12517-12518	/	_	_	
+103-195	12518-12521	abs	_	_	
+103-196	12521-12522	/	_	_	
+103-197	12522-12532	2211.11747	_	_	
+103-198	12533-12534	[	_	_	
+103-199	12534-12538	blog	_	_	
+103-200	12539-12543	post	_	_	
+103-201	12543-12544	]	_	_	
+103-202	12544-12545	:	_	_	
+103-203	12546-12551	https	_	_	
+103-204	12551-12552	:	_	_	
+103-205	12552-12553	/	_	_	
+103-206	12553-12554	/	_	_	
+103-207	12554-12570	www.deepmind.com	_	_	
+103-208	12570-12571	/	_	_	
+103-209	12571-12575	blog	_	_	
+103-210	12575-12576	/	_	_	
+103-211	12576-12633	benchmarking-the-next-generation-of-never-ending-learners	_	_	
+103-212	12634-12635	[	_	_	
+103-213	12635-12639	tfds	_	_	
+103-214	12639-12640	]	_	_	
+103-215	12640-12641	:	_	_	
+103-216	12642-12647	https	_	_	
+103-217	12647-12648	:	_	_	
+103-218	12648-12649	/	_	_	
+103-219	12649-12650	/	_	_	
+103-220	12650-12668	www.tensorflow.org	_	_	
+103-220.1	12654-12664	tensorflow	*	SOFTWARE	
+103-221	12668-12669	/	_	_	
+103-222	12669-12677	datasets	_	_	
+103-223	12677-12678	/	_	_	
+103-224	12678-12686	api_docs	_	_	
+103-225	12686-12687	/	_	_	
+103-226	12687-12693	python	_	_	
+103-227	12693-12694	/	_	_	
+103-228	12694-12698	tfds	_	_	

@@ -1,0 +1,1 @@
+The contribution of this paper is threefold: * Global and local information are combined in order to accurately complete and correct the sparse and noisy LiDAR input.

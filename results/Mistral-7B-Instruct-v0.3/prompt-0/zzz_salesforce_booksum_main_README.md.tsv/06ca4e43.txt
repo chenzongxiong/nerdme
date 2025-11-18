@@ -1,0 +1,5 @@
+The annotated text in Markdown format is as follows:
+
+```
+[Legal Note](#legal-note) 4.
+The <PROJECT>Paper With Code</PROJECT> project (https://<PROJECT>paperswithcode</PROJECT>.com/) <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is used for the evaluation of the <SOFTWARE>Protege ontology editor</SOFTWARE>. The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>. The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (ISWC 2019) <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> refers to the [Thermal Image Super-Resolution](https://<WORKSHOP>pbvs-workshop</WORKSHOP>.github

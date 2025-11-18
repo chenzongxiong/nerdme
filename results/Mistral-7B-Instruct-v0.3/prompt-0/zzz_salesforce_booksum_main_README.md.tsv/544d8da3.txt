@@ -1,0 +1,3 @@
+```
+Chapters 1-3 summary separated into 3 different sections - <PROJECT>split_aggregate_chaps_all_sources</PROJECT>.py <WORKSHOP>Chapter 1 summary</WORKSHOP>, <WORKSHOP>Chapter 2 summary</WORKSHOP>, <WORKSHOP>Chapter 3 summary</WORKSHOP>)     ```
+```

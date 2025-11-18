@@ -1,0 +1,1178 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=## MAP-Elites for Constrained Optimization
+#Text=
+#Text=Python implementation of the [MAP Elites algorithm](https://arxiv.org/abs/1504.04909) (originally devised for unconstrained optimization), for constrained optimization problems.
+1-1	0-1	#	_	_	
+1-2	1-2	#	_	_	
+1-3	3-13	MAP-Elites	*[1]	PUBLICATION[1]	
+1-4	14-17	for	*[1]	PUBLICATION[1]	
+1-5	18-29	Constrained	*[1]	PUBLICATION[1]	
+1-6	30-42	Optimization	*[1]	PUBLICATION[1]	
+1-7	44-50	Python	*	PROGLANG	
+1-8	51-65	implementation	_	_	
+1-9	66-68	of	_	_	
+1-10	69-72	the	_	_	
+1-11	73-74	[	_	_	
+1-12	74-77	MAP	_	_	
+1-13	78-84	Elites	_	_	
+1-14	85-94	algorithm	_	_	
+1-15	94-95	]	_	_	
+1-16	95-96	(	_	_	
+1-17	96-101	https	_	_	
+1-18	101-102	:	_	_	
+1-19	102-103	/	_	_	
+1-20	103-104	/	_	_	
+1-21	104-113	arxiv.org	_	_	
+1-22	113-114	/	_	_	
+1-23	114-117	abs	_	_	
+1-24	117-118	/	_	_	
+1-25	118-128	1504.04909	_	_	
+1-26	128-129	)	_	_	
+1-27	130-131	(	_	_	
+1-28	131-141	originally	_	_	
+1-29	142-149	devised	_	_	
+1-30	150-153	for	_	_	
+1-31	154-167	unconstrained	_	_	
+1-32	168-180	optimization	_	_	
+1-33	180-181	)	_	_	
+1-34	181-182	,	_	_	
+1-35	183-186	for	_	_	
+1-36	187-198	constrained	_	_	
+1-37	199-211	optimization	_	_	
+1-38	212-220	problems	_	_	
+1-39	220-221	.	_	_	
+
+#Text=More details can be found in our original [GECCO paper](https://dl.acm.org/doi/10.1145/3319619.3321939) and its [extended arXiv version](https://arxiv.org/abs/1902.00703).
+#Text=
+#Text=#### Implementation
+#Text=
+#Text=```
+#Text=.
+#Text=├── controller.py
+#Text=├── map_elites
+#Text=│   ├── mapelites.py
+#Text=│   ├── plot_utils.py
+#Text=│   └── ea_operators.py
+#Text=├── functions.py
+#Text=├── config.ini
+#Text=├── mapelites_continuous_opt.py
+#Text=├── notebooks
+#Text=│   ├── plotter.ipynb
+#Text=│   └── n_dim_plotter.ipynb
+#Text=└── utils
+#Text=    └── fcnsuite.c
+#Text=```
+#Text=
+#Text=The algorithm is implemented to be as general as possible and applicable to any setting.
+2-1	222-226	More	_	_	
+2-2	227-234	details	_	_	
+2-3	235-238	can	_	_	
+2-4	239-241	be	_	_	
+2-5	242-247	found	_	_	
+2-6	248-250	in	_	_	
+2-7	251-254	our	_	_	
+2-8	255-263	original	_	_	
+2-9	264-265	[	_	_	
+2-10	265-270	GECCO	_	_	
+2-11	271-276	paper	_	_	
+2-12	276-277	]	_	_	
+2-13	277-278	(	_	_	
+2-14	278-283	https	_	_	
+2-15	283-284	:	_	_	
+2-16	284-285	/	_	_	
+2-17	285-286	/	_	_	
+2-18	286-296	dl.acm.org	_	_	
+2-19	296-297	/	_	_	
+2-20	297-300	doi	_	_	
+2-21	300-301	/	_	_	
+2-22	301-308	10.1145	_	_	
+2-23	308-309	/	_	_	
+2-24	309-324	3319619.3321939	_	_	
+2-25	324-325	)	_	_	
+2-26	326-329	and	_	_	
+2-27	330-333	its	_	_	
+2-28	334-335	[	_	_	
+2-29	335-343	extended	_	_	
+2-30	344-349	arXiv	_	_	
+2-31	350-357	version	_	_	
+2-32	357-358	]	_	_	
+2-33	358-359	(	_	_	
+2-34	359-364	https	_	_	
+2-35	364-365	:	_	_	
+2-36	365-366	/	_	_	
+2-37	366-367	/	_	_	
+2-38	367-376	arxiv.org	_	_	
+2-39	376-377	/	_	_	
+2-40	377-380	abs	_	_	
+2-41	380-381	/	_	_	
+2-42	381-391	1902.00703	_	_	
+2-43	391-392	)	_	_	
+2-44	392-393	.	_	_	
+2-45	395-396	#	_	_	
+2-46	396-397	#	_	_	
+2-47	397-398	#	_	_	
+2-48	398-399	#	_	_	
+2-49	400-414	Implementation	_	_	
+2-50	416-417	`	_	_	
+2-51	417-418	`	_	_	
+2-52	418-419	`	_	_	
+2-53	420-421	.	_	_	
+2-54	422-423	├	_	_	
+2-55	423-424	─	_	_	
+2-56	424-425	─	_	_	
+2-57	426-439	controller.py	_	_	
+2-58	440-441	├	_	_	
+2-59	441-442	─	_	_	
+2-60	442-443	─	_	_	
+2-61	444-454	map_elites	_	_	
+2-62	455-456	│	_	_	
+2-63	459-460	├	_	_	
+2-64	460-461	─	_	_	
+2-65	461-462	─	_	_	
+2-66	463-475	mapelites.py	_	_	
+2-67	476-477	│	_	_	
+2-68	480-481	├	_	_	
+2-69	481-482	─	_	_	
+2-70	482-483	─	_	_	
+2-71	484-497	plot_utils.py	_	_	
+2-72	498-499	│	_	_	
+2-73	502-503	└	_	_	
+2-74	503-504	─	_	_	
+2-75	504-505	─	_	_	
+2-76	506-521	ea_operators.py	_	_	
+2-77	522-523	├	_	_	
+2-78	523-524	─	_	_	
+2-79	524-525	─	_	_	
+2-80	526-538	functions.py	_	_	
+2-81	539-540	├	_	_	
+2-82	540-541	─	_	_	
+2-83	541-542	─	_	_	
+2-84	543-553	config.ini	_	_	
+2-85	554-555	├	_	_	
+2-86	555-556	─	_	_	
+2-87	556-557	─	_	_	
+2-88	558-585	mapelites_continuous_opt.py	_	_	
+2-89	586-587	├	_	_	
+2-90	587-588	─	_	_	
+2-91	588-589	─	_	_	
+2-92	590-599	notebooks	_	_	
+2-93	600-601	│	_	_	
+2-94	604-605	├	_	_	
+2-95	605-606	─	_	_	
+2-96	606-607	─	_	_	
+2-97	608-621	plotter.ipynb	_	_	
+2-98	622-623	│	_	_	
+2-99	626-627	└	_	_	
+2-100	627-628	─	_	_	
+2-101	628-629	─	_	_	
+2-102	630-649	n_dim_plotter.ipynb	_	_	
+2-103	650-651	└	_	_	
+2-104	651-652	─	_	_	
+2-105	652-653	─	_	_	
+2-106	654-659	utils	_	_	
+2-107	664-665	└	_	_	
+2-108	665-666	─	_	_	
+2-109	666-667	─	_	_	
+2-110	668-678	fcnsuite.c	_	_	
+2-111	679-680	`	_	_	
+2-112	680-681	`	_	_	
+2-113	681-682	`	_	_	
+2-114	684-687	The	_	_	
+2-115	688-697	algorithm	_	_	
+2-116	698-700	is	_	_	
+2-117	701-712	implemented	_	_	
+2-118	713-715	to	_	_	
+2-119	716-718	be	_	_	
+2-120	719-721	as	_	_	
+2-121	722-729	general	_	_	
+2-122	730-732	as	_	_	
+2-123	733-741	possible	_	_	
+2-124	742-745	and	_	_	
+2-125	746-756	applicable	_	_	
+2-126	757-759	to	_	_	
+2-127	760-763	any	_	_	
+2-128	764-771	setting	_	_	
+2-129	771-772	.	_	_	
+
+#Text=The main MAPElites class in `mapelites.py` is an abstract class implementing all the base logic common to any instance of the algorithm.
+3-1	773-776	The	_	_	
+3-2	777-781	main	_	_	
+3-3	782-791	MAPElites	_	_	
+3-4	792-797	class	_	_	
+3-5	798-800	in	_	_	
+3-6	801-802	`	_	_	
+3-7	802-814	mapelites.py	_	_	
+3-8	814-815	`	_	_	
+3-9	816-818	is	_	_	
+3-10	819-821	an	_	_	
+3-11	822-830	abstract	_	_	
+3-12	831-836	class	_	_	
+3-13	837-849	implementing	_	_	
+3-14	850-853	all	_	_	
+3-15	854-857	the	_	_	
+3-16	858-862	base	_	_	
+3-17	863-868	logic	_	_	
+3-18	869-875	common	_	_	
+3-19	876-878	to	_	_	
+3-20	879-882	any	_	_	
+3-21	883-891	instance	_	_	
+3-22	892-894	of	_	_	
+3-23	895-898	the	_	_	
+3-24	899-908	algorithm	_	_	
+3-25	908-909	.	_	_	
+
+#Text=To run the algorithm you need to subclass `MapElites` and implement `map_x_to_b()`, `performance_measure()`, `generate_random_solution()`, `generate_feature_dimensions()`.
+4-1	912-914	To	_	_	
+4-2	915-918	run	_	_	
+4-3	919-922	the	_	_	
+4-4	923-932	algorithm	_	_	
+4-5	933-936	you	_	_	
+4-6	937-941	need	_	_	
+4-7	942-944	to	_	_	
+4-8	945-953	subclass	_	_	
+4-9	954-955	`	_	_	
+4-10	955-964	MapElites	_	_	
+4-11	964-965	`	_	_	
+4-12	966-969	and	_	_	
+4-13	970-979	implement	_	_	
+4-14	980-981	`	_	_	
+4-15	981-991	map_x_to_b	_	_	
+4-16	991-992	(	_	_	
+4-17	992-993	)	_	_	
+4-18	993-994	`	_	_	
+4-19	994-995	,	_	_	
+4-20	996-997	`	_	_	
+4-21	997-1016	performance_measure	_	_	
+4-22	1016-1017	(	_	_	
+4-23	1017-1018	)	_	_	
+4-24	1018-1019	`	_	_	
+4-25	1019-1020	,	_	_	
+4-26	1021-1022	`	_	_	
+4-27	1022-1046	generate_random_solution	_	_	
+4-28	1046-1047	(	_	_	
+4-29	1047-1048	)	_	_	
+4-30	1048-1049	`	_	_	
+4-31	1049-1050	,	_	_	
+4-32	1051-1052	`	_	_	
+4-33	1052-1079	generate_feature_dimensions	_	_	
+4-34	1079-1080	(	_	_	
+4-35	1080-1081	)	_	_	
+4-36	1081-1082	`	_	_	
+4-37	1082-1083	.	_	_	
+
+#Text=Refer to the functions documentation and the example below for more details.
+5-1	1084-1089	Refer	_	_	
+5-2	1090-1092	to	_	_	
+5-3	1093-1096	the	_	_	
+5-4	1097-1106	functions	_	_	
+5-5	1107-1120	documentation	_	_	
+5-6	1121-1124	and	_	_	
+5-7	1125-1128	the	_	_	
+5-8	1129-1136	example	_	_	
+5-9	1137-1142	below	_	_	
+5-10	1143-1146	for	_	_	
+5-11	1147-1151	more	_	_	
+5-12	1152-1159	details	_	_	
+5-13	1159-1160	.	_	_	
+
+#Text=MAP-Elites was designed to have a visual impact by showing its results in a heatmap plot in the feature dimensions.
+6-1	1162-1172	MAP-Elites	_	_	
+6-2	1173-1176	was	_	_	
+6-3	1177-1185	designed	_	_	
+6-4	1186-1188	to	_	_	
+6-5	1189-1193	have	_	_	
+6-6	1194-1195	a	_	_	
+6-7	1196-1202	visual	_	_	
+6-8	1203-1209	impact	_	_	
+6-9	1210-1212	by	_	_	
+6-10	1213-1220	showing	_	_	
+6-11	1221-1224	its	_	_	
+6-12	1225-1232	results	_	_	
+6-13	1233-1235	in	_	_	
+6-14	1236-1237	a	_	_	
+6-15	1238-1245	heatmap	_	_	
+6-16	1246-1250	plot	_	_	
+6-17	1251-1253	in	_	_	
+6-18	1254-1257	the	_	_	
+6-19	1258-1265	feature	_	_	
+6-20	1266-1276	dimensions	_	_	
+6-21	1276-1277	.	_	_	
+
+#Text=This implementation supports up to 4 dimensional heatmap plotting, with nested dimensions in the same plot.
+7-1	1278-1282	This	_	_	
+7-2	1283-1297	implementation	_	_	
+7-3	1298-1306	supports	_	_	
+7-4	1307-1309	up	_	_	
+7-5	1310-1312	to	_	_	
+7-6	1313-1314	4	_	_	
+7-7	1315-1326	dimensional	_	_	
+7-8	1327-1334	heatmap	_	_	
+7-9	1335-1343	plotting	_	_	
+7-10	1343-1344	,	_	_	
+7-11	1345-1349	with	_	_	
+7-12	1350-1356	nested	_	_	
+7-13	1357-1367	dimensions	_	_	
+7-14	1368-1370	in	_	_	
+7-15	1371-1374	the	_	_	
+7-16	1375-1379	same	_	_	
+7-17	1380-1384	plot	_	_	
+7-18	1384-1385	.	_	_	
+
+#Text=Refer to the `plot_heatmap()` function in `plot_utils.py` for more details.
+8-1	1386-1391	Refer	_	_	
+8-2	1392-1394	to	_	_	
+8-3	1395-1398	the	_	_	
+8-4	1399-1400	`	_	_	
+8-5	1400-1412	plot_heatmap	_	_	
+8-6	1412-1413	(	_	_	
+8-7	1413-1414	)	_	_	
+8-8	1414-1415	`	_	_	
+8-9	1416-1424	function	_	_	
+8-10	1425-1427	in	_	_	
+8-11	1428-1429	`	_	_	
+8-12	1429-1442	plot_utils.py	_	_	
+8-13	1442-1443	`	_	_	
+8-14	1444-1447	for	_	_	
+8-15	1448-1452	more	_	_	
+8-16	1453-1460	details	_	_	
+8-17	1460-1461	.	_	_	
+
+#Text=Crossover and mutation evolutionary operators are implemented in `ea_operators.py`, you can extend that source file to add more custom evolutionary operators.
+#Text=
+#Text=#### Configuration
+#Text=
+#Text=All the configuration can be done using the `config.ini` file provided at the root of the project.
+9-1	1463-1472	Crossover	_	_	
+9-2	1473-1476	and	_	_	
+9-3	1477-1485	mutation	_	_	
+9-4	1486-1498	evolutionary	_	_	
+9-5	1499-1508	operators	_	_	
+9-6	1509-1512	are	_	_	
+9-7	1513-1524	implemented	_	_	
+9-8	1525-1527	in	_	_	
+9-9	1528-1529	`	_	_	
+9-10	1529-1544	ea_operators.py	_	_	
+9-11	1544-1545	`	_	_	
+9-12	1545-1546	,	_	_	
+9-13	1547-1550	you	_	_	
+9-14	1551-1554	can	_	_	
+9-15	1555-1561	extend	_	_	
+9-16	1562-1566	that	_	_	
+9-17	1567-1573	source	_	_	
+9-18	1574-1578	file	_	_	
+9-19	1579-1581	to	_	_	
+9-20	1582-1585	add	_	_	
+9-21	1586-1590	more	_	_	
+9-22	1591-1597	custom	_	_	
+9-23	1598-1610	evolutionary	_	_	
+9-24	1611-1620	operators	_	_	
+9-25	1620-1621	.	_	_	
+9-26	1623-1624	#	_	_	
+9-27	1624-1625	#	_	_	
+9-28	1625-1626	#	_	_	
+9-29	1626-1627	#	_	_	
+9-30	1628-1641	Configuration	_	_	
+9-31	1643-1646	All	_	_	
+9-32	1647-1650	the	_	_	
+9-33	1651-1664	configuration	_	_	
+9-34	1665-1668	can	_	_	
+9-35	1669-1671	be	_	_	
+9-36	1672-1676	done	_	_	
+9-37	1677-1682	using	_	_	
+9-38	1683-1686	the	_	_	
+9-39	1687-1688	`	_	_	
+9-40	1688-1698	config.ini	_	_	
+9-41	1698-1699	`	_	_	
+9-42	1700-1704	file	_	_	
+9-43	1705-1713	provided	_	_	
+9-44	1714-1716	at	_	_	
+9-45	1717-1720	the	_	_	
+9-46	1721-1725	root	_	_	
+9-47	1726-1728	of	_	_	
+9-48	1729-1732	the	_	_	
+9-49	1733-1740	project	_	_	
+9-50	1740-1741	.	_	_	
+
+#Text=Here is an example configuration file:
+#Text=
+#Text=```ini
+#Text=[mapelites]
+#Text=; random seed
+#Text=seed = 54
+#Text=; number of initial random samples
+#Text=bootstrap_individuals = 100
+#Text=; numer of map elites iterations
+#Text=iterations = 10000
+#Text=; True: solve a minimization problem.
+10-1	1742-1746	Here	_	_	
+10-2	1747-1749	is	_	_	
+10-3	1750-1752	an	_	_	
+10-4	1753-1760	example	_	_	
+10-5	1761-1774	configuration	_	_	
+10-6	1775-1779	file	_	_	
+10-7	1779-1780	:	_	_	
+10-8	1782-1783	`	_	_	
+10-9	1783-1784	`	_	_	
+10-10	1784-1785	`	_	_	
+10-11	1785-1788	ini	_	_	
+10-12	1789-1790	[	_	_	
+10-13	1790-1799	mapelites	_	_	
+10-14	1799-1800	]	_	_	
+10-15	1801-1802	;	_	_	
+10-16	1803-1809	random	_	_	
+10-17	1810-1814	seed	_	_	
+10-18	1815-1819	seed	_	_	
+10-19	1820-1821	=	_	_	
+10-20	1822-1824	54	_	_	
+10-21	1825-1826	;	_	_	
+10-22	1827-1833	number	_	_	
+10-23	1834-1836	of	_	_	
+10-24	1837-1844	initial	_	_	
+10-25	1845-1851	random	_	_	
+10-26	1852-1859	samples	_	_	
+10-27	1860-1881	bootstrap_individuals	_	_	
+10-28	1882-1883	=	_	_	
+10-29	1884-1887	100	_	_	
+10-30	1888-1889	;	_	_	
+10-31	1890-1895	numer	_	_	
+10-32	1896-1898	of	_	_	
+10-33	1899-1902	map	_	_	
+10-34	1903-1909	elites	_	_	
+10-35	1910-1920	iterations	_	_	
+10-36	1921-1931	iterations	_	_	
+10-37	1932-1933	=	_	_	
+10-38	1934-1939	10000	_	_	
+10-39	1940-1941	;	_	_	
+10-40	1942-1946	True	_	_	
+10-41	1946-1947	:	_	_	
+10-42	1948-1953	solve	_	_	
+10-43	1954-1955	a	_	_	
+10-44	1956-1968	minimization	_	_	
+10-45	1969-1976	problem	_	_	
+10-46	1976-1977	.	_	_	
+
+#Text=False: solve a maximization problem
+#Text=minimization = True
+#Text=
+#Text=[opt_function]
+#Text=; Define the optimization function.
+#Text=; This must be the name of a class subclassing the abstract class ConstrainedFunction.
+11-1	1978-1983	False	_	_	
+11-2	1983-1984	:	_	_	
+11-3	1985-1990	solve	_	_	
+11-4	1991-1992	a	_	_	
+11-5	1993-2005	maximization	_	_	
+11-6	2006-2013	problem	_	_	
+11-7	2014-2026	minimization	_	_	
+11-8	2027-2028	=	_	_	
+11-9	2029-2033	True	_	_	
+11-10	2035-2036	[	_	_	
+11-11	2036-2048	opt_function	_	_	
+11-12	2048-2049	]	_	_	
+11-13	2050-2051	;	_	_	
+11-14	2052-2058	Define	_	_	
+11-15	2059-2062	the	_	_	
+11-16	2063-2075	optimization	_	_	
+11-17	2076-2084	function	_	_	
+11-18	2084-2085	.	_	_	
+11-19	2086-2087	;	_	_	
+11-20	2088-2092	This	_	_	
+11-21	2093-2097	must	_	_	
+11-22	2098-2100	be	_	_	
+11-23	2101-2104	the	_	_	
+11-24	2105-2109	name	_	_	
+11-25	2110-2112	of	_	_	
+11-26	2113-2114	a	_	_	
+11-27	2115-2120	class	_	_	
+11-28	2121-2132	subclassing	_	_	
+11-29	2133-2136	the	_	_	
+11-30	2137-2145	abstract	_	_	
+11-31	2146-2151	class	_	_	
+11-32	2152-2171	ConstrainedFunction	_	_	
+11-33	2171-2172	.	_	_	
+
+#Text=See functions.py for reference
+#Text=name = C16
+#Text=; Number of dimensions of the optimization function
+#Text=dimensions = 4
+#Text=; Define heatmap bins for feature dimensions
+#Text=; Name each bin as `bin_{name of constraint}` where `name_of_constraint` is the name of the constraint
+#Text=; function implemented in the specified optimization function class
+#Text=; If you want to define ONE bin for all constraints, name it `bin_all`
+#Text=; Note: The bins must be defined by numbers, except for the `inf` label which can be defined ether at the beginning
+#Text=; of at the end of the bins.
+#Text=; bin_all = inf,0.0,1.0,2.0,3.0,4.0,inf
+#Text=bin_g1 = inf,0.0,1.0,2.0,3.0,4.0,inf
+#Text=bin_g2 = inf,0.0,1.0,2.0,3.0,inf
+#Text=bin_h1 = inf,0.0,1.0,2.0,3.0,4.0,5.0,inf
+#Text=bin_h2 = inf,0.0,1.0,2.0,inf
+#Text=
+#Text=[crossover]
+#Text=; Crossover function taken from ea_operators.py file.
+#Text=; Name of called function is {type}_crossover().
+12-1	2173-2176	See	_	_	
+12-2	2177-2189	functions.py	_	_	
+12-3	2190-2193	for	_	_	
+12-4	2194-2203	reference	_	_	
+12-5	2204-2208	name	_	_	
+12-6	2209-2210	=	_	_	
+12-7	2211-2214	C16	_	_	
+12-8	2215-2216	;	_	_	
+12-9	2217-2223	Number	_	_	
+12-10	2224-2226	of	_	_	
+12-11	2227-2237	dimensions	_	_	
+12-12	2238-2240	of	_	_	
+12-13	2241-2244	the	_	_	
+12-14	2245-2257	optimization	_	_	
+12-15	2258-2266	function	_	_	
+12-16	2267-2277	dimensions	_	_	
+12-17	2278-2279	=	_	_	
+12-18	2280-2281	4	_	_	
+12-19	2282-2283	;	_	_	
+12-20	2284-2290	Define	_	_	
+12-21	2291-2298	heatmap	_	_	
+12-22	2299-2303	bins	_	_	
+12-23	2304-2307	for	_	_	
+12-24	2308-2315	feature	_	_	
+12-25	2316-2326	dimensions	_	_	
+12-26	2327-2328	;	_	_	
+12-27	2329-2333	Name	_	_	
+12-28	2334-2338	each	_	_	
+12-29	2339-2342	bin	_	_	
+12-30	2343-2345	as	_	_	
+12-31	2346-2347	`	_	_	
+12-32	2347-2350	bin	_	_	
+12-33	2350-2351	_	_	_	
+12-34	2351-2352	{	_	_	
+12-35	2352-2356	name	_	_	
+12-36	2357-2359	of	_	_	
+12-37	2360-2370	constraint	_	_	
+12-38	2370-2371	}	_	_	
+12-39	2371-2372	`	_	_	
+12-40	2373-2378	where	_	_	
+12-41	2379-2380	`	_	_	
+12-42	2380-2398	name_of_constraint	_	_	
+12-43	2398-2399	`	_	_	
+12-44	2400-2402	is	_	_	
+12-45	2403-2406	the	_	_	
+12-46	2407-2411	name	_	_	
+12-47	2412-2414	of	_	_	
+12-48	2415-2418	the	_	_	
+12-49	2419-2429	constraint	_	_	
+12-50	2430-2431	;	_	_	
+12-51	2432-2440	function	_	_	
+12-52	2441-2452	implemented	_	_	
+12-53	2453-2455	in	_	_	
+12-54	2456-2459	the	_	_	
+12-55	2460-2469	specified	_	_	
+12-56	2470-2482	optimization	_	_	
+12-57	2483-2491	function	_	_	
+12-58	2492-2497	class	_	_	
+12-59	2498-2499	;	_	_	
+12-60	2500-2502	If	_	_	
+12-61	2503-2506	you	_	_	
+12-62	2507-2511	want	_	_	
+12-63	2512-2514	to	_	_	
+12-64	2515-2521	define	_	_	
+12-65	2522-2525	ONE	_	_	
+12-66	2526-2529	bin	_	_	
+12-67	2530-2533	for	_	_	
+12-68	2534-2537	all	_	_	
+12-69	2538-2549	constraints	_	_	
+12-70	2549-2550	,	_	_	
+12-71	2551-2555	name	_	_	
+12-72	2556-2558	it	_	_	
+12-73	2559-2560	`	_	_	
+12-74	2560-2567	bin_all	_	_	
+12-75	2567-2568	`	_	_	
+12-76	2569-2570	;	_	_	
+12-77	2571-2575	Note	_	_	
+12-78	2575-2576	:	_	_	
+12-79	2577-2580	The	_	_	
+12-80	2581-2585	bins	_	_	
+12-81	2586-2590	must	_	_	
+12-82	2591-2593	be	_	_	
+12-83	2594-2601	defined	_	_	
+12-84	2602-2604	by	_	_	
+12-85	2605-2612	numbers	_	_	
+12-86	2612-2613	,	_	_	
+12-87	2614-2620	except	_	_	
+12-88	2621-2624	for	_	_	
+12-89	2625-2628	the	_	_	
+12-90	2629-2630	`	_	_	
+12-91	2630-2633	inf	_	_	
+12-92	2633-2634	`	_	_	
+12-93	2635-2640	label	_	_	
+12-94	2641-2646	which	_	_	
+12-95	2647-2650	can	_	_	
+12-96	2651-2653	be	_	_	
+12-97	2654-2661	defined	_	_	
+12-98	2662-2667	ether	_	_	
+12-99	2668-2670	at	_	_	
+12-100	2671-2674	the	_	_	
+12-101	2675-2684	beginning	_	_	
+12-102	2685-2686	;	_	_	
+12-103	2687-2689	of	_	_	
+12-104	2690-2692	at	_	_	
+12-105	2693-2696	the	_	_	
+12-106	2697-2700	end	_	_	
+12-107	2701-2703	of	_	_	
+12-108	2704-2707	the	_	_	
+12-109	2708-2712	bins	_	_	
+12-110	2712-2713	.	_	_	
+12-111	2714-2715	;	_	_	
+12-112	2716-2723	bin_all	_	_	
+12-113	2724-2725	=	_	_	
+12-114	2726-2729	inf	_	_	
+12-115	2729-2730	,	_	_	
+12-116	2730-2749	0.0,1.0,2.0,3.0,4.0	_	_	
+12-117	2749-2750	,	_	_	
+12-118	2750-2753	inf	_	_	
+12-119	2754-2760	bin_g1	_	_	
+12-120	2761-2762	=	_	_	
+12-121	2763-2766	inf	_	_	
+12-122	2766-2767	,	_	_	
+12-123	2767-2786	0.0,1.0,2.0,3.0,4.0	_	_	
+12-124	2786-2787	,	_	_	
+12-125	2787-2790	inf	_	_	
+12-126	2791-2797	bin_g2	_	_	
+12-127	2798-2799	=	_	_	
+12-128	2800-2803	inf	_	_	
+12-129	2803-2804	,	_	_	
+12-130	2804-2819	0.0,1.0,2.0,3.0	_	_	
+12-131	2819-2820	,	_	_	
+12-132	2820-2823	inf	_	_	
+12-133	2824-2830	bin_h1	_	_	
+12-134	2831-2832	=	_	_	
+12-135	2833-2836	inf	_	_	
+12-136	2836-2837	,	_	_	
+12-137	2837-2860	0.0,1.0,2.0,3.0,4.0,5.0	_	_	
+12-138	2860-2861	,	_	_	
+12-139	2861-2864	inf	_	_	
+12-140	2865-2871	bin_h2	_	_	
+12-141	2872-2873	=	_	_	
+12-142	2874-2877	inf	_	_	
+12-143	2877-2878	,	_	_	
+12-144	2878-2889	0.0,1.0,2.0	_	_	
+12-145	2889-2890	,	_	_	
+12-146	2890-2893	inf	_	_	
+12-147	2895-2896	[	_	_	
+12-148	2896-2905	crossover	_	_	
+12-149	2905-2906	]	_	_	
+12-150	2907-2908	;	_	_	
+12-151	2909-2918	Crossover	_	_	
+12-152	2919-2927	function	_	_	
+12-153	2928-2933	taken	_	_	
+12-154	2934-2938	from	_	_	
+12-155	2939-2954	ea_operators.py	_	_	
+12-156	2955-2959	file	_	_	
+12-157	2959-2960	.	_	_	
+12-158	2961-2962	;	_	_	
+12-159	2963-2967	Name	_	_	
+12-160	2968-2970	of	_	_	
+12-161	2971-2977	called	_	_	
+12-162	2978-2986	function	_	_	
+12-163	2987-2989	is	_	_	
+12-164	2990-2991	{	_	_	
+12-165	2991-2995	type	_	_	
+12-166	2995-2996	}	_	_	
+12-167	2996-2997	_	_	_	
+12-168	2997-3006	crossover	_	_	
+12-169	3006-3007	(	_	_	
+12-170	3007-3008	)	_	_	
+12-171	3008-3009	.	_	_	
+
+#Text=If `type = UNIFORM` then the function call is `uniform_crossover()`
+#Text=type = UNIFORM
+#Text=; list of arguments to the above function
+#Text=indpb = 0.5
+#Text=
+#Text=[mutation]
+#Text=; mutation function taken from ea_operators.py file.
+#Text=; name of called function is {type}_mutation().
+13-1	3010-3012	If	_	_	
+13-2	3013-3014	`	_	_	
+13-3	3014-3018	type	_	_	
+13-4	3019-3020	=	_	_	
+13-5	3021-3028	UNIFORM	_	_	
+13-6	3028-3029	`	_	_	
+13-7	3030-3034	then	_	_	
+13-8	3035-3038	the	_	_	
+13-9	3039-3047	function	_	_	
+13-10	3048-3052	call	_	_	
+13-11	3053-3055	is	_	_	
+13-12	3056-3057	`	_	_	
+13-13	3057-3074	uniform_crossover	_	_	
+13-14	3074-3075	(	_	_	
+13-15	3075-3076	)	_	_	
+13-16	3076-3077	`	_	_	
+13-17	3078-3082	type	_	_	
+13-18	3083-3084	=	_	_	
+13-19	3085-3092	UNIFORM	_	_	
+13-20	3093-3094	;	_	_	
+13-21	3095-3099	list	_	_	
+13-22	3100-3102	of	_	_	
+13-23	3103-3112	arguments	_	_	
+13-24	3113-3115	to	_	_	
+13-25	3116-3119	the	_	_	
+13-26	3120-3125	above	_	_	
+13-27	3126-3134	function	_	_	
+13-28	3135-3140	indpb	_	_	
+13-29	3141-3142	=	_	_	
+13-30	3143-3146	0.5	_	_	
+13-31	3148-3149	[	_	_	
+13-32	3149-3157	mutation	_	_	
+13-33	3157-3158	]	_	_	
+13-34	3159-3160	;	_	_	
+13-35	3161-3169	mutation	_	_	
+13-36	3170-3178	function	_	_	
+13-37	3179-3184	taken	_	_	
+13-38	3185-3189	from	_	_	
+13-39	3190-3205	ea_operators.py	_	_	
+13-40	3206-3210	file	_	_	
+13-41	3210-3211	.	_	_	
+13-42	3212-3213	;	_	_	
+13-43	3214-3218	name	_	_	
+13-44	3219-3221	of	_	_	
+13-45	3222-3228	called	_	_	
+13-46	3229-3237	function	_	_	
+13-47	3238-3240	is	_	_	
+13-48	3241-3242	{	_	_	
+13-49	3242-3246	type	_	_	
+13-50	3246-3247	}	_	_	
+13-51	3247-3248	_	_	_	
+13-52	3248-3256	mutation	_	_	
+13-53	3256-3257	(	_	_	
+13-54	3257-3258	)	_	_	
+13-55	3258-3259	.	_	_	
+
+#Text=If `type = GAUSSIAN` then the function call is `gaussian_mutation()`
+#Text=type = GAUSSIAN
+#Text=; Define how to manage the boundaries during mutation, meaning how the algorithm should behave in case it mutates outside of the function domain.
+#Text=; There are three possible cases:
+#Text=; - `saturation`: x in [a,b], if after mutation x>b -> x=b; if x<a -> x=a
+#Text=; - `bounce`: if x is mutated outside [a, b] it is bounced back by the remaining delta
+#Text=; - `toroidal`: if x is mutated outside [a, b], x is bounced to the other bound by the remaining delta, 'pac-man' style
+#Text=boundary = saturation
+#Text=; list of arguments to the above function
+#Text=mu = 0
+#Text=sigma = 0.2
+#Text=; probability of each attribute to be mutated
+#Text=indpb = 0.5
+#Text=```
+#Text=
+#Text=## Example: Continuous Constrained Optimization
+#Text=
+#Text=In this project we extended the core MAP-Elites algorithm to solve continuous constrained optimization problem.
+14-1	3260-3262	If	_	_	
+14-2	3263-3264	`	_	_	
+14-3	3264-3268	type	_	_	
+14-4	3269-3270	=	_	_	
+14-5	3271-3279	GAUSSIAN	_	_	
+14-6	3279-3280	`	_	_	
+14-7	3281-3285	then	_	_	
+14-8	3286-3289	the	_	_	
+14-9	3290-3298	function	_	_	
+14-10	3299-3303	call	_	_	
+14-11	3304-3306	is	_	_	
+14-12	3307-3308	`	_	_	
+14-13	3308-3325	gaussian_mutation	_	_	
+14-14	3325-3326	(	_	_	
+14-15	3326-3327	)	_	_	
+14-16	3327-3328	`	_	_	
+14-17	3329-3333	type	_	_	
+14-18	3334-3335	=	_	_	
+14-19	3336-3344	GAUSSIAN	_	_	
+14-20	3345-3346	;	_	_	
+14-21	3347-3353	Define	_	_	
+14-22	3354-3357	how	_	_	
+14-23	3358-3360	to	_	_	
+14-24	3361-3367	manage	_	_	
+14-25	3368-3371	the	_	_	
+14-26	3372-3382	boundaries	_	_	
+14-27	3383-3389	during	_	_	
+14-28	3390-3398	mutation	_	_	
+14-29	3398-3399	,	_	_	
+14-30	3400-3407	meaning	_	_	
+14-31	3408-3411	how	_	_	
+14-32	3412-3415	the	_	_	
+14-33	3416-3425	algorithm	_	_	
+14-34	3426-3432	should	_	_	
+14-35	3433-3439	behave	_	_	
+14-36	3440-3442	in	_	_	
+14-37	3443-3447	case	_	_	
+14-38	3448-3450	it	_	_	
+14-39	3451-3458	mutates	_	_	
+14-40	3459-3466	outside	_	_	
+14-41	3467-3469	of	_	_	
+14-42	3470-3473	the	_	_	
+14-43	3474-3482	function	_	_	
+14-44	3483-3489	domain	_	_	
+14-45	3489-3490	.	_	_	
+14-46	3491-3492	;	_	_	
+14-47	3493-3498	There	_	_	
+14-48	3499-3502	are	_	_	
+14-49	3503-3508	three	_	_	
+14-50	3509-3517	possible	_	_	
+14-51	3518-3523	cases	_	_	
+14-52	3523-3524	:	_	_	
+14-53	3525-3526	;	_	_	
+14-54	3527-3528	-	_	_	
+14-55	3529-3530	`	_	_	
+14-56	3530-3540	saturation	_	_	
+14-57	3540-3541	`	_	_	
+14-58	3541-3542	:	_	_	
+14-59	3543-3544	x	_	_	
+14-60	3545-3547	in	_	_	
+14-61	3548-3549	[	_	_	
+14-62	3549-3550	a	_	_	
+14-63	3550-3551	,	_	_	
+14-64	3551-3552	b	_	_	
+14-65	3552-3553	]	_	_	
+14-66	3553-3554	,	_	_	
+14-67	3555-3557	if	_	_	
+14-68	3558-3563	after	_	_	
+14-69	3564-3572	mutation	_	_	
+14-70	3573-3574	x	_	_	
+14-71	3574-3575	>	_	_	
+14-72	3575-3576	b	_	_	
+14-73	3577-3578	-	_	_	
+14-74	3578-3579	>	_	_	
+14-75	3580-3581	x	_	_	
+14-76	3581-3582	=	_	_	
+14-77	3582-3583	b	_	_	
+14-78	3583-3584	;	_	_	
+14-79	3585-3587	if	_	_	
+14-80	3588-3589	x	_	_	
+14-81	3589-3590	<	_	_	
+14-82	3590-3591	a	_	_	
+14-83	3592-3593	-	_	_	
+14-84	3593-3594	>	_	_	
+14-85	3595-3596	x	_	_	
+14-86	3596-3597	=	_	_	
+14-87	3597-3598	a	_	_	
+14-88	3599-3600	;	_	_	
+14-89	3601-3602	-	_	_	
+14-90	3603-3604	`	_	_	
+14-91	3604-3610	bounce	_	_	
+14-92	3610-3611	`	_	_	
+14-93	3611-3612	:	_	_	
+14-94	3613-3615	if	_	_	
+14-95	3616-3617	x	_	_	
+14-96	3618-3620	is	_	_	
+14-97	3621-3628	mutated	_	_	
+14-98	3629-3636	outside	_	_	
+14-99	3637-3638	[	_	_	
+14-100	3638-3639	a	_	_	
+14-101	3639-3640	,	_	_	
+14-102	3641-3642	b	_	_	
+14-103	3642-3643	]	_	_	
+14-104	3644-3646	it	_	_	
+14-105	3647-3649	is	_	_	
+14-106	3650-3657	bounced	_	_	
+14-107	3658-3662	back	_	_	
+14-108	3663-3665	by	_	_	
+14-109	3666-3669	the	_	_	
+14-110	3670-3679	remaining	_	_	
+14-111	3680-3685	delta	_	_	
+14-112	3686-3687	;	_	_	
+14-113	3688-3689	-	_	_	
+14-114	3690-3691	`	_	_	
+14-115	3691-3699	toroidal	_	_	
+14-116	3699-3700	`	_	_	
+14-117	3700-3701	:	_	_	
+14-118	3702-3704	if	_	_	
+14-119	3705-3706	x	_	_	
+14-120	3707-3709	is	_	_	
+14-121	3710-3717	mutated	_	_	
+14-122	3718-3725	outside	_	_	
+14-123	3726-3727	[	_	_	
+14-124	3727-3728	a	_	_	
+14-125	3728-3729	,	_	_	
+14-126	3730-3731	b	_	_	
+14-127	3731-3732	]	_	_	
+14-128	3732-3733	,	_	_	
+14-129	3734-3735	x	_	_	
+14-130	3736-3738	is	_	_	
+14-131	3739-3746	bounced	_	_	
+14-132	3747-3749	to	_	_	
+14-133	3750-3753	the	_	_	
+14-134	3754-3759	other	_	_	
+14-135	3760-3765	bound	_	_	
+14-136	3766-3768	by	_	_	
+14-137	3769-3772	the	_	_	
+14-138	3773-3782	remaining	_	_	
+14-139	3783-3788	delta	_	_	
+14-140	3788-3789	,	_	_	
+14-141	3790-3791	'	_	_	
+14-142	3791-3798	pac-man	_	_	
+14-143	3798-3799	'	_	_	
+14-144	3800-3805	style	_	_	
+14-145	3806-3814	boundary	_	_	
+14-146	3815-3816	=	_	_	
+14-147	3817-3827	saturation	_	_	
+14-148	3828-3829	;	_	_	
+14-149	3830-3834	list	_	_	
+14-150	3835-3837	of	_	_	
+14-151	3838-3847	arguments	_	_	
+14-152	3848-3850	to	_	_	
+14-153	3851-3854	the	_	_	
+14-154	3855-3860	above	_	_	
+14-155	3861-3869	function	_	_	
+14-156	3870-3872	mu	_	_	
+14-157	3873-3874	=	_	_	
+14-158	3875-3876	0	_	_	
+14-159	3877-3882	sigma	_	_	
+14-160	3883-3884	=	_	_	
+14-161	3885-3888	0.2	_	_	
+14-162	3889-3890	;	_	_	
+14-163	3891-3902	probability	_	_	
+14-164	3903-3905	of	_	_	
+14-165	3906-3910	each	_	_	
+14-166	3911-3920	attribute	_	_	
+14-167	3921-3923	to	_	_	
+14-168	3924-3926	be	_	_	
+14-169	3927-3934	mutated	_	_	
+14-170	3935-3940	indpb	_	_	
+14-171	3941-3942	=	_	_	
+14-172	3943-3946	0.5	_	_	
+14-173	3947-3948	`	_	_	
+14-174	3948-3949	`	_	_	
+14-175	3949-3950	`	_	_	
+14-176	3952-3953	#	_	_	
+14-177	3953-3954	#	_	_	
+14-178	3955-3962	Example	_	_	
+14-179	3962-3963	:	_	_	
+14-180	3964-3974	Continuous	_	_	
+14-181	3975-3986	Constrained	_	_	
+14-182	3987-3999	Optimization	_	_	
+14-183	4001-4003	In	_	_	
+14-184	4004-4008	this	_	_	
+14-185	4009-4016	project	_	_	
+14-186	4017-4019	we	_	_	
+14-187	4020-4028	extended	_	_	
+14-188	4029-4032	the	_	_	
+14-189	4033-4037	core	_	_	
+14-190	4038-4048	MAP-Elites	_	_	
+14-191	4049-4058	algorithm	_	_	
+14-192	4059-4061	to	_	_	
+14-193	4062-4067	solve	_	_	
+14-194	4068-4078	continuous	_	_	
+14-195	4079-4090	constrained	_	_	
+14-196	4091-4103	optimization	_	_	
+14-197	4104-4111	problem	_	_	
+14-198	4111-4112	.	_	_	
+
+#Text=Specifically, the problem setting is defined by an objective function subject to some constraints, some examples [here](https://en.wikipedia.org/wiki/Test_functions_for_optimization#Test_functions_for_constrained_optimization).
+#Text=
+#Text=## Reference
+#Text=
+#Text=If you use this code (or any modified version of it), please add the following reference:
+#Text=
+#Text=```
+#Text=Stefano Fioravanzo and Giovanni Iacca. 2019.
+15-1	4113-4125	Specifically	_	_	
+15-2	4125-4126	,	_	_	
+15-3	4127-4130	the	_	_	
+15-4	4131-4138	problem	_	_	
+15-5	4139-4146	setting	_	_	
+15-6	4147-4149	is	_	_	
+15-7	4150-4157	defined	_	_	
+15-8	4158-4160	by	_	_	
+15-9	4161-4163	an	_	_	
+15-10	4164-4173	objective	_	_	
+15-11	4174-4182	function	_	_	
+15-12	4183-4190	subject	_	_	
+15-13	4191-4193	to	_	_	
+15-14	4194-4198	some	_	_	
+15-15	4199-4210	constraints	_	_	
+15-16	4210-4211	,	_	_	
+15-17	4212-4216	some	_	_	
+15-18	4217-4225	examples	_	_	
+15-19	4226-4227	[	_	_	
+15-20	4227-4231	here	_	_	
+15-21	4231-4232	]	_	_	
+15-22	4232-4233	(	_	_	
+15-23	4233-4238	https	_	_	
+15-24	4238-4239	:	_	_	
+15-25	4239-4240	/	_	_	
+15-26	4240-4241	/	_	_	
+15-27	4241-4257	en.wikipedia.org	_	_	
+15-28	4257-4258	/	_	_	
+15-29	4258-4262	wiki	_	_	
+15-30	4262-4263	/	_	_	
+15-31	4263-4294	Test_functions_for_optimization	_	_	
+15-32	4294-4295	#	_	_	
+15-33	4295-4338	Test_functions_for_constrained_optimization	_	_	
+15-34	4338-4339	)	_	_	
+15-35	4339-4340	.	_	_	
+15-36	4342-4343	#	_	_	
+15-37	4343-4344	#	_	_	
+15-38	4345-4354	Reference	_	_	
+15-39	4356-4358	If	_	_	
+15-40	4359-4362	you	_	_	
+15-41	4363-4366	use	_	_	
+15-42	4367-4371	this	_	_	
+15-43	4372-4376	code	_	_	
+15-44	4377-4378	(	_	_	
+15-45	4378-4380	or	_	_	
+15-46	4381-4384	any	_	_	
+15-47	4385-4393	modified	_	_	
+15-48	4394-4401	version	_	_	
+15-49	4402-4404	of	_	_	
+15-50	4405-4407	it	_	_	
+15-51	4407-4408	)	_	_	
+15-52	4408-4409	,	_	_	
+15-53	4410-4416	please	_	_	
+15-54	4417-4420	add	_	_	
+15-55	4421-4424	the	_	_	
+15-56	4425-4434	following	_	_	
+15-57	4435-4444	reference	_	_	
+15-58	4444-4445	:	_	_	
+15-59	4447-4448	`	_	_	
+15-60	4448-4449	`	_	_	
+15-61	4449-4450	`	_	_	
+15-62	4451-4458	Stefano	_	_	
+15-63	4459-4469	Fioravanzo	_	_	
+15-64	4470-4473	and	_	_	
+15-65	4474-4482	Giovanni	_	_	
+15-66	4483-4488	Iacca	_	_	
+15-67	4488-4489	.	_	_	
+15-68	4490-4494	2019	_	_	
+15-69	4494-4495	.	_	_	
+
+#Text=Evaluating MAP-Elites
+#Text=on constrained optimization problems.
+16-1	4496-4506	Evaluating	*[2]	PUBLICATION[2]	
+16-2	4507-4517	MAP-Elites	*[2]	PUBLICATION[2]	
+16-3	4518-4520	on	*[2]	PUBLICATION[2]	
+16-4	4521-4532	constrained	*[2]	PUBLICATION[2]	
+16-5	4533-4545	optimization	*[2]	PUBLICATION[2]	
+16-6	4546-4554	problems	*[2]	PUBLICATION[2]	
+16-7	4554-4555	.	_	_	
+
+#Text=In Proceedings of the Genetic 
+#Text=and Evolutionary Computation Conference Companion (GECCO '19).
+17-1	4556-4558	In	_	_	
+17-2	4559-4570	Proceedings	*[3]	PUBLICATION[3]	
+17-3	4571-4573	of	*[3]	PUBLICATION[3]	
+17-4	4574-4577	the	*[3]	PUBLICATION[3]	
+17-5	4578-4585	Genetic	*[3]|*[4]	PUBLICATION[3]|CONFERENCE[4]	
+17-6	4587-4590	and	*[3]|*[4]	PUBLICATION[3]|CONFERENCE[4]	
+17-7	4591-4603	Evolutionary	*[3]|*[4]	PUBLICATION[3]|CONFERENCE[4]	
+17-8	4604-4615	Computation	*[3]|*[4]	PUBLICATION[3]|CONFERENCE[4]	
+17-9	4616-4626	Conference	*[3]|*[4]	PUBLICATION[3]|CONFERENCE[4]	
+17-10	4627-4636	Companion	*[3]	PUBLICATION[3]	
+17-11	4637-4638	(	_	_	
+17-12	4638-4643	GECCO	*[5]	CONFERENCE[5]	
+17-13	4644-4645	'	*[5]	CONFERENCE[5]	
+17-14	4645-4647	19	*[5]	CONFERENCE[5]	
+17-15	4647-4648	)	_	_	
+17-16	4648-4649	.	_	_	
+
+#Text=Association for Computing Machinery, New York, NY, USA, 253–254.
+18-1	4651-4662	Association	_	_	
+18-2	4663-4666	for	_	_	
+18-3	4667-4676	Computing	_	_	
+18-4	4677-4686	Machinery	_	_	
+18-5	4686-4687	,	_	_	
+18-6	4688-4691	New	_	_	
+18-7	4692-4696	York	_	_	
+18-8	4696-4697	,	_	_	
+18-9	4698-4700	NY	_	_	
+18-10	4700-4701	,	_	_	
+18-11	4702-4705	USA	_	_	
+18-12	4705-4706	,	_	_	
+18-13	4707-4710	253	_	_	
+18-14	4710-4711	–	_	_	
+18-15	4711-4714	254	_	_	
+18-16	4714-4715	.	_	_	
+
+#Text=DOI:https://doi.org/10.1145/3319619.3321939
+#Text=
+#Text=@inproceedings{fioravanzo2019evaluating,
+#Text=  title={Evaluating MAP-Elites on Constrained Optimization Problems},
+#Text=  author={Fioravanzo, Stefano and Iacca, Giovanni},
+#Text=  booktitle={Genetic and Evolutionary Computation Conference Companion},
+#Text=  pages={253--254},
+#Text=  year={2019},
+#Text=  organization={ACM}
+#Text=}
+#Text=```
+19-1	4717-4720	DOI	_	_	
+19-2	4720-4721	:	_	_	
+19-3	4721-4726	https	_	_	
+19-4	4726-4727	:	_	_	
+19-5	4727-4728	/	_	_	
+19-6	4728-4729	/	_	_	
+19-7	4729-4736	doi.org	_	_	
+19-8	4736-4737	/	_	_	
+19-9	4737-4744	10.1145	_	_	
+19-10	4744-4745	/	_	_	
+19-11	4745-4760	3319619.3321939	_	_	
+19-12	4762-4763	@	_	_	
+19-13	4763-4776	inproceedings	_	_	
+19-14	4776-4777	{	_	_	
+19-15	4777-4801	fioravanzo2019evaluating	_	_	
+19-16	4801-4802	,	_	_	
+19-17	4805-4810	title	_	_	
+19-18	4810-4811	=	_	_	
+19-19	4811-4812	{	_	_	
+19-20	4812-4822	Evaluating	*[6]	PUBLICATION[6]	
+19-21	4823-4833	MAP-Elites	*[6]	PUBLICATION[6]	
+19-22	4834-4836	on	*[6]	PUBLICATION[6]	
+19-23	4837-4848	Constrained	*[6]	PUBLICATION[6]	
+19-24	4849-4861	Optimization	*[6]	PUBLICATION[6]	
+19-25	4862-4870	Problems	*[6]	PUBLICATION[6]	
+19-26	4870-4871	}	_	_	
+19-27	4871-4872	,	_	_	
+19-28	4875-4881	author	_	_	
+19-29	4881-4882	=	_	_	
+19-30	4882-4883	{	_	_	
+19-31	4883-4893	Fioravanzo	_	_	
+19-32	4893-4894	,	_	_	
+19-33	4895-4902	Stefano	_	_	
+19-34	4903-4906	and	_	_	
+19-35	4907-4912	Iacca	_	_	
+19-36	4912-4913	,	_	_	
+19-37	4914-4922	Giovanni	_	_	
+19-38	4922-4923	}	_	_	
+19-39	4923-4924	,	_	_	
+19-40	4927-4936	booktitle	_	_	
+19-41	4936-4937	=	_	_	
+19-42	4937-4938	{	_	_	
+19-43	4938-4945	Genetic	*[7]|*[8]	PUBLICATION[7]|CONFERENCE[8]	
+19-44	4946-4949	and	*[7]|*[8]	PUBLICATION[7]|CONFERENCE[8]	
+19-45	4950-4962	Evolutionary	*[7]|*[8]	PUBLICATION[7]|CONFERENCE[8]	
+19-46	4963-4974	Computation	*[7]|*[8]	PUBLICATION[7]|CONFERENCE[8]	
+19-47	4975-4985	Conference	*[7]|*[8]	PUBLICATION[7]|CONFERENCE[8]	
+19-48	4986-4995	Companion	*[7]	PUBLICATION[7]	
+19-49	4995-4996	}	_	_	
+19-50	4996-4997	,	_	_	
+19-51	5000-5005	pages	_	_	
+19-52	5005-5006	=	_	_	
+19-53	5006-5007	{	_	_	
+19-54	5007-5010	253	_	_	
+19-55	5010-5011	-	_	_	
+19-56	5011-5012	-	_	_	
+19-57	5012-5015	254	_	_	
+19-58	5015-5016	}	_	_	
+19-59	5016-5017	,	_	_	
+19-60	5020-5024	year	_	_	
+19-61	5024-5025	=	_	_	
+19-62	5025-5026	{	_	_	
+19-63	5026-5030	2019	_	_	
+19-64	5030-5031	}	_	_	
+19-65	5031-5032	,	_	_	
+19-66	5035-5047	organization	_	_	
+19-67	5047-5048	=	_	_	
+19-68	5048-5049	{	_	_	
+19-69	5049-5052	ACM	_	_	
+19-70	5052-5053	}	_	_	
+19-71	5054-5055	}	_	_	
+19-72	5056-5057	`	_	_	
+19-73	5057-5058	`	_	_	
+19-74	5058-5059	`	_	_	

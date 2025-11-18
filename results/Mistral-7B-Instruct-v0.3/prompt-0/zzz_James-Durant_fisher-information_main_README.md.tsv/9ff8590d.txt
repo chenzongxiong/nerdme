@@ -1,0 +1,6 @@
+`Or with BibTeX as: ``` <PUBLICATION>`\@article{Durant2021}</PUBLICATION>,
+    author    = {Durant, J.
+
+The <PROGLANG>BibTeX</PROGLANG> format is used for citing references in LaTeX documents.
+
+The <PUBLICATION>Durant2021</PUBLICATION> paper discusses ...`

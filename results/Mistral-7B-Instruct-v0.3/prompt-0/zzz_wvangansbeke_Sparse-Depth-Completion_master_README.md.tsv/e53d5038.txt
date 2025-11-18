@@ -1,0 +1,1 @@
+`This method holds the **<CONFERENCE>1st place</CONFERENCE>** entry on the [KITTI depth completion benchmark](http://www.cvlibs.net/datasets/kitti/eval_depth.php?<DATASET>KITTI</DATASET>).`

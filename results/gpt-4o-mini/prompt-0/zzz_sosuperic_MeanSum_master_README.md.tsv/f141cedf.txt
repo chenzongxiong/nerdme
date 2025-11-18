@@ -1,0 +1,1 @@
+The automated metrics results will be in ```checkpoints/sum/mlstm/yelp/<hparams>_<additional_notes>```.: ``` <PROGLANG>python</PROGLANG> train_sum.py --batch_size=16 --gpus=0,1,2,3 --notes=<additional_notes>  ```

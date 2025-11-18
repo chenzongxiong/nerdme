@@ -1,0 +1,1 @@
+`evaluator` is an instance of the `<PROGLANG>Python</PROGLANG>` `<CLASS>ModelEvaluator</CLASS>` class defined in `<FILE>utils/model_evaluator.py</FILE>`.

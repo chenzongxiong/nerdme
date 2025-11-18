@@ -1,0 +1,1 @@
+Note: At the time of collecting the data, all links in `<DATASET>literature_links.tsv</DATASET>` were working for the respective sources.

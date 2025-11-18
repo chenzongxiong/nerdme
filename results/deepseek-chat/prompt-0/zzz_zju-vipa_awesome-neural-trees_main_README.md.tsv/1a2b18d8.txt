@@ -1,0 +1,1 @@
+These approaches aim to encode the class hierarchy into embeddings whose relative locations or possible interactions represent the semantic relationships

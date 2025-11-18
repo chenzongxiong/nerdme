@@ -1,0 +1,2 @@
+`repos=<PROJECT>FreedomIntelligence/MLLM-Bench</PROJECT>&type=<EVALMETRIC>Date</EVALMETRIC>" />
+<img alt="Star History Chart" src="https://api.star-history.com/svg?`

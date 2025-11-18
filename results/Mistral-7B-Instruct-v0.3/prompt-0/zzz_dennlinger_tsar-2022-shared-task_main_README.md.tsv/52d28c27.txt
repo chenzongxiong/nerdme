@@ -1,0 +1,1 @@
+`Other required packages can be installed with `python3 -m pip install -r <PROGLANG>requirements.txt</PROGLANG>` from the main repository folder.`

@@ -1,0 +1,3 @@
+```markdown
+# <SOFTWARE>megaman</SOFTWARE>: Manifold Learning for Millions of Points  <img src="https://raw.githubusercontent.com/mmp2/<SOFTWARE>megaman</SOFTWARE>/master/doc/images/word2vec_rmetric_plot_no_digits.png" height=200><img src="https://raw.githubusercontent.com/mmp2/<SOFTWARE>megaman</SOFTWARE>/master/doc/images/spectra_D4000.png" height=200><img src="https://raw.githubusercontent.com/mmp2/<SOFTWARE>megaman</SOFTWARE>/master/doc/images/spectra_Halpha.png" height=200>  [!
+```

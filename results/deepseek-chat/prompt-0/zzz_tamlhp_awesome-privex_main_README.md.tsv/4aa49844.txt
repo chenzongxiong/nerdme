@@ -1,0 +1,1 @@
+When comparing two model extraction methods with the same agreement, the one with the lower standard deviation is preferred.

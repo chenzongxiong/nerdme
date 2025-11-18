@@ -1,0 +1,1 @@
+It takes up 36G GPU memory for the main <SOFTWARE>GPU</SOFTWARE> and 32G GPU memory for the other <SOFTWARE>GPU</SOFTWARE>. ### <CONFERENCE>Reader Local Evaluation</CONFERENCE> 1.

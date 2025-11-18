@@ -1,0 +1,9 @@
+`# Scaffolding Learning Regime (SLR)  [!`
+`<PROJECT>Scaffolding Learning Regime (SLR)</PROJECT>` `]`
+`The <PROJECT>Scaffolding Learning Regime (SLR)</PROJECT> is a project that aims to develop a learning regime that provides support to learners in their educational journey.`
+`The <PROJECT>SLR</PROJECT> is based on the principles of scaffolding, which involves providing temporary support to learners to help them achieve their learning goals.`
+`The <PROJECT>SLR</PROJECT> includes various components such as learning materials, assessments, and feedback mechanisms to help learners progress in their learning.`
+`The <PROJECT>SLR</PROJECT> is currently being developed and tested in various educational settings.`
+`For more information about the <PROJECT>SLR</PROJECT>, please visit our website at <URL>https://www.scaffoldinglearningregime.com</URL>`
+`References:`
+`<PUBLICATION>A Scaffolding Learning Regime for Online Learning: Design and Implementation</PUB

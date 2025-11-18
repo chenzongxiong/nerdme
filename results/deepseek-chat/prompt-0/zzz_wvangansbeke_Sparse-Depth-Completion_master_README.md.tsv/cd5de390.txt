@@ -1,0 +1,1 @@
+Secondly, two directories are built i.e. one for training and one for validation.

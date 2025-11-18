@@ -1,0 +1,1 @@
+This framework achieves its goal by applying a no-code approach, making it accessible to both non-technical data producers and those with a technical background.

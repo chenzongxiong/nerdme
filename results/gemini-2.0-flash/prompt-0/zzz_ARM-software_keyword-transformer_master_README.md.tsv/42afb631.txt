@@ -1,0 +1,1 @@
+To train KWT-3 with hard distillation from a pre-trained model, run  ```shell sh distill.sh ```  ## Run inference using a pre-trained model  Pre-trained weights for KWT-3, KWT-2 and KWT-1 are provided in .

@@ -1,0 +1,11 @@
+```markdown
+- ***Extract axis-aligned trees***  
+  - **"<PUBLICATION>Rule extraction from neural networks via decision tree induction</PUBLICATION>"**, <CONFERENCE>IJCNN</CONFERENCE>, 2001  
+    - Makoto Sato, Hiroshi Tsukimoto *(CRED algorithm that deals with NNs with one hidden layer)*  
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/938448)  
+  - **"<PUBLICATION>DeepRED – Rule Extraction from Deep Neural Networks</PUBLICATION>"**, <CONFERENCE>International Conference on Discovery Science</CONFERENCE>, 2016  
+    - Jan Ruben Zilke, Eneldo Loza Mencía, Frederik Janssen *(Extend CRED algorithm by deriving intermediate rules for every additional hidden layer)*  
+    - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-46307-0_29)  
+  - **"<PUBLICATION>Eclectic rule extraction from Neural Networks using aggregated Decision Trees</PUBLICATION>"**, <CONFERENCE>ICECE</CONFERENCE>, 2012  
+    - MD.
+```

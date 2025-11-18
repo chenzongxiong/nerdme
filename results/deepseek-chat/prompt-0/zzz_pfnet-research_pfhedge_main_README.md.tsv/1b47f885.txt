@@ -1,0 +1,1 @@
+[**<PROJECT>Deep Hedging</PROJECT>**][deep-hedging-arxiv] is a deep learning-based framework to hedge financial derivatives.

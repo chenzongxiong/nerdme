@@ -1,0 +1,1 @@
+In the schema, the **keys** are the string names of the columns in your dataframe that you'd like to use, and the **values** indicate the type of data contained in that column.

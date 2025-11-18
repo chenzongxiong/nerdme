@@ -1,0 +1,7 @@
+The given text contains a `<PROJECT>NetManAIOps</PROJECT>` and a `<SOFTWARE>DejaVu</SOFTWARE>`. Here's the annotated text in Markdown format:
+
+```markdown
+Pull the code from GitHub    ```bash
+git pull <URL>https://github.com/<PROJECT>NetManAIOps</PROJECT>/DejaVu.git</URL> DejaVu
+```
+3.

@@ -1,0 +1,12 @@
+The text contains the following named entities:
+
+- **PUBLICATION**: `<PUBLICATION>"Neural implementation of tree classifiers"</PUBLICATION>`
+- **PROGLANG**: `<PROGLANG>IEEE Transactions on Systems, Man, and Cybernetics</PROGLANG>`
+- **CONFERENCE**: `<CONFERENCE>1995</CONFERENCE>`
+- **PERSON**: I.K. (assuming it's a person's initials)
+
+Here's the annotated text in Markdown format:
+
+The `<SOFTWARE>Protege Ontology Editor</SOFTWARE>` is widely used for creating ontologies.
+
+Liu     - [[PUBLICATION]](https://ieeexplore.ieee.org/abstract/document/125869)  - ***Soft thresholding of entropy net:***   - **"<PUBLICATION>Neural implementation of tree classifiers</PUBLICATION>",** `<PROGLANG>IEEE Transactions on Systems, Man, and Cybernetics</PROGLANG>`,

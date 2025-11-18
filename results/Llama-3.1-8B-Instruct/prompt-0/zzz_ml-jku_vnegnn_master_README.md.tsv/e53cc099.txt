@@ -1,0 +1,3 @@
+# VN-EGNN: <PROJECT>VN-EGNN: E(3)-Equivariant Graph Neural Networks with Virtual Nodes Enhance Protein Binding Site Identification</PROJECT> [!
+ 
+A <SOFTWARE>Graph Neural Network</SOFTWARE> based method is proposed to predict the protein binding sites. The proposed method utilizes <SOFTWARE>EGNN</SOFTWARE> with virtual nodes to enhance the protein binding site identification. The <SOFTWARE>EGNN</SOFTWARE> is implemented using the <PROGLANG>Python</PROGLANG> programming language. The proposed method is evaluated on the <DATASET>DS80</DATASET> dataset and achieves state-of-the-art results.

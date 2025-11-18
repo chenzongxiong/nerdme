@@ -1,0 +1,1 @@
+`Check out the <PROJECT>contributing guidelines</PROJECT>.`

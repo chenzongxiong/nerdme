@@ -1,0 +1,11 @@
+# Annotated README: TSAR-2022-Shared-Task Datasets and Evaluation Scripts
+
+<PROJECT>TSAR2022 Shared Task on Lexical Simplification for English (en), Spanish (es) and Portuguese (pt)</PROJECT> - Datasets and Evaluation scripts
+
+Please look at the website of the <WORKSHOP>Shared Task</WORKSHOP> for more details about the Evaluation Benchmark, Guidelines, Registration Form, etc...
+
+---
+
+**Note:** The URLs were not provided in the input text, but if they were, they should be annotated accordingly. For example:
+
+Please look at the website of the <WORKSHOP>Shared Task</WORKSHOP> for more details at <URL>https://tsar2022.github.io</URL>.

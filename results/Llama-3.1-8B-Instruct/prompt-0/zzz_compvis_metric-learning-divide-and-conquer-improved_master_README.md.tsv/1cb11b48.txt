@@ -1,0 +1,6 @@
+- **--dataset-dir**: the path to the <DATASET>datasets</DATASET>, check the *Datasets* section below.
+- **--sampler**: batchminer used to sample pairs or triplets (in embedding space) to create learning signal, check `/metriclearning/<SOFTWARE>sampler</SOFTWARE>` for details.
+- **--batch-sampler**: data sampler used to generate training batches, check `/dataset/<SOFTWARE>sampler.py</SOFTWARE>` for details.
+- **--nb-epochs**: the maximum training <CONFERENCE>epochs</CONFERENCE>.
+- **--mod-epoch**: division frequency in the paper - the number of training <CONFERENCE>epochs</CONFERENCE> between consecutive divisions.
+- **--wandb-enabled**: by setting this flag, you will enable the <SOFTWARE>Weights&Biases</SOFTWARE> logging.

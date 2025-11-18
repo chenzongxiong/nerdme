@@ -1,0 +1,1 @@
+Currently, text concepts can be served by GPT-3 (using the `text-davinci-002` model) or OpenCLIP (using the `ViT-B-32-quickgelu` model), and image concepts can only be served by OpenCLIP. ### Create sketches Then, you can combine concepts together into sketches with the following function.

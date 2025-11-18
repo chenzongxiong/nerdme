@@ -1,0 +1,1 @@
+Please download `<DATASET>ImageNet</DATASET>-pretrained ResNet-v1-101` model manually from [OneDrive](https://1drv.ms/u/s!

@@ -1,0 +1,3 @@
+```markdown
+# <PUBLICATION>Denoising Diffusion Probabilistic Models for Generation of Realistic Fully-Annotated Microscopy Image Data Sets</PUBLICATION> <br> This repository contains code to simulated 2D/3D cellular structures and synthesize corresponding microscopy image data based on <SOFTWARE>Denoising Diffusion Probabilistic Models (DDPM)</SOFTWARE>.
+```

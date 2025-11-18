@@ -1,0 +1,1 @@
+However, we provide  <a href="https://mllm-bench.<SOFTWARE>llmzoo</SOFTWARE>.com/static/submit.html" target="_blank">a submission entry</a>  for FREE evaluations.

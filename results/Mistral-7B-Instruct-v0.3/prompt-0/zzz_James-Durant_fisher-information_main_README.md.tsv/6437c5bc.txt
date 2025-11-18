@@ -1,0 +1,8 @@
+# fisher-information
+
+## About the Project
+**For the most up-to-date work using this framework, and if you are interested in applying the framework to experimental design problems of your own, see the [experimental-design](https://github.com/James-Durant/<PROJECT>experimental-design</PROJECT>)** repository**.
+
+In the given text, the annotated entities are:
+
+- `<PROJECT>experimental-design</PROJECT>`

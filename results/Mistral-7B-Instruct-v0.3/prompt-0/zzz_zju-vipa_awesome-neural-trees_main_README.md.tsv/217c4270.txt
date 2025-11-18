@@ -1,0 +1,6 @@
+```
+- ***<PROJECT>DeViSE method</PROJECT> that utilizes <DATASET>unannotated Wikipedia text***   - **"<PUBLICATION>DeViSE: A Deep Visual-Semantic Embedding Model</PUBLICATION>", <CONFERENCE>NIPS, 2013**<PUBLICATION>
+- Andrea Frome *et al.*
+- [[<PUBLICATION>Paper](https://proceedings.neurips.cc/paper/2013/hash/7cce53cf90577442771720a370c3c723-Abstract.html)] [[<SOFTWARE>Code](https://github.com/jean4599/DeViSE)]
+  - ***<EVALMETRIC>Embeddings</EVALMETRIC> whose pair-wise dot products correspond to semantic similarity between classes***
+- **"<PUBLICATION>Hierarchy-Based Image Embeddings for Semantic Image Retrieval</PUBLICATION>", <CONFERENCE>WACV, 

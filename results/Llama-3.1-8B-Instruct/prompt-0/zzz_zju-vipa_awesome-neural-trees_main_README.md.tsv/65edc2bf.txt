@@ -1,0 +1,1 @@
+Adopt <SOFTWARE>DTs</SOFTWARE> to approximate the target concept of <SOFTWARE>NNs</SOFTWARE> in terms of logical descriptions, *i.e.*, use <SOFTWARE>DTs</SOFTWARE> to design <SOFTWARE>NNs</SOFTWARE> with structural priors

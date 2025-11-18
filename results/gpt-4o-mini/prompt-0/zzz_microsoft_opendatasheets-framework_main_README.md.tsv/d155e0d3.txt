@@ -1,0 +1,1 @@
+The framework is designed to be both machine-readable and human-readable, serving as a tool for <DATASET>dataset creators</DATASET> to document their <DATASET>datasets</DATASET> and for <DATASET>dataset consumers</DATASET> to understand the <DATASET>datasets</DATASET> they are using.

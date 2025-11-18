@@ -1,0 +1,1 @@
+- Run `<SOFTWARE>bash</SOFTWARE> <CONFERENCE>evaluate.sh</CONFERENCE>`

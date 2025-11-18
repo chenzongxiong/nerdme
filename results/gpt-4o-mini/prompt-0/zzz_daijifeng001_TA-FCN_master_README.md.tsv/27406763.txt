@@ -1,0 +1,1 @@
+Please download <SOFTWARE>ImageNet-pretrained ResNet-v1-101</SOFTWARE> model manually from [OneDrive](https://1drv.ms/u/s!

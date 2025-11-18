@@ -1,0 +1,9 @@
+`[templates.jpg](https://github.com/dylanashley/story-distiller/blob/main/templates.jpg?)` contains the `<SOFTWARE>story-distiller</SOFTWARE>` project's `<IMAGE>templates.jpg</IMAGE>`.
+
+The `<PROJECT>Paper With Code</PROJECT>` project (https://<PROJECT>paperswithcode</PROJECT>.com/) provides a `<DATASET>Maules Creek</DATASET>` dataset.
+
+The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>` discusses the importance of handling sequences of excessive or insufficient lengths.
+
+The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is a semantic framework for knowledge representation in the field of intelligence tasks.
+
+The `<CONFERENCE>International Semantic Web

@@ -1,0 +1,1 @@
+Further, our fast single-match method achieves competitive results, paving the way for applying fine-grained similarity to large scientific corpora.

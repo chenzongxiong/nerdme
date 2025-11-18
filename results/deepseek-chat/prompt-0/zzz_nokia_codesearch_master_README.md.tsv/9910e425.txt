@@ -1,0 +1,1 @@
+It implements retrieval systems for annotated code snippets: pairs of a code snippet and a short natural language description.

@@ -1,0 +1,3 @@
+```markdown
+Models for cross-validation on the <DATASET>climate</DATASET> dataset were trained using  <SOFTWARE>parallel_train.py</SOFTWARE> with the model parameters specified below ``` # ========================================================================== # parallel training on climate dataset # ========================================================================== ``` in the main part of the file <SOFTWARE>parallel_train.py</SOFTWARE>.
+```

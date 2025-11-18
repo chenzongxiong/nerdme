@@ -1,0 +1,3 @@
+```markdown
+/tools/<SOFTWARE>dist_test.sh</SOFTWARE> configs/<SOFTWARE>EvPSNet_unc_mutigpu.py</SOFTWARE> ${CHECKPOINT_FILE} ${GPU_NUM} --eval <EVALMETRIC>panoptic</EVALMETRIC> ```  ## Additional Notes:    * tool/<SOFTWARE>cityscapes_inference.py</SOFTWARE>: saves predictions in the official cityscapes panoptic format
+```

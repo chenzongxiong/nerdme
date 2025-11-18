@@ -1,0 +1,11 @@
+`The <PROJECT>Jupyter Notebook</PROJECT> is a popular <SOFTWARE>open-source web application</SOFTWARE> that allows users to create and share documents that contain live code, equations, visualizations, and narrative text.`
+
+`The <CONFERENCE>NeurIPS 2022</CONFERENCE> workshop on <ONTOLOGY>Ontology Learning</ONTOLOGY> will be held on December 12, 2022.`
+
+`The <DATASET>CIFAR-10</DATASET> dataset is a widely used benchmark for evaluating the performance of deep learning models on image classification tasks.`
+
+`The evaluation metrics used are <EVALMETRIC>Accuracy</EVALMETRIC>, <EVALMETRIC>Precision</EVALMETRIC>, and <EVALMETRIC>Recall</EVALMETRIC>.`
+
+`The <LICENSE>MIT License</LICENSE> allows users to use, modify, and distribute the software for any purpose, provided they include the original copyright notice and disclaim any warranty.`
+
+`

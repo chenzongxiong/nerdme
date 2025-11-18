@@ -1,0 +1,1 @@
+These are the `<FUNCTION>filter_cocitation_sentences</FUNCTION>` and `<FUNCTION>filter_cocitation_papers</FUNCTION>` functions respectively.

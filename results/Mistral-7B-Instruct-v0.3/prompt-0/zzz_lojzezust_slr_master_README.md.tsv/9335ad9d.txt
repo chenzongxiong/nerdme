@@ -1,0 +1,1 @@
+`The <PROJECT>IMU dir</PROJECT> has to be provided for models architectures relying on IMU data (i.e. <PROJECT>models architectures</PROJECT> relying on <ONTOLOGY>IMU data</ONTOLOGY>)`.

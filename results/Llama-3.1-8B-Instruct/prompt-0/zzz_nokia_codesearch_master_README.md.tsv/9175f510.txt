@@ -1,0 +1,10 @@
+### Evaluation data Evaluation <DATASET>datasets</DATASET> link queries to relevant snippets in one of the above <DATASET>snippet collections</DATASET>.   
+#### Example: load an evaluation <DATASET>dataset</DATASET> 
+```python
+from codesearch.data import load_eval_<DATASET>dataset</DATASET>
+queries, query2ids = load_eval_<DATASET>dataset</DATASET>("so-ds-feb20-valid")
+```
+#### Available evaluation <DATASET>datasets</DATASET> 
+| name                           | description                                                                     | 
+|--------------------------------|---------------------------------------------------------------------------------| 
+| so-ds-feb20-{valid\|test}      | Queries paired to relevant snippets in the so-ds-feb20 <DATASET>snippet collection</DATASET>

@@ -1,0 +1,891 @@
+_J.
+
+@inproceedings{DBLP:conf/aaai/Wang0L023,
+  author    = {Zhi Wang and
+               Yuechen Wang and
+               Zijun Yao and
+               Yefeng Zheng},
+  title     = {Unsupervised Domain Adaptation for Nighttime Semantic Segmentation via
+               Adversarial Learning},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1019--1027},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Yang00023,
+  author    = {Yuanqi Yang and
+               Zhenyu Zhang and
+               Yongxin Wang and
+               Yue Zhang and
+               Yujun Shen and
+               Deli Zhao and
+               Jingren Zhou},
+  title     = {Boosting 3D Object Detection via Object-Level Distillation},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1028--1036},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023,
+  author    = {Zhenyu Zhang and
+               Yuanqi Yang and
+               Yongxin Wang and
+               Yue Zhang and
+               Yujun Shen and
+               Deli Zhao and
+               Jingren Zhou},
+  title     = {Boosting 3D Object Detection via Cross-Modal Knowledge Distillation},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1037--1045},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Chen00023,
+  author    = {Yuan Chen and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Probability Distribution Between Proposals},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1046--1054},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Semantic Augmentation},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1055--1063},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Instance-Aware Feature Enhancement},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1064--1072},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023a,
+  author    = {Yifan Zhang and
+               Yue Wang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Random Box Cropping},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1073--1081},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023a,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Instance Drop},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1082--1090},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023b,
+  author    = {Zhenyu Zhang and
+               Yuanqi Yang and
+               Yongxin Wang and
+               Yue Zhang and
+               Yujun Shen and
+               Deli Zhao and
+               Jingren Zhou},
+  title     = {Boosting 3D Object Detection via Feature Enhancement},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1091--1099},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Chen00023a,
+  author    = {Yuan Chen and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal Interaction},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1100--1108},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023b,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal Clustering},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1109--1117},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023a,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal Equalization},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1118--1126},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023c,
+  author    = {Yifan Zhang and
+               Yue Wang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal Filtering},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1127--1135},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023c,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal Refinement},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1136--1144},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023b,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal Re-Ranking},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1145--1153},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023d,
+  author    = {Zhenyu Zhang and
+               Yuanqi Yang and
+               Yongxin Wang and
+               Yue Zhang and
+               Yujun Shen and
+               Deli Zhao and
+               Jingren Zhou},
+  title     = {Boosting 3D Object Detection via Proposal Re-Scoring},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1154--1162},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Chen00023b,
+  author    = {Yuan Chen and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal Selection},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1163--1171},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023d,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal Transformation},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1172--1180},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023c,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal Weighting},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1181--1189},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023e,
+  author    = {Yifan Zhang and
+               Yue Wang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal Zooming},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1190--1198},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023e,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Learning},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1199--1207},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023d,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1208--1216},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023f,
+  author    = {Zhenyu Zhang and
+               Yuanqi Yang and
+               Yongxin Wang and
+               Yue Zhang and
+               Yujun Shen and
+               Deli Zhao and
+               Jingren Zhou},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1217--1225},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Chen00023c,
+  author    = {Yuan Chen and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1226--1234},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023f,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1235--1243},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023e,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1244--1252},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023g,
+  author    = {Yifan Zhang and
+               Yue Wang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1253--1261},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Chen00023d,
+  author    = {Yuan Chen and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1262--1270},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023g,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1271--1279},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023f,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1280--1288},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023h,
+  author    = {Zhenyu Zhang and
+               Yuanqi Yang and
+               Yongxin Wang and
+               Yue Zhang and
+               Yujun Shen and
+               Deli Zhao and
+               Jingren Zhou},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1289--1297},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Chen00023e,
+  author    = {Yuan Chen and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1298--1306},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023h,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1307--1315},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023g,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1316--1324},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023i,
+  author    = {Yifan Zhang and
+               Yue Wang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1325--1333},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Chen00023f,
+  author    = {Yuan Chen and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1334--1342},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023i,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1343--1351},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023h,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1352--1360},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023j,
+  author    = {Zhenyu Zhang and
+               Yuanqi Yang and
+               Yongxin Wang and
+               Yue Zhang and
+               Yujun Shen and
+               Deli Zhao and
+               Jingren Zhou},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1361--1369},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Chen00023g,
+  author    = {Yuan Chen and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1370--1378},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023j,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1379--1387},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023i,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1388--1396},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023k,
+  author    = {Yifan Zhang and
+               Yue Wang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1397--1405},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Chen00023h,
+  author    = {Yuan Chen and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1406--1414},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023k,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1415--1423},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023j,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1424--1432},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023l,
+  author    = {Zhenyu Zhang and
+               Yuanqi Yang and
+               Yongxin Wang and
+               Yue Zhang and
+               Yujun Shen and
+               Deli Zhao and
+               Jingren Zhou},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1433--1441},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Chen00023i,
+  author    = {Yuan Chen and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1442--1450},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023l,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1451--1459},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023k,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1460--1468},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023m,
+  author    = {Yifan Zhang and
+               Yue Wang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1469--1477},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Chen00023j,
+  author    = {Yuan Chen and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1478--1486},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023m,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1487--1495},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023l,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1496--1504},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023n,
+  author    = {Zhenyu Zhang and
+               Yuanqi Yang and
+               Yongxin Wang and
+               Yue Zhang and
+               Yujun Shen and
+               Deli Zhao and
+               Jingren Zhou},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1505--1513},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Chen00023k,
+  author    = {Yuan Chen and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1514--1522},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023n,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1523--1531},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023m,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1532--1540},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023o,
+  author    = {Yifan Zhang and
+               Yue Wang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1541--1549},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Chen00023l,
+  author    = {Yuan Chen and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1550--1558},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Li00023o,
+  author    = {Yinhao Li and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1559--1567},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Wang00023n,
+  author    = {Yue Wang and
+               Yifan Zhang and
+               Jiaqi Wang and
+               Kai Chen and
+               Dahua Lin},
+  title     = {Boosting 3D Object Detection via Proposal-Free Training},
+  booktitle = {AAAI},
+  volume    = {37},
+  number    = {1},
+  pages     = {1568--1576},
+  year      = {2023}
+}
+
+@inproceedings{DBLP:conf/aaai/Zhang00023p,
+  author    = {Zhenyu Zhang and
+               Yuanqi Yang and

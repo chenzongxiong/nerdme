@@ -1,0 +1,2 @@
+# Lightweight-Face-Detector-Pruning \
+Pruning Lightweight Face Detectors **<PROJECT>EXTD</PROJECT>** and **<PROJECT>EResFD</PROJECT>** using NNI's `<SOFTWARE>FPGMPruner</SOFTWARE>` and `<SOFTWARE>L1NormPruner</SOFTWARE>`.

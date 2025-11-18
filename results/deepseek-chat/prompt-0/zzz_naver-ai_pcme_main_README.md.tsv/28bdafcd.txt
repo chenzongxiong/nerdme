@@ -1,0 +1,3 @@
+```markdown
+- <PUBLICATION>Reed, Scott, et al.</PUBLICATION>
+```

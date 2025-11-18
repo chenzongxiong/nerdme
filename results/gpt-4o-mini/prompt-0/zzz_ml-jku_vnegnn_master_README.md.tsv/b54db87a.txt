@@ -1,0 +1,1 @@
+style=plastic&logo=internetcomputer)](https://linktr.ee/vnegnn)  ## News  🔥  ***April 10 2024***:  *The trained <PROJECT>VNEGNN</PROJECT> model and processed <DATASET>dataset</DATASET> are released, as in the <PUBLICATION>paper</PUBLICATION>!

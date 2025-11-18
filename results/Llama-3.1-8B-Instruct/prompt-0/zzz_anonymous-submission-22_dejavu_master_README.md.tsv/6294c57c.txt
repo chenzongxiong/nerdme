@@ -1,0 +1,1 @@
+To solve this problem, we calculate similarities based on <EVALMETRIC>F1-Score</EVALMETRIC> and <EVALMETRIC>BLEU Score</EVALMETRIC> rather than single failure units.

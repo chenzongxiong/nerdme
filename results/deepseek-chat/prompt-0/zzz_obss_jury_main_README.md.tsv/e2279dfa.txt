@@ -1,0 +1,3 @@
+```markdown
+For this, we fixed <PROGLANG>pywin32</PROGLANG> version on our setup config for Windows platforms.
+```

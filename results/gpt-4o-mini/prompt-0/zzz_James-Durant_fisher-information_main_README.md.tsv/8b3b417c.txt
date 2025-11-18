@@ -1,0 +1,1 @@
+Determining the maximum information gain and optimizing experimental design in <ONTOLOGY>neutron reflectometry</ONTOLOGY> using the <EVALMETRIC>Fisher information</EVALMETRIC>.

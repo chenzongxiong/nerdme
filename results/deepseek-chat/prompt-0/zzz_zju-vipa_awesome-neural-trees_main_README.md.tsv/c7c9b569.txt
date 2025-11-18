@@ -1,0 +1,1 @@
+This survey tries to include NNs that draw on a part of ideas from DTs, either the class hierarchy or the decision branches, but not both.

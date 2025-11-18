@@ -1,0 +1,1 @@
+/hamiltoniq/<SOFTWARE>H_Scores</SOFTWARE>/qubit_6.png" alt="n_qubits=4" width="700" /></p>  <a name="architecture"></a>  ## <PUBLICATION>Architecture</PUBLICATION>  For more technical details please visit our <PUBLICATION>arXiv Paper</PUBLICATION> (<PUBLICATION>https://arxiv.org/abs/2404.13971</PUBLICATION>).

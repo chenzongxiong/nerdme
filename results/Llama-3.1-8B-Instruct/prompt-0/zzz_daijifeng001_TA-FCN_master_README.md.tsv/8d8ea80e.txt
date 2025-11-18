@@ -1,0 +1,3 @@
+The <SOFTWARE>FCIS</SOFTWARE> on COCO with ResNet-v1-101 can be trained and tested using the following command:
+```python experiments/fcis/fcis_end2end_train_test.py --cfg experiments/fcis/cfgs/resnet_v1_101_coco_fcis_end2end_ohem.yaml```
+A cache folder would be created automatically to save the model and the log under `<PROJECT>FCIS</PROJECT> <DATASET>COCO</DATASET>/<SOFTWARE>FCIS</SOFTWARE>` or `<PROJECT>FCIS</PROJECT> <DATASET>VOC</DATASET>/<SOFTWARE>FCIS</SOFTWARE>`.

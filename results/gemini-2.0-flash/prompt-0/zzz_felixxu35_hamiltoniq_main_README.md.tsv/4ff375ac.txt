@@ -1,0 +1,1 @@
+[How to cite](#cite)  <a name="introduction"></a>  ## Introduction   HamilToniQ is an <SOFTWARE>application</SOFTWARE>-oriented benchmarking toolkit for the comprehensive evaluation of QPUs.

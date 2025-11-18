@@ -1,0 +1,1 @@
+Initializaing a **ServerAgent** only requires the same default argument for initializing its superclass **Agent**: `agent_number` which should be `0` for the first server agent.

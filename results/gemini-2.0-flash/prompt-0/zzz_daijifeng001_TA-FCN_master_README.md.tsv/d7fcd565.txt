@@ -1,0 +1,1 @@
+We use 8 and 4 GPUs to train models on `<DATASET>COCO</DATASET>` and on `<DATASET>VOC</DATASET>`, respectively. 3.

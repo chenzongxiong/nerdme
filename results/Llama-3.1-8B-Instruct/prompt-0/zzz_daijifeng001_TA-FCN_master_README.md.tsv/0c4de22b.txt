@@ -1,0 +1,1 @@
+The <SOFTWARE>MXNet</SOFTWARE> is a deep learning framework designed to be flexible and easy to use.

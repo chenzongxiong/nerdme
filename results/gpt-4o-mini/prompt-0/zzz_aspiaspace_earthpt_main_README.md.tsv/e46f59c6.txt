@@ -1,0 +1,1 @@
+`train.py` reproduces <PUBLICATION>EarthPT-700M</PUBLICATION> when trained on 14B time series 'tokens' of <DATASET>ClearSky EO</DATASET> data within the TL UK National Grid tile.

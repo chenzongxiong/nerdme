@@ -1,0 +1,1 @@
+Here, we develop a novel medical knowledge-aware BERT-based model (`<SOFTWARE>MedBERT</SOFTWARE>`) that explicitly gives more weightage to medical concept-bearing words, and utilize domain-specific side information obtained from a popular medical knowledge base.

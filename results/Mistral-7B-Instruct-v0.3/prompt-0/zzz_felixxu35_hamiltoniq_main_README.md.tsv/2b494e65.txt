@@ -1,0 +1,11 @@
+`[License: MIT](https://img.shields.io/badge/license-<LICENSE>MIT</LICENSE>-blue.svg?)`
+
+`The <SOFTWARE>Protege ontology editor</SOFTWARE> is widely used for creating ontologies.`
+
+`The <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION> is available at <URL>https://arxiv.org/abs/2203.00031</URL>.`
+
+`The <PROJECT>Paper With Code</PROJECT> project (<URL>https://<PROJECT>paperswithcode</PROJECT>.com/) provides a platform for comparing the performance of various models.`
+
+`The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (<URL>https://iswc2019.semanticweb.org/</URL>) was held in San Francisco, USA.`
+
+`The <WORKSHOP>Thermal Image Super-Resolution</

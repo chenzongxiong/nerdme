@@ -1,0 +1,1 @@
+```bash chmod +x tools/train_slr.sh tools/train_slr.sh ``` The script contains the following variables, that can be changed to achieve the desired results

@@ -1,0 +1,1 @@
+If you want to try out a different template, pass the `-t` argument to the <SOFTWARE>program</SOFTWARE> with the template file as an argument.

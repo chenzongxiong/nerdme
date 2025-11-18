@@ -1,0 +1,1 @@
++ Loading a single source's <SOFTWARE>JSON</SOFTWARE>   + Loading a directory of <DATASET>NELA</DATASET> <SOFTWARE>JSON</SOFTWARE> files - **WARNING**: this consumes a lot of memory  Usage: ``` python3 <SOFTWARE>load-json.py</SOFTWARE> <path-to-file> ```

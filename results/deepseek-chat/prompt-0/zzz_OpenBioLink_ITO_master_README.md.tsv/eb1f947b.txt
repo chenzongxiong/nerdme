@@ -1,0 +1,1 @@
+The `<ONTOLOGY>EDAM ontology</ONTOLOGY>` is licensed under a `<LICENSE>CC-BY-SA</LICENSE>` license.

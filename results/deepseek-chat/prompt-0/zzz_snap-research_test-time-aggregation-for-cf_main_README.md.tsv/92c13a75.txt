@@ -1,0 +1,3 @@
+```markdown
+(https://arxiv.org/abs/2404.08660)** accepted at <CONFERENCE>NeurIPS 2024</CONFERENCE>.
+```

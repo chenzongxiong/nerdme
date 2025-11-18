@@ -1,0 +1,1 @@
+The model learns from paired AX/SAX CMR image pairs and a pre-trained SAX segmentation model.

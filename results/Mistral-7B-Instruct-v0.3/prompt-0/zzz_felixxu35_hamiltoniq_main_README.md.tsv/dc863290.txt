@@ -1,0 +1,1 @@
+The process `<PROJECT>quantum circuit compilation</PROJECT>` engages in `<ONTOLOGY>quantum circuit compilation</ONTOLOGY>`, employing a `<PROGLANG>specific strategy</PROGLANG>` designed to optimize the execution of `<SOFTWARE>quantum circuits</SOFTWARE>` on the identified `<HARDWARE>QPUs</HARDWARE>`.

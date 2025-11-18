@@ -1,0 +1,1 @@
+For each model, we mention based on what information it computes a snippet embedding: the description and/or the code.

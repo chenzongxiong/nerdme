@@ -1,0 +1,13 @@
+The repository contains all code, instructions and model weights necessary to `<PROJECT>run the method</PROJECT>` or to `<PROJECT>retrain a model</PROJECT>`.
+
+The `<SOFTWARE>PyTorch</SOFTWARE>` framework is used for implementing the code.
+
+You can find the `<DATASET>CIFAR-10</DATASET>` dataset in the `<DATASET>datasets</DATASET>` folder.
+
+The `<PUBLICATION>Deep Residual Learning for Image Recognition</PUBLICATION>` paper provides more information about the method.
+
+The `<ONTOLOGY>WordNet</ONTOLOGY>` ontology is used for word sense disambiguation.
+
+The `<LICENSE>MIT License</LICENSE>` applies to the entire repository.
+
+The `<CONFERENCE>ICML 2022</CONFERENCE>` workshop on "Deep Learning for Computer Vision" is related to this project.

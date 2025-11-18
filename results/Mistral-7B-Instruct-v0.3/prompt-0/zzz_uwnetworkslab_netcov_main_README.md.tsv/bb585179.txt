@@ -1,0 +1,4 @@
+```sh $ <SOFTWARE>pip</SOFTWARE> install <SOFTWARE>netcov</SOFTWARE> ```  NetCov leverages [<ONTOLOGY>LCOV</ONTOLOGY>](https://github.com/linux-test-project/lcov) to generate <SOFTWARE>HTML report</SOFTWARE>.
+```
+**Note:** The input text does not contain any entities that match the provided classes.
+```

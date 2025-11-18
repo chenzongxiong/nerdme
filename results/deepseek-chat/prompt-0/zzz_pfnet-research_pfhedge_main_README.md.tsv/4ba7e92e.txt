@@ -1,0 +1,3 @@
+```markdown
+[CI](https://github.com/<PROJECT>pfnet-research</PROJECT>/<PROJECT>pfhedge</PROJECT>/workflows/CI/badge.svg)](https://github.com/<PROJECT>pfnet-research</PROJECT>/<PROJECT>pfhedge</PROJECT>/actions?
+```

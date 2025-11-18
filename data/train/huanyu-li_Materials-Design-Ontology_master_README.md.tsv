@@ -1,0 +1,580 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=## !!!
+1-1	0-1	#	_	_	
+1-2	1-2	#	_	_	
+1-3	3-4	!	_	_	
+1-4	4-5	!	_	_	
+1-5	5-6	!	_	_	
+
+#Text=The latest maintenance of MDO has been migrated to [LiUSemWeb/Materials-Design-Ontology](https://github.com/LiUSemWeb/Materials-Design-Ontology). 
+#Text=
+#Text=### What is Materials Design Ontology?
+2-1	7-10	The	_	_	
+2-2	11-17	latest	_	_	
+2-3	18-29	maintenance	_	_	
+2-4	30-32	of	_	_	
+2-5	33-36	MDO	*	ONTOLOGY	
+2-6	37-40	has	_	_	
+2-7	41-45	been	_	_	
+2-8	46-54	migrated	_	_	
+2-9	55-57	to	_	_	
+2-10	58-59	[	_	_	
+2-11	59-68	LiUSemWeb	_	_	
+2-12	68-69	/	_	_	
+2-13	69-94	Materials-Design-Ontology	*	ONTOLOGY	
+2-14	94-95	]	_	_	
+2-15	95-96	(	_	_	
+2-16	96-101	https	_	_	
+2-17	101-102	:	_	_	
+2-18	102-103	/	_	_	
+2-19	103-104	/	_	_	
+2-20	104-114	github.com	_	_	
+2-21	114-115	/	_	_	
+2-22	115-124	LiUSemWeb	_	_	
+2-23	124-125	/	_	_	
+2-24	125-150	Materials-Design-Ontology	*	ONTOLOGY	
+2-25	150-151	)	_	_	
+2-26	151-152	.	_	_	
+2-27	155-156	#	_	_	
+2-28	156-157	#	_	_	
+2-29	157-158	#	_	_	
+2-30	159-163	What	_	_	
+2-31	164-166	is	_	_	
+2-32	167-176	Materials	*[1]	ONTOLOGY[1]	
+2-33	177-183	Design	*[1]	ONTOLOGY[1]	
+2-34	184-192	Ontology	*[1]	ONTOLOGY[1]	
+2-35	192-193	?	_	_	
+
+#Text=MDO is an ontology for materials design field, representing the domain knowledge specifically related to solid-state physics and computational materials science.
+#Text=
+#Text=### What does Materials Design Ontology consist of?
+3-1	195-198	MDO	*	ONTOLOGY	
+3-2	199-201	is	_	_	
+3-3	202-204	an	_	_	
+3-4	205-213	ontology	_	_	
+3-5	214-217	for	_	_	
+3-6	218-227	materials	_	_	
+3-7	228-234	design	_	_	
+3-8	235-240	field	_	_	
+3-9	240-241	,	_	_	
+3-10	242-254	representing	_	_	
+3-11	255-258	the	_	_	
+3-12	259-265	domain	_	_	
+3-13	266-275	knowledge	_	_	
+3-14	276-288	specifically	_	_	
+3-15	289-296	related	_	_	
+3-16	297-299	to	_	_	
+3-17	300-311	solid-state	_	_	
+3-18	312-319	physics	_	_	
+3-19	320-323	and	_	_	
+3-20	324-337	computational	_	_	
+3-21	338-347	materials	_	_	
+3-22	348-355	science	_	_	
+3-23	355-356	.	_	_	
+3-24	358-359	#	_	_	
+3-25	359-360	#	_	_	
+3-26	360-361	#	_	_	
+3-27	362-366	What	_	_	
+3-28	367-371	does	_	_	
+3-29	372-381	Materials	*[2]	ONTOLOGY[2]	
+3-30	382-388	Design	*[2]	ONTOLOGY[2]	
+3-31	389-397	Ontology	*[2]	ONTOLOGY[2]	
+3-32	398-405	consist	_	_	
+3-33	406-408	of	_	_	
+3-34	408-409	?	_	_	
+
+#Text=Materials Design Ontology consists of 4 modules which are:
+#Text=
+#Text=* [Core](https://w3id.org/mdo/core/1.0): This module consists of the top-level concepts and relationships of the materials design ontology, which are also reused in other modules
+4-1	411-420	Materials	*[3]	ONTOLOGY[3]	
+4-2	421-427	Design	*[3]	ONTOLOGY[3]	
+4-3	428-436	Ontology	*[3]	ONTOLOGY[3]	
+4-4	437-445	consists	_	_	
+4-5	446-448	of	_	_	
+4-6	449-450	4	_	_	
+4-7	451-458	modules	_	_	
+4-8	459-464	which	_	_	
+4-9	465-468	are	_	_	
+4-10	468-469	:	_	_	
+4-11	471-472	*	_	_	
+4-12	473-474	[	_	_	
+4-13	474-478	Core	_	_	
+4-14	478-479	]	_	_	
+4-15	479-480	(	_	_	
+4-16	480-485	https	_	_	
+4-17	485-486	:	_	_	
+4-18	486-487	/	_	_	
+4-19	487-488	/	_	_	
+4-20	488-496	w3id.org	_	_	
+4-21	496-497	/	_	_	
+4-22	497-500	mdo	*	ONTOLOGY	
+4-23	500-501	/	_	_	
+4-24	501-505	core	_	_	
+4-25	505-506	/	_	_	
+4-26	506-509	1.0	_	_	
+4-27	509-510	)	_	_	
+4-28	510-511	:	_	_	
+4-29	512-516	This	_	_	
+4-30	517-523	module	_	_	
+4-31	524-532	consists	_	_	
+4-32	533-535	of	_	_	
+4-33	536-539	the	_	_	
+4-34	540-549	top-level	_	_	
+4-35	550-558	concepts	_	_	
+4-36	559-562	and	_	_	
+4-37	563-576	relationships	_	_	
+4-38	577-579	of	_	_	
+4-39	580-583	the	_	_	
+4-40	584-593	materials	*[4]	ONTOLOGY[4]	
+4-41	594-600	design	*[4]	ONTOLOGY[4]	
+4-42	601-609	ontology	*[4]	ONTOLOGY[4]	
+4-43	609-610	,	_	_	
+4-44	611-616	which	_	_	
+4-45	617-620	are	_	_	
+4-46	621-625	also	_	_	
+4-47	626-632	reused	_	_	
+4-48	633-635	in	_	_	
+4-49	636-641	other	_	_	
+4-50	642-649	modules	_	_	
+
+#Text=.
+5-1	649-650	.	_	_	
+
+#Text=* [Structure](https://w3id.org/mdo/structure/1.0): The structure module is intended to represent the structural information of materials.
+6-1	652-653	*	_	_	
+6-2	654-655	[	_	_	
+6-3	655-664	Structure	_	_	
+6-4	664-665	]	_	_	
+6-5	665-666	(	_	_	
+6-6	666-671	https	_	_	
+6-7	671-672	:	_	_	
+6-8	672-673	/	_	_	
+6-9	673-674	/	_	_	
+6-10	674-682	w3id.org	_	_	
+6-11	682-683	/	_	_	
+6-12	683-686	mdo	*	ONTOLOGY	
+6-13	686-687	/	_	_	
+6-14	687-696	structure	_	_	
+6-15	696-697	/	_	_	
+6-16	697-700	1.0	_	_	
+6-17	700-701	)	_	_	
+6-18	701-702	:	_	_	
+6-19	703-706	The	_	_	
+6-20	707-716	structure	_	_	
+6-21	717-723	module	_	_	
+6-22	724-726	is	_	_	
+6-23	727-735	intended	_	_	
+6-24	736-738	to	_	_	
+6-25	739-748	represent	_	_	
+6-26	749-752	the	_	_	
+6-27	753-763	structural	_	_	
+6-28	764-775	information	_	_	
+6-29	776-778	of	_	_	
+6-30	779-788	materials	_	_	
+6-31	788-789	.	_	_	
+
+#Text=Such structural information is also the basis of materials calculations
+7-1	790-794	Such	_	_	
+7-2	795-805	structural	_	_	
+7-3	806-817	information	_	_	
+7-4	818-820	is	_	_	
+7-5	821-825	also	_	_	
+7-6	826-829	the	_	_	
+7-7	830-835	basis	_	_	
+7-8	836-838	of	_	_	
+7-9	839-848	materials	_	_	
+7-10	849-861	calculations	_	_	
+
+#Text=.
+8-1	861-862	.	_	_	
+
+#Text=* [Calculation](https://w3id.org/mdo/calculation/1.0): This module is intended to represent the classification of different computational methods
+9-1	864-865	*	_	_	
+9-2	866-867	[	_	_	
+9-3	867-878	Calculation	_	_	
+9-4	878-879	]	_	_	
+9-5	879-880	(	_	_	
+9-6	880-885	https	_	_	
+9-7	885-886	:	_	_	
+9-8	886-887	/	_	_	
+9-9	887-888	/	_	_	
+9-10	888-896	w3id.org	_	_	
+9-11	896-897	/	_	_	
+9-12	897-900	mdo	*	ONTOLOGY	
+9-13	900-901	/	_	_	
+9-14	901-912	calculation	_	_	
+9-15	912-913	/	_	_	
+9-16	913-916	1.0	_	_	
+9-17	916-917	)	_	_	
+9-18	917-918	:	_	_	
+9-19	919-923	This	_	_	
+9-20	924-930	module	_	_	
+9-21	931-933	is	_	_	
+9-22	934-942	intended	_	_	
+9-23	943-945	to	_	_	
+9-24	946-955	represent	_	_	
+9-25	956-959	the	_	_	
+9-26	960-974	classification	_	_	
+9-27	975-977	of	_	_	
+9-28	978-987	different	_	_	
+9-29	988-1001	computational	_	_	
+9-30	1002-1009	methods	_	_	
+
+#Text=.
+10-1	1009-1010	.	_	_	
+
+#Text=* [Provenance](https://w3id.org/mdo/provenance/1.0): This module is intended to represent the provenance information of materials data and calculation
+11-1	1012-1013	*	_	_	
+11-2	1014-1015	[	_	_	
+11-3	1015-1025	Provenance	_	_	
+11-4	1025-1026	]	_	_	
+11-5	1026-1027	(	_	_	
+11-6	1027-1032	https	_	_	
+11-7	1032-1033	:	_	_	
+11-8	1033-1034	/	_	_	
+11-9	1034-1035	/	_	_	
+11-10	1035-1043	w3id.org	_	_	
+11-11	1043-1044	/	_	_	
+11-12	1044-1047	mdo	*	ONTOLOGY	
+11-13	1047-1048	/	_	_	
+11-14	1048-1058	provenance	_	_	
+11-15	1058-1059	/	_	_	
+11-16	1059-1062	1.0	_	_	
+11-17	1062-1063	)	_	_	
+11-18	1063-1064	:	_	_	
+11-19	1065-1069	This	_	_	
+11-20	1070-1076	module	_	_	
+11-21	1077-1079	is	_	_	
+11-22	1080-1088	intended	_	_	
+11-23	1089-1091	to	_	_	
+11-24	1092-1101	represent	_	_	
+11-25	1102-1105	the	_	_	
+11-26	1106-1116	provenance	_	_	
+11-27	1117-1128	information	_	_	
+11-28	1129-1131	of	_	_	
+11-29	1132-1141	materials	_	_	
+11-30	1142-1146	data	_	_	
+11-31	1147-1150	and	_	_	
+11-32	1151-1162	calculation	_	_	
+
+#Text=.
+12-1	1162-1163	.	_	_	
+
+#Text=* A full MDO importing all the above modules is avaliable at [MDO Full](https://w3id.org/mdo/full/1.0).
+#Text=
+#Text=### MDO Concepts and Relationships
+#Text=!
+13-1	1165-1166	*	_	_	
+13-2	1167-1168	A	_	_	
+13-3	1169-1173	full	_	_	
+13-4	1174-1177	MDO	*	ONTOLOGY	
+13-5	1178-1187	importing	_	_	
+13-6	1188-1191	all	_	_	
+13-7	1192-1195	the	_	_	
+13-8	1196-1201	above	_	_	
+13-9	1202-1209	modules	_	_	
+13-10	1210-1212	is	_	_	
+13-11	1213-1222	avaliable	_	_	
+13-12	1223-1225	at	_	_	
+13-13	1226-1227	[	_	_	
+13-14	1227-1230	MDO	*	ONTOLOGY	
+13-15	1231-1235	Full	_	_	
+13-16	1235-1236	]	_	_	
+13-17	1236-1237	(	_	_	
+13-18	1237-1242	https	_	_	
+13-19	1242-1243	:	_	_	
+13-20	1243-1244	/	_	_	
+13-21	1244-1245	/	_	_	
+13-22	1245-1253	w3id.org	_	_	
+13-23	1253-1254	/	_	_	
+13-24	1254-1257	mdo	*	ONTOLOGY	
+13-25	1257-1258	/	_	_	
+13-26	1258-1262	full	_	_	
+13-27	1262-1263	/	_	_	
+13-28	1263-1266	1.0	_	_	
+13-29	1266-1267	)	_	_	
+13-30	1267-1268	.	_	_	
+13-31	1270-1271	#	_	_	
+13-32	1271-1272	#	_	_	
+13-33	1272-1273	#	_	_	
+13-34	1274-1277	MDO	*	ONTOLOGY	
+13-35	1278-1286	Concepts	_	_	
+13-36	1287-1290	and	_	_	
+13-37	1291-1304	Relationships	_	_	
+13-38	1305-1306	!	_	_	
+
+#Text=[entities](https://huanyu-li.github.io/figures/mdo/MDO.png "MDO concepts and relationships")
+#Text=
+#Text=
+#Text=### MDO Vision
+#Text=!
+14-1	1306-1307	[	_	_	
+14-2	1307-1315	entities	_	_	
+14-3	1315-1316	]	_	_	
+14-4	1316-1317	(	_	_	
+14-5	1317-1322	https	_	_	
+14-6	1322-1323	:	_	_	
+14-7	1323-1324	/	_	_	
+14-8	1324-1325	/	_	_	
+14-9	1325-1344	huanyu-li.github.io	_	_	
+14-10	1344-1345	/	_	_	
+14-11	1345-1352	figures	_	_	
+14-12	1352-1353	/	_	_	
+14-13	1353-1356	mdo	*	ONTOLOGY	
+14-14	1356-1357	/	_	_	
+14-15	1357-1364	MDO.png	_	_	
+14-15.1	1357-1360	MDO	*	ONTOLOGY	
+14-16	1365-1366	"	_	_	
+14-17	1366-1369	MDO	*	ONTOLOGY	
+14-18	1370-1378	concepts	_	_	
+14-19	1379-1382	and	_	_	
+14-20	1383-1396	relationships	_	_	
+14-21	1396-1397	"	_	_	
+14-22	1397-1398	)	_	_	
+14-23	1401-1402	#	_	_	
+14-24	1402-1403	#	_	_	
+14-25	1403-1404	#	_	_	
+14-26	1405-1408	MDO	*	ONTOLOGY	
+14-27	1409-1415	Vision	_	_	
+14-28	1416-1417	!	_	_	
+
+#Text=[entities](https://huanyu-li.github.io/figures/mdo/new-vision.png "MDO vision")
+#Text=
+#Text=### MDO Instantiation 
+#Text=!
+15-1	1417-1418	[	_	_	
+15-2	1418-1426	entities	_	_	
+15-3	1426-1427	]	_	_	
+15-4	1427-1428	(	_	_	
+15-5	1428-1433	https	_	_	
+15-6	1433-1434	:	_	_	
+15-7	1434-1435	/	_	_	
+15-8	1435-1436	/	_	_	
+15-9	1436-1455	huanyu-li.github.io	_	_	
+15-10	1455-1456	/	_	_	
+15-11	1456-1463	figures	_	_	
+15-12	1463-1464	/	_	_	
+15-13	1464-1467	mdo	*	ONTOLOGY	
+15-14	1467-1468	/	_	_	
+15-15	1468-1482	new-vision.png	_	_	
+15-16	1483-1484	"	_	_	
+15-17	1484-1487	MDO	*	ONTOLOGY	
+15-18	1488-1494	vision	_	_	
+15-19	1494-1495	"	_	_	
+15-20	1495-1496	)	_	_	
+15-21	1498-1499	#	_	_	
+15-22	1499-1500	#	_	_	
+15-23	1500-1501	#	_	_	
+15-24	1502-1505	MDO	*	ONTOLOGY	
+15-25	1506-1519	Instantiation	_	_	
+15-26	1521-1522	!	_	_	
+
+#Text=[entities](https://huanyu-li.github.io/figures/mdo/instances-output.png "MDO instantiation")
+#Text=
+#Text=### Publication 
+#Text=Li H, Armiento R, Lambrix P, "An Ontology for the Materials Design Domain", [published version](https://link.springer.com/chapter/10.1007/978-3-030-62466-8_14) (accepted at ISWC 2020)
+#Text=
+#Text=### Talk
+#Text=* [Poster](https://huanyu-li.github.io/posters/mdo-poster-paper276.pdf)
+#Text=* [Presentation of the poster](https://www.youtube.com/watch?
+16-1	1522-1523	[	_	_	
+16-2	1523-1531	entities	_	_	
+16-3	1531-1532	]	_	_	
+16-4	1532-1533	(	_	_	
+16-5	1533-1538	https	_	_	
+16-6	1538-1539	:	_	_	
+16-7	1539-1540	/	_	_	
+16-8	1540-1541	/	_	_	
+16-9	1541-1560	huanyu-li.github.io	_	_	
+16-10	1560-1561	/	_	_	
+16-11	1561-1568	figures	_	_	
+16-12	1568-1569	/	_	_	
+16-13	1569-1572	mdo	*	ONTOLOGY	
+16-14	1572-1573	/	_	_	
+16-15	1573-1593	instances-output.png	_	_	
+16-16	1594-1595	"	_	_	
+16-17	1595-1598	MDO	*	ONTOLOGY	
+16-18	1599-1612	instantiation	_	_	
+16-19	1612-1613	"	_	_	
+16-20	1613-1614	)	_	_	
+16-21	1616-1617	#	_	_	
+16-22	1617-1618	#	_	_	
+16-23	1618-1619	#	_	_	
+16-24	1620-1631	Publication	_	_	
+16-25	1633-1635	Li	_	_	
+16-26	1636-1637	H	_	_	
+16-27	1637-1638	,	_	_	
+16-28	1639-1647	Armiento	_	_	
+16-29	1648-1649	R	_	_	
+16-30	1649-1650	,	_	_	
+16-31	1651-1658	Lambrix	_	_	
+16-32	1659-1660	P	_	_	
+16-33	1660-1661	,	_	_	
+16-34	1662-1663	"	_	_	
+16-35	1663-1665	An	*[5]	PUBLICATION[5]	
+16-36	1666-1674	Ontology	*[5]	PUBLICATION[5]	
+16-37	1675-1678	for	*[5]	PUBLICATION[5]	
+16-38	1679-1682	the	*[5]	PUBLICATION[5]	
+16-39	1683-1692	Materials	*[5]	PUBLICATION[5]	
+16-40	1693-1699	Design	*[5]	PUBLICATION[5]	
+16-41	1700-1706	Domain	*[5]	PUBLICATION[5]	
+16-42	1706-1707	"	_	_	
+16-43	1707-1708	,	_	_	
+16-44	1709-1710	[	_	_	
+16-45	1710-1719	published	_	_	
+16-46	1720-1727	version	_	_	
+16-47	1727-1728	]	_	_	
+16-48	1728-1729	(	_	_	
+16-49	1729-1734	https	_	_	
+16-50	1734-1735	:	_	_	
+16-51	1735-1736	/	_	_	
+16-52	1736-1737	/	_	_	
+16-53	1737-1754	link.springer.com	_	_	
+16-54	1754-1755	/	_	_	
+16-55	1755-1762	chapter	_	_	
+16-56	1762-1763	/	_	_	
+16-57	1763-1770	10.1007	_	_	
+16-58	1770-1771	/	_	_	
+16-59	1771-1774	978	_	_	
+16-60	1774-1775	-	_	_	
+16-61	1775-1776	3	_	_	
+16-62	1776-1777	-	_	_	
+16-63	1777-1780	030	_	_	
+16-64	1780-1781	-	_	_	
+16-65	1781-1786	62466	_	_	
+16-66	1786-1787	-	_	_	
+16-67	1787-1788	8	_	_	
+16-68	1788-1789	_	_	_	
+16-69	1789-1791	14	_	_	
+16-70	1791-1792	)	_	_	
+16-71	1793-1794	(	_	_	
+16-72	1794-1802	accepted	_	_	
+16-73	1803-1805	at	_	_	
+16-74	1806-1810	ISWC	*[6]	CONFERENCE[6]	
+16-75	1811-1815	2020	*[6]	CONFERENCE[6]	
+16-76	1815-1816	)	_	_	
+16-77	1818-1819	#	_	_	
+16-78	1819-1820	#	_	_	
+16-79	1820-1821	#	_	_	
+16-80	1822-1826	Talk	_	_	
+16-81	1827-1828	*	_	_	
+16-82	1829-1830	[	_	_	
+16-83	1830-1836	Poster	_	_	
+16-84	1836-1837	]	_	_	
+16-85	1837-1838	(	_	_	
+16-86	1838-1843	https	_	_	
+16-87	1843-1844	:	_	_	
+16-88	1844-1845	/	_	_	
+16-89	1845-1846	/	_	_	
+16-90	1846-1865	huanyu-li.github.io	_	_	
+16-91	1865-1866	/	_	_	
+16-92	1866-1873	posters	_	_	
+16-93	1873-1874	/	_	_	
+16-94	1874-1893	mdo-poster-paper276	_	_	
+16-95	1893-1894	.	_	_	
+16-96	1894-1897	pdf	_	_	
+16-97	1897-1898	)	_	_	
+16-98	1899-1900	*	_	_	
+16-99	1901-1902	[	_	_	
+16-100	1902-1914	Presentation	_	_	
+16-101	1915-1917	of	_	_	
+16-102	1918-1921	the	_	_	
+16-103	1922-1928	poster	_	_	
+16-104	1928-1929	]	_	_	
+16-105	1929-1930	(	_	_	
+16-106	1930-1935	https	_	_	
+16-107	1935-1936	:	_	_	
+16-108	1936-1937	/	_	_	
+16-109	1937-1938	/	_	_	
+16-110	1938-1953	www.youtube.com	_	_	
+16-111	1953-1954	/	_	_	
+16-112	1954-1959	watch	_	_	
+16-113	1959-1960	?	_	_	
+
+#Text=v=ObgKOwwlzbU)
+#Text=* [Presentation at ISWC 2020](https://www.ida.liu.se/~patla00/talks/ISWC2020presentation720.mp4)
+#Text=
+#Text=### Contact
+#Text=
+#Text=* [Huanyu Li](https://www.ida.liu.se/~huali50/)
+#Text=* [Patrick Lambrix](https://www.ida.liu.se/~patla00/)
+#Text=* [Rickard Armiento](https://rickard.armiento.se)
+17-1	1960-1961	v	_	_	
+17-2	1961-1962	=	_	_	
+17-3	1962-1973	ObgKOwwlzbU	_	_	
+17-4	1973-1974	)	_	_	
+17-5	1975-1976	*	_	_	
+17-6	1977-1978	[	_	_	
+17-7	1978-1990	Presentation	_	_	
+17-8	1991-1993	at	_	_	
+17-9	1994-1998	ISWC	*[7]	CONFERENCE[7]	
+17-10	1999-2003	2020	*[7]	CONFERENCE[7]	
+17-11	2003-2004	]	_	_	
+17-12	2004-2005	(	_	_	
+17-13	2005-2010	https	_	_	
+17-14	2010-2011	:	_	_	
+17-15	2011-2012	/	_	_	
+17-16	2012-2013	/	_	_	
+17-17	2013-2027	www.ida.liu.se	_	_	
+17-18	2027-2028	/	_	_	
+17-19	2028-2029	~	_	_	
+17-20	2029-2036	patla00	_	_	
+17-21	2036-2037	/	_	_	
+17-22	2037-2042	talks	_	_	
+17-23	2042-2043	/	_	_	
+17-24	2043-2066	ISWC2020presentation720	_	_	
+17-24.1	2043-2051	ISWC2020	*	CONFERENCE	
+17-25	2066-2067	.	_	_	
+17-26	2067-2070	mp4	_	_	
+17-27	2070-2071	)	_	_	
+17-28	2073-2074	#	_	_	
+17-29	2074-2075	#	_	_	
+17-30	2075-2076	#	_	_	
+17-31	2077-2084	Contact	_	_	
+17-32	2086-2087	*	_	_	
+17-33	2088-2089	[	_	_	
+17-34	2089-2095	Huanyu	_	_	
+17-35	2096-2098	Li	_	_	
+17-36	2098-2099	]	_	_	
+17-37	2099-2100	(	_	_	
+17-38	2100-2105	https	_	_	
+17-39	2105-2106	:	_	_	
+17-40	2106-2107	/	_	_	
+17-41	2107-2108	/	_	_	
+17-42	2108-2122	www.ida.liu.se	_	_	
+17-43	2122-2123	/	_	_	
+17-44	2123-2124	~	_	_	
+17-45	2124-2131	huali50	_	_	
+17-46	2131-2132	/	_	_	
+17-47	2132-2133	)	_	_	
+17-48	2134-2135	*	_	_	
+17-49	2136-2137	[	_	_	
+17-50	2137-2144	Patrick	_	_	
+17-51	2145-2152	Lambrix	_	_	
+17-52	2152-2153	]	_	_	
+17-53	2153-2154	(	_	_	
+17-54	2154-2159	https	_	_	
+17-55	2159-2160	:	_	_	
+17-56	2160-2161	/	_	_	
+17-57	2161-2162	/	_	_	
+17-58	2162-2176	www.ida.liu.se	_	_	
+17-59	2176-2177	/	_	_	
+17-60	2177-2178	~	_	_	
+17-61	2178-2185	patla00	_	_	
+17-62	2185-2186	/	_	_	
+17-63	2186-2187	)	_	_	
+17-64	2188-2189	*	_	_	
+17-65	2190-2191	[	_	_	
+17-66	2191-2198	Rickard	_	_	
+17-67	2199-2207	Armiento	_	_	
+17-68	2207-2208	]	_	_	
+17-69	2208-2209	(	_	_	
+17-70	2209-2214	https	_	_	
+17-71	2214-2215	:	_	_	
+17-72	2215-2216	/	_	_	
+17-73	2216-2217	/	_	_	
+17-74	2217-2236	rickard.armiento.se	_	_	
+17-75	2236-2237	)	_	_	

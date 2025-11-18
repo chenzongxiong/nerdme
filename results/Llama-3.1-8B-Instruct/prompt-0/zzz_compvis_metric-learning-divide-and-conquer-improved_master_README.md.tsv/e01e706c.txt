@@ -1,0 +1,3 @@
+For arguments not mentioned above, please check `/experiment/<SOFTWARE>margin_loss_resnet50.py</SOFTWARE>` for explanation.  
+### Evaluate or check results during:  
+* **evaluate a trained model**: `<SOFTWARE>eval_model.py</SOFTWARE>` `<SOFTWARE><PROGLANG>Python</PROGLANG></SOFTWARE>` `<DATASET>log and model checkpoint path</DATASET>`.

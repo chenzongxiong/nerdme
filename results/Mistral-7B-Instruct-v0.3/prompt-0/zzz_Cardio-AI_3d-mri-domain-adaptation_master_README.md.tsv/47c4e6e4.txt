@@ -1,0 +1,1 @@
+│   ├── predicted      <- `<PROJECT>Model Predictions</PROJECT>`, will be used for the `<EVALMETRIC>Evaluation Scripts</EVALMETRIC>`     │   └── raw            <- `<DATASET>Original, Immutable Data Dump</DATASET>`

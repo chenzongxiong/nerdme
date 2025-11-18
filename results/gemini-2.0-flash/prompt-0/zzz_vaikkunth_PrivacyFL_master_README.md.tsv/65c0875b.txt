@@ -1,0 +1,1 @@
+The file contains Boolean variables `USE_SECURITY` and `USE_DP_PRIVACY` to toggle security and differential privacy features.

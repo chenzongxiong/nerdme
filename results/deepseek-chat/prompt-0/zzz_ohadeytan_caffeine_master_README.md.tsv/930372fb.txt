@@ -1,0 +1,13 @@
+It seems like the input text provided is incomplete or missing. Could you please provide the full text you'd like me to annotate with Named Entity Recognition (NER) tags? Once you provide the complete text, I can proceed with the annotation according to the guidelines. 
+
+For now, here’s an example of how the output would look for a given input:
+
+**Example Input:**  
+"The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> featured discussions on the <DATASET>Maules Creek</DATASET> dataset, and tools like the <SOFTWARE>Protege Ontology Editor</SOFTWARE>."
+
+**Example Output (Markdown):**  
+```markdown
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> featured discussions on the <DATASET>Maules Creek</DATASET> dataset, and tools like the <SOFTWARE>Protege Ontology Editor</SOFTWARE>.
+```
+
+Please provide the full text you'd like annotated, and I’ll return the properly tagged version in Markdown format.

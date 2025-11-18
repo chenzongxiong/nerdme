@@ -1,0 +1,6 @@
+# <PROJECT>EntQA</PROJECT> This repo provides the code for our <PUBLICATION>ICLR 2022 paper</PUBLICATION> [EntQA: Entitly Linking as Question Answering](https://arxiv.org/pdf/2110.02369.pdf)
+
+## Setup
+``` conda create --name <PROJECT>entqa</PROJECT> python=3.8 conda activate <PROJECT>entqa</PROJECT> pip install -r requirements.txt conda install -c pytorch faiss-gpu cudatoolkit=11.0 ```
+## Download data & preprocess
+All the preprocessed data can be downloaded [here](https://drive.google.com/drive/folders/1DQvfjKOuOoUE3YcYrg2GIvODaOEZXMdH?

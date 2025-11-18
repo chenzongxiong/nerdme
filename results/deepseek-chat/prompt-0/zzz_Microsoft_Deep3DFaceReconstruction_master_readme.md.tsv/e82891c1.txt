@@ -1,0 +1,1 @@
+To train our model with custom images，5 facial landmarks of each image are needed in advance for an image pre-alignment process.

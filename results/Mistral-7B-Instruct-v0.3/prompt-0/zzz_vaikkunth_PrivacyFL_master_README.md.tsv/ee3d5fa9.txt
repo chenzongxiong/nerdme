@@ -1,0 +1,5 @@
+The text provided does not contain any of the specified entity classes. However, if we were to find a conference or workshop name within the text, it would be annotated as follows:
+
+`<CONFERENCE>Each client trains its weights from scratch each iteration</CONFERENCE>`
+
+This annotation is not accurate, as the text does not contain a conference or workshop name. The given text only refers to a process related to training weights in a machine learning context.

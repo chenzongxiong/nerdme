@@ -1,0 +1,1 @@
+By contributing to this `<PROJECT>project</PROJECT>`, you agree to abide by its terms.  ## `<LICENSE>License</LICENSE>`  `<DATASET>model_sketch_book</DATASET>` was created by Michelle Lam.

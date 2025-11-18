@@ -1,0 +1,9 @@
+```markdown
+- ***Bigot NDTs with pure leaves***   - **"<PUBLICATION>Structure-driven induction of decision tree classifiers through neural learning</PUBLICATION>", Pattern Recognition, 1997**
+- Ishwar K Sethi *et al.* *(randomly initialized leaf classes)*
+- [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320397000058)
+- **"<PUBLICATION>NBDT: Neural-Backed Decision Trees</PUBLICATION>", ICCV, 2020**
+- Alvin Wan *et al.* *(assign a specific concept to each terminal and intermediate node by WordNet)*
+- [[Paper]](https://arxiv.org/abs/2004.00221) [[Code]](https://github.com/alvinwan/nbdt-pytorch-image-models)
+- ***Bigot NDTs with determined leaf distributions***
+- **"<PUBLICATION>

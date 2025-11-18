@@ -1,0 +1,1 @@
+This greatly reduces the difficulty of the problem and as a result boosts predictive performance of the classificator network.

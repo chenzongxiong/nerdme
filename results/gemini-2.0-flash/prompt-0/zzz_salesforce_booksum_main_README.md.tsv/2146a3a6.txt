@@ -1,0 +1,1 @@
+It is recommended to download them in booksum root directory for the scripts to work without requiring any modifications to the paths. ## Get Involved Please create a <PROJECT>GitHub</PROJECT> issue if you have any questions, suggestions, requests or bug-reports.

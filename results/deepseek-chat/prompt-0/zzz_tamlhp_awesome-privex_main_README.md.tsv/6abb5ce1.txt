@@ -1,0 +1,1 @@
+| <div style="width:500px"> If an attack can pinpoint even a minuscule fraction of the <DATASET>training dataset</DATASET> with high precision, then the attack ought to be deemed effective.

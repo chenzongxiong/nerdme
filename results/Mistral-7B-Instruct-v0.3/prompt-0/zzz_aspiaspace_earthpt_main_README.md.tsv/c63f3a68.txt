@@ -1,0 +1,1 @@
+`We have purposefully kept the <PROJECT>code</PROJECT> as simple and hackable as possible so that it is easy for all to hack this <PROJECT>base</PROJECT> to their <PROJECT>needs</PROJECT>.`

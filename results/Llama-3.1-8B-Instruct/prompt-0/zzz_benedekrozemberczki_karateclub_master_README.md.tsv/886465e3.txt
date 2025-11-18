@@ -1,0 +1,19 @@
+[build badge](https://github.com/benedekrozemberczki/karateclub/workflows/<WORKSHOP>CI</WORKSHOP>/badge.svg)](https://github.com/benedekrozemberczki/karateclub/actions?)
+The <SOFTWARE>Karate Club</SOFTWARE> is an open-source Python library for graph neural networks. It provides a simple and efficient way to implement graph neural networks using the PyTorch library. The library is designed to be highly customizable and can be used for a wide range of tasks, including node classification, graph classification, and link prediction. The <SOFTWARE>Karate Club</SOFTWARE> is widely used in the field of graph neural networks and has been adopted by many researchers and practitioners.
+
+The library is built on top of the PyTorch library and provides a simple and efficient way to implement graph neural networks. It includes a range of features, including:
+
+*   A simple and intuitive API for building graph neural networks
+*   Support for a wide range of graph neural network architectures, including GCNs, GATs, and GraphSAGE
+*   A range of pre-trained models and datasets for graph classification and node classification tasks
+*   Support for both CPU and GPU acceleration
+
+The <SOFTWARE>Karate Club</SOFTWARE> has been widely adopted in the field of graph neural networks and has been used in a range of applications, including social network analysis, recommender systems, and traffic prediction. It is also used in a range of industries, including finance, healthcare, and transportation.
+
+You can use the <SOFTWARE>Karate Club</SOFTWARE> to implement a wide range of graph neural network architectures and tasks. Some examples include:
+
+*   Node classification: Use the <SOFTWARE>Karate Club</SOFTWARE> to implement a node classification model that can classify nodes in a graph into different categories.
+*   Graph classification: Use the <SOFTWARE>Karate Club</SOFTWARE> to implement a graph classification model that can classify graphs into different categories.
+*   Link prediction: Use the <SOFTWARE>Karate Club</SOFTWARE> to implement a link prediction model that can predict the likelihood of a link between two nodes in a graph.
+
+Overall, the <SOFTWARE>Karate Club</SOFTWARE> is a powerful and flexible library for graph neural networks that provides a wide range of features and tools for building and deploying graph neural network models.

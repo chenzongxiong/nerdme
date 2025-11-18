@@ -1,0 +1,1 @@
+Our submission in particular is ranked 2nd with a record `<EVALMETRIC>21.76% average mAP</EVALMETRIC>` and `<EVALMETRIC>42.54% Recall@1x</EVALMETRIC>`, `<EVALMETRIC>tIoU=0.5</EVALMETRIC>`, nearly three times higher than the official baseline.

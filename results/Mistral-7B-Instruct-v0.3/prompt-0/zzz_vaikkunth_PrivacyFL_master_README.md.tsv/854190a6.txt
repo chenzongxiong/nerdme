@@ -1,0 +1,1 @@
+`It is not meant to be <INITIALIZED DIRECTLY>, but <SUBCLASSED> to create an agent with whichever behavior you would like.`

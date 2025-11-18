@@ -1,0 +1,40 @@
+[](https://colab.research.google.com/github/The-AI-Summer/self-correcting-prompting/blob/main/notebooks/scp_demo.ipynb)
+
+This repository contains the code for the paper "Self-Correcting Prompting Converts Weak Language Models into Strong Reasoners" published at `<CONFERENCE>NeurIPS 2022</CONFERENCE>`.
+
+Self-Correcting Prompting (SCP) is a simple prompting method that improves the reasoning ability of language models. SCP iteratively refines its answers by prompting the language model to critique its own reasoning and generate a better answer.
+
+We find that SCP significantly improves the performance of small language models on a variety of reasoning tasks. For example, SCP improves the accuracy of `<SOFTWARE>GPT-3</SOFTWARE>` (175B) on the `<DATASET>GSM8K</DATASET>` benchmark from 57.7% to 76.5%.
+
+The code is written in `<PROGLANG>Python</PROGLANG>` and requires `<SOFTWARE>PyTorch</SOFTWARE>`.
+
+To install the dependencies, run:
+
+```bash
+pip install -r requirements.txt
+```
+
+To run the code, use the following command:
+
+```bash
+python main.py --model <SOFTWARE>GPT-3</SOFTWARE> --dataset <DATASET>GSM8K</DATASET> --num_iterations 5
+```
+
+where `<SOFTWARE>GPT-3</SOFTWARE>` is the name of the language model to use, `<DATASET>GSM8K</DATASET>` is the name of the dataset to use, and `5` is the number of iterations to run.
+
+The results will be saved to a file named `results.json`.
+
+We also provide a `<SOFTWARE>Colab</SOFTWARE>` notebook that demonstrates how to use SCP. The notebook can be found here:
+
+[![Open In <SOFTWARE>Colab</SOFTWARE>](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-AI-Summer/self-correcting-prompting/blob/main/notebooks/scp_demo.ipynb)
+
+If you use this code in your research, please cite the following paper:
+
+```
+@article{madaan2022self,
+  title={Self-Correcting Prompting Converts Weak Language Models into Strong Reasoners},
+  author={Madaan, Aman and Alon, Ofir and Rajeswaran, Aditi and Singh, Ashish and Khapra, Mitesh and Tsvetkov, Yulia and Neubig, Graham},
+  journal={<CONFERENCE>NeurIPS</CONFERENCE>},
+  year={2022}
+}
+```

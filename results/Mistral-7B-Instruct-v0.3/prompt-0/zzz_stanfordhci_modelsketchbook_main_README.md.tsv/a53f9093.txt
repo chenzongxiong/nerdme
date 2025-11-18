@@ -1,0 +1,1 @@
+`This function will display widgets to select <PROJECT>MSB</PROJECT> concepts and an aggregator. <CODE>msb.create_sketch_model(sb)</CODE> <img src=".<IMAGE>.</IMAGE>`

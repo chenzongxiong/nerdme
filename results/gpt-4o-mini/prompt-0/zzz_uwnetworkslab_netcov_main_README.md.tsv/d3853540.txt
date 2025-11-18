@@ -1,0 +1,1 @@
+To generate HTML report, use `<SOFTWARE>bf.cov.html_report()</SOFTWARE>`.  ### Use `<SOFTWARE>NetCov</SOFTWARE>` for a new `<PROGLANG>pybatfish</PROGLANG>` script/notebook   We provide a [demo video](https://www.youtube.com/watch?

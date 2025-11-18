@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+(original chat logs with GPT4 for those motivating examples can be found at [Left](https://chat.openai.com/share/0f2d11b1-322a-4c47-a877-ad6fbace8179), [Right](https://chat.openai.com/share/15870a47-93c7-4b98-96c8-af0516c0c999))  ## ⚙️ Reproduction  ### Preliminaries  To reproduce our results (e.g., using <SOFTWARE>LLaMA2</SOFTWARE>)  1. get the <LICENSE>license to use LLaMA-2</LICENSE>(https://ai.meta.com/llama/).  2. get access to the datasets: [<DATASET>SVAMP</DATASET>](https://github.com/arkilpatel/SVAMP), [<DATASET>GSM8K</DATASET>](https://huggingface.co/datasets/gsm8k), [<DATASET>MAWPS</DATASET>](https://github.com/sroy9/mawps)  ### Create a Virtual Env 1.
+```

@@ -1,0 +1,1 @@
+The versions of the dataset used may be accessed here: [query topics](https://ir.nist.gov/<DATASET>topics-rnd5.xml</DATASET>), [relevance annotations](https://ir.nist.gov/<DATASET>qrels-covid_d5_j0.5-5.txt</DATASET>), and the metadata for papers is obtained from the <DATASET>CORD-19</DATASET> dataset in the <DATASET>2021-06-21</DATASET> release.

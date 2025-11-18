@@ -1,0 +1,1 @@
+This code assumes the <PUBLICATION>S2ORC</PUBLICATION> release of 2019-09-28.

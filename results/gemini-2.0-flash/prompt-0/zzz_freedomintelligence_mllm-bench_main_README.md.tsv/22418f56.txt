@@ -1,0 +1,1 @@
+- Add model information in [configs/model_configs.yaml](.

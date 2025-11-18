@@ -1,0 +1,5 @@
+- Co-citation data used to train the above model will also be released, this is co-citation pairs on the order of a few million pairs of papers. 3.  
+
+```markdown
+- Co-citation data used to train the above model will also be released, this is co-citation pairs on the order of a few million pairs of papers. 3.
+```

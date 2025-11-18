@@ -1,0 +1,1 @@
+Please change the `<SOFTWARE>w&b</SOFTWARE> initial setting at the last part of <SOFTWARE>/experiment/margin_loss_resnet50.py</SOFTWARE> accordingly.

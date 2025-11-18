@@ -1,0 +1,1 @@
+The converted model produces slightly lower accuracy (Top-1 Error on <DATASET>ImageNet</DATASET> val: 24.0% v.s. 23.6%)

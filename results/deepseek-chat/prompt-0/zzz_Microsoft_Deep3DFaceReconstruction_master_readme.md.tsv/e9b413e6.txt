@@ -1,0 +1,1 @@
+The camera is positioned at (0,0,10) (dm) in the world coordinate and points to the negative z axis.

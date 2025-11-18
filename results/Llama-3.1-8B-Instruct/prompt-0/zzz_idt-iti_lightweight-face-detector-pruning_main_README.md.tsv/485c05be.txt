@@ -1,0 +1,4 @@
+Please check for any restrictions applied in the <SOFTWARE>code parts</SOFTWARE> and <DATASET>datasets</DATASET> used here from other sources.
+ 
+Please note that the following <DATASET>dataset</DATASET> from another source might have some restrictions: 
+https://ai.meta.com/<SOFTWARE>llama</SOFTWARE>

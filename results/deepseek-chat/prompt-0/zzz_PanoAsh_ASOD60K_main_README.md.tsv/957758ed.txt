@@ -1,0 +1,1 @@
+Besides, we propose a new baseline network, which takes advantage of both visual and audio cues of 360° video frames by using a new conditional variational auto-encoder (CVAE).

@@ -1,0 +1,1 @@
+These approaches can not implement the class hierarchy in the network structure due to the absence of decision branches, so they resort to incorporating the hierarchical relations into a NN directly.

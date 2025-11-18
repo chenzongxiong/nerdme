@@ -1,0 +1,3 @@
+```markdown
+To run main, type in a terminal:      .
+```

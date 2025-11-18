@@ -1,0 +1,902 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# fisher-information
+#Text=## About the Project
+#Text=**For the most up-to-date work using this framework, and if you are interested in applying the framework to experimental design problems of your own, see the [experimental-design](https://github.com/James-Durant/experimental-design) repository**.
+1-1	0-1	#	_	_	
+1-2	2-20	fisher-information	_	_	
+1-3	21-22	#	_	_	
+1-4	22-23	#	_	_	
+1-5	24-29	About	_	_	
+1-6	30-33	the	_	_	
+1-7	34-41	Project	_	_	
+1-8	42-43	*	_	_	
+1-9	43-44	*	_	_	
+1-10	44-47	For	_	_	
+1-11	48-51	the	_	_	
+1-12	52-56	most	_	_	
+1-13	57-67	up-to-date	_	_	
+1-14	68-72	work	_	_	
+1-15	73-78	using	_	_	
+1-16	79-83	this	_	_	
+1-17	84-93	framework	_	_	
+1-18	93-94	,	_	_	
+1-19	95-98	and	_	_	
+1-20	99-101	if	_	_	
+1-21	102-105	you	_	_	
+1-22	106-109	are	_	_	
+1-23	110-120	interested	_	_	
+1-24	121-123	in	_	_	
+1-25	124-132	applying	_	_	
+1-26	133-136	the	_	_	
+1-27	137-146	framework	_	_	
+1-28	147-149	to	_	_	
+1-29	150-162	experimental	_	_	
+1-30	163-169	design	_	_	
+1-31	170-178	problems	_	_	
+1-32	179-181	of	_	_	
+1-33	182-186	your	_	_	
+1-34	187-190	own	_	_	
+1-35	190-191	,	_	_	
+1-36	192-195	see	_	_	
+1-37	196-199	the	_	_	
+1-38	200-201	[	_	_	
+1-39	201-220	experimental-design	_	_	
+1-40	220-221	]	_	_	
+1-41	221-222	(	_	_	
+1-42	222-227	https	_	_	
+1-43	227-228	:	_	_	
+1-44	228-229	/	_	_	
+1-45	229-230	/	_	_	
+1-46	230-240	github.com	_	_	
+1-47	240-241	/	_	_	
+1-48	241-253	James-Durant	_	_	
+1-49	253-254	/	_	_	
+1-50	254-273	experimental-design	_	_	
+1-51	273-274	)	_	_	
+1-52	275-285	repository	_	_	
+1-53	285-286	*	_	_	
+1-54	286-287	*	_	_	
+1-55	287-288	.	_	_	
+
+#Text=This repository contains the [code](/fisher-information), [data](/fisher-information/data) and [results](/fisher-information/results) for a framework for determining the maximum information gain and optimising experimental design in neutron reflectometry experiments using the Fisher information (FI).
+2-1	290-294	This	_	_	
+2-2	295-305	repository	_	_	
+2-3	306-314	contains	_	_	
+2-4	315-318	the	_	_	
+2-5	319-320	[	_	_	
+2-6	320-324	code	_	_	
+2-7	324-325	]	_	_	
+2-8	325-326	(	_	_	
+2-9	326-327	/	_	_	
+2-10	327-345	fisher-information	_	_	
+2-11	345-346	)	_	_	
+2-12	346-347	,	_	_	
+2-13	348-349	[	_	_	
+2-14	349-353	data	_	_	
+2-15	353-354	]	_	_	
+2-16	354-355	(	_	_	
+2-17	355-356	/	_	_	
+2-18	356-374	fisher-information	_	_	
+2-19	374-375	/	_	_	
+2-20	375-379	data	_	_	
+2-21	379-380	)	_	_	
+2-22	381-384	and	_	_	
+2-23	385-386	[	_	_	
+2-24	386-393	results	_	_	
+2-25	393-394	]	_	_	
+2-26	394-395	(	_	_	
+2-27	395-396	/	_	_	
+2-28	396-414	fisher-information	_	_	
+2-29	414-415	/	_	_	
+2-30	415-422	results	_	_	
+2-31	422-423	)	_	_	
+2-32	424-427	for	_	_	
+2-33	428-429	a	_	_	
+2-34	430-439	framework	_	_	
+2-35	440-443	for	_	_	
+2-36	444-455	determining	_	_	
+2-37	456-459	the	_	_	
+2-38	460-467	maximum	_	_	
+2-39	468-479	information	_	_	
+2-40	480-484	gain	_	_	
+2-41	485-488	and	_	_	
+2-42	489-499	optimising	_	_	
+2-43	500-512	experimental	_	_	
+2-44	513-519	design	_	_	
+2-45	520-522	in	_	_	
+2-46	523-530	neutron	_	_	
+2-47	531-544	reflectometry	_	_	
+2-48	545-556	experiments	_	_	
+2-49	557-562	using	_	_	
+2-50	563-566	the	_	_	
+2-51	567-573	Fisher	_	_	
+2-52	574-585	information	_	_	
+2-53	586-587	(	_	_	
+2-54	587-589	FI	_	_	
+2-55	589-590	)	_	_	
+2-56	590-591	.	_	_	
+
+#Text=In neutron reflectometry experiments, the FI can be analytically calculated and used to provide sub-second predictions of parameter uncertainties.
+3-1	593-595	In	_	_	
+3-2	596-603	neutron	_	_	
+3-3	604-617	reflectometry	_	_	
+3-4	618-629	experiments	_	_	
+3-5	629-630	,	_	_	
+3-6	631-634	the	_	_	
+3-7	635-637	FI	_	_	
+3-8	638-641	can	_	_	
+3-9	642-644	be	_	_	
+3-10	645-657	analytically	_	_	
+3-11	658-668	calculated	_	_	
+3-12	669-672	and	_	_	
+3-13	673-677	used	_	_	
+3-14	678-680	to	_	_	
+3-15	681-688	provide	_	_	
+3-16	689-699	sub-second	_	_	
+3-17	700-711	predictions	_	_	
+3-18	712-714	of	_	_	
+3-19	715-724	parameter	_	_	
+3-20	725-738	uncertainties	_	_	
+3-21	738-739	.	_	_	
+
+#Text=These uncertainties can influence real-time decisions about measurement angle, measurement time, contrast choice and other experimental conditions based on parameters of interest.
+4-1	740-745	These	_	_	
+4-2	746-759	uncertainties	_	_	
+4-3	760-763	can	_	_	
+4-4	764-773	influence	_	_	
+4-5	774-783	real-time	_	_	
+4-6	784-793	decisions	_	_	
+4-7	794-799	about	_	_	
+4-8	800-811	measurement	_	_	
+4-9	812-817	angle	_	_	
+4-10	817-818	,	_	_	
+4-11	819-830	measurement	_	_	
+4-12	831-835	time	_	_	
+4-13	835-836	,	_	_	
+4-14	837-845	contrast	_	_	
+4-15	846-852	choice	_	_	
+4-16	853-856	and	_	_	
+4-17	857-862	other	_	_	
+4-18	863-875	experimental	_	_	
+4-19	876-886	conditions	_	_	
+4-20	887-892	based	_	_	
+4-21	893-895	on	_	_	
+4-22	896-906	parameters	_	_	
+4-23	907-909	of	_	_	
+4-24	910-918	interest	_	_	
+4-25	918-919	.	_	_	
+
+#Text=The FI provides a lower bound on parameter estimation uncertainties and these are shown to decrease with the square root of measurement time, providing useful information for the planning and scheduling of experimental work.
+5-1	920-923	The	_	_	
+5-2	924-926	FI	_	_	
+5-3	927-935	provides	_	_	
+5-4	936-937	a	_	_	
+5-5	938-943	lower	_	_	
+5-6	944-949	bound	_	_	
+5-7	950-952	on	_	_	
+5-8	953-962	parameter	_	_	
+5-9	963-973	estimation	_	_	
+5-10	974-987	uncertainties	_	_	
+5-11	988-991	and	_	_	
+5-12	992-997	these	_	_	
+5-13	998-1001	are	_	_	
+5-14	1002-1007	shown	_	_	
+5-15	1008-1010	to	_	_	
+5-16	1011-1019	decrease	_	_	
+5-17	1020-1024	with	_	_	
+5-18	1025-1028	the	_	_	
+5-19	1029-1035	square	_	_	
+5-20	1036-1040	root	_	_	
+5-21	1041-1043	of	_	_	
+5-22	1044-1055	measurement	_	_	
+5-23	1056-1060	time	_	_	
+5-24	1060-1061	,	_	_	
+5-25	1062-1071	providing	_	_	
+5-26	1072-1078	useful	_	_	
+5-27	1079-1090	information	_	_	
+5-28	1091-1094	for	_	_	
+5-29	1095-1098	the	_	_	
+5-30	1099-1107	planning	_	_	
+5-31	1108-1111	and	_	_	
+5-32	1112-1122	scheduling	_	_	
+5-33	1123-1125	of	_	_	
+5-34	1126-1138	experimental	_	_	
+5-35	1139-1143	work	_	_	
+5-36	1143-1144	.	_	_	
+
+#Text=As the FI is computationally inexpensive to calculate, it can be computed repeatedly during the course of an experiment, saving costly beam time by signalling that sufficient data has been obtained; or saving experimental datasets by signalling that an experiment needs to continue.
+#Text=
+#Text=### Citation
+#Text=Please cite the following article if you intend on including elements of this work in your own publications:
+#Text=> Durant, J.
+6-1	1145-1147	As	_	_	
+6-2	1148-1151	the	_	_	
+6-3	1152-1154	FI	_	_	
+6-4	1155-1157	is	_	_	
+6-5	1158-1173	computationally	_	_	
+6-6	1174-1185	inexpensive	_	_	
+6-7	1186-1188	to	_	_	
+6-8	1189-1198	calculate	_	_	
+6-9	1198-1199	,	_	_	
+6-10	1200-1202	it	_	_	
+6-11	1203-1206	can	_	_	
+6-12	1207-1209	be	_	_	
+6-13	1210-1218	computed	_	_	
+6-14	1219-1229	repeatedly	_	_	
+6-15	1230-1236	during	_	_	
+6-16	1237-1240	the	_	_	
+6-17	1241-1247	course	_	_	
+6-18	1248-1250	of	_	_	
+6-19	1251-1253	an	_	_	
+6-20	1254-1264	experiment	_	_	
+6-21	1264-1265	,	_	_	
+6-22	1266-1272	saving	_	_	
+6-23	1273-1279	costly	_	_	
+6-24	1280-1284	beam	_	_	
+6-25	1285-1289	time	_	_	
+6-26	1290-1292	by	_	_	
+6-27	1293-1303	signalling	_	_	
+6-28	1304-1308	that	_	_	
+6-29	1309-1319	sufficient	_	_	
+6-30	1320-1324	data	_	_	
+6-31	1325-1328	has	_	_	
+6-32	1329-1333	been	_	_	
+6-33	1334-1342	obtained	_	_	
+6-34	1342-1343	;	_	_	
+6-35	1344-1346	or	_	_	
+6-36	1347-1353	saving	_	_	
+6-37	1354-1366	experimental	_	_	
+6-38	1367-1375	datasets	_	_	
+6-39	1376-1378	by	_	_	
+6-40	1379-1389	signalling	_	_	
+6-41	1390-1394	that	_	_	
+6-42	1395-1397	an	_	_	
+6-43	1398-1408	experiment	_	_	
+6-44	1409-1414	needs	_	_	
+6-45	1415-1417	to	_	_	
+6-46	1418-1426	continue	_	_	
+6-47	1426-1427	.	_	_	
+6-48	1429-1430	#	_	_	
+6-49	1430-1431	#	_	_	
+6-50	1431-1432	#	_	_	
+6-51	1433-1441	Citation	_	_	
+6-52	1442-1448	Please	_	_	
+6-53	1449-1453	cite	_	_	
+6-54	1454-1457	the	_	_	
+6-55	1458-1467	following	_	_	
+6-56	1468-1475	article	_	_	
+6-57	1476-1478	if	_	_	
+6-58	1479-1482	you	_	_	
+6-59	1483-1489	intend	_	_	
+6-60	1490-1492	on	_	_	
+6-61	1493-1502	including	_	_	
+6-62	1503-1511	elements	_	_	
+6-63	1512-1514	of	_	_	
+6-64	1515-1519	this	_	_	
+6-65	1520-1524	work	_	_	
+6-66	1525-1527	in	_	_	
+6-67	1528-1532	your	_	_	
+6-68	1533-1536	own	_	_	
+6-69	1537-1549	publications	_	_	
+6-70	1549-1550	:	_	_	
+6-71	1551-1552	>	_	_	
+6-72	1553-1559	Durant	_	_	
+6-73	1559-1560	,	_	_	
+6-74	1561-1562	J	_	_	
+6-75	1562-1563	.	_	_	
+
+#Text=H., Wilkins, L., Butler, K. and Cooper, J.
+7-1	1564-1565	H	_	_	
+7-2	1565-1566	.	_	_	
+7-3	1566-1567	,	_	_	
+7-4	1568-1575	Wilkins	_	_	
+7-5	1575-1576	,	_	_	
+7-6	1577-1578	L	_	_	
+7-7	1578-1579	.	_	_	
+7-8	1579-1580	,	_	_	
+7-9	1581-1587	Butler	_	_	
+7-10	1587-1588	,	_	_	
+7-11	1589-1590	K	_	_	
+7-12	1590-1591	.	_	_	
+7-13	1592-1595	and	_	_	
+7-14	1596-1602	Cooper	_	_	
+7-15	1602-1603	,	_	_	
+7-16	1604-1605	J	_	_	
+7-17	1605-1606	.	_	_	
+
+#Text=F.
+8-1	1607-1608	F	_	_	
+8-2	1608-1609	.	_	_	
+
+#Text=K.
+9-1	1610-1611	K	_	_	
+9-2	1611-1612	.	_	_	
+
+#Text=Determining the maximum information gain and optimizing experimental design in neutron reflectometry using the Fisher information.
+10-1	1613-1624	Determining	*[1]	PUBLICATION[1]	
+10-2	1625-1628	the	*[1]	PUBLICATION[1]	
+10-3	1629-1636	maximum	*[1]	PUBLICATION[1]	
+10-4	1637-1648	information	*[1]	PUBLICATION[1]	
+10-5	1649-1653	gain	*[1]	PUBLICATION[1]	
+10-6	1654-1657	and	*[1]	PUBLICATION[1]	
+10-7	1658-1668	optimizing	*[1]	PUBLICATION[1]	
+10-8	1669-1681	experimental	*[1]	PUBLICATION[1]	
+10-9	1682-1688	design	*[1]	PUBLICATION[1]	
+10-10	1689-1691	in	*[1]	PUBLICATION[1]	
+10-11	1692-1699	neutron	*[1]	PUBLICATION[1]	
+10-12	1700-1713	reflectometry	*[1]	PUBLICATION[1]	
+10-13	1714-1719	using	*[1]	PUBLICATION[1]	
+10-14	1720-1723	the	*[1]	PUBLICATION[1]	
+10-15	1724-1730	Fisher	*[1]	PUBLICATION[1]	
+10-16	1731-1742	information	*[1]	PUBLICATION[1]	
+10-17	1742-1743	.	_	_	
+
+#Text=_J.
+11-1	1744-1745	_	_	_	
+11-2	1745-1746	J	_	_	
+11-3	1746-1747	.	_	_	
+
+#Text=Appl.
+12-1	1748-1752	Appl	_	_	
+12-2	1752-1753	.	_	_	
+
+#Text=Cryst_. **54**, 1100-1110 (2021).
+13-1	1754-1759	Cryst	_	_	
+13-2	1759-1760	_	_	_	
+13-3	1760-1761	.	_	_	
+13-4	1762-1763	*	_	_	
+13-5	1763-1764	*	_	_	
+13-6	1764-1766	54	_	_	
+13-7	1766-1767	*	_	_	
+13-8	1767-1768	*	_	_	
+13-9	1768-1769	,	_	_	
+13-10	1770-1774	1100	_	_	
+13-11	1774-1775	-	_	_	
+13-12	1775-1779	1110	_	_	
+13-13	1780-1781	(	_	_	
+13-14	1781-1785	2021	_	_	
+13-15	1785-1786	)	_	_	
+13-16	1786-1787	.	_	_	
+
+#Text=Or with BibTeX as:
+#Text=```
+#Text=@article{Durant2021,
+#Text=   author    = {Durant, J.
+14-1	1789-1791	Or	_	_	
+14-2	1792-1796	with	_	_	
+14-3	1797-1803	BibTeX	_	_	
+14-4	1804-1806	as	_	_	
+14-5	1806-1807	:	_	_	
+14-6	1808-1809	`	_	_	
+14-7	1809-1810	`	_	_	
+14-8	1810-1811	`	_	_	
+14-9	1812-1813	@	_	_	
+14-10	1813-1820	article	_	_	
+14-11	1820-1821	{	_	_	
+14-12	1821-1831	Durant2021	_	_	
+14-13	1831-1832	,	_	_	
+14-14	1836-1842	author	_	_	
+14-15	1846-1847	=	_	_	
+14-16	1848-1849	{	_	_	
+14-17	1849-1855	Durant	_	_	
+14-18	1855-1856	,	_	_	
+14-19	1857-1858	J	_	_	
+14-20	1858-1859	.	_	_	
+
+#Text=H. and Wilkins, L. and Butler, K. and Cooper, J.
+15-1	1860-1861	H	_	_	
+15-2	1861-1862	.	_	_	
+15-3	1863-1866	and	_	_	
+15-4	1867-1874	Wilkins	_	_	
+15-5	1874-1875	,	_	_	
+15-6	1876-1877	L	_	_	
+15-7	1877-1878	.	_	_	
+15-8	1879-1882	and	_	_	
+15-9	1883-1889	Butler	_	_	
+15-10	1889-1890	,	_	_	
+15-11	1891-1892	K	_	_	
+15-12	1892-1893	.	_	_	
+15-13	1894-1897	and	_	_	
+15-14	1898-1904	Cooper	_	_	
+15-15	1904-1905	,	_	_	
+15-16	1906-1907	J	_	_	
+15-17	1907-1908	.	_	_	
+
+#Text=F.
+16-1	1909-1910	F	_	_	
+16-2	1910-1911	.	_	_	
+
+#Text=K.},
+#Text=   doi       = {10.1107/S160057672100563X},
+#Text=   journal   = {Journal of Applied Crystallography},
+#Text=   month     = {Aug},
+#Text=   number    = {4},
+#Text=   pages     = {1100--1110},
+#Text=   publisher = {International Union of Crystallography ({IUCr})},
+#Text=   title     = {{Determining the maximum information gain and optimizing experimental design in neutron reflectometry using the Fisher information}},
+#Text=   url       = {https://doi.org/10.1107/S160057672100563X},
+#Text=   volume    = {54},
+#Text=   year      = {2021}
+#Text=}
+#Text=```
+#Text=
+#Text=For the figures presented in this article, see [figures](/figures).
+#Text=
+#Text=## Installation
+#Text=1.
+17-1	1912-1913	K	_	_	
+17-2	1913-1914	.	_	_	
+17-3	1914-1915	}	_	_	
+17-4	1915-1916	,	_	_	
+17-5	1920-1923	doi	_	_	
+17-6	1930-1931	=	_	_	
+17-7	1932-1933	{	_	_	
+17-8	1933-1940	10.1107	_	_	
+17-9	1940-1941	/	_	_	
+17-10	1941-1958	S160057672100563X	_	_	
+17-11	1958-1959	}	_	_	
+17-12	1959-1960	,	_	_	
+17-13	1964-1971	journal	_	_	
+17-14	1974-1975	=	_	_	
+17-15	1976-1977	{	_	_	
+17-16	1977-1984	Journal	*[2]	PUBLICATION[2]	
+17-17	1985-1987	of	*[2]	PUBLICATION[2]	
+17-18	1988-1995	Applied	*[2]	PUBLICATION[2]	
+17-19	1996-2011	Crystallography	*[2]	PUBLICATION[2]	
+17-20	2011-2012	}	_	_	
+17-21	2012-2013	,	_	_	
+17-22	2017-2022	month	_	_	
+17-23	2027-2028	=	_	_	
+17-24	2029-2030	{	_	_	
+17-25	2030-2033	Aug	_	_	
+17-26	2033-2034	}	_	_	
+17-27	2034-2035	,	_	_	
+17-28	2039-2045	number	_	_	
+17-29	2049-2050	=	_	_	
+17-30	2051-2052	{	_	_	
+17-31	2052-2053	4	_	_	
+17-32	2053-2054	}	_	_	
+17-33	2054-2055	,	_	_	
+17-34	2059-2064	pages	_	_	
+17-35	2069-2070	=	_	_	
+17-36	2071-2072	{	_	_	
+17-37	2072-2076	1100	_	_	
+17-38	2076-2077	-	_	_	
+17-39	2077-2078	-	_	_	
+17-40	2078-2082	1110	_	_	
+17-41	2082-2083	}	_	_	
+17-42	2083-2084	,	_	_	
+17-43	2088-2097	publisher	_	_	
+17-44	2098-2099	=	_	_	
+17-45	2100-2101	{	_	_	
+17-46	2101-2114	International	_	_	
+17-47	2115-2120	Union	_	_	
+17-48	2121-2123	of	_	_	
+17-49	2124-2139	Crystallography	_	_	
+17-50	2140-2141	(	_	_	
+17-51	2141-2142	{	_	_	
+17-52	2142-2146	IUCr	_	_	
+17-53	2146-2147	}	_	_	
+17-54	2147-2148	)	_	_	
+17-55	2148-2149	}	_	_	
+17-56	2149-2150	,	_	_	
+17-57	2154-2159	title	_	_	
+17-58	2164-2165	=	_	_	
+17-59	2166-2167	{	_	_	
+17-60	2167-2168	{	_	_	
+17-61	2168-2179	Determining	*[3]	PUBLICATION[3]	
+17-62	2180-2183	the	*[3]	PUBLICATION[3]	
+17-63	2184-2191	maximum	*[3]	PUBLICATION[3]	
+17-64	2192-2203	information	*[3]	PUBLICATION[3]	
+17-65	2204-2208	gain	*[3]	PUBLICATION[3]	
+17-66	2209-2212	and	*[3]	PUBLICATION[3]	
+17-67	2213-2223	optimizing	*[3]	PUBLICATION[3]	
+17-68	2224-2236	experimental	*[3]	PUBLICATION[3]	
+17-69	2237-2243	design	*[3]	PUBLICATION[3]	
+17-70	2244-2246	in	*[3]	PUBLICATION[3]	
+17-71	2247-2254	neutron	*[3]	PUBLICATION[3]	
+17-72	2255-2268	reflectometry	*[3]	PUBLICATION[3]	
+17-73	2269-2274	using	*[3]	PUBLICATION[3]	
+17-74	2275-2278	the	*[3]	PUBLICATION[3]	
+17-75	2279-2285	Fisher	*[3]	PUBLICATION[3]	
+17-76	2286-2297	information	*[3]	PUBLICATION[3]	
+17-77	2297-2298	}	_	_	
+17-78	2298-2299	}	_	_	
+17-79	2299-2300	,	_	_	
+17-80	2304-2307	url	_	_	
+17-81	2314-2315	=	_	_	
+17-82	2316-2317	{	_	_	
+17-83	2317-2322	https	_	_	
+17-84	2322-2323	:	_	_	
+17-85	2323-2324	/	_	_	
+17-86	2324-2325	/	_	_	
+17-87	2325-2332	doi.org	_	_	
+17-88	2332-2333	/	_	_	
+17-89	2333-2340	10.1107	_	_	
+17-90	2340-2341	/	_	_	
+17-91	2341-2358	S160057672100563X	_	_	
+17-92	2358-2359	}	_	_	
+17-93	2359-2360	,	_	_	
+17-94	2364-2370	volume	_	_	
+17-95	2374-2375	=	_	_	
+17-96	2376-2377	{	_	_	
+17-97	2377-2379	54	_	_	
+17-98	2379-2380	}	_	_	
+17-99	2380-2381	,	_	_	
+17-100	2385-2389	year	_	_	
+17-101	2395-2396	=	_	_	
+17-102	2397-2398	{	_	_	
+17-103	2398-2402	2021	_	_	
+17-104	2402-2403	}	_	_	
+17-105	2404-2405	}	_	_	
+17-106	2406-2407	`	_	_	
+17-107	2407-2408	`	_	_	
+17-108	2408-2409	`	_	_	
+17-109	2411-2414	For	_	_	
+17-110	2415-2418	the	_	_	
+17-111	2419-2426	figures	_	_	
+17-112	2427-2436	presented	_	_	
+17-113	2437-2439	in	_	_	
+17-114	2440-2444	this	_	_	
+17-115	2445-2452	article	_	_	
+17-116	2452-2453	,	_	_	
+17-117	2454-2457	see	_	_	
+17-118	2458-2459	[	_	_	
+17-119	2459-2466	figures	_	_	
+17-120	2466-2467	]	_	_	
+17-121	2467-2468	(	_	_	
+17-122	2468-2469	/	_	_	
+17-123	2469-2476	figures	_	_	
+17-124	2476-2477	)	_	_	
+17-125	2477-2478	.	_	_	
+17-126	2480-2481	#	_	_	
+17-127	2481-2482	#	_	_	
+17-128	2483-2495	Installation	_	_	
+17-129	2496-2497	1	_	_	
+17-130	2497-2498	.	_	_	
+
+#Text=To replicate the development environment with the [Anaconda](https://www.anaconda.com/products/individual) distribution, first create an empty conda environment by running: <br /> ```conda create --name fisher-information python=3.8.3```
+#Text=
+#Text=2.
+18-1	2499-2501	To	_	_	
+18-2	2502-2511	replicate	_	_	
+18-3	2512-2515	the	_	_	
+18-4	2516-2527	development	_	_	
+18-5	2528-2539	environment	_	_	
+18-6	2540-2544	with	_	_	
+18-7	2545-2548	the	_	_	
+18-8	2549-2550	[	_	_	
+18-9	2550-2558	Anaconda	*	SOFTWARE	
+18-10	2558-2559	]	_	_	
+18-11	2559-2560	(	_	_	
+18-12	2560-2565	https	_	_	
+18-13	2565-2566	:	_	_	
+18-14	2566-2567	/	_	_	
+18-15	2567-2568	/	_	_	
+18-16	2568-2584	www.anaconda.com	_	_	
+18-16.1	2572-2580	anaconda	*	SOFTWARE	
+18-17	2584-2585	/	_	_	
+18-18	2585-2593	products	_	_	
+18-19	2593-2594	/	_	_	
+18-20	2594-2604	individual	_	_	
+18-21	2604-2605	)	_	_	
+18-22	2606-2618	distribution	_	_	
+18-23	2618-2619	,	_	_	
+18-24	2620-2625	first	_	_	
+18-25	2626-2632	create	_	_	
+18-26	2633-2635	an	_	_	
+18-27	2636-2641	empty	_	_	
+18-28	2642-2647	conda	_	_	
+18-29	2648-2659	environment	_	_	
+18-30	2660-2662	by	_	_	
+18-31	2663-2670	running	_	_	
+18-32	2670-2671	:	_	_	
+18-33	2672-2673	<	_	_	
+18-34	2673-2675	br	_	_	
+18-35	2676-2677	/	_	_	
+18-36	2677-2678	>	_	_	
+18-37	2679-2680	`	_	_	
+18-38	2680-2681	`	_	_	
+18-39	2681-2682	`	_	_	
+18-40	2682-2687	conda	*	SOFTWARE	
+18-41	2688-2694	create	_	_	
+18-42	2695-2696	-	_	_	
+18-43	2696-2697	-	_	_	
+18-44	2697-2701	name	_	_	
+18-45	2702-2720	fisher-information	_	_	
+18-46	2721-2727	python	*[4]	SOFTWARE[4]	
+18-47	2727-2728	=	*[4]	SOFTWARE[4]	
+18-48	2728-2733	3.8.3	*[4]	SOFTWARE[4]	
+18-49	2733-2734	`	_	_	
+18-50	2734-2735	`	_	_	
+18-51	2735-2736	`	_	_	
+18-52	2738-2739	2	_	_	
+18-53	2739-2740	.	_	_	
+
+#Text=To activate the environment, run: ```conda activate fisher-information```
+#Text=
+#Text=3.
+19-1	2741-2743	To	_	_	
+19-2	2744-2752	activate	_	_	
+19-3	2753-2756	the	_	_	
+19-4	2757-2768	environment	_	_	
+19-5	2768-2769	,	_	_	
+19-6	2770-2773	run	_	_	
+19-7	2773-2774	:	_	_	
+19-8	2775-2776	`	_	_	
+19-9	2776-2777	`	_	_	
+19-10	2777-2778	`	_	_	
+19-11	2778-2783	conda	*	SOFTWARE	
+19-12	2784-2792	activate	_	_	
+19-13	2793-2811	fisher-information	_	_	
+19-14	2811-2812	`	_	_	
+19-15	2812-2813	`	_	_	
+19-16	2813-2814	`	_	_	
+19-17	2816-2817	3	_	_	
+19-18	2817-2818	.	_	_	
+
+#Text=Install pip by running: ```conda install pip```
+#Text=
+#Text=4.
+20-1	2819-2826	Install	_	_	
+20-2	2827-2830	pip	*	SOFTWARE	
+20-3	2831-2833	by	_	_	
+20-4	2834-2841	running	_	_	
+20-5	2841-2842	:	_	_	
+20-6	2843-2844	`	_	_	
+20-7	2844-2845	`	_	_	
+20-8	2845-2846	`	_	_	
+20-9	2846-2851	conda	*	SOFTWARE	
+20-10	2852-2859	install	_	_	
+20-11	2860-2863	pip	*	SOFTWARE	
+20-12	2863-2864	`	_	_	
+20-13	2864-2865	`	_	_	
+20-14	2865-2866	`	_	_	
+20-15	2868-2869	4	_	_	
+20-16	2869-2870	.	_	_	
+
+#Text=Run the following to install the required packages from the [requirements.txt](/requirements.txt) file: <br />
+#Text=   ```pip install -r requirements.txt```
+#Text=
+#Text=You should now be able to run the code.
+21-1	2871-2874	Run	_	_	
+21-2	2875-2878	the	_	_	
+21-3	2879-2888	following	_	_	
+21-4	2889-2891	to	_	_	
+21-5	2892-2899	install	_	_	
+21-6	2900-2903	the	_	_	
+21-7	2904-2912	required	_	_	
+21-8	2913-2921	packages	_	_	
+21-9	2922-2926	from	_	_	
+21-10	2927-2930	the	_	_	
+21-11	2931-2932	[	_	_	
+21-12	2932-2948	requirements.txt	_	_	
+21-13	2948-2949	]	_	_	
+21-14	2949-2950	(	_	_	
+21-15	2950-2951	/	_	_	
+21-16	2951-2967	requirements.txt	_	_	
+21-17	2967-2968	)	_	_	
+21-18	2969-2973	file	_	_	
+21-19	2973-2974	:	_	_	
+21-20	2975-2976	<	_	_	
+21-21	2976-2978	br	_	_	
+21-22	2979-2980	/	_	_	
+21-23	2980-2981	>	_	_	
+21-24	2985-2986	`	_	_	
+21-25	2986-2987	`	_	_	
+21-26	2987-2988	`	_	_	
+21-27	2988-2991	pip	*	SOFTWARE	
+21-28	2992-2999	install	_	_	
+21-29	3000-3001	-	_	_	
+21-30	3001-3002	r	_	_	
+21-31	3003-3019	requirements.txt	_	_	
+21-32	3019-3020	`	_	_	
+21-33	3020-3021	`	_	_	
+21-34	3021-3022	`	_	_	
+21-35	3024-3027	You	_	_	
+21-36	3028-3034	should	_	_	
+21-37	3035-3038	now	_	_	
+21-38	3039-3041	be	_	_	
+21-39	3042-3046	able	_	_	
+21-40	3047-3049	to	_	_	
+21-41	3050-3053	run	_	_	
+21-42	3054-3057	the	_	_	
+21-43	3058-3062	code	_	_	
+21-44	3062-3063	.	_	_	
+
+#Text=Please ensure you are running a version of Python >= 3.8.0 \\
+#Text=If you are running an old version of Anaconda, you may need to reinstall with a newer version for this.
+#Text=
+#Text=## Contact
+#Text=Jos Cooper - jos.cooper@stfc.ac.uk \\
+#Text=James Durant - james.durant@warwick.ac.uk \\
+#Text=Lucas Wilkins - lucas@lucaswilkins.com
+#Text=
+#Text=## Acknowledgements
+#Text=This work has been partially supported by the STFC Facilities Programme Fund through the ISIS Neutron and Muon Source, and Scientific Computing Department of Rutherford Appleton Laboratory, Science and Technology Facilities Council, and by the Wave 1 of The UKRI Strategic Priorities Fund under the EPSRC Grant EP/T001569/1, particularly the "AI for Science" theme within that grant and The Alan Turing Institute.
+22-1	3064-3070	Please	_	_	
+22-2	3071-3077	ensure	_	_	
+22-3	3078-3081	you	_	_	
+22-4	3082-3085	are	_	_	
+22-5	3086-3093	running	_	_	
+22-6	3094-3095	a	_	_	
+22-7	3096-3103	version	_	_	
+22-8	3104-3106	of	_	_	
+22-9	3107-3113	Python	*[5]	SOFTWARE[5]	
+22-10	3114-3115	>	*[5]	SOFTWARE[5]	
+22-11	3115-3116	=	*[5]	SOFTWARE[5]	
+22-12	3117-3122	3.8.0	*[5]	SOFTWARE[5]	
+22-13	3123-3124	\	_	_	
+22-14	3125-3127	If	_	_	
+22-15	3128-3131	you	_	_	
+22-16	3132-3135	are	_	_	
+22-17	3136-3143	running	_	_	
+22-18	3144-3146	an	_	_	
+22-19	3147-3150	old	_	_	
+22-20	3151-3158	version	_	_	
+22-21	3159-3161	of	_	_	
+22-22	3162-3170	Anaconda	*	SOFTWARE	
+22-23	3170-3171	,	_	_	
+22-24	3172-3175	you	_	_	
+22-25	3176-3179	may	_	_	
+22-26	3180-3184	need	_	_	
+22-27	3185-3187	to	_	_	
+22-28	3188-3197	reinstall	_	_	
+22-29	3198-3202	with	_	_	
+22-30	3203-3204	a	_	_	
+22-31	3205-3210	newer	_	_	
+22-32	3211-3218	version	_	_	
+22-33	3219-3222	for	_	_	
+22-34	3223-3227	this	_	_	
+22-35	3227-3228	.	_	_	
+22-36	3230-3231	#	_	_	
+22-37	3231-3232	#	_	_	
+22-38	3233-3240	Contact	_	_	
+22-39	3241-3244	Jos	_	_	
+22-40	3245-3251	Cooper	_	_	
+22-41	3252-3253	-	_	_	
+22-42	3254-3264	jos.cooper	_	_	
+22-43	3264-3265	@	_	_	
+22-44	3265-3275	stfc.ac.uk	_	_	
+22-45	3276-3277	\	_	_	
+22-46	3278-3283	James	_	_	
+22-47	3284-3290	Durant	_	_	
+22-48	3291-3292	-	_	_	
+22-49	3293-3305	james.durant	_	_	
+22-50	3305-3306	@	_	_	
+22-51	3306-3319	warwick.ac.uk	_	_	
+22-52	3320-3321	\	_	_	
+22-53	3322-3327	Lucas	_	_	
+22-54	3328-3335	Wilkins	_	_	
+22-55	3336-3337	-	_	_	
+22-56	3338-3343	lucas	_	_	
+22-57	3343-3344	@	_	_	
+22-58	3344-3360	lucaswilkins.com	_	_	
+22-59	3362-3363	#	_	_	
+22-60	3363-3364	#	_	_	
+22-61	3365-3381	Acknowledgements	_	_	
+22-62	3382-3386	This	_	_	
+22-63	3387-3391	work	_	_	
+22-64	3392-3395	has	_	_	
+22-65	3396-3400	been	_	_	
+22-66	3401-3410	partially	_	_	
+22-67	3411-3420	supported	_	_	
+22-68	3421-3423	by	_	_	
+22-69	3424-3427	the	_	_	
+22-70	3428-3432	STFC	_	_	
+22-71	3433-3443	Facilities	_	_	
+22-72	3444-3453	Programme	_	_	
+22-73	3454-3458	Fund	_	_	
+22-74	3459-3466	through	_	_	
+22-75	3467-3470	the	_	_	
+22-76	3471-3475	ISIS	_	_	
+22-77	3476-3483	Neutron	_	_	
+22-78	3484-3487	and	_	_	
+22-79	3488-3492	Muon	_	_	
+22-80	3493-3499	Source	_	_	
+22-81	3499-3500	,	_	_	
+22-82	3501-3504	and	_	_	
+22-83	3505-3515	Scientific	_	_	
+22-84	3516-3525	Computing	_	_	
+22-85	3526-3536	Department	_	_	
+22-86	3537-3539	of	_	_	
+22-87	3540-3550	Rutherford	_	_	
+22-88	3551-3559	Appleton	_	_	
+22-89	3560-3570	Laboratory	_	_	
+22-90	3570-3571	,	_	_	
+22-91	3572-3579	Science	_	_	
+22-92	3580-3583	and	_	_	
+22-93	3584-3594	Technology	_	_	
+22-94	3595-3605	Facilities	_	_	
+22-95	3606-3613	Council	_	_	
+22-96	3613-3614	,	_	_	
+22-97	3615-3618	and	_	_	
+22-98	3619-3621	by	_	_	
+22-99	3622-3625	the	_	_	
+22-100	3626-3630	Wave	_	_	
+22-101	3631-3632	1	_	_	
+22-102	3633-3635	of	_	_	
+22-103	3636-3639	The	_	_	
+22-104	3640-3644	UKRI	_	_	
+22-105	3645-3654	Strategic	_	_	
+22-106	3655-3665	Priorities	_	_	
+22-107	3666-3670	Fund	_	_	
+22-108	3671-3676	under	_	_	
+22-109	3677-3680	the	_	_	
+22-110	3681-3686	EPSRC	_	_	
+22-111	3687-3692	Grant	_	_	
+22-112	3693-3695	EP	_	_	
+22-113	3695-3696	/	_	_	
+22-114	3696-3703	T001569	_	_	
+22-115	3703-3704	/	_	_	
+22-116	3704-3705	1	_	_	
+22-117	3705-3706	,	_	_	
+22-118	3707-3719	particularly	_	_	
+22-119	3720-3723	the	_	_	
+22-120	3724-3725	"	_	_	
+22-121	3725-3727	AI	_	_	
+22-122	3728-3731	for	_	_	
+22-123	3732-3739	Science	_	_	
+22-124	3739-3740	"	_	_	
+22-125	3741-3746	theme	_	_	
+22-126	3747-3753	within	_	_	
+22-127	3754-3758	that	_	_	
+22-128	3759-3764	grant	_	_	
+22-129	3765-3768	and	_	_	
+22-130	3769-3772	The	_	_	
+22-131	3773-3777	Alan	_	_	
+22-132	3778-3784	Turing	_	_	
+22-133	3785-3794	Institute	_	_	
+22-134	3794-3795	.	_	_	
+
+#Text=We would also like to thank Luke Clifton for his assistance and expertise in fitting the DMPC data.
+#Text=
+#Text=## License
+#Text=Distributed under the GPL-3.0 License.
+23-1	3796-3798	We	_	_	
+23-2	3799-3804	would	_	_	
+23-3	3805-3809	also	_	_	
+23-4	3810-3814	like	_	_	
+23-5	3815-3817	to	_	_	
+23-6	3818-3823	thank	_	_	
+23-7	3824-3828	Luke	_	_	
+23-8	3829-3836	Clifton	_	_	
+23-9	3837-3840	for	_	_	
+23-10	3841-3844	his	_	_	
+23-11	3845-3855	assistance	_	_	
+23-12	3856-3859	and	_	_	
+23-13	3860-3869	expertise	_	_	
+23-14	3870-3872	in	_	_	
+23-15	3873-3880	fitting	_	_	
+23-16	3881-3884	the	_	_	
+23-17	3885-3889	DMPC	_	_	
+23-18	3890-3894	data	_	_	
+23-19	3894-3895	.	_	_	
+23-20	3897-3898	#	_	_	
+23-21	3898-3899	#	_	_	
+23-22	3900-3907	License	_	_	
+23-23	3908-3919	Distributed	_	_	
+23-24	3920-3925	under	_	_	
+23-25	3926-3929	the	_	_	
+23-26	3930-3933	GPL	*[6]	LICENSE[6]	
+23-27	3933-3934	-	*[6]	LICENSE[6]	
+23-28	3934-3937	3.0	*[6]	LICENSE[6]	
+23-29	3938-3945	License	*[6]	LICENSE[6]	
+23-30	3945-3946	.	_	_	
+
+#Text=See [license](/LICENSE) for more information.
+24-1	3947-3950	See	_	_	
+24-2	3951-3952	[	_	_	
+24-3	3952-3959	license	_	_	
+24-4	3959-3960	]	_	_	
+24-5	3960-3961	(	_	_	
+24-6	3961-3962	/	_	_	
+24-7	3962-3969	LICENSE	_	_	
+24-8	3969-3970	)	_	_	
+24-9	3971-3974	for	_	_	
+24-10	3975-3979	more	_	_	
+24-11	3980-3991	information	_	_	
+24-12	3991-3992	.	_	_	

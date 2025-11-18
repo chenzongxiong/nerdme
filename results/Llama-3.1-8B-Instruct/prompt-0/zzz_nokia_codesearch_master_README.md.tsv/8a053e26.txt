@@ -1,0 +1,1 @@
+For these models, the <DATASET>snippet collections</DATASET> are used as training data (of course you should never train on a <DATASET>snippet collection</DATASET> when you intent to use that load that <DATASET>collection</DATASET> as evaluation data as well).

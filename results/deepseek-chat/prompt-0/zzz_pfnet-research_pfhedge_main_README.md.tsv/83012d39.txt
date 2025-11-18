@@ -1,0 +1,1 @@
+- `'expiry_time'`: Remaining time to the [maturity](https://en.wikipedia.org/wiki/<PUBLICATION>Maturity_(finance)</PUBLICATION>) of the option

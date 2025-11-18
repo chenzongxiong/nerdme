@@ -1,0 +1,1 @@
+It prunes and trains the <SOFTWARE>model</SOFTWARE> iteratively for 200 <EVALMETRIC>epochs</EVALMETRIC>, following which the pruning is halted and the <SOFTWARE>model</SOFTWARE> is fine-tuned for an additional 10 <EVALMETRIC>epochs</EVALMETRIC>.

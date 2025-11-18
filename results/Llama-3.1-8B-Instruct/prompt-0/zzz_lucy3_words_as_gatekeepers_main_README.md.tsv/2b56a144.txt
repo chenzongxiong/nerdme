@@ -1,0 +1,3 @@
+The <SOFTWARE>write_mask_preds.py</SOFTWARE> is a script used for creating predictions. It can be used with different <PROJECT>S2ORC</PROJECT> and <PROJECT>Wikipedia</PROJECT> datasets. The script has several options including `<DATASET>s2orc</DATASET>` and `<DATASET>wikipedia</DATASET>`, `<PROGLANG>Python</PROGLANG>` as the programming language, and `<SOFTWARE>scholarBERT</SOFTWARE>` as the model. The script also allows for specifying the maximum tokens per batch with `<EVALMETRIC>16384</EVALMETRIC>`. 
+
+To run the <SOFTWARE>wsi_pipeline.sh</SOFTWARE> script, navigate to the <SOFTWARE>WSIatScale</SOFTWARE> folder.

@@ -1,0 +1,3 @@
+```markdown
+</div>                                                   | |                        | <EVALMETRIC>Balanced Accuracy</EVALMETRIC> | $BA = \frac{TPR + TNR}{2}$                                                                                         | <div style="width:500px"> Measures the accuracy of attack (e.g., membership prediction in membership inference attacks), on a balanced dataset of members and non-members.
+```

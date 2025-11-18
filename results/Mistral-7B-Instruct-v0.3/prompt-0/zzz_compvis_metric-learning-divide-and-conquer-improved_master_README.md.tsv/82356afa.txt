@@ -1,0 +1,13 @@
+Here's the annotated text in Markdown format:
+
+```
+A basic sample run using default parameters would like this:  ``` python train.py --experiment <CONFERENCE>margin_loss_resnet50</CONFERENCE> \
+                 --dataset=<DATASET>sop</DATASET> -i=$NAME -seed=4 \
+                 --sz-embedding=512 --mod-epoch=2 --nb-clusters=32 --nb-epochs=180 \
+                 --batch-size=80 --num-samples-per-class=2 --backend=faiss-gpu \
+                 --lr-gamma=0.3 --mod-epoch-freeze=1 --sampler=distanceweighted \
+                 --weight-decay=1e-4 --batch-sampler=adaptbalanced \
+                 --force-full-embedding-epoch=80 --mask-lr-mult=100 \
+                 --masking-lambda=0.01 --mask-wd-mult=1 --dataset-dir=$datadir ```
+
+- **--experiment <

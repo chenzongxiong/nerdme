@@ -1,0 +1,3 @@
+```markdown
+Currently `<SOFTWARE>sql4ml</SOFTWARE>` supports the translation of SQL create view queries of the following form,      CREATE VIEW $(name) AS     SELECT $(columns), $(numericExpr)     FROM $(tables)     WHERE $(joinElement)     GROUP BY $(groupingElement)  and generate an equivalent `<PROGLANG>TensorFlow</PROGLANG>` expression as below:      $(name) = $(translateNumericExpr(numericExpr))  For examples, check SQL files in the directory /working_examples.
+```

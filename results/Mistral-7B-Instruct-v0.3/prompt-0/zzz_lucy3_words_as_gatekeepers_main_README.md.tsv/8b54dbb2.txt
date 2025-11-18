@@ -1,0 +1,4 @@
+```markdown
+- `<SOFTWARE>data_process/clean_up_wikipedia.py</SOFTWARE>`: sample a subset of `<DATASET>Wikipedia</DATASET>`
+- `<PROGLANG>create_mag_mapping()</PROGLANG>` in `<FILE>val_data_process/fos_analysis.py</FILE>`: get all `<ENTITY>MAG IDs</ENTITY>` to `<ENTITY>fos</ENTITY>`
+```

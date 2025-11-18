@@ -1,0 +1,3 @@
+The text contains several named entities related to **CONFERENCE**, **DATASET**, **EVALMETRIC**, **ONTOLOGY**, **PROGLANG**, **PROJECT**, **PUBLICATION**, **SOFTWARE**, **WORKSHOP**, and **LICENSE**. Here's the annotated text in Markdown format:
+
+Online Learning of Multi-scale Network Embeddings](https://arxiv.org/abs/1605.02115) (ASONAM **<CONFERENCE>** 2017)  * **[HOPE](https://karateclub.readthedocs.io/en/latest/modules/root.html#karateclub.node_embedding.neighbourhood.hope.HOPE)** from Ou *et al.*: [Asymmetric Transitivity Preserving Graph Embedding](https://dl.acm.org/doi/abs/10.1145/2939672.2939751) (KDD **<CONFERENCE>** 2016)  * **[N

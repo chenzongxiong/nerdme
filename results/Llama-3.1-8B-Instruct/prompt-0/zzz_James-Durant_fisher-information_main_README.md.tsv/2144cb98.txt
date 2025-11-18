@@ -1,0 +1,1 @@
+K. <PUBLICATION>Lee et al.</PUBLICATION> proposed a novel approach to <SOFTWARE>Deep Learning</SOFTWARE> based <PROJECT>sentiment analysis</PROJECT> in their <PUBLICATION>paper</PUBLICATION> titled "<PUBLICATION>Deep Sentiment Analysis</PUBLICATION>" which was published in the <PUBLICATION>Journal of Machine Learning Research</PUBLICATION> in 2019.

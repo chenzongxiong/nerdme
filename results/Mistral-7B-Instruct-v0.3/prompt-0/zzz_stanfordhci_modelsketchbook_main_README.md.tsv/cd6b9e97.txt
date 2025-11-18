@@ -1,0 +1,16 @@
+```
+With the `<SOFTWARE>Jupyter Notebook</SOFTWARE>` notebook-widget functions documented here, the default `<DATASET>dataset</DATASET>` is used to set up concepts and sketches, and other `<DATASET>data.csv</DATASET>` can only be used to evaluate trained sketches.
+
+```python
+<PROGLANG>your_df = pd.read_csv("path_to_your_data/data.csv")</PROGLANG>  # Insert logic to load your dataframe
+<SOFTWARE>sb.add_dataset</SOFTWARE>(
+    df=<DATASET>your_df</DATASET>,
+    default=<BOOLEAN>True</BOOLEAN>,  # If dataset should be used by default, otherwise omit argument
+)
+```
+
+### Create concepts
+
+You can then go ahead and create `<PROJECT>image</PROJECT>` and `<PROJECT>text</PROJECT>` concepts with the following function.
+```
+```

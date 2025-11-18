@@ -1,0 +1,41 @@
+`Hussain, <PUBLICATION>Z.</PUBLICATION>`
+
+---
+Input Text:
+
+The International Semantic Web Conference (ISWC) 2019 is the premier conference for the Semantic Web community.
+
+---
+Input Text:
+
+The dataset used in this study is the Maules Creek dataset.
+
+---
+Input Text:
+
+The evaluation metrics used are Precision, Recall, F1-Score, and BLEU Score.
+
+---
+Input Text:
+
+Available licenses to use are cc-by-3 and CC BY-NC 4.0.
+
+---
+Input Text:
+
+The Intelligence Task Ontology is a popular ontology for representing intelligence tasks.
+
+---
+Input Text:
+
+Programming languages such as Python, PHP, and C++ are commonly used in machine learning.
+
+---
+Input Text:
+
+The Paper With Code project (<PROJECT>paperswithcode</PROJECT>.com/) is a valuable resource for researchers.
+
+---
+Input Text:
+
+The publication "No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Ex

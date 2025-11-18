@@ -1,0 +1,8 @@
+[](https://img.shields.io/badge/project_page-blue?
+style=flat-square&logo=github)
+[](https://img.shields.io/badge/paper-read-orange?
+style=flat-square&logo=arxiv)
+[](https://img.shields.io/badge/dataset-download-green?
+style=flat-square&logo=huggingface)
+
+We introduce a new large-scale dataset, named `<DATASET>MultiMedQA</DATASET>`, for multimodal biomedical question answering. `<DATASET>MultiMedQA</DATASET>` encompasses a wide range of question types and medical knowledge, including six existing datasets: `<DATASET>PubMedQA</DATASET>`, `<DATASET>MedQA</DATASET>`, `<DATASET>VQA-RAD</DATASET>`, `<DATASET>PathVQA</DATASET>`, `<DATASET>SLAKE</DATASET>`, and `<DATASET>Visual Med-PAIR</DATASET>`. Additionally, `<DATASET>MultiMedQA</DATASET>` includes two newly created large-scale multimodal question answering datasets: `<DATASET>MMBench-Med</DATASET>` and `<DATASET>LiveQA-Med</DATASET>`. We evaluate several state-of-the-art multimodal models on `<DATASET>MultiMedQA</DATASET>`, including `<SOFTWARE>BioVLP</SOFTWARE>`, `<SOFTWARE>PMC-CLIP</SOFTWARE>`, and `<SOFTWARE>Med-PaLM M</SOFTWARE>`. Our experiments show that these models still have significant limitations in understanding and reasoning about complex medical questions. We hope that `<DATASET>MultiMedQA</DATASET>` will serve as a valuable benchmark for future research in multimodal biomedical question answering. The `<DATASET>MultiMedQA</DATASET>` dataset is available at https://multimedqa.github.io/.

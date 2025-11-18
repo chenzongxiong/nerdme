@@ -1,0 +1,1 @@
+The <PUBLICATION>EarthPT: a time series foundation model for Earth Observation</PUBLICATION> is published in <PUBLICATION>arXiv</PUBLICATION> in 2023. The <PUBLICATION>EarthPT</PUBLICATION> work is also in the proceedings of the 2023 <CONFERENCE>CCAI NeurIPS workshop</CONFERENCE>.

@@ -1,0 +1,3 @@
+```markdown
+a wonderful day."] ] references = [     ["the cat is playing on the mat.", "The cat plays on the mat."],      ["Today is a wonderful day", "The weather outside is wonderful."] ] scores = scorer(predictions=predictions, references=references) ```  Specify metrics you want to use on instantiation.
+```

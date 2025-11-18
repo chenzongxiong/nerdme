@@ -1,0 +1,15 @@
+```markdown
+Tested in Docker, image = ```<SOFTWARE>pytorch/pytorch:0.4_cuda9_cudnn7</SOFTWARE>``.
+
+## General setup
+Execute inside ```<DIRECTORY>scripts/</DIRECTORY>```:
+
+##### Create directories that aren't part of the Git repo (checkpoints/, outputs/):
+``` bash <FUNCTION>setup_dirs.sh</FUNCTION> ```
+
+##### Install python packages:
+``` bash <FUNCTION>install_python_pkgs.sh</FUNCTION> ```
+
+##### The default parameters for Tensorboard(x?)
+```
+```

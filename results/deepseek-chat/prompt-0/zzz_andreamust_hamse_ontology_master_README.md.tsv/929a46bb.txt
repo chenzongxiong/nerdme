@@ -1,0 +1,1 @@
+To support the scanning of symbolic representations we reused `<SOFTWARE>music21</SOFTWARE>`(https://github.com/cuthbertLab/<SOFTWARE>music21</SOFTWARE>) and `<SOFTWARE>The VIS framework</SOFTWARE>`(https://github.com/<PROJECT>ELVIS-Project</PROJECT>/<SOFTWARE>vis-framework</SOFTWARE>).

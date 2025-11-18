@@ -1,0 +1,1 @@
+- `'<EVALMETRIC>log_moneyness</EVALMETRIC>'`: [Log-moneyness](https://en.wikipedia.org/wiki/Moneyness) of the stock

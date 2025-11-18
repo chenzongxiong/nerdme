@@ -1,0 +1,3 @@
+```markdown
+Also, PRs addressing new <EVALMETRIC>metric</EVALMETRIC> supports are welcomed :).  ## <div align="center"> Installation </div>  Through pip,      pip install <SOFTWARE>jury</SOFTWARE>  or build from source,      git clone https://github.com/obss/<SOFTWARE>jury</SOFTWARE>.git     cd <SOFTWARE>jury</SOFTWARE>     <PROGLANG>python</PROGLANG> setup.py install  **NOTE:** There may be malfunctions of some <EVALMETRIC>metrics</EVALMETRIC> depending on `<SOFTWARE>sacrebleu</SOFTWARE>` package on Windows machines which is  mainly due to the package `<SOFTWARE>pywin32</SOFTWARE>`.
+```

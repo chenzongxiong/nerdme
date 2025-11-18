@@ -1,0 +1,3 @@
+```markdown
+│     ├── <PROJECT>models</PROJECT>             <- Trained and serialized model definitions and weights     │     ├── <PROJECT>notebooks</PROJECT>          <- Jupyter notebooks
+```

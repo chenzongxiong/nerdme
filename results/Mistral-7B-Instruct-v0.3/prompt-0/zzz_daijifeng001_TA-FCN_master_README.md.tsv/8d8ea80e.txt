@@ -1,0 +1,13 @@
+Here's the annotated text in Markdown format:
+
+```
+For example, to train and test FCIS on COCO with `<PROGLANG>Python</PROGLANG>` `<SOFTWARE>experiments/fcis/fcis_end2end_train_test.py</SOFTWARE>`, use the following command:
+```
+
+```
+     ```
+     python experiments/fcis/fcis_end2end_train_test.py --cfg experiments/fcis/cfgs/resnet_v1_101_coco_fcis_end2end_ohem.yaml
+     ```
+```
+
+A cache folder would be created automatically to save the model and the log under `<DATASET>output/fcis/coco/</DATASET>` or `<DATASET>output/fcis/voc/</DATASET>`. 4.

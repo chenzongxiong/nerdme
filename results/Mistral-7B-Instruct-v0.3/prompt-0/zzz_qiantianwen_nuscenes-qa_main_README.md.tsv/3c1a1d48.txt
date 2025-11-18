@@ -1,0 +1,25 @@
+```
+The folder structure should be organized as follows before training.  ```
+NuScenes-QA +-- **CONFERENCE**[NuScenes-QA] +-- configs/
+    |   +-- butd.yaml
+    +-- data/
+        |   +-- questions/    # downloaded
+            +-- **DATASET**[NuScenes_train_questions.json]
+            +-- **DATASET**[NuScenes_val_questions.json]
+        +-- features/     # downloaded or extracted
+            +-- CenterPoint/
+                +-- **SOFTWARE**[xxx.npz]
+            +-- BEVDet/
+                +-- **SOFTWARE**[xxx.npz]
+            +-- MSMDFusion/
+                +-- **SOFTWARE**[xxx.npz]
+    +-- src/
+    +-- run.py
+```
+
+```
+### Installation
+The following packages are required to build the project:
+```bash
+**PROGLANG**[python] >= 3.5
+**PROGLANG**

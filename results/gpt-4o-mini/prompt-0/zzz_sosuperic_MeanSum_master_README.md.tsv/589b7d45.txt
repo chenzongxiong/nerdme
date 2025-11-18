@@ -1,0 +1,3 @@
+```markdown
+Hence, for a machine with a single GPU, you will give gpus=0 ``` python train_sum.py --mode=test --gpus=0 --batch_size=16 --notes=<run_name> ```  Training summarization model (using pre-trained language model and default hyperparams).
+```

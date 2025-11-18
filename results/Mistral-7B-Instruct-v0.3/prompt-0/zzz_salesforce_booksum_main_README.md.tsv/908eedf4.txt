@@ -1,0 +1,12 @@
+The script needs to be run separately for each split as the matched file `<SOFTWARE>gather_data.py</SOFTWARE>` needs to be called `<CD>cd paragraph-level-summary-alignments</CD>` and executed with the following command: `<SOFTWARE>python gather_data.py</SOFTWARE> --matched_file /path/to/chapter_summary_aligned_{train/test/val}_split.jsonl --split_paragraphs`.
+
+Generate alignments of the paragraphs with sentences from the summary using the bi-encoder `<PROGLANG>paraphrase-distilroberta-base-v1</PROGLANG>`.
+
+```python
+<SOFTWARE>align_data_bi_encoder_paraphrase.py</SOFTWARE> --data_path /path/to/chapter_summary_aligned_{train/test/val}_split.jsonl.gathered --stable_alignment
+```
+
+## Troubleshooting
+
+1.
+- If the script fails to run, ensure that the required Python packages are installed and the paths to the files are correct.

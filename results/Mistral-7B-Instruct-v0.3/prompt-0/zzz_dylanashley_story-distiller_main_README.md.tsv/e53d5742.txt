@@ -1,0 +1,14 @@
+`# story-distiller  [!`
+`<PROJECT>story-distiller</PROJECT>` `]`
+
+`This is a <PROJECT>story-distiller</PROJECT> project that aims to summarize long articles and stories.`
+
+`The <SOFTWARE>story-distiller</SOFTWARE> tool can be used to summarize articles and stories.`
+
+`You can find more information about the <PROJECT>story-distiller</PROJECT> project at (https://github.com/<PROJECT>story-distiller</PROJECT>/).`
+
+`The <PROJECT>story-distiller</PROJECT> project is licensed under the <LICENSE>MIT License</LICENSE>.`
+
+`The evaluation metrics used for the <PROJECT>story-distiller</PROJECT> are <EVALMETRIC>ROUGE Score</EVALMETRIC> and <EVALMETRIC>BLEU Score</EVALMETRIC>.`
+
+`The <PROJECT>story-distiller</PROJECT> project was presented at the <CONFERENCE>ACL 2022</

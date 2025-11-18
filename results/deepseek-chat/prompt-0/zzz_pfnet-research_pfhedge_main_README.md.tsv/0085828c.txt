@@ -1,0 +1,1 @@
+Examples include stocks, bonds, commodities, and currencies. * **`Derivative` instruments**: A derivative is a financial instrument whose payoff is contingent on a primary instrument.

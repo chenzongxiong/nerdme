@@ -1,0 +1,1 @@
+Download the `<DATASET>WIDER FACE</DATASET>` dataset from [here](https://shuoyang1213.me/<DATASET>WIDERFACE</DATASET>/). 2.

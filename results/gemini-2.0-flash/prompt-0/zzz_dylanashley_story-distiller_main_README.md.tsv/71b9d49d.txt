@@ -1,0 +1,1 @@
+However, `movie_extractor.py` should work on any similar collection with minimal changes.

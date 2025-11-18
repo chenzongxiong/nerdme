@@ -1,0 +1,1 @@
+By default, the code uses example images in .

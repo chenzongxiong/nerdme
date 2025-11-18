@@ -1,0 +1,1 @@
+Metrics are: `<EVALMETRIC>Exact Match</EVALMETRIC>` and `<EVALMETRIC>F1-score</EVALMETRIC>` for Q&A, `<EVALMETRIC>Accuracy</EVALMETRIC>` and `<EVALMETRIC>F1-score</EVALMETRIC>` for NLI and `<EVALMETRIC>MRR@10</EVALMETRIC>` for Text Ranking

@@ -1,0 +1,1 @@
+Waterloo) `<SOFTWARE>Software Competence Center Hagenberg GmbH</SOFTWARE>`, `<PROJECT>TÜV Austria</PROJECT>`, `<SOFTWARE>Frauscher Sensonic</SOFTWARE>`, `<PROJECT>TRUMPF</PROJECT>` and the `<PROJECT>NVIDIA Corporation</PROJECT>`.

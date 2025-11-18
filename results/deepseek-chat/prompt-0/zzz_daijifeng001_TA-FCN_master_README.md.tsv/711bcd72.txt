@@ -1,0 +1,3 @@
+```markdown
+Slides in [<CONFERENCE>ImageNet ILSVRC and COCO workshop 2016</CONFERENCE>](http://image-net.org/challenges/ilsvrc+coco2016): [<SOFTWARE>OneDrive</SOFTWARE>](https://onedrive.live.com/?
+```

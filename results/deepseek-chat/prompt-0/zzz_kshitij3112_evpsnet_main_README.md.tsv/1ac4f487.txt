@@ -1,0 +1,3 @@
+```markdown
+/data/<DATASET>cityscapes</DATASET>/ cd .. git clone https://github.com/mcordts/<SOFTWARE>cityscapesScripts</SOFTWARE>.git cd <SOFTWARE>cityscapesScripts</SOFTWARE>/cityscapesscripts/preparation python <SOFTWARE>createPanopticImgs.py</SOFTWARE> --dataset-folder path_to_<DATASET>cityscapes_gtFine</DATASET>_folder --output-folder ../../..
+```

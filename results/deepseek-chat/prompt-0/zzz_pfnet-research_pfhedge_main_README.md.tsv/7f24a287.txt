@@ -1,0 +1,1 @@
+`[deep-hedging-arxiv]: https://arxiv.org/abs/1802.03042 [deep-hedging-qf]: https://www.tandfonline.com/doi/abs/10.1080/14697688.2019.1571683 [deep-hedging-wp]: https://papers.ssrn.com/sol3/papers.cfm?`

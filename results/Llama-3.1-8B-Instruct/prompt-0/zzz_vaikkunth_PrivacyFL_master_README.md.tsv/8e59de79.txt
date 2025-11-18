@@ -1,0 +1,1 @@
+The <SOFTWARE>federated</SOFTWARE> model which is the average of all the <SOFTWARE>clients</SOFTWARE>' personal weights + differentially private noise for that iteration.

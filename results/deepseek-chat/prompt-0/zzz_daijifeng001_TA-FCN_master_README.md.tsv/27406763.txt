@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+Please download <DATASET>ImageNet</DATASET>-pretrained <SOFTWARE>ResNet-v1-101</SOFTWARE> model manually from [OneDrive](https://1drv.ms/u/s!
+```

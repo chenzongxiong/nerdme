@@ -1,0 +1,14 @@
+**A basic sample run using default parameters would like this**:  
+```python
+train.py --experiment <CONFERENCE>margin_loss_resnet50</CONFERENCE> \  
+                 --<DATASET>sop</DATASET> -i=$NAME -seed=4 \  
+                 --sz-embedding=512 --mod-epoch=2 --nb-clusters=32 --nb-epochs=180 \  
+                 --batch-size=80 --num-samples-per-class=2 --backend=faiss-gpu \  
+                 --lr-gamma=0.3 --mod-epoch-freeze=1 --sampler=distanceweighted \  
+                 --weight-decay=1e-4 --batch-sampler=adaptbalanced \  
+                 --force-full-embedding-epoch=80 --mask-lr-mult=100 \  
+                 --masking-lambda=0.01 --mask-wd-mult=1 --dataset-dir=$datadir  
+```
+- **--experiment <CONFERENCE>margin_loss_resnet50</CONFERENCE>** please keep this untouched, otherwise the args won't be read correctly.
+- **--dataset** specify the dataset that you want to train the model for, choose one of **<DATASET>CUB200-2011</DATASET>**, **<DATASET>CARS196</DATASET>**, **<DATASET>Stanford Online Products</DATASET>**, **<DATASET>In-Shop clothes retrieval</DATASET>** or **<DATASET>PKU Vehicle id</DATASET>**.
+- **--nb_clusters**: could be maximumly possible set to **<DATASET>16</DATASET>**.

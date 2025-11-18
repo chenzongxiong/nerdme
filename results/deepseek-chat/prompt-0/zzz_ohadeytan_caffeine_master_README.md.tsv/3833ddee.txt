@@ -1,0 +1,1 @@
+The improvements draw on our experience designing `<SOFTWARE>Guava's cache</SOFTWARE>`[guava-cache] and `<SOFTWARE>ConcurrentLinkedHashMap</SOFTWARE>`[clhm].

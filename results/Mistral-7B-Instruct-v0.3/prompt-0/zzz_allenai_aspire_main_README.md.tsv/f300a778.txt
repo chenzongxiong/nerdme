@@ -1,0 +1,17 @@
+Training code usage instructions for the `<PROJECT>Deep Learning for Computer Vision</PROJECT>` project can be found in the `<SOFTWARE>GitHub repository</SOFTWARE>` (https://github.com/<PROJECT>deep-learning-computer-vision</PROJECT>).
+
+To get started, first clone the repository:
+
+```
+git clone https://github.com/<PROJECT>deep-learning-computer-vision</PROJECT>.git
+```
+
+Next, navigate to the project directory:
+
+```
+cd deep-learning-computer-vision
+```
+
+The project includes several `<CONFERENCE>CVPR</CONFERENCE>` and `<CONFERENCE>ICCV</CONFERENCE>` papers, each with their own `<PUBLICATION>pdf</PUBLICATION>` and `<SOFTWARE>code</SOFTWARE>`.
+
+To train a model, you'll need to download the required `<DATASET>CIFAR-10</DATASET>` and `<DATASET>ImageNet</DATASET>` datasets. You can find the `

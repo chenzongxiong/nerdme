@@ -1,0 +1,9 @@
+```markdown
+/fcis/<SOFTWARE>demo.py</SOFTWARE>  ```  
+### Preparation for Training & Testing  
+1. Download the <DATASET>FCIS</DATASET> dataset from [https://github.com/](https://github.com/)<PROJECT>FCIS</PROJECT>
+2. Install the required <PROGLANG>Python</PROGLANG> packages using the following command: `pip install -r requirements.txt`
+3. Train the model using the following command: `python train.py`
+4. Test the model using the following command: `python test.py`
+5. Evaluate the model using the following command: `python evaluate.py`
+```

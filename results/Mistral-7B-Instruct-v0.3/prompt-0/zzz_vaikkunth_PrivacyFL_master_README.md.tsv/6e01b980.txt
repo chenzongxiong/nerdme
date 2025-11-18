@@ -1,0 +1,12 @@
+Here's the annotated text in Markdown format:
+
+```
+Performance Metrics for <CLIENT_AGENT2> on iteration 1  -------------------------------------------
+Personal accuracy: <EVALMETRIC>0.8283333333333334</EVALMETRIC>
+Personal computation time: <TIME>0:00:01.194242</TIME>
+Federated accuracy: <EVALMETRIC>0.8566666666666667</EVALMETRIC>
+Simulated time to receive federated weights: <TIME>0:00:07.202375</TIME>
+
+Performance Metrics for <CLIENT_AGENT0> on iteration 1  -------------------------------------------
+Personal accuracy: <EVALMETRIC>0.8216666666666667</EVALMETRIC>
+Personal computation time: <TIME>0:00:01.198737</TIME>

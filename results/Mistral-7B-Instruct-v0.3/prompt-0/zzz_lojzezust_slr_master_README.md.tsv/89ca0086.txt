@@ -1,0 +1,2 @@
+`<PUBLICATION>November 2022</PUBLICATION> Published in <PUBLICATION>Sensors</PUBLICATION>.
+<p align="center">     <img src="resources/annotations.png" alt="SLR annotations" width="400px"> </p>`

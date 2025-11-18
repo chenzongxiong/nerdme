@@ -1,0 +1,1 @@
+**Details**: The features are extracted from the <SOFTWARE>I3D</SOFTWARE> model pretrained on <DATASET>Kinetics</DATASET> using clips of `16 frames` at a frame rate of `25 fps` and a stride of `16 frames`.

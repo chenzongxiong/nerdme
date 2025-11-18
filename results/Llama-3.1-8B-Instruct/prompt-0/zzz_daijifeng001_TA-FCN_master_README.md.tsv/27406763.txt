@@ -1,0 +1,1 @@
+Please download the <SOFTWARE>ImageNet-pretrained ResNet-v1-101 model</SOFTWARE> manually from [OneDrive](https://1drv.ms/u/s!<DATASET>ImageNet</DATASET> <SOFTWARE>ResNet-v1-101</SOFTWARE> <CONFERENCE>CVPR2023</CONFERENCE> <SOFTWARE>model</SOFTWARE> <LICENSE>MIT License</LICENSE>).

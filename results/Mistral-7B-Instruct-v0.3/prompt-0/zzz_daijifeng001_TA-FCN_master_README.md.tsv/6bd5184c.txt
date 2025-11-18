@@ -1,0 +1,3 @@
+`/<SOFTWARE>fcis_coco</SOFTWARE>_coco-0000.params  ```  <EVALMETRIC>2.</EVALMETRIC>
+
+Note: Since the input text does not contain any other entities from the provided classes, only the software and evaluation metric have been annotated.

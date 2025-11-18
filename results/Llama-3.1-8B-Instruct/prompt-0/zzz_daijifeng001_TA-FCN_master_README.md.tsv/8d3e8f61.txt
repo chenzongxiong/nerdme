@@ -1,0 +1,1 @@
+The <PUBLICATION>CVPR 2017 spotlight paper</PUBLICATION> on FCIS is initially described at https://arxiv.org/abs/<PUBLICATION>1611.07709</PUBLICATION>.

@@ -1,0 +1,3 @@
+```markdown
+/configs/<DATASET>anet_tsp</DATASET>.yaml --output reproduce ``` * [Optional] Monitor the training using <SOFTWARE>TensorBoard</SOFTWARE> ```shell tensorboard --logdir=.
+```

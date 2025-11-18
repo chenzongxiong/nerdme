@@ -1,0 +1,3 @@
+# NetCov
+
+`<SOFTWARE>NetCov</SOFTWARE>` is an open-source tool that can be used with `<SOFTWARE>Batfish</SOFTWARE>` to analyze test coverage for network configurations. [Batfish](https://github.com/batfish/batfish) is a software tool mentioned in the context.

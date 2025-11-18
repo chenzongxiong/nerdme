@@ -1,0 +1,3 @@
+Consider citing our <PUBLICATION>paper</PUBLICATION> if you find this work useful.  ``` @inproceedings{berg21_interspeech,   author={Axel Berg and Mark O’Connor and Miguel Tairum Cruz},   title={<PUBLICATION>Keyword Transformer: A Self-Attention Model for Keyword Spotting</PUBLICATION>},   year=2021,   booktitle={<PUBLICATION>Proc. Interspeech 2021</PUBLICATION>}
+
+**<CONFERENCE>Interspeech 2021</CONFERENCE>**,

@@ -1,0 +1,3 @@
+```markdown
+# <PROJECT>Lightweight-Face-Detector-Pruning</PROJECT>  Pruning Lightweight Face Detectors **<SOFTWARE>EXTD</SOFTWARE>** and **<SOFTWARE>EResFD</SOFTWARE>** using <SOFTWARE>NNI</SOFTWARE>'s `<SOFTWARE>FPGMPruner</SOFTWARE>` and `<SOFTWARE>L1NormPruner</SOFTWARE>`.
+```

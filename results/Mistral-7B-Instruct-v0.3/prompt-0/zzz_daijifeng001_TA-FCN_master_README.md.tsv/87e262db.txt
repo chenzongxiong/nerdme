@@ -1,0 +1,3 @@
+`For <PROGLANG>Linux</PROGLANG> user, run `sh .`
+
+In the given text, the only entity recognized is the programming language "Linux". The tag used is `<PROGLANG>Linux</PROGLANG>`.

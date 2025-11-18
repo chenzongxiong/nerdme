@@ -1,0 +1,1606 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Uni-RXN: An Unified Framework that Bridge the Gap between Chemical Reaction Pretraining and Conditional Molecule Generation
+#Text=
+#Text=[!
+1-1	0-1	#	_	_	
+1-2	2-9	Uni-RXN	*[1]	PUBLICATION[1]	
+1-3	9-10	:	*[1]	PUBLICATION[1]	
+1-4	11-13	An	*[1]	PUBLICATION[1]	
+1-5	14-21	Unified	*[1]	PUBLICATION[1]	
+1-6	22-31	Framework	*[1]	PUBLICATION[1]	
+1-7	32-36	that	*[1]	PUBLICATION[1]	
+1-8	37-43	Bridge	*[1]	PUBLICATION[1]	
+1-9	44-47	the	*[1]	PUBLICATION[1]	
+1-10	48-51	Gap	*[1]	PUBLICATION[1]	
+1-11	52-59	between	*[1]	PUBLICATION[1]	
+1-12	60-68	Chemical	*[1]	PUBLICATION[1]	
+1-13	69-77	Reaction	*[1]	PUBLICATION[1]	
+1-14	78-89	Pretraining	*[1]	PUBLICATION[1]	
+1-15	90-93	and	*[1]	PUBLICATION[1]	
+1-16	94-105	Conditional	*[1]	PUBLICATION[1]	
+1-17	106-114	Molecule	*[1]	PUBLICATION[1]	
+1-18	115-125	Generation	*[1]	PUBLICATION[1]	
+1-19	127-128	[	_	_	
+1-20	128-129	!	_	_	
+
+#Text=[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/qiangbo1222/HierDiff/blob/main/LICENSE)
+#Text=
+#Text=[!
+2-1	129-130	[	_	_	
+2-2	130-137	License	_	_	
+2-3	137-138	:	_	_	
+2-4	139-142	MIT	*	LICENSE	
+2-5	142-143	]	_	_	
+2-6	143-144	(	_	_	
+2-7	144-149	https	_	_	
+2-8	149-150	:	_	_	
+2-9	150-151	/	_	_	
+2-10	151-152	/	_	_	
+2-11	152-166	img.shields.io	_	_	
+2-12	166-167	/	_	_	
+2-13	167-172	badge	_	_	
+2-14	172-173	/	_	_	
+2-15	173-195	License-MIT-yellow.svg	_	_	
+2-16	195-196	)	_	_	
+2-17	196-197	]	_	_	
+2-18	197-198	(	_	_	
+2-19	198-203	https	_	_	
+2-20	203-204	:	_	_	
+2-21	204-205	/	_	_	
+2-22	205-206	/	_	_	
+2-23	206-216	github.com	_	_	
+2-24	216-217	/	_	_	
+2-25	217-228	qiangbo1222	_	_	
+2-26	228-229	/	_	_	
+2-27	229-237	HierDiff	_	_	
+2-28	237-238	/	_	_	
+2-29	238-242	blob	_	_	
+2-30	242-243	/	_	_	
+2-31	243-247	main	_	_	
+2-32	247-248	/	_	_	
+2-33	248-255	LICENSE	_	_	
+2-34	255-256	)	_	_	
+2-35	258-259	[	_	_	
+2-36	259-260	!	_	_	
+
+#Text=[DOI](https://zenodo.org/badge/609522297.svg)](https://zenodo.org/badge/latestdoi/609522297)
+#Text=
+#Text=**Abstract**: Chemical reactions are fundamental to drug design and organic chemistry research.
+3-1	260-261	[	_	_	
+3-2	261-264	DOI	_	_	
+3-3	264-265	]	_	_	
+3-4	265-266	(	_	_	
+3-5	266-271	https	_	_	
+3-6	271-272	:	_	_	
+3-7	272-273	/	_	_	
+3-8	273-274	/	_	_	
+3-9	274-284	zenodo.org	_	_	
+3-10	284-285	/	_	_	
+3-11	285-290	badge	_	_	
+3-12	290-291	/	_	_	
+3-13	291-300	609522297	_	_	
+3-14	300-301	.	_	_	
+3-15	301-304	svg	_	_	
+3-16	304-305	)	_	_	
+3-17	305-306	]	_	_	
+3-18	306-307	(	_	_	
+3-19	307-312	https	_	_	
+3-20	312-313	:	_	_	
+3-21	313-314	/	_	_	
+3-22	314-315	/	_	_	
+3-23	315-325	zenodo.org	_	_	
+3-24	325-326	/	_	_	
+3-25	326-331	badge	_	_	
+3-26	331-332	/	_	_	
+3-27	332-341	latestdoi	_	_	
+3-28	341-342	/	_	_	
+3-29	342-351	609522297	_	_	
+3-30	351-352	)	_	_	
+3-31	354-355	*	_	_	
+3-32	355-356	*	_	_	
+3-33	356-364	Abstract	_	_	
+3-34	364-365	*	_	_	
+3-35	365-366	*	_	_	
+3-36	366-367	:	_	_	
+3-37	368-376	Chemical	_	_	
+3-38	377-386	reactions	_	_	
+3-39	387-390	are	_	_	
+3-40	391-402	fundamental	_	_	
+3-41	403-405	to	_	_	
+3-42	406-410	drug	_	_	
+3-43	411-417	design	_	_	
+3-44	418-421	and	_	_	
+3-45	422-429	organic	_	_	
+3-46	430-439	chemistry	_	_	
+3-47	440-448	research	_	_	
+3-48	448-449	.	_	_	
+
+#Text=Therefore there is an urgent need for a large-scale pre-training computational framework that could efficiently capture the basic rules of chemical reactions.
+4-1	450-459	Therefore	_	_	
+4-2	460-465	there	_	_	
+4-3	466-468	is	_	_	
+4-4	469-471	an	_	_	
+4-5	472-478	urgent	_	_	
+4-6	479-483	need	_	_	
+4-7	484-487	for	_	_	
+4-8	488-489	a	_	_	
+4-9	490-501	large-scale	_	_	
+4-10	502-514	pre-training	_	_	
+4-11	515-528	computational	_	_	
+4-12	529-538	framework	_	_	
+4-13	539-543	that	_	_	
+4-14	544-549	could	_	_	
+4-15	550-561	efficiently	_	_	
+4-16	562-569	capture	_	_	
+4-17	570-573	the	_	_	
+4-18	574-579	basic	_	_	
+4-19	580-585	rules	_	_	
+4-20	586-588	of	_	_	
+4-21	589-597	chemical	_	_	
+4-22	598-607	reactions	_	_	
+4-23	607-608	.	_	_	
+
+#Text=In addition, applying chemical reactions to molecule generation tasks is often limited to a small number of reaction templates.
+5-1	610-612	In	_	_	
+5-2	613-621	addition	_	_	
+5-3	621-622	,	_	_	
+5-4	623-631	applying	_	_	
+5-5	632-640	chemical	_	_	
+5-6	641-650	reactions	_	_	
+5-7	651-653	to	_	_	
+5-8	654-662	molecule	_	_	
+5-9	663-673	generation	_	_	
+5-10	674-679	tasks	_	_	
+5-11	680-682	is	_	_	
+5-12	683-688	often	_	_	
+5-13	689-696	limited	_	_	
+5-14	697-699	to	_	_	
+5-15	700-701	a	_	_	
+5-16	702-707	small	_	_	
+5-17	708-714	number	_	_	
+5-18	715-717	of	_	_	
+5-19	718-726	reaction	_	_	
+5-20	727-736	templates	_	_	
+5-21	736-737	.	_	_	
+
+#Text=In this paper, we propose a unified framework that addresses both the representation learning and generative tasks, which allows for a more holistic approach.
+6-1	738-740	In	_	_	
+6-2	741-745	this	_	_	
+6-3	746-751	paper	_	_	
+6-4	751-752	,	_	_	
+6-5	753-755	we	_	_	
+6-6	756-763	propose	_	_	
+6-7	764-765	a	_	_	
+6-8	766-773	unified	_	_	
+6-9	774-783	framework	_	_	
+6-10	784-788	that	_	_	
+6-11	789-798	addresses	_	_	
+6-12	799-803	both	_	_	
+6-13	804-807	the	_	_	
+6-14	808-822	representation	_	_	
+6-15	823-831	learning	_	_	
+6-16	832-835	and	_	_	
+6-17	836-846	generative	_	_	
+6-18	847-852	tasks	_	_	
+6-19	852-853	,	_	_	
+6-20	854-859	which	_	_	
+6-21	860-866	allows	_	_	
+6-22	867-870	for	_	_	
+6-23	871-872	a	_	_	
+6-24	873-877	more	_	_	
+6-25	878-886	holistic	_	_	
+6-26	887-895	approach	_	_	
+6-27	895-896	.	_	_	
+
+#Text=Inspired by the organic chemistry mechanism, we developed a novel pretraining framework that enables us to incorporate inductive biases into the model.
+7-1	897-905	Inspired	_	_	
+7-2	906-908	by	_	_	
+7-3	909-912	the	_	_	
+7-4	913-920	organic	_	_	
+7-5	921-930	chemistry	_	_	
+7-6	931-940	mechanism	_	_	
+7-7	940-941	,	_	_	
+7-8	942-944	we	_	_	
+7-9	945-954	developed	_	_	
+7-10	955-956	a	_	_	
+7-11	957-962	novel	_	_	
+7-12	963-974	pretraining	_	_	
+7-13	975-984	framework	_	_	
+7-14	985-989	that	_	_	
+7-15	990-997	enables	_	_	
+7-16	998-1000	us	_	_	
+7-17	1001-1003	to	_	_	
+7-18	1004-1015	incorporate	_	_	
+7-19	1016-1025	inductive	_	_	
+7-20	1026-1032	biases	_	_	
+7-21	1033-1037	into	_	_	
+7-22	1038-1041	the	_	_	
+7-23	1042-1047	model	_	_	
+7-24	1047-1048	.	_	_	
+
+#Text=Our framework achieves state-of-the-art results on challenging downstream tasks, for example, reaction classification.
+8-1	1049-1052	Our	_	_	
+8-2	1053-1062	framework	_	_	
+8-3	1063-1071	achieves	_	_	
+8-4	1072-1088	state-of-the-art	_	_	
+8-5	1089-1096	results	_	_	
+8-6	1097-1099	on	_	_	
+8-7	1100-1111	challenging	_	_	
+8-8	1112-1122	downstream	_	_	
+8-9	1123-1128	tasks	_	_	
+8-10	1128-1129	,	_	_	
+8-11	1130-1133	for	_	_	
+8-12	1134-1141	example	_	_	
+8-13	1141-1142	,	_	_	
+8-14	1143-1151	reaction	_	_	
+8-15	1152-1166	classification	_	_	
+8-16	1166-1167	.	_	_	
+
+#Text=In the generative tasks, such as virtual drug-like chemical library design, our model demonstrates the great potential and is able to generate more synthesizable structure analogs.
+#Text=
+#Text=!
+9-1	1168-1170	In	_	_	
+9-2	1171-1174	the	_	_	
+9-3	1175-1185	generative	_	_	
+9-4	1186-1191	tasks	_	_	
+9-5	1191-1192	,	_	_	
+9-6	1193-1197	such	_	_	
+9-7	1198-1200	as	_	_	
+9-8	1201-1208	virtual	_	_	
+9-9	1209-1218	drug-like	_	_	
+9-10	1219-1227	chemical	_	_	
+9-11	1228-1235	library	_	_	
+9-12	1236-1242	design	_	_	
+9-13	1242-1243	,	_	_	
+9-14	1244-1247	our	_	_	
+9-15	1248-1253	model	_	_	
+9-16	1254-1266	demonstrates	_	_	
+9-17	1267-1270	the	_	_	
+9-18	1271-1276	great	_	_	
+9-19	1277-1286	potential	_	_	
+9-20	1287-1290	and	_	_	
+9-21	1291-1293	is	_	_	
+9-22	1294-1298	able	_	_	
+9-23	1299-1301	to	_	_	
+9-24	1302-1310	generate	_	_	
+9-25	1311-1315	more	_	_	
+9-26	1316-1329	synthesizable	_	_	
+9-27	1330-1339	structure	_	_	
+9-28	1340-1347	analogs	_	_	
+9-29	1347-1348	.	_	_	
+9-30	1350-1351	!	_	_	
+
+#Text=[cover](assets/abs_graph.png)
+#Text=
+#Text=
+#Text=**Paper**: Our paper has been published at [Nature Machine Intelligence](https://www.nature.com/articles/s42256-023-00764-9) !!
+10-1	1351-1352	[	_	_	
+10-2	1352-1357	cover	_	_	
+10-3	1357-1358	]	_	_	
+10-4	1358-1359	(	_	_	
+10-5	1359-1365	assets	_	_	
+10-6	1365-1366	/	_	_	
+10-7	1366-1379	abs_graph.png	_	_	
+10-8	1379-1380	)	_	_	
+10-9	1383-1384	*	_	_	
+10-10	1384-1385	*	_	_	
+10-11	1385-1390	Paper	_	_	
+10-12	1390-1391	*	_	_	
+10-13	1391-1392	*	_	_	
+10-14	1392-1393	:	_	_	
+10-15	1394-1397	Our	_	_	
+10-16	1398-1403	paper	_	_	
+10-17	1404-1407	has	_	_	
+10-18	1408-1412	been	_	_	
+10-19	1413-1422	published	_	_	
+10-20	1423-1425	at	_	_	
+10-21	1426-1427	[	_	_	
+10-22	1427-1433	Nature	_	_	
+10-23	1434-1441	Machine	_	_	
+10-24	1442-1454	Intelligence	_	_	
+10-25	1454-1455	]	_	_	
+10-26	1455-1456	(	_	_	
+10-27	1456-1461	https	_	_	
+10-28	1461-1462	:	_	_	
+10-29	1462-1463	/	_	_	
+10-30	1463-1464	/	_	_	
+10-31	1464-1478	www.nature.com	_	_	
+10-32	1478-1479	/	_	_	
+10-33	1479-1487	articles	_	_	
+10-34	1487-1488	/	_	_	
+10-35	1488-1494	s42256	_	_	
+10-36	1494-1495	-	_	_	
+10-37	1495-1498	023	_	_	
+10-38	1498-1499	-	_	_	
+10-39	1499-1504	00764	_	_	
+10-40	1504-1505	-	_	_	
+10-41	1505-1506	9	_	_	
+10-42	1506-1507	)	_	_	
+10-43	1508-1509	!	_	_	
+10-44	1509-1510	!	_	_	
+
+#Text=If you do not have Springer subsciption you can also view our paper on [Arxiv](https://arxiv.org/abs/2303.06965).
+11-1	1511-1513	If	_	_	
+11-2	1514-1517	you	_	_	
+11-3	1518-1520	do	_	_	
+11-4	1521-1524	not	_	_	
+11-5	1525-1529	have	_	_	
+11-6	1530-1538	Springer	_	_	
+11-7	1539-1550	subsciption	_	_	
+11-8	1551-1554	you	_	_	
+11-9	1555-1558	can	_	_	
+11-10	1559-1563	also	_	_	
+11-11	1564-1568	view	_	_	
+11-12	1569-1572	our	_	_	
+11-13	1573-1578	paper	_	_	
+11-14	1579-1581	on	_	_	
+11-15	1582-1583	[	_	_	
+11-16	1583-1588	Arxiv	_	_	
+11-17	1588-1589	]	_	_	
+11-18	1589-1590	(	_	_	
+11-19	1590-1595	https	_	_	
+11-20	1595-1596	:	_	_	
+11-21	1596-1597	/	_	_	
+11-22	1597-1598	/	_	_	
+11-23	1598-1607	arxiv.org	_	_	
+11-24	1607-1608	/	_	_	
+11-25	1608-1611	abs	_	_	
+11-26	1611-1612	/	_	_	
+11-27	1612-1622	2303.06965	_	_	
+11-28	1622-1623	)	_	_	
+11-29	1623-1624	.	_	_	
+
+#Text=**Correction**: In our paper, we denote the dataset 'USPTO' incorrectly as 'USTPO'.
+12-1	1626-1627	*	_	_	
+12-2	1627-1628	*	_	_	
+12-3	1628-1638	Correction	_	_	
+12-4	1638-1639	*	_	_	
+12-5	1639-1640	*	_	_	
+12-6	1640-1641	:	_	_	
+12-7	1642-1644	In	_	_	
+12-8	1645-1648	our	_	_	
+12-9	1649-1654	paper	_	_	
+12-10	1654-1655	,	_	_	
+12-11	1656-1658	we	_	_	
+12-12	1659-1665	denote	_	_	
+12-13	1666-1669	the	_	_	
+12-14	1670-1677	dataset	_	_	
+12-15	1678-1679	'	_	_	
+12-16	1679-1684	USPTO	*	DATASET	
+12-17	1684-1685	'	_	_	
+12-18	1686-1697	incorrectly	_	_	
+12-19	1698-1700	as	_	_	
+12-20	1701-1702	'	_	_	
+12-21	1702-1707	USTPO	_	_	
+12-22	1707-1708	'	_	_	
+12-23	1708-1709	.	_	_	
+
+#Text=Besides, we would also like to alter the structures in Figure3 to adjust a more reasonable ring form:
+#Text=
+#Text=<img src="assets/mol_correct.png" alt="Image" width="300">
+#Text=
+#Text=We apologize for any confusion and misunderstanding these mix-ups might cause.
+#Text=
+#Text=## Citation
+#Text=If you find our work helpful and planning to submit your own paper, please include the following citation.
+13-1	1710-1717	Besides	_	_	
+13-2	1717-1718	,	_	_	
+13-3	1719-1721	we	_	_	
+13-4	1722-1727	would	_	_	
+13-5	1728-1732	also	_	_	
+13-6	1733-1737	like	_	_	
+13-7	1738-1740	to	_	_	
+13-8	1741-1746	alter	_	_	
+13-9	1747-1750	the	_	_	
+13-10	1751-1761	structures	_	_	
+13-11	1762-1764	in	_	_	
+13-12	1765-1772	Figure3	_	_	
+13-13	1773-1775	to	_	_	
+13-14	1776-1782	adjust	_	_	
+13-15	1783-1784	a	_	_	
+13-16	1785-1789	more	_	_	
+13-17	1790-1800	reasonable	_	_	
+13-18	1801-1805	ring	_	_	
+13-19	1806-1810	form	_	_	
+13-20	1810-1811	:	_	_	
+13-21	1813-1814	<	_	_	
+13-22	1814-1817	img	_	_	
+13-23	1818-1821	src	_	_	
+13-24	1821-1822	=	_	_	
+13-25	1822-1823	"	_	_	
+13-26	1823-1829	assets	_	_	
+13-27	1829-1830	/	_	_	
+13-28	1830-1845	mol_correct.png	_	_	
+13-29	1845-1846	"	_	_	
+13-30	1847-1850	alt	_	_	
+13-31	1850-1851	=	_	_	
+13-32	1851-1852	"	_	_	
+13-33	1852-1857	Image	_	_	
+13-34	1857-1858	"	_	_	
+13-35	1859-1864	width	_	_	
+13-36	1864-1865	=	_	_	
+13-37	1865-1866	"	_	_	
+13-38	1866-1869	300	_	_	
+13-39	1869-1870	"	_	_	
+13-40	1870-1871	>	_	_	
+13-41	1873-1875	We	_	_	
+13-42	1876-1885	apologize	_	_	
+13-43	1886-1889	for	_	_	
+13-44	1890-1893	any	_	_	
+13-45	1894-1903	confusion	_	_	
+13-46	1904-1907	and	_	_	
+13-47	1908-1924	misunderstanding	_	_	
+13-48	1925-1930	these	_	_	
+13-49	1931-1938	mix-ups	_	_	
+13-50	1939-1944	might	_	_	
+13-51	1945-1950	cause	_	_	
+13-52	1950-1951	.	_	_	
+13-53	1953-1954	#	_	_	
+13-54	1954-1955	#	_	_	
+13-55	1956-1964	Citation	_	_	
+13-56	1965-1967	If	_	_	
+13-57	1968-1971	you	_	_	
+13-58	1972-1976	find	_	_	
+13-59	1977-1980	our	_	_	
+13-60	1981-1985	work	_	_	
+13-61	1986-1993	helpful	_	_	
+13-62	1994-1997	and	_	_	
+13-63	1998-2006	planning	_	_	
+13-64	2007-2009	to	_	_	
+13-65	2010-2016	submit	_	_	
+13-66	2017-2021	your	_	_	
+13-67	2022-2025	own	_	_	
+13-68	2026-2031	paper	_	_	
+13-69	2031-2032	,	_	_	
+13-70	2033-2039	please	_	_	
+13-71	2040-2047	include	_	_	
+13-72	2048-2051	the	_	_	
+13-73	2052-2061	following	_	_	
+13-74	2062-2070	citation	_	_	
+13-75	2070-2071	.	_	_	
+
+#Text=THANKS A LOT!!
+14-1	2072-2078	THANKS	_	_	
+14-2	2079-2080	A	_	_	
+14-3	2081-2084	LOT	_	_	
+14-4	2084-2085	!	_	_	
+14-5	2085-2086	!	_	_	
+
+#Text=```
+#Text=@article{qiang2023bridging,
+#Text=  title={Bridging the gap between chemical reaction pretraining and conditional molecule generation with a unified model},
+#Text=  author={Qiang, Bo and Zhou, Yiran and Ding, Yuheng and Liu, Ningfeng and Song, Song and Zhang, Liangren and Huang, Bo and Liu, Zhenming},
+#Text=  journal={Nature Machine Intelligence},
+#Text=  volume={5},
+#Text=  number={12},
+#Text=  pages={1476--1485},
+#Text=  year={2023},
+#Text=  publisher={Nature Publishing Group UK London}
+#Text=}
+#Text=```
+#Text=
+#Text=## Environment Installation
+#Text=
+#Text=There are two options to install all dependencies for reproducing the results of the paper.
+15-1	2088-2089	`	_	_	
+15-2	2089-2090	`	_	_	
+15-3	2090-2091	`	_	_	
+15-4	2092-2093	@	_	_	
+15-5	2093-2100	article	_	_	
+15-6	2100-2101	{	_	_	
+15-7	2101-2118	qiang2023bridging	_	_	
+15-8	2118-2119	,	_	_	
+15-9	2122-2127	title	_	_	
+15-10	2127-2128	=	_	_	
+15-11	2128-2129	{	_	_	
+15-12	2129-2137	Bridging	*[2]	PUBLICATION[2]	
+15-13	2138-2141	the	*[2]	PUBLICATION[2]	
+15-14	2142-2145	gap	*[2]	PUBLICATION[2]	
+15-15	2146-2153	between	*[2]	PUBLICATION[2]	
+15-16	2154-2162	chemical	*[2]	PUBLICATION[2]	
+15-17	2163-2171	reaction	*[2]	PUBLICATION[2]	
+15-18	2172-2183	pretraining	*[2]	PUBLICATION[2]	
+15-19	2184-2187	and	*[2]	PUBLICATION[2]	
+15-20	2188-2199	conditional	*[2]	PUBLICATION[2]	
+15-21	2200-2208	molecule	*[2]	PUBLICATION[2]	
+15-22	2209-2219	generation	*[2]	PUBLICATION[2]	
+15-23	2220-2224	with	*[2]	PUBLICATION[2]	
+15-24	2225-2226	a	*[2]	PUBLICATION[2]	
+15-25	2227-2234	unified	*[2]	PUBLICATION[2]	
+15-26	2235-2240	model	*[2]	PUBLICATION[2]	
+15-27	2240-2241	}	_	_	
+15-28	2241-2242	,	_	_	
+15-29	2245-2251	author	_	_	
+15-30	2251-2252	=	_	_	
+15-31	2252-2253	{	_	_	
+15-32	2253-2258	Qiang	_	_	
+15-33	2258-2259	,	_	_	
+15-34	2260-2262	Bo	_	_	
+15-35	2263-2266	and	_	_	
+15-36	2267-2271	Zhou	_	_	
+15-37	2271-2272	,	_	_	
+15-38	2273-2278	Yiran	_	_	
+15-39	2279-2282	and	_	_	
+15-40	2283-2287	Ding	_	_	
+15-41	2287-2288	,	_	_	
+15-42	2289-2295	Yuheng	_	_	
+15-43	2296-2299	and	_	_	
+15-44	2300-2303	Liu	_	_	
+15-45	2303-2304	,	_	_	
+15-46	2305-2313	Ningfeng	_	_	
+15-47	2314-2317	and	_	_	
+15-48	2318-2322	Song	_	_	
+15-49	2322-2323	,	_	_	
+15-50	2324-2328	Song	_	_	
+15-51	2329-2332	and	_	_	
+15-52	2333-2338	Zhang	_	_	
+15-53	2338-2339	,	_	_	
+15-54	2340-2348	Liangren	_	_	
+15-55	2349-2352	and	_	_	
+15-56	2353-2358	Huang	_	_	
+15-57	2358-2359	,	_	_	
+15-58	2360-2362	Bo	_	_	
+15-59	2363-2366	and	_	_	
+15-60	2367-2370	Liu	_	_	
+15-61	2370-2371	,	_	_	
+15-62	2372-2380	Zhenming	_	_	
+15-63	2380-2381	}	_	_	
+15-64	2381-2382	,	_	_	
+15-65	2385-2392	journal	_	_	
+15-66	2392-2393	=	_	_	
+15-67	2393-2394	{	_	_	
+15-68	2394-2400	Nature	_	_	
+15-69	2401-2408	Machine	_	_	
+15-70	2409-2421	Intelligence	_	_	
+15-71	2421-2422	}	_	_	
+15-72	2422-2423	,	_	_	
+15-73	2426-2432	volume	_	_	
+15-74	2432-2433	=	_	_	
+15-75	2433-2434	{	_	_	
+15-76	2434-2435	5	_	_	
+15-77	2435-2436	}	_	_	
+15-78	2436-2437	,	_	_	
+15-79	2440-2446	number	_	_	
+15-80	2446-2447	=	_	_	
+15-81	2447-2448	{	_	_	
+15-82	2448-2450	12	_	_	
+15-83	2450-2451	}	_	_	
+15-84	2451-2452	,	_	_	
+15-85	2455-2460	pages	_	_	
+15-86	2460-2461	=	_	_	
+15-87	2461-2462	{	_	_	
+15-88	2462-2466	1476	_	_	
+15-89	2466-2467	-	_	_	
+15-90	2467-2468	-	_	_	
+15-91	2468-2472	1485	_	_	
+15-92	2472-2473	}	_	_	
+15-93	2473-2474	,	_	_	
+15-94	2477-2481	year	_	_	
+15-95	2481-2482	=	_	_	
+15-96	2482-2483	{	_	_	
+15-97	2483-2487	2023	_	_	
+15-98	2487-2488	}	_	_	
+15-99	2488-2489	,	_	_	
+15-100	2492-2501	publisher	_	_	
+15-101	2501-2502	=	_	_	
+15-102	2502-2503	{	_	_	
+15-103	2503-2509	Nature	_	_	
+15-104	2510-2520	Publishing	_	_	
+15-105	2521-2526	Group	_	_	
+15-106	2527-2529	UK	_	_	
+15-107	2530-2536	London	_	_	
+15-108	2536-2537	}	_	_	
+15-109	2538-2539	}	_	_	
+15-110	2540-2541	`	_	_	
+15-111	2541-2542	`	_	_	
+15-112	2542-2543	`	_	_	
+15-113	2545-2546	#	_	_	
+15-114	2546-2547	#	_	_	
+15-115	2548-2559	Environment	_	_	
+15-116	2560-2572	Installation	_	_	
+15-117	2574-2579	There	_	_	
+15-118	2580-2583	are	_	_	
+15-119	2584-2587	two	_	_	
+15-120	2588-2595	options	_	_	
+15-121	2596-2598	to	_	_	
+15-122	2599-2606	install	_	_	
+15-123	2607-2610	all	_	_	
+15-124	2611-2623	dependencies	_	_	
+15-125	2624-2627	for	_	_	
+15-126	2628-2639	reproducing	_	_	
+15-127	2640-2643	the	_	_	
+15-128	2644-2651	results	_	_	
+15-129	2652-2654	of	_	_	
+15-130	2655-2658	the	_	_	
+15-131	2659-2664	paper	_	_	
+15-132	2664-2665	.	_	_	
+
+#Text=The first one is to create conda environment base on the our config, this might create conflicts because of different operating systems or conda sources on your machine:
+#Text=
+#Text=`conda env create -f environment.yml`
+#Text=
+#Text=The second option is to simply run the following commands to install the basic dependencies manually (recommended):
+#Text=
+#Text=```
+#Text=conda create -n unirxn python=3.9
+#Text=conda activate unirxn
+#Text=pip install rdkit-pypi selfies
+#Text=pip install easydict
+#Text=pip install PyYAML
+#Text=
+#Text=pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+#Text=
+#Text=pip install  dgl -f https://data.dgl.ai/wheels/cu116/repo.html
+#Text=pip install  dglgo -f https://data.dgl.ai/wheels-test/repo.html
+#Text=pip install dgllife
+#Text=
+#Text=conda install -c pytorch faiss-gpu
+#Text=pip install info-nce-pytorch
+#Text=
+#Text=pip install networkx==2.4
+#Text=
+#Text=pip install pytorch-lightning==1.6.4
+#Text=pip install rxn-chem-utils rxn-utils
+#Text=
+#Text=pip install tensorboard tensorboardX
+#Text=pip install cython-npm numpy pandas tqdm
+#Text=
+#Text=#this package requires to compile from source
+#Text=#run in a different directory from the unirxn project
+#Text=git clone https://github.com/rxn4chemistry/rxnmapper.git 
+#Text=cd rxnmapper
+#Text=pip install -e .
+#Text=
+#Text=
+#Text=
+#Text=```
+#Text=
+#Text=## Pretrained weights and Preprocessed Data Download
+#Text=
+#Text=The pretrained weight are provided [here](https://zenodo.org/records/10938189).
+16-1	2666-2669	The	_	_	
+16-2	2670-2675	first	_	_	
+16-3	2676-2679	one	_	_	
+16-4	2680-2682	is	_	_	
+16-5	2683-2685	to	_	_	
+16-6	2686-2692	create	_	_	
+16-7	2693-2698	conda	*	SOFTWARE	
+16-8	2699-2710	environment	_	_	
+16-9	2711-2715	base	_	_	
+16-10	2716-2718	on	_	_	
+16-11	2719-2722	the	_	_	
+16-12	2723-2726	our	_	_	
+16-13	2727-2733	config	_	_	
+16-14	2733-2734	,	_	_	
+16-15	2735-2739	this	_	_	
+16-16	2740-2745	might	_	_	
+16-17	2746-2752	create	_	_	
+16-18	2753-2762	conflicts	_	_	
+16-19	2763-2770	because	_	_	
+16-20	2771-2773	of	_	_	
+16-21	2774-2783	different	_	_	
+16-22	2784-2793	operating	_	_	
+16-23	2794-2801	systems	_	_	
+16-24	2802-2804	or	_	_	
+16-25	2805-2810	conda	_	_	
+16-26	2811-2818	sources	_	_	
+16-27	2819-2821	on	_	_	
+16-28	2822-2826	your	_	_	
+16-29	2827-2834	machine	_	_	
+16-30	2834-2835	:	_	_	
+16-31	2837-2838	`	_	_	
+16-32	2838-2843	conda	*	SOFTWARE	
+16-33	2844-2847	env	_	_	
+16-34	2848-2854	create	_	_	
+16-35	2855-2856	-	_	_	
+16-36	2856-2857	f	_	_	
+16-37	2858-2873	environment.yml	_	_	
+16-38	2873-2874	`	_	_	
+16-39	2876-2879	The	_	_	
+16-40	2880-2886	second	_	_	
+16-41	2887-2893	option	_	_	
+16-42	2894-2896	is	_	_	
+16-43	2897-2899	to	_	_	
+16-44	2900-2906	simply	_	_	
+16-45	2907-2910	run	_	_	
+16-46	2911-2914	the	_	_	
+16-47	2915-2924	following	_	_	
+16-48	2925-2933	commands	_	_	
+16-49	2934-2936	to	_	_	
+16-50	2937-2944	install	_	_	
+16-51	2945-2948	the	_	_	
+16-52	2949-2954	basic	_	_	
+16-53	2955-2967	dependencies	_	_	
+16-54	2968-2976	manually	_	_	
+16-55	2977-2978	(	_	_	
+16-56	2978-2989	recommended	_	_	
+16-57	2989-2990	)	_	_	
+16-58	2990-2991	:	_	_	
+16-59	2993-2994	`	_	_	
+16-60	2994-2995	`	_	_	
+16-61	2995-2996	`	_	_	
+16-62	2997-3002	conda	*	SOFTWARE	
+16-63	3003-3009	create	_	_	
+16-64	3010-3011	-	_	_	
+16-65	3011-3012	n	_	_	
+16-66	3013-3019	unirxn	_	_	
+16-67	3020-3026	python	*[3]	SOFTWARE[3]	
+16-68	3026-3027	=	*[3]	SOFTWARE[3]	
+16-69	3027-3030	3.9	*[3]	SOFTWARE[3]	
+16-70	3031-3036	conda	*	SOFTWARE	
+16-71	3037-3045	activate	_	_	
+16-72	3046-3052	unirxn	_	_	
+16-73	3053-3056	pip	*	SOFTWARE	
+16-74	3057-3064	install	_	_	
+16-75	3065-3075	rdkit-pypi	*	SOFTWARE	
+16-76	3076-3083	selfies	*	SOFTWARE	
+16-77	3084-3087	pip	*	SOFTWARE	
+16-78	3088-3095	install	_	_	
+16-79	3096-3104	easydict	*	SOFTWARE	
+16-80	3105-3108	pip	*	SOFTWARE	
+16-81	3109-3116	install	_	_	
+16-82	3117-3123	PyYAML	*	SOFTWARE	
+16-83	3125-3128	pip	*	SOFTWARE	
+16-84	3129-3136	install	_	_	
+16-85	3137-3142	torch	*[4]	SOFTWARE[4]	
+16-86	3142-3143	=	*[4]	SOFTWARE[4]	
+16-87	3143-3144	=	*[4]	SOFTWARE[4]	
+16-88	3144-3150	1.13.1	*[4]	SOFTWARE[4]	
+16-89	3150-3151	+	*[4]	SOFTWARE[4]	
+16-90	3151-3156	cu116	*[4]	SOFTWARE[4]	
+16-91	3157-3168	torchvision	*[5]	SOFTWARE[5]	
+16-92	3168-3169	=	*[5]	SOFTWARE[5]	
+16-93	3169-3170	=	*[5]	SOFTWARE[5]	
+16-94	3170-3176	0.14.1	*[5]	SOFTWARE[5]	
+16-95	3176-3177	+	*[5]	SOFTWARE[5]	
+16-96	3177-3182	cu116	*[5]	SOFTWARE[5]	
+16-97	3183-3184	-	_	_	
+16-98	3184-3185	-	_	_	
+16-99	3185-3200	extra-index-url	_	_	
+16-100	3201-3206	https	_	_	
+16-101	3206-3207	:	_	_	
+16-102	3207-3208	/	_	_	
+16-103	3208-3209	/	_	_	
+16-104	3209-3229	download.pytorch.org	_	_	
+16-105	3229-3230	/	_	_	
+16-106	3230-3233	whl	_	_	
+16-107	3233-3234	/	_	_	
+16-108	3234-3239	cu116	_	_	
+16-109	3241-3244	pip	*	SOFTWARE	
+16-110	3245-3252	install	_	_	
+16-111	3254-3257	dgl	*	SOFTWARE	
+16-112	3258-3259	-	_	_	
+16-113	3259-3260	f	_	_	
+16-114	3261-3266	https	_	_	
+16-115	3266-3267	:	_	_	
+16-116	3267-3268	/	_	_	
+16-117	3268-3269	/	_	_	
+16-118	3269-3280	data.dgl.ai	_	_	
+16-119	3280-3281	/	_	_	
+16-120	3281-3287	wheels	_	_	
+16-121	3287-3288	/	_	_	
+16-122	3288-3293	cu116	_	_	
+16-123	3293-3294	/	_	_	
+16-124	3294-3303	repo.html	_	_	
+16-125	3304-3307	pip	*	SOFTWARE	
+16-126	3308-3315	install	_	_	
+16-127	3317-3322	dglgo	*	SOFTWARE	
+16-128	3323-3324	-	_	_	
+16-129	3324-3325	f	_	_	
+16-130	3326-3331	https	_	_	
+16-131	3331-3332	:	_	_	
+16-132	3332-3333	/	_	_	
+16-133	3333-3334	/	_	_	
+16-134	3334-3345	data.dgl.ai	_	_	
+16-135	3345-3346	/	_	_	
+16-136	3346-3357	wheels-test	_	_	
+16-137	3357-3358	/	_	_	
+16-138	3358-3367	repo.html	_	_	
+16-139	3368-3371	pip	_	_	
+16-140	3372-3379	install	_	_	
+16-141	3380-3387	dgllife	*	SOFTWARE	
+16-142	3389-3394	conda	*	SOFTWARE	
+16-143	3395-3402	install	_	_	
+16-144	3403-3404	-	_	_	
+16-145	3404-3405	c	_	_	
+16-146	3406-3413	pytorch	*	SOFTWARE	
+16-147	3414-3423	faiss-gpu	*	SOFTWARE	
+16-148	3424-3427	pip	*	SOFTWARE	
+16-149	3428-3435	install	_	_	
+16-150	3436-3452	info-nce-pytorch	*	SOFTWARE	
+16-151	3454-3457	pip	*	SOFTWARE	
+16-152	3458-3465	install	_	_	
+16-153	3466-3474	networkx	*[6]	SOFTWARE[6]	
+16-154	3474-3475	=	*[6]	SOFTWARE[6]	
+16-155	3475-3476	=	*[6]	SOFTWARE[6]	
+16-156	3476-3479	2.4	*[6]	SOFTWARE[6]	
+16-157	3481-3484	pip	*	SOFTWARE	
+16-158	3485-3492	install	_	_	
+16-159	3493-3510	pytorch-lightning	*[7]	SOFTWARE[7]	
+16-160	3510-3511	=	*[7]	SOFTWARE[7]	
+16-161	3511-3512	=	*[7]	SOFTWARE[7]	
+16-162	3512-3517	1.6.4	*[7]	SOFTWARE[7]	
+16-163	3518-3521	pip	*	SOFTWARE	
+16-164	3522-3529	install	_	_	
+16-165	3530-3544	rxn-chem-utils	*	SOFTWARE	
+16-166	3545-3554	rxn-utils	*	SOFTWARE	
+16-167	3556-3559	pip	*	SOFTWARE	
+16-168	3560-3567	install	_	_	
+16-169	3568-3579	tensorboard	*	SOFTWARE	
+16-170	3580-3592	tensorboardX	*	SOFTWARE	
+16-171	3593-3596	pip	_	_	
+16-172	3597-3604	install	_	_	
+16-173	3605-3615	cython-npm	*	SOFTWARE	
+16-174	3616-3621	numpy	*	SOFTWARE	
+16-175	3622-3628	pandas	*	SOFTWARE	
+16-176	3629-3633	tqdm	*	SOFTWARE	
+16-177	3635-3636	#	_	_	
+16-178	3636-3640	this	_	_	
+16-179	3641-3648	package	_	_	
+16-180	3649-3657	requires	_	_	
+16-181	3658-3660	to	_	_	
+16-182	3661-3668	compile	_	_	
+16-183	3669-3673	from	_	_	
+16-184	3674-3680	source	_	_	
+16-185	3681-3682	#	_	_	
+16-186	3682-3685	run	_	_	
+16-187	3686-3688	in	_	_	
+16-188	3689-3690	a	_	_	
+16-189	3691-3700	different	_	_	
+16-190	3701-3710	directory	_	_	
+16-191	3711-3715	from	_	_	
+16-192	3716-3719	the	_	_	
+16-193	3720-3726	unirxn	*	PROJECT	
+16-194	3727-3734	project	_	_	
+16-195	3735-3738	git	*	SOFTWARE	
+16-196	3739-3744	clone	_	_	
+16-197	3745-3750	https	_	_	
+16-198	3750-3751	:	_	_	
+16-199	3751-3752	/	_	_	
+16-200	3752-3753	/	_	_	
+16-201	3753-3763	github.com	_	_	
+16-202	3763-3764	/	_	_	
+16-203	3764-3777	rxn4chemistry	_	_	
+16-204	3777-3778	/	_	_	
+16-205	3778-3791	rxnmapper.git	_	_	
+16-206	3793-3795	cd	_	_	
+16-207	3796-3805	rxnmapper	_	_	
+16-208	3806-3809	pip	*	SOFTWARE	
+16-209	3810-3817	install	_	_	
+16-210	3818-3819	-	_	_	
+16-211	3819-3820	e	_	_	
+16-212	3821-3822	.	_	_	
+16-213	3826-3827	`	_	_	
+16-214	3827-3828	`	_	_	
+16-215	3828-3829	`	_	_	
+16-216	3831-3832	#	_	_	
+16-217	3832-3833	#	_	_	
+16-218	3834-3844	Pretrained	_	_	
+16-219	3845-3852	weights	_	_	
+16-220	3853-3856	and	_	_	
+16-221	3857-3869	Preprocessed	_	_	
+16-222	3870-3874	Data	_	_	
+16-223	3875-3883	Download	_	_	
+16-224	3885-3888	The	_	_	
+16-225	3889-3899	pretrained	_	_	
+16-226	3900-3906	weight	_	_	
+16-227	3907-3910	are	_	_	
+16-228	3911-3919	provided	_	_	
+16-229	3920-3921	[	_	_	
+16-230	3921-3925	here	_	_	
+16-231	3925-3926	]	_	_	
+16-232	3926-3927	(	_	_	
+16-233	3927-3932	https	_	_	
+16-234	3932-3933	:	_	_	
+16-235	3933-3934	/	_	_	
+16-236	3934-3935	/	_	_	
+16-237	3935-3945	zenodo.org	_	_	
+16-238	3945-3946	/	_	_	
+16-239	3946-3953	records	_	_	
+16-240	3953-3954	/	_	_	
+16-241	3954-3962	10938189	_	_	
+16-242	3962-3963	)	_	_	
+16-243	3963-3964	.	_	_	
+
+#Text=You can also train your own model with the following instructions.
+17-1	3965-3968	You	_	_	
+17-2	3969-3972	can	_	_	
+17-3	3973-3977	also	_	_	
+17-4	3978-3983	train	_	_	
+17-5	3984-3988	your	_	_	
+17-6	3989-3992	own	_	_	
+17-7	3993-3998	model	_	_	
+17-8	3999-4003	with	_	_	
+17-9	4004-4007	the	_	_	
+17-10	4008-4017	following	_	_	
+17-11	4018-4030	instructions	_	_	
+17-12	4030-4031	.	_	_	
+
+#Text=If your want to train the model from scratch, you can download the  preprocessed data from [here](https://zenodo.org/record/8075067).
+18-1	4032-4034	If	_	_	
+18-2	4035-4039	your	_	_	
+18-3	4040-4044	want	_	_	
+18-4	4045-4047	to	_	_	
+18-5	4048-4053	train	_	_	
+18-6	4054-4057	the	_	_	
+18-7	4058-4063	model	_	_	
+18-8	4064-4068	from	_	_	
+18-9	4069-4076	scratch	_	_	
+18-10	4076-4077	,	_	_	
+18-11	4078-4081	you	_	_	
+18-12	4082-4085	can	_	_	
+18-13	4086-4094	download	_	_	
+18-14	4095-4098	the	_	_	
+18-15	4100-4112	preprocessed	_	_	
+18-16	4113-4117	data	_	_	
+18-17	4118-4122	from	_	_	
+18-18	4123-4124	[	_	_	
+18-19	4124-4128	here	_	_	
+18-20	4128-4129	]	_	_	
+18-21	4129-4130	(	_	_	
+18-22	4130-4135	https	_	_	
+18-23	4135-4136	:	_	_	
+18-24	4136-4137	/	_	_	
+18-25	4137-4138	/	_	_	
+18-26	4138-4148	zenodo.org	_	_	
+18-27	4148-4149	/	_	_	
+18-28	4149-4155	record	_	_	
+18-29	4155-4156	/	_	_	
+18-30	4156-4163	8075067	_	_	
+18-31	4163-4164	)	_	_	
+18-32	4164-4165	.	_	_	
+
+#Text=If you are intereseted in using our generated drug-like structures direclty, you can download it from [here](https://doi.org/10.5281/zenodo.10970615)
+#Text=
+#Text=## Reaction Featurization
+#Text=
+#Text=First, prepare your reaction rxn file to a processed pickle file by running
+#Text=```
+#Text=INPUT=/place/of/your/input/rxn #we provide a example here
+#Text=TMP=/place/to_store/your/tmp_file
+#Text=
+#Text=python generation/prepare_rxn_for_feat.py --input_file $INPUT --output_file $TMP
+#Text=
+#Text=```
+#Text=
+#Text=Then run the featurization scripts
+#Text=```
+#Text=python generation/featurize.py --input_file $TMP --model_dir ckpt/uni_rxn_base.ckpt
+#Text=```
+#Text=it will generate a unirxnfp pickled file in your TMP path
+#Text=
+#Text=## Molecule Generation
+#Text=
+#Text=Before using our model for molecule generation to design your chemical library, you need to build a library of reactants and reagents for our model to retrieve molecules at each generative step.
+19-1	4166-4168	If	_	_	
+19-2	4169-4172	you	_	_	
+19-3	4173-4176	are	_	_	
+19-4	4177-4188	intereseted	_	_	
+19-5	4189-4191	in	_	_	
+19-6	4192-4197	using	_	_	
+19-7	4198-4201	our	_	_	
+19-8	4202-4211	generated	_	_	
+19-9	4212-4221	drug-like	_	_	
+19-10	4222-4232	structures	_	_	
+19-11	4233-4241	direclty	_	_	
+19-12	4241-4242	,	_	_	
+19-13	4243-4246	you	_	_	
+19-14	4247-4250	can	_	_	
+19-15	4251-4259	download	_	_	
+19-16	4260-4262	it	_	_	
+19-17	4263-4267	from	_	_	
+19-18	4268-4269	[	_	_	
+19-19	4269-4273	here	_	_	
+19-20	4273-4274	]	_	_	
+19-21	4274-4275	(	_	_	
+19-22	4275-4280	https	_	_	
+19-23	4280-4281	:	_	_	
+19-24	4281-4282	/	_	_	
+19-25	4282-4283	/	_	_	
+19-26	4283-4290	doi.org	_	_	
+19-27	4290-4291	/	_	_	
+19-28	4291-4298	10.5281	_	_	
+19-29	4298-4299	/	_	_	
+19-30	4299-4305	zenodo	_	_	
+19-31	4305-4314	.10970615	_	_	
+19-32	4314-4315	)	_	_	
+19-33	4317-4318	#	_	_	
+19-34	4318-4319	#	_	_	
+19-35	4320-4328	Reaction	_	_	
+19-36	4329-4342	Featurization	_	_	
+19-37	4344-4349	First	_	_	
+19-38	4349-4350	,	_	_	
+19-39	4351-4358	prepare	_	_	
+19-40	4359-4363	your	_	_	
+19-41	4364-4372	reaction	_	_	
+19-42	4373-4376	rxn	_	_	
+19-43	4377-4381	file	_	_	
+19-44	4382-4384	to	_	_	
+19-45	4385-4386	a	_	_	
+19-46	4387-4396	processed	_	_	
+19-47	4397-4403	pickle	_	_	
+19-48	4404-4408	file	_	_	
+19-49	4409-4411	by	_	_	
+19-50	4412-4419	running	_	_	
+19-51	4420-4421	`	_	_	
+19-52	4421-4422	`	_	_	
+19-53	4422-4423	`	_	_	
+19-54	4424-4429	INPUT	_	_	
+19-55	4429-4430	=	_	_	
+19-56	4430-4431	/	_	_	
+19-57	4431-4436	place	_	_	
+19-58	4436-4437	/	_	_	
+19-59	4437-4439	of	_	_	
+19-60	4439-4440	/	_	_	
+19-61	4440-4444	your	_	_	
+19-62	4444-4445	/	_	_	
+19-63	4445-4450	input	_	_	
+19-64	4450-4451	/	_	_	
+19-65	4451-4454	rxn	_	_	
+19-66	4455-4456	#	_	_	
+19-67	4456-4458	we	_	_	
+19-68	4459-4466	provide	_	_	
+19-69	4467-4468	a	_	_	
+19-70	4469-4476	example	_	_	
+19-71	4477-4481	here	_	_	
+19-72	4482-4485	TMP	_	_	
+19-73	4485-4486	=	_	_	
+19-74	4486-4487	/	_	_	
+19-75	4487-4492	place	_	_	
+19-76	4492-4493	/	_	_	
+19-77	4493-4501	to_store	_	_	
+19-78	4501-4502	/	_	_	
+19-79	4502-4506	your	_	_	
+19-80	4506-4507	/	_	_	
+19-81	4507-4515	tmp_file	_	_	
+19-82	4517-4523	python	*	SOFTWARE	
+19-83	4524-4534	generation	_	_	
+19-84	4534-4535	/	_	_	
+19-85	4535-4558	prepare_rxn_for_feat.py	_	_	
+19-86	4559-4560	-	_	_	
+19-87	4560-4561	-	_	_	
+19-88	4561-4571	input_file	_	_	
+19-89	4572-4573	$	_	_	
+19-90	4573-4578	INPUT	_	_	
+19-91	4579-4580	-	_	_	
+19-92	4580-4581	-	_	_	
+19-93	4581-4592	output_file	_	_	
+19-94	4593-4594	$	_	_	
+19-95	4594-4597	TMP	_	_	
+19-96	4599-4600	`	_	_	
+19-97	4600-4601	`	_	_	
+19-98	4601-4602	`	_	_	
+19-99	4604-4608	Then	_	_	
+19-100	4609-4612	run	_	_	
+19-101	4613-4616	the	_	_	
+19-102	4617-4630	featurization	_	_	
+19-103	4631-4638	scripts	_	_	
+19-104	4639-4640	`	_	_	
+19-105	4640-4641	`	_	_	
+19-106	4641-4642	`	_	_	
+19-107	4643-4649	python	*	SOFTWARE	
+19-108	4650-4660	generation	_	_	
+19-109	4660-4661	/	_	_	
+19-110	4661-4673	featurize.py	_	_	
+19-111	4674-4675	-	_	_	
+19-112	4675-4676	-	_	_	
+19-113	4676-4686	input_file	_	_	
+19-114	4687-4688	$	_	_	
+19-115	4688-4691	TMP	_	_	
+19-116	4692-4693	-	_	_	
+19-117	4693-4694	-	_	_	
+19-118	4694-4703	model_dir	_	_	
+19-119	4704-4708	ckpt	_	_	
+19-120	4708-4709	/	_	_	
+19-121	4709-4726	uni_rxn_base.ckpt	_	_	
+19-122	4727-4728	`	_	_	
+19-123	4728-4729	`	_	_	
+19-124	4729-4730	`	_	_	
+19-125	4731-4733	it	_	_	
+19-126	4734-4738	will	_	_	
+19-127	4739-4747	generate	_	_	
+19-128	4748-4749	a	_	_	
+19-129	4750-4758	unirxnfp	_	_	
+19-130	4759-4766	pickled	_	_	
+19-131	4767-4771	file	_	_	
+19-132	4772-4774	in	_	_	
+19-133	4775-4779	your	_	_	
+19-134	4780-4783	TMP	_	_	
+19-135	4784-4788	path	_	_	
+19-136	4790-4791	#	_	_	
+19-137	4791-4792	#	_	_	
+19-138	4793-4801	Molecule	_	_	
+19-139	4802-4812	Generation	_	_	
+19-140	4814-4820	Before	_	_	
+19-141	4821-4826	using	_	_	
+19-142	4827-4830	our	_	_	
+19-143	4831-4836	model	_	_	
+19-144	4837-4840	for	_	_	
+19-145	4841-4849	molecule	_	_	
+19-146	4850-4860	generation	_	_	
+19-147	4861-4863	to	_	_	
+19-148	4864-4870	design	_	_	
+19-149	4871-4875	your	_	_	
+19-150	4876-4884	chemical	_	_	
+19-151	4885-4892	library	_	_	
+19-152	4892-4893	,	_	_	
+19-153	4894-4897	you	_	_	
+19-154	4898-4902	need	_	_	
+19-155	4903-4905	to	_	_	
+19-156	4906-4911	build	_	_	
+19-157	4912-4913	a	_	_	
+19-158	4914-4921	library	_	_	
+19-159	4922-4924	of	_	_	
+19-160	4925-4934	reactants	_	_	
+19-161	4935-4938	and	_	_	
+19-162	4939-4947	reagents	_	_	
+19-163	4948-4951	for	_	_	
+19-164	4952-4955	our	_	_	
+19-165	4956-4961	model	_	_	
+19-166	4962-4964	to	_	_	
+19-167	4965-4973	retrieve	_	_	
+19-168	4974-4983	molecules	_	_	
+19-169	4984-4986	at	_	_	
+19-170	4987-4991	each	_	_	
+19-171	4992-5002	generative	_	_	
+19-172	5003-5007	step	_	_	
+19-173	5007-5008	.	_	_	
+
+#Text=We have provided a reactant+reagent library file in `dataset/data/react_lib_smi.pkl`.
+20-1	5009-5011	We	_	_	
+20-2	5012-5016	have	_	_	
+20-3	5017-5025	provided	_	_	
+20-4	5026-5027	a	_	_	
+20-5	5028-5036	reactant	_	_	
+20-6	5036-5037	+	_	_	
+20-7	5037-5044	reagent	_	_	
+20-8	5045-5052	library	_	_	
+20-9	5053-5057	file	_	_	
+20-10	5058-5060	in	_	_	
+20-11	5061-5062	`	_	_	
+20-12	5062-5069	dataset	_	_	
+20-13	5069-5070	/	_	_	
+20-14	5070-5074	data	_	_	
+20-15	5074-5075	/	_	_	
+20-16	5075-5092	react_lib_smi.pkl	_	_	
+20-17	5092-5093	`	_	_	
+20-18	5093-5094	.	_	_	
+
+#Text=It is also easy to build your own library, you only need to create a pickled file of a dictionary as:
+#Text=    {
+#Text=        'reactant' :[List of smiles]
+#Text=        'reagent' :[List of smiles]
+#Text=    }
+#Text=You can run this to generate the representation for this library:
+#Text=```
+#Text=python generation/build_react_lib.py --input_file $YOUR_LIB_PATH --model_dir ckpt/uni_rxn_gen.ckpt
+#Text=```
+#Text=Run this script with the default configuration will create a representation library using provided reactants (from ZINC subset) and reagents (from USPTO).
+21-1	5095-5097	It	_	_	
+21-2	5098-5100	is	_	_	
+21-3	5101-5105	also	_	_	
+21-4	5106-5110	easy	_	_	
+21-5	5111-5113	to	_	_	
+21-6	5114-5119	build	_	_	
+21-7	5120-5124	your	_	_	
+21-8	5125-5128	own	_	_	
+21-9	5129-5136	library	_	_	
+21-10	5136-5137	,	_	_	
+21-11	5138-5141	you	_	_	
+21-12	5142-5146	only	_	_	
+21-13	5147-5151	need	_	_	
+21-14	5152-5154	to	_	_	
+21-15	5155-5161	create	_	_	
+21-16	5162-5163	a	_	_	
+21-17	5164-5171	pickled	_	_	
+21-18	5172-5176	file	_	_	
+21-19	5177-5179	of	_	_	
+21-20	5180-5181	a	_	_	
+21-21	5182-5192	dictionary	_	_	
+21-22	5193-5195	as	_	_	
+21-23	5195-5196	:	_	_	
+21-24	5201-5202	{	_	_	
+21-25	5211-5212	'	_	_	
+21-26	5212-5220	reactant	_	_	
+21-27	5220-5221	'	_	_	
+21-28	5222-5223	:	_	_	
+21-29	5223-5224	[	_	_	
+21-30	5224-5228	List	_	_	
+21-31	5229-5231	of	_	_	
+21-32	5232-5238	smiles	_	_	
+21-33	5238-5239	]	_	_	
+21-34	5248-5249	'	_	_	
+21-35	5249-5256	reagent	_	_	
+21-36	5256-5257	'	_	_	
+21-37	5258-5259	:	_	_	
+21-38	5259-5260	[	_	_	
+21-39	5260-5264	List	_	_	
+21-40	5265-5267	of	_	_	
+21-41	5268-5274	smiles	_	_	
+21-42	5274-5275	]	_	_	
+21-43	5280-5281	}	_	_	
+21-44	5282-5285	You	_	_	
+21-45	5286-5289	can	_	_	
+21-46	5290-5293	run	_	_	
+21-47	5294-5298	this	_	_	
+21-48	5299-5301	to	_	_	
+21-49	5302-5310	generate	_	_	
+21-50	5311-5314	the	_	_	
+21-51	5315-5329	representation	_	_	
+21-52	5330-5333	for	_	_	
+21-53	5334-5338	this	_	_	
+21-54	5339-5346	library	_	_	
+21-55	5346-5347	:	_	_	
+21-56	5348-5349	`	_	_	
+21-57	5349-5350	`	_	_	
+21-58	5350-5351	`	_	_	
+21-59	5352-5358	python	*	SOFTWARE	
+21-60	5359-5369	generation	_	_	
+21-61	5369-5370	/	_	_	
+21-62	5370-5388	build_react_lib.py	_	_	
+21-63	5389-5390	-	_	_	
+21-64	5390-5391	-	_	_	
+21-65	5391-5401	input_file	_	_	
+21-66	5402-5403	$	_	_	
+21-67	5403-5416	YOUR_LIB_PATH	_	_	
+21-68	5417-5418	-	_	_	
+21-69	5418-5419	-	_	_	
+21-70	5419-5428	model_dir	_	_	
+21-71	5429-5433	ckpt	_	_	
+21-72	5433-5434	/	_	_	
+21-73	5434-5450	uni_rxn_gen.ckpt	_	_	
+21-74	5451-5452	`	_	_	
+21-75	5452-5453	`	_	_	
+21-76	5453-5454	`	_	_	
+21-77	5455-5458	Run	_	_	
+21-78	5459-5463	this	_	_	
+21-79	5464-5470	script	_	_	
+21-80	5471-5475	with	_	_	
+21-81	5476-5479	the	_	_	
+21-82	5480-5487	default	_	_	
+21-83	5488-5501	configuration	_	_	
+21-84	5502-5506	will	_	_	
+21-85	5507-5513	create	_	_	
+21-86	5514-5515	a	_	_	
+21-87	5516-5530	representation	_	_	
+21-88	5531-5538	library	_	_	
+21-89	5539-5544	using	_	_	
+21-90	5545-5553	provided	_	_	
+21-91	5554-5563	reactants	_	_	
+21-92	5564-5565	(	_	_	
+21-93	5565-5569	from	_	_	
+21-94	5570-5574	ZINC	*	DATASET	
+21-95	5575-5581	subset	_	_	
+21-96	5581-5582	)	_	_	
+21-97	5583-5586	and	_	_	
+21-98	5587-5595	reagents	_	_	
+21-99	5596-5597	(	_	_	
+21-100	5597-5601	from	_	_	
+21-101	5602-5607	USPTO	*	DATASET	
+21-102	5607-5608	)	_	_	
+21-103	5608-5609	.	_	_	
+
+#Text=Then you are able to run the generation process based on your library
+#Text=```
+#Text=
+#Text=#generate structure analogues
+#Text=
+#Text=INPUT=/place/of/your/input/seed #support sdf file and raw smiles file
+#Text=OUTPUT=/place/to_store/your/output
+#Text=
+#Text=python generation/generate_paths_reb.py --model_dir ckpt/uni_rxn_gen.ckpt --input_file $INPUT --react_lib_file dataset/data/react_lib_smi_rep.pkl --output_dir $OUTPUT
+#Text=```
+#Text=
+#Text=The output file is a list of chemical reaction paths, each path is formulated as:
+#Text=input seed --> reactants, reagents --> intermediate product --> reactants, reagents --> intermediate product --> ... --> final product
+#Text=
+#Text=See more configuration guide by running `python generation/generate_paths_reb.py -h`
+#Text=
+#Text=
+#Text=
+#Text=## Train From Scratch (Optional)
+#Text=### Dataset Construction
+#Text=
+#Text=First download the USTPO_MIT dataset from (https://github.com/wengong-jin/nips17-rexgen/blob/master/USPTO/data.zip) and save it to `dataset/raw/`, also unzip it.
+22-1	5611-5615	Then	_	_	
+22-2	5616-5619	you	_	_	
+22-3	5620-5623	are	_	_	
+22-4	5624-5628	able	_	_	
+22-5	5629-5631	to	_	_	
+22-6	5632-5635	run	_	_	
+22-7	5636-5639	the	_	_	
+22-8	5640-5650	generation	_	_	
+22-9	5651-5658	process	_	_	
+22-10	5659-5664	based	_	_	
+22-11	5665-5667	on	_	_	
+22-12	5668-5672	your	_	_	
+22-13	5673-5680	library	_	_	
+22-14	5681-5682	`	_	_	
+22-15	5682-5683	`	_	_	
+22-16	5683-5684	`	_	_	
+22-17	5686-5687	#	_	_	
+22-18	5687-5695	generate	_	_	
+22-19	5696-5705	structure	_	_	
+22-20	5706-5715	analogues	_	_	
+22-21	5717-5722	INPUT	_	_	
+22-22	5722-5723	=	_	_	
+22-23	5723-5724	/	_	_	
+22-24	5724-5729	place	_	_	
+22-25	5729-5730	/	_	_	
+22-26	5730-5732	of	_	_	
+22-27	5732-5733	/	_	_	
+22-28	5733-5737	your	_	_	
+22-29	5737-5738	/	_	_	
+22-30	5738-5743	input	_	_	
+22-31	5743-5744	/	_	_	
+22-32	5744-5748	seed	_	_	
+22-33	5749-5750	#	_	_	
+22-34	5750-5757	support	_	_	
+22-35	5758-5761	sdf	_	_	
+22-36	5762-5766	file	_	_	
+22-37	5767-5770	and	_	_	
+22-38	5771-5774	raw	_	_	
+22-39	5775-5781	smiles	_	_	
+22-40	5782-5786	file	_	_	
+22-41	5787-5793	OUTPUT	_	_	
+22-42	5793-5794	=	_	_	
+22-43	5794-5795	/	_	_	
+22-44	5795-5800	place	_	_	
+22-45	5800-5801	/	_	_	
+22-46	5801-5809	to_store	_	_	
+22-47	5809-5810	/	_	_	
+22-48	5810-5814	your	_	_	
+22-49	5814-5815	/	_	_	
+22-50	5815-5821	output	_	_	
+22-51	5823-5829	python	*	SOFTWARE	
+22-52	5830-5840	generation	_	_	
+22-53	5840-5841	/	_	_	
+22-54	5841-5862	generate_paths_reb.py	_	_	
+22-55	5863-5864	-	_	_	
+22-56	5864-5865	-	_	_	
+22-57	5865-5874	model_dir	_	_	
+22-58	5875-5879	ckpt	_	_	
+22-59	5879-5880	/	_	_	
+22-60	5880-5896	uni_rxn_gen.ckpt	_	_	
+22-61	5897-5898	-	_	_	
+22-62	5898-5899	-	_	_	
+22-63	5899-5909	input_file	_	_	
+22-64	5910-5911	$	_	_	
+22-65	5911-5916	INPUT	_	_	
+22-66	5917-5918	-	_	_	
+22-67	5918-5919	-	_	_	
+22-68	5919-5933	react_lib_file	_	_	
+22-69	5934-5941	dataset	_	_	
+22-70	5941-5942	/	_	_	
+22-71	5942-5946	data	_	_	
+22-72	5946-5947	/	_	_	
+22-73	5947-5968	react_lib_smi_rep.pkl	_	_	
+22-74	5969-5970	-	_	_	
+22-75	5970-5971	-	_	_	
+22-76	5971-5981	output_dir	_	_	
+22-77	5982-5983	$	_	_	
+22-78	5983-5989	OUTPUT	_	_	
+22-79	5990-5991	`	_	_	
+22-80	5991-5992	`	_	_	
+22-81	5992-5993	`	_	_	
+22-82	5995-5998	The	_	_	
+22-83	5999-6005	output	_	_	
+22-84	6006-6010	file	_	_	
+22-85	6011-6013	is	_	_	
+22-86	6014-6015	a	_	_	
+22-87	6016-6020	list	_	_	
+22-88	6021-6023	of	_	_	
+22-89	6024-6032	chemical	_	_	
+22-90	6033-6041	reaction	_	_	
+22-91	6042-6047	paths	_	_	
+22-92	6047-6048	,	_	_	
+22-93	6049-6053	each	_	_	
+22-94	6054-6058	path	_	_	
+22-95	6059-6061	is	_	_	
+22-96	6062-6072	formulated	_	_	
+22-97	6073-6075	as	_	_	
+22-98	6075-6076	:	_	_	
+22-99	6077-6082	input	_	_	
+22-100	6083-6087	seed	_	_	
+22-101	6088-6089	-	_	_	
+22-102	6089-6090	-	_	_	
+22-103	6090-6091	>	_	_	
+22-104	6092-6101	reactants	_	_	
+22-105	6101-6102	,	_	_	
+22-106	6103-6111	reagents	_	_	
+22-107	6112-6113	-	_	_	
+22-108	6113-6114	-	_	_	
+22-109	6114-6115	>	_	_	
+22-110	6116-6128	intermediate	_	_	
+22-111	6129-6136	product	_	_	
+22-112	6137-6138	-	_	_	
+22-113	6138-6139	-	_	_	
+22-114	6139-6140	>	_	_	
+22-115	6141-6150	reactants	_	_	
+22-116	6150-6151	,	_	_	
+22-117	6152-6160	reagents	_	_	
+22-118	6161-6162	-	_	_	
+22-119	6162-6163	-	_	_	
+22-120	6163-6164	>	_	_	
+22-121	6165-6177	intermediate	_	_	
+22-122	6178-6185	product	_	_	
+22-123	6186-6187	-	_	_	
+22-124	6187-6188	-	_	_	
+22-125	6188-6189	>	_	_	
+22-126	6190-6191	.	_	_	
+22-127	6191-6192	.	_	_	
+22-128	6192-6193	.	_	_	
+22-129	6194-6195	-	_	_	
+22-130	6195-6196	-	_	_	
+22-131	6196-6197	>	_	_	
+22-132	6198-6203	final	_	_	
+22-133	6204-6211	product	_	_	
+22-134	6213-6216	See	_	_	
+22-135	6217-6221	more	_	_	
+22-136	6222-6235	configuration	_	_	
+22-137	6236-6241	guide	_	_	
+22-138	6242-6244	by	_	_	
+22-139	6245-6252	running	_	_	
+22-140	6253-6254	`	_	_	
+22-141	6254-6260	python	*	SOFTWARE	
+22-142	6261-6271	generation	_	_	
+22-143	6271-6272	/	_	_	
+22-144	6272-6293	generate_paths_reb.py	_	_	
+22-145	6294-6295	-	_	_	
+22-146	6295-6296	h	_	_	
+22-147	6296-6297	`	_	_	
+22-148	6301-6302	#	_	_	
+22-149	6302-6303	#	_	_	
+22-150	6304-6309	Train	_	_	
+22-151	6310-6314	From	_	_	
+22-152	6315-6322	Scratch	_	_	
+22-153	6323-6324	(	_	_	
+22-154	6324-6332	Optional	_	_	
+22-155	6332-6333	)	_	_	
+22-156	6334-6335	#	_	_	
+22-157	6335-6336	#	_	_	
+22-158	6336-6337	#	_	_	
+22-159	6338-6345	Dataset	_	_	
+22-160	6346-6358	Construction	_	_	
+22-161	6360-6365	First	_	_	
+22-162	6366-6374	download	_	_	
+22-163	6375-6378	the	_	_	
+22-164	6379-6388	USTPO_MIT	_	_	
+22-164.1	6379-6384	USTPO	*	SOFTWARE	
+22-165	6389-6396	dataset	_	_	
+22-166	6397-6401	from	_	_	
+22-167	6402-6403	(	_	_	
+22-168	6403-6408	https	_	_	
+22-169	6408-6409	:	_	_	
+22-170	6409-6410	/	_	_	
+22-171	6410-6411	/	_	_	
+22-172	6411-6421	github.com	_	_	
+22-173	6421-6422	/	_	_	
+22-174	6422-6433	wengong-jin	_	_	
+22-175	6433-6434	/	_	_	
+22-176	6434-6440	nips17	_	_	
+22-177	6440-6441	-	_	_	
+22-178	6441-6447	rexgen	_	_	
+22-179	6447-6448	/	_	_	
+22-180	6448-6452	blob	_	_	
+22-181	6452-6453	/	_	_	
+22-182	6453-6459	master	_	_	
+22-183	6459-6460	/	_	_	
+22-184	6460-6465	USPTO	*	DATASET	
+22-185	6465-6466	/	_	_	
+22-186	6466-6474	data.zip	_	_	
+22-187	6474-6475	)	_	_	
+22-188	6476-6479	and	_	_	
+22-189	6480-6484	save	_	_	
+22-190	6485-6487	it	_	_	
+22-191	6488-6490	to	_	_	
+22-192	6491-6492	`	_	_	
+22-193	6492-6499	dataset	_	_	
+22-194	6499-6500	/	_	_	
+22-195	6500-6503	raw	_	_	
+22-196	6503-6504	/	_	_	
+22-197	6504-6505	`	_	_	
+22-198	6505-6506	,	_	_	
+22-199	6507-6511	also	_	_	
+22-200	6512-6517	unzip	_	_	
+22-201	6518-6520	it	_	_	
+22-202	6520-6521	.	_	_	
+
+#Text=Run the following scripts to create your own dataset.
+#Text=
+#Text=```
+#Text=cd dataset
+#Text=#create data for pretraining
+#Text=python clean_all_reaction_for_pretrain.py
+#Text=
+#Text=#create data for generative model training
+#Text=python create_dataset.py
+#Text=
+#Text=```
+#Text=
+#Text=### Training
+#Text=```
+#Text=python trainer_pretrainig_graph_pl.py
+#Text=python trainer_set_vae.py
+#Text=```
+#Text=
+#Text=
+#Text=
+#Text=## License
+#Text=
+#Text=This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+23-1	6523-6526	Run	_	_	
+23-2	6527-6530	the	_	_	
+23-3	6531-6540	following	_	_	
+23-4	6541-6548	scripts	_	_	
+23-5	6549-6551	to	_	_	
+23-6	6552-6558	create	_	_	
+23-7	6559-6563	your	_	_	
+23-8	6564-6567	own	_	_	
+23-9	6568-6575	dataset	_	_	
+23-10	6575-6576	.	_	_	
+23-11	6578-6579	`	_	_	
+23-12	6579-6580	`	_	_	
+23-13	6580-6581	`	_	_	
+23-14	6582-6584	cd	_	_	
+23-15	6585-6592	dataset	_	_	
+23-16	6593-6594	#	_	_	
+23-17	6594-6600	create	_	_	
+23-18	6601-6605	data	_	_	
+23-19	6606-6609	for	_	_	
+23-20	6610-6621	pretraining	_	_	
+23-21	6622-6628	python	*	SOFTWARE	
+23-22	6629-6663	clean_all_reaction_for_pretrain.py	_	_	
+23-23	6665-6666	#	_	_	
+23-24	6666-6672	create	_	_	
+23-25	6673-6677	data	_	_	
+23-26	6678-6681	for	_	_	
+23-27	6682-6692	generative	_	_	
+23-28	6693-6698	model	_	_	
+23-29	6699-6707	training	_	_	
+23-30	6708-6714	python	*	SOFTWARE	
+23-31	6715-6732	create_dataset.py	_	_	
+23-32	6734-6735	`	_	_	
+23-33	6735-6736	`	_	_	
+23-34	6736-6737	`	_	_	
+23-35	6739-6740	#	_	_	
+23-36	6740-6741	#	_	_	
+23-37	6741-6742	#	_	_	
+23-38	6743-6751	Training	_	_	
+23-39	6752-6753	`	_	_	
+23-40	6753-6754	`	_	_	
+23-41	6754-6755	`	_	_	
+23-42	6756-6762	python	*	SOFTWARE	
+23-43	6763-6793	trainer_pretrainig_graph_pl.py	_	_	
+23-44	6794-6800	python	*	SOFTWARE	
+23-45	6801-6819	trainer_set_vae.py	_	_	
+23-46	6820-6821	`	_	_	
+23-47	6821-6822	`	_	_	
+23-48	6822-6823	`	_	_	
+23-49	6827-6828	#	_	_	
+23-50	6828-6829	#	_	_	
+23-51	6830-6837	License	_	_	
+23-52	6839-6843	This	_	_	
+23-53	6844-6851	project	_	_	
+23-54	6852-6854	is	_	_	
+23-55	6855-6863	licensed	_	_	
+23-56	6864-6869	under	_	_	
+23-57	6870-6873	the	_	_	
+23-58	6874-6877	MIT	*[8]	LICENSE[8]	
+23-59	6878-6885	License	*[8]	LICENSE[8]	
+23-60	6886-6887	-	_	_	
+23-61	6888-6891	see	_	_	
+23-62	6892-6895	the	_	_	
+23-63	6896-6897	[	_	_	
+23-64	6897-6904	LICENSE	_	_	
+23-65	6904-6905	]	_	_	
+23-66	6905-6906	(	_	_	
+23-67	6906-6913	LICENSE	_	_	
+23-68	6913-6914	)	_	_	
+23-69	6915-6919	file	_	_	
+23-70	6920-6923	for	_	_	
+23-71	6924-6931	details	_	_	
+23-72	6931-6932	.	_	_	

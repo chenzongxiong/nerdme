@@ -1,0 +1,1 @@
+To activate the environment, run: ```conda activate fisher-information``` 3.

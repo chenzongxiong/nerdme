@@ -1,0 +1,1 @@
+To train our model, we exploit a naturally-occurring source of supervision: sentences in the full-text of <PUBLICATION>papers</PUBLICATION> that cite multiple <PUBLICATION>papers</PUBLICATION> together (co-citations).

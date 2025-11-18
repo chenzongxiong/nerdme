@@ -1,0 +1,2 @@
+This might be due to a change in how the random seed generator is implemented, and therefore changes the sampling of the "unknown"  `<SOFTWARE>keyword class</SOFTWARE>`.  
+## Model The <SOFTWARE>Keyword-Transformer model</SOFTWARE> is defined [here](kws_streaming/models/kws_<SOFTWARE>transformer</SOFTWARE>.py).

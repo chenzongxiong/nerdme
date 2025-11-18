@@ -1,0 +1,1 @@
+This method holds the **1st place** entry on the `<DATASET>KITTI</DATASET> depth completion benchmark](http://www.cvlibs.net/datasets/kitti/eval_depth.php?

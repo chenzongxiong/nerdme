@@ -1,0 +1,1 @@
+`Such <PUBLICATION>co-citations</PUBLICATION> not only reflect close <PUBLICATION>paper relatedness</PUBLICATION>, but also provide textual descriptions of how the <PUBLICATION>co-cited papers</PUBLICATION> are related.`

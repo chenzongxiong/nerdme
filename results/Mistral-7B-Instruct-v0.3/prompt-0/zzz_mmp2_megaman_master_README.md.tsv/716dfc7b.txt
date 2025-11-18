@@ -1,0 +1,8 @@
+Here's the annotated text in Markdown format:
+
+Package documentation can be found at **[URL](http://mmp2.github.io/megaman/)**. If you use our **[SOFTWARE](http://jmlr.org/papers/v17/16-109.html)** please cite the following **[PUBLICATION](http://jmlr.org/papers/v17/16-109.html)**: McQueen, Meila, VanderPlas, & Zhang, "Megaman: Scalable Manifold Learning in Python", **[JOURNAL](Journal of Machine Learning Research)**. Vol 17 no. 14, 2016.
+
+You can also find our **[PUBLICATION](http://arxiv.org/abs/1603.02763)** at **[URL](http://arxiv.org/abs/1603.02763)**.
+
+## Examples
+- **[NOTEBOOK](https://github.com/mmp2/

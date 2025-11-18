@@ -1,0 +1,23 @@
+```markdown
+The <PROGLANG>Python</PROGLANG> pretrained models also expose a consistent interface to embed snippets and queries:
+#### Example: Query a snippet collection with a pretrained embedding model
+```python
+from codesearch.utils import load_model
+from codesearch.embedding_retrieval import EmbeddingRetrievalModel
+query = "plot a bar chart"
+snippets = [
+    {                           # a dummy snippet collection with 1 snippet
+        "id": "1",
+        "description": "Hello world",
+        "code": "print('hello world')",
+        "language": "python"
+    }
+]
+embedding_model = load_model("use-embedder-pacs")
+retrieval_model = EmbeddingRetrievalModel(embedding_model)
+retrieval_model.add_snippets(snippets)
+retrieval_model.query(query)
+```
+#### Example: Embed snippets or queries with a pre-trained embedding model
+```python
+from codesearch.utils import load_model

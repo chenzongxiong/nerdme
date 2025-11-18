@@ -1,0 +1,1 @@
+- `<DATASET>MASTR_DIR</DATASET>`: Location of the dataset used for training. - `<PROGLANG>ARCHITECTURE</PROGLANG>`: Which architecture to use (use `<PROGLANG>python</PROGLANG> tools/train.py warmup --help` for more info). - `<MODEL_NAME>MODEL_NAME</MODEL_NAME>`: Name of the model.

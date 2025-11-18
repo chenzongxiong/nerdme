@@ -1,0 +1,1 @@
+/pretrained/<SOFTWARE>epic_slowfast_(verb|noun)_reproduce</SOFTWARE>/config.txt*. * The training log is located at *.

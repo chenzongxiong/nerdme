@@ -1,0 +1,1 @@
+`In this work, we develop and validate an <ONTOLOGY>interpretable approach</ONTOLOGY> for measuring <EVALMETRIC>scholarly jargon</EVALMETRIC> from <PROGLANG>text</PROGLANG>.\n`

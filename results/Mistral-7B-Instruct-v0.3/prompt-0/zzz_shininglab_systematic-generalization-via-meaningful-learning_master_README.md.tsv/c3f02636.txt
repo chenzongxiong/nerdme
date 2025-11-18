@@ -1,0 +1,18 @@
+```
+[[arXiv](https://arxiv.org/abs/2003.06658)] [[Poster](https://www.shininglab.ai/assets/posters/Revisit%20Systematic%20Generalization%20via%20Meaningful%20Learning.pdf)]
+## Directory + **main/config.py** - <PROJECT>Systematic-Generalization-via-Meaningful-Learning</PROJECT> - Configurations
++ **main/res** - <RESOURCE>Resources including model check points, datasets, experiment records, and results</RESOURCE>
++ **main/src** - <SOFTWARE>Source code including model structures and utility functions</SOFTWARE>
+```
+
+```
+├── README.md
+├── main
+│   ├── config.py
+│   ├── res
+│   │   ├── check_points
+│   │   ├── data
+│   │   │   ├── scan
+│   │   │   ├── geography
+│   │   │   ├── advising
+│

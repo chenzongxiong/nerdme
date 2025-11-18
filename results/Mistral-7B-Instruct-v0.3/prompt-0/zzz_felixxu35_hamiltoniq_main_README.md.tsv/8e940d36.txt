@@ -1,0 +1,11 @@
+`[HamilToniQ_logo](.<PROJECT>HamilToniQ</PROJECT>)`
+
+The `<PROJECT>HamilToniQ</PROJECT>` project is a scalable and extensible framework for quantum chemistry simulations. It is designed to leverage the power of quantum computers to solve complex chemical problems.
+
+The `<PROJECT>HamilToniQ</PROJECT>` project is built on top of the `<PROGLANG>Python</PROGLANG>` programming language, making it accessible to a wide range of users.
+
+The `<PROJECT>HamilToniQ</PROJECT>` project has been successfully applied to various quantum chemistry problems, including the calculation of molecular energies, geometries, and properties.
+
+For more information about the `<PROJECT>HamilToniQ</PROJECT>` project, please visit their official website at `<URL>https://hamiltoniq.org</URL>`.
+
+In addition to the `<PROJECT>HamilToniQ</PROJECT>` project, there are several other resources available for quantum chemistry simulations. These include the `<DATASET>

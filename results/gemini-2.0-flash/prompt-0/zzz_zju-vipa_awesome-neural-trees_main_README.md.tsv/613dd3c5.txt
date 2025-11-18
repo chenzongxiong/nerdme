@@ -1,0 +1,1 @@
+This "divide-and-conquer" strategy and stepwise inference process make the model more interpretable, because each node in the tree is responsible and distinguishable from other nodes. ##### *3.1.1 Data-Driven NDTs.* Data-driven methods employ data-dependent heuristics to perform local optimization.

@@ -1,0 +1,1 @@
+#################################################################### Source code and datasets of Para-DPMM model for single cell transcriptomic clustering to reproduce results in paper "[Parallel Clustering of Single Cell Transcriptomic Data with Split-Merge Sampling on Dirichlet Process Mixtures](https://arxiv.org/pdf/1812.10048.pdf)", Author: Tiehang Duan; José P.

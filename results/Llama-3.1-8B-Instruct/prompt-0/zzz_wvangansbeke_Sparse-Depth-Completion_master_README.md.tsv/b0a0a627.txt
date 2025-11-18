@@ -1,0 +1,1 @@
+`or   `source <SOFTWARE>Shell/train.sh</SOFTWARE> $datapath`  checkout more details in the <SOFTWARE>bash</SOFTWARE> file.  ## Trained models Our network architecture is based on <SOFTWARE>ERFNet</SOFTWARE> (<SOFTWARE>ERFNet</SOFTWARE>)[https://github.com/Eromera/erfnet_pytorch](https://github.com/Eromera/erfnet_pytorch).

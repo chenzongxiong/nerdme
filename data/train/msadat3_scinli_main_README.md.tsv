@@ -1,0 +1,1097 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# [SciNLI: A Corpus for Natural Language Inference on Scientific Text](https://aclanthology.org/2022.acl-long.511.pdf)
+#Text=This repository contains the dataset and code for the ACL 2022 paper "SciNLI: A Corpus for Natural Language Inference on Scientific Text."
+1-1	0-1	#	_	_	
+1-2	2-3	[	_	_	
+1-3	3-9	SciNLI	*[1]|*[2]	PUBLICATION[1]|DATASET[2]	
+1-4	9-10	:	*[1]	PUBLICATION[1]	
+1-5	11-12	A	*[1]	PUBLICATION[1]	
+1-6	13-19	Corpus	*[1]	PUBLICATION[1]	
+1-7	20-23	for	*[1]	PUBLICATION[1]	
+1-8	24-31	Natural	*[1]	PUBLICATION[1]	
+1-9	32-40	Language	*[1]	PUBLICATION[1]	
+1-10	41-50	Inference	*[1]	PUBLICATION[1]	
+1-11	51-53	on	*[1]	PUBLICATION[1]	
+1-12	54-64	Scientific	*[1]	PUBLICATION[1]	
+1-13	65-69	Text	*[1]	PUBLICATION[1]	
+1-14	69-70	]	_	_	
+1-15	70-71	(	_	_	
+1-16	71-76	https	_	_	
+1-17	76-77	:	_	_	
+1-18	77-78	/	_	_	
+1-19	78-79	/	_	_	
+1-20	79-95	aclanthology.org	_	_	
+1-21	95-96	/	_	_	
+1-22	96-100	2022	_	_	
+1-23	100-101	.	_	_	
+1-24	101-109	acl-long	_	_	
+1-25	109-113	.511	_	_	
+1-26	113-114	.	_	_	
+1-27	114-117	pdf	_	_	
+1-28	117-118	)	_	_	
+1-29	119-123	This	_	_	
+1-30	124-134	repository	_	_	
+1-31	135-143	contains	_	_	
+1-32	144-147	the	_	_	
+1-33	148-155	dataset	_	_	
+1-34	156-159	and	_	_	
+1-35	160-164	code	_	_	
+1-36	165-168	for	_	_	
+1-37	169-172	the	_	_	
+1-38	173-176	ACL	*[3]	CONFERENCE[3]	
+1-39	177-181	2022	*[3]	CONFERENCE[3]	
+1-40	182-187	paper	_	_	
+1-41	188-189	"	_	_	
+1-42	189-195	SciNLI	*[4]|*[5]	PUBLICATION[4]|DATASET[5]	
+1-43	195-196	:	*[4]	PUBLICATION[4]	
+1-44	197-198	A	*[4]	PUBLICATION[4]	
+1-45	199-205	Corpus	*[4]	PUBLICATION[4]	
+1-46	206-209	for	*[4]	PUBLICATION[4]	
+1-47	210-217	Natural	*[4]	PUBLICATION[4]	
+1-48	218-226	Language	*[4]	PUBLICATION[4]	
+1-49	227-236	Inference	*[4]	PUBLICATION[4]	
+1-50	237-239	on	*[4]	PUBLICATION[4]	
+1-51	240-250	Scientific	*[4]	PUBLICATION[4]	
+1-52	251-255	Text	*[4]	PUBLICATION[4]	
+1-53	255-256	.	_	_	
+1-54	256-257	"	_	_	
+
+#Text=**The dataset can be downloaded from [here](https://drive.google.com/drive/folders/1kjBTVBV1HlMWW5xK8V096LahsU3pULHU?
+2-1	258-259	*	_	_	
+2-2	259-260	*	_	_	
+2-3	260-263	The	_	_	
+2-4	264-271	dataset	_	_	
+2-5	272-275	can	_	_	
+2-6	276-278	be	_	_	
+2-7	279-289	downloaded	_	_	
+2-8	290-294	from	_	_	
+2-9	295-296	[	_	_	
+2-10	296-300	here	_	_	
+2-11	300-301	]	_	_	
+2-12	301-302	(	_	_	
+2-13	302-307	https	_	_	
+2-14	307-308	:	_	_	
+2-15	308-309	/	_	_	
+2-16	309-310	/	_	_	
+2-17	310-326	drive.google.com	_	_	
+2-18	326-327	/	_	_	
+2-19	327-332	drive	_	_	
+2-20	332-333	/	_	_	
+2-21	333-340	folders	_	_	
+2-22	340-341	/	_	_	
+2-23	341-374	1kjBTVBV1HlMWW5xK8V096LahsU3pULHU	_	_	
+2-24	374-375	?	_	_	
+
+#Text=usp=sharing).**
+#Text=
+#Text=**If you face any difficulties while downloading the dataset, raise an issue in this repository or contact us at msadat3@uic.edu.**
+#Text=
+#Text=## Abstract
+#Text=Existing Natural Language Inference (NLI) datasets, while being instrumental in the advancement of Natural Language Understanding (NLU) research, are not related to scientific text.
+3-1	375-378	usp	_	_	
+3-2	378-379	=	_	_	
+3-3	379-386	sharing	_	_	
+3-4	386-387	)	_	_	
+3-5	387-388	.	_	_	
+3-6	388-389	*	_	_	
+3-7	389-390	*	_	_	
+3-8	392-393	*	_	_	
+3-9	393-394	*	_	_	
+3-10	394-396	If	_	_	
+3-11	397-400	you	_	_	
+3-12	401-405	face	_	_	
+3-13	406-409	any	_	_	
+3-14	410-422	difficulties	_	_	
+3-15	423-428	while	_	_	
+3-16	429-440	downloading	_	_	
+3-17	441-444	the	_	_	
+3-18	445-452	dataset	_	_	
+3-19	452-453	,	_	_	
+3-20	454-459	raise	_	_	
+3-21	460-462	an	_	_	
+3-22	463-468	issue	_	_	
+3-23	469-471	in	_	_	
+3-24	472-476	this	_	_	
+3-25	477-487	repository	_	_	
+3-26	488-490	or	_	_	
+3-27	491-498	contact	_	_	
+3-28	499-501	us	_	_	
+3-29	502-504	at	_	_	
+3-30	505-512	msadat3	_	_	
+3-31	512-513	@	_	_	
+3-32	513-520	uic.edu	_	_	
+3-33	520-521	.	_	_	
+3-34	521-522	*	_	_	
+3-35	522-523	*	_	_	
+3-36	525-526	#	_	_	
+3-37	526-527	#	_	_	
+3-38	528-536	Abstract	_	_	
+3-39	537-545	Existing	_	_	
+3-40	546-553	Natural	_	_	
+3-41	554-562	Language	_	_	
+3-42	563-572	Inference	_	_	
+3-43	573-574	(	_	_	
+3-44	574-577	NLI	_	_	
+3-45	577-578	)	_	_	
+3-46	579-587	datasets	_	_	
+3-47	587-588	,	_	_	
+3-48	589-594	while	_	_	
+3-49	595-600	being	_	_	
+3-50	601-613	instrumental	_	_	
+3-51	614-616	in	_	_	
+3-52	617-620	the	_	_	
+3-53	621-632	advancement	_	_	
+3-54	633-635	of	_	_	
+3-55	636-643	Natural	_	_	
+3-56	644-652	Language	_	_	
+3-57	653-666	Understanding	_	_	
+3-58	667-668	(	_	_	
+3-59	668-671	NLU	_	_	
+3-60	671-672	)	_	_	
+3-61	673-681	research	_	_	
+3-62	681-682	,	_	_	
+3-63	683-686	are	_	_	
+3-64	687-690	not	_	_	
+3-65	691-698	related	_	_	
+3-66	699-701	to	_	_	
+3-67	702-712	scientific	_	_	
+3-68	713-717	text	_	_	
+3-69	717-718	.	_	_	
+
+#Text=In this paper, we introduce SciNLI, a large dataset for NLI that captures the formality in scientific text and contains 107,412 sentence pairs extracted from scholarly papers on NLP and computational linguistics.
+4-1	719-721	In	_	_	
+4-2	722-726	this	_	_	
+4-3	727-732	paper	_	_	
+4-4	732-733	,	_	_	
+4-5	734-736	we	_	_	
+4-6	737-746	introduce	_	_	
+4-7	747-753	SciNLI	*	DATASET	
+4-8	753-754	,	_	_	
+4-9	755-756	a	_	_	
+4-10	757-762	large	_	_	
+4-11	763-770	dataset	_	_	
+4-12	771-774	for	_	_	
+4-13	775-778	NLI	_	_	
+4-14	779-783	that	_	_	
+4-15	784-792	captures	_	_	
+4-16	793-796	the	_	_	
+4-17	797-806	formality	_	_	
+4-18	807-809	in	_	_	
+4-19	810-820	scientific	_	_	
+4-20	821-825	text	_	_	
+4-21	826-829	and	_	_	
+4-22	830-838	contains	_	_	
+4-23	839-846	107,412	_	_	
+4-24	847-855	sentence	_	_	
+4-25	856-861	pairs	_	_	
+4-26	862-871	extracted	_	_	
+4-27	872-876	from	_	_	
+4-28	877-886	scholarly	_	_	
+4-29	887-893	papers	_	_	
+4-30	894-896	on	_	_	
+4-31	897-900	NLP	_	_	
+4-32	901-904	and	_	_	
+4-33	905-918	computational	_	_	
+4-34	919-930	linguistics	_	_	
+4-35	930-931	.	_	_	
+
+#Text=Given that the text used in scientific literature differs vastly from the text used in everyday language both in terms of vocabulary and sentence structure, our dataset is well suited to serve as a benchmark for the evaluation of scientific NLU models.
+5-1	932-937	Given	_	_	
+5-2	938-942	that	_	_	
+5-3	943-946	the	_	_	
+5-4	947-951	text	_	_	
+5-5	952-956	used	_	_	
+5-6	957-959	in	_	_	
+5-7	960-970	scientific	_	_	
+5-8	971-981	literature	_	_	
+5-9	982-989	differs	_	_	
+5-10	990-996	vastly	_	_	
+5-11	997-1001	from	_	_	
+5-12	1002-1005	the	_	_	
+5-13	1006-1010	text	_	_	
+5-14	1011-1015	used	_	_	
+5-15	1016-1018	in	_	_	
+5-16	1019-1027	everyday	_	_	
+5-17	1028-1036	language	_	_	
+5-18	1037-1041	both	_	_	
+5-19	1042-1044	in	_	_	
+5-20	1045-1050	terms	_	_	
+5-21	1051-1053	of	_	_	
+5-22	1054-1064	vocabulary	_	_	
+5-23	1065-1068	and	_	_	
+5-24	1069-1077	sentence	_	_	
+5-25	1078-1087	structure	_	_	
+5-26	1087-1088	,	_	_	
+5-27	1089-1092	our	_	_	
+5-28	1093-1100	dataset	_	_	
+5-29	1101-1103	is	_	_	
+5-30	1104-1108	well	_	_	
+5-31	1109-1115	suited	_	_	
+5-32	1116-1118	to	_	_	
+5-33	1119-1124	serve	_	_	
+5-34	1125-1127	as	_	_	
+5-35	1128-1129	a	_	_	
+5-36	1130-1139	benchmark	_	_	
+5-37	1140-1143	for	_	_	
+5-38	1144-1147	the	_	_	
+5-39	1148-1158	evaluation	_	_	
+5-40	1159-1161	of	_	_	
+5-41	1162-1172	scientific	_	_	
+5-42	1173-1176	NLU	_	_	
+5-43	1177-1183	models	_	_	
+5-44	1183-1184	.	_	_	
+
+#Text=Our experiments show that SciNLI is harder to classify than the existing NLI datasets.
+6-1	1185-1188	Our	_	_	
+6-2	1189-1200	experiments	_	_	
+6-3	1201-1205	show	_	_	
+6-4	1206-1210	that	_	_	
+6-5	1211-1217	SciNLI	*	DATASET	
+6-6	1218-1220	is	_	_	
+6-7	1221-1227	harder	_	_	
+6-8	1228-1230	to	_	_	
+6-9	1231-1239	classify	_	_	
+6-10	1240-1244	than	_	_	
+6-11	1245-1248	the	_	_	
+6-12	1249-1257	existing	_	_	
+6-13	1258-1261	NLI	_	_	
+6-14	1262-1270	datasets	_	_	
+6-15	1270-1271	.	_	_	
+
+#Text=Our best performing model with XLNet achieves a Macro F1 score of only 78.18% and an accuracy of 78.23% showing that there is substantial room for improvement.
+#Text=
+#Text=## Dataset Description
+#Text=We derive [SciNLI](https://drive.google.com/drive/folders/1kjBTVBV1HlMWW5xK8V096LahsU3pULHU?
+7-1	1272-1275	Our	_	_	
+7-2	1276-1280	best	_	_	
+7-3	1281-1291	performing	_	_	
+7-4	1292-1297	model	_	_	
+7-5	1298-1302	with	_	_	
+7-6	1303-1308	XLNet	*	SOFTWARE	
+7-7	1309-1317	achieves	_	_	
+7-8	1318-1319	a	_	_	
+7-9	1320-1325	Macro	*[6]	EVALMETRIC[6]	
+7-10	1326-1328	F1	*[6]	EVALMETRIC[6]	
+7-11	1329-1334	score	*[6]	EVALMETRIC[6]	
+7-12	1335-1337	of	_	_	
+7-13	1338-1342	only	_	_	
+7-14	1343-1349	78.18%	_	_	
+7-15	1350-1353	and	_	_	
+7-16	1354-1356	an	_	_	
+7-17	1357-1365	accuracy	*	EVALMETRIC	
+7-18	1366-1368	of	_	_	
+7-19	1369-1375	78.23%	_	_	
+7-20	1376-1383	showing	_	_	
+7-21	1384-1388	that	_	_	
+7-22	1389-1394	there	_	_	
+7-23	1395-1397	is	_	_	
+7-24	1398-1409	substantial	_	_	
+7-25	1410-1414	room	_	_	
+7-26	1415-1418	for	_	_	
+7-27	1419-1430	improvement	_	_	
+7-28	1430-1431	.	_	_	
+7-29	1433-1434	#	_	_	
+7-30	1434-1435	#	_	_	
+7-31	1436-1443	Dataset	_	_	
+7-32	1444-1455	Description	_	_	
+7-33	1456-1458	We	_	_	
+7-34	1459-1465	derive	_	_	
+7-35	1466-1467	[	_	_	
+7-36	1467-1473	SciNLI	*	DATASET	
+7-37	1473-1474	]	_	_	
+7-38	1474-1475	(	_	_	
+7-39	1475-1480	https	_	_	
+7-40	1480-1481	:	_	_	
+7-41	1481-1482	/	_	_	
+7-42	1482-1483	/	_	_	
+7-43	1483-1499	drive.google.com	_	_	
+7-44	1499-1500	/	_	_	
+7-45	1500-1505	drive	_	_	
+7-46	1505-1506	/	_	_	
+7-47	1506-1513	folders	_	_	
+7-48	1513-1514	/	_	_	
+7-49	1514-1547	1kjBTVBV1HlMWW5xK8V096LahsU3pULHU	_	_	
+7-50	1547-1548	?	_	_	
+
+#Text=usp=sharing) from the papers published in the ACL anthology on NLP and computational linguistics.
+8-1	1548-1551	usp	_	_	
+8-2	1551-1552	=	_	_	
+8-3	1552-1559	sharing	_	_	
+8-4	1559-1560	)	_	_	
+8-5	1561-1565	from	_	_	
+8-6	1566-1569	the	_	_	
+8-7	1570-1576	papers	_	_	
+8-8	1577-1586	published	_	_	
+8-9	1587-1589	in	_	_	
+8-10	1590-1593	the	_	_	
+8-11	1594-1597	ACL	_	_	
+8-12	1598-1607	anthology	_	_	
+8-13	1608-1610	on	_	_	
+8-14	1611-1614	NLP	_	_	
+8-15	1615-1618	and	_	_	
+8-16	1619-1632	computational	_	_	
+8-17	1633-1644	linguistics	_	_	
+8-18	1644-1645	.	_	_	
+
+#Text=Specifically, we extract sentence pairs from papers published between 2000 and 2019 to create our training set and papers published in 2020 for our test and develpment sets.
+9-1	1646-1658	Specifically	_	_	
+9-2	1658-1659	,	_	_	
+9-3	1660-1662	we	_	_	
+9-4	1663-1670	extract	_	_	
+9-5	1671-1679	sentence	_	_	
+9-6	1680-1685	pairs	_	_	
+9-7	1686-1690	from	_	_	
+9-8	1691-1697	papers	_	_	
+9-9	1698-1707	published	_	_	
+9-10	1708-1715	between	_	_	
+9-11	1716-1720	2000	_	_	
+9-12	1721-1724	and	_	_	
+9-13	1725-1729	2019	_	_	
+9-14	1730-1732	to	_	_	
+9-15	1733-1739	create	_	_	
+9-16	1740-1743	our	_	_	
+9-17	1744-1752	training	_	_	
+9-18	1753-1756	set	_	_	
+9-19	1757-1760	and	_	_	
+9-20	1761-1767	papers	_	_	
+9-21	1768-1777	published	_	_	
+9-22	1778-1780	in	_	_	
+9-23	1781-1785	2020	_	_	
+9-24	1786-1789	for	_	_	
+9-25	1790-1793	our	_	_	
+9-26	1794-1798	test	_	_	
+9-27	1799-1802	and	_	_	
+9-28	1803-1813	develpment	_	_	
+9-29	1814-1818	sets	_	_	
+9-30	1818-1819	.	_	_	
+
+#Text=For annotating the sentence pairs for our training set, we employ our distant supervision method which makes use of linking phrases indicative of the semantic relation between the sentences they occur in and their respective previous sentences.
+10-1	1821-1824	For	_	_	
+10-2	1825-1835	annotating	_	_	
+10-3	1836-1839	the	_	_	
+10-4	1840-1848	sentence	_	_	
+10-5	1849-1854	pairs	_	_	
+10-6	1855-1858	for	_	_	
+10-7	1859-1862	our	_	_	
+10-8	1863-1871	training	_	_	
+10-9	1872-1875	set	_	_	
+10-10	1875-1876	,	_	_	
+10-11	1877-1879	we	_	_	
+10-12	1880-1886	employ	_	_	
+10-13	1887-1890	our	_	_	
+10-14	1891-1898	distant	_	_	
+10-15	1899-1910	supervision	_	_	
+10-16	1911-1917	method	_	_	
+10-17	1918-1923	which	_	_	
+10-18	1924-1929	makes	_	_	
+10-19	1930-1933	use	_	_	
+10-20	1934-1936	of	_	_	
+10-21	1937-1944	linking	_	_	
+10-22	1945-1952	phrases	_	_	
+10-23	1953-1963	indicative	_	_	
+10-24	1964-1966	of	_	_	
+10-25	1967-1970	the	_	_	
+10-26	1971-1979	semantic	_	_	
+10-27	1980-1988	relation	_	_	
+10-28	1989-1996	between	_	_	
+10-29	1997-2000	the	_	_	
+10-30	2001-2010	sentences	_	_	
+10-31	2011-2015	they	_	_	
+10-32	2016-2021	occur	_	_	
+10-33	2022-2024	in	_	_	
+10-34	2025-2028	and	_	_	
+10-35	2029-2034	their	_	_	
+10-36	2035-2045	respective	_	_	
+10-37	2046-2054	previous	_	_	
+10-38	2055-2064	sentences	_	_	
+10-39	2064-2065	.	_	_	
+
+#Text=We train our models on these potentially noisy sentence pairs.
+11-1	2066-2068	We	_	_	
+11-2	2069-2074	train	_	_	
+11-3	2075-2078	our	_	_	
+11-4	2079-2085	models	_	_	
+11-5	2086-2088	on	_	_	
+11-6	2089-2094	these	_	_	
+11-7	2095-2106	potentially	_	_	
+11-8	2107-2112	noisy	_	_	
+11-9	2113-2121	sentence	_	_	
+11-10	2122-2127	pairs	_	_	
+11-11	2127-2128	.	_	_	
+
+#Text=However, for a realistic evaluation benchmark, we manually annotate the sentence pairs for the test and development sets.
+12-1	2129-2136	However	_	_	
+12-2	2136-2137	,	_	_	
+12-3	2138-2141	for	_	_	
+12-4	2142-2143	a	_	_	
+12-5	2144-2153	realistic	_	_	
+12-6	2154-2164	evaluation	_	_	
+12-7	2165-2174	benchmark	_	_	
+12-8	2174-2175	,	_	_	
+12-9	2176-2178	we	_	_	
+12-10	2179-2187	manually	_	_	
+12-11	2188-2196	annotate	_	_	
+12-12	2197-2200	the	_	_	
+12-13	2201-2209	sentence	_	_	
+12-14	2210-2215	pairs	_	_	
+12-15	2216-2219	for	_	_	
+12-16	2220-2223	the	_	_	
+12-17	2224-2228	test	_	_	
+12-18	2229-2232	and	_	_	
+12-19	2233-2244	development	_	_	
+12-20	2245-2249	sets	_	_	
+12-21	2249-2250	.	_	_	
+
+#Text=We refer the reader to our [paper](https://aclanthology.org/2022.acl-long.511) for an in-depth description of our dataset construction process. 
+#Text=
+#Text=### Examples
+#Text=!
+13-1	2251-2253	We	_	_	
+13-2	2254-2259	refer	_	_	
+13-3	2260-2263	the	_	_	
+13-4	2264-2270	reader	_	_	
+13-5	2271-2273	to	_	_	
+13-6	2274-2277	our	_	_	
+13-7	2278-2279	[	_	_	
+13-8	2279-2284	paper	_	_	
+13-9	2284-2285	]	_	_	
+13-10	2285-2286	(	_	_	
+13-11	2286-2291	https	_	_	
+13-12	2291-2292	:	_	_	
+13-13	2292-2293	/	_	_	
+13-14	2293-2294	/	_	_	
+13-15	2294-2310	aclanthology.org	_	_	
+13-16	2310-2311	/	_	_	
+13-17	2311-2315	2022	_	_	
+13-18	2315-2316	.	_	_	
+13-19	2316-2324	acl-long	_	_	
+13-20	2324-2328	.511	_	_	
+13-21	2328-2329	)	_	_	
+13-22	2330-2333	for	_	_	
+13-23	2334-2336	an	_	_	
+13-24	2337-2345	in-depth	_	_	
+13-25	2346-2357	description	_	_	
+13-26	2358-2360	of	_	_	
+13-27	2361-2364	our	_	_	
+13-28	2365-2372	dataset	_	_	
+13-29	2373-2385	construction	_	_	
+13-30	2386-2393	process	_	_	
+13-31	2393-2394	.	_	_	
+13-32	2397-2398	#	_	_	
+13-33	2398-2399	#	_	_	
+13-34	2399-2400	#	_	_	
+13-35	2401-2409	Examples	_	_	
+13-36	2410-2411	!	_	_	
+
+#Text=[Alt text](Images/Examples.png?
+14-1	2411-2412	[	_	_	
+14-2	2412-2415	Alt	_	_	
+14-3	2416-2420	text	_	_	
+14-4	2420-2421	]	_	_	
+14-5	2421-2422	(	_	_	
+14-6	2422-2428	Images	_	_	
+14-7	2428-2429	/	_	_	
+14-8	2429-2441	Examples.png	_	_	
+14-9	2441-2442	?	_	_	
+
+#Text=raw=False "Title")
+#Text=
+#Text=### Files
+#Text=
+#Text=  => train.csv, test.csv and dev.csv contain the training, testing and development data, respectively.
+15-1	2442-2445	raw	_	_	
+15-2	2445-2446	=	_	_	
+15-3	2446-2451	False	_	_	
+15-4	2452-2453	"	_	_	
+15-5	2453-2458	Title	_	_	
+15-6	2458-2459	"	_	_	
+15-7	2459-2460	)	_	_	
+15-8	2462-2463	#	_	_	
+15-9	2463-2464	#	_	_	
+15-10	2464-2465	#	_	_	
+15-11	2466-2471	Files	_	_	
+15-12	2475-2476	=	_	_	
+15-13	2476-2477	>	_	_	
+15-14	2478-2487	train.csv	_	_	
+15-15	2487-2488	,	_	_	
+15-16	2489-2497	test.csv	_	_	
+15-17	2498-2501	and	_	_	
+15-18	2502-2509	dev.csv	_	_	
+15-19	2510-2517	contain	_	_	
+15-20	2518-2521	the	_	_	
+15-21	2522-2530	training	_	_	
+15-22	2530-2531	,	_	_	
+15-23	2532-2539	testing	_	_	
+15-24	2540-2543	and	_	_	
+15-25	2544-2555	development	_	_	
+15-26	2556-2560	data	_	_	
+15-27	2560-2561	,	_	_	
+15-28	2562-2574	respectively	_	_	
+15-29	2574-2575	.	_	_	
+
+#Text=Each file has three columns: 
+#Text=  
+#Text=    * 'sentence1': the premise of each sample
+16-1	2576-2580	Each	_	_	
+16-2	2581-2585	file	_	_	
+16-3	2586-2589	has	_	_	
+16-4	2590-2595	three	_	_	
+16-5	2596-2603	columns	_	_	
+16-6	2603-2604	:	_	_	
+16-7	2613-2614	*	_	_	
+16-8	2615-2616	'	_	_	
+16-9	2616-2625	sentence1	_	_	
+16-10	2625-2626	'	_	_	
+16-11	2626-2627	:	_	_	
+16-12	2628-2631	the	_	_	
+16-13	2632-2639	premise	_	_	
+16-14	2640-2642	of	_	_	
+16-15	2643-2647	each	_	_	
+16-16	2648-2654	sample	_	_	
+
+#Text=.
+17-1	2654-2655	.	_	_	
+
+#Text=* 'sentence2': the hypothesis of each sample
+18-1	2665-2666	*	_	_	
+18-2	2667-2668	'	_	_	
+18-3	2668-2677	sentence2	_	_	
+18-4	2677-2678	'	_	_	
+18-5	2678-2679	:	_	_	
+18-6	2680-2683	the	_	_	
+18-7	2684-2694	hypothesis	_	_	
+18-8	2695-2697	of	_	_	
+18-9	2698-2702	each	_	_	
+18-10	2703-2709	sample	_	_	
+
+#Text=.
+19-1	2709-2710	.	_	_	
+
+#Text=* 'label': corresponding label representing the semantic relation between the premise and hypothesis. 
+#Text=
+#Text=
+#Text=  => train.jsonl, test.jsonl and dev.jsonl contain the same data as the CSV files but they are formatted in a json formal similar to SNLI and MNLI.
+20-1	2720-2721	*	_	_	
+20-2	2722-2723	'	_	_	
+20-3	2723-2728	label	_	_	
+20-4	2728-2729	'	_	_	
+20-5	2729-2730	:	_	_	
+20-6	2731-2744	corresponding	_	_	
+20-7	2745-2750	label	_	_	
+20-8	2751-2763	representing	_	_	
+20-9	2764-2767	the	_	_	
+20-10	2768-2776	semantic	_	_	
+20-11	2777-2785	relation	_	_	
+20-12	2786-2793	between	_	_	
+20-13	2794-2797	the	_	_	
+20-14	2798-2805	premise	_	_	
+20-15	2806-2809	and	_	_	
+20-16	2810-2820	hypothesis	_	_	
+20-17	2820-2821	.	_	_	
+20-18	2827-2828	=	_	_	
+20-19	2828-2829	>	_	_	
+20-20	2830-2841	train.jsonl	_	_	
+20-21	2841-2842	,	_	_	
+20-22	2843-2853	test.jsonl	_	_	
+20-23	2854-2857	and	_	_	
+20-24	2858-2867	dev.jsonl	_	_	
+20-25	2868-2875	contain	_	_	
+20-26	2876-2879	the	_	_	
+20-27	2880-2884	same	_	_	
+20-28	2885-2889	data	_	_	
+20-29	2890-2892	as	_	_	
+20-30	2893-2896	the	_	_	
+20-31	2897-2900	CSV	_	_	
+20-32	2901-2906	files	_	_	
+20-33	2907-2910	but	_	_	
+20-34	2911-2915	they	_	_	
+20-35	2916-2919	are	_	_	
+20-36	2920-2929	formatted	_	_	
+20-37	2930-2932	in	_	_	
+20-38	2933-2934	a	_	_	
+20-39	2935-2939	json	_	_	
+20-40	2940-2946	formal	_	_	
+20-41	2947-2954	similar	_	_	
+20-42	2955-2957	to	_	_	
+20-43	2958-2962	SNLI	*	DATASET	
+20-44	2963-2966	and	_	_	
+20-45	2967-2971	MNLI	*	DATASET	
+20-46	2971-2972	.	_	_	
+
+#Text=Precisely, each line in these files is a json dictionary where the keys are 'sentence1', 'sentence2' and 'label' with the premise, hypothesis and the label as the values.
+#Text=  
+#Text=  
+#Text=  
+#Text=### Dataset Size
+#Text=
+#Text=  * Train: 101,412 - automatically annotated
+21-1	2973-2982	Precisely	_	_	
+21-2	2982-2983	,	_	_	
+21-3	2984-2988	each	_	_	
+21-4	2989-2993	line	_	_	
+21-5	2994-2996	in	_	_	
+21-6	2997-3002	these	_	_	
+21-7	3003-3008	files	_	_	
+21-8	3009-3011	is	_	_	
+21-9	3012-3013	a	_	_	
+21-10	3014-3018	json	_	_	
+21-11	3019-3029	dictionary	_	_	
+21-12	3030-3035	where	_	_	
+21-13	3036-3039	the	_	_	
+21-14	3040-3044	keys	_	_	
+21-15	3045-3048	are	_	_	
+21-16	3049-3050	'	_	_	
+21-17	3050-3059	sentence1	_	_	
+21-18	3059-3060	'	_	_	
+21-19	3060-3061	,	_	_	
+21-20	3062-3063	'	_	_	
+21-21	3063-3072	sentence2	_	_	
+21-22	3072-3073	'	_	_	
+21-23	3074-3077	and	_	_	
+21-24	3078-3079	'	_	_	
+21-25	3079-3084	label	_	_	
+21-26	3084-3085	'	_	_	
+21-27	3086-3090	with	_	_	
+21-28	3091-3094	the	_	_	
+21-29	3095-3102	premise	_	_	
+21-30	3102-3103	,	_	_	
+21-31	3104-3114	hypothesis	_	_	
+21-32	3115-3118	and	_	_	
+21-33	3119-3122	the	_	_	
+21-34	3123-3128	label	_	_	
+21-35	3129-3131	as	_	_	
+21-36	3132-3135	the	_	_	
+21-37	3136-3142	values	_	_	
+21-38	3142-3143	.	_	_	
+21-39	3153-3154	#	_	_	
+21-40	3154-3155	#	_	_	
+21-41	3155-3156	#	_	_	
+21-42	3157-3164	Dataset	_	_	
+21-43	3165-3169	Size	_	_	
+21-44	3173-3174	*	_	_	
+21-45	3175-3180	Train	_	_	
+21-46	3180-3181	:	_	_	
+21-47	3182-3189	101,412	_	_	
+21-48	3190-3191	-	_	_	
+21-49	3192-3205	automatically	_	_	
+21-50	3206-3215	annotated	_	_	
+
+#Text=.
+22-1	3215-3216	.	_	_	
+
+#Text=* Test: 4,000 - human annotated
+23-1	3220-3221	*	_	_	
+23-2	3222-3226	Test	_	_	
+23-3	3226-3227	:	_	_	
+23-4	3228-3233	4,000	_	_	
+23-5	3234-3235	-	_	_	
+23-6	3236-3241	human	_	_	
+23-7	3242-3251	annotated	_	_	
+
+#Text=.
+24-1	3251-3252	.	_	_	
+
+#Text=* Dev: 2,000 - human annotated
+25-1	3256-3257	*	_	_	
+25-2	3258-3261	Dev	_	_	
+25-3	3261-3262	:	_	_	
+25-4	3263-3268	2,000	_	_	
+25-5	3269-3270	-	_	_	
+25-6	3271-3276	human	_	_	
+25-7	3277-3286	annotated	_	_	
+
+#Text=.
+26-1	3286-3287	.	_	_	
+
+#Text=* Total: 107,412.
+#Text=
+#Text=## Model Training & Testing
+#Text=### Requirements
+#Text=```
+#Text=numpy==1.21.6
+#Text=pandas==1.4.1
+#Text=scikit_learn==1.1.1
+#Text=torch==1.9.0+cu111
+#Text=transformers==4.20.1
+#Text=transformers.egg==info
+#Text=```
+#Text=
+#Text=### Fine-tuning Pre-trained Language Models
+#Text=
+#Text=```
+#Text=python Train_and_test_models.py --base <location of a directory containing the train, test and dev files in CSV format> --model_type <'BERT', 'Sci_BERT', 'RoBERTa' or 'XLNet'> --batch_size <batch size> --max_length <combined max length of sentence1 and sentence2> --num_epochs <number of epochs to train the model for> --epoch_patience <patience for early stopping> --device <device to run your experiment on> --random_seed <some random seed>
+#Text=```
+#Text=
+#Text=## Citation
+#Text=If you use this dataset, please cite our paper:
+#Text=
+#Text=```
+#Text=@inproceedings{sadat-caragea-2022-scinli,
+#Text=    title = "{S}ci{NLI}: A Corpus for Natural Language Inference on Scientific Text",
+#Text=    author = "Sadat, Mobashir  and
+#Text=      Caragea, Cornelia",
+#Text=    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+#Text=    month = may,
+#Text=    year = "2022",
+#Text=    address = "Dublin, Ireland",
+#Text=    publisher = "Association for Computational Linguistics",
+#Text=    url = "https://aclanthology.org/2022.acl-long.511",
+#Text=    pages = "7399--7409",
+#Text=}
+#Text=```
+#Text=## License
+#Text=SciNLI is licensed with Attribution-ShareAlike 4.0 International [(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+#Text=
+#Text=## Contact
+#Text=Please contact us at msadat3@uic.edu with any questions.
+27-1	3291-3292	*	_	_	
+27-2	3293-3298	Total	_	_	
+27-3	3298-3299	:	_	_	
+27-4	3300-3307	107,412	_	_	
+27-5	3307-3308	.	_	_	
+27-6	3310-3311	#	_	_	
+27-7	3311-3312	#	_	_	
+27-8	3313-3318	Model	_	_	
+27-9	3319-3327	Training	_	_	
+27-10	3328-3329	&	_	_	
+27-11	3330-3337	Testing	_	_	
+27-12	3338-3339	#	_	_	
+27-13	3339-3340	#	_	_	
+27-14	3340-3341	#	_	_	
+27-15	3342-3354	Requirements	_	_	
+27-16	3355-3356	`	_	_	
+27-17	3356-3357	`	_	_	
+27-18	3357-3358	`	_	_	
+27-19	3359-3364	numpy	*[7]	SOFTWARE[7]	
+27-20	3364-3365	=	*[7]	SOFTWARE[7]	
+27-21	3365-3366	=	*[7]	SOFTWARE[7]	
+27-22	3366-3372	1.21.6	*[7]	SOFTWARE[7]	
+27-23	3373-3379	pandas	*[8]	SOFTWARE[8]	
+27-24	3379-3380	=	*[8]	SOFTWARE[8]	
+27-25	3380-3381	=	*[8]	SOFTWARE[8]	
+27-26	3381-3386	1.4.1	*[8]	SOFTWARE[8]	
+27-27	3387-3399	scikit_learn	*[9]	SOFTWARE[9]	
+27-28	3399-3400	=	*[9]	SOFTWARE[9]	
+27-29	3400-3401	=	*[9]	SOFTWARE[9]	
+27-30	3401-3406	1.1.1	*[9]	SOFTWARE[9]	
+27-31	3407-3412	torch	*[10]	SOFTWARE[10]	
+27-32	3412-3413	=	*[10]	SOFTWARE[10]	
+27-33	3413-3414	=	*[10]	SOFTWARE[10]	
+27-34	3414-3419	1.9.0	*[10]	SOFTWARE[10]	
+27-35	3419-3420	+	*[10]	SOFTWARE[10]	
+27-36	3420-3425	cu111	*[10]	SOFTWARE[10]	
+27-37	3426-3438	transformers	*[11]	SOFTWARE[11]	
+27-38	3438-3439	=	*[11]	SOFTWARE[11]	
+27-39	3439-3440	=	*[11]	SOFTWARE[11]	
+27-40	3440-3446	4.20.1	*[11]	SOFTWARE[11]	
+27-41	3447-3463	transformers.egg	_	_	
+27-41.1	3447-3459	transformers	*	SOFTWARE	
+27-42	3463-3464	=	_	_	
+27-43	3464-3465	=	_	_	
+27-44	3465-3469	info	_	_	
+27-45	3470-3471	`	_	_	
+27-46	3471-3472	`	_	_	
+27-47	3472-3473	`	_	_	
+27-48	3475-3476	#	_	_	
+27-49	3476-3477	#	_	_	
+27-50	3477-3478	#	_	_	
+27-51	3479-3490	Fine-tuning	_	_	
+27-52	3491-3502	Pre-trained	_	_	
+27-53	3503-3511	Language	_	_	
+27-54	3512-3518	Models	_	_	
+27-55	3520-3521	`	_	_	
+27-56	3521-3522	`	_	_	
+27-57	3522-3523	`	_	_	
+27-58	3524-3530	python	*	SOFTWARE	
+27-59	3531-3555	Train_and_test_models.py	_	_	
+27-60	3556-3557	-	_	_	
+27-61	3557-3558	-	_	_	
+27-62	3558-3562	base	_	_	
+27-63	3563-3564	<	_	_	
+27-64	3564-3572	location	_	_	
+27-65	3573-3575	of	_	_	
+27-66	3576-3577	a	_	_	
+27-67	3578-3587	directory	_	_	
+27-68	3588-3598	containing	_	_	
+27-69	3599-3602	the	_	_	
+27-70	3603-3608	train	_	_	
+27-71	3608-3609	,	_	_	
+27-72	3610-3614	test	_	_	
+27-73	3615-3618	and	_	_	
+27-74	3619-3622	dev	_	_	
+27-75	3623-3628	files	_	_	
+27-76	3629-3631	in	_	_	
+27-77	3632-3635	CSV	_	_	
+27-78	3636-3642	format	_	_	
+27-79	3642-3643	>	_	_	
+27-80	3644-3645	-	_	_	
+27-81	3645-3646	-	_	_	
+27-82	3646-3656	model_type	_	_	
+27-83	3657-3658	<	_	_	
+27-84	3658-3659	'	_	_	
+27-85	3659-3663	BERT	*	SOFTWARE	
+27-86	3663-3664	'	_	_	
+27-87	3664-3665	,	_	_	
+27-88	3666-3667	'	_	_	
+27-89	3667-3675	Sci_BERT	*	SOFTWARE	
+27-90	3675-3676	'	_	_	
+27-91	3676-3677	,	_	_	
+27-92	3678-3679	'	_	_	
+27-93	3679-3686	RoBERTa	*	SOFTWARE	
+27-94	3686-3687	'	_	_	
+27-95	3688-3690	or	_	_	
+27-96	3691-3692	'	_	_	
+27-97	3692-3697	XLNet	*	SOFTWARE	
+27-98	3697-3698	'	_	_	
+27-99	3698-3699	>	_	_	
+27-100	3700-3701	-	_	_	
+27-101	3701-3702	-	_	_	
+27-102	3702-3712	batch_size	_	_	
+27-103	3713-3714	<	_	_	
+27-104	3714-3719	batch	_	_	
+27-105	3720-3724	size	_	_	
+27-106	3724-3725	>	_	_	
+27-107	3726-3727	-	_	_	
+27-108	3727-3728	-	_	_	
+27-109	3728-3738	max_length	_	_	
+27-110	3739-3740	<	_	_	
+27-111	3740-3748	combined	_	_	
+27-112	3749-3752	max	_	_	
+27-113	3753-3759	length	_	_	
+27-114	3760-3762	of	_	_	
+27-115	3763-3772	sentence1	_	_	
+27-116	3773-3776	and	_	_	
+27-117	3777-3786	sentence2	_	_	
+27-118	3786-3787	>	_	_	
+27-119	3788-3789	-	_	_	
+27-120	3789-3790	-	_	_	
+27-121	3790-3800	num_epochs	_	_	
+27-122	3801-3802	<	_	_	
+27-123	3802-3808	number	_	_	
+27-124	3809-3811	of	_	_	
+27-125	3812-3818	epochs	_	_	
+27-126	3819-3821	to	_	_	
+27-127	3822-3827	train	_	_	
+27-128	3828-3831	the	_	_	
+27-129	3832-3837	model	_	_	
+27-130	3838-3841	for	_	_	
+27-131	3841-3842	>	_	_	
+27-132	3843-3844	-	_	_	
+27-133	3844-3845	-	_	_	
+27-134	3845-3859	epoch_patience	_	_	
+27-135	3860-3861	<	_	_	
+27-136	3861-3869	patience	_	_	
+27-137	3870-3873	for	_	_	
+27-138	3874-3879	early	_	_	
+27-139	3880-3888	stopping	_	_	
+27-140	3888-3889	>	_	_	
+27-141	3890-3891	-	_	_	
+27-142	3891-3892	-	_	_	
+27-143	3892-3898	device	_	_	
+27-144	3899-3900	<	_	_	
+27-145	3900-3906	device	_	_	
+27-146	3907-3909	to	_	_	
+27-147	3910-3913	run	_	_	
+27-148	3914-3918	your	_	_	
+27-149	3919-3929	experiment	_	_	
+27-150	3930-3932	on	_	_	
+27-151	3932-3933	>	_	_	
+27-152	3934-3935	-	_	_	
+27-153	3935-3936	-	_	_	
+27-154	3936-3947	random_seed	_	_	
+27-155	3948-3949	<	_	_	
+27-156	3949-3953	some	_	_	
+27-157	3954-3960	random	_	_	
+27-158	3961-3965	seed	_	_	
+27-159	3965-3966	>	_	_	
+27-160	3967-3968	`	_	_	
+27-161	3968-3969	`	_	_	
+27-162	3969-3970	`	_	_	
+27-163	3972-3973	#	_	_	
+27-164	3973-3974	#	_	_	
+27-165	3975-3983	Citation	_	_	
+27-166	3984-3986	If	_	_	
+27-167	3987-3990	you	_	_	
+27-168	3991-3994	use	_	_	
+27-169	3995-3999	this	_	_	
+27-170	4000-4007	dataset	_	_	
+27-171	4007-4008	,	_	_	
+27-172	4009-4015	please	_	_	
+27-173	4016-4020	cite	_	_	
+27-174	4021-4024	our	_	_	
+27-175	4025-4030	paper	_	_	
+27-176	4030-4031	:	_	_	
+27-177	4033-4034	`	_	_	
+27-178	4034-4035	`	_	_	
+27-179	4035-4036	`	_	_	
+27-180	4037-4038	@	_	_	
+27-181	4038-4051	inproceedings	_	_	
+27-182	4051-4052	{	_	_	
+27-183	4052-4065	sadat-caragea	_	_	
+27-184	4065-4066	-	_	_	
+27-185	4066-4070	2022	_	_	
+27-186	4070-4071	-	_	_	
+27-187	4071-4077	scinli	_	_	
+27-188	4077-4078	,	_	_	
+27-189	4083-4088	title	_	_	
+27-190	4089-4090	=	_	_	
+27-191	4091-4092	"	_	_	
+27-192	4092-4093	{	*[12]	PUBLICATION[12]	
+27-193	4093-4094	S	*[12]	PUBLICATION[12]	
+27-194	4094-4095	}	*[12]	PUBLICATION[12]	
+27-195	4095-4097	ci	*[12]	PUBLICATION[12]	
+27-196	4097-4098	{	*[12]	PUBLICATION[12]	
+27-197	4098-4101	NLI	*[12]	PUBLICATION[12]	
+27-198	4101-4102	}	*[12]	PUBLICATION[12]	
+27-199	4102-4103	:	*[12]	PUBLICATION[12]	
+27-200	4104-4105	A	*[12]	PUBLICATION[12]	
+27-201	4106-4112	Corpus	*[12]	PUBLICATION[12]	
+27-202	4113-4116	for	*[12]	PUBLICATION[12]	
+27-203	4117-4124	Natural	*[12]	PUBLICATION[12]	
+27-204	4125-4133	Language	*[12]	PUBLICATION[12]	
+27-205	4134-4143	Inference	*[12]	PUBLICATION[12]	
+27-206	4144-4146	on	*[12]	PUBLICATION[12]	
+27-207	4147-4157	Scientific	*[12]	PUBLICATION[12]	
+27-208	4158-4162	Text	*[12]	PUBLICATION[12]	
+27-209	4162-4163	"	_	_	
+27-210	4163-4164	,	_	_	
+27-211	4169-4175	author	_	_	
+27-212	4176-4177	=	_	_	
+27-213	4178-4179	"	_	_	
+27-214	4179-4184	Sadat	_	_	
+27-215	4184-4185	,	_	_	
+27-216	4186-4194	Mobashir	_	_	
+27-217	4196-4199	and	_	_	
+27-218	4206-4213	Caragea	_	_	
+27-219	4213-4214	,	_	_	
+27-220	4215-4223	Cornelia	_	_	
+27-221	4223-4224	"	_	_	
+27-222	4224-4225	,	_	_	
+27-223	4230-4239	booktitle	_	_	
+27-224	4240-4241	=	_	_	
+27-225	4242-4243	"	_	_	
+27-226	4243-4254	Proceedings	*[13]	PUBLICATION[13]	
+27-227	4255-4257	of	*[13]	PUBLICATION[13]	
+27-228	4258-4261	the	*[13]	PUBLICATION[13]	
+27-229	4262-4266	60th	*[13]	PUBLICATION[13]	
+27-230	4267-4273	Annual	*[13]	PUBLICATION[13]	
+27-231	4274-4281	Meeting	*[13]	PUBLICATION[13]	
+27-232	4282-4284	of	*[13]	PUBLICATION[13]	
+27-233	4285-4288	the	*[13]	PUBLICATION[13]	
+27-234	4289-4300	Association	*[13]	PUBLICATION[13]	
+27-235	4301-4304	for	*[13]	PUBLICATION[13]	
+27-236	4305-4318	Computational	*[13]	PUBLICATION[13]	
+27-237	4319-4330	Linguistics	*[13]	PUBLICATION[13]	
+27-238	4331-4332	(	*[13]	PUBLICATION[13]	
+27-239	4332-4338	Volume	*[13]	PUBLICATION[13]	
+27-240	4339-4340	1	*[13]	PUBLICATION[13]	
+27-241	4340-4341	:	*[13]	PUBLICATION[13]	
+27-242	4342-4346	Long	*[13]	PUBLICATION[13]	
+27-243	4347-4353	Papers	*[13]	PUBLICATION[13]	
+27-244	4353-4354	)	*[13]	PUBLICATION[13]	
+27-245	4354-4355	"	_	_	
+27-246	4355-4356	,	_	_	
+27-247	4361-4366	month	_	_	
+27-248	4367-4368	=	_	_	
+27-249	4369-4372	may	_	_	
+27-250	4372-4373	,	_	_	
+27-251	4378-4382	year	_	_	
+27-252	4383-4384	=	_	_	
+27-253	4385-4386	"	_	_	
+27-254	4386-4390	2022	_	_	
+27-255	4390-4391	"	_	_	
+27-256	4391-4392	,	_	_	
+27-257	4397-4404	address	_	_	
+27-258	4405-4406	=	_	_	
+27-259	4407-4408	"	_	_	
+27-260	4408-4414	Dublin	_	_	
+27-261	4414-4415	,	_	_	
+27-262	4416-4423	Ireland	_	_	
+27-263	4423-4424	"	_	_	
+27-264	4424-4425	,	_	_	
+27-265	4430-4439	publisher	_	_	
+27-266	4440-4441	=	_	_	
+27-267	4442-4443	"	_	_	
+27-268	4443-4454	Association	_	_	
+27-269	4455-4458	for	_	_	
+27-270	4459-4472	Computational	_	_	
+27-271	4473-4484	Linguistics	_	_	
+27-272	4484-4485	"	_	_	
+27-273	4485-4486	,	_	_	
+27-274	4491-4494	url	_	_	
+27-275	4495-4496	=	_	_	
+27-276	4497-4498	"	_	_	
+27-277	4498-4503	https	_	_	
+27-278	4503-4504	:	_	_	
+27-279	4504-4505	/	_	_	
+27-280	4505-4506	/	_	_	
+27-281	4506-4522	aclanthology.org	_	_	
+27-282	4522-4523	/	_	_	
+27-283	4523-4527	2022	_	_	
+27-284	4527-4528	.	_	_	
+27-285	4528-4536	acl-long	_	_	
+27-286	4536-4540	.511	_	_	
+27-287	4540-4541	"	_	_	
+27-288	4541-4542	,	_	_	
+27-289	4547-4552	pages	_	_	
+27-290	4553-4554	=	_	_	
+27-291	4555-4556	"	_	_	
+27-292	4556-4560	7399	_	_	
+27-293	4560-4561	-	_	_	
+27-294	4561-4562	-	_	_	
+27-295	4562-4566	7409	_	_	
+27-296	4566-4567	"	_	_	
+27-297	4567-4568	,	_	_	
+27-298	4569-4570	}	_	_	
+27-299	4571-4572	`	_	_	
+27-300	4572-4573	`	_	_	
+27-301	4573-4574	`	_	_	
+27-302	4575-4576	#	_	_	
+27-303	4576-4577	#	_	_	
+27-304	4578-4585	License	_	_	
+27-305	4586-4592	SciNLI	*	DATASET	
+27-306	4593-4595	is	_	_	
+27-307	4596-4604	licensed	_	_	
+27-308	4605-4609	with	_	_	
+27-309	4610-4632	Attribution-ShareAlike	*[14]	LICENSE[14]	
+27-310	4633-4636	4.0	*[14]	LICENSE[14]	
+27-311	4637-4650	International	*[14]	LICENSE[14]	
+27-312	4651-4652	[	_	_	
+27-313	4652-4653	(	_	_	
+27-314	4653-4655	CC	*[15]	LICENSE[15]	
+27-315	4656-4661	BY-SA	*[15]	LICENSE[15]	
+27-316	4662-4665	4.0	*[15]	LICENSE[15]	
+27-317	4665-4666	)	_	_	
+27-318	4666-4667	]	_	_	
+27-319	4667-4668	(	_	_	
+27-320	4668-4673	https	_	_	
+27-321	4673-4674	:	_	_	
+27-322	4674-4675	/	_	_	
+27-323	4675-4676	/	_	_	
+27-324	4676-4695	creativecommons.org	_	_	
+27-325	4695-4696	/	_	_	
+27-326	4696-4704	licenses	_	_	
+27-327	4704-4705	/	_	_	
+27-328	4705-4710	by-sa	_	_	
+27-329	4710-4711	/	_	_	
+27-330	4711-4714	4.0	_	_	
+27-331	4714-4715	/	_	_	
+27-332	4715-4716	)	_	_	
+27-333	4716-4717	.	_	_	
+27-334	4719-4720	#	_	_	
+27-335	4720-4721	#	_	_	
+27-336	4722-4729	Contact	_	_	
+27-337	4730-4736	Please	_	_	
+27-338	4737-4744	contact	_	_	
+27-339	4745-4747	us	_	_	
+27-340	4748-4750	at	_	_	
+27-341	4751-4758	msadat3	_	_	
+27-342	4758-4759	@	_	_	
+27-343	4759-4766	uic.edu	_	_	
+27-344	4767-4771	with	_	_	
+27-345	4772-4775	any	_	_	
+27-346	4776-4785	questions	_	_	
+27-347	4785-4786	.	_	_	

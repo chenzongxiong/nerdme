@@ -1,0 +1,3 @@
+```markdown
+</div> | |                        | Privacy Budget                           | The total privacy budget for all queries is fixed at $(\varepsilon, \delta)$
+```

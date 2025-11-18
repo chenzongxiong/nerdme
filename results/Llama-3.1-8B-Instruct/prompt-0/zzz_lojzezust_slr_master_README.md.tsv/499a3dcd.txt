@@ -1,0 +1,24 @@
+The <SOFTWARE>GitHub</SOFTWARE> releases contain the <SOFTWARE>weights</SOFTWARE> for the following architectures:
+- <SOFTWARE>wasr_resnet101</SOFTWARE> with a <PROGLANG>ResNet-101</PROGLANG> backbone
+  - [weights](https://github.com/lojzezust/SLR/releases/download/weights_v2/wasr_slr_v2_rn101.pth)
+  - <DATASET>IMU</DATASET> dataset: <https://github.com/lojzezust/SLR/releases/download/weights_v2/wasr_slr_v2_rn101_imu.pth>
+- <SOFTWARE>wasr_resnet101_imu</SOFTWARE> with a <PROGLANG>ResNet-101</PROGLANG> backbone and <DATASET>IMU</DATASET> dataset
+  - [weights](https://github.com/lojzezust/SLR/releases/download/weights_v2/wasr_slr_v2_rn101_imu.pth)
+
+You can use the following BibTeX entry to cite this work:
+```bibtex
+@article{Zust2022Learning,
+    author = {\u{Z}ust, Lojze and Kristan, Matej},
+    title = {Learning with Weak Annotations for Robust Maritime Obstacle Detection},
+    journal = {Sensors},
+    volume = {22},
+    year = {2022},
+    number = {23},
+    article-number = {9139},
+    url = {https://www.mdpi.com/1424-8220/22/23/9139},
+    issn = {1424-8220},
+    doi = {10.3390/s22239139}
+}
+```
+
+The work is published in the <PUBLICATION>Sensors</PUBLICATION> journal and is available at <url>https://www.mdpi.com/1424-8220/22/23/9139</url>.

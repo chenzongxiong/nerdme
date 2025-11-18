@@ -1,0 +1,1 @@
+The data was acquired at 14 different <CONFERENCE>German sites</CONFERENCE> between 2005-2008 on 1.5T and 3T machines;  further descriptions can be found in [original study](https://www.ahajournals.org/doi/epub/<PUBLICATION>10.1161/CIRCIMAGING.111.963637</PUBLICATION>), [eprint previous work](https://arxiv.org/abs/<PUBLICATION>2002.04392</PUBLICATION>) [1],[2]

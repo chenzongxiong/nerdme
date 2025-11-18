@@ -1,0 +1,1 @@
+It is suggested to put only those models (checkpoints and logs) you want to eval into one folder otherwise it will evaluate all the models in the folder * **check intermediate results**: the model <SOFTWARE>checkpoints</SOFTWARE> and <SOFTWARE>log files</SOFTWARE> are saved in the selected <SOFTWARE>log-directory</SOFTWARE> (by default: `/log`).

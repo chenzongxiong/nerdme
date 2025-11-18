@@ -1,0 +1,15 @@
+```markdown
+`chmod +x tools/train_slr.sh` tools/train_slr.sh
+
+The script contains the following variables, that can be changed to achieve the desired results:
+
+- `<PROJECT>SLR</PROJECT>` project
+- The dataset used is `<DATASET>SLR Dataset</DATASET>`
+- The script uses the `<SOFTWARE>Python</SOFTWARE>` programming language
+- The results will be evaluated using the `<EVALMETRIC>BLEU Score</EVALMETRIC>` metric
+- The script is trained using the `<SOFTWARE>TensorFlow</SOFTWARE>` framework
+- The model will be saved in the `<SOFTWARE>TensorBoard</SOFTWARE>` format
+- The script can be run on a `<SOFTWARE>GPU</SOFTWARE>` or a `<SOFTWARE>CPU</SOFTWARE>`
+- The results will be published in a `<PUBLICATION>Conference Paper</PUBLICATION>`
+- The workshop where the results will be presented is the `<WORKSHOP>AI Workshop</WORKSHOP>`
+```

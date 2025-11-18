@@ -1,0 +1,3 @@
+```markdown
+Put the test images in `test_input`, results in: `results/output/` <br> ``` ${<PROJECT>DC-ShadowNet-Hard-and-Soft-Shadow-Removal</PROJECT>} |-- test_input           ## Shadow |-- results     |-- output           ## Results ```  ``` <PROGLANG>CUDA_VISIBLE_DEVICES='0' python main_test_single.py</PROGLANG> ``` <p align="left">     <img width=350" src="results/SRD/500000/inputA_outputB/IMG_6456.png" > </p>  ## <DATASET>Dataset Test 1</DATASET>.
+```

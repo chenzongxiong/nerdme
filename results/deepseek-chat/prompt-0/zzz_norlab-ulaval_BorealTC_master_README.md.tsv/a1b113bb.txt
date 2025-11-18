@@ -1,0 +1,2 @@
+```sh # Build the Docker image docker build -t <SOFTWARE>borealtc-gpu</SOFTWARE> -f DockerfileGPU
+```

@@ -1,0 +1,1 @@
+If you wish to change the behavior of the simulation, `request_values` is a good place to start and subsequently add/modify any methods that are called in the **ClientAgent** class.

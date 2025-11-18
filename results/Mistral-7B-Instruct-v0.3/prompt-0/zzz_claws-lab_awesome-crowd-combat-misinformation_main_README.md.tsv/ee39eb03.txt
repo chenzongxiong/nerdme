@@ -1,0 +1,1 @@
+To combat misinformation, current research relies on professionals like `<PROJECT>journalists</PROJECT>` and `<PROJECT>fact-checkers</PROJECT>` for annotating and debunking false information, while also developing automated machine learning methods for detecting misinformation.

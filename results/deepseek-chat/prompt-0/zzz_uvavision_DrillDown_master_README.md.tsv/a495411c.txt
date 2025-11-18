@@ -1,0 +1,3 @@
+```markdown
+/experiments/scripts/fetch_pretrained_models.sh ``` This will populate the `<DATASET>DrillDown/data</DATASET>` folder with `<DATASET>caches/image_ckpts</DATASET>` and `<DATASET>caches/region_ckpts</DATASET>`   ## Training/evaluation scripts The training/evaluation scripts of different models are also included in `.
+```

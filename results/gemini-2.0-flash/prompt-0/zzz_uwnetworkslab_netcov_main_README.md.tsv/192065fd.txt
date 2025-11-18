@@ -1,0 +1,1 @@
+You may want to use an [<SOFTWARE>anonymizer</SOFTWARE>](https://github.com/intentionet/netconan) before sharing.

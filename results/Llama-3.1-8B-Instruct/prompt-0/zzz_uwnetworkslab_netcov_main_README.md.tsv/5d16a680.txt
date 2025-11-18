@@ -1,0 +1,12 @@
+To help NetCov model coverage more accurately, you can pause coverage tracking and add tested information use a NetCov API: 
+``` 
+# pause coverage tracking to avoid over-estimation
+<SOFTWARE>bf.cov.pause</SOFTWARE>()
+routes = <SOFTWARE>bf.q.routes</SOFTWARE>(nodes="<SOFTWARE>edge-0000</SOFTWARE>").answer().frame()
+<SOFTWARE>bf.cov.resume</SOFTWARE>()
+# filter RIB entries to test
+tested = routes[routes["<SOFTWARE>Network</SOFTWARE>"] == '<SOFTWARE>0.0.0.0/0</SOFTWARE>'].head(1)
+# add tested route to coverage trace
+<SOFTWARE>bf.cov.add_tested_routes</SOFTWARE>(tested)
+```
+`<SOFTWARE>bf.cov.result</SOFTWARE>()` prints coverage metrics using `<SOFTWARE>logging</SOFTWARE>` module and writes to `stderr` by default.

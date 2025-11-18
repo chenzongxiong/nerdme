@@ -1,0 +1,1 @@
+Here, instead of matching the sparse paired image-caption pairs, we treat all image-caption pairs in the same class as **positive**.

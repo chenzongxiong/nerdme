@@ -1,0 +1,4 @@
+<p align="center">     <img src="assets/emoji.png" alt="<SOFTWARE>EarthPT</SOFTWARE>" width="150"/> </p>  
+# <SOFTWARE>EarthPT</SOFTWARE>  
+<p align="center">     <img src="assets/timeseries.png" alt="<SOFTWARE>Prediction</SOFTWARE>" width="600"/> </p>  
+A simple repository for training <SOFTWARE>time series</SOFTWARE> large <SOFTWARE>observation models</SOFTWARE>.

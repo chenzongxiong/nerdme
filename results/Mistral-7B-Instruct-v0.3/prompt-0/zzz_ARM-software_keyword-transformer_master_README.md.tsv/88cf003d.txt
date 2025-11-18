@@ -1,0 +1,9 @@
+`/<SOFTWARE>tar</SOFTWARE>.gz` `cd` `../`
+
+And similarly for V1:
+
+```shell
+<SOFTWARE>wget</SOFTWARE> http://download.<DOMAIN>tensorflow.org</DOMAIN>/data/speech_commands_v0.01.tar.gz
+mkdir data1
+mv .
+```

@@ -1,0 +1,3 @@
+```markdown
+pwd=f3tx). * The file includes <SOFTWARE>SlowFast</SOFTWARE> features as well as action annotations in json format (similar to <DATASET>ActivityNet</DATASET> annotation format).
+```

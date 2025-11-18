@@ -1,0 +1,9 @@
+```
+Clone the repo:  ``` `git clone <PROJECT>ml-jku/vnegnn</PROJECT>`` `  Setup dependencies:  ``` `conda create --name vnegnn python=3.9` `  ``` `conda activate vnegnn` `  ``` `conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 pytorch-cuda=12.1 -c pytorch -c nvidia` `  ``` `conda install pyg==2.4.0 -c pyg` `  ``` `conda env update --name vnegnn --file environment.yaml` ```  Activate the environment:  ``` `conda activate vnegnn` ```
+
+## Usage Examples
+Following commands can be executed in the directory of the cloned repository.
+
+### Predict
+Provide your protein in `.pdb` format.
+```python predict.py -i protein.pdb -o output -c model.ckpt -d cuda:0               # run prediction on

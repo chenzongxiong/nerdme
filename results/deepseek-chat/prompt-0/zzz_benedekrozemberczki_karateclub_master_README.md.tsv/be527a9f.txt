@@ -1,0 +1,3 @@
+Here is the annotated text in Markdown format:
+
+`*<SOFTWARE>Karate Club</SOFTWARE>* consists of state-of-the-art methods to do unsupervised learning on graph structured data.`

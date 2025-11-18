@@ -1,0 +1,1 @@
+`style=for-the-badge&logo=overleaf&logoColor=white]&#91;<PUBLICATION>A PyTorch implementation of the Scaffolding Learning Regime (SLR) for training obstacle detection models for aquatic domains</PUBLICATION></p>`

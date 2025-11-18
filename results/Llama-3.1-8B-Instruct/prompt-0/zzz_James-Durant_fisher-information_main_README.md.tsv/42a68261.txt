@@ -1,0 +1,1 @@
+The <SOFTWARE>Anaconda</SOFTWARE> distribution is used for data science and machine learning. To replicate the development environment, first create an empty conda environment by running: `conda create --name fisher-information <PROGLANG>Python</PROGLANG>=3.8.3`

@@ -1,0 +1,1 @@
+To make the training process reproducible, we provide a lightweight detector that produce comparable results to [the method of Bulat et al.]

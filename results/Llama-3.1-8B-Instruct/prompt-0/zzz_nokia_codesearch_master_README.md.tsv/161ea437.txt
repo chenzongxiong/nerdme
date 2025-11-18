@@ -1,0 +1,1 @@
+The `<SOFTWARE>Tree Sitter</SOFTWARE>` is a parser generator tool that can be customized by setting the `<SOFTWARE>TREE SITTER DIR</SOFTWARE>` variable.

@@ -1,0 +1,28 @@
+`You should change the <FILEPATH>file paths</FILEPATH> to redirect to yours, rather than the <FILEPATH>placeholders I included</FILEPATH>`
+
+---
+Input Text:
+
+The <PROJECT>Paper With Code</PROJECT> project (<URL>https://<PROJECT>paperswithcode</PROJECT>.com/</URL>)
+
+---
+Input Text:
+
+The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is ...
+
+---
+Input Text:
+
+The <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>
+
+In the <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+
+---
+Input Text:
+
+The <SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the resource.
+
+---
+Input Text:
+
+Refers to the [<WORKSHOP>Thermal Image Super-Resolution</WORKSHOP

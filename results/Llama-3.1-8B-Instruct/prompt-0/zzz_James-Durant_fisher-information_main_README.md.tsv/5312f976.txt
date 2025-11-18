@@ -1,0 +1,9 @@
+*The <PUBLICATION>J. Comput. Syst. Sci.</PUBLICATION> is a peer-reviewed academic journal published by Elsevier.*
+*It was established in 1963 and covers computer science and systems science.*
+*The <PUBLICATION>JCSS</PUBLICATION> is abstracted and indexed in <DATASET>Scopus</DATASET> and <DATASET>MathSciNet</DATASET>.*
+*According to the <PUBLICATION>Journal Citation Reports</PUBLICATION>, it has a 2020 impact factor of 1.333.*
+*The <PUBLICATION>JCSS</PUBLICATION> is currently edited by <PUBLICATION>Shlomi Dolev</PUBLICATION>.*
+*The <PUBLICATION>Journal of Computer and System Sciences</PUBLICATION> is a <CONFERENCE>ISSN</CONFERENCE> 0022-0000.*
+*The <SOFTWARE>Journal of Computer and System Sciences</SOFTWARE> is a <CONFERENCE>ISSN</CONFERENCE> 0022-0000.*
+*The <CONFERENCE>Journal of Computer and System Sciences</CONFERENCE> is a <CONFERENCE>ISSN</CONFERENCE> 0022-0000.*
+*The <SOFTWARE>Journal of Computer and System Sciences</SOFTWARE> is a <CONFERENCE>ISSN</CONFERENCE> 0022-0000.*

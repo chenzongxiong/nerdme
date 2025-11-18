@@ -1,0 +1,4 @@
+*The <PUBLICATION>Oblique trees version of entropy net:</PUBLICATION>*, a <PUBLICATION>mapping from linear tree classifiers to neural net classifiers</PUBLICATION>, was presented by Sethi in <CONFERENCE>ICNN</CONFERENCE>, 1994.
+The paper is available at <SOFTWARE>IEEE Xplore</SOFTWARE> (<PUBLICATION>Oblique trees version of entropy net:</PUBLICATION>).
+Another notable paper is <PUBLICATION>Fast Training Algorithms for Multi-layer Neural Nets</PUBLICATION> by Youngtae Park, published in <PUBLICATION>IEEE Transactions on Neural Networks</PUBLICATION>, 1991.
+You can access the papers at <SOFTWARE>IEEE Xplore</SOFTWARE> (<PUBLICATION>Fast Training Algorithms for Multi-layer Neural Nets</PUBLICATION> and <PUBLICATION>Oblique trees version of entropy net:</PUBLICATION>).

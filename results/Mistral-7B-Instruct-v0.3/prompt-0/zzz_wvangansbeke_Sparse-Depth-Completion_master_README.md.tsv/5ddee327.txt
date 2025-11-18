@@ -1,0 +1,1 @@
+Initially I only used guidance by multiplication with an `<EVALMETRIC>attention map (=probability)</EVALMETRIC>`, but found out that it is less robust and that differences between a `<EVALMETRIC>focal MSE</EVALMETRIC>` and `<EVALMETRIC>vanilla MSE loss function</EVALMETRIC>` were now negligible.

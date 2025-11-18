@@ -1,0 +1,1 @@
+- ***<SOFTWARE>Entropy net</SOFTWARE>: the first <SOFTWARE>practice</SOFTWARE>***   - **"<SOFTWARE>Entropy nets</SOFTWARE>: from <SOFTWARE>decision trees</SOFTWARE> to <SOFTWARE>neural networks</SOFTWARE>"**, <PUBLICATION>Proceedings of the IEEE</PUBLICATION>, 1990     - I.K.

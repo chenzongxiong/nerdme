@@ -1,0 +1,1 @@
+The final <EVALMETRIC>H-Score</EVALMETRIC> is computed as the average of all individual scores.

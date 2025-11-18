@@ -1,0 +1,2126 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# arXiv public datasets
+#Text=
+#Text=This project is part of a submission to an ICLR 2019 workshop, RLGM
+#Text=Representation Learning on Graphs and Manifolds.
+1-1	0-1	#	_	_	
+1-2	2-7	arXiv	_	_	
+1-3	8-14	public	_	_	
+1-4	15-23	datasets	_	_	
+1-5	25-29	This	_	_	
+1-6	30-37	project	_	_	
+1-7	38-40	is	_	_	
+1-8	41-45	part	_	_	
+1-9	46-48	of	_	_	
+1-10	49-50	a	_	_	
+1-11	51-61	submission	_	_	
+1-12	62-64	to	_	_	
+1-13	65-67	an	_	_	
+1-14	68-72	ICLR	*[1]	CONFERENCE[1]	
+1-15	73-77	2019	*[1]	CONFERENCE[1]	
+1-16	78-86	workshop	_	_	
+1-17	86-87	,	_	_	
+1-18	88-92	RLGM	*[2]	WORKSHOP[2]	
+1-19	93-107	Representation	*[2]	WORKSHOP[2]	
+1-20	108-116	Learning	*[2]	WORKSHOP[2]	
+1-21	117-119	on	*[2]	WORKSHOP[2]	
+1-22	120-126	Graphs	*[2]	WORKSHOP[2]	
+1-23	127-130	and	*[2]	WORKSHOP[2]	
+1-24	131-140	Manifolds	*[2]	WORKSHOP[2]	
+1-25	140-141	.	_	_	
+
+#Text=The manuscript can be found on
+#Text=[arXiv:1905.00075](https://arxiv.org/abs/1905.00075).
+2-1	142-145	The	_	_	
+2-2	146-156	manuscript	_	_	
+2-3	157-160	can	_	_	
+2-4	161-163	be	_	_	
+2-5	164-169	found	_	_	
+2-6	170-172	on	_	_	
+2-7	173-174	[	_	_	
+2-8	174-179	arXiv	_	_	
+2-9	179-180	:	_	_	
+2-10	180-190	1905.00075	_	_	
+2-11	190-191	]	_	_	
+2-12	191-192	(	_	_	
+2-13	192-197	https	_	_	
+2-14	197-198	:	_	_	
+2-15	198-199	/	_	_	
+2-16	199-200	/	_	_	
+2-17	200-209	arxiv.org	_	_	
+2-18	209-210	/	_	_	
+2-19	210-213	abs	_	_	
+2-20	213-214	/	_	_	
+2-21	214-224	1905.00075	_	_	
+2-22	224-225	)	_	_	
+2-23	225-226	.	_	_	
+
+#Text=Our primary purpose is to
+#Text=develop a set of tools to standardize and facilitate use of the arXiv as a
+#Text=dataset.
+3-1	227-230	Our	_	_	
+3-2	231-238	primary	_	_	
+3-3	239-246	purpose	_	_	
+3-4	247-249	is	_	_	
+3-5	250-252	to	_	_	
+3-6	253-260	develop	_	_	
+3-7	261-262	a	_	_	
+3-8	263-266	set	_	_	
+3-9	267-269	of	_	_	
+3-10	270-275	tools	_	_	
+3-11	276-278	to	_	_	
+3-12	279-290	standardize	_	_	
+3-13	291-294	and	_	_	
+3-14	295-305	facilitate	_	_	
+3-15	306-309	use	_	_	
+3-16	310-312	of	_	_	
+3-17	313-316	the	_	_	
+3-18	317-322	arXiv	_	_	
+3-19	323-325	as	_	_	
+3-20	326-327	a	_	_	
+3-21	328-335	dataset	_	_	
+3-22	335-336	.	_	_	
+
+#Text=Due to licensing and distribution issues, our work is primarily a set
+#Text=of scripts which builds the dataset from various public data sources.
+4-1	337-340	Due	_	_	
+4-2	341-343	to	_	_	
+4-3	344-353	licensing	_	_	
+4-4	354-357	and	_	_	
+4-5	358-370	distribution	_	_	
+4-6	371-377	issues	_	_	
+4-7	377-378	,	_	_	
+4-8	379-382	our	_	_	
+4-9	383-387	work	_	_	
+4-10	388-390	is	_	_	
+4-11	391-400	primarily	_	_	
+4-12	401-402	a	_	_	
+4-13	403-406	set	_	_	
+4-14	407-409	of	_	_	
+4-15	410-417	scripts	_	_	
+4-16	418-423	which	_	_	
+4-17	424-430	builds	_	_	
+4-18	431-434	the	_	_	
+4-19	435-442	dataset	_	_	
+4-20	443-447	from	_	_	
+4-21	448-455	various	_	_	
+4-22	456-462	public	_	_	
+4-23	463-467	data	_	_	
+4-24	468-475	sources	_	_	
+4-25	475-476	.	_	_	
+
+#Text=There are
+#Text=additional cleaning, organization, and  aggregation functions that it performs
+#Text=as well.
+5-1	477-482	There	_	_	
+5-2	483-486	are	_	_	
+5-3	487-497	additional	_	_	
+5-4	498-506	cleaning	_	_	
+5-5	506-507	,	_	_	
+5-6	508-520	organization	_	_	
+5-7	520-521	,	_	_	
+5-8	522-525	and	_	_	
+5-9	527-538	aggregation	_	_	
+5-10	539-548	functions	_	_	
+5-11	549-553	that	_	_	
+5-12	554-556	it	_	_	
+5-13	557-565	performs	_	_	
+5-14	566-568	as	_	_	
+5-15	569-573	well	_	_	
+5-16	573-574	.	_	_	
+
+#Text=This project is under development as we try to best fit the needs of the
+#Text=community.
+6-1	576-580	This	_	_	
+6-2	581-588	project	_	_	
+6-3	589-591	is	_	_	
+6-4	592-597	under	_	_	
+6-5	598-609	development	_	_	
+6-6	610-612	as	_	_	
+6-7	613-615	we	_	_	
+6-8	616-619	try	_	_	
+6-9	620-622	to	_	_	
+6-10	623-627	best	_	_	
+6-11	628-631	fit	_	_	
+6-12	632-635	the	_	_	
+6-13	636-641	needs	_	_	
+6-14	642-644	of	_	_	
+6-15	645-648	the	_	_	
+6-16	649-658	community	_	_	
+6-17	658-659	.	_	_	
+
+#Text=We have adopted [semver](https://semver.org/) and as such will denote
+#Text=major releases with the first numeral in the tagged version.
+7-1	660-662	We	_	_	
+7-2	663-667	have	_	_	
+7-3	668-675	adopted	_	_	
+7-4	676-677	[	_	_	
+7-5	677-683	semver	_	_	
+7-6	683-684	]	_	_	
+7-7	684-685	(	_	_	
+7-8	685-690	https	_	_	
+7-9	690-691	:	_	_	
+7-10	691-692	/	_	_	
+7-11	692-693	/	_	_	
+7-12	693-703	semver.org	_	_	
+7-13	703-704	/	_	_	
+7-14	704-705	)	_	_	
+7-15	706-709	and	_	_	
+7-16	710-712	as	_	_	
+7-17	713-717	such	_	_	
+7-18	718-722	will	_	_	
+7-19	723-729	denote	_	_	
+7-20	730-735	major	_	_	
+7-21	736-744	releases	_	_	
+7-22	745-749	with	_	_	
+7-23	750-753	the	_	_	
+7-24	754-759	first	_	_	
+7-25	760-767	numeral	_	_	
+7-26	768-770	in	_	_	
+7-27	771-774	the	_	_	
+7-28	775-781	tagged	_	_	
+7-29	782-789	version	_	_	
+7-30	789-790	.	_	_	
+
+#Text=Currently, the project grabs or generates:
+#Text=
+#Text=* **Article metadata** -- title, authors string, category, doi, abstract, submitter
+#Text=* **PDFs** -- all PDFs available through arXiv bulk download
+#Text=* **Plain text** -- PDFs converted to UTF-8 encoded plain text
+#Text=* **Citation graph** -- intra-arXiv citation graph between arXiv IDs only (generated from plain text)
+#Text=* **Author string parsing** -- convert metadata author strings into standardized list of name, affiliations
+#Text=
+#Text=We are able to host certain generated portions of this dataset as released
+#Text=snapshots.
+8-1	792-801	Currently	_	_	
+8-2	801-802	,	_	_	
+8-3	803-806	the	_	_	
+8-4	807-814	project	_	_	
+8-5	815-820	grabs	_	_	
+8-6	821-823	or	_	_	
+8-7	824-833	generates	_	_	
+8-8	833-834	:	_	_	
+8-9	836-837	*	_	_	
+8-10	838-839	*	_	_	
+8-11	839-840	*	_	_	
+8-12	840-847	Article	_	_	
+8-13	848-856	metadata	_	_	
+8-14	856-857	*	_	_	
+8-15	857-858	*	_	_	
+8-16	859-860	-	_	_	
+8-17	860-861	-	_	_	
+8-18	862-867	title	_	_	
+8-19	867-868	,	_	_	
+8-20	869-876	authors	_	_	
+8-21	877-883	string	_	_	
+8-22	883-884	,	_	_	
+8-23	885-893	category	_	_	
+8-24	893-894	,	_	_	
+8-25	895-898	doi	_	_	
+8-26	898-899	,	_	_	
+8-27	900-908	abstract	_	_	
+8-28	908-909	,	_	_	
+8-29	910-919	submitter	_	_	
+8-30	920-921	*	_	_	
+8-31	922-923	*	_	_	
+8-32	923-924	*	_	_	
+8-33	924-928	PDFs	_	_	
+8-34	928-929	*	_	_	
+8-35	929-930	*	_	_	
+8-36	931-932	-	_	_	
+8-37	932-933	-	_	_	
+8-38	934-937	all	_	_	
+8-39	938-942	PDFs	_	_	
+8-40	943-952	available	_	_	
+8-41	953-960	through	_	_	
+8-42	961-966	arXiv	_	_	
+8-43	967-971	bulk	_	_	
+8-44	972-980	download	_	_	
+8-45	981-982	*	_	_	
+8-46	983-984	*	_	_	
+8-47	984-985	*	_	_	
+8-48	985-990	Plain	_	_	
+8-49	991-995	text	_	_	
+8-50	995-996	*	_	_	
+8-51	996-997	*	_	_	
+8-52	998-999	-	_	_	
+8-53	999-1000	-	_	_	
+8-54	1001-1005	PDFs	_	_	
+8-55	1006-1015	converted	_	_	
+8-56	1016-1018	to	_	_	
+8-57	1019-1022	UTF	_	_	
+8-58	1022-1023	-	_	_	
+8-59	1023-1024	8	_	_	
+8-60	1025-1032	encoded	_	_	
+8-61	1033-1038	plain	_	_	
+8-62	1039-1043	text	_	_	
+8-63	1044-1045	*	_	_	
+8-64	1046-1047	*	_	_	
+8-65	1047-1048	*	_	_	
+8-66	1048-1056	Citation	_	_	
+8-67	1057-1062	graph	_	_	
+8-68	1062-1063	*	_	_	
+8-69	1063-1064	*	_	_	
+8-70	1065-1066	-	_	_	
+8-71	1066-1067	-	_	_	
+8-72	1068-1079	intra-arXiv	_	_	
+8-73	1080-1088	citation	_	_	
+8-74	1089-1094	graph	_	_	
+8-75	1095-1102	between	_	_	
+8-76	1103-1108	arXiv	_	_	
+8-77	1109-1112	IDs	_	_	
+8-78	1113-1117	only	_	_	
+8-79	1118-1119	(	_	_	
+8-80	1119-1128	generated	_	_	
+8-81	1129-1133	from	_	_	
+8-82	1134-1139	plain	_	_	
+8-83	1140-1144	text	_	_	
+8-84	1144-1145	)	_	_	
+8-85	1146-1147	*	_	_	
+8-86	1148-1149	*	_	_	
+8-87	1149-1150	*	_	_	
+8-88	1150-1156	Author	_	_	
+8-89	1157-1163	string	_	_	
+8-90	1164-1171	parsing	_	_	
+8-91	1171-1172	*	_	_	
+8-92	1172-1173	*	_	_	
+8-93	1174-1175	-	_	_	
+8-94	1175-1176	-	_	_	
+8-95	1177-1184	convert	_	_	
+8-96	1185-1193	metadata	_	_	
+8-97	1194-1200	author	_	_	
+8-98	1201-1208	strings	_	_	
+8-99	1209-1213	into	_	_	
+8-100	1214-1226	standardized	_	_	
+8-101	1227-1231	list	_	_	
+8-102	1232-1234	of	_	_	
+8-103	1235-1239	name	_	_	
+8-104	1239-1240	,	_	_	
+8-105	1241-1253	affiliations	_	_	
+8-106	1255-1257	We	_	_	
+8-107	1258-1261	are	_	_	
+8-108	1262-1266	able	_	_	
+8-109	1267-1269	to	_	_	
+8-110	1270-1274	host	_	_	
+8-111	1275-1282	certain	_	_	
+8-112	1283-1292	generated	_	_	
+8-113	1293-1301	portions	_	_	
+8-114	1302-1304	of	_	_	
+8-115	1305-1309	this	_	_	
+8-116	1310-1317	dataset	_	_	
+8-117	1318-1320	as	_	_	
+8-118	1321-1329	released	_	_	
+8-119	1330-1339	snapshots	_	_	
+8-120	1339-1340	.	_	_	
+
+#Text=The iterations can be found under the releases tab:
+#Text=[Releases](https://github.com/mattbierbaum/arxiv-public-datasets/releases).
+9-1	1342-1345	The	_	_	
+9-2	1346-1356	iterations	_	_	
+9-3	1357-1360	can	_	_	
+9-4	1361-1363	be	_	_	
+9-5	1364-1369	found	_	_	
+9-6	1370-1375	under	_	_	
+9-7	1376-1379	the	_	_	
+9-8	1380-1388	releases	_	_	
+9-9	1389-1392	tab	_	_	
+9-10	1392-1393	:	_	_	
+9-11	1394-1395	[	_	_	
+9-12	1395-1403	Releases	_	_	
+9-13	1403-1404	]	_	_	
+9-14	1404-1405	(	_	_	
+9-15	1405-1410	https	_	_	
+9-16	1410-1411	:	_	_	
+9-17	1411-1412	/	_	_	
+9-18	1412-1413	/	_	_	
+9-19	1413-1423	github.com	_	_	
+9-20	1423-1424	/	_	_	
+9-21	1424-1436	mattbierbaum	_	_	
+9-22	1436-1437	/	_	_	
+9-23	1437-1458	arxiv-public-datasets	_	_	
+9-24	1458-1459	/	_	_	
+9-25	1459-1467	releases	_	_	
+9-26	1467-1468	)	_	_	
+9-27	1468-1469	.	_	_	
+
+#Text=However, the rest of it must be generated locally.
+#Text=
+#Text=## Kaggle hosting arXiv data
+#Text=
+#Text=[Kaggle has agreed](https://www.kaggle.com/Cornell-University/arxiv) to cover the cost of hosting the arXiv PDFs,
+#Text=and has created some challenges and tasks associated with the arXiv data.
+10-1	1470-1477	However	_	_	
+10-2	1477-1478	,	_	_	
+10-3	1479-1482	the	_	_	
+10-4	1483-1487	rest	_	_	
+10-5	1488-1490	of	_	_	
+10-6	1491-1493	it	_	_	
+10-7	1494-1498	must	_	_	
+10-8	1499-1501	be	_	_	
+10-9	1502-1511	generated	_	_	
+10-10	1512-1519	locally	_	_	
+10-11	1519-1520	.	_	_	
+10-12	1522-1523	#	_	_	
+10-13	1523-1524	#	_	_	
+10-14	1525-1531	Kaggle	_	_	
+10-15	1532-1539	hosting	_	_	
+10-16	1540-1545	arXiv	_	_	
+10-17	1546-1550	data	_	_	
+10-18	1552-1553	[	_	_	
+10-19	1553-1559	Kaggle	_	_	
+10-20	1560-1563	has	_	_	
+10-21	1564-1570	agreed	_	_	
+10-22	1570-1571	]	_	_	
+10-23	1571-1572	(	_	_	
+10-24	1572-1577	https	_	_	
+10-25	1577-1578	:	_	_	
+10-26	1578-1579	/	_	_	
+10-27	1579-1580	/	_	_	
+10-28	1580-1594	www.kaggle.com	_	_	
+10-29	1594-1595	/	_	_	
+10-30	1595-1613	Cornell-University	_	_	
+10-31	1613-1614	/	_	_	
+10-32	1614-1619	arxiv	_	_	
+10-33	1619-1620	)	_	_	
+10-34	1621-1623	to	_	_	
+10-35	1624-1629	cover	_	_	
+10-36	1630-1633	the	_	_	
+10-37	1634-1638	cost	_	_	
+10-38	1639-1641	of	_	_	
+10-39	1642-1649	hosting	_	_	
+10-40	1650-1653	the	_	_	
+10-41	1654-1659	arXiv	_	_	
+10-42	1660-1664	PDFs	_	_	
+10-43	1664-1665	,	_	_	
+10-44	1666-1669	and	_	_	
+10-45	1670-1673	has	_	_	
+10-46	1674-1681	created	_	_	
+10-47	1682-1686	some	_	_	
+10-48	1687-1697	challenges	_	_	
+10-49	1698-1701	and	_	_	
+10-50	1702-1707	tasks	_	_	
+10-51	1708-1718	associated	_	_	
+10-52	1719-1723	with	_	_	
+10-53	1724-1727	the	_	_	
+10-54	1728-1733	arXiv	_	_	
+10-55	1734-1738	data	_	_	
+10-56	1738-1739	.	_	_	
+
+#Text=You can use our tools from their data
+#Text=source: download it from Google cloud using their instructions, storing the PDFs in your local `$ARXIV_DATA/tarpdfs`
+#Text=directory.
+11-1	1740-1743	You	_	_	
+11-2	1744-1747	can	_	_	
+11-3	1748-1751	use	_	_	
+11-4	1752-1755	our	_	_	
+11-5	1756-1761	tools	_	_	
+11-6	1762-1766	from	_	_	
+11-7	1767-1772	their	_	_	
+11-8	1773-1777	data	_	_	
+11-9	1778-1784	source	_	_	
+11-10	1784-1785	:	_	_	
+11-11	1786-1794	download	_	_	
+11-12	1795-1797	it	_	_	
+11-13	1798-1802	from	_	_	
+11-14	1803-1809	Google	_	_	
+11-15	1810-1815	cloud	_	_	
+11-16	1816-1821	using	_	_	
+11-17	1822-1827	their	_	_	
+11-18	1828-1840	instructions	_	_	
+11-19	1840-1841	,	_	_	
+11-20	1842-1849	storing	_	_	
+11-21	1850-1853	the	_	_	
+11-22	1854-1858	PDFs	_	_	
+11-23	1859-1861	in	_	_	
+11-24	1862-1866	your	_	_	
+11-25	1867-1872	local	_	_	
+11-26	1873-1874	`	_	_	
+11-27	1874-1875	$	_	_	
+11-28	1875-1885	ARXIV_DATA	_	_	
+11-29	1885-1886	/	_	_	
+11-30	1886-1893	tarpdfs	_	_	
+11-31	1893-1894	`	_	_	
+11-32	1895-1904	directory	_	_	
+11-33	1904-1905	.	_	_	
+
+#Text=Skip the downloading stage of downloading the PDFs below.
+#Text=
+#Text=## Contributing
+#Text=
+#Text=Thank you for your interest in contributing!
+12-1	1906-1910	Skip	_	_	
+12-2	1911-1914	the	_	_	
+12-3	1915-1926	downloading	_	_	
+12-4	1927-1932	stage	_	_	
+12-5	1933-1935	of	_	_	
+12-6	1936-1947	downloading	_	_	
+12-7	1948-1951	the	_	_	
+12-8	1952-1956	PDFs	_	_	
+12-9	1957-1962	below	_	_	
+12-10	1962-1963	.	_	_	
+12-11	1965-1966	#	_	_	
+12-12	1966-1967	#	_	_	
+12-13	1968-1980	Contributing	_	_	
+12-14	1982-1987	Thank	_	_	
+12-15	1988-1991	you	_	_	
+12-16	1992-1995	for	_	_	
+12-17	1996-2000	your	_	_	
+12-18	2001-2009	interest	_	_	
+12-19	2010-2012	in	_	_	
+12-20	2013-2025	contributing	_	_	
+12-21	2025-2026	!	_	_	
+
+#Text=We welcome many forms of input --
+#Text=GitHub issues, email, pull requests to name a few.
+13-1	2027-2029	We	_	_	
+13-2	2030-2037	welcome	_	_	
+13-3	2038-2042	many	_	_	
+13-4	2043-2048	forms	_	_	
+13-5	2049-2051	of	_	_	
+13-6	2052-2057	input	_	_	
+13-7	2058-2059	-	_	_	
+13-8	2059-2060	-	_	_	
+13-9	2061-2067	GitHub	_	_	
+13-10	2068-2074	issues	_	_	
+13-11	2074-2075	,	_	_	
+13-12	2076-2081	email	_	_	
+13-13	2081-2082	,	_	_	
+13-14	2083-2087	pull	_	_	
+13-15	2088-2096	requests	_	_	
+13-16	2097-2099	to	_	_	
+13-17	2100-2104	name	_	_	
+13-18	2105-2106	a	_	_	
+13-19	2107-2110	few	_	_	
+13-20	2110-2111	.	_	_	
+
+#Text=Let us know how if there are
+#Text=ways we can better present and preserve the dataset.
+#Text=
+#Text=## Citing
+#Text=
+#Text=If you wish to cite the dataset in your own work, a suggested bibtex entry is:
+#Text=
+#Text=    @misc{clement2019arxiv,
+#Text=        title={On the Use of ArXiv as a Dataset},
+#Text=        author={Colin B.
+14-1	2112-2115	Let	_	_	
+14-2	2116-2118	us	_	_	
+14-3	2119-2123	know	_	_	
+14-4	2124-2127	how	_	_	
+14-5	2128-2130	if	_	_	
+14-6	2131-2136	there	_	_	
+14-7	2137-2140	are	_	_	
+14-8	2141-2145	ways	_	_	
+14-9	2146-2148	we	_	_	
+14-10	2149-2152	can	_	_	
+14-11	2153-2159	better	_	_	
+14-12	2160-2167	present	_	_	
+14-13	2168-2171	and	_	_	
+14-14	2172-2180	preserve	_	_	
+14-15	2181-2184	the	_	_	
+14-16	2185-2192	dataset	_	_	
+14-17	2192-2193	.	_	_	
+14-18	2195-2196	#	_	_	
+14-19	2196-2197	#	_	_	
+14-20	2198-2204	Citing	_	_	
+14-21	2206-2208	If	_	_	
+14-22	2209-2212	you	_	_	
+14-23	2213-2217	wish	_	_	
+14-24	2218-2220	to	_	_	
+14-25	2221-2225	cite	_	_	
+14-26	2226-2229	the	_	_	
+14-27	2230-2237	dataset	_	_	
+14-28	2238-2240	in	_	_	
+14-29	2241-2245	your	_	_	
+14-30	2246-2249	own	_	_	
+14-31	2250-2254	work	_	_	
+14-32	2254-2255	,	_	_	
+14-33	2256-2257	a	_	_	
+14-34	2258-2267	suggested	_	_	
+14-35	2268-2274	bibtex	_	_	
+14-36	2275-2280	entry	_	_	
+14-37	2281-2283	is	_	_	
+14-38	2283-2284	:	_	_	
+14-39	2290-2291	@	_	_	
+14-40	2291-2295	misc	_	_	
+14-41	2295-2296	{	_	_	
+14-42	2296-2312	clement2019arxiv	_	_	
+14-43	2312-2313	,	_	_	
+14-44	2322-2327	title	_	_	
+14-45	2327-2328	=	_	_	
+14-46	2328-2329	{	_	_	
+14-47	2329-2331	On	*[3]	PUBLICATION[3]	
+14-48	2332-2335	the	*[3]	PUBLICATION[3]	
+14-49	2336-2339	Use	*[3]	PUBLICATION[3]	
+14-50	2340-2342	of	*[3]	PUBLICATION[3]	
+14-51	2343-2348	ArXiv	*[3]	PUBLICATION[3]	
+14-52	2349-2351	as	*[3]	PUBLICATION[3]	
+14-53	2352-2353	a	*[3]	PUBLICATION[3]	
+14-54	2354-2361	Dataset	*[3]	PUBLICATION[3]	
+14-55	2361-2362	}	_	_	
+14-56	2362-2363	,	_	_	
+14-57	2372-2378	author	_	_	
+14-58	2378-2379	=	_	_	
+14-59	2379-2380	{	_	_	
+14-60	2380-2385	Colin	_	_	
+14-61	2386-2387	B	_	_	
+14-62	2387-2388	.	_	_	
+
+#Text=Clement and Matthew Bierbaum and Kevin P.
+15-1	2389-2396	Clement	_	_	
+15-2	2397-2400	and	_	_	
+15-3	2401-2408	Matthew	_	_	
+15-4	2409-2417	Bierbaum	_	_	
+15-5	2418-2421	and	_	_	
+15-6	2422-2427	Kevin	_	_	
+15-7	2428-2429	P	_	_	
+15-8	2429-2430	.	_	_	
+
+#Text=O'Keeffe and Alexander A.
+16-1	2431-2439	O'Keeffe	_	_	
+16-2	2440-2443	and	_	_	
+16-3	2444-2453	Alexander	_	_	
+16-4	2454-2455	A	_	_	
+16-5	2455-2456	.	_	_	
+
+#Text=Alemi},
+#Text=        year={2019},
+#Text=        eprint={1905.00075},
+#Text=        archivePrefix={arXiv},
+#Text=        primaryClass={cs.IR}
+#Text=    }
+#Text=
+#Text=## Setup on Linux
+#Text=
+#Text=Install the required system packages (or use an alternative Python distribution
+#Text=of your choice).
+17-1	2457-2462	Alemi	_	_	
+17-2	2462-2463	}	_	_	
+17-3	2463-2464	,	_	_	
+17-4	2473-2477	year	_	_	
+17-5	2477-2478	=	_	_	
+17-6	2478-2479	{	_	_	
+17-7	2479-2483	2019	_	_	
+17-8	2483-2484	}	_	_	
+17-9	2484-2485	,	_	_	
+17-10	2494-2500	eprint	_	_	
+17-11	2500-2501	=	_	_	
+17-12	2501-2502	{	_	_	
+17-13	2502-2512	1905.00075	_	_	
+17-14	2512-2513	}	_	_	
+17-15	2513-2514	,	_	_	
+17-16	2523-2536	archivePrefix	_	_	
+17-17	2536-2537	=	_	_	
+17-18	2537-2538	{	_	_	
+17-19	2538-2543	arXiv	_	_	
+17-20	2543-2544	}	_	_	
+17-21	2544-2545	,	_	_	
+17-22	2554-2566	primaryClass	_	_	
+17-23	2566-2567	=	_	_	
+17-24	2567-2568	{	_	_	
+17-25	2568-2573	cs.IR	_	_	
+17-26	2573-2574	}	_	_	
+17-27	2579-2580	}	_	_	
+17-28	2582-2583	#	_	_	
+17-29	2583-2584	#	_	_	
+17-30	2585-2590	Setup	_	_	
+17-31	2591-2593	on	_	_	
+17-32	2594-2599	Linux	_	_	
+17-33	2601-2608	Install	_	_	
+17-34	2609-2612	the	_	_	
+17-35	2613-2621	required	_	_	
+17-36	2622-2628	system	_	_	
+17-37	2629-2637	packages	_	_	
+17-38	2638-2639	(	_	_	
+17-39	2639-2641	or	_	_	
+17-40	2642-2645	use	_	_	
+17-41	2646-2648	an	_	_	
+17-42	2649-2660	alternative	_	_	
+17-43	2661-2667	Python	*	PROGLANG	
+17-44	2668-2680	distribution	_	_	
+17-45	2681-2683	of	_	_	
+17-46	2684-2688	your	_	_	
+17-47	2689-2695	choice	_	_	
+17-48	2695-2696	)	_	_	
+17-49	2696-2697	.	_	_	
+
+#Text=For Debian / Ubuntu / similar:
+#Text=
+#Text=    sudo apt install python3 python3-pip python3-virtualenv poppler-utils
+#Text=
+#Text=Download the code and prepare the python environment:
+#Text=
+#Text=    git clone https://github.com/mattbierbaum/arxiv-public-datasets
+#Text=    cd arxiv-public-datasets
+#Text=
+#Text=    virtualenv venv
+#Text=    . venv/bin/activate
+#Text=
+#Text=    pip3 install -e .
+18-1	2698-2701	For	_	_	
+18-2	2702-2708	Debian	*	SOFTWARE	
+18-3	2709-2710	/	_	_	
+18-4	2711-2717	Ubuntu	_	_	
+18-5	2718-2719	/	_	_	
+18-6	2720-2727	similar	_	_	
+18-7	2727-2728	:	_	_	
+18-8	2734-2738	sudo	_	_	
+18-9	2739-2742	apt	_	_	
+18-10	2743-2750	install	_	_	
+18-11	2751-2758	python3	*	SOFTWARE	
+18-12	2759-2766	python3	*	PROGLANG	
+18-13	2766-2767	-	_	_	
+18-14	2767-2770	pip	*	SOFTWARE	
+18-15	2771-2778	python3	*	PROGLANG	
+18-16	2778-2779	-	_	_	
+18-17	2779-2789	virtualenv	_	_	
+18-18	2790-2803	poppler-utils	_	_	
+18-19	2805-2813	Download	_	_	
+18-20	2814-2817	the	_	_	
+18-21	2818-2822	code	_	_	
+18-22	2823-2826	and	_	_	
+18-23	2827-2834	prepare	_	_	
+18-24	2835-2838	the	_	_	
+18-25	2839-2845	python	*	PROGLANG	
+18-26	2846-2857	environment	_	_	
+18-27	2857-2858	:	_	_	
+18-28	2864-2867	git	*	SOFTWARE	
+18-29	2868-2873	clone	_	_	
+18-30	2874-2879	https	_	_	
+18-31	2879-2880	:	_	_	
+18-32	2880-2881	/	_	_	
+18-33	2881-2882	/	_	_	
+18-34	2882-2892	github.com	_	_	
+18-35	2892-2893	/	_	_	
+18-36	2893-2905	mattbierbaum	_	_	
+18-37	2905-2906	/	_	_	
+18-38	2906-2927	arxiv-public-datasets	_	_	
+18-39	2932-2934	cd	_	_	
+18-40	2935-2956	arxiv-public-datasets	_	_	
+18-41	2962-2972	virtualenv	*	SOFTWARE	
+18-42	2973-2977	venv	_	_	
+18-43	2982-2983	.	_	_	
+18-44	2984-2988	venv	_	_	
+18-45	2988-2989	/	_	_	
+18-46	2989-2992	bin	_	_	
+18-47	2992-2993	/	_	_	
+18-48	2993-3001	activate	_	_	
+18-49	3007-3011	pip3	*	SOFTWARE	
+18-50	3012-3019	install	_	_	
+18-51	3020-3021	-	_	_	
+18-52	3021-3022	e	_	_	
+18-53	3023-3024	.	_	_	
+
+#Text=pip3 install -r requirements.txt
+#Text=
+#Text=Decide where the data should live and modify the config.json file.
+19-1	3029-3033	pip3	_	_	
+19-2	3034-3041	install	_	_	
+19-3	3042-3043	-	_	_	
+19-4	3043-3044	r	_	_	
+19-5	3045-3061	requirements.txt	_	_	
+19-6	3063-3069	Decide	_	_	
+19-7	3070-3075	where	_	_	
+19-8	3076-3079	the	_	_	
+19-9	3080-3084	data	_	_	
+19-10	3085-3091	should	_	_	
+19-11	3092-3096	live	_	_	
+19-12	3097-3100	and	_	_	
+19-13	3101-3107	modify	_	_	
+19-14	3108-3111	the	_	_	
+19-15	3112-3123	config.json	_	_	
+19-16	3124-3128	file	_	_	
+19-17	3128-3129	.	_	_	
+
+#Text=This
+#Text=directory needs to have adequate space to hold ~ 1TB of pdfs and ~ 70GB of text
+#Text=if you so choose to retrieve them:
+#Text=
+#Text=    cp config.json.example config.json
+#Text=    [set ARXIV_DATA in config.json to your own directory]
+#Text=
+#Text=The scripts in `bin` will then create any of the three subdirectories:
+#Text=
+#Text=    $ARXIV_DATA/tarpdfs   # raw pdf files from Amazon AWS bucket
+#Text=    $ARXIV_DATA/fulltext  # .txt from raw .pdf
+#Text=    $ARXIV_DATA/output    # co-citation network, parsed author strings, etc
+#Text=
+#Text=## Article metadata
+#Text=
+#Text=**Run OAI metadata harvester**
+#Text=
+#Text=    python bin/metadata.py [OPTIONAL filepath.json.gz]
+#Text=
+#Text=This will download the entire ArXiv metadata set, saving it as a series of
+#Text=gzip-compressed JSON entries.
+20-1	3130-3134	This	_	_	
+20-2	3135-3144	directory	_	_	
+20-3	3145-3150	needs	_	_	
+20-4	3151-3153	to	_	_	
+20-5	3154-3158	have	_	_	
+20-6	3159-3167	adequate	_	_	
+20-7	3168-3173	space	_	_	
+20-8	3174-3176	to	_	_	
+20-9	3177-3181	hold	_	_	
+20-10	3182-3183	~	_	_	
+20-11	3184-3187	1TB	_	_	
+20-12	3188-3190	of	_	_	
+20-13	3191-3195	pdfs	_	_	
+20-14	3196-3199	and	_	_	
+20-15	3200-3201	~	_	_	
+20-16	3202-3206	70GB	_	_	
+20-17	3207-3209	of	_	_	
+20-18	3210-3214	text	_	_	
+20-19	3215-3217	if	_	_	
+20-20	3218-3221	you	_	_	
+20-21	3222-3224	so	_	_	
+20-22	3225-3231	choose	_	_	
+20-23	3232-3234	to	_	_	
+20-24	3235-3243	retrieve	_	_	
+20-25	3244-3248	them	_	_	
+20-26	3248-3249	:	_	_	
+20-27	3255-3257	cp	_	_	
+20-28	3258-3277	config.json.example	_	_	
+20-29	3278-3289	config.json	_	_	
+20-30	3294-3295	[	_	_	
+20-31	3295-3298	set	_	_	
+20-32	3299-3309	ARXIV_DATA	_	_	
+20-33	3310-3312	in	_	_	
+20-34	3313-3324	config.json	_	_	
+20-35	3325-3327	to	_	_	
+20-36	3328-3332	your	_	_	
+20-37	3333-3336	own	_	_	
+20-38	3337-3346	directory	_	_	
+20-39	3346-3347	]	_	_	
+20-40	3349-3352	The	_	_	
+20-41	3353-3360	scripts	_	_	
+20-42	3361-3363	in	_	_	
+20-43	3364-3365	`	_	_	
+20-44	3365-3368	bin	_	_	
+20-45	3368-3369	`	_	_	
+20-46	3370-3374	will	_	_	
+20-47	3375-3379	then	_	_	
+20-48	3380-3386	create	_	_	
+20-49	3387-3390	any	_	_	
+20-50	3391-3393	of	_	_	
+20-51	3394-3397	the	_	_	
+20-52	3398-3403	three	_	_	
+20-53	3404-3418	subdirectories	_	_	
+20-54	3418-3419	:	_	_	
+20-55	3425-3426	$	_	_	
+20-56	3426-3436	ARXIV_DATA	_	_	
+20-57	3436-3437	/	_	_	
+20-58	3437-3444	tarpdfs	_	_	
+20-59	3447-3448	#	_	_	
+20-60	3449-3452	raw	_	_	
+20-61	3453-3456	pdf	_	_	
+20-62	3457-3462	files	_	_	
+20-63	3463-3467	from	_	_	
+20-64	3468-3474	Amazon	_	_	
+20-65	3475-3478	AWS	_	_	
+20-66	3479-3485	bucket	_	_	
+20-67	3490-3491	$	_	_	
+20-68	3491-3501	ARXIV_DATA	_	_	
+20-69	3501-3502	/	_	_	
+20-70	3502-3510	fulltext	_	_	
+20-71	3512-3513	#	_	_	
+20-72	3514-3515	.	_	_	
+20-73	3515-3518	txt	_	_	
+20-74	3519-3523	from	_	_	
+20-75	3524-3527	raw	_	_	
+20-76	3528-3529	.	_	_	
+20-77	3529-3532	pdf	_	_	
+20-78	3537-3538	$	_	_	
+20-79	3538-3548	ARXIV_DATA	_	_	
+20-80	3548-3549	/	_	_	
+20-81	3549-3555	output	_	_	
+20-82	3559-3560	#	_	_	
+20-83	3561-3572	co-citation	_	_	
+20-84	3573-3580	network	_	_	
+20-85	3580-3581	,	_	_	
+20-86	3582-3588	parsed	_	_	
+20-87	3589-3595	author	_	_	
+20-88	3596-3603	strings	_	_	
+20-89	3603-3604	,	_	_	
+20-90	3605-3608	etc	_	_	
+20-91	3610-3611	#	_	_	
+20-92	3611-3612	#	_	_	
+20-93	3613-3620	Article	_	_	
+20-94	3621-3629	metadata	_	_	
+20-95	3631-3632	*	_	_	
+20-96	3632-3633	*	_	_	
+20-97	3633-3636	Run	_	_	
+20-98	3637-3640	OAI	_	_	
+20-99	3641-3649	metadata	_	_	
+20-100	3650-3659	harvester	_	_	
+20-101	3659-3660	*	_	_	
+20-102	3660-3661	*	_	_	
+20-103	3667-3673	python	*	SOFTWARE	
+20-104	3674-3677	bin	_	_	
+20-105	3677-3678	/	_	_	
+20-106	3678-3689	metadata.py	_	_	
+20-107	3690-3691	[	_	_	
+20-108	3691-3699	OPTIONAL	_	_	
+20-109	3700-3716	filepath.json.gz	_	_	
+20-110	3716-3717	]	_	_	
+20-111	3719-3723	This	_	_	
+20-112	3724-3728	will	_	_	
+20-113	3729-3737	download	_	_	
+20-114	3738-3741	the	_	_	
+20-115	3742-3748	entire	_	_	
+20-116	3749-3754	ArXiv	_	_	
+20-117	3755-3763	metadata	_	_	
+20-118	3764-3767	set	_	_	
+20-119	3767-3768	,	_	_	
+20-120	3769-3775	saving	_	_	
+20-121	3776-3778	it	_	_	
+20-122	3779-3781	as	_	_	
+20-123	3782-3783	a	_	_	
+20-124	3784-3790	series	_	_	
+20-125	3791-3793	of	_	_	
+20-126	3794-3809	gzip-compressed	_	_	
+20-127	3810-3814	JSON	_	_	
+20-128	3815-3822	entries	_	_	
+20-129	3822-3823	.	_	_	
+
+#Text=The default save location is
+#Text=`$ARXIV_DATA/arxiv-metadata-oai-<date>.json.gz`.
+21-1	3824-3827	The	_	_	
+21-2	3828-3835	default	_	_	
+21-3	3836-3840	save	_	_	
+21-4	3841-3849	location	_	_	
+21-5	3850-3852	is	_	_	
+21-6	3853-3854	`	_	_	
+21-7	3854-3855	$	_	_	
+21-8	3855-3865	ARXIV_DATA	_	_	
+21-9	3865-3866	/	_	_	
+21-10	3866-3884	arxiv-metadata-oai	_	_	
+21-11	3884-3885	-	_	_	
+21-12	3885-3886	<	_	_	
+21-13	3886-3890	date	_	_	
+21-14	3890-3891	>	_	_	
+21-15	3891-3892	.	_	_	
+21-16	3892-3899	json.gz	_	_	
+21-17	3899-3900	`	_	_	
+21-18	3900-3901	.	_	_	
+
+#Text=This process will take at
+#Text=least 6 hours, as the OAI server only sends 1000 entries every 15 seconds.
+22-1	3902-3906	This	_	_	
+22-2	3907-3914	process	_	_	
+22-3	3915-3919	will	_	_	
+22-4	3920-3924	take	_	_	
+22-5	3925-3927	at	_	_	
+22-6	3928-3933	least	_	_	
+22-7	3934-3935	6	_	_	
+22-8	3936-3941	hours	_	_	
+22-9	3941-3942	,	_	_	
+22-10	3943-3945	as	_	_	
+22-11	3946-3949	the	_	_	
+22-12	3950-3953	OAI	_	_	
+22-13	3954-3960	server	_	_	
+22-14	3961-3965	only	_	_	
+22-15	3966-3971	sends	_	_	
+22-16	3972-3976	1000	_	_	
+22-17	3977-3984	entries	_	_	
+22-18	3985-3990	every	_	_	
+22-19	3991-3993	15	_	_	
+22-20	3994-4001	seconds	_	_	
+22-21	4001-4002	.	_	_	
+
+#Text=A
+#Text=resumption token is saved, so the process can be restarted by running again.
+#Text=
+#Text=## PDFs (AWS download only)
+#Text=
+#Text=**Prepare credentials**
+#Text=
+#Text=In addition to the setup above, you need to prepare your AWS credentials for
+#Text=use with boto3, the Python AWS library.
+23-1	4003-4004	A	_	_	
+23-2	4005-4015	resumption	_	_	
+23-3	4016-4021	token	_	_	
+23-4	4022-4024	is	_	_	
+23-5	4025-4030	saved	_	_	
+23-6	4030-4031	,	_	_	
+23-7	4032-4034	so	_	_	
+23-8	4035-4038	the	_	_	
+23-9	4039-4046	process	_	_	
+23-10	4047-4050	can	_	_	
+23-11	4051-4053	be	_	_	
+23-12	4054-4063	restarted	_	_	
+23-13	4064-4066	by	_	_	
+23-14	4067-4074	running	_	_	
+23-15	4075-4080	again	_	_	
+23-16	4080-4081	.	_	_	
+23-17	4083-4084	#	_	_	
+23-18	4084-4085	#	_	_	
+23-19	4086-4090	PDFs	_	_	
+23-20	4091-4092	(	_	_	
+23-21	4092-4095	AWS	*	SOFTWARE	
+23-22	4096-4104	download	_	_	
+23-23	4105-4109	only	_	_	
+23-24	4109-4110	)	_	_	
+23-25	4112-4113	*	_	_	
+23-26	4113-4114	*	_	_	
+23-27	4114-4121	Prepare	_	_	
+23-28	4122-4133	credentials	_	_	
+23-29	4133-4134	*	_	_	
+23-30	4134-4135	*	_	_	
+23-31	4137-4139	In	_	_	
+23-32	4140-4148	addition	_	_	
+23-33	4149-4151	to	_	_	
+23-34	4152-4155	the	_	_	
+23-35	4156-4161	setup	_	_	
+23-36	4162-4167	above	_	_	
+23-37	4167-4168	,	_	_	
+23-38	4169-4172	you	_	_	
+23-39	4173-4177	need	_	_	
+23-40	4178-4180	to	_	_	
+23-41	4181-4188	prepare	_	_	
+23-42	4189-4193	your	_	_	
+23-43	4194-4197	AWS	*	SOFTWARE	
+23-44	4198-4209	credentials	_	_	
+23-45	4210-4213	for	_	_	
+23-46	4214-4217	use	_	_	
+23-47	4218-4222	with	_	_	
+23-48	4223-4228	boto3	*	SOFTWARE	
+23-49	4228-4229	,	_	_	
+23-50	4230-4233	the	_	_	
+23-51	4234-4240	Python	*	SOFTWARE	
+23-52	4241-4244	AWS	*	SOFTWARE	
+23-53	4245-4252	library	_	_	
+23-54	4252-4253	.	_	_	
+
+#Text=A long explanation is available
+#Text=[here](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html)
+#Text=while the quick method is to:
+#Text=
+#Text=    apt install awscli
+#Text=    aws configure
+#Text=
+#Text=
+#Text=**Bulk download of ArXiv PDFs**
+#Text=
+#Text=This download costs about 100 USD (and is 1.1TB) at the time of writing, as the
+#Text=[ArXiv bulk download](https://arxiv.org/help/bulk_data) only allows
+#Text=requester-pays AWS S3 downloads.
+24-1	4254-4255	A	_	_	
+24-2	4256-4260	long	_	_	
+24-3	4261-4272	explanation	_	_	
+24-4	4273-4275	is	_	_	
+24-5	4276-4285	available	_	_	
+24-6	4286-4287	[	_	_	
+24-7	4287-4291	here	_	_	
+24-8	4291-4292	]	_	_	
+24-9	4292-4293	(	_	_	
+24-10	4293-4298	https	_	_	
+24-11	4298-4299	:	_	_	
+24-12	4299-4300	/	_	_	
+24-13	4300-4301	/	_	_	
+24-14	4301-4306	boto3	*	SOFTWARE	
+24-15	4306-4307	.	_	_	
+24-16	4307-4320	amazonaws.com	_	_	
+24-17	4320-4321	/	_	_	
+24-18	4321-4323	v1	_	_	
+24-19	4323-4324	/	_	_	
+24-20	4324-4337	documentation	_	_	
+24-21	4337-4338	/	_	_	
+24-22	4338-4341	api	_	_	
+24-23	4341-4342	/	_	_	
+24-24	4342-4348	latest	_	_	
+24-25	4348-4349	/	_	_	
+24-26	4349-4354	guide	_	_	
+24-27	4354-4355	/	_	_	
+24-28	4355-4373	configuration.html	_	_	
+24-29	4373-4374	)	_	_	
+24-30	4375-4380	while	_	_	
+24-31	4381-4384	the	_	_	
+24-32	4385-4390	quick	_	_	
+24-33	4391-4397	method	_	_	
+24-34	4398-4400	is	_	_	
+24-35	4401-4403	to	_	_	
+24-36	4403-4404	:	_	_	
+24-37	4410-4413	apt	_	_	
+24-38	4414-4421	install	_	_	
+24-39	4422-4428	awscli	*	SOFTWARE	
+24-40	4433-4436	aws	*	SOFTWARE	
+24-41	4437-4446	configure	_	_	
+24-42	4449-4450	*	_	_	
+24-43	4450-4451	*	_	_	
+24-44	4451-4455	Bulk	*	SOFTWARE	
+24-45	4456-4464	download	_	_	
+24-46	4465-4467	of	_	_	
+24-47	4468-4473	ArXiv	_	_	
+24-48	4474-4478	PDFs	_	_	
+24-49	4478-4479	*	_	_	
+24-50	4479-4480	*	_	_	
+24-51	4482-4486	This	_	_	
+24-52	4487-4495	download	_	_	
+24-53	4496-4501	costs	_	_	
+24-54	4502-4507	about	_	_	
+24-55	4508-4511	100	_	_	
+24-56	4512-4515	USD	_	_	
+24-57	4516-4517	(	_	_	
+24-58	4517-4520	and	_	_	
+24-59	4521-4523	is	_	_	
+24-60	4524-4529	1.1TB	_	_	
+24-61	4529-4530	)	_	_	
+24-62	4531-4533	at	_	_	
+24-63	4534-4537	the	_	_	
+24-64	4538-4542	time	_	_	
+24-65	4543-4545	of	_	_	
+24-66	4546-4553	writing	_	_	
+24-67	4553-4554	,	_	_	
+24-68	4555-4557	as	_	_	
+24-69	4558-4561	the	_	_	
+24-70	4562-4563	[	_	_	
+24-71	4563-4568	ArXiv	_	_	
+24-72	4569-4573	bulk	_	_	
+24-73	4574-4582	download	_	_	
+24-74	4582-4583	]	_	_	
+24-75	4583-4584	(	_	_	
+24-76	4584-4589	https	_	_	
+24-77	4589-4590	:	_	_	
+24-78	4590-4591	/	_	_	
+24-79	4591-4592	/	_	_	
+24-80	4592-4601	arxiv.org	_	_	
+24-81	4601-4602	/	_	_	
+24-82	4602-4606	help	_	_	
+24-83	4606-4607	/	_	_	
+24-84	4607-4616	bulk_data	_	_	
+24-84.1	4607-4611	bulk	*	SOFTWARE	
+24-85	4616-4617	)	_	_	
+24-86	4618-4622	only	_	_	
+24-87	4623-4629	allows	_	_	
+24-88	4630-4644	requester-pays	_	_	
+24-89	4645-4648	AWS	*	SOFTWARE	
+24-90	4649-4651	S3	_	_	
+24-91	4652-4661	downloads	_	_	
+24-92	4661-4662	.	_	_	
+
+#Text=Ensure that you have at least 1TB of free space
+#Text=in the directory specified in `config.json`:
+#Text=
+#Text=    python bin/pdfdownload.py [OPTIONAL manifest_file.json.gz]
+#Text=
+#Text=## Plain text
+#Text=The tool works for both AWS download (`.tar` files) and Kaggle download (plain PDFs) by adding `--PLAIN_PDFS` optional argument.
+#Text=```
+#Text=python bin/fulltext.py -N [OPTIONAL number_of_processes, default cpu_count] --PLAIN_PDFS [OPTIONAL, use if plain PDFs are dowloaded]
+#Text=```
+#Text=**Bulk PDF conversion for AWS download**
+#Text=
+#Text=To use our tool for text conversion of all the PDFs from the ArXiv bulk download
+#Text=described above, execute the following.
+25-1	4663-4669	Ensure	_	_	
+25-2	4670-4674	that	_	_	
+25-3	4675-4678	you	_	_	
+25-4	4679-4683	have	_	_	
+25-5	4684-4686	at	_	_	
+25-6	4687-4692	least	_	_	
+25-7	4693-4696	1TB	_	_	
+25-8	4697-4699	of	_	_	
+25-9	4700-4704	free	_	_	
+25-10	4705-4710	space	_	_	
+25-11	4711-4713	in	_	_	
+25-12	4714-4717	the	_	_	
+25-13	4718-4727	directory	_	_	
+25-14	4728-4737	specified	_	_	
+25-15	4738-4740	in	_	_	
+25-16	4741-4742	`	_	_	
+25-17	4742-4753	config.json	_	_	
+25-18	4753-4754	`	_	_	
+25-19	4754-4755	:	_	_	
+25-20	4761-4767	python	*	SOFTWARE	
+25-21	4768-4771	bin	_	_	
+25-22	4771-4772	/	_	_	
+25-23	4772-4786	pdfdownload.py	_	_	
+25-24	4787-4788	[	_	_	
+25-25	4788-4796	OPTIONAL	_	_	
+25-26	4797-4818	manifest_file.json.gz	_	_	
+25-27	4818-4819	]	_	_	
+25-28	4821-4822	#	_	_	
+25-29	4822-4823	#	_	_	
+25-30	4824-4829	Plain	_	_	
+25-31	4830-4834	text	_	_	
+25-32	4835-4838	The	_	_	
+25-33	4839-4843	tool	_	_	
+25-34	4844-4849	works	_	_	
+25-35	4850-4853	for	_	_	
+25-36	4854-4858	both	_	_	
+25-37	4859-4862	AWS	*	SOFTWARE	
+25-38	4863-4871	download	_	_	
+25-39	4872-4873	(	_	_	
+25-40	4873-4874	`	_	_	
+25-41	4874-4875	.	_	_	
+25-42	4875-4878	tar	_	_	
+25-43	4878-4879	`	_	_	
+25-44	4880-4885	files	_	_	
+25-45	4885-4886	)	_	_	
+25-46	4887-4890	and	_	_	
+25-47	4891-4897	Kaggle	_	_	
+25-48	4898-4906	download	_	_	
+25-49	4907-4908	(	_	_	
+25-50	4908-4913	plain	_	_	
+25-51	4914-4918	PDFs	_	_	
+25-52	4918-4919	)	_	_	
+25-53	4920-4922	by	_	_	
+25-54	4923-4929	adding	_	_	
+25-55	4930-4931	`	_	_	
+25-56	4931-4932	-	_	_	
+25-57	4932-4933	-	_	_	
+25-58	4933-4943	PLAIN_PDFS	_	_	
+25-59	4943-4944	`	_	_	
+25-60	4945-4953	optional	_	_	
+25-61	4954-4962	argument	_	_	
+25-62	4962-4963	.	_	_	
+25-63	4964-4965	`	_	_	
+25-64	4965-4966	`	_	_	
+25-65	4966-4967	`	_	_	
+25-66	4968-4974	python	*	SOFTWARE	
+25-67	4975-4978	bin	_	_	
+25-68	4978-4979	/	_	_	
+25-69	4979-4990	fulltext.py	_	_	
+25-70	4991-4992	-	_	_	
+25-71	4992-4993	N	_	_	
+25-72	4994-4995	[	_	_	
+25-73	4995-5003	OPTIONAL	_	_	
+25-74	5004-5023	number_of_processes	_	_	
+25-75	5023-5024	,	_	_	
+25-76	5025-5032	default	_	_	
+25-77	5033-5042	cpu_count	_	_	
+25-78	5042-5043	]	_	_	
+25-79	5044-5045	-	_	_	
+25-80	5045-5046	-	_	_	
+25-81	5046-5056	PLAIN_PDFS	_	_	
+25-82	5057-5058	[	_	_	
+25-83	5058-5066	OPTIONAL	_	_	
+25-84	5066-5067	,	_	_	
+25-85	5068-5071	use	_	_	
+25-86	5072-5074	if	_	_	
+25-87	5075-5080	plain	_	_	
+25-88	5081-5085	PDFs	_	_	
+25-89	5086-5089	are	_	_	
+25-90	5090-5099	dowloaded	_	_	
+25-91	5099-5100	]	_	_	
+25-92	5101-5102	`	_	_	
+25-93	5102-5103	`	_	_	
+25-94	5103-5104	`	_	_	
+25-95	5105-5106	*	_	_	
+25-96	5106-5107	*	_	_	
+25-97	5107-5111	Bulk	_	_	
+25-98	5112-5115	PDF	_	_	
+25-99	5116-5126	conversion	_	_	
+25-100	5127-5130	for	_	_	
+25-101	5131-5134	AWS	*	SOFTWARE	
+25-102	5135-5143	download	_	_	
+25-103	5143-5144	*	_	_	
+25-104	5144-5145	*	_	_	
+25-105	5147-5149	To	_	_	
+25-106	5150-5153	use	_	_	
+25-107	5154-5157	our	_	_	
+25-108	5158-5162	tool	_	_	
+25-109	5163-5166	for	_	_	
+25-110	5167-5171	text	_	_	
+25-111	5172-5182	conversion	_	_	
+25-112	5183-5185	of	_	_	
+25-113	5186-5189	all	_	_	
+25-114	5190-5193	the	_	_	
+25-115	5194-5198	PDFs	_	_	
+25-116	5199-5203	from	_	_	
+25-117	5204-5207	the	_	_	
+25-118	5208-5213	ArXiv	_	_	
+25-119	5214-5218	bulk	_	_	
+25-120	5219-5227	download	_	_	
+25-121	5228-5237	described	_	_	
+25-122	5238-5243	above	_	_	
+25-123	5243-5244	,	_	_	
+25-124	5245-5252	execute	_	_	
+25-125	5253-5256	the	_	_	
+25-126	5257-5266	following	_	_	
+25-127	5266-5267	.	_	_	
+
+#Text=NOTE: if you have not already downloaded
+#Text=the PDFs, this tool will do so.
+26-1	5268-5272	NOTE	_	_	
+26-2	5272-5273	:	_	_	
+26-3	5274-5276	if	_	_	
+26-4	5277-5280	you	_	_	
+26-5	5281-5285	have	_	_	
+26-6	5286-5289	not	_	_	
+26-7	5290-5297	already	_	_	
+26-8	5298-5308	downloaded	_	_	
+26-9	5309-5312	the	_	_	
+26-10	5313-5317	PDFs	_	_	
+26-11	5317-5318	,	_	_	
+26-12	5319-5323	this	_	_	
+26-13	5324-5328	tool	_	_	
+26-14	5329-5333	will	_	_	
+26-15	5334-5336	do	_	_	
+26-16	5337-5339	so	_	_	
+26-17	5339-5340	.	_	_	
+
+#Text=If you have downloaded them, be sure to not change
+#Text=the `$ARXIV_DATA` so that it will not re-download the tars.
+27-1	5341-5343	If	_	_	
+27-2	5344-5347	you	_	_	
+27-3	5348-5352	have	_	_	
+27-4	5353-5363	downloaded	_	_	
+27-5	5364-5368	them	_	_	
+27-6	5368-5369	,	_	_	
+27-7	5370-5372	be	_	_	
+27-8	5373-5377	sure	_	_	
+27-9	5378-5380	to	_	_	
+27-10	5381-5384	not	_	_	
+27-11	5385-5391	change	_	_	
+27-12	5392-5395	the	_	_	
+27-13	5396-5397	`	_	_	
+27-14	5397-5398	$	_	_	
+27-15	5398-5408	ARXIV_DATA	_	_	
+27-16	5408-5409	`	_	_	
+27-17	5410-5412	so	_	_	
+27-18	5413-5417	that	_	_	
+27-19	5418-5420	it	_	_	
+27-20	5421-5425	will	_	_	
+27-21	5426-5429	not	_	_	
+27-22	5430-5441	re-download	_	_	
+27-23	5442-5445	the	_	_	
+27-24	5446-5450	tars	_	_	
+27-25	5450-5451	.	_	_	
+
+#Text=python bin/fulltext.py -N [OPTIONAL number_of_processes, default cpu_count] 
+#Text=
+#Text=At the time of writing, converting 1.39 million articles requires over 400 core-hours
+#Text=using two Intel Xeon E5-2600 CPUs.
+28-1	5457-5463	python	*	SOFTWARE	
+28-2	5464-5467	bin	_	_	
+28-3	5467-5468	/	_	_	
+28-4	5468-5479	fulltext.py	_	_	
+28-5	5480-5481	-	_	_	
+28-6	5481-5482	N	_	_	
+28-7	5483-5484	[	_	_	
+28-8	5484-5492	OPTIONAL	_	_	
+28-9	5493-5512	number_of_processes	_	_	
+28-10	5512-5513	,	_	_	
+28-11	5514-5521	default	_	_	
+28-12	5522-5531	cpu_count	_	_	
+28-13	5531-5532	]	_	_	
+28-14	5535-5537	At	_	_	
+28-15	5538-5541	the	_	_	
+28-16	5542-5546	time	_	_	
+28-17	5547-5549	of	_	_	
+28-18	5550-5557	writing	_	_	
+28-19	5557-5558	,	_	_	
+28-20	5559-5569	converting	_	_	
+28-21	5570-5574	1.39	_	_	
+28-22	5575-5582	million	_	_	
+28-23	5583-5591	articles	_	_	
+28-24	5592-5600	requires	_	_	
+28-25	5601-5605	over	_	_	
+28-26	5606-5609	400	_	_	
+28-27	5610-5620	core-hours	_	_	
+28-28	5621-5626	using	_	_	
+28-29	5627-5630	two	_	_	
+28-30	5631-5636	Intel	_	_	
+28-31	5637-5641	Xeon	_	_	
+28-32	5642-5644	E5	_	_	
+28-33	5644-5645	-	_	_	
+28-34	5645-5649	2600	_	_	
+28-35	5650-5654	CPUs	_	_	
+28-36	5654-5655	.	_	_	
+
+#Text=**Bulk PDF conversion for plain PDFs, e.g. downdloaded from Kaggle (Google Cloud)**
+#Text=
+#Text=Download from AWS are `.tar` files.
+29-1	5657-5658	*	_	_	
+29-2	5658-5659	*	_	_	
+29-3	5659-5663	Bulk	_	_	
+29-4	5664-5667	PDF	_	_	
+29-5	5668-5678	conversion	_	_	
+29-6	5679-5682	for	_	_	
+29-7	5683-5688	plain	_	_	
+29-8	5689-5693	PDFs	_	_	
+29-9	5693-5694	,	_	_	
+29-10	5695-5698	e.g	_	_	
+29-11	5698-5699	.	_	_	
+29-12	5700-5711	downdloaded	_	_	
+29-13	5712-5716	from	_	_	
+29-14	5717-5723	Kaggle	_	_	
+29-15	5724-5725	(	_	_	
+29-16	5725-5731	Google	*[4]	SOFTWARE[4]	
+29-17	5732-5737	Cloud	*[4]	SOFTWARE[4]	
+29-18	5737-5738	)	_	_	
+29-19	5738-5739	*	_	_	
+29-20	5739-5740	*	_	_	
+29-21	5742-5750	Download	_	_	
+29-22	5751-5755	from	_	_	
+29-23	5756-5759	AWS	*	SOFTWARE	
+29-24	5760-5763	are	_	_	
+29-25	5764-5765	`	_	_	
+29-26	5765-5766	.	_	_	
+29-27	5766-5769	tar	_	_	
+29-28	5769-5770	`	_	_	
+29-29	5771-5776	files	_	_	
+29-30	5776-5777	.	_	_	
+
+#Text=If plains PDFs are downloaded, e.g. from Kaggle, use the optional argument `--PLAIN_PDFS`:
+#Text=```
+#Text=python bin/fulltext.py -N [OPTIONAL number_of_processes, default cpu_count] --PLAIN_PDFS
+#Text=```
+#Text=
+#Text=## Cocitation network
+#Text=
+#Text=To generate the cocitation network, you first must have the full text.
+30-1	5778-5780	If	_	_	
+30-2	5781-5787	plains	_	_	
+30-3	5788-5792	PDFs	_	_	
+30-4	5793-5796	are	_	_	
+30-5	5797-5807	downloaded	_	_	
+30-6	5807-5808	,	_	_	
+30-7	5809-5812	e.g	_	_	
+30-8	5812-5813	.	_	_	
+30-9	5814-5818	from	_	_	
+30-10	5819-5825	Kaggle	_	_	
+30-11	5825-5826	,	_	_	
+30-12	5827-5830	use	_	_	
+30-13	5831-5834	the	_	_	
+30-14	5835-5843	optional	_	_	
+30-15	5844-5852	argument	_	_	
+30-16	5853-5854	`	_	_	
+30-17	5854-5855	-	_	_	
+30-18	5855-5856	-	_	_	
+30-19	5856-5866	PLAIN_PDFS	_	_	
+30-20	5866-5867	`	_	_	
+30-21	5867-5868	:	_	_	
+30-22	5869-5870	`	_	_	
+30-23	5870-5871	`	_	_	
+30-24	5871-5872	`	_	_	
+30-25	5873-5879	python	*	SOFTWARE	
+30-26	5880-5883	bin	_	_	
+30-27	5883-5884	/	_	_	
+30-28	5884-5895	fulltext.py	_	_	
+30-29	5896-5897	-	_	_	
+30-30	5897-5898	N	_	_	
+30-31	5899-5900	[	_	_	
+30-32	5900-5908	OPTIONAL	_	_	
+30-33	5909-5928	number_of_processes	_	_	
+30-34	5928-5929	,	_	_	
+30-35	5930-5937	default	_	_	
+30-36	5938-5947	cpu_count	_	_	
+30-37	5947-5948	]	_	_	
+30-38	5949-5950	-	_	_	
+30-39	5950-5951	-	_	_	
+30-40	5951-5961	PLAIN_PDFS	_	_	
+30-41	5962-5963	`	_	_	
+30-42	5963-5964	`	_	_	
+30-43	5964-5965	`	_	_	
+30-44	5967-5968	#	_	_	
+30-45	5968-5969	#	_	_	
+30-46	5970-5980	Cocitation	_	_	
+30-47	5981-5988	network	_	_	
+30-48	5990-5992	To	_	_	
+30-49	5993-6001	generate	_	_	
+30-50	6002-6005	the	_	_	
+30-51	6006-6016	cocitation	_	_	
+30-52	6017-6024	network	_	_	
+30-53	6024-6025	,	_	_	
+30-54	6026-6029	you	_	_	
+30-55	6030-6035	first	_	_	
+30-56	6036-6040	must	_	_	
+30-57	6041-6045	have	_	_	
+30-58	6046-6049	the	_	_	
+30-59	6050-6054	full	_	_	
+30-60	6055-6059	text	_	_	
+30-61	6059-6060	.	_	_	
+
+#Text=Then,
+#Text=with the directories still set up, run:
+#Text=
+#Text=    python bin/cocitations.py [OPTIONAL number_of_processes, default cpu_count]
+#Text=
+#Text=The cocitation network will by default be saved in
+#Text=`$ARXIV_DATA/output/internal-citations.json.gz`.
+#Text=
+#Text=## Author string split
+#Text=
+#Text=The OAI metadata from the ArXiv features author strings as submitted by article
+#Text=authors.
+31-1	6061-6065	Then	_	_	
+31-2	6065-6066	,	_	_	
+31-3	6067-6071	with	_	_	
+31-4	6072-6075	the	_	_	
+31-5	6076-6087	directories	_	_	
+31-6	6088-6093	still	_	_	
+31-7	6094-6097	set	_	_	
+31-8	6098-6100	up	_	_	
+31-9	6100-6101	,	_	_	
+31-10	6102-6105	run	_	_	
+31-11	6105-6106	:	_	_	
+31-12	6112-6118	python	*	SOFTWARE	
+31-13	6119-6122	bin	_	_	
+31-14	6122-6123	/	_	_	
+31-15	6123-6137	cocitations.py	_	_	
+31-16	6138-6139	[	_	_	
+31-17	6139-6147	OPTIONAL	_	_	
+31-18	6148-6167	number_of_processes	_	_	
+31-19	6167-6168	,	_	_	
+31-20	6169-6176	default	_	_	
+31-21	6177-6186	cpu_count	_	_	
+31-22	6186-6187	]	_	_	
+31-23	6189-6192	The	_	_	
+31-24	6193-6203	cocitation	_	_	
+31-25	6204-6211	network	_	_	
+31-26	6212-6216	will	_	_	
+31-27	6217-6219	by	_	_	
+31-28	6220-6227	default	_	_	
+31-29	6228-6230	be	_	_	
+31-30	6231-6236	saved	_	_	
+31-31	6237-6239	in	_	_	
+31-32	6240-6241	`	_	_	
+31-33	6241-6242	$	_	_	
+31-34	6242-6252	ARXIV_DATA	_	_	
+31-35	6252-6253	/	_	_	
+31-36	6253-6259	output	_	_	
+31-37	6259-6260	/	_	_	
+31-38	6260-6286	internal-citations.json.gz	_	_	
+31-39	6286-6287	`	_	_	
+31-40	6287-6288	.	_	_	
+31-41	6290-6291	#	_	_	
+31-42	6291-6292	#	_	_	
+31-43	6293-6299	Author	_	_	
+31-44	6300-6306	string	_	_	
+31-45	6307-6312	split	_	_	
+31-46	6314-6317	The	_	_	
+31-47	6318-6321	OAI	_	_	
+31-48	6322-6330	metadata	_	_	
+31-49	6331-6335	from	_	_	
+31-50	6336-6339	the	_	_	
+31-51	6340-6345	ArXiv	_	_	
+31-52	6346-6354	features	_	_	
+31-53	6355-6361	author	_	_	
+31-54	6362-6369	strings	_	_	
+31-55	6370-6372	as	_	_	
+31-56	6373-6382	submitted	_	_	
+31-57	6383-6385	by	_	_	
+31-58	6386-6393	article	_	_	
+31-59	6394-6401	authors	_	_	
+31-60	6401-6402	.	_	_	
+
+#Text=In order to use them in a principled way, theses strings must be parsed
+#Text=and split.
+32-1	6403-6405	In	_	_	
+32-2	6406-6411	order	_	_	
+32-3	6412-6414	to	_	_	
+32-4	6415-6418	use	_	_	
+32-5	6419-6423	them	_	_	
+32-6	6424-6426	in	_	_	
+32-7	6427-6428	a	_	_	
+32-8	6429-6439	principled	_	_	
+32-9	6440-6443	way	_	_	
+32-10	6443-6444	,	_	_	
+32-11	6445-6451	theses	_	_	
+32-12	6452-6459	strings	_	_	
+32-13	6460-6464	must	_	_	
+32-14	6465-6467	be	_	_	
+32-15	6468-6474	parsed	_	_	
+32-16	6475-6478	and	_	_	
+32-17	6479-6484	split	_	_	
+32-18	6484-6485	.	_	_	
+
+#Text=To generate and save these author splittings, run:
+#Text=
+#Text=    python bin/authorsplit.py [OPTIONAL number_of_processes, default cpu_count]
+#Text=
+#Text=The split author strings will by default be saved in
+#Text=`$ARXIV_DATA/output/authors-parsed.json.gz`.
+#Text=
+#Text=## Dataset Metadata
+#Text=The following table is necessary for this dataset to be indexed by search
+#Text=engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
+33-1	6486-6488	To	_	_	
+33-2	6489-6497	generate	_	_	
+33-3	6498-6501	and	_	_	
+33-4	6502-6506	save	_	_	
+33-5	6507-6512	these	_	_	
+33-6	6513-6519	author	_	_	
+33-7	6520-6530	splittings	_	_	
+33-8	6530-6531	,	_	_	
+33-9	6532-6535	run	_	_	
+33-10	6535-6536	:	_	_	
+33-11	6542-6548	python	*	SOFTWARE	
+33-12	6549-6552	bin	_	_	
+33-13	6552-6553	/	_	_	
+33-14	6553-6567	authorsplit.py	_	_	
+33-15	6568-6569	[	_	_	
+33-16	6569-6577	OPTIONAL	_	_	
+33-17	6578-6597	number_of_processes	_	_	
+33-18	6597-6598	,	_	_	
+33-19	6599-6606	default	_	_	
+33-20	6607-6616	cpu_count	_	_	
+33-21	6616-6617	]	_	_	
+33-22	6619-6622	The	_	_	
+33-23	6623-6628	split	_	_	
+33-24	6629-6635	author	_	_	
+33-25	6636-6643	strings	_	_	
+33-26	6644-6648	will	_	_	
+33-27	6649-6651	by	_	_	
+33-28	6652-6659	default	_	_	
+33-29	6660-6662	be	_	_	
+33-30	6663-6668	saved	_	_	
+33-31	6669-6671	in	_	_	
+33-32	6672-6673	`	_	_	
+33-33	6673-6674	$	_	_	
+33-34	6674-6684	ARXIV_DATA	_	_	
+33-35	6684-6685	/	_	_	
+33-36	6685-6691	output	_	_	
+33-37	6691-6692	/	_	_	
+33-38	6692-6714	authors-parsed.json.gz	_	_	
+33-39	6714-6715	`	_	_	
+33-40	6715-6716	.	_	_	
+33-41	6718-6719	#	_	_	
+33-42	6719-6720	#	_	_	
+33-43	6721-6728	Dataset	_	_	
+33-44	6729-6737	Metadata	_	_	
+33-45	6738-6741	The	_	_	
+33-46	6742-6751	following	_	_	
+33-47	6752-6757	table	_	_	
+33-48	6758-6760	is	_	_	
+33-49	6761-6770	necessary	_	_	
+33-50	6771-6774	for	_	_	
+33-51	6775-6779	this	_	_	
+33-52	6780-6787	dataset	_	_	
+33-53	6788-6790	to	_	_	
+33-54	6791-6793	be	_	_	
+33-55	6794-6801	indexed	_	_	
+33-56	6802-6804	by	_	_	
+33-57	6805-6811	search	_	_	
+33-58	6812-6819	engines	_	_	
+33-59	6820-6824	such	_	_	
+33-60	6825-6827	as	_	_	
+33-61	6828-6829	<	_	_	
+33-62	6829-6830	a	_	_	
+33-63	6831-6835	href	_	_	
+33-64	6835-6836	=	_	_	
+33-65	6836-6837	"	_	_	
+33-66	6837-6842	https	_	_	
+33-67	6842-6843	:	_	_	
+33-68	6843-6844	/	_	_	
+33-69	6844-6845	/	_	_	
+33-70	6845-6849	g.co	_	_	
+33-71	6849-6850	/	_	_	
+33-72	6850-6863	datasetsearch	_	_	
+33-73	6863-6864	"	_	_	
+33-74	6864-6865	>	_	_	
+33-75	6865-6871	Google	_	_	
+33-76	6872-6879	Dataset	_	_	
+33-77	6880-6886	Search	_	_	
+33-78	6886-6887	<	_	_	
+33-79	6887-6888	/	_	_	
+33-80	6888-6889	a	_	_	
+33-81	6889-6890	>	_	_	
+33-82	6890-6891	.	_	_	
+
+#Text=<div itemscope itemtype="http://schema.org/Dataset">
+#Text=<table>
+#Text=  <tr>
+#Text=    <th>property</th>
+#Text=    <th>value</th>
+#Text=  </tr>
+#Text=  <tr>
+#Text=    <td>name</td>
+#Text=    <td><code itemprop="name">arXiv Public Datasets</code></td>
+#Text=  </tr>
+#Text=  <tr>
+#Text=    <td>url</td>
+#Text=    <td><code itemprop="url">https://github.com/mattbierbaum/arxiv-public-datasets</code></td>
+#Text=  </tr>
+#Text=  <tr>
+#Text=    <td>sameAs</td>
+#Text=    <td><code itemprop="sameAs">https://github.com/mattbierbaum/arxiv-public-datasets</code></td>
+#Text=  </tr>
+#Text=  <tr>
+#Text=    <td>description</td>
+#Text=    <td><code itemprop="description">
+#Text=\t  The arXiv pre-print service is the de facto venue for publishing in many scientific
+#Text=\t  disciplines.
+34-1	6892-6893	<	_	_	
+34-2	6893-6896	div	_	_	
+34-3	6897-6906	itemscope	_	_	
+34-4	6907-6915	itemtype	_	_	
+34-5	6915-6916	=	_	_	
+34-6	6916-6917	"	_	_	
+34-7	6917-6921	http	_	_	
+34-8	6921-6922	:	_	_	
+34-9	6922-6923	/	_	_	
+34-10	6923-6924	/	_	_	
+34-11	6924-6934	schema.org	_	_	
+34-12	6934-6935	/	_	_	
+34-13	6935-6942	Dataset	_	_	
+34-14	6942-6943	"	_	_	
+34-15	6943-6944	>	_	_	
+34-16	6945-6946	<	_	_	
+34-17	6946-6951	table	_	_	
+34-18	6951-6952	>	_	_	
+34-19	6955-6956	<	_	_	
+34-20	6956-6958	tr	_	_	
+34-21	6958-6959	>	_	_	
+34-22	6964-6965	<	_	_	
+34-23	6965-6967	th	_	_	
+34-24	6967-6968	>	_	_	
+34-25	6968-6976	property	_	_	
+34-26	6976-6977	<	_	_	
+34-27	6977-6978	/	_	_	
+34-28	6978-6980	th	_	_	
+34-29	6980-6981	>	_	_	
+34-30	6986-6987	<	_	_	
+34-31	6987-6989	th	_	_	
+34-32	6989-6990	>	_	_	
+34-33	6990-6995	value	_	_	
+34-34	6995-6996	<	_	_	
+34-35	6996-6997	/	_	_	
+34-36	6997-6999	th	_	_	
+34-37	6999-7000	>	_	_	
+34-38	7003-7004	<	_	_	
+34-39	7004-7005	/	_	_	
+34-40	7005-7007	tr	_	_	
+34-41	7007-7008	>	_	_	
+34-42	7011-7012	<	_	_	
+34-43	7012-7014	tr	_	_	
+34-44	7014-7015	>	_	_	
+34-45	7020-7021	<	_	_	
+34-46	7021-7023	td	_	_	
+34-47	7023-7024	>	_	_	
+34-48	7024-7028	name	_	_	
+34-49	7028-7029	<	_	_	
+34-50	7029-7030	/	_	_	
+34-51	7030-7032	td	_	_	
+34-52	7032-7033	>	_	_	
+34-53	7038-7039	<	_	_	
+34-54	7039-7041	td	_	_	
+34-55	7041-7042	>	_	_	
+34-56	7042-7043	<	_	_	
+34-57	7043-7047	code	_	_	
+34-58	7048-7056	itemprop	_	_	
+34-59	7056-7057	=	_	_	
+34-60	7057-7058	"	_	_	
+34-61	7058-7062	name	_	_	
+34-62	7062-7063	"	_	_	
+34-63	7063-7064	>	_	_	
+34-64	7064-7069	arXiv	_	_	
+34-65	7070-7076	Public	_	_	
+34-66	7077-7085	Datasets	_	_	
+34-67	7085-7086	<	_	_	
+34-68	7086-7087	/	_	_	
+34-69	7087-7091	code	_	_	
+34-70	7091-7092	>	_	_	
+34-71	7092-7093	<	_	_	
+34-72	7093-7094	/	_	_	
+34-73	7094-7096	td	_	_	
+34-74	7096-7097	>	_	_	
+34-75	7100-7101	<	_	_	
+34-76	7101-7102	/	_	_	
+34-77	7102-7104	tr	_	_	
+34-78	7104-7105	>	_	_	
+34-79	7108-7109	<	_	_	
+34-80	7109-7111	tr	_	_	
+34-81	7111-7112	>	_	_	
+34-82	7117-7118	<	_	_	
+34-83	7118-7120	td	_	_	
+34-84	7120-7121	>	_	_	
+34-85	7121-7124	url	_	_	
+34-86	7124-7125	<	_	_	
+34-87	7125-7126	/	_	_	
+34-88	7126-7128	td	_	_	
+34-89	7128-7129	>	_	_	
+34-90	7134-7135	<	_	_	
+34-91	7135-7137	td	_	_	
+34-92	7137-7138	>	_	_	
+34-93	7138-7139	<	_	_	
+34-94	7139-7143	code	_	_	
+34-95	7144-7152	itemprop	_	_	
+34-96	7152-7153	=	_	_	
+34-97	7153-7154	"	_	_	
+34-98	7154-7157	url	_	_	
+34-99	7157-7158	"	_	_	
+34-100	7158-7159	>	_	_	
+34-101	7159-7164	https	_	_	
+34-102	7164-7165	:	_	_	
+34-103	7165-7166	/	_	_	
+34-104	7166-7167	/	_	_	
+34-105	7167-7177	github.com	_	_	
+34-106	7177-7178	/	_	_	
+34-107	7178-7190	mattbierbaum	_	_	
+34-108	7190-7191	/	_	_	
+34-109	7191-7212	arxiv-public-datasets	_	_	
+34-110	7212-7213	<	_	_	
+34-111	7213-7214	/	_	_	
+34-112	7214-7218	code	_	_	
+34-113	7218-7219	>	_	_	
+34-114	7219-7220	<	_	_	
+34-115	7220-7221	/	_	_	
+34-116	7221-7223	td	_	_	
+34-117	7223-7224	>	_	_	
+34-118	7227-7228	<	_	_	
+34-119	7228-7229	/	_	_	
+34-120	7229-7231	tr	_	_	
+34-121	7231-7232	>	_	_	
+34-122	7235-7236	<	_	_	
+34-123	7236-7238	tr	_	_	
+34-124	7238-7239	>	_	_	
+34-125	7244-7245	<	_	_	
+34-126	7245-7247	td	_	_	
+34-127	7247-7248	>	_	_	
+34-128	7248-7254	sameAs	_	_	
+34-129	7254-7255	<	_	_	
+34-130	7255-7256	/	_	_	
+34-131	7256-7258	td	_	_	
+34-132	7258-7259	>	_	_	
+34-133	7264-7265	<	_	_	
+34-134	7265-7267	td	_	_	
+34-135	7267-7268	>	_	_	
+34-136	7268-7269	<	_	_	
+34-137	7269-7273	code	_	_	
+34-138	7274-7282	itemprop	_	_	
+34-139	7282-7283	=	_	_	
+34-140	7283-7284	"	_	_	
+34-141	7284-7290	sameAs	_	_	
+34-142	7290-7291	"	_	_	
+34-143	7291-7292	>	_	_	
+34-144	7292-7297	https	_	_	
+34-145	7297-7298	:	_	_	
+34-146	7298-7299	/	_	_	
+34-147	7299-7300	/	_	_	
+34-148	7300-7310	github.com	_	_	
+34-149	7310-7311	/	_	_	
+34-150	7311-7323	mattbierbaum	_	_	
+34-151	7323-7324	/	_	_	
+34-152	7324-7345	arxiv-public-datasets	_	_	
+34-153	7345-7346	<	_	_	
+34-154	7346-7347	/	_	_	
+34-155	7347-7351	code	_	_	
+34-156	7351-7352	>	_	_	
+34-157	7352-7353	<	_	_	
+34-158	7353-7354	/	_	_	
+34-159	7354-7356	td	_	_	
+34-160	7356-7357	>	_	_	
+34-161	7360-7361	<	_	_	
+34-162	7361-7362	/	_	_	
+34-163	7362-7364	tr	_	_	
+34-164	7364-7365	>	_	_	
+34-165	7368-7369	<	_	_	
+34-166	7369-7371	tr	_	_	
+34-167	7371-7372	>	_	_	
+34-168	7377-7378	<	_	_	
+34-169	7378-7380	td	_	_	
+34-170	7380-7381	>	_	_	
+34-171	7381-7392	description	_	_	
+34-172	7392-7393	<	_	_	
+34-173	7393-7394	/	_	_	
+34-174	7394-7396	td	_	_	
+34-175	7396-7397	>	_	_	
+34-176	7402-7403	<	_	_	
+34-177	7403-7405	td	_	_	
+34-178	7405-7406	>	_	_	
+34-179	7406-7407	<	_	_	
+34-180	7407-7411	code	_	_	
+34-181	7412-7420	itemprop	_	_	
+34-182	7420-7421	=	_	_	
+34-183	7421-7422	"	_	_	
+34-184	7422-7433	description	_	_	
+34-185	7433-7434	"	_	_	
+34-186	7434-7435	>	_	_	
+34-187	7439-7442	The	_	_	
+34-188	7443-7448	arXiv	_	_	
+34-189	7449-7458	pre-print	_	_	
+34-190	7459-7466	service	_	_	
+34-191	7467-7469	is	_	_	
+34-192	7470-7473	the	_	_	
+34-193	7474-7476	de	_	_	
+34-194	7477-7482	facto	_	_	
+34-195	7483-7488	venue	_	_	
+34-196	7489-7492	for	_	_	
+34-197	7493-7503	publishing	_	_	
+34-198	7504-7506	in	_	_	
+34-199	7507-7511	many	_	_	
+34-200	7512-7522	scientific	_	_	
+34-201	7526-7537	disciplines	_	_	
+34-202	7537-7538	.	_	_	
+
+#Text=This repository provides tools for using all the publicly available information
+#Text=\t  provided by the arXiv to download all of the publications and their metadata, extract fulltext
+#Text=\t  from PDFs, and build a co-citation graph.
+35-1	7539-7543	This	_	_	
+35-2	7544-7554	repository	_	_	
+35-3	7555-7563	provides	_	_	
+35-4	7564-7569	tools	_	_	
+35-5	7570-7573	for	_	_	
+35-6	7574-7579	using	_	_	
+35-7	7580-7583	all	_	_	
+35-8	7584-7587	the	_	_	
+35-9	7588-7596	publicly	_	_	
+35-10	7597-7606	available	_	_	
+35-11	7607-7618	information	_	_	
+35-12	7622-7630	provided	_	_	
+35-13	7631-7633	by	_	_	
+35-14	7634-7637	the	_	_	
+35-15	7638-7643	arXiv	_	_	
+35-16	7644-7646	to	_	_	
+35-17	7647-7655	download	_	_	
+35-18	7656-7659	all	_	_	
+35-19	7660-7662	of	_	_	
+35-20	7663-7666	the	_	_	
+35-21	7667-7679	publications	_	_	
+35-22	7680-7683	and	_	_	
+35-23	7684-7689	their	_	_	
+35-24	7690-7698	metadata	_	_	
+35-25	7698-7699	,	_	_	
+35-26	7700-7707	extract	_	_	
+35-27	7708-7716	fulltext	_	_	
+35-28	7720-7724	from	_	_	
+35-29	7725-7729	PDFs	_	_	
+35-30	7729-7730	,	_	_	
+35-31	7731-7734	and	_	_	
+35-32	7735-7740	build	_	_	
+35-33	7741-7742	a	_	_	
+35-34	7743-7754	co-citation	_	_	
+35-35	7755-7760	graph	_	_	
+35-36	7760-7761	.	_	_	
+
+#Text=For each publication the tools provide access to:
+#Text=\t   * **Article metadata** -- title, authors string, category, doi, abstract, submitter
+#Text=\t   * **PDFs** -- all PDFs available through arXiv bulk download
+#Text=\t   * **Plain text** -- PDFs converted to UTF-8 encoded plain text
+#Text=\t   * **Citation graph** -- intra-arXiv citation graph between arXiv IDs only (generated from plain text)
+#Text=\t   * **Author string parsing** -- convert metadata author strings into standardized list of name, affiliations
+#Text=\t</code></td>
+#Text=  </tr>
+#Text=  <tr>
+#Text=    <td>citation</td>
+#Text=    <td><code itemprop="citation">https://arxiv.org/abs/1905.00075</code></td>
+#Text=  </tr>
+#Text=  <tr>
+#Text=    <td>license</td>
+#Text=    <td><code itemprop="license">https://raw.githubusercontent.com/mattbierbaum/arxiv-public-datasets/master/LICENSE</code></td>
+#Text=  </tr>
+#Text=</table>
+#Text=</div>
+36-1	7762-7765	For	_	_	
+36-2	7766-7770	each	_	_	
+36-3	7771-7782	publication	_	_	
+36-4	7783-7786	the	_	_	
+36-5	7787-7792	tools	_	_	
+36-6	7793-7800	provide	_	_	
+36-7	7801-7807	access	_	_	
+36-8	7808-7810	to	_	_	
+36-9	7810-7811	:	_	_	
+36-10	7816-7817	*	_	_	
+36-11	7818-7819	*	_	_	
+36-12	7819-7820	*	_	_	
+36-13	7820-7827	Article	_	_	
+36-14	7828-7836	metadata	_	_	
+36-15	7836-7837	*	_	_	
+36-16	7837-7838	*	_	_	
+36-17	7839-7840	-	_	_	
+36-18	7840-7841	-	_	_	
+36-19	7842-7847	title	_	_	
+36-20	7847-7848	,	_	_	
+36-21	7849-7856	authors	_	_	
+36-22	7857-7863	string	_	_	
+36-23	7863-7864	,	_	_	
+36-24	7865-7873	category	_	_	
+36-25	7873-7874	,	_	_	
+36-26	7875-7878	doi	_	_	
+36-27	7878-7879	,	_	_	
+36-28	7880-7888	abstract	_	_	
+36-29	7888-7889	,	_	_	
+36-30	7890-7899	submitter	_	_	
+36-31	7904-7905	*	_	_	
+36-32	7906-7907	*	_	_	
+36-33	7907-7908	*	_	_	
+36-34	7908-7912	PDFs	_	_	
+36-35	7912-7913	*	_	_	
+36-36	7913-7914	*	_	_	
+36-37	7915-7916	-	_	_	
+36-38	7916-7917	-	_	_	
+36-39	7918-7921	all	_	_	
+36-40	7922-7926	PDFs	_	_	
+36-41	7927-7936	available	_	_	
+36-42	7937-7944	through	_	_	
+36-43	7945-7950	arXiv	_	_	
+36-44	7951-7955	bulk	_	_	
+36-45	7956-7964	download	_	_	
+36-46	7969-7970	*	_	_	
+36-47	7971-7972	*	_	_	
+36-48	7972-7973	*	_	_	
+36-49	7973-7978	Plain	_	_	
+36-50	7979-7983	text	_	_	
+36-51	7983-7984	*	_	_	
+36-52	7984-7985	*	_	_	
+36-53	7986-7987	-	_	_	
+36-54	7987-7988	-	_	_	
+36-55	7989-7993	PDFs	_	_	
+36-56	7994-8003	converted	_	_	
+36-57	8004-8006	to	_	_	
+36-58	8007-8010	UTF	_	_	
+36-59	8010-8011	-	_	_	
+36-60	8011-8012	8	_	_	
+36-61	8013-8020	encoded	_	_	
+36-62	8021-8026	plain	_	_	
+36-63	8027-8031	text	_	_	
+36-64	8036-8037	*	_	_	
+36-65	8038-8039	*	_	_	
+36-66	8039-8040	*	_	_	
+36-67	8040-8048	Citation	_	_	
+36-68	8049-8054	graph	_	_	
+36-69	8054-8055	*	_	_	
+36-70	8055-8056	*	_	_	
+36-71	8057-8058	-	_	_	
+36-72	8058-8059	-	_	_	
+36-73	8060-8071	intra-arXiv	_	_	
+36-74	8072-8080	citation	_	_	
+36-75	8081-8086	graph	_	_	
+36-76	8087-8094	between	_	_	
+36-77	8095-8100	arXiv	_	_	
+36-78	8101-8104	IDs	_	_	
+36-79	8105-8109	only	_	_	
+36-80	8110-8111	(	_	_	
+36-81	8111-8120	generated	_	_	
+36-82	8121-8125	from	_	_	
+36-83	8126-8131	plain	_	_	
+36-84	8132-8136	text	_	_	
+36-85	8136-8137	)	_	_	
+36-86	8142-8143	*	_	_	
+36-87	8144-8145	*	_	_	
+36-88	8145-8146	*	_	_	
+36-89	8146-8152	Author	_	_	
+36-90	8153-8159	string	_	_	
+36-91	8160-8167	parsing	_	_	
+36-92	8167-8168	*	_	_	
+36-93	8168-8169	*	_	_	
+36-94	8170-8171	-	_	_	
+36-95	8171-8172	-	_	_	
+36-96	8173-8180	convert	_	_	
+36-97	8181-8189	metadata	_	_	
+36-98	8190-8196	author	_	_	
+36-99	8197-8204	strings	_	_	
+36-100	8205-8209	into	_	_	
+36-101	8210-8222	standardized	_	_	
+36-102	8223-8227	list	_	_	
+36-103	8228-8230	of	_	_	
+36-104	8231-8235	name	_	_	
+36-105	8235-8236	,	_	_	
+36-106	8237-8249	affiliations	_	_	
+36-107	8251-8252	<	_	_	
+36-108	8252-8253	/	_	_	
+36-109	8253-8257	code	_	_	
+36-110	8257-8258	>	_	_	
+36-111	8258-8259	<	_	_	
+36-112	8259-8260	/	_	_	
+36-113	8260-8262	td	_	_	
+36-114	8262-8263	>	_	_	
+36-115	8266-8267	<	_	_	
+36-116	8267-8268	/	_	_	
+36-117	8268-8270	tr	_	_	
+36-118	8270-8271	>	_	_	
+36-119	8274-8275	<	_	_	
+36-120	8275-8277	tr	_	_	
+36-121	8277-8278	>	_	_	
+36-122	8283-8284	<	_	_	
+36-123	8284-8286	td	_	_	
+36-124	8286-8287	>	_	_	
+36-125	8287-8295	citation	_	_	
+36-126	8295-8296	<	_	_	
+36-127	8296-8297	/	_	_	
+36-128	8297-8299	td	_	_	
+36-129	8299-8300	>	_	_	
+36-130	8305-8306	<	_	_	
+36-131	8306-8308	td	_	_	
+36-132	8308-8309	>	_	_	
+36-133	8309-8310	<	_	_	
+36-134	8310-8314	code	_	_	
+36-135	8315-8323	itemprop	_	_	
+36-136	8323-8324	=	_	_	
+36-137	8324-8325	"	_	_	
+36-138	8325-8333	citation	_	_	
+36-139	8333-8334	"	_	_	
+36-140	8334-8335	>	_	_	
+36-141	8335-8340	https	_	_	
+36-142	8340-8341	:	_	_	
+36-143	8341-8342	/	_	_	
+36-144	8342-8343	/	_	_	
+36-145	8343-8352	arxiv.org	_	_	
+36-146	8352-8353	/	_	_	
+36-147	8353-8356	abs	_	_	
+36-148	8356-8357	/	_	_	
+36-149	8357-8367	1905.00075	_	_	
+36-150	8367-8368	<	_	_	
+36-151	8368-8369	/	_	_	
+36-152	8369-8373	code	_	_	
+36-153	8373-8374	>	_	_	
+36-154	8374-8375	<	_	_	
+36-155	8375-8376	/	_	_	
+36-156	8376-8378	td	_	_	
+36-157	8378-8379	>	_	_	
+36-158	8382-8383	<	_	_	
+36-159	8383-8384	/	_	_	
+36-160	8384-8386	tr	_	_	
+36-161	8386-8387	>	_	_	
+36-162	8390-8391	<	_	_	
+36-163	8391-8393	tr	_	_	
+36-164	8393-8394	>	_	_	
+36-165	8399-8400	<	_	_	
+36-166	8400-8402	td	_	_	
+36-167	8402-8403	>	_	_	
+36-168	8403-8410	license	_	_	
+36-169	8410-8411	<	_	_	
+36-170	8411-8412	/	_	_	
+36-171	8412-8414	td	_	_	
+36-172	8414-8415	>	_	_	
+36-173	8420-8421	<	_	_	
+36-174	8421-8423	td	_	_	
+36-175	8423-8424	>	_	_	
+36-176	8424-8425	<	_	_	
+36-177	8425-8429	code	_	_	
+36-178	8430-8438	itemprop	_	_	
+36-179	8438-8439	=	_	_	
+36-180	8439-8440	"	_	_	
+36-181	8440-8447	license	_	_	
+36-182	8447-8448	"	_	_	
+36-183	8448-8449	>	_	_	
+36-184	8449-8454	https	_	_	
+36-185	8454-8455	:	_	_	
+36-186	8455-8456	/	_	_	
+36-187	8456-8457	/	_	_	
+36-188	8457-8482	raw.githubusercontent.com	_	_	
+36-189	8482-8483	/	_	_	
+36-190	8483-8495	mattbierbaum	_	_	
+36-191	8495-8496	/	_	_	
+36-192	8496-8517	arxiv-public-datasets	_	_	
+36-193	8517-8518	/	_	_	
+36-194	8518-8524	master	_	_	
+36-195	8524-8525	/	_	_	
+36-196	8525-8532	LICENSE	_	_	
+36-197	8532-8533	<	_	_	
+36-198	8533-8534	/	_	_	
+36-199	8534-8538	code	_	_	
+36-200	8538-8539	>	_	_	
+36-201	8539-8540	<	_	_	
+36-202	8540-8541	/	_	_	
+36-203	8541-8543	td	_	_	
+36-204	8543-8544	>	_	_	
+36-205	8547-8548	<	_	_	
+36-206	8548-8549	/	_	_	
+36-207	8549-8551	tr	_	_	
+36-208	8551-8552	>	_	_	
+36-209	8553-8554	<	_	_	
+36-210	8554-8555	/	_	_	
+36-211	8555-8560	table	_	_	
+36-212	8560-8561	>	_	_	
+36-213	8562-8563	<	_	_	
+36-214	8563-8564	/	_	_	
+36-215	8564-8567	div	_	_	
+36-216	8567-8568	>	_	_	

@@ -1,0 +1,5 @@
+The input text does not contain any entities that fit the defined entity classes (CONFERENCE, DATASET, EVALMETRIC, LICENSE, ONTOLOGY, PROGLANG, PROJECT, PUBLICATION, SOFTWARE, WORKSHOP). Therefore, the output is the same as the input text:
+
+```markdown
+Prepares object masks - converts bounding boxes from weak annotations into masks used in training     2.
+```

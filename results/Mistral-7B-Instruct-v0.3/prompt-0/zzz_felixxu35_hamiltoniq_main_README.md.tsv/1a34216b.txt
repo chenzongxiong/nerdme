@@ -1,0 +1,1 @@
+`/figures/<SOFTWARE>HamilToniQ_logo.png</SOFTWARE>)HamilToniQ: An Open-Source <PROJECT>Benchmark Toolkit for Quantum Computers</PROJECT>  1.`

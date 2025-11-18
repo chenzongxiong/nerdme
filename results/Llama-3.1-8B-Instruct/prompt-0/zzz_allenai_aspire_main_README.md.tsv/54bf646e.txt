@@ -1,0 +1,1 @@
+`src/pre_process/<SOFTWARE>pre_proc_cocits.py</SOFTWARE>:` Generate training data for the models reported in the `<PUBLICATION>paper</PUBLICATION>`.

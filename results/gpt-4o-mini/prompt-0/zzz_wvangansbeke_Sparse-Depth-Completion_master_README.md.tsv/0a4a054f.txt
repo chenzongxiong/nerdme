@@ -1,0 +1,1 @@
+Secondly, you'll need to unzip and download the camera images from <DATASET>kitti</DATASET>.

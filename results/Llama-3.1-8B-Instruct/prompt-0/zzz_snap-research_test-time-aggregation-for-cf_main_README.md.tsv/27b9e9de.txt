@@ -1,0 +1,1 @@
+The <PUBLICATION>How Does Message Passing Improve Collaborative Filtering?</PUBLICATION> @article{ju2024does,   title={How Does Message Passing Improve Collaborative Filtering?},   author={Ju, Yizhe and Zhang, Yuhao and Zhang, Yizhe and Zhang, Yuhao},   journal={arXiv preprint arXiv:2205.03738},   year={2022},   url={https://arxiv.org/abs/2205.03738} }

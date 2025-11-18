@@ -1,0 +1,1 @@
+`Prepares <SOFTWARE>Object Masks</SOFTWARE> - converts bounding boxes from weak annotations into masks used in training <SOFTWARE>2</SOFTWARE>`

@@ -1,0 +1,3 @@
+```markdown
+Sethi     - [[<PUBLICATION>Paper</PUBLICATION>]](https://ieeexplore.ieee.org/abstract/document/58346/)   - **"<PUBLICATION>Layered neural net design through decision trees</PUBLICATION>"**, <CONFERENCE>ISCAS</CONFERENCE>, 1990     - I.K.
+```

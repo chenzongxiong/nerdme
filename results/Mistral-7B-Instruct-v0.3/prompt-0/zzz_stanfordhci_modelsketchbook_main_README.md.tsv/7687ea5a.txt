@@ -1,0 +1,26 @@
+```
+/docs/media/create_sketch_model.png" alt="create_sketch_model widgets" width="50%">
+
+## 2: Other functions
+### Tune concepts (optional)
+
+You may optionally tune your existing concepts by binarizing them at a threshold, normalizing the values, or calibrating them between specified values.
+
+<PROGLANG>Python</PROGLANG> code for binarizing concepts:
+```python
+def binarize_concepts(concepts, threshold):
+    binarized_concepts = []
+    for concept in concepts:
+        if concept > threshold:
+            binarized_concepts.append(1)
+        else:
+            binarized_concepts.append(0)
+    return binarized_concepts
+```
+
+<PROGLANG>Python</PROGLANG> code for normalizing values:
+```python
+def normalize_values(values, min_value, max_value):
+    normalized_values = []
+    for value in values:
+        normalized_value = (

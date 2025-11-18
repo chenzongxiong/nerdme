@@ -1,0 +1,1 @@
+It was created with <PROGLANG>WordNet</PROGLANG> synonyms embedded with <SOFTWARE>ELMo</SOFTWARE> and manually corrected by annotators.

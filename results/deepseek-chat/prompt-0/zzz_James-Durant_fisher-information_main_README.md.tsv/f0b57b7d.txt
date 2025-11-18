@@ -1,0 +1,3 @@
+```markdown
+K.},    doi       = {10.1107/S160057672100563X},    journal   = {<PUBLICATION>Journal of Applied Crystallography</PUBLICATION>},    month     = {Aug},    number    = {4},    pages     = {1100--1110},    publisher = {International Union of Crystallography ({IUCr})},    title     = {{<PUBLICATION>Determining the maximum information gain and optimizing experimental design in neutron reflectometry using the Fisher information</PUBLICATION>}},    url       = {https://doi.org/10.1107/S160057672100563X},    volume    = {54},    year      = {2021} } ```  For the figures presented in this article, see [figures](/figures).  ## Installation 1.
+```

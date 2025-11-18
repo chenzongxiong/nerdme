@@ -1,0 +1,9 @@
+|--validation
+```markdown
+`<PROGLANG>Python</PROGLANG>` `<SOFTWARE>main.py</SOFTWARE>` `--data_path` `/path/to/data/` `--lr_policy` `plateau`
+
+ Flags:
+- Set flag "input_type" to `<PROGLANG>rgb</PROGLANG>` or `<PROGLANG>depth</PROGLANG>`.
+- Set flag "pretrained" to `<PROGLANG>true</PROGLANG>` or `<PROGLANG>false</PROGLANG>` to use a model pretrained on Cityscapes for the global branch.
+- See `<PROGLANG>Python</PROGLANG>` `<SOFTWARE>main.py</SOFTWARE>` `--help` for more information.
+```

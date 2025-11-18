@@ -1,0 +1,3 @@
+```markdown
+<PUBLICATION>ACM</PUBLICATION>, New York, NY, USA, 9 pages. https://doi.org/10.11453447548.3467334  ## Introduction  This work presents a generative adversarial graph network model, called <SOFTWARE>ImGAGN</SOFTWARE> to address the imbalanced classification problem on graphs.
+```

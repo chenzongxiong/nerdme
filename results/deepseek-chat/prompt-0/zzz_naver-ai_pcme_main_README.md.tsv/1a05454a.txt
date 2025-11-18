@@ -1,0 +1,3 @@
+```markdown
+<PUBLICATION>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</PUBLICATION>. 2017.  #### hyperparameter search  We additionally use cross-validation splits by (Xian, et el. 2017), namely using 100 classes for training and 50 classes for validation.   ``` <PROGLANG>python</PROGLANG> train_cub.py .
+```

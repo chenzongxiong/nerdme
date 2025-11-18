@@ -1,0 +1,1 @@
+- `'volatility'`: [Volatility](https://en.wikipedia.org/wiki/Volatility_(finance)) of the stock

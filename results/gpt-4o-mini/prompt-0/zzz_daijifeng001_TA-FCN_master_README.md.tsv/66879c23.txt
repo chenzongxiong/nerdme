@@ -1,0 +1,3 @@
+```
+/external/mxnet/$(<PROGLANG>YOUR_MXNET_PACKAGE</PROGLANG>)`, and modify `<PROGLANG>MXNET_VERSION</PROGLANG>` in `.
+```

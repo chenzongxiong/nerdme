@@ -1,0 +1,3 @@
+```markdown
+Install <SOFTWARE>EfficientNet</SOFTWARE> implementation ```bash cd efficientNet python setup.py develop ``` d.
+```

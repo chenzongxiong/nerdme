@@ -1,0 +1,1 @@
+We use 68 facial landmarks for loss calculation during training.

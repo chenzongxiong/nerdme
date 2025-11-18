@@ -1,0 +1,1063 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Revisiting Instruction Fine-tuned Model Evaluation to Guide Industrial Applications
+#Text=
+#Text=This repository contains the code for the EMNLP 2023 paper [Revisiting Instruction Fine-tuned Model Evaluation to Guide Industrial Applications](https://arxiv.org/abs/2310.14103).
+#Text=
+#Text=
+#Text=## Abstract 
+#Text=
+#Text=Instruction Fine-Tuning (IFT) is a powerful paradigm that strengthens the zero-shot capabilities of Large Language Models (LLMs), but in doing so induces new evaluation metric requirements.
+1-1	0-1	#	_	_	
+1-2	2-12	Revisiting	*[1]	PUBLICATION[1]	
+1-3	13-24	Instruction	*[1]	PUBLICATION[1]	
+1-4	25-35	Fine-tuned	*[1]	PUBLICATION[1]	
+1-5	36-41	Model	*[1]	PUBLICATION[1]	
+1-6	42-52	Evaluation	*[1]	PUBLICATION[1]	
+1-7	53-55	to	*[1]	PUBLICATION[1]	
+1-8	56-61	Guide	*[1]	PUBLICATION[1]	
+1-9	62-72	Industrial	*[1]	PUBLICATION[1]	
+1-10	73-85	Applications	*[1]	PUBLICATION[1]	
+1-11	87-91	This	_	_	
+1-12	92-102	repository	_	_	
+1-13	103-111	contains	_	_	
+1-14	112-115	the	_	_	
+1-15	116-120	code	_	_	
+1-16	121-124	for	_	_	
+1-17	125-128	the	_	_	
+1-18	129-134	EMNLP	*[2]	CONFERENCE[2]	
+1-19	135-139	2023	*[2]	CONFERENCE[2]	
+1-20	140-145	paper	_	_	
+1-21	146-147	[	_	_	
+1-22	147-157	Revisiting	*[3]	PUBLICATION[3]	
+1-23	158-169	Instruction	*[3]	PUBLICATION[3]	
+1-24	170-180	Fine-tuned	*[3]	PUBLICATION[3]	
+1-25	181-186	Model	*[3]	PUBLICATION[3]	
+1-26	187-197	Evaluation	*[3]	PUBLICATION[3]	
+1-27	198-200	to	*[3]	PUBLICATION[3]	
+1-28	201-206	Guide	*[3]	PUBLICATION[3]	
+1-29	207-217	Industrial	*[3]	PUBLICATION[3]	
+1-30	218-230	Applications	*[3]	PUBLICATION[3]	
+1-31	230-231	]	_	_	
+1-32	231-232	(	_	_	
+1-33	232-237	https	_	_	
+1-34	237-238	:	_	_	
+1-35	238-239	/	_	_	
+1-36	239-240	/	_	_	
+1-37	240-249	arxiv.org	_	_	
+1-38	249-250	/	_	_	
+1-39	250-253	abs	_	_	
+1-40	253-254	/	_	_	
+1-41	254-264	2310.14103	_	_	
+1-42	264-265	)	_	_	
+1-43	265-266	.	_	_	
+1-44	269-270	#	_	_	
+1-45	270-271	#	_	_	
+1-46	272-280	Abstract	_	_	
+1-47	283-294	Instruction	_	_	
+1-48	295-306	Fine-Tuning	_	_	
+1-49	307-308	(	_	_	
+1-50	308-311	IFT	_	_	
+1-51	311-312	)	_	_	
+1-52	313-315	is	_	_	
+1-53	316-317	a	_	_	
+1-54	318-326	powerful	_	_	
+1-55	327-335	paradigm	_	_	
+1-56	336-340	that	_	_	
+1-57	341-352	strengthens	_	_	
+1-58	353-356	the	_	_	
+1-59	357-366	zero-shot	_	_	
+1-60	367-379	capabilities	_	_	
+1-61	380-382	of	_	_	
+1-62	383-388	Large	_	_	
+1-63	389-397	Language	_	_	
+1-64	398-404	Models	_	_	
+1-65	405-406	(	_	_	
+1-66	406-410	LLMs	_	_	
+1-67	410-411	)	_	_	
+1-68	411-412	,	_	_	
+1-69	413-416	but	_	_	
+1-70	417-419	in	_	_	
+1-71	420-425	doing	_	_	
+1-72	426-428	so	_	_	
+1-73	429-436	induces	_	_	
+1-74	437-440	new	_	_	
+1-75	441-451	evaluation	_	_	
+1-76	452-458	metric	_	_	
+1-77	459-471	requirements	_	_	
+1-78	471-472	.	_	_	
+
+#Text=We show LLM-based metrics to be well adapted to these requirements, and leverage them to conduct an investigation of task-specialization strategies, quantifying the trade-offs that emerge in practical industrial settings.
+2-1	473-475	We	_	_	
+2-2	476-480	show	_	_	
+2-3	481-490	LLM-based	_	_	
+2-4	491-498	metrics	_	_	
+2-5	499-501	to	_	_	
+2-6	502-504	be	_	_	
+2-7	505-509	well	_	_	
+2-8	510-517	adapted	_	_	
+2-9	518-520	to	_	_	
+2-10	521-526	these	_	_	
+2-11	527-539	requirements	_	_	
+2-12	539-540	,	_	_	
+2-13	541-544	and	_	_	
+2-14	545-553	leverage	_	_	
+2-15	554-558	them	_	_	
+2-16	559-561	to	_	_	
+2-17	562-569	conduct	_	_	
+2-18	570-572	an	_	_	
+2-19	573-586	investigation	_	_	
+2-20	587-589	of	_	_	
+2-21	590-609	task-specialization	_	_	
+2-22	610-620	strategies	_	_	
+2-23	620-621	,	_	_	
+2-24	622-633	quantifying	_	_	
+2-25	634-637	the	_	_	
+2-26	638-648	trade-offs	_	_	
+2-27	649-653	that	_	_	
+2-28	654-660	emerge	_	_	
+2-29	661-663	in	_	_	
+2-30	664-673	practical	_	_	
+2-31	674-684	industrial	_	_	
+2-32	685-693	settings	_	_	
+2-33	693-694	.	_	_	
+
+#Text=Our findings offer practitioners actionable insights for real-world IFT model deployment.
+#Text=
+#Text=## Citation
+#Text=
+#Text=If you use this code for your research, please cite our paper:
+#Text=
+#Text=```
+#Text=@misc{faysse2023revisiting,
+#Text=      title={Revisiting Instruction Fine-tuned Model Evaluation to Guide Industrial Applications}, 
+#Text=      author={Manuel Faysse and Gautier Viaud and Céline Hudelot and Pierre Colombo},
+#Text=      year={2023},
+#Text=      eprint={2310.14103},
+#Text=      archivePrefix={arXiv},
+#Text=      primaryClass={cs.LG}
+#Text=}
+#Text=```
+#Text=
+#Text=## Repository structure
+#Text=
+#Text=This repository contains code, data and experimental results for all experiments in the paper.
+3-1	695-698	Our	_	_	
+3-2	699-707	findings	_	_	
+3-3	708-713	offer	_	_	
+3-4	714-727	practitioners	_	_	
+3-5	728-738	actionable	_	_	
+3-6	739-747	insights	_	_	
+3-7	748-751	for	_	_	
+3-8	752-762	real-world	_	_	
+3-9	763-766	IFT	_	_	
+3-10	767-772	model	_	_	
+3-11	773-783	deployment	_	_	
+3-12	783-784	.	_	_	
+3-13	786-787	#	_	_	
+3-14	787-788	#	_	_	
+3-15	789-797	Citation	_	_	
+3-16	799-801	If	_	_	
+3-17	802-805	you	_	_	
+3-18	806-809	use	_	_	
+3-19	810-814	this	_	_	
+3-20	815-819	code	_	_	
+3-21	820-823	for	_	_	
+3-22	824-828	your	_	_	
+3-23	829-837	research	_	_	
+3-24	837-838	,	_	_	
+3-25	839-845	please	_	_	
+3-26	846-850	cite	_	_	
+3-27	851-854	our	_	_	
+3-28	855-860	paper	_	_	
+3-29	860-861	:	_	_	
+3-30	863-864	`	_	_	
+3-31	864-865	`	_	_	
+3-32	865-866	`	_	_	
+3-33	867-868	@	_	_	
+3-34	868-872	misc	_	_	
+3-35	872-873	{	_	_	
+3-36	873-893	faysse2023revisiting	_	_	
+3-37	893-894	,	_	_	
+3-38	901-906	title	_	_	
+3-39	906-907	=	_	_	
+3-40	907-908	{	_	_	
+3-41	908-918	Revisiting	*[4]	PUBLICATION[4]	
+3-42	919-930	Instruction	*[4]	PUBLICATION[4]	
+3-43	931-941	Fine-tuned	*[4]	PUBLICATION[4]	
+3-44	942-947	Model	*[4]	PUBLICATION[4]	
+3-45	948-958	Evaluation	*[4]	PUBLICATION[4]	
+3-46	959-961	to	*[4]	PUBLICATION[4]	
+3-47	962-967	Guide	*[4]	PUBLICATION[4]	
+3-48	968-978	Industrial	*[4]	PUBLICATION[4]	
+3-49	979-991	Applications	*[4]	PUBLICATION[4]	
+3-50	991-992	}	_	_	
+3-51	992-993	,	_	_	
+3-52	1001-1007	author	_	_	
+3-53	1007-1008	=	_	_	
+3-54	1008-1009	{	_	_	
+3-55	1009-1015	Manuel	_	_	
+3-56	1016-1022	Faysse	_	_	
+3-57	1023-1026	and	_	_	
+3-58	1027-1034	Gautier	_	_	
+3-59	1035-1040	Viaud	_	_	
+3-60	1041-1044	and	_	_	
+3-61	1045-1051	Céline	_	_	
+3-62	1052-1059	Hudelot	_	_	
+3-63	1060-1063	and	_	_	
+3-64	1064-1070	Pierre	_	_	
+3-65	1071-1078	Colombo	_	_	
+3-66	1078-1079	}	_	_	
+3-67	1079-1080	,	_	_	
+3-68	1087-1091	year	_	_	
+3-69	1091-1092	=	_	_	
+3-70	1092-1093	{	_	_	
+3-71	1093-1097	2023	_	_	
+3-72	1097-1098	}	_	_	
+3-73	1098-1099	,	_	_	
+3-74	1106-1112	eprint	_	_	
+3-75	1112-1113	=	_	_	
+3-76	1113-1114	{	_	_	
+3-77	1114-1124	2310.14103	_	_	
+3-78	1124-1125	}	_	_	
+3-79	1125-1126	,	_	_	
+3-80	1133-1146	archivePrefix	_	_	
+3-81	1146-1147	=	_	_	
+3-82	1147-1148	{	_	_	
+3-83	1148-1153	arXiv	_	_	
+3-84	1153-1154	}	_	_	
+3-85	1154-1155	,	_	_	
+3-86	1162-1174	primaryClass	_	_	
+3-87	1174-1175	=	_	_	
+3-88	1175-1176	{	_	_	
+3-89	1176-1181	cs.LG	_	_	
+3-90	1181-1182	}	_	_	
+3-91	1183-1184	}	_	_	
+3-92	1185-1186	`	_	_	
+3-93	1186-1187	`	_	_	
+3-94	1187-1188	`	_	_	
+3-95	1190-1191	#	_	_	
+3-96	1191-1192	#	_	_	
+3-97	1193-1203	Repository	_	_	
+3-98	1204-1213	structure	_	_	
+3-99	1215-1219	This	_	_	
+3-100	1220-1230	repository	_	_	
+3-101	1231-1239	contains	_	_	
+3-102	1240-1244	code	_	_	
+3-103	1244-1245	,	_	_	
+3-104	1246-1250	data	_	_	
+3-105	1251-1254	and	_	_	
+3-106	1255-1267	experimental	_	_	
+3-107	1268-1275	results	_	_	
+3-108	1276-1279	for	_	_	
+3-109	1280-1283	all	_	_	
+3-110	1284-1295	experiments	_	_	
+3-111	1296-1298	in	_	_	
+3-112	1299-1302	the	_	_	
+3-113	1303-1308	paper	_	_	
+3-114	1308-1309	.	_	_	
+
+#Text=The repository is structured as follows:
+#Text=
+#Text=### Data
+#Text=
+#Text=The data folder contains the data used in the paper.
+4-1	1311-1314	The	_	_	
+4-2	1315-1325	repository	_	_	
+4-3	1326-1328	is	_	_	
+4-4	1329-1339	structured	_	_	
+4-5	1340-1342	as	_	_	
+4-6	1343-1350	follows	_	_	
+4-7	1350-1351	:	_	_	
+4-8	1353-1354	#	_	_	
+4-9	1354-1355	#	_	_	
+4-10	1355-1356	#	_	_	
+4-11	1357-1361	Data	_	_	
+4-12	1363-1366	The	_	_	
+4-13	1367-1371	data	_	_	
+4-14	1372-1378	folder	_	_	
+4-15	1379-1387	contains	_	_	
+4-16	1388-1391	the	_	_	
+4-17	1392-1396	data	_	_	
+4-18	1397-1401	used	_	_	
+4-19	1402-1404	in	_	_	
+4-20	1405-1408	the	_	_	
+4-21	1409-1414	paper	_	_	
+4-22	1414-1415	.	_	_	
+
+#Text=In `data/fractial_mixes`, you will find the various instruction training sets used for both parts of the paper,
+#Text=evaluation of all scorers (Section 2) and investigations of learning dynamics (Section 3).
+5-1	1416-1418	In	_	_	
+5-2	1419-1420	`	_	_	
+5-3	1420-1424	data	_	_	
+5-4	1424-1425	/	_	_	
+5-5	1425-1439	fractial_mixes	_	_	
+5-6	1439-1440	`	_	_	
+5-7	1440-1441	,	_	_	
+5-8	1442-1445	you	_	_	
+5-9	1446-1450	will	_	_	
+5-10	1451-1455	find	_	_	
+5-11	1456-1459	the	_	_	
+5-12	1460-1467	various	_	_	
+5-13	1468-1479	instruction	_	_	
+5-14	1480-1488	training	_	_	
+5-15	1489-1493	sets	_	_	
+5-16	1494-1498	used	_	_	
+5-17	1499-1502	for	_	_	
+5-18	1503-1507	both	_	_	
+5-19	1508-1513	parts	_	_	
+5-20	1514-1516	of	_	_	
+5-21	1517-1520	the	_	_	
+5-22	1521-1526	paper	_	_	
+5-23	1526-1527	,	_	_	
+5-24	1528-1538	evaluation	_	_	
+5-25	1539-1541	of	_	_	
+5-26	1542-1545	all	_	_	
+5-27	1546-1553	scorers	_	_	
+5-28	1554-1555	(	_	_	
+5-29	1555-1562	Section	_	_	
+5-30	1563-1564	2	_	_	
+5-31	1564-1565	)	_	_	
+5-32	1566-1569	and	_	_	
+5-33	1570-1584	investigations	_	_	
+5-34	1585-1587	of	_	_	
+5-35	1588-1596	learning	_	_	
+5-36	1597-1605	dynamics	_	_	
+5-37	1606-1607	(	_	_	
+5-38	1607-1614	Section	_	_	
+5-39	1615-1616	3	_	_	
+5-40	1616-1617	)	_	_	
+5-41	1617-1618	.	_	_	
+
+#Text=Each folder contains data where n samples from the folder name category are included in the training set, along with the 
+#Text=rest of the synthetic samples from the Alpaca train set.
+6-1	1619-1623	Each	_	_	
+6-2	1624-1630	folder	_	_	
+6-3	1631-1639	contains	_	_	
+6-4	1640-1644	data	_	_	
+6-5	1645-1650	where	_	_	
+6-6	1651-1652	n	_	_	
+6-7	1653-1660	samples	_	_	
+6-8	1661-1665	from	_	_	
+6-9	1666-1669	the	_	_	
+6-10	1670-1676	folder	_	_	
+6-11	1677-1681	name	_	_	
+6-12	1682-1690	category	_	_	
+6-13	1691-1694	are	_	_	
+6-14	1695-1703	included	_	_	
+6-15	1704-1706	in	_	_	
+6-16	1707-1710	the	_	_	
+6-17	1711-1719	training	_	_	
+6-18	1720-1723	set	_	_	
+6-19	1723-1724	,	_	_	
+6-20	1725-1730	along	_	_	
+6-21	1731-1735	with	_	_	
+6-22	1736-1739	the	_	_	
+6-23	1741-1745	rest	_	_	
+6-24	1746-1748	of	_	_	
+6-25	1749-1752	the	_	_	
+6-26	1753-1762	synthetic	_	_	
+6-27	1763-1770	samples	_	_	
+6-28	1771-1775	from	_	_	
+6-29	1776-1779	the	_	_	
+6-30	1780-1786	Alpaca	_	_	
+6-31	1787-1792	train	_	_	
+6-32	1793-1796	set	_	_	
+6-33	1796-1797	.	_	_	
+
+#Text=Refer to the paper for more details.
+7-1	1798-1803	Refer	_	_	
+7-2	1804-1806	to	_	_	
+7-3	1807-1810	the	_	_	
+7-4	1811-1816	paper	_	_	
+7-5	1817-1820	for	_	_	
+7-6	1821-1825	more	_	_	
+7-7	1826-1833	details	_	_	
+7-8	1833-1834	.	_	_	
+
+#Text=Some task categories are synthetically generated through the Alpaca paradigm, others are manually labeled more classic
+#Text=NLP tasks (Xsum, SST2, Squad, CONLL) and are used as target tasks in most of the paper's experiments.
+8-1	1835-1839	Some	_	_	
+8-2	1840-1844	task	_	_	
+8-3	1845-1855	categories	_	_	
+8-4	1856-1859	are	_	_	
+8-5	1860-1873	synthetically	_	_	
+8-6	1874-1883	generated	_	_	
+8-7	1884-1891	through	_	_	
+8-8	1892-1895	the	_	_	
+8-9	1896-1902	Alpaca	_	_	
+8-10	1903-1911	paradigm	_	_	
+8-11	1911-1912	,	_	_	
+8-12	1913-1919	others	_	_	
+8-13	1920-1923	are	_	_	
+8-14	1924-1932	manually	_	_	
+8-15	1933-1940	labeled	_	_	
+8-16	1941-1945	more	_	_	
+8-17	1946-1953	classic	_	_	
+8-18	1954-1957	NLP	_	_	
+8-19	1958-1963	tasks	_	_	
+8-20	1964-1965	(	_	_	
+8-21	1965-1969	Xsum	*	DATASET	
+8-22	1969-1970	,	_	_	
+8-23	1971-1975	SST2	*	DATASET	
+8-24	1975-1976	,	_	_	
+8-25	1977-1982	Squad	*	DATASET	
+8-26	1982-1983	,	_	_	
+8-27	1984-1989	CONLL	*	DATASET	
+8-28	1989-1990	)	_	_	
+8-29	1991-1994	and	_	_	
+8-30	1995-1998	are	_	_	
+8-31	1999-2003	used	_	_	
+8-32	2004-2006	as	_	_	
+8-33	2007-2013	target	_	_	
+8-34	2014-2019	tasks	_	_	
+8-35	2020-2022	in	_	_	
+8-36	2023-2027	most	_	_	
+8-37	2028-2030	of	_	_	
+8-38	2031-2034	the	_	_	
+8-39	2035-2042	paper's	_	_	
+8-40	2043-2054	experiments	_	_	
+8-41	2054-2055	.	_	_	
+
+#Text=The experimental results are added in `data/results`, per experiment as CSV files.
+9-1	2057-2060	The	_	_	
+9-2	2061-2073	experimental	_	_	
+9-3	2074-2081	results	_	_	
+9-4	2082-2085	are	_	_	
+9-5	2086-2091	added	_	_	
+9-6	2092-2094	in	_	_	
+9-7	2095-2096	`	_	_	
+9-8	2096-2100	data	_	_	
+9-9	2100-2101	/	_	_	
+9-10	2101-2108	results	_	_	
+9-11	2108-2109	`	_	_	
+9-12	2109-2110	,	_	_	
+9-13	2111-2114	per	_	_	
+9-14	2115-2125	experiment	_	_	
+9-15	2126-2128	as	_	_	
+9-16	2129-2132	CSV	_	_	
+9-17	2133-2138	files	_	_	
+9-18	2138-2139	.	_	_	
+
+#Text=Raw JSON files for all models and experiments are also included in `data/results/results_new.zip`.
+10-1	2140-2143	Raw	_	_	
+10-2	2144-2148	JSON	_	_	
+10-3	2149-2154	files	_	_	
+10-4	2155-2158	for	_	_	
+10-5	2159-2162	all	_	_	
+10-6	2163-2169	models	_	_	
+10-7	2170-2173	and	_	_	
+10-8	2174-2185	experiments	_	_	
+10-9	2186-2189	are	_	_	
+10-10	2190-2194	also	_	_	
+10-11	2195-2203	included	_	_	
+10-12	2204-2206	in	_	_	
+10-13	2207-2208	`	_	_	
+10-14	2208-2212	data	_	_	
+10-15	2212-2213	/	_	_	
+10-16	2213-2220	results	_	_	
+10-17	2220-2221	/	_	_	
+10-18	2221-2236	results_new.zip	_	_	
+10-19	2236-2237	`	_	_	
+10-20	2237-2238	.	_	_	
+
+#Text=To process them for further analysis, a notebook is contained in `scripts/result_aggregation/results_viz.ipynb`.
+#Text=
+#Text=### Scripts
+#Text=
+#Text=The `scripts/mix_generation` folder contains all code to sample data mixes from their original datasets.
+11-1	2239-2241	To	_	_	
+11-2	2242-2249	process	_	_	
+11-3	2250-2254	them	_	_	
+11-4	2255-2258	for	_	_	
+11-5	2259-2266	further	_	_	
+11-6	2267-2275	analysis	_	_	
+11-7	2275-2276	,	_	_	
+11-8	2277-2278	a	_	_	
+11-9	2279-2287	notebook	_	_	
+11-10	2288-2290	is	_	_	
+11-11	2291-2300	contained	_	_	
+11-12	2301-2303	in	_	_	
+11-13	2304-2305	`	_	_	
+11-14	2305-2312	scripts	_	_	
+11-15	2312-2313	/	_	_	
+11-16	2313-2331	result_aggregation	_	_	
+11-17	2331-2332	/	_	_	
+11-18	2332-2349	results_viz.ipynb	_	_	
+11-19	2349-2350	`	_	_	
+11-20	2350-2351	.	_	_	
+11-21	2353-2354	#	_	_	
+11-22	2354-2355	#	_	_	
+11-23	2355-2356	#	_	_	
+11-24	2357-2364	Scripts	_	_	
+11-25	2366-2369	The	_	_	
+11-26	2370-2371	`	_	_	
+11-27	2371-2378	scripts	_	_	
+11-28	2378-2379	/	_	_	
+11-29	2379-2393	mix_generation	_	_	
+11-30	2393-2394	`	_	_	
+11-31	2395-2401	folder	_	_	
+11-32	2402-2410	contains	_	_	
+11-33	2411-2414	all	_	_	
+11-34	2415-2419	code	_	_	
+11-35	2420-2422	to	_	_	
+11-36	2423-2429	sample	_	_	
+11-37	2430-2434	data	_	_	
+11-38	2435-2440	mixes	_	_	
+11-39	2441-2445	from	_	_	
+11-40	2446-2451	their	_	_	
+11-41	2452-2460	original	_	_	
+11-42	2461-2469	datasets	_	_	
+11-43	2469-2470	.	_	_	
+
+#Text=Note we include only the final sampled datasets in this repo for practicity, and because all datasets used are publicly available on the HuggingFace hub.
+12-1	2471-2475	Note	_	_	
+12-2	2476-2478	we	_	_	
+12-3	2479-2486	include	_	_	
+12-4	2487-2491	only	_	_	
+12-5	2492-2495	the	_	_	
+12-6	2496-2501	final	_	_	
+12-7	2502-2509	sampled	_	_	
+12-8	2510-2518	datasets	_	_	
+12-9	2519-2521	in	_	_	
+12-10	2522-2526	this	_	_	
+12-11	2527-2531	repo	_	_	
+12-12	2532-2535	for	_	_	
+12-13	2536-2546	practicity	_	_	
+12-14	2546-2547	,	_	_	
+12-15	2548-2551	and	_	_	
+12-16	2552-2559	because	_	_	
+12-17	2560-2563	all	_	_	
+12-18	2564-2572	datasets	_	_	
+12-19	2573-2577	used	_	_	
+12-20	2578-2581	are	_	_	
+12-21	2582-2590	publicly	_	_	
+12-22	2591-2600	available	_	_	
+12-23	2601-2603	on	_	_	
+12-24	2604-2607	the	_	_	
+12-25	2608-2619	HuggingFace	_	_	
+12-26	2620-2623	hub	_	_	
+12-27	2623-2624	.	_	_	
+
+#Text=The `scripts/result_aggregation` folder contains scripts to convert the raw result files (`data/results/results_new.zip`) with model descriptions
+#Text=to final result files with each scorer's evaluation, for every experiment.
+13-1	2627-2630	The	_	_	
+13-2	2631-2632	`	_	_	
+13-3	2632-2639	scripts	_	_	
+13-4	2639-2640	/	_	_	
+13-5	2640-2658	result_aggregation	_	_	
+13-6	2658-2659	`	_	_	
+13-7	2660-2666	folder	_	_	
+13-8	2667-2675	contains	_	_	
+13-9	2676-2683	scripts	_	_	
+13-10	2684-2686	to	_	_	
+13-11	2687-2694	convert	_	_	
+13-12	2695-2698	the	_	_	
+13-13	2699-2702	raw	_	_	
+13-14	2703-2709	result	_	_	
+13-15	2710-2715	files	_	_	
+13-16	2716-2717	(	_	_	
+13-17	2717-2718	`	_	_	
+13-18	2718-2722	data	_	_	
+13-19	2722-2723	/	_	_	
+13-20	2723-2730	results	_	_	
+13-21	2730-2731	/	_	_	
+13-22	2731-2746	results_new.zip	_	_	
+13-23	2746-2747	`	_	_	
+13-24	2747-2748	)	_	_	
+13-25	2749-2753	with	_	_	
+13-26	2754-2759	model	_	_	
+13-27	2760-2772	descriptions	_	_	
+13-28	2773-2775	to	_	_	
+13-29	2776-2781	final	_	_	
+13-30	2782-2788	result	_	_	
+13-31	2789-2794	files	_	_	
+13-32	2795-2799	with	_	_	
+13-33	2800-2804	each	_	_	
+13-34	2805-2813	scorer's	_	_	
+13-35	2814-2824	evaluation	_	_	
+13-36	2824-2825	,	_	_	
+13-37	2826-2829	for	_	_	
+13-38	2830-2835	every	_	_	
+13-39	2836-2846	experiment	_	_	
+13-40	2846-2847	.	_	_	
+
+#Text=The final experimental results are added in `data/results`, per experiment as CSV files.
+14-1	2848-2851	The	_	_	
+14-2	2852-2857	final	_	_	
+14-3	2858-2870	experimental	_	_	
+14-4	2871-2878	results	_	_	
+14-5	2879-2882	are	_	_	
+14-6	2883-2888	added	_	_	
+14-7	2889-2891	in	_	_	
+14-8	2892-2893	`	_	_	
+14-9	2893-2897	data	_	_	
+14-10	2897-2898	/	_	_	
+14-11	2898-2905	results	_	_	
+14-12	2905-2906	`	_	_	
+14-13	2906-2907	,	_	_	
+14-14	2908-2911	per	_	_	
+14-15	2912-2922	experiment	_	_	
+14-16	2923-2925	as	_	_	
+14-17	2926-2929	CSV	_	_	
+14-18	2930-2935	files	_	_	
+14-19	2935-2936	.	_	_	
+
+#Text=To process them for further analysis, a notebook is contained in `scripts/result_aggregation/results_viz.ipynb`.
+#Text=
+#Text=### Model training
+#Text=
+#Text=The `model_training/finetune.py` file contains finetuning results for running instruction finetuning training on 
+#Text=custom data with Lora adapters, and computing and storing model predictions on the test sets.
+15-1	2937-2939	To	_	_	
+15-2	2940-2947	process	_	_	
+15-3	2948-2952	them	_	_	
+15-4	2953-2956	for	_	_	
+15-5	2957-2964	further	_	_	
+15-6	2965-2973	analysis	_	_	
+15-7	2973-2974	,	_	_	
+15-8	2975-2976	a	_	_	
+15-9	2977-2985	notebook	_	_	
+15-10	2986-2988	is	_	_	
+15-11	2989-2998	contained	_	_	
+15-12	2999-3001	in	_	_	
+15-13	3002-3003	`	_	_	
+15-14	3003-3010	scripts	_	_	
+15-15	3010-3011	/	_	_	
+15-16	3011-3029	result_aggregation	_	_	
+15-17	3029-3030	/	_	_	
+15-18	3030-3047	results_viz.ipynb	_	_	
+15-19	3047-3048	`	_	_	
+15-20	3048-3049	.	_	_	
+15-21	3051-3052	#	_	_	
+15-22	3052-3053	#	_	_	
+15-23	3053-3054	#	_	_	
+15-24	3055-3060	Model	_	_	
+15-25	3061-3069	training	_	_	
+15-26	3071-3074	The	_	_	
+15-27	3075-3076	`	_	_	
+15-28	3076-3090	model_training	_	_	
+15-29	3090-3091	/	_	_	
+15-30	3091-3102	finetune.py	_	_	
+15-31	3102-3103	`	_	_	
+15-32	3104-3108	file	_	_	
+15-33	3109-3117	contains	_	_	
+15-34	3118-3128	finetuning	_	_	
+15-35	3129-3136	results	_	_	
+15-36	3137-3140	for	_	_	
+15-37	3141-3148	running	_	_	
+15-38	3149-3160	instruction	_	_	
+15-39	3161-3171	finetuning	_	_	
+15-40	3172-3180	training	_	_	
+15-41	3181-3183	on	_	_	
+15-42	3185-3191	custom	_	_	
+15-43	3192-3196	data	_	_	
+15-44	3197-3201	with	_	_	
+15-45	3202-3206	Lora	_	_	
+15-46	3207-3215	adapters	_	_	
+15-47	3215-3216	,	_	_	
+15-48	3217-3220	and	_	_	
+15-49	3221-3230	computing	_	_	
+15-50	3231-3234	and	_	_	
+15-51	3235-3242	storing	_	_	
+15-52	3243-3248	model	_	_	
+15-53	3249-3260	predictions	_	_	
+15-54	3261-3263	on	_	_	
+15-55	3264-3267	the	_	_	
+15-56	3268-3272	test	_	_	
+15-57	3273-3277	sets	_	_	
+15-58	3277-3278	.	_	_	
+
+#Text=It is heavily inspired by tloen's Alpaca-Lora.
+16-1	3279-3281	It	_	_	
+16-2	3282-3284	is	_	_	
+16-3	3285-3292	heavily	_	_	
+16-4	3293-3301	inspired	_	_	
+16-5	3302-3304	by	_	_	
+16-6	3305-3312	tloen's	_	_	
+16-7	3313-3324	Alpaca-Lora	_	_	
+16-8	3324-3325	.	_	_	
+
+#Text=SLURM commands used for model training take this form:
+#Text=```bash
+#Text=sbatch --job-name=frac_100u --nodes=1 --time=24:00:00 -p gpua100 --gres=gpu:1 --mem-per-cpu=32G --cpus-per-task=8     --output=frac_100u.out     --error=frac_100u.err     --wrap="python model_training/finetune.py       --train_data_path data/fractial_code/fractial_code_100_train.jsonl      --output_dir models/fractial_code_100       --micro_batch_size 32       --num_epochs 2       --cutoff_len 512       --val_data_path data/fractial_code/fractial_code_1000_validation.jsonl       --test_data_path data/fractial_code/fractial_code_only_test.jsonl"
+#Text=```
+#Text=and are partially available in the `data/fractial_mixes` folder.
+#Text=
+#Text=### Evaluation
+#Text=
+#Text=Evaluation contains all code (called by scripts in `scripts/result_aggregation`) to compute prediction scores for all scorers.
+17-1	3327-3332	SLURM	*	SOFTWARE	
+17-2	3333-3341	commands	_	_	
+17-3	3342-3346	used	_	_	
+17-4	3347-3350	for	_	_	
+17-5	3351-3356	model	_	_	
+17-6	3357-3365	training	_	_	
+17-7	3366-3370	take	_	_	
+17-8	3371-3375	this	_	_	
+17-9	3376-3380	form	_	_	
+17-10	3380-3381	:	_	_	
+17-11	3382-3383	`	_	_	
+17-12	3383-3384	`	_	_	
+17-13	3384-3385	`	_	_	
+17-14	3385-3389	bash	*	PROGLANG	
+17-15	3390-3396	sbatch	_	_	
+17-16	3397-3398	-	_	_	
+17-17	3398-3399	-	_	_	
+17-18	3399-3407	job-name	_	_	
+17-19	3407-3408	=	_	_	
+17-20	3408-3412	frac	_	_	
+17-21	3412-3413	_	_	_	
+17-22	3413-3417	100u	_	_	
+17-23	3418-3419	-	_	_	
+17-24	3419-3420	-	_	_	
+17-25	3420-3425	nodes	_	_	
+17-26	3425-3426	=	_	_	
+17-27	3426-3427	1	_	_	
+17-28	3428-3429	-	_	_	
+17-29	3429-3430	-	_	_	
+17-30	3430-3434	time	_	_	
+17-31	3434-3435	=	_	_	
+17-32	3435-3437	24	_	_	
+17-33	3437-3438	:	_	_	
+17-34	3438-3440	00	_	_	
+17-35	3440-3441	:	_	_	
+17-36	3441-3443	00	_	_	
+17-37	3444-3445	-	_	_	
+17-38	3445-3446	p	_	_	
+17-39	3447-3454	gpua100	_	_	
+17-40	3455-3456	-	_	_	
+17-41	3456-3457	-	_	_	
+17-42	3457-3461	gres	_	_	
+17-43	3461-3462	=	_	_	
+17-44	3462-3465	gpu	_	_	
+17-45	3465-3466	:	_	_	
+17-46	3466-3467	1	_	_	
+17-47	3468-3469	-	_	_	
+17-48	3469-3470	-	_	_	
+17-49	3470-3481	mem-per-cpu	_	_	
+17-50	3481-3482	=	_	_	
+17-51	3482-3485	32G	_	_	
+17-52	3486-3487	-	_	_	
+17-53	3487-3488	-	_	_	
+17-54	3488-3501	cpus-per-task	_	_	
+17-55	3501-3502	=	_	_	
+17-56	3502-3503	8	_	_	
+17-57	3508-3509	-	_	_	
+17-58	3509-3510	-	_	_	
+17-59	3510-3516	output	_	_	
+17-60	3516-3517	=	_	_	
+17-61	3517-3521	frac	_	_	
+17-62	3521-3522	_	_	_	
+17-63	3522-3530	100u.out	_	_	
+17-64	3535-3536	-	_	_	
+17-65	3536-3537	-	_	_	
+17-66	3537-3542	error	_	_	
+17-67	3542-3543	=	_	_	
+17-68	3543-3547	frac	_	_	
+17-69	3547-3548	_	_	_	
+17-70	3548-3556	100u.err	_	_	
+17-71	3561-3562	-	_	_	
+17-72	3562-3563	-	_	_	
+17-73	3563-3567	wrap	_	_	
+17-74	3567-3568	=	_	_	
+17-75	3568-3569	"	_	_	
+17-76	3569-3575	python	*	SOFTWARE	
+17-77	3576-3590	model_training	_	_	
+17-78	3590-3591	/	_	_	
+17-79	3591-3602	finetune.py	_	_	
+17-80	3609-3610	-	_	_	
+17-81	3610-3611	-	_	_	
+17-82	3611-3626	train_data_path	_	_	
+17-83	3627-3631	data	_	_	
+17-84	3631-3632	/	_	_	
+17-85	3632-3645	fractial_code	_	_	
+17-86	3645-3646	/	_	_	
+17-87	3646-3659	fractial_code	_	_	
+17-88	3659-3660	_	_	_	
+17-89	3660-3663	100	_	_	
+17-90	3663-3664	_	_	_	
+17-91	3664-3675	train.jsonl	_	_	
+17-92	3681-3682	-	_	_	
+17-93	3682-3683	-	_	_	
+17-94	3683-3693	output_dir	_	_	
+17-95	3694-3700	models	_	_	
+17-96	3700-3701	/	_	_	
+17-97	3701-3714	fractial_code	_	_	
+17-98	3714-3715	_	_	_	
+17-99	3715-3718	100	_	_	
+17-100	3725-3726	-	_	_	
+17-101	3726-3727	-	_	_	
+17-102	3727-3743	micro_batch_size	_	_	
+17-103	3744-3746	32	_	_	
+17-104	3753-3754	-	_	_	
+17-105	3754-3755	-	_	_	
+17-106	3755-3765	num_epochs	_	_	
+17-107	3766-3767	2	_	_	
+17-108	3774-3775	-	_	_	
+17-109	3775-3776	-	_	_	
+17-110	3776-3786	cutoff_len	_	_	
+17-111	3787-3790	512	_	_	
+17-112	3797-3798	-	_	_	
+17-113	3798-3799	-	_	_	
+17-114	3799-3812	val_data_path	_	_	
+17-115	3813-3817	data	_	_	
+17-116	3817-3818	/	_	_	
+17-117	3818-3831	fractial_code	_	_	
+17-118	3831-3832	/	_	_	
+17-119	3832-3845	fractial_code	_	_	
+17-120	3845-3846	_	_	_	
+17-121	3846-3850	1000	_	_	
+17-122	3850-3851	_	_	_	
+17-123	3851-3867	validation.jsonl	_	_	
+17-124	3874-3875	-	_	_	
+17-125	3875-3876	-	_	_	
+17-126	3876-3890	test_data_path	_	_	
+17-127	3891-3895	data	_	_	
+17-128	3895-3896	/	_	_	
+17-129	3896-3909	fractial_code	_	_	
+17-130	3909-3910	/	_	_	
+17-131	3910-3939	fractial_code_only_test.jsonl	_	_	
+17-132	3939-3940	"	_	_	
+17-133	3941-3942	`	_	_	
+17-134	3942-3943	`	_	_	
+17-135	3943-3944	`	_	_	
+17-136	3945-3948	and	_	_	
+17-137	3949-3952	are	_	_	
+17-138	3953-3962	partially	_	_	
+17-139	3963-3972	available	_	_	
+17-140	3973-3975	in	_	_	
+17-141	3976-3979	the	_	_	
+17-142	3980-3981	`	_	_	
+17-143	3981-3985	data	_	_	
+17-144	3985-3986	/	_	_	
+17-145	3986-4000	fractial_mixes	_	_	
+17-146	4000-4001	`	_	_	
+17-147	4002-4008	folder	_	_	
+17-148	4008-4009	.	_	_	
+17-149	4011-4012	#	_	_	
+17-150	4012-4013	#	_	_	
+17-151	4013-4014	#	_	_	
+17-152	4015-4025	Evaluation	_	_	
+17-153	4027-4037	Evaluation	_	_	
+17-154	4038-4046	contains	_	_	
+17-155	4047-4050	all	_	_	
+17-156	4051-4055	code	_	_	
+17-157	4056-4057	(	_	_	
+17-158	4057-4063	called	_	_	
+17-159	4064-4066	by	_	_	
+17-160	4067-4074	scripts	_	_	
+17-161	4075-4077	in	_	_	
+17-162	4078-4079	`	_	_	
+17-163	4079-4086	scripts	_	_	
+17-164	4086-4087	/	_	_	
+17-165	4087-4105	result_aggregation	_	_	
+17-166	4105-4106	`	_	_	
+17-167	4106-4107	)	_	_	
+17-168	4108-4110	to	_	_	
+17-169	4111-4118	compute	_	_	
+17-170	4119-4129	prediction	_	_	
+17-171	4130-4136	scores	_	_	
+17-172	4137-4140	for	_	_	
+17-173	4141-4144	all	_	_	
+17-174	4145-4152	scorers	_	_	
+17-175	4152-4153	.	_	_	
+
+#Text=Scorers include:
+#Text=- Any scorer available through HuggingFace Evaluate
+#Text=- BertScore
+#Text=- SentenceBert
+#Text=- A Reward model trained by OpenAssistant
+#Text=- API-access LLMs like GPT4 or GPT3.5
+#Text=- Support for Custom heuristics on custom datasets
+#Text=
+#Text=### Contact
+#Text=
+#Text=As this is a repository intended to support reproducing the work in the EMNLP paper, it is not going
+#Text=to be further developped moving onwards.
+18-1	4155-4162	Scorers	_	_	
+18-2	4163-4170	include	_	_	
+18-3	4170-4171	:	_	_	
+18-4	4172-4173	-	_	_	
+18-5	4174-4177	Any	_	_	
+18-6	4178-4184	scorer	_	_	
+18-7	4185-4194	available	_	_	
+18-8	4195-4202	through	_	_	
+18-9	4203-4214	HuggingFace	_	_	
+18-10	4215-4223	Evaluate	_	_	
+18-11	4224-4225	-	_	_	
+18-12	4226-4235	BertScore	_	_	
+18-13	4236-4237	-	_	_	
+18-14	4238-4250	SentenceBert	_	_	
+18-15	4251-4252	-	_	_	
+18-16	4253-4254	A	_	_	
+18-17	4255-4261	Reward	_	_	
+18-18	4262-4267	model	_	_	
+18-19	4268-4275	trained	_	_	
+18-20	4276-4278	by	_	_	
+18-21	4279-4292	OpenAssistant	*	SOFTWARE	
+18-22	4293-4294	-	_	_	
+18-23	4295-4305	API-access	_	_	
+18-24	4306-4310	LLMs	_	_	
+18-25	4311-4315	like	_	_	
+18-26	4316-4320	GPT4	*	SOFTWARE	
+18-27	4321-4323	or	_	_	
+18-28	4324-4330	GPT3.5	*	SOFTWARE	
+18-29	4331-4332	-	_	_	
+18-30	4333-4340	Support	_	_	
+18-31	4341-4344	for	_	_	
+18-32	4345-4351	Custom	_	_	
+18-33	4352-4362	heuristics	_	_	
+18-34	4363-4365	on	_	_	
+18-35	4366-4372	custom	_	_	
+18-36	4373-4381	datasets	_	_	
+18-37	4383-4384	#	_	_	
+18-38	4384-4385	#	_	_	
+18-39	4385-4386	#	_	_	
+18-40	4387-4394	Contact	_	_	
+18-41	4396-4398	As	_	_	
+18-42	4399-4403	this	_	_	
+18-43	4404-4406	is	_	_	
+18-44	4407-4408	a	_	_	
+18-45	4409-4419	repository	_	_	
+18-46	4420-4428	intended	_	_	
+18-47	4429-4431	to	_	_	
+18-48	4432-4439	support	_	_	
+18-49	4440-4451	reproducing	_	_	
+18-50	4452-4455	the	_	_	
+18-51	4456-4460	work	_	_	
+18-52	4461-4463	in	_	_	
+18-53	4464-4467	the	_	_	
+18-54	4468-4473	EMNLP	*	CONFERENCE	
+18-55	4474-4479	paper	_	_	
+18-56	4479-4480	,	_	_	
+18-57	4481-4483	it	_	_	
+18-58	4484-4486	is	_	_	
+18-59	4487-4490	not	_	_	
+18-60	4491-4496	going	_	_	
+18-61	4497-4499	to	_	_	
+18-62	4500-4502	be	_	_	
+18-63	4503-4510	further	_	_	
+18-64	4511-4521	developped	_	_	
+18-65	4522-4528	moving	_	_	
+18-66	4529-4536	onwards	_	_	
+18-67	4536-4537	.	_	_	
+
+#Text=Some paths to data sources might have been changed since the original code writing.
+19-1	4538-4542	Some	_	_	
+19-2	4543-4548	paths	_	_	
+19-3	4549-4551	to	_	_	
+19-4	4552-4556	data	_	_	
+19-5	4557-4564	sources	_	_	
+19-6	4565-4570	might	_	_	
+19-7	4571-4575	have	_	_	
+19-8	4576-4580	been	_	_	
+19-9	4581-4588	changed	_	_	
+19-10	4589-4594	since	_	_	
+19-11	4595-4598	the	_	_	
+19-12	4599-4607	original	_	_	
+19-13	4608-4612	code	_	_	
+19-14	4613-4620	writing	_	_	
+19-15	4620-4621	.	_	_	
+
+#Text=However, authors will be pleased to answer any implementation detail or questions about the work through Github Issues or email.
+#Text=
+#Text=
+#Text=### FAQ
+#Text=
+#Text=The `illuin_llm_tools` package is a proprietary package, which is simply a wrapper around the OpenAI API to 
+#Text=enable easier parallelization and caching of the API requests.
+20-1	4622-4629	However	_	_	
+20-2	4629-4630	,	_	_	
+20-3	4631-4638	authors	_	_	
+20-4	4639-4643	will	_	_	
+20-5	4644-4646	be	_	_	
+20-6	4647-4654	pleased	_	_	
+20-7	4655-4657	to	_	_	
+20-8	4658-4664	answer	_	_	
+20-9	4665-4668	any	_	_	
+20-10	4669-4683	implementation	_	_	
+20-11	4684-4690	detail	_	_	
+20-12	4691-4693	or	_	_	
+20-13	4694-4703	questions	_	_	
+20-14	4704-4709	about	_	_	
+20-15	4710-4713	the	_	_	
+20-16	4714-4718	work	_	_	
+20-17	4719-4726	through	_	_	
+20-18	4727-4733	Github	_	_	
+20-19	4734-4740	Issues	_	_	
+20-20	4741-4743	or	_	_	
+20-21	4744-4749	email	_	_	
+20-22	4749-4750	.	_	_	
+20-23	4753-4754	#	_	_	
+20-24	4754-4755	#	_	_	
+20-25	4755-4756	#	_	_	
+20-26	4757-4760	FAQ	_	_	
+20-27	4762-4765	The	_	_	
+20-28	4766-4767	`	_	_	
+20-29	4767-4783	illuin_llm_tools	_	_	
+20-30	4783-4784	`	_	_	
+20-31	4785-4792	package	_	_	
+20-32	4793-4795	is	_	_	
+20-33	4796-4797	a	_	_	
+20-34	4798-4809	proprietary	_	_	
+20-35	4810-4817	package	_	_	
+20-36	4817-4818	,	_	_	
+20-37	4819-4824	which	_	_	
+20-38	4825-4827	is	_	_	
+20-39	4828-4834	simply	_	_	
+20-40	4835-4836	a	_	_	
+20-41	4837-4844	wrapper	_	_	
+20-42	4845-4851	around	_	_	
+20-43	4852-4855	the	_	_	
+20-44	4856-4862	OpenAI	_	_	
+20-45	4863-4866	API	_	_	
+20-46	4867-4869	to	_	_	
+20-47	4871-4877	enable	_	_	
+20-48	4878-4884	easier	_	_	
+20-49	4885-4900	parallelization	_	_	
+20-50	4901-4904	and	_	_	
+20-51	4905-4912	caching	_	_	
+20-52	4913-4915	of	_	_	
+20-53	4916-4919	the	_	_	
+20-54	4920-4923	API	_	_	
+20-55	4924-4932	requests	_	_	
+20-56	4932-4933	.	_	_	
+
+#Text=It is in the process of being open-sourced, in the meantime, simply replacing it's use with classic API calls with the 
+#Text=OpenAI library yields the same results (lm-evaluator.py).
+21-1	4934-4936	It	_	_	
+21-2	4937-4939	is	_	_	
+21-3	4940-4942	in	_	_	
+21-4	4943-4946	the	_	_	
+21-5	4947-4954	process	_	_	
+21-6	4955-4957	of	_	_	
+21-7	4958-4963	being	_	_	
+21-8	4964-4976	open-sourced	_	_	
+21-9	4976-4977	,	_	_	
+21-10	4978-4980	in	_	_	
+21-11	4981-4984	the	_	_	
+21-12	4985-4993	meantime	_	_	
+21-13	4993-4994	,	_	_	
+21-14	4995-5001	simply	_	_	
+21-15	5002-5011	replacing	_	_	
+21-16	5012-5016	it's	_	_	
+21-17	5017-5020	use	_	_	
+21-18	5021-5025	with	_	_	
+21-19	5026-5033	classic	_	_	
+21-20	5034-5037	API	_	_	
+21-21	5038-5043	calls	_	_	
+21-22	5044-5048	with	_	_	
+21-23	5049-5052	the	_	_	
+21-24	5054-5060	OpenAI	*	SOFTWARE	
+21-25	5061-5068	library	_	_	
+21-26	5069-5075	yields	_	_	
+21-27	5076-5079	the	_	_	
+21-28	5080-5084	same	_	_	
+21-29	5085-5092	results	_	_	
+21-30	5093-5094	(	_	_	
+21-31	5094-5109	lm-evaluator.py	_	_	
+21-32	5109-5110	)	_	_	
+21-33	5110-5111	.	_	_	

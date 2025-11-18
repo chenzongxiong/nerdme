@@ -1,0 +1,1 @@
+It uses a more advanced version of `<SOFTWARE>evaluate</SOFTWARE>`(https://github.com/huggingface/<SOFTWARE>evaluate</SOFTWARE>/) design for underlying metric computation, so that adding custom metric is easy as extending proper class.

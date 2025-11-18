@@ -1,0 +1,3 @@
+```markdown
+- Add model information in [configs/<SOFTWARE>model_configs</SOFTWARE>.yaml](.
+```

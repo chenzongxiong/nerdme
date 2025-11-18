@@ -1,0 +1,3 @@
+`[Anaconda-Server Badge](https://anaconda.org/conda-forge/megaman/badges/downloads.svg)](https://anaconda.org/conda-forge/megaman) [![<PROJECT>Conda-forge</PROJECT>](https://anaconda.org/conda-forge/megaman)](https://anaconda.org/conda-forge/megaman)`
+
+In this example, I've annotated the project name "Conda-forge" as it is a project related to the Anaconda server.

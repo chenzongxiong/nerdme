@@ -1,0 +1,1 @@
+<p align="center">     <img src="resources/<SOFTWARE>annotations</SOFTWARE>.png" alt="<SOFTWARE>SLR annotations</SOFTWARE>" width="400px"> </p>  **November <MONTH>2022</MONTH>**: Published in <PUBLICATION>Sensors</PUBLICATION>.

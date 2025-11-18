@@ -1,0 +1,3 @@
+```markdown
+To see more, check the [official <PROJECT>Jury</PROJECT> blog post](https://medium.com/codable/<PROJECT>jury</PROJECT>-evaluating-performance-of-nlg-models-730eb9c9999f).  ## 🔥  News  * (2024.05.29) [<PUBLICATION>Retraction Watch Post</PUBLICATION>](https://retractionwatch.com/2024/05/29/caught-by-a-reviewer-a-plagiarizing-deep-learning-paper-lingers/) regarding retraction of a paper has been posted.
+```

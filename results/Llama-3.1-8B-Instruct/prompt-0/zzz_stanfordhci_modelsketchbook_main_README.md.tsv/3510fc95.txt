@@ -1,0 +1,1 @@
+/docs/media/<SOFTWARE>tune_concept</SOFTWARE> widgets" alt="<SOFTWARE>tune_concept</SOFTWARE> widgets" width="50%">  ### <PUBLICATION>Logical concepts (AND, OR)</PUBLICATION> <PUBLICATION>Logical concepts</PUBLICATION> can be applied to any number of existing binary <PUBLICATION>concepts</PUBLICATION>.

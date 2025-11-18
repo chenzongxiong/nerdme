@@ -1,0 +1,2 @@
+```python from <PROGLANG>wildlifeml</PROGLANG>.data import <SOFTWARE>BBoxMapper</SOFTWARE> mapper = <SOFTWARE>BBoxMapper</SOFTWARE>(detector_file_path='<path_to_images_megadetector.json>') key_map = mapper.get_keymap() ```  ### 03: Creating a <DATASET>Wildlife</DATASET> Dataset  #### Initializing a <DATASET>Dataset</DATASET>  Our <DATASET>dataset</DATASET> builds on the <SOFTWARE>Keras</SOFTWARE> `<PROGLANG>Sequence</PROGLANG>` utility and thus supports multi-threaded loading during training.
+```

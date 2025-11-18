@@ -1,0 +1,2 @@
+```py from pfhedge.nn import <SOFTWARE>Hedger</SOFTWARE> from pfhedge.nn import <SOFTWARE>MultiLayerPerceptron</SOFTWARE>  model = <SOFTWARE>MultiLayerPerceptron</SOFTWARE>() hedger = <SOFTWARE>Hedger</SOFTWARE>(model, inputs=["log_moneyness", "expiry_time", "volatility", "prev_hedge"]) ```  The `hedger` is also a [`<SOFTWARE>Module</SOFTWARE>`](https://pytorch.org/docs/stable/generated/torch.nn.Module.html).
+```

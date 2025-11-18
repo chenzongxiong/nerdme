@@ -1,0 +1,3 @@
+```markdown
+/main logistic //To generate <PROGLANG>TensorFlow</PROGLANG> code for the Logistic Regression model in working_examples/logistic_regression.sql  The files with the generated <PROGLANG>TensorFlow</PROGLANG>/<PROGLANG>Python</PROGLANG> code can be executed like any other <PROGLANG>TensorFlow</PROGLANG> program.
+```

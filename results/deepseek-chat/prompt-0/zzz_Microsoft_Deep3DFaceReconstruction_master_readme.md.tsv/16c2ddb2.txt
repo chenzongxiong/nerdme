@@ -1,0 +1,3 @@
+```markdown
+Compile <SOFTWARE>tf_mesh_renderer</SOFTWARE> with <PROGLANG>Bazel</PROGLANG>.
+```

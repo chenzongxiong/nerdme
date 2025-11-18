@@ -1,0 +1,1 @@
+*The <SOFTWARE>VNEGNN model</SOFTWARE> and processed <DATASET>dataset</DATASET> are released, as in the <PUBLICATION>paper!</PUBLICATION>*

@@ -1,0 +1,13 @@
+`Complete evaluation datasets used in the paper can be downloaded here: [`datasets/datasets.md`](https://github.com/allenai/aspire/blob/main/datasets/datasets.md)   ### Repository Contents <a name="repocontents"></a>
+      ├── <PROJECT>bin</PROJECT>
+      ├── <PROJECT>config</PROJECT>
+          │             └── <PROJECT>models_config</PROJECT>
+          │                 ├── <DATASET>s2orcbiomed</DATASET>
+          │                 ├── <DATASET>s2orccompsci</DATASET>
+          │                 └── <DATASET>s2orcscidocs</DATASET>
+      ├── <PROJECT>scripts</PROJECT>
+      └── <PROJECT>src</PROJECT>
+          ├── <PROJECT>evaluation</PROJECT>
+              │             ├── <PROJECT>utils</PROJECT>
+              │             │             ├── <PROJECT>datasets.py</PROJECT>
+              │             │             

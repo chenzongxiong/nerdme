@@ -1,0 +1,1 @@
+For other operating systems, see the full install instructions below. -->  Due to the change of API, `<SOFTWARE>conda</SOFTWARE>` is no longer supported for `<SOFTWARE>Megaman</SOFTWARE>`.

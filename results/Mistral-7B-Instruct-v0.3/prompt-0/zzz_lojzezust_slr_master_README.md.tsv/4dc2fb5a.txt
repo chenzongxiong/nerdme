@@ -1,0 +1,1 @@
+The models are trained on the `<DATASET>MaSTr1325</DATASET>` dataset using `<PROGLANG>SLR</PROGLANG>` and weak annotations and evaluated on the `<DATASET>MODS benchmark</DATASET>` ([available here](https://github.com/bborja/mods_evaluation)).

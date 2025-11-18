@@ -1,0 +1,1 @@
+<br>    We use 34 pairs for testing and 100 shadow images for training.

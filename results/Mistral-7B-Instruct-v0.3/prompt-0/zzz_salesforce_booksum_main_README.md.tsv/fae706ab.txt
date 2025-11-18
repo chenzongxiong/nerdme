@@ -1,0 +1,13 @@
+Some paths in the provided files might throw errors depending on where the `<PROJECT>Chapterized Books</PROJECT>` have been downloaded.
+
+The `<SOFTWARE>file explorer</SOFTWARE>` may need to be used to navigate to the correct location of the downloaded files.
+
+If you encounter any issues, please ensure that the `<DATASET>chapterized_books</DATASET>` are located in the correct directory.
+
+For example, the path to the `<DATASET>chapterized_books</DATASET>` in the `<PROJECT>Chapterized Books</PROJECT>` project might look like this:
+
+`/path/to/chapterized_books/chapterized_books/book1/chapter1.txt`
+
+Or, if the `<PROJECT>Chapterized Books</PROJECT>` are located in a different directory, the path might look like this:
+
+`/path/to/downloaded_books/Chapterized Books/chapterized_books/book1/chapter1.txt`

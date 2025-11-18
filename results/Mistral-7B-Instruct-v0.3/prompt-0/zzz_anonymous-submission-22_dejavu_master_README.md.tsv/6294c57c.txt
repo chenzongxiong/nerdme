@@ -1,0 +1,1 @@
+`To solve this problem, we calculate <EVALMETRIC>similarities</EVALMETRIC> based on <CONFERENCE>failure classes</CONFERENCE> rather than <SOFTWARE>single failure units</SOFTWARE>`.

@@ -1,0 +1,1 @@
+Details about each <DATASET>dataset</DATASET> are as follows:  `src/pre_process/extract_entities.py`:  Use PURE's <SOFTWARE>Entity Model</SOFTWARE> () to extract named entities from abstracts.

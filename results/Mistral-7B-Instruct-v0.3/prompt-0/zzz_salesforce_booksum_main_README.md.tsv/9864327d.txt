@@ -1,0 +1,6 @@
+```
+The <SOFTWARE>clean_summaries.py</SOFTWARE> script separates out analysis/commentary/notes from the summary text, removes prefixes etc.     ```
+  #### Data Alignments
+  Generating paragraph alignments from the chapter-level-summary-alignments, is performed individually for the train/test/val splits:
+  Gather the data from the summaries and book chapters into a single <DATASET>jsonl</DATASET>.
+```

@@ -1,0 +1,1 @@
+They are perceived implicit combinations of <PROGLANG>NNs</PROGLANG> and <PROGLANG>DTs</PROGLANG>, because <PROGLANG>NNs</PROGLANG> and <PROGLANG>DTs</PROGLANG> still operate on their own paradigms and no hybrid model is produced.  #### <WORKSHOP>1.1 DTs as Structural Priors of NNs</WORKSHOP>.

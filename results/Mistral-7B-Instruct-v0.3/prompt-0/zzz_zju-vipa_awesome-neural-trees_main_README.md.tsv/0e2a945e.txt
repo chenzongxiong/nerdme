@@ -1,0 +1,9 @@
+The `<PROGLANG>NNs</PROGLANG>` in the `<CONFERENCE>tree design</CONFERENCE>` are exploited by making the `<EVALMETRIC>routing functions</EVALMETRIC>` differentiable. This allows `<EVALMETRIC>gradient descent-based methods</EVALMETRIC>` to optimize.
+
+#### 3.1 `<PROJECT>Neural Decision Trees with Class Hierarchies</PROJECT>`.
+
+The core idea is to exploit `<PROGLANG>NNs</PROGLANG>` in the `<CONFERENCE>tree design</CONFERENCE>` by making the `<EVALMETRIC>routing functions</EVALMETRIC>` differentiable. This allows `<EVALMETRIC>gradient descent-based methods</EVALMETRIC>` to optimize.
+
+#### 3.1 `<PROJECT>Neural Decision Trees with Class Hierarchies</PROJECT>`.
+
+The core idea is to exploit `<PROGLANG>NNs</PROGLANG>

@@ -1,0 +1,1 @@
+For Windows users, <SOFTWARE>Visual Studio 2015</SOFTWARE> is needed to compile cython module. ### Requirements: Hardware Any NVIDIA GPUs with at least 5GB memory should be OK ### Installation 1.

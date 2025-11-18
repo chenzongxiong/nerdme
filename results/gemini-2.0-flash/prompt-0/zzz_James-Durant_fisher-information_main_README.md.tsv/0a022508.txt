@@ -1,0 +1,1 @@
+These uncertainties can influence real-time decisions about measurement angle, measurement time, contrast choice and other experimental conditions based on parameters of interest.

@@ -1,0 +1,8 @@
+```bash
+<PROGLANG>Python</PROGLANG> tools/prepare_data.py
+```
+
+```markdown
+The preparation script performs the following operations:
+1.
+```

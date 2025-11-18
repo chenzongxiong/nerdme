@@ -1,0 +1,1 @@
+All ligand protein complexes were put into a different folder, at inference we combine them by there pdb id to evalutate the model based on all the bindingsites for a given protein.  ### Process the `<DATASET>datasets</DATASET>`  This will create a `<PROGLANG>lmdb</PROGLANG>` database for each `<DATASET>dataset</DATASET>`.

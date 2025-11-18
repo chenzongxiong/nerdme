@@ -1,0 +1,11 @@
+```
+Use the Notebooks to interact (train, predict or evaluate) with the <PROGLANG>Python</PROGLANG> functions.
+
+## Repository Structure
+├── <LICENSE>LICENSE</LICENSE>      <- Legal terms and conditions for using a particular resource.
+├── Makefile           <- Makefile with commands like 'make environment'
+├── README.md          <- The top-level README for developers using this project.
+├── data
+│   ├── metadata       <- Excel and csv files with additional metadata are stored here
+│   ├── interim        <- Intermediate data that has been transformed
+```

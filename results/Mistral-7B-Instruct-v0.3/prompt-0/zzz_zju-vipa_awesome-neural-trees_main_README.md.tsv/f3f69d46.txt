@@ -1,0 +1,1 @@
+The `<PROGLANG>Neural Decision Trees (NDTs)</PROGLANG>` are `<SOFTWARE>hybrid NN models</SOFTWARE>` that implement both the `<CONFERENCE>class hierarchy</CONFERENCE>` and the `<WORKSHOP>decision branches</WORKSHOP>`.

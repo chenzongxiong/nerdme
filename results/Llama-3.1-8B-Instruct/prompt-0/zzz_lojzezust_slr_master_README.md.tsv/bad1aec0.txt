@@ -1,0 +1,3 @@
+### Annotated Text
+
+[paper](https://img.shields.io/badge/<SOFTWARE>paper</SOFTWARE>-52b69a?style=for-the-badge&amp;logo=github)

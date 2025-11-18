@@ -1,0 +1,1 @@
+Co-citations are used for training <PROGLANG>sentence level encoder</PROGLANG> models and whole abstract models, training data for both these model types are generated from functions in this <SOFTWARE>script</SOFTWARE>.

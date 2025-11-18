@@ -1,0 +1,1 @@
+`Evaluate recall on referent object:** <PROGLANG>PYTHON</PROGLANG> <SOFTWARE>tools/eval_proposal_hit_rate.py</SOFTWARE> <PUBLICATION>--m <loss_type></PUBLICATION> <DATASET>refcoco</DATASET> <WORKSHOP>--split-by unc</WORKSHOP> <LICENSE>--tid <tid></LICENSE> <EVALMETRIC>--conf <conf></EVALMETRIC>`

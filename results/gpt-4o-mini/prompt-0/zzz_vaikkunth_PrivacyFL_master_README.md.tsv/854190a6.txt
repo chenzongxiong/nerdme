@@ -1,0 +1,1 @@
+It is not meant to be initialized directly, but subclassed to create an <PROJECT>agent</PROJECT> with whichever behavior you would like.

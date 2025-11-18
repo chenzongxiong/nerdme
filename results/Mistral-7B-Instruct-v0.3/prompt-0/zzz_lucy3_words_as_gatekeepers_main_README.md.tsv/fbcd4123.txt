@@ -1,0 +1,1 @@
+`Note that many scripts are modified versions of ones found in the <REPO>WSIatScale repo</REPO> (<URL>https://github.com/allenai/WSIatScale</URL>).`

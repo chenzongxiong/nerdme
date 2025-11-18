@@ -1,0 +1,1 @@
+Visual results on the first 5k images from <DATASET>COCO</DATASET> test set of our ***<CONFERENCE>COCO 2016 challenge</CONFERENCE> entry***: [OneDrive](https://onedrive.live.com/?

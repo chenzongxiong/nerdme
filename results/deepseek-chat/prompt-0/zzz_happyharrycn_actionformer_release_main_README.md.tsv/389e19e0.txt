@@ -1,0 +1,3 @@
+```markdown
+│ └───data/ │    └───<DATASET>ego4d</DATASET>/ │    │   └───annotations │    │   └───slowfast_features │    │   └───omnivore_features │    │   └───egovlp_features   │    └───... | └───libs │ │   ... ```  **Training and Evaluation** * We provide config files for training <SOFTWARE>ActionFormer</SOFTWARE> with different feature combinations.
+```

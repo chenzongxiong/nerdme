@@ -1,0 +1,1 @@
+(Works with <SOFTWARE>Pytorch 1.1</SOFTWARE>) ## <DATASET>Dataset</DATASET> The [<DATASET>Kitti dataset</DATASET>](www.cvlibs.net/datasets/kitti/) has been used.

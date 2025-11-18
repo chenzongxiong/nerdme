@@ -1,0 +1,1 @@
+`These notes will be displayed with your <CONCEPT>concept</CONCEPT> or <SKETCH>sketch</SKETCH> in calls to `show_concepts()` or `show_sketches()`. <CODE>msb.take_note(sb)</CODE> <IMG> src=".<IMG_SRC>`

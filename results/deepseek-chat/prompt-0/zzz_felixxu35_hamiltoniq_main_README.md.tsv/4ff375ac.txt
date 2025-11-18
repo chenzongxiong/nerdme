@@ -1,0 +1,3 @@
+```markdown
+[How to cite](#cite)  <a name="introduction"></a>  ## Introduction   <SOFTWARE>HamilToniQ</SOFTWARE> is an application-oriented benchmarking toolkit for the comprehensive evaluation of QPUs.
+```

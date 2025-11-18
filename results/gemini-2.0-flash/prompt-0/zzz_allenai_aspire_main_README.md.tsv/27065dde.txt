@@ -1,0 +1,1 @@
+**The following files are the main entry points into the repository:** `src/learning/main_fsim.py`: The main script called from `bin/learning/run_main_fsim-ddp.sh` to initialize and train a model.

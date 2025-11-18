@@ -1,0 +1,3 @@
+```markdown
+Clone the <PROJECT>FCIS</PROJECT> repository, and we'll call the directory that you cloned <PROJECT>FCIS</PROJECT> as ${FCIS_ROOT}. ~~~ git clone https://github.com/msracver/<PROJECT>FCIS</PROJECT>.git ~~~ 2.
+```

@@ -1,0 +1,1 @@
+The <SOFTWARE>trial_none</SOFTWARE> files contain only the instances and the <SOFTWARE>trial_gold</SOFTWARE> files contain the instances and set of gold annotations

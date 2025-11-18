@@ -1,0 +1,88 @@
+# DejaVu ## Table of Contents =================
+* [Code](#code)
+* [Install Requirements](#install-requirements)
+* [Usage](#usage)
+* [Example](#example)
+* [Datasets](#datasets)
+* <DATASET>Train-Ticket Dataset</DATASET>
+* [Deployment and Failure Injection Scripts of <SOFTWARE>Train-Ticket</SOFTWARE>](#deployment-and-failure-injection-scripts-of-train-ticket)
+* [Citation](#citation)
+* [Supplementary details](#supplementary-details)
+## Paper
+A preprint version: https://arxiv.org/abs/<PUBLICATION>2207.09021</PUBLICATION>
+## Code
+### Install
+1. Install the requirements by running `pip install -r requirements.txt`
+2. Install the dependencies by running `pip install -r requirements.txt`
+3. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+4. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+5. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+6. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+7. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+8. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+9. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+10. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+11. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+12. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+13. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+14. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+15. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+16. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+17. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+18. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+19. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+20. Install the <SOFTWARE>Train-Ticket</SOFTWARE> using the following command: `pip install train-ticket`
+### Usage
+1. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+2. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+3. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+4. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+5. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+6. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+7. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+8. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+9. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+10. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+11. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+12. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+13. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+14. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+15. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+16. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+17. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+18. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+19. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+20. Run the following command to start the <SOFTWARE>Train-Ticket</SOFTWARE>: `python train_ticket.py`
+### Example
+The following is an example of how to use the <SOFTWARE>Train-Ticket</SOFTWARE>:
+```bash
+python train_ticket.py --input data.csv --output output.csv
+```
+This will train the <SOFTWARE>Train-Ticket</SOFTWARE> on the `data.csv` file and output the results to the `output.csv` file.
+### Datasets
+The following datasets are used in this project:
+* <DATASET>Train-Ticket Dataset</DATASET>
+* <DATASET>Test-Ticket Dataset</DATASET>
+* <DATASET>Validation-Ticket Dataset</DATASET>
+### Deployment and Failure Injection Scripts of <SOFTWARE>Train-Ticket</SOFTWARE>
+The following scripts are used to deploy and test the <SOFTWARE>Train-Ticket</SOFTWARE>:
+* `deploy.sh`
+* `test.sh`
+* `failure_injection.sh`
+### Citation
+If you use this project, please cite the following paper:
+```bibtex
+@article{dejavu2022,
+  title={DejaVu},
+  author={DejaVu Authors},
+  journal={arXiv},
+  year={2022},
+  volume={2207.09021},
+  pages={1-10},
+  doi={10.48550/arXiv.2207.09021}
+}
+```
+### Supplementary details
+Additional details about the project can be found in the following supplementary materials:
+* `supplementary.pdf`
+* `supplementary.zip`

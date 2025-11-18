@@ -1,0 +1,3 @@
+- `<PROGLANG>langid.py</PROGLANG>` and `<PROGLANG>language_id_helper.py</PROGLANG>`: detect non-English journals for removal
+- `<PROGLANG>data_preprocessing.py</PROGLANG>`: determine how many abstracts we have per journal, also outputs dataframe of paper IDs to journal and FOS to support dataset creation
+- `<PUBLICATION>General Dataset Statistics.ipynb</PUBLICATION>`: examine the distribution of journal counts, save lists of paper IDs to keep for journal and FOS analysis.

@@ -1,0 +1,1 @@
+`On a personal computer <SOFTWARE>megaman</SOFTWARE> can embed 1 million data points with hundreds of dimensions in 10 minutes. <SOFTWARE>megaman</SOFTWARE> is designed for researchers and as such caches intermediary steps and indices to allow for fast re-computation with new parameters.`

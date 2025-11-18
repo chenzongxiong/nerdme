@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+We compare our method with existing sequential encoding and embedding networks, demonstrating superior performance on two proposed benchmarks: automatic image retrieval on a simulated scenario that uses region captions as queries, and interactive image retrieval using real queries from human evaluators.  ## Requirements - Setup a conda environment and install some prerequisite packages like this ```bash conda create -n retrieval <PROGLANG>python</PROGLANG>=3.6    # Create a virtual environment source activate retrieval              # Activate virtual environment conda install jupyter scikit-image cython opencv seaborn nltk pycairo h5py  # Install dependencies <PROGLANG>python</PROGLANG> -m nltk.downloader all        # Install NLTK data ``` - Please also install [<SOFTWARE>pytorch</SOFTWARE>](http://pytorch.org/) 1.0 (or higher), torchVision, and torchtext   ## Data  - Download the images of the <DATASET>Visual Genome</DATASET> dataset if you have not done so ```Shell .
+```

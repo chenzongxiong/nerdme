@@ -1,0 +1,1 @@
+The <SOFTWARE>git</SOFTWARE> clone command is used to download the <PROJECT>FCIS</PROJECT> repository. We'll call the directory that you cloned <PROJECT>FCIS</PROJECT> as ${FCIS_ROOT}. ~~~ <SOFTWARE>git</SOFTWARE> clone <SOFTWARE>https://github.com/msracver/FCIS.git</SOFTWARE> ~~~

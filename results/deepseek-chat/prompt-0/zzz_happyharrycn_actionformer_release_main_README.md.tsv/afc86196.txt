@@ -1,0 +1,1 @@
+/pretrained/anet_tsp_reproduce/logs*. * The pre-trained model is *.

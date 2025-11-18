@@ -1,0 +1,1 @@
+These are also released under the <LICENSE>Apache 2.0 license</LICENSE>, the text of which can be seen in the LICENSE file on their repository.

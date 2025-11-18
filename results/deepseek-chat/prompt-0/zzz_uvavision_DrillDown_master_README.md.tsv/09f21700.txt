@@ -1,0 +1,1 @@
+We show that using multiple rounds of natural language queries as input can be surprisingly effective to find arbitrarily specific images of complex scenes.

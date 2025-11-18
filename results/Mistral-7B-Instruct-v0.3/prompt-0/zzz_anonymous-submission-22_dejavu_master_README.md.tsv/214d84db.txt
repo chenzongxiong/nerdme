@@ -1,0 +1,1 @@
+`Then, we average the similarities to <PROGLANG>T2</PROGLANG> if all units with their suspicious scores (of <PROGLANG>T_1</PROGLANG>`) as the weights.

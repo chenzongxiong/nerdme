@@ -1,0 +1,1 @@
+All the <SOFTWARE>software requirements</SOFTWARE> are already pre-installed in the <SOFTWARE>Docker image</SOFTWARE> below.

@@ -1,0 +1,4 @@
+# <PROJECT>Low_Resource_KBP</PROJECT> knowledge graph population in low resource conditions
+The file "*<DATASET>Few-Shot_ED.json.zip</DATASET>*" is the ***<DATASET>FewEvent</DATASET>*** dataset for the paper accepted by <CONFERENCE>WSDM 2020</CONFERENCE> ***["<PUBLICATION>Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection</PUBLICATION>"](https://arxiv.org/abs/1910.11621)*** 
+## Source of Raw Data 
+* We first scale up the number of event types in existing datasets, including the [<DATASET>ACE-2005 corpus</DATASET>](http://projects.ldc.upenn.edu/ace/) and [<DATASET>TAC-KBP-2017 Event Track Data</DATASET>](https://tac.nist.gov/2017/KBP/Event/index.html)

@@ -1,0 +1,6 @@
+```bash
+export <PROGLANG>Python</PROGLANG> tools/train.py warmup \
+--<ONTOLOGY>architecture</ONTOLOGY> wasr_resnet101_imu \
+--<PROJECT>model-name</PROJECT> wasr_slr_warmup \
+--<EVALMETRIC>batch-size</EVALMETRIC> 4
+```

@@ -1,0 +1,1 @@
+In addition, this library also allows you to simulate how long it would take to receive the <SOFTWARE>federated</SOFTWARE> values back for each iteration.

@@ -1,0 +1,1 @@
+In the schema, the `<DATASET>keys</DATASET>` are the string names of the columns in your dataframe that you'd like to use, and the `<DATASET>values</DATASET>` indicate the type of data contained in that column.

@@ -1,0 +1,1 @@
+The <DATASET>complete dataset</DATASET> consists of 85898 training samples, 6852 validation samples, 1000 selected validation samples and 1000 test samples.  ## Preprocessing This step is optional, but allows you to transform the images to jpgs and to downsample the original <SOFTWARE>lidar</SOFTWARE> frames.

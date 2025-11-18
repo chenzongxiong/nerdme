@@ -1,0 +1,1 @@
+These `<PROGLANG>NNs</PROGLANG>` and `<PROGLANG>DTs</PROGLANG>` are considered to be half and implicit integration of `<PROGLANG>NNs</PROGLANG>` and `<PROGLANG>DTs</PROGLANG>`.

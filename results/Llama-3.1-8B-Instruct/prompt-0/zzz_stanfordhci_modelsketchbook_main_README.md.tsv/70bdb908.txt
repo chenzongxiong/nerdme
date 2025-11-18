@@ -1,0 +1,1 @@
+These notes will be displayed with your concept or sketch in calls to `<SOFTWARE>show_concepts</SOFTWARE>()` or `<SOFTWARE>show_sketches</SOFTWARE>()`. ``` <SOFTWARE>msb.take_note</SOFTWARE>(<SOFTWARE>sbt</SOFTWARE>) ```  <img src=".

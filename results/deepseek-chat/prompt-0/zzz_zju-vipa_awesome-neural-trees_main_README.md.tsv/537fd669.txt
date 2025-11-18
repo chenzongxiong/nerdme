@@ -1,0 +1,3 @@
+```markdown
+- ***Induce DTs from more valid data filtered by the trained NNs***   - **"<PUBLICATION>An integrated approach of neural network and decision tree to classification</PUBLICATION>"**, <CONFERENCE>ICMLC</CONFERENCE>, 2005     - Xiao-Ye Wang, Xiu-Xia Liang, Ji-Zhou Sun     - [[Paper]](https://ieeexplore.ieee.org/abstract/document/1527283)  ### 2.
+```

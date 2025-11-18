@@ -1,0 +1,3 @@
+```markdown
+Jury falls back to `evaluate` implementation of metrics for the ones that are currently not supported by Jury, you can see the metrics available for `evaluate` on [evaluate/metrics](https://github.com/huggingface/<EVALMETRIC>evaluate</EVALMETRIC>/tree/master/<EVALMETRIC>metrics</EVALMETRIC>).
+```

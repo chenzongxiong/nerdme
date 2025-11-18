@@ -1,0 +1,1 @@
+`<PUBLICATION>Mezaris, "Filter-Pruning of Lightweight Face Detectors Using a Geometric Median Criterion", Proc.</PUBLICATION>`

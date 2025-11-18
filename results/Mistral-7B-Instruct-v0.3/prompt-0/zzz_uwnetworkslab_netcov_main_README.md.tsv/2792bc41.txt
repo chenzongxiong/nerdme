@@ -1,0 +1,1 @@
+The `<EVALMETRIC>coverage results</EVALMETRIC>` should be generated at the end of your script.

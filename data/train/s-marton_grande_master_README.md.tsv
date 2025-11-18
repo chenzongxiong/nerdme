@@ -1,0 +1,1765 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# 🌳 GRANDE: Gradient-Based Decision Tree Ensembles 🌳
+#Text=
+#Text=[!
+1-1	0-1	#	_	_	
+1-2	2-4	🌳	_	_	
+1-3	5-11	GRANDE	*	SOFTWARE	
+1-4	11-12	:	_	_	
+1-5	13-27	Gradient-Based	_	_	
+1-6	28-36	Decision	_	_	
+1-7	37-41	Tree	_	_	
+1-8	42-51	Ensembles	_	_	
+1-9	52-54	🌳	_	_	
+1-10	56-57	[	_	_	
+1-11	57-58	!	_	_	
+
+#Text=[PyPI version](https://img.shields.io/pypi/v/GRANDE)](https://pypi.org/project/GRANDE/) [!
+2-1	58-59	[	_	_	
+2-2	59-63	PyPI	*	SOFTWARE	
+2-3	64-71	version	_	_	
+2-4	71-72	]	_	_	
+2-5	72-73	(	_	_	
+2-6	73-78	https	_	_	
+2-7	78-79	:	_	_	
+2-8	79-80	/	_	_	
+2-9	80-81	/	_	_	
+2-10	81-95	img.shields.io	_	_	
+2-11	95-96	/	_	_	
+2-12	96-100	pypi	_	_	
+2-13	100-101	/	_	_	
+2-14	101-102	v	_	_	
+2-15	102-103	/	_	_	
+2-16	103-109	GRANDE	*	PROJECT	
+2-17	109-110	)	_	_	
+2-18	110-111	]	_	_	
+2-19	111-112	(	_	_	
+2-20	112-117	https	_	_	
+2-21	117-118	:	_	_	
+2-22	118-119	/	_	_	
+2-23	119-120	/	_	_	
+2-24	120-128	pypi.org	_	_	
+2-25	128-129	/	_	_	
+2-26	129-136	project	_	_	
+2-27	136-137	/	_	_	
+2-28	137-143	GRANDE	*	PROJECT	
+2-29	143-144	/	_	_	
+2-30	144-145	)	_	_	
+2-31	146-147	[	_	_	
+2-32	147-148	!	_	_	
+
+#Text=[OpenReview](https://img.shields.io/badge/OpenReview-XEFWBxi075-blue)](https://openreview.net/forum?
+3-1	148-149	[	_	_	
+3-2	149-159	OpenReview	_	_	
+3-3	159-160	]	_	_	
+3-4	160-161	(	_	_	
+3-5	161-166	https	_	_	
+3-6	166-167	:	_	_	
+3-7	167-168	/	_	_	
+3-8	168-169	/	_	_	
+3-9	169-183	img.shields.io	_	_	
+3-10	183-184	/	_	_	
+3-11	184-189	badge	_	_	
+3-12	189-190	/	_	_	
+3-13	190-211	OpenReview-XEFWBxi075	_	_	
+3-14	211-212	-	_	_	
+3-15	212-216	blue	_	_	
+3-16	216-217	)	_	_	
+3-17	217-218	]	_	_	
+3-18	218-219	(	_	_	
+3-19	219-224	https	_	_	
+3-20	224-225	:	_	_	
+3-21	225-226	/	_	_	
+3-22	226-227	/	_	_	
+3-23	227-241	openreview.net	_	_	
+3-24	241-242	/	_	_	
+3-25	242-247	forum	_	_	
+3-26	247-248	?	_	_	
+
+#Text=id=XEFWBxi075) [!
+4-1	248-250	id	_	_	
+4-2	250-251	=	_	_	
+4-3	251-261	XEFWBxi075	_	_	
+4-4	261-262	)	_	_	
+4-5	263-264	[	_	_	
+4-6	264-265	!	_	_	
+
+#Text=[arXiv](https://img.shields.io/badge/arXiv-2309.17130-b31b1b.svg)](https://arxiv.org/abs/2309.17130)
+#Text=
+#Text=🌳 GRANDE is a novel gradient-based decision tree ensemble method for tabular data!
+5-1	265-266	[	_	_	
+5-2	266-271	arXiv	_	_	
+5-3	271-272	]	_	_	
+5-4	272-273	(	_	_	
+5-5	273-278	https	_	_	
+5-6	278-279	:	_	_	
+5-7	279-280	/	_	_	
+5-8	280-281	/	_	_	
+5-9	281-295	img.shields.io	_	_	
+5-10	295-296	/	_	_	
+5-11	296-301	badge	_	_	
+5-12	301-302	/	_	_	
+5-13	302-307	arXiv	_	_	
+5-14	307-308	-	_	_	
+5-15	308-318	2309.17130	_	_	
+5-16	318-319	-	_	_	
+5-17	319-329	b31b1b.svg	_	_	
+5-18	329-330	)	_	_	
+5-19	330-331	]	_	_	
+5-20	331-332	(	_	_	
+5-21	332-337	https	_	_	
+5-22	337-338	:	_	_	
+5-23	338-339	/	_	_	
+5-24	339-340	/	_	_	
+5-25	340-349	arxiv.org	_	_	
+5-26	349-350	/	_	_	
+5-27	350-353	abs	_	_	
+5-28	353-354	/	_	_	
+5-29	354-364	2309.17130	_	_	
+5-30	364-365	)	_	_	
+5-31	367-369	🌳	_	_	
+5-32	370-376	GRANDE	_	_	
+5-33	377-379	is	_	_	
+5-34	380-381	a	_	_	
+5-35	382-387	novel	_	_	
+5-36	388-402	gradient-based	_	_	
+5-37	403-411	decision	_	_	
+5-38	412-416	tree	_	_	
+5-39	417-425	ensemble	_	_	
+5-40	426-432	method	_	_	
+5-41	433-436	for	_	_	
+5-42	437-444	tabular	_	_	
+5-43	445-449	data	_	_	
+5-44	449-450	!	_	_	
+
+#Text=<div align="center">
+#Text=
+#Text=<img src="figures/grande.jpg" alt="GRANDE Overview" width="50%"/>
+#Text=
+#Text=<p><strong>Figure 1: Overview GRANDE.
+6-1	452-453	<	_	_	
+6-2	453-456	div	_	_	
+6-3	457-462	align	_	_	
+6-4	462-463	=	_	_	
+6-5	463-464	"	_	_	
+6-6	464-470	center	_	_	
+6-7	470-471	"	_	_	
+6-8	471-472	>	_	_	
+6-9	474-475	<	_	_	
+6-10	475-478	img	_	_	
+6-11	479-482	src	_	_	
+6-12	482-483	=	_	_	
+6-13	483-484	"	_	_	
+6-14	484-491	figures	_	_	
+6-15	491-492	/	_	_	
+6-16	492-502	grande.jpg	_	_	
+6-17	502-503	"	_	_	
+6-18	504-507	alt	_	_	
+6-19	507-508	=	_	_	
+6-20	508-509	"	_	_	
+6-21	509-515	GRANDE	_	_	
+6-22	516-524	Overview	_	_	
+6-23	524-525	"	_	_	
+6-24	526-531	width	_	_	
+6-25	531-532	=	_	_	
+6-26	532-533	"	_	_	
+6-27	533-536	50%	_	_	
+6-28	536-537	"	_	_	
+6-29	537-538	/	_	_	
+6-30	538-539	>	_	_	
+6-31	541-542	<	_	_	
+6-32	542-543	p	_	_	
+6-33	543-544	>	_	_	
+6-34	544-545	<	_	_	
+6-35	545-551	strong	_	_	
+6-36	551-552	>	_	_	
+6-37	552-558	Figure	_	_	
+6-38	559-560	1	_	_	
+6-39	560-561	:	_	_	
+6-40	562-570	Overview	_	_	
+6-41	571-577	GRANDE	*	SOFTWARE	
+6-42	577-578	.	_	_	
+
+#Text=</strong> GRANDE is a gradient-based decision tree ensemble that utilizes dynamic, instance-wise leaf weights.
+7-1	578-579	<	_	_	
+7-2	579-580	/	_	_	
+7-3	580-586	strong	_	_	
+7-4	586-587	>	_	_	
+7-5	588-594	GRANDE	*	SOFTWARE	
+7-6	595-597	is	_	_	
+7-7	598-599	a	_	_	
+7-8	600-614	gradient-based	_	_	
+7-9	615-623	decision	_	_	
+7-10	624-628	tree	_	_	
+7-11	629-637	ensemble	_	_	
+7-12	638-642	that	_	_	
+7-13	643-651	utilizes	_	_	
+7-14	652-659	dynamic	_	_	
+7-15	659-660	,	_	_	
+7-16	661-674	instance-wise	_	_	
+7-17	675-679	leaf	_	_	
+7-18	680-687	weights	_	_	
+7-19	687-688	.	_	_	
+
+#Text=Each estimator is weighted based on leaf weights that are calculated individually for each input.
+8-1	689-693	Each	_	_	
+8-2	694-703	estimator	_	_	
+8-3	704-706	is	_	_	
+8-4	707-715	weighted	_	_	
+8-5	716-721	based	_	_	
+8-6	722-724	on	_	_	
+8-7	725-729	leaf	_	_	
+8-8	730-737	weights	_	_	
+8-9	738-742	that	_	_	
+8-10	743-746	are	_	_	
+8-11	747-757	calculated	_	_	
+8-12	758-770	individually	_	_	
+8-13	771-774	for	_	_	
+8-14	775-779	each	_	_	
+8-15	780-785	input	_	_	
+8-16	785-786	.	_	_	
+
+#Text=The ensemble's prediction is then obtained as a weighted sum of the individual predictions.
+9-1	787-790	The	_	_	
+9-2	791-801	ensemble's	_	_	
+9-3	802-812	prediction	_	_	
+9-4	813-815	is	_	_	
+9-5	816-820	then	_	_	
+9-6	821-829	obtained	_	_	
+9-7	830-832	as	_	_	
+9-8	833-834	a	_	_	
+9-9	835-843	weighted	_	_	
+9-10	844-847	sum	_	_	
+9-11	848-850	of	_	_	
+9-12	851-854	the	_	_	
+9-13	855-865	individual	_	_	
+9-14	866-877	predictions	_	_	
+9-15	877-878	.	_	_	
+
+#Text=</p>
+#Text=
+#Text=</div>
+#Text=
+#Text=🔍 What's new?
+10-1	878-879	<	_	_	
+10-2	879-880	/	_	_	
+10-3	880-881	p	_	_	
+10-4	881-882	>	_	_	
+10-5	884-885	<	_	_	
+10-6	885-886	/	_	_	
+10-7	886-889	div	_	_	
+10-8	889-890	>	_	_	
+10-9	892-894	🔍	_	_	
+10-10	895-901	What's	_	_	
+10-11	902-905	new	_	_	
+10-12	905-906	?	_	_	
+
+#Text=- End-to-end gradient descent for tree ensembles.
+#Text=- Combines inductive bias of hard, axis-aligned splits with the flexibility of a gradient descent optimization.
+#Text=- Advanced instance-wise weighting to learn representations for both simple & complex relations in one model
+11-1	907-908	-	_	_	
+11-2	909-919	End-to-end	_	_	
+11-3	920-928	gradient	_	_	
+11-4	929-936	descent	_	_	
+11-5	937-940	for	_	_	
+11-6	941-945	tree	_	_	
+11-7	946-955	ensembles	_	_	
+11-8	955-956	.	_	_	
+11-9	957-958	-	_	_	
+11-10	959-967	Combines	_	_	
+11-11	968-977	inductive	_	_	
+11-12	978-982	bias	_	_	
+11-13	983-985	of	_	_	
+11-14	986-990	hard	_	_	
+11-15	990-991	,	_	_	
+11-16	992-1004	axis-aligned	_	_	
+11-17	1005-1011	splits	_	_	
+11-18	1012-1016	with	_	_	
+11-19	1017-1020	the	_	_	
+11-20	1021-1032	flexibility	_	_	
+11-21	1033-1035	of	_	_	
+11-22	1036-1037	a	_	_	
+11-23	1038-1046	gradient	_	_	
+11-24	1047-1054	descent	_	_	
+11-25	1055-1067	optimization	_	_	
+11-26	1067-1068	.	_	_	
+11-27	1069-1070	-	_	_	
+11-28	1071-1079	Advanced	_	_	
+11-29	1080-1093	instance-wise	_	_	
+11-30	1094-1103	weighting	_	_	
+11-31	1104-1106	to	_	_	
+11-32	1107-1112	learn	_	_	
+11-33	1113-1128	representations	_	_	
+11-34	1129-1132	for	_	_	
+11-35	1133-1137	both	_	_	
+11-36	1138-1144	simple	_	_	
+11-37	1145-1146	&	_	_	
+11-38	1147-1154	complex	_	_	
+11-39	1155-1164	relations	_	_	
+11-40	1165-1167	in	_	_	
+11-41	1168-1171	one	_	_	
+11-42	1172-1177	model	_	_	
+
+#Text=.
+12-1	1177-1178	.	_	_	
+
+#Text=🏆 Results?
+13-1	1180-1182	🏆	_	_	
+13-2	1183-1190	Results	_	_	
+13-3	1190-1191	?	_	_	
+
+#Text=We outperformed leading tree ensemble methods like #XGBoost and #CatBoost on many datasets.
+14-1	1192-1194	We	_	_	
+14-2	1195-1207	outperformed	_	_	
+14-3	1208-1215	leading	_	_	
+14-4	1216-1220	tree	_	_	
+14-5	1221-1229	ensemble	_	_	
+14-6	1230-1237	methods	_	_	
+14-7	1238-1242	like	_	_	
+14-8	1243-1244	#	_	_	
+14-9	1244-1251	XGBoost	_	_	
+14-10	1252-1255	and	_	_	
+14-11	1256-1257	#	_	_	
+14-12	1257-1265	CatBoost	_	_	
+14-13	1266-1268	on	_	_	
+14-14	1269-1273	many	_	_	
+14-15	1274-1282	datasets	_	_	
+14-16	1282-1283	.	_	_	
+
+#Text=<div align="center">
+#Text=
+#Text=<img src="figures/results_hpo.jpg" alt="GRANDE Results" width="70%"/>
+#Text=
+#Text=<p><strong>Figure 2: Performance Comparison.
+15-1	1285-1286	<	_	_	
+15-2	1286-1289	div	_	_	
+15-3	1290-1295	align	_	_	
+15-4	1295-1296	=	_	_	
+15-5	1296-1297	"	_	_	
+15-6	1297-1303	center	_	_	
+15-7	1303-1304	"	_	_	
+15-8	1304-1305	>	_	_	
+15-9	1307-1308	<	_	_	
+15-10	1308-1311	img	_	_	
+15-11	1312-1315	src	_	_	
+15-12	1315-1316	=	_	_	
+15-13	1316-1317	"	_	_	
+15-14	1317-1324	figures	_	_	
+15-15	1324-1325	/	_	_	
+15-16	1325-1340	results_hpo.jpg	_	_	
+15-17	1340-1341	"	_	_	
+15-18	1342-1345	alt	_	_	
+15-19	1345-1346	=	_	_	
+15-20	1346-1347	"	_	_	
+15-21	1347-1353	GRANDE	*	SOFTWARE	
+15-22	1354-1361	Results	_	_	
+15-23	1361-1362	"	_	_	
+15-24	1363-1368	width	_	_	
+15-25	1368-1369	=	_	_	
+15-26	1369-1370	"	_	_	
+15-27	1370-1373	70%	_	_	
+15-28	1373-1374	"	_	_	
+15-29	1374-1375	/	_	_	
+15-30	1375-1376	>	_	_	
+15-31	1378-1379	<	_	_	
+15-32	1379-1380	p	_	_	
+15-33	1380-1381	>	_	_	
+15-34	1381-1382	<	_	_	
+15-35	1382-1388	strong	_	_	
+15-36	1388-1389	>	_	_	
+15-37	1389-1395	Figure	_	_	
+15-38	1396-1397	2	_	_	
+15-39	1397-1398	:	_	_	
+15-40	1399-1410	Performance	_	_	
+15-41	1411-1421	Comparison	_	_	
+15-42	1421-1422	.	_	_	
+
+#Text=</strong> We report the test macro F1-score (mean ± stdev for a 5-fold CV) with optimized parameters.
+16-1	1422-1423	<	_	_	
+16-2	1423-1424	/	_	_	
+16-3	1424-1430	strong	_	_	
+16-4	1430-1431	>	_	_	
+16-5	1432-1434	We	_	_	
+16-6	1435-1441	report	_	_	
+16-7	1442-1445	the	_	_	
+16-8	1446-1450	test	_	_	
+16-9	1451-1456	macro	*[1]	EVALMETRIC[1]	
+16-10	1457-1459	F1	*[1]	EVALMETRIC[1]	
+16-11	1459-1460	-	*[1]	EVALMETRIC[1]	
+16-12	1460-1465	score	*[1]	EVALMETRIC[1]	
+16-13	1466-1467	(	_	_	
+16-14	1467-1471	mean	_	_	
+16-15	1472-1473	±	_	_	
+16-16	1474-1479	stdev	_	_	
+16-17	1480-1483	for	_	_	
+16-18	1484-1485	a	_	_	
+16-19	1486-1487	5	_	_	
+16-20	1487-1488	-	_	_	
+16-21	1488-1492	fold	_	_	
+16-22	1493-1495	CV	_	_	
+16-23	1495-1496	)	_	_	
+16-24	1497-1501	with	_	_	
+16-25	1502-1511	optimized	_	_	
+16-26	1512-1522	parameters	_	_	
+16-27	1522-1523	.	_	_	
+
+#Text=The datasets are sorted based on the data size.
+17-1	1524-1527	The	_	_	
+17-2	1528-1536	datasets	_	_	
+17-3	1537-1540	are	_	_	
+17-4	1541-1547	sorted	_	_	
+17-5	1548-1553	based	_	_	
+17-6	1554-1556	on	_	_	
+17-7	1557-1560	the	_	_	
+17-8	1561-1565	data	_	_	
+17-9	1566-1570	size	_	_	
+17-10	1570-1571	.	_	_	
+
+#Text=</p>
+#Text=
+#Text=</div>
+#Text=
+#Text=📝 More details on the method can be found in our paper available under: https://openreview.net/forum?
+18-1	1571-1572	<	_	_	
+18-2	1572-1573	/	_	_	
+18-3	1573-1574	p	_	_	
+18-4	1574-1575	>	_	_	
+18-5	1577-1578	<	_	_	
+18-6	1578-1579	/	_	_	
+18-7	1579-1582	div	_	_	
+18-8	1582-1583	>	_	_	
+18-9	1585-1587	📝	_	_	
+18-10	1588-1592	More	_	_	
+18-11	1593-1600	details	_	_	
+18-12	1601-1603	on	_	_	
+18-13	1604-1607	the	_	_	
+18-14	1608-1614	method	_	_	
+18-15	1615-1618	can	_	_	
+18-16	1619-1621	be	_	_	
+18-17	1622-1627	found	_	_	
+18-18	1628-1630	in	_	_	
+18-19	1631-1634	our	_	_	
+18-20	1635-1640	paper	_	_	
+18-21	1641-1650	available	_	_	
+18-22	1651-1656	under	_	_	
+18-23	1656-1657	:	_	_	
+18-24	1658-1663	https	_	_	
+18-25	1663-1664	:	_	_	
+18-26	1664-1665	/	_	_	
+18-27	1665-1666	/	_	_	
+18-28	1666-1680	openreview.net	_	_	
+18-29	1680-1681	/	_	_	
+18-30	1681-1686	forum	_	_	
+18-31	1686-1687	?	_	_	
+
+#Text=id=XEFWBxi075
+#Text=
+#Text=## Installation
+#Text=To download the latest official release of the package, use the pip command below:
+#Text=```bash
+#Text=pip install GRANDE
+#Text=```
+#Text=More details can be found under: https://pypi.org/project/GRANDE/
+#Text=
+#Text=## Cite us
+#Text=
+#Text=```
+#Text=@inproceedings{
+#Text=marton2024grande,
+#Text=title={{GRANDE}: Gradient-Based Decision Tree Ensembles},
+#Text=author={Sascha Marton and Stefan L{\\"u}dtke and Christian Bartelt and Heiner Stuckenschmidt},
+#Text=booktitle={The Twelfth International Conference on Learning Representations},
+#Text=year={2024},
+#Text=url={https://openreview.net/forum?
+19-1	1687-1689	id	_	_	
+19-2	1689-1690	=	_	_	
+19-3	1690-1700	XEFWBxi075	_	_	
+19-4	1702-1703	#	_	_	
+19-5	1703-1704	#	_	_	
+19-6	1705-1717	Installation	_	_	
+19-7	1718-1720	To	_	_	
+19-8	1721-1729	download	_	_	
+19-9	1730-1733	the	_	_	
+19-10	1734-1740	latest	_	_	
+19-11	1741-1749	official	_	_	
+19-12	1750-1757	release	_	_	
+19-13	1758-1760	of	_	_	
+19-14	1761-1764	the	_	_	
+19-15	1765-1772	package	_	_	
+19-16	1772-1773	,	_	_	
+19-17	1774-1777	use	_	_	
+19-18	1778-1781	the	_	_	
+19-19	1782-1785	pip	*	SOFTWARE	
+19-20	1786-1793	command	_	_	
+19-21	1794-1799	below	_	_	
+19-22	1799-1800	:	_	_	
+19-23	1801-1802	`	_	_	
+19-24	1802-1803	`	_	_	
+19-25	1803-1804	`	_	_	
+19-26	1804-1808	bash	_	_	
+19-27	1809-1812	pip	*	SOFTWARE	
+19-28	1813-1820	install	_	_	
+19-29	1821-1827	GRANDE	*	SOFTWARE	
+19-30	1828-1829	`	_	_	
+19-31	1829-1830	`	_	_	
+19-32	1830-1831	`	_	_	
+19-33	1832-1836	More	_	_	
+19-34	1837-1844	details	_	_	
+19-35	1845-1848	can	_	_	
+19-36	1849-1851	be	_	_	
+19-37	1852-1857	found	_	_	
+19-38	1858-1863	under	_	_	
+19-39	1863-1864	:	_	_	
+19-40	1865-1870	https	_	_	
+19-41	1870-1871	:	_	_	
+19-42	1871-1872	/	_	_	
+19-43	1872-1873	/	_	_	
+19-44	1873-1881	pypi.org	_	_	
+19-45	1881-1882	/	_	_	
+19-46	1882-1889	project	_	_	
+19-47	1889-1890	/	_	_	
+19-48	1890-1896	GRANDE	*	PROJECT	
+19-49	1896-1897	/	_	_	
+19-50	1899-1900	#	_	_	
+19-51	1900-1901	#	_	_	
+19-52	1902-1906	Cite	_	_	
+19-53	1907-1909	us	_	_	
+19-54	1911-1912	`	_	_	
+19-55	1912-1913	`	_	_	
+19-56	1913-1914	`	_	_	
+19-57	1915-1916	@	_	_	
+19-58	1916-1929	inproceedings	_	_	
+19-59	1929-1930	{	_	_	
+19-60	1931-1947	marton2024grande	_	_	
+19-61	1947-1948	,	_	_	
+19-62	1949-1954	title	_	_	
+19-63	1954-1955	=	_	_	
+19-64	1955-1956	{	_	_	
+19-65	1956-1957	{	*[2]	PUBLICATION[2]	
+19-66	1957-1963	GRANDE	*[2]|*[3]	PUBLICATION[2]|SOFTWARE[3]	
+19-67	1963-1964	}	*[2]	PUBLICATION[2]	
+19-68	1964-1965	:	*[2]	PUBLICATION[2]	
+19-69	1966-1980	Gradient-Based	*[2]	PUBLICATION[2]	
+19-70	1981-1989	Decision	*[2]	PUBLICATION[2]	
+19-71	1990-1994	Tree	*[2]	PUBLICATION[2]	
+19-72	1995-2004	Ensembles	*[2]	PUBLICATION[2]	
+19-73	2004-2005	}	_	_	
+19-74	2005-2006	,	_	_	
+19-75	2007-2013	author	_	_	
+19-76	2013-2014	=	_	_	
+19-77	2014-2015	{	_	_	
+19-78	2015-2021	Sascha	_	_	
+19-79	2022-2028	Marton	_	_	
+19-80	2029-2032	and	_	_	
+19-81	2033-2039	Stefan	_	_	
+19-82	2040-2041	L	_	_	
+19-83	2041-2042	{	_	_	
+19-84	2042-2043	\	_	_	
+19-85	2043-2044	"	_	_	
+19-86	2044-2045	u	_	_	
+19-87	2045-2046	}	_	_	
+19-88	2046-2050	dtke	_	_	
+19-89	2051-2054	and	_	_	
+19-90	2055-2064	Christian	_	_	
+19-91	2065-2072	Bartelt	_	_	
+19-92	2073-2076	and	_	_	
+19-93	2077-2083	Heiner	_	_	
+19-94	2084-2098	Stuckenschmidt	_	_	
+19-95	2098-2099	}	_	_	
+19-96	2099-2100	,	_	_	
+19-97	2101-2110	booktitle	_	_	
+19-98	2110-2111	=	_	_	
+19-99	2111-2112	{	_	_	
+19-100	2112-2115	The	*[4]	PUBLICATION[4]	
+19-101	2116-2123	Twelfth	*[4]|*[5]	PUBLICATION[4]|CONFERENCE[5]	
+19-102	2124-2137	International	*[4]|*[5]	PUBLICATION[4]|CONFERENCE[5]	
+19-103	2138-2148	Conference	*[4]|*[5]	PUBLICATION[4]|CONFERENCE[5]	
+19-104	2149-2151	on	*[4]|*[5]	PUBLICATION[4]|CONFERENCE[5]	
+19-105	2152-2160	Learning	*[4]|*[5]	PUBLICATION[4]|CONFERENCE[5]	
+19-106	2161-2176	Representations	*[4]|*[5]	PUBLICATION[4]|CONFERENCE[5]	
+19-107	2176-2177	}	_	_	
+19-108	2177-2178	,	_	_	
+19-109	2179-2183	year	_	_	
+19-110	2183-2184	=	_	_	
+19-111	2184-2185	{	_	_	
+19-112	2185-2189	2024	_	_	
+19-113	2189-2190	}	_	_	
+19-114	2190-2191	,	_	_	
+19-115	2192-2195	url	_	_	
+19-116	2195-2196	=	_	_	
+19-117	2196-2197	{	_	_	
+19-118	2197-2202	https	_	_	
+19-119	2202-2203	:	_	_	
+19-120	2203-2204	/	_	_	
+19-121	2204-2205	/	_	_	
+19-122	2205-2219	openreview.net	_	_	
+19-123	2219-2220	/	_	_	
+19-124	2220-2225	forum	_	_	
+19-125	2225-2226	?	_	_	
+
+#Text=id=XEFWBxi075}
+#Text=}
+#Text=```
+#Text=
+#Text=
+#Text=## Usage
+#Text=Example usage is in the following or available in the jupyter notebook files.
+20-1	2226-2228	id	_	_	
+20-2	2228-2229	=	_	_	
+20-3	2229-2239	XEFWBxi075	_	_	
+20-4	2239-2240	}	_	_	
+20-5	2241-2242	}	_	_	
+20-6	2243-2244	`	_	_	
+20-7	2244-2245	`	_	_	
+20-8	2245-2246	`	_	_	
+20-9	2249-2250	#	_	_	
+20-10	2250-2251	#	_	_	
+20-11	2252-2257	Usage	_	_	
+20-12	2258-2265	Example	_	_	
+20-13	2266-2271	usage	_	_	
+20-14	2272-2274	is	_	_	
+20-15	2275-2277	in	_	_	
+20-16	2278-2281	the	_	_	
+20-17	2282-2291	following	_	_	
+20-18	2292-2294	or	_	_	
+20-19	2295-2304	available	_	_	
+20-20	2305-2307	in	_	_	
+20-21	2308-2311	the	_	_	
+20-22	2312-2319	jupyter	_	_	
+20-23	2320-2328	notebook	_	_	
+20-24	2329-2334	files	_	_	
+20-25	2334-2335	.	_	_	
+
+#Text=Please note that a GPU is required to achieve competitive runtimes.
+21-1	2336-2342	Please	_	_	
+21-2	2343-2347	note	_	_	
+21-3	2348-2352	that	_	_	
+21-4	2353-2354	a	_	_	
+21-5	2355-2358	GPU	_	_	
+21-6	2359-2361	is	_	_	
+21-7	2362-2370	required	_	_	
+21-8	2371-2373	to	_	_	
+21-9	2374-2381	achieve	_	_	
+21-10	2382-2393	competitive	_	_	
+21-11	2394-2402	runtimes	_	_	
+21-12	2402-2403	.	_	_	
+
+#Text=Also, please set 'objective' to 'binary', 'classification' or 'regression' based on your task.
+#Text=
+#Text=### Enable and specify GPU
+#Text=```python
+#Text=import os
+#Text=os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+#Text=os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
+#Text=```
+#Text=
+#Text=### Load Data
+#Text=```python
+#Text=from sklearn.model_selection import train_test_split
+#Text=import openml
+#Text=
+#Text=dataset = openml.datasets.get_dataset(40536)
+#Text=X, y, categorical_indicator, attribute_names = dataset.get_data(target=dataset.default_target_attribute)
+#Text=categorical_feature_indices = [idx for idx, idx_bool in enumerate(categorical_indicator) if idx_bool]
+#Text=
+#Text=X_temp, X_test, y_temp, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+#Text=
+#Text=X_train, X_valid, y_train, y_valid = train_test_split(X_temp, y_temp, test_size=0.2, random_state=42)
+#Text=```
+#Text=
+#Text=### Preprocessing, Hyperparameters and Training 
+#Text=GRANDE requires categorical features to be encoded appropriately.
+22-1	2404-2408	Also	_	_	
+22-2	2408-2409	,	_	_	
+22-3	2410-2416	please	_	_	
+22-4	2417-2420	set	_	_	
+22-5	2421-2422	'	_	_	
+22-6	2422-2431	objective	_	_	
+22-7	2431-2432	'	_	_	
+22-8	2433-2435	to	_	_	
+22-9	2436-2437	'	_	_	
+22-10	2437-2443	binary	_	_	
+22-11	2443-2444	'	_	_	
+22-12	2444-2445	,	_	_	
+22-13	2446-2447	'	_	_	
+22-14	2447-2461	classification	_	_	
+22-15	2461-2462	'	_	_	
+22-16	2463-2465	or	_	_	
+22-17	2466-2467	'	_	_	
+22-18	2467-2477	regression	_	_	
+22-19	2477-2478	'	_	_	
+22-20	2479-2484	based	_	_	
+22-21	2485-2487	on	_	_	
+22-22	2488-2492	your	_	_	
+22-23	2493-2497	task	_	_	
+22-24	2497-2498	.	_	_	
+22-25	2500-2501	#	_	_	
+22-26	2501-2502	#	_	_	
+22-27	2502-2503	#	_	_	
+22-28	2504-2510	Enable	_	_	
+22-29	2511-2514	and	_	_	
+22-30	2515-2522	specify	_	_	
+22-31	2523-2526	GPU	_	_	
+22-32	2527-2528	`	_	_	
+22-33	2528-2529	`	_	_	
+22-34	2529-2530	`	_	_	
+22-35	2530-2536	python	*	PROGLANG	
+22-36	2537-2543	import	_	_	
+22-37	2544-2546	os	_	_	
+22-38	2547-2557	os.environ	_	_	
+22-39	2557-2558	[	_	_	
+22-40	2558-2559	'	_	_	
+22-41	2559-2579	CUDA_VISIBLE_DEVICES	_	_	
+22-42	2579-2580	'	_	_	
+22-43	2580-2581	]	_	_	
+22-44	2582-2583	=	_	_	
+22-45	2584-2585	'	_	_	
+22-46	2585-2586	0	_	_	
+22-47	2586-2587	'	_	_	
+22-48	2588-2598	os.environ	_	_	
+22-49	2598-2599	[	_	_	
+22-50	2599-2600	'	_	_	
+22-51	2600-2625	TF_FORCE_GPU_ALLOW_GROWTH	_	_	
+22-52	2625-2626	'	_	_	
+22-53	2626-2627	]	_	_	
+22-54	2628-2629	=	_	_	
+22-55	2630-2631	'	_	_	
+22-56	2631-2635	true	_	_	
+22-57	2635-2636	'	_	_	
+22-58	2637-2638	`	_	_	
+22-59	2638-2639	`	_	_	
+22-60	2639-2640	`	_	_	
+22-61	2642-2643	#	_	_	
+22-62	2643-2644	#	_	_	
+22-63	2644-2645	#	_	_	
+22-64	2646-2650	Load	_	_	
+22-65	2651-2655	Data	_	_	
+22-66	2656-2657	`	_	_	
+22-67	2657-2658	`	_	_	
+22-68	2658-2659	`	_	_	
+22-69	2659-2665	python	*	PROGLANG	
+22-70	2666-2670	from	_	_	
+22-71	2671-2694	sklearn.model_selection	_	_	
+22-72	2695-2701	import	_	_	
+22-73	2702-2718	train_test_split	_	_	
+22-74	2719-2725	import	_	_	
+22-75	2726-2732	openml	_	_	
+22-76	2734-2741	dataset	_	_	
+22-77	2742-2743	=	_	_	
+22-78	2744-2771	openml.datasets.get_dataset	_	_	
+22-79	2771-2772	(	_	_	
+22-80	2772-2777	40536	_	_	
+22-81	2777-2778	)	_	_	
+22-82	2779-2780	X	_	_	
+22-83	2780-2781	,	_	_	
+22-84	2782-2783	y	_	_	
+22-85	2783-2784	,	_	_	
+22-86	2785-2806	categorical_indicator	_	_	
+22-87	2806-2807	,	_	_	
+22-88	2808-2823	attribute_names	_	_	
+22-89	2824-2825	=	_	_	
+22-90	2826-2842	dataset.get_data	_	_	
+22-91	2842-2843	(	_	_	
+22-92	2843-2849	target	_	_	
+22-93	2849-2850	=	_	_	
+22-94	2850-2882	dataset.default_target_attribute	_	_	
+22-95	2882-2883	)	_	_	
+22-96	2884-2911	categorical_feature_indices	_	_	
+22-97	2912-2913	=	_	_	
+22-98	2914-2915	[	_	_	
+22-99	2915-2918	idx	_	_	
+22-100	2919-2922	for	_	_	
+22-101	2923-2926	idx	_	_	
+22-102	2926-2927	,	_	_	
+22-103	2928-2936	idx_bool	_	_	
+22-104	2937-2939	in	_	_	
+22-105	2940-2949	enumerate	_	_	
+22-106	2949-2950	(	_	_	
+22-107	2950-2971	categorical_indicator	_	_	
+22-108	2971-2972	)	_	_	
+22-109	2973-2975	if	_	_	
+22-110	2976-2984	idx_bool	_	_	
+22-111	2984-2985	]	_	_	
+22-112	2987-2993	X_temp	_	_	
+22-113	2993-2994	,	_	_	
+22-114	2995-3001	X_test	_	_	
+22-115	3001-3002	,	_	_	
+22-116	3003-3009	y_temp	_	_	
+22-117	3009-3010	,	_	_	
+22-118	3011-3017	y_test	_	_	
+22-119	3018-3019	=	_	_	
+22-120	3020-3036	train_test_split	_	_	
+22-121	3036-3037	(	_	_	
+22-122	3037-3038	X	_	_	
+22-123	3038-3039	,	_	_	
+22-124	3040-3041	y	_	_	
+22-125	3041-3042	,	_	_	
+22-126	3043-3052	test_size	_	_	
+22-127	3052-3053	=	_	_	
+22-128	3053-3056	0.2	_	_	
+22-129	3056-3057	,	_	_	
+22-130	3058-3070	random_state	_	_	
+22-131	3070-3071	=	_	_	
+22-132	3071-3073	42	_	_	
+22-133	3073-3074	)	_	_	
+22-134	3076-3083	X_train	_	_	
+22-135	3083-3084	,	_	_	
+22-136	3085-3092	X_valid	_	_	
+22-137	3092-3093	,	_	_	
+22-138	3094-3101	y_train	_	_	
+22-139	3101-3102	,	_	_	
+22-140	3103-3110	y_valid	_	_	
+22-141	3111-3112	=	_	_	
+22-142	3113-3129	train_test_split	_	_	
+22-143	3129-3130	(	_	_	
+22-144	3130-3136	X_temp	_	_	
+22-145	3136-3137	,	_	_	
+22-146	3138-3144	y_temp	_	_	
+22-147	3144-3145	,	_	_	
+22-148	3146-3155	test_size	_	_	
+22-149	3155-3156	=	_	_	
+22-150	3156-3159	0.2	_	_	
+22-151	3159-3160	,	_	_	
+22-152	3161-3173	random_state	_	_	
+22-153	3173-3174	=	_	_	
+22-154	3174-3176	42	_	_	
+22-155	3176-3177	)	_	_	
+22-156	3178-3179	`	_	_	
+22-157	3179-3180	`	_	_	
+22-158	3180-3181	`	_	_	
+22-159	3183-3184	#	_	_	
+22-160	3184-3185	#	_	_	
+22-161	3185-3186	#	_	_	
+22-162	3187-3200	Preprocessing	_	_	
+22-163	3200-3201	,	_	_	
+22-164	3202-3217	Hyperparameters	_	_	
+22-165	3218-3221	and	_	_	
+22-166	3222-3230	Training	_	_	
+22-167	3232-3238	GRANDE	*	SOFTWARE	
+22-168	3239-3247	requires	_	_	
+22-169	3248-3259	categorical	_	_	
+22-170	3260-3268	features	_	_	
+22-171	3269-3271	to	_	_	
+22-172	3272-3274	be	_	_	
+22-173	3275-3282	encoded	_	_	
+22-174	3283-3296	appropriately	_	_	
+22-175	3296-3297	.	_	_	
+
+#Text=The best results are achieved using Leave-One-Out Encoding for high-cardinality categorical features and One-Hot Encoding for low-cardinality categorical features.
+23-1	3298-3301	The	_	_	
+23-2	3302-3306	best	_	_	
+23-3	3307-3314	results	_	_	
+23-4	3315-3318	are	_	_	
+23-5	3319-3327	achieved	_	_	
+23-6	3328-3333	using	_	_	
+23-7	3334-3347	Leave-One-Out	_	_	
+23-8	3348-3356	Encoding	_	_	
+23-9	3357-3360	for	_	_	
+23-10	3361-3377	high-cardinality	_	_	
+23-11	3378-3389	categorical	_	_	
+23-12	3390-3398	features	_	_	
+23-13	3399-3402	and	_	_	
+23-14	3403-3410	One-Hot	_	_	
+23-15	3411-3419	Encoding	_	_	
+23-16	3420-3423	for	_	_	
+23-17	3424-3439	low-cardinality	_	_	
+23-18	3440-3451	categorical	_	_	
+23-19	3452-3460	features	_	_	
+23-20	3460-3461	.	_	_	
+
+#Text=Furthermore, all features should be normalized using a quantile transformation.
+24-1	3462-3473	Furthermore	_	_	
+24-2	3473-3474	,	_	_	
+24-3	3475-3478	all	_	_	
+24-4	3479-3487	features	_	_	
+24-5	3488-3494	should	_	_	
+24-6	3495-3497	be	_	_	
+24-7	3498-3508	normalized	_	_	
+24-8	3509-3514	using	_	_	
+24-9	3515-3516	a	_	_	
+24-10	3517-3525	quantile	_	_	
+24-11	3526-3540	transformation	_	_	
+24-12	3540-3541	.	_	_	
+
+#Text=Passing the categorical indices to the model wil automatically preprocess the data accordingly.
+25-1	3542-3549	Passing	_	_	
+25-2	3550-3553	the	_	_	
+25-3	3554-3565	categorical	_	_	
+25-4	3566-3573	indices	_	_	
+25-5	3574-3576	to	_	_	
+25-6	3577-3580	the	_	_	
+25-7	3581-3586	model	_	_	
+25-8	3587-3590	wil	_	_	
+25-9	3591-3604	automatically	_	_	
+25-10	3605-3615	preprocess	_	_	
+25-11	3616-3619	the	_	_	
+25-12	3620-3624	data	_	_	
+25-13	3625-3636	accordingly	_	_	
+25-14	3636-3637	.	_	_	
+
+#Text=In the following, we will train the model using the default parameters.
+26-1	3639-3641	In	_	_	
+26-2	3642-3645	the	_	_	
+26-3	3646-3655	following	_	_	
+26-4	3655-3656	,	_	_	
+26-5	3657-3659	we	_	_	
+26-6	3660-3664	will	_	_	
+26-7	3665-3670	train	_	_	
+26-8	3671-3674	the	_	_	
+26-9	3675-3680	model	_	_	
+26-10	3681-3686	using	_	_	
+26-11	3687-3690	the	_	_	
+26-12	3691-3698	default	_	_	
+26-13	3699-3709	parameters	_	_	
+26-14	3709-3710	.	_	_	
+
+#Text=GRANDE already archives great results with its default parameters, but a HPO can increase the performance even further.
+27-1	3711-3717	GRANDE	*	SOFTWARE	
+27-2	3718-3725	already	_	_	
+27-3	3726-3734	archives	_	_	
+27-4	3735-3740	great	_	_	
+27-5	3741-3748	results	_	_	
+27-6	3749-3753	with	_	_	
+27-7	3754-3757	its	_	_	
+27-8	3758-3765	default	_	_	
+27-9	3766-3776	parameters	_	_	
+27-10	3776-3777	,	_	_	
+27-11	3778-3781	but	_	_	
+27-12	3782-3783	a	_	_	
+27-13	3784-3787	HPO	_	_	
+27-14	3788-3791	can	_	_	
+27-15	3792-3800	increase	_	_	
+27-16	3801-3804	the	_	_	
+27-17	3805-3816	performance	_	_	
+27-18	3817-3821	even	_	_	
+27-19	3822-3829	further	_	_	
+27-20	3829-3830	.	_	_	
+
+#Text=An appropriate grid is specified in the model class.
+28-1	3831-3833	An	_	_	
+28-2	3834-3845	appropriate	_	_	
+28-3	3846-3850	grid	_	_	
+28-4	3851-3853	is	_	_	
+28-5	3854-3863	specified	_	_	
+28-6	3864-3866	in	_	_	
+28-7	3867-3870	the	_	_	
+28-8	3871-3876	model	_	_	
+28-9	3877-3882	class	_	_	
+28-10	3882-3883	.	_	_	
+
+#Text=```python
+#Text=from GRANDE import GRANDE
+#Text=
+#Text=params = {
+#Text=        'depth': 5, # tree depth
+#Text=        'n_estimators': 2048, # number of estimators / trees
+#Text=
+#Text=        'learning_rate_weights': 0.005, # learning rate for leaf weights
+#Text=        'learning_rate_index': 0.01, # learning rate for split indices
+#Text=        'learning_rate_values': 0.01, # learning rate for split values
+#Text=        'learning_rate_leaf': 0.01, # learning rate for leafs (logits)
+#Text=
+#Text=        'optimizer': 'adam', # optimizer
+#Text=        'cosine_decay_steps': 0, # decay steps for lr schedule (CosineDecayRestarts)
+#Text=
+#Text=        'loss': 'crossentropy', # loss function (default 'crossentropy' for binary & multi-class classification and 'mse' for regression)
+#Text=        'focal_loss': False, # use focal loss {True, False}
+#Text=        'temperature': 0.0, # temperature for stochastic re-weighted GD (0.0, 1.0)
+#Text=
+#Text=        'from_logits': True, # use logits for weighting {True, False}
+#Text=        'use_class_weights': True, # use class weights for training {True, False}
+#Text=
+#Text=        'dropout': 0.0, # dropout rate (here, dropout randomly disables individual estimators of the ensemble during training)
+#Text=
+#Text=        'selected_variables': 0.8, # feature subset percentage (0.0, 1.0)
+#Text=        'data_subset_fraction': 1.0, # data subset percentage (0.0, 1.0)
+#Text=}
+#Text=
+#Text=args = {
+#Text=    'epochs': 1_000, # number of epochs for training
+#Text=    'early_stopping_epochs': 25, # patience for early stopping (best weights are restored)
+#Text=    'batch_size': 64,  # batch size for training
+#Text=
+#Text=    'cat_idx': categorical_feature_indices, # put list of categorical indices
+#Text=    'objective': 'binary', # objective / task {'binary', 'classification', 'regression'}
+#Text=    
+#Text=    'random_seed': 42,
+#Text=    'verbose': 1,       
+#Text=}
+#Text=
+#Text=model_grande = GRANDE(params=params, args=args)
+#Text=
+#Text=model_grande.fit(X_train=X_train,
+#Text=          y_train=y_train,
+#Text=          X_val=X_valid,
+#Text=          y_val=y_valid)
+#Text=
+#Text=preds_grande = model_grande.predict(X_test)
+#Text=
+#Text=```
+#Text=
+#Text=### Evaluate Model
+#Text=
+#Text=```python
+#Text=preds = model_grande.predict(X_test)
+#Text=
+#Text=if args['objective'] == 'binary':
+#Text=    accuracy = sklearn.metrics.accuracy_score(y_test, np.round(preds_grande[:,1]))
+#Text=    f1_score = sklearn.metrics.f1_score(y_test, np.round(preds_grande[:,1]), average='macro')
+#Text=    roc_auc = sklearn.metrics.roc_auc_score(y_test, preds_grande[:,1], average='macro')
+#Text=    
+#Text=    print('Accuracy:', accuracy)
+#Text=    print('F1 Score:', f1_score)
+#Text=    print('ROC AUC:', roc_auc)
+#Text=elif args['objective'] == 'classification':
+#Text=    accuracy = sklearn.metrics.accuracy_score(y_test, np.argmax(preds_grande, axis=1))
+#Text=    f1_score = sklearn.metrics.f1_score(y_test, np.argmax(preds_grande, axis=1), average='macro')
+#Text=    roc_auc = sklearn.metrics.roc_auc_score(y_test, preds_grande, average='macro', multi_class='ovo', labels=[i for i in range(preds_grande.shape[1])])
+#Text=
+#Text=    print('Accuracy GRANDE:', accuracy)
+#Text=    print('F1 Score GRANDE:', f1_score)
+#Text=    print('ROC AUC GRANDE:', roc_auc)
+#Text=else:
+#Text=    mean_absolute_error = sklearn.metrics.mean_absolute_error(y_test, np.round(preds_grande))
+#Text=    r2_score = sklearn.metrics.r2_score(y_test, np.round(preds_grande))
+#Text=
+#Text=    print('MAE GRANDE:', mean_absolute_error)
+#Text=    print('R2 Score GRANDE:', r2_score)
+#Text=```
+#Text=
+#Text=## More
+#Text=
+#Text=Please note that this is an experimental implementation which is not fully tested yet.
+29-1	3885-3886	`	_	_	
+29-2	3886-3887	`	_	_	
+29-3	3887-3888	`	_	_	
+29-4	3888-3894	python	*	PROGLANG	
+29-5	3895-3899	from	_	_	
+29-6	3900-3906	GRANDE	*	SOFTWARE	
+29-7	3907-3913	import	_	_	
+29-8	3914-3920	GRANDE	_	_	
+29-9	3922-3928	params	_	_	
+29-10	3929-3930	=	_	_	
+29-11	3931-3932	{	_	_	
+29-12	3941-3942	'	_	_	
+29-13	3942-3947	depth	_	_	
+29-14	3947-3948	'	_	_	
+29-15	3948-3949	:	_	_	
+29-16	3950-3951	5	_	_	
+29-17	3951-3952	,	_	_	
+29-18	3953-3954	#	_	_	
+29-19	3955-3959	tree	_	_	
+29-20	3960-3965	depth	_	_	
+29-21	3974-3975	'	_	_	
+29-22	3975-3987	n_estimators	_	_	
+29-23	3987-3988	'	_	_	
+29-24	3988-3989	:	_	_	
+29-25	3990-3994	2048	_	_	
+29-26	3994-3995	,	_	_	
+29-27	3996-3997	#	_	_	
+29-28	3998-4004	number	_	_	
+29-29	4005-4007	of	_	_	
+29-30	4008-4018	estimators	_	_	
+29-31	4019-4020	/	_	_	
+29-32	4021-4026	trees	_	_	
+29-33	4036-4037	'	_	_	
+29-34	4037-4058	learning_rate_weights	_	_	
+29-35	4058-4059	'	_	_	
+29-36	4059-4060	:	_	_	
+29-37	4061-4066	0.005	_	_	
+29-38	4066-4067	,	_	_	
+29-39	4068-4069	#	_	_	
+29-40	4070-4078	learning	_	_	
+29-41	4079-4083	rate	_	_	
+29-42	4084-4087	for	_	_	
+29-43	4088-4092	leaf	_	_	
+29-44	4093-4100	weights	_	_	
+29-45	4109-4110	'	_	_	
+29-46	4110-4129	learning_rate_index	_	_	
+29-47	4129-4130	'	_	_	
+29-48	4130-4131	:	_	_	
+29-49	4132-4136	0.01	_	_	
+29-50	4136-4137	,	_	_	
+29-51	4138-4139	#	_	_	
+29-52	4140-4148	learning	_	_	
+29-53	4149-4153	rate	_	_	
+29-54	4154-4157	for	_	_	
+29-55	4158-4163	split	_	_	
+29-56	4164-4171	indices	_	_	
+29-57	4180-4181	'	_	_	
+29-58	4181-4201	learning_rate_values	_	_	
+29-59	4201-4202	'	_	_	
+29-60	4202-4203	:	_	_	
+29-61	4204-4208	0.01	_	_	
+29-62	4208-4209	,	_	_	
+29-63	4210-4211	#	_	_	
+29-64	4212-4220	learning	_	_	
+29-65	4221-4225	rate	_	_	
+29-66	4226-4229	for	_	_	
+29-67	4230-4235	split	_	_	
+29-68	4236-4242	values	_	_	
+29-69	4251-4252	'	_	_	
+29-70	4252-4270	learning_rate_leaf	_	_	
+29-71	4270-4271	'	_	_	
+29-72	4271-4272	:	_	_	
+29-73	4273-4277	0.01	_	_	
+29-74	4277-4278	,	_	_	
+29-75	4279-4280	#	_	_	
+29-76	4281-4289	learning	_	_	
+29-77	4290-4294	rate	_	_	
+29-78	4295-4298	for	_	_	
+29-79	4299-4304	leafs	_	_	
+29-80	4305-4306	(	_	_	
+29-81	4306-4312	logits	_	_	
+29-82	4312-4313	)	_	_	
+29-83	4323-4324	'	_	_	
+29-84	4324-4333	optimizer	_	_	
+29-85	4333-4334	'	_	_	
+29-86	4334-4335	:	_	_	
+29-87	4336-4337	'	_	_	
+29-88	4337-4341	adam	_	_	
+29-89	4341-4342	'	_	_	
+29-90	4342-4343	,	_	_	
+29-91	4344-4345	#	_	_	
+29-92	4346-4355	optimizer	_	_	
+29-93	4364-4365	'	_	_	
+29-94	4365-4383	cosine_decay_steps	_	_	
+29-95	4383-4384	'	_	_	
+29-96	4384-4385	:	_	_	
+29-97	4386-4387	0	_	_	
+29-98	4387-4388	,	_	_	
+29-99	4389-4390	#	_	_	
+29-100	4391-4396	decay	_	_	
+29-101	4397-4402	steps	_	_	
+29-102	4403-4406	for	_	_	
+29-103	4407-4409	lr	_	_	
+29-104	4410-4418	schedule	_	_	
+29-105	4419-4420	(	_	_	
+29-106	4420-4439	CosineDecayRestarts	_	_	
+29-107	4439-4440	)	_	_	
+29-108	4450-4451	'	_	_	
+29-109	4451-4455	loss	_	_	
+29-110	4455-4456	'	_	_	
+29-111	4456-4457	:	_	_	
+29-112	4458-4459	'	_	_	
+29-113	4459-4471	crossentropy	_	_	
+29-114	4471-4472	'	_	_	
+29-115	4472-4473	,	_	_	
+29-116	4474-4475	#	_	_	
+29-117	4476-4480	loss	_	_	
+29-118	4481-4489	function	_	_	
+29-119	4490-4491	(	_	_	
+29-120	4491-4498	default	_	_	
+29-121	4499-4500	'	_	_	
+29-122	4500-4512	crossentropy	_	_	
+29-123	4512-4513	'	_	_	
+29-124	4514-4517	for	_	_	
+29-125	4518-4524	binary	_	_	
+29-126	4525-4526	&	_	_	
+29-127	4527-4538	multi-class	_	_	
+29-128	4539-4553	classification	_	_	
+29-129	4554-4557	and	_	_	
+29-130	4558-4559	'	_	_	
+29-131	4559-4562	mse	_	_	
+29-132	4562-4563	'	_	_	
+29-133	4564-4567	for	_	_	
+29-134	4568-4578	regression	_	_	
+29-135	4578-4579	)	_	_	
+29-136	4588-4589	'	_	_	
+29-137	4589-4599	focal_loss	_	_	
+29-138	4599-4600	'	_	_	
+29-139	4600-4601	:	_	_	
+29-140	4602-4607	False	_	_	
+29-141	4607-4608	,	_	_	
+29-142	4609-4610	#	_	_	
+29-143	4611-4614	use	_	_	
+29-144	4615-4620	focal	_	_	
+29-145	4621-4625	loss	_	_	
+29-146	4626-4627	{	_	_	
+29-147	4627-4631	True	_	_	
+29-148	4631-4632	,	_	_	
+29-149	4633-4638	False	_	_	
+29-150	4638-4639	}	_	_	
+29-151	4648-4649	'	_	_	
+29-152	4649-4660	temperature	_	_	
+29-153	4660-4661	'	_	_	
+29-154	4661-4662	:	_	_	
+29-155	4663-4666	0.0	_	_	
+29-156	4666-4667	,	_	_	
+29-157	4668-4669	#	_	_	
+29-158	4670-4681	temperature	_	_	
+29-159	4682-4685	for	_	_	
+29-160	4686-4696	stochastic	_	_	
+29-161	4697-4708	re-weighted	_	_	
+29-162	4709-4711	GD	_	_	
+29-163	4712-4713	(	_	_	
+29-164	4713-4716	0.0	_	_	
+29-165	4716-4717	,	_	_	
+29-166	4718-4721	1.0	_	_	
+29-167	4721-4722	)	_	_	
+29-168	4732-4733	'	_	_	
+29-169	4733-4744	from_logits	_	_	
+29-170	4744-4745	'	_	_	
+29-171	4745-4746	:	_	_	
+29-172	4747-4751	True	_	_	
+29-173	4751-4752	,	_	_	
+29-174	4753-4754	#	_	_	
+29-175	4755-4758	use	_	_	
+29-176	4759-4765	logits	_	_	
+29-177	4766-4769	for	_	_	
+29-178	4770-4779	weighting	_	_	
+29-179	4780-4781	{	_	_	
+29-180	4781-4785	True	_	_	
+29-181	4785-4786	,	_	_	
+29-182	4787-4792	False	_	_	
+29-183	4792-4793	}	_	_	
+29-184	4802-4803	'	_	_	
+29-185	4803-4820	use_class_weights	_	_	
+29-186	4820-4821	'	_	_	
+29-187	4821-4822	:	_	_	
+29-188	4823-4827	True	_	_	
+29-189	4827-4828	,	_	_	
+29-190	4829-4830	#	_	_	
+29-191	4831-4834	use	_	_	
+29-192	4835-4840	class	_	_	
+29-193	4841-4848	weights	_	_	
+29-194	4849-4852	for	_	_	
+29-195	4853-4861	training	_	_	
+29-196	4862-4863	{	_	_	
+29-197	4863-4867	True	_	_	
+29-198	4867-4868	,	_	_	
+29-199	4869-4874	False	_	_	
+29-200	4874-4875	}	_	_	
+29-201	4885-4886	'	_	_	
+29-202	4886-4893	dropout	_	_	
+29-203	4893-4894	'	_	_	
+29-204	4894-4895	:	_	_	
+29-205	4896-4899	0.0	_	_	
+29-206	4899-4900	,	_	_	
+29-207	4901-4902	#	_	_	
+29-208	4903-4910	dropout	_	_	
+29-209	4911-4915	rate	_	_	
+29-210	4916-4917	(	_	_	
+29-211	4917-4921	here	_	_	
+29-212	4921-4922	,	_	_	
+29-213	4923-4930	dropout	_	_	
+29-214	4931-4939	randomly	_	_	
+29-215	4940-4948	disables	_	_	
+29-216	4949-4959	individual	_	_	
+29-217	4960-4970	estimators	_	_	
+29-218	4971-4973	of	_	_	
+29-219	4974-4977	the	_	_	
+29-220	4978-4986	ensemble	_	_	
+29-221	4987-4993	during	_	_	
+29-222	4994-5002	training	_	_	
+29-223	5002-5003	)	_	_	
+29-224	5013-5014	'	_	_	
+29-225	5014-5032	selected_variables	_	_	
+29-226	5032-5033	'	_	_	
+29-227	5033-5034	:	_	_	
+29-228	5035-5038	0.8	_	_	
+29-229	5038-5039	,	_	_	
+29-230	5040-5041	#	_	_	
+29-231	5042-5049	feature	_	_	
+29-232	5050-5056	subset	_	_	
+29-233	5057-5067	percentage	_	_	
+29-234	5068-5069	(	_	_	
+29-235	5069-5072	0.0	_	_	
+29-236	5072-5073	,	_	_	
+29-237	5074-5077	1.0	_	_	
+29-238	5077-5078	)	_	_	
+29-239	5087-5088	'	_	_	
+29-240	5088-5108	data_subset_fraction	_	_	
+29-241	5108-5109	'	_	_	
+29-242	5109-5110	:	_	_	
+29-243	5111-5114	1.0	_	_	
+29-244	5114-5115	,	_	_	
+29-245	5116-5117	#	_	_	
+29-246	5118-5122	data	_	_	
+29-247	5123-5129	subset	_	_	
+29-248	5130-5140	percentage	_	_	
+29-249	5141-5142	(	_	_	
+29-250	5142-5145	0.0	_	_	
+29-251	5145-5146	,	_	_	
+29-252	5147-5150	1.0	_	_	
+29-253	5150-5151	)	_	_	
+29-254	5152-5153	}	_	_	
+29-255	5155-5159	args	_	_	
+29-256	5160-5161	=	_	_	
+29-257	5162-5163	{	_	_	
+29-258	5168-5169	'	_	_	
+29-259	5169-5175	epochs	_	_	
+29-260	5175-5176	'	_	_	
+29-261	5176-5177	:	_	_	
+29-262	5178-5179	1	_	_	
+29-263	5179-5180	_	_	_	
+29-264	5180-5183	000	_	_	
+29-265	5183-5184	,	_	_	
+29-266	5185-5186	#	_	_	
+29-267	5187-5193	number	_	_	
+29-268	5194-5196	of	_	_	
+29-269	5197-5203	epochs	_	_	
+29-270	5204-5207	for	_	_	
+29-271	5208-5216	training	_	_	
+29-272	5221-5222	'	_	_	
+29-273	5222-5243	early_stopping_epochs	_	_	
+29-274	5243-5244	'	_	_	
+29-275	5244-5245	:	_	_	
+29-276	5246-5248	25	_	_	
+29-277	5248-5249	,	_	_	
+29-278	5250-5251	#	_	_	
+29-279	5252-5260	patience	_	_	
+29-280	5261-5264	for	_	_	
+29-281	5265-5270	early	_	_	
+29-282	5271-5279	stopping	_	_	
+29-283	5280-5281	(	_	_	
+29-284	5281-5285	best	_	_	
+29-285	5286-5293	weights	_	_	
+29-286	5294-5297	are	_	_	
+29-287	5298-5306	restored	_	_	
+29-288	5306-5307	)	_	_	
+29-289	5312-5313	'	_	_	
+29-290	5313-5323	batch_size	_	_	
+29-291	5323-5324	'	_	_	
+29-292	5324-5325	:	_	_	
+29-293	5326-5328	64	_	_	
+29-294	5328-5329	,	_	_	
+29-295	5331-5332	#	_	_	
+29-296	5333-5338	batch	_	_	
+29-297	5339-5343	size	_	_	
+29-298	5344-5347	for	_	_	
+29-299	5348-5356	training	_	_	
+29-300	5362-5363	'	_	_	
+29-301	5363-5370	cat_idx	_	_	
+29-302	5370-5371	'	_	_	
+29-303	5371-5372	:	_	_	
+29-304	5373-5400	categorical_feature_indices	_	_	
+29-305	5400-5401	,	_	_	
+29-306	5402-5403	#	_	_	
+29-307	5404-5407	put	_	_	
+29-308	5408-5412	list	_	_	
+29-309	5413-5415	of	_	_	
+29-310	5416-5427	categorical	_	_	
+29-311	5428-5435	indices	_	_	
+29-312	5440-5441	'	_	_	
+29-313	5441-5450	objective	_	_	
+29-314	5450-5451	'	_	_	
+29-315	5451-5452	:	_	_	
+29-316	5453-5454	'	_	_	
+29-317	5454-5460	binary	_	_	
+29-318	5460-5461	'	_	_	
+29-319	5461-5462	,	_	_	
+29-320	5463-5464	#	_	_	
+29-321	5465-5474	objective	_	_	
+29-322	5475-5476	/	_	_	
+29-323	5477-5481	task	_	_	
+29-324	5482-5483	{	_	_	
+29-325	5483-5484	'	_	_	
+29-326	5484-5490	binary	_	_	
+29-327	5490-5491	'	_	_	
+29-328	5491-5492	,	_	_	
+29-329	5493-5494	'	_	_	
+29-330	5494-5508	classification	_	_	
+29-331	5508-5509	'	_	_	
+29-332	5509-5510	,	_	_	
+29-333	5511-5512	'	_	_	
+29-334	5512-5522	regression	_	_	
+29-335	5522-5523	'	_	_	
+29-336	5523-5524	}	_	_	
+29-337	5534-5535	'	_	_	
+29-338	5535-5546	random_seed	_	_	
+29-339	5546-5547	'	_	_	
+29-340	5547-5548	:	_	_	
+29-341	5549-5551	42	_	_	
+29-342	5551-5552	,	_	_	
+29-343	5557-5558	'	_	_	
+29-344	5558-5565	verbose	_	_	
+29-345	5565-5566	'	_	_	
+29-346	5566-5567	:	_	_	
+29-347	5568-5569	1	_	_	
+29-348	5569-5570	,	_	_	
+29-349	5578-5579	}	_	_	
+29-350	5581-5593	model_grande	_	_	
+29-351	5594-5595	=	_	_	
+29-352	5596-5602	GRANDE	_	_	
+29-353	5602-5603	(	_	_	
+29-354	5603-5609	params	_	_	
+29-355	5609-5610	=	_	_	
+29-356	5610-5616	params	_	_	
+29-357	5616-5617	,	_	_	
+29-358	5618-5622	args	_	_	
+29-359	5622-5623	=	_	_	
+29-360	5623-5627	args	_	_	
+29-361	5627-5628	)	_	_	
+29-362	5630-5646	model_grande.fit	_	_	
+29-363	5646-5647	(	_	_	
+29-364	5647-5654	X_train	_	_	
+29-365	5654-5655	=	_	_	
+29-366	5655-5662	X_train	_	_	
+29-367	5662-5663	,	_	_	
+29-368	5674-5681	y_train	_	_	
+29-369	5681-5682	=	_	_	
+29-370	5682-5689	y_train	_	_	
+29-371	5689-5690	,	_	_	
+29-372	5701-5706	X_val	_	_	
+29-373	5706-5707	=	_	_	
+29-374	5707-5714	X_valid	_	_	
+29-375	5714-5715	,	_	_	
+29-376	5726-5731	y_val	_	_	
+29-377	5731-5732	=	_	_	
+29-378	5732-5739	y_valid	_	_	
+29-379	5739-5740	)	_	_	
+29-380	5742-5754	preds_grande	_	_	
+29-381	5755-5756	=	_	_	
+29-382	5757-5777	model_grande.predict	_	_	
+29-383	5777-5778	(	_	_	
+29-384	5778-5784	X_test	_	_	
+29-385	5784-5785	)	_	_	
+29-386	5787-5788	`	_	_	
+29-387	5788-5789	`	_	_	
+29-388	5789-5790	`	_	_	
+29-389	5792-5793	#	_	_	
+29-390	5793-5794	#	_	_	
+29-391	5794-5795	#	_	_	
+29-392	5796-5804	Evaluate	_	_	
+29-393	5805-5810	Model	_	_	
+29-394	5812-5813	`	_	_	
+29-395	5813-5814	`	_	_	
+29-396	5814-5815	`	_	_	
+29-397	5815-5821	python	*	PROGLANG	
+29-398	5822-5827	preds	_	_	
+29-399	5828-5829	=	_	_	
+29-400	5830-5850	model_grande.predict	_	_	
+29-401	5850-5851	(	_	_	
+29-402	5851-5857	X_test	_	_	
+29-403	5857-5858	)	_	_	
+29-404	5860-5862	if	_	_	
+29-405	5863-5867	args	_	_	
+29-406	5867-5868	[	_	_	
+29-407	5868-5869	'	_	_	
+29-408	5869-5878	objective	_	_	
+29-409	5878-5879	'	_	_	
+29-410	5879-5880	]	_	_	
+29-411	5881-5882	=	_	_	
+29-412	5882-5883	=	_	_	
+29-413	5884-5885	'	_	_	
+29-414	5885-5891	binary	_	_	
+29-415	5891-5892	'	_	_	
+29-416	5892-5893	:	_	_	
+29-417	5898-5906	accuracy	*	EVALMETRIC	
+29-418	5907-5908	=	_	_	
+29-419	5909-5939	sklearn.metrics.accuracy_score	_	_	
+29-419.1	5925-5939	accuracy_score	*	EVALMETRIC	
+29-420	5939-5940	(	_	_	
+29-421	5940-5946	y_test	_	_	
+29-422	5946-5947	,	_	_	
+29-423	5948-5956	np.round	_	_	
+29-424	5956-5957	(	_	_	
+29-425	5957-5969	preds_grande	_	_	
+29-426	5969-5970	[	_	_	
+29-427	5970-5971	:	_	_	
+29-428	5971-5972	,	_	_	
+29-429	5972-5973	1	_	_	
+29-430	5973-5974	]	_	_	
+29-431	5974-5975	)	_	_	
+29-432	5975-5976	)	_	_	
+29-433	5981-5983	f1	*[6]	EVALMETRIC[6]	
+29-434	5983-5984	_	*[6]	EVALMETRIC[6]	
+29-435	5984-5989	score	*[6]	EVALMETRIC[6]	
+29-436	5990-5991	=	_	_	
+29-437	5992-6010	sklearn.metrics.f1	_	_	
+29-437.1	6008-6010	f1	*[7]	EVALMETRIC[7]	
+29-438	6010-6011	_	*[7]	EVALMETRIC[7]	
+29-439	6011-6016	score	*[7]	EVALMETRIC[7]	
+29-440	6016-6017	(	_	_	
+29-441	6017-6023	y_test	_	_	
+29-442	6023-6024	,	_	_	
+29-443	6025-6033	np.round	_	_	
+29-444	6033-6034	(	_	_	
+29-445	6034-6046	preds_grande	_	_	
+29-446	6046-6047	[	_	_	
+29-447	6047-6048	:	_	_	
+29-448	6048-6049	,	_	_	
+29-449	6049-6050	1	_	_	
+29-450	6050-6051	]	_	_	
+29-451	6051-6052	)	_	_	
+29-452	6052-6053	,	_	_	
+29-453	6054-6061	average	_	_	
+29-454	6061-6062	=	_	_	
+29-455	6062-6063	'	_	_	
+29-456	6063-6068	macro	_	_	
+29-457	6068-6069	'	_	_	
+29-458	6069-6070	)	_	_	
+29-459	6075-6082	roc_auc	*	EVALMETRIC	
+29-460	6083-6084	=	_	_	
+29-461	6085-6114	sklearn.metrics.roc_auc_score	_	_	
+29-461.1	6101-6114	roc_auc_score	*	EVALMETRIC	
+29-462	6114-6115	(	_	_	
+29-463	6115-6121	y_test	_	_	
+29-464	6121-6122	,	_	_	
+29-465	6123-6135	preds_grande	_	_	
+29-466	6135-6136	[	_	_	
+29-467	6136-6137	:	_	_	
+29-468	6137-6138	,	_	_	
+29-469	6138-6139	1	_	_	
+29-470	6139-6140	]	_	_	
+29-471	6140-6141	,	_	_	
+29-472	6142-6149	average	_	_	
+29-473	6149-6150	=	_	_	
+29-474	6150-6151	'	_	_	
+29-475	6151-6156	macro	_	_	
+29-476	6156-6157	'	_	_	
+29-477	6157-6158	)	_	_	
+29-478	6168-6173	print	_	_	
+29-479	6173-6174	(	_	_	
+29-480	6174-6175	'	_	_	
+29-481	6175-6183	Accuracy	*	EVALMETRIC	
+29-482	6183-6184	:	_	_	
+29-483	6184-6185	'	_	_	
+29-484	6185-6186	,	_	_	
+29-485	6187-6195	accuracy	*	EVALMETRIC	
+29-486	6195-6196	)	_	_	
+29-487	6201-6206	print	_	_	
+29-488	6206-6207	(	_	_	
+29-489	6207-6208	'	_	_	
+29-490	6208-6210	F1	*[8]	EVALMETRIC[8]	
+29-491	6211-6216	Score	*[8]	EVALMETRIC[8]	
+29-492	6216-6217	:	_	_	
+29-493	6217-6218	'	_	_	
+29-494	6218-6219	,	_	_	
+29-495	6220-6222	f1	*[9]	EVALMETRIC[9]	
+29-496	6222-6223	_	*[9]	EVALMETRIC[9]	
+29-497	6223-6228	score	*[9]	EVALMETRIC[9]	
+29-498	6228-6229	)	_	_	
+29-499	6234-6239	print	_	_	
+29-500	6239-6240	(	_	_	
+29-501	6240-6241	'	_	_	
+29-502	6241-6244	ROC	*[10]	EVALMETRIC[10]	
+29-503	6245-6248	AUC	*[10]	EVALMETRIC[10]	
+29-504	6248-6249	:	_	_	
+29-505	6249-6250	'	_	_	
+29-506	6250-6251	,	_	_	
+29-507	6252-6259	roc_auc	*	EVALMETRIC	
+29-508	6259-6260	)	_	_	
+29-509	6261-6265	elif	_	_	
+29-510	6266-6270	args	_	_	
+29-511	6270-6271	[	_	_	
+29-512	6271-6272	'	_	_	
+29-513	6272-6281	objective	_	_	
+29-514	6281-6282	'	_	_	
+29-515	6282-6283	]	_	_	
+29-516	6284-6285	=	_	_	
+29-517	6285-6286	=	_	_	
+29-518	6287-6288	'	_	_	
+29-519	6288-6302	classification	_	_	
+29-520	6302-6303	'	_	_	
+29-521	6303-6304	:	_	_	
+29-522	6309-6317	accuracy	*	EVALMETRIC	
+29-523	6318-6319	=	_	_	
+29-524	6320-6350	sklearn.metrics.accuracy_score	_	_	
+29-524.1	6336-6350	accuracy_score	*	EVALMETRIC	
+29-525	6350-6351	(	_	_	
+29-526	6351-6357	y_test	_	_	
+29-527	6357-6358	,	_	_	
+29-528	6359-6368	np.argmax	_	_	
+29-529	6368-6369	(	_	_	
+29-530	6369-6381	preds_grande	_	_	
+29-531	6381-6382	,	_	_	
+29-532	6383-6387	axis	_	_	
+29-533	6387-6388	=	_	_	
+29-534	6388-6389	1	_	_	
+29-535	6389-6390	)	_	_	
+29-536	6390-6391	)	_	_	
+29-537	6396-6398	f1	*[11]	EVALMETRIC[11]	
+29-538	6398-6399	_	*[11]	EVALMETRIC[11]	
+29-539	6399-6404	score	*[11]	EVALMETRIC[11]	
+29-540	6405-6406	=	_	_	
+29-541	6407-6425	sklearn.metrics.f1	_	_	
+29-541.1	6423-6425	f1	*[12]	EVALMETRIC[12]	
+29-542	6425-6426	_	*[12]	EVALMETRIC[12]	
+29-543	6426-6431	score	*[12]	EVALMETRIC[12]	
+29-544	6431-6432	(	_	_	
+29-545	6432-6438	y_test	_	_	
+29-546	6438-6439	,	_	_	
+29-547	6440-6449	np.argmax	_	_	
+29-548	6449-6450	(	_	_	
+29-549	6450-6462	preds_grande	_	_	
+29-550	6462-6463	,	_	_	
+29-551	6464-6468	axis	_	_	
+29-552	6468-6469	=	_	_	
+29-553	6469-6470	1	_	_	
+29-554	6470-6471	)	_	_	
+29-555	6471-6472	,	_	_	
+29-556	6473-6480	average	_	_	
+29-557	6480-6481	=	_	_	
+29-558	6481-6482	'	_	_	
+29-559	6482-6487	macro	_	_	
+29-560	6487-6488	'	_	_	
+29-561	6488-6489	)	_	_	
+29-562	6494-6501	roc_auc	*	EVALMETRIC	
+29-563	6502-6503	=	_	_	
+29-564	6504-6533	sklearn.metrics.roc_auc_score	_	_	
+29-564.1	6520-6533	roc_auc_score	*	EVALMETRIC	
+29-565	6533-6534	(	_	_	
+29-566	6534-6540	y_test	_	_	
+29-567	6540-6541	,	_	_	
+29-568	6542-6554	preds_grande	_	_	
+29-569	6554-6555	,	_	_	
+29-570	6556-6563	average	_	_	
+29-571	6563-6564	=	_	_	
+29-572	6564-6565	'	_	_	
+29-573	6565-6570	macro	_	_	
+29-574	6570-6571	'	_	_	
+29-575	6571-6572	,	_	_	
+29-576	6573-6584	multi_class	_	_	
+29-577	6584-6585	=	_	_	
+29-578	6585-6586	'	_	_	
+29-579	6586-6589	ovo	_	_	
+29-580	6589-6590	'	_	_	
+29-581	6590-6591	,	_	_	
+29-582	6592-6598	labels	_	_	
+29-583	6598-6599	=	_	_	
+29-584	6599-6600	[	_	_	
+29-585	6600-6601	i	_	_	
+29-586	6602-6605	for	_	_	
+29-587	6606-6607	i	_	_	
+29-588	6608-6610	in	_	_	
+29-589	6611-6616	range	_	_	
+29-590	6616-6617	(	_	_	
+29-591	6617-6635	preds_grande.shape	_	_	
+29-592	6635-6636	[	_	_	
+29-593	6636-6637	1	_	_	
+29-594	6637-6638	]	_	_	
+29-595	6638-6639	)	_	_	
+29-596	6639-6640	]	_	_	
+29-597	6640-6641	)	_	_	
+29-598	6647-6652	print	_	_	
+29-599	6652-6653	(	_	_	
+29-600	6653-6654	'	_	_	
+29-601	6654-6662	Accuracy	*	EVALMETRIC	
+29-602	6663-6669	GRANDE	_	_	
+29-603	6669-6670	:	_	_	
+29-604	6670-6671	'	_	_	
+29-605	6671-6672	,	_	_	
+29-606	6673-6681	accuracy	*	EVALMETRIC	
+29-607	6681-6682	)	_	_	
+29-608	6687-6692	print	_	_	
+29-609	6692-6693	(	_	_	
+29-610	6693-6694	'	_	_	
+29-611	6694-6696	F1	*[13]	EVALMETRIC[13]	
+29-612	6697-6702	Score	*[13]	EVALMETRIC[13]	
+29-613	6703-6709	GRANDE	_	_	
+29-614	6709-6710	:	_	_	
+29-615	6710-6711	'	_	_	
+29-616	6711-6712	,	_	_	
+29-617	6713-6715	f1	*[14]	EVALMETRIC[14]	
+29-618	6715-6716	_	*[14]	EVALMETRIC[14]	
+29-619	6716-6721	score	*[14]	EVALMETRIC[14]	
+29-620	6721-6722	)	_	_	
+29-621	6727-6732	print	_	_	
+29-622	6732-6733	(	_	_	
+29-623	6733-6734	'	_	_	
+29-624	6734-6737	ROC	*[15]	EVALMETRIC[15]	
+29-625	6738-6741	AUC	*[15]	EVALMETRIC[15]	
+29-626	6742-6748	GRANDE	_	_	
+29-627	6748-6749	:	_	_	
+29-628	6749-6750	'	_	_	
+29-629	6750-6751	,	_	_	
+29-630	6752-6759	roc_auc	*	EVALMETRIC	
+29-631	6759-6760	)	_	_	
+29-632	6761-6765	else	_	_	
+29-633	6765-6766	:	_	_	
+29-634	6771-6790	mean_absolute_error	*	EVALMETRIC	
+29-635	6791-6792	=	_	_	
+29-636	6793-6828	sklearn.metrics.mean_absolute_error	_	_	
+29-636.1	6809-6828	mean_absolute_error	*	EVALMETRIC	
+29-637	6828-6829	(	_	_	
+29-638	6829-6835	y_test	_	_	
+29-639	6835-6836	,	_	_	
+29-640	6837-6845	np.round	_	_	
+29-641	6845-6846	(	_	_	
+29-642	6846-6858	preds_grande	_	_	
+29-643	6858-6859	)	_	_	
+29-644	6859-6860	)	_	_	
+29-645	6865-6867	r2	*[16]	EVALMETRIC[16]	
+29-646	6867-6868	_	*[16]	EVALMETRIC[16]	
+29-647	6868-6873	score	*[16]	EVALMETRIC[16]	
+29-648	6874-6875	=	_	_	
+29-649	6876-6894	sklearn.metrics.r2	_	_	
+29-649.1	6892-6894	r2	*[17]	EVALMETRIC[17]	
+29-650	6894-6895	_	*[17]	EVALMETRIC[17]	
+29-651	6895-6900	score	*[17]	EVALMETRIC[17]	
+29-652	6900-6901	(	_	_	
+29-653	6901-6907	y_test	_	_	
+29-654	6907-6908	,	_	_	
+29-655	6909-6917	np.round	_	_	
+29-656	6917-6918	(	_	_	
+29-657	6918-6930	preds_grande	_	_	
+29-658	6930-6931	)	_	_	
+29-659	6931-6932	)	_	_	
+29-660	6938-6943	print	_	_	
+29-661	6943-6944	(	_	_	
+29-662	6944-6945	'	_	_	
+29-663	6945-6948	MAE	*	EVALMETRIC	
+29-664	6949-6955	GRANDE	_	_	
+29-665	6955-6956	:	_	_	
+29-666	6956-6957	'	_	_	
+29-667	6957-6958	,	_	_	
+29-668	6959-6978	mean_absolute_error	*	EVALMETRIC	
+29-669	6978-6979	)	_	_	
+29-670	6984-6989	print	_	_	
+29-671	6989-6990	(	_	_	
+29-672	6990-6991	'	_	_	
+29-673	6991-6993	R2	*[18]	EVALMETRIC[18]	
+29-674	6994-6999	Score	*[18]	EVALMETRIC[18]	
+29-675	7000-7006	GRANDE	_	_	
+29-676	7006-7007	:	_	_	
+29-677	7007-7008	'	_	_	
+29-678	7008-7009	,	_	_	
+29-679	7010-7012	r2	*[19]	EVALMETRIC[19]	
+29-680	7012-7013	_	*[19]	EVALMETRIC[19]	
+29-681	7013-7018	score	*[19]	EVALMETRIC[19]	
+29-682	7018-7019	)	_	_	
+29-683	7020-7021	`	_	_	
+29-684	7021-7022	`	_	_	
+29-685	7022-7023	`	_	_	
+29-686	7025-7026	#	_	_	
+29-687	7026-7027	#	_	_	
+29-688	7028-7032	More	_	_	
+29-689	7034-7040	Please	_	_	
+29-690	7041-7045	note	_	_	
+29-691	7046-7050	that	_	_	
+29-692	7051-7055	this	_	_	
+29-693	7056-7058	is	_	_	
+29-694	7059-7061	an	_	_	
+29-695	7062-7074	experimental	_	_	
+29-696	7075-7089	implementation	_	_	
+29-697	7090-7095	which	_	_	
+29-698	7096-7098	is	_	_	
+29-699	7099-7102	not	_	_	
+29-700	7103-7108	fully	_	_	
+29-701	7109-7115	tested	_	_	
+29-702	7116-7119	yet	_	_	
+29-703	7119-7120	.	_	_	
+
+#Text=If you encounter any errors, or you observe unexpected behavior, please let me know.
+30-1	7121-7123	If	_	_	
+30-2	7124-7127	you	_	_	
+30-3	7128-7137	encounter	_	_	
+30-4	7138-7141	any	_	_	
+30-5	7142-7148	errors	_	_	
+30-6	7148-7149	,	_	_	
+30-7	7150-7152	or	_	_	
+30-8	7153-7156	you	_	_	
+30-9	7157-7164	observe	_	_	
+30-10	7165-7175	unexpected	_	_	
+30-11	7176-7184	behavior	_	_	
+30-12	7184-7185	,	_	_	
+30-13	7186-7192	please	_	_	
+30-14	7193-7196	let	_	_	
+30-15	7197-7199	me	_	_	
+30-16	7200-7204	know	_	_	
+30-17	7204-7205	.	_	_	

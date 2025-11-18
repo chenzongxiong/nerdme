@@ -1,0 +1,1 @@
+When you submit a pull request, a <SOFTWARE>CLA bot</SOFTWARE> will automatically determine whether you need to provide a <LICENSE>CLA</LICENSE> and decorate the PR appropriately (e.g., status check, comment).

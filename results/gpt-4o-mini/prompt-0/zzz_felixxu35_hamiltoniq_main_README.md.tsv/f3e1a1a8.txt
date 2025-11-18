@@ -1,0 +1,1 @@
+Integral to the workflow is <ONTOLOGY>Quantum Error Mitigation</ONTOLOGY> (<EVALMETRIC>QEM</EVALMETRIC>), which strategically addresses computational noise and errors that could affect the fidelity of the quantum processes.

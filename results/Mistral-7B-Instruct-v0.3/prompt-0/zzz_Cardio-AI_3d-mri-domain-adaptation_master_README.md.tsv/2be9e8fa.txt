@@ -1,0 +1,1 @@
+`Impact of <ONTOLOGY>gender</ONTOLOGY> and <ONTOLOGY>age</ONTOLOGY> on <ONTOLOGY>cardiovascular function</ONTOLOGY> late after repair of <ONTOLOGY>tetralogy of Fallot</ONTOLOGY>: percentiles based on <SOFTWARE>cardiac magnetic resonance</SOFTWARE>.\n`

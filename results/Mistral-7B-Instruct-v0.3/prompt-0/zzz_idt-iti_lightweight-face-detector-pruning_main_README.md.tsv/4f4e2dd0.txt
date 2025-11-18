@@ -1,0 +1,28 @@
+To execute the pruning process, use the following commands based on the desired pruning algorithm.
+
+```
+<PROGLANG>Python</PROGLANG>
+<SOFTWARE>scikit-learn</SOFTWARE>
+<EVALMETRIC>F1-Score</EVALMETRIC>
+
+For the <EVALMETRIC>F1-Score</EVALMETRIC> pruning algorithm:
+
+1. Install the required packages:
+
+```
+<PROGLANG>pip</PROGLANG> install <SOFTWARE>scikit-learn</SOFTWARE>
+```
+
+2. Run the pruning script:
+
+```
+<PROGLANG>python</PROGLANG> pruning_f1.py <DATASET>your_dataset.csv</DATASET>
+```
+
+For the <EVALMETRIC>Precision</EVALMETRIC> pruning algorithm:
+
+1. Install the required packages:
+
+```
+<PROGLANG>pip</PROGLANG> install <SOFTWARE>scikit-learn</SOFTWARE>
+```

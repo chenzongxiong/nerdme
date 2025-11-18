@@ -1,0 +1,1 @@
+It takes up 32G GPU memory for the main GPU and 23.8G GPU memory for other GPUs. ### Retriever Local Evaluation 1.

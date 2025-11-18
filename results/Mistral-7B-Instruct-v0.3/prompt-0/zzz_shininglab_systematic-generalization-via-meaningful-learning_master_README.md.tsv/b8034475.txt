@@ -1,0 +1,10 @@
+```
+Please refer to [text2sql-data](https://github.com/jkkummerfeld/text2sql-data/tree/master/data) for details.
+* main/res/data/<DATASET>scan</DATASET>
+* main/res/data/<DATASET>geography</DATASET>
+* main/res/data/<DATASET>advising</DATASET>
+### Notes
++ main/res/data/<DATASET>iwslt14</DATASET> - both vocabulary augmentation set and the entire dataset for IWSLT14
++ main/res/data/<DATASET>iwslt15</DATASET> - both vocabulary augmentation set and the entire dataset for IWSLT15
++ main/res/data/<PROJECT>prepare-iwslt14.sh</PROJECT> - [<SOFTWARE>fairseq</SOFTWARE>](https://github.com/facebookresearch/fairseq) preprocess script for IWSLT14
++ main/res/data/<PROJECT>prepare-iwslt15

@@ -1,0 +1,10 @@
+The text contains the following named entities:
+
+- `<SOFTWARE>Am-5JzdW2XHzhqMJZmVOEDgfde8_tg</SOFTWARE>`
+- `<DATASET>BaiduYun</DATASET>`
+- `<LICENSE>tmd4</LICENSE>`
+- `<DIRECTORY>model/</DIRECTORY>`
+
+Here's the annotated text in Markdown format:
+
+Am-5JzdW2XHzhqMJZmVOEDgfde8\_tg) (Chinese users can also get it from [BaiduYun](https://pan.baidu.com/s/1geOHioV) with code `tmd4`), and put it under folder `<DIRECTORY>model/</DIRECTORY>`.

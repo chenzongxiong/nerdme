@@ -1,0 +1,1 @@
+`<SOFTWARE>tools/general_inference.py</SOFTWARE>` script is able to run inference on a directory of images recursively.

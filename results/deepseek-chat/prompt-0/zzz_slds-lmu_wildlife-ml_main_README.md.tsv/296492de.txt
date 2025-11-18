@@ -1,0 +1,1 @@
+This implies that an image can have multiple bounding boxes.

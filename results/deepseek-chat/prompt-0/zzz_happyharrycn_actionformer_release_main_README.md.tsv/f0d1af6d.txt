@@ -1,0 +1,3 @@
+* Create a folder *.
+
+(Note: The input text does not contain any entities that fit the defined categories, so no annotations are made.)

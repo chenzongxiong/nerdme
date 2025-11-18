@@ -1,0 +1,2922 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=<h1 align="center">Ask2Transformers</h1>
+#Text=<h3 align="center">A Framework for Textual Entailment based Zero Shot text classification</h3>
+#Text=<p align="center">
+#Text= <a href="https://paperswithcode.com/sota/domain-labelling-on-babeldomains?
+1-1	0-1	<	_	_	
+1-2	1-3	h1	_	_	
+1-3	4-9	align	_	_	
+1-4	9-10	=	_	_	
+1-5	10-11	"	_	_	
+1-6	11-17	center	_	_	
+1-7	17-18	"	_	_	
+1-8	18-19	>	_	_	
+1-9	19-35	Ask2Transformers	*	PROJECT	
+1-10	35-36	<	_	_	
+1-11	36-37	/	_	_	
+1-12	37-39	h1	_	_	
+1-13	39-40	>	_	_	
+1-14	41-42	<	_	_	
+1-15	42-44	h3	_	_	
+1-16	45-50	align	_	_	
+1-17	50-51	=	_	_	
+1-18	51-52	"	_	_	
+1-19	52-58	center	_	_	
+1-20	58-59	"	_	_	
+1-21	59-60	>	_	_	
+1-22	60-61	A	_	_	
+1-23	62-71	Framework	_	_	
+1-24	72-75	for	_	_	
+1-25	76-83	Textual	_	_	
+1-26	84-94	Entailment	_	_	
+1-27	95-100	based	_	_	
+1-28	101-105	Zero	_	_	
+1-29	106-110	Shot	_	_	
+1-30	111-115	text	_	_	
+1-31	116-130	classification	_	_	
+1-32	130-131	<	_	_	
+1-33	131-132	/	_	_	
+1-34	132-134	h3	_	_	
+1-35	134-135	>	_	_	
+1-36	136-137	<	_	_	
+1-37	137-138	p	_	_	
+1-38	139-144	align	_	_	
+1-39	144-145	=	_	_	
+1-40	145-146	"	_	_	
+1-41	146-152	center	_	_	
+1-42	152-153	"	_	_	
+1-43	153-154	>	_	_	
+1-44	156-157	<	_	_	
+1-45	157-158	a	_	_	
+1-46	159-163	href	_	_	
+1-47	163-164	=	_	_	
+1-48	164-165	"	_	_	
+1-49	165-170	https	_	_	
+1-50	170-171	:	_	_	
+1-51	171-172	/	_	_	
+1-52	172-173	/	_	_	
+1-53	173-191	paperswithcode.com	_	_	
+1-54	191-192	/	_	_	
+1-55	192-196	sota	_	_	
+1-56	196-197	/	_	_	
+1-57	197-229	domain-labelling-on-babeldomains	_	_	
+1-58	229-230	?	_	_	
+
+#Text=p=ask2transformers-zero-shot-domain-labelling">
+#Text=  <img align="center" alt="Contributor Covenant" src="https://img.shields.io/endpoint.svg?
+2-1	230-231	p	_	_	
+2-2	231-232	=	_	_	
+2-3	232-275	ask2transformers-zero-shot-domain-labelling	_	_	
+2-4	275-276	"	_	_	
+2-5	276-277	>	_	_	
+2-6	280-281	<	_	_	
+2-7	281-284	img	_	_	
+2-8	285-290	align	_	_	
+2-9	290-291	=	_	_	
+2-10	291-292	"	_	_	
+2-11	292-298	center	_	_	
+2-12	298-299	"	_	_	
+2-13	300-303	alt	_	_	
+2-14	303-304	=	_	_	
+2-15	304-305	"	_	_	
+2-16	305-316	Contributor	_	_	
+2-17	317-325	Covenant	_	_	
+2-18	325-326	"	_	_	
+2-19	327-330	src	_	_	
+2-20	330-331	=	_	_	
+2-21	331-332	"	_	_	
+2-22	332-337	https	_	_	
+2-23	337-338	:	_	_	
+2-24	338-339	/	_	_	
+2-25	339-340	/	_	_	
+2-26	340-354	img.shields.io	_	_	
+2-27	354-355	/	_	_	
+2-28	355-367	endpoint.svg	_	_	
+2-29	367-368	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/ask2transformers-zero-shot-domain-labelling/domain-labelling-on-babeldomains">
+#Text= </a>
+#Text=</p>
+#Text=
+#Text=This repository contains the code for out of the box ready to use zero-shot classifiers among different tasks, such as Topic Labelling or Relation Extraction.
+3-1	368-371	url	_	_	
+3-2	371-372	=	_	_	
+3-3	372-377	https	_	_	
+3-4	377-378	:	_	_	
+3-5	378-379	/	_	_	
+3-6	379-380	/	_	_	
+3-7	380-398	paperswithcode.com	_	_	
+3-7.1	380-394	paperswithcode	*	PROJECT	
+3-8	398-399	/	_	_	
+3-9	399-404	badge	_	_	
+3-10	404-405	/	_	_	
+3-11	405-448	ask2transformers-zero-shot-domain-labelling	_	_	
+3-12	448-449	/	_	_	
+3-13	449-481	domain-labelling-on-babeldomains	_	_	
+3-14	481-482	"	_	_	
+3-15	482-483	>	_	_	
+3-16	485-486	<	_	_	
+3-17	486-487	/	_	_	
+3-18	487-488	a	_	_	
+3-19	488-489	>	_	_	
+3-20	490-491	<	_	_	
+3-21	491-492	/	_	_	
+3-22	492-493	p	_	_	
+3-23	493-494	>	_	_	
+3-24	496-500	This	_	_	
+3-25	501-511	repository	_	_	
+3-26	512-520	contains	_	_	
+3-27	521-524	the	_	_	
+3-28	525-529	code	_	_	
+3-29	530-533	for	_	_	
+3-30	534-537	out	_	_	
+3-31	538-540	of	_	_	
+3-32	541-544	the	_	_	
+3-33	545-548	box	_	_	
+3-34	549-554	ready	_	_	
+3-35	555-557	to	_	_	
+3-36	558-561	use	_	_	
+3-37	562-571	zero-shot	_	_	
+3-38	572-583	classifiers	_	_	
+3-39	584-589	among	_	_	
+3-40	590-599	different	_	_	
+3-41	600-605	tasks	_	_	
+3-42	605-606	,	_	_	
+3-43	607-611	such	_	_	
+3-44	612-614	as	_	_	
+3-45	615-620	Topic	_	_	
+3-46	621-630	Labelling	_	_	
+3-47	631-633	or	_	_	
+3-48	634-642	Relation	_	_	
+3-49	643-653	Extraction	_	_	
+3-50	653-654	.	_	_	
+
+#Text=It is built on top of 🤗 HuggingFace [Transformers](https://github.com/huggingface/transformers) library, so you are free to choose among hundreds of models.
+4-1	655-657	It	_	_	
+4-2	658-660	is	_	_	
+4-3	661-666	built	_	_	
+4-4	667-669	on	_	_	
+4-5	670-673	top	_	_	
+4-6	674-676	of	_	_	
+4-7	677-679	🤗	_	_	
+4-8	680-691	HuggingFace	_	_	
+4-9	692-693	[	_	_	
+4-10	693-705	Transformers	*	SOFTWARE	
+4-11	705-706	]	_	_	
+4-12	706-707	(	_	_	
+4-13	707-712	https	_	_	
+4-14	712-713	:	_	_	
+4-15	713-714	/	_	_	
+4-16	714-715	/	_	_	
+4-17	715-725	github.com	_	_	
+4-18	725-726	/	_	_	
+4-19	726-737	huggingface	_	_	
+4-20	737-738	/	_	_	
+4-21	738-750	transformers	*	SOFTWARE	
+4-22	750-751	)	_	_	
+4-23	752-759	library	_	_	
+4-24	759-760	,	_	_	
+4-25	761-763	so	_	_	
+4-26	764-767	you	_	_	
+4-27	768-771	are	_	_	
+4-28	772-776	free	_	_	
+4-29	777-779	to	_	_	
+4-30	780-786	choose	_	_	
+4-31	787-792	among	_	_	
+4-32	793-801	hundreds	_	_	
+4-33	802-804	of	_	_	
+4-34	805-811	models	_	_	
+4-35	811-812	.	_	_	
+
+#Text=You can either, use a dataset specific classifier or define one yourself with just labels descriptions or templates!
+5-1	813-816	You	_	_	
+5-2	817-820	can	_	_	
+5-3	821-827	either	_	_	
+5-4	827-828	,	_	_	
+5-5	829-832	use	_	_	
+5-6	833-834	a	_	_	
+5-7	835-842	dataset	_	_	
+5-8	843-851	specific	_	_	
+5-9	852-862	classifier	_	_	
+5-10	863-865	or	_	_	
+5-11	866-872	define	_	_	
+5-12	873-876	one	_	_	
+5-13	877-885	yourself	_	_	
+5-14	886-890	with	_	_	
+5-15	891-895	just	_	_	
+5-16	896-902	labels	_	_	
+5-17	903-915	descriptions	_	_	
+5-18	916-918	or	_	_	
+5-19	919-928	templates	_	_	
+5-20	928-929	!	_	_	
+
+#Text=The repository contains the code for the following publications:
+#Text=
+#Text=- 📄 [Ask2Transformers - Zero Shot Domain Labelling with Pretrained Transformers](https://aclanthology.org/2021.gwc-1.6/) accepted in [GWC2021](http://globalwordnet.org/global-wordnet-conferences-2/).
+#Text=- 📄 [Label Verbalization and Entailment for Effective Zero- and Few-Shot Relation Extraction](https://aclanthology.org/2021.emnlp-main.92/) accepted in [EMNLP2021](https://2021.emnlp.org/)
+#Text=- 📄 [Textual Entailment for Event Argument Extraction: Zero- and Few-Shot with Multi-Source Learning](https://arxiv.org/abs/2205.01376) accepted as Findings in [NAACL2022](https://2022.naacl.org/)
+#Text=
+#Text=<!
+6-1	930-933	The	_	_	
+6-2	934-944	repository	_	_	
+6-3	945-953	contains	_	_	
+6-4	954-957	the	_	_	
+6-5	958-962	code	_	_	
+6-6	963-966	for	_	_	
+6-7	967-970	the	_	_	
+6-8	971-980	following	_	_	
+6-9	981-993	publications	_	_	
+6-10	993-994	:	_	_	
+6-11	996-997	-	_	_	
+6-12	998-1000	📄	_	_	
+6-13	1001-1002	[	_	_	
+6-14	1002-1018	Ask2Transformers	*[1]	PUBLICATION[1]	
+6-15	1019-1020	-	*[1]	PUBLICATION[1]	
+6-16	1021-1025	Zero	*[1]	PUBLICATION[1]	
+6-17	1026-1030	Shot	*[1]	PUBLICATION[1]	
+6-18	1031-1037	Domain	*[1]	PUBLICATION[1]	
+6-19	1038-1047	Labelling	*[1]	PUBLICATION[1]	
+6-20	1048-1052	with	*[1]	PUBLICATION[1]	
+6-21	1053-1063	Pretrained	*[1]	PUBLICATION[1]	
+6-22	1064-1076	Transformers	*[1]	PUBLICATION[1]	
+6-23	1076-1077	]	_	_	
+6-24	1077-1078	(	_	_	
+6-25	1078-1083	https	_	_	
+6-26	1083-1084	:	_	_	
+6-27	1084-1085	/	_	_	
+6-28	1085-1086	/	_	_	
+6-29	1086-1102	aclanthology.org	_	_	
+6-30	1102-1103	/	_	_	
+6-31	1103-1107	2021	_	_	
+6-32	1107-1108	.	_	_	
+6-33	1108-1111	gwc	_	_	
+6-34	1111-1112	-	_	_	
+6-35	1112-1115	1.6	_	_	
+6-36	1115-1116	/	_	_	
+6-37	1116-1117	)	_	_	
+6-38	1118-1126	accepted	_	_	
+6-39	1127-1129	in	_	_	
+6-40	1130-1131	[	_	_	
+6-41	1131-1138	GWC2021	*	CONFERENCE	
+6-42	1138-1139	]	_	_	
+6-43	1139-1140	(	_	_	
+6-44	1140-1144	http	_	_	
+6-45	1144-1145	:	_	_	
+6-46	1145-1146	/	_	_	
+6-47	1146-1147	/	_	_	
+6-48	1147-1164	globalwordnet.org	_	_	
+6-49	1164-1165	/	_	_	
+6-50	1165-1191	global-wordnet-conferences	_	_	
+6-51	1191-1192	-	_	_	
+6-52	1192-1193	2	_	_	
+6-53	1193-1194	/	_	_	
+6-54	1194-1195	)	_	_	
+6-55	1195-1196	.	_	_	
+6-56	1197-1198	-	_	_	
+6-57	1199-1201	📄	_	_	
+6-58	1202-1203	[	_	_	
+6-59	1203-1208	Label	*[2]	PUBLICATION[2]	
+6-60	1209-1222	Verbalization	*[2]	PUBLICATION[2]	
+6-61	1223-1226	and	*[2]	PUBLICATION[2]	
+6-62	1227-1237	Entailment	*[2]	PUBLICATION[2]	
+6-63	1238-1241	for	*[2]	PUBLICATION[2]	
+6-64	1242-1251	Effective	*[2]	PUBLICATION[2]	
+6-65	1252-1256	Zero	*[2]	PUBLICATION[2]	
+6-66	1256-1257	-	*[2]	PUBLICATION[2]	
+6-67	1258-1261	and	*[2]	PUBLICATION[2]	
+6-68	1262-1270	Few-Shot	*[2]	PUBLICATION[2]	
+6-69	1271-1279	Relation	*[2]	PUBLICATION[2]	
+6-70	1280-1290	Extraction	*[2]	PUBLICATION[2]	
+6-71	1290-1291	]	_	_	
+6-72	1291-1292	(	_	_	
+6-73	1292-1297	https	_	_	
+6-74	1297-1298	:	_	_	
+6-75	1298-1299	/	_	_	
+6-76	1299-1300	/	_	_	
+6-77	1300-1316	aclanthology.org	_	_	
+6-78	1316-1317	/	_	_	
+6-79	1317-1321	2021	_	_	
+6-80	1321-1322	.	_	_	
+6-81	1322-1332	emnlp-main	_	_	
+6-81.1	1322-1327	emnlp	*	CONFERENCE	
+6-82	1332-1335	.92	_	_	
+6-83	1335-1336	/	_	_	
+6-84	1336-1337	)	_	_	
+6-85	1338-1346	accepted	_	_	
+6-86	1347-1349	in	_	_	
+6-87	1350-1351	[	_	_	
+6-88	1351-1360	EMNLP2021	*	CONFERENCE	
+6-89	1360-1361	]	_	_	
+6-90	1361-1362	(	_	_	
+6-91	1362-1367	https	_	_	
+6-92	1367-1368	:	_	_	
+6-93	1368-1369	/	_	_	
+6-94	1369-1370	/	_	_	
+6-95	1370-1374	2021	_	_	
+6-96	1374-1375	.	_	_	
+6-97	1375-1384	emnlp.org	_	_	
+6-98	1384-1385	/	_	_	
+6-99	1385-1386	)	_	_	
+6-100	1387-1388	-	_	_	
+6-101	1389-1391	📄	_	_	
+6-102	1392-1393	[	_	_	
+6-103	1393-1400	Textual	*[3]	PUBLICATION[3]	
+6-104	1401-1411	Entailment	*[3]	PUBLICATION[3]	
+6-105	1412-1415	for	*[3]	PUBLICATION[3]	
+6-106	1416-1421	Event	*[3]	PUBLICATION[3]	
+6-107	1422-1430	Argument	*[3]	PUBLICATION[3]	
+6-108	1431-1441	Extraction	*[3]	PUBLICATION[3]	
+6-109	1441-1442	:	*[3]	PUBLICATION[3]	
+6-110	1443-1447	Zero	*[3]	PUBLICATION[3]	
+6-111	1447-1448	-	*[3]	PUBLICATION[3]	
+6-112	1449-1452	and	*[3]	PUBLICATION[3]	
+6-113	1453-1461	Few-Shot	*[3]	PUBLICATION[3]	
+6-114	1462-1466	with	*[3]	PUBLICATION[3]	
+6-115	1467-1479	Multi-Source	*[3]	PUBLICATION[3]	
+6-116	1480-1488	Learning	*[3]	PUBLICATION[3]	
+6-117	1488-1489	]	_	_	
+6-118	1489-1490	(	_	_	
+6-119	1490-1495	https	_	_	
+6-120	1495-1496	:	_	_	
+6-121	1496-1497	/	_	_	
+6-122	1497-1498	/	_	_	
+6-123	1498-1507	arxiv.org	_	_	
+6-124	1507-1508	/	_	_	
+6-125	1508-1511	abs	_	_	
+6-126	1511-1512	/	_	_	
+6-127	1512-1522	2205.01376	_	_	
+6-128	1522-1523	)	_	_	
+6-129	1524-1532	accepted	_	_	
+6-130	1533-1535	as	_	_	
+6-131	1536-1544	Findings	_	_	
+6-132	1545-1547	in	_	_	
+6-133	1548-1549	[	_	_	
+6-134	1549-1558	NAACL2022	*	CONFERENCE	
+6-135	1558-1559	]	_	_	
+6-136	1559-1560	(	_	_	
+6-137	1560-1565	https	_	_	
+6-138	1565-1566	:	_	_	
+6-139	1566-1567	/	_	_	
+6-140	1567-1568	/	_	_	
+6-141	1568-1572	2022	_	_	
+6-142	1572-1573	.	_	_	
+6-143	1573-1582	naacl.org	_	_	
+6-143.1	1573-1578	naacl	*	CONFERENCE	
+6-144	1582-1583	/	_	_	
+6-145	1583-1584	)	_	_	
+6-146	1586-1587	<	_	_	
+6-147	1587-1588	!	_	_	
+
+#Text=-- ### Supported (and benchmarked) tasks:
+#Text=Follow the links to see some examples of how to use the library on each task.
+#Text=- [Topic classification](.
+7-1	1588-1589	-	_	_	
+7-2	1589-1590	-	_	_	
+7-3	1591-1592	#	_	_	
+7-4	1592-1593	#	_	_	
+7-5	1593-1594	#	_	_	
+7-6	1595-1604	Supported	_	_	
+7-7	1605-1606	(	_	_	
+7-8	1606-1609	and	_	_	
+7-9	1610-1621	benchmarked	_	_	
+7-10	1621-1622	)	_	_	
+7-11	1623-1628	tasks	_	_	
+7-12	1628-1629	:	_	_	
+7-13	1630-1636	Follow	_	_	
+7-14	1637-1640	the	_	_	
+7-15	1641-1646	links	_	_	
+7-16	1647-1649	to	_	_	
+7-17	1650-1653	see	_	_	
+7-18	1654-1658	some	_	_	
+7-19	1659-1667	examples	_	_	
+7-20	1668-1670	of	_	_	
+7-21	1671-1674	how	_	_	
+7-22	1675-1677	to	_	_	
+7-23	1678-1681	use	_	_	
+7-24	1682-1685	the	_	_	
+7-25	1686-1693	library	_	_	
+7-26	1694-1696	on	_	_	
+7-27	1697-1701	each	_	_	
+7-28	1702-1706	task	_	_	
+7-29	1706-1707	.	_	_	
+7-30	1708-1709	-	_	_	
+7-31	1710-1711	[	_	_	
+7-32	1711-1716	Topic	_	_	
+7-33	1717-1731	classification	_	_	
+7-34	1731-1732	]	_	_	
+7-35	1732-1733	(	_	_	
+7-36	1733-1734	.	_	_	
+
+#Text=/a2t/topic_classification/) evaluated on BabelDomains (Camacho-
+#Text=Collados and Navigli, 2017)  dataset.
+#Text=- [Relation classification](.
+8-1	1734-1735	/	_	_	
+8-2	1735-1738	a2t	_	_	
+8-3	1738-1739	/	_	_	
+8-4	1739-1759	topic_classification	_	_	
+8-5	1759-1760	/	_	_	
+8-6	1760-1761	)	_	_	
+8-7	1762-1771	evaluated	_	_	
+8-8	1772-1774	on	_	_	
+8-9	1775-1787	BabelDomains	*	DATASET	
+8-10	1788-1789	(	_	_	
+8-11	1789-1796	Camacho	_	_	
+8-12	1796-1797	-	_	_	
+8-13	1798-1806	Collados	_	_	
+8-14	1807-1810	and	_	_	
+8-15	1811-1818	Navigli	_	_	
+8-16	1818-1819	,	_	_	
+8-17	1820-1824	2017	_	_	
+8-18	1824-1825	)	_	_	
+8-19	1827-1834	dataset	_	_	
+8-20	1834-1835	.	_	_	
+8-21	1836-1837	-	_	_	
+8-22	1838-1839	[	_	_	
+8-23	1839-1847	Relation	_	_	
+8-24	1848-1862	classification	_	_	
+8-25	1862-1863	]	_	_	
+8-26	1863-1864	(	_	_	
+8-27	1864-1865	.	_	_	
+
+#Text=/a2t/relation_classification/) evaluated on TACRED (Zhang et al., 2017) dataset. -->
+#Text=
+#Text=To get started with the repository consider reading the **new** [documentation](https://osainz59.github.io/Ask2Transformers)!
+9-1	1865-1866	/	_	_	
+9-2	1866-1869	a2t	_	_	
+9-3	1869-1870	/	_	_	
+9-4	1870-1893	relation_classification	_	_	
+9-5	1893-1894	/	_	_	
+9-6	1894-1895	)	_	_	
+9-7	1896-1905	evaluated	_	_	
+9-8	1906-1908	on	_	_	
+9-9	1909-1915	TACRED	*	DATASET	
+9-10	1916-1917	(	_	_	
+9-11	1917-1922	Zhang	_	_	
+9-12	1923-1925	et	_	_	
+9-13	1926-1928	al	_	_	
+9-14	1928-1929	.	_	_	
+9-15	1929-1930	,	_	_	
+9-16	1931-1935	2017	_	_	
+9-17	1935-1936	)	_	_	
+9-18	1937-1944	dataset	_	_	
+9-19	1944-1945	.	_	_	
+9-20	1946-1947	-	_	_	
+9-21	1947-1948	-	_	_	
+9-22	1948-1949	>	_	_	
+9-23	1951-1953	To	_	_	
+9-24	1954-1957	get	_	_	
+9-25	1958-1965	started	_	_	
+9-26	1966-1970	with	_	_	
+9-27	1971-1974	the	_	_	
+9-28	1975-1985	repository	_	_	
+9-29	1986-1994	consider	_	_	
+9-30	1995-2002	reading	_	_	
+9-31	2003-2006	the	_	_	
+9-32	2007-2008	*	_	_	
+9-33	2008-2009	*	_	_	
+9-34	2009-2012	new	_	_	
+9-35	2012-2013	*	_	_	
+9-36	2013-2014	*	_	_	
+9-37	2015-2016	[	_	_	
+9-38	2016-2029	documentation	_	_	
+9-39	2029-2030	]	_	_	
+9-40	2030-2031	(	_	_	
+9-41	2031-2036	https	_	_	
+9-42	2036-2037	:	_	_	
+9-43	2037-2038	/	_	_	
+9-44	2038-2039	/	_	_	
+9-45	2039-2047	osainz59	_	_	
+9-46	2047-2048	.	_	_	
+9-47	2048-2057	github.io	_	_	
+9-48	2057-2058	/	_	_	
+9-49	2058-2074	Ask2Transformers	_	_	
+9-50	2074-2075	)	_	_	
+9-51	2075-2076	!	_	_	
+
+#Text=# Demo 🕹️
+#Text=
+#Text=We have realeased a demo on Zero-Shot Information Extraction using Textual Entailment ([ZS4IE: A toolkit for Zero-Shot Information Extraction with simple Verbalizations](https://arxiv.org/abs/2203.13602)) accepted in the [Demo Track of NAACL 2022]().
+10-1	2078-2079	#	_	_	
+10-2	2080-2084	Demo	_	_	
+10-3	2085-2088	🕹️	_	_	
+10-4	2090-2092	We	_	_	
+10-5	2093-2097	have	_	_	
+10-6	2098-2107	realeased	_	_	
+10-7	2108-2109	a	_	_	
+10-8	2110-2114	demo	_	_	
+10-9	2115-2117	on	_	_	
+10-10	2118-2127	Zero-Shot	_	_	
+10-11	2128-2139	Information	_	_	
+10-12	2140-2150	Extraction	_	_	
+10-13	2151-2156	using	_	_	
+10-14	2157-2164	Textual	_	_	
+10-15	2165-2175	Entailment	_	_	
+10-16	2176-2177	(	_	_	
+10-17	2177-2178	[	_	_	
+10-18	2178-2183	ZS4IE	*[4]|*[5]	PUBLICATION[4]|SOFTWARE[5]	
+10-19	2183-2184	:	*[4]	PUBLICATION[4]	
+10-20	2185-2186	A	*[4]	PUBLICATION[4]	
+10-21	2187-2194	toolkit	*[4]	PUBLICATION[4]	
+10-22	2195-2198	for	*[4]	PUBLICATION[4]	
+10-23	2199-2208	Zero-Shot	*[4]	PUBLICATION[4]	
+10-24	2209-2220	Information	*[4]	PUBLICATION[4]	
+10-25	2221-2231	Extraction	*[4]	PUBLICATION[4]	
+10-26	2232-2236	with	*[4]	PUBLICATION[4]	
+10-27	2237-2243	simple	*[4]	PUBLICATION[4]	
+10-28	2244-2258	Verbalizations	*[4]	PUBLICATION[4]	
+10-29	2258-2259	]	_	_	
+10-30	2259-2260	(	_	_	
+10-31	2260-2265	https	_	_	
+10-32	2265-2266	:	_	_	
+10-33	2266-2267	/	_	_	
+10-34	2267-2268	/	_	_	
+10-35	2268-2277	arxiv.org	_	_	
+10-36	2277-2278	/	_	_	
+10-37	2278-2281	abs	_	_	
+10-38	2281-2282	/	_	_	
+10-39	2282-2292	2203.13602	_	_	
+10-40	2292-2293	)	_	_	
+10-41	2293-2294	)	_	_	
+10-42	2295-2303	accepted	_	_	
+10-43	2304-2306	in	_	_	
+10-44	2307-2310	the	_	_	
+10-45	2311-2312	[	_	_	
+10-46	2312-2316	Demo	_	_	
+10-47	2317-2322	Track	_	_	
+10-48	2323-2325	of	_	_	
+10-49	2326-2331	NAACL	*[6]	CONFERENCE[6]	
+10-50	2332-2336	2022	*[6]	CONFERENCE[6]	
+10-51	2336-2337	]	_	_	
+10-52	2337-2338	(	_	_	
+10-53	2338-2339	)	_	_	
+10-54	2339-2340	.	_	_	
+
+#Text=The code is publicly availabe on its own GitHub repository: [ZS4IE](https://github.com/bbn-e/zs4ie)
+11-1	2341-2344	The	_	_	
+11-2	2345-2349	code	_	_	
+11-3	2350-2352	is	_	_	
+11-4	2353-2361	publicly	_	_	
+11-5	2362-2370	availabe	_	_	
+11-6	2371-2373	on	_	_	
+11-7	2374-2377	its	_	_	
+11-8	2378-2381	own	_	_	
+11-9	2382-2388	GitHub	_	_	
+11-10	2389-2399	repository	_	_	
+11-11	2399-2400	:	_	_	
+11-12	2401-2402	[	_	_	
+11-13	2402-2407	ZS4IE	*	SOFTWARE	
+11-14	2407-2408	]	_	_	
+11-15	2408-2409	(	_	_	
+11-16	2409-2414	https	_	_	
+11-17	2414-2415	:	_	_	
+11-18	2415-2416	/	_	_	
+11-19	2416-2417	/	_	_	
+11-20	2417-2427	github.com	_	_	
+11-21	2427-2428	/	_	_	
+11-22	2428-2433	bbn-e	_	_	
+11-23	2433-2434	/	_	_	
+11-24	2434-2439	zs4ie	_	_	
+11-25	2439-2440	)	_	_	
+
+#Text=.
+12-1	2440-2441	.	_	_	
+
+#Text=# Installation
+#Text=
+#Text=By using Pip (check the last release)
+#Text=
+#Text=```shell script
+#Text=pip install a2t
+#Text=```
+#Text=
+#Text=By clonning the repository
+#Text=
+#Text=```shell script
+#Text=git clone https://github.com/osainz59/Ask2Transformers.git
+#Text=cd Ask2Transformers
+#Text=pip install .
+#Text=```
+#Text=
+#Text=Or directly by
+#Text=```shell script
+#Text=pip install git+https://github.com/osainz59/Ask2Transformers
+#Text=```
+#Text=
+#Text=<!
+13-1	2443-2444	#	_	_	
+13-2	2445-2457	Installation	_	_	
+13-3	2459-2461	By	_	_	
+13-4	2462-2467	using	_	_	
+13-5	2468-2471	Pip	*	SOFTWARE	
+13-6	2472-2473	(	_	_	
+13-7	2473-2478	check	_	_	
+13-8	2479-2482	the	_	_	
+13-9	2483-2487	last	_	_	
+13-10	2488-2495	release	_	_	
+13-11	2495-2496	)	_	_	
+13-12	2498-2499	`	_	_	
+13-13	2499-2500	`	_	_	
+13-14	2500-2501	`	_	_	
+13-15	2501-2506	shell	*	PROGLANG	
+13-16	2507-2513	script	_	_	
+13-17	2514-2517	pip	*	SOFTWARE	
+13-18	2518-2525	install	_	_	
+13-19	2526-2529	a2t	*	SOFTWARE	
+13-20	2530-2531	`	_	_	
+13-21	2531-2532	`	_	_	
+13-22	2532-2533	`	_	_	
+13-23	2535-2537	By	_	_	
+13-24	2538-2546	clonning	_	_	
+13-25	2547-2550	the	_	_	
+13-26	2551-2561	repository	_	_	
+13-27	2563-2564	`	_	_	
+13-28	2564-2565	`	_	_	
+13-29	2565-2566	`	_	_	
+13-30	2566-2571	shell	*	PROGLANG	
+13-31	2572-2578	script	_	_	
+13-32	2579-2582	git	*	SOFTWARE	
+13-33	2583-2588	clone	_	_	
+13-34	2589-2594	https	_	_	
+13-35	2594-2595	:	_	_	
+13-36	2595-2596	/	_	_	
+13-37	2596-2597	/	_	_	
+13-38	2597-2607	github.com	_	_	
+13-39	2607-2608	/	_	_	
+13-40	2608-2616	osainz59	_	_	
+13-41	2616-2617	/	_	_	
+13-42	2617-2637	Ask2Transformers.git	_	_	
+13-42.1	2617-2633	Ask2Transformers	*	PROJECT	
+13-43	2638-2640	cd	_	_	
+13-44	2641-2657	Ask2Transformers	*	PROJECT	
+13-45	2658-2661	pip	*	SOFTWARE	
+13-46	2662-2669	install	_	_	
+13-47	2670-2671	.	_	_	
+13-48	2672-2673	`	_	_	
+13-49	2673-2674	`	_	_	
+13-50	2674-2675	`	_	_	
+13-51	2677-2679	Or	_	_	
+13-52	2680-2688	directly	_	_	
+13-53	2689-2691	by	_	_	
+13-54	2692-2693	`	_	_	
+13-55	2693-2694	`	_	_	
+13-56	2694-2695	`	_	_	
+13-57	2695-2700	shell	*	PROGLANG	
+13-58	2701-2707	script	_	_	
+13-59	2708-2711	pip	*	SOFTWARE	
+13-60	2712-2719	install	_	_	
+13-61	2720-2723	git	_	_	
+13-62	2723-2724	+	_	_	
+13-63	2724-2729	https	_	_	
+13-64	2729-2730	:	_	_	
+13-65	2730-2731	/	_	_	
+13-66	2731-2732	/	_	_	
+13-67	2732-2742	github.com	_	_	
+13-68	2742-2743	/	_	_	
+13-69	2743-2751	osainz59	_	_	
+13-70	2751-2752	/	_	_	
+13-71	2752-2768	Ask2Transformers	*	PROJECT	
+13-72	2769-2770	`	_	_	
+13-73	2770-2771	`	_	_	
+13-74	2771-2772	`	_	_	
+13-75	2774-2775	<	_	_	
+13-76	2775-2776	!	_	_	
+
+#Text=-- [//]: <img src=".
+14-1	2776-2777	-	_	_	
+14-2	2777-2778	-	_	_	
+14-3	2779-2780	[	_	_	
+14-4	2780-2781	/	_	_	
+14-5	2781-2782	/	_	_	
+14-6	2782-2783	]	_	_	
+14-7	2783-2784	:	_	_	
+14-8	2785-2786	<	_	_	
+14-9	2786-2789	img	_	_	
+14-10	2790-2793	src	_	_	
+14-11	2793-2794	=	_	_	
+14-12	2794-2795	"	_	_	
+14-13	2795-2796	.	_	_	
+
+#Text=/imgs/RE_NLI.svg" style="background-color: white; border-radius: 15px"> -->
+#Text=
+#Text=# Models 
+#Text=## Available models
+#Text=By default, `roberta-large-mnli` checkpoint is used to perform the inference.
+15-1	2796-2797	/	_	_	
+15-2	2797-2801	imgs	_	_	
+15-3	2801-2802	/	_	_	
+15-4	2802-2812	RE_NLI.svg	_	_	
+15-5	2812-2813	"	_	_	
+15-6	2814-2819	style	_	_	
+15-7	2819-2820	=	_	_	
+15-8	2820-2821	"	_	_	
+15-9	2821-2837	background-color	_	_	
+15-10	2837-2838	:	_	_	
+15-11	2839-2844	white	_	_	
+15-12	2844-2845	;	_	_	
+15-13	2846-2859	border-radius	_	_	
+15-14	2859-2860	:	_	_	
+15-15	2861-2865	15px	_	_	
+15-16	2865-2866	"	_	_	
+15-17	2866-2867	>	_	_	
+15-18	2868-2869	-	_	_	
+15-19	2869-2870	-	_	_	
+15-20	2870-2871	>	_	_	
+15-21	2873-2874	#	_	_	
+15-22	2875-2881	Models	_	_	
+15-23	2883-2884	#	_	_	
+15-24	2884-2885	#	_	_	
+15-25	2886-2895	Available	_	_	
+15-26	2896-2902	models	_	_	
+15-27	2903-2905	By	_	_	
+15-28	2906-2913	default	_	_	
+15-29	2913-2914	,	_	_	
+15-30	2915-2916	`	_	_	
+15-31	2916-2934	roberta-large-mnli	_	_	
+15-32	2934-2935	`	_	_	
+15-33	2936-2946	checkpoint	_	_	
+15-34	2947-2949	is	_	_	
+15-35	2950-2954	used	_	_	
+15-36	2955-2957	to	_	_	
+15-37	2958-2965	perform	_	_	
+15-38	2966-2969	the	_	_	
+15-39	2970-2979	inference	_	_	
+15-40	2979-2980	.	_	_	
+
+#Text=You can try different models to perform the zero-shot classification, but they need to be finetuned on a NLI task and be compatible with the `AutoModelForSequenceClassification` class from Transformers.
+16-1	2981-2984	You	_	_	
+16-2	2985-2988	can	_	_	
+16-3	2989-2992	try	_	_	
+16-4	2993-3002	different	_	_	
+16-5	3003-3009	models	_	_	
+16-6	3010-3012	to	_	_	
+16-7	3013-3020	perform	_	_	
+16-8	3021-3024	the	_	_	
+16-9	3025-3034	zero-shot	_	_	
+16-10	3035-3049	classification	_	_	
+16-11	3049-3050	,	_	_	
+16-12	3051-3054	but	_	_	
+16-13	3055-3059	they	_	_	
+16-14	3060-3064	need	_	_	
+16-15	3065-3067	to	_	_	
+16-16	3068-3070	be	_	_	
+16-17	3071-3080	finetuned	_	_	
+16-18	3081-3083	on	_	_	
+16-19	3084-3085	a	_	_	
+16-20	3086-3089	NLI	_	_	
+16-21	3090-3094	task	_	_	
+16-22	3095-3098	and	_	_	
+16-23	3099-3101	be	_	_	
+16-24	3102-3112	compatible	_	_	
+16-25	3113-3117	with	_	_	
+16-26	3118-3121	the	_	_	
+16-27	3122-3123	`	_	_	
+16-28	3123-3157	AutoModelForSequenceClassification	_	_	
+16-29	3157-3158	`	_	_	
+16-30	3159-3164	class	_	_	
+16-31	3165-3169	from	_	_	
+16-32	3170-3182	Transformers	*	SOFTWARE	
+16-33	3182-3183	.	_	_	
+
+#Text=For example:
+#Text=
+#Text=* `roberta-large-mnli`
+#Text=* `joeddav/xlm-roberta-large-xnli`
+#Text=* `facebook/bart-large-mnli`
+#Text=* `microsoft/deberta-v2-xlarge-mnli` 
+#Text=
+#Text=**Coming soon:** `t5-large` like generative models support.
+#Text=
+#Text=## Pre-trained models 🆕
+#Text=
+#Text=We now provide (task specific) pre-trained entailment models to: (1) **reproduce** the results of the papers and (2) **reuse** them for new schemas of the same tasks.
+17-1	3184-3187	For	_	_	
+17-2	3188-3195	example	_	_	
+17-3	3195-3196	:	_	_	
+17-4	3198-3199	*	_	_	
+17-5	3200-3201	`	_	_	
+17-6	3201-3219	roberta-large-mnli	*	SOFTWARE	
+17-7	3219-3220	`	_	_	
+17-8	3221-3222	*	_	_	
+17-9	3223-3224	`	_	_	
+17-10	3224-3231	joeddav	*[7]	SOFTWARE[7]	
+17-11	3231-3232	/	*[7]	SOFTWARE[7]	
+17-12	3232-3254	xlm-roberta-large-xnli	*[7]	SOFTWARE[7]	
+17-13	3254-3255	`	_	_	
+17-14	3256-3257	*	_	_	
+17-15	3258-3259	`	_	_	
+17-16	3259-3267	facebook	*[8]	SOFTWARE[8]	
+17-17	3267-3268	/	*[8]	SOFTWARE[8]	
+17-18	3268-3283	bart-large-mnli	*[8]	SOFTWARE[8]	
+17-19	3283-3284	`	_	_	
+17-20	3285-3286	*	_	_	
+17-21	3287-3288	`	_	_	
+17-22	3288-3297	microsoft	*[9]	SOFTWARE[9]	
+17-23	3297-3298	/	*[9]	SOFTWARE[9]	
+17-24	3298-3308	deberta-v2	*[9]	SOFTWARE[9]	
+17-25	3308-3309	-	*[9]	SOFTWARE[9]	
+17-26	3309-3320	xlarge-mnli	*[9]	SOFTWARE[9]	
+17-27	3320-3321	`	_	_	
+17-28	3324-3325	*	_	_	
+17-29	3325-3326	*	_	_	
+17-30	3326-3332	Coming	_	_	
+17-31	3333-3337	soon	_	_	
+17-32	3337-3338	:	_	_	
+17-33	3338-3339	*	_	_	
+17-34	3339-3340	*	_	_	
+17-35	3341-3342	`	_	_	
+17-36	3342-3344	t5	*[10]	SOFTWARE[10]	
+17-37	3344-3345	-	*[10]	SOFTWARE[10]	
+17-38	3345-3350	large	*[10]	SOFTWARE[10]	
+17-39	3350-3351	`	_	_	
+17-40	3352-3356	like	_	_	
+17-41	3357-3367	generative	_	_	
+17-42	3368-3374	models	_	_	
+17-43	3375-3382	support	_	_	
+17-44	3382-3383	.	_	_	
+17-45	3385-3386	#	_	_	
+17-46	3386-3387	#	_	_	
+17-47	3388-3399	Pre-trained	_	_	
+17-48	3400-3406	models	_	_	
+17-49	3407-3409	🆕	_	_	
+17-50	3411-3413	We	_	_	
+17-51	3414-3417	now	_	_	
+17-52	3418-3425	provide	_	_	
+17-53	3426-3427	(	_	_	
+17-54	3427-3431	task	_	_	
+17-55	3432-3440	specific	_	_	
+17-56	3440-3441	)	_	_	
+17-57	3442-3453	pre-trained	_	_	
+17-58	3454-3464	entailment	_	_	
+17-59	3465-3471	models	_	_	
+17-60	3472-3474	to	_	_	
+17-61	3474-3475	:	_	_	
+17-62	3476-3477	(	_	_	
+17-63	3477-3478	1	_	_	
+17-64	3478-3479	)	_	_	
+17-65	3480-3481	*	_	_	
+17-66	3481-3482	*	_	_	
+17-67	3482-3491	reproduce	_	_	
+17-68	3491-3492	*	_	_	
+17-69	3492-3493	*	_	_	
+17-70	3494-3497	the	_	_	
+17-71	3498-3505	results	_	_	
+17-72	3506-3508	of	_	_	
+17-73	3509-3512	the	_	_	
+17-74	3513-3519	papers	_	_	
+17-75	3520-3523	and	_	_	
+17-76	3524-3525	(	_	_	
+17-77	3525-3526	2	_	_	
+17-78	3526-3527	)	_	_	
+17-79	3528-3529	*	_	_	
+17-80	3529-3530	*	_	_	
+17-81	3530-3535	reuse	_	_	
+17-82	3535-3536	*	_	_	
+17-83	3536-3537	*	_	_	
+17-84	3538-3542	them	_	_	
+17-85	3543-3546	for	_	_	
+17-86	3547-3550	new	_	_	
+17-87	3551-3558	schemas	_	_	
+17-88	3559-3561	of	_	_	
+17-89	3562-3565	the	_	_	
+17-90	3566-3570	same	_	_	
+17-91	3571-3576	tasks	_	_	
+17-92	3576-3577	.	_	_	
+
+#Text=The models are publicly available on the 🤗 HuggingFace Models Hub.
+18-1	3578-3581	The	_	_	
+18-2	3582-3588	models	_	_	
+18-3	3589-3592	are	_	_	
+18-4	3593-3601	publicly	_	_	
+18-5	3602-3611	available	_	_	
+18-6	3612-3614	on	_	_	
+18-7	3615-3618	the	_	_	
+18-8	3619-3621	🤗	_	_	
+18-9	3622-3633	HuggingFace	_	_	
+18-10	3634-3640	Models	_	_	
+18-11	3641-3644	Hub	_	_	
+18-12	3644-3645	.	_	_	
+
+#Text=The model name describes the configuration used for training as follows:
+#Text=
+#Text=<!
+19-1	3647-3650	The	_	_	
+19-2	3651-3656	model	_	_	
+19-3	3657-3661	name	_	_	
+19-4	3662-3671	describes	_	_	
+19-5	3672-3675	the	_	_	
+19-6	3676-3689	configuration	_	_	
+19-7	3690-3694	used	_	_	
+19-8	3695-3698	for	_	_	
+19-9	3699-3707	training	_	_	
+19-10	3708-3710	as	_	_	
+19-11	3711-3718	follows	_	_	
+19-12	3718-3719	:	_	_	
+19-13	3721-3722	<	_	_	
+19-14	3722-3723	!	_	_	
+
+#Text=-- $$\\text{HiTZ/A2T\\_[pretrained\\_model]\\_[NLI\\_datasets]\\_[finetune\\_datasets]}$$ -->
+#Text=
+#Text=<h3 align="center">HiTZ/A2T_[pretrained_model]_[NLI_datasets]_[finetune_datasets]</h3>
+#Text=
+#Text=
+#Text=- `pretrained_model`: The checkpoint used for initialization.
+20-1	3723-3724	-	_	_	
+20-2	3724-3725	-	_	_	
+20-3	3726-3727	$	_	_	
+20-4	3727-3728	$	_	_	
+20-5	3728-3729	\	_	_	
+20-6	3729-3733	text	_	_	
+20-7	3733-3734	{	_	_	
+20-8	3734-3738	HiTZ	_	_	
+20-9	3738-3739	/	_	_	
+20-10	3739-3742	A2T	_	_	
+20-11	3742-3743	\	_	_	
+20-12	3743-3744	_	_	_	
+20-13	3744-3745	[	_	_	
+20-14	3745-3755	pretrained	_	_	
+20-15	3755-3756	\	_	_	
+20-16	3756-3757	_	_	_	
+20-17	3757-3762	model	_	_	
+20-18	3762-3763	]	_	_	
+20-19	3763-3764	\	_	_	
+20-20	3764-3765	_	_	_	
+20-21	3765-3766	[	_	_	
+20-22	3766-3769	NLI	_	_	
+20-23	3769-3770	\	_	_	
+20-24	3770-3771	_	_	_	
+20-25	3771-3779	datasets	_	_	
+20-26	3779-3780	]	_	_	
+20-27	3780-3781	\	_	_	
+20-28	3781-3782	_	_	_	
+20-29	3782-3783	[	_	_	
+20-30	3783-3791	finetune	_	_	
+20-31	3791-3792	\	_	_	
+20-32	3792-3793	_	_	_	
+20-33	3793-3801	datasets	_	_	
+20-34	3801-3802	]	_	_	
+20-35	3802-3803	}	_	_	
+20-36	3803-3804	$	_	_	
+20-37	3804-3805	$	_	_	
+20-38	3806-3807	-	_	_	
+20-39	3807-3808	-	_	_	
+20-40	3808-3809	>	_	_	
+20-41	3811-3812	<	_	_	
+20-42	3812-3814	h3	_	_	
+20-43	3815-3820	align	_	_	
+20-44	3820-3821	=	_	_	
+20-45	3821-3822	"	_	_	
+20-46	3822-3828	center	_	_	
+20-47	3828-3829	"	_	_	
+20-48	3829-3830	>	_	_	
+20-49	3830-3834	HiTZ	_	_	
+20-50	3834-3835	/	_	_	
+20-51	3835-3838	A2T	*	SOFTWARE	
+20-52	3838-3839	_	_	_	
+20-53	3839-3840	[	_	_	
+20-54	3840-3856	pretrained_model	_	_	
+20-55	3856-3857	]	_	_	
+20-56	3857-3858	_	_	_	
+20-57	3858-3859	[	_	_	
+20-58	3859-3871	NLI_datasets	_	_	
+20-58.1	3859-3862	NLI	*	DATASET	
+20-59	3871-3872	]	_	_	
+20-60	3872-3873	_	_	_	
+20-61	3873-3874	[	_	_	
+20-62	3874-3891	finetune_datasets	_	_	
+20-63	3891-3892	]	_	_	
+20-64	3892-3893	<	_	_	
+20-65	3893-3894	/	_	_	
+20-66	3894-3896	h3	_	_	
+20-67	3896-3897	>	_	_	
+20-68	3900-3901	-	_	_	
+20-69	3902-3903	`	_	_	
+20-70	3903-3919	pretrained_model	_	_	
+20-71	3919-3920	`	_	_	
+20-72	3920-3921	:	_	_	
+20-73	3922-3925	The	_	_	
+20-74	3926-3936	checkpoint	_	_	
+20-75	3937-3941	used	_	_	
+20-76	3942-3945	for	_	_	
+20-77	3946-3960	initialization	_	_	
+20-78	3960-3961	.	_	_	
+
+#Text=For example: RoBERTa<sub>large</sub>.
+#Text=- `NLI_datasets`: The NLI datasets used for pivot training
+21-1	3962-3965	For	_	_	
+21-2	3966-3973	example	_	_	
+21-3	3973-3974	:	_	_	
+21-4	3975-3982	RoBERTa	_	_	
+21-5	3982-3983	<	_	_	
+21-6	3983-3986	sub	_	_	
+21-7	3986-3987	>	_	_	
+21-8	3987-3992	large	_	_	
+21-9	3992-3993	<	_	_	
+21-10	3993-3994	/	_	_	
+21-11	3994-3997	sub	_	_	
+21-12	3997-3998	>	_	_	
+21-13	3998-3999	.	_	_	
+21-14	4000-4001	-	_	_	
+21-15	4002-4003	`	_	_	
+21-16	4003-4015	NLI_datasets	_	_	
+21-17	4015-4016	`	_	_	
+21-18	4016-4017	:	_	_	
+21-19	4018-4021	The	_	_	
+21-20	4022-4025	NLI	*	DATASET	
+21-21	4026-4034	datasets	_	_	
+21-22	4035-4039	used	_	_	
+21-23	4040-4043	for	_	_	
+21-24	4044-4049	pivot	_	_	
+21-25	4050-4058	training	_	_	
+
+#Text=.
+22-1	4058-4059	.	_	_	
+
+#Text=- `S`: Standford Natural Language Inference (SNLI) dataset
+23-1	4064-4065	-	_	_	
+23-2	4066-4067	`	_	_	
+23-3	4067-4068	S	_	_	
+23-4	4068-4069	`	_	_	
+23-5	4069-4070	:	_	_	
+23-6	4071-4080	Standford	*[11]	DATASET[11]	
+23-7	4081-4088	Natural	*[11]	DATASET[11]	
+23-8	4089-4097	Language	*[11]	DATASET[11]	
+23-9	4098-4107	Inference	*[11]	DATASET[11]	
+23-10	4108-4109	(	_	_	
+23-11	4109-4113	SNLI	*	DATASET	
+23-12	4113-4114	)	_	_	
+23-13	4115-4122	dataset	_	_	
+
+#Text=.
+24-1	4122-4123	.	_	_	
+
+#Text=- `M`: Multi Natural Language Inference (MNLI) dataset
+25-1	4128-4129	-	_	_	
+25-2	4130-4131	`	_	_	
+25-3	4131-4132	M	_	_	
+25-4	4132-4133	`	_	_	
+25-5	4133-4134	:	_	_	
+25-6	4135-4140	Multi	*[12]	DATASET[12]	
+25-7	4141-4148	Natural	*[12]	DATASET[12]	
+25-8	4149-4157	Language	*[12]	DATASET[12]	
+25-9	4158-4167	Inference	*[12]	DATASET[12]	
+25-10	4168-4169	(	_	_	
+25-11	4169-4173	MNLI	*	DATASET	
+25-12	4173-4174	)	_	_	
+25-13	4175-4182	dataset	_	_	
+
+#Text=.
+26-1	4182-4183	.	_	_	
+
+#Text=- `F`: Fever-nli dataset
+27-1	4188-4189	-	_	_	
+27-2	4190-4191	`	_	_	
+27-3	4191-4192	F	_	_	
+27-4	4192-4193	`	_	_	
+27-5	4193-4194	:	_	_	
+27-6	4195-4204	Fever-nli	*	DATASET	
+27-7	4205-4212	dataset	_	_	
+
+#Text=.
+28-1	4212-4213	.	_	_	
+
+#Text=- `A`: Adversarial Natural Language Inference (ANLI) dataset.
+#Text=- `finetune_datasets`: The datasets used for fine tuning the entailment model.
+29-1	4218-4219	-	_	_	
+29-2	4220-4221	`	_	_	
+29-3	4221-4222	A	_	_	
+29-4	4222-4223	`	_	_	
+29-5	4223-4224	:	_	_	
+29-6	4225-4236	Adversarial	*[13]	DATASET[13]	
+29-7	4237-4244	Natural	*[13]	DATASET[13]	
+29-8	4245-4253	Language	*[13]	DATASET[13]	
+29-9	4254-4263	Inference	*[13]	DATASET[13]	
+29-10	4264-4265	(	_	_	
+29-11	4265-4269	ANLI	*	DATASET	
+29-12	4269-4270	)	_	_	
+29-13	4271-4278	dataset	_	_	
+29-14	4278-4279	.	_	_	
+29-15	4280-4281	-	_	_	
+29-16	4282-4283	`	_	_	
+29-17	4283-4300	finetune_datasets	_	_	
+29-18	4300-4301	`	_	_	
+29-19	4301-4302	:	_	_	
+29-20	4303-4306	The	_	_	
+29-21	4307-4315	datasets	_	_	
+29-22	4316-4320	used	_	_	
+29-23	4321-4324	for	_	_	
+29-24	4325-4329	fine	_	_	
+29-25	4330-4336	tuning	_	_	
+29-26	4337-4340	the	_	_	
+29-27	4341-4351	entailment	_	_	
+29-28	4352-4357	model	_	_	
+29-29	4357-4358	.	_	_	
+
+#Text=Note that for more than 1 dataset the training was performed sequentially.
+30-1	4359-4363	Note	_	_	
+30-2	4364-4368	that	_	_	
+30-3	4369-4372	for	_	_	
+30-4	4373-4377	more	_	_	
+30-5	4378-4382	than	_	_	
+30-6	4383-4384	1	_	_	
+30-7	4385-4392	dataset	_	_	
+30-8	4393-4396	the	_	_	
+30-9	4397-4405	training	_	_	
+30-10	4406-4409	was	_	_	
+30-11	4410-4419	performed	_	_	
+30-12	4420-4432	sequentially	_	_	
+30-13	4432-4433	.	_	_	
+
+#Text=For example: ACE-arg.
+31-1	4434-4437	For	_	_	
+31-2	4438-4445	example	_	_	
+31-3	4445-4446	:	_	_	
+31-4	4447-4454	ACE-arg	*	DATASET	
+31-5	4454-4455	.	_	_	
+
+#Text=Some models like `HiTZ/A2T_RoBERTa_SMFA_ACE-arg` have been trained marking some information between square brackets (`'[['` and `']]'`) like the event trigger span.
+32-1	4457-4461	Some	_	_	
+32-2	4462-4468	models	_	_	
+32-3	4469-4473	like	_	_	
+32-4	4474-4475	`	_	_	
+32-5	4475-4479	HiTZ	_	_	
+32-6	4479-4480	/	_	_	
+32-7	4480-4504	A2T_RoBERTa_SMFA_ACE-arg	_	_	
+32-7.1	4497-4504	ACE-arg	*	DATASET	
+32-8	4504-4505	`	_	_	
+32-9	4506-4510	have	_	_	
+32-10	4511-4515	been	_	_	
+32-11	4516-4523	trained	_	_	
+32-12	4524-4531	marking	_	_	
+32-13	4532-4536	some	_	_	
+32-14	4537-4548	information	_	_	
+32-15	4549-4556	between	_	_	
+32-16	4557-4563	square	_	_	
+32-17	4564-4572	brackets	_	_	
+32-18	4573-4574	(	_	_	
+32-19	4574-4575	`	_	_	
+32-20	4575-4576	'	_	_	
+32-21	4576-4577	[	_	_	
+32-22	4577-4578	[	_	_	
+32-23	4578-4579	'	_	_	
+32-24	4579-4580	`	_	_	
+32-25	4581-4584	and	_	_	
+32-26	4585-4586	`	_	_	
+32-27	4586-4587	'	_	_	
+32-28	4587-4588	]	_	_	
+32-29	4588-4589	]	_	_	
+32-30	4589-4590	'	_	_	
+32-31	4590-4591	`	_	_	
+32-32	4591-4592	)	_	_	
+32-33	4593-4597	like	_	_	
+32-34	4598-4601	the	_	_	
+32-35	4602-4607	event	_	_	
+32-36	4608-4615	trigger	_	_	
+32-37	4616-4620	span	_	_	
+32-38	4620-4621	.	_	_	
+
+#Text=Make sure you follow the same preprocessing in order to obtain the best results.
+#Text=
+#Text=## Training your own models
+#Text=There is no special script for fine-tuning your own entailment based models.
+33-1	4622-4626	Make	_	_	
+33-2	4627-4631	sure	_	_	
+33-3	4632-4635	you	_	_	
+33-4	4636-4642	follow	_	_	
+33-5	4643-4646	the	_	_	
+33-6	4647-4651	same	_	_	
+33-7	4652-4665	preprocessing	_	_	
+33-8	4666-4668	in	_	_	
+33-9	4669-4674	order	_	_	
+33-10	4675-4677	to	_	_	
+33-11	4678-4684	obtain	_	_	
+33-12	4685-4688	the	_	_	
+33-13	4689-4693	best	_	_	
+33-14	4694-4701	results	_	_	
+33-15	4701-4702	.	_	_	
+33-16	4704-4705	#	_	_	
+33-17	4705-4706	#	_	_	
+33-18	4707-4715	Training	_	_	
+33-19	4716-4720	your	_	_	
+33-20	4721-4724	own	_	_	
+33-21	4725-4731	models	_	_	
+33-22	4732-4737	There	_	_	
+33-23	4738-4740	is	_	_	
+33-24	4741-4743	no	_	_	
+33-25	4744-4751	special	_	_	
+33-26	4752-4758	script	_	_	
+33-27	4759-4762	for	_	_	
+33-28	4763-4774	fine-tuning	_	_	
+33-29	4775-4779	your	_	_	
+33-30	4780-4783	own	_	_	
+33-31	4784-4794	entailment	_	_	
+33-32	4795-4800	based	_	_	
+33-33	4801-4807	models	_	_	
+33-34	4807-4808	.	_	_	
+
+#Text=In our experiments, we have used the publicly available [run_glue.py](https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py) python script (from HuggingFace Transformers).
+34-1	4809-4811	In	_	_	
+34-2	4812-4815	our	_	_	
+34-3	4816-4827	experiments	_	_	
+34-4	4827-4828	,	_	_	
+34-5	4829-4831	we	_	_	
+34-6	4832-4836	have	_	_	
+34-7	4837-4841	used	_	_	
+34-8	4842-4845	the	_	_	
+34-9	4846-4854	publicly	_	_	
+34-10	4855-4864	available	_	_	
+34-11	4865-4866	[	_	_	
+34-12	4866-4877	run_glue.py	_	_	
+34-13	4877-4878	]	_	_	
+34-14	4878-4879	(	_	_	
+34-15	4879-4884	https	_	_	
+34-16	4884-4885	:	_	_	
+34-17	4885-4886	/	_	_	
+34-18	4886-4887	/	_	_	
+34-19	4887-4897	github.com	_	_	
+34-20	4897-4898	/	_	_	
+34-21	4898-4909	huggingface	_	_	
+34-22	4909-4910	/	_	_	
+34-23	4910-4922	transformers	*	SOFTWARE	
+34-24	4922-4923	/	_	_	
+34-25	4923-4927	blob	_	_	
+34-26	4927-4928	/	_	_	
+34-27	4928-4934	master	_	_	
+34-28	4934-4935	/	_	_	
+34-29	4935-4943	examples	_	_	
+34-30	4943-4944	/	_	_	
+34-31	4944-4951	pytorch	_	_	
+34-32	4951-4952	/	_	_	
+34-33	4952-4971	text-classification	_	_	
+34-34	4971-4972	/	_	_	
+34-35	4972-4983	run_glue.py	_	_	
+34-36	4983-4984	)	_	_	
+34-37	4985-4991	python	*	SOFTWARE	
+34-38	4992-4998	script	_	_	
+34-39	4999-5000	(	_	_	
+34-40	5000-5004	from	_	_	
+34-41	5005-5016	HuggingFace	_	_	
+34-42	5017-5029	Transformers	*	SOFTWARE	
+34-43	5029-5030	)	_	_	
+34-44	5030-5031	.	_	_	
+
+#Text=To train your own model, first, you will need to convert your actual dataset in some sort of NLI data, we recommend you to have a look to [tacred2mnli.py](https://github.com/osainz59/Ask2Transformers/blob/master/scripts/tacred2mnli.py) script that serves as an example
+35-1	5032-5034	To	_	_	
+35-2	5035-5040	train	_	_	
+35-3	5041-5045	your	_	_	
+35-4	5046-5049	own	_	_	
+35-5	5050-5055	model	_	_	
+35-6	5055-5056	,	_	_	
+35-7	5057-5062	first	_	_	
+35-8	5062-5063	,	_	_	
+35-9	5064-5067	you	_	_	
+35-10	5068-5072	will	_	_	
+35-11	5073-5077	need	_	_	
+35-12	5078-5080	to	_	_	
+35-13	5081-5088	convert	_	_	
+35-14	5089-5093	your	_	_	
+35-15	5094-5100	actual	_	_	
+35-16	5101-5108	dataset	_	_	
+35-17	5109-5111	in	_	_	
+35-18	5112-5116	some	_	_	
+35-19	5117-5121	sort	_	_	
+35-20	5122-5124	of	_	_	
+35-21	5125-5128	NLI	*	DATASET	
+35-22	5129-5133	data	_	_	
+35-23	5133-5134	,	_	_	
+35-24	5135-5137	we	_	_	
+35-25	5138-5147	recommend	_	_	
+35-26	5148-5151	you	_	_	
+35-27	5152-5154	to	_	_	
+35-28	5155-5159	have	_	_	
+35-29	5160-5161	a	_	_	
+35-30	5162-5166	look	_	_	
+35-31	5167-5169	to	_	_	
+35-32	5170-5171	[	_	_	
+35-33	5171-5185	tacred2mnli.py	_	_	
+35-34	5185-5186	]	_	_	
+35-35	5186-5187	(	_	_	
+35-36	5187-5192	https	_	_	
+35-37	5192-5193	:	_	_	
+35-38	5193-5194	/	_	_	
+35-39	5194-5195	/	_	_	
+35-40	5195-5205	github.com	_	_	
+35-41	5205-5206	/	_	_	
+35-42	5206-5214	osainz59	_	_	
+35-43	5214-5215	/	_	_	
+35-44	5215-5231	Ask2Transformers	*	PROJECT	
+35-45	5231-5232	/	_	_	
+35-46	5232-5236	blob	_	_	
+35-47	5236-5237	/	_	_	
+35-48	5237-5243	master	_	_	
+35-49	5243-5244	/	_	_	
+35-50	5244-5251	scripts	_	_	
+35-51	5251-5252	/	_	_	
+35-52	5252-5266	tacred2mnli.py	_	_	
+35-53	5266-5267	)	_	_	
+35-54	5268-5274	script	_	_	
+35-55	5275-5279	that	_	_	
+35-56	5280-5286	serves	_	_	
+35-57	5287-5289	as	_	_	
+35-58	5290-5292	an	_	_	
+35-59	5293-5300	example	_	_	
+
+#Text=.
+36-1	5300-5301	.	_	_	
+
+#Text=# Tutorials (Notebooks)
+#Text=
+#Text=**Coming soon!
+37-1	5303-5304	#	_	_	
+37-2	5305-5314	Tutorials	_	_	
+37-3	5315-5316	(	_	_	
+37-4	5316-5325	Notebooks	_	_	
+37-5	5325-5326	)	_	_	
+37-6	5328-5329	*	_	_	
+37-7	5329-5330	*	_	_	
+37-8	5330-5336	Coming	_	_	
+37-9	5337-5341	soon	_	_	
+37-10	5341-5342	!	_	_	
+
+#Text=**
+#Text=
+#Text=# Results and evaluation
+#Text=
+#Text=To obtain the results reported in the papers run the [`evaluation.py`](.
+38-1	5342-5343	*	_	_	
+38-2	5343-5344	*	_	_	
+38-3	5346-5347	#	_	_	
+38-4	5348-5355	Results	_	_	
+38-5	5356-5359	and	_	_	
+38-6	5360-5370	evaluation	_	_	
+38-7	5372-5374	To	_	_	
+38-8	5375-5381	obtain	_	_	
+38-9	5382-5385	the	_	_	
+38-10	5386-5393	results	_	_	
+38-11	5394-5402	reported	_	_	
+38-12	5403-5405	in	_	_	
+38-13	5406-5409	the	_	_	
+38-14	5410-5416	papers	_	_	
+38-15	5417-5420	run	_	_	
+38-16	5421-5424	the	_	_	
+38-17	5425-5426	[	_	_	
+38-18	5426-5427	`	_	_	
+38-19	5427-5440	evaluation.py	_	_	
+38-20	5440-5441	`	_	_	
+38-21	5441-5442	]	_	_	
+38-22	5442-5443	(	_	_	
+38-23	5443-5444	.	_	_	
+
+#Text=/a2t/evaluation.py) script with the corresponding configuration [files](.
+39-1	5444-5445	/	_	_	
+39-2	5445-5448	a2t	_	_	
+39-3	5448-5449	/	_	_	
+39-4	5449-5462	evaluation.py	_	_	
+39-5	5462-5463	)	_	_	
+39-6	5464-5470	script	_	_	
+39-7	5471-5475	with	_	_	
+39-8	5476-5479	the	_	_	
+39-9	5480-5493	corresponding	_	_	
+39-10	5494-5507	configuration	_	_	
+39-11	5508-5509	[	_	_	
+39-12	5509-5514	files	_	_	
+39-13	5514-5515	]	_	_	
+39-14	5515-5516	(	_	_	
+39-15	5516-5517	.	_	_	
+
+#Text=/resources/predefined_configs/).
+40-1	5517-5518	/	_	_	
+40-2	5518-5527	resources	_	_	
+40-3	5527-5528	/	_	_	
+40-4	5528-5546	predefined_configs	_	_	
+40-5	5546-5547	/	_	_	
+40-6	5547-5548	)	_	_	
+40-7	5548-5549	.	_	_	
+
+#Text=A configuration file containing the task and evaluation information should look like this:
+#Text=
+#Text=```json
+#Text={
+#Text=    "name": "BabelDomains",
+#Text=    "task_name": "topic-classification",
+#Text=    "features_class": "a2t.tasks.text_classification.TopicClassificationFeatures",
+#Text=    "hypothesis_template": "The domain of the sentence is about {label}.",
+#Text=    "nli_models": [
+#Text=        "roberta-large-mnli"
+#Text=    ],
+#Text=    "labels": [
+#Text=        "Animals",
+#Text=        "Art, architecture, and archaeology",
+#Text=        "Biology",
+#Text=        "Business, economics, and finance",
+#Text=        "Chemistry and mineralogy",
+#Text=        "Computing",
+#Text=        "Culture and society",
+#Text=        ...
+41-1	5550-5551	A	_	_	
+41-2	5552-5565	configuration	_	_	
+41-3	5566-5570	file	_	_	
+41-4	5571-5581	containing	_	_	
+41-5	5582-5585	the	_	_	
+41-6	5586-5590	task	_	_	
+41-7	5591-5594	and	_	_	
+41-8	5595-5605	evaluation	_	_	
+41-9	5606-5617	information	_	_	
+41-10	5618-5624	should	_	_	
+41-11	5625-5629	look	_	_	
+41-12	5630-5634	like	_	_	
+41-13	5635-5639	this	_	_	
+41-14	5639-5640	:	_	_	
+41-15	5642-5643	`	_	_	
+41-16	5643-5644	`	_	_	
+41-17	5644-5645	`	_	_	
+41-18	5645-5649	json	_	_	
+41-19	5650-5651	{	_	_	
+41-20	5656-5657	"	_	_	
+41-21	5657-5661	name	_	_	
+41-22	5661-5662	"	_	_	
+41-23	5662-5663	:	_	_	
+41-24	5664-5665	"	_	_	
+41-25	5665-5677	BabelDomains	_	_	
+41-26	5677-5678	"	_	_	
+41-27	5678-5679	,	_	_	
+41-28	5684-5685	"	_	_	
+41-29	5685-5694	task_name	_	_	
+41-30	5694-5695	"	_	_	
+41-31	5695-5696	:	_	_	
+41-32	5697-5698	"	_	_	
+41-33	5698-5718	topic-classification	_	_	
+41-34	5718-5719	"	_	_	
+41-35	5719-5720	,	_	_	
+41-36	5725-5726	"	_	_	
+41-37	5726-5740	features_class	_	_	
+41-38	5740-5741	"	_	_	
+41-39	5741-5742	:	_	_	
+41-40	5743-5744	"	_	_	
+41-41	5744-5801	a2t.tasks.text_classification.TopicClassificationFeatures	_	_	
+41-42	5801-5802	"	_	_	
+41-43	5802-5803	,	_	_	
+41-44	5808-5809	"	_	_	
+41-45	5809-5828	hypothesis_template	_	_	
+41-46	5828-5829	"	_	_	
+41-47	5829-5830	:	_	_	
+41-48	5831-5832	"	_	_	
+41-49	5832-5835	The	_	_	
+41-50	5836-5842	domain	_	_	
+41-51	5843-5845	of	_	_	
+41-52	5846-5849	the	_	_	
+41-53	5850-5858	sentence	_	_	
+41-54	5859-5861	is	_	_	
+41-55	5862-5867	about	_	_	
+41-56	5868-5869	{	_	_	
+41-57	5869-5874	label	_	_	
+41-58	5874-5875	}	_	_	
+41-59	5875-5876	.	_	_	
+41-60	5876-5877	"	_	_	
+41-61	5877-5878	,	_	_	
+41-62	5883-5884	"	_	_	
+41-63	5884-5894	nli_models	_	_	
+41-64	5894-5895	"	_	_	
+41-65	5895-5896	:	_	_	
+41-66	5897-5898	[	_	_	
+41-67	5907-5908	"	_	_	
+41-68	5908-5926	roberta-large-mnli	*	SOFTWARE	
+41-69	5926-5927	"	_	_	
+41-70	5932-5933	]	_	_	
+41-71	5933-5934	,	_	_	
+41-72	5939-5940	"	_	_	
+41-73	5940-5946	labels	_	_	
+41-74	5946-5947	"	_	_	
+41-75	5947-5948	:	_	_	
+41-76	5949-5950	[	_	_	
+41-77	5959-5960	"	_	_	
+41-78	5960-5967	Animals	_	_	
+41-79	5967-5968	"	_	_	
+41-80	5968-5969	,	_	_	
+41-81	5978-5979	"	_	_	
+41-82	5979-5982	Art	_	_	
+41-83	5982-5983	,	_	_	
+41-84	5984-5996	architecture	_	_	
+41-85	5996-5997	,	_	_	
+41-86	5998-6001	and	_	_	
+41-87	6002-6013	archaeology	_	_	
+41-88	6013-6014	"	_	_	
+41-89	6014-6015	,	_	_	
+41-90	6024-6025	"	_	_	
+41-91	6025-6032	Biology	_	_	
+41-92	6032-6033	"	_	_	
+41-93	6033-6034	,	_	_	
+41-94	6043-6044	"	_	_	
+41-95	6044-6052	Business	_	_	
+41-96	6052-6053	,	_	_	
+41-97	6054-6063	economics	_	_	
+41-98	6063-6064	,	_	_	
+41-99	6065-6068	and	_	_	
+41-100	6069-6076	finance	_	_	
+41-101	6076-6077	"	_	_	
+41-102	6077-6078	,	_	_	
+41-103	6087-6088	"	_	_	
+41-104	6088-6097	Chemistry	_	_	
+41-105	6098-6101	and	_	_	
+41-106	6102-6112	mineralogy	_	_	
+41-107	6112-6113	"	_	_	
+41-108	6113-6114	,	_	_	
+41-109	6123-6124	"	_	_	
+41-110	6124-6133	Computing	_	_	
+41-111	6133-6134	"	_	_	
+41-112	6134-6135	,	_	_	
+41-113	6144-6145	"	_	_	
+41-114	6145-6152	Culture	_	_	
+41-115	6153-6156	and	_	_	
+41-116	6157-6164	society	_	_	
+41-117	6164-6165	"	_	_	
+41-118	6165-6166	,	_	_	
+41-119	6175-6176	.	_	_	
+41-120	6176-6177	.	_	_	
+41-121	6177-6178	.	_	_	
+
+#Text="Royalty and nobility",
+#Text=        "Sport and recreation",
+#Text=        "Textile and clothing",
+#Text=        "Transport and travel",
+#Text=        "Warfare and defense"
+#Text=    ],
+#Text=    "preprocess_labels": true,
+#Text=    "dataset": "babeldomains",
+#Text=    "test_path": "data/babeldomains.domain.gloss.tsv",
+#Text=    "use_cuda": true,
+#Text=    "half": true
+#Text=}
+#Text=```
+#Text=
+#Text=Consider reading the papers to access the results
+42-1	6187-6188	"	_	_	
+42-2	6188-6195	Royalty	_	_	
+42-3	6196-6199	and	_	_	
+42-4	6200-6208	nobility	_	_	
+42-5	6208-6209	"	_	_	
+42-6	6209-6210	,	_	_	
+42-7	6219-6220	"	_	_	
+42-8	6220-6225	Sport	_	_	
+42-9	6226-6229	and	_	_	
+42-10	6230-6240	recreation	_	_	
+42-11	6240-6241	"	_	_	
+42-12	6241-6242	,	_	_	
+42-13	6251-6252	"	_	_	
+42-14	6252-6259	Textile	_	_	
+42-15	6260-6263	and	_	_	
+42-16	6264-6272	clothing	_	_	
+42-17	6272-6273	"	_	_	
+42-18	6273-6274	,	_	_	
+42-19	6283-6284	"	_	_	
+42-20	6284-6293	Transport	_	_	
+42-21	6294-6297	and	_	_	
+42-22	6298-6304	travel	_	_	
+42-23	6304-6305	"	_	_	
+42-24	6305-6306	,	_	_	
+42-25	6315-6316	"	_	_	
+42-26	6316-6323	Warfare	_	_	
+42-27	6324-6327	and	_	_	
+42-28	6328-6335	defense	_	_	
+42-29	6335-6336	"	_	_	
+42-30	6341-6342	]	_	_	
+42-31	6342-6343	,	_	_	
+42-32	6348-6349	"	_	_	
+42-33	6349-6366	preprocess_labels	_	_	
+42-34	6366-6367	"	_	_	
+42-35	6367-6368	:	_	_	
+42-36	6369-6373	true	_	_	
+42-37	6373-6374	,	_	_	
+42-38	6379-6380	"	_	_	
+42-39	6380-6387	dataset	_	_	
+42-40	6387-6388	"	_	_	
+42-41	6388-6389	:	_	_	
+42-42	6390-6391	"	_	_	
+42-43	6391-6403	babeldomains	*	DATASET	
+42-44	6403-6404	"	_	_	
+42-45	6404-6405	,	_	_	
+42-46	6410-6411	"	_	_	
+42-47	6411-6420	test_path	_	_	
+42-48	6420-6421	"	_	_	
+42-49	6421-6422	:	_	_	
+42-50	6423-6424	"	_	_	
+42-51	6424-6428	data	_	_	
+42-52	6428-6429	/	_	_	
+42-53	6429-6458	babeldomains.domain.gloss.tsv	_	_	
+42-54	6458-6459	"	_	_	
+42-55	6459-6460	,	_	_	
+42-56	6465-6466	"	_	_	
+42-57	6466-6474	use_cuda	_	_	
+42-58	6474-6475	"	_	_	
+42-59	6475-6476	:	_	_	
+42-60	6477-6481	true	_	_	
+42-61	6481-6482	,	_	_	
+42-62	6487-6488	"	_	_	
+42-63	6488-6492	half	_	_	
+42-64	6492-6493	"	_	_	
+42-65	6493-6494	:	_	_	
+42-66	6495-6499	true	_	_	
+42-67	6500-6501	}	_	_	
+42-68	6502-6503	`	_	_	
+42-69	6503-6504	`	_	_	
+42-70	6504-6505	`	_	_	
+42-71	6507-6515	Consider	_	_	
+42-72	6516-6523	reading	_	_	
+42-73	6524-6527	the	_	_	
+42-74	6528-6534	papers	_	_	
+42-75	6535-6537	to	_	_	
+42-76	6538-6544	access	_	_	
+42-77	6545-6548	the	_	_	
+42-78	6549-6556	results	_	_	
+
+#Text=.
+43-1	6556-6557	.	_	_	
+
+#Text=# About legacy code
+#Text=
+#Text=The old code of this repository has been moved to [`a2t.legacy`](.
+44-1	6559-6560	#	_	_	
+44-2	6561-6566	About	_	_	
+44-3	6567-6573	legacy	_	_	
+44-4	6574-6578	code	_	_	
+44-5	6580-6583	The	_	_	
+44-6	6584-6587	old	_	_	
+44-7	6588-6592	code	_	_	
+44-8	6593-6595	of	_	_	
+44-9	6596-6600	this	_	_	
+44-10	6601-6611	repository	_	_	
+44-11	6612-6615	has	_	_	
+44-12	6616-6620	been	_	_	
+44-13	6621-6626	moved	_	_	
+44-14	6627-6629	to	_	_	
+44-15	6630-6631	[	_	_	
+44-16	6631-6632	`	_	_	
+44-17	6632-6642	a2t.legacy	_	_	
+44-18	6642-6643	`	_	_	
+44-19	6643-6644	]	_	_	
+44-20	6644-6645	(	_	_	
+44-21	6645-6646	.	_	_	
+
+#Text=/a2t/legacy/) module and is only intended to be use for experimental reproducibility.
+45-1	6646-6647	/	_	_	
+45-2	6647-6650	a2t	_	_	
+45-3	6650-6651	/	_	_	
+45-4	6651-6657	legacy	_	_	
+45-5	6657-6658	/	_	_	
+45-6	6658-6659	)	_	_	
+45-7	6660-6666	module	_	_	
+45-8	6667-6670	and	_	_	
+45-9	6671-6673	is	_	_	
+45-10	6674-6678	only	_	_	
+45-11	6679-6687	intended	_	_	
+45-12	6688-6690	to	_	_	
+45-13	6691-6693	be	_	_	
+45-14	6694-6697	use	_	_	
+45-15	6698-6701	for	_	_	
+45-16	6702-6714	experimental	_	_	
+45-17	6715-6730	reproducibility	_	_	
+45-18	6730-6731	.	_	_	
+
+#Text=Please, consider moving to the new code.
+46-1	6732-6738	Please	_	_	
+46-2	6738-6739	,	_	_	
+46-3	6740-6748	consider	_	_	
+46-4	6749-6755	moving	_	_	
+46-5	6756-6758	to	_	_	
+46-6	6759-6762	the	_	_	
+46-7	6763-6766	new	_	_	
+46-8	6767-6771	code	_	_	
+46-9	6771-6772	.	_	_	
+
+#Text=If you need help read the new [documentation](https://osainz59.github.io/Ask2Transformers) or post an Issue on GitHub
+47-1	6773-6775	If	_	_	
+47-2	6776-6779	you	_	_	
+47-3	6780-6784	need	_	_	
+47-4	6785-6789	help	_	_	
+47-5	6790-6794	read	_	_	
+47-6	6795-6798	the	_	_	
+47-7	6799-6802	new	_	_	
+47-8	6803-6804	[	_	_	
+47-9	6804-6817	documentation	_	_	
+47-10	6817-6818	]	_	_	
+47-11	6818-6819	(	_	_	
+47-12	6819-6824	https	_	_	
+47-13	6824-6825	:	_	_	
+47-14	6825-6826	/	_	_	
+47-15	6826-6827	/	_	_	
+47-16	6827-6835	osainz59	_	_	
+47-17	6835-6836	.	_	_	
+47-18	6836-6845	github.io	_	_	
+47-19	6845-6846	/	_	_	
+47-20	6846-6862	Ask2Transformers	*	PROJECT	
+47-21	6862-6863	)	_	_	
+47-22	6864-6866	or	_	_	
+47-23	6867-6871	post	_	_	
+47-24	6872-6874	an	_	_	
+47-25	6875-6880	Issue	_	_	
+47-26	6881-6883	on	_	_	
+47-27	6884-6890	GitHub	_	_	
+
+#Text=.
+48-1	6890-6891	.	_	_	
+
+#Text=# Citation
+#Text=If you use this work, please consider citing at least one of the following papers.
+49-1	6893-6894	#	_	_	
+49-2	6895-6903	Citation	_	_	
+49-3	6904-6906	If	_	_	
+49-4	6907-6910	you	_	_	
+49-5	6911-6914	use	_	_	
+49-6	6915-6919	this	_	_	
+49-7	6920-6924	work	_	_	
+49-8	6924-6925	,	_	_	
+49-9	6926-6932	please	_	_	
+49-10	6933-6941	consider	_	_	
+49-11	6942-6948	citing	_	_	
+49-12	6949-6951	at	_	_	
+49-13	6952-6957	least	_	_	
+49-14	6958-6961	one	_	_	
+49-15	6962-6964	of	_	_	
+49-16	6965-6968	the	_	_	
+49-17	6969-6978	following	_	_	
+49-18	6979-6985	papers	_	_	
+49-19	6985-6986	.	_	_	
+
+#Text=You can find the bibtex files in their corresponding [aclanthology](https://aclanthology.org/) page
+50-1	6987-6990	You	_	_	
+50-2	6991-6994	can	_	_	
+50-3	6995-6999	find	_	_	
+50-4	7000-7003	the	_	_	
+50-5	7004-7010	bibtex	*	SOFTWARE	
+50-6	7011-7016	files	_	_	
+50-7	7017-7019	in	_	_	
+50-8	7020-7025	their	_	_	
+50-9	7026-7039	corresponding	_	_	
+50-10	7040-7041	[	_	_	
+50-11	7041-7053	aclanthology	_	_	
+50-12	7053-7054	]	_	_	
+50-13	7054-7055	(	_	_	
+50-14	7055-7060	https	_	_	
+50-15	7060-7061	:	_	_	
+50-16	7061-7062	/	_	_	
+50-17	7062-7063	/	_	_	
+50-18	7063-7079	aclanthology.org	_	_	
+50-19	7079-7080	/	_	_	
+50-20	7080-7081	)	_	_	
+50-21	7082-7086	page	_	_	
+
+#Text=.
+51-1	7086-7087	.	_	_	
+
+#Text=> Oscar Sainz, Haoling Qiu, Oier Lopez de Lacalle, Eneko Agirre, and Bonan Min. 2022.
+52-1	7089-7090	>	_	_	
+52-2	7091-7096	Oscar	_	_	
+52-3	7097-7102	Sainz	_	_	
+52-4	7102-7103	,	_	_	
+52-5	7104-7111	Haoling	_	_	
+52-6	7112-7115	Qiu	_	_	
+52-7	7115-7116	,	_	_	
+52-8	7117-7121	Oier	_	_	
+52-9	7122-7127	Lopez	_	_	
+52-10	7128-7130	de	_	_	
+52-11	7131-7138	Lacalle	_	_	
+52-12	7138-7139	,	_	_	
+52-13	7140-7145	Eneko	_	_	
+52-14	7146-7152	Agirre	_	_	
+52-15	7152-7153	,	_	_	
+52-16	7154-7157	and	_	_	
+52-17	7158-7163	Bonan	_	_	
+52-18	7164-7167	Min	_	_	
+52-19	7167-7168	.	_	_	
+52-20	7169-7173	2022	_	_	
+52-21	7173-7174	.	_	_	
+
+#Text=[ZS4IE: A toolkit for Zero-Shot Information Extraction with simple Verbalizations](https://aclanthology.org/2022.naacl-demo.4/).
+53-1	7175-7176	[	_	_	
+53-2	7176-7181	ZS4IE	*[14]	PUBLICATION[14]	
+53-3	7181-7182	:	*[14]	PUBLICATION[14]	
+53-4	7183-7184	A	*[14]	PUBLICATION[14]	
+53-5	7185-7192	toolkit	*[14]	PUBLICATION[14]	
+53-6	7193-7196	for	*[14]	PUBLICATION[14]	
+53-7	7197-7206	Zero-Shot	*[14]	PUBLICATION[14]	
+53-8	7207-7218	Information	*[14]	PUBLICATION[14]	
+53-9	7219-7229	Extraction	*[14]	PUBLICATION[14]	
+53-10	7230-7234	with	*[14]	PUBLICATION[14]	
+53-11	7235-7241	simple	*[14]	PUBLICATION[14]	
+53-12	7242-7256	Verbalizations	*[14]	PUBLICATION[14]	
+53-13	7256-7257	]	_	_	
+53-14	7257-7258	(	_	_	
+53-15	7258-7263	https	_	_	
+53-16	7263-7264	:	_	_	
+53-17	7264-7265	/	_	_	
+53-18	7265-7266	/	_	_	
+53-19	7266-7282	aclanthology.org	_	_	
+53-20	7282-7283	/	_	_	
+53-21	7283-7287	2022	_	_	
+53-22	7287-7288	.	_	_	
+53-23	7288-7298	naacl-demo	_	_	
+53-24	7298-7300	.4	_	_	
+53-25	7300-7301	/	_	_	
+53-26	7301-7302	)	_	_	
+53-27	7302-7303	.	_	_	
+
+#Text=In Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: System Demonstrations, pages 27–38, Hybrid: Seattle, Washington + Online.
+54-1	7304-7306	In	_	_	
+54-2	7307-7318	Proceedings	*[15]	PUBLICATION[15]	
+54-3	7319-7321	of	*[15]	PUBLICATION[15]	
+54-4	7322-7325	the	*[15]	PUBLICATION[15]	
+54-5	7326-7330	2022	*[15]|*[16]	PUBLICATION[15]|CONFERENCE[16]	
+54-6	7331-7341	Conference	*[15]|*[16]	PUBLICATION[15]|CONFERENCE[16]	
+54-7	7342-7344	of	*[15]|*[16]	PUBLICATION[15]|CONFERENCE[16]	
+54-8	7345-7348	the	*[15]|*[16]	PUBLICATION[15]|CONFERENCE[16]	
+54-9	7349-7354	North	*[15]|*[16]	PUBLICATION[15]|CONFERENCE[16]	
+54-10	7355-7363	American	*[15]|*[16]	PUBLICATION[15]|CONFERENCE[16]	
+54-11	7364-7371	Chapter	*[15]|*[16]	PUBLICATION[15]|CONFERENCE[16]	
+54-12	7372-7374	of	*[15]|*[16]	PUBLICATION[15]|CONFERENCE[16]	
+54-13	7375-7378	the	*[15]|*[16]	PUBLICATION[15]|CONFERENCE[16]	
+54-14	7379-7390	Association	*[15]|*[16]	PUBLICATION[15]|CONFERENCE[16]	
+54-15	7391-7394	for	*[15]|*[16]	PUBLICATION[15]|CONFERENCE[16]	
+54-16	7395-7408	Computational	*[15]|*[16]	PUBLICATION[15]|CONFERENCE[16]	
+54-17	7409-7420	Linguistics	*[15]|*[16]	PUBLICATION[15]|CONFERENCE[16]	
+54-18	7420-7421	:	*[15]	PUBLICATION[15]	
+54-19	7422-7427	Human	*[15]	PUBLICATION[15]	
+54-20	7428-7436	Language	*[15]	PUBLICATION[15]	
+54-21	7437-7449	Technologies	*[15]	PUBLICATION[15]	
+54-22	7449-7450	:	*[15]	PUBLICATION[15]	
+54-23	7451-7457	System	*[15]	PUBLICATION[15]	
+54-24	7458-7472	Demonstrations	*[15]	PUBLICATION[15]	
+54-25	7472-7473	,	_	_	
+54-26	7474-7479	pages	_	_	
+54-27	7480-7482	27	_	_	
+54-28	7482-7483	–	_	_	
+54-29	7483-7485	38	_	_	
+54-30	7485-7486	,	_	_	
+54-31	7487-7493	Hybrid	_	_	
+54-32	7493-7494	:	_	_	
+54-33	7495-7502	Seattle	_	_	
+54-34	7502-7503	,	_	_	
+54-35	7504-7514	Washington	_	_	
+54-36	7515-7516	+	_	_	
+54-37	7517-7523	Online	_	_	
+54-38	7523-7524	.	_	_	
+
+#Text=Association for Computational Linguistics
+55-1	7525-7536	Association	_	_	
+55-2	7537-7540	for	_	_	
+55-3	7541-7554	Computational	_	_	
+55-4	7555-7566	Linguistics	_	_	
+
+#Text=.
+56-1	7566-7567	.	_	_	
+
+#Text=> Oscar Sainz, Itziar Gonzalez-Dios, Oier Lopez de Lacalle, Bonan Min, and Eneko Agirre. 2022.
+57-1	7569-7570	>	_	_	
+57-2	7571-7576	Oscar	_	_	
+57-3	7577-7582	Sainz	_	_	
+57-4	7582-7583	,	_	_	
+57-5	7584-7590	Itziar	_	_	
+57-6	7591-7604	Gonzalez-Dios	_	_	
+57-7	7604-7605	,	_	_	
+57-8	7606-7610	Oier	_	_	
+57-9	7611-7616	Lopez	_	_	
+57-10	7617-7619	de	_	_	
+57-11	7620-7627	Lacalle	_	_	
+57-12	7627-7628	,	_	_	
+57-13	7629-7634	Bonan	_	_	
+57-14	7635-7638	Min	_	_	
+57-15	7638-7639	,	_	_	
+57-16	7640-7643	and	_	_	
+57-17	7644-7649	Eneko	_	_	
+57-18	7650-7656	Agirre	_	_	
+57-19	7656-7657	.	_	_	
+57-20	7658-7662	2022	_	_	
+57-21	7662-7663	.	_	_	
+
+#Text=[Textual Entailment for Event Argument Extraction: Zero- and Few-Shot with Multi-Source Learning](https://aclanthology.org/2022.findings-naacl.187/).
+58-1	7664-7665	[	_	_	
+58-2	7665-7672	Textual	*[17]	PUBLICATION[17]	
+58-3	7673-7683	Entailment	*[17]	PUBLICATION[17]	
+58-4	7684-7687	for	*[17]	PUBLICATION[17]	
+58-5	7688-7693	Event	*[17]	PUBLICATION[17]	
+58-6	7694-7702	Argument	*[17]	PUBLICATION[17]	
+58-7	7703-7713	Extraction	*[17]	PUBLICATION[17]	
+58-8	7713-7714	:	*[17]	PUBLICATION[17]	
+58-9	7715-7719	Zero	*[17]	PUBLICATION[17]	
+58-10	7719-7720	-	*[17]	PUBLICATION[17]	
+58-11	7721-7724	and	*[17]	PUBLICATION[17]	
+58-12	7725-7733	Few-Shot	*[17]	PUBLICATION[17]	
+58-13	7734-7738	with	*[17]	PUBLICATION[17]	
+58-14	7739-7751	Multi-Source	*[17]	PUBLICATION[17]	
+58-15	7752-7760	Learning	*[17]	PUBLICATION[17]	
+58-16	7760-7761	]	_	_	
+58-17	7761-7762	(	_	_	
+58-18	7762-7767	https	_	_	
+58-19	7767-7768	:	_	_	
+58-20	7768-7769	/	_	_	
+58-21	7769-7770	/	_	_	
+58-22	7770-7786	aclanthology.org	_	_	
+58-23	7786-7787	/	_	_	
+58-24	7787-7791	2022	_	_	
+58-25	7791-7792	.	_	_	
+58-26	7792-7806	findings-naacl	_	_	
+58-27	7806-7810	.187	_	_	
+58-28	7810-7811	/	_	_	
+58-29	7811-7812	)	_	_	
+58-30	7812-7813	.	_	_	
+
+#Text=In Findings of the Association for Computational Linguistics: NAACL 2022, pages 2439–2455, Seattle, United States.
+59-1	7814-7816	In	_	_	
+59-2	7817-7825	Findings	*[18]	PUBLICATION[18]	
+59-3	7826-7828	of	*[18]	PUBLICATION[18]	
+59-4	7829-7832	the	*[18]	PUBLICATION[18]	
+59-5	7833-7844	Association	*[18]	PUBLICATION[18]	
+59-6	7845-7848	for	*[18]	PUBLICATION[18]	
+59-7	7849-7862	Computational	*[18]	PUBLICATION[18]	
+59-8	7863-7874	Linguistics	*[18]	PUBLICATION[18]	
+59-9	7874-7875	:	*[18]	PUBLICATION[18]	
+59-10	7876-7881	NAACL	*[18]|*[19]	PUBLICATION[18]|CONFERENCE[19]	
+59-11	7882-7886	2022	*[18]|*[19]	PUBLICATION[18]|CONFERENCE[19]	
+59-12	7886-7887	,	_	_	
+59-13	7888-7893	pages	_	_	
+59-14	7894-7898	2439	_	_	
+59-15	7898-7899	–	_	_	
+59-16	7899-7903	2455	_	_	
+59-17	7903-7904	,	_	_	
+59-18	7905-7912	Seattle	_	_	
+59-19	7912-7913	,	_	_	
+59-20	7914-7920	United	_	_	
+59-21	7921-7927	States	_	_	
+59-22	7927-7928	.	_	_	
+
+#Text=Association for Computational Linguistics
+60-1	7929-7940	Association	_	_	
+60-2	7941-7944	for	_	_	
+60-3	7945-7958	Computational	_	_	
+60-4	7959-7970	Linguistics	_	_	
+
+#Text=.
+61-1	7970-7971	.	_	_	
+
+#Text=> Oscar Sainz, Oier Lopez de Lacalle, Gorka Labaka, Ander Barrena, and Eneko Agirre. 2021.
+62-1	7973-7974	>	_	_	
+62-2	7975-7980	Oscar	_	_	
+62-3	7981-7986	Sainz	_	_	
+62-4	7986-7987	,	_	_	
+62-5	7988-7992	Oier	_	_	
+62-6	7993-7998	Lopez	_	_	
+62-7	7999-8001	de	_	_	
+62-8	8002-8009	Lacalle	_	_	
+62-9	8009-8010	,	_	_	
+62-10	8011-8016	Gorka	_	_	
+62-11	8017-8023	Labaka	_	_	
+62-12	8023-8024	,	_	_	
+62-13	8025-8030	Ander	_	_	
+62-14	8031-8038	Barrena	_	_	
+62-15	8038-8039	,	_	_	
+62-16	8040-8043	and	_	_	
+62-17	8044-8049	Eneko	_	_	
+62-18	8050-8056	Agirre	_	_	
+62-19	8056-8057	.	_	_	
+62-20	8058-8062	2021	_	_	
+62-21	8062-8063	.	_	_	
+
+#Text=[Label Verbalization and Entailment for Effective Zero and Few-Shot Relation Extraction](https://aclanthology.org/2021.emnlp-main.92/).
+63-1	8064-8065	[	_	_	
+63-2	8065-8070	Label	*[20]	PUBLICATION[20]	
+63-3	8071-8084	Verbalization	*[20]	PUBLICATION[20]	
+63-4	8085-8088	and	*[20]	PUBLICATION[20]	
+63-5	8089-8099	Entailment	*[20]	PUBLICATION[20]	
+63-6	8100-8103	for	*[20]	PUBLICATION[20]	
+63-7	8104-8113	Effective	*[20]	PUBLICATION[20]	
+63-8	8114-8118	Zero	*[20]	PUBLICATION[20]	
+63-9	8119-8122	and	*[20]	PUBLICATION[20]	
+63-10	8123-8131	Few-Shot	*[20]	PUBLICATION[20]	
+63-11	8132-8140	Relation	*[20]	PUBLICATION[20]	
+63-12	8141-8151	Extraction	*[20]	PUBLICATION[20]	
+63-13	8151-8152	]	_	_	
+63-14	8152-8153	(	_	_	
+63-15	8153-8158	https	_	_	
+63-16	8158-8159	:	_	_	
+63-17	8159-8160	/	_	_	
+63-18	8160-8161	/	_	_	
+63-19	8161-8177	aclanthology.org	_	_	
+63-20	8177-8178	/	_	_	
+63-21	8178-8182	2021	_	_	
+63-22	8182-8183	.	_	_	
+63-23	8183-8193	emnlp-main	_	_	
+63-23.1	8183-8188	emnlp	*	CONFERENCE	
+63-24	8193-8196	.92	_	_	
+63-25	8196-8197	/	_	_	
+63-26	8197-8198	)	_	_	
+63-27	8198-8199	.	_	_	
+
+#Text=In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, pages 1199–1212, Online and Punta Cana, Dominican Republic.
+64-1	8200-8202	In	_	_	
+64-2	8203-8214	Proceedings	*[21]	PUBLICATION[21]	
+64-3	8215-8217	of	*[21]	PUBLICATION[21]	
+64-4	8218-8221	the	*[21]	PUBLICATION[21]	
+64-5	8222-8226	2021	*[21]|*[22]	PUBLICATION[21]|CONFERENCE[22]	
+64-6	8227-8237	Conference	*[21]|*[22]	PUBLICATION[21]|CONFERENCE[22]	
+64-7	8238-8240	on	*[21]|*[22]	PUBLICATION[21]|CONFERENCE[22]	
+64-8	8241-8250	Empirical	*[21]|*[22]	PUBLICATION[21]|CONFERENCE[22]	
+64-9	8251-8258	Methods	*[21]|*[22]	PUBLICATION[21]|CONFERENCE[22]	
+64-10	8259-8261	in	*[21]|*[22]	PUBLICATION[21]|CONFERENCE[22]	
+64-11	8262-8269	Natural	*[21]|*[22]	PUBLICATION[21]|CONFERENCE[22]	
+64-12	8270-8278	Language	*[21]|*[22]	PUBLICATION[21]|CONFERENCE[22]	
+64-13	8279-8289	Processing	*[21]|*[22]	PUBLICATION[21]|CONFERENCE[22]	
+64-14	8289-8290	,	_	_	
+64-15	8291-8296	pages	_	_	
+64-16	8297-8301	1199	_	_	
+64-17	8301-8302	–	_	_	
+64-18	8302-8306	1212	_	_	
+64-19	8306-8307	,	_	_	
+64-20	8308-8314	Online	_	_	
+64-21	8315-8318	and	_	_	
+64-22	8319-8324	Punta	_	_	
+64-23	8325-8329	Cana	_	_	
+64-24	8329-8330	,	_	_	
+64-25	8331-8340	Dominican	_	_	
+64-26	8341-8349	Republic	_	_	
+64-27	8349-8350	.	_	_	
+
+#Text=Association for Computational Linguistics
+65-1	8351-8362	Association	_	_	
+65-2	8363-8366	for	_	_	
+65-3	8367-8380	Computational	_	_	
+65-4	8381-8392	Linguistics	_	_	
+
+#Text=.
+66-1	8392-8393	.	_	_	
+
+#Text=> Oscar Sainz and German Rigau. 2021.
+67-1	8395-8396	>	_	_	
+67-2	8397-8402	Oscar	_	_	
+67-3	8403-8408	Sainz	_	_	
+67-4	8409-8412	and	_	_	
+67-5	8413-8419	German	_	_	
+67-6	8420-8425	Rigau	_	_	
+67-7	8425-8426	.	_	_	
+67-8	8427-8431	2021	_	_	
+67-9	8431-8432	.	_	_	
+
+#Text=[Ask2Transformers: Zero-Shot Domain labelling with Pretrained Language Models](https://aclanthology.org/2021.gwc-1.6/).
+68-1	8433-8434	[	_	_	
+68-2	8434-8450	Ask2Transformers	*[23]	PUBLICATION[23]	
+68-3	8450-8451	:	*[23]	PUBLICATION[23]	
+68-4	8452-8461	Zero-Shot	*[23]	PUBLICATION[23]	
+68-5	8462-8468	Domain	*[23]	PUBLICATION[23]	
+68-6	8469-8478	labelling	*[23]	PUBLICATION[23]	
+68-7	8479-8483	with	*[23]	PUBLICATION[23]	
+68-8	8484-8494	Pretrained	*[23]	PUBLICATION[23]	
+68-9	8495-8503	Language	*[23]	PUBLICATION[23]	
+68-10	8504-8510	Models	*[23]	PUBLICATION[23]	
+68-11	8510-8511	]	_	_	
+68-12	8511-8512	(	_	_	
+68-13	8512-8517	https	_	_	
+68-14	8517-8518	:	_	_	
+68-15	8518-8519	/	_	_	
+68-16	8519-8520	/	_	_	
+68-17	8520-8536	aclanthology.org	_	_	
+68-18	8536-8537	/	_	_	
+68-19	8537-8541	2021	_	_	
+68-20	8541-8542	.	_	_	
+68-21	8542-8545	gwc	_	_	
+68-22	8545-8546	-	_	_	
+68-23	8546-8549	1.6	_	_	
+68-24	8549-8550	/	_	_	
+68-25	8550-8551	)	_	_	
+68-26	8551-8552	.	_	_	
+
+#Text=In Proceedings of the 11th Global Wordnet Conference, pages 44–52, University of South Africa (UNISA).
+69-1	8553-8555	In	_	_	
+69-2	8556-8567	Proceedings	*[24]	PUBLICATION[24]	
+69-3	8568-8570	of	*[24]	PUBLICATION[24]	
+69-4	8571-8574	the	*[24]	PUBLICATION[24]	
+69-5	8575-8579	11th	*[24]|*[25]	PUBLICATION[24]|CONFERENCE[25]	
+69-6	8580-8586	Global	*[24]|*[25]	PUBLICATION[24]|CONFERENCE[25]	
+69-7	8587-8594	Wordnet	*[24]|*[25]	PUBLICATION[24]|CONFERENCE[25]	
+69-8	8595-8605	Conference	*[24]|*[25]	PUBLICATION[24]|CONFERENCE[25]	
+69-9	8605-8606	,	_	_	
+69-10	8607-8612	pages	_	_	
+69-11	8613-8615	44	_	_	
+69-12	8615-8616	–	_	_	
+69-13	8616-8618	52	_	_	
+69-14	8618-8619	,	_	_	
+69-15	8620-8630	University	_	_	
+69-16	8631-8633	of	_	_	
+69-17	8634-8639	South	_	_	
+69-18	8640-8646	Africa	_	_	
+69-19	8647-8648	(	_	_	
+69-20	8648-8653	UNISA	_	_	
+69-21	8653-8654	)	_	_	
+69-22	8654-8655	.	_	_	
+
+#Text=Global Wordnet Association
+70-1	8656-8662	Global	_	_	
+70-2	8663-8670	Wordnet	_	_	
+70-3	8671-8682	Association	_	_	
+
+#Text=.
+71-1	8682-8683	.	_	_	
+
+#Text=<!
+72-1	8685-8686	<	_	_	
+72-2	8686-8687	!	_	_	
+
+#Text=--
+#Text=```bibtex
+#Text=@inproceedings{sainz-etal-2022-textual,
+#Text=  doi = {10.48550/ARXIV.2205.01376},
+#Text=  url = {https://arxiv.org/abs/2205.01376},
+#Text=  author = {Sainz, Oscar and Gonzalez-Dios, Itziar and de Lacalle, Oier Lopez and Min, Bonan and Agirre, Eneko},
+#Text=  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences}, 
+#Text=  title = {Textual Entailment for Event Argument Extraction: Zero- and Few-Shot with Multi-Source Learning},
+#Text=  publisher = {arXiv},
+#Text=  year = {2022},
+#Text=  copyright = {Creative Commons Attribution Share Alike 4.0 International}
+#Text=}
+#Text=
+#Text=```
+#Text=
+#Text=Cite this paper if you want to cite stuff related to Relation Extraction, etc.
+73-1	8687-8688	-	_	_	
+73-2	8688-8689	-	_	_	
+73-3	8690-8691	`	_	_	
+73-4	8691-8692	`	_	_	
+73-5	8692-8693	`	_	_	
+73-6	8693-8699	bibtex	*	SOFTWARE	
+73-7	8700-8701	@	_	_	
+73-8	8701-8714	inproceedings	_	_	
+73-9	8714-8715	{	_	_	
+73-10	8715-8725	sainz-etal	_	_	
+73-11	8725-8726	-	_	_	
+73-12	8726-8730	2022	_	_	
+73-13	8730-8731	-	_	_	
+73-14	8731-8738	textual	_	_	
+73-15	8738-8739	,	_	_	
+73-16	8742-8745	doi	_	_	
+73-17	8746-8747	=	_	_	
+73-18	8748-8749	{	_	_	
+73-19	8749-8757	10.48550	_	_	
+73-20	8757-8758	/	_	_	
+73-21	8758-8763	ARXIV	_	_	
+73-22	8763-8774	.2205.01376	_	_	
+73-23	8774-8775	}	_	_	
+73-24	8775-8776	,	_	_	
+73-25	8779-8782	url	_	_	
+73-26	8783-8784	=	_	_	
+73-27	8785-8786	{	_	_	
+73-28	8786-8791	https	_	_	
+73-29	8791-8792	:	_	_	
+73-30	8792-8793	/	_	_	
+73-31	8793-8794	/	_	_	
+73-32	8794-8803	arxiv.org	_	_	
+73-33	8803-8804	/	_	_	
+73-34	8804-8807	abs	_	_	
+73-35	8807-8808	/	_	_	
+73-36	8808-8818	2205.01376	_	_	
+73-37	8818-8819	}	_	_	
+73-38	8819-8820	,	_	_	
+73-39	8823-8829	author	_	_	
+73-40	8830-8831	=	_	_	
+73-41	8832-8833	{	_	_	
+73-42	8833-8838	Sainz	_	_	
+73-43	8838-8839	,	_	_	
+73-44	8840-8845	Oscar	_	_	
+73-45	8846-8849	and	_	_	
+73-46	8850-8863	Gonzalez-Dios	_	_	
+73-47	8863-8864	,	_	_	
+73-48	8865-8871	Itziar	_	_	
+73-49	8872-8875	and	_	_	
+73-50	8876-8878	de	_	_	
+73-51	8879-8886	Lacalle	_	_	
+73-52	8886-8887	,	_	_	
+73-53	8888-8892	Oier	_	_	
+73-54	8893-8898	Lopez	_	_	
+73-55	8899-8902	and	_	_	
+73-56	8903-8906	Min	_	_	
+73-57	8906-8907	,	_	_	
+73-58	8908-8913	Bonan	_	_	
+73-59	8914-8917	and	_	_	
+73-60	8918-8924	Agirre	_	_	
+73-61	8924-8925	,	_	_	
+73-62	8926-8931	Eneko	_	_	
+73-63	8931-8932	}	_	_	
+73-64	8932-8933	,	_	_	
+73-65	8936-8944	keywords	_	_	
+73-66	8945-8946	=	_	_	
+73-67	8947-8948	{	_	_	
+73-68	8948-8959	Computation	_	_	
+73-69	8960-8963	and	_	_	
+73-70	8964-8972	Language	_	_	
+73-71	8973-8974	(	_	_	
+73-72	8974-8979	cs.CL	_	_	
+73-73	8979-8980	)	_	_	
+73-74	8980-8981	,	_	_	
+73-75	8982-8985	FOS	_	_	
+73-76	8985-8986	:	_	_	
+73-77	8987-8995	Computer	_	_	
+73-78	8996-8999	and	_	_	
+73-79	9000-9011	information	_	_	
+73-80	9012-9020	sciences	_	_	
+73-81	9020-9021	,	_	_	
+73-82	9022-9025	FOS	_	_	
+73-83	9025-9026	:	_	_	
+73-84	9027-9035	Computer	_	_	
+73-85	9036-9039	and	_	_	
+73-86	9040-9051	information	_	_	
+73-87	9052-9060	sciences	_	_	
+73-88	9060-9061	}	_	_	
+73-89	9061-9062	,	_	_	
+73-90	9066-9071	title	_	_	
+73-91	9072-9073	=	_	_	
+73-92	9074-9075	{	_	_	
+73-93	9075-9082	Textual	*[26]	PUBLICATION[26]	
+73-94	9083-9093	Entailment	*[26]	PUBLICATION[26]	
+73-95	9094-9097	for	*[26]	PUBLICATION[26]	
+73-96	9098-9103	Event	*[26]	PUBLICATION[26]	
+73-97	9104-9112	Argument	*[26]	PUBLICATION[26]	
+73-98	9113-9123	Extraction	*[26]	PUBLICATION[26]	
+73-99	9123-9124	:	*[26]	PUBLICATION[26]	
+73-100	9125-9129	Zero	*[26]	PUBLICATION[26]	
+73-101	9129-9130	-	*[26]	PUBLICATION[26]	
+73-102	9131-9134	and	*[26]	PUBLICATION[26]	
+73-103	9135-9143	Few-Shot	*[26]	PUBLICATION[26]	
+73-104	9144-9148	with	*[26]	PUBLICATION[26]	
+73-105	9149-9161	Multi-Source	*[26]	PUBLICATION[26]	
+73-106	9162-9170	Learning	*[26]	PUBLICATION[26]	
+73-107	9170-9171	}	_	_	
+73-108	9171-9172	,	_	_	
+73-109	9175-9184	publisher	_	_	
+73-110	9185-9186	=	_	_	
+73-111	9187-9188	{	_	_	
+73-112	9188-9193	arXiv	_	_	
+73-113	9193-9194	}	_	_	
+73-114	9194-9195	,	_	_	
+73-115	9198-9202	year	_	_	
+73-116	9203-9204	=	_	_	
+73-117	9205-9206	{	_	_	
+73-118	9206-9210	2022	_	_	
+73-119	9210-9211	}	_	_	
+73-120	9211-9212	,	_	_	
+73-121	9215-9224	copyright	_	_	
+73-122	9225-9226	=	_	_	
+73-123	9227-9228	{	_	_	
+73-124	9228-9236	Creative	_	_	
+73-125	9237-9244	Commons	_	_	
+73-126	9245-9256	Attribution	_	_	
+73-127	9257-9262	Share	_	_	
+73-128	9263-9268	Alike	_	_	
+73-129	9269-9272	4.0	_	_	
+73-130	9273-9286	International	_	_	
+73-131	9286-9287	}	_	_	
+73-132	9288-9289	}	_	_	
+73-133	9291-9292	`	_	_	
+73-134	9292-9293	`	_	_	
+73-135	9293-9294	`	_	_	
+73-136	9296-9300	Cite	_	_	
+73-137	9301-9305	this	_	_	
+73-138	9306-9311	paper	_	_	
+73-139	9312-9314	if	_	_	
+73-140	9315-9318	you	_	_	
+73-141	9319-9323	want	_	_	
+73-142	9324-9326	to	_	_	
+73-143	9327-9331	cite	_	_	
+73-144	9332-9337	stuff	_	_	
+73-145	9338-9345	related	_	_	
+73-146	9346-9348	to	_	_	
+73-147	9349-9357	Relation	_	_	
+73-148	9358-9368	Extraction	_	_	
+73-149	9368-9369	,	_	_	
+73-150	9370-9373	etc	_	_	
+73-151	9373-9374	.	_	_	
+
+#Text=```bibtex
+#Text=@inproceedings{sainz-etal-2021-label,
+#Text=    title = "Label Verbalization and Entailment for Effective Zero and Few-Shot Relation Extraction",
+#Text=    author = "Sainz, Oscar  and
+#Text=      Lopez de Lacalle, Oier  and
+#Text=      Labaka, Gorka  and
+#Text=      Barrena, Ander  and
+#Text=      Agirre, Eneko",
+#Text=    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+#Text=    month = nov,
+#Text=    year = "2021",
+#Text=    address = "Online and Punta Cana, Dominican Republic",
+#Text=    publisher = "Association for Computational Linguistics",
+#Text=    url = "https://aclanthology.org/2021.emnlp-main.92",
+#Text=    pages = "1199--1212",
+#Text=    abstract = "Relation extraction systems require large amounts of labeled examples which are costly to annotate.
+74-1	9375-9376	`	_	_	
+74-2	9376-9377	`	_	_	
+74-3	9377-9378	`	_	_	
+74-4	9378-9384	bibtex	_	_	
+74-5	9385-9386	@	_	_	
+74-6	9386-9399	inproceedings	_	_	
+74-7	9399-9400	{	_	_	
+74-8	9400-9410	sainz-etal	_	_	
+74-9	9410-9411	-	_	_	
+74-10	9411-9415	2021	_	_	
+74-11	9415-9416	-	_	_	
+74-12	9416-9421	label	_	_	
+74-13	9421-9422	,	_	_	
+74-14	9427-9432	title	_	_	
+74-15	9433-9434	=	_	_	
+74-16	9435-9436	"	_	_	
+74-17	9436-9441	Label	*[27]	PUBLICATION[27]	
+74-18	9442-9455	Verbalization	*[27]	PUBLICATION[27]	
+74-19	9456-9459	and	*[27]	PUBLICATION[27]	
+74-20	9460-9470	Entailment	*[27]	PUBLICATION[27]	
+74-21	9471-9474	for	*[27]	PUBLICATION[27]	
+74-22	9475-9484	Effective	*[27]	PUBLICATION[27]	
+74-23	9485-9489	Zero	*[27]	PUBLICATION[27]	
+74-24	9490-9493	and	*[27]	PUBLICATION[27]	
+74-25	9494-9502	Few-Shot	*[27]	PUBLICATION[27]	
+74-26	9503-9511	Relation	*[27]	PUBLICATION[27]	
+74-27	9512-9522	Extraction	*[27]	PUBLICATION[27]	
+74-28	9522-9523	"	_	_	
+74-29	9523-9524	,	_	_	
+74-30	9529-9535	author	_	_	
+74-31	9536-9537	=	_	_	
+74-32	9538-9539	"	_	_	
+74-33	9539-9544	Sainz	_	_	
+74-34	9544-9545	,	_	_	
+74-35	9546-9551	Oscar	_	_	
+74-36	9553-9556	and	_	_	
+74-37	9563-9568	Lopez	_	_	
+74-38	9569-9571	de	_	_	
+74-39	9572-9579	Lacalle	_	_	
+74-40	9579-9580	,	_	_	
+74-41	9581-9585	Oier	_	_	
+74-42	9587-9590	and	_	_	
+74-43	9597-9603	Labaka	_	_	
+74-44	9603-9604	,	_	_	
+74-45	9605-9610	Gorka	_	_	
+74-46	9612-9615	and	_	_	
+74-47	9622-9629	Barrena	_	_	
+74-48	9629-9630	,	_	_	
+74-49	9631-9636	Ander	_	_	
+74-50	9638-9641	and	_	_	
+74-51	9648-9654	Agirre	_	_	
+74-52	9654-9655	,	_	_	
+74-53	9656-9661	Eneko	_	_	
+74-54	9661-9662	"	_	_	
+74-55	9662-9663	,	_	_	
+74-56	9668-9677	booktitle	_	_	
+74-57	9678-9679	=	_	_	
+74-58	9680-9681	"	_	_	
+74-59	9681-9692	Proceedings	*[28]	PUBLICATION[28]	
+74-60	9693-9695	of	*[28]	PUBLICATION[28]	
+74-61	9696-9699	the	*[28]	PUBLICATION[28]	
+74-62	9700-9704	2021	*[28]|*[29]	PUBLICATION[28]|CONFERENCE[29]	
+74-63	9705-9715	Conference	*[28]|*[29]	PUBLICATION[28]|CONFERENCE[29]	
+74-64	9716-9718	on	*[28]|*[29]	PUBLICATION[28]|CONFERENCE[29]	
+74-65	9719-9728	Empirical	*[28]|*[29]	PUBLICATION[28]|CONFERENCE[29]	
+74-66	9729-9736	Methods	*[28]|*[29]	PUBLICATION[28]|CONFERENCE[29]	
+74-67	9737-9739	in	*[28]|*[29]	PUBLICATION[28]|CONFERENCE[29]	
+74-68	9740-9747	Natural	*[28]|*[29]	PUBLICATION[28]|CONFERENCE[29]	
+74-69	9748-9756	Language	*[28]|*[29]	PUBLICATION[28]|CONFERENCE[29]	
+74-70	9757-9767	Processing	*[28]|*[29]	PUBLICATION[28]|CONFERENCE[29]	
+74-71	9767-9768	"	_	_	
+74-72	9768-9769	,	_	_	
+74-73	9774-9779	month	_	_	
+74-74	9780-9781	=	_	_	
+74-75	9782-9785	nov	_	_	
+74-76	9785-9786	,	_	_	
+74-77	9791-9795	year	_	_	
+74-78	9796-9797	=	_	_	
+74-79	9798-9799	"	_	_	
+74-80	9799-9803	2021	_	_	
+74-81	9803-9804	"	_	_	
+74-82	9804-9805	,	_	_	
+74-83	9810-9817	address	_	_	
+74-84	9818-9819	=	_	_	
+74-85	9820-9821	"	_	_	
+74-86	9821-9827	Online	_	_	
+74-87	9828-9831	and	_	_	
+74-88	9832-9837	Punta	_	_	
+74-89	9838-9842	Cana	_	_	
+74-90	9842-9843	,	_	_	
+74-91	9844-9853	Dominican	_	_	
+74-92	9854-9862	Republic	_	_	
+74-93	9862-9863	"	_	_	
+74-94	9863-9864	,	_	_	
+74-95	9869-9878	publisher	_	_	
+74-96	9879-9880	=	_	_	
+74-97	9881-9882	"	_	_	
+74-98	9882-9893	Association	_	_	
+74-99	9894-9897	for	_	_	
+74-100	9898-9911	Computational	_	_	
+74-101	9912-9923	Linguistics	_	_	
+74-102	9923-9924	"	_	_	
+74-103	9924-9925	,	_	_	
+74-104	9930-9933	url	_	_	
+74-105	9934-9935	=	_	_	
+74-106	9936-9937	"	_	_	
+74-107	9937-9942	https	_	_	
+74-108	9942-9943	:	_	_	
+74-109	9943-9944	/	_	_	
+74-110	9944-9945	/	_	_	
+74-111	9945-9961	aclanthology.org	_	_	
+74-112	9961-9962	/	_	_	
+74-113	9962-9966	2021	_	_	
+74-114	9966-9967	.	_	_	
+74-115	9967-9977	emnlp-main	_	_	
+74-116	9977-9980	.92	_	_	
+74-117	9980-9981	"	_	_	
+74-118	9981-9982	,	_	_	
+74-119	9987-9992	pages	_	_	
+74-120	9993-9994	=	_	_	
+74-121	9995-9996	"	_	_	
+74-122	9996-10000	1199	_	_	
+74-123	10000-10001	-	_	_	
+74-124	10001-10002	-	_	_	
+74-125	10002-10006	1212	_	_	
+74-126	10006-10007	"	_	_	
+74-127	10007-10008	,	_	_	
+74-128	10013-10021	abstract	_	_	
+74-129	10022-10023	=	_	_	
+74-130	10024-10025	"	_	_	
+74-131	10025-10033	Relation	_	_	
+74-132	10034-10044	extraction	_	_	
+74-133	10045-10052	systems	_	_	
+74-134	10053-10060	require	_	_	
+74-135	10061-10066	large	_	_	
+74-136	10067-10074	amounts	_	_	
+74-137	10075-10077	of	_	_	
+74-138	10078-10085	labeled	_	_	
+74-139	10086-10094	examples	_	_	
+74-140	10095-10100	which	_	_	
+74-141	10101-10104	are	_	_	
+74-142	10105-10111	costly	_	_	
+74-143	10112-10114	to	_	_	
+74-144	10115-10123	annotate	_	_	
+74-145	10123-10124	.	_	_	
+
+#Text=In this work we reformulate relation extraction as an entailment task, with simple, hand-made, verbalizations of relations produced in less than 15 min per relation.
+75-1	10125-10127	In	_	_	
+75-2	10128-10132	this	_	_	
+75-3	10133-10137	work	_	_	
+75-4	10138-10140	we	_	_	
+75-5	10141-10152	reformulate	_	_	
+75-6	10153-10161	relation	_	_	
+75-7	10162-10172	extraction	_	_	
+75-8	10173-10175	as	_	_	
+75-9	10176-10178	an	_	_	
+75-10	10179-10189	entailment	_	_	
+75-11	10190-10194	task	_	_	
+75-12	10194-10195	,	_	_	
+75-13	10196-10200	with	_	_	
+75-14	10201-10207	simple	_	_	
+75-15	10207-10208	,	_	_	
+75-16	10209-10218	hand-made	_	_	
+75-17	10218-10219	,	_	_	
+75-18	10220-10234	verbalizations	_	_	
+75-19	10235-10237	of	_	_	
+75-20	10238-10247	relations	_	_	
+75-21	10248-10256	produced	_	_	
+75-22	10257-10259	in	_	_	
+75-23	10260-10264	less	_	_	
+75-24	10265-10269	than	_	_	
+75-25	10270-10272	15	_	_	
+75-26	10273-10276	min	_	_	
+75-27	10277-10280	per	_	_	
+75-28	10281-10289	relation	_	_	
+75-29	10289-10290	.	_	_	
+
+#Text=The system relies on a pretrained textual entailment engine which is run as-is (no training examples, zero-shot) or further fine-tuned on labeled examples (few-shot or fully trained).
+76-1	10291-10294	The	_	_	
+76-2	10295-10301	system	_	_	
+76-3	10302-10308	relies	_	_	
+76-4	10309-10311	on	_	_	
+76-5	10312-10313	a	_	_	
+76-6	10314-10324	pretrained	_	_	
+76-7	10325-10332	textual	_	_	
+76-8	10333-10343	entailment	_	_	
+76-9	10344-10350	engine	_	_	
+76-10	10351-10356	which	_	_	
+76-11	10357-10359	is	_	_	
+76-12	10360-10363	run	_	_	
+76-13	10364-10369	as-is	_	_	
+76-14	10370-10371	(	_	_	
+76-15	10371-10373	no	_	_	
+76-16	10374-10382	training	_	_	
+76-17	10383-10391	examples	_	_	
+76-18	10391-10392	,	_	_	
+76-19	10393-10402	zero-shot	_	_	
+76-20	10402-10403	)	_	_	
+76-21	10404-10406	or	_	_	
+76-22	10407-10414	further	_	_	
+76-23	10415-10425	fine-tuned	_	_	
+76-24	10426-10428	on	_	_	
+76-25	10429-10436	labeled	_	_	
+76-26	10437-10445	examples	_	_	
+76-27	10446-10447	(	_	_	
+76-28	10447-10455	few-shot	_	_	
+76-29	10456-10458	or	_	_	
+76-30	10459-10464	fully	_	_	
+76-31	10465-10472	trained	_	_	
+76-32	10472-10473	)	_	_	
+76-33	10473-10474	.	_	_	
+
+#Text=In our experiments on TACRED we attain 63{\\%} F1 zero-shot, 69{\\%} with 16 examples per relation (17{\\%} points better than the best supervised system on the same conditions), and only 4 points short to the state-of-the-art (which uses 20 times more training data).
+77-1	10475-10477	In	_	_	
+77-2	10478-10481	our	_	_	
+77-3	10482-10493	experiments	_	_	
+77-4	10494-10496	on	_	_	
+77-5	10497-10503	TACRED	*	DATASET	
+77-6	10504-10506	we	_	_	
+77-7	10507-10513	attain	_	_	
+77-8	10514-10516	63	_	_	
+77-9	10516-10517	{	_	_	
+77-10	10517-10518	\	_	_	
+77-11	10518-10519	%	_	_	
+77-12	10519-10520	}	_	_	
+77-13	10521-10523	F1	*	EVALMETRIC	
+77-14	10524-10533	zero-shot	_	_	
+77-15	10533-10534	,	_	_	
+77-16	10535-10537	69	_	_	
+77-17	10537-10538	{	_	_	
+77-18	10538-10539	\	_	_	
+77-19	10539-10540	%	_	_	
+77-20	10540-10541	}	_	_	
+77-21	10542-10546	with	_	_	
+77-22	10547-10549	16	_	_	
+77-23	10550-10558	examples	_	_	
+77-24	10559-10562	per	_	_	
+77-25	10563-10571	relation	_	_	
+77-26	10572-10573	(	_	_	
+77-27	10573-10575	17	_	_	
+77-28	10575-10576	{	_	_	
+77-29	10576-10577	\	_	_	
+77-30	10577-10578	%	_	_	
+77-31	10578-10579	}	_	_	
+77-32	10580-10586	points	_	_	
+77-33	10587-10593	better	_	_	
+77-34	10594-10598	than	_	_	
+77-35	10599-10602	the	_	_	
+77-36	10603-10607	best	_	_	
+77-37	10608-10618	supervised	_	_	
+77-38	10619-10625	system	_	_	
+77-39	10626-10628	on	_	_	
+77-40	10629-10632	the	_	_	
+77-41	10633-10637	same	_	_	
+77-42	10638-10648	conditions	_	_	
+77-43	10648-10649	)	_	_	
+77-44	10649-10650	,	_	_	
+77-45	10651-10654	and	_	_	
+77-46	10655-10659	only	_	_	
+77-47	10660-10661	4	_	_	
+77-48	10662-10668	points	_	_	
+77-49	10669-10674	short	_	_	
+77-50	10675-10677	to	_	_	
+77-51	10678-10681	the	_	_	
+77-52	10682-10698	state-of-the-art	_	_	
+77-53	10699-10700	(	_	_	
+77-54	10700-10705	which	_	_	
+77-55	10706-10710	uses	_	_	
+77-56	10711-10713	20	_	_	
+77-57	10714-10719	times	_	_	
+77-58	10720-10724	more	_	_	
+77-59	10725-10733	training	_	_	
+77-60	10734-10738	data	_	_	
+77-61	10738-10739	)	_	_	
+77-62	10739-10740	.	_	_	
+
+#Text=We also show that the performance can be improved significantly with larger entailment models, up to 12 points in zero-shot, allowing to report the best results to date on TACRED when fully trained.
+78-1	10741-10743	We	_	_	
+78-2	10744-10748	also	_	_	
+78-3	10749-10753	show	_	_	
+78-4	10754-10758	that	_	_	
+78-5	10759-10762	the	_	_	
+78-6	10763-10774	performance	_	_	
+78-7	10775-10778	can	_	_	
+78-8	10779-10781	be	_	_	
+78-9	10782-10790	improved	_	_	
+78-10	10791-10804	significantly	_	_	
+78-11	10805-10809	with	_	_	
+78-12	10810-10816	larger	_	_	
+78-13	10817-10827	entailment	_	_	
+78-14	10828-10834	models	_	_	
+78-15	10834-10835	,	_	_	
+78-16	10836-10838	up	_	_	
+78-17	10839-10841	to	_	_	
+78-18	10842-10844	12	_	_	
+78-19	10845-10851	points	_	_	
+78-20	10852-10854	in	_	_	
+78-21	10855-10864	zero-shot	_	_	
+78-22	10864-10865	,	_	_	
+78-23	10866-10874	allowing	_	_	
+78-24	10875-10877	to	_	_	
+78-25	10878-10884	report	_	_	
+78-26	10885-10888	the	_	_	
+78-27	10889-10893	best	_	_	
+78-28	10894-10901	results	_	_	
+78-29	10902-10904	to	_	_	
+78-30	10905-10909	date	_	_	
+78-31	10910-10912	on	_	_	
+78-32	10913-10919	TACRED	*	DATASET	
+78-33	10920-10924	when	_	_	
+78-34	10925-10930	fully	_	_	
+78-35	10931-10938	trained	_	_	
+78-36	10938-10939	.	_	_	
+
+#Text=The analysis shows that our few-shot systems are specially effective when discriminating between relations, and that the performance difference in low data regimes comes mainly from identifying no-relation cases.",
+#Text=}
+#Text=``` 
+#Text=
+#Text=Cite this paper if you want to cite stuff related with topic labelling (A2TDomains or our paper results).
+79-1	10940-10943	The	_	_	
+79-2	10944-10952	analysis	_	_	
+79-3	10953-10958	shows	_	_	
+79-4	10959-10963	that	_	_	
+79-5	10964-10967	our	_	_	
+79-6	10968-10976	few-shot	_	_	
+79-7	10977-10984	systems	_	_	
+79-8	10985-10988	are	_	_	
+79-9	10989-10998	specially	_	_	
+79-10	10999-11008	effective	_	_	
+79-11	11009-11013	when	_	_	
+79-12	11014-11028	discriminating	_	_	
+79-13	11029-11036	between	_	_	
+79-14	11037-11046	relations	_	_	
+79-15	11046-11047	,	_	_	
+79-16	11048-11051	and	_	_	
+79-17	11052-11056	that	_	_	
+79-18	11057-11060	the	_	_	
+79-19	11061-11072	performance	_	_	
+79-20	11073-11083	difference	_	_	
+79-21	11084-11086	in	_	_	
+79-22	11087-11090	low	_	_	
+79-23	11091-11095	data	_	_	
+79-24	11096-11103	regimes	_	_	
+79-25	11104-11109	comes	_	_	
+79-26	11110-11116	mainly	_	_	
+79-27	11117-11121	from	_	_	
+79-28	11122-11133	identifying	_	_	
+79-29	11134-11145	no-relation	_	_	
+79-30	11146-11151	cases	_	_	
+79-31	11151-11152	.	_	_	
+79-32	11152-11153	"	_	_	
+79-33	11153-11154	,	_	_	
+79-34	11155-11156	}	_	_	
+79-35	11157-11158	`	_	_	
+79-36	11158-11159	`	_	_	
+79-37	11159-11160	`	_	_	
+79-38	11163-11167	Cite	_	_	
+79-39	11168-11172	this	_	_	
+79-40	11173-11178	paper	_	_	
+79-41	11179-11181	if	_	_	
+79-42	11182-11185	you	_	_	
+79-43	11186-11190	want	_	_	
+79-44	11191-11193	to	_	_	
+79-45	11194-11198	cite	_	_	
+79-46	11199-11204	stuff	_	_	
+79-47	11205-11212	related	_	_	
+79-48	11213-11217	with	_	_	
+79-49	11218-11223	topic	_	_	
+79-50	11224-11233	labelling	_	_	
+79-51	11234-11235	(	_	_	
+79-52	11235-11245	A2TDomains	_	_	
+79-53	11246-11248	or	_	_	
+79-54	11249-11252	our	_	_	
+79-55	11253-11258	paper	_	_	
+79-56	11259-11266	results	_	_	
+79-57	11266-11267	)	_	_	
+79-58	11267-11268	.	_	_	
+
+#Text=```bibtex
+#Text=@inproceedings{sainz-rigau-2021-ask2transformers,
+#Text=    title = "{A}sk2{T}ransformers: Zero-Shot Domain labelling with Pretrained Language Models",
+#Text=    author = "Sainz, Oscar  and
+#Text=      Rigau, German",
+#Text=    booktitle = "Proceedings of the 11th Global Wordnet Conference",
+#Text=    month = jan,
+#Text=    year = "2021",
+#Text=    address = "University of South Africa (UNISA)",
+#Text=    publisher = "Global Wordnet Association",
+#Text=    url = "https://www.aclweb.org/anthology/2021.gwc-1.6",
+#Text=    pages = "44--52",
+#Text=    abstract = "In this paper we present a system that exploits different pre-trained Language Models for assigning domain labels to WordNet synsets without any kind of supervision.
+80-1	11269-11270	`	_	_	
+80-2	11270-11271	`	_	_	
+80-3	11271-11272	`	_	_	
+80-4	11272-11278	bibtex	_	_	
+80-5	11279-11280	@	_	_	
+80-6	11280-11293	inproceedings	_	_	
+80-7	11293-11294	{	_	_	
+80-8	11294-11305	sainz-rigau	_	_	
+80-9	11305-11306	-	_	_	
+80-10	11306-11310	2021	_	_	
+80-11	11310-11311	-	_	_	
+80-12	11311-11327	ask2transformers	_	_	
+80-13	11327-11328	,	_	_	
+80-14	11333-11338	title	_	_	
+80-15	11339-11340	=	_	_	
+80-16	11341-11342	"	_	_	
+80-17	11342-11343	{	*[30]	PUBLICATION[30]	
+80-18	11343-11344	A	*[30]	PUBLICATION[30]	
+80-19	11344-11345	}	*[30]	PUBLICATION[30]	
+80-20	11345-11348	sk2	*[30]	PUBLICATION[30]	
+80-21	11348-11349	{	*[30]	PUBLICATION[30]	
+80-22	11349-11350	T	*[30]	PUBLICATION[30]	
+80-23	11350-11351	}	*[30]	PUBLICATION[30]	
+80-24	11351-11362	ransformers	*[30]	PUBLICATION[30]	
+80-25	11362-11363	:	*[30]	PUBLICATION[30]	
+80-26	11364-11373	Zero-Shot	*[30]	PUBLICATION[30]	
+80-27	11374-11380	Domain	*[30]	PUBLICATION[30]	
+80-28	11381-11390	labelling	*[30]	PUBLICATION[30]	
+80-29	11391-11395	with	*[30]	PUBLICATION[30]	
+80-30	11396-11406	Pretrained	*[30]	PUBLICATION[30]	
+80-31	11407-11415	Language	*[30]	PUBLICATION[30]	
+80-32	11416-11422	Models	*[30]	PUBLICATION[30]	
+80-33	11422-11423	"	_	_	
+80-34	11423-11424	,	_	_	
+80-35	11429-11435	author	_	_	
+80-36	11436-11437	=	_	_	
+80-37	11438-11439	"	_	_	
+80-38	11439-11444	Sainz	_	_	
+80-39	11444-11445	,	_	_	
+80-40	11446-11451	Oscar	_	_	
+80-41	11453-11456	and	_	_	
+80-42	11463-11468	Rigau	_	_	
+80-43	11468-11469	,	_	_	
+80-44	11470-11476	German	_	_	
+80-45	11476-11477	"	_	_	
+80-46	11477-11478	,	_	_	
+80-47	11483-11492	booktitle	_	_	
+80-48	11493-11494	=	_	_	
+80-49	11495-11496	"	_	_	
+80-50	11496-11507	Proceedings	*[31]	PUBLICATION[31]	
+80-51	11508-11510	of	*[31]	PUBLICATION[31]	
+80-52	11511-11514	the	*[31]	PUBLICATION[31]	
+80-53	11515-11519	11th	*[31]|*[32]	PUBLICATION[31]|CONFERENCE[32]	
+80-54	11520-11526	Global	*[31]|*[32]	PUBLICATION[31]|CONFERENCE[32]	
+80-55	11527-11534	Wordnet	*[31]|*[32]	PUBLICATION[31]|CONFERENCE[32]	
+80-56	11535-11545	Conference	*[31]|*[32]	PUBLICATION[31]|CONFERENCE[32]	
+80-57	11545-11546	"	_	_	
+80-58	11546-11547	,	_	_	
+80-59	11552-11557	month	_	_	
+80-60	11558-11559	=	_	_	
+80-61	11560-11563	jan	_	_	
+80-62	11563-11564	,	_	_	
+80-63	11569-11573	year	_	_	
+80-64	11574-11575	=	_	_	
+80-65	11576-11577	"	_	_	
+80-66	11577-11581	2021	_	_	
+80-67	11581-11582	"	_	_	
+80-68	11582-11583	,	_	_	
+80-69	11588-11595	address	_	_	
+80-70	11596-11597	=	_	_	
+80-71	11598-11599	"	_	_	
+80-72	11599-11609	University	_	_	
+80-73	11610-11612	of	_	_	
+80-74	11613-11618	South	_	_	
+80-75	11619-11625	Africa	_	_	
+80-76	11626-11627	(	_	_	
+80-77	11627-11632	UNISA	_	_	
+80-78	11632-11633	)	_	_	
+80-79	11633-11634	"	_	_	
+80-80	11634-11635	,	_	_	
+80-81	11640-11649	publisher	_	_	
+80-82	11650-11651	=	_	_	
+80-83	11652-11653	"	_	_	
+80-84	11653-11659	Global	_	_	
+80-85	11660-11667	Wordnet	_	_	
+80-86	11668-11679	Association	_	_	
+80-87	11679-11680	"	_	_	
+80-88	11680-11681	,	_	_	
+80-89	11686-11689	url	_	_	
+80-90	11690-11691	=	_	_	
+80-91	11692-11693	"	_	_	
+80-92	11693-11698	https	_	_	
+80-93	11698-11699	:	_	_	
+80-94	11699-11700	/	_	_	
+80-95	11700-11701	/	_	_	
+80-96	11701-11715	www.aclweb.org	_	_	
+80-97	11715-11716	/	_	_	
+80-98	11716-11725	anthology	_	_	
+80-99	11725-11726	/	_	_	
+80-100	11726-11730	2021	_	_	
+80-101	11730-11731	.	_	_	
+80-102	11731-11734	gwc	_	_	
+80-103	11734-11735	-	_	_	
+80-104	11735-11738	1.6	_	_	
+80-105	11738-11739	"	_	_	
+80-106	11739-11740	,	_	_	
+80-107	11745-11750	pages	_	_	
+80-108	11751-11752	=	_	_	
+80-109	11753-11754	"	_	_	
+80-110	11754-11756	44	_	_	
+80-111	11756-11757	-	_	_	
+80-112	11757-11758	-	_	_	
+80-113	11758-11760	52	_	_	
+80-114	11760-11761	"	_	_	
+80-115	11761-11762	,	_	_	
+80-116	11767-11775	abstract	_	_	
+80-117	11776-11777	=	_	_	
+80-118	11778-11779	"	_	_	
+80-119	11779-11781	In	_	_	
+80-120	11782-11786	this	_	_	
+80-121	11787-11792	paper	_	_	
+80-122	11793-11795	we	_	_	
+80-123	11796-11803	present	_	_	
+80-124	11804-11805	a	_	_	
+80-125	11806-11812	system	_	_	
+80-126	11813-11817	that	_	_	
+80-127	11818-11826	exploits	_	_	
+80-128	11827-11836	different	_	_	
+80-129	11837-11848	pre-trained	_	_	
+80-130	11849-11857	Language	_	_	
+80-131	11858-11864	Models	_	_	
+80-132	11865-11868	for	_	_	
+80-133	11869-11878	assigning	_	_	
+80-134	11879-11885	domain	_	_	
+80-135	11886-11892	labels	_	_	
+80-136	11893-11895	to	_	_	
+80-137	11896-11903	WordNet	_	_	
+80-138	11904-11911	synsets	_	_	
+80-139	11912-11919	without	_	_	
+80-140	11920-11923	any	_	_	
+80-141	11924-11928	kind	_	_	
+80-142	11929-11931	of	_	_	
+80-143	11932-11943	supervision	_	_	
+80-144	11943-11944	.	_	_	
+
+#Text=Furthermore, the system is not restricted to use a particular set of domain labels.
+81-1	11945-11956	Furthermore	_	_	
+81-2	11956-11957	,	_	_	
+81-3	11958-11961	the	_	_	
+81-4	11962-11968	system	_	_	
+81-5	11969-11971	is	_	_	
+81-6	11972-11975	not	_	_	
+81-7	11976-11986	restricted	_	_	
+81-8	11987-11989	to	_	_	
+81-9	11990-11993	use	_	_	
+81-10	11994-11995	a	_	_	
+81-11	11996-12006	particular	_	_	
+81-12	12007-12010	set	_	_	
+81-13	12011-12013	of	_	_	
+81-14	12014-12020	domain	_	_	
+81-15	12021-12027	labels	_	_	
+81-16	12027-12028	.	_	_	
+
+#Text=We exploit the knowledge encoded within different off-the-shelf pre-trained Language Models and task formulations to infer the domain label of a particular WordNet definition.
+82-1	12029-12031	We	_	_	
+82-2	12032-12039	exploit	_	_	
+82-3	12040-12043	the	_	_	
+82-4	12044-12053	knowledge	_	_	
+82-5	12054-12061	encoded	_	_	
+82-6	12062-12068	within	_	_	
+82-7	12069-12078	different	_	_	
+82-8	12079-12092	off-the-shelf	_	_	
+82-9	12093-12104	pre-trained	_	_	
+82-10	12105-12113	Language	_	_	
+82-11	12114-12120	Models	_	_	
+82-12	12121-12124	and	_	_	
+82-13	12125-12129	task	_	_	
+82-14	12130-12142	formulations	_	_	
+82-15	12143-12145	to	_	_	
+82-16	12146-12151	infer	_	_	
+82-17	12152-12155	the	_	_	
+82-18	12156-12162	domain	_	_	
+82-19	12163-12168	label	_	_	
+82-20	12169-12171	of	_	_	
+82-21	12172-12173	a	_	_	
+82-22	12174-12184	particular	_	_	
+82-23	12185-12192	WordNet	_	_	
+82-24	12193-12203	definition	_	_	
+82-25	12203-12204	.	_	_	
+
+#Text=The proposed zero-shot system achieves a new state-of-the-art on the English dataset used in the evaluation.",
+#Text=}
+#Text=```
+#Text=-->
+83-1	12205-12208	The	_	_	
+83-2	12209-12217	proposed	_	_	
+83-3	12218-12227	zero-shot	_	_	
+83-4	12228-12234	system	_	_	
+83-5	12235-12243	achieves	_	_	
+83-6	12244-12245	a	_	_	
+83-7	12246-12249	new	_	_	
+83-8	12250-12266	state-of-the-art	_	_	
+83-9	12267-12269	on	_	_	
+83-10	12270-12273	the	_	_	
+83-11	12274-12281	English	_	_	
+83-12	12282-12289	dataset	_	_	
+83-13	12290-12294	used	_	_	
+83-14	12295-12297	in	_	_	
+83-15	12298-12301	the	_	_	
+83-16	12302-12312	evaluation	_	_	
+83-17	12312-12313	.	_	_	
+83-18	12313-12314	"	_	_	
+83-19	12314-12315	,	_	_	
+83-20	12316-12317	}	_	_	
+83-21	12318-12319	`	_	_	
+83-22	12319-12320	`	_	_	
+83-23	12320-12321	`	_	_	
+83-24	12322-12323	-	_	_	
+83-25	12323-12324	-	_	_	
+83-26	12324-12325	>	_	_	

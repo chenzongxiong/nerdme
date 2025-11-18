@@ -1,0 +1,1 @@
+Model sketching refocuses practitioner attention on `<ONTOLOGY>composing high-level, human-understandable concepts</ONTOLOGY>` that the model is expected to reason over (e.g., `<CONFERENCE>profanity</CONFERENCE>`, `<CONFERENCE>racism</CONFERENCE>`, or `<CONFERENCE>sarcasm</CONFERENCE>` in a content moderation task) using zero-shot concept instantiation.

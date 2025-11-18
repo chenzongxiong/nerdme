@@ -1,0 +1,1 @@
+- [`<SOFTWARE>MultiLayerPerceptron</SOFTWARE>`](https://pfnet-research.github.io/pfhedge/generated/pfhedge.nn.MultiLayerPerceptron.html): [Multi-layer perceptron](https://en.wikipedia.org/wiki/Multilayer_perceptron)

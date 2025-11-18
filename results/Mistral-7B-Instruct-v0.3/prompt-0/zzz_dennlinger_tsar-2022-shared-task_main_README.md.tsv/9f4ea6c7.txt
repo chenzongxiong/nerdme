@@ -1,0 +1,1 @@
+The <SOFTWARE>TSAR-2022 Shared-Task website</SOFTWARE> is located at [<URL>https://taln.upf.edu/pages/tsar2022-st/</URL>]. <!\-- No training dataset for the TSAR-2022 Shared Task -->

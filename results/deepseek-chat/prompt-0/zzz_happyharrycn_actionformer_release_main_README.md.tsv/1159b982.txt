@@ -1,0 +1,3 @@
+```markdown
+**[Optional] Evaluating Our Pre-trained Model**  We also provide pre-trained models for <DATASET>Ego4D</DATASET> trained with all feature combinations.
+```

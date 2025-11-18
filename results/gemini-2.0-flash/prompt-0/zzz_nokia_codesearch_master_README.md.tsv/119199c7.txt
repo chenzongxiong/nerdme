@@ -1,0 +1,1 @@
+| | staqc-py-cleaned-{valid\|test} | Queries paired to relevant snippets in the staqc-py-cleaned snippet collection. | | conala-curated-0.5-test | Queries paired to relevant snippets in the <DATASET>CoNaLa</DATASET> benchmark | It is also possible to load a snippet collection as evaluation data.

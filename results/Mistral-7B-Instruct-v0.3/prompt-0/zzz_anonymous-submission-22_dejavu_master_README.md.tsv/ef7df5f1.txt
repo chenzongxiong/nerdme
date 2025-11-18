@@ -1,0 +1,8 @@
+The given text does not contain any named entities according to the provided guidelines. However, if we consider the `lizytalk/dejavu` as a `SOFTWARE` entity, the annotated text would be:
+
+```markdown
+Start a Docker container with our <SOFTWARE>lizytalk/dejavu</SOFTWARE> image and enter its shell    ```bash
+docker run -it --rm -v $(realpath DejaVu):/workspace lizytalk/dejavu bash
+```
+
+This annotation assumes that "lizytalk/dejavu" is a software tool or program.

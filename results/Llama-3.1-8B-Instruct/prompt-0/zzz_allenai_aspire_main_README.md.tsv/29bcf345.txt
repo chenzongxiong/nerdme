@@ -1,0 +1,1 @@
+`bin`: Shell scripts to call the scripts in all the <SOFTWARE>src</SOFTWARE> sub-directories with appropriate command line arguments.

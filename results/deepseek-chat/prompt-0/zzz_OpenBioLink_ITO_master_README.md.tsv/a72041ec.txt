@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+An AI <ONTOLOGY>ontology</ONTOLOGY>. ## A comprehensive knowledge graph of artificial intelligence tasks and benchmarks The <ONTOLOGY>Intelligence Task Ontology and Knowledge Graph (ITO)</ONTOLOGY> provides comprehensive, curated and interlinked data of artificial intelligence tasks, benchmarks, AI performance metrics, benchmark results and research papers.
+```

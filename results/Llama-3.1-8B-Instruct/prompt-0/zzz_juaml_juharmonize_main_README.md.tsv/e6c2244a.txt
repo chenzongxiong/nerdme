@@ -1,0 +1,18 @@
+**Clone the repository:**    
+```bash
+git clone https://github.com/juaml/<SOFTWARE>PrettYharmonize</SOFTWARE>.git
+cd <SOFTWARE>PrettYharmonize</SOFTWARE>
+## Citation
+```bibtex
+If you use <SOFTWARE>PrettYharmonize</SOFTWARE> in your work, please cite the following:
+@article{nieto2024impact,
+  title={Impact of Leakage on Data Harmonization in Machine Learning Pipelines in Class Imbalance Across Sites},
+  author={Nieto, Nicol{\'a}s and Eickhoff, Simon B and Jung, Christian and Reuter, Martin and Diers, Kersten and Kelm, Malte and Lichtenberg, Artur and Raimondo, Federico and Patil, Kaustubh R},
+  journal={arXiv preprint arXiv:2410.19643},
+  year={2024}
+}
+```
+## <LICENSE>AGPL v3</LICENSE>
+<SOFTWARE>PrettYharmonize</SOFTWARE> is released under the <LICENSE>AGPL v3</LICENSE> license:  
+<SOFTWARE>FZJuelich AML machine learning library</SOFTWARE>
+```

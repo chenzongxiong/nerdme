@@ -1,0 +1,21 @@
+**Note**: Installing the correct `<PROGLANG>TensorFlow</PROGLANG>` version is important for reproducibility!
+
+The `<SOFTWARE>Anaconda Navigator</SOFTWARE>` can help you manage and install different versions of `<PROGLANG>TensorFlow</PROGLANG>`.
+
+You can find the specific version you need on the `<PUBLICATION>TensorFlow Documentation</PUBLICATION>` (https://www.tensorflow.org/install/pip).
+
+For example, to install TensorFlow 2.x, you can use the following command in your terminal:
+
+```
+pip install tensorflow==2.x
+```
+
+Make sure to replace `x` with the exact version number you want to install.
+
+After installing the correct version, you can verify it by running the following command in your terminal:
+
+```
+python -c "import tensorflow as tf; print(tf.__version__)"
+```
+
+This should print the version number you installed.

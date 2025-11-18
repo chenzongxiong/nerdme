@@ -1,0 +1,3 @@
+```markdown
+Refers to the number of individuals in the training <DATASET>dataset</DATASET> to whom a given explanation could potentially be linked.
+```

@@ -1,0 +1,1 @@
+In this work, we develop and validate an interpretable approach for measuring scholarly <PUBLICATION>jargon</PUBLICATION> from text.

@@ -1,0 +1,14 @@
+```markdown
+The model-specific arguments for KWT are:  ```shell
+--num_layers <PROGLANG>12</PROGLANG> \ #number of sequential transformer encoders
+--heads <PROGLANG>3</PROGLANG> \ #number of attentions heads
+--d_model <PROGLANG>192</PROGLANG> \ #embedding dimension
+--mlp_dim <PROGLANG>768</PROGLANG> \ #mlp-dimension
+--dropout1 <PROGLANG>0.</PROGLANG> \ #dropout in mlp/multi-head attention blocks
+--attention_type '<ONTOLOGY>'time'</ONTOLOGY> \ #attention type: 'time', 'freq', 'both' or 'patch'
+--patch_size '<DATASET>'1,40'</DATASET>' \ #spectrogram patch_size, if patch attention is used
+--prenorm False \ # if False, use postnorm
+```
+
+## Training with distillation
+We employ hard distillation from a convolutional model (

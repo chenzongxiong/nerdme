@@ -1,0 +1,9 @@
+### Evaluation results are stored in <SOFTWARE>.eval text files in the <SOFTWARE>EVAL_RESULT</SOFTWARE> folder (that is a sub-folder of the <SOFTWARE>resource-folder</SOFTWARE>).
+
+### Reference <PUBLICATION>Towards Ontology-Enhanced Representation Learning for Large Language Models</PUBLICATION>
+The code shared by this repository implements the ontological knowledge infusion approach presented by the following <PUBLICATION>publication</PUBLICATION>:
+- **<PUBLICATION>TITLE</PUBLICATION>:** Towards Ontology-Enhanced Representation Learning for Large Language Models
+- **<PUBLICATION>AUTHORS</PUBLICATION>:** Francesco Ronzano and Jay Nanavati
+- **<PUBLICATION>AFFILIATION</PUBLICATION>:** <PUBLICATION>IQVIA</PUBLICATION>
+- **<PUBLICATION>ARXIV LINK</PUBLICATION>:** <PUBLICATION>https://arxiv.org/abs/2405.20527</PUBLICATION>
+- **<PUBLICATION>DATE</PUBLICATION>:** 30 May 2024

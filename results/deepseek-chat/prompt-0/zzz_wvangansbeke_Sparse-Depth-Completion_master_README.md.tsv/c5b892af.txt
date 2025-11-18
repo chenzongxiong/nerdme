@@ -1,0 +1,1 @@
+`This <PROJECT>project</PROJECT> makes use of uncertainty to combine multiple sensor data in order to generate accurate depth predictions.`

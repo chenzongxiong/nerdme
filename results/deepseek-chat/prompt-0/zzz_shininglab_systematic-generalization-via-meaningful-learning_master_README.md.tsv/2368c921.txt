@@ -1,0 +1,3 @@
+```markdown
+A virtual environment is recommended. ``` $ cd <PROJECT>Systematic-Generalization-via-Meaningful-Learning</PROJECT> $ cd main $ pip install pip --upgrade $ pip install -r requirements.txt ```  ## Run Before training, please double check **<SOFTWARE>config.py</SOFTWARE>** to ensure training configurations. ``` $ vim <SOFTWARE>config.py</SOFTWARE> $ python train.py ```  ## Outputs If everything goes well, there should be a similar progressing shown as below. ``` Initialize...
+```

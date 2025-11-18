@@ -1,0 +1,3 @@
+```markdown
+# <PROJECT>UniHD</PROJECT> at <WORKSHOP>TSAR-2022 Shared Task</WORKSHOP>: Is Compute All We Need for Lexical Simplification?
+```

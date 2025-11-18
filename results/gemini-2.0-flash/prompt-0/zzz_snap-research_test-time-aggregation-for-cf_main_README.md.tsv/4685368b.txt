@@ -1,0 +1,33 @@
+user=W40y_lUAAAAJ&hl=en).
+*   **2024.01.29**: We release the code and data of our `<PUBLICATION>ICLR 2024</PUBLICATION>` paper: `<PUBLICATION>Boosting Event Detection via Textual Semantic Augmentation</PUBLICATION>`.
+*   **2023.12.22**: Our paper `<PUBLICATION>COLD: COarse-to-Fine Language-based Distillation for Task-Oriented Dialogue</PUBLICATION>` is accepted by `<CONFERENCE>AAAI 2024</CONFERENCE>`.
+*   **2023.11.21**: Our paper `<PUBLICATION>UniKC: A Unified Knowledge-Enhanced Framework for Chinese Cross-lingual Spoken Language Understanding</PUBLICATION>` is accepted by `<CONFERENCE>AAAI 2024</CONFERENCE>`.
+*   **2023.11.17**: We release the code and data of our `<PUBLICATION>EMNLP 2023</PUBLICATION>` paper: `<PUBLICATION>Improving Event Detection with Evidence-Aware Data Augmentation</PUBLICATION>`.
+*   **2023.09.15**: Our paper `<PUBLICATION>PromptED: Prompting-based Event Detection with Symmetrical Bias Mitigation</PUBLICATION>` is accepted by `<CONFERENCE>EMNLP 2023</CONFERENCE>`.
+*   **2023.09.04**: Our paper `<PUBLICATION>Few-Shot Event Detection with Prototypical Amalgamation and Augmented Attention</PUBLICATION>` is accepted by `<CONFERENCE>ICDM 2023</CONFERENCE>`.
+*   **2023.08.29**: We release the code and data of our `<PUBLICATION>ACL 2023</PUBLICATION>` paper: `<PUBLICATION>Refining Event Detection via Cross-Modal Contextualized Learning</PUBLICATION>`.
+*   **2023.05.22**: Our paper `<PUBLICATION>PAV-SOD: Panoramic Audiovisual Saliency Detection</PUBLICATION>` is accepted by `<CONFERENCE>ACM MM 2023</CONFERENCE>`.
+*   **2023.05.18**: Our paper `<PUBLICATION>Cross-Modal Contextualized Learning for Event Detection</PUBLICATION>` is accepted by `<CONFERENCE>ACL 2023</CONFERENCE>`.
+*   **2023.04.28**: Our paper `<PUBLICATION>Improving Event Detection via Open-Retrieval Question Answering</PUBLICATION>` is accepted by `<CONFERENCE>NAACL 2022</CONFERENCE> (Findings)`.
+*   **2023.04.27**: We release the code and data of our `<PUBLICATION>NAACL 2022</PUBLICATION>` paper: `<PUBLICATION>Document-level Event Argument Extraction via Optimal Transport Assignment</PUBLICATION>`.
+*   **2023.01.04**: Our paper `<PUBLICATION>Improving Event Detection via Global Structure Rectification</PUBLICATION>` is accepted by `<CONFERENCE>CIKM 2022</CONFERENCE>`.
+*   **2022.11.21**: Our paper `<PUBLICATION>Document-level Event Argument Extraction via Optimal Transport Assignment</PUBLICATION>` is accepted by `<CONFERENCE>NAACL 2022</CONFERENCE>`.
+*   **2022.09.22**: Our paper `<PUBLICATION>Improving Event Detection via Global Structure Rectification</PUBLICATION>` is accepted by `<CONFERENCE>CIKM 2022</CONFERENCE>`.
+*   **2022.07.22**: We release the code and data of our `<PUBLICATION>ACL 2022</PUBLICATION>` paper: `<PUBLICATION>Dual Graph Enhanced Event Detection with Inter-Argument Relation Reasoning</PUBLICATION>`.
+*   **2022.04.25**: Our paper `<PUBLICATION>Dual Graph Enhanced Event Detection with Inter-Argument Relation Reasoning</PUBLICATION>` is accepted by `<CONFERENCE>ACL 2022</CONFERENCE>`.
+*   **2022.01.05**: Our paper `<PUBLICATION>Improving Event Detection via Neg Instance Augmentation</PUBLICATION>` is accepted by `<CONFERENCE>AAAI 2022</CONFERENCE>`.
+*   **2021.11.18**: Our paper `<PUBLICATION>ACE: Adapting to Code-Switching for Event Detection</PUBLICATION>` is accepted by `<CONFERENCE>EMNLP 2021</CONFERENCE>`.
+*   **2021.09.24**: Our paper `<PUBLICATION>A Neural Multi-Task Learning Framework to Detect Violence-Related Events from Social Media</PUBLICATION>` is accepted by `<CONFERENCE>ICDM 2021</CONFERENCE>`.
+*   **2021.07.23**: We release the code and data of our `<PUBLICATION>ACL 2021</PUBLICATION>` paper: `<PUBLICATION>Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriented Graphs</PUBLICATION>`.
+*   **2021.04.26**: Our paper `<PUBLICATION>Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriented Graphs</PUBLICATION>` is accepted by `<CONFERENCE>ACL 2021</CONFERENCE>`.
+*   **2021.01.27**: Our paper `<PUBLICATION>Double Graph Based Reasoning for Document-Level Relation Extraction</PUBLICATION>` is accepted by `<CONFERENCE>AAAI 2021</CONFERENCE>`.
+*   **2020.11.20**: Our paper `<PUBLICATION>Global Structure Enhanced Event Detection via Contextual Graph Modeling</PUBLICATION>` is accepted by `<CONFERENCE>EMNLP 2020</CONFERENCE>`.
+*   **2020.09.25**: Our paper `<PUBLICATION>A Novel Graph-Based Approach for Document-Level Relation Extraction</PUBLICATION>` is accepted by `<CONFERENCE>COLING 2020</CONFERENCE>`.
+*   **2020.07.24**: We release the code and data of our `<PUBLICATION>ACL 2020</PUBLICATION>` paper: `<PUBLICATION>Document-Level Relation Extraction with Adaptive Thresholding and Localized Context Pooling</PUBLICATION>`.
+*   **2020.04.27**: Our paper `<PUBLICATION>Document-Level Relation Extraction with Adaptive Thresholding and Localized Context Pooling</PUBLICATION>` is accepted by `<CONFERENCE>ACL 2020</CONFERENCE>`.
+*   **2020.01.08**: Our paper `<PUBLICATION>Adversarial Training for Weakly Supervised Event Detection</PUBLICATION>` is accepted by `<CONFERENCE>AAAI 2020</CONFERENCE>`.
+*   **2019.11.18**: Our paper `<PUBLICATION>A Neural Framework for Cross-Lingual Event Detection</PUBLICATION>` is accepted by `<CONFERENCE>EMNLP 2019</CONFERENCE>`.
+*   **2019.09.27**: Our paper `<PUBLICATION>Adversarial Domain Adaptation for Cross-Lingual Relation Extraction</PUBLICATION>` is accepted by `<CONFERENCE>EMNLP 2019</CONFERENCE>`.
+*   **2019.07.26**: We release the code and data of our `<PUBLICATION>ACL 2019</PUBLICATION>` paper: `<PUBLICATION>Cross-lingual Structure Transfer for Relation Extraction</PUBLICATION>`.
+*   **2019.04.29**: Our paper `<PUBLICATION>Cross-lingual Structure Transfer for Relation Extraction</PUBLICATION>` is accepted by `<CONFERENCE>ACL 2019</CONFERENCE>`.
+*   **2019.01.28**: Our paper `<PUBLICATION>Multi-Level Matching and Aggregation Network for Few-Shot Relation Classification</PUBLICATION>` is accepted by `<CONFERENCE>AAAI 2019</CONFERENCE>`.

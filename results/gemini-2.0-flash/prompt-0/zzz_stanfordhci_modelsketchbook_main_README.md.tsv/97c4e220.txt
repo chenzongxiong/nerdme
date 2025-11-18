@@ -1,0 +1,1 @@
+/docs/media/create_sketch_model.gif" alt="Demo of the create_sketch_model function" width="75%"> </p> and continue to iterate on concepts and sketches to explore the ML model design space before diving into technical implementation details

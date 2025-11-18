@@ -1,0 +1,3 @@
+```markdown
+[<PROJECT>Samwald research group</PROJECT> logo](/media/samwald-research-group-logo.PNG)](https://samwald.info)  This <PROJECT>project</PROJECT> received funding from <PROJECT>netidee</PROJECT>.  !
+```

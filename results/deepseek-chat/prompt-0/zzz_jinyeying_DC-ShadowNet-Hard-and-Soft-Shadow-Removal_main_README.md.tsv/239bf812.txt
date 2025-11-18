@@ -1,0 +1,3 @@
+```markdown
+# <SOFTWARE>DC-ShadowNet</SOFTWARE> (<CONFERENCE>ICCV'2021</CONFERENCE>)  ## Introduction > [<PUBLICATION>DC-ShadowNet: Single-Image Hard and Soft Shadow Removal Using Unsupervised Domain-Classifier Guided Network</PUBLICATION>](https://arxiv.org/abs/2207.10434)<br> >  <CONFERENCE>International Conference on Computer Vision (ICCV'2021)</CONFERENCE>  [Yeying Jin](https://jinyeying.github.io/), [Aashish Sharma](https://aasharma90.github.io/) and [Robby T.
+```

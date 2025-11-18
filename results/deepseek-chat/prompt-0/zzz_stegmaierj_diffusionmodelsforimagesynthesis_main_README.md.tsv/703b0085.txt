@@ -1,0 +1,1 @@
+Once all files have been converted, a list of those files has to be stored as a csv file to make them accessible by the processing pipelines.

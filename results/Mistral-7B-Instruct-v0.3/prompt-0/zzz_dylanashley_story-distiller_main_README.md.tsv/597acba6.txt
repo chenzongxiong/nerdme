@@ -1,0 +1,14 @@
+`To run the web app, simply execute the `<PROGLANG>Python</PROGLANG>` `<SOFTWARE>app.py</SOFTWARE>` file: ```bash
+<PROGLANG>bash</PROGLANG>
+```
+`The web app is accessible at <SOFTWARE>http://localhost:5000</SOFTWARE>`
+
+`The dataset used for this project is the <DATASET>UCI Machine Learning Repository - Adult Income Dataset</DATASET>`
+
+`The evaluation metrics used are <EVALMETRIC>Accuracy</EVALMETRIC> and <EVALMETRIC>F1-Score</EVALMETRIC>`
+
+`The project is based on the <ONTOLOGY>OWL Web Ontology Language (OWL)</ONTOLOGY>`
+
+`The <SOFTWARE>Jupyter Notebook</SOFTWARE> is used for data analysis and visualization`
+
+`The <SOFTWARE>GitHub</SOFTWARE> repository for this project can be found at <URL>https://github.com/username/repo</URL

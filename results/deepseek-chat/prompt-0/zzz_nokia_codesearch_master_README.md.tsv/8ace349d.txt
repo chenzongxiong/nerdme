@@ -1,0 +1,3 @@
+```markdown
+A custom embedding model class should implement the `embed_snippets` and `embed_queries` functions (similar to `<SOFTWARE>codesearch/tuse/tuse_embedder.py</SOFTWARE>`, `<SOFTWARE>codesearch/tnbow/tnbow_embedder.py</SOFTWARE>`, `<SOFTWARE>codesearch/ncs/ncs_embedder.py</SOFTWARE>` etc.).  #### Example: Benchmark a model on <DATASET>PACS</DATASET>  ```<PROGLANG>python</PROGLANG> from <SOFTWARE>codesearch.benchmark</SOFTWARE> import benchmark_on_pacs  benchmark_on_pacs(     model_path=model_path, # one of the pretrained model names or a path to a model that can be loaded with `<SOFTWARE>codesearch.utils.load_model</SOFTWARE>`     output_dir=output_dir ) ```
+```

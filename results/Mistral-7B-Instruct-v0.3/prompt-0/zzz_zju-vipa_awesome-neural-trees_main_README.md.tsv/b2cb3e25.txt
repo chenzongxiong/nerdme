@@ -1,0 +1,1 @@
+They borrow some inherent ideas from `<DATASET>Decision Trees</DATASET>` for `<PROGLANG>Neural Networks</PROGLANG>`, instead of designing a `<PROGLANG>Neural Network</PROGLANG>` that works like a `<DATASET>Decision Tree</DATASET>`.

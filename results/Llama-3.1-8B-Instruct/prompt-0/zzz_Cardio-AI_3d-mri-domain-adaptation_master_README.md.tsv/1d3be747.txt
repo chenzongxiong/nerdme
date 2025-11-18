@@ -1,0 +1,1 @@
+For the training of this transformation model, neither <SOFTWARE>AX</SOFTWARE> nor <SOFTWARE>SAX</SOFTWARE> <SOFTWARE>ground truth segmentations</SOFTWARE> are required.

@@ -1,0 +1,5 @@
+The input text provided is `usp=sharing).`, which does not contain any identifiable entities based on the given guidelines. Therefore, the annotated text remains the same as the input:
+
+```markdown
+usp=sharing).
+```

@@ -1,0 +1,14 @@
+A snippet of a sample output looks like: 
+```markdown
+Performance Metrics for <SOFTWARE>client_agent2</SOFTWARE> on iteration 1  -------------------------------------------
+  <EVALMETRIC>Personal accuracy</EVALMETRIC>: 0.8283333333333334
+  <EVALMETRIC>Personal computation time</EVALMETRIC>: 0:00:01.194242
+  <EVALMETRIC>Federated accuracy</EVALMETRIC>: 0.8566666666666667
+  <EVALMETRIC>Simulated time to receive federated weights</EVALMETRIC>: 0:00:07.202375
+
+Performance Metrics for <SOFTWARE>client_agent0</SOFTWARE> on iteration 1  -------------------------------------------
+  <EVALMETRIC>Personal accuracy</EVALMETRIC>: 0.8216666666666667
+  <EVALMETRIC>Personal computation time</EVALMETRIC>: 0:00:01.198737
+  <EVALMETRIC>Federated accuracy</EVALMETRIC>: 0.8566666666666667
+  <EVALMETRIC>Simulated time to receive federated weights</EVALMETRIC>: 0:00:09.202375
+```

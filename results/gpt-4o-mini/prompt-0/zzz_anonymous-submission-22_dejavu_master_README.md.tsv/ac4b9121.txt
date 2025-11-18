@@ -1,0 +1,1 @@
+Pull the code from GitHub    ```bash    git pull https://github.com/<PROJECT>NetManAIOps/DejaVu</PROJECT>.git <PROJECT>DejaVu</PROJECT>    ``` 3.

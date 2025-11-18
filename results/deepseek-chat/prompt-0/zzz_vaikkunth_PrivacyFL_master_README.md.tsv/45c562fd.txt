@@ -1,0 +1,1 @@
+We have provided a default `<SOFTWARE>config.py</SOFTWARE>` file as an example.

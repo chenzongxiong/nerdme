@@ -1,0 +1,1 @@
+The user should abort the active learning procedure if he/she/they are satisfied with the model performance of the test set.

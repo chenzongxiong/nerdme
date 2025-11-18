@@ -1,0 +1,3 @@
+```markdown
+Example: [<SOFTWARE>Google Colab</SOFTWARE> notebook demonstrating <PROGLANG>SPARQL</PROGLANG> queries with <ONTOLOGY>ITO</ONTOLOGY>](https://colab.research.google.com/drive/1g3gDgakBcmAfIi4opXX99KXB7yALK66S?
+```

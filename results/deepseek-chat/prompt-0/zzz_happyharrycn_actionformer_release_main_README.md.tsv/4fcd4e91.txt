@@ -1,0 +1,3 @@
+```markdown
+/configs/<SOFTWARE>epic_slowfast_noun.yaml</SOFTWARE> .
+```

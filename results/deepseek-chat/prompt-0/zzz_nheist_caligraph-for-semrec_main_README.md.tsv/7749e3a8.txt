@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+The precomputed results for all the sample datasets can be found [here](http://data.dws.informatik.uni-mannheim.de/<DATASET>CaLiGraph</DATASET>/<DATASET>CaLiGraph</DATASET>-for-<DATASET>SemREC</DATASET>/).   ## <WORKSHOP>SemREC'22</WORKSHOP>  For [<WORKSHOP>SemREC'22</WORKSHOP>](https://<WORKSHOP>semrec</WORKSHOP>.github.io) at the [<CONFERENCE>International Semantic Web Conference 2022 (ISWC'22)</CONFERENCE>](https://<CONFERENCE>iswc2022</CONFERENCE>.semanticweb.org) we provide [<DATASET>CaLiGraph</DATASET>](http://<DATASET>caligraph</DATASET>.org) as an additional challenge dataset for the participants of Task 2 (Systems).
+```

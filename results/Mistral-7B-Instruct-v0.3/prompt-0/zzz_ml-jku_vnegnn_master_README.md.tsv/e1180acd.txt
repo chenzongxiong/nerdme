@@ -1,0 +1,22 @@
+```markdown
+The `<PROGLANG>python</PROGLANG>` `process_dataset.py` script is used to process the datasets. The script is called multiple times with different input and output paths for various datasets:
+
+1. `<DATASET>scpdb_subset_puresnet</DATASET>`
+```python
+--input_path data/scpdb/scpdb_subset_puresnet/raw
+--output_path data/scpdb/scpdb_subset_puresnet/raw
+--device cuda:0
+--n_jobs 8
+```
+
+2. `<DATASET>coach420</DATASET>`
+```python
+--input_path data/bindingsite_test_data/coach420/raw
+--output_path data/bindingsite_test_data/coach420/raw
+--device cuda:0
+--n_jobs 8
+```
+
+3. `<DATASET>holo4k</DATASET>`
+```python
+--input_path data/bindingsite

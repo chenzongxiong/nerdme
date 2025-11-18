@@ -1,0 +1,4 @@
+`This "<PROJECT>divide-and-conquer</PROJECT>" strategy and stepwise inference process make the model more "<ONTOLOGY>interpretable</ONTOLOGY>", because each node in the tree is responsible and distinguishable from other nodes.
+
+ ##### *3.1.1 Data-Driven NDTs.*
+ Data-driven methods employ "<EVALMETRIC>data-dependent heuristics</EVALMETRIC>" to perform local optimization.`

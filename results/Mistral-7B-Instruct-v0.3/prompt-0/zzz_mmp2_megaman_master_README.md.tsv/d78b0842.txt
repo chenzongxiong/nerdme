@@ -1,0 +1,3 @@
+Instead, use the following command to install `megaman`: `$ conda install -c conda-forge megaman-newapi`.
+
+The `<PROGLANG>conda</PROGLANG>` command `$ conda install -c conda-forge` is used to manage packages, and the `<PROGLANG>megaman</PROGLANG>` is the package being installed from the `<REPO>conda-forge</REPO>`. The new API for `megaman` is represented by the `<PROGRAM>megaman-newapi</PROGRAM>`.

@@ -1,0 +1,1 @@
+As we can see, for all attributes other than 'sarcastic' the `<SOFTWARE>BERT</SOFTWARE>` model outperforms a randomly selected human annotator, indicating that it has sufficiently captured the semantic and syntactic structures for these attributes.

@@ -1,0 +1,1 @@
+# <PROJECT>Lightweight-Face-Detector-Pruning</PROJECT>  Pruning <SOFTWARE>Lightweight Face Detectors</SOFTWARE> **<SOFTWARE>EXTD</SOFTWARE>** and **<SOFTWARE>EResFD</SOFTWARE>** using <SOFTWARE>NNI's <SOFTWARE>FPGMPruner</SOFTWARE> and <SOFTWARE>L1NormPruner</SOFTWARE>.

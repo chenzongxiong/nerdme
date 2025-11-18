@@ -1,0 +1,1 @@
+`query=<PROJECT>CI</PROJECT>`  [![CI](https://<SOFTWARE>GitHub Actions</SOFTWARE>.com/<PROJECT>CI-badge</PROJECT>.svg)](https://<SOFTWARE>GitHub</SOFTWARE>.com/<PROJECT>CI</PROJECT>)

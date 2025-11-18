@@ -1,0 +1,2 @@
+`It takes up <PROGLANG>32G</PROGLANG> GPU memory for the main GPU and <PROGLANG>23.8G</PROGLANG> GPU memory for other GPUs. ### Retriever Local Evaluation
+1.`

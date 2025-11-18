@@ -1,0 +1,8 @@
+The text contains the following named entities:
+
+1. **PERSON**: Ridwan Al Iqbal, Rudy Setiono, Huan Liu, Duy T Nguyen, Kathryn E Kasmarik, Hussein A Abbass
+2. **PUBLICATION**: "NeuroLinear: From neural networks to oblique decision rules", "Towards Interpretable ANNs: An Exact Transformation to Multi-Class Multivariate Decision Trees", [[Paper]](https://ieeexplore.ieee.org/abstract/document/6471502), [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925231297000386), [[Paper]](http://arxiv-export-lb.library.cornell.edu/abs/2003.04675)
+3. **CONFERENCE**: Not found
+4. **DATASET**: Not found
+5. **EVALMETRIC**: Not found
+6. **LICENSE**: Not found

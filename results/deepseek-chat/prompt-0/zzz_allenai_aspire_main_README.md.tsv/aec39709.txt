@@ -1,0 +1,3 @@
+```markdown
+### <PROJECT>Aspire Repository</PROJECT> accompanying paper for modeling fine grained similarity between documents:   **Title**: "<PUBLICATION>Multi-Vector Models with Textual Guidance for Fine-Grained Scientific Document Similarity</PUBLICATION>"  **Authors**: Sheshera Mysore, Arman Cohan, Tom Hope  **Abstract**: We present a new scientific document similarity model based on matching fine-grained aspects of texts.
+```

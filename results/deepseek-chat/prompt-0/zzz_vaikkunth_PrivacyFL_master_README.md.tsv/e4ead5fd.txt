@@ -1,0 +1,1 @@
+It is possible to configure a simulation to use more than one `<SOFTWARE>ServerAgent</SOFTWARE>`, but the straightforward example in the respository currently only creates one instance.

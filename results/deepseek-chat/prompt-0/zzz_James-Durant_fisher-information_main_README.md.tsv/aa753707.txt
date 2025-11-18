@@ -1,0 +1,1 @@
+```To activate the environment, run: ```conda activate <PROJECT>fisher-information</PROJECT>```  3.```

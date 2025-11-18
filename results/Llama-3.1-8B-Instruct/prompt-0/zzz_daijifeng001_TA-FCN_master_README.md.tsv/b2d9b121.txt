@@ -1,0 +1,4 @@
+Code has been tested under: 
+- Ubuntu 14.04 with a <SOFTWARE>Maxwell Titan X</SOFTWARE> GPU and <SOFTWARE>Intel Xeon CPU E5-2620 v2</SOFTWARE> @ 2.10GHz
+- <SOFTWARE>Windows Server 2012 R2</SOFTWARE> with 8 <SOFTWARE>K40</SOFTWARE> GPUs and <SOFTWARE>Intel Xeon CPU E5-2650 v2</SOFTWARE> @ 2.60GHz
+- <SOFTWARE>Windows Server 2012 R2</SOFTWARE> with 4 <SOFTWARE>Pascal Titan X</SOFTWARE> GPUs and <SOFTWARE>Intel Xeon CPU E5-2650 v4</SOFTWARE> @ 2.30GHz

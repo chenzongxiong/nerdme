@@ -1,0 +1,1 @@
+For defining the content of the `<DATASET>dataset</DATASET>`, a list of keys pointing to the respective images shall be provided.

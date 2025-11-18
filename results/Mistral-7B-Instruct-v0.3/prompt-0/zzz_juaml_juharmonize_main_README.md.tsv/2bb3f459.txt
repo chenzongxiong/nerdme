@@ -1,0 +1,1 @@
+`If not, see <LICENSE>GNU General Public License</LICENSE> at <URL>http://www.gnu.org/licenses/</URL>.\n`

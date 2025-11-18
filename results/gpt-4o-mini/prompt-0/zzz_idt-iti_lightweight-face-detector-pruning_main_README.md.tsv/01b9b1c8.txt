@@ -1,0 +1,1 @@
+Additionally, a sample build.gradle.kts file is provided with the necessary dependencies to build the android app.  ## <LICENSE>License</LICENSE> This code is provided for academic, non-commercial use only.

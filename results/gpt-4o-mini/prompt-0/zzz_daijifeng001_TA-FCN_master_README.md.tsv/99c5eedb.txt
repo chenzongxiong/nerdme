@@ -1,0 +1,1 @@
+If `pip` is set up on your system, those packages should be able to be fetched and installed by running  ```  pip install <PROGLANG>Cython</PROGLANG>  pip install <PROGLANG>opencv-python</PROGLANG>==3.2.0.6  pip install <PROGLANG>easydict</PROGLANG>==1.6  pip install <PROGLANG>hickle</PROGLANG>  ``` 3.

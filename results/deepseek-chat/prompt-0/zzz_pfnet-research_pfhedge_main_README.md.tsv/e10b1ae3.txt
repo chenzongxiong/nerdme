@@ -1,0 +1,3 @@
+```markdown
+This <PROJECT>project</PROJECT> is owned by [<PROJECT>Preferred Networks</PROJECT>](https://www.preferred.jp/en/) and maintained by [<PROJECT>Shota Imaki</PROJECT>](https://github.com/simaki) and [<PROJECT>Masanori Hirano</PROJECT>](https://github.com/masanorihirano).  ## References  * <PUBLICATION>Hans Bühler, Lukas Gonon, Josef Teichmann and Ben Wood, "[Deep hedging][deep-hedging-qf]".</PUBLICATION>
+```

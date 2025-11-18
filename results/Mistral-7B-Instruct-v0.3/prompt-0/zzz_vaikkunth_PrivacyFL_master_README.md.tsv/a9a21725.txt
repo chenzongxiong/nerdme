@@ -1,0 +1,7 @@
+`Conversely, one can set the <EVALMETRIC>USING_CUMULATIVE</EVALMETRIC> flag to <LOGICAL>False</LOGICAL>, which will make the dataset non-cumulative and clients perform gradient descent from last iteration's federated weights.
+
+## System Architecure
+
+### Agent
+
+<PROGLANG>Agent</PROGLANG> (defined in <FILE>agent.py</FILE>) is the base class for this simulation.`

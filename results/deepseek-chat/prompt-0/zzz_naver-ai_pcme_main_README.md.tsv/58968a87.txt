@@ -1,0 +1,3 @@
+```markdown
+Note that we also need `<DATASET>instances_<train | val>2014.json</DATASET>` for computing `<EVALMETRIC>PMRP</EVALMETRIC>` score.  ### `<DATASET>CUB Caption</DATASET>`  Download images (`<DATASET>CUB-200-2011</DATASET>`) from [this link](http://www.vision.caltech.edu/visipedia/<DATASET>CUB-200-2011</DATASET>.html), and download caption from [reedscot/<CONFERENCE>cvpr2016</CONFERENCE>](https://github.com/reedscot/<CONFERENCE>cvpr2016</CONFERENCE>).
+```

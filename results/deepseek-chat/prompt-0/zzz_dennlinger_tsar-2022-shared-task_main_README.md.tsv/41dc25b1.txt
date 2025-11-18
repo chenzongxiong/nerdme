@@ -1,0 +1,1 @@
+In our experiments, we used the (relatively "outdated" `<SOFTWARE>text-davinci-002</SOFTWARE>` model, which may respond differently to prompt variants than later additions

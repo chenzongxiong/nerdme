@@ -1,0 +1,1 @@
+`It is possible to configure a simulation to use more than one <PROGLANG>ServerAgent</PROGLANG>, but the straightforward example in the repository currently only creates one instance.`

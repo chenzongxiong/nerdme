@@ -1,0 +1,8 @@
+You can print a summary of the results with `python browse_results <log path>`. 
+### Datasets: 
+The method is tested on the following datasets: 
+ * <DATASET>CUB200-2011</DATASET> (<A HREF="http://www.vision.caltech.edu/visipedia/CUB-200.html">http://www.vision.caltech.edu/visipedia/CUB-200.html</A>)
+ * <DATASET>CARS196</DATASET> (<A HREF="https://ai.stanford.edu/~jkrause/cars/car_dataset.html">https://ai.stanford.edu/~jkrause/cars/car_dataset.html</A>)
+ * <DATASET>Stanford Online Products</DATASET> (<A HREF="http://cvgl.stanford.edu/projects/lifted_struct/">http://cvgl.stanford.edu/projects/lifted_struct/</A>)
+ * <DATASET>In-shop Clothes Retrieval Benchmark</DATASET> (<A HREF="http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html">http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html</A>)
+ * <DATASET>PKU VehicleID</DATASET> (<A HREF="https://www.pkuml.org/resources/pku-vehicleid.html">https://www.pkuml.org/resources/pku-vehicleid.html</A>)

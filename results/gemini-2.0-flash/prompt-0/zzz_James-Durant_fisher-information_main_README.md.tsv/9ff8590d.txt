@@ -1,0 +1,1 @@
+Or with BibTeX as: ``` @article{Durant2021,    author    = {Durant, J.

@@ -1,0 +1,1 @@
+- <CONFERENCE>TRECCOVID</CONFERENCE> presents an ad-hoc <DATASET>search dataset</DATASET>.

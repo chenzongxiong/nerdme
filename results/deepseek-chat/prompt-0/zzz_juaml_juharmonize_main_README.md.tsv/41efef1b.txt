@@ -1,0 +1,3 @@
+```markdown
+[Workflow of <SOFTWARE>PrettYharmonize</SOFTWARE>](figures/PrettYharmonize_workflow.png) *Figure 1: Workflow for the <SOFTWARE>PrettYharmonize</SOFTWARE> data harmonization approach, outlining key stages in data processing.*  For more details, see our paper on arXiv: [<PUBLICATION>Impact of Leakage on Data Harmonization in Machine Learning Pipelines in Class Imbalance Across Sites</PUBLICATION>](https://arxiv.org/abs/2410.19643).  ## Installation  To set up the environment for <SOFTWARE>PrettYharmonize</SOFTWARE>, follow these steps:  1.
+```

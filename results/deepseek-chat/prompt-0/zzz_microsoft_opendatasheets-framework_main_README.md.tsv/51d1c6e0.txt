@@ -1,0 +1,1 @@
+It is inspired by the concept of [datasheets for <DATASET>datasets</DATASET>](https://arxiv.org/abs/1803.09010) and [<PUBLICATION>Understanding Machine Learning Practitioners' Data Documentation Perceptions, Needs, Challenges, and Desiderata</PUBLICATION>](https://dl.acm.org/doi/10.1145/3555760) research papers.

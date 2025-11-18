@@ -1,0 +1,7 @@
+Does Evidence from Peers Help Crowd Workers in Assessing Truthfulness?
+
+<PUBLICATION>Does Evidence from Peers Help Crowd Workers in Assessing Truthfulness?</PUBLICATION>
+
+| Category   |   Year | Venue                                                                                          | Publisher                                            | URL                                                                  |
+|:-----------|-------:|:-----------------------------------------------------------------------------------------------|:-----------------------------------------------------|:---------------------------------------------------------------------|
+|            |        | <CONFERENCE>Proceedings of the 2022 Conference on Human Factors in Computing Systems (CHI '22)</CONFERENCE> | <PUBLICATION>ACM</PUBLICATION> | <URL>https://dl.acm.org/doi/10.1145/3497184.3545601</URL> |

@@ -1,0 +1,1 @@
+This repository contains all code, instructions and model weights necessary to run the method or to retrain a model.

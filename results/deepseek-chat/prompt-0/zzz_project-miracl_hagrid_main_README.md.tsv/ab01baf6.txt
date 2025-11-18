@@ -1,0 +1,3 @@
+```markdown
+# <DATASET>HAGRID</DATASET>: A Human-LLM Collaborative <DATASET>Dataset</DATASET> for Generative Information-seeking with Attribution  <p align="center"><img src="https://github.com/<PROJECT>project-miracl</PROJECT>/<DATASET>hagrid</DATASET>/blob/main/assets/icon.png?
+```

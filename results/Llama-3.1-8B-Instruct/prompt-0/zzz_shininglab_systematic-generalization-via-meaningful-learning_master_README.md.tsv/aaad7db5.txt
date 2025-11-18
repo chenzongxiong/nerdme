@@ -1,0 +1,1 @@
+# <PUBLICATION>Systematic-Generalization-via-Meaningful-Learning</PUBLICATION> This repository is for the <PUBLICATION>Revisit Systematic Generalization via Meaningful Learning</PUBLICATION> paper (<PUBLICATION>https://aclanthology.org/2022.blackboxnlp-1.6</PUBLICATION>).

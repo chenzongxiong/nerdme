@@ -1,0 +1,1 @@
+# fisher-information ## About the `<PROJECT>Project</PROJECT>` **For the most up-to-date work using this framework, and if you are interested in applying the framework to experimental design problems of your own, see the [<PROJECT>experimental-design</PROJECT>](https://github.com/James-Durant/<PROJECT>experimental-design</PROJECT>) repository**.

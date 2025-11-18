@@ -1,0 +1,7 @@
+```markdown
+Make sure it looks like this:  
+<data>.data/</data><DATASET>coco</DATASET>/
+<data>.data/</data><DATASET>coco</DATASET>/annotations/
+<data>.data/</data><DATASET>coco</DATASET>/annotations/instances_valminusminival2014.json
+<data>.data/</data><DATASET>coco</DATASET>/annotations/instances_minival2014.json
+```

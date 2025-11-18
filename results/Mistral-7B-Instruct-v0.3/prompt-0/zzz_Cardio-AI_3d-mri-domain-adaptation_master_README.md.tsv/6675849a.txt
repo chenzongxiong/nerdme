@@ -1,0 +1,14 @@
+# 3D CMR-Domain-Adaptation
+This repo contains code to train a deep learning model for **Unsupervised Domain Adaptation (UDA)** of 3D cardiac magnetic resonance (CMR) cine images to **transform from axial to short-axis orientation**.
+
+- The **PROJECT** is `3D CMR-Domain-Adaptation`.
+- The **SOFTWARE** used is for training a deep learning model, but it's not explicitly mentioned in the text.
+- The goal of the project is to achieve **Unsupervised Domain Adaptation (UDA)** of 3D cardiac magnetic resonance (CMR) cine images to **transform from axial to short-axis orientation**.
+
+Here's the annotated text:
+
+```
+# **PROJECT**: 3D CMR-Domain-Adaptation
+This repo contains code to train a deep learning model for **Unsupervised Domain Adaptation (UDA)** of 3D cardiac magnetic resonance (CMR) cine images to **transform from axial to short-axis orientation**.
+
+- The goal of

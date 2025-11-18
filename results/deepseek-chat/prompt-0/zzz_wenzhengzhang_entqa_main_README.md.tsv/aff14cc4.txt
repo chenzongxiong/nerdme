@@ -1,0 +1,1 @@
+Download `<DATASET>KILT wikipedia knowledge base</DATASET>` [here](https://github.com/<PROJECT>facebookresearch</PROJECT>/<PROJECT>KILT</PROJECT>) and put it under a kb directory like /raw_kb/  \ 2.

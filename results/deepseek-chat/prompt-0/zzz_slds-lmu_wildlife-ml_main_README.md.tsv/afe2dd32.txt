@@ -1,0 +1,1 @@
+As the MD can provide multiple bounding boxes, the final decision is made by a confidence-weighted vote.

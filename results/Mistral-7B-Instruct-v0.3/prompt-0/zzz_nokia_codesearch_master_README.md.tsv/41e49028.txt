@@ -1,0 +1,3 @@
+The text contains only one entity, which is a `<PROJECT>CodeSearchNet</PROJECT>`. Here's the annotated text in Markdown format:
+
+See <https://github.com/github/CodeSearchNet>.

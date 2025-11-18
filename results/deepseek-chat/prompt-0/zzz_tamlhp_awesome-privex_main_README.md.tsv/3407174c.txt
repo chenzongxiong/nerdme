@@ -1,0 +1,3 @@
+```markdown
+</div>  | |                        | Information Leakage | <div style="width:300px"> $Pr_{i=1..k}\hat{\phi}(\mathbf{z_i}, X, f_D(X)) \leq e^{\hat{\varepsilon}} \cdot Pr[\hat{\phi}(\mathbf{z_i}, X, f'_D(X)) : \forall i] + \hat{\delta}$     </div>          | <div style="width:500px"> If an adversary can access model explanations, they would not gain any additional information that could help in inferring something about the training data beyond what could be learned from the model predictions alone.
+```

@@ -1,0 +1,7 @@
+```
+It takes up `<PROGLANG>36G</PROGLANG>` GPU memory for the main GPU and `<PROGLANG>32G</PROGLANG>` GPU memory for the other GPU. ### Reader Local Evaluation
+
+1.
+```
+
+In this example, I've annotated the GPU memory values as `<PROGLANG>` entities since they represent the amount of memory in a programming language-like format. The rest of the text remains unchanged.

@@ -1,0 +1,1 @@
+The goal of the `<TASK>depth completion task</TASK>` is to generate `<SOFTWARE>dense depth predictions</SOFTWARE>` from `<DATASET>sparse and irregular point clouds</DATASET>`.

@@ -1,0 +1,1 @@
+For import, replace <PROGLANG>pybatfish</PROGLANG> client session with the one provided by <SOFTWARE>NetCov</SOFTWARE>: ```python #from <PROGLANG>pybatfish</PROGLANG>.client.session import Session from <SOFTWARE>netcov</SOFTWARE> import <SOFTWARE>NetCovSession</SOFTWARE> as Session ``` 2.

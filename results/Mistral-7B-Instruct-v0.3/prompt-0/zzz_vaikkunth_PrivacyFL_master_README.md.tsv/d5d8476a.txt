@@ -1,0 +1,4 @@
+The second method is `<PROGLANG>receive_weights</PROGLANG>` which is called at the end of every iteration when the server has federated weights to return to the client.
+
+### ServerAgent
+An instance of the `<CLASS>ServerAgent</CLASS>` class represents a third-party entity that is responsible for invoking the simulation and corresponding with the client agents.

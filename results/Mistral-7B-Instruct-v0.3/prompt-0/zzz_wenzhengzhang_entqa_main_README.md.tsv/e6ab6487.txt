@@ -1,0 +1,7 @@
+The given text does not contain any named entities according to the provided guidelines. Here's the annotated text if there were entities:
+
+```
+The <PROJECT>Paper With Code</PROJECT> project (https://<PROJECT>paperswithcode</PROJECT>.com/) <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is ...
+You can use the <SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the resource.
+Refers to the [Thermal Image Super-Resolution](https://<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html)
+```

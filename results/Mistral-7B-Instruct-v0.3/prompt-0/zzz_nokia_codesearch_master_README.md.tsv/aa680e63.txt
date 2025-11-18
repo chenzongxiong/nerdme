@@ -1,0 +1,1 @@
+The project also implements some `<PROJECT>code-only</PROJECT>` retrieval models (`<PROGLANG>BM25</PROGLANG>`, `<PROGLANG>NCS</PROGLANG>`, `<PROGLANG>UNIF</PROGLANG>`) for snippet collections that do not come with descriptions.

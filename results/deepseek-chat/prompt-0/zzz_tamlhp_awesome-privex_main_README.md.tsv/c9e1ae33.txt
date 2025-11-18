@@ -1,0 +1,3 @@
+```markdown
+</div>                | |                        | <EVALMETRIC>ROC/AUC</EVALMETRIC> | <div style="width:300px"> The ROC curve plots the true positive rate against the false positive rate at various threshold settings.
+```

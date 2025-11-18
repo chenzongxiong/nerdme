@@ -1,0 +1,1 @@
+`/libs/core: <SOFTWARE>Parameter configuration module</SOFTWARE>. * .`

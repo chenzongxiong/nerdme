@@ -1,0 +1,1 @@
+The numbers denote *win/tie/lose* of a benchmarked model over <SOFTWARE>LLaVA-v1.5-13B</SOFTWARE>.

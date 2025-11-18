@@ -1,0 +1,1 @@
+For this task, we used a classic approach based on <SOFTWARE>Dynamic Time Warping (DTW)</SOFTWARE>.

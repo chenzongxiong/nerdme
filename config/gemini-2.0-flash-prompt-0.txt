@@ -1,0 +1,86 @@
+**Task:**
+You are tasked with performing Named Entity Recognition (NER) on the given text. Follow the guidelines strictly to identify and classify entities into their respective categories. Annotate the entities directly in the original text using XML-style tags. Only return the annotated text in Markdown format—no explanations, introductions, or extra text.
+
+
+**Guidelines:**
+
+1. **Entity Classes:**
+   - **CONFERENCE**: Conference events.
+     *Definition*:
+     A formal meeting or gathering focused on a particular field of study or topic.
+     *Example*:
+     `<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>`
+     `<CONFERENCE>ISWC 2019</CONFERENCE>`
+     `<CONFERENCE>CVPR2023</CONFERENCE> workshop`
+
+   - **DATASET**: Structured collections of data.
+     *Definition*:
+     A structured collection of data, organized typically for a specific goal such as analysis, research, or reference.
+     *Example*:
+     `<DATASET>Maules Creek</DATASET>`
+     `Download the <DATASET>USTPO MIT</DATASET> dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip)`
+
+   - **EVALMETRIC**: Evaluation metrics for models.
+     *Definition*:
+     A quantitative measure used to assess the performance and effectiveness of a statistical or machine learning model.
+     *Example*:
+     The evaluation metrics used are `<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, `<EVALMETRIC>F1-Score</EVALMETRIC>`, and `<EVALMETRIC>BLEU Score</EVALMETRIC>`.
+
+   - **LICENSE**: Licensing terms.
+     *Definition*:
+     Legal terms and conditions for using a particular resource.
+     *Example*:
+     Available licenses to use: `<LICENSE>cc-by-3</LICENSE>` and `<LICENSE>CC BY-NC 4.0</LICENSE>`
+
+   - **ONTOLOGY**: Semantic frameworks for knowledge representation.
+     *Definition*:
+     A framework representing knowledge about a domain, including concepts, entities, properties, and relationships.
+     *Example*:
+     The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is ...
+
+   - **PROGLANG**: Programming languages.
+     *Definition*:
+     A formal language used for implementing software.
+     *Example*:
+     Programming languages such as `<PROGLANG>Python</PROGLANG>`, `<PROGLANG>PHP</PROGLANG>`, and `<PROGLANG>C++</PROGLANG>`
+
+   - **PROJECT**: Scientific or business initiatives.
+     *Definition*:
+     A planned initiative aimed at addressing a research question or achieving a specific goal.
+     *Example*:
+     The `<PROJECT>Paper With Code</PROJECT>` project (https://<PROJECT>paperswithcode</PROJECT>.com/)
+
+   - **PUBLICATION**: Scholarly works.
+     *Definition*:
+     A creative work resulting from a publishing process, such as a journal article, conference proceeding, or preprint.
+     *Example*:
+     `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`
+
+   - **SOFTWARE**: Software tools or programs.
+     *Definition*:
+     Programs or tools designed to perform specific tasks on electronic devices.
+     *Example*:
+     You can use the `<SOFTWARE>Protege ontology editor</SOFTWARE>` to explore and edit the resource.
+
+   - **WORKSHOP**: Workshop events.
+     *Definition*:
+     An educational or hands-on session focused on a specific subject.
+     *Example*:
+     Refers to the [Thermal Image Super-Resolution](https://<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html)
+
+2. **Annotation Rules:**
+   - Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+   - Use a single-class annotation per entity, based on the context.
+   - Annotate nested entities separately.
+   - Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+   - Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+
+3. **Output Format:**
+   - Return the original content with entities directly annotated using XML-style tags for their respective classes. Example:
+     - `The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.`
+   - Your output should be in Markdown format with all entities tagged as instructed.
+
+---
+Input Text:
+
+{input_text}

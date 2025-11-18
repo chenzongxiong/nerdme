@@ -1,0 +1,1 @@
+For example, if you are a <PROGLANG>ubuntu</PROGLANG> user, `ulimit -n <twice the number of the default>` usually will do the trick.

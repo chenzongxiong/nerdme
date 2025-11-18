@@ -1,0 +1,1 @@
+`The <VIDEO>YouTube video</VIDEO> with the link <URL>https://www.youtube.com/watch?v=Kr0W7io5rHw</URL> and feature <FEATURE>youtu.be</FEATURE> is available.`

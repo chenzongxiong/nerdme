@@ -1,0 +1,3 @@
+```markdown
+[<PROJECT>Proposed Knowledge-aware BERT model</PROJECT>](medbert-ichi.png)  ### Running Bert-plus models  The code files in the form of self-contained Jupyter notebooks is available at: **src/<PROJECT>ProposedKnowledgeAwareModel</PROJECT>/** Please go through the notebook, which produces at the end a 'run_ichi.py'.   ``` <PROGLANG>python</PROGLANG> .
+```

@@ -1,0 +1,1 @@
+Therefore, each image file has to be converted to hdf5, which can be done by using `<SOFTWARE>utils.h5_converter.prepare_images</SOFTWARE>`.

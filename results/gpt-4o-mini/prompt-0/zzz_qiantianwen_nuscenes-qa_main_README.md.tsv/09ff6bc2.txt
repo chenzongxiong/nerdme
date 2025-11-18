@@ -1,0 +1,1 @@
+As an alternative, you can also download the origin <DATASET>nuScenes</DATASET> dataset from [HERE](https://www.nuscenes.org/download), and extract the object-level features refer to this [LINK](https://mmdetection3d.readthedocs.io/en/v0.16.0/datasets/nuscenes_det.html) with different backbones.

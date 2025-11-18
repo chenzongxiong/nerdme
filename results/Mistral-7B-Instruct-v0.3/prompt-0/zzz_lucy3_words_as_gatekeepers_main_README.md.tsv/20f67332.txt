@@ -1,0 +1,1 @@
+`We then estimate the prevalence of these <PROJECT>discipline-specific words and senses</PROJECT> across hundreds of <PROJECT>subfields</PROJECT>, and show that <EVALMETRIC>word senses</EVALMETRIC> provide a complementary, yet unique view of <PROJECT>jargon</PROJECT> alongside <PROJECT>word types</PROJECT>.

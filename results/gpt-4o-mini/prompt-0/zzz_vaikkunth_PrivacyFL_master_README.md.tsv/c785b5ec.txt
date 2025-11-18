@@ -1,0 +1,1 @@
+Client agents are named assigned an `<PROGLANG>agent_number</PROGLANG>`, which is then appended to the string `<PROGLANG>client_agent</PROGLANG>` to create their name.

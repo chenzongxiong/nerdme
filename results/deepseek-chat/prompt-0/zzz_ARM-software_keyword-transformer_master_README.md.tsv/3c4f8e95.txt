@@ -1,0 +1,1 @@
+`/speech_commands_<DATASET>v0.02</DATASET>.tar.gz .`

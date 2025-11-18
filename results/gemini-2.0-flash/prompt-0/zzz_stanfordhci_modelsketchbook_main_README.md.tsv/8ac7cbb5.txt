@@ -1,0 +1,1 @@
+`<SOFTWARE>ModelSketchBook</SOFTWARE>` is designed to work with `<DATASET>datasets</DATASET>` in `<SOFTWARE>Pandas DataFrame</SOFTWARE>` format.

@@ -1,0 +1,1 @@
+A PyTorch implementation of the <PROJECT>Scaffolding Learning Regime</PROJECT> (SLR) for training obstacle detection models for aquatic domains.

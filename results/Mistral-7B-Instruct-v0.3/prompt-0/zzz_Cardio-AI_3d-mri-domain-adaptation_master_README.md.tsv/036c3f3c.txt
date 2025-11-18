@@ -1,0 +1,23 @@
+```
+Medical Imaging: <CONFERENCE>Image-Guided Procedures (2020)</CONFERENCE>.  ## Setup instructions (Ubuntu)  ### Preconditions:
+   - Python 3.6 locally installed
+     (e.g.:  <a target="_blank" href="https://www.anaconda.com/download/#macos">Anaconda</a>)
+   - Installed nvidia drivers, cuda and cudnn
+     (e.g.:  <a target="_blank" href="https://www.tensorflow.org/install/gpu">Tensorflow</a>)
+  ### Local setup
+   Clone repository
+   ```
+   git clone %repo-name%
+   cd %repo-name%
+   ```
+   Create a conda environment from environment.yaml (environment name will be ax2sax)
+   ```
+   conda env create --file environment.yaml
+   ```
+   Activate environment
+   ```
+   conda activate ax2sax
+   ```
+   Install a helper to automatically change the working directory to the project root directory
+   ```
+   pip install

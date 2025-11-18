@@ -1,0 +1,4 @@
+```python
+python <PROGLANG>train.py</PROGLANG> --config-name=<CONFERENCE>config_binding_hetero</CONFERENCE>        # heterogenous model, top performing model in the paper
+For training on <SOFTWARE>SLURM</SOFTWARE> cluster with <SOFTWARE>submitit</SOFTWARE> used the `conf/hydra/meluxina.yaml` as blueprint.
+```

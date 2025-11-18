@@ -1,0 +1,11 @@
+## Web App Usage
+To run the web app, simply execute the `<SOFTWARE>app.py</SOFTWARE>` file:
+```bash
+# Install the required packages
+pip install -r requirements.txt
+
+# Run the web app
+python <SOFTWARE>app.py</SOFTWARE>
+```
+
+Note: The `requirements.txt` file is not annotated as it does not contain any named entities.

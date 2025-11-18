@@ -1,0 +1,1 @@
+Results will be in ```outputs/eval/yelp/n_docs_8/unsup_<run_name>```  NOTE: Unlike some conventions, 'gpus' option here represents the GPU ID (the one which is visible) and NOT the number of GPUs.

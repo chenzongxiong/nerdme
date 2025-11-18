@@ -1,0 +1,7 @@
+```markdown
++ Loading data from single or multiple sources from the database  
++ Loading data from the database into a <PROGLANG>Pandas</PROGLANG> dataframe  
+Usage: ``` <PROGLANG>python3</PROGLANG> load-sqlite3.py <path-to-database> ```  
+###  load-json.py  
+* How to load <DATASET>NELA</DATASET> in JSON format with <PROGLANG>Python 3</PROGLANG>
+```

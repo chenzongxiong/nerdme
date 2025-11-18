@@ -1,0 +1,3 @@
+```markdown
+Active learning in `<SOFTWARE>wildlife-ml</SOFTWARE>` is realized over the `<SOFTWARE>ActiveLearner</SOFTWARE>` object.
+```

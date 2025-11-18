@@ -1,0 +1,10 @@
+```
+Expires=1662897159&Signature=<SOFTWARE>AWS Signature V4</SOFTWARE> &Key-Pair-Id=<PROJECT>Amazon Web Services</PROJECT>
+ - **"Extracting fuzzy symbolic representation from artificial neural networks"**, <CONFERENCE>NAFIPS</CONFERENCE>, 1999
+ - Maciej Faifer *et al.* *(use fuzzy representation during the tree-induction process)*
+ - [[Paper]](https://ieeexplore.ieee.org/abstract/document/781764)
+ - **"DT+GNN: A Fully Explainable Graph Neural Network using Decision Trees"**, <DATASET>arXiv</DATASET>, 2022
+ - Peter Müller *et al.* *(incorporate DTs into graph neural networks)*
+ - [[Paper]](https://arxiv.org/abs/2205.13234)
+ - ***NNs perform significance analysis to select attributes***
+ - **"ANN-DT: an algorithm for extr

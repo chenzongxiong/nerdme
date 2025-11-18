@@ -1,0 +1,49 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# PAC-Bayesian Un-Expected Bernstein Inequality
+#Text=
+#Text=This repo contains the code needed to replicate the experiments reported in the preprint
+#Text=Mhammedi, Grünwald and Guedj, "PAC-Bayes Un-Expected Bernstein Inequality", https://arxiv.org/abs/1905.13367
+1-1	0-1	#	_	_	
+1-2	2-14	PAC-Bayesian	*[1]	PUBLICATION[1]	
+1-3	15-26	Un-Expected	*[1]	PUBLICATION[1]	
+1-4	27-36	Bernstein	*[1]	PUBLICATION[1]	
+1-5	37-47	Inequality	*[1]	PUBLICATION[1]	
+1-6	49-53	This	_	_	
+1-7	54-58	repo	_	_	
+1-8	59-67	contains	_	_	
+1-9	68-71	the	_	_	
+1-10	72-76	code	_	_	
+1-11	77-83	needed	_	_	
+1-12	84-86	to	_	_	
+1-13	87-96	replicate	_	_	
+1-14	97-100	the	_	_	
+1-15	101-112	experiments	_	_	
+1-16	113-121	reported	_	_	
+1-17	122-124	in	_	_	
+1-18	125-128	the	_	_	
+1-19	129-137	preprint	_	_	
+1-20	138-146	Mhammedi	_	_	
+1-21	146-147	,	_	_	
+1-22	148-156	Grünwald	_	_	
+1-23	157-160	and	_	_	
+1-24	161-166	Guedj	_	_	
+1-25	166-167	,	_	_	
+1-26	168-169	"	_	_	
+1-27	169-178	PAC-Bayes	*[2]	PUBLICATION[2]	
+1-28	179-190	Un-Expected	*[2]	PUBLICATION[2]	
+1-29	191-200	Bernstein	*[2]	PUBLICATION[2]	
+1-30	201-211	Inequality	*[2]	PUBLICATION[2]	
+1-31	211-212	"	_	_	
+1-32	212-213	,	_	_	
+1-33	214-219	https	_	_	
+1-34	219-220	:	_	_	
+1-35	220-221	/	_	_	
+1-36	221-222	/	_	_	
+1-37	222-231	arxiv.org	_	_	
+1-38	231-232	/	_	_	
+1-39	232-235	abs	_	_	
+1-40	235-236	/	_	_	
+1-41	236-246	1905.13367	_	_	

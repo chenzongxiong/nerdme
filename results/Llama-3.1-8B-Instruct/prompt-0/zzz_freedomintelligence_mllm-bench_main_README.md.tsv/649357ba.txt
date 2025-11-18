@@ -1,0 +1,10 @@
+### Self-Evaluation <details><summary>Click to expand</summary>  
+- Prepare the data in the format as shown in `<DATASET>anchor.json</DATASET>` 
+- `<SOFTWARE>Python</SOFTWARE>` is used to process the data. 
+- The data is stored in the `<PROJECT>Papers With Code</PROJECT>` project. 
+- The data format is based on the `<ONTOLOGY>Ontology for Dataset</ONTOLOGY>` framework. 
+- The data is used to evaluate the performance of the `<SOFTWARE>Protege Ontology Editor</SOFTWARE>` using the `<EVALMETRIC>Precision</EVALMETRIC>` and `<EVALMETRIC>Recall</EVALMETRIC>` metrics. 
+- The data is available under the `<LICENSE>CC BY-NC 4.0</LICENSE>` license. 
+- The data is used in the `<CONFERENCE>CVPR2023</CONFERENCE>` workshop. 
+- The data is stored in the `<DATASET>USTPO MIT</DATASET>` dataset. 
+- The data is used to train the `<SOFTWARE>Protege Ontology Editor</SOFTWARE>` model.

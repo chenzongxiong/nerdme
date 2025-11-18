@@ -1,0 +1,1 @@
+`Our observations suggest that <MODEL>models</MODEL> can successfully <EVALMETRIC>one-shot generalize</EVALMETRIC> to novel concepts and compositions through <ONTOLOGY>semantic linking</ONTOLOGY>, either <METHOD>inductively</METHOD> or <METHOD>deductively</METHOD>.\n`

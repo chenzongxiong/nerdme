@@ -1,0 +1,1 @@
+The primary goal of this framework is to facilitate <DATASET>dataset</DATASET> documentation, promote transparency, and aid <DATASET>dataset</DATASET> creators and consumers in making informed decisions about the suitability of specific <DATASET>datasets</DATASET> and the limitations they may have.

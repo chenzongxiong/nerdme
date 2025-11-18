@@ -1,0 +1,1 @@
+**You can explore <ONTOLOGY>ITO</ONTOLOGY> in our [<SOFTWARE>ITO Explorer</SOFTWARE>](https://openbiolink.github.io/ITOExplorer/) dashboard or browse the <ONTOLOGY>ITO</ONTOLOGY> class hierarchy [online at <SOFTWARE>BioPortal</SOFTWARE>](https://bioportal.bioontology.org/ontologies/<ONTOLOGY>ITO</ONTOLOGY>/?

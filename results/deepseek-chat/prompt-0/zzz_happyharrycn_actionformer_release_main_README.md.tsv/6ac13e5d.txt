@@ -1,0 +1,1 @@
+**Details**: The features are extracted from the `<SOFTWARE>R(2+1)D-34</SOFTWARE>` model pretrained with `<DATASET>TSP</DATASET>` on `<DATASET>ActivityNet</DATASET>` using clips of `16 frames` at a frame rate of `15 fps` and a stride of `16 frames` (*i.e.,* **non-overlapping** clips).

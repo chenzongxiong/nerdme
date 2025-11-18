@@ -1,0 +1,2 @@
+```python <PROGLANG>python</PROGLANG> train.py --config-name=config_binding_hetero        # heterogenous model, top performing model in the paper ```  For training on [<SOFTWARE>SLURM</SOFTWARE>](https://www.schedmd.com/) cluster with [<SOFTWARE>submitit</SOFTWARE>](https://github.com/facebookincubator/submitit)  used the `conf/hydra/meluxina.yaml` as blueprint.
+```

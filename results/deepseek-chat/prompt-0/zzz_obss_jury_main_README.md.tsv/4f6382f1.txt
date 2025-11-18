@@ -1,0 +1,2 @@
+```python scorer = Jury(metrics=["<EVALMETRIC>bleu</EVALMETRIC>", "<EVALMETRIC>meteor</EVALMETRIC>"]) scores = scorer(predictions, references) ```  #### Use of Metrics standalone  You can directly import metrics from `jury.metrics` as classes, and then instantiate and use as desired.
+```

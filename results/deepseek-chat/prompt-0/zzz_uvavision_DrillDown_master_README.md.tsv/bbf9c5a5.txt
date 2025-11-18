@@ -1,0 +1,3 @@
+```markdown
+- Download the global image features and region features ```<PROGLANG>Shell</PROGLANG> .
+```

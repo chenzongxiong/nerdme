@@ -1,0 +1,1 @@
+**With recent commits, the expected average `<EVALMETRIC>mAP</EVALMETRIC>` should be higher than 66.0(%).**

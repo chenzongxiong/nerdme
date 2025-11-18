@@ -1,0 +1,8 @@
+/speech_commands_v0.01.tar.gz cd../ 
+```  ### Install dependencies
+Set up a new virtual environment:
+```shell
+pip install virtualenv virtualenv --system-site-packages -p python3.
+```
+
+The <SOFTWARE>pip</SOFTWARE> install virtualenv virtualenv --system-site-packages -p <PROGLANG>python3</PROGLANG>.

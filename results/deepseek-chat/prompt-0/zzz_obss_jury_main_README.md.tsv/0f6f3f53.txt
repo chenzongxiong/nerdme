@@ -1,0 +1,1 @@
+In this set up, however, it is required that the prediction and references files you need to evaluate as a pair have the same file name.

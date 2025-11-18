@@ -1,0 +1,1 @@
+Alternatively, you can use the two provided `<SOFTWARE>jar</SOFTWARE>` files to run the reasoners with the `<DATASET>datasets</DATASET>`.

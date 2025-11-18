@@ -1,0 +1,1 @@
+This is an example of the alignment between two tracks: <p align="center"> <img src="https://user-images.githubusercontent.com/44606182/162035008-a2ef16d5-6e45-41e5-88e0-c4055d94ae77.png" alt="Alignment Between Songs through DTW" width="700"/> </p>  ### Emotional Features  The chosen approach is based on features extraction from raw audio, utilising machine learning techniques.

@@ -1,0 +1,1 @@
+`ITO includes data from the <ONTOLOGY>EDAM ontology</ONTOLOGY>.`

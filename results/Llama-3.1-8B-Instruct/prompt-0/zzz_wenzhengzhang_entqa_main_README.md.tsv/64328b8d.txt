@@ -1,0 +1,1 @@
+`you can download the <DATASET>USTPO MIT</DATASET> dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip) or use <SOFTWARE>Google Colab</SOFTWARE> to run the code (usp=sharing), you can skip following preprocess steps.`

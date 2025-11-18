@@ -1,0 +1,1 @@
+This function will display widgets to select the concepts and the logical operator (AND or OR) to apply to those concept scores. ``` <SOFTWARE>msb.create_logical_concept_model</SOFTWARE>(sb) ```  <img src=".

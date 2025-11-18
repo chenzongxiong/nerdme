@@ -1,0 +1,1 @@
+The predicted depth maps are weighted by their respective confidence map.

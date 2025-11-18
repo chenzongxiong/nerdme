@@ -1,0 +1,3 @@
+```markdown
+id=SkgC6TNFvr)** **[[Code]](https://github.com/ArantxaCasanova/ralis)**  Active Learning for Convolutional Neural Networks: A Core-Set Approach   **[<CONFERENCE>ICLR'18</CONFERENCE>]** **[[PDF]](https://openreview.net/pdf?
+```

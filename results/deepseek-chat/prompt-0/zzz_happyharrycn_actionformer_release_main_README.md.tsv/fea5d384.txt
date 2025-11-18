@@ -1,0 +1,3 @@
+```markdown
+pwd=74eh). * The file includes I3D features, action annotations in json format (similar to <DATASET>ActivityNet</DATASET> annotation format), and external classification scores.
+```

@@ -1,0 +1,14 @@
+Here's the annotated text in Markdown format:
+
+```markdown
+Please see the full install instructions below to build `<PROJECT>megaman</PROJECT>` from source.
+
+## Installation from source
+
+To install `<PROJECT>megaman</PROJECT>` from source requires the following:
+- [<PROGLANG>python</PROGLANG>](http://python.org) tested with versions 2.7, 3.5 and 3.6
+- [<PROGLANG>numpy</PROGLANG>](http://numpy.org) version 1.8 or higher
+- [<PROGLANG>scipy</PROGLANG>](http://scipy.org) version 0.16.0 or higher
+- [<SOFTWARE>scikit-learn</SOFTWARE>](http://scikit-learn.org)
+- [<SOFTWARE>FLANN</SOFTWARE>](http://www.cs.ubc.ca/research/flann/)
+- [<SOFTWARE>pyflann</SOFTWARE>](http://www

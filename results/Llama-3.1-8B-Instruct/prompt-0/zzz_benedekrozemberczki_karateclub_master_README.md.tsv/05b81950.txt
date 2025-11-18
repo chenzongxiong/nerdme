@@ -1,0 +1,1 @@
+Second, it includes a variety of overlapping and non-overlapping <SOFTWARE>community detection methods</SOFTWARE>.

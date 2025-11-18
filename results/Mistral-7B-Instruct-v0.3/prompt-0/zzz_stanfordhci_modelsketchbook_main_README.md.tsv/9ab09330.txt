@@ -1,0 +1,36 @@
+`Bernstein<PROJECT>`
+
+---
+Input Text:
+
+The <PROJECT>Paper With Code</PROJECT> project (https://<PROJECT>paperswithcode</PROJECT>.com/)
+
+---
+Input Text:
+
+The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is ...
+
+---
+Input Text:
+
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>
+
+---
+Input Text:
+
+The <CONFERENCE>ISWC 2019</CONFERENCE>
+
+---
+Input Text:
+
+The <CONFERENCE>CVPR2023</CONFERENCE> workshop
+
+---
+Input Text:
+
+Download the <DATASET>USTPO MIT</DATASET> dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip)
+
+---
+Input Text:
+
+The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <

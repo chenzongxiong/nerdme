@@ -1,0 +1,3 @@
+```markdown
+<PUBLICATION>Swiss Finance Institute Research Paper No. 19-80</PUBLICATION>. * Shota Imaki, Kentaro Imajo, Katsuya Ito, Kentaro Minami and Kei Nakagawa, "<PUBLICATION>No-Transaction Band Network: A Neural Network Architecture for Efficient Deep Hedging</PUBLICATION>". arXiv:[2103.01775][ntb-network-arxiv] \[q-fin.CP\].
+```

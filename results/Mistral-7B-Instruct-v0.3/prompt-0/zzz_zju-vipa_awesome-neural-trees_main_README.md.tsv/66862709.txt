@@ -1,0 +1,11 @@
+```markdown
+A description of pedagogical techniques:
+<p align='center'>
+     </br>
+     <img src='shortened_rule_extract.png' width='1000'>
+</p>
+- ***<CONFERENCE>TREPAN: the first practice of DT-based interpretation</CONFERENCE>***
+- **"<PUBLICATION>Extracting Tree-Structured Representations of Trained Networks</PUBLICATION>", <CONFERENCE>NeurIPS, 1995</CONFERENCE>"**
+- **<AUTHOR>Mark Craven</AUTHOR>, <AUTHOR>Jude Shavlik</AUTHOR>**
+- [[<PUBLICATION>Paper</PUBLICATION>]](https://proceedings.neurips.cc/paper/1995/hash/45f31d16b1058d586fc3be7207b58053-Abstract.html)
+- **"<PUBLICATION>Using Sampling and Queries to Extract Rules from Trained Neural Networks</P

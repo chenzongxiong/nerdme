@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+To support the task, we collect <DATASET>PAVS10K</DATASET>, the first panoramic video dataset for audiovisual salient object detection, which consists of 67 4K-resolution equirectangular videos with per-video labels including hierarchical scene categories and associated attributes depicting specific challenges for conducting <SOFTWARE>PAV-SOD</SOFTWARE>, and 10,465 uniformly sampled video frames with manually annotated object-level and instance-level pixel-wise masks.
+```

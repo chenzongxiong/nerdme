@@ -1,0 +1,1 @@
+The code is tested on official <SOFTWARE>MXNet</SOFTWARE>@<DATASET>(commit 62ecb60)</DATASET> with the extra operators for FCIS.

@@ -1,0 +1,3 @@
+```markdown
+<p align='center'>     </br>     <img src='<SOFTWARE>outline_final.png</SOFTWARE>' width='1000'> </p>  ### 1.
+```

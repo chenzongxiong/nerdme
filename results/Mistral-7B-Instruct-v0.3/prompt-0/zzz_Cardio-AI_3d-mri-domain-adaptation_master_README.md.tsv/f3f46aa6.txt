@@ -1,0 +1,1 @@
+A special `<EVALMETRIC>Euler2Affine Layer</EVALMETRIC>` was implemented to restrict the transform of the spatial transformer network to be rigid and invertible

@@ -1,0 +1,2 @@
+```json {   "predictions": "/path/to/predictions.txt",   "references": "/path/to/references.txt",   "reduce_fn": "max",   "metrics": [     "<EVALMETRIC>bleu</EVALMETRIC>",     "<EVALMETRIC>meteor</EVALMETRIC>"   ] } ```  Then, you can call jury eval with `config` argument.
+```

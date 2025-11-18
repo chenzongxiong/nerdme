@@ -1,0 +1,1 @@
+To install megaman and its dependencies, run  ``` $ conda install megaman --channel=conda-forge ```  Currently builds are available for OSX and Linux, on `<PROGLANG>Python</PROGLANG> 2.7`, `3.4`, and `3.5`.

@@ -1,0 +1,3 @@
+The text provided does not contain any named entities according to the given guidelines. However, if we assume that "academic purposes" refers to a `PUBLICATION` entity, the annotated text would be:
+
+`Please feel free to use it for the <PUBLICATION>academic purposes</PUBLICATION>.`

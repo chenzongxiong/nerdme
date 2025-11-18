@@ -1,0 +1,3 @@
+```markdown
+[Class hierarchy screen capture](media/screencapture-class-hierarchy-in-webprotege.gif)  Exploring the hierarchy of perfomance measures:  > !
+```

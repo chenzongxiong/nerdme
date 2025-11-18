@@ -1,0 +1,3 @@
+```markdown
+pip install -r <SOFTWARE>requirements-dev.txt</SOFTWARE>  ### Tests  To tests simply run.
+```

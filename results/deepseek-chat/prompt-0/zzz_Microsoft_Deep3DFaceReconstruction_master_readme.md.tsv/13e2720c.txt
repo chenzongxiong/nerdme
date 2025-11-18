@@ -1,0 +1,1 @@
+The current model is trained using 3-channel (r,g,b) scene illumination instead of white light described in the paper.

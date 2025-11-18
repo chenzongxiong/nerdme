@@ -1,0 +1,1 @@
+While recent advances in natural language processing have sparked considerable interest in many legal tasks, statutory article retrieval remains primarily untouched due to the scarcity of large-scale and high-quality annotated `<DATASET>datasets</DATASET>`.

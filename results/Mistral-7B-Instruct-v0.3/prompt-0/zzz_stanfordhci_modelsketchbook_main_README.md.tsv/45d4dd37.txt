@@ -1,0 +1,1 @@
+`Please supply your own <ONTOLOGY>OpenAI organization</ONTOLOGY> and <APIKEY>API key</APIKEY> if you would like to use <SOFTWARE>GPT-based concepts</SOFTWARE>.`

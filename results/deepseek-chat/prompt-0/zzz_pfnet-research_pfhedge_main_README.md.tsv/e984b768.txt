@@ -1,0 +1,1 @@
+```py <SOFTWARE>hedger.fit</SOFTWARE>(derivative, n_epochs=200) ```  Once we have trained the `<SOFTWARE>hedger</SOFTWARE>`, we can evaluate the derivative price as utility indifference price (For details, see [<PUBLICATION>Deep Hedging</PUBLICATION>][deep-hedging-arxiv] and references therein).

@@ -1,0 +1,1 @@
+We provide altered version of `<SOFTWARE>MAttNet</SOFTWARE>` and `<SOFTWARE>CM-A-E</SOFTWARE>` for downstream REG task evaluation.

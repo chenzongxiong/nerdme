@@ -1,0 +1,1 @@
+One one terminal/screen run <SOFTWARE>GERBIL</SOFTWARE> by: ``` cd <SOFTWARE>gerbil</SOFTWARE> .

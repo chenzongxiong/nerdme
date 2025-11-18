@@ -1,0 +1,1 @@
+Please supply your own <SOFTWARE>OpenAI</SOFTWARE> organization and <SOFTWARE>API key</SOFTWARE> if you would like to use <SOFTWARE>GPT</SOFTWARE>-based concepts.

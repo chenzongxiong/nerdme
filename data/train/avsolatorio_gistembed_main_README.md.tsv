@@ -1,0 +1,2235 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# GISTEmbed
+#Text=
+#Text=The GISTEmbed framework (Guided In-sample Selection of Training Negatives for Text Embedding Fine-tuning) introduces an innovative approach to dynamically mine training negatives within a batch, serving as contrastive samples for fine-tuning embedding models.
+1-1	0-1	#	_	_	
+1-2	2-11	GISTEmbed	_	_	
+1-3	13-16	The	_	_	
+1-4	17-26	GISTEmbed	_	_	
+1-5	27-36	framework	_	_	
+1-6	37-38	(	_	_	
+1-7	38-44	Guided	*[1]	PUBLICATION[1]	
+1-8	45-54	In-sample	*[1]	PUBLICATION[1]	
+1-9	55-64	Selection	*[1]	PUBLICATION[1]	
+1-10	65-67	of	*[1]	PUBLICATION[1]	
+1-11	68-76	Training	*[1]	PUBLICATION[1]	
+1-12	77-86	Negatives	*[1]	PUBLICATION[1]	
+1-13	87-90	for	*[1]	PUBLICATION[1]	
+1-14	91-95	Text	*[1]	PUBLICATION[1]	
+1-15	96-105	Embedding	*[1]	PUBLICATION[1]	
+1-16	106-117	Fine-tuning	*[1]	PUBLICATION[1]	
+1-17	117-118	)	_	_	
+1-18	119-129	introduces	_	_	
+1-19	130-132	an	_	_	
+1-20	133-143	innovative	_	_	
+1-21	144-152	approach	_	_	
+1-22	153-155	to	_	_	
+1-23	156-167	dynamically	_	_	
+1-24	168-172	mine	_	_	
+1-25	173-181	training	_	_	
+1-26	182-191	negatives	_	_	
+1-27	192-198	within	_	_	
+1-28	199-200	a	_	_	
+1-29	201-206	batch	_	_	
+1-30	206-207	,	_	_	
+1-31	208-215	serving	_	_	
+1-32	216-218	as	_	_	
+1-33	219-230	contrastive	_	_	
+1-34	231-238	samples	_	_	
+1-35	239-242	for	_	_	
+1-36	243-254	fine-tuning	_	_	
+1-37	255-264	embedding	_	_	
+1-38	265-271	models	_	_	
+1-39	271-272	.	_	_	
+
+#Text=At the core of GISTEmbed is the utilization of a guide model, which assesses the relevance of samples in the batch against a query-positive pair.
+2-1	273-275	At	_	_	
+2-2	276-279	the	_	_	
+2-3	280-284	core	_	_	
+2-4	285-287	of	_	_	
+2-5	288-297	GISTEmbed	_	_	
+2-6	298-300	is	_	_	
+2-7	301-304	the	_	_	
+2-8	305-316	utilization	_	_	
+2-9	317-319	of	_	_	
+2-10	320-321	a	_	_	
+2-11	322-327	guide	_	_	
+2-12	328-333	model	_	_	
+2-13	333-334	,	_	_	
+2-14	335-340	which	_	_	
+2-15	341-349	assesses	_	_	
+2-16	350-353	the	_	_	
+2-17	354-363	relevance	_	_	
+2-18	364-366	of	_	_	
+2-19	367-374	samples	_	_	
+2-20	375-377	in	_	_	
+2-21	378-381	the	_	_	
+2-22	382-387	batch	_	_	
+2-23	388-395	against	_	_	
+2-24	396-397	a	_	_	
+2-25	398-412	query-positive	_	_	
+2-26	413-417	pair	_	_	
+2-27	417-418	.	_	_	
+
+#Text=This model ensures that only examples deemed irrelevant are selected as training negatives.
+3-1	419-423	This	_	_	
+3-2	424-429	model	_	_	
+3-3	430-437	ensures	_	_	
+3-4	438-442	that	_	_	
+3-5	443-447	only	_	_	
+3-6	448-456	examples	_	_	
+3-7	457-463	deemed	_	_	
+3-8	464-474	irrelevant	_	_	
+3-9	475-478	are	_	_	
+3-10	479-487	selected	_	_	
+3-11	488-490	as	_	_	
+3-12	491-499	training	_	_	
+3-13	500-509	negatives	_	_	
+3-14	509-510	.	_	_	
+
+#Text=This methodology is particularly advantageous for fine-tuning smaller models, leading to notable improvements across a wide range of NLP tasks.
+4-1	512-516	This	_	_	
+4-2	517-528	methodology	_	_	
+4-3	529-531	is	_	_	
+4-4	532-544	particularly	_	_	
+4-5	545-557	advantageous	_	_	
+4-6	558-561	for	_	_	
+4-7	562-573	fine-tuning	_	_	
+4-8	574-581	smaller	_	_	
+4-9	582-588	models	_	_	
+4-10	588-589	,	_	_	
+4-11	590-597	leading	_	_	
+4-12	598-600	to	_	_	
+4-13	601-608	notable	_	_	
+4-14	609-621	improvements	_	_	
+4-15	622-628	across	_	_	
+4-16	629-630	a	_	_	
+4-17	631-635	wide	_	_	
+4-18	636-641	range	_	_	
+4-19	642-644	of	_	_	
+4-20	645-648	NLP	_	_	
+4-21	649-654	tasks	_	_	
+4-22	654-655	.	_	_	
+
+#Text=By focusing on the in-sample selection of negatives, GISTEmbed addresses common challenges in contrastive learning, such as the efficient and effective identification of informative negative samples.
+5-1	656-658	By	_	_	
+5-2	659-667	focusing	_	_	
+5-3	668-670	on	_	_	
+5-4	671-674	the	_	_	
+5-5	675-684	in-sample	_	_	
+5-6	685-694	selection	_	_	
+5-7	695-697	of	_	_	
+5-8	698-707	negatives	_	_	
+5-9	707-708	,	_	_	
+5-10	709-718	GISTEmbed	_	_	
+5-11	719-728	addresses	_	_	
+5-12	729-735	common	_	_	
+5-13	736-746	challenges	_	_	
+5-14	747-749	in	_	_	
+5-15	750-761	contrastive	_	_	
+5-16	762-770	learning	_	_	
+5-17	770-771	,	_	_	
+5-18	772-776	such	_	_	
+5-19	777-779	as	_	_	
+5-20	780-783	the	_	_	
+5-21	784-793	efficient	_	_	
+5-22	794-797	and	_	_	
+5-23	798-807	effective	_	_	
+5-24	808-822	identification	_	_	
+5-25	823-825	of	_	_	
+5-26	826-837	informative	_	_	
+5-27	838-846	negative	_	_	
+5-28	847-854	samples	_	_	
+5-29	854-855	.	_	_	
+
+#Text=Compared to traditional methods, which often rely on random or heuristic-based selection, GISTEmbed's guided approach ensures a higher quality of training negatives, contributing to more robust and generalizable embeddings.
+6-1	857-865	Compared	_	_	
+6-2	866-868	to	_	_	
+6-3	869-880	traditional	_	_	
+6-4	881-888	methods	_	_	
+6-5	888-889	,	_	_	
+6-6	890-895	which	_	_	
+6-7	896-901	often	_	_	
+6-8	902-906	rely	_	_	
+6-9	907-909	on	_	_	
+6-10	910-916	random	_	_	
+6-11	917-919	or	_	_	
+6-12	920-935	heuristic-based	_	_	
+6-13	936-945	selection	_	_	
+6-14	945-946	,	_	_	
+6-15	947-958	GISTEmbed's	_	_	
+6-16	959-965	guided	_	_	
+6-17	966-974	approach	_	_	
+6-18	975-982	ensures	_	_	
+6-19	983-984	a	_	_	
+6-20	985-991	higher	_	_	
+6-21	992-999	quality	_	_	
+6-22	1000-1002	of	_	_	
+6-23	1003-1011	training	_	_	
+6-24	1012-1021	negatives	_	_	
+6-25	1021-1022	,	_	_	
+6-26	1023-1035	contributing	_	_	
+6-27	1036-1038	to	_	_	
+6-28	1039-1043	more	_	_	
+6-29	1044-1050	robust	_	_	
+6-30	1051-1054	and	_	_	
+6-31	1055-1068	generalizable	_	_	
+6-32	1069-1079	embeddings	_	_	
+6-33	1079-1080	.	_	_	
+
+#Text=<br>
+#Text=<br>
+#Text=<p align="center">
+#Text=<img src="https://github.com/avsolatorio/GISTEmbed/raw/main/img/GISTEmbed%20Model.png" style="width:75%"/>
+#Text=</p>
+#Text=<p align="center">
+#Text=<strong>GISTEmbed: Guided In-sample Selection of Training Negatives for Text Embedding Fine-tuning</strong>
+#Text=<br>
+#Text=<a href="https://arxiv.org/abs/2402.16829" target="_blank">Paper on ArXiv</a>
+#Text=</p>
+#Text=<br>
+#Text=
+#Text=
+#Text=The model does not require any instruction for generating embeddings.
+7-1	1082-1083	<	_	_	
+7-2	1083-1085	br	_	_	
+7-3	1085-1086	>	_	_	
+7-4	1087-1088	<	_	_	
+7-5	1088-1090	br	_	_	
+7-6	1090-1091	>	_	_	
+7-7	1092-1093	<	_	_	
+7-8	1093-1094	p	_	_	
+7-9	1095-1100	align	_	_	
+7-10	1100-1101	=	_	_	
+7-11	1101-1102	"	_	_	
+7-12	1102-1108	center	_	_	
+7-13	1108-1109	"	_	_	
+7-14	1109-1110	>	_	_	
+7-15	1111-1112	<	_	_	
+7-16	1112-1115	img	_	_	
+7-17	1116-1119	src	_	_	
+7-18	1119-1120	=	_	_	
+7-19	1120-1121	"	_	_	
+7-20	1121-1126	https	_	_	
+7-21	1126-1127	:	_	_	
+7-22	1127-1128	/	_	_	
+7-23	1128-1129	/	_	_	
+7-24	1129-1139	github.com	_	_	
+7-25	1139-1140	/	_	_	
+7-26	1140-1151	avsolatorio	_	_	
+7-27	1151-1152	/	_	_	
+7-28	1152-1161	GISTEmbed	_	_	
+7-29	1161-1162	/	_	_	
+7-30	1162-1165	raw	_	_	
+7-31	1165-1166	/	_	_	
+7-32	1166-1170	main	_	_	
+7-33	1170-1171	/	_	_	
+7-34	1171-1174	img	_	_	
+7-35	1174-1175	/	_	_	
+7-36	1175-1184	GISTEmbed	_	_	
+7-37	1184-1185	%	_	_	
+7-38	1185-1196	20Model.png	_	_	
+7-39	1196-1197	"	_	_	
+7-40	1198-1203	style	_	_	
+7-41	1203-1204	=	_	_	
+7-42	1204-1205	"	_	_	
+7-43	1205-1210	width	_	_	
+7-44	1210-1211	:	_	_	
+7-45	1211-1214	75%	_	_	
+7-46	1214-1215	"	_	_	
+7-47	1215-1216	/	_	_	
+7-48	1216-1217	>	_	_	
+7-49	1218-1219	<	_	_	
+7-50	1219-1220	/	_	_	
+7-51	1220-1221	p	_	_	
+7-52	1221-1222	>	_	_	
+7-53	1223-1224	<	_	_	
+7-54	1224-1225	p	_	_	
+7-55	1226-1231	align	_	_	
+7-56	1231-1232	=	_	_	
+7-57	1232-1233	"	_	_	
+7-58	1233-1239	center	_	_	
+7-59	1239-1240	"	_	_	
+7-60	1240-1241	>	_	_	
+7-61	1242-1243	<	_	_	
+7-62	1243-1249	strong	_	_	
+7-63	1249-1250	>	_	_	
+7-64	1250-1259	GISTEmbed	*[2]	PUBLICATION[2]	
+7-65	1259-1260	:	*[2]	PUBLICATION[2]	
+7-66	1261-1267	Guided	*[2]	PUBLICATION[2]	
+7-67	1268-1277	In-sample	*[2]	PUBLICATION[2]	
+7-68	1278-1287	Selection	*[2]	PUBLICATION[2]	
+7-69	1288-1290	of	*[2]	PUBLICATION[2]	
+7-70	1291-1299	Training	*[2]	PUBLICATION[2]	
+7-71	1300-1309	Negatives	*[2]	PUBLICATION[2]	
+7-72	1310-1313	for	*[2]	PUBLICATION[2]	
+7-73	1314-1318	Text	*[2]	PUBLICATION[2]	
+7-74	1319-1328	Embedding	*[2]	PUBLICATION[2]	
+7-75	1329-1340	Fine-tuning	*[2]	PUBLICATION[2]	
+7-76	1340-1341	<	_	_	
+7-77	1341-1342	/	_	_	
+7-78	1342-1348	strong	_	_	
+7-79	1348-1349	>	_	_	
+7-80	1350-1351	<	_	_	
+7-81	1351-1353	br	_	_	
+7-82	1353-1354	>	_	_	
+7-83	1355-1356	<	_	_	
+7-84	1356-1357	a	_	_	
+7-85	1358-1362	href	_	_	
+7-86	1362-1363	=	_	_	
+7-87	1363-1364	"	_	_	
+7-88	1364-1369	https	_	_	
+7-89	1369-1370	:	_	_	
+7-90	1370-1371	/	_	_	
+7-91	1371-1372	/	_	_	
+7-92	1372-1381	arxiv.org	_	_	
+7-93	1381-1382	/	_	_	
+7-94	1382-1385	abs	_	_	
+7-95	1385-1386	/	_	_	
+7-96	1386-1396	2402.16829	_	_	
+7-97	1396-1397	"	_	_	
+7-98	1398-1404	target	_	_	
+7-99	1404-1405	=	_	_	
+7-100	1405-1406	"	_	_	
+7-101	1406-1407	_	_	_	
+7-102	1407-1412	blank	_	_	
+7-103	1412-1413	"	_	_	
+7-104	1413-1414	>	_	_	
+7-105	1414-1419	Paper	_	_	
+7-106	1420-1422	on	_	_	
+7-107	1423-1428	ArXiv	_	_	
+7-108	1428-1429	<	_	_	
+7-109	1429-1430	/	_	_	
+7-110	1430-1431	a	_	_	
+7-111	1431-1432	>	_	_	
+7-112	1433-1434	<	_	_	
+7-113	1434-1435	/	_	_	
+7-114	1435-1436	p	_	_	
+7-115	1436-1437	>	_	_	
+7-116	1438-1439	<	_	_	
+7-117	1439-1441	br	_	_	
+7-118	1441-1442	>	_	_	
+7-119	1445-1448	The	_	_	
+7-120	1449-1454	model	_	_	
+7-121	1455-1459	does	_	_	
+7-122	1460-1463	not	_	_	
+7-123	1464-1471	require	_	_	
+7-124	1472-1475	any	_	_	
+7-125	1476-1487	instruction	_	_	
+7-126	1488-1491	for	_	_	
+7-127	1492-1502	generating	_	_	
+7-128	1503-1513	embeddings	_	_	
+7-129	1513-1514	.	_	_	
+
+#Text=This means that queries for retrieval tasks can be directly encoded without crafting instructions
+8-1	1515-1519	This	_	_	
+8-2	1520-1525	means	_	_	
+8-3	1526-1530	that	_	_	
+8-4	1531-1538	queries	_	_	
+8-5	1539-1542	for	_	_	
+8-6	1543-1552	retrieval	_	_	
+8-7	1553-1558	tasks	_	_	
+8-8	1559-1562	can	_	_	
+8-9	1563-1565	be	_	_	
+8-10	1566-1574	directly	_	_	
+8-11	1575-1582	encoded	_	_	
+8-12	1583-1590	without	_	_	
+8-13	1591-1599	crafting	_	_	
+8-14	1600-1612	instructions	_	_	
+
+#Text=.
+9-1	1612-1613	.	_	_	
+
+#Text=# Trained models
+#Text=
+#Text=We have fine-tuned various models using the GISTEmbed framework.
+10-1	1615-1616	#	_	_	
+10-2	1617-1624	Trained	_	_	
+10-3	1625-1631	models	_	_	
+10-4	1633-1635	We	_	_	
+10-5	1636-1640	have	_	_	
+10-6	1641-1651	fine-tuned	_	_	
+10-7	1652-1659	various	_	_	
+10-8	1660-1666	models	_	_	
+10-9	1667-1672	using	_	_	
+10-10	1673-1676	the	_	_	
+10-11	1677-1686	GISTEmbed	_	_	
+10-12	1687-1696	framework	_	_	
+10-13	1696-1697	.	_	_	
+
+#Text=The models are available on the Hugging Face model hub:
+#Text=
+#Text=- [avsolatorio/GIST-large-Embedding-v0](https://huggingface.co/avsolatorio/GIST-large-Embedding-v0): The model fine-tuned using the GISTEmbed framework and the MEDI+MTEBcls dataset.
+11-1	1698-1701	The	_	_	
+11-2	1702-1708	models	_	_	
+11-3	1709-1712	are	_	_	
+11-4	1713-1722	available	_	_	
+11-5	1723-1725	on	_	_	
+11-6	1726-1729	the	_	_	
+11-7	1730-1737	Hugging	_	_	
+11-8	1738-1742	Face	_	_	
+11-9	1743-1748	model	_	_	
+11-10	1749-1752	hub	_	_	
+11-11	1752-1753	:	_	_	
+11-12	1755-1756	-	_	_	
+11-13	1757-1758	[	_	_	
+11-14	1758-1769	avsolatorio	*[3]	SOFTWARE[3]	
+11-15	1769-1770	/	*[3]	SOFTWARE[3]	
+11-16	1770-1793	GIST-large-Embedding-v0	*[3]	SOFTWARE[3]	
+11-17	1793-1794	]	_	_	
+11-18	1794-1795	(	_	_	
+11-19	1795-1800	https	_	_	
+11-20	1800-1801	:	_	_	
+11-21	1801-1802	/	_	_	
+11-22	1802-1803	/	_	_	
+11-23	1803-1817	huggingface.co	_	_	
+11-24	1817-1818	/	_	_	
+11-25	1818-1829	avsolatorio	*[4]	SOFTWARE[4]	
+11-26	1829-1830	/	*[4]	SOFTWARE[4]	
+11-27	1830-1853	GIST-large-Embedding-v0	*[4]	SOFTWARE[4]	
+11-28	1853-1854	)	_	_	
+11-29	1854-1855	:	_	_	
+11-30	1856-1859	The	_	_	
+11-31	1860-1865	model	_	_	
+11-32	1866-1876	fine-tuned	_	_	
+11-33	1877-1882	using	_	_	
+11-34	1883-1886	the	_	_	
+11-35	1887-1896	GISTEmbed	_	_	
+11-36	1897-1906	framework	_	_	
+11-37	1907-1910	and	_	_	
+11-38	1911-1914	the	_	_	
+11-39	1915-1919	MEDI	*[5]	DATASET[5]	
+11-40	1919-1920	+	*[5]	DATASET[5]	
+11-41	1920-1927	MTEBcls	*[5]	DATASET[5]	
+11-42	1928-1935	dataset	_	_	
+11-43	1935-1936	.	_	_	
+
+#Text=The base model used is the [`BAAI/bge-large-en-v1.5`](https://huggingface.co/BAAI/bge-large-en-v1.5).
+#Text=- [avsolatorio/GIST-Embedding-v0](https://huggingface.co/avsolatorio/GIST-Embedding-v0): The model fine-tuned using the GISTEmbed framework and the MEDI+MTEBcls dataset.
+12-1	1937-1940	The	_	_	
+12-2	1941-1945	base	_	_	
+12-3	1946-1951	model	_	_	
+12-4	1952-1956	used	_	_	
+12-5	1957-1959	is	_	_	
+12-6	1960-1963	the	_	_	
+12-7	1964-1965	[	_	_	
+12-8	1965-1966	`	_	_	
+12-9	1966-1970	BAAI	*[6]	SOFTWARE[6]	
+12-10	1970-1971	/	*[6]	SOFTWARE[6]	
+12-11	1971-1988	bge-large-en-v1.5	*[6]	SOFTWARE[6]	
+12-12	1988-1989	`	_	_	
+12-13	1989-1990	]	_	_	
+12-14	1990-1991	(	_	_	
+12-15	1991-1996	https	_	_	
+12-16	1996-1997	:	_	_	
+12-17	1997-1998	/	_	_	
+12-18	1998-1999	/	_	_	
+12-19	1999-2013	huggingface.co	_	_	
+12-20	2013-2014	/	_	_	
+12-21	2014-2018	BAAI	*[7]	SOFTWARE[7]	
+12-22	2018-2019	/	*[7]	SOFTWARE[7]	
+12-23	2019-2036	bge-large-en-v1.5	*[7]	SOFTWARE[7]	
+12-24	2036-2037	)	_	_	
+12-25	2037-2038	.	_	_	
+12-26	2039-2040	-	_	_	
+12-27	2041-2042	[	_	_	
+12-28	2042-2053	avsolatorio	*[8]	SOFTWARE[8]	
+12-29	2053-2054	/	*[8]	SOFTWARE[8]	
+12-30	2054-2071	GIST-Embedding-v0	*[8]	SOFTWARE[8]	
+12-31	2071-2072	]	_	_	
+12-32	2072-2073	(	_	_	
+12-33	2073-2078	https	_	_	
+12-34	2078-2079	:	_	_	
+12-35	2079-2080	/	_	_	
+12-36	2080-2081	/	_	_	
+12-37	2081-2095	huggingface.co	_	_	
+12-38	2095-2096	/	_	_	
+12-39	2096-2107	avsolatorio	*[9]	SOFTWARE[9]	
+12-40	2107-2108	/	*[9]	SOFTWARE[9]	
+12-41	2108-2125	GIST-Embedding-v0	*[9]	SOFTWARE[9]	
+12-42	2125-2126	)	_	_	
+12-43	2126-2127	:	_	_	
+12-44	2128-2131	The	_	_	
+12-45	2132-2137	model	_	_	
+12-46	2138-2148	fine-tuned	_	_	
+12-47	2149-2154	using	_	_	
+12-48	2155-2158	the	_	_	
+12-49	2159-2168	GISTEmbed	_	_	
+12-50	2169-2178	framework	_	_	
+12-51	2179-2182	and	_	_	
+12-52	2183-2186	the	_	_	
+12-53	2187-2191	MEDI	*[10]	DATASET[10]	
+12-54	2191-2192	+	*[10]	DATASET[10]	
+12-55	2192-2199	MTEBcls	*[10]	DATASET[10]	
+12-56	2200-2207	dataset	_	_	
+12-57	2207-2208	.	_	_	
+
+#Text=The base model used is the [`BAAI/bge-base-en-v1.5`](https://huggingface.co/BAAI/bge-base-en-v1.5).
+#Text=- [avsolatorio/GIST-small-Embedding-v0](https://huggingface.co/avsolatorio/GIST-small-Embedding-v0): The model fine-tuned using the GISTEmbed framework and the MEDI+MTEBcls dataset.
+13-1	2209-2212	The	_	_	
+13-2	2213-2217	base	_	_	
+13-3	2218-2223	model	_	_	
+13-4	2224-2228	used	_	_	
+13-5	2229-2231	is	_	_	
+13-6	2232-2235	the	_	_	
+13-7	2236-2237	[	_	_	
+13-8	2237-2238	`	_	_	
+13-9	2238-2242	BAAI	*[11]	SOFTWARE[11]	
+13-10	2242-2243	/	*[11]	SOFTWARE[11]	
+13-11	2243-2259	bge-base-en-v1.5	*[11]	SOFTWARE[11]	
+13-12	2259-2260	`	_	_	
+13-13	2260-2261	]	_	_	
+13-14	2261-2262	(	_	_	
+13-15	2262-2267	https	_	_	
+13-16	2267-2268	:	_	_	
+13-17	2268-2269	/	_	_	
+13-18	2269-2270	/	_	_	
+13-19	2270-2284	huggingface.co	_	_	
+13-20	2284-2285	/	_	_	
+13-21	2285-2289	BAAI	*[12]	SOFTWARE[12]	
+13-22	2289-2290	/	*[12]	SOFTWARE[12]	
+13-23	2290-2306	bge-base-en-v1.5	*[12]	SOFTWARE[12]	
+13-24	2306-2307	)	_	_	
+13-25	2307-2308	.	_	_	
+13-26	2309-2310	-	_	_	
+13-27	2311-2312	[	_	_	
+13-28	2312-2323	avsolatorio	*[13]	SOFTWARE[13]	
+13-29	2323-2324	/	*[13]	SOFTWARE[13]	
+13-30	2324-2347	GIST-small-Embedding-v0	*[13]	SOFTWARE[13]	
+13-31	2347-2348	]	_	_	
+13-32	2348-2349	(	_	_	
+13-33	2349-2354	https	_	_	
+13-34	2354-2355	:	_	_	
+13-35	2355-2356	/	_	_	
+13-36	2356-2357	/	_	_	
+13-37	2357-2371	huggingface.co	_	_	
+13-38	2371-2372	/	_	_	
+13-39	2372-2383	avsolatorio	*[14]	SOFTWARE[14]	
+13-40	2383-2384	/	*[14]	SOFTWARE[14]	
+13-41	2384-2407	GIST-small-Embedding-v0	*[14]	SOFTWARE[14]	
+13-42	2407-2408	)	_	_	
+13-43	2408-2409	:	_	_	
+13-44	2410-2413	The	_	_	
+13-45	2414-2419	model	_	_	
+13-46	2420-2430	fine-tuned	_	_	
+13-47	2431-2436	using	_	_	
+13-48	2437-2440	the	_	_	
+13-49	2441-2450	GISTEmbed	_	_	
+13-50	2451-2460	framework	_	_	
+13-51	2461-2464	and	_	_	
+13-52	2465-2468	the	_	_	
+13-53	2469-2473	MEDI	*[15]	DATASET[15]	
+13-54	2473-2474	+	*[15]	DATASET[15]	
+13-55	2474-2481	MTEBcls	*[15]	DATASET[15]	
+13-56	2482-2489	dataset	_	_	
+13-57	2489-2490	.	_	_	
+
+#Text=The base model used is the [`BAAI/bge-small-en-v1.5`](https://huggingface.co/BAAI/bge-small-en-v1.5).
+#Text=- [avsolatorio/GIST-all-MiniLM-L6-v2](https://huggingface.co/avsolatorio/GIST-all-MiniLM-L6-v2): The model fine-tuned using the GISTEmbed framework and the MEDI+MTEBcls dataset.
+14-1	2491-2494	The	_	_	
+14-2	2495-2499	base	_	_	
+14-3	2500-2505	model	_	_	
+14-4	2506-2510	used	_	_	
+14-5	2511-2513	is	_	_	
+14-6	2514-2517	the	_	_	
+14-7	2518-2519	[	_	_	
+14-8	2519-2520	`	_	_	
+14-9	2520-2524	BAAI	*[16]	SOFTWARE[16]	
+14-10	2524-2525	/	*[16]	SOFTWARE[16]	
+14-11	2525-2542	bge-small-en-v1.5	*[16]	SOFTWARE[16]	
+14-12	2542-2543	`	_	_	
+14-13	2543-2544	]	_	_	
+14-14	2544-2545	(	_	_	
+14-15	2545-2550	https	_	_	
+14-16	2550-2551	:	_	_	
+14-17	2551-2552	/	_	_	
+14-18	2552-2553	/	_	_	
+14-19	2553-2567	huggingface.co	_	_	
+14-20	2567-2568	/	_	_	
+14-21	2568-2572	BAAI	*[17]	SOFTWARE[17]	
+14-22	2572-2573	/	*[17]	SOFTWARE[17]	
+14-23	2573-2590	bge-small-en-v1.5	*[17]	SOFTWARE[17]	
+14-24	2590-2591	)	_	_	
+14-25	2591-2592	.	_	_	
+14-26	2593-2594	-	_	_	
+14-27	2595-2596	[	_	_	
+14-28	2596-2607	avsolatorio	*[18]	SOFTWARE[18]	
+14-29	2607-2608	/	*[18]	SOFTWARE[18]	
+14-30	2608-2626	GIST-all-MiniLM-L6	*[18]	SOFTWARE[18]	
+14-31	2626-2627	-	*[18]	SOFTWARE[18]	
+14-32	2627-2629	v2	*[18]	SOFTWARE[18]	
+14-33	2629-2630	]	_	_	
+14-34	2630-2631	(	_	_	
+14-35	2631-2636	https	_	_	
+14-36	2636-2637	:	_	_	
+14-37	2637-2638	/	_	_	
+14-38	2638-2639	/	_	_	
+14-39	2639-2653	huggingface.co	_	_	
+14-40	2653-2654	/	_	_	
+14-41	2654-2665	avsolatorio	*[19]	SOFTWARE[19]	
+14-42	2665-2666	/	*[19]	SOFTWARE[19]	
+14-43	2666-2684	GIST-all-MiniLM-L6	*[19]	SOFTWARE[19]	
+14-44	2684-2685	-	*[19]	SOFTWARE[19]	
+14-45	2685-2687	v2	*[19]	SOFTWARE[19]	
+14-46	2687-2688	)	_	_	
+14-47	2688-2689	:	_	_	
+14-48	2690-2693	The	_	_	
+14-49	2694-2699	model	_	_	
+14-50	2700-2710	fine-tuned	_	_	
+14-51	2711-2716	using	_	_	
+14-52	2717-2720	the	_	_	
+14-53	2721-2730	GISTEmbed	_	_	
+14-54	2731-2740	framework	_	_	
+14-55	2741-2744	and	_	_	
+14-56	2745-2748	the	_	_	
+14-57	2749-2753	MEDI	*[20]	DATASET[20]	
+14-58	2753-2754	+	*[20]	DATASET[20]	
+14-59	2754-2761	MTEBcls	*[20]	DATASET[20]	
+14-60	2762-2769	dataset	_	_	
+14-61	2769-2770	.	_	_	
+
+#Text=The base model used is the [`sentence-transformers/all-MiniLM-L6-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
+15-1	2771-2774	The	_	_	
+15-2	2775-2779	base	_	_	
+15-3	2780-2785	model	_	_	
+15-4	2786-2790	used	_	_	
+15-5	2791-2793	is	_	_	
+15-6	2794-2797	the	_	_	
+15-7	2798-2799	[	_	_	
+15-8	2799-2800	`	_	_	
+15-9	2800-2821	sentence-transformers	*[21]	SOFTWARE[21]	
+15-10	2821-2822	/	*[21]	SOFTWARE[21]	
+15-11	2822-2835	all-MiniLM-L6	*[21]	SOFTWARE[21]	
+15-12	2835-2836	-	*[21]	SOFTWARE[21]	
+15-13	2836-2838	v2	*[21]	SOFTWARE[21]	
+15-14	2838-2839	`	_	_	
+15-15	2839-2840	]	_	_	
+15-16	2840-2841	(	_	_	
+15-17	2841-2846	https	_	_	
+15-18	2846-2847	:	_	_	
+15-19	2847-2848	/	_	_	
+15-20	2848-2849	/	_	_	
+15-21	2849-2863	huggingface.co	_	_	
+15-22	2863-2864	/	_	_	
+15-23	2864-2885	sentence-transformers	*[22]	SOFTWARE[22]	
+15-24	2885-2886	/	*[22]	SOFTWARE[22]	
+15-25	2886-2899	all-MiniLM-L6	*[22]	SOFTWARE[22]	
+15-26	2899-2900	-	*[22]	SOFTWARE[22]	
+15-27	2900-2902	v2	*[22]	SOFTWARE[22]	
+15-28	2902-2903	)	_	_	
+
+#Text=.
+16-1	2903-2904	.	_	_	
+
+#Text=# Data
+#Text=
+#Text=The dataset used is a compilation of the MEDI dataset and the MTEB Classification training dataset.
+17-1	2907-2908	#	_	_	
+17-2	2909-2913	Data	_	_	
+17-3	2915-2918	The	_	_	
+17-4	2919-2926	dataset	_	_	
+17-5	2927-2931	used	_	_	
+17-6	2932-2934	is	_	_	
+17-7	2935-2936	a	_	_	
+17-8	2937-2948	compilation	_	_	
+17-9	2949-2951	of	_	_	
+17-10	2952-2955	the	_	_	
+17-11	2956-2960	MEDI	*	DATASET	
+17-12	2961-2968	dataset	_	_	
+17-13	2969-2972	and	_	_	
+17-14	2973-2976	the	_	_	
+17-15	2977-2981	MTEB	*[23]	DATASET[23]	
+17-16	2982-2996	Classification	*[23]	DATASET[23]	
+17-17	2997-3005	training	_	_	
+17-18	3006-3013	dataset	_	_	
+17-19	3013-3014	.	_	_	
+
+#Text=Third-party datasets may be subject to additional terms and conditions under their associated licenses.
+18-1	3015-3026	Third-party	_	_	
+18-2	3027-3035	datasets	_	_	
+18-3	3036-3039	may	_	_	
+18-4	3040-3042	be	_	_	
+18-5	3043-3050	subject	_	_	
+18-6	3051-3053	to	_	_	
+18-7	3054-3064	additional	_	_	
+18-8	3065-3070	terms	_	_	
+18-9	3071-3074	and	_	_	
+18-10	3075-3085	conditions	_	_	
+18-11	3086-3091	under	_	_	
+18-12	3092-3097	their	_	_	
+18-13	3098-3108	associated	_	_	
+18-14	3109-3117	licenses	_	_	
+18-15	3117-3118	.	_	_	
+
+#Text=A HuggingFace Dataset version of the compiled dataset, and the specific revision used to train the model, is available:
+#Text=
+#Text=- Dataset: [avsolatorio/medi-data-mteb_avs_triplets](https://huggingface.co/datasets/avsolatorio/medi-data-mteb_avs_triplets)
+#Text=- Revision: 238a0499b6e6b690cc64ea56fde8461daa8341bb
+#Text=
+#Text=The dataset contains a `task_type` key which can be used to select only the mteb classification tasks (prefixed with `mteb_`).
+19-1	3119-3120	A	_	_	
+19-2	3121-3132	HuggingFace	_	_	
+19-3	3133-3140	Dataset	_	_	
+19-4	3141-3148	version	_	_	
+19-5	3149-3151	of	_	_	
+19-6	3152-3155	the	_	_	
+19-7	3156-3164	compiled	_	_	
+19-8	3165-3172	dataset	_	_	
+19-9	3172-3173	,	_	_	
+19-10	3174-3177	and	_	_	
+19-11	3178-3181	the	_	_	
+19-12	3182-3190	specific	_	_	
+19-13	3191-3199	revision	_	_	
+19-14	3200-3204	used	_	_	
+19-15	3205-3207	to	_	_	
+19-16	3208-3213	train	_	_	
+19-17	3214-3217	the	_	_	
+19-18	3218-3223	model	_	_	
+19-19	3223-3224	,	_	_	
+19-20	3225-3227	is	_	_	
+19-21	3228-3237	available	_	_	
+19-22	3237-3238	:	_	_	
+19-23	3240-3241	-	_	_	
+19-24	3242-3249	Dataset	_	_	
+19-25	3249-3250	:	_	_	
+19-26	3251-3252	[	_	_	
+19-27	3252-3263	avsolatorio	*[24]	DATASET[24]	
+19-28	3263-3264	/	*[24]	DATASET[24]	
+19-29	3264-3291	medi-data-mteb_avs_triplets	*[24]	DATASET[24]	
+19-30	3291-3292	]	_	_	
+19-31	3292-3293	(	_	_	
+19-32	3293-3298	https	_	_	
+19-33	3298-3299	:	_	_	
+19-34	3299-3300	/	_	_	
+19-35	3300-3301	/	_	_	
+19-36	3301-3315	huggingface.co	_	_	
+19-37	3315-3316	/	_	_	
+19-38	3316-3324	datasets	_	_	
+19-39	3324-3325	/	_	_	
+19-40	3325-3336	avsolatorio	*[25]	DATASET[25]	
+19-41	3336-3337	/	*[25]	DATASET[25]	
+19-42	3337-3364	medi-data-mteb_avs_triplets	*[25]	DATASET[25]	
+19-43	3364-3365	)	_	_	
+19-44	3366-3367	-	_	_	
+19-45	3368-3376	Revision	_	_	
+19-46	3376-3377	:	_	_	
+19-47	3378-3418	238a0499b6e6b690cc64ea56fde8461daa8341bb	_	_	
+19-48	3420-3423	The	_	_	
+19-49	3424-3431	dataset	_	_	
+19-50	3432-3440	contains	_	_	
+19-51	3441-3442	a	_	_	
+19-52	3443-3444	`	_	_	
+19-53	3444-3453	task_type	_	_	
+19-54	3453-3454	`	_	_	
+19-55	3455-3458	key	_	_	
+19-56	3459-3464	which	_	_	
+19-57	3465-3468	can	_	_	
+19-58	3469-3471	be	_	_	
+19-59	3472-3476	used	_	_	
+19-60	3477-3479	to	_	_	
+19-61	3480-3486	select	_	_	
+19-62	3487-3491	only	_	_	
+19-63	3492-3495	the	_	_	
+19-64	3496-3500	mteb	*	DATASET	
+19-65	3501-3515	classification	_	_	
+19-66	3516-3521	tasks	_	_	
+19-67	3522-3523	(	_	_	
+19-68	3523-3531	prefixed	_	_	
+19-69	3532-3536	with	_	_	
+19-70	3537-3538	`	_	_	
+19-71	3538-3542	mteb	_	_	
+19-72	3542-3543	_	_	_	
+19-73	3543-3544	`	_	_	
+19-74	3544-3545	)	_	_	
+19-75	3545-3546	.	_	_	
+
+#Text=The **MEDI Dataset** is published in the following paper: [One Embedder, Any Task: Instruction-Finetuned Text Embeddings](https://arxiv.org/abs/2212.09741).
+20-1	3548-3551	The	_	_	
+20-2	3552-3553	*	_	_	
+20-3	3553-3554	*	_	_	
+20-4	3554-3558	MEDI	*	DATASET	
+20-5	3559-3566	Dataset	_	_	
+20-6	3566-3567	*	_	_	
+20-7	3567-3568	*	_	_	
+20-8	3569-3571	is	_	_	
+20-9	3572-3581	published	_	_	
+20-10	3582-3584	in	_	_	
+20-11	3585-3588	the	_	_	
+20-12	3589-3598	following	_	_	
+20-13	3599-3604	paper	_	_	
+20-14	3604-3605	:	_	_	
+20-15	3606-3607	[	_	_	
+20-16	3607-3610	One	*[26]	PUBLICATION[26]	
+20-17	3611-3619	Embedder	*[26]	PUBLICATION[26]	
+20-18	3619-3620	,	*[26]	PUBLICATION[26]	
+20-19	3621-3624	Any	*[26]	PUBLICATION[26]	
+20-20	3625-3629	Task	*[26]	PUBLICATION[26]	
+20-21	3629-3630	:	*[26]	PUBLICATION[26]	
+20-22	3631-3652	Instruction-Finetuned	*[26]	PUBLICATION[26]	
+20-23	3653-3657	Text	*[26]	PUBLICATION[26]	
+20-24	3658-3668	Embeddings	*[26]	PUBLICATION[26]	
+20-25	3668-3669	]	_	_	
+20-26	3669-3670	(	_	_	
+20-27	3670-3675	https	_	_	
+20-28	3675-3676	:	_	_	
+20-29	3676-3677	/	_	_	
+20-30	3677-3678	/	_	_	
+20-31	3678-3687	arxiv.org	_	_	
+20-32	3687-3688	/	_	_	
+20-33	3688-3691	abs	_	_	
+20-34	3691-3692	/	_	_	
+20-35	3692-3702	2212.09741	_	_	
+20-36	3702-3703	)	_	_	
+20-37	3703-3704	.	_	_	
+
+#Text=The MTEB Benchmark results of the GIST embedding model, compared with the base model, suggest that the fine-tuning dataset has perturbed the model considerably, which resulted in significant improvements in certain tasks while adversely degrading performance in some.
+21-1	3706-3709	The	_	_	
+21-2	3710-3714	MTEB	*	DATASET	
+21-3	3715-3724	Benchmark	_	_	
+21-4	3725-3732	results	_	_	
+21-5	3733-3735	of	_	_	
+21-6	3736-3739	the	_	_	
+21-7	3740-3744	GIST	_	_	
+21-8	3745-3754	embedding	_	_	
+21-9	3755-3760	model	_	_	
+21-10	3760-3761	,	_	_	
+21-11	3762-3770	compared	_	_	
+21-12	3771-3775	with	_	_	
+21-13	3776-3779	the	_	_	
+21-14	3780-3784	base	_	_	
+21-15	3785-3790	model	_	_	
+21-16	3790-3791	,	_	_	
+21-17	3792-3799	suggest	_	_	
+21-18	3800-3804	that	_	_	
+21-19	3805-3808	the	_	_	
+21-20	3809-3820	fine-tuning	_	_	
+21-21	3821-3828	dataset	_	_	
+21-22	3829-3832	has	_	_	
+21-23	3833-3842	perturbed	_	_	
+21-24	3843-3846	the	_	_	
+21-25	3847-3852	model	_	_	
+21-26	3853-3865	considerably	_	_	
+21-27	3865-3866	,	_	_	
+21-28	3867-3872	which	_	_	
+21-29	3873-3881	resulted	_	_	
+21-30	3882-3884	in	_	_	
+21-31	3885-3896	significant	_	_	
+21-32	3897-3909	improvements	_	_	
+21-33	3910-3912	in	_	_	
+21-34	3913-3920	certain	_	_	
+21-35	3921-3926	tasks	_	_	
+21-36	3927-3932	while	_	_	
+21-37	3933-3942	adversely	_	_	
+21-38	3943-3952	degrading	_	_	
+21-39	3953-3964	performance	_	_	
+21-40	3965-3967	in	_	_	
+21-41	3968-3972	some	_	_	
+21-42	3972-3973	.	_	_	
+
+#Text=The retrieval performance for the TRECCOVID task is of note.
+22-1	3975-3978	The	_	_	
+22-2	3979-3988	retrieval	_	_	
+22-3	3989-4000	performance	_	_	
+22-4	4001-4004	for	_	_	
+22-5	4005-4008	the	_	_	
+22-6	4009-4018	TRECCOVID	_	_	
+22-7	4019-4023	task	_	_	
+22-8	4024-4026	is	_	_	
+22-9	4027-4029	of	_	_	
+22-10	4030-4034	note	_	_	
+22-11	4034-4035	.	_	_	
+
+#Text=The fine-tuning dataset does not contain significant knowledge about COVID, which could have caused the observed performance degradation.
+23-1	4036-4039	The	_	_	
+23-2	4040-4051	fine-tuning	_	_	
+23-3	4052-4059	dataset	_	_	
+23-4	4060-4064	does	_	_	
+23-5	4065-4068	not	_	_	
+23-6	4069-4076	contain	_	_	
+23-7	4077-4088	significant	_	_	
+23-8	4089-4098	knowledge	_	_	
+23-9	4099-4104	about	_	_	
+23-10	4105-4110	COVID	_	_	
+23-11	4110-4111	,	_	_	
+23-12	4112-4117	which	_	_	
+23-13	4118-4123	could	_	_	
+23-14	4124-4128	have	_	_	
+23-15	4129-4135	caused	_	_	
+23-16	4136-4139	the	_	_	
+23-17	4140-4148	observed	_	_	
+23-18	4149-4160	performance	_	_	
+23-19	4161-4172	degradation	_	_	
+23-20	4172-4173	.	_	_	
+
+#Text=We found some evidence, detailed in the paper, that thematic coverage of the fine-tuning data can affect downstream performance
+24-1	4174-4176	We	_	_	
+24-2	4177-4182	found	_	_	
+24-3	4183-4187	some	_	_	
+24-4	4188-4196	evidence	_	_	
+24-5	4196-4197	,	_	_	
+24-6	4198-4206	detailed	_	_	
+24-7	4207-4209	in	_	_	
+24-8	4210-4213	the	_	_	
+24-9	4214-4219	paper	_	_	
+24-10	4219-4220	,	_	_	
+24-11	4221-4225	that	_	_	
+24-12	4226-4234	thematic	_	_	
+24-13	4235-4243	coverage	_	_	
+24-14	4244-4246	of	_	_	
+24-15	4247-4250	the	_	_	
+24-16	4251-4262	fine-tuning	_	_	
+24-17	4263-4267	data	_	_	
+24-18	4268-4271	can	_	_	
+24-19	4272-4278	affect	_	_	
+24-20	4279-4289	downstream	_	_	
+24-21	4290-4301	performance	_	_	
+
+#Text=.
+25-1	4301-4302	.	_	_	
+
+#Text=# Usage
+#Text=
+#Text=The model can be easily loaded using the Sentence Transformers library.
+26-1	4304-4305	#	_	_	
+26-2	4306-4311	Usage	_	_	
+26-3	4313-4316	The	_	_	
+26-4	4317-4322	model	_	_	
+26-5	4323-4326	can	_	_	
+26-6	4327-4329	be	_	_	
+26-7	4330-4336	easily	_	_	
+26-8	4337-4343	loaded	_	_	
+26-9	4344-4349	using	_	_	
+26-10	4350-4353	the	_	_	
+26-11	4354-4362	Sentence	*[27]	SOFTWARE[27]	
+26-12	4363-4375	Transformers	*[27]	SOFTWARE[27]	
+26-13	4376-4383	library	_	_	
+26-14	4383-4384	.	_	_	
+
+#Text=```Python
+#Text=import torch.nn.functional as F
+#Text=from sentence_transformers import SentenceTransformer
+#Text=
+#Text=revision = None  # Replace with the specific revision to ensure reproducibility in  case the model is updated.
+27-1	4386-4387	`	_	_	
+27-2	4387-4388	`	_	_	
+27-3	4388-4389	`	_	_	
+27-4	4389-4395	Python	*	SOFTWARE	
+27-5	4396-4402	import	_	_	
+27-6	4403-4422	torch.nn.functional	_	_	
+27-6.1	4403-4408	torch	*	SOFTWARE	
+27-7	4423-4425	as	_	_	
+27-8	4426-4427	F	_	_	
+27-9	4428-4432	from	_	_	
+27-10	4433-4454	sentence_transformers	*	SOFTWARE	
+27-11	4455-4461	import	_	_	
+27-12	4462-4481	SentenceTransformer	*	SOFTWARE	
+27-13	4483-4491	revision	_	_	
+27-14	4492-4493	=	_	_	
+27-15	4494-4498	None	_	_	
+27-16	4500-4501	#	_	_	
+27-17	4502-4509	Replace	_	_	
+27-18	4510-4514	with	_	_	
+27-19	4515-4518	the	_	_	
+27-20	4519-4527	specific	_	_	
+27-21	4528-4536	revision	_	_	
+27-22	4537-4539	to	_	_	
+27-23	4540-4546	ensure	_	_	
+27-24	4547-4562	reproducibility	_	_	
+27-25	4563-4565	in	_	_	
+27-26	4567-4571	case	_	_	
+27-27	4572-4575	the	_	_	
+27-28	4576-4581	model	_	_	
+27-29	4582-4584	is	_	_	
+27-30	4585-4592	updated	_	_	
+27-31	4592-4593	.	_	_	
+
+#Text=model = SentenceTransformer("avsolatorio/GIST-Embedding-v0", revision=revision)
+#Text=
+#Text=texts = [
+#Text=    "Illustration of the REaLTabFormer model.
+28-1	4595-4600	model	_	_	
+28-2	4601-4602	=	_	_	
+28-3	4603-4622	SentenceTransformer	_	_	
+28-4	4622-4623	(	_	_	
+28-5	4623-4624	"	_	_	
+28-6	4624-4635	avsolatorio	*[28]	SOFTWARE[28]	
+28-7	4635-4636	/	*[28]	SOFTWARE[28]	
+28-8	4636-4653	GIST-Embedding-v0	*[28]	SOFTWARE[28]	
+28-9	4653-4654	"	_	_	
+28-10	4654-4655	,	_	_	
+28-11	4656-4664	revision	_	_	
+28-12	4664-4665	=	_	_	
+28-13	4665-4673	revision	_	_	
+28-14	4673-4674	)	_	_	
+28-15	4676-4681	texts	_	_	
+28-16	4682-4683	=	_	_	
+28-17	4684-4685	[	_	_	
+28-18	4690-4691	"	_	_	
+28-19	4691-4703	Illustration	_	_	
+28-20	4704-4706	of	_	_	
+28-21	4707-4710	the	_	_	
+28-22	4711-4724	REaLTabFormer	*	SOFTWARE	
+28-23	4725-4730	model	_	_	
+28-24	4730-4731	.	_	_	
+
+#Text=The left block shows the non-relational tabular data model using GPT-2 with a causal LM head.
+29-1	4732-4735	The	_	_	
+29-2	4736-4740	left	_	_	
+29-3	4741-4746	block	_	_	
+29-4	4747-4752	shows	_	_	
+29-5	4753-4756	the	_	_	
+29-6	4757-4771	non-relational	_	_	
+29-7	4772-4779	tabular	_	_	
+29-8	4780-4784	data	_	_	
+29-9	4785-4790	model	_	_	
+29-10	4791-4796	using	_	_	
+29-11	4797-4800	GPT	*[29]	SOFTWARE[29]	
+29-12	4800-4801	-	*[29]	SOFTWARE[29]	
+29-13	4801-4802	2	*[29]	SOFTWARE[29]	
+29-14	4803-4807	with	_	_	
+29-15	4808-4809	a	_	_	
+29-16	4810-4816	causal	_	_	
+29-17	4817-4819	LM	_	_	
+29-18	4820-4824	head	_	_	
+29-19	4824-4825	.	_	_	
+
+#Text=In contrast, the right block shows how a relational dataset's child table is modeled using a sequence-to-sequence (Seq2Seq) model.
+30-1	4826-4828	In	_	_	
+30-2	4829-4837	contrast	_	_	
+30-3	4837-4838	,	_	_	
+30-4	4839-4842	the	_	_	
+30-5	4843-4848	right	_	_	
+30-6	4849-4854	block	_	_	
+30-7	4855-4860	shows	_	_	
+30-8	4861-4864	how	_	_	
+30-9	4865-4866	a	_	_	
+30-10	4867-4877	relational	_	_	
+30-11	4878-4887	dataset's	_	_	
+30-12	4888-4893	child	_	_	
+30-13	4894-4899	table	_	_	
+30-14	4900-4902	is	_	_	
+30-15	4903-4910	modeled	_	_	
+30-16	4911-4916	using	_	_	
+30-17	4917-4918	a	_	_	
+30-18	4919-4939	sequence-to-sequence	_	_	
+30-19	4940-4941	(	_	_	
+30-20	4941-4948	Seq2Seq	_	_	
+30-21	4948-4949	)	_	_	
+30-22	4950-4955	model	_	_	
+30-23	4955-4956	.	_	_	
+
+#Text=The Seq2Seq model uses the observations in the parent table to condition the generation of the observations in the child table.
+31-1	4957-4960	The	_	_	
+31-2	4961-4968	Seq2Seq	_	_	
+31-3	4969-4974	model	_	_	
+31-4	4975-4979	uses	_	_	
+31-5	4980-4983	the	_	_	
+31-6	4984-4996	observations	_	_	
+31-7	4997-4999	in	_	_	
+31-8	5000-5003	the	_	_	
+31-9	5004-5010	parent	_	_	
+31-10	5011-5016	table	_	_	
+31-11	5017-5019	to	_	_	
+31-12	5020-5029	condition	_	_	
+31-13	5030-5033	the	_	_	
+31-14	5034-5044	generation	_	_	
+31-15	5045-5047	of	_	_	
+31-16	5048-5051	the	_	_	
+31-17	5052-5064	observations	_	_	
+31-18	5065-5067	in	_	_	
+31-19	5068-5071	the	_	_	
+31-20	5072-5077	child	_	_	
+31-21	5078-5083	table	_	_	
+31-22	5083-5084	.	_	_	
+
+#Text=The trained GPT-2 model on the parent table, with weights frozen, is also used as the encoder in the Seq2Seq model.",
+#Text=    "Predicting human mobility holds significant practical value, with applications ranging from enhancing disaster risk planning to simulating epidemic spread.
+32-1	5085-5088	The	_	_	
+32-2	5089-5096	trained	_	_	
+32-3	5097-5100	GPT	*[30]	SOFTWARE[30]	
+32-4	5100-5101	-	*[30]	SOFTWARE[30]	
+32-5	5101-5102	2	*[30]	SOFTWARE[30]	
+32-6	5103-5108	model	_	_	
+32-7	5109-5111	on	_	_	
+32-8	5112-5115	the	_	_	
+32-9	5116-5122	parent	_	_	
+32-10	5123-5128	table	_	_	
+32-11	5128-5129	,	_	_	
+32-12	5130-5134	with	_	_	
+32-13	5135-5142	weights	_	_	
+32-14	5143-5149	frozen	_	_	
+32-15	5149-5150	,	_	_	
+32-16	5151-5153	is	_	_	
+32-17	5154-5158	also	_	_	
+32-18	5159-5163	used	_	_	
+32-19	5164-5166	as	_	_	
+32-20	5167-5170	the	_	_	
+32-21	5171-5178	encoder	_	_	
+32-22	5179-5181	in	_	_	
+32-23	5182-5185	the	_	_	
+32-24	5186-5193	Seq2Seq	_	_	
+32-25	5194-5199	model	_	_	
+32-26	5199-5200	.	_	_	
+32-27	5200-5201	"	_	_	
+32-28	5201-5202	,	_	_	
+32-29	5207-5208	"	_	_	
+32-30	5208-5218	Predicting	_	_	
+32-31	5219-5224	human	_	_	
+32-32	5225-5233	mobility	_	_	
+32-33	5234-5239	holds	_	_	
+32-34	5240-5251	significant	_	_	
+32-35	5252-5261	practical	_	_	
+32-36	5262-5267	value	_	_	
+32-37	5267-5268	,	_	_	
+32-38	5269-5273	with	_	_	
+32-39	5274-5286	applications	_	_	
+32-40	5287-5294	ranging	_	_	
+32-41	5295-5299	from	_	_	
+32-42	5300-5309	enhancing	_	_	
+32-43	5310-5318	disaster	_	_	
+32-44	5319-5323	risk	_	_	
+32-45	5324-5332	planning	_	_	
+32-46	5333-5335	to	_	_	
+32-47	5336-5346	simulating	_	_	
+32-48	5347-5355	epidemic	_	_	
+32-49	5356-5362	spread	_	_	
+32-50	5362-5363	.	_	_	
+
+#Text=In this paper, we present the GeoFormer, a decoder-only transformer model adapted from the GPT architecture to forecast human mobility.",
+#Text=    "As the economies of Southeast Asia continue adopting digital technologies, policy makers increasingly ask how to prepare the workforce for emerging labor demands.
+33-1	5364-5366	In	_	_	
+33-2	5367-5371	this	_	_	
+33-3	5372-5377	paper	_	_	
+33-4	5377-5378	,	_	_	
+33-5	5379-5381	we	_	_	
+33-6	5382-5389	present	_	_	
+33-7	5390-5393	the	_	_	
+33-8	5394-5403	GeoFormer	_	_	
+33-9	5403-5404	,	_	_	
+33-10	5405-5406	a	_	_	
+33-11	5407-5419	decoder-only	_	_	
+33-12	5420-5431	transformer	_	_	
+33-13	5432-5437	model	_	_	
+33-14	5438-5445	adapted	_	_	
+33-15	5446-5450	from	_	_	
+33-16	5451-5454	the	_	_	
+33-17	5455-5458	GPT	_	_	
+33-18	5459-5471	architecture	_	_	
+33-19	5472-5474	to	_	_	
+33-20	5475-5483	forecast	_	_	
+33-21	5484-5489	human	_	_	
+33-22	5490-5498	mobility	_	_	
+33-23	5498-5499	.	_	_	
+33-24	5499-5500	"	_	_	
+33-25	5500-5501	,	_	_	
+33-26	5506-5507	"	_	_	
+33-27	5507-5509	As	_	_	
+33-28	5510-5513	the	_	_	
+33-29	5514-5523	economies	_	_	
+33-30	5524-5526	of	_	_	
+33-31	5527-5536	Southeast	_	_	
+33-32	5537-5541	Asia	_	_	
+33-33	5542-5550	continue	_	_	
+33-34	5551-5559	adopting	_	_	
+33-35	5560-5567	digital	_	_	
+33-36	5568-5580	technologies	_	_	
+33-37	5580-5581	,	_	_	
+33-38	5582-5588	policy	_	_	
+33-39	5589-5595	makers	_	_	
+33-40	5596-5608	increasingly	_	_	
+33-41	5609-5612	ask	_	_	
+33-42	5613-5616	how	_	_	
+33-43	5617-5619	to	_	_	
+33-44	5620-5627	prepare	_	_	
+33-45	5628-5631	the	_	_	
+33-46	5632-5641	workforce	_	_	
+33-47	5642-5645	for	_	_	
+33-48	5646-5654	emerging	_	_	
+33-49	5655-5660	labor	_	_	
+33-50	5661-5668	demands	_	_	
+33-51	5668-5669	.	_	_	
+
+#Text=However, little is known about the skills that workers need to adapt to these changes"
+#Text=]
+#Text=
+#Text=# Compute embeddings
+#Text=embeddings = model.encode(texts, convert_to_tensor=True)
+#Text=
+#Text=# Compute cosine-similarity for each pair of sentences
+#Text=scores = F.cosine_similarity(embeddings.unsqueeze(1), embeddings.unsqueeze(0), dim=-1)
+#Text=
+#Text=print(scores.cpu().numpy())
+#Text=```
+#Text=
+#Text=# Guided in-batch constrastive loss
+#Text=
+#Text=For anyone interested in the technical implementation of GISTEmbed as a training mechanism, please refer to the loss computation implemented in the loss function [`guided_in_batch_contrastive_loss`](https://github.com/avsolatorio/GISTEmbed/blob/538e3d749b1944e8362c5566385111763866fa4c/gist_embed/trainer/loss.py#L599).
+34-1	5670-5677	However	_	_	
+34-2	5677-5678	,	_	_	
+34-3	5679-5685	little	_	_	
+34-4	5686-5688	is	_	_	
+34-5	5689-5694	known	_	_	
+34-6	5695-5700	about	_	_	
+34-7	5701-5704	the	_	_	
+34-8	5705-5711	skills	_	_	
+34-9	5712-5716	that	_	_	
+34-10	5717-5724	workers	_	_	
+34-11	5725-5729	need	_	_	
+34-12	5730-5732	to	_	_	
+34-13	5733-5738	adapt	_	_	
+34-14	5739-5741	to	_	_	
+34-15	5742-5747	these	_	_	
+34-16	5748-5755	changes	_	_	
+34-17	5755-5756	"	_	_	
+34-18	5757-5758	]	_	_	
+34-19	5760-5761	#	_	_	
+34-20	5762-5769	Compute	_	_	
+34-21	5770-5780	embeddings	_	_	
+34-22	5781-5791	embeddings	_	_	
+34-23	5792-5793	=	_	_	
+34-24	5794-5806	model.encode	_	_	
+34-25	5806-5807	(	_	_	
+34-26	5807-5812	texts	_	_	
+34-27	5812-5813	,	_	_	
+34-28	5814-5831	convert_to_tensor	_	_	
+34-29	5831-5832	=	_	_	
+34-30	5832-5836	True	_	_	
+34-31	5836-5837	)	_	_	
+34-32	5839-5840	#	_	_	
+34-33	5841-5848	Compute	_	_	
+34-34	5849-5866	cosine-similarity	_	_	
+34-35	5867-5870	for	_	_	
+34-36	5871-5875	each	_	_	
+34-37	5876-5880	pair	_	_	
+34-38	5881-5883	of	_	_	
+34-39	5884-5893	sentences	_	_	
+34-40	5894-5900	scores	_	_	
+34-41	5901-5902	=	_	_	
+34-42	5903-5922	F.cosine_similarity	_	_	
+34-43	5922-5923	(	_	_	
+34-44	5923-5943	embeddings.unsqueeze	_	_	
+34-45	5943-5944	(	_	_	
+34-46	5944-5945	1	_	_	
+34-47	5945-5946	)	_	_	
+34-48	5946-5947	,	_	_	
+34-49	5948-5968	embeddings.unsqueeze	_	_	
+34-50	5968-5969	(	_	_	
+34-51	5969-5970	0	_	_	
+34-52	5970-5971	)	_	_	
+34-53	5971-5972	,	_	_	
+34-54	5973-5976	dim	_	_	
+34-55	5976-5977	=	_	_	
+34-56	5977-5978	-	_	_	
+34-57	5978-5979	1	_	_	
+34-58	5979-5980	)	_	_	
+34-59	5982-5987	print	_	_	
+34-60	5987-5988	(	_	_	
+34-61	5988-5998	scores.cpu	_	_	
+34-62	5998-5999	(	_	_	
+34-63	5999-6000	)	_	_	
+34-64	6000-6001	.	_	_	
+34-65	6001-6006	numpy	_	_	
+34-66	6006-6007	(	_	_	
+34-67	6007-6008	)	_	_	
+34-68	6008-6009	)	_	_	
+34-69	6010-6011	`	_	_	
+34-70	6011-6012	`	_	_	
+34-71	6012-6013	`	_	_	
+34-72	6015-6016	#	_	_	
+34-73	6017-6023	Guided	_	_	
+34-74	6024-6032	in-batch	_	_	
+34-75	6033-6045	constrastive	_	_	
+34-76	6046-6050	loss	_	_	
+34-77	6052-6055	For	_	_	
+34-78	6056-6062	anyone	_	_	
+34-79	6063-6073	interested	_	_	
+34-80	6074-6076	in	_	_	
+34-81	6077-6080	the	_	_	
+34-82	6081-6090	technical	_	_	
+34-83	6091-6105	implementation	_	_	
+34-84	6106-6108	of	_	_	
+34-85	6109-6118	GISTEmbed	_	_	
+34-86	6119-6121	as	_	_	
+34-87	6122-6123	a	_	_	
+34-88	6124-6132	training	_	_	
+34-89	6133-6142	mechanism	_	_	
+34-90	6142-6143	,	_	_	
+34-91	6144-6150	please	_	_	
+34-92	6151-6156	refer	_	_	
+34-93	6157-6159	to	_	_	
+34-94	6160-6163	the	_	_	
+34-95	6164-6168	loss	_	_	
+34-96	6169-6180	computation	_	_	
+34-97	6181-6192	implemented	_	_	
+34-98	6193-6195	in	_	_	
+34-99	6196-6199	the	_	_	
+34-100	6200-6204	loss	_	_	
+34-101	6205-6213	function	_	_	
+34-102	6214-6215	[	_	_	
+34-103	6215-6216	`	_	_	
+34-104	6216-6248	guided_in_batch_contrastive_loss	_	_	
+34-105	6248-6249	`	_	_	
+34-106	6249-6250	]	_	_	
+34-107	6250-6251	(	_	_	
+34-108	6251-6256	https	_	_	
+34-109	6256-6257	:	_	_	
+34-110	6257-6258	/	_	_	
+34-111	6258-6259	/	_	_	
+34-112	6259-6269	github.com	_	_	
+34-113	6269-6270	/	_	_	
+34-114	6270-6281	avsolatorio	_	_	
+34-115	6281-6282	/	_	_	
+34-116	6282-6291	GISTEmbed	_	_	
+34-117	6291-6292	/	_	_	
+34-118	6292-6296	blob	_	_	
+34-119	6296-6297	/	_	_	
+34-120	6297-6337	538e3d749b1944e8362c5566385111763866fa4c	_	_	
+34-121	6337-6338	/	_	_	
+34-122	6338-6348	gist_embed	_	_	
+34-123	6348-6349	/	_	_	
+34-124	6349-6356	trainer	_	_	
+34-125	6356-6357	/	_	_	
+34-126	6357-6364	loss.py	_	_	
+34-127	6364-6365	#	_	_	
+34-128	6365-6369	L599	_	_	
+34-129	6369-6370	)	_	_	
+34-130	6370-6371	.	_	_	
+
+#Text=This loss function is subsequently used in the [`GISTTrainer`](https://github.com/avsolatorio/GISTEmbed/blob/538e3d749b1944e8362c5566385111763866fa4c/gist_embed/trainer/trainer.py#L127)
+35-1	6373-6377	This	_	_	
+35-2	6378-6382	loss	_	_	
+35-3	6383-6391	function	_	_	
+35-4	6392-6394	is	_	_	
+35-5	6395-6407	subsequently	_	_	
+35-6	6408-6412	used	_	_	
+35-7	6413-6415	in	_	_	
+35-8	6416-6419	the	_	_	
+35-9	6420-6421	[	_	_	
+35-10	6421-6422	`	_	_	
+35-11	6422-6433	GISTTrainer	_	_	
+35-12	6433-6434	`	_	_	
+35-13	6434-6435	]	_	_	
+35-14	6435-6436	(	_	_	
+35-15	6436-6441	https	_	_	
+35-16	6441-6442	:	_	_	
+35-17	6442-6443	/	_	_	
+35-18	6443-6444	/	_	_	
+35-19	6444-6454	github.com	_	_	
+35-20	6454-6455	/	_	_	
+35-21	6455-6466	avsolatorio	_	_	
+35-22	6466-6467	/	_	_	
+35-23	6467-6476	GISTEmbed	_	_	
+35-24	6476-6477	/	_	_	
+35-25	6477-6481	blob	_	_	
+35-26	6481-6482	/	_	_	
+35-27	6482-6522	538e3d749b1944e8362c5566385111763866fa4c	_	_	
+35-28	6522-6523	/	_	_	
+35-29	6523-6533	gist_embed	_	_	
+35-30	6533-6534	/	_	_	
+35-31	6534-6541	trainer	_	_	
+35-32	6541-6542	/	_	_	
+35-33	6542-6552	trainer.py	_	_	
+35-34	6552-6553	#	_	_	
+35-35	6553-6557	L127	_	_	
+35-36	6557-6558	)	_	_	
+
+#Text=.
+36-1	6558-6559	.	_	_	
+
+#Text=# Reproducibility
+#Text=
+#Text=This section outlines how to fine-tune models using the GISTEmbed framework.
+37-1	6562-6563	#	_	_	
+37-2	6564-6579	Reproducibility	_	_	
+37-3	6581-6585	This	_	_	
+37-4	6586-6593	section	_	_	
+37-5	6594-6602	outlines	_	_	
+37-6	6603-6606	how	_	_	
+37-7	6607-6609	to	_	_	
+37-8	6610-6619	fine-tune	_	_	
+37-9	6620-6626	models	_	_	
+37-10	6627-6632	using	_	_	
+37-11	6633-6636	the	_	_	
+37-12	6637-6646	GISTEmbed	_	_	
+37-13	6647-6656	framework	_	_	
+37-14	6656-6657	.	_	_	
+
+#Text=The following steps are necessary to reproduce the results:
+#Text=
+#Text=
+#Text=First, create a new conda environment and install poetry.
+#Text=
+#Text=```
+#Text=conda create -n GISTEmbed python=3.10
+#Text=
+#Text=conda activate GISTEmbed
+#Text=
+#Text=pip install poetry
+#Text=```
+#Text=
+#Text=Next, clone the repository and install the dependencies.
+#Text=
+#Text=```
+#Text=git clone https://github.com/avsolatorio/GISTEmbed.git
+#Text=
+#Text=cd GISTEmbed
+#Text=
+#Text=poetry install
+#Text=```
+#Text=
+#Text=To reduce the likelihood of encountering issues and unexpected training runs, we set up a convention that would validate the intended parameters and configurations.
+38-1	6658-6661	The	_	_	
+38-2	6662-6671	following	_	_	
+38-3	6672-6677	steps	_	_	
+38-4	6678-6681	are	_	_	
+38-5	6682-6691	necessary	_	_	
+38-6	6692-6694	to	_	_	
+38-7	6695-6704	reproduce	_	_	
+38-8	6705-6708	the	_	_	
+38-9	6709-6716	results	_	_	
+38-10	6716-6717	:	_	_	
+38-11	6720-6725	First	_	_	
+38-12	6725-6726	,	_	_	
+38-13	6727-6733	create	_	_	
+38-14	6734-6735	a	_	_	
+38-15	6736-6739	new	_	_	
+38-16	6740-6745	conda	*	SOFTWARE	
+38-17	6746-6757	environment	_	_	
+38-18	6758-6761	and	_	_	
+38-19	6762-6769	install	_	_	
+38-20	6770-6776	poetry	*	SOFTWARE	
+38-21	6776-6777	.	_	_	
+38-22	6779-6780	`	_	_	
+38-23	6780-6781	`	_	_	
+38-24	6781-6782	`	_	_	
+38-25	6783-6788	conda	*	SOFTWARE	
+38-26	6789-6795	create	_	_	
+38-27	6796-6797	-	_	_	
+38-28	6797-6798	n	_	_	
+38-29	6799-6808	GISTEmbed	_	_	
+38-30	6809-6815	python	*	PROGLANG	
+38-31	6815-6816	=	_	_	
+38-32	6816-6820	3.10	_	_	
+38-33	6822-6827	conda	*	SOFTWARE	
+38-34	6828-6836	activate	_	_	
+38-35	6837-6846	GISTEmbed	_	_	
+38-36	6848-6851	pip	_	_	
+38-37	6852-6859	install	_	_	
+38-38	6860-6866	poetry	*	SOFTWARE	
+38-39	6867-6868	`	_	_	
+38-40	6868-6869	`	_	_	
+38-41	6869-6870	`	_	_	
+38-42	6872-6876	Next	_	_	
+38-43	6876-6877	,	_	_	
+38-44	6878-6883	clone	_	_	
+38-45	6884-6887	the	_	_	
+38-46	6888-6898	repository	_	_	
+38-47	6899-6902	and	_	_	
+38-48	6903-6910	install	_	_	
+38-49	6911-6914	the	_	_	
+38-50	6915-6927	dependencies	_	_	
+38-51	6927-6928	.	_	_	
+38-52	6930-6931	`	_	_	
+38-53	6931-6932	`	_	_	
+38-54	6932-6933	`	_	_	
+38-55	6934-6937	git	*	SOFTWARE	
+38-56	6938-6943	clone	_	_	
+38-57	6944-6949	https	_	_	
+38-58	6949-6950	:	_	_	
+38-59	6950-6951	/	_	_	
+38-60	6951-6952	/	_	_	
+38-61	6952-6962	github.com	_	_	
+38-62	6962-6963	/	_	_	
+38-63	6963-6974	avsolatorio	_	_	
+38-64	6974-6975	/	_	_	
+38-65	6975-6988	GISTEmbed.git	_	_	
+38-66	6990-6992	cd	_	_	
+38-67	6993-7002	GISTEmbed	_	_	
+38-68	7004-7010	poetry	*	SOFTWARE	
+38-69	7011-7018	install	_	_	
+38-70	7019-7020	`	_	_	
+38-71	7020-7021	`	_	_	
+38-72	7021-7022	`	_	_	
+38-73	7024-7026	To	_	_	
+38-74	7027-7033	reduce	_	_	
+38-75	7034-7037	the	_	_	
+38-76	7038-7048	likelihood	_	_	
+38-77	7049-7051	of	_	_	
+38-78	7052-7064	encountering	_	_	
+38-79	7065-7071	issues	_	_	
+38-80	7072-7075	and	_	_	
+38-81	7076-7086	unexpected	_	_	
+38-82	7087-7095	training	_	_	
+38-83	7096-7100	runs	_	_	
+38-84	7100-7101	,	_	_	
+38-85	7102-7104	we	_	_	
+38-86	7105-7108	set	_	_	
+38-87	7109-7111	up	_	_	
+38-88	7112-7113	a	_	_	
+38-89	7114-7124	convention	_	_	
+38-90	7125-7129	that	_	_	
+38-91	7130-7135	would	_	_	
+38-92	7136-7144	validate	_	_	
+38-93	7145-7148	the	_	_	
+38-94	7149-7157	intended	_	_	
+38-95	7158-7168	parameters	_	_	
+38-96	7169-7172	and	_	_	
+38-97	7173-7187	configurations	_	_	
+38-98	7187-7188	.	_	_	
+
+#Text=One can refer to the [gist_embed/validator.py](gist_embed/validator.py) file to see the validation logic.
+39-1	7190-7193	One	_	_	
+39-2	7194-7197	can	_	_	
+39-3	7198-7203	refer	_	_	
+39-4	7204-7206	to	_	_	
+39-5	7207-7210	the	_	_	
+39-6	7211-7212	[	_	_	
+39-7	7212-7222	gist_embed	_	_	
+39-8	7222-7223	/	_	_	
+39-9	7223-7235	validator.py	_	_	
+39-10	7235-7236	]	_	_	
+39-11	7236-7237	(	_	_	
+39-12	7237-7247	gist_embed	_	_	
+39-13	7247-7248	/	_	_	
+39-14	7248-7260	validator.py	_	_	
+39-15	7260-7261	)	_	_	
+39-16	7262-7266	file	_	_	
+39-17	7267-7269	to	_	_	
+39-18	7270-7273	see	_	_	
+39-19	7274-7277	the	_	_	
+39-20	7278-7288	validation	_	_	
+39-21	7289-7294	logic	_	_	
+39-22	7294-7295	.	_	_	
+
+#Text=Additional configurations must be registered in the validator to ensure that the intended parameters are correctly set.
+40-1	7296-7306	Additional	_	_	
+40-2	7307-7321	configurations	_	_	
+40-3	7322-7326	must	_	_	
+40-4	7327-7329	be	_	_	
+40-5	7330-7340	registered	_	_	
+40-6	7341-7343	in	_	_	
+40-7	7344-7347	the	_	_	
+40-8	7348-7357	validator	_	_	
+40-9	7358-7360	to	_	_	
+40-10	7361-7367	ensure	_	_	
+40-11	7368-7372	that	_	_	
+40-12	7373-7376	the	_	_	
+40-13	7377-7385	intended	_	_	
+40-14	7386-7396	parameters	_	_	
+40-15	7397-7400	are	_	_	
+40-16	7401-7410	correctly	_	_	
+40-17	7411-7414	set	_	_	
+40-18	7414-7415	.	_	_	
+
+#Text=After registering the intended configurations, an experiment script can be created to fine-tune the model.
+41-1	7417-7422	After	_	_	
+41-2	7423-7434	registering	_	_	
+41-3	7435-7438	the	_	_	
+41-4	7439-7447	intended	_	_	
+41-5	7448-7462	configurations	_	_	
+41-6	7462-7463	,	_	_	
+41-7	7464-7466	an	_	_	
+41-8	7467-7477	experiment	_	_	
+41-9	7478-7484	script	_	_	
+41-10	7485-7488	can	_	_	
+41-11	7489-7491	be	_	_	
+41-12	7492-7499	created	_	_	
+41-13	7500-7502	to	_	_	
+41-14	7503-7512	fine-tune	_	_	
+41-15	7513-7516	the	_	_	
+41-16	7517-7522	model	_	_	
+41-17	7522-7523	.	_	_	
+
+#Text=See example: [experiments/01-600-11-1-2-2-0-0-cls-normed-384-512_run_finetune_experiment.sh](experiments/01-600-11-1-2-2-0-0-cls-normed-384-512_run_finetune_experiment.sh).
+42-1	7524-7527	See	_	_	
+42-2	7528-7535	example	_	_	
+42-3	7535-7536	:	_	_	
+42-4	7537-7538	[	_	_	
+42-5	7538-7549	experiments	_	_	
+42-6	7549-7550	/	_	_	
+42-7	7550-7552	01	_	_	
+42-8	7552-7553	-	_	_	
+42-9	7553-7556	600	_	_	
+42-10	7556-7557	-	_	_	
+42-11	7557-7559	11	_	_	
+42-12	7559-7560	-	_	_	
+42-13	7560-7561	1	_	_	
+42-14	7561-7562	-	_	_	
+42-15	7562-7563	2	_	_	
+42-16	7563-7564	-	_	_	
+42-17	7564-7565	2	_	_	
+42-18	7565-7566	-	_	_	
+42-19	7566-7567	0	_	_	
+42-20	7567-7568	-	_	_	
+42-21	7568-7569	0	_	_	
+42-22	7569-7570	-	_	_	
+42-23	7570-7580	cls-normed	_	_	
+42-24	7580-7581	-	_	_	
+42-25	7581-7584	384	_	_	
+42-26	7584-7585	-	_	_	
+42-27	7585-7588	512	_	_	
+42-28	7588-7589	_	_	_	
+42-29	7589-7615	run_finetune_experiment.sh	_	_	
+42-30	7615-7616	]	_	_	
+42-31	7616-7617	(	_	_	
+42-32	7617-7628	experiments	_	_	
+42-33	7628-7629	/	_	_	
+42-34	7629-7631	01	_	_	
+42-35	7631-7632	-	_	_	
+42-36	7632-7635	600	_	_	
+42-37	7635-7636	-	_	_	
+42-38	7636-7638	11	_	_	
+42-39	7638-7639	-	_	_	
+42-40	7639-7640	1	_	_	
+42-41	7640-7641	-	_	_	
+42-42	7641-7642	2	_	_	
+42-43	7642-7643	-	_	_	
+42-44	7643-7644	2	_	_	
+42-45	7644-7645	-	_	_	
+42-46	7645-7646	0	_	_	
+42-47	7646-7647	-	_	_	
+42-48	7647-7648	0	_	_	
+42-49	7648-7649	-	_	_	
+42-50	7649-7659	cls-normed	_	_	
+42-51	7659-7660	-	_	_	
+42-52	7660-7663	384	_	_	
+42-53	7663-7664	-	_	_	
+42-54	7664-7667	512	_	_	
+42-55	7667-7668	_	_	_	
+42-56	7668-7694	run_finetune_experiment.sh	_	_	
+42-57	7694-7695	)	_	_	
+42-58	7695-7696	.	_	_	
+
+#Text=Details of the arguments used in the script can be found in the [gist_embed/trainer/arguments](gist_embed/trainer/arguments) file.
+43-1	7698-7705	Details	_	_	
+43-2	7706-7708	of	_	_	
+43-3	7709-7712	the	_	_	
+43-4	7713-7722	arguments	_	_	
+43-5	7723-7727	used	_	_	
+43-6	7728-7730	in	_	_	
+43-7	7731-7734	the	_	_	
+43-8	7735-7741	script	_	_	
+43-9	7742-7745	can	_	_	
+43-10	7746-7748	be	_	_	
+43-11	7749-7754	found	_	_	
+43-12	7755-7757	in	_	_	
+43-13	7758-7761	the	_	_	
+43-14	7762-7763	[	_	_	
+43-15	7763-7773	gist_embed	_	_	
+43-16	7773-7774	/	_	_	
+43-17	7774-7781	trainer	_	_	
+43-18	7781-7782	/	_	_	
+43-19	7782-7791	arguments	_	_	
+43-20	7791-7792	]	_	_	
+43-21	7792-7793	(	_	_	
+43-22	7793-7803	gist_embed	_	_	
+43-23	7803-7804	/	_	_	
+43-24	7804-7811	trainer	_	_	
+43-25	7811-7812	/	_	_	
+43-26	7812-7821	arguments	_	_	
+43-27	7821-7822	)	_	_	
+43-28	7823-7827	file	_	_	
+43-29	7827-7828	.	_	_	
+
+#Text=To run the experiment, simply execute the following command:
+#Text=
+#Text=```
+#Text=bash experiments/01-600-11-1-2-2-0-0-cls-normed-384-512_run_finetune_experiment.sh
+#Text=```
+#Text=
+#Text=The script will execute the experiment and save the model to the specified output directory.
+44-1	7830-7832	To	_	_	
+44-2	7833-7836	run	_	_	
+44-3	7837-7840	the	_	_	
+44-4	7841-7851	experiment	_	_	
+44-5	7851-7852	,	_	_	
+44-6	7853-7859	simply	_	_	
+44-7	7860-7867	execute	_	_	
+44-8	7868-7871	the	_	_	
+44-9	7872-7881	following	_	_	
+44-10	7882-7889	command	_	_	
+44-11	7889-7890	:	_	_	
+44-12	7892-7893	`	_	_	
+44-13	7893-7894	`	_	_	
+44-14	7894-7895	`	_	_	
+44-15	7896-7900	bash	_	_	
+44-16	7901-7912	experiments	_	_	
+44-17	7912-7913	/	_	_	
+44-18	7913-7915	01	_	_	
+44-19	7915-7916	-	_	_	
+44-20	7916-7919	600	_	_	
+44-21	7919-7920	-	_	_	
+44-22	7920-7922	11	_	_	
+44-23	7922-7923	-	_	_	
+44-24	7923-7924	1	_	_	
+44-25	7924-7925	-	_	_	
+44-26	7925-7926	2	_	_	
+44-27	7926-7927	-	_	_	
+44-28	7927-7928	2	_	_	
+44-29	7928-7929	-	_	_	
+44-30	7929-7930	0	_	_	
+44-31	7930-7931	-	_	_	
+44-32	7931-7932	0	_	_	
+44-33	7932-7933	-	_	_	
+44-34	7933-7943	cls-normed	_	_	
+44-35	7943-7944	-	_	_	
+44-36	7944-7947	384	_	_	
+44-37	7947-7948	-	_	_	
+44-38	7948-7951	512	_	_	
+44-39	7951-7952	_	_	_	
+44-40	7952-7978	run_finetune_experiment.sh	_	_	
+44-41	7979-7980	`	_	_	
+44-42	7980-7981	`	_	_	
+44-43	7981-7982	`	_	_	
+44-44	7984-7987	The	_	_	
+44-45	7988-7994	script	_	_	
+44-46	7995-7999	will	_	_	
+44-47	8000-8007	execute	_	_	
+44-48	8008-8011	the	_	_	
+44-49	8012-8022	experiment	_	_	
+44-50	8023-8026	and	_	_	
+44-51	8027-8031	save	_	_	
+44-52	8032-8035	the	_	_	
+44-53	8036-8041	model	_	_	
+44-54	8042-8044	to	_	_	
+44-55	8045-8048	the	_	_	
+44-56	8049-8058	specified	_	_	
+44-57	8059-8065	output	_	_	
+44-58	8066-8075	directory	_	_	
+44-59	8075-8076	.	_	_	
+
+#Text=There are configurations in the script that handles the model checkpointing to Hugging Face model hub.
+45-1	8077-8082	There	_	_	
+45-2	8083-8086	are	_	_	
+45-3	8087-8101	configurations	_	_	
+45-4	8102-8104	in	_	_	
+45-5	8105-8108	the	_	_	
+45-6	8109-8115	script	_	_	
+45-7	8116-8120	that	_	_	
+45-8	8121-8128	handles	_	_	
+45-9	8129-8132	the	_	_	
+45-10	8133-8138	model	_	_	
+45-11	8139-8152	checkpointing	_	_	
+45-12	8153-8155	to	_	_	
+45-13	8156-8163	Hugging	_	_	
+45-14	8164-8168	Face	_	_	
+45-15	8169-8174	model	_	_	
+45-16	8175-8178	hub	_	_	
+45-17	8178-8179	.	_	_	
+
+#Text=Ensure to change the `--callback_hub_organization <organization>` to the appropriate organization.
+46-1	8180-8186	Ensure	_	_	
+46-2	8187-8189	to	_	_	
+46-3	8190-8196	change	_	_	
+46-4	8197-8200	the	_	_	
+46-5	8201-8202	`	_	_	
+46-6	8202-8203	-	_	_	
+46-7	8203-8204	-	_	_	
+46-8	8204-8229	callback_hub_organization	_	_	
+46-9	8230-8231	<	_	_	
+46-10	8231-8243	organization	_	_	
+46-11	8243-8244	>	_	_	
+46-12	8244-8245	`	_	_	
+46-13	8246-8248	to	_	_	
+46-14	8249-8252	the	_	_	
+46-15	8253-8264	appropriate	_	_	
+46-16	8265-8277	organization	_	_	
+46-17	8277-8278	.	_	_	
+
+#Text=The script also uses WANDB for logging.
+47-1	8280-8283	The	_	_	
+47-2	8284-8290	script	_	_	
+47-3	8291-8295	also	_	_	
+47-4	8296-8300	uses	_	_	
+47-5	8301-8306	WANDB	*	SOFTWARE	
+47-6	8307-8310	for	_	_	
+47-7	8311-8318	logging	_	_	
+47-8	8318-8319	.	_	_	
+
+#Text=Ensure to set the `WANDB_API_KEY` environment variable to enable logging to WANDB
+48-1	8320-8326	Ensure	_	_	
+48-2	8327-8329	to	_	_	
+48-3	8330-8333	set	_	_	
+48-4	8334-8337	the	_	_	
+48-5	8338-8339	`	_	_	
+48-6	8339-8352	WANDB_API_KEY	_	_	
+48-6.1	8339-8344	WANDB	*	SOFTWARE	
+48-7	8352-8353	`	_	_	
+48-8	8354-8365	environment	_	_	
+48-9	8366-8374	variable	_	_	
+48-10	8375-8377	to	_	_	
+48-11	8378-8384	enable	_	_	
+48-12	8385-8392	logging	_	_	
+48-13	8393-8395	to	_	_	
+48-14	8396-8401	WANDB	*	SOFTWARE	
+
+#Text=.
+49-1	8401-8402	.	_	_	
+
+#Text=# Base model
+#Text=
+#Text=We have implemented some tricks on top of the (excellent!)
+50-1	8404-8405	#	_	_	
+50-2	8406-8410	Base	_	_	
+50-3	8411-8416	model	_	_	
+50-4	8418-8420	We	_	_	
+50-5	8421-8425	have	_	_	
+50-6	8426-8437	implemented	_	_	
+50-7	8438-8442	some	_	_	
+50-8	8443-8449	tricks	_	_	
+50-9	8450-8452	on	_	_	
+50-10	8453-8456	top	_	_	
+50-11	8457-8459	of	_	_	
+50-12	8460-8463	the	_	_	
+50-13	8464-8465	(	_	_	
+50-14	8465-8474	excellent	_	_	
+50-15	8474-8475	!	_	_	
+50-16	8475-8476	)	_	_	
+
+#Text=Sentence Transformers library to support the GISTEmbed framework.
+51-1	8477-8485	Sentence	*[31]	SOFTWARE[31]	
+51-2	8486-8498	Transformers	*[31]	SOFTWARE[31]	
+51-3	8499-8506	library	_	_	
+51-4	8507-8509	to	_	_	
+51-5	8510-8517	support	_	_	
+51-6	8518-8521	the	_	_	
+51-7	8522-8531	GISTEmbed	_	_	
+51-8	8532-8541	framework	_	_	
+51-9	8541-8542	.	_	_	
+
+#Text=One notable trick is supporting gradient checkpointing for training the models.
+52-1	8543-8546	One	_	_	
+52-2	8547-8554	notable	_	_	
+52-3	8555-8560	trick	_	_	
+52-4	8561-8563	is	_	_	
+52-5	8564-8574	supporting	_	_	
+52-6	8575-8583	gradient	_	_	
+52-7	8584-8597	checkpointing	_	_	
+52-8	8598-8601	for	_	_	
+52-9	8602-8610	training	_	_	
+52-10	8611-8614	the	_	_	
+52-11	8615-8621	models	_	_	
+52-12	8621-8622	.	_	_	
+
+#Text=This is particularly useful for training large models with limited GPU memory.
+53-1	8623-8627	This	_	_	
+53-2	8628-8630	is	_	_	
+53-3	8631-8643	particularly	_	_	
+53-4	8644-8650	useful	_	_	
+53-5	8651-8654	for	_	_	
+53-6	8655-8663	training	_	_	
+53-7	8664-8669	large	_	_	
+53-8	8670-8676	models	_	_	
+53-9	8677-8681	with	_	_	
+53-10	8682-8689	limited	_	_	
+53-11	8690-8693	GPU	_	_	
+53-12	8694-8700	memory	_	_	
+53-13	8700-8701	.	_	_	
+
+#Text=See the [gist_embed/base.py](gist_embed/base.py) file for the implementation details
+54-1	8703-8706	See	_	_	
+54-2	8707-8710	the	_	_	
+54-3	8711-8712	[	_	_	
+54-4	8712-8722	gist_embed	_	_	
+54-5	8722-8723	/	_	_	
+54-6	8723-8730	base.py	_	_	
+54-7	8730-8731	]	_	_	
+54-8	8731-8732	(	_	_	
+54-9	8732-8742	gist_embed	_	_	
+54-10	8742-8743	/	_	_	
+54-11	8743-8750	base.py	_	_	
+54-12	8750-8751	)	_	_	
+54-13	8752-8756	file	_	_	
+54-14	8757-8760	for	_	_	
+54-15	8761-8764	the	_	_	
+54-16	8765-8779	implementation	_	_	
+54-17	8780-8787	details	_	_	
+
+#Text=.
+55-1	8787-8788	.	_	_	
+
+#Text=# Training Parameters
+#Text=
+#Text=Below are the training parameters used to fine-tune the model:
+#Text=
+#Text=```
+#Text=Epochs = 80
+#Text=Warmup ratio = 0.1
+#Text=Learning rate = 5e-6
+#Text=Batch size = 32
+#Text=Checkpoint step = 103500
+#Text=Contrastive loss temperature = 0.01
+#Text=```
+#Text=
+#Text=Specific training details and strategies will be published shortly
+56-1	8790-8791	#	_	_	
+56-2	8792-8800	Training	_	_	
+56-3	8801-8811	Parameters	_	_	
+56-4	8813-8818	Below	_	_	
+56-5	8819-8822	are	_	_	
+56-6	8823-8826	the	_	_	
+56-7	8827-8835	training	_	_	
+56-8	8836-8846	parameters	_	_	
+56-9	8847-8851	used	_	_	
+56-10	8852-8854	to	_	_	
+56-11	8855-8864	fine-tune	_	_	
+56-12	8865-8868	the	_	_	
+56-13	8869-8874	model	_	_	
+56-14	8874-8875	:	_	_	
+56-15	8877-8878	`	_	_	
+56-16	8878-8879	`	_	_	
+56-17	8879-8880	`	_	_	
+56-18	8881-8887	Epochs	_	_	
+56-19	8888-8889	=	_	_	
+56-20	8890-8892	80	_	_	
+56-21	8893-8899	Warmup	_	_	
+56-22	8900-8905	ratio	_	_	
+56-23	8906-8907	=	_	_	
+56-24	8908-8911	0.1	_	_	
+56-25	8912-8920	Learning	_	_	
+56-26	8921-8925	rate	_	_	
+56-27	8926-8927	=	_	_	
+56-28	8928-8930	5e	_	_	
+56-29	8930-8931	-	_	_	
+56-30	8931-8932	6	_	_	
+56-31	8933-8938	Batch	_	_	
+56-32	8939-8943	size	_	_	
+56-33	8944-8945	=	_	_	
+56-34	8946-8948	32	_	_	
+56-35	8949-8959	Checkpoint	_	_	
+56-36	8960-8964	step	_	_	
+56-37	8965-8966	=	_	_	
+56-38	8967-8973	103500	_	_	
+56-39	8974-8985	Contrastive	_	_	
+56-40	8986-8990	loss	_	_	
+56-41	8991-9002	temperature	_	_	
+56-42	9003-9004	=	_	_	
+56-43	9005-9009	0.01	_	_	
+56-44	9010-9011	`	_	_	
+56-45	9011-9012	`	_	_	
+56-46	9012-9013	`	_	_	
+56-47	9015-9023	Specific	_	_	
+56-48	9024-9032	training	_	_	
+56-49	9033-9040	details	_	_	
+56-50	9041-9044	and	_	_	
+56-51	9045-9055	strategies	_	_	
+56-52	9056-9060	will	_	_	
+56-53	9061-9063	be	_	_	
+56-54	9064-9073	published	_	_	
+56-55	9074-9081	shortly	_	_	
+
+#Text=.
+57-1	9081-9082	.	_	_	
+
+#Text=# Evaluation
+#Text=
+#Text=The model was evaluated using the [MTEB Evaluation](https://huggingface.co/mteb) suite
+58-1	9084-9085	#	_	_	
+58-2	9086-9096	Evaluation	_	_	
+58-3	9098-9101	The	_	_	
+58-4	9102-9107	model	_	_	
+58-5	9108-9111	was	_	_	
+58-6	9112-9121	evaluated	_	_	
+58-7	9122-9127	using	_	_	
+58-8	9128-9131	the	_	_	
+58-9	9132-9133	[	_	_	
+58-10	9133-9137	MTEB	*	DATASET	
+58-11	9138-9148	Evaluation	_	_	
+58-12	9148-9149	]	_	_	
+58-13	9149-9150	(	_	_	
+58-14	9150-9155	https	_	_	
+58-15	9155-9156	:	_	_	
+58-16	9156-9157	/	_	_	
+58-17	9157-9158	/	_	_	
+58-18	9158-9172	huggingface.co	_	_	
+58-19	9172-9173	/	_	_	
+58-20	9173-9177	mteb	*	DATASET	
+58-21	9177-9178	)	_	_	
+58-22	9179-9184	suite	_	_	
+
+#Text=.
+59-1	9184-9185	.	_	_	
+
+#Text=# Citation
+#Text=Please cite our work if you use GISTEmbed or the datasets we published in your projects or research
+#Text=
+#Text=```
+#Text=@article{solatorio2024gistembed,
+#Text=    title={GISTEmbed: Guided In-sample Selection of Training Negatives for Text Embedding Fine-tuning},
+#Text=    author={Aivin V.
+60-1	9188-9189	#	_	_	
+60-2	9190-9198	Citation	_	_	
+60-3	9199-9205	Please	_	_	
+60-4	9206-9210	cite	_	_	
+60-5	9211-9214	our	_	_	
+60-6	9215-9219	work	_	_	
+60-7	9220-9222	if	_	_	
+60-8	9223-9226	you	_	_	
+60-9	9227-9230	use	_	_	
+60-10	9231-9240	GISTEmbed	_	_	
+60-11	9241-9243	or	_	_	
+60-12	9244-9247	the	_	_	
+60-13	9248-9256	datasets	_	_	
+60-14	9257-9259	we	_	_	
+60-15	9260-9269	published	_	_	
+60-16	9270-9272	in	_	_	
+60-17	9273-9277	your	_	_	
+60-18	9278-9286	projects	_	_	
+60-19	9287-9289	or	_	_	
+60-20	9290-9298	research	_	_	
+60-21	9300-9301	`	_	_	
+60-22	9301-9302	`	_	_	
+60-23	9302-9303	`	_	_	
+60-24	9304-9305	@	_	_	
+60-25	9305-9312	article	_	_	
+60-26	9312-9313	{	_	_	
+60-27	9313-9335	solatorio2024gistembed	_	_	
+60-28	9335-9336	,	_	_	
+60-29	9341-9346	title	_	_	
+60-30	9346-9347	=	_	_	
+60-31	9347-9348	{	_	_	
+60-32	9348-9357	GISTEmbed	*[32]	PUBLICATION[32]	
+60-33	9357-9358	:	*[32]	PUBLICATION[32]	
+60-34	9359-9365	Guided	*[32]	PUBLICATION[32]	
+60-35	9366-9375	In-sample	*[32]	PUBLICATION[32]	
+60-36	9376-9385	Selection	*[32]	PUBLICATION[32]	
+60-37	9386-9388	of	*[32]	PUBLICATION[32]	
+60-38	9389-9397	Training	*[32]	PUBLICATION[32]	
+60-39	9398-9407	Negatives	*[32]	PUBLICATION[32]	
+60-40	9408-9411	for	*[32]	PUBLICATION[32]	
+60-41	9412-9416	Text	*[32]	PUBLICATION[32]	
+60-42	9417-9426	Embedding	*[32]	PUBLICATION[32]	
+60-43	9427-9438	Fine-tuning	*[32]	PUBLICATION[32]	
+60-44	9438-9439	}	_	_	
+60-45	9439-9440	,	_	_	
+60-46	9445-9451	author	_	_	
+60-47	9451-9452	=	_	_	
+60-48	9452-9453	{	_	_	
+60-49	9453-9458	Aivin	_	_	
+60-50	9459-9460	V	_	_	
+60-51	9460-9461	.	_	_	
+
+#Text=Solatorio},
+#Text=    journal={arXiv preprint arXiv:2402.16829},
+#Text=    year={2024},
+#Text=    URL={https://arxiv.org/abs/2402.16829}
+#Text=    eprint={2402.16829},
+#Text=    archivePrefix={arXiv},
+#Text=    primaryClass={cs.LG}
+#Text=}
+#Text=```
+#Text=
+#Text=# Acknowledgements
+#Text=
+#Text=This work is supported by the "KCP IV - Exploring Data Use in the Development Economics Literature using Large Language Models (AI and LLMs)" project funded by the [Knowledge for Change Program (KCP)](https://www.worldbank.org/en/programs/knowledge-for-change) of the World Bank - RA-P503405-RESE-TF0C3444.
+61-1	9462-9471	Solatorio	_	_	
+61-2	9471-9472	}	_	_	
+61-3	9472-9473	,	_	_	
+61-4	9478-9485	journal	_	_	
+61-5	9485-9486	=	_	_	
+61-6	9486-9487	{	_	_	
+61-7	9487-9492	arXiv	_	_	
+61-8	9493-9501	preprint	_	_	
+61-9	9502-9507	arXiv	_	_	
+61-10	9507-9508	:	_	_	
+61-11	9508-9518	2402.16829	_	_	
+61-12	9518-9519	}	_	_	
+61-13	9519-9520	,	_	_	
+61-14	9525-9529	year	_	_	
+61-15	9529-9530	=	_	_	
+61-16	9530-9531	{	_	_	
+61-17	9531-9535	2024	_	_	
+61-18	9535-9536	}	_	_	
+61-19	9536-9537	,	_	_	
+61-20	9542-9545	URL	_	_	
+61-21	9545-9546	=	_	_	
+61-22	9546-9547	{	_	_	
+61-23	9547-9552	https	_	_	
+61-24	9552-9553	:	_	_	
+61-25	9553-9554	/	_	_	
+61-26	9554-9555	/	_	_	
+61-27	9555-9564	arxiv.org	_	_	
+61-28	9564-9565	/	_	_	
+61-29	9565-9568	abs	_	_	
+61-30	9568-9569	/	_	_	
+61-31	9569-9579	2402.16829	_	_	
+61-32	9579-9580	}	_	_	
+61-33	9585-9591	eprint	_	_	
+61-34	9591-9592	=	_	_	
+61-35	9592-9593	{	_	_	
+61-36	9593-9603	2402.16829	_	_	
+61-37	9603-9604	}	_	_	
+61-38	9604-9605	,	_	_	
+61-39	9610-9623	archivePrefix	_	_	
+61-40	9623-9624	=	_	_	
+61-41	9624-9625	{	_	_	
+61-42	9625-9630	arXiv	_	_	
+61-43	9630-9631	}	_	_	
+61-44	9631-9632	,	_	_	
+61-45	9637-9649	primaryClass	_	_	
+61-46	9649-9650	=	_	_	
+61-47	9650-9651	{	_	_	
+61-48	9651-9656	cs.LG	_	_	
+61-49	9656-9657	}	_	_	
+61-50	9658-9659	}	_	_	
+61-51	9660-9661	`	_	_	
+61-52	9661-9662	`	_	_	
+61-53	9662-9663	`	_	_	
+61-54	9665-9666	#	_	_	
+61-55	9667-9683	Acknowledgements	_	_	
+61-56	9685-9689	This	_	_	
+61-57	9690-9694	work	_	_	
+61-58	9695-9697	is	_	_	
+61-59	9698-9707	supported	_	_	
+61-60	9708-9710	by	_	_	
+61-61	9711-9714	the	_	_	
+61-62	9715-9716	"	_	_	
+61-63	9716-9719	KCP	*[33]	PROJECT[33]	
+61-64	9720-9722	IV	*[33]	PROJECT[33]	
+61-65	9723-9724	-	*[33]	PROJECT[33]	
+61-66	9725-9734	Exploring	*[33]	PROJECT[33]	
+61-67	9735-9739	Data	*[33]	PROJECT[33]	
+61-68	9740-9743	Use	*[33]	PROJECT[33]	
+61-69	9744-9746	in	*[33]	PROJECT[33]	
+61-70	9747-9750	the	*[33]	PROJECT[33]	
+61-71	9751-9762	Development	*[33]	PROJECT[33]	
+61-72	9763-9772	Economics	*[33]	PROJECT[33]	
+61-73	9773-9783	Literature	*[33]	PROJECT[33]	
+61-74	9784-9789	using	*[33]	PROJECT[33]	
+61-75	9790-9795	Large	*[33]	PROJECT[33]	
+61-76	9796-9804	Language	*[33]	PROJECT[33]	
+61-77	9805-9811	Models	*[33]	PROJECT[33]	
+61-78	9812-9813	(	*[33]	PROJECT[33]	
+61-79	9813-9815	AI	*[33]	PROJECT[33]	
+61-80	9816-9819	and	*[33]	PROJECT[33]	
+61-81	9820-9824	LLMs	*[33]	PROJECT[33]	
+61-82	9824-9825	)	*[33]	PROJECT[33]	
+61-83	9825-9826	"	_	_	
+61-84	9827-9834	project	_	_	
+61-85	9835-9841	funded	_	_	
+61-86	9842-9844	by	_	_	
+61-87	9845-9848	the	_	_	
+61-88	9849-9850	[	_	_	
+61-89	9850-9859	Knowledge	_	_	
+61-90	9860-9863	for	_	_	
+61-91	9864-9870	Change	_	_	
+61-92	9871-9878	Program	_	_	
+61-93	9879-9880	(	_	_	
+61-94	9880-9883	KCP	_	_	
+61-95	9883-9884	)	_	_	
+61-96	9884-9885	]	_	_	
+61-97	9885-9886	(	_	_	
+61-98	9886-9891	https	_	_	
+61-99	9891-9892	:	_	_	
+61-100	9892-9893	/	_	_	
+61-101	9893-9894	/	_	_	
+61-102	9894-9911	www.worldbank.org	_	_	
+61-103	9911-9912	/	_	_	
+61-104	9912-9914	en	_	_	
+61-105	9914-9915	/	_	_	
+61-106	9915-9923	programs	_	_	
+61-107	9923-9924	/	_	_	
+61-108	9924-9944	knowledge-for-change	_	_	
+61-109	9944-9945	)	_	_	
+61-110	9946-9948	of	_	_	
+61-111	9949-9952	the	_	_	
+61-112	9953-9958	World	_	_	
+61-113	9959-9963	Bank	_	_	
+61-114	9964-9965	-	_	_	
+61-115	9966-9976	RA-P503405	_	_	
+61-116	9976-9977	-	_	_	
+61-117	9977-9990	RESE-TF0C3444	_	_	
+61-118	9990-9991	.	_	_	
+
+#Text=The findings, interpretations, and conclusions expressed in this material are entirely those of the authors.
+62-1	9993-9996	The	_	_	
+62-2	9997-10005	findings	_	_	
+62-3	10005-10006	,	_	_	
+62-4	10007-10022	interpretations	_	_	
+62-5	10022-10023	,	_	_	
+62-6	10024-10027	and	_	_	
+62-7	10028-10039	conclusions	_	_	
+62-8	10040-10049	expressed	_	_	
+62-9	10050-10052	in	_	_	
+62-10	10053-10057	this	_	_	
+62-11	10058-10066	material	_	_	
+62-12	10067-10070	are	_	_	
+62-13	10071-10079	entirely	_	_	
+62-14	10080-10085	those	_	_	
+62-15	10086-10088	of	_	_	
+62-16	10089-10092	the	_	_	
+62-17	10093-10100	authors	_	_	
+62-18	10100-10101	.	_	_	
+
+#Text=They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.
+63-1	10102-10106	They	_	_	
+63-2	10107-10109	do	_	_	
+63-3	10110-10113	not	_	_	
+63-4	10114-10125	necessarily	_	_	
+63-5	10126-10135	represent	_	_	
+63-6	10136-10139	the	_	_	
+63-7	10140-10145	views	_	_	
+63-8	10146-10148	of	_	_	
+63-9	10149-10152	the	_	_	
+63-10	10153-10166	International	_	_	
+63-11	10167-10171	Bank	_	_	
+63-12	10172-10175	for	_	_	
+63-13	10176-10190	Reconstruction	_	_	
+63-14	10191-10194	and	_	_	
+63-15	10195-10206	Development	_	_	
+63-16	10206-10207	/	_	_	
+63-17	10207-10212	World	_	_	
+63-18	10213-10217	Bank	_	_	
+63-19	10218-10221	and	_	_	
+63-20	10222-10225	its	_	_	
+63-21	10226-10236	affiliated	_	_	
+63-22	10237-10250	organizations	_	_	
+63-23	10250-10251	,	_	_	
+63-24	10252-10254	or	_	_	
+63-25	10255-10260	those	_	_	
+63-26	10261-10263	of	_	_	
+63-27	10264-10267	the	_	_	
+63-28	10268-10277	Executive	_	_	
+63-29	10278-10287	Directors	_	_	
+63-30	10288-10290	of	_	_	
+63-31	10291-10294	the	_	_	
+63-32	10295-10300	World	_	_	
+63-33	10301-10305	Bank	_	_	
+63-34	10306-10308	or	_	_	
+63-35	10309-10312	the	_	_	
+63-36	10313-10324	governments	_	_	
+63-37	10325-10329	they	_	_	
+63-38	10330-10339	represent	_	_	
+63-39	10339-10340	.	_	_	
+
+#Text=We also send 🤗 to the HuggingFace 🤗, Sentence Transformers, PyTorch, and to all open-sourced projects for all the open-sourced software they release.
+64-1	10342-10344	We	_	_	
+64-2	10345-10349	also	_	_	
+64-3	10350-10354	send	_	_	
+64-4	10355-10357	🤗	_	_	
+64-5	10358-10360	to	_	_	
+64-6	10361-10364	the	_	_	
+64-7	10365-10376	HuggingFace	_	_	
+64-8	10377-10379	🤗	_	_	
+64-9	10379-10380	,	_	_	
+64-10	10381-10389	Sentence	_	_	
+64-11	10390-10402	Transformers	_	_	
+64-12	10402-10403	,	_	_	
+64-13	10404-10411	PyTorch	_	_	
+64-14	10411-10412	,	_	_	
+64-15	10413-10416	and	_	_	
+64-16	10417-10419	to	_	_	
+64-17	10420-10423	all	_	_	
+64-18	10424-10436	open-sourced	_	_	
+64-19	10437-10445	projects	_	_	
+64-20	10446-10449	for	_	_	
+64-21	10450-10453	all	_	_	
+64-22	10454-10457	the	_	_	
+64-23	10458-10470	open-sourced	_	_	
+64-24	10471-10479	software	_	_	
+64-25	10480-10484	they	_	_	
+64-26	10485-10492	release	_	_	
+64-27	10492-10493	.	_	_	

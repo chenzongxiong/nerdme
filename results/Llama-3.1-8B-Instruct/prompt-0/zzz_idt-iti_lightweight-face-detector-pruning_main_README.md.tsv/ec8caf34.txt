@@ -1,0 +1,13 @@
+Make sure to change the path within the script to convert the desired model to torchscript form using `<SOFTWARE>TorchScript</SOFTWARE>`.
+ 
+In the original code, we have to replace the `<SOFTWARE>torch</SOFTWARE>` model with a model that can be converted to `<SOFTWARE>TorchScript</SOFTWARE>`.
+ 
+You can convert a PyTorch model to `<SOFTWARE>TorchScript</SOFTWARE>` using the following command: `<SOFTWARE>torch.jit.script</SOFTWARE>(model)`.
+ 
+The model can then be saved to a file using the following command: `<SOFTWARE>torch.jit.save</SOFTWARE>(model_scripted, "model.pt")`.
+ 
+To load the model from the file, use the following command: `<SOFTWARE>torch.jit.load</SOFTWARE>("model.pt")`.
+ 
+The loaded model can be used for inference using the following command: `<SOFTWARE>model_scripted.eval</SOFTWARE>()`.
+ 
+You can also use the `<SOFTWARE>torch.jit.freeze</SOFTWARE>()` function to freeze the model's parameters before converting it to `<SOFTWARE>TorchScript</SOFTWARE>`.

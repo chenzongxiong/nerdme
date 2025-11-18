@@ -1,0 +1,3 @@
+```markdown
+Snapshots of the development version are available in [Sonatype's <PROJECT>snapshots</PROJECT> repository][snapshots].
+```

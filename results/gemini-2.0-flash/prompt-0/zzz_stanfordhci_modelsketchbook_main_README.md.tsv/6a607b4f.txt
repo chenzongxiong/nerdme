@@ -1,0 +1,1 @@
+Strings may be truncated to a max token length for prompts to GPT. - `InputType.Image`: (string) URLs to remotely-hosted images

@@ -1,0 +1,3 @@
+```markdown
+/jury/metrics/_base.py)  ## <div align="center"> Contributing </div>  PRs are welcomed as always :)  ### Installation      git clone https://github.com/obss/<PROJECT>jury</PROJECT>.git     cd <PROJECT>jury</PROJECT>     pip install -e ".
+```

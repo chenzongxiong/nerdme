@@ -1,0 +1,9 @@
+The text contains the following named entities:
+
+1. **PROGLANG**: `<PROGLANG>Python</PROGLANG>`
+2. **DATASET**: `<DATASET>RELISH</DATASET>`
+
+The annotated text in Markdown format is:
+
+```
+/aspire-biencoder-compsci-spec-full'  # Load hyperparameters from disk. with codecs.open(os.path.join(model_path, 'run_info.json'), 'r') as fp:     hparams = json.load(fp)     model_hparams = hparams['all_hparams']  # Initialize the tokenizer and model. <PROGLANG>Python</PROGLANG> aspire_tok = AutoTokenizer.from_pretrained(model_hparams['base-pt-layer']) aspire_bienc = AspireBiEnc(model_hparams)  # Load model parameters from disk. model_fname = os.path.join(model_path, 'model_cur_best.pt') aspire_bienc.load_state_dict(torch.load(

@@ -1,0 +1,1 @@
+We set the camera fov to 12.6 empirically and fix it during training and inference time.

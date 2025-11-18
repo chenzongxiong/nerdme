@@ -1,0 +1,1 @@
+All models are trained on the <DATASET>MaSTr1325</DATASET> dataset using SLR and weak annotations and evaluated on the <CONFERENCE>MODS</CONFERENCE> benchmark (<CONFERENCE>MODS</CONFERENCE> <DATASET>benchmark</DATASET>).

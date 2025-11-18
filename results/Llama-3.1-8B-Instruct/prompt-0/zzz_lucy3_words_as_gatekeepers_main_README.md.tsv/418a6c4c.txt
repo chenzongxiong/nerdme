@@ -1,0 +1,1 @@
+Second, the direction of correlation between <SOFTWARE>jargon</SOFTWARE> and <EVALMETRIC>citation rates</EVALMETRIC> varies among <CONFERENCE>fields</CONFERENCE>, but <SOFTWARE>jargon</SOFTWARE> is nearly always negatively correlated with <CONFERENCE>interdisciplinary impact</CONFERENCE>.

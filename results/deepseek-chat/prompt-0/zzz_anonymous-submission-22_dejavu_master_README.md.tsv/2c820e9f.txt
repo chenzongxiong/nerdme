@@ -1,0 +1,3 @@
+```markdown
+Note that the pickle files are not compatible in different <PROGLANG>Python</PROGLANG> and <SOFTWARE>Pandas</SOFTWARE> versions.
+```

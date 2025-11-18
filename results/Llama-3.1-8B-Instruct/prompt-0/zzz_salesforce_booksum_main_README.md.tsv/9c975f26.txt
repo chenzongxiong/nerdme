@@ -1,0 +1,1 @@
+The `<SOFTWARE>get_works.py</SOFTWARE>` script can be used to collect an exhaustive set of summaries from that source.  ``` cd scripts/data_collection/cliffnotes/ <SOFTWARE>python get_summaries.py</SOFTWARE> ```  #### 3.

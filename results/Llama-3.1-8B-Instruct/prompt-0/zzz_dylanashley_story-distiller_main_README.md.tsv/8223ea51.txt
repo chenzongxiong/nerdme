@@ -1,0 +1,1 @@
+The <PUBLICATION>On the Distillation of Stories for Transferring Narrative Arcs in Collections of Independent Media</PUBLICATION> by Dylan R. <PROGLANG>Python</PROGLANG> code for reproducing the results is available in this repository.

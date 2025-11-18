@@ -1,0 +1,3 @@
+```markdown
+/docs/media/test_sketch.png" alt="test_sketch widgets" width="50%">  ### Compare sketch performance Plots performance metrics (Mean Absolute Error, <EVALMETRIC>F1 Score</EVALMETRIC>, Classification accuracy, precision, and recall) for all of the selected sketches on the specified <DATASET>dataset</DATASET>. ``` msb.compare_sketches(sb) ```  <img src=".
+```

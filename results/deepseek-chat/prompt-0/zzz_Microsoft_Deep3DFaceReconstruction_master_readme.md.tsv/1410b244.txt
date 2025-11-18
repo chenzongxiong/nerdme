@@ -1,0 +1,1 @@
+As an alternative, we recommend using the `<SOFTWARE>Facenet</SOFTWARE>` from Sandberg et al.

@@ -1,0 +1,3 @@
+```markdown
+# <SOFTWARE>ImGAGN</SOFTWARE>: Imbalanced Networks Embedding via Generative Adversarial Graph Networks  This is our <PROGLANG>Pytorch</PROGLANG> implementation for the <PUBLICATION>paper</PUBLICATION>(https://arxiv.org/abs/2106.02817):  > Liang Qu, Huaisheng Zhu, Ruiqi Zheng, Yuhui Shi, and Hongzhi Yin. 2021.
+```

@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+Here are the hyperparameters used for the CNN model:  |        Parameter        | Value             | | :---------------------: | ----------------- | |  Using Hamming Window   | True              | |  Initial Learning Rate  | 5e-3              | | Learning Rate Scheduler | ReduceLROnPlateau | |   Scheduler LR Factor   | 0.1               | |   Scheduler Patience    | 4                 | |       Max Epochs        | 150               | | Early Stopping Patience | 8                 | | Gradient Clipping Value | 6                 |    ## Acknowledgments  We would like to acknowledge Fabio Vulpi, Annalisa Milella, Roberto Marani and Giulio Reina for their paper <PUBLICATION>[_Recurrent and convolutional neural networks for deep terrain classification by autonomous robots_](https://doi.org/10.1016/j.jterra.2020.12.002)</PUBLICATION>.
+```

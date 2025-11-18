@@ -1,0 +1,3 @@
+```markdown
+File main.<PROGLANG>hs</PROGLANG> containts two examples on how to translate <PROGLANG>SQL</PROGLANG> to <PROGLANG>TensorFlow</PROGLANG> code end-to-end.
+```

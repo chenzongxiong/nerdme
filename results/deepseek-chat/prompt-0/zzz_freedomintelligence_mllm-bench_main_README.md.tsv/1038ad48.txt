@@ -1,0 +1,1 @@
+- NOTE: The per sample criteria are not provided for `<SOFTWARE>self-evaluate</SOFTWARE>` and this `<SOFTWARE>self-evaluation</SOFTWARE>` process is just used for your reference.

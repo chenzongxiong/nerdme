@@ -1,0 +1,6 @@
+```markdown
+`export CUDA_VISIBLE_DEVICES=0,1 python tools/train.py warmup \
+ --architecture <PROGLANG>wasr_resnet101_imu</PROGLANG> \
+ --model-name <PROJECT>wasr_slr_warmup</PROJECT> \
+ --batch-size 4`
+```

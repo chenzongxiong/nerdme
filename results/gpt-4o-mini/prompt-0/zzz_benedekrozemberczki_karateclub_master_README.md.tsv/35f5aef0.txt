@@ -1,0 +1,3 @@
+```markdown
+```sh $ pip install <SOFTWARE>karateclub</SOFTWARE> ```  As we create new releases frequently, upgrading the package casually might be beneficial.
+```

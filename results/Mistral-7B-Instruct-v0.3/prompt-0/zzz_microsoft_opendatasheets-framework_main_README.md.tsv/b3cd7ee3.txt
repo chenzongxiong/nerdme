@@ -1,0 +1,14 @@
+```
+/assets/demo.gif)  # Top level schema
+| Property | Description | Key Elements for Fostering Responsible AI |
+| --- | --- | --- |
+| name | The <PROJECT>name of the data package</PROJECT>. |
+| title | The <PUBLICATION>title of the data package</PUBLICATION>. |
+| description | The <PUBLICATION>description of the data package</PUBLICATION>. |
+| version | The <EVALMETRIC>version of the data package</EVALMETRIC>. |
+| created | The <EVALMETRIC>date when the data package was created</EVALMETRIC>. |
+| licenses | The <LICENSE>licenses under which the data package is distributed</LICENSE>. |
+| sources | The <SOFTWARE>sources from which the data package is derived</SOFTWARE>. |
+| resources | The <SOFTWARE>resources included in the data package</SOFTWARE>. |
+| contributors | The <PROJECT>contributors to the data package</PROJECT>. |
+| privacy | The <ONTOLOGY>privacy considerations

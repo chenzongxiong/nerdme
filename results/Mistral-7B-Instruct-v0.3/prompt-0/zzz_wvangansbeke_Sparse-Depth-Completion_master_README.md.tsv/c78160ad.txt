@@ -1,0 +1,2 @@
+# Sparse-Depth-Completion
+This repo contains the implementation of our paper [Sparse and Noisy LiDAR Completion with RGB Guidance and Uncertainty](https://arxiv.org/abs/1902.05356) by `<AUTHOR>Wouter Van Gansbeke</AUTHOR>`, `<AUTHOR>Davy Neven</AUTHOR>`, `<AUTHOR>Bert De Brabandere</AUTHOR>`, and `<AUTHOR>Luc Van Gool</AUTHOR>`.

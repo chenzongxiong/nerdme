@@ -1,0 +1,8 @@
+```markdown
+- ***Tree regularization***  
+  - **"<PUBLICATION>Beyond Sparsity: Tree Regularization of Deep Models for Interpretability</PUBLICATION>"**, <CONFERENCE>AAAI</CONFERENCE>, 2018  
+  - Mike Wu *et al.* *(a complexity penalty function that aims to optimize the deep model for interpretability and human-simulatability)*  
+  - [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/11501) [[Code]](https://github.com/dtak/tree-regularization-public)  
+  - **"<PUBLICATION>Regional Tree Regularization for Interpretability in Deep Neural Networks</PUBLICATION>"**, <CONFERENCE>AAAI</CONFERENCE>, 2020  
+  - Mike Wu *et al.
+```

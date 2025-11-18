@@ -1,0 +1,1 @@
+[Code style: <SOFTWARE>black</SOFTWARE>](https://img.shields.io/badge/code%20style-<SOFTWARE>black</SOFTWARE>-000000.svg)](https://github.com/psf/<SOFTWARE>black</SOFTWARE>)  This project attempts to embed a story into a music playlist by sorting the playlist (i.e., sequencing it) so that the order of the music follows a narrative arc.

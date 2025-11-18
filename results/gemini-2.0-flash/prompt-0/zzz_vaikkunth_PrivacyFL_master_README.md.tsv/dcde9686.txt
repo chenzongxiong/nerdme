@@ -1,0 +1,1 @@
+An instance of **Directory** is created in the `__init__` method of the **Initializer** class after all the agents have been created.

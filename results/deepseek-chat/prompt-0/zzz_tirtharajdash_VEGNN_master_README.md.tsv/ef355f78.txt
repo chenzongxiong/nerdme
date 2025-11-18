@@ -1,0 +1,3 @@
+```markdown
+Purposefully, the files are kept empty for uploading to <PROJECT>GitHub</PROJECT>.
+```

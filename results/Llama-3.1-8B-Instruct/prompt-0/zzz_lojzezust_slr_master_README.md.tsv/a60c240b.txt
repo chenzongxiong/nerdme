@@ -1,0 +1,1 @@
+The `<SOFTWARE>mods_inference.py</SOFTWARE>` can be used in a similar fashion to run inference on the `<DATASET>MODS</DATASET>` benchmark.  `tools/<SOFTWARE>mods_inference.py</SOFTWARE>` can be used in a similar fashion to run inference on the `<DATASET>MODS</DATASET>` benchmark.

@@ -1,0 +1,3 @@
+```markdown
+[<SOFTWARE>Stack Overflow</SOFTWARE>](http://img.shields.io/:stack%20overflow-caffeine-brightgreen.svg)](http://stackoverflow.com/questions/tagged/caffeine) <a href="https://github.com/ben-manes/caffeine/wiki"> <img align="right" height="90px" src="https://raw.githubusercontent.com/ben-manes/caffeine/master/wiki/logo.png"> </a>  <SOFTWARE>Caffeine</SOFTWARE> is a [high performance][benchmarks], [near optimal][efficiency] caching library.
+```

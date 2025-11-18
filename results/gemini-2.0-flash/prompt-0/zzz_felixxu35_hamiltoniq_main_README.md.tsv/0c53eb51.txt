@@ -1,0 +1,1 @@
+/figures/benchmarking_scheme.png" alt="scheme" width="400" /></p> HamilToniQ primarily comprises two components: the reference part, also known as ground truth, and the scoring part, as depicted in the figure below.

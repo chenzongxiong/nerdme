@@ -1,0 +1,1 @@
+<a name="quickstart"></a> ## Quick Start ### Installation Install the *HamilToniQ* toolkit by running the following code in the Terminal.

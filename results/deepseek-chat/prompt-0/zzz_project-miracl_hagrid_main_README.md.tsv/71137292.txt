@@ -1,0 +1,3 @@
+```markdown
+<img src="https://github.com/<PROJECT>project-miracl</PROJECT>/<PROJECT>hagrid</PROJECT>/blob/main/assets/workflow.jpg?
+```

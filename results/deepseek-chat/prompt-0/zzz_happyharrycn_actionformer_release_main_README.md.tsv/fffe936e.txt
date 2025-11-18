@@ -1,0 +1,1 @@
+/pretrained/<SOFTWARE>ego4d_omnivore_egovlp_reproduce</SOFTWARE>/config.txt*. * The training log is located at *.

@@ -1,0 +1,1 @@
+A special <SOFTWARE>Euler2Affine Layer</SOFTWARE> was implemented to restrict the transform of the spatial transformer network to be rigid and invertible

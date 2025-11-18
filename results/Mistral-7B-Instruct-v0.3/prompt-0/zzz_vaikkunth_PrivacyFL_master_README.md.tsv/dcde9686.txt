@@ -1,0 +1,1 @@
+An instance of `<PROJECT>Directory</PROJECT>` is created in the `__init__` method of the `<CLASS>Initializer</CLASS>` class after all the agents have been created.

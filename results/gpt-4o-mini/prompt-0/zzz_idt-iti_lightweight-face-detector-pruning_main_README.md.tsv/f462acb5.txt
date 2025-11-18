@@ -1,0 +1,3 @@
+```markdown
+Repository updated in <LICENSE>April 2024</LICENSE>, for correction / completion of the <PUBLICATION>paper-related materials</PUBLICATION>, and for releasing scripts that facilitate the <SOFTWARE>Android</SOFTWARE> deployment of pruned <SOFTWARE>EResFD</SOFTWARE> models.  ## <PROJECT>Project Structure</PROJECT>  The repository is organized into 4 folders:  - `<SOFTWARE>EXTD_Pytorch-master</SOFTWARE>/`: Contains code and resources specific to the <SOFTWARE>EXTD</SOFTWARE> model. - `<SOFTWARE>EResFD-main</SOFTWARE>/`: Contains code and resources for the <SOFTWARE>EResFD</SOFTWARE> model. - `<SOFTWARE>Pruned_Models</SOFTWARE>/`: A collection of pre-pruned model weights (`.pth` files) for both <SOFTWARE>EXTD</SOFTWARE> and <SOFTWARE>EResFD</SOFTWARE>.
+```

@@ -1,0 +1,1 @@
+Prompt-OIRL optimizes prompt during inference time on a **query-dependent** level effectively and cost-efficiently.

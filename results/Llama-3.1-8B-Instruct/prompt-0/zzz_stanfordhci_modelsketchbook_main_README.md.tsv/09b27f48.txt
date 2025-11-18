@@ -1,0 +1,1 @@
+The currently-supported input types are:  - `InputType.<SOFTWARE>Text</SOFTWARE>`: (string) Raw <SOFTWARE>text</SOFTWARE> fields of arbitrary length.

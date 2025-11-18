@@ -1,0 +1,5 @@
+The given input text does not contain any identifiable entities based on the provided guidelines. Therefore, the output is the same as the input text:
+
+```markdown
+nav=1-2&id=downloads).
+```

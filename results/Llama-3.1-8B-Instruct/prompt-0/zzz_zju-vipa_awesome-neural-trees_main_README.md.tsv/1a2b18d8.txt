@@ -1,0 +1,1 @@
+These approaches aim to encode the <SOFTWARE>Graph Embedding</SOFTWARE> class hierarchy into <SOFTWARE>embeddings</SOFTWARE> whose relative locations or possible interactions represent the semantic relationships

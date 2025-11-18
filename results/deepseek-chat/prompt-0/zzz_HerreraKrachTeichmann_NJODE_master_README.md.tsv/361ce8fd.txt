@@ -1,0 +1,3 @@
+```markdown
+ATTENTION: if you run the demo for a pretrained model first, a <DATASET>dataset with only 100 samples (instead of 20'000)</DATASET> will be generated for plotting.
+```

@@ -1,0 +1,1 @@
+`As shown in \cref{fig:local-interpretation}, for each failure unit at an incoming failure <CONFERENCE>T_1</CONFERENCE>, we compare it with each unit of the corresponding failure classes at a historical failure <CONFERENCE>T_2</CONFERENCE> and take the minimal similarity as its similarity to <CONFERENCE>T_2</CONFERENCE>`.

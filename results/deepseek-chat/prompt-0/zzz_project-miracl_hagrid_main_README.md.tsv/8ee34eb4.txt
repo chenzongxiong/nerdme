@@ -1,0 +1,3 @@
+```markdown
+See <LICENSE>LICENSE</LICENSE> for details.  ## Citation If you find this <DATASET>dataset</DATASET> and repository helpful, please cite <PROJECT>HAGRID</PROJECT> as follows: ``` @article{hagrid,       title={{<PROJECT>HAGRID</PROJECT>}: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution},        author={Ehsan Kamalloo and Aref Jafari and Xinyu Zhang and Nandan Thakur and Jimmy Lin},       year={2023},       journal={<PUBLICATION>arXiv:2307.16883</PUBLICATION>}, } ```
+```

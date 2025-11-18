@@ -1,0 +1,3 @@
+# <PUBLICATION>3. Named Entity Recognition</PUBLICATION>
+
+Named Entity Recognition (NER) is a subtask of <SOFTWARE>Information Extraction</SOFTWARE> that involves identifying and categorizing named entities in unstructured text into predefined categories. These categories typically include the <DATASET>person</DATASET>, <DATASET>organization</DATASET>, and <DATASET>location</DATASET> types.

@@ -1,0 +1,8 @@
+The input text contains the following named entities:
+
+1. `<PROGLANG>QAOA</PROGLANG>` (PROGLANG)
+2. `<EVALMETRIC>accuracy</EVALMETRIC>` (EVALMETRIC)
+
+The annotated text in Markdown format is:
+
+`In the scoring part, the <PROGLANG>QAOA</PROGLANG> is executed a certain number of times, and the scoring curve is used to determine the score of each iteration based on its <EVALMETRIC>accuracy</EVALMETRIC>.`

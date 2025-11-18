@@ -1,0 +1,5 @@
+The provided input text does not contain any identifiable entities according to the given guidelines. Here is the text as it is:
+
+```markdown
+<img src=".
+```

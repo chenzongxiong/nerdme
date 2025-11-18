@@ -1,0 +1,1 @@
+[Version](https://badge.fury.io/py/karateclub.svg?

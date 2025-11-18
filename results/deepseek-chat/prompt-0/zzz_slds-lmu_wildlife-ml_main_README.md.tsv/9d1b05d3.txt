@@ -1,0 +1,1 @@
+Additionally, MD provides bounding boxes of the detected wildlife, which allows the algorithm of our next stage to directly focus on the element in question.

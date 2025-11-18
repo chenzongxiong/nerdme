@@ -1,0 +1,1 @@
+*Configuration* <SOFTWARE>model name</SOFTWARE>: <SOFTWARE>bi_lstm_rnn_att</SOFTWARE> trainable <PROGLANG>parameters</PROGLANG>:5,027,337

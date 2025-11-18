@@ -1,0 +1,1 @@
+If you want to try out a different template, pass the `-t` argument to the program with the template file as an argument.

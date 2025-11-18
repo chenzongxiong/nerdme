@@ -1,0 +1,3 @@
+`+ Loading a single source's JSON   + Loading a directory of NELA JSON files - **WARNING**: this consumes a lot of memory  Usage: ``` python3 load-json.py <path-to-file> ```
+
+`<PROGLANG>python3</PROGLANG>` `<FILE>load-json.py</FILE>` `<FILE>path-to-file</FILE>`

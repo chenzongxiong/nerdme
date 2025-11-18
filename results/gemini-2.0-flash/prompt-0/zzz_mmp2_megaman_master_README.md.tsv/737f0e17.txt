@@ -1,0 +1,1 @@
+[version status](http://img.shields.io/pypi/v/megaman.svg?

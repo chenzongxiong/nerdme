@@ -1,0 +1,3 @@
+```
+- Run `<SOFTWARE>cd scripts & bash evaluate4elo.sh</SOFTWARE>` for elo rating
+```

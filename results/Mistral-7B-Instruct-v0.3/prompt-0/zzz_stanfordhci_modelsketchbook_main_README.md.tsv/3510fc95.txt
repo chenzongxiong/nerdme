@@ -1,0 +1,4 @@
+```markdown
+/docs/media/tune_concept.png" alt="tune_concept widgets" width="50%">  ### Logical concepts (<ONTOLOGY>AND</ONTOLOGY>, <ONTOLOGY>OR</ONTOLOGY>)
+Logical concepts can be applied to any number of existing binary concepts.
+```

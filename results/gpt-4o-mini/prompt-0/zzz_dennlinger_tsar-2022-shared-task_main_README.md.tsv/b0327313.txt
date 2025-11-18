@@ -1,0 +1,1 @@
+Obtaining predictions from the <SOFTWARE>API</SOFTWARE> should be possible by running `<SOFTWARE>context_predictor.py</SOFTWARE>` for English results, and the `<SOFTWARE>_es.py</SOFTWARE>` and `<SOFTWARE>_pt.py</SOFTWARE>` files for Spanish and Portuguese predictions, respectively.

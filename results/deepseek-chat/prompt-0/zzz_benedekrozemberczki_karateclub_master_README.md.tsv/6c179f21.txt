@@ -1,0 +1,5 @@
+Since the input text is empty, there is nothing to annotate. Here is the output:
+
+```markdown
+
+```

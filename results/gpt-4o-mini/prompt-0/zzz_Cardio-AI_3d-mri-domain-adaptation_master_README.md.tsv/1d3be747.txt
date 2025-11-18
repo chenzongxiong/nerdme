@@ -1,0 +1,1 @@
+For the training of this transformation model, neither <DATASET>AX</DATASET> nor <DATASET>SAX</DATASET> ground truth segmentations are required.

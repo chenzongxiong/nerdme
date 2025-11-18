@@ -1,0 +1,11 @@
+/datasets/<DATASET>data\_matrix\_1\_S\_Set.mat/
+
+2> Please enter number of processors: <PROGLANG>16</PROGLANG>
+
+3> Please set the value of alpha: <EVALMETRIC>1</EVALMETRIC>
+
+4> Please enter computing time limit (seconds): <EVALMETRIC>40</EVALMETRIC>
+
+### (3) Result
+
+The training iteration and computation time log is saved in <PUBLICATION>Para\_DPMM\_output.txt</PUBLICATION>, the clustering result is saved in <PUBLICATION>Para\_DPMM\_result.mat</PUBLICATION>, where <ONTOLOGY>z</ONTOLOGY> is the clustering result of <ONTOLOGY>Para\_DPMM</ONTOLOGY> model, <ONTOLOGY>label</ONTOLOGY> is the ground truth cluster label, <EVALMETRIC>AR</EVALMETRIC> is Adjusted Random Index, <EVALMETRIC>

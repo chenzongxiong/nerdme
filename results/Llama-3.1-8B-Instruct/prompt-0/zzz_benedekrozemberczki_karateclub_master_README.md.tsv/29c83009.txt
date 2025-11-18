@@ -1,0 +1,3 @@
+**<SOFTWARE>Karate Club</SOFTWARE>**, and **<SOFTWARE>Karate Club</SOFTWARE>** is a framework for efficient, scalable, and robust graph neural networks. 
+
+**External Resources** can be found at **<DATASET>https://karateclub.readthedocs.io/en/latest/notes/resources.html</DATASET>**.

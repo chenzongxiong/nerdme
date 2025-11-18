@@ -1,0 +1,1 @@
+To replicate the development environment with the [<SOFTWARE>Anaconda</SOFTWARE>](https://www.anaconda.com/products/individual) distribution, first create an empty conda environment by running: <br /> ```conda create --name fisher-information python=3.8.3```  2.

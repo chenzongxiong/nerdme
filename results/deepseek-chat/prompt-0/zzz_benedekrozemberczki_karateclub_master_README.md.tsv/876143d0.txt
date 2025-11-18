@@ -1,0 +1,1 @@
+To put it simply it is a Swiss Army knife for small-scale graph mining research.

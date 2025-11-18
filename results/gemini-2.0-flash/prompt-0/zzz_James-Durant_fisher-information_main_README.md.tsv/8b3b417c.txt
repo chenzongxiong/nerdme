@@ -1,0 +1,1 @@
+Determining the maximum information gain and optimizing experimental design in neutron reflectometry using the Fisher information.

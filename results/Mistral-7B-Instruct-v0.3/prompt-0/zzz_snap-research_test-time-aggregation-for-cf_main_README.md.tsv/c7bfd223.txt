@@ -1,0 +1,3 @@
+To conduct grid-search over them, simply remove them from the `<CONFIG_FILE>config file</CONFIG_FILE>`.
+
+The `<SOFTWARE>config file</SOFTWARE>` is a file containing the configuration settings for the software.

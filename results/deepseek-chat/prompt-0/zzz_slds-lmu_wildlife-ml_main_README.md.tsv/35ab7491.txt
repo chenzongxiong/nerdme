@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+First, we leverage the predictive power of the amazing <SOFTWARE>Megadetector</SOFTWARE> (https://github.com/microsoft/<SOFTWARE>CameraTraps</SOFTWARE>) (**MD**) to pre-select images that contain wildlife.
+```

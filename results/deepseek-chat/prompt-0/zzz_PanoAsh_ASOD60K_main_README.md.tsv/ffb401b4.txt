@@ -1,0 +1,1 @@
+(b) `<EVALMETRIC>Instance density</EVALMETRIC>` (labeled frames per sequence) of each sub-class.

@@ -1,0 +1,1 @@
+The ontological knowledge infusion approach is described into details by the article `<PUBLICATION>Towards Ontology-Enhanced Representation Learning for Large Language Models</PUBLICATION>`(https://arxiv.org/abs/2405.20527).

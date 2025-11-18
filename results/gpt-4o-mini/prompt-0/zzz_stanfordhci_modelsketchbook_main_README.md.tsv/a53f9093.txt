@@ -1,0 +1,3 @@
+```markdown
+This function will display widgets to select concepts and an aggregator. ``` <SOFTWARE>msb.create_sketch_model</SOFTWARE>(sb) ```  <img src=".
+```

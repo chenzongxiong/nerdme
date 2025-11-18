@@ -1,0 +1,1 @@
+Due to the <LICENSE>license agreement</LICENSE> of <DATASET>Basel Face Model</DATASET>, you have to download the <DATASET>BFM09</DATASET> model after submitting an application on its [home page](https://faces.dmi.unibas.ch/bfm/main.php?

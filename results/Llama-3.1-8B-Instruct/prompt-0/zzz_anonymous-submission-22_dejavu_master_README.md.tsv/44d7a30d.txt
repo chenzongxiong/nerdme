@@ -1,0 +1,1 @@
+It is because we only care about those <SOFTWARE>failure units</SOFTWARE> that matter in the current <SOFTWARE>failure</SOFTWARE> when finding similar historical <SOFTWARE>failures</SOFTWARE>.

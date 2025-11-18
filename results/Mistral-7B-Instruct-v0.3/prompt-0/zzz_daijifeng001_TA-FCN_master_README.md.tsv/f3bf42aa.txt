@@ -1,0 +1,8 @@
+`/model/<PROGLANG>pretrained_model</PROGLANG>/resnet_v1_101-0000.params`  ```
+<UL>
+  <LI>
+    1.
+  </LI>
+</UL>`
+
+**Note:** I've annotated the programming language "pretrained_model" as it is a file extension and not a programming language in the traditional sense. However, if it is indeed a specific pre-trained model, it should be annotated as `<PROJECT>pretrained_model</PROJECT>`.

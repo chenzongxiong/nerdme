@@ -1,0 +1,1 @@
+Sethi - [[<PUBLICATION>Layered neural net design through decision trees</PUBLICATION>]](https://ieeexplore.ieee.org/abstract/document/58346/) - <CONFERENCE>ISCAS</CONFERENCE>, 1990 - I.K.

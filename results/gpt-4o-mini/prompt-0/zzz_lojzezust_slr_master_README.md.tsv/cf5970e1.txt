@@ -1,0 +1,1 @@
+Clone the repository     ```bash     git clone https://github.com/<PROJECT>lojzezust/SLR</PROJECT>     cd <PROJECT>SLR</PROJECT>     ``` 2.

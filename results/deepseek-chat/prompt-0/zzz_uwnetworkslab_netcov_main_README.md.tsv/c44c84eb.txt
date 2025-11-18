@@ -1,0 +1,3 @@
+```markdown
+To save the coverage report to file, you can customize logger by: ```<PROGLANG>python</PROGLANG> import logging fh = logging.FileHandler('cov.log') logging.getLogger('netcov').addHandler(fh) ```  ## References ``` @inproceedings {netcov-nsdi-2023,   author = {Xieyang Xu and Weixin Deng and Ryan Beckett and Ratul Mahajan and David Walker},   title = {Test Coverage for Network Configurations},   booktitle = {<CONFERENCE>20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)</CONFERENCE>},   year = {2023},   isbn = {978-1-939133-33-5},   address = {Boston, MA},   pages = {1717--1732},   url = {https://www.usenix.org/conference/<CONFERENCE>nsdi23</CONFERENCE>/presentation/xu},   publisher = {USENIX Association},   month = apr, }```
+```

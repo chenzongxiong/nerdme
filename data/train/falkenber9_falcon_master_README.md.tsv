@@ -1,0 +1,5050 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=!
+1-1	0-1	!	_	_	
+
+#Text=[Header image](gfx/FALCON_header.jpg "FALCON")
+#Text=
+#Text=FALCON - Fast Analysis of LTE Control channels
+#Text===============================================
+#Text=
+#Text=[!
+2-1	1-2	[	_	_	
+2-2	2-8	Header	_	_	
+2-3	9-14	image	_	_	
+2-4	14-15	]	_	_	
+2-5	15-16	(	_	_	
+2-6	16-19	gfx	_	_	
+2-7	19-20	/	_	_	
+2-8	20-37	FALCON_header.jpg	_	_	
+2-9	38-39	"	_	_	
+2-10	39-45	FALCON	_	_	
+2-11	45-46	"	_	_	
+2-12	46-47	)	_	_	
+2-13	49-55	FALCON	_	_	
+2-14	56-57	-	_	_	
+2-15	58-62	Fast	_	_	
+2-16	63-71	Analysis	_	_	
+2-17	72-74	of	_	_	
+2-18	75-78	LTE	_	_	
+2-19	79-86	Control	_	_	
+2-20	87-95	channels	_	_	
+2-21	96-97	=	_	_	
+2-22	97-98	=	_	_	
+2-23	98-99	=	_	_	
+2-24	99-100	=	_	_	
+2-25	100-101	=	_	_	
+2-26	101-102	=	_	_	
+2-27	102-103	=	_	_	
+2-28	103-104	=	_	_	
+2-29	104-105	=	_	_	
+2-30	105-106	=	_	_	
+2-31	106-107	=	_	_	
+2-32	107-108	=	_	_	
+2-33	108-109	=	_	_	
+2-34	109-110	=	_	_	
+2-35	110-111	=	_	_	
+2-36	111-112	=	_	_	
+2-37	112-113	=	_	_	
+2-38	113-114	=	_	_	
+2-39	114-115	=	_	_	
+2-40	115-116	=	_	_	
+2-41	116-117	=	_	_	
+2-42	117-118	=	_	_	
+2-43	118-119	=	_	_	
+2-44	119-120	=	_	_	
+2-45	120-121	=	_	_	
+2-46	121-122	=	_	_	
+2-47	122-123	=	_	_	
+2-48	123-124	=	_	_	
+2-49	124-125	=	_	_	
+2-50	125-126	=	_	_	
+2-51	126-127	=	_	_	
+2-52	127-128	=	_	_	
+2-53	128-129	=	_	_	
+2-54	129-130	=	_	_	
+2-55	130-131	=	_	_	
+2-56	131-132	=	_	_	
+2-57	132-133	=	_	_	
+2-58	133-134	=	_	_	
+2-59	134-135	=	_	_	
+2-60	135-136	=	_	_	
+2-61	136-137	=	_	_	
+2-62	137-138	=	_	_	
+2-63	138-139	=	_	_	
+2-64	139-140	=	_	_	
+2-65	140-141	=	_	_	
+2-66	141-142	=	_	_	
+2-67	144-145	[	_	_	
+2-68	145-146	!	_	_	
+
+#Text=[Release](https://img.shields.io/github/release/falkenber9/falcon)](https://github.com/falkenber9/falcon/releases)
+#Text=[!
+3-1	146-147	[	_	_	
+3-2	147-154	Release	_	_	
+3-3	154-155	]	_	_	
+3-4	155-156	(	_	_	
+3-5	156-161	https	_	_	
+3-6	161-162	:	_	_	
+3-7	162-163	/	_	_	
+3-8	163-164	/	_	_	
+3-9	164-178	img.shields.io	_	_	
+3-10	178-179	/	_	_	
+3-11	179-185	github	_	_	
+3-12	185-186	/	_	_	
+3-13	186-193	release	_	_	
+3-14	193-194	/	_	_	
+3-15	194-204	falkenber9	_	_	
+3-16	204-205	/	_	_	
+3-17	205-211	falcon	*	PROJECT	
+3-18	211-212	)	_	_	
+3-19	212-213	]	_	_	
+3-20	213-214	(	_	_	
+3-21	214-219	https	_	_	
+3-22	219-220	:	_	_	
+3-23	220-221	/	_	_	
+3-24	221-222	/	_	_	
+3-25	222-232	github.com	_	_	
+3-26	232-233	/	_	_	
+3-27	233-243	falkenber9	_	_	
+3-28	243-244	/	_	_	
+3-29	244-250	falcon	*	PROJECT	
+3-30	250-251	/	_	_	
+3-31	251-259	releases	_	_	
+3-32	259-260	)	_	_	
+3-33	261-262	[	_	_	
+3-34	262-263	!	_	_	
+
+#Text=[AUR](https://img.shields.io/aur/version/tudo-falcon)](https://aur.archlinux.org/packages/tudo-falcon)
+#Text=[!
+4-1	263-264	[	_	_	
+4-2	264-267	AUR	_	_	
+4-3	267-268	]	_	_	
+4-4	268-269	(	_	_	
+4-5	269-274	https	_	_	
+4-6	274-275	:	_	_	
+4-7	275-276	/	_	_	
+4-8	276-277	/	_	_	
+4-9	277-291	img.shields.io	_	_	
+4-10	291-292	/	_	_	
+4-11	292-295	aur	_	_	
+4-12	295-296	/	_	_	
+4-13	296-303	version	_	_	
+4-14	303-304	/	_	_	
+4-15	304-315	tudo-falcon	_	_	
+4-16	315-316	)	_	_	
+4-17	316-317	]	_	_	
+4-18	317-318	(	_	_	
+4-19	318-323	https	_	_	
+4-20	323-324	:	_	_	
+4-21	324-325	/	_	_	
+4-22	325-326	/	_	_	
+4-23	326-343	aur.archlinux.org	_	_	
+4-24	343-344	/	_	_	
+4-25	344-352	packages	_	_	
+4-26	352-353	/	_	_	
+4-27	353-364	tudo-falcon	_	_	
+4-28	364-365	)	_	_	
+4-29	366-367	[	_	_	
+4-30	367-368	!	_	_	
+
+#Text=[DOI](https://img.shields.io/badge/DOI-10.1109/GLOBECOM38437.2019.9014096-fcb426.svg)](https://dx.doi.org/10.1109/GLOBECOM38437.2019.9014096)
+#Text=[!
+5-1	368-369	[	_	_	
+5-2	369-372	DOI	_	_	
+5-3	372-373	]	_	_	
+5-4	373-374	(	_	_	
+5-5	374-379	https	_	_	
+5-6	379-380	:	_	_	
+5-7	380-381	/	_	_	
+5-8	381-382	/	_	_	
+5-9	382-396	img.shields.io	_	_	
+5-10	396-397	/	_	_	
+5-11	397-402	badge	_	_	
+5-12	402-403	/	_	_	
+5-13	403-406	DOI	_	_	
+5-14	406-407	-	_	_	
+5-15	407-414	10.1109	_	_	
+5-16	414-415	/	_	_	
+5-17	415-441	GLOBECOM38437.2019.9014096	_	_	
+5-17.1	415-423	GLOBECOM	*	CONFERENCE	
+5-18	441-442	-	_	_	
+5-19	442-448	fcb426	_	_	
+5-20	448-449	.	_	_	
+5-21	449-452	svg	_	_	
+5-22	452-453	)	_	_	
+5-23	453-454	]	_	_	
+5-24	454-455	(	_	_	
+5-25	455-460	https	_	_	
+5-26	460-461	:	_	_	
+5-27	461-462	/	_	_	
+5-28	462-463	/	_	_	
+5-29	463-473	dx.doi.org	_	_	
+5-30	473-474	/	_	_	
+5-31	474-481	10.1109	_	_	
+5-32	481-482	/	_	_	
+5-33	482-508	GLOBECOM38437.2019.9014096	_	_	
+5-34	508-509	)	_	_	
+5-35	510-511	[	_	_	
+5-36	511-512	!	_	_	
+
+#Text=[arXiv](https://img.shields.io/badge/arXiv-1907.10110-b31b1b.svg)](https://arxiv.org/abs/1907.10110)
+#Text=[!
+6-1	512-513	[	_	_	
+6-2	513-518	arXiv	_	_	
+6-3	518-519	]	_	_	
+6-4	519-520	(	_	_	
+6-5	520-525	https	_	_	
+6-6	525-526	:	_	_	
+6-7	526-527	/	_	_	
+6-8	527-528	/	_	_	
+6-9	528-542	img.shields.io	_	_	
+6-10	542-543	/	_	_	
+6-11	543-548	badge	_	_	
+6-12	548-549	/	_	_	
+6-13	549-554	arXiv	_	_	
+6-14	554-555	-	_	_	
+6-15	555-565	1907.10110	_	_	
+6-16	565-566	-	_	_	
+6-17	566-576	b31b1b.svg	_	_	
+6-18	576-577	)	_	_	
+6-19	577-578	]	_	_	
+6-20	578-579	(	_	_	
+6-21	579-584	https	_	_	
+6-22	584-585	:	_	_	
+6-23	585-586	/	_	_	
+6-24	586-587	/	_	_	
+6-25	587-596	arxiv.org	_	_	
+6-26	596-597	/	_	_	
+6-27	597-600	abs	_	_	
+6-28	600-601	/	_	_	
+6-29	601-611	1907.10110	_	_	
+6-30	611-612	)	_	_	
+6-31	613-614	[	_	_	
+6-32	614-615	!	_	_	
+
+#Text=[License](https://img.shields.io/github/license/falkenber9/falcon)](LICENSE)
+#Text=[!
+7-1	615-616	[	_	_	
+7-2	616-623	License	_	_	
+7-3	623-624	]	_	_	
+7-4	624-625	(	_	_	
+7-5	625-630	https	_	_	
+7-6	630-631	:	_	_	
+7-7	631-632	/	_	_	
+7-8	632-633	/	_	_	
+7-9	633-647	img.shields.io	_	_	
+7-10	647-648	/	_	_	
+7-11	648-654	github	_	_	
+7-12	654-655	/	_	_	
+7-13	655-662	license	_	_	
+7-14	662-663	/	_	_	
+7-15	663-673	falkenber9	_	_	
+7-16	673-674	/	_	_	
+7-17	674-680	falcon	*	PROJECT	
+7-18	680-681	)	_	_	
+7-19	681-682	]	_	_	
+7-20	682-683	(	_	_	
+7-21	683-690	LICENSE	_	_	
+7-22	690-691	)	_	_	
+7-23	692-693	[	_	_	
+7-24	693-694	!	_	_	
+
+#Text=[Video](https://img.shields.io/youtube/views/Va_aZYxRu3U)](http://www.youtube.com/watch?
+8-1	694-695	[	_	_	
+8-2	695-700	Video	_	_	
+8-3	700-701	]	_	_	
+8-4	701-702	(	_	_	
+8-5	702-707	https	_	_	
+8-6	707-708	:	_	_	
+8-7	708-709	/	_	_	
+8-8	709-710	/	_	_	
+8-9	710-724	img.shields.io	_	_	
+8-10	724-725	/	_	_	
+8-11	725-732	youtube	_	_	
+8-12	732-733	/	_	_	
+8-13	733-738	views	_	_	
+8-14	738-739	/	_	_	
+8-15	739-750	Va_aZYxRu3U	_	_	
+8-16	750-751	)	_	_	
+8-17	751-752	]	_	_	
+8-18	752-753	(	_	_	
+8-19	753-757	http	_	_	
+8-20	757-758	:	_	_	
+8-21	758-759	/	_	_	
+8-22	759-760	/	_	_	
+8-23	760-775	www.youtube.com	_	_	
+8-24	775-776	/	_	_	
+8-25	776-781	watch	_	_	
+8-26	781-782	?	_	_	
+
+#Text=v=Va_aZYxRu3U)
+#Text=
+#Text=**FALCON** is an open-source software collection for real-time analysis of radio resources in private or commercial LTE/LTE-A networks.
+9-1	782-783	v	_	_	
+9-2	783-784	=	_	_	
+9-3	784-795	Va_aZYxRu3U	_	_	
+9-4	795-796	)	_	_	
+9-5	798-799	*	_	_	
+9-6	799-800	*	_	_	
+9-7	800-806	FALCON	*	PROJECT	
+9-8	806-807	*	_	_	
+9-9	807-808	*	_	_	
+9-10	809-811	is	_	_	
+9-11	812-814	an	_	_	
+9-12	815-826	open-source	_	_	
+9-13	827-835	software	_	_	
+9-14	836-846	collection	_	_	
+9-15	847-850	for	_	_	
+9-16	851-860	real-time	_	_	
+9-17	861-869	analysis	_	_	
+9-18	870-872	of	_	_	
+9-19	873-878	radio	_	_	
+9-20	879-888	resources	_	_	
+9-21	889-891	in	_	_	
+9-22	892-899	private	_	_	
+9-23	900-902	or	_	_	
+9-24	903-913	commercial	_	_	
+9-25	914-917	LTE	_	_	
+9-26	917-918	/	_	_	
+9-27	918-923	LTE-A	_	_	
+9-28	924-932	networks	_	_	
+9-29	932-933	.	_	_	
+
+#Text=It decodes the Physical Downlink Control Channel (PDCCH) of a base station and reveals the number of currently active devices including their Radio Network Temporary Identifiers (RNTIs) and their individual resource allocations.
+10-1	935-937	It	_	_	
+10-2	938-945	decodes	_	_	
+10-3	946-949	the	_	_	
+10-4	950-958	Physical	_	_	
+10-5	959-967	Downlink	_	_	
+10-6	968-975	Control	_	_	
+10-7	976-983	Channel	_	_	
+10-8	984-985	(	_	_	
+10-9	985-990	PDCCH	_	_	
+10-10	990-991	)	_	_	
+10-11	992-994	of	_	_	
+10-12	995-996	a	_	_	
+10-13	997-1001	base	_	_	
+10-14	1002-1009	station	_	_	
+10-15	1010-1013	and	_	_	
+10-16	1014-1021	reveals	_	_	
+10-17	1022-1025	the	_	_	
+10-18	1026-1032	number	_	_	
+10-19	1033-1035	of	_	_	
+10-20	1036-1045	currently	_	_	
+10-21	1046-1052	active	_	_	
+10-22	1053-1060	devices	_	_	
+10-23	1061-1070	including	_	_	
+10-24	1071-1076	their	_	_	
+10-25	1077-1082	Radio	_	_	
+10-26	1083-1090	Network	_	_	
+10-27	1091-1100	Temporary	_	_	
+10-28	1101-1112	Identifiers	_	_	
+10-29	1113-1114	(	_	_	
+10-30	1114-1119	RNTIs	_	_	
+10-31	1119-1120	)	_	_	
+10-32	1121-1124	and	_	_	
+10-33	1125-1130	their	_	_	
+10-34	1131-1141	individual	_	_	
+10-35	1142-1150	resource	_	_	
+10-36	1151-1162	allocations	_	_	
+10-37	1162-1163	.	_	_	
+
+#Text=FALCON enables an exact determination of the current network load and the identification of bottlenecks.
+11-1	1165-1171	FALCON	*	PROJECT	
+11-2	1172-1179	enables	_	_	
+11-3	1180-1182	an	_	_	
+11-4	1183-1188	exact	_	_	
+11-5	1189-1202	determination	_	_	
+11-6	1203-1205	of	_	_	
+11-7	1206-1209	the	_	_	
+11-8	1210-1217	current	_	_	
+11-9	1218-1225	network	_	_	
+11-10	1226-1230	load	_	_	
+11-11	1231-1234	and	_	_	
+11-12	1235-1238	the	_	_	
+11-13	1239-1253	identification	_	_	
+11-14	1254-1256	of	_	_	
+11-15	1257-1268	bottlenecks	_	_	
+11-16	1268-1269	.	_	_	
+
+#Text=This information can be used to predict the achievable data rate of an additional subscriber by purely observing the current activity.
+12-1	1270-1274	This	_	_	
+12-2	1275-1286	information	_	_	
+12-3	1287-1290	can	_	_	
+12-4	1291-1293	be	_	_	
+12-5	1294-1298	used	_	_	
+12-6	1299-1301	to	_	_	
+12-7	1302-1309	predict	_	_	
+12-8	1310-1313	the	_	_	
+12-9	1314-1324	achievable	_	_	
+12-10	1325-1329	data	_	_	
+12-11	1330-1334	rate	_	_	
+12-12	1335-1337	of	_	_	
+12-13	1338-1340	an	_	_	
+12-14	1341-1351	additional	_	_	
+12-15	1352-1362	subscriber	_	_	
+12-16	1363-1365	by	_	_	
+12-17	1366-1372	purely	_	_	
+12-18	1373-1382	observing	_	_	
+12-19	1383-1386	the	_	_	
+12-20	1387-1394	current	_	_	
+12-21	1395-1403	activity	_	_	
+12-22	1403-1404	.	_	_	
+
+#Text=Based on this criterion, congestion situations can be detected and avoidance strategies can be applied, e.g. switching to another network or postponing delay-tolerant transmissions.
+13-1	1405-1410	Based	_	_	
+13-2	1411-1413	on	_	_	
+13-3	1414-1418	this	_	_	
+13-4	1419-1428	criterion	_	_	
+13-5	1428-1429	,	_	_	
+13-6	1430-1440	congestion	_	_	
+13-7	1441-1451	situations	_	_	
+13-8	1452-1455	can	_	_	
+13-9	1456-1458	be	_	_	
+13-10	1459-1467	detected	_	_	
+13-11	1468-1471	and	_	_	
+13-12	1472-1481	avoidance	_	_	
+13-13	1482-1492	strategies	_	_	
+13-14	1493-1496	can	_	_	
+13-15	1497-1499	be	_	_	
+13-16	1500-1507	applied	_	_	
+13-17	1507-1508	,	_	_	
+13-18	1509-1512	e.g	_	_	
+13-19	1512-1513	.	_	_	
+13-20	1514-1523	switching	_	_	
+13-21	1524-1526	to	_	_	
+13-22	1527-1534	another	_	_	
+13-23	1535-1542	network	_	_	
+13-24	1543-1545	or	_	_	
+13-25	1546-1556	postponing	_	_	
+13-26	1557-1571	delay-tolerant	_	_	
+13-27	1572-1585	transmissions	_	_	
+13-28	1585-1586	.	_	_	
+
+#Text=Based on [srsLTE][srslte] library, the software can be run on a plain x86 general-purpose PCs with any compatible SDR.
+#Text=
+#Text=
+#Text=
+#Text=!
+14-1	1588-1593	Based	_	_	
+14-2	1594-1596	on	_	_	
+14-3	1597-1598	[	_	_	
+14-4	1598-1604	srsLTE	*	SOFTWARE	
+14-5	1604-1605	]	_	_	
+14-6	1605-1606	[	_	_	
+14-7	1606-1612	srslte	*	SOFTWARE	
+14-8	1612-1613	]	_	_	
+14-9	1614-1621	library	_	_	
+14-10	1621-1622	,	_	_	
+14-11	1623-1626	the	_	_	
+14-12	1627-1635	software	_	_	
+14-13	1636-1639	can	_	_	
+14-14	1640-1642	be	_	_	
+14-15	1643-1646	run	_	_	
+14-16	1647-1649	on	_	_	
+14-17	1650-1651	a	_	_	
+14-18	1652-1657	plain	_	_	
+14-19	1658-1661	x86	_	_	
+14-20	1662-1677	general-purpose	_	_	
+14-21	1678-1681	PCs	_	_	
+14-22	1682-1686	with	_	_	
+14-23	1687-1690	any	_	_	
+14-24	1691-1701	compatible	_	_	
+14-25	1702-1705	SDR	_	_	
+14-26	1705-1706	.	_	_	
+14-27	1710-1711	!	_	_	
+
+#Text=[TU Dortmund University](gfx/tu-dortmund_small.png "TU Dortmund University")
+#Text=!
+15-1	1711-1712	[	_	_	
+15-2	1712-1714	TU	_	_	
+15-3	1715-1723	Dortmund	_	_	
+15-4	1724-1734	University	_	_	
+15-5	1734-1735	]	_	_	
+15-6	1735-1736	(	_	_	
+15-7	1736-1739	gfx	_	_	
+15-8	1739-1740	/	_	_	
+15-9	1740-1761	tu-dortmund_small.png	_	_	
+15-10	1762-1763	"	_	_	
+15-11	1763-1765	TU	_	_	
+15-12	1766-1774	Dortmund	_	_	
+15-13	1775-1785	University	_	_	
+15-14	1785-1786	"	_	_	
+15-15	1786-1787	)	_	_	
+15-16	1788-1789	!	_	_	
+
+#Text=[SFB 876](gfx/SFB876_small.png "Collaborative Research Center SFB 876")
+#Text=!
+16-1	1789-1790	[	_	_	
+16-2	1790-1793	SFB	_	_	
+16-3	1794-1797	876	_	_	
+16-4	1797-1798	]	_	_	
+16-5	1798-1799	(	_	_	
+16-6	1799-1802	gfx	_	_	
+16-7	1802-1803	/	_	_	
+16-8	1803-1809	SFB876	_	_	
+16-9	1809-1810	_	_	_	
+16-10	1810-1819	small.png	_	_	
+16-11	1820-1821	"	_	_	
+16-12	1821-1834	Collaborative	_	_	
+16-13	1835-1843	Research	_	_	
+16-14	1844-1850	Center	_	_	
+16-15	1851-1854	SFB	_	_	
+16-16	1855-1858	876	_	_	
+16-17	1858-1859	"	_	_	
+16-18	1859-1860	)	_	_	
+16-19	1861-1862	!	_	_	
+
+#Text=[Communication Networks Institute](gfx/CNI_small.png "Communication Networks Institute")
+#Text=!
+17-1	1862-1863	[	_	_	
+17-2	1863-1876	Communication	_	_	
+17-3	1877-1885	Networks	_	_	
+17-4	1886-1895	Institute	_	_	
+17-5	1895-1896	]	_	_	
+17-6	1896-1897	(	_	_	
+17-7	1897-1900	gfx	_	_	
+17-8	1900-1901	/	_	_	
+17-9	1901-1914	CNI_small.png	_	_	
+17-10	1915-1916	"	_	_	
+17-11	1916-1929	Communication	_	_	
+17-12	1930-1938	Networks	_	_	
+17-13	1939-1948	Institute	_	_	
+17-14	1948-1949	"	_	_	
+17-15	1949-1950	)	_	_	
+17-16	1951-1952	!	_	_	
+
+#Text=[DFG](gfx/DFG_small.png "DFG")
+#Text=
+#Text=The research around this project has been supported by *Deutsche Forschungsgemeinschaft* (DFG) within the Collaborative Research Center SFB 876
+#Text=“Providing Information by Resource-Constrained Analysis”, project A4 at TU Dortmund University.
+18-1	1952-1953	[	_	_	
+18-2	1953-1956	DFG	_	_	
+18-3	1956-1957	]	_	_	
+18-4	1957-1958	(	_	_	
+18-5	1958-1961	gfx	_	_	
+18-6	1961-1962	/	_	_	
+18-7	1962-1975	DFG_small.png	_	_	
+18-8	1976-1977	"	_	_	
+18-9	1977-1980	DFG	_	_	
+18-10	1980-1981	"	_	_	
+18-11	1981-1982	)	_	_	
+18-12	1984-1987	The	_	_	
+18-13	1988-1996	research	_	_	
+18-14	1997-2003	around	_	_	
+18-15	2004-2008	this	_	_	
+18-16	2009-2016	project	_	_	
+18-17	2017-2020	has	_	_	
+18-18	2021-2025	been	_	_	
+18-19	2026-2035	supported	_	_	
+18-20	2036-2038	by	_	_	
+18-21	2039-2040	*	_	_	
+18-22	2040-2048	Deutsche	_	_	
+18-23	2049-2071	Forschungsgemeinschaft	_	_	
+18-24	2071-2072	*	_	_	
+18-25	2073-2074	(	_	_	
+18-26	2074-2077	DFG	_	_	
+18-27	2077-2078	)	_	_	
+18-28	2079-2085	within	_	_	
+18-29	2086-2089	the	_	_	
+18-30	2090-2103	Collaborative	_	_	
+18-31	2104-2112	Research	_	_	
+18-32	2113-2119	Center	_	_	
+18-33	2120-2123	SFB	_	_	
+18-34	2124-2127	876	_	_	
+18-35	2128-2129	“	_	_	
+18-36	2129-2138	Providing	*[1]	PROJECT[1]	
+18-37	2139-2150	Information	*[1]	PROJECT[1]	
+18-38	2151-2153	by	*[1]	PROJECT[1]	
+18-39	2154-2174	Resource-Constrained	*[1]	PROJECT[1]	
+18-40	2175-2183	Analysis	*[1]	PROJECT[1]	
+18-41	2183-2184	”	_	_	
+18-42	2184-2185	,	_	_	
+18-43	2186-2193	project	_	_	
+18-44	2194-2196	A4	_	_	
+18-45	2197-2199	at	_	_	
+18-46	2200-2202	TU	_	_	
+18-47	2203-2211	Dortmund	_	_	
+18-48	2212-2222	University	_	_	
+18-49	2222-2223	.	_	_	
+
+#Text=A **corresponding scientific publication** (IEEE GLOBECOM 2019) is available on [IEEE Xplore](https://dx.doi.org/10.1109/GLOBECOM38437.2019.9014096) and on [ArXiV](https://arxiv.org/abs/1907.10110).
+19-1	2225-2226	A	_	_	
+19-2	2227-2228	*	_	_	
+19-3	2228-2229	*	_	_	
+19-4	2229-2242	corresponding	_	_	
+19-5	2243-2253	scientific	_	_	
+19-6	2254-2265	publication	_	_	
+19-7	2265-2266	*	_	_	
+19-8	2266-2267	*	_	_	
+19-9	2268-2269	(	_	_	
+19-10	2269-2273	IEEE	*[2]	CONFERENCE[2]	
+19-11	2274-2282	GLOBECOM	*[2]	CONFERENCE[2]	
+19-12	2283-2287	2019	*[2]	CONFERENCE[2]	
+19-13	2287-2288	)	_	_	
+19-14	2289-2291	is	_	_	
+19-15	2292-2301	available	_	_	
+19-16	2302-2304	on	_	_	
+19-17	2305-2306	[	_	_	
+19-18	2306-2310	IEEE	_	_	
+19-19	2311-2317	Xplore	_	_	
+19-20	2317-2318	]	_	_	
+19-21	2318-2319	(	_	_	
+19-22	2319-2324	https	_	_	
+19-23	2324-2325	:	_	_	
+19-24	2325-2326	/	_	_	
+19-25	2326-2327	/	_	_	
+19-26	2327-2337	dx.doi.org	_	_	
+19-27	2337-2338	/	_	_	
+19-28	2338-2345	10.1109	_	_	
+19-29	2345-2346	/	_	_	
+19-30	2346-2372	GLOBECOM38437.2019.9014096	_	_	
+19-30.1	2346-2354	GLOBECOM	*	CONFERENCE	
+19-31	2372-2373	)	_	_	
+19-32	2374-2377	and	_	_	
+19-33	2378-2380	on	_	_	
+19-34	2381-2382	[	_	_	
+19-35	2382-2387	ArXiV	_	_	
+19-36	2387-2388	]	_	_	
+19-37	2388-2389	(	_	_	
+19-38	2389-2394	https	_	_	
+19-39	2394-2395	:	_	_	
+19-40	2395-2396	/	_	_	
+19-41	2396-2397	/	_	_	
+19-42	2397-2406	arxiv.org	_	_	
+19-43	2406-2407	/	_	_	
+19-44	2407-2410	abs	_	_	
+19-45	2410-2411	/	_	_	
+19-46	2411-2421	1907.10110	_	_	
+19-47	2421-2422	)	_	_	
+19-48	2422-2423	.	_	_	
+
+#Text=Please see section [Acknowledgements](#acknowledgements) of how to reference this project.
+#Text=
+#Text=## Video
+#Text=[!
+20-1	2425-2431	Please	_	_	
+20-2	2432-2435	see	_	_	
+20-3	2436-2443	section	_	_	
+20-4	2444-2445	[	_	_	
+20-5	2445-2461	Acknowledgements	_	_	
+20-6	2461-2462	]	_	_	
+20-7	2462-2463	(	_	_	
+20-8	2463-2464	#	_	_	
+20-9	2464-2480	acknowledgements	_	_	
+20-10	2480-2481	)	_	_	
+20-11	2482-2484	of	_	_	
+20-12	2485-2488	how	_	_	
+20-13	2489-2491	to	_	_	
+20-14	2492-2501	reference	_	_	
+20-15	2502-2506	this	_	_	
+20-16	2507-2514	project	_	_	
+20-17	2514-2515	.	_	_	
+20-18	2517-2518	#	_	_	
+20-19	2518-2519	#	_	_	
+20-20	2520-2525	Video	_	_	
+20-21	2526-2527	[	_	_	
+20-22	2527-2528	!	_	_	
+
+#Text=[FALCON Video Presentation](http://img.youtube.com/vi/Va_aZYxRu3U/0.jpg)](http://www.youtube.com/watch?
+21-1	2528-2529	[	_	_	
+21-2	2529-2535	FALCON	*	PROJECT	
+21-3	2536-2541	Video	_	_	
+21-4	2542-2554	Presentation	_	_	
+21-5	2554-2555	]	_	_	
+21-6	2555-2556	(	_	_	
+21-7	2556-2560	http	_	_	
+21-8	2560-2561	:	_	_	
+21-9	2561-2562	/	_	_	
+21-10	2562-2563	/	_	_	
+21-11	2563-2578	img.youtube.com	_	_	
+21-12	2578-2579	/	_	_	
+21-13	2579-2581	vi	_	_	
+21-14	2581-2582	/	_	_	
+21-15	2582-2593	Va_aZYxRu3U	_	_	
+21-16	2593-2594	/	_	_	
+21-17	2594-2595	0	_	_	
+21-18	2595-2596	.	_	_	
+21-19	2596-2599	jpg	_	_	
+21-20	2599-2600	)	_	_	
+21-21	2600-2601	]	_	_	
+21-22	2601-2602	(	_	_	
+21-23	2602-2606	http	_	_	
+21-24	2606-2607	:	_	_	
+21-25	2607-2608	/	_	_	
+21-26	2608-2609	/	_	_	
+21-27	2609-2624	www.youtube.com	_	_	
+21-28	2624-2625	/	_	_	
+21-29	2625-2630	watch	_	_	
+21-30	2630-2631	?	_	_	
+
+#Text=v=Va_aZYxRu3U)
+#Text=
+#Text=## License
+#Text=FALCON is released under the [AGPLv3 license](LICENSE).
+#Text=
+#Text=
+#Text=## Key Features
+#Text=* Reliable real-time monitoring public LTE cells
+#Text=* Monitoring up to 20 MHz bandwidth
+#Text=* FDD only
+#Text=* Supported DCI formats: 0/1A, 1, 1B, 1C, 2, 2A, 2B
+#Text=* Suitable for short-term and long-term monitoring with non-ideal radio conditions
+#Text=* Qt-based and OpenGL-accelerated GUI for visualization of allocated resource blocks, spectrogram and cell-specific performance metrics (throughput, resource utilization, user activity, etc.).
+#Text=* Synchronized recorder with integrated support for network probing by an auxiliary modem
+#Text=
+#Text=Check the [changelog](CHANGELOG.md) for recently introduced updates.
+#Text=
+#Text=### Planned Features
+#Text=* TDD
+#Text=* Support for DCI with Carrier Indicator Field (CIF)
+#Text=* Multithreaded DCI search
+#Text=* Visualization of System Information Blocks (SIB)
+#Text=
+#Text=## Installation
+#Text=
+#Text=Installation has been verified on the following operating systems:
+#Text=
+#Text=* Ubuntu 18.04.x LTS (Bionic Beaver)
+#Text=* Ubuntu 20.04.x LTS (Focal Fossa)
+#Text=* Archlinux [!
+22-1	2631-2632	v	_	_	
+22-2	2632-2633	=	_	_	
+22-3	2633-2644	Va_aZYxRu3U	_	_	
+22-4	2644-2645	)	_	_	
+22-5	2647-2648	#	_	_	
+22-6	2648-2649	#	_	_	
+22-7	2650-2657	License	_	_	
+22-8	2658-2664	FALCON	_	_	
+22-9	2665-2667	is	_	_	
+22-10	2668-2676	released	_	_	
+22-11	2677-2682	under	_	_	
+22-12	2683-2686	the	_	_	
+22-13	2687-2688	[	_	_	
+22-14	2688-2694	AGPLv3	*[3]	LICENSE[3]	
+22-15	2695-2702	license	*[3]	LICENSE[3]	
+22-16	2702-2703	]	_	_	
+22-17	2703-2704	(	_	_	
+22-18	2704-2711	LICENSE	_	_	
+22-19	2711-2712	)	_	_	
+22-20	2712-2713	.	_	_	
+22-21	2716-2717	#	_	_	
+22-22	2717-2718	#	_	_	
+22-23	2719-2722	Key	_	_	
+22-24	2723-2731	Features	_	_	
+22-25	2732-2733	*	_	_	
+22-26	2734-2742	Reliable	_	_	
+22-27	2743-2752	real-time	_	_	
+22-28	2753-2763	monitoring	_	_	
+22-29	2764-2770	public	_	_	
+22-30	2771-2774	LTE	_	_	
+22-31	2775-2780	cells	_	_	
+22-32	2781-2782	*	_	_	
+22-33	2783-2793	Monitoring	_	_	
+22-34	2794-2796	up	_	_	
+22-35	2797-2799	to	_	_	
+22-36	2800-2802	20	_	_	
+22-37	2803-2806	MHz	_	_	
+22-38	2807-2816	bandwidth	_	_	
+22-39	2817-2818	*	_	_	
+22-40	2819-2822	FDD	_	_	
+22-41	2823-2827	only	_	_	
+22-42	2828-2829	*	_	_	
+22-43	2830-2839	Supported	_	_	
+22-44	2840-2843	DCI	_	_	
+22-45	2844-2851	formats	_	_	
+22-46	2851-2852	:	_	_	
+22-47	2853-2854	0	_	_	
+22-48	2854-2855	/	_	_	
+22-49	2855-2857	1A	_	_	
+22-50	2857-2858	,	_	_	
+22-51	2859-2860	1	_	_	
+22-52	2860-2861	,	_	_	
+22-53	2862-2864	1B	_	_	
+22-54	2864-2865	,	_	_	
+22-55	2866-2868	1C	_	_	
+22-56	2868-2869	,	_	_	
+22-57	2870-2871	2	_	_	
+22-58	2871-2872	,	_	_	
+22-59	2873-2875	2A	_	_	
+22-60	2875-2876	,	_	_	
+22-61	2877-2879	2B	_	_	
+22-62	2880-2881	*	_	_	
+22-63	2882-2890	Suitable	_	_	
+22-64	2891-2894	for	_	_	
+22-65	2895-2905	short-term	_	_	
+22-66	2906-2909	and	_	_	
+22-67	2910-2919	long-term	_	_	
+22-68	2920-2930	monitoring	_	_	
+22-69	2931-2935	with	_	_	
+22-70	2936-2945	non-ideal	_	_	
+22-71	2946-2951	radio	_	_	
+22-72	2952-2962	conditions	_	_	
+22-73	2963-2964	*	_	_	
+22-74	2965-2973	Qt-based	_	_	
+22-75	2974-2977	and	_	_	
+22-76	2978-2996	OpenGL-accelerated	_	_	
+22-77	2997-3000	GUI	_	_	
+22-78	3001-3004	for	_	_	
+22-79	3005-3018	visualization	_	_	
+22-80	3019-3021	of	_	_	
+22-81	3022-3031	allocated	_	_	
+22-82	3032-3040	resource	_	_	
+22-83	3041-3047	blocks	_	_	
+22-84	3047-3048	,	_	_	
+22-85	3049-3060	spectrogram	_	_	
+22-86	3061-3064	and	_	_	
+22-87	3065-3078	cell-specific	_	_	
+22-88	3079-3090	performance	_	_	
+22-89	3091-3098	metrics	_	_	
+22-90	3099-3100	(	_	_	
+22-91	3100-3110	throughput	_	_	
+22-92	3110-3111	,	_	_	
+22-93	3112-3120	resource	_	_	
+22-94	3121-3132	utilization	_	_	
+22-95	3132-3133	,	_	_	
+22-96	3134-3138	user	_	_	
+22-97	3139-3147	activity	_	_	
+22-98	3147-3148	,	_	_	
+22-99	3149-3152	etc	_	_	
+22-100	3152-3153	.	_	_	
+22-101	3153-3154	)	_	_	
+22-102	3154-3155	.	_	_	
+22-103	3156-3157	*	_	_	
+22-104	3158-3170	Synchronized	_	_	
+22-105	3171-3179	recorder	_	_	
+22-106	3180-3184	with	_	_	
+22-107	3185-3195	integrated	_	_	
+22-108	3196-3203	support	_	_	
+22-109	3204-3207	for	_	_	
+22-110	3208-3215	network	_	_	
+22-111	3216-3223	probing	_	_	
+22-112	3224-3226	by	_	_	
+22-113	3227-3229	an	_	_	
+22-114	3230-3239	auxiliary	_	_	
+22-115	3240-3245	modem	_	_	
+22-116	3247-3252	Check	_	_	
+22-117	3253-3256	the	_	_	
+22-118	3257-3258	[	_	_	
+22-119	3258-3267	changelog	_	_	
+22-120	3267-3268	]	_	_	
+22-121	3268-3269	(	_	_	
+22-122	3269-3281	CHANGELOG.md	_	_	
+22-123	3281-3282	)	_	_	
+22-124	3283-3286	for	_	_	
+22-125	3287-3295	recently	_	_	
+22-126	3296-3306	introduced	_	_	
+22-127	3307-3314	updates	_	_	
+22-128	3314-3315	.	_	_	
+22-129	3317-3318	#	_	_	
+22-130	3318-3319	#	_	_	
+22-131	3319-3320	#	_	_	
+22-132	3321-3328	Planned	_	_	
+22-133	3329-3337	Features	_	_	
+22-134	3338-3339	*	_	_	
+22-135	3340-3343	TDD	_	_	
+22-136	3344-3345	*	_	_	
+22-137	3346-3353	Support	_	_	
+22-138	3354-3357	for	_	_	
+22-139	3358-3361	DCI	_	_	
+22-140	3362-3366	with	_	_	
+22-141	3367-3374	Carrier	_	_	
+22-142	3375-3384	Indicator	_	_	
+22-143	3385-3390	Field	_	_	
+22-144	3391-3392	(	_	_	
+22-145	3392-3395	CIF	_	_	
+22-146	3395-3396	)	_	_	
+22-147	3397-3398	*	_	_	
+22-148	3399-3412	Multithreaded	_	_	
+22-149	3413-3416	DCI	_	_	
+22-150	3417-3423	search	_	_	
+22-151	3424-3425	*	_	_	
+22-152	3426-3439	Visualization	_	_	
+22-153	3440-3442	of	_	_	
+22-154	3443-3449	System	_	_	
+22-155	3450-3461	Information	_	_	
+22-156	3462-3468	Blocks	_	_	
+22-157	3469-3470	(	_	_	
+22-158	3470-3473	SIB	_	_	
+22-159	3473-3474	)	_	_	
+22-160	3476-3477	#	_	_	
+22-161	3477-3478	#	_	_	
+22-162	3479-3491	Installation	_	_	
+22-163	3493-3505	Installation	_	_	
+22-164	3506-3509	has	_	_	
+22-165	3510-3514	been	_	_	
+22-166	3515-3523	verified	_	_	
+22-167	3524-3526	on	_	_	
+22-168	3527-3530	the	_	_	
+22-169	3531-3540	following	_	_	
+22-170	3541-3550	operating	_	_	
+22-171	3551-3558	systems	_	_	
+22-172	3558-3559	:	_	_	
+22-173	3561-3562	*	_	_	
+22-174	3563-3569	Ubuntu	_	_	
+22-175	3570-3575	18.04	_	_	
+22-176	3575-3576	.	_	_	
+22-177	3576-3577	x	_	_	
+22-178	3578-3581	LTS	_	_	
+22-179	3582-3583	(	_	_	
+22-180	3583-3589	Bionic	_	_	
+22-181	3590-3596	Beaver	_	_	
+22-182	3596-3597	)	_	_	
+22-183	3598-3599	*	_	_	
+22-184	3600-3606	Ubuntu	_	_	
+22-185	3607-3612	20.04	_	_	
+22-186	3612-3613	.	_	_	
+22-187	3613-3614	x	_	_	
+22-188	3615-3618	LTS	_	_	
+22-189	3619-3620	(	_	_	
+22-190	3620-3625	Focal	_	_	
+22-191	3626-3631	Fossa	_	_	
+22-192	3631-3632	)	_	_	
+22-193	3633-3634	*	_	_	
+22-194	3635-3644	Archlinux	_	_	
+22-195	3645-3646	[	_	_	
+22-196	3646-3647	!	_	_	
+
+#Text=[](https://img.shields.io/aur/version/tudo-falcon)](https://aur.archlinux.org/packages/tudo-falcon) [!
+23-1	3647-3648	[	_	_	
+23-2	3648-3649	]	_	_	
+23-3	3649-3650	(	_	_	
+23-4	3650-3655	https	_	_	
+23-5	3655-3656	:	_	_	
+23-6	3656-3657	/	_	_	
+23-7	3657-3658	/	_	_	
+23-8	3658-3672	img.shields.io	_	_	
+23-9	3672-3673	/	_	_	
+23-10	3673-3676	aur	_	_	
+23-11	3676-3677	/	_	_	
+23-12	3677-3684	version	_	_	
+23-13	3684-3685	/	_	_	
+23-14	3685-3696	tudo-falcon	_	_	
+23-15	3696-3697	)	_	_	
+23-16	3697-3698	]	_	_	
+23-17	3698-3699	(	_	_	
+23-18	3699-3704	https	_	_	
+23-19	3704-3705	:	_	_	
+23-20	3705-3706	/	_	_	
+23-21	3706-3707	/	_	_	
+23-22	3707-3724	aur.archlinux.org	_	_	
+23-23	3724-3725	/	_	_	
+23-24	3725-3733	packages	_	_	
+23-25	3733-3734	/	_	_	
+23-26	3734-3745	tudo-falcon	_	_	
+23-27	3745-3746	)	_	_	
+23-28	3747-3748	[	_	_	
+23-29	3748-3749	!	_	_	
+
+#Text=[](https://img.shields.io/aur/maintainer/tudo-falcon)](https://aur.archlinux.org/packages/tudo-falcon)
+#Text=
+#Text=### Installation on Ubuntu
+#Text=
+#Text=#### 1) Required Dependencies
+#Text=FALCON installation automatically downloads a patched version of srsLTE and c-mnalib as subproject during the build process.
+24-1	3749-3750	[	_	_	
+24-2	3750-3751	]	_	_	
+24-3	3751-3752	(	_	_	
+24-4	3752-3757	https	_	_	
+24-5	3757-3758	:	_	_	
+24-6	3758-3759	/	_	_	
+24-7	3759-3760	/	_	_	
+24-8	3760-3774	img.shields.io	_	_	
+24-9	3774-3775	/	_	_	
+24-10	3775-3778	aur	_	_	
+24-11	3778-3779	/	_	_	
+24-12	3779-3789	maintainer	_	_	
+24-13	3789-3790	/	_	_	
+24-14	3790-3801	tudo-falcon	_	_	
+24-14.1	3795-3801	falcon	*	SOFTWARE	
+24-15	3801-3802	)	_	_	
+24-16	3802-3803	]	_	_	
+24-17	3803-3804	(	_	_	
+24-18	3804-3809	https	_	_	
+24-19	3809-3810	:	_	_	
+24-20	3810-3811	/	_	_	
+24-21	3811-3812	/	_	_	
+24-22	3812-3829	aur.archlinux.org	_	_	
+24-23	3829-3830	/	_	_	
+24-24	3830-3838	packages	_	_	
+24-25	3838-3839	/	_	_	
+24-26	3839-3850	tudo-falcon	_	_	
+24-26.1	3844-3850	falcon	*	SOFTWARE	
+24-27	3850-3851	)	_	_	
+24-28	3853-3854	#	_	_	
+24-29	3854-3855	#	_	_	
+24-30	3855-3856	#	_	_	
+24-31	3857-3869	Installation	_	_	
+24-32	3870-3872	on	_	_	
+24-33	3873-3879	Ubuntu	_	_	
+24-34	3881-3882	#	_	_	
+24-35	3882-3883	#	_	_	
+24-36	3883-3884	#	_	_	
+24-37	3884-3885	#	_	_	
+24-38	3886-3887	1	_	_	
+24-39	3887-3888	)	_	_	
+24-40	3889-3897	Required	_	_	
+24-41	3898-3910	Dependencies	_	_	
+24-42	3911-3917	FALCON	*	SOFTWARE	
+24-43	3918-3930	installation	_	_	
+24-44	3931-3944	automatically	_	_	
+24-45	3945-3954	downloads	_	_	
+24-46	3955-3956	a	_	_	
+24-47	3957-3964	patched	_	_	
+24-48	3965-3972	version	_	_	
+24-49	3973-3975	of	_	_	
+24-50	3976-3982	srsLTE	*	SOFTWARE	
+24-51	3983-3986	and	_	_	
+24-52	3987-3995	c-mnalib	*	SOFTWARE	
+24-53	3996-3998	as	_	_	
+24-54	3999-4009	subproject	_	_	
+24-55	4010-4016	during	_	_	
+24-56	4017-4020	the	_	_	
+24-57	4021-4026	build	_	_	
+24-58	4027-4034	process	_	_	
+24-59	4034-4035	.	_	_	
+
+#Text=Please install the following dependencies which are required by FALCON or its included components:
+#Text=
+#Text=For srsLTE:
+#Text=```sh
+#Text=sudo apt-get install build-essential git cmake libfftw3-dev libmbedtls-dev libboost-program-options-dev libconfig++-dev libsctp-dev
+#Text=```
+#Text=For srsGUI (only required to build the ported version of IMDEA OWL):
+#Text=```sh
+#Text=sudo apt-get install libboost-system-dev libboost-test-dev libboost-thread-dev libqwt-qt5-dev qtbase5-dev
+#Text=git clone https://github.com/srsLTE/srsGUI.git
+#Text=cd srsgui
+#Text=mkdir build
+#Text=cd build
+#Text=cmake ../
+#Text=make
+#Text=sudo make install
+#Text=```
+#Text=For USRP support:
+#Text=```sh
+#Text=sudo add-apt-repository ppa:ettusresearch/uhd
+#Text=sudo apt-get update
+#Text=sudo apt-get install libuhd-dev uhd-host
+#Text=```
+#Text=
+#Text=For LimeSDR support:
+#Text=```sh
+#Text=sudo add-apt-repository -y ppa:myriadrf/drivers
+#Text=sudo apt-get update
+#Text=sudo apt-get install limesuite limesuite-udev limesuite-images
+#Text=sudo apt-get install soapysdr soapysdr-module-lms7
+#Text=```
+#Text=
+#Text=For FALCON:
+#Text=```sh
+#Text=sudo apt-get install libglib2.0-dev libudev-dev libcurl4-gnutls-dev libboost-all-dev qtdeclarative5-dev libqt5charts5-dev
+#Text=```
+#Text=
+#Text=#### 2) FALCON:
+#Text=```sh
+#Text=git clone https://github.com/falkenber9/falcon.git
+#Text=cd falcon
+#Text=mkdir build
+#Text=cd build
+#Text=cmake -DCMAKE_INSTALL_PREFIX=/usr ../
+#Text=make
+#Text=
+#Text=# Install (optional)
+#Text=sudo make install
+#Text=
+#Text=# Uninstall (use carefully!)
+25-1	4036-4042	Please	_	_	
+25-2	4043-4050	install	_	_	
+25-3	4051-4054	the	_	_	
+25-4	4055-4064	following	_	_	
+25-5	4065-4077	dependencies	_	_	
+25-6	4078-4083	which	_	_	
+25-7	4084-4087	are	_	_	
+25-8	4088-4096	required	_	_	
+25-9	4097-4099	by	_	_	
+25-10	4100-4106	FALCON	*	SOFTWARE	
+25-11	4107-4109	or	_	_	
+25-12	4110-4113	its	_	_	
+25-13	4114-4122	included	_	_	
+25-14	4123-4133	components	_	_	
+25-15	4133-4134	:	_	_	
+25-16	4136-4139	For	_	_	
+25-17	4140-4146	srsLTE	*	SOFTWARE	
+25-18	4146-4147	:	_	_	
+25-19	4148-4149	`	_	_	
+25-20	4149-4150	`	_	_	
+25-21	4150-4151	`	_	_	
+25-22	4151-4153	sh	_	_	
+25-23	4154-4158	sudo	_	_	
+25-24	4159-4166	apt-get	_	_	
+25-25	4167-4174	install	_	_	
+25-26	4175-4190	build-essential	*	SOFTWARE	
+25-27	4191-4194	git	*	SOFTWARE	
+25-28	4195-4200	cmake	*	SOFTWARE	
+25-29	4201-4209	libfftw3	*[4]	SOFTWARE[4]	
+25-30	4209-4210	-	*[4]	SOFTWARE[4]	
+25-31	4210-4213	dev	*[4]	SOFTWARE[4]	
+25-32	4214-4228	libmbedtls-dev	*	SOFTWARE	
+25-33	4229-4257	libboost-program-options-dev	*	SOFTWARE	
+25-34	4258-4267	libconfig	*[5]	SOFTWARE[5]	
+25-35	4267-4268	+	*[5]	SOFTWARE[5]	
+25-36	4268-4269	+	*[5]	SOFTWARE[5]	
+25-37	4269-4270	-	*[5]	SOFTWARE[5]	
+25-38	4270-4273	dev	*[5]	SOFTWARE[5]	
+25-39	4274-4285	libsctp-dev	*	SOFTWARE	
+25-40	4286-4287	`	_	_	
+25-41	4287-4288	`	_	_	
+25-42	4288-4289	`	_	_	
+25-43	4290-4293	For	_	_	
+25-44	4294-4300	srsGUI	*	SOFTWARE	
+25-45	4301-4302	(	_	_	
+25-46	4302-4306	only	_	_	
+25-47	4307-4315	required	_	_	
+25-48	4316-4318	to	_	_	
+25-49	4319-4324	build	_	_	
+25-50	4325-4328	the	_	_	
+25-51	4329-4335	ported	_	_	
+25-52	4336-4343	version	_	_	
+25-53	4344-4346	of	_	_	
+25-54	4347-4352	IMDEA	_	_	
+25-55	4353-4356	OWL	_	_	
+25-56	4356-4357	)	_	_	
+25-57	4357-4358	:	_	_	
+25-58	4359-4360	`	_	_	
+25-59	4360-4361	`	_	_	
+25-60	4361-4362	`	_	_	
+25-61	4362-4364	sh	_	_	
+25-62	4365-4369	sudo	_	_	
+25-63	4370-4377	apt-get	_	_	
+25-64	4378-4385	install	_	_	
+25-65	4386-4405	libboost-system-dev	*	SOFTWARE	
+25-66	4406-4423	libboost-test-dev	*	SOFTWARE	
+25-67	4424-4443	libboost-thread-dev	*	SOFTWARE	
+25-68	4444-4454	libqwt-qt5	*[6]	SOFTWARE[6]	
+25-69	4454-4455	-	*[6]	SOFTWARE[6]	
+25-70	4455-4458	dev	*[6]	SOFTWARE[6]	
+25-71	4459-4466	qtbase5	*[7]	SOFTWARE[7]	
+25-72	4466-4467	-	*[7]	SOFTWARE[7]	
+25-73	4467-4470	dev	*[7]	SOFTWARE[7]	
+25-74	4471-4474	git	*	SOFTWARE	
+25-75	4475-4480	clone	_	_	
+25-76	4481-4486	https	_	_	
+25-77	4486-4487	:	_	_	
+25-78	4487-4488	/	_	_	
+25-79	4488-4489	/	_	_	
+25-80	4489-4499	github.com	_	_	
+25-81	4499-4500	/	_	_	
+25-82	4500-4506	srsLTE	*	SOFTWARE	
+25-83	4506-4507	/	_	_	
+25-84	4507-4517	srsGUI.git	_	_	
+25-84.1	4507-4513	srsGUI	*	SOFTWARE	
+25-85	4518-4520	cd	_	_	
+25-86	4521-4527	srsgui	*	SOFTWARE	
+25-87	4528-4533	mkdir	_	_	
+25-88	4534-4539	build	_	_	
+25-89	4540-4542	cd	_	_	
+25-90	4543-4548	build	_	_	
+25-91	4549-4554	cmake	*	SOFTWARE	
+25-92	4555-4556	.	_	_	
+25-93	4556-4557	.	_	_	
+25-94	4557-4558	/	_	_	
+25-95	4559-4563	make	_	_	
+25-96	4564-4568	sudo	_	_	
+25-97	4569-4573	make	_	_	
+25-98	4574-4581	install	_	_	
+25-99	4582-4583	`	_	_	
+25-100	4583-4584	`	_	_	
+25-101	4584-4585	`	_	_	
+25-102	4586-4589	For	_	_	
+25-103	4590-4594	USRP	_	_	
+25-104	4595-4602	support	_	_	
+25-105	4602-4603	:	_	_	
+25-106	4604-4605	`	_	_	
+25-107	4605-4606	`	_	_	
+25-108	4606-4607	`	_	_	
+25-109	4607-4609	sh	_	_	
+25-110	4610-4614	sudo	_	_	
+25-111	4615-4633	add-apt-repository	_	_	
+25-112	4634-4637	ppa	_	_	
+25-113	4637-4638	:	_	_	
+25-114	4638-4651	ettusresearch	_	_	
+25-115	4651-4652	/	_	_	
+25-116	4652-4655	uhd	_	_	
+25-117	4656-4660	sudo	_	_	
+25-118	4661-4668	apt-get	_	_	
+25-119	4669-4675	update	_	_	
+25-120	4676-4680	sudo	_	_	
+25-121	4681-4688	apt-get	_	_	
+25-122	4689-4696	install	_	_	
+25-123	4697-4707	libuhd-dev	*	SOFTWARE	
+25-124	4708-4716	uhd-host	*	SOFTWARE	
+25-125	4717-4718	`	_	_	
+25-126	4718-4719	`	_	_	
+25-127	4719-4720	`	_	_	
+25-128	4722-4725	For	_	_	
+25-129	4726-4733	LimeSDR	*	SOFTWARE	
+25-130	4734-4741	support	_	_	
+25-131	4741-4742	:	_	_	
+25-132	4743-4744	`	_	_	
+25-133	4744-4745	`	_	_	
+25-134	4745-4746	`	_	_	
+25-135	4746-4748	sh	_	_	
+25-136	4749-4753	sudo	_	_	
+25-137	4754-4772	add-apt-repository	_	_	
+25-138	4773-4774	-	_	_	
+25-139	4774-4775	y	_	_	
+25-140	4776-4779	ppa	_	_	
+25-141	4779-4780	:	_	_	
+25-142	4780-4788	myriadrf	_	_	
+25-143	4788-4789	/	_	_	
+25-144	4789-4796	drivers	_	_	
+25-145	4797-4801	sudo	_	_	
+25-146	4802-4809	apt-get	_	_	
+25-147	4810-4816	update	_	_	
+25-148	4817-4821	sudo	_	_	
+25-149	4822-4829	apt-get	_	_	
+25-150	4830-4837	install	_	_	
+25-151	4838-4847	limesuite	*	SOFTWARE	
+25-152	4848-4862	limesuite-udev	*	SOFTWARE	
+25-153	4863-4879	limesuite-images	*	SOFTWARE	
+25-154	4880-4884	sudo	_	_	
+25-155	4885-4892	apt-get	_	_	
+25-156	4893-4900	install	_	_	
+25-157	4901-4909	soapysdr	*	SOFTWARE	
+25-158	4910-4930	soapysdr-module-lms7	*	SOFTWARE	
+25-159	4931-4932	`	_	_	
+25-160	4932-4933	`	_	_	
+25-161	4933-4934	`	_	_	
+25-162	4936-4939	For	_	_	
+25-163	4940-4946	FALCON	*	SOFTWARE	
+25-164	4946-4947	:	_	_	
+25-165	4948-4949	`	_	_	
+25-166	4949-4950	`	_	_	
+25-167	4950-4951	`	_	_	
+25-168	4951-4953	sh	_	_	
+25-169	4954-4958	sudo	_	_	
+25-170	4959-4966	apt-get	_	_	
+25-171	4967-4974	install	_	_	
+25-172	4975-4985	libglib2.0	*[8]	SOFTWARE[8]	
+25-173	4985-4986	-	*[8]	SOFTWARE[8]	
+25-174	4986-4989	dev	*[8]	SOFTWARE[8]	
+25-175	4990-5001	libudev-dev	*	SOFTWARE	
+25-176	5002-5010	libcurl4	*[9]	SOFTWARE[9]	
+25-177	5010-5011	-	*[9]	SOFTWARE[9]	
+25-178	5011-5021	gnutls-dev	*[9]	SOFTWARE[9]	
+25-179	5022-5038	libboost-all-dev	*	SOFTWARE	
+25-180	5039-5053	qtdeclarative5	*[10]	SOFTWARE[10]	
+25-181	5053-5054	-	*[10]	SOFTWARE[10]	
+25-182	5054-5057	dev	*[10]	SOFTWARE[10]	
+25-183	5058-5071	libqt5charts5	*[11]	SOFTWARE[11]	
+25-184	5071-5072	-	*[11]	SOFTWARE[11]	
+25-185	5072-5075	dev	*[11]	SOFTWARE[11]	
+25-186	5076-5077	`	_	_	
+25-187	5077-5078	`	_	_	
+25-188	5078-5079	`	_	_	
+25-189	5081-5082	#	_	_	
+25-190	5082-5083	#	_	_	
+25-191	5083-5084	#	_	_	
+25-192	5084-5085	#	_	_	
+25-193	5086-5087	2	_	_	
+25-194	5087-5088	)	_	_	
+25-195	5089-5095	FALCON	*	SOFTWARE	
+25-196	5095-5096	:	_	_	
+25-197	5097-5098	`	_	_	
+25-198	5098-5099	`	_	_	
+25-199	5099-5100	`	_	_	
+25-200	5100-5102	sh	_	_	
+25-201	5103-5106	git	*	SOFTWARE	
+25-202	5107-5112	clone	_	_	
+25-203	5113-5118	https	_	_	
+25-204	5118-5119	:	_	_	
+25-205	5119-5120	/	_	_	
+25-206	5120-5121	/	_	_	
+25-207	5121-5131	github.com	_	_	
+25-208	5131-5132	/	_	_	
+25-209	5132-5142	falkenber9	_	_	
+25-210	5142-5143	/	_	_	
+25-211	5143-5153	falcon.git	_	_	
+25-212	5154-5156	cd	_	_	
+25-213	5157-5163	falcon	*	SOFTWARE	
+25-214	5164-5169	mkdir	_	_	
+25-215	5170-5175	build	_	_	
+25-216	5176-5178	cd	_	_	
+25-217	5179-5184	build	_	_	
+25-218	5185-5190	cmake	*	SOFTWARE	
+25-219	5191-5192	-	_	_	
+25-220	5192-5213	DCMAKE_INSTALL_PREFIX	_	_	
+25-221	5213-5214	=	_	_	
+25-222	5214-5215	/	_	_	
+25-223	5215-5218	usr	_	_	
+25-224	5219-5220	.	_	_	
+25-225	5220-5221	.	_	_	
+25-226	5221-5222	/	_	_	
+25-227	5223-5227	make	_	_	
+25-228	5229-5230	#	_	_	
+25-229	5231-5238	Install	_	_	
+25-230	5239-5240	(	_	_	
+25-231	5240-5248	optional	_	_	
+25-232	5248-5249	)	_	_	
+25-233	5250-5254	sudo	_	_	
+25-234	5255-5259	make	_	_	
+25-235	5260-5267	install	_	_	
+25-236	5269-5270	#	_	_	
+25-237	5271-5280	Uninstall	_	_	
+25-238	5281-5282	(	_	_	
+25-239	5282-5285	use	_	_	
+25-240	5286-5295	carefully	_	_	
+25-241	5295-5296	!	_	_	
+25-242	5296-5297	)	_	_	
+
+#Text=sudo xargs rm < install_manifest.txt
+#Text=```
+#Text=
+#Text=**Note:** FALCON requires a [patched version][srslte-falcon-patch] of srsLTE 18.09 that is automatically downloaded and included as subproject during the build process.
+26-1	5298-5302	sudo	_	_	
+26-2	5303-5308	xargs	_	_	
+26-3	5309-5311	rm	_	_	
+26-4	5312-5313	<	_	_	
+26-5	5314-5334	install_manifest.txt	_	_	
+26-6	5335-5336	`	_	_	
+26-7	5336-5337	`	_	_	
+26-8	5337-5338	`	_	_	
+26-9	5340-5341	*	_	_	
+26-10	5341-5342	*	_	_	
+26-11	5342-5346	Note	_	_	
+26-12	5346-5347	:	_	_	
+26-13	5347-5348	*	_	_	
+26-14	5348-5349	*	_	_	
+26-15	5350-5356	FALCON	*	SOFTWARE	
+26-16	5357-5365	requires	_	_	
+26-17	5366-5367	a	_	_	
+26-18	5368-5369	[	_	_	
+26-19	5369-5376	patched	_	_	
+26-20	5377-5384	version	_	_	
+26-21	5384-5385	]	_	_	
+26-22	5385-5386	[	_	_	
+26-23	5386-5405	srslte-falcon-patch	_	_	
+26-24	5405-5406	]	_	_	
+26-25	5407-5409	of	_	_	
+26-26	5410-5416	srsLTE	*	SOFTWARE	
+26-27	5417-5422	18.09	_	_	
+26-28	5423-5427	that	_	_	
+26-29	5428-5430	is	_	_	
+26-30	5431-5444	automatically	_	_	
+26-31	5445-5455	downloaded	_	_	
+26-32	5456-5459	and	_	_	
+26-33	5460-5468	included	_	_	
+26-34	5469-5471	as	_	_	
+26-35	5472-5482	subproject	_	_	
+26-36	5483-5489	during	_	_	
+26-37	5490-5493	the	_	_	
+26-38	5494-5499	build	_	_	
+26-39	5500-5507	process	_	_	
+26-40	5507-5508	.	_	_	
+
+#Text=However if a diffferent version of srsLTE is already installed on the computer, the build system will link against that version.
+27-1	5509-5516	However	_	_	
+27-2	5517-5519	if	_	_	
+27-3	5520-5521	a	_	_	
+27-4	5522-5532	diffferent	_	_	
+27-5	5533-5540	version	_	_	
+27-6	5541-5543	of	_	_	
+27-7	5544-5550	srsLTE	*	SOFTWARE	
+27-8	5551-5553	is	_	_	
+27-9	5554-5561	already	_	_	
+27-10	5562-5571	installed	_	_	
+27-11	5572-5574	on	_	_	
+27-12	5575-5578	the	_	_	
+27-13	5579-5587	computer	_	_	
+27-14	5587-5588	,	_	_	
+27-15	5589-5592	the	_	_	
+27-16	5593-5598	build	_	_	
+27-17	5599-5605	system	_	_	
+27-18	5606-5610	will	_	_	
+27-19	5611-5615	link	_	_	
+27-20	5616-5623	against	_	_	
+27-21	5624-5628	that	_	_	
+27-22	5629-5636	version	_	_	
+27-23	5636-5637	.	_	_	
+
+#Text=In case of conflicts, force the use of srsLTE as a subproject by adding ``-DFORCE_SUBPROJECT_SRSLTE=ON`` to the ``cmake`` options.
+28-1	5638-5640	In	_	_	
+28-2	5641-5645	case	_	_	
+28-3	5646-5648	of	_	_	
+28-4	5649-5658	conflicts	_	_	
+28-5	5658-5659	,	_	_	
+28-6	5660-5665	force	_	_	
+28-7	5666-5669	the	_	_	
+28-8	5670-5673	use	_	_	
+28-9	5674-5676	of	_	_	
+28-10	5677-5683	srsLTE	*	SOFTWARE	
+28-11	5684-5686	as	_	_	
+28-12	5687-5688	a	_	_	
+28-13	5689-5699	subproject	_	_	
+28-14	5700-5702	by	_	_	
+28-15	5703-5709	adding	_	_	
+28-16	5710-5711	`	_	_	
+28-17	5711-5712	`	_	_	
+28-18	5712-5713	-	_	_	
+28-19	5713-5737	DFORCE_SUBPROJECT_SRSLTE	_	_	
+28-19.1	5731-5737	SRSLTE	*	SOFTWARE	
+28-20	5737-5738	=	_	_	
+28-21	5738-5740	ON	_	_	
+28-22	5740-5741	`	_	_	
+28-23	5741-5742	`	_	_	
+28-24	5743-5745	to	_	_	
+28-25	5746-5749	the	_	_	
+28-26	5750-5751	`	_	_	
+28-27	5751-5752	`	_	_	
+28-28	5752-5757	cmake	*	SOFTWARE	
+28-29	5757-5758	`	_	_	
+28-30	5758-5759	`	_	_	
+28-31	5760-5767	options	_	_	
+28-32	5767-5768	.	_	_	
+
+#Text=In this case, take care with ``make install``, since this may overwrite your existing version of srsLTE.
+29-1	5769-5771	In	_	_	
+29-2	5772-5776	this	_	_	
+29-3	5777-5781	case	_	_	
+29-4	5781-5782	,	_	_	
+29-5	5783-5787	take	_	_	
+29-6	5788-5792	care	_	_	
+29-7	5793-5797	with	_	_	
+29-8	5798-5799	`	_	_	
+29-9	5799-5800	`	_	_	
+29-10	5800-5804	make	_	_	
+29-11	5805-5812	install	_	_	
+29-12	5812-5813	`	_	_	
+29-13	5813-5814	`	_	_	
+29-14	5814-5815	,	_	_	
+29-15	5816-5821	since	_	_	
+29-16	5822-5826	this	_	_	
+29-17	5827-5830	may	_	_	
+29-18	5831-5840	overwrite	_	_	
+29-19	5841-5845	your	_	_	
+29-20	5846-5854	existing	_	_	
+29-21	5855-5862	version	_	_	
+29-22	5863-5865	of	_	_	
+29-23	5866-5872	srsLTE	*	SOFTWARE	
+29-24	5872-5873	.	_	_	
+
+#Text=Example:
+#Text=```
+#Text=...
+#Text=cmake -DFORCE_SUBPROJECT_SRSLTE=ON -DCMAKE_INSTALL_PREFIX=/usr ../
+#Text=...
+#Text=```
+#Text=
+#Text=
+#Text=### Installation on Archlinux
+#Text=On Archlinux build and install the package ``tudo-falcon`` [!
+30-1	5874-5881	Example	_	_	
+30-2	5881-5882	:	_	_	
+30-3	5883-5884	`	_	_	
+30-4	5884-5885	`	_	_	
+30-5	5885-5886	`	_	_	
+30-6	5887-5888	.	_	_	
+30-7	5888-5889	.	_	_	
+30-8	5889-5890	.	_	_	
+30-9	5891-5896	cmake	_	_	
+30-10	5897-5898	-	_	_	
+30-11	5898-5922	DFORCE_SUBPROJECT_SRSLTE	_	_	
+30-11.1	5916-5922	SRSLTE	*	SOFTWARE	
+30-12	5922-5923	=	_	_	
+30-13	5923-5925	ON	_	_	
+30-14	5926-5927	-	_	_	
+30-15	5927-5948	DCMAKE_INSTALL_PREFIX	_	_	
+30-16	5948-5949	=	_	_	
+30-17	5949-5950	/	_	_	
+30-18	5950-5953	usr	_	_	
+30-19	5954-5955	.	_	_	
+30-20	5955-5956	.	_	_	
+30-21	5956-5957	/	_	_	
+30-22	5958-5959	.	_	_	
+30-23	5959-5960	.	_	_	
+30-24	5960-5961	.	_	_	
+30-25	5962-5963	`	_	_	
+30-26	5963-5964	`	_	_	
+30-27	5964-5965	`	_	_	
+30-28	5968-5969	#	_	_	
+30-29	5969-5970	#	_	_	
+30-30	5970-5971	#	_	_	
+30-31	5972-5984	Installation	_	_	
+30-32	5985-5987	on	_	_	
+30-33	5988-5997	Archlinux	*	SOFTWARE	
+30-34	5998-6000	On	_	_	
+30-35	6001-6010	Archlinux	*	SOFTWARE	
+30-36	6011-6016	build	_	_	
+30-37	6017-6020	and	_	_	
+30-38	6021-6028	install	_	_	
+30-39	6029-6032	the	_	_	
+30-40	6033-6040	package	_	_	
+30-41	6041-6042	`	_	_	
+30-42	6042-6043	`	_	_	
+30-43	6043-6054	tudo-falcon	*	SOFTWARE	
+30-44	6054-6055	`	_	_	
+30-45	6055-6056	`	_	_	
+30-46	6057-6058	[	_	_	
+30-47	6058-6059	!	_	_	
+
+#Text=[](https://img.shields.io/aur/version/tudo-falcon)](https://aur.archlinux.org/packages/tudo-falcon) from the [Arch User Repository (AUR)](https://aur.archlinux.org).
+31-1	6059-6060	[	_	_	
+31-2	6060-6061	]	_	_	
+31-3	6061-6062	(	_	_	
+31-4	6062-6067	https	_	_	
+31-5	6067-6068	:	_	_	
+31-6	6068-6069	/	_	_	
+31-7	6069-6070	/	_	_	
+31-8	6070-6084	img.shields.io	_	_	
+31-9	6084-6085	/	_	_	
+31-10	6085-6088	aur	_	_	
+31-11	6088-6089	/	_	_	
+31-12	6089-6096	version	_	_	
+31-13	6096-6097	/	_	_	
+31-14	6097-6108	tudo-falcon	_	_	
+31-15	6108-6109	)	_	_	
+31-16	6109-6110	]	_	_	
+31-17	6110-6111	(	_	_	
+31-18	6111-6116	https	_	_	
+31-19	6116-6117	:	_	_	
+31-20	6117-6118	/	_	_	
+31-21	6118-6119	/	_	_	
+31-22	6119-6136	aur.archlinux.org	_	_	
+31-23	6136-6137	/	_	_	
+31-24	6137-6145	packages	_	_	
+31-25	6145-6146	/	_	_	
+31-26	6146-6157	tudo-falcon	_	_	
+31-27	6157-6158	)	_	_	
+31-28	6159-6163	from	_	_	
+31-29	6164-6167	the	_	_	
+31-30	6168-6169	[	_	_	
+31-31	6169-6173	Arch	_	_	
+31-32	6174-6178	User	_	_	
+31-33	6179-6189	Repository	_	_	
+31-34	6190-6191	(	_	_	
+31-35	6191-6194	AUR	_	_	
+31-36	6194-6195	)	_	_	
+31-37	6195-6196	]	_	_	
+31-38	6196-6197	(	_	_	
+31-39	6197-6202	https	_	_	
+31-40	6202-6203	:	_	_	
+31-41	6203-6204	/	_	_	
+31-42	6204-6205	/	_	_	
+31-43	6205-6222	aur.archlinux.org	_	_	
+31-44	6222-6223	)	_	_	
+31-45	6223-6224	.	_	_	
+
+#Text=The most convenient way is the use of an [AUR Helper](https://wiki.archlinux.org/index.php/AUR_helpers), e.g.
+32-1	6225-6228	The	_	_	
+32-2	6229-6233	most	_	_	
+32-3	6234-6244	convenient	_	_	
+32-4	6245-6248	way	_	_	
+32-5	6249-6251	is	_	_	
+32-6	6252-6255	the	_	_	
+32-7	6256-6259	use	_	_	
+32-8	6260-6262	of	_	_	
+32-9	6263-6265	an	_	_	
+32-10	6266-6267	[	_	_	
+32-11	6267-6270	AUR	_	_	
+32-12	6271-6277	Helper	_	_	
+32-13	6277-6278	]	_	_	
+32-14	6278-6279	(	_	_	
+32-15	6279-6284	https	_	_	
+32-16	6284-6285	:	_	_	
+32-17	6285-6286	/	_	_	
+32-18	6286-6287	/	_	_	
+32-19	6287-6305	wiki.archlinux.org	_	_	
+32-20	6305-6306	/	_	_	
+32-21	6306-6315	index.php	_	_	
+32-22	6315-6316	/	_	_	
+32-23	6316-6327	AUR_helpers	_	_	
+32-24	6327-6328	)	_	_	
+32-25	6328-6329	,	_	_	
+32-26	6330-6333	e.g	_	_	
+32-27	6333-6334	.	_	_	
+
+#Text=[yay](https://aur.archlinux.org/packages/yay) or [pacaur](https://aur.archlinux.org/packages/pacaur).
+33-1	6335-6336	[	_	_	
+33-2	6336-6339	yay	_	_	
+33-3	6339-6340	]	_	_	
+33-4	6340-6341	(	_	_	
+33-5	6341-6346	https	_	_	
+33-6	6346-6347	:	_	_	
+33-7	6347-6348	/	_	_	
+33-8	6348-6349	/	_	_	
+33-9	6349-6366	aur.archlinux.org	_	_	
+33-10	6366-6367	/	_	_	
+33-11	6367-6375	packages	_	_	
+33-12	6375-6376	/	_	_	
+33-13	6376-6379	yay	_	_	
+33-14	6379-6380	)	_	_	
+33-15	6381-6383	or	_	_	
+33-16	6384-6385	[	_	_	
+33-17	6385-6391	pacaur	_	_	
+33-18	6391-6392	]	_	_	
+33-19	6392-6393	(	_	_	
+33-20	6393-6398	https	_	_	
+33-21	6398-6399	:	_	_	
+33-22	6399-6400	/	_	_	
+33-23	6400-6401	/	_	_	
+33-24	6401-6418	aur.archlinux.org	_	_	
+33-25	6418-6419	/	_	_	
+33-26	6419-6427	packages	_	_	
+33-27	6427-6428	/	_	_	
+33-28	6428-6434	pacaur	_	_	
+33-29	6434-6435	)	_	_	
+33-30	6435-6436	.	_	_	
+
+#Text=The following example shows the installation with ``yay``.
+34-1	6437-6440	The	_	_	
+34-2	6441-6450	following	_	_	
+34-3	6451-6458	example	_	_	
+34-4	6459-6464	shows	_	_	
+34-5	6465-6468	the	_	_	
+34-6	6469-6481	installation	_	_	
+34-7	6482-6486	with	_	_	
+34-8	6487-6488	`	_	_	
+34-9	6488-6489	`	_	_	
+34-10	6489-6492	yay	_	_	
+34-11	6492-6493	`	_	_	
+34-12	6493-6494	`	_	_	
+34-13	6494-6495	.	_	_	
+
+#Text=```sh
+#Text=# Install
+#Text=yay -Sy tudo-falcon
+#Text=
+#Text=# Uninstall
+#Text=sudo pacman -Rs tudo-falcon
+#Text=```
+#Text=
+#Text=#### Installation without AUR Helper
+#Text=
+#Text=Without an AUR Helper, the package(s) can be built in a local directory with ``makepkg`` and installed via ``pacman``:
+#Text=```sh
+#Text=# Prerequisites
+#Text=pacman -S --needed base-devel
+#Text=
+#Text=# Build directory
+#Text=mkdir falcon-packages
+#Text=cd falcon-packages
+#Text=
+#Text=# Dependency c-mnalib
+#Text=git clone https://aur.archlinux.org/c-mnalib.git
+#Text=cd c-mnalib
+#Text=makepkg -si
+#Text=cd
+35-1	6497-6498	`	_	_	
+35-2	6498-6499	`	_	_	
+35-3	6499-6500	`	_	_	
+35-4	6500-6502	sh	_	_	
+35-5	6503-6504	#	_	_	
+35-6	6505-6512	Install	_	_	
+35-7	6513-6516	yay	*	SOFTWARE	
+35-8	6517-6518	-	_	_	
+35-9	6518-6520	Sy	_	_	
+35-10	6521-6532	tudo-falcon	*	SOFTWARE	
+35-11	6534-6535	#	_	_	
+35-12	6536-6545	Uninstall	_	_	
+35-13	6546-6550	sudo	_	_	
+35-14	6551-6557	pacman	*	SOFTWARE	
+35-15	6558-6559	-	_	_	
+35-16	6559-6561	Rs	_	_	
+35-17	6562-6573	tudo-falcon	*	SOFTWARE	
+35-18	6574-6575	`	_	_	
+35-19	6575-6576	`	_	_	
+35-20	6576-6577	`	_	_	
+35-21	6579-6580	#	_	_	
+35-22	6580-6581	#	_	_	
+35-23	6581-6582	#	_	_	
+35-24	6582-6583	#	_	_	
+35-25	6584-6596	Installation	_	_	
+35-26	6597-6604	without	_	_	
+35-27	6605-6608	AUR	_	_	
+35-28	6609-6615	Helper	_	_	
+35-29	6617-6624	Without	_	_	
+35-30	6625-6627	an	_	_	
+35-31	6628-6631	AUR	_	_	
+35-32	6632-6638	Helper	_	_	
+35-33	6638-6639	,	_	_	
+35-34	6640-6643	the	_	_	
+35-35	6644-6651	package	_	_	
+35-36	6651-6652	(	_	_	
+35-37	6652-6653	s	_	_	
+35-38	6653-6654	)	_	_	
+35-39	6655-6658	can	_	_	
+35-40	6659-6661	be	_	_	
+35-41	6662-6667	built	_	_	
+35-42	6668-6670	in	_	_	
+35-43	6671-6672	a	_	_	
+35-44	6673-6678	local	_	_	
+35-45	6679-6688	directory	_	_	
+35-46	6689-6693	with	_	_	
+35-47	6694-6695	`	_	_	
+35-48	6695-6696	`	_	_	
+35-49	6696-6703	makepkg	*	SOFTWARE	
+35-50	6703-6704	`	_	_	
+35-51	6704-6705	`	_	_	
+35-52	6706-6709	and	_	_	
+35-53	6710-6719	installed	_	_	
+35-54	6720-6723	via	_	_	
+35-55	6724-6725	`	_	_	
+35-56	6725-6726	`	_	_	
+35-57	6726-6732	pacman	*	SOFTWARE	
+35-58	6732-6733	`	_	_	
+35-59	6733-6734	`	_	_	
+35-60	6734-6735	:	_	_	
+35-61	6736-6737	`	_	_	
+35-62	6737-6738	`	_	_	
+35-63	6738-6739	`	_	_	
+35-64	6739-6741	sh	_	_	
+35-65	6742-6743	#	_	_	
+35-66	6744-6757	Prerequisites	_	_	
+35-67	6758-6764	pacman	_	_	
+35-68	6765-6766	-	_	_	
+35-69	6766-6767	S	_	_	
+35-70	6768-6769	-	_	_	
+35-71	6769-6770	-	_	_	
+35-72	6770-6776	needed	_	_	
+35-73	6777-6787	base-devel	_	_	
+35-74	6789-6790	#	_	_	
+35-75	6791-6796	Build	_	_	
+35-76	6797-6806	directory	_	_	
+35-77	6807-6812	mkdir	_	_	
+35-78	6813-6828	falcon-packages	_	_	
+35-79	6829-6831	cd	_	_	
+35-80	6832-6847	falcon-packages	_	_	
+35-80.1	6832-6838	falcon	*	SOFTWARE	
+35-81	6849-6850	#	_	_	
+35-82	6851-6861	Dependency	_	_	
+35-83	6862-6870	c-mnalib	*	SOFTWARE	
+35-84	6871-6874	git	*	SOFTWARE	
+35-85	6875-6880	clone	_	_	
+35-86	6881-6886	https	_	_	
+35-87	6886-6887	:	_	_	
+35-88	6887-6888	/	_	_	
+35-89	6888-6889	/	_	_	
+35-90	6889-6906	aur.archlinux.org	_	_	
+35-90.1	6893-6902	archlinux	*	SOFTWARE	
+35-91	6906-6907	/	_	_	
+35-92	6907-6919	c-mnalib.git	_	_	
+35-92.1	6907-6915	c-mnalib	*	SOFTWARE	
+35-93	6920-6922	cd	_	_	
+35-94	6923-6931	c-mnalib	_	_	
+35-95	6932-6939	makepkg	*	SOFTWARE	
+35-96	6940-6941	-	_	_	
+35-97	6941-6943	si	_	_	
+35-98	6944-6946	cd	_	_	
+
+#Text=.
+36-1	6947-6948	.	_	_	
+
+#Text=.
+37-1	6948-6949	.	_	_	
+
+#Text=# Dependency srsLTE (patched)
+#Text=git clone https://aur.archlinux.org/srslte-falcon-patch-git.git
+#Text=cd srslte-falcon-patch-git
+#Text=makepkg -si
+#Text=cd
+38-1	6951-6952	#	_	_	
+38-2	6953-6963	Dependency	_	_	
+38-3	6964-6970	srsLTE	*	SOFTWARE	
+38-4	6971-6972	(	_	_	
+38-5	6972-6979	patched	_	_	
+38-6	6979-6980	)	_	_	
+38-7	6981-6984	git	*	SOFTWARE	
+38-8	6985-6990	clone	_	_	
+38-9	6991-6996	https	_	_	
+38-10	6996-6997	:	_	_	
+38-11	6997-6998	/	_	_	
+38-12	6998-6999	/	_	_	
+38-13	6999-7016	aur.archlinux.org	_	_	
+38-13.1	7003-7012	archlinux	*	SOFTWARE	
+38-14	7016-7017	/	_	_	
+38-15	7017-7044	srslte-falcon-patch-git.git	_	_	
+38-15.1	7017-7023	srslte	*	SOFTWARE	
+38-15.2	7024-7030	falcon	*	SOFTWARE	
+38-16	7045-7047	cd	_	_	
+38-17	7048-7071	srslte-falcon-patch-git	_	_	
+38-18	7072-7079	makepkg	_	_	
+38-19	7080-7081	-	_	_	
+38-20	7081-7083	si	_	_	
+38-21	7084-7086	cd	_	_	
+
+#Text=.
+39-1	7087-7088	.	_	_	
+
+#Text=.
+40-1	7088-7089	.	_	_	
+
+#Text=# FALCON
+#Text=git clone https://aur.archlinux.org/tudo-falcon.git
+#Text=cd tudo-falcon
+#Text=makepkg -si
+#Text=```
+#Text=
+#Text=## SDR Hardware
+#Text=FALCON has been tested with the following Software Defined Radios (SDRs):
+#Text=
+#Text=* Ettus Research: USRP B210
+#Text=* Ettus Research: USRP B205mini
+#Text=* Lime Microsystems: LimeSDR Mini
+#Text=
+#Text=In addition, any SDR supported by [srsLTE library][srslte] should work as well.
+#Text=
+#Text=## Computer Hardware Requirements / Performance
+#Text=Real-time decoding of LTE signals requires a mature multicore CPU, especially when monitoring busy cells and large bandwidths (i.e. 15MHz and 20MHz cells).
+41-1	7091-7092	#	_	_	
+41-2	7093-7099	FALCON	*	PROJECT	
+41-3	7100-7103	git	*	SOFTWARE	
+41-4	7104-7109	clone	_	_	
+41-5	7110-7115	https	_	_	
+41-6	7115-7116	:	_	_	
+41-7	7116-7117	/	_	_	
+41-8	7117-7118	/	_	_	
+41-9	7118-7135	aur.archlinux.org	_	_	
+41-10	7135-7136	/	_	_	
+41-11	7136-7151	tudo-falcon.git	_	_	
+41-11.1	7136-7147	tudo-falcon	*	SOFTWARE	
+41-12	7152-7154	cd	_	_	
+41-13	7155-7166	tudo-falcon	_	_	
+41-14	7167-7174	makepkg	_	_	
+41-15	7175-7176	-	_	_	
+41-16	7176-7178	si	_	_	
+41-17	7179-7180	`	_	_	
+41-18	7180-7181	`	_	_	
+41-19	7181-7182	`	_	_	
+41-20	7184-7185	#	_	_	
+41-21	7185-7186	#	_	_	
+41-22	7187-7190	SDR	_	_	
+41-23	7191-7199	Hardware	_	_	
+41-24	7200-7206	FALCON	*	SOFTWARE	
+41-25	7207-7210	has	_	_	
+41-26	7211-7215	been	_	_	
+41-27	7216-7222	tested	_	_	
+41-28	7223-7227	with	_	_	
+41-29	7228-7231	the	_	_	
+41-30	7232-7241	following	_	_	
+41-31	7242-7250	Software	_	_	
+41-32	7251-7258	Defined	_	_	
+41-33	7259-7265	Radios	_	_	
+41-34	7266-7267	(	_	_	
+41-35	7267-7271	SDRs	_	_	
+41-36	7271-7272	)	_	_	
+41-37	7272-7273	:	_	_	
+41-38	7275-7276	*	_	_	
+41-39	7277-7282	Ettus	_	_	
+41-40	7283-7291	Research	_	_	
+41-41	7291-7292	:	_	_	
+41-42	7293-7297	USRP	_	_	
+41-43	7298-7302	B210	_	_	
+41-44	7303-7304	*	_	_	
+41-45	7305-7310	Ettus	_	_	
+41-46	7311-7319	Research	_	_	
+41-47	7319-7320	:	_	_	
+41-48	7321-7325	USRP	_	_	
+41-49	7326-7334	B205mini	_	_	
+41-50	7335-7336	*	_	_	
+41-51	7337-7341	Lime	_	_	
+41-52	7342-7354	Microsystems	_	_	
+41-53	7354-7355	:	_	_	
+41-54	7356-7363	LimeSDR	_	_	
+41-55	7364-7368	Mini	_	_	
+41-56	7370-7372	In	_	_	
+41-57	7373-7381	addition	_	_	
+41-58	7381-7382	,	_	_	
+41-59	7383-7386	any	_	_	
+41-60	7387-7390	SDR	_	_	
+41-61	7391-7400	supported	_	_	
+41-62	7401-7403	by	_	_	
+41-63	7404-7405	[	_	_	
+41-64	7405-7411	srsLTE	_	_	
+41-65	7412-7419	library	_	_	
+41-66	7419-7420	]	_	_	
+41-67	7420-7421	[	_	_	
+41-68	7421-7427	srslte	_	_	
+41-69	7427-7428	]	_	_	
+41-70	7429-7435	should	_	_	
+41-71	7436-7440	work	_	_	
+41-72	7441-7443	as	_	_	
+41-73	7444-7448	well	_	_	
+41-74	7448-7449	.	_	_	
+41-75	7451-7452	#	_	_	
+41-76	7452-7453	#	_	_	
+41-77	7454-7462	Computer	_	_	
+41-78	7463-7471	Hardware	_	_	
+41-79	7472-7484	Requirements	_	_	
+41-80	7485-7486	/	_	_	
+41-81	7487-7498	Performance	_	_	
+41-82	7499-7508	Real-time	_	_	
+41-83	7509-7517	decoding	_	_	
+41-84	7518-7520	of	_	_	
+41-85	7521-7524	LTE	_	_	
+41-86	7525-7532	signals	_	_	
+41-87	7533-7541	requires	_	_	
+41-88	7542-7543	a	_	_	
+41-89	7544-7550	mature	_	_	
+41-90	7551-7560	multicore	_	_	
+41-91	7561-7564	CPU	_	_	
+41-92	7564-7565	,	_	_	
+41-93	7566-7576	especially	_	_	
+41-94	7577-7581	when	_	_	
+41-95	7582-7592	monitoring	_	_	
+41-96	7593-7597	busy	_	_	
+41-97	7598-7603	cells	_	_	
+41-98	7604-7607	and	_	_	
+41-99	7608-7613	large	_	_	
+41-100	7614-7624	bandwidths	_	_	
+41-101	7625-7626	(	_	_	
+41-102	7626-7629	i.e	_	_	
+41-103	7629-7630	.	_	_	
+41-104	7631-7636	15MHz	_	_	
+41-105	7637-7640	and	_	_	
+41-106	7641-7646	20MHz	_	_	
+41-107	7647-7652	cells	_	_	
+41-108	7652-7653	)	_	_	
+41-109	7653-7654	.	_	_	
+
+#Text=Large sample rates, wide FFTs, and larger search spaces make heavy use of the CPU, memory and involved buses.
+42-1	7655-7660	Large	_	_	
+42-2	7661-7667	sample	_	_	
+42-3	7668-7673	rates	_	_	
+42-4	7673-7674	,	_	_	
+42-5	7675-7679	wide	_	_	
+42-6	7680-7684	FFTs	_	_	
+42-7	7684-7685	,	_	_	
+42-8	7686-7689	and	_	_	
+42-9	7690-7696	larger	_	_	
+42-10	7697-7703	search	_	_	
+42-11	7704-7710	spaces	_	_	
+42-12	7711-7715	make	_	_	
+42-13	7716-7721	heavy	_	_	
+42-14	7722-7725	use	_	_	
+42-15	7726-7728	of	_	_	
+42-16	7729-7732	the	_	_	
+42-17	7733-7736	CPU	_	_	
+42-18	7736-7737	,	_	_	
+42-19	7738-7744	memory	_	_	
+42-20	7745-7748	and	_	_	
+42-21	7749-7757	involved	_	_	
+42-22	7758-7763	buses	_	_	
+42-23	7763-7764	.	_	_	
+
+#Text=In case of minor/sporadic performance issues, FALCON starts skipping/dropping single subframes in favor of maintaining synchronization if the processing of previous (buffered) subframes takes too long.
+43-1	7766-7768	In	_	_	
+43-2	7769-7773	case	_	_	
+43-3	7774-7776	of	_	_	
+43-4	7777-7782	minor	_	_	
+43-5	7782-7783	/	_	_	
+43-6	7783-7791	sporadic	_	_	
+43-7	7792-7803	performance	_	_	
+43-8	7804-7810	issues	_	_	
+43-9	7810-7811	,	_	_	
+43-10	7812-7818	FALCON	_	_	
+43-11	7819-7825	starts	_	_	
+43-12	7826-7834	skipping	_	_	
+43-13	7834-7835	/	_	_	
+43-14	7835-7843	dropping	_	_	
+43-15	7844-7850	single	_	_	
+43-16	7851-7860	subframes	_	_	
+43-17	7861-7863	in	_	_	
+43-18	7864-7869	favor	_	_	
+43-19	7870-7872	of	_	_	
+43-20	7873-7884	maintaining	_	_	
+43-21	7885-7900	synchronization	_	_	
+43-22	7901-7903	if	_	_	
+43-23	7904-7907	the	_	_	
+43-24	7908-7918	processing	_	_	
+43-25	7919-7921	of	_	_	
+43-26	7922-7930	previous	_	_	
+43-27	7931-7932	(	_	_	
+43-28	7932-7940	buffered	_	_	
+43-29	7940-7941	)	_	_	
+43-30	7942-7951	subframes	_	_	
+43-31	7952-7957	takes	_	_	
+43-32	7958-7961	too	_	_	
+43-33	7962-7966	long	_	_	
+43-34	7966-7967	.	_	_	
+
+#Text=Serious performance issues lead to IQ-sample overflows and degraded synchronization which causes false detections (spurious DCI) or may even cause an entire synchronization loss.
+44-1	7968-7975	Serious	_	_	
+44-2	7976-7987	performance	_	_	
+44-3	7988-7994	issues	_	_	
+44-4	7995-7999	lead	_	_	
+44-5	8000-8002	to	_	_	
+44-6	8003-8012	IQ-sample	_	_	
+44-7	8013-8022	overflows	_	_	
+44-8	8023-8026	and	_	_	
+44-9	8027-8035	degraded	_	_	
+44-10	8036-8051	synchronization	_	_	
+44-11	8052-8057	which	_	_	
+44-12	8058-8064	causes	_	_	
+44-13	8065-8070	false	_	_	
+44-14	8071-8081	detections	_	_	
+44-15	8082-8083	(	_	_	
+44-16	8083-8091	spurious	_	_	
+44-17	8092-8095	DCI	_	_	
+44-18	8095-8096	)	_	_	
+44-19	8097-8099	or	_	_	
+44-20	8100-8103	may	_	_	
+44-21	8104-8108	even	_	_	
+44-22	8109-8114	cause	_	_	
+44-23	8115-8117	an	_	_	
+44-24	8118-8124	entire	_	_	
+44-25	8125-8140	synchronization	_	_	
+44-26	8141-8145	loss	_	_	
+44-27	8145-8146	.	_	_	
+
+#Text=The actual computational demands depend on many internal (CPU capabilities, memory bandwidth, power-saving techniques, other processes) and external factors (interference from neighboring cells/sectors, signal strength, cell activity).
+45-1	8148-8151	The	_	_	
+45-2	8152-8158	actual	_	_	
+45-3	8159-8172	computational	_	_	
+45-4	8173-8180	demands	_	_	
+45-5	8181-8187	depend	_	_	
+45-6	8188-8190	on	_	_	
+45-7	8191-8195	many	_	_	
+45-8	8196-8204	internal	_	_	
+45-9	8205-8206	(	_	_	
+45-10	8206-8209	CPU	_	_	
+45-11	8210-8222	capabilities	_	_	
+45-12	8222-8223	,	_	_	
+45-13	8224-8230	memory	_	_	
+45-14	8231-8240	bandwidth	_	_	
+45-15	8240-8241	,	_	_	
+45-16	8242-8254	power-saving	_	_	
+45-17	8255-8265	techniques	_	_	
+45-18	8265-8266	,	_	_	
+45-19	8267-8272	other	_	_	
+45-20	8273-8282	processes	_	_	
+45-21	8282-8283	)	_	_	
+45-22	8284-8287	and	_	_	
+45-23	8288-8296	external	_	_	
+45-24	8297-8304	factors	_	_	
+45-25	8305-8306	(	_	_	
+45-26	8306-8318	interference	_	_	
+45-27	8319-8323	from	_	_	
+45-28	8324-8335	neighboring	_	_	
+45-29	8336-8341	cells	_	_	
+45-30	8341-8342	/	_	_	
+45-31	8342-8349	sectors	_	_	
+45-32	8349-8350	,	_	_	
+45-33	8351-8357	signal	_	_	
+45-34	8358-8366	strength	_	_	
+45-35	8366-8367	,	_	_	
+45-36	8368-8372	cell	_	_	
+45-37	8373-8381	activity	_	_	
+45-38	8381-8382	)	_	_	
+45-39	8382-8383	.	_	_	
+
+#Text=Therefore, the following *rules of thumb* may not all be required for your setup or may not be sufficient to obtain satisfactory results.
+#Text=
+#Text=### General Recommendations
+#Text=* Don't run any other fancy (GUI) application at the same time, e.g. browser or Email clients
+#Text=* Use a CPU with at least 4 physical cores
+#Text=* Disable Hyper-Threading
+#Text=* Disable power-saving techniques such as DVFS and put the CPU into *performance* mode
+#Text=
+#Text=### Example Systems
+#Text=All systems were tested with a USRP B210 SDR, attached via USB 3.0 and simple dipole antenna (connected via 1m SMA HF cable).
+#Text=#### Lenovo X250 Notebook
+#Text=* Intel Core i7-5600U (Dual Core CPU + Hyper-Threading), 2.6GHz, 8GB RAM, SSD
+#Text=* Arch Linux, kernel 5.3.5-arch1-1-ARCH, KDE/Plasma desktop environment
+#Text=* GUI: Good results up to 10MHz bandwidth and good LTE signal.
+#Text=* FalconEye: Good results up to 15MHz bandwidth and good LTE signal.
+#Text=* 20 MHz bandwidth: subframe skip ratio up to 50%, eventually sync loss, many false detections
+#Text=
+#Text=#### Lenovo T540p
+#Text=* Intel Core i7-4710Q (4 Core CPU + Hyper-Threading), 2.5GHz, 8GB RAM, SSD
+#Text=* Ubuntu 18.04.3 LTS (bionic), kernel 4.15.0-66-generic, GNOME or KDE/Plasma desktop environment
+#Text=* GUI: Good results up to 20MHz bandwidth and good LTE signal; frame skips during window resizing
+#Text=* FalconEye: Good results up to 20MHz bandwidth and good LTE signal
+#Text=
+#Text=## Usage Instructions
+#Text=This section provides brief usage instructions for FALCON.
+46-1	8384-8393	Therefore	_	_	
+46-2	8393-8394	,	_	_	
+46-3	8395-8398	the	_	_	
+46-4	8399-8408	following	_	_	
+46-5	8409-8410	*	_	_	
+46-6	8410-8415	rules	_	_	
+46-7	8416-8418	of	_	_	
+46-8	8419-8424	thumb	_	_	
+46-9	8424-8425	*	_	_	
+46-10	8426-8429	may	_	_	
+46-11	8430-8433	not	_	_	
+46-12	8434-8437	all	_	_	
+46-13	8438-8440	be	_	_	
+46-14	8441-8449	required	_	_	
+46-15	8450-8453	for	_	_	
+46-16	8454-8458	your	_	_	
+46-17	8459-8464	setup	_	_	
+46-18	8465-8467	or	_	_	
+46-19	8468-8471	may	_	_	
+46-20	8472-8475	not	_	_	
+46-21	8476-8478	be	_	_	
+46-22	8479-8489	sufficient	_	_	
+46-23	8490-8492	to	_	_	
+46-24	8493-8499	obtain	_	_	
+46-25	8500-8512	satisfactory	_	_	
+46-26	8513-8520	results	_	_	
+46-27	8520-8521	.	_	_	
+46-28	8523-8524	#	_	_	
+46-29	8524-8525	#	_	_	
+46-30	8525-8526	#	_	_	
+46-31	8527-8534	General	_	_	
+46-32	8535-8550	Recommendations	_	_	
+46-33	8551-8552	*	_	_	
+46-34	8553-8558	Don't	_	_	
+46-35	8559-8562	run	_	_	
+46-36	8563-8566	any	_	_	
+46-37	8567-8572	other	_	_	
+46-38	8573-8578	fancy	_	_	
+46-39	8579-8580	(	_	_	
+46-40	8580-8583	GUI	_	_	
+46-41	8583-8584	)	_	_	
+46-42	8585-8596	application	_	_	
+46-43	8597-8599	at	_	_	
+46-44	8600-8603	the	_	_	
+46-45	8604-8608	same	_	_	
+46-46	8609-8613	time	_	_	
+46-47	8613-8614	,	_	_	
+46-48	8615-8618	e.g	_	_	
+46-49	8618-8619	.	_	_	
+46-50	8620-8627	browser	_	_	
+46-51	8628-8630	or	_	_	
+46-52	8631-8636	Email	_	_	
+46-53	8637-8644	clients	_	_	
+46-54	8645-8646	*	_	_	
+46-55	8647-8650	Use	_	_	
+46-56	8651-8652	a	_	_	
+46-57	8653-8656	CPU	_	_	
+46-58	8657-8661	with	_	_	
+46-59	8662-8664	at	_	_	
+46-60	8665-8670	least	_	_	
+46-61	8671-8672	4	_	_	
+46-62	8673-8681	physical	_	_	
+46-63	8682-8687	cores	_	_	
+46-64	8688-8689	*	_	_	
+46-65	8690-8697	Disable	_	_	
+46-66	8698-8713	Hyper-Threading	_	_	
+46-67	8714-8715	*	_	_	
+46-68	8716-8723	Disable	_	_	
+46-69	8724-8736	power-saving	_	_	
+46-70	8737-8747	techniques	_	_	
+46-71	8748-8752	such	_	_	
+46-72	8753-8755	as	_	_	
+46-73	8756-8760	DVFS	_	_	
+46-74	8761-8764	and	_	_	
+46-75	8765-8768	put	_	_	
+46-76	8769-8772	the	_	_	
+46-77	8773-8776	CPU	_	_	
+46-78	8777-8781	into	_	_	
+46-79	8782-8783	*	_	_	
+46-80	8783-8794	performance	_	_	
+46-81	8794-8795	*	_	_	
+46-82	8796-8800	mode	_	_	
+46-83	8802-8803	#	_	_	
+46-84	8803-8804	#	_	_	
+46-85	8804-8805	#	_	_	
+46-86	8806-8813	Example	_	_	
+46-87	8814-8821	Systems	_	_	
+46-88	8822-8825	All	_	_	
+46-89	8826-8833	systems	_	_	
+46-90	8834-8838	were	_	_	
+46-91	8839-8845	tested	_	_	
+46-92	8846-8850	with	_	_	
+46-93	8851-8852	a	_	_	
+46-94	8853-8857	USRP	_	_	
+46-95	8858-8862	B210	_	_	
+46-96	8863-8866	SDR	_	_	
+46-97	8866-8867	,	_	_	
+46-98	8868-8876	attached	_	_	
+46-99	8877-8880	via	_	_	
+46-100	8881-8884	USB	_	_	
+46-101	8885-8888	3.0	_	_	
+46-102	8889-8892	and	_	_	
+46-103	8893-8899	simple	_	_	
+46-104	8900-8906	dipole	_	_	
+46-105	8907-8914	antenna	_	_	
+46-106	8915-8916	(	_	_	
+46-107	8916-8925	connected	_	_	
+46-108	8926-8929	via	_	_	
+46-109	8930-8932	1m	_	_	
+46-110	8933-8936	SMA	_	_	
+46-111	8937-8939	HF	_	_	
+46-112	8940-8945	cable	_	_	
+46-113	8945-8946	)	_	_	
+46-114	8946-8947	.	_	_	
+46-115	8948-8949	#	_	_	
+46-116	8949-8950	#	_	_	
+46-117	8950-8951	#	_	_	
+46-118	8951-8952	#	_	_	
+46-119	8953-8959	Lenovo	_	_	
+46-120	8960-8964	X250	_	_	
+46-121	8965-8973	Notebook	_	_	
+46-122	8974-8975	*	_	_	
+46-123	8976-8981	Intel	_	_	
+46-124	8982-8986	Core	_	_	
+46-125	8987-8989	i7	_	_	
+46-126	8989-8990	-	_	_	
+46-127	8990-8995	5600U	_	_	
+46-128	8996-8997	(	_	_	
+46-129	8997-9001	Dual	_	_	
+46-130	9002-9006	Core	_	_	
+46-131	9007-9010	CPU	_	_	
+46-132	9011-9012	+	_	_	
+46-133	9013-9028	Hyper-Threading	_	_	
+46-134	9028-9029	)	_	_	
+46-135	9029-9030	,	_	_	
+46-136	9031-9037	2.6GHz	_	_	
+46-137	9037-9038	,	_	_	
+46-138	9039-9042	8GB	_	_	
+46-139	9043-9046	RAM	_	_	
+46-140	9046-9047	,	_	_	
+46-141	9048-9051	SSD	_	_	
+46-142	9052-9053	*	_	_	
+46-143	9054-9058	Arch	_	_	
+46-144	9059-9064	Linux	_	_	
+46-145	9064-9065	,	_	_	
+46-146	9066-9072	kernel	_	_	
+46-147	9073-9078	5.3.5	_	_	
+46-148	9078-9079	-	_	_	
+46-149	9079-9084	arch1	_	_	
+46-150	9084-9085	-	_	_	
+46-151	9085-9086	1	_	_	
+46-152	9086-9087	-	_	_	
+46-153	9087-9091	ARCH	_	_	
+46-154	9091-9092	,	_	_	
+46-155	9093-9096	KDE	_	_	
+46-156	9096-9097	/	_	_	
+46-157	9097-9103	Plasma	_	_	
+46-158	9104-9111	desktop	_	_	
+46-159	9112-9123	environment	_	_	
+46-160	9124-9125	*	_	_	
+46-161	9126-9129	GUI	_	_	
+46-162	9129-9130	:	_	_	
+46-163	9131-9135	Good	_	_	
+46-164	9136-9143	results	_	_	
+46-165	9144-9146	up	_	_	
+46-166	9147-9149	to	_	_	
+46-167	9150-9155	10MHz	_	_	
+46-168	9156-9165	bandwidth	_	_	
+46-169	9166-9169	and	_	_	
+46-170	9170-9174	good	_	_	
+46-171	9175-9178	LTE	_	_	
+46-172	9179-9185	signal	_	_	
+46-173	9185-9186	.	_	_	
+46-174	9187-9188	*	_	_	
+46-175	9189-9198	FalconEye	_	_	
+46-176	9198-9199	:	_	_	
+46-177	9200-9204	Good	_	_	
+46-178	9205-9212	results	_	_	
+46-179	9213-9215	up	_	_	
+46-180	9216-9218	to	_	_	
+46-181	9219-9224	15MHz	_	_	
+46-182	9225-9234	bandwidth	_	_	
+46-183	9235-9238	and	_	_	
+46-184	9239-9243	good	_	_	
+46-185	9244-9247	LTE	_	_	
+46-186	9248-9254	signal	_	_	
+46-187	9254-9255	.	_	_	
+46-188	9256-9257	*	_	_	
+46-189	9258-9260	20	_	_	
+46-190	9261-9264	MHz	_	_	
+46-191	9265-9274	bandwidth	_	_	
+46-192	9274-9275	:	_	_	
+46-193	9276-9284	subframe	_	_	
+46-194	9285-9289	skip	_	_	
+46-195	9290-9295	ratio	_	_	
+46-196	9296-9298	up	_	_	
+46-197	9299-9301	to	_	_	
+46-198	9302-9305	50%	_	_	
+46-199	9305-9306	,	_	_	
+46-200	9307-9317	eventually	_	_	
+46-201	9318-9322	sync	_	_	
+46-202	9323-9327	loss	_	_	
+46-203	9327-9328	,	_	_	
+46-204	9329-9333	many	_	_	
+46-205	9334-9339	false	_	_	
+46-206	9340-9350	detections	_	_	
+46-207	9352-9353	#	_	_	
+46-208	9353-9354	#	_	_	
+46-209	9354-9355	#	_	_	
+46-210	9355-9356	#	_	_	
+46-211	9357-9363	Lenovo	_	_	
+46-212	9364-9369	T540p	_	_	
+46-213	9370-9371	*	_	_	
+46-214	9372-9377	Intel	_	_	
+46-215	9378-9382	Core	_	_	
+46-216	9383-9385	i7	_	_	
+46-217	9385-9386	-	_	_	
+46-218	9386-9391	4710Q	_	_	
+46-219	9392-9393	(	_	_	
+46-220	9393-9394	4	_	_	
+46-221	9395-9399	Core	_	_	
+46-222	9400-9403	CPU	_	_	
+46-223	9404-9405	+	_	_	
+46-224	9406-9421	Hyper-Threading	_	_	
+46-225	9421-9422	)	_	_	
+46-226	9422-9423	,	_	_	
+46-227	9424-9430	2.5GHz	_	_	
+46-228	9430-9431	,	_	_	
+46-229	9432-9435	8GB	_	_	
+46-230	9436-9439	RAM	_	_	
+46-231	9439-9440	,	_	_	
+46-232	9441-9444	SSD	_	_	
+46-233	9445-9446	*	_	_	
+46-234	9447-9453	Ubuntu	_	_	
+46-235	9454-9461	18.04.3	_	_	
+46-236	9462-9465	LTS	_	_	
+46-237	9466-9467	(	_	_	
+46-238	9467-9473	bionic	_	_	
+46-239	9473-9474	)	_	_	
+46-240	9474-9475	,	_	_	
+46-241	9476-9482	kernel	_	_	
+46-242	9483-9489	4.15.0	_	_	
+46-243	9489-9490	-	_	_	
+46-244	9490-9492	66	_	_	
+46-245	9492-9493	-	_	_	
+46-246	9493-9500	generic	_	_	
+46-247	9500-9501	,	_	_	
+46-248	9502-9507	GNOME	_	_	
+46-249	9508-9510	or	_	_	
+46-250	9511-9514	KDE	_	_	
+46-251	9514-9515	/	_	_	
+46-252	9515-9521	Plasma	_	_	
+46-253	9522-9529	desktop	_	_	
+46-254	9530-9541	environment	_	_	
+46-255	9542-9543	*	_	_	
+46-256	9544-9547	GUI	_	_	
+46-257	9547-9548	:	_	_	
+46-258	9549-9553	Good	_	_	
+46-259	9554-9561	results	_	_	
+46-260	9562-9564	up	_	_	
+46-261	9565-9567	to	_	_	
+46-262	9568-9573	20MHz	_	_	
+46-263	9574-9583	bandwidth	_	_	
+46-264	9584-9587	and	_	_	
+46-265	9588-9592	good	_	_	
+46-266	9593-9596	LTE	_	_	
+46-267	9597-9603	signal	_	_	
+46-268	9603-9604	;	_	_	
+46-269	9605-9610	frame	_	_	
+46-270	9611-9616	skips	_	_	
+46-271	9617-9623	during	_	_	
+46-272	9624-9630	window	_	_	
+46-273	9631-9639	resizing	_	_	
+46-274	9640-9641	*	_	_	
+46-275	9642-9651	FalconEye	_	_	
+46-276	9651-9652	:	_	_	
+46-277	9653-9657	Good	_	_	
+46-278	9658-9665	results	_	_	
+46-279	9666-9668	up	_	_	
+46-280	9669-9671	to	_	_	
+46-281	9672-9677	20MHz	_	_	
+46-282	9678-9687	bandwidth	_	_	
+46-283	9688-9691	and	_	_	
+46-284	9692-9696	good	_	_	
+46-285	9697-9700	LTE	_	_	
+46-286	9701-9707	signal	_	_	
+46-287	9709-9710	#	_	_	
+46-288	9710-9711	#	_	_	
+46-289	9712-9717	Usage	_	_	
+46-290	9718-9730	Instructions	_	_	
+46-291	9731-9735	This	_	_	
+46-292	9736-9743	section	_	_	
+46-293	9744-9752	provides	_	_	
+46-294	9753-9758	brief	_	_	
+46-295	9759-9764	usage	_	_	
+46-296	9765-9777	instructions	_	_	
+46-297	9778-9781	for	_	_	
+46-298	9782-9788	FALCON	_	_	
+46-299	9788-9789	.	_	_	
+
+#Text=The software collection comprises the following components:
+#Text=
+#Text=* FalconGUI: A visualization for online/offline PDCCH decoding
+#Text=* FalconEye: A command-line version of the PDCCH decoder for automated/batch processing
+#Text=* FalconCaptureProbe: Signal recorder with optional network probing
+#Text=* FalconCaptureWarden: A command-line controller for synchronized recordings by multiple instances of FalconCaptureProbe
+#Text=* imdea_cc_decoder: Port of IMDEA OWL's PDCCH decoder
+#Text=* imdea_capture_sync: Port of IMDEA OWL's signal recorder
+#Text=
+#Text=### FALCON GUI
+#Text=To start the GUI version of FALCON's decoder, simply launch ``FalconGUI`` from a terminal or from your preferred window manager.
+47-1	9790-9793	The	_	_	
+47-2	9794-9802	software	_	_	
+47-3	9803-9813	collection	_	_	
+47-4	9814-9823	comprises	_	_	
+47-5	9824-9827	the	_	_	
+47-6	9828-9837	following	_	_	
+47-7	9838-9848	components	_	_	
+47-8	9848-9849	:	_	_	
+47-9	9851-9852	*	_	_	
+47-10	9853-9862	FalconGUI	*	SOFTWARE	
+47-11	9862-9863	:	_	_	
+47-12	9864-9865	A	_	_	
+47-13	9866-9879	visualization	_	_	
+47-14	9880-9883	for	_	_	
+47-15	9884-9890	online	_	_	
+47-16	9890-9891	/	_	_	
+47-17	9891-9898	offline	_	_	
+47-18	9899-9904	PDCCH	_	_	
+47-19	9905-9913	decoding	_	_	
+47-20	9914-9915	*	_	_	
+47-21	9916-9925	FalconEye	*	SOFTWARE	
+47-22	9925-9926	:	_	_	
+47-23	9927-9928	A	_	_	
+47-24	9929-9941	command-line	_	_	
+47-25	9942-9949	version	_	_	
+47-26	9950-9952	of	_	_	
+47-27	9953-9956	the	_	_	
+47-28	9957-9962	PDCCH	_	_	
+47-29	9963-9970	decoder	_	_	
+47-30	9971-9974	for	_	_	
+47-31	9975-9984	automated	_	_	
+47-32	9984-9985	/	_	_	
+47-33	9985-9990	batch	_	_	
+47-34	9991-10001	processing	_	_	
+47-35	10002-10003	*	_	_	
+47-36	10004-10022	FalconCaptureProbe	*	SOFTWARE	
+47-37	10022-10023	:	_	_	
+47-38	10024-10030	Signal	_	_	
+47-39	10031-10039	recorder	_	_	
+47-40	10040-10044	with	_	_	
+47-41	10045-10053	optional	_	_	
+47-42	10054-10061	network	_	_	
+47-43	10062-10069	probing	_	_	
+47-44	10070-10071	*	_	_	
+47-45	10072-10091	FalconCaptureWarden	*	SOFTWARE	
+47-46	10091-10092	:	_	_	
+47-47	10093-10094	A	_	_	
+47-48	10095-10107	command-line	_	_	
+47-49	10108-10118	controller	_	_	
+47-50	10119-10122	for	_	_	
+47-51	10123-10135	synchronized	_	_	
+47-52	10136-10146	recordings	_	_	
+47-53	10147-10149	by	_	_	
+47-54	10150-10158	multiple	_	_	
+47-55	10159-10168	instances	_	_	
+47-56	10169-10171	of	_	_	
+47-57	10172-10190	FalconCaptureProbe	_	_	
+47-58	10191-10192	*	_	_	
+47-59	10193-10209	imdea_cc_decoder	*	SOFTWARE	
+47-60	10209-10210	:	_	_	
+47-61	10211-10215	Port	_	_	
+47-62	10216-10218	of	_	_	
+47-63	10219-10224	IMDEA	_	_	
+47-64	10225-10230	OWL's	_	_	
+47-65	10231-10236	PDCCH	_	_	
+47-66	10237-10244	decoder	_	_	
+47-67	10245-10246	*	_	_	
+47-68	10247-10265	imdea_capture_sync	*	SOFTWARE	
+47-69	10265-10266	:	_	_	
+47-70	10267-10271	Port	_	_	
+47-71	10272-10274	of	_	_	
+47-72	10275-10280	IMDEA	_	_	
+47-73	10281-10286	OWL's	_	_	
+47-74	10287-10293	signal	_	_	
+47-75	10294-10302	recorder	_	_	
+47-76	10304-10305	#	_	_	
+47-77	10305-10306	#	_	_	
+47-78	10306-10307	#	_	_	
+47-79	10308-10314	FALCON	*[12]	SOFTWARE[12]	
+47-80	10315-10318	GUI	*[12]	SOFTWARE[12]	
+47-81	10319-10321	To	_	_	
+47-82	10322-10327	start	_	_	
+47-83	10328-10331	the	_	_	
+47-84	10332-10335	GUI	_	_	
+47-85	10336-10343	version	_	_	
+47-86	10344-10346	of	_	_	
+47-87	10347-10355	FALCON's	_	_	
+47-87.1	10347-10353	FALCON	*	SOFTWARE	
+47-88	10356-10363	decoder	_	_	
+47-89	10363-10364	,	_	_	
+47-90	10365-10371	simply	_	_	
+47-91	10372-10378	launch	_	_	
+47-92	10379-10380	`	_	_	
+47-93	10380-10381	`	_	_	
+47-94	10381-10390	FalconGUI	*	SOFTWARE	
+47-95	10390-10391	`	_	_	
+47-96	10391-10392	`	_	_	
+47-97	10393-10397	from	_	_	
+47-98	10398-10399	a	_	_	
+47-99	10400-10408	terminal	_	_	
+47-100	10409-10411	or	_	_	
+47-101	10412-10416	from	_	_	
+47-102	10417-10421	your	_	_	
+47-103	10422-10431	preferred	_	_	
+47-104	10432-10438	window	_	_	
+47-105	10439-10446	manager	_	_	
+47-106	10446-10447	.	_	_	
+
+#Text=Without installation, ``FalconGUI`` is located in ``<build-dir>/src/gui/FalconGUI``.
+48-1	10448-10455	Without	_	_	
+48-2	10456-10468	installation	_	_	
+48-3	10468-10469	,	_	_	
+48-4	10470-10471	`	_	_	
+48-5	10471-10472	`	_	_	
+48-6	10472-10481	FalconGUI	*	SOFTWARE	
+48-7	10481-10482	`	_	_	
+48-8	10482-10483	`	_	_	
+48-9	10484-10486	is	_	_	
+48-10	10487-10494	located	_	_	
+48-11	10495-10497	in	_	_	
+48-12	10498-10499	`	_	_	
+48-13	10499-10500	`	_	_	
+48-14	10500-10501	<	_	_	
+48-15	10501-10510	build-dir	_	_	
+48-16	10510-10511	>	_	_	
+48-17	10511-10512	/	_	_	
+48-18	10512-10515	src	_	_	
+48-19	10515-10516	/	_	_	
+48-20	10516-10519	gui	_	_	
+48-21	10519-10520	/	_	_	
+48-22	10520-10529	FalconGUI	*	SOFTWARE	
+48-23	10529-10530	`	_	_	
+48-24	10530-10531	`	_	_	
+48-25	10531-10532	.	_	_	
+
+#Text=Enter the center frequency of the target LTE cell or select a recording from a file using the file chooser or drag & drop.
+49-1	10533-10538	Enter	_	_	
+49-2	10539-10542	the	_	_	
+49-3	10543-10549	center	_	_	
+49-4	10550-10559	frequency	_	_	
+49-5	10560-10562	of	_	_	
+49-6	10563-10566	the	_	_	
+49-7	10567-10573	target	_	_	
+49-8	10574-10577	LTE	_	_	
+49-9	10578-10582	cell	_	_	
+49-10	10583-10585	or	_	_	
+49-11	10586-10592	select	_	_	
+49-12	10593-10594	a	_	_	
+49-13	10595-10604	recording	_	_	
+49-14	10605-10609	from	_	_	
+49-15	10610-10611	a	_	_	
+49-16	10612-10616	file	_	_	
+49-17	10617-10622	using	_	_	
+49-18	10623-10626	the	_	_	
+49-19	10627-10631	file	_	_	
+49-20	10632-10639	chooser	_	_	
+49-21	10640-10642	or	_	_	
+49-22	10643-10647	drag	_	_	
+49-23	10648-10649	&	_	_	
+49-24	10650-10654	drop	_	_	
+49-25	10654-10655	.	_	_	
+
+#Text=Example files are provided in a [separate repository][examples].
+50-1	10656-10663	Example	_	_	
+50-2	10664-10669	files	_	_	
+50-3	10670-10673	are	_	_	
+50-4	10674-10682	provided	_	_	
+50-5	10683-10685	in	_	_	
+50-6	10686-10687	a	_	_	
+50-7	10688-10689	[	_	_	
+50-8	10689-10697	separate	_	_	
+50-9	10698-10708	repository	_	_	
+50-10	10708-10709	]	_	_	
+50-11	10709-10710	[	_	_	
+50-12	10710-10718	examples	_	_	
+50-13	10718-10719	]	_	_	
+50-14	10719-10720	.	_	_	
+
+#Text=Press 'Start' and the decoder immediately starts to synchronize to the cell and decodes the PDCCH.
+51-1	10722-10727	Press	_	_	
+51-2	10728-10729	'	_	_	
+51-3	10729-10734	Start	_	_	
+51-4	10734-10735	'	_	_	
+51-5	10736-10739	and	_	_	
+51-6	10740-10743	the	_	_	
+51-7	10744-10751	decoder	_	_	
+51-8	10752-10763	immediately	_	_	
+51-9	10764-10770	starts	_	_	
+51-10	10771-10773	to	_	_	
+51-11	10774-10785	synchronize	_	_	
+51-12	10786-10788	to	_	_	
+51-13	10789-10792	the	_	_	
+51-14	10793-10797	cell	_	_	
+51-15	10798-10801	and	_	_	
+51-16	10802-10809	decodes	_	_	
+51-17	10810-10813	the	_	_	
+51-18	10814-10819	PDCCH	_	_	
+51-19	10819-10820	.	_	_	
+
+#Text=The GUI will display waterfall plots of the spectrum and resource allocations (uplink and downlink) in real-time.
+52-1	10821-10824	The	_	_	
+52-2	10825-10828	GUI	_	_	
+52-3	10829-10833	will	_	_	
+52-4	10834-10841	display	_	_	
+52-5	10842-10851	waterfall	_	_	
+52-6	10852-10857	plots	_	_	
+52-7	10858-10860	of	_	_	
+52-8	10861-10864	the	_	_	
+52-9	10865-10873	spectrum	_	_	
+52-10	10874-10877	and	_	_	
+52-11	10878-10886	resource	_	_	
+52-12	10887-10898	allocations	_	_	
+52-13	10899-10900	(	_	_	
+52-14	10900-10906	uplink	_	_	
+52-15	10907-10910	and	_	_	
+52-16	10911-10919	downlink	_	_	
+52-17	10919-10920	)	_	_	
+52-18	10921-10923	in	_	_	
+52-19	10924-10933	real-time	_	_	
+52-20	10933-10934	.	_	_	
+
+#Text=The color of the displayed resource allocations is derived from the individual RNTIs of the particular subscribers.
+53-1	10935-10938	The	_	_	
+53-2	10939-10944	color	_	_	
+53-3	10945-10947	of	_	_	
+53-4	10948-10951	the	_	_	
+53-5	10952-10961	displayed	_	_	
+53-6	10962-10970	resource	_	_	
+53-7	10971-10982	allocations	_	_	
+53-8	10983-10985	is	_	_	
+53-9	10986-10993	derived	_	_	
+53-10	10994-10998	from	_	_	
+53-11	10999-11002	the	_	_	
+53-12	11003-11013	individual	_	_	
+53-13	11014-11019	RNTIs	_	_	
+53-14	11020-11022	of	_	_	
+53-15	11023-11026	the	_	_	
+53-16	11027-11037	particular	_	_	
+53-17	11038-11049	subscribers	_	_	
+53-18	11049-11050	.	_	_	
+
+#Text=**Note:** At any time, you can click on a waterfall plot to freeze current state.
+54-1	11052-11053	*	_	_	
+54-2	11053-11054	*	_	_	
+54-3	11054-11058	Note	_	_	
+54-4	11058-11059	:	_	_	
+54-5	11059-11060	*	_	_	
+54-6	11060-11061	*	_	_	
+54-7	11062-11064	At	_	_	
+54-8	11065-11068	any	_	_	
+54-9	11069-11073	time	_	_	
+54-10	11073-11074	,	_	_	
+54-11	11075-11078	you	_	_	
+54-12	11079-11082	can	_	_	
+54-13	11083-11088	click	_	_	
+54-14	11089-11091	on	_	_	
+54-15	11092-11093	a	_	_	
+54-16	11094-11103	waterfall	_	_	
+54-17	11104-11108	plot	_	_	
+54-18	11109-11111	to	_	_	
+54-19	11112-11118	freeze	_	_	
+54-20	11119-11126	current	_	_	
+54-21	11127-11132	state	_	_	
+54-22	11132-11133	.	_	_	
+
+#Text=Scroll to go back and forth in time within the scrollback buffer.
+#Text=
+#Text=
+#Text=!
+55-1	11134-11140	Scroll	_	_	
+55-2	11141-11143	to	_	_	
+55-3	11144-11146	go	_	_	
+55-4	11147-11151	back	_	_	
+55-5	11152-11155	and	_	_	
+55-6	11156-11161	forth	_	_	
+55-7	11162-11164	in	_	_	
+55-8	11165-11169	time	_	_	
+55-9	11170-11176	within	_	_	
+55-10	11177-11180	the	_	_	
+55-11	11181-11191	scrollback	_	_	
+55-12	11192-11198	buffer	_	_	
+55-13	11198-11199	.	_	_	
+55-14	11202-11203	!	_	_	
+
+#Text=[FALCON Screenshot](gfx/FalconGUI.png "Falcon GUI Screenshot")
+#Text=
+#Text=
+#Text=### FALCON Eye
+#Text=A command-line version of FALCON Decoder.
+56-1	11203-11204	[	_	_	
+56-2	11204-11210	FALCON	_	_	
+56-3	11211-11221	Screenshot	_	_	
+56-4	11221-11222	]	_	_	
+56-5	11222-11223	(	_	_	
+56-6	11223-11226	gfx	_	_	
+56-7	11226-11227	/	_	_	
+56-8	11227-11240	FalconGUI.png	_	_	
+56-9	11241-11242	"	_	_	
+56-10	11242-11248	Falcon	_	_	
+56-11	11249-11252	GUI	_	_	
+56-12	11253-11263	Screenshot	_	_	
+56-13	11263-11264	"	_	_	
+56-14	11264-11265	)	_	_	
+56-15	11268-11269	#	_	_	
+56-16	11269-11270	#	_	_	
+56-17	11270-11271	#	_	_	
+56-18	11272-11278	FALCON	*[13]	SOFTWARE[13]	
+56-19	11279-11282	Eye	*[13]	SOFTWARE[13]	
+56-20	11283-11284	A	_	_	
+56-21	11285-11297	command-line	_	_	
+56-22	11298-11305	version	_	_	
+56-23	11306-11308	of	_	_	
+56-24	11309-11315	FALCON	*	PROJECT	
+56-25	11316-11323	Decoder	_	_	
+56-26	11323-11324	.	_	_	
+
+#Text=For real-time monitoring of a cell, e.g. at 1829.4 MHz, run the following command:
+#Text=```sh
+#Text=FalconEye -f 1829.4e6 -D /tmp/dci.csv
+#Text=```
+#Text=This will print an ASCII visualization of the discovered resource allocations to the terminal and a detailed log of all captured DCI into the trace file ``/tmp/dci.csv``.
+57-1	11325-11328	For	_	_	
+57-2	11329-11338	real-time	_	_	
+57-3	11339-11349	monitoring	_	_	
+57-4	11350-11352	of	_	_	
+57-5	11353-11354	a	_	_	
+57-6	11355-11359	cell	_	_	
+57-7	11359-11360	,	_	_	
+57-8	11361-11364	e.g	_	_	
+57-9	11364-11365	.	_	_	
+57-10	11366-11368	at	_	_	
+57-11	11369-11375	1829.4	_	_	
+57-12	11376-11379	MHz	_	_	
+57-13	11379-11380	,	_	_	
+57-14	11381-11384	run	_	_	
+57-15	11385-11388	the	_	_	
+57-16	11389-11398	following	_	_	
+57-17	11399-11406	command	_	_	
+57-18	11406-11407	:	_	_	
+57-19	11408-11409	`	_	_	
+57-20	11409-11410	`	_	_	
+57-21	11410-11411	`	_	_	
+57-22	11411-11413	sh	_	_	
+57-23	11414-11423	FalconEye	*	SOFTWARE	
+57-24	11424-11425	-	_	_	
+57-25	11425-11426	f	_	_	
+57-26	11427-11435	1829.4e6	_	_	
+57-27	11436-11437	-	_	_	
+57-28	11437-11438	D	_	_	
+57-29	11439-11440	/	_	_	
+57-30	11440-11443	tmp	_	_	
+57-31	11443-11444	/	_	_	
+57-32	11444-11451	dci.csv	_	_	
+57-33	11452-11453	`	_	_	
+57-34	11453-11454	`	_	_	
+57-35	11454-11455	`	_	_	
+57-36	11456-11460	This	_	_	
+57-37	11461-11465	will	_	_	
+57-38	11466-11471	print	_	_	
+57-39	11472-11474	an	_	_	
+57-40	11475-11480	ASCII	_	_	
+57-41	11481-11494	visualization	_	_	
+57-42	11495-11497	of	_	_	
+57-43	11498-11501	the	_	_	
+57-44	11502-11512	discovered	_	_	
+57-45	11513-11521	resource	_	_	
+57-46	11522-11533	allocations	_	_	
+57-47	11534-11536	to	_	_	
+57-48	11537-11540	the	_	_	
+57-49	11541-11549	terminal	_	_	
+57-50	11550-11553	and	_	_	
+57-51	11554-11555	a	_	_	
+57-52	11556-11564	detailed	_	_	
+57-53	11565-11568	log	_	_	
+57-54	11569-11571	of	_	_	
+57-55	11572-11575	all	_	_	
+57-56	11576-11584	captured	_	_	
+57-57	11585-11588	DCI	_	_	
+57-58	11589-11593	into	_	_	
+57-59	11594-11597	the	_	_	
+57-60	11598-11603	trace	_	_	
+57-61	11604-11608	file	_	_	
+57-62	11609-11610	`	_	_	
+57-63	11610-11611	`	_	_	
+57-64	11611-11612	/	_	_	
+57-65	11612-11615	tmp	_	_	
+57-66	11615-11616	/	_	_	
+57-67	11616-11623	dci.csv	_	_	
+57-68	11623-11624	`	_	_	
+57-69	11624-11625	`	_	_	
+57-70	11625-11626	.	_	_	
+
+#Text=Press [CTRL]+C to exit the application and print some statistics of the run.
+58-1	11627-11632	Press	_	_	
+58-2	11633-11634	[	_	_	
+58-3	11634-11638	CTRL	_	_	
+58-4	11638-11639	]	_	_	
+58-5	11639-11640	+	_	_	
+58-6	11640-11641	C	_	_	
+58-7	11642-11644	to	_	_	
+58-8	11645-11649	exit	_	_	
+58-9	11650-11653	the	_	_	
+58-10	11654-11665	application	_	_	
+58-11	11666-11669	and	_	_	
+58-12	11670-11675	print	_	_	
+58-13	11676-11680	some	_	_	
+58-14	11681-11691	statistics	_	_	
+58-15	11692-11694	of	_	_	
+58-16	11695-11698	the	_	_	
+58-17	11699-11702	run	_	_	
+58-18	11702-11703	.	_	_	
+
+#Text=The output of Falcon Eye for a 15MHz (75 PRB) cell should look as follows:
+#Text=
+#Text=!
+59-1	11705-11708	The	_	_	
+59-2	11709-11715	output	_	_	
+59-3	11716-11718	of	_	_	
+59-4	11719-11725	Falcon	*[14]	SOFTWARE[14]	
+59-5	11726-11729	Eye	*[14]	SOFTWARE[14]	
+59-6	11730-11733	for	_	_	
+59-7	11734-11735	a	_	_	
+59-8	11736-11741	15MHz	_	_	
+59-9	11742-11743	(	_	_	
+59-10	11743-11745	75	_	_	
+59-11	11746-11749	PRB	_	_	
+59-12	11749-11750	)	_	_	
+59-13	11751-11755	cell	_	_	
+59-14	11756-11762	should	_	_	
+59-15	11763-11767	look	_	_	
+59-16	11768-11770	as	_	_	
+59-17	11771-11778	follows	_	_	
+59-18	11778-11779	:	_	_	
+59-19	11781-11782	!	_	_	
+
+#Text=[FALCON Eye Screenshot](gfx/FalconEye.png "FalconEye Screenshot")
+#Text=
+#Text=#### DCI Tracefile Contents
+#Text=The DCI tracefile is structures as CSV file, using tabs ("\\t") as separator.
+60-1	11782-11783	[	_	_	
+60-2	11783-11789	FALCON	_	_	
+60-3	11790-11793	Eye	_	_	
+60-4	11794-11804	Screenshot	_	_	
+60-5	11804-11805	]	_	_	
+60-6	11805-11806	(	_	_	
+60-7	11806-11809	gfx	_	_	
+60-8	11809-11810	/	_	_	
+60-9	11810-11823	FalconEye.png	_	_	
+60-10	11824-11825	"	_	_	
+60-11	11825-11834	FalconEye	_	_	
+60-12	11835-11845	Screenshot	_	_	
+60-13	11845-11846	"	_	_	
+60-14	11846-11847	)	_	_	
+60-15	11849-11850	#	_	_	
+60-16	11850-11851	#	_	_	
+60-17	11851-11852	#	_	_	
+60-18	11852-11853	#	_	_	
+60-19	11854-11857	DCI	_	_	
+60-20	11858-11867	Tracefile	_	_	
+60-21	11868-11876	Contents	_	_	
+60-22	11877-11880	The	_	_	
+60-23	11881-11884	DCI	_	_	
+60-24	11885-11894	tracefile	_	_	
+60-25	11895-11897	is	_	_	
+60-26	11898-11908	structures	_	_	
+60-27	11909-11911	as	_	_	
+60-28	11912-11915	CSV	_	_	
+60-29	11916-11920	file	_	_	
+60-30	11920-11921	,	_	_	
+60-31	11922-11927	using	_	_	
+60-32	11928-11932	tabs	_	_	
+60-33	11933-11934	(	_	_	
+60-34	11934-11935	"	_	_	
+60-35	11935-11936	\	_	_	
+60-36	11936-11937	t	_	_	
+60-37	11937-11938	"	_	_	
+60-38	11938-11939	)	_	_	
+60-39	11940-11942	as	_	_	
+60-40	11943-11952	separator	_	_	
+60-41	11952-11953	.	_	_	
+
+#Text=The columns contain:
+#Text=```python
+#Text=COLUMNS_FALCON_DCI = [
+#Text=    'timestamp',    # unix timestamp in [s] as float, 1µs resolution
+#Text=    'sfn',          # system frame number
+#Text=    'subframe',     # subframe index {0,1,...,9}
+#Text=    'rnti',         # the addressed RNTI
+#Text=    'direction',    # 0 for uplink alloc., 1 for downlink alloc.
+61-1	11954-11957	The	_	_	
+61-2	11958-11965	columns	_	_	
+61-3	11966-11973	contain	_	_	
+61-4	11973-11974	:	_	_	
+61-5	11975-11976	`	_	_	
+61-6	11976-11977	`	_	_	
+61-7	11977-11978	`	_	_	
+61-8	11978-11984	python	*	PROGLANG	
+61-9	11985-12003	COLUMNS_FALCON_DCI	_	_	
+61-10	12004-12005	=	_	_	
+61-11	12006-12007	[	_	_	
+61-12	12012-12013	'	_	_	
+61-13	12013-12022	timestamp	_	_	
+61-14	12022-12023	'	_	_	
+61-15	12023-12024	,	_	_	
+61-16	12028-12029	#	_	_	
+61-17	12030-12034	unix	_	_	
+61-18	12035-12044	timestamp	_	_	
+61-19	12045-12047	in	_	_	
+61-20	12048-12049	[	_	_	
+61-21	12049-12050	s	_	_	
+61-22	12050-12051	]	_	_	
+61-23	12052-12054	as	_	_	
+61-24	12055-12060	float	_	_	
+61-25	12060-12061	,	_	_	
+61-26	12062-12065	1µs	_	_	
+61-27	12066-12076	resolution	_	_	
+61-28	12081-12082	'	_	_	
+61-29	12082-12085	sfn	_	_	
+61-30	12085-12086	'	_	_	
+61-31	12086-12087	,	_	_	
+61-32	12097-12098	#	_	_	
+61-33	12099-12105	system	_	_	
+61-34	12106-12111	frame	_	_	
+61-35	12112-12118	number	_	_	
+61-36	12123-12124	'	_	_	
+61-37	12124-12132	subframe	_	_	
+61-38	12132-12133	'	_	_	
+61-39	12133-12134	,	_	_	
+61-40	12139-12140	#	_	_	
+61-41	12141-12149	subframe	_	_	
+61-42	12150-12155	index	_	_	
+61-43	12156-12157	{	_	_	
+61-44	12157-12160	0,1	_	_	
+61-45	12160-12161	,	_	_	
+61-46	12161-12162	.	_	_	
+61-47	12162-12163	.	_	_	
+61-48	12163-12164	.	_	_	
+61-49	12164-12165	,	_	_	
+61-50	12165-12166	9	_	_	
+61-51	12166-12167	}	_	_	
+61-52	12172-12173	'	_	_	
+61-53	12173-12177	rnti	_	_	
+61-54	12177-12178	'	_	_	
+61-55	12178-12179	,	_	_	
+61-56	12188-12189	#	_	_	
+61-57	12190-12193	the	_	_	
+61-58	12194-12203	addressed	_	_	
+61-59	12204-12208	RNTI	_	_	
+61-60	12213-12214	'	_	_	
+61-61	12214-12223	direction	_	_	
+61-62	12223-12224	'	_	_	
+61-63	12224-12225	,	_	_	
+61-64	12229-12230	#	_	_	
+61-65	12231-12232	0	_	_	
+61-66	12233-12236	for	_	_	
+61-67	12237-12243	uplink	_	_	
+61-68	12244-12249	alloc	_	_	
+61-69	12249-12250	.	_	_	
+61-70	12250-12251	,	_	_	
+61-71	12252-12253	1	_	_	
+61-72	12254-12257	for	_	_	
+61-73	12258-12266	downlink	_	_	
+61-74	12267-12272	alloc	_	_	
+61-75	12272-12273	.	_	_	
+
+#Text='mcs_idx',      # MCS index of the first transport block
+#Text=    'nof_prb',      # number of allocated PRBs
+#Text=    'tbs_sum',      # total Transport Block Size (TBS) in [Bit]
+#Text=    'tbs_0',        # TBS of first transport block (-1 for SISO)
+#Text=    'tbs_1',        # TBS of second transport block (-1 for SISO)
+#Text=    'format',       # index+1 of DCI format in array flacon_ue_all_formats[], see DCISearch.cc
+#Text=    'ndi',          # new data indicator for first transport block
+#Text=    'ndi_1',        # new data indicator for second transport block
+#Text=    'harq_idx',     # HARQ index
+#Text=    'ncce',         # index of first Control Channel Element (CCE) of this DCI within PDCCH
+#Text=    'L',            # aggregation level of this DCI {0..3}, occupies 2^L consecutive CCEs.
+62-1	12278-12279	'	_	_	
+62-2	12279-12286	mcs_idx	_	_	
+62-3	12286-12287	'	_	_	
+62-4	12287-12288	,	_	_	
+62-5	12294-12295	#	_	_	
+62-6	12296-12299	MCS	_	_	
+62-7	12300-12305	index	_	_	
+62-8	12306-12308	of	_	_	
+62-9	12309-12312	the	_	_	
+62-10	12313-12318	first	_	_	
+62-11	12319-12328	transport	_	_	
+62-12	12329-12334	block	_	_	
+62-13	12339-12340	'	_	_	
+62-14	12340-12347	nof_prb	_	_	
+62-15	12347-12348	'	_	_	
+62-16	12348-12349	,	_	_	
+62-17	12355-12356	#	_	_	
+62-18	12357-12363	number	_	_	
+62-19	12364-12366	of	_	_	
+62-20	12367-12376	allocated	_	_	
+62-21	12377-12381	PRBs	_	_	
+62-22	12386-12387	'	_	_	
+62-23	12387-12394	tbs_sum	_	_	
+62-24	12394-12395	'	_	_	
+62-25	12395-12396	,	_	_	
+62-26	12402-12403	#	_	_	
+62-27	12404-12409	total	_	_	
+62-28	12410-12419	Transport	_	_	
+62-29	12420-12425	Block	_	_	
+62-30	12426-12430	Size	_	_	
+62-31	12431-12432	(	_	_	
+62-32	12432-12435	TBS	_	_	
+62-33	12435-12436	)	_	_	
+62-34	12437-12439	in	_	_	
+62-35	12440-12441	[	_	_	
+62-36	12441-12444	Bit	_	_	
+62-37	12444-12445	]	_	_	
+62-38	12450-12451	'	_	_	
+62-39	12451-12454	tbs	_	_	
+62-40	12454-12455	_	_	_	
+62-41	12455-12456	0	_	_	
+62-42	12456-12457	'	_	_	
+62-43	12457-12458	,	_	_	
+62-44	12466-12467	#	_	_	
+62-45	12468-12471	TBS	_	_	
+62-46	12472-12474	of	_	_	
+62-47	12475-12480	first	_	_	
+62-48	12481-12490	transport	_	_	
+62-49	12491-12496	block	_	_	
+62-50	12497-12498	(	_	_	
+62-51	12498-12499	-	_	_	
+62-52	12499-12500	1	_	_	
+62-53	12501-12504	for	_	_	
+62-54	12505-12509	SISO	_	_	
+62-55	12509-12510	)	_	_	
+62-56	12515-12516	'	_	_	
+62-57	12516-12519	tbs	_	_	
+62-58	12519-12520	_	_	_	
+62-59	12520-12521	1	_	_	
+62-60	12521-12522	'	_	_	
+62-61	12522-12523	,	_	_	
+62-62	12531-12532	#	_	_	
+62-63	12533-12536	TBS	_	_	
+62-64	12537-12539	of	_	_	
+62-65	12540-12546	second	_	_	
+62-66	12547-12556	transport	_	_	
+62-67	12557-12562	block	_	_	
+62-68	12563-12564	(	_	_	
+62-69	12564-12565	-	_	_	
+62-70	12565-12566	1	_	_	
+62-71	12567-12570	for	_	_	
+62-72	12571-12575	SISO	_	_	
+62-73	12575-12576	)	_	_	
+62-74	12581-12582	'	_	_	
+62-75	12582-12588	format	_	_	
+62-76	12588-12589	'	_	_	
+62-77	12589-12590	,	_	_	
+62-78	12597-12598	#	_	_	
+62-79	12599-12604	index	_	_	
+62-80	12604-12605	+	_	_	
+62-81	12605-12606	1	_	_	
+62-82	12607-12609	of	_	_	
+62-83	12610-12613	DCI	_	_	
+62-84	12614-12620	format	_	_	
+62-85	12621-12623	in	_	_	
+62-86	12624-12629	array	_	_	
+62-87	12630-12651	flacon_ue_all_formats	_	_	
+62-88	12651-12652	[	_	_	
+62-89	12652-12653	]	_	_	
+62-90	12653-12654	,	_	_	
+62-91	12655-12658	see	_	_	
+62-92	12659-12671	DCISearch.cc	_	_	
+62-93	12676-12677	'	_	_	
+62-94	12677-12680	ndi	_	_	
+62-95	12680-12681	'	_	_	
+62-96	12681-12682	,	_	_	
+62-97	12692-12693	#	_	_	
+62-98	12694-12697	new	_	_	
+62-99	12698-12702	data	_	_	
+62-100	12703-12712	indicator	_	_	
+62-101	12713-12716	for	_	_	
+62-102	12717-12722	first	_	_	
+62-103	12723-12732	transport	_	_	
+62-104	12733-12738	block	_	_	
+62-105	12743-12744	'	_	_	
+62-106	12744-12747	ndi	_	_	
+62-107	12747-12748	_	_	_	
+62-108	12748-12749	1	_	_	
+62-109	12749-12750	'	_	_	
+62-110	12750-12751	,	_	_	
+62-111	12759-12760	#	_	_	
+62-112	12761-12764	new	_	_	
+62-113	12765-12769	data	_	_	
+62-114	12770-12779	indicator	_	_	
+62-115	12780-12783	for	_	_	
+62-116	12784-12790	second	_	_	
+62-117	12791-12800	transport	_	_	
+62-118	12801-12806	block	_	_	
+62-119	12811-12812	'	_	_	
+62-120	12812-12820	harq_idx	_	_	
+62-121	12820-12821	'	_	_	
+62-122	12821-12822	,	_	_	
+62-123	12827-12828	#	_	_	
+62-124	12829-12833	HARQ	_	_	
+62-125	12834-12839	index	_	_	
+62-126	12844-12845	'	_	_	
+62-127	12845-12849	ncce	_	_	
+62-128	12849-12850	'	_	_	
+62-129	12850-12851	,	_	_	
+62-130	12860-12861	#	_	_	
+62-131	12862-12867	index	_	_	
+62-132	12868-12870	of	_	_	
+62-133	12871-12876	first	_	_	
+62-134	12877-12884	Control	_	_	
+62-135	12885-12892	Channel	_	_	
+62-136	12893-12900	Element	_	_	
+62-137	12901-12902	(	_	_	
+62-138	12902-12905	CCE	_	_	
+62-139	12905-12906	)	_	_	
+62-140	12907-12909	of	_	_	
+62-141	12910-12914	this	_	_	
+62-142	12915-12918	DCI	_	_	
+62-143	12919-12925	within	_	_	
+62-144	12926-12931	PDCCH	_	_	
+62-145	12936-12937	'	_	_	
+62-146	12937-12938	L	_	_	
+62-147	12938-12939	'	_	_	
+62-148	12939-12940	,	_	_	
+62-149	12952-12953	#	_	_	
+62-150	12954-12965	aggregation	_	_	
+62-151	12966-12971	level	_	_	
+62-152	12972-12974	of	_	_	
+62-153	12975-12979	this	_	_	
+62-154	12980-12983	DCI	_	_	
+62-155	12984-12985	{	_	_	
+62-156	12985-12986	0	_	_	
+62-157	12986-12987	.	_	_	
+62-158	12987-12989	.3	_	_	
+62-159	12989-12990	}	_	_	
+62-160	12990-12991	,	_	_	
+62-161	12992-13000	occupies	_	_	
+62-162	13001-13002	2	_	_	
+62-163	13002-13003	^	_	_	
+62-164	13003-13004	L	_	_	
+62-165	13005-13016	consecutive	_	_	
+62-166	13017-13021	CCEs	_	_	
+62-167	13021-13022	.	_	_	
+
+#Text='cfi',          # number of OFDM symbols occupied by PDCCH
+#Text=    'histval',      # number of occurences of this RNTI within last 200ms
+#Text=    'nof_bits',     # DCI length (without CRC)
+#Text=    'hex'           # raw DCI content as hex string, see sscan_hex()/sprint_hex() in falcon_dci.c 
+#Text=]
+#Text=```
+#Text=
+#Text=### FALCON Capture Probe and Capture Warden
+#Text=Two command-line tools provide recording of LTE signals and optional cell probing by an auxiliary modem (supported by c-mnalib).
+63-1	13027-13028	'	_	_	
+63-2	13028-13031	cfi	_	_	
+63-3	13031-13032	'	_	_	
+63-4	13032-13033	,	_	_	
+63-5	13043-13044	#	_	_	
+63-6	13045-13051	number	_	_	
+63-7	13052-13054	of	_	_	
+63-8	13055-13059	OFDM	_	_	
+63-9	13060-13067	symbols	_	_	
+63-10	13068-13076	occupied	_	_	
+63-11	13077-13079	by	_	_	
+63-12	13080-13085	PDCCH	_	_	
+63-13	13090-13091	'	_	_	
+63-14	13091-13098	histval	_	_	
+63-15	13098-13099	'	_	_	
+63-16	13099-13100	,	_	_	
+63-17	13106-13107	#	_	_	
+63-18	13108-13114	number	_	_	
+63-19	13115-13117	of	_	_	
+63-20	13118-13128	occurences	_	_	
+63-21	13129-13131	of	_	_	
+63-22	13132-13136	this	_	_	
+63-23	13137-13141	RNTI	_	_	
+63-24	13142-13148	within	_	_	
+63-25	13149-13153	last	_	_	
+63-26	13154-13159	200ms	_	_	
+63-27	13164-13165	'	_	_	
+63-28	13165-13173	nof_bits	_	_	
+63-29	13173-13174	'	_	_	
+63-30	13174-13175	,	_	_	
+63-31	13180-13181	#	_	_	
+63-32	13182-13185	DCI	_	_	
+63-33	13186-13192	length	_	_	
+63-34	13193-13194	(	_	_	
+63-35	13194-13201	without	_	_	
+63-36	13202-13205	CRC	_	_	
+63-37	13205-13206	)	_	_	
+63-38	13211-13212	'	_	_	
+63-39	13212-13215	hex	_	_	
+63-40	13215-13216	'	_	_	
+63-41	13227-13228	#	_	_	
+63-42	13229-13232	raw	_	_	
+63-43	13233-13236	DCI	_	_	
+63-44	13237-13244	content	_	_	
+63-45	13245-13247	as	_	_	
+63-46	13248-13251	hex	_	_	
+63-47	13252-13258	string	_	_	
+63-48	13258-13259	,	_	_	
+63-49	13260-13263	see	_	_	
+63-50	13264-13273	sscan_hex	_	_	
+63-51	13273-13274	(	_	_	
+63-52	13274-13275	)	_	_	
+63-53	13275-13276	/	_	_	
+63-54	13276-13286	sprint_hex	_	_	
+63-55	13286-13287	(	_	_	
+63-56	13287-13288	)	_	_	
+63-57	13289-13291	in	_	_	
+63-58	13292-13304	falcon_dci.c	_	_	
+63-59	13306-13307	]	_	_	
+63-60	13308-13309	`	_	_	
+63-61	13309-13310	`	_	_	
+63-62	13310-13311	`	_	_	
+63-63	13313-13314	#	_	_	
+63-64	13314-13315	#	_	_	
+63-65	13315-13316	#	_	_	
+63-66	13317-13323	FALCON	_	_	
+63-67	13324-13331	Capture	_	_	
+63-68	13332-13337	Probe	_	_	
+63-69	13338-13341	and	_	_	
+63-70	13342-13349	Capture	_	_	
+63-71	13350-13356	Warden	_	_	
+63-72	13357-13360	Two	_	_	
+63-73	13361-13373	command-line	_	_	
+63-74	13374-13379	tools	_	_	
+63-75	13380-13387	provide	_	_	
+63-76	13388-13397	recording	_	_	
+63-77	13398-13400	of	_	_	
+63-78	13401-13404	LTE	_	_	
+63-79	13405-13412	signals	_	_	
+63-80	13413-13416	and	_	_	
+63-81	13417-13425	optional	_	_	
+63-82	13426-13430	cell	_	_	
+63-83	13431-13438	probing	_	_	
+63-84	13439-13441	by	_	_	
+63-85	13442-13444	an	_	_	
+63-86	13445-13454	auxiliary	_	_	
+63-87	13455-13460	modem	_	_	
+63-88	13461-13462	(	_	_	
+63-89	13462-13471	supported	_	_	
+63-90	13472-13474	by	_	_	
+63-91	13475-13483	c-mnalib	_	_	
+63-92	13483-13484	)	_	_	
+63-93	13484-13485	.	_	_	
+
+#Text=For synchronized recordings by multiple (distributed) instances of ``FalconCaptureProbe``, the ``FalconCaptureWarden`` provides a text-based command prompt for synchronous remote control.
+64-1	13486-13489	For	_	_	
+64-2	13490-13502	synchronized	_	_	
+64-3	13503-13513	recordings	_	_	
+64-4	13514-13516	by	_	_	
+64-5	13517-13525	multiple	_	_	
+64-6	13526-13527	(	_	_	
+64-7	13527-13538	distributed	_	_	
+64-8	13538-13539	)	_	_	
+64-9	13540-13549	instances	_	_	
+64-10	13550-13552	of	_	_	
+64-11	13553-13554	`	_	_	
+64-12	13554-13555	`	_	_	
+64-13	13555-13573	FalconCaptureProbe	*	SOFTWARE	
+64-14	13573-13574	`	_	_	
+64-15	13574-13575	`	_	_	
+64-16	13575-13576	,	_	_	
+64-17	13577-13580	the	_	_	
+64-18	13581-13582	`	_	_	
+64-19	13582-13583	`	_	_	
+64-20	13583-13602	FalconCaptureWarden	*	SOFTWARE	
+64-21	13602-13603	`	_	_	
+64-22	13603-13604	`	_	_	
+64-23	13605-13613	provides	_	_	
+64-24	13614-13615	a	_	_	
+64-25	13616-13626	text-based	_	_	
+64-26	13627-13634	command	_	_	
+64-27	13635-13641	prompt	_	_	
+64-28	13642-13645	for	_	_	
+64-29	13646-13657	synchronous	_	_	
+64-30	13658-13664	remote	_	_	
+64-31	13665-13672	control	_	_	
+64-32	13672-13673	.	_	_	
+
+#Text=Note: In order to reduce the IO-load of the capturing system, ``FalconCaptureProbe`` will store the captured samples in RAM and write them to file after the capturing has ended.
+65-1	13675-13679	Note	_	_	
+65-2	13679-13680	:	_	_	
+65-3	13681-13683	In	_	_	
+65-4	13684-13689	order	_	_	
+65-5	13690-13692	to	_	_	
+65-6	13693-13699	reduce	_	_	
+65-7	13700-13703	the	_	_	
+65-8	13704-13711	IO-load	_	_	
+65-9	13712-13714	of	_	_	
+65-10	13715-13718	the	_	_	
+65-11	13719-13728	capturing	_	_	
+65-12	13729-13735	system	_	_	
+65-13	13735-13736	,	_	_	
+65-14	13737-13738	`	_	_	
+65-15	13738-13739	`	_	_	
+65-16	13739-13757	FalconCaptureProbe	*	SOFTWARE	
+65-17	13757-13758	`	_	_	
+65-18	13758-13759	`	_	_	
+65-19	13760-13764	will	_	_	
+65-20	13765-13770	store	_	_	
+65-21	13771-13774	the	_	_	
+65-22	13775-13783	captured	_	_	
+65-23	13784-13791	samples	_	_	
+65-24	13792-13794	in	_	_	
+65-25	13795-13798	RAM	_	_	
+65-26	13799-13802	and	_	_	
+65-27	13803-13808	write	_	_	
+65-28	13809-13813	them	_	_	
+65-29	13814-13816	to	_	_	
+65-30	13817-13821	file	_	_	
+65-31	13822-13827	after	_	_	
+65-32	13828-13831	the	_	_	
+65-33	13832-13841	capturing	_	_	
+65-34	13842-13845	has	_	_	
+65-35	13846-13851	ended	_	_	
+65-36	13851-13852	.	_	_	
+
+#Text=For this purpose, the application allocates all available RAM (minus 500MB as a reserve) for the internal sample buffer.
+66-1	13853-13856	For	_	_	
+66-2	13857-13861	this	_	_	
+66-3	13862-13869	purpose	_	_	
+66-4	13869-13870	,	_	_	
+66-5	13871-13874	the	_	_	
+66-6	13875-13886	application	_	_	
+66-7	13887-13896	allocates	_	_	
+66-8	13897-13900	all	_	_	
+66-9	13901-13910	available	_	_	
+66-10	13911-13914	RAM	_	_	
+66-11	13915-13916	(	_	_	
+66-12	13916-13921	minus	_	_	
+66-13	13922-13927	500MB	_	_	
+66-14	13928-13930	as	_	_	
+66-15	13931-13932	a	_	_	
+66-16	13933-13940	reserve	_	_	
+66-17	13940-13941	)	_	_	
+66-18	13942-13945	for	_	_	
+66-19	13946-13949	the	_	_	
+66-20	13950-13958	internal	_	_	
+66-21	13959-13965	sample	_	_	
+66-22	13966-13972	buffer	_	_	
+66-23	13972-13973	.	_	_	
+
+#Text=The capturing process stops if the allocated buffer size is exceeded.
+#Text=
+#Text=#### Minimum example: capture raw data from a cell
+#Text=In order to capture raw data from an LTE cell and store it on the hard disk for later (offline) analysis, launch ``FalconCaptureProbe`` as follows:
+#Text=
+#Text=```sh
+#Text=FalconCaptureProbe -f <carrier_frequency_Hz> -n <nof_subframes> -o example
+#Text=```
+#Text=* carrier_frequency_Hz: Center frequency in Hz of the LTE cell to capture.
+67-1	13974-13977	The	_	_	
+67-2	13978-13987	capturing	_	_	
+67-3	13988-13995	process	_	_	
+67-4	13996-14001	stops	_	_	
+67-5	14002-14004	if	_	_	
+67-6	14005-14008	the	_	_	
+67-7	14009-14018	allocated	_	_	
+67-8	14019-14025	buffer	_	_	
+67-9	14026-14030	size	_	_	
+67-10	14031-14033	is	_	_	
+67-11	14034-14042	exceeded	_	_	
+67-12	14042-14043	.	_	_	
+67-13	14045-14046	#	_	_	
+67-14	14046-14047	#	_	_	
+67-15	14047-14048	#	_	_	
+67-16	14048-14049	#	_	_	
+67-17	14050-14057	Minimum	_	_	
+67-18	14058-14065	example	_	_	
+67-19	14065-14066	:	_	_	
+67-20	14067-14074	capture	_	_	
+67-21	14075-14078	raw	_	_	
+67-22	14079-14083	data	_	_	
+67-23	14084-14088	from	_	_	
+67-24	14089-14090	a	_	_	
+67-25	14091-14095	cell	_	_	
+67-26	14096-14098	In	_	_	
+67-27	14099-14104	order	_	_	
+67-28	14105-14107	to	_	_	
+67-29	14108-14115	capture	_	_	
+67-30	14116-14119	raw	_	_	
+67-31	14120-14124	data	_	_	
+67-32	14125-14129	from	_	_	
+67-33	14130-14132	an	_	_	
+67-34	14133-14136	LTE	_	_	
+67-35	14137-14141	cell	_	_	
+67-36	14142-14145	and	_	_	
+67-37	14146-14151	store	_	_	
+67-38	14152-14154	it	_	_	
+67-39	14155-14157	on	_	_	
+67-40	14158-14161	the	_	_	
+67-41	14162-14166	hard	_	_	
+67-42	14167-14171	disk	_	_	
+67-43	14172-14175	for	_	_	
+67-44	14176-14181	later	_	_	
+67-45	14182-14183	(	_	_	
+67-46	14183-14190	offline	_	_	
+67-47	14190-14191	)	_	_	
+67-48	14192-14200	analysis	_	_	
+67-49	14200-14201	,	_	_	
+67-50	14202-14208	launch	_	_	
+67-51	14209-14210	`	_	_	
+67-52	14210-14211	`	_	_	
+67-53	14211-14229	FalconCaptureProbe	_	_	
+67-54	14229-14230	`	_	_	
+67-55	14230-14231	`	_	_	
+67-56	14232-14234	as	_	_	
+67-57	14235-14242	follows	_	_	
+67-58	14242-14243	:	_	_	
+67-59	14245-14246	`	_	_	
+67-60	14246-14247	`	_	_	
+67-61	14247-14248	`	_	_	
+67-62	14248-14250	sh	_	_	
+67-63	14251-14269	FalconCaptureProbe	*	SOFTWARE	
+67-64	14270-14271	-	_	_	
+67-65	14271-14272	f	_	_	
+67-66	14273-14274	<	_	_	
+67-67	14274-14294	carrier_frequency_Hz	_	_	
+67-68	14294-14295	>	_	_	
+67-69	14296-14297	-	_	_	
+67-70	14297-14298	n	_	_	
+67-71	14299-14300	<	_	_	
+67-72	14300-14313	nof_subframes	_	_	
+67-73	14313-14314	>	_	_	
+67-74	14315-14316	-	_	_	
+67-75	14316-14317	o	_	_	
+67-76	14318-14325	example	_	_	
+67-77	14326-14327	`	_	_	
+67-78	14327-14328	`	_	_	
+67-79	14328-14329	`	_	_	
+67-80	14330-14331	*	_	_	
+67-81	14332-14352	carrier_frequency_Hz	_	_	
+67-82	14352-14353	:	_	_	
+67-83	14354-14360	Center	_	_	
+67-84	14361-14370	frequency	_	_	
+67-85	14371-14373	in	_	_	
+67-86	14374-14376	Hz	_	_	
+67-87	14377-14379	of	_	_	
+67-88	14380-14383	the	_	_	
+67-89	14384-14387	LTE	_	_	
+67-90	14388-14392	cell	_	_	
+67-91	14393-14395	to	_	_	
+67-92	14396-14403	capture	_	_	
+67-93	14403-14404	.	_	_	
+
+#Text=Exponential values are also accepted, e.g. ``1845e6``.
+#Text=* nof_subframe: Number of subframes (= milliseconds) to capture.
+68-1	14405-14416	Exponential	_	_	
+68-2	14417-14423	values	_	_	
+68-3	14424-14427	are	_	_	
+68-4	14428-14432	also	_	_	
+68-5	14433-14441	accepted	_	_	
+68-6	14441-14442	,	_	_	
+68-7	14443-14446	e.g	_	_	
+68-8	14446-14447	.	_	_	
+68-9	14448-14449	`	_	_	
+68-10	14449-14450	`	_	_	
+68-11	14450-14456	1845e6	_	_	
+68-12	14456-14457	`	_	_	
+68-13	14457-14458	`	_	_	
+68-14	14458-14459	.	_	_	
+68-15	14460-14461	*	_	_	
+68-16	14462-14474	nof_subframe	_	_	
+68-17	14474-14475	:	_	_	
+68-18	14476-14482	Number	_	_	
+68-19	14483-14485	of	_	_	
+68-20	14486-14495	subframes	_	_	
+68-21	14496-14497	(	_	_	
+68-22	14497-14498	=	_	_	
+68-23	14499-14511	milliseconds	_	_	
+68-24	14511-14512	)	_	_	
+68-25	14513-14515	to	_	_	
+68-26	14516-14523	capture	_	_	
+68-27	14523-14524	.	_	_	
+
+#Text=A value of ``5000`` may be a good start.
+69-1	14525-14526	A	_	_	
+69-2	14527-14532	value	_	_	
+69-3	14533-14535	of	_	_	
+69-4	14536-14537	`	_	_	
+69-5	14537-14538	`	_	_	
+69-6	14538-14542	5000	_	_	
+69-7	14542-14543	`	_	_	
+69-8	14543-14544	`	_	_	
+69-9	14545-14548	may	_	_	
+69-10	14549-14551	be	_	_	
+69-11	14552-14553	a	_	_	
+69-12	14554-14558	good	_	_	
+69-13	14559-14564	start	_	_	
+69-14	14564-14565	.	_	_	
+
+#Text=If it succeeds, the current working directory will contain the following files:
+#Text=
+#Text=* ``example-unknownOperator-cell.csv``: General cell information in CSV format
+#Text=* ``example-unknownOperator-iq.bin``: Raw IQ samples of the cell for later analysis
+#Text=
+#Text=## Application Notes
+#Text=This section contains general application notes that might be helpful for reliable and accurate control channel analysis.
+#Text=
+#Text=### Signal Strength and Interference
+#Text=FALCON has a multi-stage validation chain that reduces error detection to a minimum even under non-ideal signal conditions.
+70-1	14567-14569	If	_	_	
+70-2	14570-14572	it	_	_	
+70-3	14573-14581	succeeds	_	_	
+70-4	14581-14582	,	_	_	
+70-5	14583-14586	the	_	_	
+70-6	14587-14594	current	_	_	
+70-7	14595-14602	working	_	_	
+70-8	14603-14612	directory	_	_	
+70-9	14613-14617	will	_	_	
+70-10	14618-14625	contain	_	_	
+70-11	14626-14629	the	_	_	
+70-12	14630-14639	following	_	_	
+70-13	14640-14645	files	_	_	
+70-14	14645-14646	:	_	_	
+70-15	14648-14649	*	_	_	
+70-16	14650-14651	`	_	_	
+70-17	14651-14652	`	_	_	
+70-18	14652-14684	example-unknownOperator-cell.csv	_	_	
+70-19	14684-14685	`	_	_	
+70-20	14685-14686	`	_	_	
+70-21	14686-14687	:	_	_	
+70-22	14688-14695	General	_	_	
+70-23	14696-14700	cell	_	_	
+70-24	14701-14712	information	_	_	
+70-25	14713-14715	in	_	_	
+70-26	14716-14719	CSV	_	_	
+70-27	14720-14726	format	_	_	
+70-28	14727-14728	*	_	_	
+70-29	14729-14730	`	_	_	
+70-30	14730-14731	`	_	_	
+70-31	14731-14761	example-unknownOperator-iq.bin	_	_	
+70-32	14761-14762	`	_	_	
+70-33	14762-14763	`	_	_	
+70-34	14763-14764	:	_	_	
+70-35	14765-14768	Raw	_	_	
+70-36	14769-14771	IQ	_	_	
+70-37	14772-14779	samples	_	_	
+70-38	14780-14782	of	_	_	
+70-39	14783-14786	the	_	_	
+70-40	14787-14791	cell	_	_	
+70-41	14792-14795	for	_	_	
+70-42	14796-14801	later	_	_	
+70-43	14802-14810	analysis	_	_	
+70-44	14812-14813	#	_	_	
+70-45	14813-14814	#	_	_	
+70-46	14815-14826	Application	_	_	
+70-47	14827-14832	Notes	_	_	
+70-48	14833-14837	This	_	_	
+70-49	14838-14845	section	_	_	
+70-50	14846-14854	contains	_	_	
+70-51	14855-14862	general	_	_	
+70-52	14863-14874	application	_	_	
+70-53	14875-14880	notes	_	_	
+70-54	14881-14885	that	_	_	
+70-55	14886-14891	might	_	_	
+70-56	14892-14894	be	_	_	
+70-57	14895-14902	helpful	_	_	
+70-58	14903-14906	for	_	_	
+70-59	14907-14915	reliable	_	_	
+70-60	14916-14919	and	_	_	
+70-61	14920-14928	accurate	_	_	
+70-62	14929-14936	control	_	_	
+70-63	14937-14944	channel	_	_	
+70-64	14945-14953	analysis	_	_	
+70-65	14953-14954	.	_	_	
+70-66	14956-14957	#	_	_	
+70-67	14957-14958	#	_	_	
+70-68	14958-14959	#	_	_	
+70-69	14960-14966	Signal	_	_	
+70-70	14967-14975	Strength	_	_	
+70-71	14976-14979	and	_	_	
+70-72	14980-14992	Interference	_	_	
+70-73	14993-14999	FALCON	_	_	
+70-74	15000-15003	has	_	_	
+70-75	15004-15005	a	_	_	
+70-76	15006-15017	multi-stage	_	_	
+70-77	15018-15028	validation	_	_	
+70-78	15029-15034	chain	_	_	
+70-79	15035-15039	that	_	_	
+70-80	15040-15047	reduces	_	_	
+70-81	15048-15053	error	_	_	
+70-82	15054-15063	detection	_	_	
+70-83	15064-15066	to	_	_	
+70-84	15067-15068	a	_	_	
+70-85	15069-15076	minimum	_	_	
+70-86	15077-15081	even	_	_	
+70-87	15082-15087	under	_	_	
+70-88	15088-15097	non-ideal	_	_	
+70-89	15098-15104	signal	_	_	
+70-90	15105-15115	conditions	_	_	
+70-91	15115-15116	.	_	_	
+
+#Text=However, in order to obtain a complete view of cell activity, a location with good signal conditions should be chosen.
+71-1	15117-15124	However	_	_	
+71-2	15124-15125	,	_	_	
+71-3	15126-15128	in	_	_	
+71-4	15129-15134	order	_	_	
+71-5	15135-15137	to	_	_	
+71-6	15138-15144	obtain	_	_	
+71-7	15145-15146	a	_	_	
+71-8	15147-15155	complete	_	_	
+71-9	15156-15160	view	_	_	
+71-10	15161-15163	of	_	_	
+71-11	15164-15168	cell	_	_	
+71-12	15169-15177	activity	_	_	
+71-13	15177-15178	,	_	_	
+71-14	15179-15180	a	_	_	
+71-15	15181-15189	location	_	_	
+71-16	15190-15194	with	_	_	
+71-17	15195-15199	good	_	_	
+71-18	15200-15206	signal	_	_	
+71-19	15207-15217	conditions	_	_	
+71-20	15218-15224	should	_	_	
+71-21	15225-15227	be	_	_	
+71-22	15228-15234	chosen	_	_	
+71-23	15234-15235	.	_	_	
+
+#Text=This is because resource allocations for users with a good signal can be sent with less redundancy (lower aggregation level), but cannot be decoded correctly under poor channel conditions.
+#Text=
+#Text=### Uncommon occupancy of PDCCH
+#Text=In most cases, the eNodeB only emits a signal on actually occupied CCEs of the PDCCH, while free CCEs are left empty.
+72-1	15236-15240	This	_	_	
+72-2	15241-15243	is	_	_	
+72-3	15244-15251	because	_	_	
+72-4	15252-15260	resource	_	_	
+72-5	15261-15272	allocations	_	_	
+72-6	15273-15276	for	_	_	
+72-7	15277-15282	users	_	_	
+72-8	15283-15287	with	_	_	
+72-9	15288-15289	a	_	_	
+72-10	15290-15294	good	_	_	
+72-11	15295-15301	signal	_	_	
+72-12	15302-15305	can	_	_	
+72-13	15306-15308	be	_	_	
+72-14	15309-15313	sent	_	_	
+72-15	15314-15318	with	_	_	
+72-16	15319-15323	less	_	_	
+72-17	15324-15334	redundancy	_	_	
+72-18	15335-15336	(	_	_	
+72-19	15336-15341	lower	_	_	
+72-20	15342-15353	aggregation	_	_	
+72-21	15354-15359	level	_	_	
+72-22	15359-15360	)	_	_	
+72-23	15360-15361	,	_	_	
+72-24	15362-15365	but	_	_	
+72-25	15366-15372	cannot	_	_	
+72-26	15373-15375	be	_	_	
+72-27	15376-15383	decoded	_	_	
+72-28	15384-15393	correctly	_	_	
+72-29	15394-15399	under	_	_	
+72-30	15400-15404	poor	_	_	
+72-31	15405-15412	channel	_	_	
+72-32	15413-15423	conditions	_	_	
+72-33	15423-15424	.	_	_	
+72-34	15426-15427	#	_	_	
+72-35	15427-15428	#	_	_	
+72-36	15428-15429	#	_	_	
+72-37	15430-15438	Uncommon	_	_	
+72-38	15439-15448	occupancy	_	_	
+72-39	15449-15451	of	_	_	
+72-40	15452-15457	PDCCH	_	_	
+72-41	15458-15460	In	_	_	
+72-42	15461-15465	most	_	_	
+72-43	15466-15471	cases	_	_	
+72-44	15471-15472	,	_	_	
+72-45	15473-15476	the	_	_	
+72-46	15477-15483	eNodeB	_	_	
+72-47	15484-15488	only	_	_	
+72-48	15489-15494	emits	_	_	
+72-49	15495-15496	a	_	_	
+72-50	15497-15503	signal	_	_	
+72-51	15504-15506	on	_	_	
+72-52	15507-15515	actually	_	_	
+72-53	15516-15524	occupied	_	_	
+72-54	15525-15529	CCEs	_	_	
+72-55	15530-15532	of	_	_	
+72-56	15533-15536	the	_	_	
+72-57	15537-15542	PDCCH	_	_	
+72-58	15542-15543	,	_	_	
+72-59	15544-15549	while	_	_	
+72-60	15550-15554	free	_	_	
+72-61	15555-15559	CCEs	_	_	
+72-62	15560-15563	are	_	_	
+72-63	15564-15568	left	_	_	
+72-64	15569-15574	empty	_	_	
+72-65	15574-15575	.	_	_	
+
+#Text=FALCON uses this circumstance for performance and skips empty CCEs.
+73-1	15576-15582	FALCON	_	_	
+73-2	15583-15587	uses	_	_	
+73-3	15588-15592	this	_	_	
+73-4	15593-15605	circumstance	_	_	
+73-5	15606-15609	for	_	_	
+73-6	15610-15621	performance	_	_	
+73-7	15622-15625	and	_	_	
+73-8	15626-15631	skips	_	_	
+73-9	15632-15637	empty	_	_	
+73-10	15638-15642	CCEs	_	_	
+73-11	15642-15643	.	_	_	
+
+#Text=However, some open-source eNodeBs (e.g.
+74-1	15645-15652	However	_	_	
+74-2	15652-15653	,	_	_	
+74-3	15654-15658	some	_	_	
+74-4	15659-15670	open-source	_	_	
+74-5	15671-15678	eNodeBs	_	_	
+74-6	15679-15680	(	_	_	
+74-7	15680-15683	e.g	_	_	
+74-8	15683-15684	.	_	_	
+
+#Text=Open Air Interface) nevertheless send a significant signal on empty CCEs.
+75-1	15685-15689	Open	_	_	
+75-2	15690-15693	Air	_	_	
+75-3	15694-15703	Interface	_	_	
+75-4	15703-15704	)	_	_	
+75-5	15705-15717	nevertheless	_	_	
+75-6	15718-15722	send	_	_	
+75-7	15723-15724	a	_	_	
+75-8	15725-15736	significant	_	_	
+75-9	15737-15743	signal	_	_	
+75-10	15744-15746	on	_	_	
+75-11	15747-15752	empty	_	_	
+75-12	15753-15757	CCEs	_	_	
+75-13	15757-15758	.	_	_	
+
+#Text=In typical applications with normal UEs, this does not lead to any disadvantages, only to increased interference on the control channel when several cells are used.
+76-1	15759-15761	In	_	_	
+76-2	15762-15769	typical	_	_	
+76-3	15770-15782	applications	_	_	
+76-4	15783-15787	with	_	_	
+76-5	15788-15794	normal	_	_	
+76-6	15795-15798	UEs	_	_	
+76-7	15798-15799	,	_	_	
+76-8	15800-15804	this	_	_	
+76-9	15805-15809	does	_	_	
+76-10	15810-15813	not	_	_	
+76-11	15814-15818	lead	_	_	
+76-12	15819-15821	to	_	_	
+76-13	15822-15825	any	_	_	
+76-14	15826-15839	disadvantages	_	_	
+76-15	15839-15840	,	_	_	
+76-16	15841-15845	only	_	_	
+76-17	15846-15848	to	_	_	
+76-18	15849-15858	increased	_	_	
+76-19	15859-15871	interference	_	_	
+76-20	15872-15874	on	_	_	
+76-21	15875-15878	the	_	_	
+76-22	15879-15886	control	_	_	
+76-23	15887-15894	channel	_	_	
+76-24	15895-15899	when	_	_	
+76-25	15900-15907	several	_	_	
+76-26	15908-15913	cells	_	_	
+76-27	15914-15917	are	_	_	
+76-28	15918-15922	used	_	_	
+76-29	15922-15923	.	_	_	
+
+#Text=But depending on the actual content, such CCEs can lead to false detections by FALCON's *short-cut* detector.
+77-1	15924-15927	But	_	_	
+77-2	15928-15937	depending	_	_	
+77-3	15938-15940	on	_	_	
+77-4	15941-15944	the	_	_	
+77-5	15945-15951	actual	_	_	
+77-6	15952-15959	content	_	_	
+77-7	15959-15960	,	_	_	
+77-8	15961-15965	such	_	_	
+77-9	15966-15970	CCEs	_	_	
+77-10	15971-15974	can	_	_	
+77-11	15975-15979	lead	_	_	
+77-12	15980-15982	to	_	_	
+77-13	15983-15988	false	_	_	
+77-14	15989-15999	detections	_	_	
+77-15	16000-16002	by	_	_	
+77-16	16003-16011	FALCON's	_	_	
+77-17	16012-16013	*	_	_	
+77-18	16013-16022	short-cut	_	_	
+77-19	16022-16023	*	_	_	
+77-20	16024-16032	detector	_	_	
+77-21	16032-16033	.	_	_	
+
+#Text=To counteract this, the *short-cut* detector can be deactivated (option ``-L`` in ``FalconEye``).
+78-1	16034-16036	To	_	_	
+78-2	16037-16047	counteract	_	_	
+78-3	16048-16052	this	_	_	
+78-4	16052-16053	,	_	_	
+78-5	16054-16057	the	_	_	
+78-6	16058-16059	*	_	_	
+78-7	16059-16068	short-cut	_	_	
+78-8	16068-16069	*	_	_	
+78-9	16070-16078	detector	_	_	
+78-10	16079-16082	can	_	_	
+78-11	16083-16085	be	_	_	
+78-12	16086-16097	deactivated	_	_	
+78-13	16098-16099	(	_	_	
+78-14	16099-16105	option	_	_	
+78-15	16106-16107	`	_	_	
+78-16	16107-16108	`	_	_	
+78-17	16108-16109	-	_	_	
+78-18	16109-16110	L	_	_	
+78-19	16110-16111	`	_	_	
+78-20	16111-16112	`	_	_	
+78-21	16113-16115	in	_	_	
+78-22	16116-16117	`	_	_	
+78-23	16117-16118	`	_	_	
+78-24	16118-16127	FalconEye	*	SOFTWARE	
+78-25	16127-16128	`	_	_	
+78-26	16128-16129	`	_	_	
+78-27	16129-16130	)	_	_	
+78-28	16130-16131	.	_	_	
+
+#Text=The detection of the participants then takes place exclusively via random access and with the help of histograms based on the frequency of occurrence of individual RNTIs.
+79-1	16132-16135	The	_	_	
+79-2	16136-16145	detection	_	_	
+79-3	16146-16148	of	_	_	
+79-4	16149-16152	the	_	_	
+79-5	16153-16165	participants	_	_	
+79-6	16166-16170	then	_	_	
+79-7	16171-16176	takes	_	_	
+79-8	16177-16182	place	_	_	
+79-9	16183-16194	exclusively	_	_	
+79-10	16195-16198	via	_	_	
+79-11	16199-16205	random	_	_	
+79-12	16206-16212	access	_	_	
+79-13	16213-16216	and	_	_	
+79-14	16217-16221	with	_	_	
+79-15	16222-16225	the	_	_	
+79-16	16226-16230	help	_	_	
+79-17	16231-16233	of	_	_	
+79-18	16234-16244	histograms	_	_	
+79-19	16245-16250	based	_	_	
+79-20	16251-16253	on	_	_	
+79-21	16254-16257	the	_	_	
+79-22	16258-16267	frequency	_	_	
+79-23	16268-16270	of	_	_	
+79-24	16271-16281	occurrence	_	_	
+79-25	16282-16284	of	_	_	
+79-26	16285-16295	individual	_	_	
+79-27	16296-16301	RNTIs	_	_	
+79-28	16301-16302	.	_	_	
+
+#Text=In the latter case, previously unseen RNTIs are only accepted and activated with a time delay after a threshold value has been reached, e.g. at least 5 resource assignments in the last 200ms.
+80-1	16303-16305	In	_	_	
+80-2	16306-16309	the	_	_	
+80-3	16310-16316	latter	_	_	
+80-4	16317-16321	case	_	_	
+80-5	16321-16322	,	_	_	
+80-6	16323-16333	previously	_	_	
+80-7	16334-16340	unseen	_	_	
+80-8	16341-16346	RNTIs	_	_	
+80-9	16347-16350	are	_	_	
+80-10	16351-16355	only	_	_	
+80-11	16356-16364	accepted	_	_	
+80-12	16365-16368	and	_	_	
+80-13	16369-16378	activated	_	_	
+80-14	16379-16383	with	_	_	
+80-15	16384-16385	a	_	_	
+80-16	16386-16390	time	_	_	
+80-17	16391-16396	delay	_	_	
+80-18	16397-16402	after	_	_	
+80-19	16403-16404	a	_	_	
+80-20	16405-16414	threshold	_	_	
+80-21	16415-16420	value	_	_	
+80-22	16421-16424	has	_	_	
+80-23	16425-16429	been	_	_	
+80-24	16430-16437	reached	_	_	
+80-25	16437-16438	,	_	_	
+80-26	16439-16442	e.g	_	_	
+80-27	16442-16443	.	_	_	
+80-28	16444-16446	at	_	_	
+80-29	16447-16452	least	_	_	
+80-30	16453-16454	5	_	_	
+80-31	16455-16463	resource	_	_	
+80-32	16464-16475	assignments	_	_	
+80-33	16476-16478	in	_	_	
+80-34	16479-16482	the	_	_	
+80-35	16483-16487	last	_	_	
+80-36	16488-16493	200ms	_	_	
+80-37	16493-16494	.	_	_	
+
+#Text=The threshold value can be configured by the option ``-H <threshold>`` in ``FalconEye``.
+#Text=
+#Text=
+#Text=## Comparison with IMDEA OWL
+#Text=FALCON is an alternative to [IMDEA OWL][imdea-owl] which provides comparable functionalities for long-term monitoring of LTE cells.
+81-1	16495-16498	The	_	_	
+81-2	16499-16508	threshold	_	_	
+81-3	16509-16514	value	_	_	
+81-4	16515-16518	can	_	_	
+81-5	16519-16521	be	_	_	
+81-6	16522-16532	configured	_	_	
+81-7	16533-16535	by	_	_	
+81-8	16536-16539	the	_	_	
+81-9	16540-16546	option	_	_	
+81-10	16547-16548	`	_	_	
+81-11	16548-16549	`	_	_	
+81-12	16549-16550	-	_	_	
+81-13	16550-16551	H	_	_	
+81-14	16552-16553	<	_	_	
+81-15	16553-16562	threshold	_	_	
+81-16	16562-16563	>	_	_	
+81-17	16563-16564	`	_	_	
+81-18	16564-16565	`	_	_	
+81-19	16566-16568	in	_	_	
+81-20	16569-16570	`	_	_	
+81-21	16570-16571	`	_	_	
+81-22	16571-16580	FalconEye	_	_	
+81-23	16580-16581	`	_	_	
+81-24	16581-16582	`	_	_	
+81-25	16582-16583	.	_	_	
+81-26	16586-16587	#	_	_	
+81-27	16587-16588	#	_	_	
+81-28	16589-16599	Comparison	_	_	
+81-29	16600-16604	with	_	_	
+81-30	16605-16610	IMDEA	_	_	
+81-31	16611-16614	OWL	_	_	
+81-32	16615-16621	FALCON	_	_	
+81-33	16622-16624	is	_	_	
+81-34	16625-16627	an	_	_	
+81-35	16628-16639	alternative	_	_	
+81-36	16640-16642	to	_	_	
+81-37	16643-16644	[	_	_	
+81-38	16644-16649	IMDEA	_	_	
+81-39	16650-16653	OWL	_	_	
+81-40	16653-16654	]	_	_	
+81-41	16654-16655	[	_	_	
+81-42	16655-16664	imdea-owl	_	_	
+81-43	16664-16665	]	_	_	
+81-44	16666-16671	which	_	_	
+81-45	16672-16680	provides	_	_	
+81-46	16681-16691	comparable	_	_	
+81-47	16692-16707	functionalities	_	_	
+81-48	16708-16711	for	_	_	
+81-49	16712-16721	long-term	_	_	
+81-50	16722-16732	monitoring	_	_	
+81-51	16733-16735	of	_	_	
+81-52	16736-16739	LTE	_	_	
+81-53	16740-16745	cells	_	_	
+81-54	16745-16746	.	_	_	
+
+#Text=Other than OWL, FALCON additionally targets use cases that require short-term monitoring, mobility or increased robustness against non-ideal radio conditions.
+82-1	16747-16752	Other	_	_	
+82-2	16753-16757	than	_	_	
+82-3	16758-16761	OWL	_	_	
+82-4	16761-16762	,	_	_	
+82-5	16763-16769	FALCON	_	_	
+82-6	16770-16782	additionally	_	_	
+82-7	16783-16790	targets	_	_	
+82-8	16791-16794	use	_	_	
+82-9	16795-16800	cases	_	_	
+82-10	16801-16805	that	_	_	
+82-11	16806-16813	require	_	_	
+82-12	16814-16824	short-term	_	_	
+82-13	16825-16835	monitoring	_	_	
+82-14	16835-16836	,	_	_	
+82-15	16837-16845	mobility	_	_	
+82-16	16846-16848	or	_	_	
+82-17	16849-16858	increased	_	_	
+82-18	16859-16869	robustness	_	_	
+82-19	16870-16877	against	_	_	
+82-20	16878-16887	non-ideal	_	_	
+82-21	16888-16893	radio	_	_	
+82-22	16894-16904	conditions	_	_	
+82-23	16904-16905	.	_	_	
+
+#Text=The interface of FALCON's recorder and decoder is mostly compatible with [IMDEA OWL][imdea-owl].
+83-1	16907-16910	The	_	_	
+83-2	16911-16920	interface	_	_	
+83-3	16921-16923	of	_	_	
+83-4	16924-16932	FALCON's	_	_	
+83-5	16933-16941	recorder	_	_	
+83-6	16942-16945	and	_	_	
+83-7	16946-16953	decoder	_	_	
+83-8	16954-16956	is	_	_	
+83-9	16957-16963	mostly	_	_	
+83-10	16964-16974	compatible	_	_	
+83-11	16975-16979	with	_	_	
+83-12	16980-16981	[	_	_	
+83-13	16981-16986	IMDEA	_	_	
+83-14	16987-16990	OWL	_	_	
+83-15	16990-16991	]	_	_	
+83-16	16991-16992	[	_	_	
+83-17	16992-17001	imdea-owl	_	_	
+83-18	17001-17002	]	_	_	
+83-19	17002-17003	.	_	_	
+
+#Text=FALCON inherits OWL's approach of tracking C-RNTI assignments from PRACH for any UE that joins the cell during the observation time.
+84-1	17004-17010	FALCON	_	_	
+84-2	17011-17019	inherits	_	_	
+84-3	17020-17025	OWL's	_	_	
+84-4	17026-17034	approach	_	_	
+84-5	17035-17037	of	_	_	
+84-6	17038-17046	tracking	_	_	
+84-7	17047-17053	C-RNTI	_	_	
+84-8	17054-17065	assignments	_	_	
+84-9	17066-17070	from	_	_	
+84-10	17071-17076	PRACH	_	_	
+84-11	17077-17080	for	_	_	
+84-12	17081-17084	any	_	_	
+84-13	17085-17087	UE	_	_	
+84-14	17088-17092	that	_	_	
+84-15	17093-17098	joins	_	_	
+84-16	17099-17102	the	_	_	
+84-17	17103-17107	cell	_	_	
+84-18	17108-17114	during	_	_	
+84-19	17115-17118	the	_	_	
+84-20	17119-17130	observation	_	_	
+84-21	17131-17135	time	_	_	
+84-22	17135-17136	.	_	_	
+
+#Text=However, the method to discover already active C-RNTIs from earlier assignments differs significantly.
+85-1	17137-17144	However	_	_	
+85-2	17144-17145	,	_	_	
+85-3	17146-17149	the	_	_	
+85-4	17150-17156	method	_	_	
+85-5	17157-17159	to	_	_	
+85-6	17160-17168	discover	_	_	
+85-7	17169-17176	already	_	_	
+85-8	17177-17183	active	_	_	
+85-9	17184-17191	C-RNTIs	_	_	
+85-10	17192-17196	from	_	_	
+85-11	17197-17204	earlier	_	_	
+85-12	17205-17216	assignments	_	_	
+85-13	17217-17224	differs	_	_	
+85-14	17225-17238	significantly	_	_	
+85-15	17238-17239	.	_	_	
+
+#Text=FALCON uses RNTI histograms and shortcut decoding to validate unseen RNTIs during the blind decoding procedure.
+86-1	17240-17246	FALCON	_	_	
+86-2	17247-17251	uses	_	_	
+86-3	17252-17256	RNTI	_	_	
+86-4	17257-17267	histograms	_	_	
+86-5	17268-17271	and	_	_	
+86-6	17272-17280	shortcut	_	_	
+86-7	17281-17289	decoding	_	_	
+86-8	17290-17292	to	_	_	
+86-9	17293-17301	validate	_	_	
+86-10	17302-17308	unseen	_	_	
+86-11	17309-17314	RNTIs	_	_	
+86-12	17315-17321	during	_	_	
+86-13	17322-17325	the	_	_	
+86-14	17326-17331	blind	_	_	
+86-15	17332-17340	decoding	_	_	
+86-16	17341-17350	procedure	_	_	
+86-17	17350-17351	.	_	_	
+
+#Text=In contrast to OWL's re-encoding approach, this method is significantly less sensitive to non-ideal radio conditions.
+87-1	17352-17354	In	_	_	
+87-2	17355-17363	contrast	_	_	
+87-3	17364-17366	to	_	_	
+87-4	17367-17372	OWL's	_	_	
+87-5	17373-17384	re-encoding	_	_	
+87-6	17385-17393	approach	_	_	
+87-7	17393-17394	,	_	_	
+87-8	17395-17399	this	_	_	
+87-9	17400-17406	method	_	_	
+87-10	17407-17409	is	_	_	
+87-11	17410-17423	significantly	_	_	
+87-12	17424-17428	less	_	_	
+87-13	17429-17438	sensitive	_	_	
+87-14	17439-17441	to	_	_	
+87-15	17442-17451	non-ideal	_	_	
+87-16	17452-17457	radio	_	_	
+87-17	17458-17468	conditions	_	_	
+87-18	17468-17469	.	_	_	
+
+#Text=This makes FALCON suitable for robust and reliable short-term monitoring, e.g. for mobile applications.
+88-1	17470-17474	This	_	_	
+88-2	17475-17480	makes	_	_	
+88-3	17481-17487	FALCON	_	_	
+88-4	17488-17496	suitable	_	_	
+88-5	17497-17500	for	_	_	
+88-6	17501-17507	robust	_	_	
+88-7	17508-17511	and	_	_	
+88-8	17512-17520	reliable	_	_	
+88-9	17521-17531	short-term	_	_	
+88-10	17532-17542	monitoring	_	_	
+88-11	17542-17543	,	_	_	
+88-12	17544-17547	e.g	_	_	
+88-13	17547-17548	.	_	_	
+88-14	17549-17552	for	_	_	
+88-15	17553-17559	mobile	_	_	
+88-16	17560-17572	applications	_	_	
+88-17	17572-17573	.	_	_	
+
+#Text=A direct comparison of FALCON and OWL in a controlled environment is discussed in this [video presentation][video-presentation].
+#Text=
+#Text=### Included port of IMDEA OWL for Benchmarking
+#Text=The original version of IMDEA OWL was hardcoded into a fork of srsLTE v1.3 from Sep. 2016 and was updated to srsLTE v2.0 in Jul. 2017.
+89-1	17575-17576	A	_	_	
+89-2	17577-17583	direct	_	_	
+89-3	17584-17594	comparison	_	_	
+89-4	17595-17597	of	_	_	
+89-5	17598-17604	FALCON	_	_	
+89-6	17605-17608	and	_	_	
+89-7	17609-17612	OWL	_	_	
+89-8	17613-17615	in	_	_	
+89-9	17616-17617	a	_	_	
+89-10	17618-17628	controlled	_	_	
+89-11	17629-17640	environment	_	_	
+89-12	17641-17643	is	_	_	
+89-13	17644-17653	discussed	_	_	
+89-14	17654-17656	in	_	_	
+89-15	17657-17661	this	_	_	
+89-16	17662-17663	[	_	_	
+89-17	17663-17668	video	_	_	
+89-18	17669-17681	presentation	_	_	
+89-19	17681-17682	]	_	_	
+89-20	17682-17683	[	_	_	
+89-21	17683-17701	video-presentation	_	_	
+89-22	17701-17702	]	_	_	
+89-23	17702-17703	.	_	_	
+89-24	17705-17706	#	_	_	
+89-25	17706-17707	#	_	_	
+89-26	17707-17708	#	_	_	
+89-27	17709-17717	Included	_	_	
+89-28	17718-17722	port	_	_	
+89-29	17723-17725	of	_	_	
+89-30	17726-17731	IMDEA	_	_	
+89-31	17732-17735	OWL	_	_	
+89-32	17736-17739	for	_	_	
+89-33	17740-17752	Benchmarking	_	_	
+89-34	17753-17756	The	_	_	
+89-35	17757-17765	original	_	_	
+89-36	17766-17773	version	_	_	
+89-37	17774-17776	of	_	_	
+89-38	17777-17782	IMDEA	_	_	
+89-39	17783-17786	OWL	_	_	
+89-40	17787-17790	was	_	_	
+89-41	17791-17800	hardcoded	_	_	
+89-42	17801-17805	into	_	_	
+89-43	17806-17807	a	_	_	
+89-44	17808-17812	fork	_	_	
+89-45	17813-17815	of	_	_	
+89-46	17816-17822	srsLTE	_	_	
+89-47	17823-17827	v1.3	_	_	
+89-48	17828-17832	from	_	_	
+89-49	17833-17836	Sep	_	_	
+89-50	17836-17837	.	_	_	
+89-51	17838-17842	2016	_	_	
+89-52	17843-17846	and	_	_	
+89-53	17847-17850	was	_	_	
+89-54	17851-17858	updated	_	_	
+89-55	17859-17861	to	_	_	
+89-56	17862-17868	srsLTE	_	_	
+89-57	17869-17873	v2.0	_	_	
+89-58	17874-17876	in	_	_	
+89-59	17877-17880	Jul	_	_	
+89-60	17880-17881	.	_	_	
+89-61	17882-17886	2017	_	_	
+89-62	17886-17887	.	_	_	
+
+#Text=In order to provide a fair comparison of FALCON and OWL and their underlying methods, we extracted and ported OWL with its custom extensions on the srsLTE library into the FALCON project as separated modules and applications.
+90-1	17888-17890	In	_	_	
+90-2	17891-17896	order	_	_	
+90-3	17897-17899	to	_	_	
+90-4	17900-17907	provide	_	_	
+90-5	17908-17909	a	_	_	
+90-6	17910-17914	fair	_	_	
+90-7	17915-17925	comparison	_	_	
+90-8	17926-17928	of	_	_	
+90-9	17929-17935	FALCON	_	_	
+90-10	17936-17939	and	_	_	
+90-11	17940-17943	OWL	_	_	
+90-12	17944-17947	and	_	_	
+90-13	17948-17953	their	_	_	
+90-14	17954-17964	underlying	_	_	
+90-15	17965-17972	methods	_	_	
+90-16	17972-17973	,	_	_	
+90-17	17974-17976	we	_	_	
+90-18	17977-17986	extracted	_	_	
+90-19	17987-17990	and	_	_	
+90-20	17991-17997	ported	_	_	
+90-21	17998-18001	OWL	_	_	
+90-22	18002-18006	with	_	_	
+90-23	18007-18010	its	_	_	
+90-24	18011-18017	custom	_	_	
+90-25	18018-18028	extensions	_	_	
+90-26	18029-18031	on	_	_	
+90-27	18032-18035	the	_	_	
+90-28	18036-18042	srsLTE	_	_	
+90-29	18043-18050	library	_	_	
+90-30	18051-18055	into	_	_	
+90-31	18056-18059	the	_	_	
+90-32	18060-18066	FALCON	_	_	
+90-33	18067-18074	project	_	_	
+90-34	18075-18077	as	_	_	
+90-35	18078-18087	separated	_	_	
+90-36	18088-18095	modules	_	_	
+90-37	18096-18099	and	_	_	
+90-38	18100-18112	applications	_	_	
+90-39	18112-18113	.	_	_	
+
+#Text=By this, both applications benefit from future advancements of srsLTE library.
+#Text=
+#Text=### Validation of the port against the original version
+#Text=
+#Text=Every port requires at least slight adaptations of the code, especially if the underlying libraries evolve.
+91-1	18114-18116	By	_	_	
+91-2	18117-18121	this	_	_	
+91-3	18121-18122	,	_	_	
+91-4	18123-18127	both	_	_	
+91-5	18128-18140	applications	_	_	
+91-6	18141-18148	benefit	_	_	
+91-7	18149-18153	from	_	_	
+91-8	18154-18160	future	_	_	
+91-9	18161-18173	advancements	_	_	
+91-10	18174-18176	of	_	_	
+91-11	18177-18183	srsLTE	*	SOFTWARE	
+91-12	18184-18191	library	_	_	
+91-13	18191-18192	.	_	_	
+91-14	18194-18195	#	_	_	
+91-15	18195-18196	#	_	_	
+91-16	18196-18197	#	_	_	
+91-17	18198-18208	Validation	_	_	
+91-18	18209-18211	of	_	_	
+91-19	18212-18215	the	_	_	
+91-20	18216-18220	port	_	_	
+91-21	18221-18228	against	_	_	
+91-22	18229-18232	the	_	_	
+91-23	18233-18241	original	_	_	
+91-24	18242-18249	version	_	_	
+91-25	18251-18256	Every	_	_	
+91-26	18257-18261	port	_	_	
+91-27	18262-18270	requires	_	_	
+91-28	18271-18273	at	_	_	
+91-29	18274-18279	least	_	_	
+91-30	18280-18286	slight	_	_	
+91-31	18287-18298	adaptations	_	_	
+91-32	18299-18301	of	_	_	
+91-33	18302-18305	the	_	_	
+91-34	18306-18310	code	_	_	
+91-35	18310-18311	,	_	_	
+91-36	18312-18322	especially	_	_	
+91-37	18323-18325	if	_	_	
+91-38	18326-18329	the	_	_	
+91-39	18330-18340	underlying	_	_	
+91-40	18341-18350	libraries	_	_	
+91-41	18351-18357	evolve	_	_	
+91-42	18357-18358	.	_	_	
+
+#Text=However, this may lead to unintended side effects such as deviant functionality or different handling of exceptions.
+92-1	18359-18366	However	_	_	
+92-2	18366-18367	,	_	_	
+92-3	18368-18372	this	_	_	
+92-4	18373-18376	may	_	_	
+92-5	18377-18381	lead	_	_	
+92-6	18382-18384	to	_	_	
+92-7	18385-18395	unintended	_	_	
+92-8	18396-18400	side	_	_	
+92-9	18401-18408	effects	_	_	
+92-10	18409-18413	such	_	_	
+92-11	18414-18416	as	_	_	
+92-12	18417-18424	deviant	_	_	
+92-13	18425-18438	functionality	_	_	
+92-14	18439-18441	or	_	_	
+92-15	18442-18451	different	_	_	
+92-16	18452-18460	handling	_	_	
+92-17	18461-18463	of	_	_	
+92-18	18464-18474	exceptions	_	_	
+92-19	18474-18475	.	_	_	
+
+#Text=We validated the functionality of the IMDEA OWL port against its original implementation by processing the same record of a public LTE cell (IQ samples) with both programs and compared the outputs.
+93-1	18477-18479	We	_	_	
+93-2	18480-18489	validated	_	_	
+93-3	18490-18493	the	_	_	
+93-4	18494-18507	functionality	_	_	
+93-5	18508-18510	of	_	_	
+93-6	18511-18514	the	_	_	
+93-7	18515-18520	IMDEA	_	_	
+93-8	18521-18524	OWL	_	_	
+93-9	18525-18529	port	_	_	
+93-10	18530-18537	against	_	_	
+93-11	18538-18541	its	_	_	
+93-12	18542-18550	original	_	_	
+93-13	18551-18565	implementation	_	_	
+93-14	18566-18568	by	_	_	
+93-15	18569-18579	processing	_	_	
+93-16	18580-18583	the	_	_	
+93-17	18584-18588	same	_	_	
+93-18	18589-18595	record	_	_	
+93-19	18596-18598	of	_	_	
+93-20	18599-18600	a	_	_	
+93-21	18601-18607	public	_	_	
+93-22	18608-18611	LTE	_	_	
+93-23	18612-18616	cell	_	_	
+93-24	18617-18618	(	_	_	
+93-25	18618-18620	IQ	_	_	
+93-26	18621-18628	samples	_	_	
+93-27	18628-18629	)	_	_	
+93-28	18630-18634	with	_	_	
+93-29	18635-18639	both	_	_	
+93-30	18640-18648	programs	_	_	
+93-31	18649-18652	and	_	_	
+93-32	18653-18661	compared	_	_	
+93-33	18662-18665	the	_	_	
+93-34	18666-18673	outputs	_	_	
+93-35	18673-18674	.	_	_	
+
+#Text=This required the following precautions:
+#Text=
+#Text=- **Switch Viterbi decoder to 8 bit**: srsLTE uses a 16-bit Viterbi decoder if AVX2 is available, whereas the version underlying IMDEA OWL uses 8-bit Viterbi decoder.
+94-1	18676-18680	This	_	_	
+94-2	18681-18689	required	_	_	
+94-3	18690-18693	the	_	_	
+94-4	18694-18703	following	_	_	
+94-5	18704-18715	precautions	_	_	
+94-6	18715-18716	:	_	_	
+94-7	18718-18719	-	_	_	
+94-8	18720-18721	*	_	_	
+94-9	18721-18722	*	_	_	
+94-10	18722-18728	Switch	_	_	
+94-11	18729-18736	Viterbi	_	_	
+94-12	18737-18744	decoder	_	_	
+94-13	18745-18747	to	_	_	
+94-14	18748-18749	8	_	_	
+94-15	18750-18753	bit	_	_	
+94-16	18753-18754	*	_	_	
+94-17	18754-18755	*	_	_	
+94-18	18755-18756	:	_	_	
+94-19	18757-18763	srsLTE	*	SOFTWARE	
+94-20	18764-18768	uses	_	_	
+94-21	18769-18770	a	_	_	
+94-22	18771-18773	16	_	_	
+94-23	18773-18774	-	_	_	
+94-24	18774-18777	bit	_	_	
+94-25	18778-18785	Viterbi	_	_	
+94-26	18786-18793	decoder	_	_	
+94-27	18794-18796	if	_	_	
+94-28	18797-18801	AVX2	_	_	
+94-29	18802-18804	is	_	_	
+94-30	18805-18814	available	_	_	
+94-31	18814-18815	,	_	_	
+94-32	18816-18823	whereas	_	_	
+94-33	18824-18827	the	_	_	
+94-34	18828-18835	version	_	_	
+94-35	18836-18846	underlying	_	_	
+94-36	18847-18852	IMDEA	_	_	
+94-37	18853-18856	OWL	_	_	
+94-38	18857-18861	uses	_	_	
+94-39	18862-18863	8	_	_	
+94-40	18863-18864	-	_	_	
+94-41	18864-18867	bit	_	_	
+94-42	18868-18875	Viterbi	_	_	
+94-43	18876-18883	decoder	_	_	
+94-44	18883-18884	.	_	_	
+
+#Text=This circumvents direct comparison since spurious (false) DCI are decoded to different sequences of bits.
+95-1	18885-18889	This	_	_	
+95-2	18890-18901	circumvents	_	_	
+95-3	18902-18908	direct	_	_	
+95-4	18909-18919	comparison	_	_	
+95-5	18920-18925	since	_	_	
+95-6	18926-18934	spurious	_	_	
+95-7	18935-18936	(	_	_	
+95-8	18936-18941	false	_	_	
+95-9	18941-18942	)	_	_	
+95-10	18943-18946	DCI	_	_	
+95-11	18947-18950	are	_	_	
+95-12	18951-18958	decoded	_	_	
+95-13	18959-18961	to	_	_	
+95-14	18962-18971	different	_	_	
+95-15	18972-18981	sequences	_	_	
+95-16	18982-18984	of	_	_	
+95-17	18985-18989	bits	_	_	
+95-18	18989-18990	.	_	_	
+
+#Text=Therefore, ``#undef VITERBI_16`` in file ``dci.c`` of srsLTE library even if ``LV_HAVE_AVX2`` is defined to achieve the same behavior.
+96-1	18991-19000	Therefore	_	_	
+96-2	19000-19001	,	_	_	
+96-3	19002-19003	`	_	_	
+96-4	19003-19004	`	_	_	
+96-5	19004-19005	#	_	_	
+96-6	19005-19010	undef	_	_	
+96-7	19011-19018	VITERBI	_	_	
+96-8	19018-19019	_	_	_	
+96-9	19019-19021	16	_	_	
+96-10	19021-19022	`	_	_	
+96-11	19022-19023	`	_	_	
+96-12	19024-19026	in	_	_	
+96-13	19027-19031	file	_	_	
+96-14	19032-19033	`	_	_	
+96-15	19033-19034	`	_	_	
+96-16	19034-19039	dci.c	_	_	
+96-17	19039-19040	`	_	_	
+96-18	19040-19041	`	_	_	
+96-19	19042-19044	of	_	_	
+96-20	19045-19051	srsLTE	*	SOFTWARE	
+96-21	19052-19059	library	_	_	
+96-22	19060-19064	even	_	_	
+96-23	19065-19067	if	_	_	
+96-24	19068-19069	`	_	_	
+96-25	19069-19070	`	_	_	
+96-26	19070-19082	LV_HAVE_AVX2	_	_	
+96-27	19082-19083	`	_	_	
+96-28	19083-19084	`	_	_	
+96-29	19085-19087	is	_	_	
+96-30	19088-19095	defined	_	_	
+96-31	19096-19098	to	_	_	
+96-32	19099-19106	achieve	_	_	
+96-33	19107-19110	the	_	_	
+96-34	19111-19115	same	_	_	
+96-35	19116-19124	behavior	_	_	
+96-36	19124-19125	.	_	_	
+
+#Text=With these precautions, both versions decoded and processed exactly the same set of DCI candidates (whether true or spurious).
+97-1	19127-19131	With	_	_	
+97-2	19132-19137	these	_	_	
+97-3	19138-19149	precautions	_	_	
+97-4	19149-19150	,	_	_	
+97-5	19151-19155	both	_	_	
+97-6	19156-19164	versions	_	_	
+97-7	19165-19172	decoded	_	_	
+97-8	19173-19176	and	_	_	
+97-9	19177-19186	processed	_	_	
+97-10	19187-19194	exactly	_	_	
+97-11	19195-19198	the	_	_	
+97-12	19199-19203	same	_	_	
+97-13	19204-19207	set	_	_	
+97-14	19208-19210	of	_	_	
+97-15	19211-19214	DCI	_	_	
+97-16	19215-19225	candidates	_	_	
+97-17	19226-19227	(	_	_	
+97-18	19227-19234	whether	_	_	
+97-19	19235-19239	true	_	_	
+97-20	19240-19242	or	_	_	
+97-21	19243-19251	spurious	_	_	
+97-22	19251-19252	)	_	_	
+97-23	19252-19253	.	_	_	
+
+#Text=All candidates were classified identically.
+98-1	19254-19257	All	_	_	
+98-2	19258-19268	candidates	_	_	
+98-3	19269-19273	were	_	_	
+98-4	19274-19284	classified	_	_	
+98-5	19285-19296	identically	_	_	
+98-6	19296-19297	.	_	_	
+
+#Text=However, we noticed the following (minor) differences:
+#Text=
+#Text=- **DCI scrambled with RA/P/SI-RNTI**: MCS is correctly provided by the ported version.
+99-1	19298-19305	However	_	_	
+99-2	19305-19306	,	_	_	
+99-3	19307-19309	we	_	_	
+99-4	19310-19317	noticed	_	_	
+99-5	19318-19321	the	_	_	
+99-6	19322-19331	following	_	_	
+99-7	19332-19333	(	_	_	
+99-8	19333-19338	minor	_	_	
+99-9	19338-19339	)	_	_	
+99-10	19340-19351	differences	_	_	
+99-11	19351-19352	:	_	_	
+99-12	19354-19355	-	_	_	
+99-13	19356-19357	*	_	_	
+99-14	19357-19358	*	_	_	
+99-15	19358-19361	DCI	_	_	
+99-16	19362-19371	scrambled	_	_	
+99-17	19372-19376	with	_	_	
+99-18	19377-19379	RA	_	_	
+99-19	19379-19380	/	_	_	
+99-20	19380-19381	P	_	_	
+99-21	19381-19382	/	_	_	
+99-22	19382-19389	SI-RNTI	_	_	
+99-23	19389-19390	*	_	_	
+99-24	19390-19391	*	_	_	
+99-25	19391-19392	:	_	_	
+99-26	19393-19396	MCS	_	_	
+99-27	19397-19399	is	_	_	
+99-28	19400-19409	correctly	_	_	
+99-29	19410-19418	provided	_	_	
+99-30	19419-19421	by	_	_	
+99-31	19422-19425	the	_	_	
+99-32	19426-19432	ported	_	_	
+99-33	19433-19440	version	_	_	
+99-34	19440-19441	.	_	_	
+
+#Text=In such cases the original version always reports MCS=0.
+#Text=- **Swapping**: In case the *Transport Block to Codeword Swap Flag* is set, the related values appear in swapped order.
+#Text=- **Invalid RB allocation**: If the library detects an illegal RB allocation (i.e. spurious DCI carrying an illegal resource block group assignment), a nulled line is printed.
+100-1	19442-19444	In	_	_	
+100-2	19445-19449	such	_	_	
+100-3	19450-19455	cases	_	_	
+100-4	19456-19459	the	_	_	
+100-5	19460-19468	original	_	_	
+100-6	19469-19476	version	_	_	
+100-7	19477-19483	always	_	_	
+100-8	19484-19491	reports	_	_	
+100-9	19492-19495	MCS	_	_	
+100-10	19495-19496	=	_	_	
+100-11	19496-19497	0	_	_	
+100-12	19497-19498	.	_	_	
+100-13	19499-19500	-	_	_	
+100-14	19501-19502	*	_	_	
+100-15	19502-19503	*	_	_	
+100-16	19503-19511	Swapping	_	_	
+100-17	19511-19512	*	_	_	
+100-18	19512-19513	*	_	_	
+100-19	19513-19514	:	_	_	
+100-20	19515-19517	In	_	_	
+100-21	19518-19522	case	_	_	
+100-22	19523-19526	the	_	_	
+100-23	19527-19528	*	_	_	
+100-24	19528-19537	Transport	_	_	
+100-25	19538-19543	Block	_	_	
+100-26	19544-19546	to	_	_	
+100-27	19547-19555	Codeword	_	_	
+100-28	19556-19560	Swap	_	_	
+100-29	19561-19565	Flag	_	_	
+100-30	19565-19566	*	_	_	
+100-31	19567-19569	is	_	_	
+100-32	19570-19573	set	_	_	
+100-33	19573-19574	,	_	_	
+100-34	19575-19578	the	_	_	
+100-35	19579-19586	related	_	_	
+100-36	19587-19593	values	_	_	
+100-37	19594-19600	appear	_	_	
+100-38	19601-19603	in	_	_	
+100-39	19604-19611	swapped	_	_	
+100-40	19612-19617	order	_	_	
+100-41	19617-19618	.	_	_	
+100-42	19619-19620	-	_	_	
+100-43	19621-19622	*	_	_	
+100-44	19622-19623	*	_	_	
+100-45	19623-19630	Invalid	_	_	
+100-46	19631-19633	RB	_	_	
+100-47	19634-19644	allocation	_	_	
+100-48	19644-19645	*	_	_	
+100-49	19645-19646	*	_	_	
+100-50	19646-19647	:	_	_	
+100-51	19648-19650	If	_	_	
+100-52	19651-19654	the	_	_	
+100-53	19655-19662	library	_	_	
+100-54	19663-19670	detects	_	_	
+100-55	19671-19673	an	_	_	
+100-56	19674-19681	illegal	_	_	
+100-57	19682-19684	RB	_	_	
+100-58	19685-19695	allocation	_	_	
+100-59	19696-19697	(	_	_	
+100-60	19697-19700	i.e	_	_	
+100-61	19700-19701	.	_	_	
+100-62	19702-19710	spurious	_	_	
+100-63	19711-19714	DCI	_	_	
+100-64	19715-19723	carrying	_	_	
+100-65	19724-19726	an	_	_	
+100-66	19727-19734	illegal	_	_	
+100-67	19735-19743	resource	_	_	
+100-68	19744-19749	block	_	_	
+100-69	19750-19755	group	_	_	
+100-70	19756-19766	assignment	_	_	
+100-71	19766-19767	)	_	_	
+100-72	19767-19768	,	_	_	
+100-73	19769-19770	a	_	_	
+100-74	19771-19777	nulled	_	_	
+100-75	19778-19782	line	_	_	
+100-76	19783-19785	is	_	_	
+100-77	19786-19793	printed	_	_	
+100-78	19793-19794	.	_	_	
+
+#Text=The original version prints arbitrary values.
+#Text=
+#Text=
+#Text=
+#Text=## Related Publications
+#Text=- B.
+101-1	19795-19798	The	_	_	
+101-2	19799-19807	original	_	_	
+101-3	19808-19815	version	_	_	
+101-4	19816-19822	prints	_	_	
+101-5	19823-19832	arbitrary	_	_	
+101-6	19833-19839	values	_	_	
+101-7	19839-19840	.	_	_	
+101-8	19844-19845	#	_	_	
+101-9	19845-19846	#	_	_	
+101-10	19847-19854	Related	_	_	
+101-11	19855-19867	Publications	_	_	
+101-12	19868-19869	-	_	_	
+101-13	19870-19871	B	_	_	
+101-14	19871-19872	.	_	_	
+
+#Text=Sliwa, R.
+102-1	19873-19878	Sliwa	_	_	
+102-2	19878-19879	,	_	_	
+102-3	19880-19881	R	_	_	
+102-4	19881-19882	.	_	_	
+
+#Text=Falkenberg, C.
+103-1	19883-19893	Falkenberg	_	_	
+103-2	19893-19894	,	_	_	
+103-3	19895-19896	C	_	_	
+103-4	19896-19897	.	_	_	
+
+#Text=Wietfeld, [**Towards Cooperative Data Rate Prediction for Future Mobile and Vehicular 6G Networks**](https://arxiv.org/abs/2001.09452), In *2nd 6G Wireless Summit (6G SUMMIT)*, 2020.
+#Text=- R.
+104-1	19898-19906	Wietfeld	_	_	
+104-2	19906-19907	,	_	_	
+104-3	19908-19909	[	_	_	
+104-4	19909-19910	*	_	_	
+104-5	19910-19911	*	_	_	
+104-6	19911-19918	Towards	*[15]	PUBLICATION[15]	
+104-7	19919-19930	Cooperative	*[15]	PUBLICATION[15]	
+104-8	19931-19935	Data	*[15]	PUBLICATION[15]	
+104-9	19936-19940	Rate	*[15]	PUBLICATION[15]	
+104-10	19941-19951	Prediction	*[15]	PUBLICATION[15]	
+104-11	19952-19955	for	*[15]	PUBLICATION[15]	
+104-12	19956-19962	Future	*[15]	PUBLICATION[15]	
+104-13	19963-19969	Mobile	*[15]	PUBLICATION[15]	
+104-14	19970-19973	and	*[15]	PUBLICATION[15]	
+104-15	19974-19983	Vehicular	*[15]	PUBLICATION[15]	
+104-16	19984-19986	6G	*[15]	PUBLICATION[15]	
+104-17	19987-19995	Networks	*[15]	PUBLICATION[15]	
+104-18	19995-19996	*	_	_	
+104-19	19996-19997	*	_	_	
+104-20	19997-19998	]	_	_	
+104-21	19998-19999	(	_	_	
+104-22	19999-20004	https	_	_	
+104-23	20004-20005	:	_	_	
+104-24	20005-20006	/	_	_	
+104-25	20006-20007	/	_	_	
+104-26	20007-20016	arxiv.org	_	_	
+104-27	20016-20017	/	_	_	
+104-28	20017-20020	abs	_	_	
+104-29	20020-20021	/	_	_	
+104-30	20021-20031	2001.09452	_	_	
+104-31	20031-20032	)	_	_	
+104-32	20032-20033	,	_	_	
+104-33	20034-20036	In	_	_	
+104-34	20037-20038	*	_	_	
+104-35	20038-20041	2nd	*[16]	CONFERENCE[16]	
+104-36	20042-20044	6G	*[16]	CONFERENCE[16]	
+104-37	20045-20053	Wireless	*[16]	CONFERENCE[16]	
+104-38	20054-20060	Summit	*[16]	CONFERENCE[16]	
+104-39	20061-20062	(	*[16]	CONFERENCE[16]	
+104-40	20062-20064	6G	*[16]	CONFERENCE[16]	
+104-41	20065-20071	SUMMIT	*[16]	CONFERENCE[16]	
+104-42	20071-20072	)	*[16]	CONFERENCE[16]	
+104-43	20072-20073	*	_	_	
+104-44	20073-20074	,	_	_	
+104-45	20075-20079	2020	_	_	
+104-46	20079-20080	.	_	_	
+104-47	20081-20082	-	_	_	
+104-48	20083-20084	R	_	_	
+104-49	20084-20085	.	_	_	
+
+#Text=Falkenberg, C.
+105-1	20086-20096	Falkenberg	_	_	
+105-2	20096-20097	,	_	_	
+105-3	20098-20099	C	_	_	
+105-4	20099-20100	.	_	_	
+
+#Text=Wietfeld, [**FALCON: An Accurate Real-time Monitor for Client-based Mobile Network Data Analytics**](https://arxiv.org/abs/1907.10110), In *GLOBECOM 2019 - 2019 IEEE Global Communications Conference*, 2019.
+#Text=- R.
+106-1	20101-20109	Wietfeld	_	_	
+106-2	20109-20110	,	_	_	
+106-3	20111-20112	[	_	_	
+106-4	20112-20113	*	_	_	
+106-5	20113-20114	*	_	_	
+106-6	20114-20120	FALCON	*[17]	PUBLICATION[17]	
+106-7	20120-20121	:	*[17]	PUBLICATION[17]	
+106-8	20122-20124	An	*[17]	PUBLICATION[17]	
+106-9	20125-20133	Accurate	*[17]	PUBLICATION[17]	
+106-10	20134-20143	Real-time	*[17]	PUBLICATION[17]	
+106-11	20144-20151	Monitor	*[17]	PUBLICATION[17]	
+106-12	20152-20155	for	*[17]	PUBLICATION[17]	
+106-13	20156-20168	Client-based	*[17]	PUBLICATION[17]	
+106-14	20169-20175	Mobile	*[17]	PUBLICATION[17]	
+106-15	20176-20183	Network	*[17]	PUBLICATION[17]	
+106-16	20184-20188	Data	*[17]	PUBLICATION[17]	
+106-17	20189-20198	Analytics	*[17]	PUBLICATION[17]	
+106-18	20198-20199	*	_	_	
+106-19	20199-20200	*	_	_	
+106-20	20200-20201	]	_	_	
+106-21	20201-20202	(	_	_	
+106-22	20202-20207	https	_	_	
+106-23	20207-20208	:	_	_	
+106-24	20208-20209	/	_	_	
+106-25	20209-20210	/	_	_	
+106-26	20210-20219	arxiv.org	_	_	
+106-27	20219-20220	/	_	_	
+106-28	20220-20223	abs	_	_	
+106-29	20223-20224	/	_	_	
+106-30	20224-20234	1907.10110	_	_	
+106-31	20234-20235	)	_	_	
+106-32	20235-20236	,	_	_	
+106-33	20237-20239	In	_	_	
+106-34	20240-20241	*	_	_	
+106-35	20241-20249	GLOBECOM	*[18]	CONFERENCE[18]	
+106-36	20250-20254	2019	*[18]	CONFERENCE[18]	
+106-37	20255-20256	-	*[18]	CONFERENCE[18]	
+106-38	20257-20261	2019	*[18]	CONFERENCE[18]	
+106-39	20262-20266	IEEE	*[18]	CONFERENCE[18]	
+106-40	20267-20273	Global	*[18]	CONFERENCE[18]	
+106-41	20274-20288	Communications	*[18]	CONFERENCE[18]	
+106-42	20289-20299	Conference	*[18]	CONFERENCE[18]	
+106-43	20299-20300	*	_	_	
+106-44	20300-20301	,	_	_	
+106-45	20302-20306	2019	_	_	
+106-46	20306-20307	.	_	_	
+106-47	20308-20309	-	_	_	
+106-48	20310-20311	R	_	_	
+106-49	20311-20312	.	_	_	
+
+#Text=Falkenberg, K.
+107-1	20313-20323	Falkenberg	_	_	
+107-2	20323-20324	,	_	_	
+107-3	20325-20326	K	_	_	
+107-4	20326-20327	.	_	_	
+
+#Text=Heimann, C.
+108-1	20328-20335	Heimann	_	_	
+108-2	20335-20336	,	_	_	
+108-3	20337-20338	C	_	_	
+108-4	20338-20339	.	_	_	
+
+#Text=Wietfeld, [**Discover Your Competition in LTE: Client-Based Passive Data Rate Prediction by Machine Learning**](https://arxiv.org/abs/1711.06820), In *GLOBECOM 2017 - 2017 IEEE Global Communications Conference*, 2017.
+#Text=- R.
+109-1	20340-20348	Wietfeld	_	_	
+109-2	20348-20349	,	_	_	
+109-3	20350-20351	[	_	_	
+109-4	20351-20352	*	_	_	
+109-5	20352-20353	*	_	_	
+109-6	20353-20361	Discover	*[19]	PUBLICATION[19]	
+109-7	20362-20366	Your	*[19]	PUBLICATION[19]	
+109-8	20367-20378	Competition	*[19]	PUBLICATION[19]	
+109-9	20379-20381	in	*[19]	PUBLICATION[19]	
+109-10	20382-20385	LTE	*[19]	PUBLICATION[19]	
+109-11	20385-20386	:	*[19]	PUBLICATION[19]	
+109-12	20387-20399	Client-Based	*[19]	PUBLICATION[19]	
+109-13	20400-20407	Passive	*[19]	PUBLICATION[19]	
+109-14	20408-20412	Data	*[19]	PUBLICATION[19]	
+109-15	20413-20417	Rate	*[19]	PUBLICATION[19]	
+109-16	20418-20428	Prediction	*[19]	PUBLICATION[19]	
+109-17	20429-20431	by	*[19]	PUBLICATION[19]	
+109-18	20432-20439	Machine	*[19]	PUBLICATION[19]	
+109-19	20440-20448	Learning	*[19]	PUBLICATION[19]	
+109-20	20448-20449	*	_	_	
+109-21	20449-20450	*	_	_	
+109-22	20450-20451	]	_	_	
+109-23	20451-20452	(	_	_	
+109-24	20452-20457	https	_	_	
+109-25	20457-20458	:	_	_	
+109-26	20458-20459	/	_	_	
+109-27	20459-20460	/	_	_	
+109-28	20460-20469	arxiv.org	_	_	
+109-29	20469-20470	/	_	_	
+109-30	20470-20473	abs	_	_	
+109-31	20473-20474	/	_	_	
+109-32	20474-20484	1711.06820	_	_	
+109-33	20484-20485	)	_	_	
+109-34	20485-20486	,	_	_	
+109-35	20487-20489	In	_	_	
+109-36	20490-20491	*	_	_	
+109-37	20491-20499	GLOBECOM	*[20]	CONFERENCE[20]	
+109-38	20500-20504	2017	*[20]	CONFERENCE[20]	
+109-39	20505-20506	-	*[20]	CONFERENCE[20]	
+109-40	20507-20511	2017	*[20]	CONFERENCE[20]	
+109-41	20512-20516	IEEE	*[20]	CONFERENCE[20]	
+109-42	20517-20523	Global	*[20]	CONFERENCE[20]	
+109-43	20524-20538	Communications	*[20]	CONFERENCE[20]	
+109-44	20539-20549	Conference	*[20]	CONFERENCE[20]	
+109-45	20549-20550	*	_	_	
+109-46	20550-20551	,	_	_	
+109-47	20552-20556	2017	_	_	
+109-48	20556-20557	.	_	_	
+109-49	20558-20559	-	_	_	
+109-50	20560-20561	R	_	_	
+109-51	20561-20562	.	_	_	
+
+#Text=Falkenberg, C.
+110-1	20563-20573	Falkenberg	_	_	
+110-2	20573-20574	,	_	_	
+110-3	20575-20576	C	_	_	
+110-4	20576-20577	.	_	_	
+
+#Text=Ide, C.
+111-1	20578-20581	Ide	_	_	
+111-2	20581-20582	,	_	_	
+111-3	20583-20584	C	_	_	
+111-4	20584-20585	.	_	_	
+
+#Text=Wietfeld, [**Client-Based Control Channel Analysis for Connectivity Estimation in LTE Networks**](https://arxiv.org/abs/1701.03304), In *IEEE Vehicular Technology Conference (VTC-Fall)*, 2016.
+#Text=
+#Text=
+#Text=
+#Text=## Acknowledgements
+#Text=
+#Text=To acknowledge us in your publication(s) please refer to the following publication:
+#Text=
+#Text=```tex
+#Text=@InProceedings{Falkenberg2019a,
+#Text=\tAuthor = {Robert Falkenberg and Christian Wietfeld},
+#Text=\tTitle = {{FALCON}: An Accurate Real-time Monitor for Client-based Mobile Network Data Analytics},
+#Text=\tBooktitle = {2019 IEEE Global Communications Conference (GLOBECOM)},
+#Text=\tYear = {2019},
+#Text=\tAddress = {Waikoloa, Hawaii, USA},
+#Text=\tMonth = dec,
+#Text=\tPublisher = {IEEE},
+#Text=\tDoi = {10.1109/GLOBECOM38437.2019.9014096},
+#Text=\tEprint = {1907.10110},
+#Text=\tEprinttype = {arxiv},
+#Text=\tUrl = {https://arxiv.org/abs/1907.10110}
+#Text=}
+#Text=```
+#Text=
+#Text=
+#Text=<!
+112-1	20586-20594	Wietfeld	_	_	
+112-2	20594-20595	,	_	_	
+112-3	20596-20597	[	_	_	
+112-4	20597-20598	*	_	_	
+112-5	20598-20599	*	_	_	
+112-6	20599-20611	Client-Based	*[21]	PUBLICATION[21]	
+112-7	20612-20619	Control	*[21]	PUBLICATION[21]	
+112-8	20620-20627	Channel	*[21]	PUBLICATION[21]	
+112-9	20628-20636	Analysis	*[21]	PUBLICATION[21]	
+112-10	20637-20640	for	*[21]	PUBLICATION[21]	
+112-11	20641-20653	Connectivity	*[21]	PUBLICATION[21]	
+112-12	20654-20664	Estimation	*[21]	PUBLICATION[21]	
+112-13	20665-20667	in	*[21]	PUBLICATION[21]	
+112-14	20668-20671	LTE	*[21]	PUBLICATION[21]	
+112-15	20672-20680	Networks	*[21]	PUBLICATION[21]	
+112-16	20680-20681	*	_	_	
+112-17	20681-20682	*	_	_	
+112-18	20682-20683	]	_	_	
+112-19	20683-20684	(	_	_	
+112-20	20684-20689	https	_	_	
+112-21	20689-20690	:	_	_	
+112-22	20690-20691	/	_	_	
+112-23	20691-20692	/	_	_	
+112-24	20692-20701	arxiv.org	_	_	
+112-25	20701-20702	/	_	_	
+112-26	20702-20705	abs	_	_	
+112-27	20705-20706	/	_	_	
+112-28	20706-20716	1701.03304	_	_	
+112-29	20716-20717	)	_	_	
+112-30	20717-20718	,	_	_	
+112-31	20719-20721	In	_	_	
+112-32	20722-20723	*	_	_	
+112-33	20723-20727	IEEE	*[22]	CONFERENCE[22]	
+112-34	20728-20737	Vehicular	*[22]	CONFERENCE[22]	
+112-35	20738-20748	Technology	*[22]	CONFERENCE[22]	
+112-36	20749-20759	Conference	*[22]	CONFERENCE[22]	
+112-37	20760-20761	(	_	_	
+112-38	20761-20769	VTC-Fall	*	CONFERENCE	
+112-39	20769-20770	)	_	_	
+112-40	20770-20771	*	_	_	
+112-41	20771-20772	,	_	_	
+112-42	20773-20777	2016	_	_	
+112-43	20777-20778	.	_	_	
+112-44	20782-20783	#	_	_	
+112-45	20783-20784	#	_	_	
+112-46	20785-20801	Acknowledgements	_	_	
+112-47	20803-20805	To	_	_	
+112-48	20806-20817	acknowledge	_	_	
+112-49	20818-20820	us	_	_	
+112-50	20821-20823	in	_	_	
+112-51	20824-20828	your	_	_	
+112-52	20829-20840	publication	_	_	
+112-53	20840-20841	(	_	_	
+112-54	20841-20842	s	_	_	
+112-55	20842-20843	)	_	_	
+112-56	20844-20850	please	_	_	
+112-57	20851-20856	refer	_	_	
+112-58	20857-20859	to	_	_	
+112-59	20860-20863	the	_	_	
+112-60	20864-20873	following	_	_	
+112-61	20874-20885	publication	_	_	
+112-62	20885-20886	:	_	_	
+112-63	20888-20889	`	_	_	
+112-64	20889-20890	`	_	_	
+112-65	20890-20891	`	_	_	
+112-66	20891-20894	tex	_	_	
+112-67	20895-20896	@	_	_	
+112-68	20896-20909	InProceedings	_	_	
+112-69	20909-20910	{	_	_	
+112-70	20910-20925	Falkenberg2019a	_	_	
+112-71	20925-20926	,	_	_	
+112-72	20928-20934	Author	_	_	
+112-73	20935-20936	=	_	_	
+112-74	20937-20938	{	_	_	
+112-75	20938-20944	Robert	_	_	
+112-76	20945-20955	Falkenberg	_	_	
+112-77	20956-20959	and	_	_	
+112-78	20960-20969	Christian	_	_	
+112-79	20970-20978	Wietfeld	_	_	
+112-80	20978-20979	}	_	_	
+112-81	20979-20980	,	_	_	
+112-82	20982-20987	Title	_	_	
+112-83	20988-20989	=	_	_	
+112-84	20990-20991	{	_	_	
+112-85	20991-20992	{	*[23]	PUBLICATION[23]	
+112-86	20992-20998	FALCON	*[23]	PUBLICATION[23]	
+112-87	20998-20999	}	*[23]	PUBLICATION[23]	
+112-88	20999-21000	:	*[23]	PUBLICATION[23]	
+112-89	21001-21003	An	*[23]	PUBLICATION[23]	
+112-90	21004-21012	Accurate	*[23]	PUBLICATION[23]	
+112-91	21013-21022	Real-time	*[23]	PUBLICATION[23]	
+112-92	21023-21030	Monitor	*[23]	PUBLICATION[23]	
+112-93	21031-21034	for	*[23]	PUBLICATION[23]	
+112-94	21035-21047	Client-based	*[23]	PUBLICATION[23]	
+112-95	21048-21054	Mobile	*[23]	PUBLICATION[23]	
+112-96	21055-21062	Network	*[23]	PUBLICATION[23]	
+112-97	21063-21067	Data	*[23]	PUBLICATION[23]	
+112-98	21068-21077	Analytics	*[23]	PUBLICATION[23]	
+112-99	21077-21078	}	_	_	
+112-100	21078-21079	,	_	_	
+112-101	21081-21090	Booktitle	_	_	
+112-102	21091-21092	=	_	_	
+112-103	21093-21094	{	_	_	
+112-104	21094-21098	2019	_	_	
+112-105	21099-21103	IEEE	_	_	
+112-106	21104-21110	Global	_	_	
+112-107	21111-21125	Communications	_	_	
+112-108	21126-21136	Conference	_	_	
+112-109	21137-21138	(	_	_	
+112-110	21138-21146	GLOBECOM	_	_	
+112-111	21146-21147	)	_	_	
+112-112	21147-21148	}	_	_	
+112-113	21148-21149	,	_	_	
+112-114	21151-21155	Year	_	_	
+112-115	21156-21157	=	_	_	
+112-116	21158-21159	{	_	_	
+112-117	21159-21163	2019	_	_	
+112-118	21163-21164	}	_	_	
+112-119	21164-21165	,	_	_	
+112-120	21167-21174	Address	_	_	
+112-121	21175-21176	=	_	_	
+112-122	21177-21178	{	_	_	
+112-123	21178-21186	Waikoloa	_	_	
+112-124	21186-21187	,	_	_	
+112-125	21188-21194	Hawaii	_	_	
+112-126	21194-21195	,	_	_	
+112-127	21196-21199	USA	_	_	
+112-128	21199-21200	}	_	_	
+112-129	21200-21201	,	_	_	
+112-130	21203-21208	Month	_	_	
+112-131	21209-21210	=	_	_	
+112-132	21211-21214	dec	_	_	
+112-133	21214-21215	,	_	_	
+112-134	21217-21226	Publisher	_	_	
+112-135	21227-21228	=	_	_	
+112-136	21229-21230	{	_	_	
+112-137	21230-21234	IEEE	_	_	
+112-138	21234-21235	}	_	_	
+112-139	21235-21236	,	_	_	
+112-140	21238-21241	Doi	_	_	
+112-141	21242-21243	=	_	_	
+112-142	21244-21245	{	_	_	
+112-143	21245-21252	10.1109	_	_	
+112-144	21252-21253	/	_	_	
+112-145	21253-21279	GLOBECOM38437.2019.9014096	_	_	
+112-146	21279-21280	}	_	_	
+112-147	21280-21281	,	_	_	
+112-148	21283-21289	Eprint	_	_	
+112-149	21290-21291	=	_	_	
+112-150	21292-21293	{	_	_	
+112-151	21293-21303	1907.10110	_	_	
+112-152	21303-21304	}	_	_	
+112-153	21304-21305	,	_	_	
+112-154	21307-21317	Eprinttype	_	_	
+112-155	21318-21319	=	_	_	
+112-156	21320-21321	{	_	_	
+112-157	21321-21326	arxiv	_	_	
+112-158	21326-21327	}	_	_	
+112-159	21327-21328	,	_	_	
+112-160	21330-21333	Url	_	_	
+112-161	21334-21335	=	_	_	
+112-162	21336-21337	{	_	_	
+112-163	21337-21342	https	_	_	
+112-164	21342-21343	:	_	_	
+112-165	21343-21344	/	_	_	
+112-166	21344-21345	/	_	_	
+112-167	21345-21354	arxiv.org	_	_	
+112-168	21354-21355	/	_	_	
+112-169	21355-21358	abs	_	_	
+112-170	21358-21359	/	_	_	
+112-171	21359-21369	1907.10110	_	_	
+112-172	21369-21370	}	_	_	
+112-173	21371-21372	}	_	_	
+112-174	21373-21374	`	_	_	
+112-175	21374-21375	`	_	_	
+112-176	21375-21376	`	_	_	
+112-177	21379-21380	<	_	_	
+112-178	21380-21381	!	_	_	
+
+#Text=-- Identifiers, in alphabetical order -->
+#Text=
+#Text=[imdea-owl]: https://git.networks.imdea.org/nicola_bui/imdeaowl
+#Text=[examples]: https://github.com/falkenber9/falcon-examples
+#Text=[srslte]: https://github.com/srsLTE/srsLTE
+#Text=[srslte-falcon-patch]: https://github.com/falkenber9/srsLTE
+#Text=[video-presentation]: https://www.youtube.com/watch?
+113-1	21381-21382	-	_	_	
+113-2	21382-21383	-	_	_	
+113-3	21384-21395	Identifiers	_	_	
+113-4	21395-21396	,	_	_	
+113-5	21397-21399	in	_	_	
+113-6	21400-21412	alphabetical	_	_	
+113-7	21413-21418	order	_	_	
+113-8	21419-21420	-	_	_	
+113-9	21420-21421	-	_	_	
+113-10	21421-21422	>	_	_	
+113-11	21424-21425	[	_	_	
+113-12	21425-21434	imdea-owl	_	_	
+113-13	21434-21435	]	_	_	
+113-14	21435-21436	:	_	_	
+113-15	21437-21442	https	_	_	
+113-16	21442-21443	:	_	_	
+113-17	21443-21444	/	_	_	
+113-18	21444-21445	/	_	_	
+113-19	21445-21467	git.networks.imdea.org	_	_	
+113-20	21467-21468	/	_	_	
+113-21	21468-21478	nicola_bui	_	_	
+113-22	21478-21479	/	_	_	
+113-23	21479-21487	imdeaowl	_	_	
+113-24	21488-21489	[	_	_	
+113-25	21489-21497	examples	_	_	
+113-26	21497-21498	]	_	_	
+113-27	21498-21499	:	_	_	
+113-28	21500-21505	https	_	_	
+113-29	21505-21506	:	_	_	
+113-30	21506-21507	/	_	_	
+113-31	21507-21508	/	_	_	
+113-32	21508-21518	github.com	_	_	
+113-33	21518-21519	/	_	_	
+113-34	21519-21529	falkenber9	_	_	
+113-35	21529-21530	/	_	_	
+113-36	21530-21545	falcon-examples	_	_	
+113-37	21546-21547	[	_	_	
+113-38	21547-21553	srslte	_	_	
+113-39	21553-21554	]	_	_	
+113-40	21554-21555	:	_	_	
+113-41	21556-21561	https	_	_	
+113-42	21561-21562	:	_	_	
+113-43	21562-21563	/	_	_	
+113-44	21563-21564	/	_	_	
+113-45	21564-21574	github.com	_	_	
+113-46	21574-21575	/	_	_	
+113-47	21575-21581	srsLTE	*	SOFTWARE	
+113-48	21581-21582	/	_	_	
+113-49	21582-21588	srsLTE	*	SOFTWARE	
+113-50	21589-21590	[	_	_	
+113-51	21590-21609	srslte-falcon-patch	_	_	
+113-52	21609-21610	]	_	_	
+113-53	21610-21611	:	_	_	
+113-54	21612-21617	https	_	_	
+113-55	21617-21618	:	_	_	
+113-56	21618-21619	/	_	_	
+113-57	21619-21620	/	_	_	
+113-58	21620-21630	github.com	_	_	
+113-59	21630-21631	/	_	_	
+113-60	21631-21641	falkenber9	_	_	
+113-61	21641-21642	/	_	_	
+113-62	21642-21648	srsLTE	*	SOFTWARE	
+113-63	21649-21650	[	_	_	
+113-64	21650-21668	video-presentation	_	_	
+113-65	21668-21669	]	_	_	
+113-66	21669-21670	:	_	_	
+113-67	21671-21676	https	_	_	
+113-68	21676-21677	:	_	_	
+113-69	21677-21678	/	_	_	
+113-70	21678-21679	/	_	_	
+113-71	21679-21694	www.youtube.com	_	_	
+113-72	21694-21695	/	_	_	
+113-73	21695-21700	watch	_	_	
+113-74	21700-21701	?	_	_	
+
+#Text=v=Va_aZYxRu3U
+114-1	21701-21702	v	_	_	
+114-2	21702-21703	=	_	_	
+114-3	21703-21714	Va_aZYxRu3U	_	_	

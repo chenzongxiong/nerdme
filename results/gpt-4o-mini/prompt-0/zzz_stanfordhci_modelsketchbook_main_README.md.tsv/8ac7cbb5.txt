@@ -1,0 +1,1 @@
+ModelSketchBook is designed to work with <DATASET>datasets</DATASET> in <PROGLANG>Pandas</PROGLANG> <PROGLANG>DataFrame</PROGLANG> format.

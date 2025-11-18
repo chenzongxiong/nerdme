@@ -1,0 +1,3 @@
+```markdown
+This function will display widgets to select concepts and an aggregator. ``` <PROGLANG>msb</PROGLANG>.create_sketch_model(<PROGLANG>sb</PROGLANG>) ```  <img src=".
+```

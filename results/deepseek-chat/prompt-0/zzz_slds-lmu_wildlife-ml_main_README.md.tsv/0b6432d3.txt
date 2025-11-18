@@ -1,0 +1,3 @@
+```markdown
+We also offer a CLI option:  ```shell <SOFTWARE>wildlifeml-get-bbox</SOFTWARE> -d <directory> ```  Access help over the `--help` flag.  #### The MD index file  By default, the MD saves its results in `images_megadetector.json`.
+```

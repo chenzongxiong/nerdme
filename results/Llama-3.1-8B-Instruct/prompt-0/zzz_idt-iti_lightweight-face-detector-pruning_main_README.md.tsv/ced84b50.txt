@@ -1,0 +1,1 @@
+`pruned_eres10`.  ## <SOFTWARE>Android Deployment</SOFTWARE>  Simply move the <SOFTWARE>convert_to_torchscript.py</SOFTWARE> script inside the <SOFTWARE>EResFD-main</SOFTWARE>/ directory and run it.

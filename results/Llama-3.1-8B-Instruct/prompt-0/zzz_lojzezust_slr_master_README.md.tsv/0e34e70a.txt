@@ -1,0 +1,1 @@
+- `<SOFTWARE>MASTR_DIR</SOFTWARE>`: Location of the dataset used for training. - `<SOFTWARE>ARCHITECTURE</SOFTWARE>`: Which architecture to use (use `python <SOFTWARE>tools/train.py</SOFTWARE> <SOFTWARE>warmup</SOFTWARE> --help` for more info). - `<SOFTWARE>MODEL_NAME</SOFTWARE>`: Name of the model.

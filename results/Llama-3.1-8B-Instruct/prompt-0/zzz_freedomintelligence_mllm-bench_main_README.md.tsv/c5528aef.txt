@@ -1,0 +1,1 @@
+Move your data under `<PROJECT>data</PROJECT>` directory. The dataset is stored in `<DATASET>UCI</DATASET>`. You can use the `<SOFTWARE>Protege Ontology Editor</SOFTWARE>` to create an ontology.

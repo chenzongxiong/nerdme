@@ -1,0 +1,1 @@
+/docs/media/compare_concepts_to_gt.png" alt="compare_concepts_to_gt widgets" width="50%"> ### Compare concepts to each other This function displays the `<EVALMETRIC>Pearson correlation coefficients</EVALMETRIC>` between the two selected concepts.

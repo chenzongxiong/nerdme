@@ -1,0 +1,1 @@
+`See the <LICENSE>GNU Affero General Public License</LICENSE> for more details.`

@@ -1,0 +1,3 @@
+```markdown
+We hope that this simulation can help users decide whether it is beneficial for them to participate in differentially-private federated learning for a given differentially private algorithm.  ## UPDATE : <PUBLICATION>Paper accepted at the 29TH ACM INTERNATIONAL CONFERENCE ON INFORMATION AND KNOWLEDGE MANAGEMENT</PUBLICATION>  <PUBLICATION>Paper and Video Link</PUBLICATION> : https://dl.acm.org/doi/10.1145/3340531.3412771  ## Getting Started  These instructions will get you a copy of the <PROJECT>project</PROJECT> up and running on your local machine for development and testing purposes.
+```

@@ -1,0 +1,1 @@
+`</div>       | <div style="width:500px"> An <EVALMETRIC>AUC</EVALMETRIC> near 1 indicates a highly successful privacy attack, while an <EVALMETRIC>AUC</EVALMETRIC> close to 0.5 suggests no better performance than random guessing.`

@@ -1,0 +1,2 @@
+```python import <PROGLANG>datasets</PROGLANG> <DATASET>hagrid</DATASET> = <SOFTWARE>datasets</SOFTWARE>.load_dataset("<DATASET>miracl/hagrid</DATASET>", split="train") print(<DATASET>hagrid</DATASET>[0]) ```  |  Split | #Q | #A       | #Informativeness  | #Attribuatability       | |:-----|:------:|:-------:|:------:|:-------:| | Train     | 1,922 | 3,214 | 3,214 | 754 | | Dev     | 716 | 1,318 | 1,157 | 826 |   ## Baselines (Coming soon!)
+```

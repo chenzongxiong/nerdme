@@ -1,0 +1,15 @@
+To set up your sketchbook, you need to specify the schema of your `<DATASET>dataframe</DATASET>`.
+You can use the `<PROGLANG>Python</PROGLANG>` programming language to define the schema.
+For example, you can define a schema for a `<DATASET>dataframe</DATASET>` as follows:
+
+```python
+<DATASET>dataframe</DATASET> = pd.DataFrame({
+    '<CONFERENCE>conference_name</CONFERENCE>': [],
+    '<PUBLICATION>publication_title</PUBLICATION>': [],
+    '<ONTOLOGY>ontology_name</ONTOLOGY>': [],
+    '<SOFTWARE>software_name</SOFTWARE>': [],
+    '<LICENSE>license_name</LICENSE>': []
+})
+```
+
+In this example, the `<DATASET>dataframe</DATASET>` is defined as a Pandas DataFrame with columns for `<CONFERENCE>conference_name</CONFERENCE>`, `<PUBLICATION>publication_title</PUBL

@@ -1,0 +1,3 @@
+```markdown
+You can load the module via <SOFTWARE>ghci</SOFTWARE>.
+```

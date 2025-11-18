@@ -1,0 +1,3 @@
+The predictions of our model for the `<DATASET>KITTI test set</DATASET>` can be downloaded [here](https://drive.google.com/drive/folders/1U7dvH4sC85KRVuV19fRpaMzJjE-m3D9x). !
+
+The `<LICENSE>CC BY-NC 4.0</LICENSE>` applies to the data in the downloaded folder.

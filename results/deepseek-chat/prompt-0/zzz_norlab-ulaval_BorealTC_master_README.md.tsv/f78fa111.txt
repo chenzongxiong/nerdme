@@ -1,0 +1,2 @@
+```sh <PROGLANG>python3.10</PROGLANG> -m venv .venv . .venv/bin/activate pip install -r requirements.txt ```  We also provide a `<SOFTWARE>Dockerfile</SOFTWARE>` and a `<SOFTWARE>DockerfileGPU</SOFTWARE>` to build a Docker image with all the dependencies.
+```

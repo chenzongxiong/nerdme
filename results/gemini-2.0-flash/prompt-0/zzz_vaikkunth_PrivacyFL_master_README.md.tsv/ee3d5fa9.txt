@@ -1,0 +1,1 @@
+As such, this flag also makes it so that each client trains its weights from scratch each iteration.

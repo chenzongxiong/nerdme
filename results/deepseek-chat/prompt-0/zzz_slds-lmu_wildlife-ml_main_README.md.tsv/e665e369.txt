@@ -1,0 +1,3 @@
+```markdown
+Minimally the `<SOFTWARE>ActiveLearner</SOFTWARE>` needs:  - `trainer`: `<SOFTWARE>WildlifeTrainer</SOFTWARE>` as model container and handler. - `pool_dataset`: `<DATASET>WildlifeDataset</DATASET>` without labels - `label_file_path`: Path pointing to the file where labels should be saved - `label_file_path`: Path pointing to the file where labels should be saved - `conf_threshold`: Minimal confidence for bounding boxes in the MD file - `empty_class_id`: idx of the class that symbolizes an empty image  In case a test set exists, it is recommended to fill the `test_dataset` argument as well.
+```

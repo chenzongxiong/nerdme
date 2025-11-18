@@ -1,0 +1,11 @@
+The text contains the following named entities:
+
+- **DATASET**: `StackOverflow-Question-Code-Dataset`
+- **LICENSE**: `LICENSE.txt`
+- **PROJECT**: `conala-curated`
+
+The annotated text in Markdown format is:
+
+```
+See <URL>https://github.com/LittleYUYU/StackOverflow-Question-Code-Dataset</URL>, <LICENSE>LICENSE.txt</LICENSE>                               | | <PROJECT>conala-curated</PROJECT>                | Derived from the curated snippets of the CoNaLa benchmark.
+```

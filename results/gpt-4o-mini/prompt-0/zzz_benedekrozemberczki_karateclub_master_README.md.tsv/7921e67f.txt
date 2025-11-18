@@ -1,0 +1,1 @@
+[repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/karateclub.svg)](https://github.com/benedekrozemberczki/<PROJECT>karateclub</PROJECT>/archive/master.zip)  [!

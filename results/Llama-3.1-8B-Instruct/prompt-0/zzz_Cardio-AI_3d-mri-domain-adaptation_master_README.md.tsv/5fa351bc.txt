@@ -1,0 +1,5 @@
+Configs are stored in `<SOFTWARE>json</SOFTWARE> files with all hyperparameters and paths. 
+Figures are stored in `<SOFTWARE>figures</SOFTWARE> folder for generated graphics and figures to be used in reporting. 
+History is stored in `<SOFTWARE>Tensorboard</SOFTWARE> training history files. 
+Tensorboard logs are stored in `<SOFTWARE>tensorboard_logs</SOFTWARE> folder for trainings-scalars and images of the intermediate predictions. 
+Environment is stored in `<SOFTWARE>environment.yaml</SOFTWARE> file which is a Conda requirements file.

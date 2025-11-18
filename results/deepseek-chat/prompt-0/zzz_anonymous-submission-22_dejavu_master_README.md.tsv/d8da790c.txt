@@ -1,0 +1,1 @@
+```bash    docker pull <SOFTWARE>lizytalk/dejavu</SOFTWARE>    ``` 2.```

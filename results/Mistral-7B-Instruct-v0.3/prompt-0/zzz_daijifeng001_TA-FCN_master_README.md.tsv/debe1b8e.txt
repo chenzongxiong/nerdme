@@ -1,0 +1,4 @@
+`This repository used code from <SOFTWARE>MXNet rcnn example</SOFTWARE> (<URL>https://github.com/dmlc/mxnet/tree/master/example/rcnn</URL>) and <SOFTWARE>mx-rfcn</SOFTWARE> (<URL>https://github.com/giorking/mx-rfcn</URL>).
+
+### License
+<LICENSE>© Microsoft, 2017.</LICENSE>`

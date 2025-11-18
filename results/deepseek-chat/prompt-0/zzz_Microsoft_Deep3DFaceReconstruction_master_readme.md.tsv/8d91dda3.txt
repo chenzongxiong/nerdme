@@ -1,0 +1,3 @@
+```markdown
+/renderer/<SOFTWARE>rasterize_triangles.py</SOFTWARE> with "range" function for compatibility with <PROGLANG>python3</PROGLANG>.   ### Testing with pre-trained network ###  1.
+```

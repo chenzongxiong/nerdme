@@ -1,0 +1,23 @@
+```markdown
+| name                       | inputs             | training data                                          | notebook                    | 
+|----------------------------|--------------------|--------------------------------------------------------|-----------------------------| 
+| ncs-embedder-so-ds-feb20      | code               | <DATASET>so-ds-feb20</DATASET>                                            | nbs/ncs/ncs.ipynb           | 
+| ncs-embedder-staqc-py      | code               | <DATASET>staqc-py-cleaned</DATASET>                              | nbs/ncs/ncs.ipynb           | 
+| tnbow-embedder-so-ds-feb20 | description        | <DATASET>so-python-question-titles-feb20</DATASET>                        | nbs/tnbow/tnbow.ipynb       | 
+| use-embedder-pacs          | description        | <DATASET>so-duplicates-pacsv1-train</DATASET>                             | nbs/tuse/tuse_tuned.ipynb   | 
+| ensemble-embedder-pacs     | description + code | <DATASET>staqc-py-cleaned</DATASET> + <DATASET>so-duplicates-pacs-train</DATASET> | nbs/ensemble/ensemble.ipynb |  
+
+## <PROJECT>Datasets</PROJECT>  
+This <PROJECT>project</PROJECT> provides a consistent interface to download and load <DATASET>datasets</DATASET> related to code search.  
+
+### Snippet collections  
+#### Example: Load a snippet collection  
+```python  
+from codesearch.data import load_snippet_collection  
+collection_name = "so-ds-feb20"  
+snippets = load_snippet_collection(collection_name)  
+```  
+
+#### Available snippet collections  
+In the table below you find which snippet collections can be loaded.
+```

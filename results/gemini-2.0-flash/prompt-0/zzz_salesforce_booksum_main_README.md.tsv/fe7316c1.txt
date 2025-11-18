@@ -1,0 +1,1 @@
+Chapterized <PROJECT>Project Guteberg Data</PROJECT> The chapterized book text from <PROJECT>Gutenberg</PROJECT>, for the books we use in our work, has been made available through a public GCP bucket.

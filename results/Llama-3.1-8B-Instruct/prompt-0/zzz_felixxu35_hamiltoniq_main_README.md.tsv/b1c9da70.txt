@@ -1,0 +1,1 @@
+These metrics provide a quantitative and objective measure of the <SOFTWARE>QPU</SOFTWARE>'s performance, reflecting the effectiveness of the benchmarking process implemented by <PROJECT>HamilToniQ</PROJECT>.

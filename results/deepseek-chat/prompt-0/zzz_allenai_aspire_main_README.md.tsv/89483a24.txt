@@ -1,0 +1,3 @@
+```markdown
+Details about each <DATASET>dataset</DATASET> are as follows:  `src/pre_process/<PROGLANG>extract_entities.py</PROGLANG>`:  Use <SOFTWARE>PURE's Entity Model</SOFTWARE> () to extract named entities from abstracts.
+```

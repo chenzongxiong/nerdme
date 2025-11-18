@@ -1,0 +1,1 @@
+Initially I only used guidance by multiplication with an attention map (=probability), but found out that it is less robust and that differences between a <EVALMETRIC>MSE</EVALMETRIC> loss function were now negligible.

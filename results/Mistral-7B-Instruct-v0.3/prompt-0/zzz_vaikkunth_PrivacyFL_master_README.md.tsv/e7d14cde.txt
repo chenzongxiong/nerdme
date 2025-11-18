@@ -1,0 +1,6 @@
+```
+Then create a conda environment by running: ``` `conda env create -f environment.yml -n <CONFERENCE>YourEnvironmentName</CONFERENCE>` ``` Activate the new environment: ``` `source activate <CONFERENCE>YourEnvironmentName</CONFERENCE>` ``` To validate correct installation `cd` to `src` and run  ``` `python run_simulation.py` ``` If you encounter any issues, please let us know so that we can help in getting the simulation up and running.
+
+### Configuring Your Simulation
+This library is intended to be modified as needed for your <PROJECT>use case</PROJECT>.
+```

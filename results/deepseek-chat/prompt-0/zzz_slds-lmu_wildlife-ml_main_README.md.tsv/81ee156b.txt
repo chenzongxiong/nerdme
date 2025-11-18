@@ -1,0 +1,1 @@
+First, the backbone itself is frozen and only a linear head on top of the backbone is trainable (`transfer`-phase).

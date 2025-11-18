@@ -1,0 +1,3 @@
+```markdown
+Install <SOFTWARE>spacy</SOFTWARE> (for preprocessing descriptions/code comments): `<PROGLANG>python</PROGLANG> -m <SOFTWARE>spacy</SOFTWARE> download en_core_web_md`   ## Code structure  ``` codesearch ├── codesearch          // Contains the library modules: model code, utilities to download and evaluate models, etc. ├── nbs                 // Contains examples notebooks and notebooks to reproduce the experiments ├── tests               // Contains some unit tests, mostly for verifying the code preprocessing ```  ## Models  We provide some pretrained embedding models to create a retrieval system.
+```

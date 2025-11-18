@@ -1,0 +1,1 @@
+[Model Usage Instructions](#modelusage) 1. Use the <SOFTWARE>Protege Ontology Editor</SOFTWARE> to create and edit ontologies.

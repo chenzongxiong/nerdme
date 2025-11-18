@@ -1,0 +1,3 @@
+```markdown
+[](https://img.shields.io/badge/paper-<PUBLICATION>arxiv2310.06763</PUBLICATION>-red?
+```

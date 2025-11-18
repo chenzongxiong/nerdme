@@ -1,0 +1,3 @@
+```markdown
+# sql4ml  <PROJECT>Sql4ml</PROJECT> is a <PROGLANG>Haskell</PROGLANG> project that takes as input <PROGLANG>SQL</PROGLANG> code which defines the objective/cost/loss function of a supervised machine learning model (ML), as well as a set of parameters, and generates <SOFTWARE>TensorFlow</SOFTWARE> (<PROGLANG>Python</PROGLANG> API) code that trains this model.
+```

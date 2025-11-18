@@ -1,0 +1,5 @@
+The input text provided does not contain any identifiable entities based on the given guidelines. Therefore, the output remains unchanged:
+
+```markdown
+/renderer/rasterize_triangles_kernel.so".
+```

@@ -1,0 +1,1 @@
+The default `config.py` file also has `USING_CUMULATIVE` set to `True`.

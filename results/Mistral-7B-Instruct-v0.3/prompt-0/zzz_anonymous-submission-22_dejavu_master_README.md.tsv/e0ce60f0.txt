@@ -1,0 +1,8 @@
+```
+Totally, the main experiment commands of <PROJECT>DejaVu</PROJECT> should output as follows: - `<EVALMETRIC>FDG message</EVALMETRIC>`, including the data paths, edge types, the number of nodes (failure units), the number of metrics, the metrics of each failure class. - `<WORKSHOP>Traning setup message</WORKSHOP>`: the faults used for training, validation and testing. - `<ONTOLOGY>Model architecture</ONTOLOGY>`: model parameters in each part, total params - `<WORKSHOP>Training process</WORKSHOP>`: the training/validation/testing loss and accuracy - `<EVALMETRIC>Time Report</EVALMETRIC>`. - `<EVALMETRIC>command output one-line summary</EVALMETRIC>`.
+
+ ### Example See <URL>https://github.com/NetManAIOps/DejaVu/issues/4</URL>
+
+ ## `<DATASET>Datasets</DATASET>`
+
+ The datasets `<DATASET>A

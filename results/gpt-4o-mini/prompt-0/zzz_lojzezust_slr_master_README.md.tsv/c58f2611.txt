@@ -1,0 +1,1 @@
+It replicates the directory structure in the output directory.

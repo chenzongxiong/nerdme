@@ -1,0 +1,3 @@
+```markdown
+|--validation ```   ## Run Code To run the code:  `<PROGLANG>python</PROGLANG> main.py --data_path /path/to/data/ --lr_policy plateau`  Flags: - Set flag "input_type" to rgb or depth. - Set flag "pretrained" to true or false to use a model pretrained on Cityscapes for the global branch. - See `<PROGLANG>python</PROGLANG> main.py --help` for more information.
+```

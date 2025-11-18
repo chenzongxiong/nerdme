@@ -1,0 +1,11 @@
+`[!](https://arxiv.org/abs/2203.00031) No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+
+The <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION> is a scholarly work presented in the <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>.
+
+The <PROJECT>Paper With Code</PROJECT> project (https://<PROJECT>paperswithcode</PROJECT>.com/) is a valuable resource for researchers.
+
+The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is a semantic framework for knowledge representation.
+
+The <SOFTWARE>Protege ontology editor</SOFTWARE> is a useful tool for exploring and editing ontologies.
+
+The <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> workshop (https://<WORKSH

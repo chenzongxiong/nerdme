@@ -1,0 +1,1 @@
+With <PROJECT>Prompt-OIRL</PROJECT>, the query-dependent prompt optimization objective is achieved by first learning an offline reward model.

@@ -1,0 +1,5 @@
+```  
+.data/<DATASET>coco</DATASET>/  
+.data/<DATASET>coco</DATASET>/annotations/instances_valminusminival2014.json  
+.data/<DATASET>coco</DATASET>/annotations/instances_minival2014.json  
+```

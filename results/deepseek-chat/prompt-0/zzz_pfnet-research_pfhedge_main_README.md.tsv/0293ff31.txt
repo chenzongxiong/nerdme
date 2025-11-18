@@ -1,0 +1,1 @@
+- [`<SOFTWARE>EntropicRiskMeasure</SOFTWARE>`](https://pfnet-research.github.io/pfhedge/generated/pfhedge.nn.EntropicRiskMeasure.html): [Entropic Risk Measure](https://en.wikipedia.org/wiki/Entropic_risk_measure), a risk measure derived from [exponential utility](https://en.wikipedia.org/wiki/Exponential_utility)

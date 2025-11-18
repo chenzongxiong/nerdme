@@ -1,0 +1,3 @@
+```markdown
+`bin`: Shell scripts to call the scripts in all the `src` sub-directories with appropriate command line arguments.
+```

@@ -1,0 +1,3 @@
+```markdown
+/EvPSNet/data/<DATASET>cityscapes</DATASET> --set-names val ```  ## Training and Evaluation ### Training Procedure Edit the config file appropriately in configs folder.
+```

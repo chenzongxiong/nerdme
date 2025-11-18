@@ -1,0 +1,1 @@
+Our best performing baseline achieves 74.8% `<EVALMETRIC>R@100</EVALMETRIC>`, which is promising for the feasibility of the task and indicates there is still room for improvement.

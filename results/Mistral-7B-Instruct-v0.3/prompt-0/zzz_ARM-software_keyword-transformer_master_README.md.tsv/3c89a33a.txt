@@ -1,0 +1,7 @@
+`/venv3/bin/activate`
+`To install dependencies, run`
+`<CODE><EVALMETRIC>shell</EVALMETRIC></CODE>`
+`<PROGLANG>pip</PROGLANG> install -r requirements.txt`
+`<CODE><EVALMETRIC>shell</EVALMETRIC></CODE>`
+`Tested using Tensorflow <VERSION>2.4.0rc1</VERSION>`
+`with <SOFTWARE>CUDA</SOFTWARE> 11`

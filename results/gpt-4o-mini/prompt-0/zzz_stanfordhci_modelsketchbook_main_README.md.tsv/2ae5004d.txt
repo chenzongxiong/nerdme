@@ -1,0 +1,1 @@
+It is licensed under the terms of the `<LICENSE>MIT</LICENSE>` license.  ## Credits  `model_sketch_book` was created with [`<SOFTWARE>cookiecutter</SOFTWARE`](https://cookiecutter.readthedocs.io/en/latest/) and the `<SOFTWARE>py-pkgs-cookiecutter</SOFTWARE>` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).

@@ -1,0 +1,1 @@
+# Ref-NMS Official codebase for <CONFERENCE>AAAI 2021</CONFERENCE> paper ["<PUBLICATION>Ref-NMS: Breaking Proposal Bottlenecks in Two-Stage Referring Expression Grounding</PUBLICATION>"](https://arxiv.org/abs/2009.01449).  ## Prerequisites The following dependencies should be enough.

@@ -1,0 +1,1 @@
+Download the <DATASET>AIDA CoNLL datasets</DATASET> [here](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/ambiverse-nlu/aida/downloads) and place them under a raw aida directory like /raw_aida/ \

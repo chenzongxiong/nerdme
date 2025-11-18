@@ -1,0 +1,1 @@
+- Feel free to experiment with different architectures for the global or local network.

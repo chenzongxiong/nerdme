@@ -1,0 +1,5 @@
+`To generate <SOFTWARE>HTML report</SOFTWARE>, use `bf.cov.html_report()`.
+
+### Use <WORKSHOP>NetCov</WORKSHOP> for a new pybatfish <PROJECT>script/notebook</PROJECT>
+
+We provide a [<DATASET>demo video</DATASET>](https://www.youtube.com/watch?<LICENSE>v=</LICENSE>)`

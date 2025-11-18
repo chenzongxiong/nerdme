@@ -1,0 +1,3813 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=<p align="center">
+#Text=  <img src="header.png" width="100%" title="hover text" alt="Three probe setups.
+1-1	0-1	<	_	_	
+1-2	1-2	p	_	_	
+1-3	3-8	align	_	_	
+1-4	8-9	=	_	_	
+1-5	9-10	"	_	_	
+1-6	10-16	center	_	_	
+1-7	16-17	"	_	_	
+1-8	17-18	>	_	_	
+1-9	21-22	<	_	_	
+1-10	22-25	img	_	_	
+1-11	26-29	src	_	_	
+1-12	29-30	=	_	_	
+1-13	30-31	"	_	_	
+1-14	31-41	header.png	_	_	
+1-15	41-42	"	_	_	
+1-16	43-48	width	_	_	
+1-17	48-49	=	_	_	
+1-18	49-50	"	_	_	
+1-19	50-54	100%	_	_	
+1-20	54-55	"	_	_	
+1-21	56-61	title	_	_	
+1-22	61-62	=	_	_	
+1-23	62-63	"	_	_	
+1-24	63-68	hover	_	_	
+1-25	69-73	text	_	_	
+1-26	73-74	"	_	_	
+1-27	75-78	alt	_	_	
+1-28	78-79	=	_	_	
+1-29	79-80	"	_	_	
+1-30	80-85	Three	_	_	
+1-31	86-91	probe	_	_	
+1-32	92-98	setups	_	_	
+1-33	98-99	.	_	_	
+
+#Text=First using both baseline and representation as input, achieving 100% accuracy. .
+2-1	100-105	First	_	_	
+2-2	106-111	using	_	_	
+2-3	112-116	both	_	_	
+2-4	117-125	baseline	_	_	
+2-5	126-129	and	_	_	
+2-6	130-144	representation	_	_	
+2-7	145-147	as	_	_	
+2-8	148-153	input	_	_	
+2-9	153-154	,	_	_	
+2-10	155-164	achieving	_	_	
+2-11	165-169	100%	_	_	
+2-12	170-178	accuracy	_	_	
+2-13	178-179	.	_	_	
+2-14	180-181	.	_	_	
+
+#Text=Second using just baseline, achieving 75%; third using just representation, achieving 25%
+3-1	182-188	Second	_	_	
+3-2	189-194	using	_	_	
+3-3	195-199	just	_	_	
+3-4	200-208	baseline	_	_	
+3-5	208-209	,	_	_	
+3-6	210-219	achieving	_	_	
+3-7	220-223	75%	_	_	
+3-8	223-224	;	_	_	
+3-9	225-230	third	_	_	
+3-10	231-236	using	_	_	
+3-11	237-241	just	_	_	
+3-12	242-256	representation	_	_	
+3-13	256-257	,	_	_	
+3-14	258-267	achieving	_	_	
+3-15	268-271	25%	_	_	
+
+#Text=.
+4-1	271-272	.	_	_	
+
+#Text=">
+#Text=</p>
+#Text=
+#Text=# conditional-probing
+#Text=
+#Text=Codebase for easy specification of (conditional) (V-information) probing experiments.
+5-1	272-273	"	_	_	
+5-2	273-274	>	_	_	
+5-3	275-276	<	_	_	
+5-4	276-277	/	_	_	
+5-5	277-278	p	_	_	
+5-6	278-279	>	_	_	
+5-7	281-282	#	_	_	
+5-8	283-302	conditional-probing	_	_	
+5-9	304-312	Codebase	_	_	
+5-10	313-316	for	_	_	
+5-11	317-321	easy	_	_	
+5-12	322-335	specification	_	_	
+5-13	336-338	of	_	_	
+5-14	339-340	(	_	_	
+5-15	340-351	conditional	_	_	
+5-16	351-352	)	_	_	
+5-17	353-354	(	_	_	
+5-18	354-367	V-information	_	_	
+5-19	367-368	)	_	_	
+5-20	369-376	probing	_	_	
+5-21	377-388	experiments	_	_	
+5-22	388-389	.	_	_	
+
+#Text=Highlights:
+#Text= - **Conditional probing**: measure only the aspects of property that aren't explainable by the baseline of your choice
+6-1	391-401	Highlights	_	_	
+6-2	401-402	:	_	_	
+6-3	404-405	-	_	_	
+6-4	406-407	*	_	_	
+6-5	407-408	*	_	_	
+6-6	408-419	Conditional	_	_	
+6-7	420-427	probing	_	_	
+6-8	427-428	*	_	_	
+6-9	428-429	*	_	_	
+6-10	429-430	:	_	_	
+6-11	431-438	measure	_	_	
+6-12	439-443	only	_	_	
+6-13	444-447	the	_	_	
+6-14	448-455	aspects	_	_	
+6-15	456-458	of	_	_	
+6-16	459-467	property	_	_	
+6-17	468-472	that	_	_	
+6-18	473-479	aren't	_	_	
+6-19	480-491	explainable	_	_	
+6-20	492-494	by	_	_	
+6-21	495-498	the	_	_	
+6-22	499-507	baseline	_	_	
+6-23	508-510	of	_	_	
+6-24	511-515	your	_	_	
+6-25	516-522	choice	_	_	
+
+#Text=.
+7-1	522-523	.	_	_	
+
+#Text=- Train a probe using one or many layers from one or many models as input representations; loading and concatenation of representations performed automatically
+8-1	525-526	-	_	_	
+8-2	527-532	Train	_	_	
+8-3	533-534	a	_	_	
+8-4	535-540	probe	_	_	
+8-5	541-546	using	_	_	
+8-6	547-550	one	_	_	
+8-7	551-553	or	_	_	
+8-8	554-558	many	_	_	
+8-9	559-565	layers	_	_	
+8-10	566-570	from	_	_	
+8-11	571-574	one	_	_	
+8-12	575-577	or	_	_	
+8-13	578-582	many	_	_	
+8-14	583-589	models	_	_	
+8-15	590-592	as	_	_	
+8-16	593-598	input	_	_	
+8-17	599-614	representations	_	_	
+8-18	614-615	;	_	_	
+8-19	616-623	loading	_	_	
+8-20	624-627	and	_	_	
+8-21	628-641	concatenation	_	_	
+8-22	642-644	of	_	_	
+8-23	645-660	representations	_	_	
+8-24	661-670	performed	_	_	
+8-25	671-684	automatically	_	_	
+
+#Text=.
+9-1	684-685	.	_	_	
+
+#Text=- Integration with huggingface for specifying representation
+10-1	687-688	-	_	_	
+10-2	689-700	Integration	_	_	
+10-3	701-705	with	_	_	
+10-4	706-717	huggingface	_	_	
+10-5	718-721	for	_	_	
+10-6	722-732	specifying	_	_	
+10-7	733-747	representation	_	_	
+
+#Text=.
+11-1	747-748	.	_	_	
+
+#Text=- Heuristic subword-token-to-token alignment of [Tenney et al., 2019](https://openreview.net/forum?
+12-1	750-751	-	_	_	
+12-2	752-761	Heuristic	_	_	
+12-3	762-784	subword-token-to-token	_	_	
+12-4	785-794	alignment	_	_	
+12-5	795-797	of	_	_	
+12-6	798-799	[	_	_	
+12-7	799-805	Tenney	_	_	
+12-8	806-808	et	_	_	
+12-9	809-811	al	_	_	
+12-10	811-812	.	_	_	
+12-11	812-813	,	_	_	
+12-12	814-818	2019	_	_	
+12-13	818-819	]	_	_	
+12-14	819-820	(	_	_	
+12-15	820-825	https	_	_	
+12-16	825-826	:	_	_	
+12-17	826-827	/	_	_	
+12-18	827-828	/	_	_	
+12-19	828-842	openreview.net	_	_	
+12-20	842-843	/	_	_	
+12-21	843-848	forum	_	_	
+12-22	848-849	?	_	_	
+
+#Text=id=SJzSgnRcKX) performed per-model
+13-1	849-851	id	_	_	
+13-2	851-852	=	_	_	
+13-3	852-862	SJzSgnRcKX	_	_	
+13-4	862-863	)	_	_	
+13-5	864-873	performed	_	_	
+13-6	874-883	per-model	_	_	
+
+#Text=.
+14-1	883-884	.	_	_	
+
+#Text=- Sort of smart caching of tokenized datasets and subword token alignment matrices to `hdf5` files
+15-1	886-887	-	_	_	
+15-2	888-892	Sort	_	_	
+15-3	893-895	of	_	_	
+15-4	896-901	smart	_	_	
+15-5	902-909	caching	_	_	
+15-6	910-912	of	_	_	
+15-7	913-922	tokenized	_	_	
+15-8	923-931	datasets	_	_	
+15-9	932-935	and	_	_	
+15-10	936-943	subword	_	_	
+15-11	944-949	token	_	_	
+15-12	950-959	alignment	_	_	
+15-13	960-968	matrices	_	_	
+15-14	969-971	to	_	_	
+15-15	972-973	`	_	_	
+15-16	973-977	hdf5	_	_	
+15-17	977-978	`	_	_	
+15-18	979-984	files	_	_	
+
+#Text=.
+16-1	984-985	.	_	_	
+
+#Text=- Modular design of probes, training regimen, representation models, and reporting
+17-1	987-988	-	_	_	
+17-2	989-996	Modular	_	_	
+17-3	997-1003	design	_	_	
+17-4	1004-1006	of	_	_	
+17-5	1007-1013	probes	_	_	
+17-6	1013-1014	,	_	_	
+17-7	1015-1023	training	_	_	
+17-8	1024-1031	regimen	_	_	
+17-9	1031-1032	,	_	_	
+17-10	1033-1047	representation	_	_	
+17-11	1048-1054	models	_	_	
+17-12	1054-1055	,	_	_	
+17-13	1056-1059	and	_	_	
+17-14	1060-1069	reporting	_	_	
+
+#Text=.
+18-1	1069-1070	.	_	_	
+
+#Text=- Change out classes specifying probes or representations directly through YAML configs instead of `if` statements in code.
+19-1	1072-1073	-	_	_	
+19-2	1074-1080	Change	_	_	
+19-3	1081-1084	out	_	_	
+19-4	1085-1092	classes	_	_	
+19-5	1093-1103	specifying	_	_	
+19-6	1104-1110	probes	_	_	
+19-7	1111-1113	or	_	_	
+19-8	1114-1129	representations	_	_	
+19-9	1130-1138	directly	_	_	
+19-10	1139-1146	through	_	_	
+19-11	1147-1151	YAML	_	_	
+19-12	1152-1159	configs	_	_	
+19-13	1160-1167	instead	_	_	
+19-14	1168-1170	of	_	_	
+19-15	1171-1172	`	_	_	
+19-16	1172-1174	if	_	_	
+19-17	1174-1175	`	_	_	
+19-18	1176-1186	statements	_	_	
+19-19	1187-1189	in	_	_	
+19-20	1190-1194	code	_	_	
+19-21	1194-1195	.	_	_	
+
+#Text=Written for the paper [Conditional probing: measuring usable information beyond a baseline (EMNLP 2021)](https://arxiv.org/pdf/2109.09234.pdf).
+#Text=
+#Text=## Installing and getting started
+#Text=1.
+20-1	1198-1205	Written	_	_	
+20-2	1206-1209	for	_	_	
+20-3	1210-1213	the	_	_	
+20-4	1214-1219	paper	_	_	
+20-5	1220-1221	[	_	_	
+20-6	1221-1232	Conditional	*[1]	PUBLICATION[1]	
+20-7	1233-1240	probing	*[1]	PUBLICATION[1]	
+20-8	1240-1241	:	*[1]	PUBLICATION[1]	
+20-9	1242-1251	measuring	*[1]	PUBLICATION[1]	
+20-10	1252-1258	usable	*[1]	PUBLICATION[1]	
+20-11	1259-1270	information	*[1]	PUBLICATION[1]	
+20-12	1271-1277	beyond	*[1]	PUBLICATION[1]	
+20-13	1278-1279	a	*[1]	PUBLICATION[1]	
+20-14	1280-1288	baseline	*[1]	PUBLICATION[1]	
+20-15	1289-1290	(	_	_	
+20-16	1290-1295	EMNLP	*[2]	CONFERENCE[2]	
+20-17	1296-1300	2021	*[2]	CONFERENCE[2]	
+20-18	1300-1301	)	_	_	
+20-19	1301-1302	]	_	_	
+20-20	1302-1303	(	_	_	
+20-21	1303-1308	https	_	_	
+20-22	1308-1309	:	_	_	
+20-23	1309-1310	/	_	_	
+20-24	1310-1311	/	_	_	
+20-25	1311-1320	arxiv.org	_	_	
+20-26	1320-1321	/	_	_	
+20-27	1321-1324	pdf	_	_	
+20-28	1324-1325	/	_	_	
+20-29	1325-1335	2109.09234	_	_	
+20-30	1335-1336	.	_	_	
+20-31	1336-1339	pdf	_	_	
+20-32	1339-1340	)	_	_	
+20-33	1340-1341	.	_	_	
+20-34	1343-1344	#	_	_	
+20-35	1344-1345	#	_	_	
+20-36	1346-1356	Installing	_	_	
+20-37	1357-1360	and	_	_	
+20-38	1361-1368	getting	_	_	
+20-39	1369-1376	started	_	_	
+20-40	1377-1378	1	_	_	
+20-41	1378-1379	.	_	_	
+
+#Text=Clone the repository.
+21-1	1380-1385	Clone	_	_	
+21-2	1386-1389	the	_	_	
+21-3	1390-1400	repository	_	_	
+21-4	1400-1401	.	_	_	
+
+#Text=git clone https://github.com/john-hewitt/vinfo-probing-internal/
+#Text=        cd vinfo-probing-internal
+#Text=        
+#Text=1.
+22-1	1411-1414	git	*	SOFTWARE	
+22-2	1415-1420	clone	_	_	
+22-3	1421-1426	https	_	_	
+22-4	1426-1427	:	_	_	
+22-5	1427-1428	/	_	_	
+22-6	1428-1429	/	_	_	
+22-7	1429-1439	github.com	_	_	
+22-8	1439-1440	/	_	_	
+22-9	1440-1451	john-hewitt	_	_	
+22-10	1451-1452	/	_	_	
+22-11	1452-1474	vinfo-probing-internal	_	_	
+22-12	1474-1475	/	_	_	
+22-13	1484-1486	cd	_	_	
+22-14	1487-1509	vinfo-probing-internal	_	_	
+22-15	1519-1520	1	_	_	
+22-16	1520-1521	.	_	_	
+
+#Text=[Optional] Construct a virtual environment for this project.
+23-1	1522-1523	[	_	_	
+23-2	1523-1531	Optional	_	_	
+23-3	1531-1532	]	_	_	
+23-4	1533-1542	Construct	_	_	
+23-5	1543-1544	a	_	_	
+23-6	1545-1552	virtual	_	_	
+23-7	1553-1564	environment	_	_	
+23-8	1565-1568	for	_	_	
+23-9	1569-1573	this	_	_	
+23-10	1574-1581	project	_	_	
+23-11	1581-1582	.	_	_	
+
+#Text=Only `python3` is supported.
+24-1	1583-1587	Only	_	_	
+24-2	1588-1589	`	_	_	
+24-3	1589-1596	python3	*	PROGLANG	
+24-4	1596-1597	`	_	_	
+24-5	1598-1600	is	_	_	
+24-6	1601-1610	supported	_	_	
+24-7	1610-1611	.	_	_	
+
+#Text=conda create --name sp-env
+#Text=        conda activate sp-env
+#Text=
+#Text=1.
+25-1	1621-1626	conda	_	_	
+25-2	1627-1633	create	_	_	
+25-3	1634-1635	-	_	_	
+25-4	1635-1636	-	_	_	
+25-5	1636-1640	name	_	_	
+25-6	1641-1647	sp-env	_	_	
+25-7	1656-1661	conda	*	SOFTWARE	
+25-8	1662-1670	activate	_	_	
+25-9	1671-1677	sp-env	_	_	
+25-10	1679-1680	1	_	_	
+25-11	1680-1681	.	_	_	
+
+#Text=Install the required packages.
+26-1	1682-1689	Install	_	_	
+26-2	1690-1693	the	_	_	
+26-3	1694-1702	required	_	_	
+26-4	1703-1711	packages	_	_	
+26-5	1711-1712	.	_	_	
+
+#Text=conda install --file requirements.txt
+#Text=
+#Text=1.
+27-1	1723-1728	conda	*	SOFTWARE	
+27-2	1729-1736	install	_	_	
+27-3	1737-1738	-	_	_	
+27-4	1738-1739	-	_	_	
+27-5	1739-1743	file	_	_	
+27-6	1744-1760	requirements.txt	_	_	
+27-7	1762-1763	1	_	_	
+27-8	1763-1764	.	_	_	
+
+#Text=Run your first experiment using a provided config file.
+28-1	1765-1768	Run	_	_	
+28-2	1769-1773	your	_	_	
+28-3	1774-1779	first	_	_	
+28-4	1780-1790	experiment	_	_	
+28-5	1791-1796	using	_	_	
+28-6	1797-1798	a	_	_	
+28-7	1799-1807	provided	_	_	
+28-8	1808-1814	config	_	_	
+28-9	1815-1819	file	_	_	
+28-10	1819-1820	.	_	_	
+
+#Text=This experiment trains and reports a part-of-speech probe on layer 5 of the `roberta-base` model.
+29-1	1821-1825	This	_	_	
+29-2	1826-1836	experiment	_	_	
+29-3	1837-1843	trains	_	_	
+29-4	1844-1847	and	_	_	
+29-5	1848-1855	reports	_	_	
+29-6	1856-1857	a	_	_	
+29-7	1858-1872	part-of-speech	_	_	
+29-8	1873-1878	probe	_	_	
+29-9	1879-1881	on	_	_	
+29-10	1882-1887	layer	_	_	
+29-11	1888-1889	5	_	_	
+29-12	1890-1892	of	_	_	
+29-13	1893-1896	the	_	_	
+29-14	1897-1898	`	_	_	
+29-15	1898-1910	roberta-base	_	_	
+29-16	1910-1911	`	_	_	
+29-17	1912-1917	model	_	_	
+29-18	1917-1918	.	_	_	
+
+#Text=python vinfo/experiment.py example/roberta768-upos-layer5-example-cpu.yaml
+#Text=
+#Text=1.
+30-1	1928-1934	python	*	PROGLANG	
+30-2	1935-1940	vinfo	_	_	
+30-3	1940-1941	/	_	_	
+30-4	1941-1954	experiment.py	_	_	
+30-5	1955-1962	example	_	_	
+30-6	1962-1963	/	_	_	
+30-7	1963-1973	roberta768	_	_	
+30-8	1973-1974	-	_	_	
+30-9	1974-1985	upos-layer5	_	_	
+30-10	1985-1986	-	_	_	
+30-11	1986-2002	example-cpu.yaml	_	_	
+30-12	2004-2005	1	_	_	
+30-13	2005-2006	.	_	_	
+
+#Text=Take a look at the config file, `example/roberta768-upos-layer5-example.yaml`.
+31-1	2007-2011	Take	_	_	
+31-2	2012-2013	a	_	_	
+31-3	2014-2018	look	_	_	
+31-4	2019-2021	at	_	_	
+31-5	2022-2025	the	_	_	
+31-6	2026-2032	config	_	_	
+31-7	2033-2037	file	_	_	
+31-8	2037-2038	,	_	_	
+31-9	2039-2040	`	_	_	
+31-10	2040-2047	example	_	_	
+31-11	2047-2048	/	_	_	
+31-12	2048-2058	roberta768	_	_	
+31-13	2058-2059	-	_	_	
+31-14	2059-2070	upos-layer5	_	_	
+31-15	2070-2071	-	_	_	
+31-16	2071-2083	example.yaml	_	_	
+31-17	2083-2084	`	_	_	
+31-18	2084-2085	.	_	_	
+
+#Text=It states that the results and probe parameters are saved to `example/`, a directory that would've been created if it hadn't already existed.
+32-1	2086-2088	It	_	_	
+32-2	2089-2095	states	_	_	
+32-3	2096-2100	that	_	_	
+32-4	2101-2104	the	_	_	
+32-5	2105-2112	results	_	_	
+32-6	2113-2116	and	_	_	
+32-7	2117-2122	probe	_	_	
+32-8	2123-2133	parameters	_	_	
+32-9	2134-2137	are	_	_	
+32-10	2138-2143	saved	_	_	
+32-11	2144-2146	to	_	_	
+32-12	2147-2148	`	_	_	
+32-13	2148-2155	example	_	_	
+32-14	2155-2156	/	_	_	
+32-15	2156-2157	`	_	_	
+32-16	2157-2158	,	_	_	
+32-17	2159-2160	a	_	_	
+32-18	2161-2170	directory	_	_	
+32-19	2171-2175	that	_	_	
+32-20	2176-2184	would've	_	_	
+32-21	2185-2189	been	_	_	
+32-22	2190-2197	created	_	_	
+32-23	2198-2200	if	_	_	
+32-24	2201-2203	it	_	_	
+32-25	2204-2210	hadn't	_	_	
+32-26	2211-2218	already	_	_	
+32-27	2219-2226	existed	_	_	
+32-28	2226-2227	.	_	_	
+
+#Text=If your experiment ran without error, you should see the following files in that directory:
+#Text=
+#Text=        dev.v_entropy
+#Text=        train.v_entropy
+#Text=        dev.label_acc
+#Text=        train.label_acc
+#Text=        params
+#Text=       
+#Text=    The `v_entropy` files store a single float: the variational entropy as estimated on the `{dev,train}` set.
+33-1	2228-2230	If	_	_	
+33-2	2231-2235	your	_	_	
+33-3	2236-2246	experiment	_	_	
+33-4	2247-2250	ran	_	_	
+33-5	2251-2258	without	_	_	
+33-6	2259-2264	error	_	_	
+33-7	2264-2265	,	_	_	
+33-8	2266-2269	you	_	_	
+33-9	2270-2276	should	_	_	
+33-10	2277-2280	see	_	_	
+33-11	2281-2284	the	_	_	
+33-12	2285-2294	following	_	_	
+33-13	2295-2300	files	_	_	
+33-14	2301-2303	in	_	_	
+33-15	2304-2308	that	_	_	
+33-16	2309-2318	directory	_	_	
+33-17	2318-2319	:	_	_	
+33-18	2329-2342	dev.v_entropy	_	_	
+33-19	2351-2366	train.v_entropy	_	_	
+33-20	2375-2388	dev.label_acc	_	_	
+33-21	2397-2412	train.label_acc	_	_	
+33-22	2421-2427	params	_	_	
+33-23	2440-2443	The	_	_	
+33-24	2444-2445	`	_	_	
+33-25	2445-2454	v_entropy	_	_	
+33-26	2454-2455	`	_	_	
+33-27	2456-2461	files	_	_	
+33-28	2462-2467	store	_	_	
+33-29	2468-2469	a	_	_	
+33-30	2470-2476	single	_	_	
+33-31	2477-2482	float	_	_	
+33-32	2482-2483	:	_	_	
+33-33	2484-2487	the	_	_	
+33-34	2488-2499	variational	_	_	
+33-35	2500-2507	entropy	_	_	
+33-36	2508-2510	as	_	_	
+33-37	2511-2520	estimated	_	_	
+33-38	2521-2523	on	_	_	
+33-39	2524-2527	the	_	_	
+33-40	2528-2529	`	_	_	
+33-41	2529-2530	{	_	_	
+33-42	2530-2533	dev	_	_	
+33-43	2533-2534	,	_	_	
+33-44	2534-2539	train	_	_	
+33-45	2539-2540	}	_	_	
+33-46	2540-2541	`	_	_	
+33-47	2542-2545	set	_	_	
+33-48	2545-2546	.	_	_	
+
+#Text=The `label_acc` files store a single float: the part-of-speech tagging accuracies on the `{dev,train}` set.
+34-1	2547-2550	The	_	_	
+34-2	2551-2552	`	_	_	
+34-3	2552-2561	label_acc	_	_	
+34-4	2561-2562	`	_	_	
+34-5	2563-2568	files	_	_	
+34-6	2569-2574	store	_	_	
+34-7	2575-2576	a	_	_	
+34-8	2577-2583	single	_	_	
+34-9	2584-2589	float	_	_	
+34-10	2589-2590	:	_	_	
+34-11	2591-2594	the	_	_	
+34-12	2595-2609	part-of-speech	_	_	
+34-13	2610-2617	tagging	_	_	
+34-14	2618-2628	accuracies	_	_	
+34-15	2629-2631	on	_	_	
+34-16	2632-2635	the	_	_	
+34-17	2636-2637	`	_	_	
+34-18	2637-2638	{	_	_	
+34-19	2638-2641	dev	_	_	
+34-20	2641-2642	,	_	_	
+34-21	2642-2647	train	_	_	
+34-22	2647-2648	}	_	_	
+34-23	2648-2649	`	_	_	
+34-24	2650-2653	set	_	_	
+34-25	2653-2654	.	_	_	
+
+#Text=The `params` file stores the probe parameters.
+#Text=    
+#Text=1.
+35-1	2655-2658	The	_	_	
+35-2	2659-2660	`	_	_	
+35-3	2660-2666	params	_	_	
+35-4	2666-2667	`	_	_	
+35-5	2668-2672	file	_	_	
+35-6	2673-2679	stores	_	_	
+35-7	2680-2683	the	_	_	
+35-8	2684-2689	probe	_	_	
+35-9	2690-2700	parameters	_	_	
+35-10	2700-2701	.	_	_	
+35-11	2707-2708	1	_	_	
+35-12	2708-2709	.	_	_	
+
+#Text=Make a minimal change to the config file, say replacing the `roberta-base` model with another model, specified by its huggingface identifier string.
+#Text=  
+#Text=## YAML-centric Design
+#Text=
+#Text=This codebase revolves around the `yaml` configuration files that specify experiment settings.
+36-1	2710-2714	Make	_	_	
+36-2	2715-2716	a	_	_	
+36-3	2717-2724	minimal	_	_	
+36-4	2725-2731	change	_	_	
+36-5	2732-2734	to	_	_	
+36-6	2735-2738	the	_	_	
+36-7	2739-2745	config	_	_	
+36-8	2746-2750	file	_	_	
+36-9	2750-2751	,	_	_	
+36-10	2752-2755	say	_	_	
+36-11	2756-2765	replacing	_	_	
+36-12	2766-2769	the	_	_	
+36-13	2770-2771	`	_	_	
+36-14	2771-2783	roberta-base	_	_	
+36-15	2783-2784	`	_	_	
+36-16	2785-2790	model	_	_	
+36-17	2791-2795	with	_	_	
+36-18	2796-2803	another	_	_	
+36-19	2804-2809	model	_	_	
+36-20	2809-2810	,	_	_	
+36-21	2811-2820	specified	_	_	
+36-22	2821-2823	by	_	_	
+36-23	2824-2827	its	_	_	
+36-24	2828-2839	huggingface	_	_	
+36-25	2840-2850	identifier	_	_	
+36-26	2851-2857	string	_	_	
+36-27	2857-2858	.	_	_	
+36-28	2862-2863	#	_	_	
+36-29	2863-2864	#	_	_	
+36-30	2865-2877	YAML-centric	_	_	
+36-31	2878-2884	Design	_	_	
+36-32	2886-2890	This	_	_	
+36-33	2891-2899	codebase	_	_	
+36-34	2900-2908	revolves	_	_	
+36-35	2909-2915	around	_	_	
+36-36	2916-2919	the	_	_	
+36-37	2920-2921	`	_	_	
+36-38	2921-2925	yaml	_	_	
+36-39	2925-2926	`	_	_	
+36-40	2927-2940	configuration	_	_	
+36-41	2941-2946	files	_	_	
+36-42	2947-2951	that	_	_	
+36-43	2952-2959	specify	_	_	
+36-44	2960-2970	experiment	_	_	
+36-45	2971-2979	settings	_	_	
+36-46	2979-2980	.	_	_	
+
+#Text=Intended to minimize the amount of experiment logic code needed to swap out new `Probe`, `Loss`, or `Model` classes when extending the repository, all python classes defined in the codebase are actually constructed with the `yaml` loading process.
+37-1	2981-2989	Intended	_	_	
+37-2	2990-2992	to	_	_	
+37-3	2993-3001	minimize	_	_	
+37-4	3002-3005	the	_	_	
+37-5	3006-3012	amount	_	_	
+37-6	3013-3015	of	_	_	
+37-7	3016-3026	experiment	_	_	
+37-8	3027-3032	logic	_	_	
+37-9	3033-3037	code	_	_	
+37-10	3038-3044	needed	_	_	
+37-11	3045-3047	to	_	_	
+37-12	3048-3052	swap	_	_	
+37-13	3053-3056	out	_	_	
+37-14	3057-3060	new	_	_	
+37-15	3061-3062	`	_	_	
+37-16	3062-3067	Probe	_	_	
+37-17	3067-3068	`	_	_	
+37-18	3068-3069	,	_	_	
+37-19	3070-3071	`	_	_	
+37-20	3071-3075	Loss	_	_	
+37-21	3075-3076	`	_	_	
+37-22	3076-3077	,	_	_	
+37-23	3078-3080	or	_	_	
+37-24	3081-3082	`	_	_	
+37-25	3082-3087	Model	_	_	
+37-26	3087-3088	`	_	_	
+37-27	3089-3096	classes	_	_	
+37-28	3097-3101	when	_	_	
+37-29	3102-3111	extending	_	_	
+37-30	3112-3115	the	_	_	
+37-31	3116-3126	repository	_	_	
+37-32	3126-3127	,	_	_	
+37-33	3128-3131	all	_	_	
+37-34	3132-3138	python	*	PROGLANG	
+37-35	3139-3146	classes	_	_	
+37-36	3147-3154	defined	_	_	
+37-37	3155-3157	in	_	_	
+37-38	3158-3161	the	_	_	
+37-39	3162-3170	codebase	_	_	
+37-40	3171-3174	are	_	_	
+37-41	3175-3183	actually	_	_	
+37-42	3184-3195	constructed	_	_	
+37-43	3196-3200	with	_	_	
+37-44	3201-3204	the	_	_	
+37-45	3205-3206	`	_	_	
+37-46	3206-3210	yaml	_	_	
+37-47	3210-3211	`	_	_	
+37-48	3212-3219	loading	_	_	
+37-49	3220-3227	process	_	_	
+37-50	3227-3228	.	_	_	
+
+#Text=This is mostly documented in the `pyyaml` docs, [here](https://pyyaml.org/wiki/PyYAMLDocumentation), but briefly, consider the following config snippet:
+#Text=
+#Text=```
+#Text=cache: &id_cache !
+38-1	3230-3234	This	_	_	
+38-2	3235-3237	is	_	_	
+38-3	3238-3244	mostly	_	_	
+38-4	3245-3255	documented	_	_	
+38-5	3256-3258	in	_	_	
+38-6	3259-3262	the	_	_	
+38-7	3263-3264	`	_	_	
+38-8	3264-3270	pyyaml	_	_	
+38-9	3270-3271	`	_	_	
+38-10	3272-3276	docs	_	_	
+38-11	3276-3277	,	_	_	
+38-12	3278-3279	[	_	_	
+38-13	3279-3283	here	_	_	
+38-14	3283-3284	]	_	_	
+38-15	3284-3285	(	_	_	
+38-16	3285-3290	https	_	_	
+38-17	3290-3291	:	_	_	
+38-18	3291-3292	/	_	_	
+38-19	3292-3293	/	_	_	
+38-20	3293-3303	pyyaml.org	_	_	
+38-21	3303-3304	/	_	_	
+38-22	3304-3308	wiki	_	_	
+38-23	3308-3309	/	_	_	
+38-24	3309-3328	PyYAMLDocumentation	_	_	
+38-25	3328-3329	)	_	_	
+38-26	3329-3330	,	_	_	
+38-27	3331-3334	but	_	_	
+38-28	3335-3342	briefly	_	_	
+38-29	3342-3343	,	_	_	
+38-30	3344-3352	consider	_	_	
+38-31	3353-3356	the	_	_	
+38-32	3357-3366	following	_	_	
+38-33	3367-3373	config	_	_	
+38-34	3374-3381	snippet	_	_	
+38-35	3381-3382	:	_	_	
+38-36	3384-3385	`	_	_	
+38-37	3385-3386	`	_	_	
+38-38	3386-3387	`	_	_	
+38-39	3388-3393	cache	_	_	
+38-40	3393-3394	:	_	_	
+38-41	3395-3396	&	_	_	
+38-42	3396-3404	id_cache	_	_	
+38-43	3405-3406	!	_	_	
+
+#Text=WholeDatasetCache
+#Text=  train_path: &idtrainpath example/data/en_ewt-ud-sample/en_ewt-ud-train.conllu 
+#Text=  dev_path: &iddevpath example/data/en_ewt-ud-sample/en_ewt-ud-dev.conllu
+#Text=  test_path: &idtestpath example/data/en_ewt-ud-sample/en_ewt-ud-test.conllu 
+#Text=```
+#Text=
+#Text=When the `yaml` config is loaded, it result in a dictionary with the key `cache`.
+39-1	3406-3423	WholeDatasetCache	_	_	
+39-2	3426-3436	train_path	_	_	
+39-3	3436-3437	:	_	_	
+39-4	3438-3439	&	_	_	
+39-5	3439-3450	idtrainpath	_	_	
+39-6	3451-3458	example	_	_	
+39-7	3458-3459	/	_	_	
+39-8	3459-3463	data	_	_	
+39-9	3463-3464	/	_	_	
+39-10	3464-3480	en_ewt-ud-sample	_	_	
+39-11	3480-3481	/	_	_	
+39-12	3481-3503	en_ewt-ud-train.conllu	_	_	
+39-13	3507-3515	dev_path	_	_	
+39-14	3515-3516	:	_	_	
+39-15	3517-3518	&	_	_	
+39-16	3518-3527	iddevpath	_	_	
+39-17	3528-3535	example	_	_	
+39-18	3535-3536	/	_	_	
+39-19	3536-3540	data	_	_	
+39-20	3540-3541	/	_	_	
+39-21	3541-3557	en_ewt-ud-sample	_	_	
+39-22	3557-3558	/	_	_	
+39-23	3558-3578	en_ewt-ud-dev.conllu	_	_	
+39-24	3581-3590	test_path	_	_	
+39-25	3590-3591	:	_	_	
+39-26	3592-3593	&	_	_	
+39-27	3593-3603	idtestpath	_	_	
+39-28	3604-3611	example	_	_	
+39-29	3611-3612	/	_	_	
+39-30	3612-3616	data	_	_	
+39-31	3616-3617	/	_	_	
+39-32	3617-3633	en_ewt-ud-sample	_	_	
+39-33	3633-3634	/	_	_	
+39-34	3634-3655	en_ewt-ud-test.conllu	_	_	
+39-35	3657-3658	`	_	_	
+39-36	3658-3659	`	_	_	
+39-37	3659-3660	`	_	_	
+39-38	3662-3666	When	_	_	
+39-39	3667-3670	the	_	_	
+39-40	3671-3672	`	_	_	
+39-41	3672-3676	yaml	_	_	
+39-42	3676-3677	`	_	_	
+39-43	3678-3684	config	_	_	
+39-44	3685-3687	is	_	_	
+39-45	3688-3694	loaded	_	_	
+39-46	3694-3695	,	_	_	
+39-47	3696-3698	it	_	_	
+39-48	3699-3705	result	_	_	
+39-49	3706-3708	in	_	_	
+39-50	3709-3710	a	_	_	
+39-51	3711-3721	dictionary	_	_	
+39-52	3722-3726	with	_	_	
+39-53	3727-3730	the	_	_	
+39-54	3731-3734	key	_	_	
+39-55	3735-3736	`	_	_	
+39-56	3736-3741	cache	_	_	
+39-57	3741-3742	`	_	_	
+39-58	3742-3743	.	_	_	
+
+#Text=The fun magic part is that `!
+40-1	3744-3747	The	_	_	
+40-2	3748-3751	fun	_	_	
+40-3	3752-3757	magic	_	_	
+40-4	3758-3762	part	_	_	
+40-5	3763-3765	is	_	_	
+40-6	3766-3770	that	_	_	
+40-7	3771-3772	`	_	_	
+40-8	3772-3773	!	_	_	
+
+#Text=WholeDatasetCache` references the code in `cache.py`, wherein the `WholeDatasetCache` class has the class attribute `yaml_tag = !
+41-1	3773-3790	WholeDatasetCache	_	_	
+41-2	3790-3791	`	_	_	
+41-3	3792-3802	references	_	_	
+41-4	3803-3806	the	_	_	
+41-5	3807-3811	code	_	_	
+41-6	3812-3814	in	_	_	
+41-7	3815-3816	`	_	_	
+41-8	3816-3824	cache.py	_	_	
+41-9	3824-3825	`	_	_	
+41-10	3825-3826	,	_	_	
+41-11	3827-3834	wherein	_	_	
+41-12	3835-3838	the	_	_	
+41-13	3839-3840	`	_	_	
+41-14	3840-3857	WholeDatasetCache	_	_	
+41-15	3857-3858	`	_	_	
+41-16	3859-3864	class	_	_	
+41-17	3865-3868	has	_	_	
+41-18	3869-3872	the	_	_	
+41-19	3873-3878	class	_	_	
+41-20	3879-3888	attribute	_	_	
+41-21	3889-3890	`	_	_	
+41-22	3890-3898	yaml_tag	_	_	
+41-23	3899-3900	=	_	_	
+41-24	3901-3902	!	_	_	
+
+#Text=WholeDatasetCache`.
+42-1	3902-3919	WholeDatasetCache	_	_	
+42-2	3919-3920	`	_	_	
+42-3	3920-3921	.	_	_	
+
+#Text=The `train_path`, `dev_path`, `test_path` are the arguments to this class's `__init__` function.
+43-1	3922-3925	The	_	_	
+43-2	3926-3927	`	_	_	
+43-3	3927-3937	train_path	_	_	
+43-4	3937-3938	`	_	_	
+43-5	3938-3939	,	_	_	
+43-6	3940-3941	`	_	_	
+43-7	3941-3949	dev_path	_	_	
+43-8	3949-3950	`	_	_	
+43-9	3950-3951	,	_	_	
+43-10	3952-3953	`	_	_	
+43-11	3953-3962	test_path	_	_	
+43-12	3962-3963	`	_	_	
+43-13	3964-3967	are	_	_	
+43-14	3968-3971	the	_	_	
+43-15	3972-3981	arguments	_	_	
+43-16	3982-3984	to	_	_	
+43-17	3985-3989	this	_	_	
+43-18	3990-3997	class's	_	_	
+43-19	3998-3999	`	_	_	
+43-20	3999-4000	_	_	_	
+43-21	4000-4001	_	_	_	
+43-22	4001-4005	init	_	_	
+43-23	4005-4006	_	_	_	
+43-24	4006-4007	_	_	_	
+43-25	4007-4008	`	_	_	
+43-26	4009-4017	function	_	_	
+43-27	4017-4018	.	_	_	
+
+#Text=Because of this, the value stored at key `cache` is an instance of `WholeDatasetCache`, constructed during `yaml` loading with the arguments provided.
+44-1	4019-4026	Because	_	_	
+44-2	4027-4029	of	_	_	
+44-3	4030-4034	this	_	_	
+44-4	4034-4035	,	_	_	
+44-5	4036-4039	the	_	_	
+44-6	4040-4045	value	_	_	
+44-7	4046-4052	stored	_	_	
+44-8	4053-4055	at	_	_	
+44-9	4056-4059	key	_	_	
+44-10	4060-4061	`	_	_	
+44-11	4061-4066	cache	_	_	
+44-12	4066-4067	`	_	_	
+44-13	4068-4070	is	_	_	
+44-14	4071-4073	an	_	_	
+44-15	4074-4082	instance	_	_	
+44-16	4083-4085	of	_	_	
+44-17	4086-4087	`	_	_	
+44-18	4087-4104	WholeDatasetCache	_	_	
+44-19	4104-4105	`	_	_	
+44-20	4105-4106	,	_	_	
+44-21	4107-4118	constructed	_	_	
+44-22	4119-4125	during	_	_	
+44-23	4126-4127	`	_	_	
+44-24	4127-4131	yaml	_	_	
+44-25	4131-4132	`	_	_	
+44-26	4133-4140	loading	_	_	
+44-27	4141-4145	with	_	_	
+44-28	4146-4149	the	_	_	
+44-29	4150-4159	arguments	_	_	
+44-30	4160-4168	provided	_	_	
+44-31	4168-4169	.	_	_	
+
+#Text=All experiment objects -- `Probe`s, `Model`s, `Dataset`s, are constructed during `yaml` initialization in the same way.
+45-1	4171-4174	All	_	_	
+45-2	4175-4185	experiment	_	_	
+45-3	4186-4193	objects	_	_	
+45-4	4194-4195	-	_	_	
+45-5	4195-4196	-	_	_	
+45-6	4197-4198	`	_	_	
+45-7	4198-4203	Probe	_	_	
+45-8	4203-4204	`	_	_	
+45-9	4204-4205	s	_	_	
+45-10	4205-4206	,	_	_	
+45-11	4207-4208	`	_	_	
+45-12	4208-4213	Model	_	_	
+45-13	4213-4214	`	_	_	
+45-14	4214-4215	s	_	_	
+45-15	4215-4216	,	_	_	
+45-16	4217-4218	`	_	_	
+45-17	4218-4225	Dataset	_	_	
+45-18	4225-4226	`	_	_	
+45-19	4226-4227	s	_	_	
+45-20	4227-4228	,	_	_	
+45-21	4229-4232	are	_	_	
+45-22	4233-4244	constructed	_	_	
+45-23	4245-4251	during	_	_	
+45-24	4252-4253	`	_	_	
+45-25	4253-4257	yaml	_	_	
+45-26	4257-4258	`	_	_	
+45-27	4259-4273	initialization	_	_	
+45-28	4274-4276	in	_	_	
+45-29	4277-4280	the	_	_	
+45-30	4281-4285	same	_	_	
+45-31	4286-4289	way	_	_	
+45-32	4289-4290	.	_	_	
+
+#Text=Because of this, the logic for running an experiment -- in `experiment.py` -- is short.
+#Text=
+#Text=### Some yaml basics
+#Text=
+#Text=If you're not familiar with `yaml`, it's worthwhile to take a peek at the documentation.
+46-1	4291-4298	Because	_	_	
+46-2	4299-4301	of	_	_	
+46-3	4302-4306	this	_	_	
+46-4	4306-4307	,	_	_	
+46-5	4308-4311	the	_	_	
+46-6	4312-4317	logic	_	_	
+46-7	4318-4321	for	_	_	
+46-8	4322-4329	running	_	_	
+46-9	4330-4332	an	_	_	
+46-10	4333-4343	experiment	_	_	
+46-11	4344-4345	-	_	_	
+46-12	4345-4346	-	_	_	
+46-13	4347-4349	in	_	_	
+46-14	4350-4351	`	_	_	
+46-15	4351-4364	experiment.py	_	_	
+46-16	4364-4365	`	_	_	
+46-17	4366-4367	-	_	_	
+46-18	4367-4368	-	_	_	
+46-19	4369-4371	is	_	_	
+46-20	4372-4377	short	_	_	
+46-21	4377-4378	.	_	_	
+46-22	4380-4381	#	_	_	
+46-23	4381-4382	#	_	_	
+46-24	4382-4383	#	_	_	
+46-25	4384-4388	Some	_	_	
+46-26	4389-4393	yaml	_	_	
+46-27	4394-4400	basics	_	_	
+46-28	4402-4404	If	_	_	
+46-29	4405-4411	you're	_	_	
+46-30	4412-4415	not	_	_	
+46-31	4416-4424	familiar	_	_	
+46-32	4425-4429	with	_	_	
+46-33	4430-4431	`	_	_	
+46-34	4431-4435	yaml	_	_	
+46-35	4435-4436	`	_	_	
+46-36	4436-4437	,	_	_	
+46-37	4438-4442	it's	_	_	
+46-38	4443-4453	worthwhile	_	_	
+46-39	4454-4456	to	_	_	
+46-40	4457-4461	take	_	_	
+46-41	4462-4463	a	_	_	
+46-42	4464-4468	peek	_	_	
+46-43	4469-4471	at	_	_	
+46-44	4472-4475	the	_	_	
+46-45	4476-4489	documentation	_	_	
+46-46	4489-4490	.	_	_	
+
+#Text=We make frequent use of the referencing feature of yaml -- the ability to give an object in the `.yaml` config file an identifier, and place the same object elsewhere in the config file by referencing the identifier.
+47-1	4491-4493	We	_	_	
+47-2	4494-4498	make	_	_	
+47-3	4499-4507	frequent	_	_	
+47-4	4508-4511	use	_	_	
+47-5	4512-4514	of	_	_	
+47-6	4515-4518	the	_	_	
+47-7	4519-4530	referencing	_	_	
+47-8	4531-4538	feature	_	_	
+47-9	4539-4541	of	_	_	
+47-10	4542-4546	yaml	_	_	
+47-11	4547-4548	-	_	_	
+47-12	4548-4549	-	_	_	
+47-13	4550-4553	the	_	_	
+47-14	4554-4561	ability	_	_	
+47-15	4562-4564	to	_	_	
+47-16	4565-4569	give	_	_	
+47-17	4570-4572	an	_	_	
+47-18	4573-4579	object	_	_	
+47-19	4580-4582	in	_	_	
+47-20	4583-4586	the	_	_	
+47-21	4587-4588	`	_	_	
+47-22	4588-4589	.	_	_	
+47-23	4589-4593	yaml	_	_	
+47-24	4593-4594	`	_	_	
+47-25	4595-4601	config	_	_	
+47-26	4602-4606	file	_	_	
+47-27	4607-4609	an	_	_	
+47-28	4610-4620	identifier	_	_	
+47-29	4620-4621	,	_	_	
+47-30	4622-4625	and	_	_	
+47-31	4626-4631	place	_	_	
+47-32	4632-4635	the	_	_	
+47-33	4636-4640	same	_	_	
+47-34	4641-4647	object	_	_	
+47-35	4648-4657	elsewhere	_	_	
+47-36	4658-4660	in	_	_	
+47-37	4661-4664	the	_	_	
+47-38	4665-4671	config	_	_	
+47-39	4672-4676	file	_	_	
+47-40	4677-4679	by	_	_	
+47-41	4680-4691	referencing	_	_	
+47-42	4692-4695	the	_	_	
+47-43	4696-4706	identifier	_	_	
+47-44	4706-4707	.	_	_	
+
+#Text=Making the label looks like:
+#Text=```
+#Text=input_fields: &id_input_fields
+#Text=  - id
+#Text=  - form
+#Text=```
+#Text=where the ampersand in `&id_input_fields` indicates the registration of an identifier; this object can then be placed elsewher in the config through
+#Text=
+#Text=```
+#Text=fields: *id_input_fields
+#Text=```
+#Text=where the asterisk in `*id_input_fields` indicates the reference of the object.
+#Text=
+#Text=### Limiting logic in `__init__` due to yaml use
+#Text=
+#Text=While the `yaml` object construction design decision makes it transparent which objects will be used in the course of a given experiment (instead of if/else/case statements that grow with the codebase scope), it adds a somewhat annoying consideration when writing code for these classes.
+48-1	4709-4715	Making	_	_	
+48-2	4716-4719	the	_	_	
+48-3	4720-4725	label	_	_	
+48-4	4726-4731	looks	_	_	
+48-5	4732-4736	like	_	_	
+48-6	4736-4737	:	_	_	
+48-7	4738-4739	`	_	_	
+48-8	4739-4740	`	_	_	
+48-9	4740-4741	`	_	_	
+48-10	4742-4754	input_fields	_	_	
+48-11	4754-4755	:	_	_	
+48-12	4756-4757	&	_	_	
+48-13	4757-4772	id_input_fields	_	_	
+48-14	4775-4776	-	_	_	
+48-15	4777-4779	id	_	_	
+48-16	4782-4783	-	_	_	
+48-17	4784-4788	form	_	_	
+48-18	4789-4790	`	_	_	
+48-19	4790-4791	`	_	_	
+48-20	4791-4792	`	_	_	
+48-21	4793-4798	where	_	_	
+48-22	4799-4802	the	_	_	
+48-23	4803-4812	ampersand	_	_	
+48-24	4813-4815	in	_	_	
+48-25	4816-4817	`	_	_	
+48-26	4817-4818	&	_	_	
+48-27	4818-4833	id_input_fields	_	_	
+48-28	4833-4834	`	_	_	
+48-29	4835-4844	indicates	_	_	
+48-30	4845-4848	the	_	_	
+48-31	4849-4861	registration	_	_	
+48-32	4862-4864	of	_	_	
+48-33	4865-4867	an	_	_	
+48-34	4868-4878	identifier	_	_	
+48-35	4878-4879	;	_	_	
+48-36	4880-4884	this	_	_	
+48-37	4885-4891	object	_	_	
+48-38	4892-4895	can	_	_	
+48-39	4896-4900	then	_	_	
+48-40	4901-4903	be	_	_	
+48-41	4904-4910	placed	_	_	
+48-42	4911-4919	elsewher	_	_	
+48-43	4920-4922	in	_	_	
+48-44	4923-4926	the	_	_	
+48-45	4927-4933	config	_	_	
+48-46	4934-4941	through	_	_	
+48-47	4943-4944	`	_	_	
+48-48	4944-4945	`	_	_	
+48-49	4945-4946	`	_	_	
+48-50	4947-4953	fields	_	_	
+48-51	4953-4954	:	_	_	
+48-52	4955-4956	*	_	_	
+48-53	4956-4971	id_input_fields	_	_	
+48-54	4972-4973	`	_	_	
+48-55	4973-4974	`	_	_	
+48-56	4974-4975	`	_	_	
+48-57	4976-4981	where	_	_	
+48-58	4982-4985	the	_	_	
+48-59	4986-4994	asterisk	_	_	
+48-60	4995-4997	in	_	_	
+48-61	4998-4999	`	_	_	
+48-62	4999-5000	*	_	_	
+48-63	5000-5015	id_input_fields	_	_	
+48-64	5015-5016	`	_	_	
+48-65	5017-5026	indicates	_	_	
+48-66	5027-5030	the	_	_	
+48-67	5031-5040	reference	_	_	
+48-68	5041-5043	of	_	_	
+48-69	5044-5047	the	_	_	
+48-70	5048-5054	object	_	_	
+48-71	5054-5055	.	_	_	
+48-72	5057-5058	#	_	_	
+48-73	5058-5059	#	_	_	
+48-74	5059-5060	#	_	_	
+48-75	5061-5069	Limiting	_	_	
+48-76	5070-5075	logic	_	_	
+48-77	5076-5078	in	_	_	
+48-78	5079-5080	`	_	_	
+48-79	5080-5081	_	_	_	
+48-80	5081-5082	_	_	_	
+48-81	5082-5086	init	_	_	
+48-82	5086-5087	_	_	_	
+48-83	5087-5088	_	_	_	
+48-84	5088-5089	`	_	_	
+48-85	5090-5093	due	_	_	
+48-86	5094-5096	to	_	_	
+48-87	5097-5101	yaml	_	_	
+48-88	5102-5105	use	_	_	
+48-89	5107-5112	While	_	_	
+48-90	5113-5116	the	_	_	
+48-91	5117-5118	`	_	_	
+48-92	5118-5122	yaml	_	_	
+48-93	5122-5123	`	_	_	
+48-94	5124-5130	object	_	_	
+48-95	5131-5143	construction	_	_	
+48-96	5144-5150	design	_	_	
+48-97	5151-5159	decision	_	_	
+48-98	5160-5165	makes	_	_	
+48-99	5166-5168	it	_	_	
+48-100	5169-5180	transparent	_	_	
+48-101	5181-5186	which	_	_	
+48-102	5187-5194	objects	_	_	
+48-103	5195-5199	will	_	_	
+48-104	5200-5202	be	_	_	
+48-105	5203-5207	used	_	_	
+48-106	5208-5210	in	_	_	
+48-107	5211-5214	the	_	_	
+48-108	5215-5221	course	_	_	
+48-109	5222-5224	of	_	_	
+48-110	5225-5226	a	_	_	
+48-111	5227-5232	given	_	_	
+48-112	5233-5243	experiment	_	_	
+48-113	5244-5245	(	_	_	
+48-114	5245-5252	instead	_	_	
+48-115	5253-5255	of	_	_	
+48-116	5256-5258	if	_	_	
+48-117	5258-5259	/	_	_	
+48-118	5259-5263	else	_	_	
+48-119	5263-5264	/	_	_	
+48-120	5264-5268	case	_	_	
+48-121	5269-5279	statements	_	_	
+48-122	5280-5284	that	_	_	
+48-123	5285-5289	grow	_	_	
+48-124	5290-5294	with	_	_	
+48-125	5295-5298	the	_	_	
+48-126	5299-5307	codebase	_	_	
+48-127	5308-5313	scope	_	_	
+48-128	5313-5314	)	_	_	
+48-129	5314-5315	,	_	_	
+48-130	5316-5318	it	_	_	
+48-131	5319-5323	adds	_	_	
+48-132	5324-5325	a	_	_	
+48-133	5326-5334	somewhat	_	_	
+48-134	5335-5343	annoying	_	_	
+48-135	5344-5357	consideration	_	_	
+48-136	5358-5362	when	_	_	
+48-137	5363-5370	writing	_	_	
+48-138	5371-5375	code	_	_	
+48-139	5376-5379	for	_	_	
+48-140	5380-5385	these	_	_	
+48-141	5386-5393	classes	_	_	
+48-142	5393-5394	.	_	_	
+
+#Text=Stated briefly, all you can do in the `__init__` functions of your classes is assign arguments as instance variables, like `self.thing = thing`; you cannot run any code that relies on `thing` being an already-constructed object.
+49-1	5396-5402	Stated	_	_	
+49-2	5403-5410	briefly	_	_	
+49-3	5410-5411	,	_	_	
+49-4	5412-5415	all	_	_	
+49-5	5416-5419	you	_	_	
+49-6	5420-5423	can	_	_	
+49-7	5424-5426	do	_	_	
+49-8	5427-5429	in	_	_	
+49-9	5430-5433	the	_	_	
+49-10	5434-5435	`	_	_	
+49-11	5435-5436	_	_	_	
+49-12	5436-5437	_	_	_	
+49-13	5437-5441	init	_	_	
+49-14	5441-5442	_	_	_	
+49-15	5442-5443	_	_	_	
+49-16	5443-5444	`	_	_	
+49-17	5445-5454	functions	_	_	
+49-18	5455-5457	of	_	_	
+49-19	5458-5462	your	_	_	
+49-20	5463-5470	classes	_	_	
+49-21	5471-5473	is	_	_	
+49-22	5474-5480	assign	_	_	
+49-23	5481-5490	arguments	_	_	
+49-24	5491-5493	as	_	_	
+49-25	5494-5502	instance	_	_	
+49-26	5503-5512	variables	_	_	
+49-27	5512-5513	,	_	_	
+49-28	5514-5518	like	_	_	
+49-29	5519-5520	`	_	_	
+49-30	5520-5530	self.thing	_	_	
+49-31	5531-5532	=	_	_	
+49-32	5533-5538	thing	_	_	
+49-33	5538-5539	`	_	_	
+49-34	5539-5540	;	_	_	
+49-35	5541-5544	you	_	_	
+49-36	5545-5551	cannot	_	_	
+49-37	5552-5555	run	_	_	
+49-38	5556-5559	any	_	_	
+49-39	5560-5564	code	_	_	
+49-40	5565-5569	that	_	_	
+49-41	5570-5576	relies	_	_	
+49-42	5577-5579	on	_	_	
+49-43	5580-5581	`	_	_	
+49-44	5581-5586	thing	_	_	
+49-45	5586-5587	`	_	_	
+49-46	5588-5593	being	_	_	
+49-47	5594-5596	an	_	_	
+49-48	5597-5616	already-constructed	_	_	
+49-49	5617-5623	object	_	_	
+49-50	5623-5624	.	_	_	
+
+#Text=In more depth, the `yaml` loading process doesn't provide a guarantee on what order objects will be constructed.
+50-1	5626-5628	In	_	_	
+50-2	5629-5633	more	_	_	
+50-3	5634-5639	depth	_	_	
+50-4	5639-5640	,	_	_	
+50-5	5641-5644	the	_	_	
+50-6	5645-5646	`	_	_	
+50-7	5646-5650	yaml	_	_	
+50-8	5650-5651	`	_	_	
+50-9	5652-5659	loading	_	_	
+50-10	5660-5667	process	_	_	
+50-11	5668-5675	doesn't	_	_	
+50-12	5676-5683	provide	_	_	
+50-13	5684-5685	a	_	_	
+50-14	5686-5695	guarantee	_	_	
+50-15	5696-5698	on	_	_	
+50-16	5699-5703	what	_	_	
+50-17	5704-5709	order	_	_	
+50-18	5710-5717	objects	_	_	
+50-19	5718-5722	will	_	_	
+50-20	5723-5725	be	_	_	
+50-21	5726-5737	constructed	_	_	
+50-22	5737-5738	.	_	_	
+
+#Text=But we refer to objects (like the `input_fields` list) in constructing other objects, through `yaml` object reference.
+51-1	5739-5742	But	_	_	
+51-2	5743-5745	we	_	_	
+51-3	5746-5751	refer	_	_	
+51-4	5752-5754	to	_	_	
+51-5	5755-5762	objects	_	_	
+51-6	5763-5764	(	_	_	
+51-7	5764-5768	like	_	_	
+51-8	5769-5772	the	_	_	
+51-9	5773-5774	`	_	_	
+51-10	5774-5786	input_fields	_	_	
+51-11	5786-5787	`	_	_	
+51-12	5788-5792	list	_	_	
+51-13	5792-5793	)	_	_	
+51-14	5794-5796	in	_	_	
+51-15	5797-5809	constructing	_	_	
+51-16	5810-5815	other	_	_	
+51-17	5816-5823	objects	_	_	
+51-18	5823-5824	,	_	_	
+51-19	5825-5832	through	_	_	
+51-20	5833-5834	`	_	_	
+51-21	5834-5838	yaml	_	_	
+51-22	5838-5839	`	_	_	
+51-23	5840-5846	object	_	_	
+51-24	5847-5856	reference	_	_	
+51-25	5856-5857	.	_	_	
+
+#Text=(Since, say, the `dataset` classes need to know what the `input_fields` list is.)
+52-1	5858-5859	(	_	_	
+52-2	5859-5864	Since	_	_	
+52-3	5864-5865	,	_	_	
+52-4	5866-5869	say	_	_	
+52-5	5869-5870	,	_	_	
+52-6	5871-5874	the	_	_	
+52-7	5875-5876	`	_	_	
+52-8	5876-5883	dataset	_	_	
+52-9	5883-5884	`	_	_	
+52-10	5885-5892	classes	_	_	
+52-11	5893-5897	need	_	_	
+52-12	5898-5900	to	_	_	
+52-13	5901-5905	know	_	_	
+52-14	5906-5910	what	_	_	
+52-15	5911-5914	the	_	_	
+52-16	5915-5916	`	_	_	
+52-17	5916-5928	input_fields	_	_	
+52-18	5928-5929	`	_	_	
+52-19	5930-5934	list	_	_	
+52-20	5935-5937	is	_	_	
+52-21	5937-5938	.	_	_	
+52-22	5938-5939	)	_	_	
+
+#Text=So, when going through `yaml` loading, we do call `__init__` functions (see `utils.py`), but we are just passing around references and doing simple computation that doesn't depend on other `yaml`-constructed objects.
+53-1	5940-5942	So	_	_	
+53-2	5942-5943	,	_	_	
+53-3	5944-5948	when	_	_	
+53-4	5949-5954	going	_	_	
+53-5	5955-5962	through	_	_	
+53-6	5963-5964	`	_	_	
+53-7	5964-5968	yaml	_	_	
+53-8	5968-5969	`	_	_	
+53-9	5970-5977	loading	_	_	
+53-10	5977-5978	,	_	_	
+53-11	5979-5981	we	_	_	
+53-12	5982-5984	do	_	_	
+53-13	5985-5989	call	_	_	
+53-14	5990-5991	`	_	_	
+53-15	5991-5992	_	_	_	
+53-16	5992-5993	_	_	_	
+53-17	5993-5997	init	_	_	
+53-18	5997-5998	_	_	_	
+53-19	5998-5999	_	_	_	
+53-20	5999-6000	`	_	_	
+53-21	6001-6010	functions	_	_	
+53-22	6011-6012	(	_	_	
+53-23	6012-6015	see	_	_	
+53-24	6016-6017	`	_	_	
+53-25	6017-6025	utils.py	_	_	
+53-26	6025-6026	`	_	_	
+53-27	6026-6027	)	_	_	
+53-28	6027-6028	,	_	_	
+53-29	6029-6032	but	_	_	
+53-30	6033-6035	we	_	_	
+53-31	6036-6039	are	_	_	
+53-32	6040-6044	just	_	_	
+53-33	6045-6052	passing	_	_	
+53-34	6053-6059	around	_	_	
+53-35	6060-6070	references	_	_	
+53-36	6071-6074	and	_	_	
+53-37	6075-6080	doing	_	_	
+53-38	6081-6087	simple	_	_	
+53-39	6088-6099	computation	_	_	
+53-40	6100-6104	that	_	_	
+53-41	6105-6112	doesn't	_	_	
+53-42	6113-6119	depend	_	_	
+53-43	6120-6122	on	_	_	
+53-44	6123-6128	other	_	_	
+53-45	6129-6130	`	_	_	
+53-46	6130-6134	yaml	_	_	
+53-47	6134-6135	`	_	_	
+53-48	6135-6136	-	_	_	
+53-49	6136-6147	constructed	_	_	
+53-50	6148-6155	objects	_	_	
+53-51	6155-6156	.	_	_	
+
+#Text=This means, somewhat unfortunately, that setup-style functionality, like checking the validity of cache files, for the `dataset` classes, has to be run at some time other than `__init__`.
+54-1	6158-6162	This	_	_	
+54-2	6163-6168	means	_	_	
+54-3	6168-6169	,	_	_	
+54-4	6170-6178	somewhat	_	_	
+54-5	6179-6192	unfortunately	_	_	
+54-6	6192-6193	,	_	_	
+54-7	6194-6198	that	_	_	
+54-8	6199-6210	setup-style	_	_	
+54-9	6211-6224	functionality	_	_	
+54-10	6224-6225	,	_	_	
+54-11	6226-6230	like	_	_	
+54-12	6231-6239	checking	_	_	
+54-13	6240-6243	the	_	_	
+54-14	6244-6252	validity	_	_	
+54-15	6253-6255	of	_	_	
+54-16	6256-6261	cache	_	_	
+54-17	6262-6267	files	_	_	
+54-18	6267-6268	,	_	_	
+54-19	6269-6272	for	_	_	
+54-20	6273-6276	the	_	_	
+54-21	6277-6278	`	_	_	
+54-22	6278-6285	dataset	_	_	
+54-23	6285-6286	`	_	_	
+54-24	6287-6294	classes	_	_	
+54-25	6294-6295	,	_	_	
+54-26	6296-6299	has	_	_	
+54-27	6300-6302	to	_	_	
+54-28	6303-6305	be	_	_	
+54-29	6306-6309	run	_	_	
+54-30	6310-6312	at	_	_	
+54-31	6313-6317	some	_	_	
+54-32	6318-6322	time	_	_	
+54-33	6323-6328	other	_	_	
+54-34	6329-6333	than	_	_	
+54-35	6334-6335	`	_	_	
+54-36	6335-6336	_	_	_	
+54-37	6336-6337	_	_	_	
+54-38	6337-6341	init	_	_	
+54-39	6341-6342	_	_	_	
+54-40	6342-6343	_	_	_	
+54-41	6343-6344	`	_	_	
+54-42	6344-6345	.	_	_	
+
+#Text=In practice, we check a check-for-setup condition into the functions that need the setup to have been run.
+55-1	6346-6348	In	_	_	
+55-2	6349-6357	practice	_	_	
+55-3	6357-6358	,	_	_	
+55-4	6359-6361	we	_	_	
+55-5	6362-6367	check	_	_	
+55-6	6368-6369	a	_	_	
+55-7	6370-6385	check-for-setup	_	_	
+55-8	6386-6395	condition	_	_	
+55-9	6396-6400	into	_	_	
+55-10	6401-6404	the	_	_	
+55-11	6405-6414	functions	_	_	
+55-12	6415-6419	that	_	_	
+55-13	6420-6424	need	_	_	
+55-14	6425-6428	the	_	_	
+55-15	6429-6434	setup	_	_	
+55-16	6435-6437	to	_	_	
+55-17	6438-6442	have	_	_	
+55-18	6443-6447	been	_	_	
+55-19	6448-6451	run	_	_	
+55-20	6451-6452	.	_	_	
+
+#Text=This toolkit is intended to be easily extensible, and allow for quick swapping of experimental components.
+56-1	6454-6458	This	_	_	
+56-2	6459-6466	toolkit	_	_	
+56-3	6467-6469	is	_	_	
+56-4	6470-6478	intended	_	_	
+56-5	6479-6481	to	_	_	
+56-6	6482-6484	be	_	_	
+56-7	6485-6491	easily	_	_	
+56-8	6492-6502	extensible	_	_	
+56-9	6502-6503	,	_	_	
+56-10	6504-6507	and	_	_	
+56-11	6508-6513	allow	_	_	
+56-12	6514-6517	for	_	_	
+56-13	6518-6523	quick	_	_	
+56-14	6524-6532	swapping	_	_	
+56-15	6533-6535	of	_	_	
+56-16	6536-6548	experimental	_	_	
+56-17	6549-6559	components	_	_	
+56-18	6559-6560	.	_	_	
+
+#Text=As such, the code is split into an arguably reasonable class layout, wherein one can write a new `Probe` or new `Loss` class somewhat easily.
+57-1	6561-6563	As	_	_	
+57-2	6564-6568	such	_	_	
+57-3	6568-6569	,	_	_	
+57-4	6570-6573	the	_	_	
+57-5	6574-6578	code	_	_	
+57-6	6579-6581	is	_	_	
+57-7	6582-6587	split	_	_	
+57-8	6588-6592	into	_	_	
+57-9	6593-6595	an	_	_	
+57-10	6596-6604	arguably	_	_	
+57-11	6605-6615	reasonable	_	_	
+57-12	6616-6621	class	_	_	
+57-13	6622-6628	layout	_	_	
+57-14	6628-6629	,	_	_	
+57-15	6630-6637	wherein	_	_	
+57-16	6638-6641	one	_	_	
+57-17	6642-6645	can	_	_	
+57-18	6646-6651	write	_	_	
+57-19	6652-6653	a	_	_	
+57-20	6654-6657	new	_	_	
+57-21	6658-6659	`	_	_	
+57-22	6659-6664	Probe	_	_	
+57-23	6664-6665	`	_	_	
+57-24	6666-6668	or	_	_	
+57-25	6669-6672	new	_	_	
+57-26	6673-6674	`	_	_	
+57-27	6674-6678	Loss	_	_	
+57-28	6678-6679	`	_	_	
+57-29	6680-6685	class	_	_	
+57-30	6686-6694	somewhat	_	_	
+57-31	6695-6701	easily	_	_	
+57-32	6701-6702	.	_	_	
+
+#Text=More unusually, 
+#Text=
+#Text=## Code layout and config runthrough
+#Text=
+#Text=In this section we walk through the example configuration file and explain the classes associated with each component.
+58-1	6703-6707	More	_	_	
+58-2	6708-6717	unusually	_	_	
+58-3	6717-6718	,	_	_	
+58-4	6721-6722	#	_	_	
+58-5	6722-6723	#	_	_	
+58-6	6724-6728	Code	_	_	
+58-7	6729-6735	layout	_	_	
+58-8	6736-6739	and	_	_	
+58-9	6740-6746	config	_	_	
+58-10	6747-6757	runthrough	_	_	
+58-11	6759-6761	In	_	_	
+58-12	6762-6766	this	_	_	
+58-13	6767-6774	section	_	_	
+58-14	6775-6777	we	_	_	
+58-15	6778-6782	walk	_	_	
+58-16	6783-6790	through	_	_	
+58-17	6791-6794	the	_	_	
+58-18	6795-6802	example	_	_	
+58-19	6803-6816	configuration	_	_	
+58-20	6817-6821	file	_	_	
+58-21	6822-6825	and	_	_	
+58-22	6826-6833	explain	_	_	
+58-23	6834-6837	the	_	_	
+58-24	6838-6845	classes	_	_	
+58-25	6846-6856	associated	_	_	
+58-26	6857-6861	with	_	_	
+58-27	6862-6866	each	_	_	
+58-28	6867-6876	component	_	_	
+58-29	6876-6877	.	_	_	
+
+#Text=Each of these subsections refers to an object constructed during `yaml` loading, which is a "top-level" object, available in the loaded yaml config.
+#Text=
+#Text=### Input-fields
+#Text=Input-fields, for `conll`-formtted files, provides string labels for the columns of the file.
+#Text=```
+#Text=input_fields: &id_input_fields
+#Text=  - id
+#Text=  - form
+#Text=  - lemma
+#Text=  - upos
+#Text=  - ptb_pos
+#Text=  - feats
+#Text=  - dep_head
+#Text=  - dep_rel
+#Text=  - None
+#Text=  - misc
+#Text=```
+#Text=These identifiers will be used to pull the data of a column in the `AnnotationDataset` class; we'll go over this when we get to the `dataset` part of the config.
+#Text=
+#Text=### cache
+#Text=The cache object does some simple filesystem timestamp checking, and non-foolproof lock checking, to determine whether cache files for each dataset should be read from, or written to.
+59-1	6878-6882	Each	_	_	
+59-2	6883-6885	of	_	_	
+59-3	6886-6891	these	_	_	
+59-4	6892-6903	subsections	_	_	
+59-5	6904-6910	refers	_	_	
+59-6	6911-6913	to	_	_	
+59-7	6914-6916	an	_	_	
+59-8	6917-6923	object	_	_	
+59-9	6924-6935	constructed	_	_	
+59-10	6936-6942	during	_	_	
+59-11	6943-6944	`	_	_	
+59-12	6944-6948	yaml	_	_	
+59-13	6948-6949	`	_	_	
+59-14	6950-6957	loading	_	_	
+59-15	6957-6958	,	_	_	
+59-16	6959-6964	which	_	_	
+59-17	6965-6967	is	_	_	
+59-18	6968-6969	a	_	_	
+59-19	6970-6971	"	_	_	
+59-20	6971-6980	top-level	_	_	
+59-21	6980-6981	"	_	_	
+59-22	6982-6988	object	_	_	
+59-23	6988-6989	,	_	_	
+59-24	6990-6999	available	_	_	
+59-25	7000-7002	in	_	_	
+59-26	7003-7006	the	_	_	
+59-27	7007-7013	loaded	_	_	
+59-28	7014-7018	yaml	_	_	
+59-29	7019-7025	config	_	_	
+59-30	7025-7026	.	_	_	
+59-31	7028-7029	#	_	_	
+59-32	7029-7030	#	_	_	
+59-33	7030-7031	#	_	_	
+59-34	7032-7044	Input-fields	_	_	
+59-35	7045-7057	Input-fields	_	_	
+59-36	7057-7058	,	_	_	
+59-37	7059-7062	for	_	_	
+59-38	7063-7064	`	_	_	
+59-39	7064-7069	conll	_	_	
+59-40	7069-7070	`	_	_	
+59-41	7070-7071	-	_	_	
+59-42	7071-7079	formtted	_	_	
+59-43	7080-7085	files	_	_	
+59-44	7085-7086	,	_	_	
+59-45	7087-7095	provides	_	_	
+59-46	7096-7102	string	_	_	
+59-47	7103-7109	labels	_	_	
+59-48	7110-7113	for	_	_	
+59-49	7114-7117	the	_	_	
+59-50	7118-7125	columns	_	_	
+59-51	7126-7128	of	_	_	
+59-52	7129-7132	the	_	_	
+59-53	7133-7137	file	_	_	
+59-54	7137-7138	.	_	_	
+59-55	7139-7140	`	_	_	
+59-56	7140-7141	`	_	_	
+59-57	7141-7142	`	_	_	
+59-58	7143-7155	input_fields	_	_	
+59-59	7155-7156	:	_	_	
+59-60	7157-7158	&	_	_	
+59-61	7158-7173	id_input_fields	_	_	
+59-62	7176-7177	-	_	_	
+59-63	7178-7180	id	_	_	
+59-64	7183-7184	-	_	_	
+59-65	7185-7189	form	_	_	
+59-66	7192-7193	-	_	_	
+59-67	7194-7199	lemma	_	_	
+59-68	7202-7203	-	_	_	
+59-69	7204-7208	upos	_	_	
+59-70	7211-7212	-	_	_	
+59-71	7213-7220	ptb_pos	_	_	
+59-72	7223-7224	-	_	_	
+59-73	7225-7230	feats	_	_	
+59-74	7233-7234	-	_	_	
+59-75	7235-7243	dep_head	_	_	
+59-76	7246-7247	-	_	_	
+59-77	7248-7255	dep_rel	_	_	
+59-78	7258-7259	-	_	_	
+59-79	7260-7264	None	_	_	
+59-80	7267-7268	-	_	_	
+59-81	7269-7273	misc	_	_	
+59-82	7274-7275	`	_	_	
+59-83	7275-7276	`	_	_	
+59-84	7276-7277	`	_	_	
+59-85	7278-7283	These	_	_	
+59-86	7284-7295	identifiers	_	_	
+59-87	7296-7300	will	_	_	
+59-88	7301-7303	be	_	_	
+59-89	7304-7308	used	_	_	
+59-90	7309-7311	to	_	_	
+59-91	7312-7316	pull	_	_	
+59-92	7317-7320	the	_	_	
+59-93	7321-7325	data	_	_	
+59-94	7326-7328	of	_	_	
+59-95	7329-7330	a	_	_	
+59-96	7331-7337	column	_	_	
+59-97	7338-7340	in	_	_	
+59-98	7341-7344	the	_	_	
+59-99	7345-7346	`	_	_	
+59-100	7346-7363	AnnotationDataset	_	_	
+59-101	7363-7364	`	_	_	
+59-102	7365-7370	class	_	_	
+59-103	7370-7371	;	_	_	
+59-104	7372-7377	we'll	_	_	
+59-105	7378-7380	go	_	_	
+59-106	7381-7385	over	_	_	
+59-107	7386-7390	this	_	_	
+59-108	7391-7395	when	_	_	
+59-109	7396-7398	we	_	_	
+59-110	7399-7402	get	_	_	
+59-111	7403-7405	to	_	_	
+59-112	7406-7409	the	_	_	
+59-113	7410-7411	`	_	_	
+59-114	7411-7418	dataset	_	_	
+59-115	7418-7419	`	_	_	
+59-116	7420-7424	part	_	_	
+59-117	7425-7427	of	_	_	
+59-118	7428-7431	the	_	_	
+59-119	7432-7438	config	_	_	
+59-120	7438-7439	.	_	_	
+59-121	7441-7442	#	_	_	
+59-122	7442-7443	#	_	_	
+59-123	7443-7444	#	_	_	
+59-124	7445-7450	cache	_	_	
+59-125	7451-7454	The	_	_	
+59-126	7455-7460	cache	_	_	
+59-127	7461-7467	object	_	_	
+59-128	7468-7472	does	_	_	
+59-129	7473-7477	some	_	_	
+59-130	7478-7484	simple	_	_	
+59-131	7485-7495	filesystem	_	_	
+59-132	7496-7505	timestamp	_	_	
+59-133	7506-7514	checking	_	_	
+59-134	7514-7515	,	_	_	
+59-135	7516-7519	and	_	_	
+59-136	7520-7533	non-foolproof	_	_	
+59-137	7534-7538	lock	_	_	
+59-138	7539-7547	checking	_	_	
+59-139	7547-7548	,	_	_	
+59-140	7549-7551	to	_	_	
+59-141	7552-7561	determine	_	_	
+59-142	7562-7569	whether	_	_	
+59-143	7570-7575	cache	_	_	
+59-144	7576-7581	files	_	_	
+59-145	7582-7585	for	_	_	
+59-146	7586-7590	each	_	_	
+59-147	7591-7598	dataset	_	_	
+59-148	7599-7605	should	_	_	
+59-149	7606-7608	be	_	_	
+59-150	7609-7613	read	_	_	
+59-151	7614-7618	from	_	_	
+59-152	7618-7619	,	_	_	
+59-153	7620-7622	or	_	_	
+59-154	7623-7630	written	_	_	
+59-155	7631-7633	to	_	_	
+59-156	7633-7634	.	_	_	
+
+#Text=This is crucial for running many experiments with Huggingface `transformers` models, since the tokenization and alignment of subword tokens to corpus tokens takes more time than running the experiment itself once loaded.
+#Text=
+#Text=```
+#Text=cache: &id_cache !
+60-1	7635-7639	This	_	_	
+60-2	7640-7642	is	_	_	
+60-3	7643-7650	crucial	_	_	
+60-4	7651-7654	for	_	_	
+60-5	7655-7662	running	_	_	
+60-6	7663-7667	many	_	_	
+60-7	7668-7679	experiments	_	_	
+60-8	7680-7684	with	_	_	
+60-9	7685-7696	Huggingface	_	_	
+60-10	7697-7698	`	_	_	
+60-11	7698-7710	transformers	*	SOFTWARE	
+60-12	7710-7711	`	_	_	
+60-13	7712-7718	models	_	_	
+60-14	7718-7719	,	_	_	
+60-15	7720-7725	since	_	_	
+60-16	7726-7729	the	_	_	
+60-17	7730-7742	tokenization	_	_	
+60-18	7743-7746	and	_	_	
+60-19	7747-7756	alignment	_	_	
+60-20	7757-7759	of	_	_	
+60-21	7760-7767	subword	_	_	
+60-22	7768-7774	tokens	_	_	
+60-23	7775-7777	to	_	_	
+60-24	7778-7784	corpus	_	_	
+60-25	7785-7791	tokens	_	_	
+60-26	7792-7797	takes	_	_	
+60-27	7798-7802	more	_	_	
+60-28	7803-7807	time	_	_	
+60-29	7808-7812	than	_	_	
+60-30	7813-7820	running	_	_	
+60-31	7821-7824	the	_	_	
+60-32	7825-7835	experiment	_	_	
+60-33	7836-7842	itself	_	_	
+60-34	7843-7847	once	_	_	
+60-35	7848-7854	loaded	_	_	
+60-36	7854-7855	.	_	_	
+60-37	7857-7858	`	_	_	
+60-38	7858-7859	`	_	_	
+60-39	7859-7860	`	_	_	
+60-40	7861-7866	cache	_	_	
+60-41	7866-7867	:	_	_	
+60-42	7868-7869	&	_	_	
+60-43	7869-7877	id_cache	_	_	
+60-44	7878-7879	!	_	_	
+
+#Text=WholeDatasetCache
+#Text=  train_path: &idtrainpath scripts/ontonotes_scripts/train.ontonotes.withdep.conll
+#Text=  dev_path: &iddevpath scripts/ontonotes_scripts/dev.ontonotes.withdep.conll
+#Text=  test_path: &idtestpath scripts/ontonotes_scripts/test.ontonotes.withdep.conll
+#Text=```
+#Text=
+#Text=Note that we make reference ids for both the WholeDatasetCache object itself and for the `{train,dev,test}` file paths, so we can use these later.
+#Text=
+#Text=### disk_reader
+#Text=The `Reader` objects are written to handle the oddities of a given filetype.
+61-1	7879-7896	WholeDatasetCache	_	_	
+61-2	7899-7909	train_path	_	_	
+61-3	7909-7910	:	_	_	
+61-4	7911-7912	&	_	_	
+61-5	7912-7923	idtrainpath	_	_	
+61-6	7924-7931	scripts	_	_	
+61-7	7931-7932	/	_	_	
+61-8	7932-7949	ontonotes_scripts	_	_	
+61-9	7949-7950	/	_	_	
+61-10	7950-7979	train.ontonotes.withdep.conll	_	_	
+61-11	7982-7990	dev_path	_	_	
+61-12	7990-7991	:	_	_	
+61-13	7992-7993	&	_	_	
+61-14	7993-8002	iddevpath	_	_	
+61-15	8003-8010	scripts	_	_	
+61-16	8010-8011	/	_	_	
+61-17	8011-8028	ontonotes_scripts	_	_	
+61-18	8028-8029	/	_	_	
+61-19	8029-8056	dev.ontonotes.withdep.conll	_	_	
+61-20	8059-8068	test_path	_	_	
+61-21	8068-8069	:	_	_	
+61-22	8070-8071	&	_	_	
+61-23	8071-8081	idtestpath	_	_	
+61-24	8082-8089	scripts	_	_	
+61-25	8089-8090	/	_	_	
+61-26	8090-8107	ontonotes_scripts	_	_	
+61-27	8107-8108	/	_	_	
+61-28	8108-8136	test.ontonotes.withdep.conll	_	_	
+61-29	8137-8138	`	_	_	
+61-30	8138-8139	`	_	_	
+61-31	8139-8140	`	_	_	
+61-32	8142-8146	Note	_	_	
+61-33	8147-8151	that	_	_	
+61-34	8152-8154	we	_	_	
+61-35	8155-8159	make	_	_	
+61-36	8160-8169	reference	_	_	
+61-37	8170-8173	ids	_	_	
+61-38	8174-8177	for	_	_	
+61-39	8178-8182	both	_	_	
+61-40	8183-8186	the	_	_	
+61-41	8187-8204	WholeDatasetCache	_	_	
+61-42	8205-8211	object	_	_	
+61-43	8212-8218	itself	_	_	
+61-44	8219-8222	and	_	_	
+61-45	8223-8226	for	_	_	
+61-46	8227-8230	the	_	_	
+61-47	8231-8232	`	_	_	
+61-48	8232-8233	{	_	_	
+61-49	8233-8238	train	_	_	
+61-50	8238-8239	,	_	_	
+61-51	8239-8242	dev	_	_	
+61-52	8242-8243	,	_	_	
+61-53	8243-8247	test	_	_	
+61-54	8247-8248	}	_	_	
+61-55	8248-8249	`	_	_	
+61-56	8250-8254	file	_	_	
+61-57	8255-8260	paths	_	_	
+61-58	8260-8261	,	_	_	
+61-59	8262-8264	so	_	_	
+61-60	8265-8267	we	_	_	
+61-61	8268-8271	can	_	_	
+61-62	8272-8275	use	_	_	
+61-63	8276-8281	these	_	_	
+61-64	8282-8287	later	_	_	
+61-65	8287-8288	.	_	_	
+61-66	8290-8291	#	_	_	
+61-67	8291-8292	#	_	_	
+61-68	8292-8293	#	_	_	
+61-69	8294-8305	disk_reader	_	_	
+61-70	8306-8309	The	_	_	
+61-71	8310-8311	`	_	_	
+61-72	8311-8317	Reader	_	_	
+61-73	8317-8318	`	_	_	
+61-74	8319-8326	objects	_	_	
+61-75	8327-8330	are	_	_	
+61-76	8331-8338	written	_	_	
+61-77	8339-8341	to	_	_	
+61-78	8342-8348	handle	_	_	
+61-79	8349-8352	the	_	_	
+61-80	8353-8361	oddities	_	_	
+61-81	8362-8364	of	_	_	
+61-82	8365-8366	a	_	_	
+61-83	8367-8372	given	_	_	
+61-84	8373-8381	filetype	_	_	
+61-85	8381-8382	.	_	_	
+
+#Text=The `OntonotesReader` object, for example, reads `conll` files, turning lines into sentences (given the `input_fields` object, above), while the `SST2Reader` object knows how to read `label\\TABtokenized_sentence` data, as given by the `SST2` task of the GLUE benchmark.
+#Text=
+#Text=```
+#Text=disk_reader: !
+62-1	8383-8386	The	_	_	
+62-2	8387-8388	`	_	_	
+62-3	8388-8403	OntonotesReader	_	_	
+62-4	8403-8404	`	_	_	
+62-5	8405-8411	object	_	_	
+62-6	8411-8412	,	_	_	
+62-7	8413-8416	for	_	_	
+62-8	8417-8424	example	_	_	
+62-9	8424-8425	,	_	_	
+62-10	8426-8431	reads	_	_	
+62-11	8432-8433	`	_	_	
+62-12	8433-8438	conll	_	_	
+62-13	8438-8439	`	_	_	
+62-14	8440-8445	files	_	_	
+62-15	8445-8446	,	_	_	
+62-16	8447-8454	turning	_	_	
+62-17	8455-8460	lines	_	_	
+62-18	8461-8465	into	_	_	
+62-19	8466-8475	sentences	_	_	
+62-20	8476-8477	(	_	_	
+62-21	8477-8482	given	_	_	
+62-22	8483-8486	the	_	_	
+62-23	8487-8488	`	_	_	
+62-24	8488-8500	input_fields	_	_	
+62-25	8500-8501	`	_	_	
+62-26	8502-8508	object	_	_	
+62-27	8508-8509	,	_	_	
+62-28	8510-8515	above	_	_	
+62-29	8515-8516	)	_	_	
+62-30	8516-8517	,	_	_	
+62-31	8518-8523	while	_	_	
+62-32	8524-8527	the	_	_	
+62-33	8528-8529	`	_	_	
+62-34	8529-8539	SST2Reader	_	_	
+62-35	8539-8540	`	_	_	
+62-36	8541-8547	object	_	_	
+62-37	8548-8553	knows	_	_	
+62-38	8554-8557	how	_	_	
+62-39	8558-8560	to	_	_	
+62-40	8561-8565	read	_	_	
+62-41	8566-8567	`	_	_	
+62-42	8567-8572	label	_	_	
+62-43	8572-8573	\	_	_	
+62-44	8573-8594	TABtokenized_sentence	_	_	
+62-45	8594-8595	`	_	_	
+62-46	8596-8600	data	_	_	
+62-47	8600-8601	,	_	_	
+62-48	8602-8604	as	_	_	
+62-49	8605-8610	given	_	_	
+62-50	8611-8613	by	_	_	
+62-51	8614-8617	the	_	_	
+62-52	8618-8619	`	_	_	
+62-53	8619-8623	SST2	_	_	
+62-54	8623-8624	`	_	_	
+62-55	8625-8629	task	_	_	
+62-56	8630-8632	of	_	_	
+62-57	8633-8636	the	_	_	
+62-58	8637-8641	GLUE	_	_	
+62-59	8642-8651	benchmark	_	_	
+62-60	8651-8652	.	_	_	
+62-61	8654-8655	`	_	_	
+62-62	8655-8656	`	_	_	
+62-63	8656-8657	`	_	_	
+62-64	8658-8669	disk_reader	_	_	
+62-65	8669-8670	:	_	_	
+62-66	8671-8672	!	_	_	
+
+#Text=OntonotesReader &id_disk_reader
+#Text=  args:
+#Text=    device: cpu
+#Text=  train_path: *idtrainpath 
+#Text=  dev_path: *iddevpath 
+#Text=  test_path: *idtestpath 
+#Text=```
+#Text=The `args` bit here is sort of a vestigal part of earlier code design; its only member, the `device`, is used whenver PyTorch objects are involved, to put tensors on the right device.
+63-1	8672-8687	OntonotesReader	_	_	
+63-2	8688-8689	&	_	_	
+63-3	8689-8703	id_disk_reader	_	_	
+63-4	8706-8710	args	_	_	
+63-5	8710-8711	:	_	_	
+63-6	8716-8722	device	_	_	
+63-7	8722-8723	:	_	_	
+63-8	8724-8727	cpu	_	_	
+63-9	8730-8740	train_path	_	_	
+63-10	8740-8741	:	_	_	
+63-11	8742-8743	*	_	_	
+63-12	8743-8754	idtrainpath	_	_	
+63-13	8758-8766	dev_path	_	_	
+63-14	8766-8767	:	_	_	
+63-15	8768-8769	*	_	_	
+63-16	8769-8778	iddevpath	_	_	
+63-17	8782-8791	test_path	_	_	
+63-18	8791-8792	:	_	_	
+63-19	8793-8794	*	_	_	
+63-20	8794-8804	idtestpath	_	_	
+63-21	8806-8807	`	_	_	
+63-22	8807-8808	`	_	_	
+63-23	8808-8809	`	_	_	
+63-24	8810-8813	The	_	_	
+63-25	8814-8815	`	_	_	
+63-26	8815-8819	args	_	_	
+63-27	8819-8820	`	_	_	
+63-28	8821-8824	bit	_	_	
+63-29	8825-8829	here	_	_	
+63-30	8830-8832	is	_	_	
+63-31	8833-8837	sort	_	_	
+63-32	8838-8840	of	_	_	
+63-33	8841-8842	a	_	_	
+63-34	8843-8851	vestigal	_	_	
+63-35	8852-8856	part	_	_	
+63-36	8857-8859	of	_	_	
+63-37	8860-8867	earlier	_	_	
+63-38	8868-8872	code	_	_	
+63-39	8873-8879	design	_	_	
+63-40	8879-8880	;	_	_	
+63-41	8881-8884	its	_	_	
+63-42	8885-8889	only	_	_	
+63-43	8890-8896	member	_	_	
+63-44	8896-8897	,	_	_	
+63-45	8898-8901	the	_	_	
+63-46	8902-8903	`	_	_	
+63-47	8903-8909	device	_	_	
+63-48	8909-8910	`	_	_	
+63-49	8910-8911	,	_	_	
+63-50	8912-8914	is	_	_	
+63-51	8915-8919	used	_	_	
+63-52	8920-8927	whenver	_	_	
+63-53	8928-8935	PyTorch	*	SOFTWARE	
+63-54	8936-8943	objects	_	_	
+63-55	8944-8947	are	_	_	
+63-56	8948-8956	involved	_	_	
+63-57	8956-8957	,	_	_	
+63-58	8958-8960	to	_	_	
+63-59	8961-8964	put	_	_	
+63-60	8965-8972	tensors	_	_	
+63-61	8973-8975	on	_	_	
+63-62	8976-8979	the	_	_	
+63-63	8980-8985	right	_	_	
+63-64	8986-8992	device	_	_	
+63-65	8992-8993	.	_	_	
+
+#Text=Note how it references the dataset filepaths that were registered in the cache part of the config.
+#Text=
+#Text=### dataset
+#Text=The `ListDataset` object is always the top-level object of the `dataset` key; its job is to gather together output labels, and all of the input types, concatenate together the input, and yield minibatches for training and evaluation.
+#Text=
+#Text=```
+#Text=dataset: !
+64-1	8994-8998	Note	_	_	
+64-2	8999-9002	how	_	_	
+64-3	9003-9005	it	_	_	
+64-4	9006-9016	references	_	_	
+64-5	9017-9020	the	_	_	
+64-6	9021-9028	dataset	_	_	
+64-7	9029-9038	filepaths	_	_	
+64-8	9039-9043	that	_	_	
+64-9	9044-9048	were	_	_	
+64-10	9049-9059	registered	_	_	
+64-11	9060-9062	in	_	_	
+64-12	9063-9066	the	_	_	
+64-13	9067-9072	cache	_	_	
+64-14	9073-9077	part	_	_	
+64-15	9078-9080	of	_	_	
+64-16	9081-9084	the	_	_	
+64-17	9085-9091	config	_	_	
+64-18	9091-9092	.	_	_	
+64-19	9094-9095	#	_	_	
+64-20	9095-9096	#	_	_	
+64-21	9096-9097	#	_	_	
+64-22	9098-9105	dataset	_	_	
+64-23	9106-9109	The	_	_	
+64-24	9110-9111	`	_	_	
+64-25	9111-9122	ListDataset	_	_	
+64-26	9122-9123	`	_	_	
+64-27	9124-9130	object	_	_	
+64-28	9131-9133	is	_	_	
+64-29	9134-9140	always	_	_	
+64-30	9141-9144	the	_	_	
+64-31	9145-9154	top-level	_	_	
+64-32	9155-9161	object	_	_	
+64-33	9162-9164	of	_	_	
+64-34	9165-9168	the	_	_	
+64-35	9169-9170	`	_	_	
+64-36	9170-9177	dataset	_	_	
+64-37	9177-9178	`	_	_	
+64-38	9179-9182	key	_	_	
+64-39	9182-9183	;	_	_	
+64-40	9184-9187	its	_	_	
+64-41	9188-9191	job	_	_	
+64-42	9192-9194	is	_	_	
+64-43	9195-9197	to	_	_	
+64-44	9198-9204	gather	_	_	
+64-45	9205-9213	together	_	_	
+64-46	9214-9220	output	_	_	
+64-47	9221-9227	labels	_	_	
+64-48	9227-9228	,	_	_	
+64-49	9229-9232	and	_	_	
+64-50	9233-9236	all	_	_	
+64-51	9237-9239	of	_	_	
+64-52	9240-9243	the	_	_	
+64-53	9244-9249	input	_	_	
+64-54	9250-9255	types	_	_	
+64-55	9255-9256	,	_	_	
+64-56	9257-9268	concatenate	_	_	
+64-57	9269-9277	together	_	_	
+64-58	9278-9281	the	_	_	
+64-59	9282-9287	input	_	_	
+64-60	9287-9288	,	_	_	
+64-61	9289-9292	and	_	_	
+64-62	9293-9298	yield	_	_	
+64-63	9299-9310	minibatches	_	_	
+64-64	9311-9314	for	_	_	
+64-65	9315-9323	training	_	_	
+64-66	9324-9327	and	_	_	
+64-67	9328-9338	evaluation	_	_	
+64-68	9338-9339	.	_	_	
+64-69	9341-9342	`	_	_	
+64-70	9342-9343	`	_	_	
+64-71	9343-9344	`	_	_	
+64-72	9345-9352	dataset	_	_	
+64-73	9352-9353	:	_	_	
+64-74	9354-9355	!	_	_	
+
+#Text=ListDataset
+#Text=  args:
+#Text=    device: cpu
+#Text=  data_loader: *id_disk_reader
+#Text=  output_dataset: !
+65-1	9355-9366	ListDataset	_	_	
+65-2	9369-9373	args	_	_	
+65-3	9373-9374	:	_	_	
+65-4	9379-9385	device	_	_	
+65-5	9385-9386	:	_	_	
+65-6	9387-9390	cpu	_	_	
+65-7	9393-9404	data_loader	_	_	
+65-8	9404-9405	:	_	_	
+65-9	9406-9407	*	_	_	
+65-10	9407-9421	id_disk_reader	_	_	
+65-11	9424-9438	output_dataset	_	_	
+65-12	9438-9439	:	_	_	
+65-13	9440-9441	!	_	_	
+
+#Text=AnnotationDataset
+#Text=    args:
+#Text=      device: cpu
+#Text=    task: !
+66-1	9441-9458	AnnotationDataset	_	_	
+66-2	9463-9467	args	_	_	
+66-3	9467-9468	:	_	_	
+66-4	9475-9481	device	_	_	
+66-5	9481-9482	:	_	_	
+66-6	9483-9486	cpu	_	_	
+66-7	9491-9495	task	_	_	
+66-8	9495-9496	:	_	_	
+66-9	9497-9498	!	_	_	
+
+#Text=TokenClassificationTask
+#Text=      args:
+#Text=        device: cpu
+#Text=      task_name: ptb_pos
+#Text=      input_fields: *id_input_fields
+#Text=  input_datasets:
+#Text=    - !
+67-1	9498-9521	TokenClassificationTask	_	_	
+67-2	9528-9532	args	_	_	
+67-3	9532-9533	:	_	_	
+67-4	9542-9548	device	_	_	
+67-5	9548-9549	:	_	_	
+67-6	9550-9553	cpu	_	_	
+67-7	9560-9569	task_name	_	_	
+67-8	9569-9570	:	_	_	
+67-9	9571-9578	ptb_pos	_	_	
+67-10	9585-9597	input_fields	_	_	
+67-11	9597-9598	:	_	_	
+67-12	9599-9600	*	_	_	
+67-13	9600-9615	id_input_fields	_	_	
+67-14	9618-9632	input_datasets	_	_	
+67-15	9632-9633	:	_	_	
+67-16	9638-9639	-	_	_	
+67-17	9640-9641	!	_	_	
+
+#Text=HuggingfaceData
+#Text=      args:
+#Text=        device: cpu
+#Text=        #model_string: &model1string google/bert_uncased_L-2_H-128_A-2
+#Text=      model_string: &model1string google/bert_uncased_L-4_H-128_A-2
+#Text=      cache: *id_cache
+#Text=  batch_size: 5 
+#Text=```
+#Text=It is given the `DataLoader` from above so it can read data from disk.
+68-1	9641-9656	HuggingfaceData	_	_	
+68-2	9663-9667	args	_	_	
+68-3	9667-9668	:	_	_	
+68-4	9677-9683	device	_	_	
+68-5	9683-9684	:	_	_	
+68-6	9685-9688	cpu	_	_	
+68-7	9697-9698	#	_	_	
+68-8	9698-9710	model_string	_	_	
+68-9	9710-9711	:	_	_	
+68-10	9712-9713	&	_	_	
+68-11	9713-9725	model1string	_	_	
+68-12	9726-9732	google	_	_	
+68-13	9732-9733	/	_	_	
+68-14	9733-9747	bert_uncased_L	_	_	
+68-15	9747-9748	-	_	_	
+68-16	9748-9749	2	_	_	
+68-17	9749-9750	_	_	_	
+68-18	9750-9751	H	_	_	
+68-19	9751-9752	-	_	_	
+68-20	9752-9755	128	_	_	
+68-21	9755-9756	_	_	_	
+68-22	9756-9757	A	_	_	
+68-23	9757-9758	-	_	_	
+68-24	9758-9759	2	_	_	
+68-25	9766-9778	model_string	_	_	
+68-26	9778-9779	:	_	_	
+68-27	9780-9781	&	_	_	
+68-28	9781-9793	model1string	_	_	
+68-29	9794-9800	google	_	_	
+68-30	9800-9801	/	_	_	
+68-31	9801-9815	bert_uncased_L	_	_	
+68-32	9815-9816	-	_	_	
+68-33	9816-9817	4	_	_	
+68-34	9817-9818	_	_	_	
+68-35	9818-9819	H	_	_	
+68-36	9819-9820	-	_	_	
+68-37	9820-9823	128	_	_	
+68-38	9823-9824	_	_	_	
+68-39	9824-9825	A	_	_	
+68-40	9825-9826	-	_	_	
+68-41	9826-9827	2	_	_	
+68-42	9834-9839	cache	_	_	
+68-43	9839-9840	:	_	_	
+68-44	9841-9842	*	_	_	
+68-45	9842-9850	id_cache	_	_	
+68-46	9853-9863	batch_size	_	_	
+68-47	9863-9864	:	_	_	
+68-48	9865-9866	5	_	_	
+68-49	9868-9869	`	_	_	
+68-50	9869-9870	`	_	_	
+68-51	9870-9871	`	_	_	
+68-52	9872-9874	It	_	_	
+68-53	9875-9877	is	_	_	
+68-54	9878-9883	given	_	_	
+68-55	9884-9887	the	_	_	
+68-56	9888-9889	`	_	_	
+68-57	9889-9899	DataLoader	_	_	
+68-58	9899-9900	`	_	_	
+68-59	9901-9905	from	_	_	
+68-60	9906-9911	above	_	_	
+68-61	9912-9914	so	_	_	
+68-62	9915-9917	it	_	_	
+68-63	9918-9921	can	_	_	
+68-64	9922-9926	read	_	_	
+68-65	9927-9931	data	_	_	
+68-66	9932-9936	from	_	_	
+68-67	9937-9941	disk	_	_	
+68-68	9941-9942	.	_	_	
+
+#Text=It has a single specified `Dataset` for its output, here an `AnnotationDataset`.
+69-1	9943-9945	It	_	_	
+69-2	9946-9949	has	_	_	
+69-3	9950-9951	a	_	_	
+69-4	9952-9958	single	_	_	
+69-5	9959-9968	specified	_	_	
+69-6	9969-9970	`	_	_	
+69-7	9970-9977	Dataset	_	_	
+69-8	9977-9978	`	_	_	
+69-9	9979-9982	for	_	_	
+69-10	9983-9986	its	_	_	
+69-11	9987-9993	output	_	_	
+69-12	9993-9994	,	_	_	
+69-13	9995-9999	here	_	_	
+69-14	10000-10002	an	_	_	
+69-15	10003-10004	`	_	_	
+69-16	10004-10021	AnnotationDataset	_	_	
+69-17	10021-10022	`	_	_	
+69-18	10022-10023	.	_	_	
+
+#Text=The `AnnotationDataset` given here takes in a `Task` object -- here a `TokenClassificationTask`, to provide the labels for the output task. the `TokenClassificationTask` provides a label, using the `task_name` to pick out a column from the conll input file, as labeled by the `input_fields` list.
+70-1	10024-10027	The	_	_	
+70-2	10028-10029	`	_	_	
+70-3	10029-10046	AnnotationDataset	_	_	
+70-4	10046-10047	`	_	_	
+70-5	10048-10053	given	_	_	
+70-6	10054-10058	here	_	_	
+70-7	10059-10064	takes	_	_	
+70-8	10065-10067	in	_	_	
+70-9	10068-10069	a	_	_	
+70-10	10070-10071	`	_	_	
+70-11	10071-10075	Task	_	_	
+70-12	10075-10076	`	_	_	
+70-13	10077-10083	object	_	_	
+70-14	10084-10085	-	_	_	
+70-15	10085-10086	-	_	_	
+70-16	10087-10091	here	_	_	
+70-17	10092-10093	a	_	_	
+70-18	10094-10095	`	_	_	
+70-19	10095-10118	TokenClassificationTask	_	_	
+70-20	10118-10119	`	_	_	
+70-21	10119-10120	,	_	_	
+70-22	10121-10123	to	_	_	
+70-23	10124-10131	provide	_	_	
+70-24	10132-10135	the	_	_	
+70-25	10136-10142	labels	_	_	
+70-26	10143-10146	for	_	_	
+70-27	10147-10150	the	_	_	
+70-28	10151-10157	output	_	_	
+70-29	10158-10162	task	_	_	
+70-30	10162-10163	.	_	_	
+70-31	10164-10167	the	_	_	
+70-32	10168-10169	`	_	_	
+70-33	10169-10192	TokenClassificationTask	_	_	
+70-34	10192-10193	`	_	_	
+70-35	10194-10202	provides	_	_	
+70-36	10203-10204	a	_	_	
+70-37	10205-10210	label	_	_	
+70-38	10210-10211	,	_	_	
+70-39	10212-10217	using	_	_	
+70-40	10218-10221	the	_	_	
+70-41	10222-10223	`	_	_	
+70-42	10223-10232	task_name	_	_	
+70-43	10232-10233	`	_	_	
+70-44	10234-10236	to	_	_	
+70-45	10237-10241	pick	_	_	
+70-46	10242-10245	out	_	_	
+70-47	10246-10247	a	_	_	
+70-48	10248-10254	column	_	_	
+70-49	10255-10259	from	_	_	
+70-50	10260-10263	the	_	_	
+70-51	10264-10269	conll	_	_	
+70-52	10270-10275	input	_	_	
+70-53	10276-10280	file	_	_	
+70-54	10280-10281	,	_	_	
+70-55	10282-10284	as	_	_	
+70-56	10285-10292	labeled	_	_	
+70-57	10293-10295	by	_	_	
+70-58	10296-10299	the	_	_	
+70-59	10300-10301	`	_	_	
+70-60	10301-10313	input_fields	_	_	
+70-61	10313-10314	`	_	_	
+70-62	10315-10319	list	_	_	
+70-63	10319-10320	.	_	_	
+
+#Text=The `input_datasets` argument is a list of `Dataset` objects.
+71-1	10322-10325	The	_	_	
+71-2	10326-10327	`	_	_	
+71-3	10327-10341	input_datasets	_	_	
+71-4	10341-10342	`	_	_	
+71-5	10343-10351	argument	_	_	
+71-6	10352-10354	is	_	_	
+71-7	10355-10356	a	_	_	
+71-8	10357-10361	list	_	_	
+71-9	10362-10364	of	_	_	
+71-10	10365-10366	`	_	_	
+71-11	10366-10373	Dataset	_	_	
+71-12	10373-10374	`	_	_	
+71-13	10375-10382	objects	_	_	
+71-14	10382-10383	.	_	_	
+
+#Text=All of these datasets' representations are bundled together by the `ListDataset`.
+72-1	10384-10387	All	_	_	
+72-2	10388-10390	of	_	_	
+72-3	10391-10396	these	_	_	
+72-4	10397-10405	datasets	_	_	
+72-5	10405-10406	'	_	_	
+72-6	10407-10422	representations	_	_	
+72-7	10423-10426	are	_	_	
+72-8	10427-10434	bundled	_	_	
+72-9	10435-10443	together	_	_	
+72-10	10444-10446	by	_	_	
+72-11	10447-10450	the	_	_	
+72-12	10451-10452	`	_	_	
+72-13	10452-10463	ListDataset	_	_	
+72-14	10463-10464	`	_	_	
+72-15	10464-10465	.	_	_	
+
+#Text=Here, we only have one element in the list, a `HuggingfaceData` object, which runs the huggingface model specified by the `model_string`, but we could add a representation by adding another entry to the list.
+73-1	10466-10470	Here	_	_	
+73-2	10470-10471	,	_	_	
+73-3	10472-10474	we	_	_	
+73-4	10475-10479	only	_	_	
+73-5	10480-10484	have	_	_	
+73-6	10485-10488	one	_	_	
+73-7	10489-10496	element	_	_	
+73-8	10497-10499	in	_	_	
+73-9	10500-10503	the	_	_	
+73-10	10504-10508	list	_	_	
+73-11	10508-10509	,	_	_	
+73-12	10510-10511	a	_	_	
+73-13	10512-10513	`	_	_	
+73-14	10513-10528	HuggingfaceData	_	_	
+73-15	10528-10529	`	_	_	
+73-16	10530-10536	object	_	_	
+73-17	10536-10537	,	_	_	
+73-18	10538-10543	which	_	_	
+73-19	10544-10548	runs	_	_	
+73-20	10549-10552	the	_	_	
+73-21	10553-10564	huggingface	_	_	
+73-22	10565-10570	model	_	_	
+73-23	10571-10580	specified	_	_	
+73-24	10581-10583	by	_	_	
+73-25	10584-10587	the	_	_	
+73-26	10588-10589	`	_	_	
+73-27	10589-10601	model_string	_	_	
+73-28	10601-10602	`	_	_	
+73-29	10602-10603	,	_	_	
+73-30	10604-10607	but	_	_	
+73-31	10608-10610	we	_	_	
+73-32	10611-10616	could	_	_	
+73-33	10617-10620	add	_	_	
+73-34	10621-10622	a	_	_	
+73-35	10623-10637	representation	_	_	
+73-36	10638-10640	by	_	_	
+73-37	10641-10647	adding	_	_	
+73-38	10648-10655	another	_	_	
+73-39	10656-10661	entry	_	_	
+73-40	10662-10664	to	_	_	
+73-41	10665-10668	the	_	_	
+73-42	10669-10673	list	_	_	
+73-43	10673-10674	.	_	_	
+
+#Text=The `HuggingfaceData` tokens and subword-to-corpus token alignment matrices will be read or written according to the `cache` given.
+74-1	10675-10678	The	_	_	
+74-2	10679-10680	`	_	_	
+74-3	10680-10695	HuggingfaceData	_	_	
+74-4	10695-10696	`	_	_	
+74-5	10697-10703	tokens	_	_	
+74-6	10704-10707	and	_	_	
+74-7	10708-10725	subword-to-corpus	_	_	
+74-8	10726-10731	token	_	_	
+74-9	10732-10741	alignment	_	_	
+74-10	10742-10750	matrices	_	_	
+74-11	10751-10755	will	_	_	
+74-12	10756-10758	be	_	_	
+74-13	10759-10763	read	_	_	
+74-14	10764-10766	or	_	_	
+74-15	10767-10774	written	_	_	
+74-16	10775-10784	according	_	_	
+74-17	10785-10787	to	_	_	
+74-18	10788-10791	the	_	_	
+74-19	10792-10793	`	_	_	
+74-20	10793-10798	cache	_	_	
+74-21	10798-10799	`	_	_	
+74-22	10800-10805	given	_	_	
+74-23	10805-10806	.	_	_	
+
+#Text=The `Dataset` generates (subword) tokens and alignment matrices, or label indices -- whatever a model needs as input.
+75-1	10808-10811	The	_	_	
+75-2	10812-10813	`	_	_	
+75-3	10813-10820	Dataset	_	_	
+75-4	10820-10821	`	_	_	
+75-5	10822-10831	generates	_	_	
+75-6	10832-10833	(	_	_	
+75-7	10833-10840	subword	_	_	
+75-8	10840-10841	)	_	_	
+75-9	10842-10848	tokens	_	_	
+75-10	10849-10852	and	_	_	
+75-11	10853-10862	alignment	_	_	
+75-12	10863-10871	matrices	_	_	
+75-13	10871-10872	,	_	_	
+75-14	10873-10875	or	_	_	
+75-15	10876-10881	label	_	_	
+75-16	10882-10889	indices	_	_	
+75-17	10890-10891	-	_	_	
+75-18	10891-10892	-	_	_	
+75-19	10893-10901	whatever	_	_	
+75-20	10902-10903	a	_	_	
+75-21	10904-10909	model	_	_	
+75-22	10910-10915	needs	_	_	
+75-23	10916-10918	as	_	_	
+75-24	10919-10924	input	_	_	
+75-25	10924-10925	.	_	_	
+
+#Text=Note that tasks like part-of-speech and dependency label, which have independent token-level labels, are easily exchangable in the `TokenClassificationTask`.
+76-1	10927-10931	Note	_	_	
+76-2	10932-10936	that	_	_	
+76-3	10937-10942	tasks	_	_	
+76-4	10943-10947	like	_	_	
+76-5	10948-10962	part-of-speech	_	_	
+76-6	10963-10966	and	_	_	
+76-7	10967-10977	dependency	_	_	
+76-8	10978-10983	label	_	_	
+76-9	10983-10984	,	_	_	
+76-10	10985-10990	which	_	_	
+76-11	10991-10995	have	_	_	
+76-12	10996-11007	independent	_	_	
+76-13	11008-11019	token-level	_	_	
+76-14	11020-11026	labels	_	_	
+76-15	11026-11027	,	_	_	
+76-16	11028-11031	are	_	_	
+76-17	11032-11038	easily	_	_	
+76-18	11039-11050	exchangable	_	_	
+76-19	11051-11053	in	_	_	
+76-20	11054-11057	the	_	_	
+76-21	11058-11059	`	_	_	
+76-22	11059-11082	TokenClassificationTask	_	_	
+76-23	11082-11083	`	_	_	
+76-24	11083-11084	.	_	_	
+
+#Text=But to run a task like named entity recognition, with its specialized specification of entity-level annotation (and evaluation, later), specialized classes are needed, like `NERClassificationTask`.
+#Text=
+#Text=### model
+#Text=
+#Text=For each dataset in `input_datasets`, a corresponding model takes the raw tokens provided by a `Dataset`, and runs the corresponding model to turn the input into a representation.
+77-1	11085-11088	But	_	_	
+77-2	11089-11091	to	_	_	
+77-3	11092-11095	run	_	_	
+77-4	11096-11097	a	_	_	
+77-5	11098-11102	task	_	_	
+77-6	11103-11107	like	_	_	
+77-7	11108-11113	named	_	_	
+77-8	11114-11120	entity	_	_	
+77-9	11121-11132	recognition	_	_	
+77-10	11132-11133	,	_	_	
+77-11	11134-11138	with	_	_	
+77-12	11139-11142	its	_	_	
+77-13	11143-11154	specialized	_	_	
+77-14	11155-11168	specification	_	_	
+77-15	11169-11171	of	_	_	
+77-16	11172-11184	entity-level	_	_	
+77-17	11185-11195	annotation	_	_	
+77-18	11196-11197	(	_	_	
+77-19	11197-11200	and	_	_	
+77-20	11201-11211	evaluation	_	_	
+77-21	11211-11212	,	_	_	
+77-22	11213-11218	later	_	_	
+77-23	11218-11219	)	_	_	
+77-24	11219-11220	,	_	_	
+77-25	11221-11232	specialized	_	_	
+77-26	11233-11240	classes	_	_	
+77-27	11241-11244	are	_	_	
+77-28	11245-11251	needed	_	_	
+77-29	11251-11252	,	_	_	
+77-30	11253-11257	like	_	_	
+77-31	11258-11259	`	_	_	
+77-32	11259-11280	NERClassificationTask	_	_	
+77-33	11280-11281	`	_	_	
+77-34	11281-11282	.	_	_	
+77-35	11284-11285	#	_	_	
+77-36	11285-11286	#	_	_	
+77-37	11286-11287	#	_	_	
+77-38	11288-11293	model	_	_	
+77-39	11295-11298	For	_	_	
+77-40	11299-11303	each	_	_	
+77-41	11304-11311	dataset	_	_	
+77-42	11312-11314	in	_	_	
+77-43	11315-11316	`	_	_	
+77-44	11316-11330	input_datasets	_	_	
+77-45	11330-11331	`	_	_	
+77-46	11331-11332	,	_	_	
+77-47	11333-11334	a	_	_	
+77-48	11335-11348	corresponding	_	_	
+77-49	11349-11354	model	_	_	
+77-50	11355-11360	takes	_	_	
+77-51	11361-11364	the	_	_	
+77-52	11365-11368	raw	_	_	
+77-53	11369-11375	tokens	_	_	
+77-54	11376-11384	provided	_	_	
+77-55	11385-11387	by	_	_	
+77-56	11388-11389	a	_	_	
+77-57	11390-11391	`	_	_	
+77-58	11391-11398	Dataset	_	_	
+77-59	11398-11399	`	_	_	
+77-60	11399-11400	,	_	_	
+77-61	11401-11404	and	_	_	
+77-62	11405-11409	runs	_	_	
+77-63	11410-11413	the	_	_	
+77-64	11414-11427	corresponding	_	_	
+77-65	11428-11433	model	_	_	
+77-66	11434-11436	to	_	_	
+77-67	11437-11441	turn	_	_	
+77-68	11442-11445	the	_	_	
+77-69	11446-11451	input	_	_	
+77-70	11452-11456	into	_	_	
+77-71	11457-11458	a	_	_	
+77-72	11459-11473	representation	_	_	
+77-73	11473-11474	.	_	_	
+
+#Text=So, a `HuggingfaceData` above corresponds to a `HuggingfaceModel` here.
+#Text=
+#Text=```
+#Text=model: !
+78-1	11475-11477	So	_	_	
+78-2	11477-11478	,	_	_	
+78-3	11479-11480	a	_	_	
+78-4	11481-11482	`	_	_	
+78-5	11482-11497	HuggingfaceData	_	_	
+78-6	11497-11498	`	_	_	
+78-7	11499-11504	above	_	_	
+78-8	11505-11516	corresponds	_	_	
+78-9	11517-11519	to	_	_	
+78-10	11520-11521	a	_	_	
+78-11	11522-11523	`	_	_	
+78-12	11523-11539	HuggingfaceModel	_	_	
+78-13	11539-11540	`	_	_	
+78-14	11541-11545	here	_	_	
+78-15	11545-11546	.	_	_	
+78-16	11548-11549	`	_	_	
+78-17	11549-11550	`	_	_	
+78-18	11550-11551	`	_	_	
+78-19	11552-11557	model	_	_	
+78-20	11557-11558	:	_	_	
+78-21	11559-11560	!	_	_	
+
+#Text=ListModel
+#Text=  args: 
+#Text=    device: cpu
+#Text=  models:
+#Text=    - !
+79-1	11560-11569	ListModel	_	_	
+79-2	11572-11576	args	_	_	
+79-3	11576-11577	:	_	_	
+79-4	11583-11589	device	_	_	
+79-5	11589-11590	:	_	_	
+79-6	11591-11594	cpu	_	_	
+79-7	11597-11603	models	_	_	
+79-8	11603-11604	:	_	_	
+79-9	11609-11610	-	_	_	
+79-10	11611-11612	!	_	_	
+
+#Text=HuggingfaceModel
+#Text=        args: 
+#Text=          device: cpu
+#Text=        model_string: *model1string
+#Text=        trainable: False
+#Text=        index: 1
+#Text=```
+#Text=The `HuggingfaceModel` class runs the transformer model, and provides the representations of the layer at index `index`.
+80-1	11612-11628	HuggingfaceModel	_	_	
+80-2	11637-11641	args	_	_	
+80-3	11641-11642	:	_	_	
+80-4	11654-11660	device	_	_	
+80-5	11660-11661	:	_	_	
+80-6	11662-11665	cpu	_	_	
+80-7	11674-11686	model_string	_	_	
+80-8	11686-11687	:	_	_	
+80-9	11688-11689	*	_	_	
+80-10	11689-11701	model1string	_	_	
+80-11	11710-11719	trainable	_	_	
+80-12	11719-11720	:	_	_	
+80-13	11721-11726	False	_	_	
+80-14	11735-11740	index	_	_	
+80-15	11740-11741	:	_	_	
+80-16	11742-11743	1	_	_	
+80-17	11744-11745	`	_	_	
+80-18	11745-11746	`	_	_	
+80-19	11746-11747	`	_	_	
+80-20	11748-11751	The	_	_	
+80-21	11752-11753	`	_	_	
+80-22	11753-11769	HuggingfaceModel	_	_	
+80-23	11769-11770	`	_	_	
+80-24	11771-11776	class	_	_	
+80-25	11777-11781	runs	_	_	
+80-26	11782-11785	the	_	_	
+80-27	11786-11797	transformer	_	_	
+80-28	11798-11803	model	_	_	
+80-29	11803-11804	,	_	_	
+80-30	11805-11808	and	_	_	
+80-31	11809-11817	provides	_	_	
+80-32	11818-11821	the	_	_	
+80-33	11822-11837	representations	_	_	
+80-34	11838-11840	of	_	_	
+80-35	11841-11844	the	_	_	
+80-36	11845-11850	layer	_	_	
+80-37	11851-11853	at	_	_	
+80-38	11854-11859	index	_	_	
+80-39	11860-11861	`	_	_	
+80-40	11861-11866	index	_	_	
+80-41	11866-11867	`	_	_	
+80-42	11867-11868	.	_	_	
+
+#Text=The `trainable` flag specifies whether to backprogate gradients back through the model and update its weights during training.
+#Text=
+#Text=### probe
+#Text=The `Probe` classes turn the representations given by `Model` classes into the logits of a distribution over the labels of the output task.
+#Text=
+#Text=```
+#Text=probe: !
+81-1	11869-11872	The	_	_	
+81-2	11873-11874	`	_	_	
+81-3	11874-11883	trainable	_	_	
+81-4	11883-11884	`	_	_	
+81-5	11885-11889	flag	_	_	
+81-6	11890-11899	specifies	_	_	
+81-7	11900-11907	whether	_	_	
+81-8	11908-11910	to	_	_	
+81-9	11911-11922	backprogate	_	_	
+81-10	11923-11932	gradients	_	_	
+81-11	11933-11937	back	_	_	
+81-12	11938-11945	through	_	_	
+81-13	11946-11949	the	_	_	
+81-14	11950-11955	model	_	_	
+81-15	11956-11959	and	_	_	
+81-16	11960-11966	update	_	_	
+81-17	11967-11970	its	_	_	
+81-18	11971-11978	weights	_	_	
+81-19	11979-11985	during	_	_	
+81-20	11986-11994	training	_	_	
+81-21	11994-11995	.	_	_	
+81-22	11997-11998	#	_	_	
+81-23	11998-11999	#	_	_	
+81-24	11999-12000	#	_	_	
+81-25	12001-12006	probe	_	_	
+81-26	12007-12010	The	_	_	
+81-27	12011-12012	`	_	_	
+81-28	12012-12017	Probe	_	_	
+81-29	12017-12018	`	_	_	
+81-30	12019-12026	classes	_	_	
+81-31	12027-12031	turn	_	_	
+81-32	12032-12035	the	_	_	
+81-33	12036-12051	representations	_	_	
+81-34	12052-12057	given	_	_	
+81-35	12058-12060	by	_	_	
+81-36	12061-12062	`	_	_	
+81-37	12062-12067	Model	_	_	
+81-38	12067-12068	`	_	_	
+81-39	12069-12076	classes	_	_	
+81-40	12077-12081	into	_	_	
+81-41	12082-12085	the	_	_	
+81-42	12086-12092	logits	_	_	
+81-43	12093-12095	of	_	_	
+81-44	12096-12097	a	_	_	
+81-45	12098-12110	distribution	_	_	
+81-46	12111-12115	over	_	_	
+81-47	12116-12119	the	_	_	
+81-48	12120-12126	labels	_	_	
+81-49	12127-12129	of	_	_	
+81-50	12130-12133	the	_	_	
+81-51	12134-12140	output	_	_	
+81-52	12141-12145	task	_	_	
+81-53	12145-12146	.	_	_	
+81-54	12148-12149	`	_	_	
+81-55	12149-12150	`	_	_	
+81-56	12150-12151	`	_	_	
+81-57	12152-12157	probe	_	_	
+81-58	12157-12158	:	_	_	
+81-59	12159-12160	!	_	_	
+
+#Text=OneWordLinearLabelProbe
+#Text=  args:
+#Text=    device: cpu
+#Text=  model_dim: 128
+#Text=  label_space_size: 50
+#Text=```
+#Text=Somewhat unfortunately, it needs to be explicitly told what input and output dimensionality to expect.
+#Text=
+#Text=### regimen
+#Text=The regimen specifies a training procedure, with learning rate decay, loss, etc.
+82-1	12160-12183	OneWordLinearLabelProbe	_	_	
+82-2	12186-12190	args	_	_	
+82-3	12190-12191	:	_	_	
+82-4	12196-12202	device	_	_	
+82-5	12202-12203	:	_	_	
+82-6	12204-12207	cpu	_	_	
+82-7	12210-12219	model_dim	_	_	
+82-8	12219-12220	:	_	_	
+82-9	12221-12224	128	_	_	
+82-10	12227-12243	label_space_size	_	_	
+82-11	12243-12244	:	_	_	
+82-12	12245-12247	50	_	_	
+82-13	12248-12249	`	_	_	
+82-14	12249-12250	`	_	_	
+82-15	12250-12251	`	_	_	
+82-16	12252-12260	Somewhat	_	_	
+82-17	12261-12274	unfortunately	_	_	
+82-18	12274-12275	,	_	_	
+82-19	12276-12278	it	_	_	
+82-20	12279-12284	needs	_	_	
+82-21	12285-12287	to	_	_	
+82-22	12288-12290	be	_	_	
+82-23	12291-12301	explicitly	_	_	
+82-24	12302-12306	told	_	_	
+82-25	12307-12311	what	_	_	
+82-26	12312-12317	input	_	_	
+82-27	12318-12321	and	_	_	
+82-28	12322-12328	output	_	_	
+82-29	12329-12343	dimensionality	_	_	
+82-30	12344-12346	to	_	_	
+82-31	12347-12353	expect	_	_	
+82-32	12353-12354	.	_	_	
+82-33	12356-12357	#	_	_	
+82-34	12357-12358	#	_	_	
+82-35	12358-12359	#	_	_	
+82-36	12360-12367	regimen	_	_	
+82-37	12368-12371	The	_	_	
+82-38	12372-12379	regimen	_	_	
+82-39	12380-12389	specifies	_	_	
+82-40	12390-12391	a	_	_	
+82-41	12392-12400	training	_	_	
+82-42	12401-12410	procedure	_	_	
+82-43	12410-12411	,	_	_	
+82-44	12412-12416	with	_	_	
+82-45	12417-12425	learning	_	_	
+82-46	12426-12430	rate	_	_	
+82-47	12431-12436	decay	_	_	
+82-48	12436-12437	,	_	_	
+82-49	12438-12442	loss	_	_	
+82-50	12442-12443	,	_	_	
+82-51	12444-12447	etc	_	_	
+82-52	12447-12448	.	_	_	
+
+#Text=Most of this is hard-coded right now to sane defaults.
+#Text=
+#Text=```
+#Text=regimen: !
+83-1	12449-12453	Most	_	_	
+83-2	12454-12456	of	_	_	
+83-3	12457-12461	this	_	_	
+83-4	12462-12464	is	_	_	
+83-5	12465-12475	hard-coded	_	_	
+83-6	12476-12481	right	_	_	
+83-7	12482-12485	now	_	_	
+83-8	12486-12488	to	_	_	
+83-9	12489-12493	sane	_	_	
+83-10	12494-12502	defaults	_	_	
+83-11	12502-12503	.	_	_	
+83-12	12505-12506	`	_	_	
+83-13	12506-12507	`	_	_	
+83-14	12507-12508	`	_	_	
+83-15	12509-12516	regimen	_	_	
+83-16	12516-12517	:	_	_	
+83-17	12518-12519	!	_	_	
+
+#Text=ProbeRegimen
+#Text=  args:
+#Text=    device: cpu
+#Text=  max_epochs: 50
+#Text=  params_path: params
+#Text=  reporting_root: &id_reporting_root example/pos-bert-base.yaml.results
+#Text=  eval_dev_every: 10
+#Text=```
+#Text=There's only one trainer as of now.
+84-1	12519-12531	ProbeRegimen	_	_	
+84-2	12534-12538	args	_	_	
+84-3	12538-12539	:	_	_	
+84-4	12544-12550	device	_	_	
+84-5	12550-12551	:	_	_	
+84-6	12552-12555	cpu	_	_	
+84-7	12558-12568	max_epochs	_	_	
+84-8	12568-12569	:	_	_	
+84-9	12570-12572	50	_	_	
+84-10	12575-12586	params_path	_	_	
+84-11	12586-12587	:	_	_	
+84-12	12588-12594	params	_	_	
+84-13	12597-12611	reporting_root	_	_	
+84-14	12611-12612	:	_	_	
+84-15	12613-12614	&	_	_	
+84-16	12614-12631	id_reporting_root	_	_	
+84-17	12632-12639	example	_	_	
+84-18	12639-12640	/	_	_	
+84-19	12640-12666	pos-bert-base.yaml.results	_	_	
+84-20	12669-12683	eval_dev_every	_	_	
+84-21	12683-12684	:	_	_	
+84-22	12685-12687	10	_	_	
+84-23	12688-12689	`	_	_	
+84-24	12689-12690	`	_	_	
+84-25	12690-12691	`	_	_	
+84-26	12692-12699	There's	_	_	
+84-27	12700-12704	only	_	_	
+84-28	12705-12708	one	_	_	
+84-29	12709-12716	trainer	_	_	
+84-30	12717-12719	as	_	_	
+84-31	12720-12722	of	_	_	
+84-32	12723-12726	now	_	_	
+84-33	12726-12727	.	_	_	
+
+#Text=By convention, I put results directories at `<path_to_config>.results`.
+85-1	12728-12730	By	_	_	
+85-2	12731-12741	convention	_	_	
+85-3	12741-12742	,	_	_	
+85-4	12743-12744	I	_	_	
+85-5	12745-12748	put	_	_	
+85-6	12749-12756	results	_	_	
+85-7	12757-12768	directories	_	_	
+85-8	12769-12771	at	_	_	
+85-9	12772-12773	`	_	_	
+85-10	12773-12774	<	_	_	
+85-11	12774-12788	path_to_config	_	_	
+85-12	12788-12789	>	_	_	
+85-13	12789-12790	.	_	_	
+85-14	12790-12797	results	_	_	
+85-15	12797-12798	`	_	_	
+85-16	12798-12799	.	_	_	
+
+#Text=The `params_path` is relative to `reporting_root`.
+#Text=
+#Text=### reproter
+#Text=The reporter class takes predictions at the end of training, and reports evaluation metrics.
+#Text=
+#Text=```
+#Text=reporter: !
+86-1	12800-12803	The	_	_	
+86-2	12804-12805	`	_	_	
+86-3	12805-12816	params_path	_	_	
+86-4	12816-12817	`	_	_	
+86-5	12818-12820	is	_	_	
+86-6	12821-12829	relative	_	_	
+86-7	12830-12832	to	_	_	
+86-8	12833-12834	`	_	_	
+86-9	12834-12848	reporting_root	_	_	
+86-10	12848-12849	`	_	_	
+86-11	12849-12850	.	_	_	
+86-12	12852-12853	#	_	_	
+86-13	12853-12854	#	_	_	
+86-14	12854-12855	#	_	_	
+86-15	12856-12864	reproter	_	_	
+86-16	12865-12868	The	_	_	
+86-17	12869-12877	reporter	_	_	
+86-18	12878-12883	class	_	_	
+86-19	12884-12889	takes	_	_	
+86-20	12890-12901	predictions	_	_	
+86-21	12902-12904	at	_	_	
+86-22	12905-12908	the	_	_	
+86-23	12909-12912	end	_	_	
+86-24	12913-12915	of	_	_	
+86-25	12916-12924	training	_	_	
+86-26	12924-12925	,	_	_	
+86-27	12926-12929	and	_	_	
+86-28	12930-12937	reports	_	_	
+86-29	12938-12948	evaluation	_	_	
+86-30	12949-12956	metrics	_	_	
+86-31	12956-12957	.	_	_	
+86-32	12959-12960	`	_	_	
+86-33	12960-12961	`	_	_	
+86-34	12961-12962	`	_	_	
+86-35	12963-12971	reporter	_	_	
+86-36	12971-12972	:	_	_	
+86-37	12973-12974	!	_	_	
+
+#Text=IndependentLabelReporter
+#Text=  args:
+#Text=    device: cpu
+#Text=  reporting_root: *id_reporting_root
+#Text=  reporting_methods:
+#Text=    - label_accuracy
+#Text=    - v_entropy
+#Text=```
+#Text=For each of the strings in `reporting_methods`, a reporter function (which is specified by a hard-coded map from reporting string to function) is run on the data.
+87-1	12974-12998	IndependentLabelReporter	_	_	
+87-2	13001-13005	args	_	_	
+87-3	13005-13006	:	_	_	
+87-4	13011-13017	device	_	_	
+87-5	13017-13018	:	_	_	
+87-6	13019-13022	cpu	_	_	
+87-7	13025-13039	reporting_root	_	_	
+87-8	13039-13040	:	_	_	
+87-9	13041-13042	*	_	_	
+87-10	13042-13059	id_reporting_root	_	_	
+87-11	13062-13079	reporting_methods	_	_	
+87-12	13079-13080	:	_	_	
+87-13	13085-13086	-	_	_	
+87-14	13087-13101	label_accuracy	_	_	
+87-15	13106-13107	-	_	_	
+87-16	13108-13117	v_entropy	_	_	
+87-17	13118-13119	`	_	_	
+87-18	13119-13120	`	_	_	
+87-19	13120-13121	`	_	_	
+87-20	13122-13125	For	_	_	
+87-21	13126-13130	each	_	_	
+87-22	13131-13133	of	_	_	
+87-23	13134-13137	the	_	_	
+87-24	13138-13145	strings	_	_	
+87-25	13146-13148	in	_	_	
+87-26	13149-13150	`	_	_	
+87-27	13150-13167	reporting_methods	_	_	
+87-28	13167-13168	`	_	_	
+87-29	13168-13169	,	_	_	
+87-30	13170-13171	a	_	_	
+87-31	13172-13180	reporter	_	_	
+87-32	13181-13189	function	_	_	
+87-33	13190-13191	(	_	_	
+87-34	13191-13196	which	_	_	
+87-35	13197-13199	is	_	_	
+87-36	13200-13209	specified	_	_	
+87-37	13210-13212	by	_	_	
+87-38	13213-13214	a	_	_	
+87-39	13215-13225	hard-coded	_	_	
+87-40	13226-13229	map	_	_	
+87-41	13230-13234	from	_	_	
+87-42	13235-13244	reporting	_	_	
+87-43	13245-13251	string	_	_	
+87-44	13252-13254	to	_	_	
+87-45	13255-13263	function	_	_	
+87-46	13263-13264	)	_	_	
+87-47	13265-13267	is	_	_	
+87-48	13268-13271	run	_	_	
+87-49	13272-13274	on	_	_	
+87-50	13275-13278	the	_	_	
+87-51	13279-13283	data	_	_	
+87-52	13283-13284	.	_	_	
+
+#Text=The result of the metric is written to `<reporting_root>/<split>.
+88-1	13285-13288	The	_	_	
+88-2	13289-13295	result	_	_	
+88-3	13296-13298	of	_	_	
+88-4	13299-13302	the	_	_	
+88-5	13303-13309	metric	_	_	
+88-6	13310-13312	is	_	_	
+88-7	13313-13320	written	_	_	
+88-8	13321-13323	to	_	_	
+88-9	13324-13325	`	_	_	
+88-10	13325-13326	<	_	_	
+88-11	13326-13340	reporting_root	_	_	
+88-12	13340-13341	>	_	_	
+88-13	13341-13342	/	_	_	
+88-14	13342-13343	<	_	_	
+88-15	13343-13348	split	_	_	
+88-16	13348-13349	>	_	_	
+88-17	13349-13350	.	_	_	
+
+#Text=<reporting_string>`.
+89-1	13350-13351	<	_	_	
+89-2	13351-13367	reporting_string	_	_	
+89-3	13367-13368	>	_	_	
+89-4	13368-13369	`	_	_	
+89-5	13369-13370	.	_	_	
+
+#Text=Note that some reporters and metrics are specialized to a task.
+90-1	13372-13376	Note	_	_	
+90-2	13377-13381	that	_	_	
+90-3	13382-13386	some	_	_	
+90-4	13387-13396	reporters	_	_	
+90-5	13397-13400	and	_	_	
+90-6	13401-13408	metrics	_	_	
+90-7	13409-13412	are	_	_	
+90-8	13413-13424	specialized	_	_	
+90-9	13425-13427	to	_	_	
+90-10	13428-13429	a	_	_	
+90-11	13430-13434	task	_	_	
+90-12	13434-13435	.	_	_	
+
+#Text=For example, SST2 has its own `SST2Reporter` (though it's really just a sentence-level classification reporter)
+#Text=and named entity recognition has its own `NERReporter`, which calls the Stanza library's NER evaluation script.
+#Text=
+#Text=
+#Text=## Config recipes
+#Text=
+#Text=### Replicating the EMNLP 2021 paper
+#Text=Take a look at our [CodaLab executable paper](https://worksheets.codalab.org/worksheets/0x46190ef741004a43a2676a3b46ea0c76) for the exact bash scripts we ran to reproduce all the numbers in the paper.
+91-1	13436-13439	For	_	_	
+91-2	13440-13447	example	_	_	
+91-3	13447-13448	,	_	_	
+91-4	13449-13453	SST2	_	_	
+91-5	13454-13457	has	_	_	
+91-6	13458-13461	its	_	_	
+91-7	13462-13465	own	_	_	
+91-8	13466-13467	`	_	_	
+91-9	13467-13479	SST2Reporter	_	_	
+91-10	13479-13480	`	_	_	
+91-11	13481-13482	(	_	_	
+91-12	13482-13488	though	_	_	
+91-13	13489-13493	it's	_	_	
+91-14	13494-13500	really	_	_	
+91-15	13501-13505	just	_	_	
+91-16	13506-13507	a	_	_	
+91-17	13508-13522	sentence-level	_	_	
+91-18	13523-13537	classification	_	_	
+91-19	13538-13546	reporter	_	_	
+91-20	13546-13547	)	_	_	
+91-21	13548-13551	and	_	_	
+91-22	13552-13557	named	_	_	
+91-23	13558-13564	entity	_	_	
+91-24	13565-13576	recognition	_	_	
+91-25	13577-13580	has	_	_	
+91-26	13581-13584	its	_	_	
+91-27	13585-13588	own	_	_	
+91-28	13589-13590	`	_	_	
+91-29	13590-13601	NERReporter	_	_	
+91-30	13601-13602	`	_	_	
+91-31	13602-13603	,	_	_	
+91-32	13604-13609	which	_	_	
+91-33	13610-13615	calls	_	_	
+91-34	13616-13619	the	_	_	
+91-35	13620-13626	Stanza	_	_	
+91-36	13627-13636	library's	_	_	
+91-37	13637-13640	NER	_	_	
+91-38	13641-13651	evaluation	_	_	
+91-39	13652-13658	script	_	_	
+91-40	13658-13659	.	_	_	
+91-41	13662-13663	#	_	_	
+91-42	13663-13664	#	_	_	
+91-43	13665-13671	Config	_	_	
+91-44	13672-13679	recipes	_	_	
+91-45	13681-13682	#	_	_	
+91-46	13682-13683	#	_	_	
+91-47	13683-13684	#	_	_	
+91-48	13685-13696	Replicating	_	_	
+91-49	13697-13700	the	_	_	
+91-50	13701-13706	EMNLP	*[3]	CONFERENCE[3]	
+91-51	13707-13711	2021	*[3]	CONFERENCE[3]	
+91-52	13712-13717	paper	_	_	
+91-53	13718-13722	Take	_	_	
+91-54	13723-13724	a	_	_	
+91-55	13725-13729	look	_	_	
+91-56	13730-13732	at	_	_	
+91-57	13733-13736	our	_	_	
+91-58	13737-13738	[	_	_	
+91-59	13738-13745	CodaLab	_	_	
+91-60	13746-13756	executable	_	_	
+91-61	13757-13762	paper	_	_	
+91-62	13762-13763	]	_	_	
+91-63	13763-13764	(	_	_	
+91-64	13764-13769	https	_	_	
+91-65	13769-13770	:	_	_	
+91-66	13770-13771	/	_	_	
+91-67	13771-13772	/	_	_	
+91-68	13772-13794	worksheets.codalab.org	_	_	
+91-69	13794-13795	/	_	_	
+91-70	13795-13805	worksheets	_	_	
+91-71	13805-13806	/	_	_	
+91-72	13806-13840	0x46190ef741004a43a2676a3b46ea0c76	_	_	
+91-73	13840-13841	)	_	_	
+91-74	13842-13845	for	_	_	
+91-75	13846-13849	the	_	_	
+91-76	13850-13855	exact	_	_	
+91-77	13856-13860	bash	_	_	
+91-78	13861-13868	scripts	_	_	
+91-79	13869-13871	we	_	_	
+91-80	13872-13875	ran	_	_	
+91-81	13876-13878	to	_	_	
+91-82	13879-13888	reproduce	_	_	
+91-83	13889-13892	all	_	_	
+91-84	13893-13896	the	_	_	
+91-85	13897-13904	numbers	_	_	
+91-86	13905-13907	in	_	_	
+91-87	13908-13911	the	_	_	
+91-88	13912-13917	paper	_	_	
+91-89	13917-13918	.	_	_	
+
+#Text=The configs that govern each of the experiments are under
+#Text=
+#Text=        configs/codalab/round1/{task_name}/{roberta768,elmo}/layer-*.yaml
+#Text=
+#Text=where `task_name` is one of `ptb_pos, upos, dep_rel, named_entities, sst2`.
+#Text=
+#Text=### Named Entity Recognition config recipe
+#Text=For an example of an NER config (e.g., using span-based eval), see
+#Text=
+#Text=        configs/round1/named_entities/roberta768/layer0.yaml
+#Text=
+#Text=### SST2 config recipe
+#Text=For an example of a sentiment config (e.g., averaging the word embeddings for a sentence embedding), see
+#Text=
+#Text=        configs/round1/sst2/roberta768/layer0.yaml
+#Text=
+#Text=# Data preparation
+#Text=
+#Text=## Ontonotes
+#Text=
+#Text=See the `scripts/ontonotes_scripts` directory for notes on how we prep ontonotes.
+92-1	13919-13922	The	_	_	
+92-2	13923-13930	configs	_	_	
+92-3	13931-13935	that	_	_	
+92-4	13936-13942	govern	_	_	
+92-5	13943-13947	each	_	_	
+92-6	13948-13950	of	_	_	
+92-7	13951-13954	the	_	_	
+92-8	13955-13966	experiments	_	_	
+92-9	13967-13970	are	_	_	
+92-10	13971-13976	under	_	_	
+92-11	13986-13993	configs	_	_	
+92-12	13993-13994	/	_	_	
+92-13	13994-14001	codalab	_	_	
+92-14	14001-14002	/	_	_	
+92-15	14002-14008	round1	_	_	
+92-16	14008-14009	/	_	_	
+92-17	14009-14010	{	_	_	
+92-18	14010-14019	task_name	_	_	
+92-19	14019-14020	}	_	_	
+92-20	14020-14021	/	_	_	
+92-21	14021-14022	{	_	_	
+92-22	14022-14032	roberta768	_	_	
+92-23	14032-14033	,	_	_	
+92-24	14033-14037	elmo	_	_	
+92-25	14037-14038	}	_	_	
+92-26	14038-14039	/	_	_	
+92-27	14039-14044	layer	_	_	
+92-28	14044-14045	-	_	_	
+92-29	14045-14046	*	_	_	
+92-30	14046-14047	.	_	_	
+92-31	14047-14051	yaml	_	_	
+92-32	14053-14058	where	_	_	
+92-33	14059-14060	`	_	_	
+92-34	14060-14069	task_name	_	_	
+92-35	14069-14070	`	_	_	
+92-36	14071-14073	is	_	_	
+92-37	14074-14077	one	_	_	
+92-38	14078-14080	of	_	_	
+92-39	14081-14082	`	_	_	
+92-40	14082-14089	ptb_pos	_	_	
+92-41	14089-14090	,	_	_	
+92-42	14091-14095	upos	_	_	
+92-43	14095-14096	,	_	_	
+92-44	14097-14104	dep_rel	_	_	
+92-45	14104-14105	,	_	_	
+92-46	14106-14120	named_entities	_	_	
+92-47	14120-14121	,	_	_	
+92-48	14122-14126	sst2	_	_	
+92-49	14126-14127	`	_	_	
+92-50	14127-14128	.	_	_	
+92-51	14130-14131	#	_	_	
+92-52	14131-14132	#	_	_	
+92-53	14132-14133	#	_	_	
+92-54	14134-14139	Named	_	_	
+92-55	14140-14146	Entity	_	_	
+92-56	14147-14158	Recognition	_	_	
+92-57	14159-14165	config	_	_	
+92-58	14166-14172	recipe	_	_	
+92-59	14173-14176	For	_	_	
+92-60	14177-14179	an	_	_	
+92-61	14180-14187	example	_	_	
+92-62	14188-14190	of	_	_	
+92-63	14191-14193	an	_	_	
+92-64	14194-14197	NER	_	_	
+92-65	14198-14204	config	_	_	
+92-66	14205-14206	(	_	_	
+92-67	14206-14209	e.g	_	_	
+92-68	14209-14210	.	_	_	
+92-69	14210-14211	,	_	_	
+92-70	14212-14217	using	_	_	
+92-71	14218-14228	span-based	_	_	
+92-72	14229-14233	eval	_	_	
+92-73	14233-14234	)	_	_	
+92-74	14234-14235	,	_	_	
+92-75	14236-14239	see	_	_	
+92-76	14249-14256	configs	_	_	
+92-77	14256-14257	/	_	_	
+92-78	14257-14263	round1	_	_	
+92-79	14263-14264	/	_	_	
+92-80	14264-14278	named_entities	_	_	
+92-81	14278-14279	/	_	_	
+92-82	14279-14289	roberta768	_	_	
+92-83	14289-14290	/	_	_	
+92-84	14290-14296	layer0	_	_	
+92-85	14296-14297	.	_	_	
+92-86	14297-14301	yaml	_	_	
+92-87	14303-14304	#	_	_	
+92-88	14304-14305	#	_	_	
+92-89	14305-14306	#	_	_	
+92-90	14307-14311	SST2	_	_	
+92-91	14312-14318	config	_	_	
+92-92	14319-14325	recipe	_	_	
+92-93	14326-14329	For	_	_	
+92-94	14330-14332	an	_	_	
+92-95	14333-14340	example	_	_	
+92-96	14341-14343	of	_	_	
+92-97	14344-14345	a	_	_	
+92-98	14346-14355	sentiment	_	_	
+92-99	14356-14362	config	_	_	
+92-100	14363-14364	(	_	_	
+92-101	14364-14367	e.g	_	_	
+92-102	14367-14368	.	_	_	
+92-103	14368-14369	,	_	_	
+92-104	14370-14379	averaging	_	_	
+92-105	14380-14383	the	_	_	
+92-106	14384-14388	word	_	_	
+92-107	14389-14399	embeddings	_	_	
+92-108	14400-14403	for	_	_	
+92-109	14404-14405	a	_	_	
+92-110	14406-14414	sentence	_	_	
+92-111	14415-14424	embedding	_	_	
+92-112	14424-14425	)	_	_	
+92-113	14425-14426	,	_	_	
+92-114	14427-14430	see	_	_	
+92-115	14440-14447	configs	_	_	
+92-116	14447-14448	/	_	_	
+92-117	14448-14454	round1	_	_	
+92-118	14454-14455	/	_	_	
+92-119	14455-14459	sst2	_	_	
+92-120	14459-14460	/	_	_	
+92-121	14460-14470	roberta768	_	_	
+92-122	14470-14471	/	_	_	
+92-123	14471-14477	layer0	_	_	
+92-124	14477-14478	.	_	_	
+92-125	14478-14482	yaml	_	_	
+92-126	14484-14485	#	_	_	
+92-127	14486-14490	Data	_	_	
+92-128	14491-14502	preparation	_	_	
+92-129	14504-14505	#	_	_	
+92-130	14505-14506	#	_	_	
+92-131	14507-14516	Ontonotes	_	_	
+92-132	14518-14521	See	_	_	
+92-133	14522-14525	the	_	_	
+92-134	14526-14527	`	_	_	
+92-135	14527-14534	scripts	_	_	
+92-136	14534-14535	/	_	_	
+92-137	14535-14552	ontonotes_scripts	_	_	
+92-138	14552-14553	`	_	_	
+92-139	14554-14563	directory	_	_	
+92-140	14564-14567	for	_	_	
+92-141	14568-14573	notes	_	_	
+92-142	14574-14576	on	_	_	
+92-143	14577-14580	how	_	_	
+92-144	14581-14583	we	_	_	
+92-145	14584-14588	prep	_	_	
+92-146	14589-14598	ontonotes	_	_	
+92-147	14598-14599	.	_	_	
+
+#Text=The scripts we use exactly recreate the splits of [Strubell et al., 2017](https://arxiv.org/pdf/1702.02098.pdf), a well-used split that, due to changes in preprocessing script versioning and link rot over the years of CoNLL and Ontonotes, had become (to us) difficult to re-create.
+93-1	14600-14603	The	_	_	
+93-2	14604-14611	scripts	_	_	
+93-3	14612-14614	we	_	_	
+93-4	14615-14618	use	_	_	
+93-5	14619-14626	exactly	_	_	
+93-6	14627-14635	recreate	_	_	
+93-7	14636-14639	the	_	_	
+93-8	14640-14646	splits	_	_	
+93-9	14647-14649	of	_	_	
+93-10	14650-14651	[	_	_	
+93-11	14651-14659	Strubell	_	_	
+93-12	14660-14662	et	_	_	
+93-13	14663-14665	al	_	_	
+93-14	14665-14666	.	_	_	
+93-15	14666-14667	,	_	_	
+93-16	14668-14672	2017	_	_	
+93-17	14672-14673	]	_	_	
+93-18	14673-14674	(	_	_	
+93-19	14674-14679	https	_	_	
+93-20	14679-14680	:	_	_	
+93-21	14680-14681	/	_	_	
+93-22	14681-14682	/	_	_	
+93-23	14682-14691	arxiv.org	_	_	
+93-24	14691-14692	/	_	_	
+93-25	14692-14695	pdf	_	_	
+93-26	14695-14696	/	_	_	
+93-27	14696-14706	1702.02098	_	_	
+93-28	14706-14707	.	_	_	
+93-29	14707-14710	pdf	_	_	
+93-30	14710-14711	)	_	_	
+93-31	14711-14712	,	_	_	
+93-32	14713-14714	a	_	_	
+93-33	14715-14724	well-used	_	_	
+93-34	14725-14730	split	_	_	
+93-35	14731-14735	that	_	_	
+93-36	14735-14736	,	_	_	
+93-37	14737-14740	due	_	_	
+93-38	14741-14743	to	_	_	
+93-39	14744-14751	changes	_	_	
+93-40	14752-14754	in	_	_	
+93-41	14755-14768	preprocessing	_	_	
+93-42	14769-14775	script	_	_	
+93-43	14776-14786	versioning	_	_	
+93-44	14787-14790	and	_	_	
+93-45	14791-14795	link	_	_	
+93-46	14796-14799	rot	_	_	
+93-47	14800-14804	over	_	_	
+93-48	14805-14808	the	_	_	
+93-49	14809-14814	years	_	_	
+93-50	14815-14817	of	_	_	
+93-51	14818-14823	CoNLL	_	_	
+93-52	14824-14827	and	_	_	
+93-53	14828-14837	Ontonotes	_	_	
+93-54	14837-14838	,	_	_	
+93-55	14839-14842	had	_	_	
+93-56	14843-14849	become	_	_	
+93-57	14850-14851	(	_	_	
+93-58	14851-14853	to	_	_	
+93-59	14854-14856	us	_	_	
+93-60	14856-14857	)	_	_	
+93-61	14858-14867	difficult	_	_	
+93-62	14868-14870	to	_	_	
+93-63	14871-14880	re-create	_	_	
+93-64	14880-14881	.	_	_	
+
+#Text=As such, to the greatest extent possible, we just paste the exact scripts here instead of linking to them.
+94-1	14882-14884	As	_	_	
+94-2	14885-14889	such	_	_	
+94-3	14889-14890	,	_	_	
+94-4	14891-14893	to	_	_	
+94-5	14894-14897	the	_	_	
+94-6	14898-14906	greatest	_	_	
+94-7	14907-14913	extent	_	_	
+94-8	14914-14922	possible	_	_	
+94-9	14922-14923	,	_	_	
+94-10	14924-14926	we	_	_	
+94-11	14927-14931	just	_	_	
+94-12	14932-14937	paste	_	_	
+94-13	14938-14941	the	_	_	
+94-14	14942-14947	exact	_	_	
+94-15	14948-14955	scripts	_	_	
+94-16	14956-14960	here	_	_	
+94-17	14961-14968	instead	_	_	
+94-18	14969-14971	of	_	_	
+94-19	14972-14979	linking	_	_	
+94-20	14980-14982	to	_	_	
+94-21	14983-14987	them	_	_	
+94-22	14987-14988	.	_	_	
+
+#Text=If you just want the data, it's a few steps:
+#Text=
+#Text=Let `ldc_ontonotes_path` be the path to your LDC download of `Ontonotes 5.0`, that is, `LDC2013T19`.
+95-1	14990-14992	If	_	_	
+95-2	14993-14996	you	_	_	
+95-3	14997-15001	just	_	_	
+95-4	15002-15006	want	_	_	
+95-5	15007-15010	the	_	_	
+95-6	15011-15015	data	_	_	
+95-7	15015-15016	,	_	_	
+95-8	15017-15021	it's	_	_	
+95-9	15022-15023	a	_	_	
+95-10	15024-15027	few	_	_	
+95-11	15028-15033	steps	_	_	
+95-12	15033-15034	:	_	_	
+95-13	15036-15039	Let	_	_	
+95-14	15040-15041	`	_	_	
+95-15	15041-15059	ldc_ontonotes_path	_	_	
+95-16	15059-15060	`	_	_	
+95-17	15061-15063	be	_	_	
+95-18	15064-15067	the	_	_	
+95-19	15068-15072	path	_	_	
+95-20	15073-15075	to	_	_	
+95-21	15076-15080	your	_	_	
+95-22	15081-15084	LDC	_	_	
+95-23	15085-15093	download	_	_	
+95-24	15094-15096	of	_	_	
+95-25	15097-15098	`	_	_	
+95-26	15098-15107	Ontonotes	*[4]	DATASET[4]	
+95-27	15108-15111	5.0	*[4]	DATASET[4]	
+95-28	15111-15112	`	_	_	
+95-29	15112-15113	,	_	_	
+95-30	15114-15118	that	_	_	
+95-31	15119-15121	is	_	_	
+95-32	15121-15122	,	_	_	
+95-33	15123-15124	`	_	_	
+95-34	15124-15134	LDC2013T19	_	_	
+95-35	15134-15135	`	_	_	
+95-36	15135-15136	.	_	_	
+
+#Text=Mine looks like `/scr/corpora/ldc/2013/LDC2013T19/ontonotes-release-5.0/data/files/data/`.
+96-1	15137-15141	Mine	_	_	
+96-2	15142-15147	looks	_	_	
+96-3	15148-15152	like	_	_	
+96-4	15153-15154	`	_	_	
+96-5	15154-15155	/	_	_	
+96-6	15155-15158	scr	_	_	
+96-7	15158-15159	/	_	_	
+96-8	15159-15166	corpora	_	_	
+96-9	15166-15167	/	_	_	
+96-10	15167-15170	ldc	_	_	
+96-11	15170-15171	/	_	_	
+96-12	15171-15175	2013	_	_	
+96-13	15175-15176	/	_	_	
+96-14	15176-15186	LDC2013T19	_	_	
+96-15	15186-15187	/	_	_	
+96-16	15187-15204	ontonotes-release	*[5]	DATASET[5]	
+96-17	15204-15205	-	*[5]	DATASET[5]	
+96-18	15205-15208	5.0	*[5]	DATASET[5]	
+96-19	15208-15209	/	_	_	
+96-20	15209-15213	data	_	_	
+96-21	15213-15214	/	_	_	
+96-22	15214-15219	files	_	_	
+96-23	15219-15220	/	_	_	
+96-24	15220-15224	data	_	_	
+96-25	15224-15225	/	_	_	
+96-26	15225-15226	`	_	_	
+96-27	15226-15227	.	_	_	
+
+#Text=Unfortunately, we can't host this for you.
+97-1	15228-15241	Unfortunately	_	_	
+97-2	15241-15242	,	_	_	
+97-3	15243-15245	we	_	_	
+97-4	15246-15251	can't	_	_	
+97-5	15252-15256	host	_	_	
+97-6	15257-15261	this	_	_	
+97-7	15262-15265	for	_	_	
+97-8	15266-15269	you	_	_	
+97-9	15269-15270	.	_	_	
+
+#Text=Next, due to some regrettable firewalling, our script to download the train/dev/test split information fails, so you have to navigate via a browser to:
+#Text=
+#Text=      https://cemantix.org/conll/2012/download/
+#Text=
+#Text=and manually download `conll-2012-train.v4.tar.gz`, `conll-2012-development.v4.tar.gz`, and then navigate to the `test` folder and download `conll-2012-test-key.tar.gz`.
+98-1	15272-15276	Next	_	_	
+98-2	15276-15277	,	_	_	
+98-3	15278-15281	due	_	_	
+98-4	15282-15284	to	_	_	
+98-5	15285-15289	some	_	_	
+98-6	15290-15301	regrettable	_	_	
+98-7	15302-15313	firewalling	_	_	
+98-8	15313-15314	,	_	_	
+98-9	15315-15318	our	_	_	
+98-10	15319-15325	script	_	_	
+98-11	15326-15328	to	_	_	
+98-12	15329-15337	download	_	_	
+98-13	15338-15341	the	_	_	
+98-14	15342-15347	train	_	_	
+98-15	15347-15348	/	_	_	
+98-16	15348-15351	dev	_	_	
+98-17	15351-15352	/	_	_	
+98-18	15352-15356	test	_	_	
+98-19	15357-15362	split	_	_	
+98-20	15363-15374	information	_	_	
+98-21	15375-15380	fails	_	_	
+98-22	15380-15381	,	_	_	
+98-23	15382-15384	so	_	_	
+98-24	15385-15388	you	_	_	
+98-25	15389-15393	have	_	_	
+98-26	15394-15396	to	_	_	
+98-27	15397-15405	navigate	_	_	
+98-28	15406-15409	via	_	_	
+98-29	15410-15411	a	_	_	
+98-30	15412-15419	browser	_	_	
+98-31	15420-15422	to	_	_	
+98-32	15422-15423	:	_	_	
+98-33	15431-15436	https	_	_	
+98-34	15436-15437	:	_	_	
+98-35	15437-15438	/	_	_	
+98-36	15438-15439	/	_	_	
+98-37	15439-15451	cemantix.org	_	_	
+98-38	15451-15452	/	_	_	
+98-39	15452-15457	conll	*	CONFERENCE	
+98-40	15457-15458	/	_	_	
+98-41	15458-15462	2012	_	_	
+98-42	15462-15463	/	_	_	
+98-43	15463-15471	download	_	_	
+98-44	15471-15472	/	_	_	
+98-45	15474-15477	and	_	_	
+98-46	15478-15486	manually	_	_	
+98-47	15487-15495	download	_	_	
+98-48	15496-15497	`	_	_	
+98-49	15497-15502	conll	*[6]	DATASET[6]	
+98-50	15502-15503	-	*[6]	DATASET[6]	
+98-51	15503-15507	2012	*[6]	DATASET[6]	
+98-52	15507-15508	-	*[6]	DATASET[6]	
+98-53	15508-15516	train.v4	*[6]	DATASET[6]	
+98-54	15516-15517	.	_	_	
+98-55	15517-15523	tar.gz	_	_	
+98-56	15523-15524	`	_	_	
+98-57	15524-15525	,	_	_	
+98-58	15526-15527	`	_	_	
+98-59	15527-15532	conll	*[7]	DATASET[7]	
+98-60	15532-15533	-	*[7]	DATASET[7]	
+98-61	15533-15537	2012	*[7]	DATASET[7]	
+98-62	15537-15538	-	*[7]	DATASET[7]	
+98-63	15538-15552	development.v4	*[7]	DATASET[7]	
+98-64	15552-15553	.	_	_	
+98-65	15553-15559	tar.gz	_	_	
+98-66	15559-15560	`	_	_	
+98-67	15560-15561	,	_	_	
+98-68	15562-15565	and	_	_	
+98-69	15566-15570	then	_	_	
+98-70	15571-15579	navigate	_	_	
+98-71	15580-15582	to	_	_	
+98-72	15583-15586	the	_	_	
+98-73	15587-15588	`	_	_	
+98-74	15588-15592	test	_	_	
+98-75	15592-15593	`	_	_	
+98-76	15594-15600	folder	_	_	
+98-77	15601-15604	and	_	_	
+98-78	15605-15613	download	_	_	
+98-79	15614-15615	`	_	_	
+98-80	15615-15620	conll	*[8]	DATASET[8]	
+98-81	15620-15621	-	*[8]	DATASET[8]	
+98-82	15621-15625	2012	*[8]	DATASET[8]	
+98-83	15625-15626	-	*[8]	DATASET[8]	
+98-84	15626-15641	test-key.tar.gz	_	_	
+98-84.1	15626-15630	test	*[8]	DATASET[8]	
+98-85	15641-15642	`	_	_	
+98-86	15642-15643	.	_	_	
+
+#Text=Place these files in the `scripts/ontonotes_scripts/` directory of this repository.
+99-1	15644-15649	Place	_	_	
+99-2	15650-15655	these	_	_	
+99-3	15656-15661	files	_	_	
+99-4	15662-15664	in	_	_	
+99-5	15665-15668	the	_	_	
+99-6	15669-15670	`	_	_	
+99-7	15670-15677	scripts	_	_	
+99-8	15677-15678	/	_	_	
+99-9	15678-15695	ontonotes_scripts	_	_	
+99-9.1	15678-15687	ontonotes	*	DATASET	
+99-10	15695-15696	/	_	_	
+99-11	15696-15697	`	_	_	
+99-12	15698-15707	directory	_	_	
+99-13	15708-15710	of	_	_	
+99-14	15711-15715	this	_	_	
+99-15	15716-15726	repository	_	_	
+99-16	15726-15727	.	_	_	
+
+#Text=Now, run
+#Text=
+#Text=```
+#Text=cd scripts/ontonotes_scripts
+#Text=ldc_ontonotes_path=/scr/corpora/ldc/2013/LDC2013T19/ontonotes-release-5.0/data/files/data/
+#Text=bash prep_ontonotes_v4.sh $ldc_onotonotes_path
+#Text=```
+#Text=
+#Text=Nice.
+100-1	15729-15732	Now	_	_	
+100-2	15732-15733	,	_	_	
+100-3	15734-15737	run	_	_	
+100-4	15739-15740	`	_	_	
+100-5	15740-15741	`	_	_	
+100-6	15741-15742	`	_	_	
+100-7	15743-15745	cd	_	_	
+100-8	15746-15753	scripts	_	_	
+100-9	15753-15754	/	_	_	
+100-10	15754-15771	ontonotes_scripts	_	_	
+100-11	15772-15790	ldc_ontonotes_path	_	_	
+100-11.1	15776-15785	ontonotes	*	DATASET	
+100-12	15790-15791	=	_	_	
+100-13	15791-15792	/	_	_	
+100-14	15792-15795	scr	_	_	
+100-15	15795-15796	/	_	_	
+100-16	15796-15803	corpora	_	_	
+100-17	15803-15804	/	_	_	
+100-18	15804-15807	ldc	_	_	
+100-19	15807-15808	/	_	_	
+100-20	15808-15812	2013	_	_	
+100-21	15812-15813	/	_	_	
+100-22	15813-15823	LDC2013T19	_	_	
+100-23	15823-15824	/	_	_	
+100-24	15824-15841	ontonotes-release	*[9]	DATASET[9]	
+100-25	15841-15842	-	*[9]	DATASET[9]	
+100-26	15842-15845	5.0	*[9]	DATASET[9]	
+100-27	15845-15846	/	_	_	
+100-28	15846-15850	data	_	_	
+100-29	15850-15851	/	_	_	
+100-30	15851-15856	files	_	_	
+100-31	15856-15857	/	_	_	
+100-32	15857-15861	data	_	_	
+100-33	15861-15862	/	_	_	
+100-34	15863-15867	bash	*	SOFTWARE	
+100-35	15868-15885	prep_ontonotes_v4	_	_	
+100-35.1	15873-15882	ontonotes	*	DATASET	
+100-36	15885-15886	.	_	_	
+100-37	15886-15888	sh	_	_	
+100-38	15889-15890	$	_	_	
+100-39	15890-15909	ldc_onotonotes_path	_	_	
+100-39.1	15894-15904	onotonotes	*	DATASET	
+100-40	15910-15911	`	_	_	
+100-41	15911-15912	`	_	_	
+100-42	15912-15913	`	_	_	
+100-43	15915-15919	Nice	_	_	
+100-44	15919-15920	.	_	_	
+
+#Text=Statistics:
+#Text=
+#Text=|                     | Train     | Dev     | Test    |
+#Text=|---------------------|-----------|---------|---------|
+#Text=| Sentences           |  59,924   | 8,528   | 8,262   |
+#Text=| Tokens              | 1,088,503 | 147,724 | 152,728 |
+#Text=
+#Text=# Citation
+#Text=
+#Text=If you use this repository, please cite:
+#Text=
+#Text=      @InProceedings{hewitt2021conditional,
+#Text=        author =      "Hewitt, John and Ethayarajh, Kawin and Liang, Percy and Manning, Christopher D.",
+#Text=        title =       "Conditional probing: measuring usable information beyond a baseline",
+#Text=        booktitle =   "Conference on Empirical Methods in Natural Language Processing",
+#Text=        year =        "2021",
+#Text=        publisher =   "Association for Computational Linguistics",
+#Text=        location =    "Punta Cana, Dominican Republic",
+#Text=      }
+101-1	15923-15933	Statistics	_	_	
+101-2	15933-15934	:	_	_	
+101-3	15936-15937	|	_	_	
+101-4	15958-15959	|	_	_	
+101-5	15960-15965	Train	_	_	
+101-6	15970-15971	|	_	_	
+101-7	15972-15975	Dev	_	_	
+101-8	15980-15981	|	_	_	
+101-9	15982-15986	Test	_	_	
+101-10	15990-15991	|	_	_	
+101-11	15992-15993	|	_	_	
+101-12	15993-15994	-	_	_	
+101-13	15994-15995	-	_	_	
+101-14	15995-15996	-	_	_	
+101-15	15996-15997	-	_	_	
+101-16	15997-15998	-	_	_	
+101-17	15998-15999	-	_	_	
+101-18	15999-16000	-	_	_	
+101-19	16000-16001	-	_	_	
+101-20	16001-16002	-	_	_	
+101-21	16002-16003	-	_	_	
+101-22	16003-16004	-	_	_	
+101-23	16004-16005	-	_	_	
+101-24	16005-16006	-	_	_	
+101-25	16006-16007	-	_	_	
+101-26	16007-16008	-	_	_	
+101-27	16008-16009	-	_	_	
+101-28	16009-16010	-	_	_	
+101-29	16010-16011	-	_	_	
+101-30	16011-16012	-	_	_	
+101-31	16012-16013	-	_	_	
+101-32	16013-16014	-	_	_	
+101-33	16014-16015	|	_	_	
+101-34	16015-16016	-	_	_	
+101-35	16016-16017	-	_	_	
+101-36	16017-16018	-	_	_	
+101-37	16018-16019	-	_	_	
+101-38	16019-16020	-	_	_	
+101-39	16020-16021	-	_	_	
+101-40	16021-16022	-	_	_	
+101-41	16022-16023	-	_	_	
+101-42	16023-16024	-	_	_	
+101-43	16024-16025	-	_	_	
+101-44	16025-16026	-	_	_	
+101-45	16026-16027	|	_	_	
+101-46	16027-16028	-	_	_	
+101-47	16028-16029	-	_	_	
+101-48	16029-16030	-	_	_	
+101-49	16030-16031	-	_	_	
+101-50	16031-16032	-	_	_	
+101-51	16032-16033	-	_	_	
+101-52	16033-16034	-	_	_	
+101-53	16034-16035	-	_	_	
+101-54	16035-16036	-	_	_	
+101-55	16036-16037	|	_	_	
+101-56	16037-16038	-	_	_	
+101-57	16038-16039	-	_	_	
+101-58	16039-16040	-	_	_	
+101-59	16040-16041	-	_	_	
+101-60	16041-16042	-	_	_	
+101-61	16042-16043	-	_	_	
+101-62	16043-16044	-	_	_	
+101-63	16044-16045	-	_	_	
+101-64	16045-16046	-	_	_	
+101-65	16046-16047	|	_	_	
+101-66	16048-16049	|	_	_	
+101-67	16050-16059	Sentences	_	_	
+101-68	16070-16071	|	_	_	
+101-69	16073-16079	59,924	_	_	
+101-70	16082-16083	|	_	_	
+101-71	16084-16089	8,528	_	_	
+101-72	16092-16093	|	_	_	
+101-73	16094-16099	8,262	_	_	
+101-74	16102-16103	|	_	_	
+101-75	16104-16105	|	_	_	
+101-76	16106-16112	Tokens	_	_	
+101-77	16126-16127	|	_	_	
+101-78	16128-16137	1,088,503	_	_	
+101-79	16138-16139	|	_	_	
+101-80	16140-16147	147,724	_	_	
+101-81	16148-16149	|	_	_	
+101-82	16150-16157	152,728	_	_	
+101-83	16158-16159	|	_	_	
+101-84	16161-16162	#	_	_	
+101-85	16163-16171	Citation	_	_	
+101-86	16173-16175	If	_	_	
+101-87	16176-16179	you	_	_	
+101-88	16180-16183	use	_	_	
+101-89	16184-16188	this	_	_	
+101-90	16189-16199	repository	_	_	
+101-91	16199-16200	,	_	_	
+101-92	16201-16207	please	_	_	
+101-93	16208-16212	cite	_	_	
+101-94	16212-16213	:	_	_	
+101-95	16221-16222	@	_	_	
+101-96	16222-16235	InProceedings	_	_	
+101-97	16235-16236	{	_	_	
+101-98	16236-16257	hewitt2021conditional	_	_	
+101-99	16257-16258	,	_	_	
+101-100	16267-16273	author	_	_	
+101-101	16274-16275	=	_	_	
+101-102	16281-16282	"	_	_	
+101-103	16282-16288	Hewitt	_	_	
+101-104	16288-16289	,	_	_	
+101-105	16290-16294	John	_	_	
+101-106	16295-16298	and	_	_	
+101-107	16299-16309	Ethayarajh	_	_	
+101-108	16309-16310	,	_	_	
+101-109	16311-16316	Kawin	_	_	
+101-110	16317-16320	and	_	_	
+101-111	16321-16326	Liang	_	_	
+101-112	16326-16327	,	_	_	
+101-113	16328-16333	Percy	_	_	
+101-114	16334-16337	and	_	_	
+101-115	16338-16345	Manning	_	_	
+101-116	16345-16346	,	_	_	
+101-117	16347-16358	Christopher	_	_	
+101-118	16359-16360	D	_	_	
+101-119	16360-16361	.	_	_	
+101-120	16361-16362	"	_	_	
+101-121	16362-16363	,	_	_	
+101-122	16372-16377	title	_	_	
+101-123	16378-16379	=	_	_	
+101-124	16386-16387	"	_	_	
+101-125	16387-16398	Conditional	*[10]	PUBLICATION[10]	
+101-126	16399-16406	probing	*[10]	PUBLICATION[10]	
+101-127	16406-16407	:	*[10]	PUBLICATION[10]	
+101-128	16408-16417	measuring	*[10]	PUBLICATION[10]	
+101-129	16418-16424	usable	*[10]	PUBLICATION[10]	
+101-130	16425-16436	information	*[10]	PUBLICATION[10]	
+101-131	16437-16443	beyond	*[10]	PUBLICATION[10]	
+101-132	16444-16445	a	*[10]	PUBLICATION[10]	
+101-133	16446-16454	baseline	*[10]	PUBLICATION[10]	
+101-134	16454-16455	"	_	_	
+101-135	16455-16456	,	_	_	
+101-136	16465-16474	booktitle	_	_	
+101-137	16475-16476	=	_	_	
+101-138	16479-16480	"	_	_	
+101-139	16480-16490	Conference	*[11]	CONFERENCE[11]	
+101-140	16491-16493	on	*[11]	CONFERENCE[11]	
+101-141	16494-16503	Empirical	*[11]	CONFERENCE[11]	
+101-142	16504-16511	Methods	*[11]	CONFERENCE[11]	
+101-143	16512-16514	in	*[11]	CONFERENCE[11]	
+101-144	16515-16522	Natural	*[11]	CONFERENCE[11]	
+101-145	16523-16531	Language	*[11]	CONFERENCE[11]	
+101-146	16532-16542	Processing	*[11]	CONFERENCE[11]	
+101-147	16542-16543	"	_	_	
+101-148	16543-16544	,	_	_	
+101-149	16553-16557	year	_	_	
+101-150	16558-16559	=	_	_	
+101-151	16567-16568	"	_	_	
+101-152	16568-16572	2021	_	_	
+101-153	16572-16573	"	_	_	
+101-154	16573-16574	,	_	_	
+101-155	16583-16592	publisher	_	_	
+101-156	16593-16594	=	_	_	
+101-157	16597-16598	"	_	_	
+101-158	16598-16609	Association	_	_	
+101-159	16610-16613	for	_	_	
+101-160	16614-16627	Computational	_	_	
+101-161	16628-16639	Linguistics	_	_	
+101-162	16639-16640	"	_	_	
+101-163	16640-16641	,	_	_	
+101-164	16650-16658	location	_	_	
+101-165	16659-16660	=	_	_	
+101-166	16664-16665	"	_	_	
+101-167	16665-16670	Punta	_	_	
+101-168	16671-16675	Cana	_	_	
+101-169	16675-16676	,	_	_	
+101-170	16677-16686	Dominican	_	_	
+101-171	16687-16695	Republic	_	_	
+101-172	16695-16696	"	_	_	
+101-173	16696-16697	,	_	_	
+101-174	16704-16705	}	_	_	

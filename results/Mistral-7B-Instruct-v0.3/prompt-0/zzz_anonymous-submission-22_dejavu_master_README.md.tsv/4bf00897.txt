@@ -1,0 +1,5 @@
+The text contains no entities that match the provided guidelines for Named Entity Recognition (NER). However, if we were to annotate the text with generic tags for reference, it would look like this:
+
+```
+The <PROCESS>diagnosis and mitigation process</PROCESS> can be directly referred to by <ENGINEERS>engineers</ENGINEERS> using the <DATA>failure tickets</DATA> of these <EVENT>historical failures</EVENT>.
+```

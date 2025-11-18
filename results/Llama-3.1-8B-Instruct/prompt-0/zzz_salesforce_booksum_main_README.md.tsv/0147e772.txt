@@ -1,0 +1,1 @@
+To facilitate future work, we trained and evaluated multiple extractive and <PUBLICATION>abstractive summarization models</PUBLICATION> as baselines for our <DATASET>dataset</DATASET>.

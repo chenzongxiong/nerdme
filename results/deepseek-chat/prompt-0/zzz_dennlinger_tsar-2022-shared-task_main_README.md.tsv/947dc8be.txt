@@ -1,0 +1,3 @@
+```markdown
+# Original README: <DATASET>TSAR-2022-Shared-Task</DATASET> Datasets and Evaluation Scripts <PROJECT>TSAR2022 Shared Task on Lexical Simplification for English (en), Spanish (es) and Portuguese (pt)</PROJECT> - Datasets and Evaluation scripts  Please look at the website of the Shared Task for more details about the <EVALMETRIC>Evaluation Benchmark</EVALMETRIC>, Guidelines, Registration Form, etc...
+```

@@ -1,0 +1,3 @@
+```markdown
+Run `<PROGLANG>direnv allow</PROGLANG>` in the shell of the Docker container to set the environment variables. 7.
+```

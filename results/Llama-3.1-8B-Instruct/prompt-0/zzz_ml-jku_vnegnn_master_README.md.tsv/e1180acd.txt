@@ -1,0 +1,30 @@
+The `<SOFTWARE>lmdb</SOFTWARE>` and avoids processing all the data again if you want to create a graph with different parameters.  
+``` python 
+process_dataset.py 
+  --input_path <DATASET>data/scpdb/scpdb_subset_puresnet/raw</DATASET>
+  --output_path <DATASET>data/scpdb/scpdb_subset_puresnet/raw</DATASET>
+  --device <DATASET>cuda:0</DATASET>
+  --n_jobs <DATASET>8</DATASET>
+python process_dataset.py 
+  --input_path <DATASET>data/bindingsite_test_data/coach420/raw</DATASET>
+  --output_path <DATASET>data/bindingsite_test_data/coach420/raw</DATASET>
+  --device <DATASET>cuda:0</DATASET>
+  --n_jobs <DATASET>8</DATASET>
+python process_dataset.py 
+  --input_path <DATASET>data/bindingsite_test_data/holo4k/raw</DATASET>
+  --output_path <DATASET>data/bindingsite_test_data/holo4k/raw</DATASET>
+  --device <DATASET>cuda:0</DATASET>
+  --n_jobs <DATASET>8</DATASET>
+python process_dataset.py 
+  --input_path <DATASET>data/bindingsite_test_data/holo4k_split_chain/raw</DATASET>
+  --output_path <DATASET>data/bindingsite_test_data/holo4k_split_chain/raw</DATASET>
+  --device <DATASET>cuda:0</DATASET>
+  --n_jobs <DATASET>8</DATASET>
+python process_dataset.py 
+  --input_path <DATASET>data/bindingsite_test_data/pdbbind2020/raw</DATASET>
+  --output_path <DATASET>data/bindingsite_test_data/pdbbind2020/raw</DATASET>
+  --device <DATASET>cuda:0</DATASET>
+  --n_jobs <DATASET>8</DATASET>
+```
+### Train
+Train the *<PROJECT>heterogenous</PROJECT>* or *<PROJECT>homogenous</PROJECT>* model with the parameters as used in the `<PUBLICATION>paper</PUBLICATION>`.

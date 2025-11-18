@@ -1,0 +1,1 @@
+It prunes and trains the model iteratively for 200 epochs, following which the pruning is halted and the model is fine-tuned for an additional 10 epochs.

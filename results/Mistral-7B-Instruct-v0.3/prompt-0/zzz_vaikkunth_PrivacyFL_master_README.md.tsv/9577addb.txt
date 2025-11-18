@@ -1,0 +1,6 @@
+Here's the annotated text in Markdown format:
+
+We have provided two sample subclasses, `<PROJECT>ClientAgent</PROJECT>` and `<PROJECT>ServerAgent</PROJECT>`, which are both used in the sample simulation.
+
+### ClientAgent
+An instance of the `<PROJECT>ClientAgent</PROJECT>` class represents an entity that is training a machine learning model on the same task as the other client agents.

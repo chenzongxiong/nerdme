@@ -1,0 +1,14 @@
+The text contains the following named entities:
+
+1. **PROGLANG**: `<PROGLANG>NNs</PROGLANG>` (Neural Networks)
+2. **EVALMETRIC**: `<EVALMETRIC>input-output mapping</EVALMETRIC>`
+3. **PROJECT**: `<PROJECT>DTs</PROJECT>` (Decision Trees)
+4. **ONTOLOGY**: `<ONTOLOGY>hidden layers</ONTOLOGY>`
+5. **PUBLICATION**: `<PUBLICATION>1.2.1 Pedagogical Techniques</PUBLICATION>`
+
+The annotated text in Markdown format is:
+
+```
+Apply <PROGLANG>NNs</PROGLANG> to interpret trained <PROJECT>DTs</PROJECT> by approximating the network (mostly in terms of input-output mapping) and mimic the decision boundaries implicitly learned by the <ONTOLOGY>hidden layers</ONTOLOGY>.
+
+ ##### *<PUBLICATION>1.2.1 Pedagogical Techniques

@@ -1,0 +1,8 @@
+```py import <PROGLANG>torch</PROGLANG> import <PROGLANG>torch.nn.functional</PROGLANG> as fn from <PROGLANG>torch</PROGLANG> import <PROGLANG>Tensor</PROGLANG> from <PROGLANG>torch.nn</PROGLANG> import <PROGLANG>Module</PROGLANG>  
+
+from <SOFTWARE>pfhedge.nn</SOFTWARE> import <SOFTWARE>BlackScholes</SOFTWARE> from <SOFTWARE>pfhedge.nn</SOFTWARE> import <SOFTWARE>Clamp</SOFTWARE> from <SOFTWARE>pfhedge.nn</SOFTWARE> import <SOFTWARE>Hedger</SOFTWARE> from <SOFTWARE>pfhedge.nn</SOFTWARE> import <SOFTWARE>MultiLayerPerceptron</SOFTWARE>  
+
+class <SOFTWARE>NoTransactionBandNet</SOFTWARE>(<PROGLANG>Module</PROGLANG>):  
+    def __init__(self, derivative):  
+        super().
+```

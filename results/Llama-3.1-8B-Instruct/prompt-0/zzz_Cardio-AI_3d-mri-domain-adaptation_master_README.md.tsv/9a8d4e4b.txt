@@ -1,0 +1,1 @@
+[1] <PERSON>Sarikouch S</PERSON>, <PERSON>Koerperich H</PERSON>, <PERSON>Dubowy KO</PERSON>, <PERSON>Boethig D</PERSON>, <PERSON>Boettler P</PERSON>, <PERSON>Mir TS</PERSON>, <PERSON>Peters B</PERSON>, <PERSON>Kuehne T</PERSON>, <PERSON>Beerbaum P</PERSON>; <ORGANIZATION>German Competence Network for Congenital Heart Defects Investigators</ORGANIZATION>.

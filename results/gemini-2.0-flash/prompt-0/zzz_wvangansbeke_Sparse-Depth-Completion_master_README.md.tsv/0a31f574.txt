@@ -1,0 +1,1 @@
+This is the late fusion technique used in our framework. * This method ranks first on the `<DATASET>KITTI</DATASET>` depth completion benchmark without using additional data or postprocessing.

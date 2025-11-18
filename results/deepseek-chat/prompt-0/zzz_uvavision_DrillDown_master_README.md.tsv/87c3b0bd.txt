@@ -1,0 +1,3 @@
+```markdown
+<CONFERENCE>NeurIPS 2019</CONFERENCE>   ## Overview This paper explores the task of interactive image retrieval using natural language queries, where a user progressively provides input queries to refine a set of retrieval results.
+```

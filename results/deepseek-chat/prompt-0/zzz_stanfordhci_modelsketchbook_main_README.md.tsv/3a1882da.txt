@@ -1,0 +1,3 @@
+```markdown
+Currently surfaced using [<ONTOLOGY>WordNet</ONTOLOGY>](https://wordnet.princeton.edu/) synsets. ``` msb.get_similar_concepts("your concept term") ```  ### Compare concepts to ground truth labels This function displays the Pearson correlation coefficients between each of the selected concepts and the ground truth label column.
+```

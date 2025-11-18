@@ -1,0 +1,1 @@
+I use the command `<SOFTWARE>realpath</SOFTWARE>` in the example commands below, which is not bundled in macOS and Windows.

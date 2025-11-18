@@ -1,0 +1,1 @@
+`You can run retriever local evaluation for your <PROJECT>trained retriever</PROJECT> or our <PROJECT>trained retriever</PROJECT> to get <PUBLICATION>reader input data</PUBLICATION>.\n`

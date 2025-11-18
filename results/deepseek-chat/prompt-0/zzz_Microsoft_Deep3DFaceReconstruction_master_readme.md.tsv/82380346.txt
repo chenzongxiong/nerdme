@@ -1,0 +1,1 @@
+It provides face pose estimation and 68 facial landmarks which are useful for other tasks.

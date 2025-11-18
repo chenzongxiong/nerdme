@@ -1,0 +1,1 @@
+[build status](http://img.shields.io/travis/mmp2/megaman/master.svg?

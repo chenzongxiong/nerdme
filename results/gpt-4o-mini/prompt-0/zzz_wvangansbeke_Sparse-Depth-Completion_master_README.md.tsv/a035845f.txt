@@ -1,0 +1,3 @@
+```
+|--validation |--RGB     |--train          |--date              |--sequence1              | ...
+```

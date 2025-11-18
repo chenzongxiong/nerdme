@@ -1,0 +1,3 @@
+```markdown
+Please use other provided config files to reproduce results for other datasets. ``` # Train a basic matrix factorization model make run_pipeline MODEL_YAML_PATH=config/MF.yaml DATA_YAML_PATH=config/bpr_ml.yaml  # Train a <SOFTWARE>LightGCN</SOFTWARE> model. make run_pipeline MODEL_YAML_PATH=config/LGCN.yaml DATA_YAML_PATH=config/bpr_ml.yaml  # Conduct test-time aggregation on matrix factorization model. make run_pipeline MODEL_YAML_PATH=config/TAGCF_bpr_ml.yaml  DATA_YAML_PATH=config/bpr_ml.yaml ```  ## 4.
+```

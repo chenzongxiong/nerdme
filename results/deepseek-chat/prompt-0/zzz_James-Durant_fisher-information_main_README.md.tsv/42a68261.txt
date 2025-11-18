@@ -1,0 +1,3 @@
+```markdown
+To replicate the development environment with the [<SOFTWARE>Anaconda</SOFTWARE>](https://www.<SOFTWARE>anaconda</SOFTWARE>.com/products/individual) distribution, first create an empty conda environment by running: <br /> ```conda create --name fisher-information <PROGLANG>python</PROGLANG>=3.8.3```  2.
+```

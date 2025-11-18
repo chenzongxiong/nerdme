@@ -1,0 +1,1 @@
+`When run, <SOFTWARE>train.py</SOFTWARE> takes ~5 days to achieve <CONFERENCE>Chinchilla 🐭</CONFERENCE> completion on a single 8xA100 <PROGLANG>40GB</PROGLANG> node.`

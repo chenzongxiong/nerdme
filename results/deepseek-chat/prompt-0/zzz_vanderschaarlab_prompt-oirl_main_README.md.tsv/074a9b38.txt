@@ -1,0 +1,1 @@
+For readers who are also interested in RLHF and RLAIF, and in the intersection between RL and LLM research, we would refer to our related positioning paper discussing RL in LLM research: [<PUBLICATION>RL in the Era of LLMs: What is Essential?</PUBLICATION>

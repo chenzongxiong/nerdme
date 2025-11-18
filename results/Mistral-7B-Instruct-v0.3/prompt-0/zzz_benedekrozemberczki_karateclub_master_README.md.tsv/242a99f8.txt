@@ -1,0 +1,4 @@
+The text contains several named entities belonging to the classes `CONFERENCE`, `DATASET`, `PUBLICATION`, `SOFTWARE`, and `PROJECT`. Here's the annotated text in Markdown format:
+
+```
+id=2806512) (<CONFERENCE>CIKM 2015</CONFERENCE>)  * **[DeepWalk](https://karateclub.readthedocs.io/en/latest/modules/root.html#karateclub.node_embedding.neighbourhood.deepwalk.DeepWalk)** from Perozzi *et al.*: [DeepWalk: Online Learning of Social Representations](https://arxiv.org/abs/1403.6652) (<CONFERENCE>KDD 2014</CONFERENCE>)  * **[Node2Vec](https://karateclub.readthedocs.io/en/latest/modules/root.html#karateclub.node_embedding.neighbourhood.node2vec.Node2Vec)** from Grover *et al.*: [node2

@@ -1,0 +1,1 @@
+[Code style: <SOFTWARE>black</SOFTWARE>](https://github.com/psf/black)  This <PROJECT>project</PROJECT> attempts to embed a story into a music playlist by sorting the playlist (i.e., sequencing it) so that the order of the music follows a narrative arc.

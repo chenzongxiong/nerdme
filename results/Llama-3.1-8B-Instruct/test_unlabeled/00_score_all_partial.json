@@ -1,0 +1,11 @@
+{
+  "macro_precision": "59.95%",
+  "macro_recall": "30.38%",
+  "macro_f1": "39.06%",
+  "micro_precision": "65.72%",
+  "micro_recall": "38.63%",
+  "micro_f1": "48.65%",
+  "weighted_precision": "65.30%",
+  "weighted_recall": "38.63%",
+  "weighted_f1": "48.22%"
+}

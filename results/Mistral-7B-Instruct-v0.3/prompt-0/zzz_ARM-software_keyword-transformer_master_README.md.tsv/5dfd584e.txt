@@ -1,0 +1,26 @@
+`We thank the <AUTHOR>authors</AUTHOR> for sharing their <SOFTWARE>code</SOFTWARE>.\n`
+
+---
+Input Text:
+
+The <PROJECT>Paper With Code</PROJECT> project (<URL>https://<PROJECT>paperswithcode</PROJECT>.com/)
+
+---
+Input Text:
+
+The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is a popular ontology for representing intelligence tasks.
+
+---
+Input Text:
+
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (<URL>https://iswc2019.semanticweb.org/</URL>)
+
+---
+Input Text:
+
+The <DATASET>Maules Creek</DATASET> dataset is available at (<URL>https://data.gov.au/dataset/maules-creek-coal-mine-monitoring-data</URL>)
+
+---
+Input Text:
+
+The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETR

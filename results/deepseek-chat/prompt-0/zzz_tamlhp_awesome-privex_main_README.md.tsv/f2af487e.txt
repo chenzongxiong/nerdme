@@ -1,0 +1,3 @@
+```markdown
+</div>          | |                        | Sparsity | $H(p) = -\sum_{f \in M} p(f) \log p(f)$                                                                              | <div style="width:500px"> A complete and faithful explanation to the model should inherently be sparse, focusing only on a select subset of features that are most predictive of the model's decision.
+```

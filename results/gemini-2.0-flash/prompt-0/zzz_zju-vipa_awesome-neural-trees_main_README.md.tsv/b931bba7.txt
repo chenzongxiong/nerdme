@@ -1,0 +1,9 @@
+doi=10.1.1.122.4561&rep=rep1&type=pdf) - ***A knowledge acquisition system that concerns about the knowledge form DTs and NNs prefer:*** - **"<PUBLICATION>Implementation and refinement of decision trees using neural networks for hybrid knowledge acquisition</PUBLICATION>"**, Artificial Intelligence in Engineering, 1995
+- Katsuhiko Tsujino, Shogo Nishida
+- [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/0954181095000054) - ***Create a disjunctive normal form formula for each class and reformulate the first layer of entropy net:*** - **"<PUBLICATION>Initializing neural networks using decision trees</PUBLICATION>"**, published by Rutgers University, 1990
+- Arunava Banerjee
+- [[Paper]](https://scholarship.libraries.rutgers.edu/esploro/outputs/technicalDocumentation/Initializing-neural-networks-using-decision-trees/991031549998404646) - **"<PUBLICATION>Initialization of neural networks by means of decision trees</PUBLICATION>"**, `<PUBLICATION>Knowledge-Based Systems</PUBLICATION>`, 1995
+- Irena Ivanova, Miroslav Kubat
+- [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/0950705196819174) - **"<PUBLICATION>On mapping decision trees and neural networks</PUBLICATION>"**, `<PUBLICATION>Knowledge-Based Systems</PUBLICATION>`, 1999
+- R.SetionoW, K.Leow
+- [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S095070519900009X) #### 1.2 DTs for Approximating NNs.

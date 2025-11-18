@@ -1,0 +1,3 @@
+```markdown
+For a detailed description of the annotation process, quality control procedures, summary statistics and baseline modelling results, see our <PUBLICATION>paper</PUBLICATION>(https://arxiv.org/abs/2010.07410), to appear in the <WORKSHOP>Fourth Workshop on Online Abuse and Harms 2020</WORKSHOP>(https://www.workshopononlineabuse.com/).
+```

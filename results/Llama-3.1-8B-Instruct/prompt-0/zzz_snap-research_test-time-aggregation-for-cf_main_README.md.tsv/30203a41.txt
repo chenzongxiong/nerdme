@@ -1,0 +1,1 @@
+`user=<SOFTWARE>Google Search</SOFTWARE> is a widely used <SOFTWARE>search engine</SOFTWARE>.`

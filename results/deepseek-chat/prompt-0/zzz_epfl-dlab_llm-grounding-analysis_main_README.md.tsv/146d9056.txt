@@ -1,0 +1,1 @@
+We benchmark various LLMs with `<DATASET>Fakepedia</DATASET>` and then we conduct a causal mediation analysis, based on our `<SOFTWARE>Masked Grouped Causal Tracing (MGCT)</SOFTWARE>`, on LLM components when answering `<DATASET>Fakepedia</DATASET>` queries.

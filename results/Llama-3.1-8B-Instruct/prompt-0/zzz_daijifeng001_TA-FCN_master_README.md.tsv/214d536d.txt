@@ -1,0 +1,1 @@
+Python packages might missing: `<SOFTWARE>cython</SOFTWARE>`, `<SOFTWARE>opencv-python</SOFTWARE>` >= 3.2.0, `<SOFTWARE>easydict</SOFTWARE>`.

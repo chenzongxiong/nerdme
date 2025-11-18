@@ -1,0 +1,1 @@
+`'prev_hedge'`: The hedge ratio at the previous time step. * **Model**: A hedger's model computes the hedge ratio at the next time step from input features

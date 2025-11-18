@@ -1,0 +1,1 @@
+<br>    For shadow-free training images, 28 from <DATASET>LRSS</DATASET> and 72 randomly selected from the <DATASET>USR</DATASET> dataset.

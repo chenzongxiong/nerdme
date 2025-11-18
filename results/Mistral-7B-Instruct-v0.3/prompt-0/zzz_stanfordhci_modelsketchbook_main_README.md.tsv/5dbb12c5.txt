@@ -1,0 +1,1 @@
+`/docs/media/create_concept_model.gif" alt="Demo of the <FUNCTION>create_concept_model</FUNCTION> function" width="75%"> </p>  **<WORKSHOP>create sketches</WORKSHOP>** that combine these concept building blocks, <p align="center"> <img src=".<ONTOLOGY>Concept Model Ontology</ONTOLOGY></img>`

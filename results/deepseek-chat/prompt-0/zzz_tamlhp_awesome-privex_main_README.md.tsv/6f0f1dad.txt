@@ -1,0 +1,1 @@
+The explanation algorithm must not exceed the overall budget across all queries.

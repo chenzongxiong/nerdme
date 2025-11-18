@@ -1,0 +1,3 @@
+```markdown
+<br> Since, the current code does not support multi-gpu training, if you use different hardware, the batchsize should be reduced.
+```

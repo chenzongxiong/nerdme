@@ -1,0 +1,3 @@
+```markdown
+Locating and Detecting Language Model Grounding with <PROJECT>Fakepedia</PROJECT>  This repository contains the data and code to reproduce the results of our <PUBLICATION>paper</PUBLICATION>: https://arxiv.org/abs/2312.02073  Please use the following citation:  ``` @misc{monea2023glitch,       title={A Glitch in the Matrix?
+```

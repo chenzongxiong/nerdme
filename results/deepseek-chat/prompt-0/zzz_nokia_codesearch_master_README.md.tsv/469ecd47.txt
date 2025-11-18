@@ -1,0 +1,3 @@
+```markdown
+Note that this only makes sense to evaluate code-only models (i.e., models that do not use the description field).  #### Example: load a snippet collection as evaluation data ```<PROGLANG>python</PROGLANG> queries, query2ids = load_eval_dataset("<DATASET>codesearchnet-python-valid</DATASET>") ```   ### Training data  The different models we implement use different kinds of training data.
+```

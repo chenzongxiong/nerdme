@@ -1,0 +1,1 @@
+The region features were extracted from a pretrained <SOFTWARE>FasterRCNN</SOFTWARE> model provided by https://github.com/<PROJECT>peteanderson80</PROJECT>/<PROJECT>bottom-up-attention</PROJECT>.

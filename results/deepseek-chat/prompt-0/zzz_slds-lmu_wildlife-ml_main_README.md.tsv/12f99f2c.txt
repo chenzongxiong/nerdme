@@ -1,0 +1,1 @@
+With our proposed two-stage framework, we show that implementing active learning can lead to improved predictive performance and more efficient use of pre-labeled data.

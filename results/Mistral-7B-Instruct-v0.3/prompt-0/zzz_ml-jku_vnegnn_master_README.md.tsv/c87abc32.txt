@@ -1,0 +1,11 @@
+`[isort](https://img.shields.io/badge/%20imports-isort-%231674b1? **PROGLANG**)
+
+The <SOFTWARE>Protege ontology editor</SOFTWARE> is widely used for creating ontologies.
+
+The <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION> is presented in the <CONFERENCE>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</CONFERENCE>.
+
+The <DATASET>Maules Creek</DATASET> dataset can be downloaded from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip).
+
+The <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> can be found at (https://pbvs-workshop.github.io/datasets.html).
+
+The evaluation metrics used are <EVALMETRIC>Precision</

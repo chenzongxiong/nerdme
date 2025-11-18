@@ -1,0 +1,1 @@
+Extract and place the `<DATASET>WIDER</DATASET>` folder in the same directory as the `<DATASET>EXTD</DATASET>` and `<DATASET>EResFD</DATASET>` folders. ## Dependencies A requirements.txt file is provided with all the necessary `<PROGLANG>python</PROGLANG>` dependencies.

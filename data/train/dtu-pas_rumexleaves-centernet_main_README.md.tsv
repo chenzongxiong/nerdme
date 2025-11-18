@@ -1,0 +1,1223 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# RumexLeaves-CenterNet
+#Text=This repository contains the official implementation for
+#Text=
+#Text=[Zoom in on the Plant: Fine-grained Analysis of Leaf, Stem and Vein Instances.]
+1-1	0-1	#	_	_	
+1-2	2-23	RumexLeaves-CenterNet	*	PROJECT	
+1-3	24-28	This	_	_	
+1-4	29-39	repository	_	_	
+1-5	40-48	contains	_	_	
+1-6	49-52	the	_	_	
+1-7	53-61	official	_	_	
+1-8	62-76	implementation	_	_	
+1-9	77-80	for	_	_	
+1-10	82-83	[	_	_	
+1-11	83-87	Zoom	*[1]	PUBLICATION[1]	
+1-12	88-90	in	*[1]	PUBLICATION[1]	
+1-13	91-93	on	*[1]	PUBLICATION[1]	
+1-14	94-97	the	*[1]	PUBLICATION[1]	
+1-15	98-103	Plant	*[1]	PUBLICATION[1]	
+1-16	103-104	:	*[1]	PUBLICATION[1]	
+1-17	105-117	Fine-grained	*[1]	PUBLICATION[1]	
+1-18	118-126	Analysis	*[1]	PUBLICATION[1]	
+1-19	127-129	of	*[1]	PUBLICATION[1]	
+1-20	130-134	Leaf	*[1]	PUBLICATION[1]	
+1-21	134-135	,	*[1]	PUBLICATION[1]	
+1-22	136-140	Stem	*[1]	PUBLICATION[1]	
+1-23	141-144	and	*[1]	PUBLICATION[1]	
+1-24	145-149	Vein	*[1]	PUBLICATION[1]	
+1-25	150-159	Instances	*[1]	PUBLICATION[1]	
+1-26	159-160	.	_	_	
+1-27	160-161	]	_	_	
+
+#Text=(https://ieeexplore.ieee.org/document/10373101) Ronja Güldenring, Rasmus Eckholdt Andersen and Lazaros Nalpantidis, IEEE Robotics and Automation Letters (RA-L), 2023
+#Text=
+#Text=<p float="left">
+#Text=  <img src="figures/architecture.png" width="700" />
+#Text=</p>
+#Text=
+#Text=__Abstract__:
+#Text=
+#Text=Robot perception is far from what humans are capable of.
+2-1	161-162	(	_	_	
+2-2	162-167	https	_	_	
+2-3	167-168	:	_	_	
+2-4	168-169	/	_	_	
+2-5	169-170	/	_	_	
+2-6	170-189	ieeexplore.ieee.org	_	_	
+2-7	189-190	/	_	_	
+2-8	190-198	document	_	_	
+2-9	198-199	/	_	_	
+2-10	199-207	10373101	_	_	
+2-11	207-208	)	_	_	
+2-12	209-214	Ronja	_	_	
+2-13	215-225	Güldenring	_	_	
+2-14	225-226	,	_	_	
+2-15	227-233	Rasmus	_	_	
+2-16	234-242	Eckholdt	_	_	
+2-17	243-251	Andersen	_	_	
+2-18	252-255	and	_	_	
+2-19	256-263	Lazaros	_	_	
+2-20	264-275	Nalpantidis	_	_	
+2-21	275-276	,	_	_	
+2-22	277-281	IEEE	_	_	
+2-23	282-290	Robotics	_	_	
+2-24	291-294	and	_	_	
+2-25	295-305	Automation	_	_	
+2-26	306-313	Letters	_	_	
+2-27	314-315	(	_	_	
+2-28	315-319	RA-L	_	_	
+2-29	319-320	)	_	_	
+2-30	320-321	,	_	_	
+2-31	322-326	2023	_	_	
+2-32	328-329	<	_	_	
+2-33	329-330	p	_	_	
+2-34	331-336	float	_	_	
+2-35	336-337	=	_	_	
+2-36	337-338	"	_	_	
+2-37	338-342	left	_	_	
+2-38	342-343	"	_	_	
+2-39	343-344	>	_	_	
+2-40	347-348	<	_	_	
+2-41	348-351	img	_	_	
+2-42	352-355	src	_	_	
+2-43	355-356	=	_	_	
+2-44	356-357	"	_	_	
+2-45	357-364	figures	_	_	
+2-46	364-365	/	_	_	
+2-47	365-381	architecture.png	_	_	
+2-48	381-382	"	_	_	
+2-49	383-388	width	_	_	
+2-50	388-389	=	_	_	
+2-51	389-390	"	_	_	
+2-52	390-393	700	_	_	
+2-53	393-394	"	_	_	
+2-54	395-396	/	_	_	
+2-55	396-397	>	_	_	
+2-56	398-399	<	_	_	
+2-57	399-400	/	_	_	
+2-58	400-401	p	_	_	
+2-59	401-402	>	_	_	
+2-60	404-405	_	_	_	
+2-61	405-406	_	_	_	
+2-62	406-414	Abstract	_	_	
+2-63	414-415	_	_	_	
+2-64	415-416	_	_	_	
+2-65	416-417	:	_	_	
+2-66	419-424	Robot	_	_	
+2-67	425-435	perception	_	_	
+2-68	436-438	is	_	_	
+2-69	439-442	far	_	_	
+2-70	443-447	from	_	_	
+2-71	448-452	what	_	_	
+2-72	453-459	humans	_	_	
+2-73	460-463	are	_	_	
+2-74	464-471	capable	_	_	
+2-75	472-474	of	_	_	
+2-76	474-475	.	_	_	
+
+#Text=Humans do not only have a complex semantic scene understanding but also extract fine-grained intra-object properties for the salient ones.
+3-1	476-482	Humans	_	_	
+3-2	483-485	do	_	_	
+3-3	486-489	not	_	_	
+3-4	490-494	only	_	_	
+3-5	495-499	have	_	_	
+3-6	500-501	a	_	_	
+3-7	502-509	complex	_	_	
+3-8	510-518	semantic	_	_	
+3-9	519-524	scene	_	_	
+3-10	525-538	understanding	_	_	
+3-11	539-542	but	_	_	
+3-12	543-547	also	_	_	
+3-13	548-555	extract	_	_	
+3-14	556-568	fine-grained	_	_	
+3-15	569-581	intra-object	_	_	
+3-16	582-592	properties	_	_	
+3-17	593-596	for	_	_	
+3-18	597-600	the	_	_	
+3-19	601-608	salient	_	_	
+3-20	609-613	ones	_	_	
+3-21	613-614	.	_	_	
+
+#Text=When humans look at plants, they naturally perceive the plant architecture with its individual leaves and branching system.
+4-1	615-619	When	_	_	
+4-2	620-626	humans	_	_	
+4-3	627-631	look	_	_	
+4-4	632-634	at	_	_	
+4-5	635-641	plants	_	_	
+4-6	641-642	,	_	_	
+4-7	643-647	they	_	_	
+4-8	648-657	naturally	_	_	
+4-9	658-666	perceive	_	_	
+4-10	667-670	the	_	_	
+4-11	671-676	plant	_	_	
+4-12	677-689	architecture	_	_	
+4-13	690-694	with	_	_	
+4-14	695-698	its	_	_	
+4-15	699-709	individual	_	_	
+4-16	710-716	leaves	_	_	
+4-17	717-720	and	_	_	
+4-18	721-730	branching	_	_	
+4-19	731-737	system	_	_	
+4-20	737-738	.	_	_	
+
+#Text=In this work, we want to advance the granularity in plant understanding for agricultural precision robots.
+5-1	739-741	In	_	_	
+5-2	742-746	this	_	_	
+5-3	747-751	work	_	_	
+5-4	751-752	,	_	_	
+5-5	753-755	we	_	_	
+5-6	756-760	want	_	_	
+5-7	761-763	to	_	_	
+5-8	764-771	advance	_	_	
+5-9	772-775	the	_	_	
+5-10	776-787	granularity	_	_	
+5-11	788-790	in	_	_	
+5-12	791-796	plant	_	_	
+5-13	797-810	understanding	_	_	
+5-14	811-814	for	_	_	
+5-15	815-827	agricultural	_	_	
+5-16	828-837	precision	_	_	
+5-17	838-844	robots	_	_	
+5-18	844-845	.	_	_	
+
+#Text=We develop a model to extract fine-grained phenotypic information, such as leaf-, stem-, and vein instances.
+6-1	846-848	We	_	_	
+6-2	849-856	develop	_	_	
+6-3	857-858	a	_	_	
+6-4	859-864	model	_	_	
+6-5	865-867	to	_	_	
+6-6	868-875	extract	_	_	
+6-7	876-888	fine-grained	_	_	
+6-8	889-899	phenotypic	_	_	
+6-9	900-911	information	_	_	
+6-10	911-912	,	_	_	
+6-11	913-917	such	_	_	
+6-12	918-920	as	_	_	
+6-13	921-925	leaf	_	_	
+6-14	925-926	-	_	_	
+6-15	926-927	,	_	_	
+6-16	928-932	stem	_	_	
+6-17	932-933	-	_	_	
+6-18	933-934	,	_	_	
+6-19	935-938	and	_	_	
+6-20	939-943	vein	_	_	
+6-21	944-953	instances	_	_	
+6-22	953-954	.	_	_	
+
+#Text=The underlying dataset \\textit{RumexLeaves} is made publicly available and is the first of its kind with keypoint-guided polyline annotations leading along the line from the lowest stem point along the leaf basal to the leaf apex.
+7-1	955-958	The	_	_	
+7-2	959-969	underlying	_	_	
+7-3	970-977	dataset	_	_	
+7-4	978-979	\	_	_	
+7-5	979-985	textit	_	_	
+7-6	985-986	{	_	_	
+7-7	986-997	RumexLeaves	*	DATASET	
+7-8	997-998	}	_	_	
+7-9	999-1001	is	_	_	
+7-10	1002-1006	made	_	_	
+7-11	1007-1015	publicly	_	_	
+7-12	1016-1025	available	_	_	
+7-13	1026-1029	and	_	_	
+7-14	1030-1032	is	_	_	
+7-15	1033-1036	the	_	_	
+7-16	1037-1042	first	_	_	
+7-17	1043-1045	of	_	_	
+7-18	1046-1049	its	_	_	
+7-19	1050-1054	kind	_	_	
+7-20	1055-1059	with	_	_	
+7-21	1060-1075	keypoint-guided	_	_	
+7-22	1076-1084	polyline	_	_	
+7-23	1085-1096	annotations	_	_	
+7-24	1097-1104	leading	_	_	
+7-25	1105-1110	along	_	_	
+7-26	1111-1114	the	_	_	
+7-27	1115-1119	line	_	_	
+7-28	1120-1124	from	_	_	
+7-29	1125-1128	the	_	_	
+7-30	1129-1135	lowest	_	_	
+7-31	1136-1140	stem	_	_	
+7-32	1141-1146	point	_	_	
+7-33	1147-1152	along	_	_	
+7-34	1153-1156	the	_	_	
+7-35	1157-1161	leaf	_	_	
+7-36	1162-1167	basal	_	_	
+7-37	1168-1170	to	_	_	
+7-38	1171-1174	the	_	_	
+7-39	1175-1179	leaf	_	_	
+7-40	1180-1184	apex	_	_	
+7-41	1184-1185	.	_	_	
+
+#Text=Furthermore, we introduce an adapted metric POKS complying with the concept of keypoint-guided polylines.
+8-1	1186-1197	Furthermore	_	_	
+8-2	1197-1198	,	_	_	
+8-3	1199-1201	we	_	_	
+8-4	1202-1211	introduce	_	_	
+8-5	1212-1214	an	_	_	
+8-6	1215-1222	adapted	_	_	
+8-7	1223-1229	metric	_	_	
+8-8	1230-1234	POKS	*	EVALMETRIC	
+8-9	1235-1244	complying	_	_	
+8-10	1245-1249	with	_	_	
+8-11	1250-1253	the	_	_	
+8-12	1254-1261	concept	_	_	
+8-13	1262-1264	of	_	_	
+8-14	1265-1280	keypoint-guided	_	_	
+8-15	1281-1290	polylines	_	_	
+8-16	1290-1291	.	_	_	
+
+#Text=In our experimental evaluation, we provide baseline results for our newly introduced dataset while showcasing the benefits of POKS over OKS.
+9-1	1292-1294	In	_	_	
+9-2	1295-1298	our	_	_	
+9-3	1299-1311	experimental	_	_	
+9-4	1312-1322	evaluation	_	_	
+9-5	1322-1323	,	_	_	
+9-6	1324-1326	we	_	_	
+9-7	1327-1334	provide	_	_	
+9-8	1335-1343	baseline	_	_	
+9-9	1344-1351	results	_	_	
+9-10	1352-1355	for	_	_	
+9-11	1356-1359	our	_	_	
+9-12	1360-1365	newly	_	_	
+9-13	1366-1376	introduced	_	_	
+9-14	1377-1384	dataset	_	_	
+9-15	1385-1390	while	_	_	
+9-16	1391-1401	showcasing	_	_	
+9-17	1402-1405	the	_	_	
+9-18	1406-1414	benefits	_	_	
+9-19	1415-1417	of	_	_	
+9-20	1418-1422	POKS	*	EVALMETRIC	
+9-21	1423-1427	over	_	_	
+9-22	1428-1431	OKS	*	EVALMETRIC	
+9-23	1431-1432	.	_	_	
+
+#Text=__Sources__:
+#Text=* [RumexLeaves Website](https://dtu-pas.github.io/RumexLeaves/)
+#Text=* [Publication](https://ieeexplore.ieee.org/document/10373101)
+#Text=* [Arxiv](https://arxiv.org/abs/2312.08805)
+#Text=* [Dataset](https://data.dtu.dk/articles/dataset/_strong_RumexLeaves_Dataset_introduced_by_Paper_Fine-grained_Leaf_Analysis_for_Efficient_Weeding_Robots_strong_/23659524)
+#Text=
+#Text=## Getting started locally
+#Text=1.
+10-1	1434-1435	_	_	_	
+10-2	1435-1436	_	_	_	
+10-3	1436-1443	Sources	_	_	
+10-4	1443-1444	_	_	_	
+10-5	1444-1445	_	_	_	
+10-6	1445-1446	:	_	_	
+10-7	1447-1448	*	_	_	
+10-8	1449-1450	[	_	_	
+10-9	1450-1461	RumexLeaves	*	DATASET	
+10-10	1462-1469	Website	_	_	
+10-11	1469-1470	]	_	_	
+10-12	1470-1471	(	_	_	
+10-13	1471-1476	https	_	_	
+10-14	1476-1477	:	_	_	
+10-15	1477-1478	/	_	_	
+10-16	1478-1479	/	_	_	
+10-17	1479-1496	dtu-pas.github.io	_	_	
+10-18	1496-1497	/	_	_	
+10-19	1497-1508	RumexLeaves	*	DATASET	
+10-20	1508-1509	/	_	_	
+10-21	1509-1510	)	_	_	
+10-22	1511-1512	*	_	_	
+10-23	1513-1514	[	_	_	
+10-24	1514-1525	Publication	_	_	
+10-25	1525-1526	]	_	_	
+10-26	1526-1527	(	_	_	
+10-27	1527-1532	https	_	_	
+10-28	1532-1533	:	_	_	
+10-29	1533-1534	/	_	_	
+10-30	1534-1535	/	_	_	
+10-31	1535-1554	ieeexplore.ieee.org	_	_	
+10-32	1554-1555	/	_	_	
+10-33	1555-1563	document	_	_	
+10-34	1563-1564	/	_	_	
+10-35	1564-1572	10373101	_	_	
+10-36	1572-1573	)	_	_	
+10-37	1574-1575	*	_	_	
+10-38	1576-1577	[	_	_	
+10-39	1577-1582	Arxiv	_	_	
+10-40	1582-1583	]	_	_	
+10-41	1583-1584	(	_	_	
+10-42	1584-1589	https	_	_	
+10-43	1589-1590	:	_	_	
+10-44	1590-1591	/	_	_	
+10-45	1591-1592	/	_	_	
+10-46	1592-1601	arxiv.org	_	_	
+10-47	1601-1602	/	_	_	
+10-48	1602-1605	abs	_	_	
+10-49	1605-1606	/	_	_	
+10-50	1606-1616	2312.08805	_	_	
+10-51	1616-1617	)	_	_	
+10-52	1618-1619	*	_	_	
+10-53	1620-1621	[	_	_	
+10-54	1621-1628	Dataset	_	_	
+10-55	1628-1629	]	_	_	
+10-56	1629-1630	(	_	_	
+10-57	1630-1635	https	_	_	
+10-58	1635-1636	:	_	_	
+10-59	1636-1637	/	_	_	
+10-60	1637-1638	/	_	_	
+10-61	1638-1649	data.dtu.dk	_	_	
+10-62	1649-1650	/	_	_	
+10-63	1650-1658	articles	_	_	
+10-64	1658-1659	/	_	_	
+10-65	1659-1666	dataset	_	_	
+10-66	1666-1667	/	_	_	
+10-67	1667-1668	_	_	_	
+10-68	1668-1777	strong_RumexLeaves_Dataset_introduced_by_Paper_Fine-grained_Leaf_Analysis_for_Efficient_Weeding_Robots_strong	_	_	
+10-68.1	1675-1686	RumexLeaves	*	DATASET	
+10-68.2	1715-1777	Fine-grained_Leaf_Analysis_for_Efficient_Weeding_Robots_strong	*	PUBLICATION	
+10-69	1777-1778	_	_	_	
+10-70	1778-1779	/	_	_	
+10-71	1779-1787	23659524	_	_	
+10-72	1787-1788	)	_	_	
+10-73	1790-1791	#	_	_	
+10-74	1791-1792	#	_	_	
+10-75	1793-1800	Getting	_	_	
+10-76	1801-1808	started	_	_	
+10-77	1809-1816	locally	_	_	
+10-78	1817-1818	1	_	_	
+10-79	1818-1819	.	_	_	
+
+#Text=Create environment and install pip requirements
+#Text=    ```
+#Text=    make create_environment
+#Text=    make requirements
+#Text=    ```
+#Text=2.
+11-1	1820-1826	Create	_	_	
+11-2	1827-1838	environment	_	_	
+11-3	1839-1842	and	_	_	
+11-4	1843-1850	install	_	_	
+11-5	1851-1854	pip	_	_	
+11-6	1855-1867	requirements	_	_	
+11-7	1872-1873	`	_	_	
+11-8	1873-1874	`	_	_	
+11-9	1874-1875	`	_	_	
+11-10	1880-1884	make	_	_	
+11-11	1885-1903	create_environment	_	_	
+11-12	1908-1912	make	_	_	
+11-13	1913-1925	requirements	_	_	
+11-14	1930-1931	`	_	_	
+11-15	1931-1932	`	_	_	
+11-16	1932-1933	`	_	_	
+11-17	1934-1935	2	_	_	
+11-18	1935-1936	.	_	_	
+
+#Text=Download & prepare data
+#Text=    ```
+#Text=    make data
+#Text=    ```
+#Text=3.
+12-1	1937-1945	Download	_	_	
+12-2	1946-1947	&	_	_	
+12-3	1948-1955	prepare	_	_	
+12-4	1956-1960	data	_	_	
+12-5	1965-1966	`	_	_	
+12-6	1966-1967	`	_	_	
+12-7	1967-1968	`	_	_	
+12-8	1973-1977	make	_	_	
+12-9	1978-1982	data	_	_	
+12-10	1987-1988	`	_	_	
+12-11	1988-1989	`	_	_	
+12-12	1989-1990	`	_	_	
+12-13	1991-1992	3	_	_	
+12-14	1992-1993	.	_	_	
+
+#Text=Visualize example images with annotations
+#Text=    ```
+#Text=    conda run -n rumexleaves_centernet python rumexleaves_centernet/visualizations/visualize_data.py
+#Text=    ```
+#Text=4.
+13-1	1994-2003	Visualize	_	_	
+13-2	2004-2011	example	_	_	
+13-3	2012-2018	images	_	_	
+13-4	2019-2023	with	_	_	
+13-5	2024-2035	annotations	_	_	
+13-6	2040-2041	`	_	_	
+13-7	2041-2042	`	_	_	
+13-8	2042-2043	`	_	_	
+13-9	2048-2053	conda	*	SOFTWARE	
+13-10	2054-2057	run	_	_	
+13-11	2058-2059	-	_	_	
+13-12	2059-2060	n	_	_	
+13-13	2061-2082	rumexleaves_centernet	_	_	
+13-13.1	2061-2072	rumexleaves	*	DATASET	
+13-14	2083-2089	python	*	SOFTWARE	
+13-15	2090-2111	rumexleaves_centernet	_	_	
+13-15.1	2090-2101	rumexleaves	*	DATASET	
+13-16	2111-2112	/	_	_	
+13-17	2112-2126	visualizations	_	_	
+13-18	2126-2127	/	_	_	
+13-19	2127-2144	visualize_data.py	_	_	
+13-20	2149-2150	`	_	_	
+13-21	2150-2151	`	_	_	
+13-22	2151-2152	`	_	_	
+13-23	2153-2154	4	_	_	
+13-24	2154-2155	.	_	_	
+
+#Text=Download model weights
+#Text=    ```
+#Text=    make download_weights
+#Text=    ```
+#Text=5.
+14-1	2156-2164	Download	_	_	
+14-2	2165-2170	model	_	_	
+14-3	2171-2178	weights	_	_	
+14-4	2183-2184	`	_	_	
+14-5	2184-2185	`	_	_	
+14-6	2185-2186	`	_	_	
+14-7	2191-2195	make	_	_	
+14-8	2196-2212	download_weights	_	_	
+14-9	2217-2218	`	_	_	
+14-10	2218-2219	`	_	_	
+14-11	2219-2220	`	_	_	
+14-12	2221-2222	5	_	_	
+14-13	2222-2223	.	_	_	
+
+#Text=Run example inference
+#Text=    ```
+#Text=    conda run -n rumexleaves_centernet python rumexleaves_centernet/tools/inference.py --exp_file exp_files/eval_inat.py -ckpt models/final_model.pth -img data/processed/RumexLeaves/iNaturalist/4150.jpg
+#Text=    ```
+#Text=6.
+15-1	2224-2227	Run	_	_	
+15-2	2228-2235	example	_	_	
+15-3	2236-2245	inference	_	_	
+15-4	2250-2251	`	_	_	
+15-5	2251-2252	`	_	_	
+15-6	2252-2253	`	_	_	
+15-7	2258-2263	conda	*	SOFTWARE	
+15-8	2264-2267	run	_	_	
+15-9	2268-2269	-	_	_	
+15-10	2269-2270	n	_	_	
+15-11	2271-2292	rumexleaves_centernet	_	_	
+15-11.1	2271-2282	rumexleaves	*	DATASET	
+15-12	2293-2299	python	*	SOFTWARE	
+15-13	2300-2321	rumexleaves_centernet	_	_	
+15-13.1	2300-2311	rumexleaves	*	DATASET	
+15-14	2321-2322	/	_	_	
+15-15	2322-2327	tools	_	_	
+15-16	2327-2328	/	_	_	
+15-17	2328-2340	inference.py	_	_	
+15-18	2341-2342	-	_	_	
+15-19	2342-2343	-	_	_	
+15-20	2343-2351	exp_file	_	_	
+15-21	2352-2361	exp_files	_	_	
+15-22	2361-2362	/	_	_	
+15-23	2362-2374	eval_inat.py	_	_	
+15-24	2375-2376	-	_	_	
+15-25	2376-2380	ckpt	_	_	
+15-26	2381-2387	models	_	_	
+15-27	2387-2388	/	_	_	
+15-28	2388-2403	final_model.pth	_	_	
+15-29	2404-2405	-	_	_	
+15-30	2405-2408	img	_	_	
+15-31	2409-2413	data	_	_	
+15-32	2413-2414	/	_	_	
+15-33	2414-2423	processed	_	_	
+15-34	2423-2424	/	_	_	
+15-35	2424-2435	RumexLeaves	*	DATASET	
+15-36	2435-2436	/	_	_	
+15-37	2436-2447	iNaturalist	_	_	
+15-38	2447-2448	/	_	_	
+15-39	2448-2452	4150	_	_	
+15-40	2452-2453	.	_	_	
+15-41	2453-2456	jpg	_	_	
+15-42	2461-2462	`	_	_	
+15-43	2462-2463	`	_	_	
+15-44	2463-2464	`	_	_	
+15-45	2465-2466	6	_	_	
+15-46	2466-2467	.	_	_	
+
+#Text=Run validation of final model on iNaturalist data
+#Text=    ```
+#Text=    conda run -n rumexleaves_centernet python rumexleaves_centernet/tools/evaluate.py --exp_file exp_files/eval_inat.py -ckpt models/final_model.pth
+#Text=    ```
+#Text=7.
+16-1	2468-2471	Run	_	_	
+16-2	2472-2482	validation	_	_	
+16-3	2483-2485	of	_	_	
+16-4	2486-2491	final	_	_	
+16-5	2492-2497	model	_	_	
+16-6	2498-2500	on	_	_	
+16-7	2501-2512	iNaturalist	*	DATASET	
+16-8	2513-2517	data	_	_	
+16-9	2522-2523	`	_	_	
+16-10	2523-2524	`	_	_	
+16-11	2524-2525	`	_	_	
+16-12	2530-2535	conda	*	SOFTWARE	
+16-13	2536-2539	run	_	_	
+16-14	2540-2541	-	_	_	
+16-15	2541-2542	n	_	_	
+16-16	2543-2564	rumexleaves_centernet	_	_	
+16-16.1	2543-2554	rumexleaves	*	DATASET	
+16-17	2565-2571	python	*	SOFTWARE	
+16-18	2572-2593	rumexleaves_centernet	_	_	
+16-18.1	2572-2583	rumexleaves	*	DATASET	
+16-19	2593-2594	/	_	_	
+16-20	2594-2599	tools	_	_	
+16-21	2599-2600	/	_	_	
+16-22	2600-2611	evaluate.py	_	_	
+16-23	2612-2613	-	_	_	
+16-24	2613-2614	-	_	_	
+16-25	2614-2622	exp_file	_	_	
+16-26	2623-2632	exp_files	_	_	
+16-27	2632-2633	/	_	_	
+16-28	2633-2645	eval_inat.py	_	_	
+16-29	2646-2647	-	_	_	
+16-30	2647-2651	ckpt	_	_	
+16-31	2652-2658	models	_	_	
+16-32	2658-2659	/	_	_	
+16-33	2659-2674	final_model.pth	_	_	
+16-34	2679-2680	`	_	_	
+16-35	2680-2681	`	_	_	
+16-36	2681-2682	`	_	_	
+16-37	2683-2684	7	_	_	
+16-38	2684-2685	.	_	_	
+
+#Text=Training final model from scratch
+#Text=    ```
+#Text=    conda run -n rumexleaves_centernet python rumexleaves_centernet/tools/train.py --exp_file exp_files/train_final_model.py
+#Text=    ```
+#Text=
+#Text=## Getting started with Docker
+#Text=1.
+17-1	2686-2694	Training	_	_	
+17-2	2695-2700	final	_	_	
+17-3	2701-2706	model	_	_	
+17-4	2707-2711	from	_	_	
+17-5	2712-2719	scratch	_	_	
+17-6	2724-2725	`	_	_	
+17-7	2725-2726	`	_	_	
+17-8	2726-2727	`	_	_	
+17-9	2732-2737	conda	*	SOFTWARE	
+17-10	2738-2741	run	_	_	
+17-11	2742-2743	-	_	_	
+17-12	2743-2744	n	_	_	
+17-13	2745-2766	rumexleaves_centernet	_	_	
+17-13.1	2745-2756	rumexleaves	*	DATASET	
+17-14	2767-2773	python	*	SOFTWARE	
+17-15	2774-2795	rumexleaves_centernet	_	_	
+17-15.1	2774-2785	rumexleaves	*	DATASET	
+17-16	2795-2796	/	_	_	
+17-17	2796-2801	tools	_	_	
+17-18	2801-2802	/	_	_	
+17-19	2802-2810	train.py	_	_	
+17-20	2811-2812	-	_	_	
+17-21	2812-2813	-	_	_	
+17-22	2813-2821	exp_file	_	_	
+17-23	2822-2831	exp_files	_	_	
+17-24	2831-2832	/	_	_	
+17-25	2832-2852	train_final_model.py	_	_	
+17-26	2857-2858	`	_	_	
+17-27	2858-2859	`	_	_	
+17-28	2859-2860	`	_	_	
+17-29	2862-2863	#	_	_	
+17-30	2863-2864	#	_	_	
+17-31	2865-2872	Getting	_	_	
+17-32	2873-2880	started	_	_	
+17-33	2881-2885	with	_	_	
+17-34	2886-2892	Docker	*	SOFTWARE	
+17-35	2893-2894	1	_	_	
+17-36	2894-2895	.	_	_	
+
+#Text=Download & prepare data
+#Text=    ```
+#Text=    make data
+#Text=    ```
+#Text=2.
+18-1	2896-2904	Download	_	_	
+18-2	2905-2906	&	_	_	
+18-3	2907-2914	prepare	_	_	
+18-4	2915-2919	data	_	_	
+18-5	2924-2925	`	_	_	
+18-6	2925-2926	`	_	_	
+18-7	2926-2927	`	_	_	
+18-8	2932-2936	make	_	_	
+18-9	2937-2941	data	_	_	
+18-10	2946-2947	`	_	_	
+18-11	2947-2948	`	_	_	
+18-12	2948-2949	`	_	_	
+18-13	2950-2951	2	_	_	
+18-14	2951-2952	.	_	_	
+
+#Text=Get submodules
+#Text=    ```
+#Text=    git submodule update --init --recursive
+#Text=    ```
+#Text=3.
+19-1	2953-2956	Get	_	_	
+19-2	2957-2967	submodules	_	_	
+19-3	2972-2973	`	_	_	
+19-4	2973-2974	`	_	_	
+19-5	2974-2975	`	_	_	
+19-6	2980-2983	git	*	SOFTWARE	
+19-7	2984-2993	submodule	_	_	
+19-8	2994-3000	update	_	_	
+19-9	3001-3002	-	_	_	
+19-10	3002-3003	-	_	_	
+19-11	3003-3007	init	_	_	
+19-12	3008-3009	-	_	_	
+19-13	3009-3010	-	_	_	
+19-14	3010-3019	recursive	_	_	
+19-15	3024-3025	`	_	_	
+19-16	3025-3026	`	_	_	
+19-17	3026-3027	`	_	_	
+19-18	3028-3029	3	_	_	
+19-19	3029-3030	.	_	_	
+
+#Text=Build docker image
+#Text=    ```
+#Text=    docker build -f dockerfiles/train_model.dockerfile .
+20-1	3031-3036	Build	_	_	
+20-2	3037-3043	docker	_	_	
+20-3	3044-3049	image	_	_	
+20-4	3054-3055	`	_	_	
+20-5	3055-3056	`	_	_	
+20-6	3056-3057	`	_	_	
+20-7	3062-3068	docker	_	_	
+20-8	3069-3074	build	_	_	
+20-9	3075-3076	-	_	_	
+20-10	3076-3077	f	_	_	
+20-11	3078-3089	dockerfiles	_	_	
+20-12	3089-3090	/	_	_	
+20-13	3090-3112	train_model.dockerfile	_	_	
+20-14	3113-3114	.	_	_	
+
+#Text=-t train_model:latest
+#Text=    ```
+#Text=4.
+21-1	3115-3116	-	_	_	
+21-2	3116-3117	t	_	_	
+21-3	3118-3129	train_model	_	_	
+21-4	3129-3130	:	_	_	
+21-5	3130-3136	latest	_	_	
+21-6	3141-3142	`	_	_	
+21-7	3142-3143	`	_	_	
+21-8	3143-3144	`	_	_	
+21-9	3145-3146	4	_	_	
+21-10	3146-3147	.	_	_	
+
+#Text=Run training in docker container
+#Text=    ```
+#Text=    docker run --gpus all -v "$(pwd)/data/processed:/data/processed" -v "$(pwd)/log:/log" -v "$(pwd)/exp_files/train_final_model.py:/exp_file.py" -e WANDB_API_KEY=<your-api-key> --shm-size=500m train_model
+#Text=    ```
+#Text=
+#Text=
+#Text=## Project structure
+#Text=
+#Text=The directory structure of the project looks like this:
+#Text=
+#Text=```txt
+#Text=
+#Text=├── Makefile             <- Makefile with convenience commands like `make data`
+#Text=├── README.md            <- The top-level README for developers using this project.
+#Text=├── data
+#Text=│   ├── processed        <- The final, canonical data sets for modeling.
+#Text=│   └── raw              <- The original, immutable data dump.
+#Text=│
+#Text=├── exp_files            <- files to define the experiment configuration
+#Text=|
+#Text=├── models               <- checkpoint models
+#Text=│
+#Text=├── pyproject.toml       <- Project configuration file
+#Text=│
+#Text=├── requirements.txt     <- The requirements file for reproducing the analysis environment
+#Text=|
+#Text=├── requirements_dev.txt <- The requirements file for reproducing the analysis environment
+#Text=│
+#Text=├── tests                <- Test files
+#Text=│
+#Text=├── rumexleaves_centernet  <- Source code for use in this project.
+#Text=│
+#Text=├── submodules          <- relevant submodules are stored here
+#Text=│
+#Text=└── LICENSE              <- MIT License
+#Text=```
+#Text=Created using [mlops_template](https://github.com/SkafteNicki/mlops_template),
+#Text=a [cookiecutter template](https://github.com/cookiecutter/cookiecutter) for getting
+#Text=started with Machine Learning Operations (MLOps).
+#Text=
+#Text=## Citation
+#Text=
+#Text=If you find this work useful in your research, please cite:
+#Text=```
+#Text=@article{RumexLeaves-CenterNet,
+#Text=author = {Güldenring, Ronja and Andersen, Rasmus Eckholdt and Nalpantidis, Lazaros},
+#Text=title = {Zoom in on the Plant: Fine-grained Analysis of Leaf, Stem and Vein Instances},
+#Text=journal = {IEEE Robotics and Automation Letters (RA-L)},
+#Text=year = {2024}
+#Text=}
+#Text=```
+#Text=
+#Text=## References
+#Text=Our code is partially based on the following code bases.
+#Text=* [CenterNet](https://github.com/xingyizhou/CenterNet)
+#Text=* [YOLOX](https://raw.githubusercontent.com/Megvii-BaseDetection/YOLOX)
+#Text=* [Deformabel Convolutions v2 (pytorch)](https://github.com/developer0hye/PyTorch-Deformable-Convolution-v2)
+22-1	3148-3151	Run	_	_	
+22-2	3152-3160	training	_	_	
+22-3	3161-3163	in	_	_	
+22-4	3164-3170	docker	*	SOFTWARE	
+22-5	3171-3180	container	_	_	
+22-6	3185-3186	`	_	_	
+22-7	3186-3187	`	_	_	
+22-8	3187-3188	`	_	_	
+22-9	3193-3199	docker	*	SOFTWARE	
+22-10	3200-3203	run	_	_	
+22-11	3204-3205	-	_	_	
+22-12	3205-3206	-	_	_	
+22-13	3206-3210	gpus	_	_	
+22-14	3211-3214	all	_	_	
+22-15	3215-3216	-	_	_	
+22-16	3216-3217	v	_	_	
+22-17	3218-3219	"	_	_	
+22-18	3219-3220	$	_	_	
+22-19	3220-3221	(	_	_	
+22-20	3221-3224	pwd	_	_	
+22-21	3224-3225	)	_	_	
+22-22	3225-3226	/	_	_	
+22-23	3226-3230	data	_	_	
+22-24	3230-3231	/	_	_	
+22-25	3231-3240	processed	_	_	
+22-26	3240-3241	:	_	_	
+22-27	3241-3242	/	_	_	
+22-28	3242-3246	data	_	_	
+22-29	3246-3247	/	_	_	
+22-30	3247-3256	processed	_	_	
+22-31	3256-3257	"	_	_	
+22-32	3258-3259	-	_	_	
+22-33	3259-3260	v	_	_	
+22-34	3261-3262	"	_	_	
+22-35	3262-3263	$	_	_	
+22-36	3263-3264	(	_	_	
+22-37	3264-3267	pwd	_	_	
+22-38	3267-3268	)	_	_	
+22-39	3268-3269	/	_	_	
+22-40	3269-3272	log	_	_	
+22-41	3272-3273	:	_	_	
+22-42	3273-3274	/	_	_	
+22-43	3274-3277	log	_	_	
+22-44	3277-3278	"	_	_	
+22-45	3279-3280	-	_	_	
+22-46	3280-3281	v	_	_	
+22-47	3282-3283	"	_	_	
+22-48	3283-3284	$	_	_	
+22-49	3284-3285	(	_	_	
+22-50	3285-3288	pwd	_	_	
+22-51	3288-3289	)	_	_	
+22-52	3289-3290	/	_	_	
+22-53	3290-3299	exp_files	_	_	
+22-54	3299-3300	/	_	_	
+22-55	3300-3320	train_final_model.py	_	_	
+22-56	3320-3321	:	_	_	
+22-57	3321-3322	/	_	_	
+22-58	3322-3333	exp_file.py	_	_	
+22-59	3333-3334	"	_	_	
+22-60	3335-3336	-	_	_	
+22-61	3336-3337	e	_	_	
+22-62	3338-3351	WANDB_API_KEY	_	_	
+22-63	3351-3352	=	_	_	
+22-64	3352-3353	<	_	_	
+22-65	3353-3365	your-api-key	_	_	
+22-66	3365-3366	>	_	_	
+22-67	3367-3368	-	_	_	
+22-68	3368-3369	-	_	_	
+22-69	3369-3377	shm-size	_	_	
+22-70	3377-3378	=	_	_	
+22-71	3378-3382	500m	_	_	
+22-72	3383-3394	train_model	_	_	
+22-73	3399-3400	`	_	_	
+22-74	3400-3401	`	_	_	
+22-75	3401-3402	`	_	_	
+22-76	3405-3406	#	_	_	
+22-77	3406-3407	#	_	_	
+22-78	3408-3415	Project	_	_	
+22-79	3416-3425	structure	_	_	
+22-80	3427-3430	The	_	_	
+22-81	3431-3440	directory	_	_	
+22-82	3441-3450	structure	_	_	
+22-83	3451-3453	of	_	_	
+22-84	3454-3457	the	_	_	
+22-85	3458-3465	project	_	_	
+22-86	3466-3471	looks	_	_	
+22-87	3472-3476	like	_	_	
+22-88	3477-3481	this	_	_	
+22-89	3481-3482	:	_	_	
+22-90	3484-3485	`	_	_	
+22-91	3485-3486	`	_	_	
+22-92	3486-3487	`	_	_	
+22-93	3487-3490	txt	_	_	
+22-94	3492-3493	├	_	_	
+22-95	3493-3494	─	_	_	
+22-96	3494-3495	─	_	_	
+22-97	3496-3504	Makefile	_	_	
+22-98	3517-3518	<	_	_	
+22-99	3518-3519	-	_	_	
+22-100	3520-3528	Makefile	_	_	
+22-101	3529-3533	with	_	_	
+22-102	3534-3545	convenience	_	_	
+22-103	3546-3554	commands	_	_	
+22-104	3555-3559	like	_	_	
+22-105	3560-3561	`	_	_	
+22-106	3561-3565	make	_	_	
+22-107	3566-3570	data	_	_	
+22-108	3570-3571	`	_	_	
+22-109	3572-3573	├	_	_	
+22-110	3573-3574	─	_	_	
+22-111	3574-3575	─	_	_	
+22-112	3576-3585	README.md	_	_	
+22-113	3597-3598	<	_	_	
+22-114	3598-3599	-	_	_	
+22-115	3600-3603	The	_	_	
+22-116	3604-3613	top-level	_	_	
+22-117	3614-3620	README	_	_	
+22-118	3621-3624	for	_	_	
+22-119	3625-3635	developers	_	_	
+22-120	3636-3641	using	_	_	
+22-121	3642-3646	this	_	_	
+22-122	3647-3654	project	_	_	
+22-123	3654-3655	.	_	_	
+22-124	3656-3657	├	_	_	
+22-125	3657-3658	─	_	_	
+22-126	3658-3659	─	_	_	
+22-127	3660-3664	data	_	_	
+22-128	3665-3666	│	_	_	
+22-129	3669-3670	├	_	_	
+22-130	3670-3671	─	_	_	
+22-131	3671-3672	─	_	_	
+22-132	3673-3682	processed	_	_	
+22-133	3690-3691	<	_	_	
+22-134	3691-3692	-	_	_	
+22-135	3693-3696	The	_	_	
+22-136	3697-3702	final	_	_	
+22-137	3702-3703	,	_	_	
+22-138	3704-3713	canonical	_	_	
+22-139	3714-3718	data	_	_	
+22-140	3719-3723	sets	_	_	
+22-141	3724-3727	for	_	_	
+22-142	3728-3736	modeling	_	_	
+22-143	3736-3737	.	_	_	
+22-144	3738-3739	│	_	_	
+22-145	3742-3743	└	_	_	
+22-146	3743-3744	─	_	_	
+22-147	3744-3745	─	_	_	
+22-148	3746-3749	raw	_	_	
+22-149	3763-3764	<	_	_	
+22-150	3764-3765	-	_	_	
+22-151	3766-3769	The	_	_	
+22-152	3770-3778	original	_	_	
+22-153	3778-3779	,	_	_	
+22-154	3780-3789	immutable	_	_	
+22-155	3790-3794	data	_	_	
+22-156	3795-3799	dump	_	_	
+22-157	3799-3800	.	_	_	
+22-158	3801-3802	│	_	_	
+22-159	3803-3804	├	_	_	
+22-160	3804-3805	─	_	_	
+22-161	3805-3806	─	_	_	
+22-162	3807-3816	exp_files	_	_	
+22-163	3828-3829	<	_	_	
+22-164	3829-3830	-	_	_	
+22-165	3831-3836	files	_	_	
+22-166	3837-3839	to	_	_	
+22-167	3840-3846	define	_	_	
+22-168	3847-3850	the	_	_	
+22-169	3851-3861	experiment	_	_	
+22-170	3862-3875	configuration	_	_	
+22-171	3876-3877	|	_	_	
+22-172	3878-3879	├	_	_	
+22-173	3879-3880	─	_	_	
+22-174	3880-3881	─	_	_	
+22-175	3882-3888	models	_	_	
+22-176	3903-3904	<	_	_	
+22-177	3904-3905	-	_	_	
+22-178	3906-3916	checkpoint	_	_	
+22-179	3917-3923	models	_	_	
+22-180	3924-3925	│	_	_	
+22-181	3926-3927	├	_	_	
+22-182	3927-3928	─	_	_	
+22-183	3928-3929	─	_	_	
+22-184	3930-3944	pyproject.toml	_	_	
+22-185	3951-3952	<	_	_	
+22-186	3952-3953	-	_	_	
+22-187	3954-3961	Project	_	_	
+22-188	3962-3975	configuration	_	_	
+22-189	3976-3980	file	_	_	
+22-190	3981-3982	│	_	_	
+22-191	3983-3984	├	_	_	
+22-192	3984-3985	─	_	_	
+22-193	3985-3986	─	_	_	
+22-194	3987-4003	requirements.txt	_	_	
+22-195	4008-4009	<	_	_	
+22-196	4009-4010	-	_	_	
+22-197	4011-4014	The	_	_	
+22-198	4015-4027	requirements	_	_	
+22-199	4028-4032	file	_	_	
+22-200	4033-4036	for	_	_	
+22-201	4037-4048	reproducing	_	_	
+22-202	4049-4052	the	_	_	
+22-203	4053-4061	analysis	_	_	
+22-204	4062-4073	environment	_	_	
+22-205	4074-4075	|	_	_	
+22-206	4076-4077	├	_	_	
+22-207	4077-4078	─	_	_	
+22-208	4078-4079	─	_	_	
+22-209	4080-4100	requirements_dev.txt	_	_	
+22-210	4101-4102	<	_	_	
+22-211	4102-4103	-	_	_	
+22-212	4104-4107	The	_	_	
+22-213	4108-4120	requirements	_	_	
+22-214	4121-4125	file	_	_	
+22-215	4126-4129	for	_	_	
+22-216	4130-4141	reproducing	_	_	
+22-217	4142-4145	the	_	_	
+22-218	4146-4154	analysis	_	_	
+22-219	4155-4166	environment	_	_	
+22-220	4167-4168	│	_	_	
+22-221	4169-4170	├	_	_	
+22-222	4170-4171	─	_	_	
+22-223	4171-4172	─	_	_	
+22-224	4173-4178	tests	_	_	
+22-225	4194-4195	<	_	_	
+22-226	4195-4196	-	_	_	
+22-227	4197-4201	Test	_	_	
+22-228	4202-4207	files	_	_	
+22-229	4208-4209	│	_	_	
+22-230	4210-4211	├	_	_	
+22-231	4211-4212	─	_	_	
+22-232	4212-4213	─	_	_	
+22-233	4214-4235	rumexleaves_centernet	_	_	
+22-234	4237-4238	<	_	_	
+22-235	4238-4239	-	_	_	
+22-236	4240-4246	Source	_	_	
+22-237	4247-4251	code	_	_	
+22-238	4252-4255	for	_	_	
+22-239	4256-4259	use	_	_	
+22-240	4260-4262	in	_	_	
+22-241	4263-4267	this	_	_	
+22-242	4268-4275	project	_	_	
+22-243	4275-4276	.	_	_	
+22-244	4277-4278	│	_	_	
+22-245	4279-4280	├	_	_	
+22-246	4280-4281	─	_	_	
+22-247	4281-4282	─	_	_	
+22-248	4283-4293	submodules	_	_	
+22-249	4303-4304	<	_	_	
+22-250	4304-4305	-	_	_	
+22-251	4306-4314	relevant	_	_	
+22-252	4315-4325	submodules	_	_	
+22-253	4326-4329	are	_	_	
+22-254	4330-4336	stored	_	_	
+22-255	4337-4341	here	_	_	
+22-256	4342-4343	│	_	_	
+22-257	4344-4345	└	_	_	
+22-258	4345-4346	─	_	_	
+22-259	4346-4347	─	_	_	
+22-260	4348-4355	LICENSE	_	_	
+22-261	4369-4370	<	_	_	
+22-262	4370-4371	-	_	_	
+22-263	4372-4375	MIT	*[2]	LICENSE[2]	
+22-264	4376-4383	License	*[2]	LICENSE[2]	
+22-265	4384-4385	`	_	_	
+22-266	4385-4386	`	_	_	
+22-267	4386-4387	`	_	_	
+22-268	4388-4395	Created	_	_	
+22-269	4396-4401	using	_	_	
+22-270	4402-4403	[	_	_	
+22-271	4403-4417	mlops_template	_	_	
+22-272	4417-4418	]	_	_	
+22-273	4418-4419	(	_	_	
+22-274	4419-4424	https	_	_	
+22-275	4424-4425	:	_	_	
+22-276	4425-4426	/	_	_	
+22-277	4426-4427	/	_	_	
+22-278	4427-4437	github.com	_	_	
+22-279	4437-4438	/	_	_	
+22-280	4438-4449	SkafteNicki	_	_	
+22-281	4449-4450	/	_	_	
+22-282	4450-4464	mlops_template	_	_	
+22-283	4464-4465	)	_	_	
+22-284	4465-4466	,	_	_	
+22-285	4467-4468	a	_	_	
+22-286	4469-4470	[	_	_	
+22-287	4470-4482	cookiecutter	_	_	
+22-288	4483-4491	template	_	_	
+22-289	4491-4492	]	_	_	
+22-290	4492-4493	(	_	_	
+22-291	4493-4498	https	_	_	
+22-292	4498-4499	:	_	_	
+22-293	4499-4500	/	_	_	
+22-294	4500-4501	/	_	_	
+22-295	4501-4511	github.com	_	_	
+22-296	4511-4512	/	_	_	
+22-297	4512-4524	cookiecutter	_	_	
+22-298	4524-4525	/	_	_	
+22-299	4525-4537	cookiecutter	_	_	
+22-300	4537-4538	)	_	_	
+22-301	4539-4542	for	_	_	
+22-302	4543-4550	getting	_	_	
+22-303	4551-4558	started	_	_	
+22-304	4559-4563	with	_	_	
+22-305	4564-4571	Machine	_	_	
+22-306	4572-4580	Learning	_	_	
+22-307	4581-4591	Operations	_	_	
+22-308	4592-4593	(	_	_	
+22-309	4593-4598	MLOps	_	_	
+22-310	4598-4599	)	_	_	
+22-311	4599-4600	.	_	_	
+22-312	4602-4603	#	_	_	
+22-313	4603-4604	#	_	_	
+22-314	4605-4613	Citation	_	_	
+22-315	4615-4617	If	_	_	
+22-316	4618-4621	you	_	_	
+22-317	4622-4626	find	_	_	
+22-318	4627-4631	this	_	_	
+22-319	4632-4636	work	_	_	
+22-320	4637-4643	useful	_	_	
+22-321	4644-4646	in	_	_	
+22-322	4647-4651	your	_	_	
+22-323	4652-4660	research	_	_	
+22-324	4660-4661	,	_	_	
+22-325	4662-4668	please	_	_	
+22-326	4669-4673	cite	_	_	
+22-327	4673-4674	:	_	_	
+22-328	4675-4676	`	_	_	
+22-329	4676-4677	`	_	_	
+22-330	4677-4678	`	_	_	
+22-331	4679-4680	@	_	_	
+22-332	4680-4687	article	_	_	
+22-333	4687-4688	{	_	_	
+22-334	4688-4709	RumexLeaves-CenterNet	_	_	
+22-335	4709-4710	,	_	_	
+22-336	4711-4717	author	_	_	
+22-337	4718-4719	=	_	_	
+22-338	4720-4721	{	_	_	
+22-339	4721-4731	Güldenring	_	_	
+22-340	4731-4732	,	_	_	
+22-341	4733-4738	Ronja	_	_	
+22-342	4739-4742	and	_	_	
+22-343	4743-4751	Andersen	_	_	
+22-344	4751-4752	,	_	_	
+22-345	4753-4759	Rasmus	_	_	
+22-346	4760-4768	Eckholdt	_	_	
+22-347	4769-4772	and	_	_	
+22-348	4773-4784	Nalpantidis	_	_	
+22-349	4784-4785	,	_	_	
+22-350	4786-4793	Lazaros	_	_	
+22-351	4793-4794	}	_	_	
+22-352	4794-4795	,	_	_	
+22-353	4796-4801	title	_	_	
+22-354	4802-4803	=	_	_	
+22-355	4804-4805	{	_	_	
+22-356	4805-4809	Zoom	*[3]	PUBLICATION[3]	
+22-357	4810-4812	in	*[3]	PUBLICATION[3]	
+22-358	4813-4815	on	*[3]	PUBLICATION[3]	
+22-359	4816-4819	the	*[3]	PUBLICATION[3]	
+22-360	4820-4825	Plant	*[3]	PUBLICATION[3]	
+22-361	4825-4826	:	*[3]	PUBLICATION[3]	
+22-362	4827-4839	Fine-grained	*[3]	PUBLICATION[3]	
+22-363	4840-4848	Analysis	*[3]	PUBLICATION[3]	
+22-364	4849-4851	of	*[3]	PUBLICATION[3]	
+22-365	4852-4856	Leaf	*[3]	PUBLICATION[3]	
+22-366	4856-4857	,	*[3]	PUBLICATION[3]	
+22-367	4858-4862	Stem	*[3]	PUBLICATION[3]	
+22-368	4863-4866	and	*[3]	PUBLICATION[3]	
+22-369	4867-4871	Vein	*[3]	PUBLICATION[3]	
+22-370	4872-4881	Instances	*[3]	PUBLICATION[3]	
+22-371	4881-4882	}	_	_	
+22-372	4882-4883	,	_	_	
+22-373	4884-4891	journal	_	_	
+22-374	4892-4893	=	_	_	
+22-375	4894-4895	{	_	_	
+22-376	4895-4899	IEEE	_	_	
+22-377	4900-4908	Robotics	_	_	
+22-378	4909-4912	and	_	_	
+22-379	4913-4923	Automation	_	_	
+22-380	4924-4931	Letters	_	_	
+22-381	4932-4933	(	_	_	
+22-382	4933-4937	RA-L	_	_	
+22-383	4937-4938	)	_	_	
+22-384	4938-4939	}	_	_	
+22-385	4939-4940	,	_	_	
+22-386	4941-4945	year	_	_	
+22-387	4946-4947	=	_	_	
+22-388	4948-4949	{	_	_	
+22-389	4949-4953	2024	_	_	
+22-390	4953-4954	}	_	_	
+22-391	4955-4956	}	_	_	
+22-392	4957-4958	`	_	_	
+22-393	4958-4959	`	_	_	
+22-394	4959-4960	`	_	_	
+22-395	4962-4963	#	_	_	
+22-396	4963-4964	#	_	_	
+22-397	4965-4975	References	_	_	
+22-398	4976-4979	Our	_	_	
+22-399	4980-4984	code	_	_	
+22-400	4985-4987	is	_	_	
+22-401	4988-4997	partially	_	_	
+22-402	4998-5003	based	_	_	
+22-403	5004-5006	on	_	_	
+22-404	5007-5010	the	_	_	
+22-405	5011-5020	following	_	_	
+22-406	5021-5025	code	_	_	
+22-407	5026-5031	bases	_	_	
+22-408	5031-5032	.	_	_	
+22-409	5033-5034	*	_	_	
+22-410	5035-5036	[	_	_	
+22-411	5036-5045	CenterNet	*	SOFTWARE	
+22-412	5045-5046	]	_	_	
+22-413	5046-5047	(	_	_	
+22-414	5047-5052	https	_	_	
+22-415	5052-5053	:	_	_	
+22-416	5053-5054	/	_	_	
+22-417	5054-5055	/	_	_	
+22-418	5055-5065	github.com	_	_	
+22-419	5065-5066	/	_	_	
+22-420	5066-5076	xingyizhou	_	_	
+22-421	5076-5077	/	_	_	
+22-422	5077-5086	CenterNet	*	SOFTWARE	
+22-423	5086-5087	)	_	_	
+22-424	5088-5089	*	_	_	
+22-425	5090-5091	[	_	_	
+22-426	5091-5096	YOLOX	*	SOFTWARE	
+22-427	5096-5097	]	_	_	
+22-428	5097-5098	(	_	_	
+22-429	5098-5103	https	_	_	
+22-430	5103-5104	:	_	_	
+22-431	5104-5105	/	_	_	
+22-432	5105-5106	/	_	_	
+22-433	5106-5131	raw.githubusercontent.com	_	_	
+22-434	5131-5132	/	_	_	
+22-435	5132-5152	Megvii-BaseDetection	_	_	
+22-436	5152-5153	/	_	_	
+22-437	5153-5158	YOLOX	*	SOFTWARE	
+22-438	5158-5159	)	_	_	
+22-439	5160-5161	*	_	_	
+22-440	5162-5163	[	_	_	
+22-441	5163-5173	Deformabel	*[4]	SOFTWARE[4]	
+22-442	5174-5186	Convolutions	*[4]	SOFTWARE[4]	
+22-443	5187-5189	v2	*[4]	SOFTWARE[4]	
+22-444	5190-5191	(	_	_	
+22-445	5191-5198	pytorch	*	SOFTWARE	
+22-446	5198-5199	)	_	_	
+22-447	5199-5200	]	_	_	
+22-448	5200-5201	(	_	_	
+22-449	5201-5206	https	_	_	
+22-450	5206-5207	:	_	_	
+22-451	5207-5208	/	_	_	
+22-452	5208-5209	/	_	_	
+22-453	5209-5219	github.com	_	_	
+22-454	5219-5220	/	_	_	
+22-455	5220-5233	developer0hye	_	_	
+22-456	5233-5234	/	_	_	
+22-457	5234-5267	PyTorch-Deformable-Convolution-v2	_	_	
+22-457.1	5234-5241	PyTorch	*	SOFTWARE	
+22-457.2	5242-5267	Deformable-Convolution-v2	*	SOFTWARE	
+22-458	5267-5268	)	_	_	

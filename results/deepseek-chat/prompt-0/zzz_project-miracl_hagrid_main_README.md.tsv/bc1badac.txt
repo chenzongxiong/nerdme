@@ -1,0 +1,1 @@
+It is constructed on top of [<DATASET>MIRACL 🌍 🙌 🌏</DATASET>](HTTP://miracl.ai), an information retrieval <DATASET>dataset</DATASET> that consists of queries along with a set of manually labelled relevant passages (quotes).

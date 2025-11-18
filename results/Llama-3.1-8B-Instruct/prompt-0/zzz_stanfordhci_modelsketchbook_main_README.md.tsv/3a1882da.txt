@@ -1,0 +1,2 @@
+The <SOFTWARE>WordNet</SOFTWARE> is widely used for creating synsets. The function `msb.get_similar_concepts("your concept term")` is part of the <SOFTWARE>WordNet API</SOFTWARE>. ### Compare concepts to ground truth labels
+This function displays the Pearson correlation coefficients between each of the selected concepts and the <DATASET>ground truth label column</DATASET>.

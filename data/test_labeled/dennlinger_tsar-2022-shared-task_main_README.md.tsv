@@ -1,0 +1,1863 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# UniHD at TSAR-2022 Shared Task: Is Compute All We Need for Lexical Simplification?
+1-1	0-1	#	_	_	
+1-2	2-7	UniHD	*[1]	PUBLICATION[1]	
+1-3	8-10	at	*[1]	PUBLICATION[1]	
+1-4	11-15	TSAR	*[1]|*[2]	PUBLICATION[1]|WORKSHOP[2]	
+1-5	15-16	-	*[1]|*[2]	PUBLICATION[1]|WORKSHOP[2]	
+1-6	16-20	2022	*[1]|*[2]	PUBLICATION[1]|WORKSHOP[2]	
+1-7	21-27	Shared	*[1]	PUBLICATION[1]	
+1-8	28-32	Task	*[1]	PUBLICATION[1]	
+1-9	32-33	:	*[1]	PUBLICATION[1]	
+1-10	34-36	Is	*[1]	PUBLICATION[1]	
+1-11	37-44	Compute	*[1]	PUBLICATION[1]	
+1-12	45-48	All	*[1]	PUBLICATION[1]	
+1-13	49-51	We	*[1]	PUBLICATION[1]	
+1-14	52-56	Need	*[1]	PUBLICATION[1]	
+1-15	57-60	for	*[1]	PUBLICATION[1]	
+1-16	61-68	Lexical	*[1]	PUBLICATION[1]	
+1-17	69-83	Simplification	*[1]	PUBLICATION[1]	
+1-18	83-84	?	*[1]	PUBLICATION[1]	
+
+#Text=This repository contains the modifications made by our team for the (winning) entry in the English shared task category.
+2-1	86-90	This	_	_	
+2-2	91-101	repository	_	_	
+2-3	102-110	contains	_	_	
+2-4	111-114	the	_	_	
+2-5	115-128	modifications	_	_	
+2-6	129-133	made	_	_	
+2-7	134-136	by	_	_	
+2-8	137-140	our	_	_	
+2-9	141-145	team	_	_	
+2-10	146-149	for	_	_	
+2-11	150-153	the	_	_	
+2-12	154-155	(	_	_	
+2-13	155-162	winning	_	_	
+2-14	162-163	)	_	_	
+2-15	164-169	entry	_	_	
+2-16	170-172	in	_	_	
+2-17	173-176	the	_	_	
+2-18	177-184	English	_	_	
+2-19	185-191	shared	_	_	
+2-20	192-196	task	_	_	
+2-21	197-205	category	_	_	
+2-22	205-206	.	_	_	
+
+#Text=We further include modifications made for Spanish and Portuguese, obtaining SotA in those languages as well.
+3-1	207-209	We	_	_	
+3-2	210-217	further	_	_	
+3-3	218-225	include	_	_	
+3-4	226-239	modifications	_	_	
+3-5	240-244	made	_	_	
+3-6	245-248	for	_	_	
+3-7	249-256	Spanish	_	_	
+3-8	257-260	and	_	_	
+3-9	261-271	Portuguese	_	_	
+3-10	271-272	,	_	_	
+3-11	273-282	obtaining	_	_	
+3-12	283-287	SotA	_	_	
+3-13	288-290	in	_	_	
+3-14	291-296	those	_	_	
+3-15	297-306	languages	_	_	
+3-16	307-309	as	_	_	
+3-17	310-314	well	_	_	
+3-18	314-315	.	_	_	
+
+#Text=**Find the arXiv version of our paper here: https://arxiv.org/abs/2301.01764**
+#Text=
+#Text=In case you find these results useful, please consider citing our work in addition to the shared task paper (see below).
+#Text=
+#Text=```
+#Text=@article{aumiller-gertz-2023-unihd,
+#Text=author = {Aumiller, Dennis and Gertz, Michael},
+#Text=title = {{UniHD at TSAR-2022 Shared Task: Is Compute All We Need for Lexical Simplification?}}
+4-1	317-318	*	_	_	
+4-2	318-319	*	_	_	
+4-3	319-323	Find	_	_	
+4-4	324-327	the	_	_	
+4-5	328-333	arXiv	_	_	
+4-6	334-341	version	_	_	
+4-7	342-344	of	_	_	
+4-8	345-348	our	_	_	
+4-9	349-354	paper	_	_	
+4-10	355-359	here	_	_	
+4-11	359-360	:	_	_	
+4-12	361-366	https	_	_	
+4-13	366-367	:	_	_	
+4-14	367-368	/	_	_	
+4-15	368-369	/	_	_	
+4-16	369-378	arxiv.org	_	_	
+4-17	378-379	/	_	_	
+4-18	379-382	abs	_	_	
+4-19	382-383	/	_	_	
+4-20	383-393	2301.01764	_	_	
+4-21	393-394	*	_	_	
+4-22	394-395	*	_	_	
+4-23	397-399	In	_	_	
+4-24	400-404	case	_	_	
+4-25	405-408	you	_	_	
+4-26	409-413	find	_	_	
+4-27	414-419	these	_	_	
+4-28	420-427	results	_	_	
+4-29	428-434	useful	_	_	
+4-30	434-435	,	_	_	
+4-31	436-442	please	_	_	
+4-32	443-451	consider	_	_	
+4-33	452-458	citing	_	_	
+4-34	459-462	our	_	_	
+4-35	463-467	work	_	_	
+4-36	468-470	in	_	_	
+4-37	471-479	addition	_	_	
+4-38	480-482	to	_	_	
+4-39	483-486	the	_	_	
+4-40	487-493	shared	_	_	
+4-41	494-498	task	_	_	
+4-42	499-504	paper	_	_	
+4-43	505-506	(	_	_	
+4-44	506-509	see	_	_	
+4-45	510-515	below	_	_	
+4-46	515-516	)	_	_	
+4-47	516-517	.	_	_	
+4-48	519-520	`	_	_	
+4-49	520-521	`	_	_	
+4-50	521-522	`	_	_	
+4-51	523-524	@	_	_	
+4-52	524-531	article	_	_	
+4-53	531-532	{	_	_	
+4-54	532-546	aumiller-gertz	_	_	
+4-55	546-547	-	_	_	
+4-56	547-551	2023	_	_	
+4-57	551-552	-	_	_	
+4-58	552-557	unihd	_	_	
+4-59	557-558	,	_	_	
+4-60	559-565	author	_	_	
+4-61	566-567	=	_	_	
+4-62	568-569	{	_	_	
+4-63	569-577	Aumiller	_	_	
+4-64	577-578	,	_	_	
+4-65	579-585	Dennis	_	_	
+4-66	586-589	and	_	_	
+4-67	590-595	Gertz	_	_	
+4-68	595-596	,	_	_	
+4-69	597-604	Michael	_	_	
+4-70	604-605	}	_	_	
+4-71	605-606	,	_	_	
+4-72	607-612	title	_	_	
+4-73	613-614	=	_	_	
+4-74	615-616	{	_	_	
+4-75	616-617	{	_	_	
+4-76	617-622	UniHD	*[3]	PUBLICATION[3]	
+4-77	623-625	at	*[3]	PUBLICATION[3]	
+4-78	626-630	TSAR	*[3]|*[4]	PUBLICATION[3]|WORKSHOP[4]	
+4-79	630-631	-	*[3]|*[4]	PUBLICATION[3]|WORKSHOP[4]	
+4-80	631-635	2022	*[3]|*[4]	PUBLICATION[3]|WORKSHOP[4]	
+4-81	636-642	Shared	*[3]	PUBLICATION[3]	
+4-82	643-647	Task	*[3]	PUBLICATION[3]	
+4-83	647-648	:	*[3]	PUBLICATION[3]	
+4-84	649-651	Is	*[3]	PUBLICATION[3]	
+4-85	652-659	Compute	*[3]	PUBLICATION[3]	
+4-86	660-663	All	*[3]	PUBLICATION[3]	
+4-87	664-666	We	*[3]	PUBLICATION[3]	
+4-88	667-671	Need	*[3]	PUBLICATION[3]	
+4-89	672-675	for	*[3]	PUBLICATION[3]	
+4-90	676-683	Lexical	*[3]	PUBLICATION[3]	
+4-91	684-698	Simplification	*[3]	PUBLICATION[3]	
+4-92	698-699	?	*[3]	PUBLICATION[3]	
+4-93	699-700	}	_	_	
+4-94	700-701	}	_	_	
+
+#Text=,
+#Text=journal = {CoRR},
+#Text=volume = {abs/2301.01764},
+#Text=eprinttype = {arXiv},
+#Text=eprint = {2301.01764},
+#Text=url = {https://arxiv.org/abs/2301.01764}
+#Text=}
+#Text=```
+#Text=
+#Text=
+#Text=## Setup for Reproduction
+#Text=To run the results for the respective subsets, you need to provide your own OpenAI API key in a file named `config.py`.
+5-1	701-702	,	_	_	
+5-2	703-710	journal	_	_	
+5-3	711-712	=	_	_	
+5-4	713-714	{	_	_	
+5-5	714-718	CoRR	_	_	
+5-6	718-719	}	_	_	
+5-7	719-720	,	_	_	
+5-8	721-727	volume	_	_	
+5-9	728-729	=	_	_	
+5-10	730-731	{	_	_	
+5-11	731-734	abs	_	_	
+5-12	734-735	/	_	_	
+5-13	735-745	2301.01764	_	_	
+5-14	745-746	}	_	_	
+5-15	746-747	,	_	_	
+5-16	748-758	eprinttype	_	_	
+5-17	759-760	=	_	_	
+5-18	761-762	{	_	_	
+5-19	762-767	arXiv	_	_	
+5-20	767-768	}	_	_	
+5-21	768-769	,	_	_	
+5-22	770-776	eprint	_	_	
+5-23	777-778	=	_	_	
+5-24	779-780	{	_	_	
+5-25	780-790	2301.01764	_	_	
+5-26	790-791	}	_	_	
+5-27	791-792	,	_	_	
+5-28	793-796	url	_	_	
+5-29	797-798	=	_	_	
+5-30	799-800	{	_	_	
+5-31	800-805	https	_	_	
+5-32	805-806	:	_	_	
+5-33	806-807	/	_	_	
+5-34	807-808	/	_	_	
+5-35	808-817	arxiv.org	_	_	
+5-36	817-818	/	_	_	
+5-37	818-821	abs	_	_	
+5-38	821-822	/	_	_	
+5-39	822-832	2301.01764	_	_	
+5-40	832-833	}	_	_	
+5-41	834-835	}	_	_	
+5-42	836-837	`	_	_	
+5-43	837-838	`	_	_	
+5-44	838-839	`	_	_	
+5-45	842-843	#	_	_	
+5-46	843-844	#	_	_	
+5-47	845-850	Setup	_	_	
+5-48	851-854	for	_	_	
+5-49	855-867	Reproduction	_	_	
+5-50	868-870	To	_	_	
+5-51	871-874	run	_	_	
+5-52	875-878	the	_	_	
+5-53	879-886	results	_	_	
+5-54	887-890	for	_	_	
+5-55	891-894	the	_	_	
+5-56	895-905	respective	_	_	
+5-57	906-913	subsets	_	_	
+5-58	913-914	,	_	_	
+5-59	915-918	you	_	_	
+5-60	919-923	need	_	_	
+5-61	924-926	to	_	_	
+5-62	927-934	provide	_	_	
+5-63	935-939	your	_	_	
+5-64	940-943	own	_	_	
+5-65	944-950	OpenAI	_	_	
+5-66	951-954	API	_	_	
+5-67	955-958	key	_	_	
+5-68	959-961	in	_	_	
+5-69	962-963	a	_	_	
+5-70	964-968	file	_	_	
+5-71	969-974	named	_	_	
+5-72	975-976	`	_	_	
+5-73	976-985	config.py	_	_	
+5-74	985-986	`	_	_	
+5-75	986-987	.	_	_	
+
+#Text=A template can be found in `config.py.template`, which already contains the correct variable name and structure.
+6-1	988-989	A	_	_	
+6-2	990-998	template	_	_	
+6-3	999-1002	can	_	_	
+6-4	1003-1005	be	_	_	
+6-5	1006-1011	found	_	_	
+6-6	1012-1014	in	_	_	
+6-7	1015-1016	`	_	_	
+6-8	1016-1034	config.py.template	_	_	
+6-9	1034-1035	`	_	_	
+6-10	1035-1036	,	_	_	
+6-11	1037-1042	which	_	_	
+6-12	1043-1050	already	_	_	
+6-13	1051-1059	contains	_	_	
+6-14	1060-1063	the	_	_	
+6-15	1064-1071	correct	_	_	
+6-16	1072-1080	variable	_	_	
+6-17	1081-1085	name	_	_	
+6-18	1086-1089	and	_	_	
+6-19	1090-1099	structure	_	_	
+6-20	1099-1100	.	_	_	
+
+#Text=Other required packages can be installed with `python3 -m pip install -r requirements.txt` from the main repository folder.
+7-1	1103-1108	Other	_	_	
+7-2	1109-1117	required	_	_	
+7-3	1118-1126	packages	_	_	
+7-4	1127-1130	can	_	_	
+7-5	1131-1133	be	_	_	
+7-6	1134-1143	installed	_	_	
+7-7	1144-1148	with	_	_	
+7-8	1149-1150	`	_	_	
+7-9	1150-1157	python3	*	SOFTWARE	
+7-10	1158-1159	-	_	_	
+7-11	1159-1160	m	_	_	
+7-12	1161-1164	pip	*	SOFTWARE	
+7-13	1165-1172	install	_	_	
+7-14	1173-1174	-	_	_	
+7-15	1174-1175	r	_	_	
+7-16	1176-1192	requirements.txt	_	_	
+7-17	1192-1193	`	_	_	
+7-18	1194-1198	from	_	_	
+7-19	1199-1202	the	_	_	
+7-20	1203-1207	main	_	_	
+7-21	1208-1218	repository	_	_	
+7-22	1219-1225	folder	_	_	
+7-23	1225-1226	.	_	_	
+
+#Text=Obtaining predictions from the API should be possible by running `context_predictor.py` for English results, and the `_es.py` and `\\_pt.py` files for Spanish and Portuguese predictions, respectively.
+8-1	1228-1237	Obtaining	_	_	
+8-2	1238-1249	predictions	_	_	
+8-3	1250-1254	from	_	_	
+8-4	1255-1258	the	_	_	
+8-5	1259-1262	API	_	_	
+8-6	1263-1269	should	_	_	
+8-7	1270-1272	be	_	_	
+8-8	1273-1281	possible	_	_	
+8-9	1282-1284	by	_	_	
+8-10	1285-1292	running	_	_	
+8-11	1293-1294	`	_	_	
+8-12	1294-1314	context_predictor.py	_	_	
+8-13	1314-1315	`	_	_	
+8-14	1316-1319	for	_	_	
+8-15	1320-1327	English	_	_	
+8-16	1328-1335	results	_	_	
+8-17	1335-1336	,	_	_	
+8-18	1337-1340	and	_	_	
+8-19	1341-1344	the	_	_	
+8-20	1345-1346	`	_	_	
+8-21	1346-1347	_	_	_	
+8-22	1347-1352	es.py	_	_	
+8-23	1352-1353	`	_	_	
+8-24	1354-1357	and	_	_	
+8-25	1358-1359	`	_	_	
+8-26	1359-1360	\	_	_	
+8-27	1360-1361	_	_	_	
+8-28	1361-1366	pt.py	_	_	
+8-29	1366-1367	`	_	_	
+8-30	1368-1373	files	_	_	
+8-31	1374-1377	for	_	_	
+8-32	1378-1385	Spanish	_	_	
+8-33	1386-1389	and	_	_	
+8-34	1390-1400	Portuguese	_	_	
+8-35	1401-1412	predictions	_	_	
+8-36	1412-1413	,	_	_	
+8-37	1414-1426	respectively	_	_	
+8-38	1426-1427	.	_	_	
+
+#Text=Our predictions submitted to the workshop can be found either in the subfolder `en/`, or the fiel `UniHD.zip`.
+9-1	1429-1432	Our	_	_	
+9-2	1433-1444	predictions	_	_	
+9-3	1445-1454	submitted	_	_	
+9-4	1455-1457	to	_	_	
+9-5	1458-1461	the	_	_	
+9-6	1462-1470	workshop	_	_	
+9-7	1471-1474	can	_	_	
+9-8	1475-1477	be	_	_	
+9-9	1478-1483	found	_	_	
+9-10	1484-1490	either	_	_	
+9-11	1491-1493	in	_	_	
+9-12	1494-1497	the	_	_	
+9-13	1498-1507	subfolder	_	_	
+9-14	1508-1509	`	_	_	
+9-15	1509-1511	en	_	_	
+9-16	1511-1512	/	_	_	
+9-17	1512-1513	`	_	_	
+9-18	1513-1514	,	_	_	
+9-19	1515-1517	or	_	_	
+9-20	1518-1521	the	_	_	
+9-21	1522-1526	fiel	_	_	
+9-22	1527-1528	`	_	_	
+9-23	1528-1537	UniHD.zip	_	_	
+9-24	1537-1538	`	_	_	
+9-25	1538-1539	.	_	_	
+
+#Text=Later additions of the Spanish and Portuguese predictions are in the respective folders `es/` (for Spanish) and `pt/` (Portuguese).
+10-1	1540-1545	Later	_	_	
+10-2	1546-1555	additions	_	_	
+10-3	1556-1558	of	_	_	
+10-4	1559-1562	the	_	_	
+10-5	1563-1570	Spanish	_	_	
+10-6	1571-1574	and	_	_	
+10-7	1575-1585	Portuguese	_	_	
+10-8	1586-1597	predictions	_	_	
+10-9	1598-1601	are	_	_	
+10-10	1602-1604	in	_	_	
+10-11	1605-1608	the	_	_	
+10-12	1609-1619	respective	_	_	
+10-13	1620-1627	folders	_	_	
+10-14	1628-1629	`	_	_	
+10-15	1629-1631	es	_	_	
+10-16	1631-1632	/	_	_	
+10-17	1632-1633	`	_	_	
+10-18	1634-1635	(	_	_	
+10-19	1635-1638	for	_	_	
+10-20	1639-1646	Spanish	_	_	
+10-21	1646-1647	)	_	_	
+10-22	1648-1651	and	_	_	
+10-23	1652-1653	`	_	_	
+10-24	1653-1655	pt	_	_	
+10-25	1655-1656	/	_	_	
+10-26	1656-1657	`	_	_	
+10-27	1658-1659	(	_	_	
+10-28	1659-1669	Portuguese	_	_	
+10-29	1669-1670	)	_	_	
+10-30	1670-1671	.	_	_	
+
+#Text=An exact reproduction of the system outputs may not be possible, as the generation temperature and other, server-side factors, such as the random seed, can potentially lead to differing predictions.
+11-1	1674-1676	An	_	_	
+11-2	1677-1682	exact	_	_	
+11-3	1683-1695	reproduction	_	_	
+11-4	1696-1698	of	_	_	
+11-5	1699-1702	the	_	_	
+11-6	1703-1709	system	_	_	
+11-7	1710-1717	outputs	_	_	
+11-8	1718-1721	may	_	_	
+11-9	1722-1725	not	_	_	
+11-10	1726-1728	be	_	_	
+11-11	1729-1737	possible	_	_	
+11-12	1737-1738	,	_	_	
+11-13	1739-1741	as	_	_	
+11-14	1742-1745	the	_	_	
+11-15	1746-1756	generation	_	_	
+11-16	1757-1768	temperature	_	_	
+11-17	1769-1772	and	_	_	
+11-18	1773-1778	other	_	_	
+11-19	1778-1779	,	_	_	
+11-20	1780-1791	server-side	_	_	
+11-21	1792-1799	factors	_	_	
+11-22	1799-1800	,	_	_	
+11-23	1801-1805	such	_	_	
+11-24	1806-1808	as	_	_	
+11-25	1809-1812	the	_	_	
+11-26	1813-1819	random	_	_	
+11-27	1820-1824	seed	_	_	
+11-28	1824-1825	,	_	_	
+11-29	1826-1829	can	_	_	
+11-30	1830-1841	potentially	_	_	
+11-31	1842-1846	lead	_	_	
+11-32	1847-1849	to	_	_	
+11-33	1850-1859	differing	_	_	
+11-34	1860-1871	predictions	_	_	
+11-35	1871-1872	.	_	_	
+
+#Text=In our experience, there is no possibility of fixing a particular prediction to occur with 100% likelihood.
+12-1	1873-1875	In	_	_	
+12-2	1876-1879	our	_	_	
+12-3	1880-1890	experience	_	_	
+12-4	1890-1891	,	_	_	
+12-5	1892-1897	there	_	_	
+12-6	1898-1900	is	_	_	
+12-7	1901-1903	no	_	_	
+12-8	1904-1915	possibility	_	_	
+12-9	1916-1918	of	_	_	
+12-10	1919-1925	fixing	_	_	
+12-11	1926-1927	a	_	_	
+12-12	1928-1938	particular	_	_	
+12-13	1939-1949	prediction	_	_	
+12-14	1950-1952	to	_	_	
+12-15	1953-1958	occur	_	_	
+12-16	1959-1963	with	_	_	
+12-17	1964-1968	100%	_	_	
+12-18	1969-1979	likelihood	_	_	
+12-19	1979-1980	.	_	_	
+
+#Text=We also do not make any promises that the used prompt templates work with later models.
+13-1	1981-1983	We	_	_	
+13-2	1984-1988	also	_	_	
+13-3	1989-1991	do	_	_	
+13-4	1992-1995	not	_	_	
+13-5	1996-2000	make	_	_	
+13-6	2001-2004	any	_	_	
+13-7	2005-2013	promises	_	_	
+13-8	2014-2018	that	_	_	
+13-9	2019-2022	the	_	_	
+13-10	2023-2027	used	_	_	
+13-11	2028-2034	prompt	_	_	
+13-12	2035-2044	templates	_	_	
+13-13	2045-2049	work	_	_	
+13-14	2050-2054	with	_	_	
+13-15	2055-2060	later	_	_	
+13-16	2061-2067	models	_	_	
+13-17	2067-2068	.	_	_	
+
+#Text=In our experiments, we used the (relatively "outdated" `text-davinci-002` model, which may respond differently to prompt variants than later additions
+14-1	2069-2071	In	_	_	
+14-2	2072-2075	our	_	_	
+14-3	2076-2087	experiments	_	_	
+14-4	2087-2088	,	_	_	
+14-5	2089-2091	we	_	_	
+14-6	2092-2096	used	_	_	
+14-7	2097-2100	the	_	_	
+14-8	2101-2102	(	_	_	
+14-9	2102-2112	relatively	_	_	
+14-10	2113-2114	"	_	_	
+14-11	2114-2122	outdated	_	_	
+14-12	2122-2123	"	_	_	
+14-13	2124-2125	`	_	_	
+14-14	2125-2137	text-davinci	_	_	
+14-15	2137-2138	-	_	_	
+14-16	2138-2141	002	_	_	
+14-17	2141-2142	`	_	_	
+14-18	2143-2148	model	_	_	
+14-19	2148-2149	,	_	_	
+14-20	2150-2155	which	_	_	
+14-21	2156-2159	may	_	_	
+14-22	2160-2167	respond	_	_	
+14-23	2168-2179	differently	_	_	
+14-24	2180-2182	to	_	_	
+14-25	2183-2189	prompt	_	_	
+14-26	2190-2198	variants	_	_	
+14-27	2199-2203	than	_	_	
+14-28	2204-2209	later	_	_	
+14-29	2210-2219	additions	_	_	
+
+#Text=.
+15-1	2219-2220	.	_	_	
+
+#Text=# Original README: TSAR-2022-Shared-Task Datasets and Evaluation Scripts
+#Text=TSAR2022 Shared Task on Lexical Simplification for English (en), Spanish (es) and Portuguese (pt) - Datasets and Evaluation scripts
+#Text=
+#Text=Please look at the website of the Shared Task for more details about the Evaluation Benchmark, Guidelines, Registration Form, etc...
+16-1	2222-2223	#	_	_	
+16-2	2224-2232	Original	_	_	
+16-3	2233-2239	README	_	_	
+16-4	2239-2240	:	_	_	
+16-5	2241-2245	TSAR	*[5]	WORKSHOP[5]	
+16-6	2245-2246	-	*[5]	WORKSHOP[5]	
+16-7	2246-2250	2022	*[5]	WORKSHOP[5]	
+16-8	2250-2251	-	_	_	
+16-9	2251-2262	Shared-Task	_	_	
+16-10	2263-2271	Datasets	_	_	
+16-11	2272-2275	and	_	_	
+16-12	2276-2286	Evaluation	_	_	
+16-13	2287-2294	Scripts	_	_	
+16-14	2295-2303	TSAR2022	*	WORKSHOP	
+16-15	2304-2310	Shared	_	_	
+16-16	2311-2315	Task	_	_	
+16-17	2316-2318	on	_	_	
+16-18	2319-2326	Lexical	_	_	
+16-19	2327-2341	Simplification	_	_	
+16-20	2342-2345	for	_	_	
+16-21	2346-2353	English	_	_	
+16-22	2354-2355	(	_	_	
+16-23	2355-2357	en	_	_	
+16-24	2357-2358	)	_	_	
+16-25	2358-2359	,	_	_	
+16-26	2360-2367	Spanish	_	_	
+16-27	2368-2369	(	_	_	
+16-28	2369-2371	es	_	_	
+16-29	2371-2372	)	_	_	
+16-30	2373-2376	and	_	_	
+16-31	2377-2387	Portuguese	_	_	
+16-32	2388-2389	(	_	_	
+16-33	2389-2391	pt	_	_	
+16-34	2391-2392	)	_	_	
+16-35	2393-2394	-	_	_	
+16-36	2395-2403	Datasets	_	_	
+16-37	2404-2407	and	_	_	
+16-38	2408-2418	Evaluation	_	_	
+16-39	2419-2426	scripts	_	_	
+16-40	2428-2434	Please	_	_	
+16-41	2435-2439	look	_	_	
+16-42	2440-2442	at	_	_	
+16-43	2443-2446	the	_	_	
+16-44	2447-2454	website	_	_	
+16-45	2455-2457	of	_	_	
+16-46	2458-2461	the	_	_	
+16-47	2462-2468	Shared	_	_	
+16-48	2469-2473	Task	_	_	
+16-49	2474-2477	for	_	_	
+16-50	2478-2482	more	_	_	
+16-51	2483-2490	details	_	_	
+16-52	2491-2496	about	_	_	
+16-53	2497-2500	the	_	_	
+16-54	2501-2511	Evaluation	_	_	
+16-55	2512-2521	Benchmark	_	_	
+16-56	2521-2522	,	_	_	
+16-57	2523-2533	Guidelines	_	_	
+16-58	2533-2534	,	_	_	
+16-59	2535-2547	Registration	_	_	
+16-60	2548-2552	Form	_	_	
+16-61	2552-2553	,	_	_	
+16-62	2554-2557	etc	_	_	
+16-63	2557-2558	.	_	_	
+16-64	2558-2559	.	_	_	
+16-65	2559-2560	.	_	_	
+
+#Text=<br/>[TSAR-2022 Shared-Task website](https://taln.upf.edu/pages/tsar2022-st/)
+#Text=
+#Text=## Datasets
+#Text=
+#Text=There is no training dataset for the TSAR-2022 Shared Task.
+17-1	2561-2562	<	_	_	
+17-2	2562-2564	br	_	_	
+17-3	2564-2565	/	_	_	
+17-4	2565-2566	>	_	_	
+17-5	2566-2567	[	_	_	
+17-6	2567-2571	TSAR	*[6]	WORKSHOP[6]	
+17-7	2571-2572	-	*[6]	WORKSHOP[6]	
+17-8	2572-2576	2022	*[6]	WORKSHOP[6]	
+17-9	2577-2588	Shared-Task	_	_	
+17-10	2589-2596	website	_	_	
+17-11	2596-2597	]	_	_	
+17-12	2597-2598	(	_	_	
+17-13	2598-2603	https	_	_	
+17-14	2603-2604	:	_	_	
+17-15	2604-2605	/	_	_	
+17-16	2605-2606	/	_	_	
+17-17	2606-2618	taln.upf.edu	_	_	
+17-18	2618-2619	/	_	_	
+17-19	2619-2624	pages	_	_	
+17-20	2624-2625	/	_	_	
+17-21	2625-2633	tsar2022	*	WORKSHOP	
+17-22	2633-2634	-	_	_	
+17-23	2634-2636	st	_	_	
+17-24	2636-2637	/	_	_	
+17-25	2637-2638	)	_	_	
+17-26	2640-2641	#	_	_	
+17-27	2641-2642	#	_	_	
+17-28	2643-2651	Datasets	_	_	
+17-29	2653-2658	There	_	_	
+17-30	2659-2661	is	_	_	
+17-31	2662-2664	no	_	_	
+17-32	2665-2673	training	_	_	
+17-33	2674-2681	dataset	_	_	
+17-34	2682-2685	for	_	_	
+17-35	2686-2689	the	_	_	
+17-36	2690-2694	TSAR	*[7]	WORKSHOP[7]	
+17-37	2694-2695	-	*[7]	WORKSHOP[7]	
+17-38	2695-2699	2022	*[7]	WORKSHOP[7]	
+17-39	2700-2706	Shared	_	_	
+17-40	2707-2711	Task	_	_	
+17-41	2711-2712	.	_	_	
+
+#Text=However, a sample of 10 or 12 instances with gold standard annotations is provided here as a trial/sample dataset.
+18-1	2714-2721	However	_	_	
+18-2	2721-2722	,	_	_	
+18-3	2723-2724	a	_	_	
+18-4	2725-2731	sample	_	_	
+18-5	2732-2734	of	_	_	
+18-6	2735-2737	10	_	_	
+18-7	2738-2740	or	_	_	
+18-8	2741-2743	12	_	_	
+18-9	2744-2753	instances	_	_	
+18-10	2754-2758	with	_	_	
+18-11	2759-2763	gold	_	_	
+18-12	2764-2772	standard	_	_	
+18-13	2773-2784	annotations	_	_	
+18-14	2785-2787	is	_	_	
+18-15	2788-2796	provided	_	_	
+18-16	2797-2801	here	_	_	
+18-17	2802-2804	as	_	_	
+18-18	2805-2806	a	_	_	
+18-19	2807-2812	trial	_	_	
+18-20	2812-2813	/	_	_	
+18-21	2813-2819	sample	_	_	
+18-22	2820-2827	dataset	_	_	
+18-23	2827-2828	.	_	_	
+
+#Text=<br/> 
+#Text=<br/> 
+#Text=Format of the files:
+#Text=- Format of the *trial_none* and *test_none* files: <span style="font-weight:normal">Sentence&lt;TAB&gt;ComplexWord</span>
+#Text=- Format of the *trial_gold* and *test_gold* files: <span style="font-weight:normal">Sentence&lt;TAB&gt;ComplexWord&lt;TAB&gt;Annotation1&lt;TAB&gt;Annotation2&lt;TAB&gt;...
+19-1	2829-2830	<	_	_	
+19-2	2830-2832	br	_	_	
+19-3	2832-2833	/	_	_	
+19-4	2833-2834	>	_	_	
+19-5	2836-2837	<	_	_	
+19-6	2837-2839	br	_	_	
+19-7	2839-2840	/	_	_	
+19-8	2840-2841	>	_	_	
+19-9	2843-2849	Format	_	_	
+19-10	2850-2852	of	_	_	
+19-11	2853-2856	the	_	_	
+19-12	2857-2862	files	_	_	
+19-13	2862-2863	:	_	_	
+19-14	2864-2865	-	_	_	
+19-15	2866-2872	Format	_	_	
+19-16	2873-2875	of	_	_	
+19-17	2876-2879	the	_	_	
+19-18	2880-2881	*	_	_	
+19-19	2881-2891	trial_none	_	_	
+19-20	2891-2892	*	_	_	
+19-21	2893-2896	and	_	_	
+19-22	2897-2898	*	_	_	
+19-23	2898-2907	test_none	_	_	
+19-24	2907-2908	*	_	_	
+19-25	2909-2914	files	_	_	
+19-26	2914-2915	:	_	_	
+19-27	2916-2917	<	_	_	
+19-28	2917-2921	span	_	_	
+19-29	2922-2927	style	_	_	
+19-30	2927-2928	=	_	_	
+19-31	2928-2929	"	_	_	
+19-32	2929-2940	font-weight	_	_	
+19-33	2940-2941	:	_	_	
+19-34	2941-2947	normal	_	_	
+19-35	2947-2948	"	_	_	
+19-36	2948-2949	>	_	_	
+19-37	2949-2957	Sentence	_	_	
+19-38	2957-2958	&	_	_	
+19-39	2958-2960	lt	_	_	
+19-40	2960-2961	;	_	_	
+19-41	2961-2964	TAB	_	_	
+19-42	2964-2965	&	_	_	
+19-43	2965-2967	gt	_	_	
+19-44	2967-2968	;	_	_	
+19-45	2968-2979	ComplexWord	_	_	
+19-46	2979-2980	<	_	_	
+19-47	2980-2981	/	_	_	
+19-48	2981-2985	span	_	_	
+19-49	2985-2986	>	_	_	
+19-50	2987-2988	-	_	_	
+19-51	2989-2995	Format	_	_	
+19-52	2996-2998	of	_	_	
+19-53	2999-3002	the	_	_	
+19-54	3003-3004	*	_	_	
+19-55	3004-3014	trial_gold	_	_	
+19-56	3014-3015	*	_	_	
+19-57	3016-3019	and	_	_	
+19-58	3020-3021	*	_	_	
+19-59	3021-3030	test_gold	_	_	
+19-60	3030-3031	*	_	_	
+19-61	3032-3037	files	_	_	
+19-62	3037-3038	:	_	_	
+19-63	3039-3040	<	_	_	
+19-64	3040-3044	span	_	_	
+19-65	3045-3050	style	_	_	
+19-66	3050-3051	=	_	_	
+19-67	3051-3052	"	_	_	
+19-68	3052-3063	font-weight	_	_	
+19-69	3063-3064	:	_	_	
+19-70	3064-3070	normal	_	_	
+19-71	3070-3071	"	_	_	
+19-72	3071-3072	>	_	_	
+19-73	3072-3080	Sentence	_	_	
+19-74	3080-3081	&	_	_	
+19-75	3081-3083	lt	_	_	
+19-76	3083-3084	;	_	_	
+19-77	3084-3087	TAB	_	_	
+19-78	3087-3088	&	_	_	
+19-79	3088-3090	gt	_	_	
+19-80	3090-3091	;	_	_	
+19-81	3091-3102	ComplexWord	_	_	
+19-82	3102-3103	&	_	_	
+19-83	3103-3105	lt	_	_	
+19-84	3105-3106	;	_	_	
+19-85	3106-3109	TAB	_	_	
+19-86	3109-3110	&	_	_	
+19-87	3110-3112	gt	_	_	
+19-88	3112-3113	;	_	_	
+19-89	3113-3125	Annotation1&	_	_	
+19-90	3125-3127	lt	_	_	
+19-91	3127-3128	;	_	_	
+19-92	3128-3131	TAB	_	_	
+19-93	3131-3132	&	_	_	
+19-94	3132-3134	gt	_	_	
+19-95	3134-3135	;	_	_	
+19-96	3135-3147	Annotation2&	_	_	
+19-97	3147-3149	lt	_	_	
+19-98	3149-3150	;	_	_	
+19-99	3150-3153	TAB	_	_	
+19-100	3153-3154	&	_	_	
+19-101	3154-3156	gt	_	_	
+19-102	3156-3157	;	_	_	
+19-103	3157-3158	.	_	_	
+19-104	3158-3159	.	_	_	
+19-105	3159-3160	.	_	_	
+
+#Text=&lt;TAB&gt;AnnotationN</span>
+#Text=
+#Text=
+#Text=### Trial dataset
+#Text=The trial dataset consists of a set of 10 instances (for English and Portuguese) and 12 instances (for Spanish) of a sentence, a target complex word.
+20-1	3160-3161	&	_	_	
+20-2	3161-3163	lt	_	_	
+20-3	3163-3164	;	_	_	
+20-4	3164-3167	TAB	_	_	
+20-5	3167-3168	&	_	_	
+20-6	3168-3170	gt	_	_	
+20-7	3170-3171	;	_	_	
+20-8	3171-3182	AnnotationN	_	_	
+20-9	3182-3183	<	_	_	
+20-10	3183-3184	/	_	_	
+20-11	3184-3188	span	_	_	
+20-12	3188-3189	>	_	_	
+20-13	3192-3193	#	_	_	
+20-14	3193-3194	#	_	_	
+20-15	3194-3195	#	_	_	
+20-16	3196-3201	Trial	_	_	
+20-17	3202-3209	dataset	_	_	
+20-18	3210-3213	The	_	_	
+20-19	3214-3219	trial	_	_	
+20-20	3220-3227	dataset	_	_	
+20-21	3228-3236	consists	_	_	
+20-22	3237-3239	of	_	_	
+20-23	3240-3241	a	_	_	
+20-24	3242-3245	set	_	_	
+20-25	3246-3248	of	_	_	
+20-26	3249-3251	10	_	_	
+20-27	3252-3261	instances	_	_	
+20-28	3262-3263	(	_	_	
+20-29	3263-3266	for	_	_	
+20-30	3267-3274	English	_	_	
+20-31	3275-3278	and	_	_	
+20-32	3279-3289	Portuguese	_	_	
+20-33	3289-3290	)	_	_	
+20-34	3291-3294	and	_	_	
+20-35	3295-3297	12	_	_	
+20-36	3298-3307	instances	_	_	
+20-37	3308-3309	(	_	_	
+20-38	3309-3312	for	_	_	
+20-39	3313-3320	Spanish	_	_	
+20-40	3320-3321	)	_	_	
+20-41	3322-3324	of	_	_	
+20-42	3325-3326	a	_	_	
+20-43	3327-3335	sentence	_	_	
+20-44	3335-3336	,	_	_	
+20-45	3337-3338	a	_	_	
+20-46	3339-3345	target	_	_	
+20-47	3346-3353	complex	_	_	
+20-48	3354-3358	word	_	_	
+20-49	3358-3359	.	_	_	
+
+#Text=The *trial_none* files contain only the instances and the *trial_gold* files contain the instances and set of gold annotations
+21-1	3360-3363	The	_	_	
+21-2	3364-3365	*	_	_	
+21-3	3365-3375	trial_none	_	_	
+21-4	3375-3376	*	_	_	
+21-5	3377-3382	files	_	_	
+21-6	3383-3390	contain	_	_	
+21-7	3391-3395	only	_	_	
+21-8	3396-3399	the	_	_	
+21-9	3400-3409	instances	_	_	
+21-10	3410-3413	and	_	_	
+21-11	3414-3417	the	_	_	
+21-12	3418-3419	*	_	_	
+21-13	3419-3429	trial_gold	_	_	
+21-14	3429-3430	*	_	_	
+21-15	3431-3436	files	_	_	
+21-16	3437-3444	contain	_	_	
+21-17	3445-3448	the	_	_	
+21-18	3449-3458	instances	_	_	
+21-19	3459-3462	and	_	_	
+21-20	3463-3466	set	_	_	
+21-21	3467-3469	of	_	_	
+21-22	3470-3474	gold	_	_	
+21-23	3475-3486	annotations	_	_	
+
+#Text=.
+22-1	3486-3487	.	_	_	
+
+#Text=- /datasets/trial/tsar2022_en_trial_none.tsv
+#Text=- /datasets/trial/tsar2022_en_trial_gold.tsv
+#Text=- /datasets/trial/tsar2022_es_trial_none.tsv
+#Text=- /datasets/trial/tsar2022_es_trial_gold.tsv
+#Text=- /datasets/trial/tsar2022_pt_trial_none.tsv
+#Text=- /datasets/trial/tsar2022_pt_trial_gold.tsv
+#Text=
+#Text=<br/>
+#Text=
+#Text=
+#Text=
+#Text=### Test dataset 
+#Text=
+#Text=The *test_none* files (used for the evaluation benchmark) contain the instances with the sentences and target complex words
+23-1	3489-3490	-	_	_	
+23-2	3491-3492	/	_	_	
+23-3	3492-3500	datasets	_	_	
+23-4	3500-3501	/	_	_	
+23-5	3501-3506	trial	_	_	
+23-6	3506-3507	/	_	_	
+23-7	3507-3515	tsar2022	*	WORKSHOP	
+23-8	3515-3516	_	_	_	
+23-9	3516-3533	en_trial_none.tsv	_	_	
+23-10	3534-3535	-	_	_	
+23-11	3536-3537	/	_	_	
+23-12	3537-3545	datasets	_	_	
+23-13	3545-3546	/	_	_	
+23-14	3546-3551	trial	_	_	
+23-15	3551-3552	/	_	_	
+23-16	3552-3560	tsar2022	*	WORKSHOP	
+23-17	3560-3561	_	_	_	
+23-18	3561-3578	en_trial_gold.tsv	_	_	
+23-19	3579-3580	-	_	_	
+23-20	3581-3582	/	_	_	
+23-21	3582-3590	datasets	_	_	
+23-22	3590-3591	/	_	_	
+23-23	3591-3596	trial	_	_	
+23-24	3596-3597	/	_	_	
+23-25	3597-3605	tsar2022	*	WORKSHOP	
+23-26	3605-3606	_	_	_	
+23-27	3606-3623	es_trial_none.tsv	_	_	
+23-28	3624-3625	-	_	_	
+23-29	3626-3627	/	_	_	
+23-30	3627-3635	datasets	_	_	
+23-31	3635-3636	/	_	_	
+23-32	3636-3641	trial	_	_	
+23-33	3641-3642	/	_	_	
+23-34	3642-3650	tsar2022	*	WORKSHOP	
+23-35	3650-3651	_	_	_	
+23-36	3651-3668	es_trial_gold.tsv	_	_	
+23-37	3669-3670	-	_	_	
+23-38	3671-3672	/	_	_	
+23-39	3672-3680	datasets	_	_	
+23-40	3680-3681	/	_	_	
+23-41	3681-3686	trial	_	_	
+23-42	3686-3687	/	_	_	
+23-43	3687-3695	tsar2022	*	WORKSHOP	
+23-44	3695-3696	_	_	_	
+23-45	3696-3713	pt_trial_none.tsv	_	_	
+23-46	3714-3715	-	_	_	
+23-47	3716-3717	/	_	_	
+23-48	3717-3725	datasets	_	_	
+23-49	3725-3726	/	_	_	
+23-50	3726-3731	trial	_	_	
+23-51	3731-3732	/	_	_	
+23-52	3732-3740	tsar2022	*	WORKSHOP	
+23-53	3740-3741	_	_	_	
+23-54	3741-3758	pt_trial_gold.tsv	_	_	
+23-55	3760-3761	<	_	_	
+23-56	3761-3763	br	_	_	
+23-57	3763-3764	/	_	_	
+23-58	3764-3765	>	_	_	
+23-59	3769-3770	#	_	_	
+23-60	3770-3771	#	_	_	
+23-61	3771-3772	#	_	_	
+23-62	3773-3777	Test	_	_	
+23-63	3778-3785	dataset	_	_	
+23-64	3788-3791	The	_	_	
+23-65	3792-3793	*	_	_	
+23-66	3793-3802	test_none	_	_	
+23-67	3802-3803	*	_	_	
+23-68	3804-3809	files	_	_	
+23-69	3810-3811	(	_	_	
+23-70	3811-3815	used	_	_	
+23-71	3816-3819	for	_	_	
+23-72	3820-3823	the	_	_	
+23-73	3824-3834	evaluation	_	_	
+23-74	3835-3844	benchmark	_	_	
+23-75	3844-3845	)	_	_	
+23-76	3846-3853	contain	_	_	
+23-77	3854-3857	the	_	_	
+23-78	3858-3867	instances	_	_	
+23-79	3868-3872	with	_	_	
+23-80	3873-3876	the	_	_	
+23-81	3877-3886	sentences	_	_	
+23-82	3887-3890	and	_	_	
+23-83	3891-3897	target	_	_	
+23-84	3898-3905	complex	_	_	
+23-85	3906-3911	words	_	_	
+
+#Text=.
+24-1	3911-3912	.	_	_	
+
+#Text=- English test_none dataset (373 instances)<br/> 
+#Text=/datasets/test/tsar2022_en_test_none.tsv  
+#Text=
+#Text=- Spanish test_none dataset (368 instances)<br/> 
+#Text=/datasets/test/tsar2022_es_test_none.tsv  
+#Text=
+#Text=- Portuguese test_none dataset (374 instances)<br/> 
+#Text=/datasets/test/tsar2022_pt_test_none.tsv
+#Text=
+#Text=The *test_gold* files contain the sentences, target complex words, and gold annotations<br/> 
+#Text=
+#Text=- English test_gold dataset (373 instances)<br/> 
+#Text=/datasets/test/tsar2022_en_test_gold.tsv  
+#Text=
+#Text=- Spanish test_gold dataset (368 instances)<br/> 
+#Text=/datasets/test/tsar2022_es_test_gold.tsv  
+#Text=
+#Text=- Portuguese test_gold dataset (374 instances)<br/> 
+#Text=/datasets/test/tsar2022_pt_test_gold.tsv
+#Text=
+#Text=
+#Text=## Results of the Evaluation Benchmark
+#Text=
+#Text=The official results for each language (en, es, and pt) can be found in this directory:<br/> 
+#Text=/results/official
+#Text=
+#Text=The following 10 metrics are reported in the official results:
+#Text=-  MAP@1/Potential@1/Precision@1
+#Text=-  MAP@3
+#Text=-  MAP@5
+#Text=-  MAP@10
+#Text=-  Potential@3
+#Text=-  Potential@5
+#Text=-  Potential@10
+#Text=-  Accuracy@1@top_gold_1
+#Text=-  Accuracy@2@top_gold_1
+#Text=-  Accuracy@3@top_gold_1 
+#Text=
+#Text=
+#Text=The extended results for each language (en, es, and pt) can be found in this directory:<br/> 
+#Text=/results/extended<br/> 
+#Text=
+#Text=The following metrics are reported in the extended results:
+#Text=-  Potential@K  K={1..10} 
+#Text=-  MAP@K  K={1..10}
+#Text=-  Precision@K  K={1..10}  (macro-average)
+#Text=-  Recall@K  K={1..10}     (macro-average)
+#Text=-  Accuracy@K@top_gold_1   K={1..10} 
+#Text=
+#Text=
+#Text=
+#Text=## Evaluation Scripts 
+#Text=
+#Text=### tsar_eval.py
+#Text=
+#Text=This script evaluates the following metric:
+#Text=
+#Text=    -  MAP@1/Potential@1/Precision@1
+#Text=    -  MAP@3
+#Text=    -  MAP@5
+#Text=    -  MAP@10
+#Text=    -  Potential@3
+#Text=    -  Potential@5
+#Text=    -  Potential@10
+#Text=    -  Accuracy@1@top_gold_1
+#Text=    -  Accuracy@2@top_gold_1
+#Text=    -  Accuracy@3@top_gold_1  
+#Text=      
+#Text=Script options and help
+#Text=
+#Text=```console
+#Text=Evaluation Script for the TSAR-2022 Lexical Simplification Shared Task
+#Text=
+#Text=Usage: tsar_eval.py <options>
+#Text=
+#Text=Options:
+#Text=  -h, --help            show this help message and exit
+#Text=  --gold_file=<PATH>    The path to the file with the gold annotated instances
+#Text=  --predictions_file=<PATH>
+#Text=                        The path to file with the predictions
+#Text=  --output_file=<PATH>  path to the output file
+#Text=  --verbose             Verbose output mode
+#Text=```
+#Text=
+#Text=
+#Text=usage example
+#Text=
+#Text=```console
+#Text=python3 .
+25-1	3914-3915	-	_	_	
+25-2	3916-3923	English	_	_	
+25-3	3924-3933	test_none	_	_	
+25-4	3934-3941	dataset	_	_	
+25-5	3942-3943	(	_	_	
+25-6	3943-3946	373	_	_	
+25-7	3947-3956	instances	_	_	
+25-8	3956-3957	)	_	_	
+25-9	3957-3958	<	_	_	
+25-10	3958-3960	br	_	_	
+25-11	3960-3961	/	_	_	
+25-12	3961-3962	>	_	_	
+25-13	3964-3965	/	_	_	
+25-14	3965-3973	datasets	_	_	
+25-15	3973-3974	/	_	_	
+25-16	3974-3978	test	_	_	
+25-17	3978-3979	/	_	_	
+25-18	3979-3987	tsar2022	*	WORKSHOP	
+25-19	3987-3988	_	_	_	
+25-20	3988-4004	en_test_none.tsv	_	_	
+25-21	4008-4009	-	_	_	
+25-22	4010-4017	Spanish	_	_	
+25-23	4018-4027	test_none	_	_	
+25-24	4028-4035	dataset	_	_	
+25-25	4036-4037	(	_	_	
+25-26	4037-4040	368	_	_	
+25-27	4041-4050	instances	_	_	
+25-28	4050-4051	)	_	_	
+25-29	4051-4052	<	_	_	
+25-30	4052-4054	br	_	_	
+25-31	4054-4055	/	_	_	
+25-32	4055-4056	>	_	_	
+25-33	4058-4059	/	_	_	
+25-34	4059-4067	datasets	_	_	
+25-35	4067-4068	/	_	_	
+25-36	4068-4072	test	_	_	
+25-37	4072-4073	/	_	_	
+25-38	4073-4081	tsar2022	*	WORKSHOP	
+25-39	4081-4082	_	_	_	
+25-40	4082-4098	es_test_none.tsv	_	_	
+25-41	4102-4103	-	_	_	
+25-42	4104-4114	Portuguese	_	_	
+25-43	4115-4124	test_none	_	_	
+25-44	4125-4132	dataset	_	_	
+25-45	4133-4134	(	_	_	
+25-46	4134-4137	374	_	_	
+25-47	4138-4147	instances	_	_	
+25-48	4147-4148	)	_	_	
+25-49	4148-4149	<	_	_	
+25-50	4149-4151	br	_	_	
+25-51	4151-4152	/	_	_	
+25-52	4152-4153	>	_	_	
+25-53	4155-4156	/	_	_	
+25-54	4156-4164	datasets	_	_	
+25-55	4164-4165	/	_	_	
+25-56	4165-4169	test	_	_	
+25-57	4169-4170	/	_	_	
+25-58	4170-4178	tsar2022	*	WORKSHOP	
+25-59	4178-4179	_	_	_	
+25-60	4179-4195	pt_test_none.tsv	_	_	
+25-61	4197-4200	The	_	_	
+25-62	4201-4202	*	_	_	
+25-63	4202-4211	test_gold	_	_	
+25-64	4211-4212	*	_	_	
+25-65	4213-4218	files	_	_	
+25-66	4219-4226	contain	_	_	
+25-67	4227-4230	the	_	_	
+25-68	4231-4240	sentences	_	_	
+25-69	4240-4241	,	_	_	
+25-70	4242-4248	target	_	_	
+25-71	4249-4256	complex	_	_	
+25-72	4257-4262	words	_	_	
+25-73	4262-4263	,	_	_	
+25-74	4264-4267	and	_	_	
+25-75	4268-4272	gold	_	_	
+25-76	4273-4284	annotations	_	_	
+25-77	4284-4285	<	_	_	
+25-78	4285-4287	br	_	_	
+25-79	4287-4288	/	_	_	
+25-80	4288-4289	>	_	_	
+25-81	4292-4293	-	_	_	
+25-82	4294-4301	English	_	_	
+25-83	4302-4311	test_gold	_	_	
+25-84	4312-4319	dataset	_	_	
+25-85	4320-4321	(	_	_	
+25-86	4321-4324	373	_	_	
+25-87	4325-4334	instances	_	_	
+25-88	4334-4335	)	_	_	
+25-89	4335-4336	<	_	_	
+25-90	4336-4338	br	_	_	
+25-91	4338-4339	/	_	_	
+25-92	4339-4340	>	_	_	
+25-93	4342-4343	/	_	_	
+25-94	4343-4351	datasets	_	_	
+25-95	4351-4352	/	_	_	
+25-96	4352-4356	test	_	_	
+25-97	4356-4357	/	_	_	
+25-98	4357-4365	tsar2022	*	WORKSHOP	
+25-99	4365-4366	_	_	_	
+25-100	4366-4382	en_test_gold.tsv	_	_	
+25-101	4386-4387	-	_	_	
+25-102	4388-4395	Spanish	_	_	
+25-103	4396-4405	test_gold	_	_	
+25-104	4406-4413	dataset	_	_	
+25-105	4414-4415	(	_	_	
+25-106	4415-4418	368	_	_	
+25-107	4419-4428	instances	_	_	
+25-108	4428-4429	)	_	_	
+25-109	4429-4430	<	_	_	
+25-110	4430-4432	br	_	_	
+25-111	4432-4433	/	_	_	
+25-112	4433-4434	>	_	_	
+25-113	4436-4437	/	_	_	
+25-114	4437-4445	datasets	_	_	
+25-115	4445-4446	/	_	_	
+25-116	4446-4450	test	_	_	
+25-117	4450-4451	/	_	_	
+25-118	4451-4459	tsar2022	*	WORKSHOP	
+25-119	4459-4460	_	_	_	
+25-120	4460-4476	es_test_gold.tsv	_	_	
+25-121	4480-4481	-	_	_	
+25-122	4482-4492	Portuguese	_	_	
+25-123	4493-4502	test_gold	_	_	
+25-124	4503-4510	dataset	_	_	
+25-125	4511-4512	(	_	_	
+25-126	4512-4515	374	_	_	
+25-127	4516-4525	instances	_	_	
+25-128	4525-4526	)	_	_	
+25-129	4526-4527	<	_	_	
+25-130	4527-4529	br	_	_	
+25-131	4529-4530	/	_	_	
+25-132	4530-4531	>	_	_	
+25-133	4533-4534	/	_	_	
+25-134	4534-4542	datasets	_	_	
+25-135	4542-4543	/	_	_	
+25-136	4543-4547	test	_	_	
+25-137	4547-4548	/	_	_	
+25-138	4548-4556	tsar2022	*	WORKSHOP	
+25-139	4556-4557	_	_	_	
+25-140	4557-4573	pt_test_gold.tsv	_	_	
+25-141	4576-4577	#	_	_	
+25-142	4577-4578	#	_	_	
+25-143	4579-4586	Results	_	_	
+25-144	4587-4589	of	_	_	
+25-145	4590-4593	the	_	_	
+25-146	4594-4604	Evaluation	_	_	
+25-147	4605-4614	Benchmark	_	_	
+25-148	4616-4619	The	_	_	
+25-149	4620-4628	official	_	_	
+25-150	4629-4636	results	_	_	
+25-151	4637-4640	for	_	_	
+25-152	4641-4645	each	_	_	
+25-153	4646-4654	language	_	_	
+25-154	4655-4656	(	_	_	
+25-155	4656-4658	en	_	_	
+25-156	4658-4659	,	_	_	
+25-157	4660-4662	es	_	_	
+25-158	4662-4663	,	_	_	
+25-159	4664-4667	and	_	_	
+25-160	4668-4670	pt	_	_	
+25-161	4670-4671	)	_	_	
+25-162	4672-4675	can	_	_	
+25-163	4676-4678	be	_	_	
+25-164	4679-4684	found	_	_	
+25-165	4685-4687	in	_	_	
+25-166	4688-4692	this	_	_	
+25-167	4693-4702	directory	_	_	
+25-168	4702-4703	:	_	_	
+25-169	4703-4704	<	_	_	
+25-170	4704-4706	br	_	_	
+25-171	4706-4707	/	_	_	
+25-172	4707-4708	>	_	_	
+25-173	4710-4711	/	_	_	
+25-174	4711-4718	results	_	_	
+25-175	4718-4719	/	_	_	
+25-176	4719-4727	official	_	_	
+25-177	4729-4732	The	_	_	
+25-178	4733-4742	following	_	_	
+25-179	4743-4745	10	_	_	
+25-180	4746-4753	metrics	_	_	
+25-181	4754-4757	are	_	_	
+25-182	4758-4766	reported	_	_	
+25-183	4767-4769	in	_	_	
+25-184	4770-4773	the	_	_	
+25-185	4774-4782	official	_	_	
+25-186	4783-4790	results	_	_	
+25-187	4790-4791	:	_	_	
+25-188	4792-4793	-	_	_	
+25-189	4795-4798	MAP	*[8]	EVALMETRIC[8]	
+25-190	4798-4799	@	*[8]	EVALMETRIC[8]	
+25-191	4799-4800	1	*[8]	EVALMETRIC[8]	
+25-192	4800-4801	/	_	_	
+25-193	4801-4810	Potential	*[9]	EVALMETRIC[9]	
+25-194	4810-4811	@	*[9]	EVALMETRIC[9]	
+25-195	4811-4812	1	*[9]	EVALMETRIC[9]	
+25-196	4812-4813	/	_	_	
+25-197	4813-4822	Precision	*[10]	EVALMETRIC[10]	
+25-198	4822-4823	@	*[10]	EVALMETRIC[10]	
+25-199	4823-4824	1	*[10]	EVALMETRIC[10]	
+25-200	4825-4826	-	_	_	
+25-201	4828-4831	MAP	*[11]	EVALMETRIC[11]	
+25-202	4831-4832	@	*[11]	EVALMETRIC[11]	
+25-203	4832-4833	3	*[11]	EVALMETRIC[11]	
+25-204	4834-4835	-	_	_	
+25-205	4837-4840	MAP	*[12]	EVALMETRIC[12]	
+25-206	4840-4841	@	*[12]	EVALMETRIC[12]	
+25-207	4841-4842	5	*[12]	EVALMETRIC[12]	
+25-208	4843-4844	-	_	_	
+25-209	4846-4849	MAP	*[13]	EVALMETRIC[13]	
+25-210	4849-4850	@	*[13]	EVALMETRIC[13]	
+25-211	4850-4852	10	*[13]	EVALMETRIC[13]	
+25-212	4853-4854	-	_	_	
+25-213	4856-4865	Potential	*[14]	EVALMETRIC[14]	
+25-214	4865-4866	@	*[14]	EVALMETRIC[14]	
+25-215	4866-4867	3	*[14]	EVALMETRIC[14]	
+25-216	4868-4869	-	_	_	
+25-217	4871-4880	Potential	*[15]	EVALMETRIC[15]	
+25-218	4880-4881	@	*[15]	EVALMETRIC[15]	
+25-219	4881-4882	5	*[15]	EVALMETRIC[15]	
+25-220	4883-4884	-	_	_	
+25-221	4886-4895	Potential	*[16]	EVALMETRIC[16]	
+25-222	4895-4896	@	*[16]	EVALMETRIC[16]	
+25-223	4896-4898	10	*[16]	EVALMETRIC[16]	
+25-224	4899-4900	-	_	_	
+25-225	4902-4910	Accuracy	*[17]	EVALMETRIC[17]	
+25-226	4910-4911	@	*[17]	EVALMETRIC[17]	
+25-227	4911-4912	1	*[17]	EVALMETRIC[17]	
+25-228	4912-4913	@	*[17]	EVALMETRIC[17]	
+25-229	4913-4921	top_gold	*[17]	EVALMETRIC[17]	
+25-230	4921-4922	_	*[17]	EVALMETRIC[17]	
+25-231	4922-4923	1	*[17]	EVALMETRIC[17]	
+25-232	4924-4925	-	_	_	
+25-233	4927-4935	Accuracy	*[18]	EVALMETRIC[18]	
+25-234	4935-4936	@	*[18]	EVALMETRIC[18]	
+25-235	4936-4937	2	*[18]	EVALMETRIC[18]	
+25-236	4937-4938	@	*[18]	EVALMETRIC[18]	
+25-237	4938-4946	top_gold	*[18]	EVALMETRIC[18]	
+25-238	4946-4947	_	*[18]	EVALMETRIC[18]	
+25-239	4947-4948	1	*[18]	EVALMETRIC[18]	
+25-240	4949-4950	-	_	_	
+25-241	4952-4960	Accuracy	*[19]	EVALMETRIC[19]	
+25-242	4960-4961	@	*[19]	EVALMETRIC[19]	
+25-243	4961-4962	3	*[19]	EVALMETRIC[19]	
+25-244	4962-4963	@	*[19]	EVALMETRIC[19]	
+25-245	4963-4971	top_gold	*[19]	EVALMETRIC[19]	
+25-246	4971-4972	_	*[19]	EVALMETRIC[19]	
+25-247	4972-4973	1	*[19]	EVALMETRIC[19]	
+25-248	4977-4980	The	_	_	
+25-249	4981-4989	extended	_	_	
+25-250	4990-4997	results	_	_	
+25-251	4998-5001	for	_	_	
+25-252	5002-5006	each	_	_	
+25-253	5007-5015	language	_	_	
+25-254	5016-5017	(	_	_	
+25-255	5017-5019	en	_	_	
+25-256	5019-5020	,	_	_	
+25-257	5021-5023	es	_	_	
+25-258	5023-5024	,	_	_	
+25-259	5025-5028	and	_	_	
+25-260	5029-5031	pt	_	_	
+25-261	5031-5032	)	_	_	
+25-262	5033-5036	can	_	_	
+25-263	5037-5039	be	_	_	
+25-264	5040-5045	found	_	_	
+25-265	5046-5048	in	_	_	
+25-266	5049-5053	this	_	_	
+25-267	5054-5063	directory	_	_	
+25-268	5063-5064	:	_	_	
+25-269	5064-5065	<	_	_	
+25-270	5065-5067	br	_	_	
+25-271	5067-5068	/	_	_	
+25-272	5068-5069	>	_	_	
+25-273	5071-5072	/	_	_	
+25-274	5072-5079	results	_	_	
+25-275	5079-5080	/	_	_	
+25-276	5080-5088	extended	_	_	
+25-277	5088-5089	<	_	_	
+25-278	5089-5091	br	_	_	
+25-279	5091-5092	/	_	_	
+25-280	5092-5093	>	_	_	
+25-281	5096-5099	The	_	_	
+25-282	5100-5109	following	_	_	
+25-283	5110-5117	metrics	_	_	
+25-284	5118-5121	are	_	_	
+25-285	5122-5130	reported	_	_	
+25-286	5131-5133	in	_	_	
+25-287	5134-5137	the	_	_	
+25-288	5138-5146	extended	_	_	
+25-289	5147-5154	results	_	_	
+25-290	5154-5155	:	_	_	
+25-291	5156-5157	-	_	_	
+25-292	5159-5168	Potential	*[20]	EVALMETRIC[20]	
+25-293	5168-5169	@	*[20]	EVALMETRIC[20]	
+25-294	5169-5170	K	*[20]	EVALMETRIC[20]	
+25-295	5172-5173	K	_	_	
+25-296	5173-5174	=	_	_	
+25-297	5174-5175	{	_	_	
+25-298	5175-5176	1	_	_	
+25-299	5176-5177	.	_	_	
+25-300	5177-5180	.10	_	_	
+25-301	5180-5181	}	_	_	
+25-302	5183-5184	-	_	_	
+25-303	5186-5189	MAP	*[21]	EVALMETRIC[21]	
+25-304	5189-5190	@	*[21]	EVALMETRIC[21]	
+25-305	5190-5191	K	*[21]	EVALMETRIC[21]	
+25-306	5193-5194	K	_	_	
+25-307	5194-5195	=	_	_	
+25-308	5195-5196	{	_	_	
+25-309	5196-5197	1	_	_	
+25-310	5197-5198	.	_	_	
+25-311	5198-5201	.10	_	_	
+25-312	5201-5202	}	_	_	
+25-313	5203-5204	-	_	_	
+25-314	5206-5215	Precision	*[22]	EVALMETRIC[22]	
+25-315	5215-5216	@	*[22]	EVALMETRIC[22]	
+25-316	5216-5217	K	*[22]	EVALMETRIC[22]	
+25-317	5219-5220	K	_	_	
+25-318	5220-5221	=	_	_	
+25-319	5221-5222	{	_	_	
+25-320	5222-5223	1	_	_	
+25-321	5223-5224	.	_	_	
+25-322	5224-5227	.10	_	_	
+25-323	5227-5228	}	_	_	
+25-324	5230-5231	(	_	_	
+25-325	5231-5244	macro-average	_	_	
+25-326	5244-5245	)	_	_	
+25-327	5246-5247	-	_	_	
+25-328	5249-5255	Recall	*[23]	EVALMETRIC[23]	
+25-329	5255-5256	@	*[23]	EVALMETRIC[23]	
+25-330	5256-5257	K	*[23]	EVALMETRIC[23]	
+25-331	5259-5260	K	_	_	
+25-332	5260-5261	=	_	_	
+25-333	5261-5262	{	_	_	
+25-334	5262-5263	1	_	_	
+25-335	5263-5264	.	_	_	
+25-336	5264-5267	.10	_	_	
+25-337	5267-5268	}	_	_	
+25-338	5273-5274	(	_	_	
+25-339	5274-5287	macro-average	_	_	
+25-340	5287-5288	)	_	_	
+25-341	5289-5290	-	_	_	
+25-342	5292-5300	Accuracy	*[24]	EVALMETRIC[24]	
+25-343	5300-5301	@	*[24]	EVALMETRIC[24]	
+25-344	5301-5302	K	*[24]	EVALMETRIC[24]	
+25-345	5302-5303	@	*[24]	EVALMETRIC[24]	
+25-346	5303-5311	top_gold	*[24]	EVALMETRIC[24]	
+25-347	5311-5312	_	*[24]	EVALMETRIC[24]	
+25-348	5312-5313	1	*[24]	EVALMETRIC[24]	
+25-349	5316-5317	K	_	_	
+25-350	5317-5318	=	_	_	
+25-351	5318-5319	{	_	_	
+25-352	5319-5320	1	_	_	
+25-353	5320-5321	.	_	_	
+25-354	5321-5324	.10	_	_	
+25-355	5324-5325	}	_	_	
+25-356	5330-5331	#	_	_	
+25-357	5331-5332	#	_	_	
+25-358	5333-5343	Evaluation	_	_	
+25-359	5344-5351	Scripts	_	_	
+25-360	5354-5355	#	_	_	
+25-361	5355-5356	#	_	_	
+25-362	5356-5357	#	_	_	
+25-363	5358-5370	tsar_eval.py	_	_	
+25-364	5372-5376	This	_	_	
+25-365	5377-5383	script	_	_	
+25-366	5384-5393	evaluates	_	_	
+25-367	5394-5397	the	_	_	
+25-368	5398-5407	following	_	_	
+25-369	5408-5414	metric	_	_	
+25-370	5414-5415	:	_	_	
+25-371	5421-5422	-	_	_	
+25-372	5424-5427	MAP	*[25]	EVALMETRIC[25]	
+25-373	5427-5428	@	*[25]	EVALMETRIC[25]	
+25-374	5428-5429	1	*[25]	EVALMETRIC[25]	
+25-375	5429-5430	/	_	_	
+25-376	5430-5439	Potential	*[26]	EVALMETRIC[26]	
+25-377	5439-5440	@	*[26]	EVALMETRIC[26]	
+25-378	5440-5441	1	*[26]	EVALMETRIC[26]	
+25-379	5441-5442	/	_	_	
+25-380	5442-5451	Precision	*[27]	EVALMETRIC[27]	
+25-381	5451-5452	@	*[27]	EVALMETRIC[27]	
+25-382	5452-5453	1	*[27]	EVALMETRIC[27]	
+25-383	5458-5459	-	_	_	
+25-384	5461-5464	MAP	*[28]	EVALMETRIC[28]	
+25-385	5464-5465	@	*[28]	EVALMETRIC[28]	
+25-386	5465-5466	3	*[28]	EVALMETRIC[28]	
+25-387	5471-5472	-	_	_	
+25-388	5474-5477	MAP	*[29]	EVALMETRIC[29]	
+25-389	5477-5478	@	*[29]	EVALMETRIC[29]	
+25-390	5478-5479	5	*[29]	EVALMETRIC[29]	
+25-391	5484-5485	-	_	_	
+25-392	5487-5490	MAP	*[30]	EVALMETRIC[30]	
+25-393	5490-5491	@	*[30]	EVALMETRIC[30]	
+25-394	5491-5493	10	*[30]	EVALMETRIC[30]	
+25-395	5498-5499	-	_	_	
+25-396	5501-5510	Potential	*[31]	EVALMETRIC[31]	
+25-397	5510-5511	@	*[31]	EVALMETRIC[31]	
+25-398	5511-5512	3	*[31]	EVALMETRIC[31]	
+25-399	5517-5518	-	_	_	
+25-400	5520-5529	Potential	*[32]	EVALMETRIC[32]	
+25-401	5529-5530	@	*[32]	EVALMETRIC[32]	
+25-402	5530-5531	5	*[32]	EVALMETRIC[32]	
+25-403	5536-5537	-	_	_	
+25-404	5539-5548	Potential	*[33]	EVALMETRIC[33]	
+25-405	5548-5549	@	*[33]	EVALMETRIC[33]	
+25-406	5549-5551	10	*[33]	EVALMETRIC[33]	
+25-407	5556-5557	-	_	_	
+25-408	5559-5567	Accuracy	*[34]	EVALMETRIC[34]	
+25-409	5567-5568	@	*[34]	EVALMETRIC[34]	
+25-410	5568-5569	1	*[34]	EVALMETRIC[34]	
+25-411	5569-5570	@	*[34]	EVALMETRIC[34]	
+25-412	5570-5578	top_gold	*[34]	EVALMETRIC[34]	
+25-413	5578-5579	_	*[34]	EVALMETRIC[34]	
+25-414	5579-5580	1	*[34]	EVALMETRIC[34]	
+25-415	5585-5586	-	_	_	
+25-416	5588-5596	Accuracy	*[35]	EVALMETRIC[35]	
+25-417	5596-5597	@	*[35]	EVALMETRIC[35]	
+25-418	5597-5598	2	*[35]	EVALMETRIC[35]	
+25-419	5598-5599	@	*[35]	EVALMETRIC[35]	
+25-420	5599-5607	top_gold	*[35]	EVALMETRIC[35]	
+25-421	5607-5608	_	*[35]	EVALMETRIC[35]	
+25-422	5608-5609	1	*[35]	EVALMETRIC[35]	
+25-423	5614-5615	-	_	_	
+25-424	5617-5625	Accuracy	*[36]	EVALMETRIC[36]	
+25-425	5625-5626	@	*[36]	EVALMETRIC[36]	
+25-426	5626-5627	3	*[36]	EVALMETRIC[36]	
+25-427	5627-5628	@	*[36]	EVALMETRIC[36]	
+25-428	5628-5636	top_gold	*[36]	EVALMETRIC[36]	
+25-429	5636-5637	_	*[36]	EVALMETRIC[36]	
+25-430	5637-5638	1	*[36]	EVALMETRIC[36]	
+25-431	5648-5654	Script	_	_	
+25-432	5655-5662	options	_	_	
+25-433	5663-5666	and	_	_	
+25-434	5667-5671	help	_	_	
+25-435	5673-5674	`	_	_	
+25-436	5674-5675	`	_	_	
+25-437	5675-5676	`	_	_	
+25-438	5676-5683	console	_	_	
+25-439	5684-5694	Evaluation	_	_	
+25-440	5695-5701	Script	_	_	
+25-441	5702-5705	for	_	_	
+25-442	5706-5709	the	_	_	
+25-443	5710-5714	TSAR	*[37]	WORKSHOP[37]	
+25-444	5714-5715	-	*[37]	WORKSHOP[37]	
+25-445	5715-5719	2022	*[37]	WORKSHOP[37]	
+25-446	5720-5727	Lexical	_	_	
+25-447	5728-5742	Simplification	_	_	
+25-448	5743-5749	Shared	_	_	
+25-449	5750-5754	Task	_	_	
+25-450	5756-5761	Usage	_	_	
+25-451	5761-5762	:	_	_	
+25-452	5763-5775	tsar_eval.py	_	_	
+25-453	5776-5777	<	_	_	
+25-454	5777-5784	options	_	_	
+25-455	5784-5785	>	_	_	
+25-456	5787-5794	Options	_	_	
+25-457	5794-5795	:	_	_	
+25-458	5798-5799	-	_	_	
+25-459	5799-5800	h	_	_	
+25-460	5800-5801	,	_	_	
+25-461	5802-5803	-	_	_	
+25-462	5803-5804	-	_	_	
+25-463	5804-5808	help	_	_	
+25-464	5820-5824	show	_	_	
+25-465	5825-5829	this	_	_	
+25-466	5830-5834	help	_	_	
+25-467	5835-5842	message	_	_	
+25-468	5843-5846	and	_	_	
+25-469	5847-5851	exit	_	_	
+25-470	5854-5855	-	_	_	
+25-471	5855-5856	-	_	_	
+25-472	5856-5865	gold_file	_	_	
+25-473	5865-5866	=	_	_	
+25-474	5866-5867	<	_	_	
+25-475	5867-5871	PATH	_	_	
+25-476	5871-5872	>	_	_	
+25-477	5876-5879	The	_	_	
+25-478	5880-5884	path	_	_	
+25-479	5885-5887	to	_	_	
+25-480	5888-5891	the	_	_	
+25-481	5892-5896	file	_	_	
+25-482	5897-5901	with	_	_	
+25-483	5902-5905	the	_	_	
+25-484	5906-5910	gold	_	_	
+25-485	5911-5920	annotated	_	_	
+25-486	5921-5930	instances	_	_	
+25-487	5933-5934	-	_	_	
+25-488	5934-5935	-	_	_	
+25-489	5935-5951	predictions_file	_	_	
+25-490	5951-5952	=	_	_	
+25-491	5952-5953	<	_	_	
+25-492	5953-5957	PATH	_	_	
+25-493	5957-5958	>	_	_	
+25-494	5983-5986	The	_	_	
+25-495	5987-5991	path	_	_	
+25-496	5992-5994	to	_	_	
+25-497	5995-5999	file	_	_	
+25-498	6000-6004	with	_	_	
+25-499	6005-6008	the	_	_	
+25-500	6009-6020	predictions	_	_	
+25-501	6023-6024	-	_	_	
+25-502	6024-6025	-	_	_	
+25-503	6025-6036	output_file	_	_	
+25-504	6036-6037	=	_	_	
+25-505	6037-6038	<	_	_	
+25-506	6038-6042	PATH	_	_	
+25-507	6042-6043	>	_	_	
+25-508	6045-6049	path	_	_	
+25-509	6050-6052	to	_	_	
+25-510	6053-6056	the	_	_	
+25-511	6057-6063	output	_	_	
+25-512	6064-6068	file	_	_	
+25-513	6071-6072	-	_	_	
+25-514	6072-6073	-	_	_	
+25-515	6073-6080	verbose	_	_	
+25-516	6093-6100	Verbose	_	_	
+25-517	6101-6107	output	_	_	
+25-518	6108-6112	mode	_	_	
+25-519	6113-6114	`	_	_	
+25-520	6114-6115	`	_	_	
+25-521	6115-6116	`	_	_	
+25-522	6119-6124	usage	_	_	
+25-523	6125-6132	example	_	_	
+25-524	6134-6135	`	_	_	
+25-525	6135-6136	`	_	_	
+25-526	6136-6137	`	_	_	
+25-527	6137-6144	console	_	_	
+25-528	6145-6152	python3	*	SOFTWARE	
+25-529	6153-6154	.	_	_	
+
+#Text=/tsar_eval.py --gold_file .
+26-1	6154-6155	/	_	_	
+26-2	6155-6167	tsar_eval.py	_	_	
+26-3	6168-6169	-	_	_	
+26-4	6169-6170	-	_	_	
+26-5	6170-6179	gold_file	_	_	
+26-6	6180-6181	.	_	_	
+
+#Text=/gold/tsar_es_gold.tsv --predictions_file .
+27-1	6181-6182	/	_	_	
+27-2	6182-6186	gold	_	_	
+27-3	6186-6187	/	_	_	
+27-4	6187-6203	tsar_es_gold.tsv	_	_	
+27-5	6204-6205	-	_	_	
+27-6	6205-6206	-	_	_	
+27-7	6206-6222	predictions_file	_	_	
+27-8	6223-6224	.	_	_	
+
+#Text=/predicted/TEAMNAME_TRACKNAME_RUNNAME.tsv  --output_file .
+28-1	6224-6225	/	_	_	
+28-2	6225-6234	predicted	_	_	
+28-3	6234-6235	/	_	_	
+28-4	6235-6265	TEAMNAME_TRACKNAME_RUNNAME.tsv	_	_	
+28-5	6267-6268	-	_	_	
+28-6	6268-6269	-	_	_	
+28-7	6269-6280	output_file	_	_	
+28-8	6281-6282	.	_	_	
+
+#Text=/results/TEAMNAME_TRACKNAME_RUNNAME.tsv.eval
+#Text=```
+#Text=
+#Text=## Dataset Compilation and Baselines
+#Text=
+#Text=A paper describing the compilation of the datasets for English, Portuguese and Spanish that includes several experiments with 
+#Text=two state-of-the-art approaches for Lexical Simplification has been published at this link:
+#Text=https://www.frontiersin.org/articles/10.3389/frai.2022.991242
+#Text=
+#Text=[Lexical Simplification Benchmarks for English, Portuguese, and Spanish](https://www.frontiersin.org/articles/10.3389/frai.2022.991242).
+29-1	6282-6283	/	_	_	
+29-2	6283-6290	results	_	_	
+29-3	6290-6291	/	_	_	
+29-4	6291-6326	TEAMNAME_TRACKNAME_RUNNAME.tsv.eval	_	_	
+29-5	6327-6328	`	_	_	
+29-6	6328-6329	`	_	_	
+29-7	6329-6330	`	_	_	
+29-8	6332-6333	#	_	_	
+29-9	6333-6334	#	_	_	
+29-10	6335-6342	Dataset	_	_	
+29-11	6343-6354	Compilation	_	_	
+29-12	6355-6358	and	_	_	
+29-13	6359-6368	Baselines	_	_	
+29-14	6370-6371	A	_	_	
+29-15	6372-6377	paper	_	_	
+29-16	6378-6388	describing	_	_	
+29-17	6389-6392	the	_	_	
+29-18	6393-6404	compilation	_	_	
+29-19	6405-6407	of	_	_	
+29-20	6408-6411	the	_	_	
+29-21	6412-6420	datasets	_	_	
+29-22	6421-6424	for	_	_	
+29-23	6425-6432	English	_	_	
+29-24	6432-6433	,	_	_	
+29-25	6434-6444	Portuguese	_	_	
+29-26	6445-6448	and	_	_	
+29-27	6449-6456	Spanish	_	_	
+29-28	6457-6461	that	_	_	
+29-29	6462-6470	includes	_	_	
+29-30	6471-6478	several	_	_	
+29-31	6479-6490	experiments	_	_	
+29-32	6491-6495	with	_	_	
+29-33	6497-6500	two	_	_	
+29-34	6501-6517	state-of-the-art	_	_	
+29-35	6518-6528	approaches	_	_	
+29-36	6529-6532	for	_	_	
+29-37	6533-6540	Lexical	_	_	
+29-38	6541-6555	Simplification	_	_	
+29-39	6556-6559	has	_	_	
+29-40	6560-6564	been	_	_	
+29-41	6565-6574	published	_	_	
+29-42	6575-6577	at	_	_	
+29-43	6578-6582	this	_	_	
+29-44	6583-6587	link	_	_	
+29-45	6587-6588	:	_	_	
+29-46	6589-6594	https	_	_	
+29-47	6594-6595	:	_	_	
+29-48	6595-6596	/	_	_	
+29-49	6596-6597	/	_	_	
+29-50	6597-6616	www.frontiersin.org	_	_	
+29-51	6616-6617	/	_	_	
+29-52	6617-6625	articles	_	_	
+29-53	6625-6626	/	_	_	
+29-54	6626-6633	10.3389	_	_	
+29-55	6633-6634	/	_	_	
+29-56	6634-6638	frai	_	_	
+29-57	6638-6650	.2022.991242	_	_	
+29-58	6652-6653	[	_	_	
+29-59	6653-6660	Lexical	*[38]	PUBLICATION[38]	
+29-60	6661-6675	Simplification	*[38]	PUBLICATION[38]	
+29-61	6676-6686	Benchmarks	*[38]	PUBLICATION[38]	
+29-62	6687-6690	for	*[38]	PUBLICATION[38]	
+29-63	6691-6698	English	*[38]	PUBLICATION[38]	
+29-64	6698-6699	,	*[38]	PUBLICATION[38]	
+29-65	6700-6710	Portuguese	*[38]	PUBLICATION[38]	
+29-66	6710-6711	,	*[38]	PUBLICATION[38]	
+29-67	6712-6715	and	*[38]	PUBLICATION[38]	
+29-68	6716-6723	Spanish	*[38]	PUBLICATION[38]	
+29-69	6723-6724	]	_	_	
+29-70	6724-6725	(	_	_	
+29-71	6725-6730	https	_	_	
+29-72	6730-6731	:	_	_	
+29-73	6731-6732	/	_	_	
+29-74	6732-6733	/	_	_	
+29-75	6733-6752	www.frontiersin.org	_	_	
+29-76	6752-6753	/	_	_	
+29-77	6753-6761	articles	_	_	
+29-78	6761-6762	/	_	_	
+29-79	6762-6769	10.3389	_	_	
+29-80	6769-6770	/	_	_	
+29-81	6770-6774	frai	_	_	
+29-82	6774-6786	.2022.991242	_	_	
+29-83	6786-6787	)	_	_	
+29-84	6787-6788	.	_	_	
+
+#Text=<br/>
+#Text=Sanja Štajner, Daniel Ferrés, Matthew Shardlow, Kai North, Marcos Zampieri and  Horacio Saggion.
+30-1	6788-6789	<	_	_	
+30-2	6789-6791	br	_	_	
+30-3	6791-6792	/	_	_	
+30-4	6792-6793	>	_	_	
+30-5	6794-6799	Sanja	_	_	
+30-6	6800-6807	Štajner	_	_	
+30-7	6807-6808	,	_	_	
+30-8	6809-6815	Daniel	_	_	
+30-9	6816-6822	Ferrés	_	_	
+30-10	6822-6823	,	_	_	
+30-11	6824-6831	Matthew	_	_	
+30-12	6832-6840	Shardlow	_	_	
+30-13	6840-6841	,	_	_	
+30-14	6842-6845	Kai	_	_	
+30-15	6846-6851	North	_	_	
+30-16	6851-6852	,	_	_	
+30-17	6853-6859	Marcos	_	_	
+30-18	6860-6868	Zampieri	_	_	
+30-19	6869-6872	and	_	_	
+30-20	6874-6881	Horacio	_	_	
+30-21	6882-6889	Saggion	_	_	
+30-22	6889-6890	.	_	_	
+
+#Text=<br/>
+#Text=Front.
+31-1	6890-6891	<	_	_	
+31-2	6891-6893	br	_	_	
+31-3	6893-6894	/	_	_	
+31-4	6894-6895	>	_	_	
+31-5	6896-6901	Front	_	_	
+31-6	6901-6902	.	_	_	
+
+#Text=Artif.
+32-1	6903-6908	Artif	_	_	
+32-2	6908-6909	.	_	_	
+
+#Text=Intell.
+33-1	6910-6916	Intell	_	_	
+33-2	6916-6917	.	_	_	
+
+#Text=Sec.
+34-1	6918-6921	Sec	_	_	
+34-2	6921-6922	.	_	_	
+
+#Text=Natural Language Processing.
+35-1	6923-6930	Natural	_	_	
+35-2	6931-6939	Language	_	_	
+35-3	6940-6950	Processing	_	_	
+35-4	6950-6951	.	_	_	
+
+#Text=<br/>
+#Text=doi: 10.3389/frai.2022.991242
+#Text=
+#Text=Preprint available at ArXiV: [https://arxiv.org/abs/2209.05301](https://arxiv.org/abs/2209.05301)
+#Text=
+#Text=
+#Text=## License
+#Text=
+#Text=The python scripts follow [AGPL 3.0v license](LICENSE).
+36-1	6952-6953	<	_	_	
+36-2	6953-6955	br	_	_	
+36-3	6955-6956	/	_	_	
+36-4	6956-6957	>	_	_	
+36-5	6958-6961	doi	_	_	
+36-6	6961-6962	:	_	_	
+36-7	6963-6970	10.3389	_	_	
+36-8	6970-6971	/	_	_	
+36-9	6971-6975	frai	_	_	
+36-10	6975-6987	.2022.991242	_	_	
+36-11	6989-6997	Preprint	_	_	
+36-12	6998-7007	available	_	_	
+36-13	7008-7010	at	_	_	
+36-14	7011-7016	ArXiV	_	_	
+36-15	7016-7017	:	_	_	
+36-16	7018-7019	[	_	_	
+36-17	7019-7024	https	_	_	
+36-18	7024-7025	:	_	_	
+36-19	7025-7026	/	_	_	
+36-20	7026-7027	/	_	_	
+36-21	7027-7036	arxiv.org	_	_	
+36-22	7036-7037	/	_	_	
+36-23	7037-7040	abs	_	_	
+36-24	7040-7041	/	_	_	
+36-25	7041-7051	2209.05301	_	_	
+36-26	7051-7052	]	_	_	
+36-27	7052-7053	(	_	_	
+36-28	7053-7058	https	_	_	
+36-29	7058-7059	:	_	_	
+36-30	7059-7060	/	_	_	
+36-31	7060-7061	/	_	_	
+36-32	7061-7070	arxiv.org	_	_	
+36-33	7070-7071	/	_	_	
+36-34	7071-7074	abs	_	_	
+36-35	7074-7075	/	_	_	
+36-36	7075-7085	2209.05301	_	_	
+36-37	7085-7086	)	_	_	
+36-38	7089-7090	#	_	_	
+36-39	7090-7091	#	_	_	
+36-40	7092-7099	License	_	_	
+36-41	7101-7104	The	_	_	
+36-42	7105-7111	python	*	PROGLANG	
+36-43	7112-7119	scripts	_	_	
+36-44	7120-7126	follow	_	_	
+36-45	7127-7128	[	_	_	
+36-46	7128-7132	AGPL	*[39]	LICENSE[39]	
+36-47	7133-7137	3.0v	*[39]	LICENSE[39]	
+36-48	7138-7145	license	*[39]	LICENSE[39]	
+36-49	7145-7146	]	_	_	
+36-50	7146-7147	(	_	_	
+36-51	7147-7154	LICENSE	_	_	
+36-52	7154-7155	)	_	_	
+36-53	7155-7156	.	_	_	
+
+#Text=The datasets (under the /datasets directory) are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License [CC-BY-NC-SA-4.0](CC-BY-NC-SA-4.0).
+#Text=
+#Text=## Contact
+#Text=https://taln.upf.edu/pages/tsar2022-st/#contact
+37-1	7157-7160	The	_	_	
+37-2	7161-7169	datasets	_	_	
+37-3	7170-7171	(	_	_	
+37-4	7171-7176	under	_	_	
+37-5	7177-7180	the	_	_	
+37-6	7181-7182	/	_	_	
+37-7	7182-7190	datasets	_	_	
+37-8	7191-7200	directory	_	_	
+37-9	7200-7201	)	_	_	
+37-10	7202-7205	are	_	_	
+37-11	7206-7214	licensed	_	_	
+37-12	7215-7220	under	_	_	
+37-13	7221-7222	a	_	_	
+37-14	7223-7231	Creative	*[40]	LICENSE[40]	
+37-15	7232-7239	Commons	*[40]	LICENSE[40]	
+37-16	7240-7276	Attribution-NonCommercial-ShareAlike	*[40]	LICENSE[40]	
+37-17	7277-7280	4.0	*[40]	LICENSE[40]	
+37-18	7281-7294	International	*[40]	LICENSE[40]	
+37-19	7295-7302	License	*[40]	LICENSE[40]	
+37-20	7303-7304	[	_	_	
+37-21	7304-7315	CC-BY-NC-SA	*[41]	LICENSE[41]	
+37-22	7315-7316	-	*[41]	LICENSE[41]	
+37-23	7316-7319	4.0	*[41]	LICENSE[41]	
+37-24	7319-7320	]	_	_	
+37-25	7320-7321	(	_	_	
+37-26	7321-7332	CC-BY-NC-SA	*[42]	LICENSE[42]	
+37-27	7332-7333	-	*[42]	LICENSE[42]	
+37-28	7333-7336	4.0	*[42]	LICENSE[42]	
+37-29	7336-7337	)	_	_	
+37-30	7337-7338	.	_	_	
+37-31	7340-7341	#	_	_	
+37-32	7341-7342	#	_	_	
+37-33	7343-7350	Contact	_	_	
+37-34	7351-7356	https	_	_	
+37-35	7356-7357	:	_	_	
+37-36	7357-7358	/	_	_	
+37-37	7358-7359	/	_	_	
+37-38	7359-7371	taln.upf.edu	_	_	
+37-39	7371-7372	/	_	_	
+37-40	7372-7377	pages	_	_	
+37-41	7377-7378	/	_	_	
+37-42	7378-7386	tsar2022	*	WORKSHOP	
+37-43	7386-7387	-	_	_	
+37-44	7387-7389	st	_	_	
+37-45	7389-7390	/	_	_	
+37-46	7390-7391	#	_	_	
+37-47	7391-7398	contact	_	_	

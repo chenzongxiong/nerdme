@@ -1,0 +1,1 @@
+This new model merges and harmonizes two or more different and non-interoperable music representations (e.g. audio data and scores), either symbolic or non-symbolic.

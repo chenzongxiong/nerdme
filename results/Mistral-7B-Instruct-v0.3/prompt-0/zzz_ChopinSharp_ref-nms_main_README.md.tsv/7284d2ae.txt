@@ -1,0 +1,1 @@
+`It should be picked <PROGLANG>properly</PROGLANG> so that the <EVALMETRIC>recall</EVALMETRIC> of the <ENTITY>referent</ENTITY> is high while the number of <ENTITY>proposals</ENTITY> per <ENTITY>expression</ENTITY> is around 8-10.`

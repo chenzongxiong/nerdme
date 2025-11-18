@@ -1,0 +1,5 @@
+The input text provided is empty (consisting only of a single period). Since there is no text to annotate, I will return the input as-is:
+
+```markdown
+.
+```

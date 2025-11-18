@@ -1,0 +1,9 @@
+Here's the annotated text in Markdown format:
+
+```markdown
+/docs/media/<SOFTWARE>Compare Sketches</SOFTWARE>.png" alt="<SOFTWARE>compare_sketches</SOFTWARE> widgets" width="50%">
+
+## Contributing
+
+Interested in contributing?
+```

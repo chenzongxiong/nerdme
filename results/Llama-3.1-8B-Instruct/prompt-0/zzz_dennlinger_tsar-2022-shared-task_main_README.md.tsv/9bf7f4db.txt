@@ -1,0 +1,1 @@
+The <LICENSE>AGPL 3.0v</LICENSE> license is used for the python scripts. The python scripts are written in the <PROGLANG>Python</PROGLANG> programming language.

@@ -1,0 +1,1 @@
+We have provided two sample subclasses, **ClientAgent** and **ServerAgent**, which are both used in the sample simulation. ### ClientAgent An instance of the **ClientAgent** class represents an entity that is training a machine learning model on the same task as the other client agents.

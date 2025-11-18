@@ -1,0 +1,1 @@
+`/docs/media/<SOFTWARE>ModelSketchBook</SOFTWARE>.png" alt="<SOFTWARE>ModelSketchBook</SOFTWARE> logo" width="75%"> </p>  **<PROJECT>ModelSketchBook</PROJECT>** is a <PROGLANG>Python</PROGLANG> package introduced as part of an ACM CHI 2023 paper:  **<PUBLICATION>Model Sketching: Centering Concepts in Early-Stage Machine Learning Model Design</PUBLICATION>**.

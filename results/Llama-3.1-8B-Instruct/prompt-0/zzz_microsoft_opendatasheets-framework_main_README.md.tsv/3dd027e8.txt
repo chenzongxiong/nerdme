@@ -1,0 +1,3 @@
+For more information see the <A href="https://opensource.microsoft.com/codeofconduct/faq/"> <PUBLICATION>Code of Conduct FAQ</PUBLICATION> </A> or contact <mailto>opencode@microsoft.com</mailto> with any additional questions or comments.  
+## Trademarks  
+This project may contain trademarks or logos for projects, products, or services.

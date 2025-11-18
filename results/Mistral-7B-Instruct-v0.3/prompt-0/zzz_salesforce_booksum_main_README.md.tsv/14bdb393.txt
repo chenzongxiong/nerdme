@@ -1,0 +1,11 @@
+`Using a mapping of <DATASET>chapter_summary_aligned.jsonl.aggregate_splits</DATASET>, the summary text is split into different sections (eg.`
+
+`<WORKSHOP>Thermal Image Super-Resolution</WORKSHOP>` refers to the [Thermal Image Super-Resolution](https://<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html)
+
+The evaluation metrics used are `<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, `<EVALMETRIC>F1-Score</EVALMETRIC>`, and `<EVALMETRIC>BLEU Score</EVALMETRIC>`.
+
+The `<PROJECT>Paper With Code</PROJECT>` project (https://<PROJECT>paperswithcode</PROJECT>.com/)
+
+The `<SOFTWARE>Protege ontology editor</SOFTWARE>` is widely used for creating ontologies.
+
+The `<PUB

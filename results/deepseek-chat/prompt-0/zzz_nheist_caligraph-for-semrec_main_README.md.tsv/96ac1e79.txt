@@ -1,0 +1,1 @@
+For this purpose, we use the subsets `<DATASET>clg_10e4</DATASET>`, `<DATASET>clg_10e5</DATASET>`, and `<DATASET>clg_full</DATASET>` and split their inferrable assertions into training, validation, and test files.

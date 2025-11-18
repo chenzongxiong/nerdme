@@ -1,0 +1,1 @@
+Use of <SOFTWARE>Microsoft</SOFTWARE> trademarks or logos in modified versions of this <PROJECT>project</PROJECT> must not cause confusion or imply <SOFTWARE>Microsoft</SOFTWARE> sponsorship.

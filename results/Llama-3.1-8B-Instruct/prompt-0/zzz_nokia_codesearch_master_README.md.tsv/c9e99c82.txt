@@ -1,0 +1,21 @@
+If you were to use any of these datasets in your research, please make sure to cite the respective <PUBLICATION>s.
+
+The datasets include the <DATASET>MAUS dataset</DATASET>, the <DATASET>Wiki-SQL dataset</DATASET>, and the <DATASET>WikiTableQuestions dataset</DATASET>.
+
+You can download the <DATASET>Wiki-SQL dataset</DATASET> from the official <PROJECT>WikiSQL</PROJECT> website.
+
+The <DATASET>MAUS dataset</DATASET> is a <DATASET>dataset</DATASET> for natural language processing tasks.
+
+The <DATASET>WikiTableQuestions dataset</DATASET> is a <DATASET>dataset</DATASET> for table question answering tasks.
+
+The <DATASET>Wiki-SQL dataset</DATASET> is a <DATASET>dataset</DATASET> for natural language processing tasks.
+
+The <DATASET>WikiTableQuestions dataset</DATASET> is a <DATASET>dataset</DATASET> for table question answering tasks.
+
+The <DATASET>Wiki-SQL dataset</DATASET> is a <DATASET>dataset</DATASET> for natural language processing tasks.
+
+You can use the <SOFTWARE>Protege Ontology Editor</SOFTWARE> to create ontologies for your research.
+
+The <CONFERENCE>NeurIPS 2020</CONFERENCE> conference features a <WORKSHOP>workshop</WORKSHOP> on <PUBLICATION>Advances in Deep Learning</PUBLICATION>.
+
+The <CONFERENCE>ICML 2020</CONFERENCE> conference features a <WORKSHOP>workshop</WORKSHOP> on <PUBLICATION>Deep Learning for Computer Vision</PUBLICATION>.

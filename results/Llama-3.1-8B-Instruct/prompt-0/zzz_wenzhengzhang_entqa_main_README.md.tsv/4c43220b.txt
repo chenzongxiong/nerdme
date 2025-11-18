@@ -1,0 +1,1 @@
+You can train the retriever by yourself using the above scripts to get your trained <SOFTWARE>retriever</SOFTWARE> and <SOFTWARE>entity embeddings</SOFTWARE>.

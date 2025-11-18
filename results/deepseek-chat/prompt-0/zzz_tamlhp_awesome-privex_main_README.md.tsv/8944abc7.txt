@@ -1,0 +1,1 @@
+Stricter requirement $(\varepsilon_{min}, \delta_{min})$ is set for each individual query.

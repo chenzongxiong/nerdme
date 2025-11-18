@@ -1,0 +1,1 @@
+Prediction times were highly varying, as they are influences by the choice of the backward starting point $t_\mathrm{start}$ and the total image size.

@@ -1,0 +1,5 @@
+The text provided does not contain any of the specified named entities. However, I can provide an example of how the text would be annotated if it did contain named entities:
+
+```
+For these <PROJECT>models</PROJECT>, the <DATASET>snippet collections</DATASET> are used as <EVALMETRIC>training data</EVALMETRIC> (of course you should never train on a <DATASET>snippet collection</DATASET> when you intent to use that load that collection as evaluation data as well).
+```

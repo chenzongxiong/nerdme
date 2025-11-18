@@ -1,0 +1,1 @@
+One way to fix this is to use higher sleep timeouts when one of the links throws an exception, which has been implemented in some of the <SOFTWARE>scripts</SOFTWARE>.

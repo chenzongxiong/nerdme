@@ -1,0 +1,1 @@
+*  ## Overview  Implementation of the `<SOFTWARE>VN-EGNN</SOFTWARE>`, state-of-the-art method for protein binding site identfication, by Florian Sestak, Lisa Schneckenreiter, Johannes Brandstetter, Sepp Hochreiter, Andreas Mayr, Günter Klambauer.

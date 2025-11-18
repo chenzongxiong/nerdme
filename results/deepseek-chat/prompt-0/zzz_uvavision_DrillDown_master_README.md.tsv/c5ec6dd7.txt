@@ -1,0 +1,3 @@
+```markdown
+/experiments/scripts/fetch_features.sh ``` This will populate the `<DATASET>DrillDown/data</DATASET>` folder with `<DATASET>vg/global_features</DATASET>` and `<DATASET>vg/region_36_final</DATASET>`, which are the global features and region features of the images.
+```

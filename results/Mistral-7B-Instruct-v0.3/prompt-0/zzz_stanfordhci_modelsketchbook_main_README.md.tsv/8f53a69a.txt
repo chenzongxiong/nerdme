@@ -1,0 +1,6 @@
+```markdown
+/docs/media/<SOFTWARE>create_logical_concept_model.png</SOFTWARE>" alt="<SOFTWARE>create_logical_concept_model</SOFTWARE> widgets" width="50%">
+
+### Keyword concepts
+Keyword concepts can be applied to any <PROJECT>text-based input fields</PROJECT>.
+```

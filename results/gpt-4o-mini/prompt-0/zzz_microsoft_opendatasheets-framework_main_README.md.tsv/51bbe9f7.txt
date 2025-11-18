@@ -1,0 +1,1 @@
+For more detailed information, you can refer to our <PUBLICATION>"[Open Datasheets: Machine-readable Documentation for Open Datasets and Responsible AI Assessments](https://arxiv.org/abs/2312.06153)"</PUBLICATION>

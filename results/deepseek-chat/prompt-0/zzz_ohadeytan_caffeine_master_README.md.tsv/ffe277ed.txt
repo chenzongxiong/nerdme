@@ -1,0 +1,3 @@
+```markdown
+[Coverage Status](https://img.shields.io/coveralls/<PROJECT>ben-manes</PROJECT>/<SOFTWARE>caffeine</SOFTWARE>.svg)](https://coveralls.io/r/<PROJECT>ben-manes</PROJECT>/<SOFTWARE>caffeine</SOFTWARE>?
+```

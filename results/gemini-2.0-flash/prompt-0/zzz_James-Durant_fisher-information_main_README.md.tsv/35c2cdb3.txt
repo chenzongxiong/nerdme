@@ -1,0 +1,1 @@
+Run the following to install the required packages from the [requirements.txt](/requirements.txt) file: <br />    ```pip install -r requirements.txt```  You should now be able to run the code.

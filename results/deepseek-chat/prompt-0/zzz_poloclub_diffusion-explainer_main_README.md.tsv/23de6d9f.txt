@@ -1,0 +1,1 @@
+It runs in your browser, allowing you to experiment with several preset prompts without any installation, coding skills, or GPUs.

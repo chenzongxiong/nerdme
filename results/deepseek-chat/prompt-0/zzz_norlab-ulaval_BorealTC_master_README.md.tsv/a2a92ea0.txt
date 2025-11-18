@@ -1,0 +1,1 @@
+Each experiment is provided in two files `<DATASET>imu_XX.csv</DATASET>` and `<DATASET>pro_XX.csv</DATASET>`, for the IMU and the wheel service data, respectively.

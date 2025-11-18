@@ -1,0 +1,1 @@
+You can take a look our notebooks (e.g., `<SOFTWARE>nbs/ncs/ncs.ipynb</SOFTWARE>`, `<SOFTWARE>nbs/tuse/tuse_tuned</SOFTWARE>`) to find out how the training is done/how the training data is loaded.

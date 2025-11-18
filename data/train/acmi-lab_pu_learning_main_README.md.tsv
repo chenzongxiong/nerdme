@@ -1,0 +1,585 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Mixture Proportion Estimation and PU Learning: A Modern Approach
+#Text=
+#Text=This repository is the official implementation of [Mixture Proportion Estimation and PU Learning: A Modern Approach](https://arxiv.org/abs/2111.00980).
+1-1	1-2	#	_	_	
+1-2	3-10	Mixture	*[1]	PUBLICATION[1]	
+1-3	11-21	Proportion	*[1]	PUBLICATION[1]	
+1-4	22-32	Estimation	*[1]	PUBLICATION[1]	
+1-5	33-36	and	*[1]	PUBLICATION[1]	
+1-6	37-39	PU	*[1]	PUBLICATION[1]	
+1-7	40-48	Learning	*[1]	PUBLICATION[1]	
+1-8	48-49	:	*[1]	PUBLICATION[1]	
+1-9	50-51	A	*[1]	PUBLICATION[1]	
+1-10	52-58	Modern	*[1]	PUBLICATION[1]	
+1-11	59-67	Approach	*[1]	PUBLICATION[1]	
+1-12	69-73	This	_	_	
+1-13	74-84	repository	_	_	
+1-14	85-87	is	_	_	
+1-15	88-91	the	_	_	
+1-16	92-100	official	_	_	
+1-17	101-115	implementation	_	_	
+1-18	116-118	of	_	_	
+1-19	119-120	[	_	_	
+1-20	120-127	Mixture	*[2]	PUBLICATION[2]	
+1-21	128-138	Proportion	*[2]	PUBLICATION[2]	
+1-22	139-149	Estimation	*[2]	PUBLICATION[2]	
+1-23	150-153	and	*[2]	PUBLICATION[2]	
+1-24	154-156	PU	*[2]	PUBLICATION[2]	
+1-25	157-165	Learning	*[2]	PUBLICATION[2]	
+1-26	165-166	:	*[2]	PUBLICATION[2]	
+1-27	167-168	A	*[2]	PUBLICATION[2]	
+1-28	169-175	Modern	*[2]	PUBLICATION[2]	
+1-29	176-184	Approach	*[2]	PUBLICATION[2]	
+1-30	184-185	]	_	_	
+1-31	185-186	(	_	_	
+1-32	186-191	https	_	_	
+1-33	191-192	:	_	_	
+1-34	192-193	/	_	_	
+1-35	193-194	/	_	_	
+1-36	194-203	arxiv.org	_	_	
+1-37	203-204	/	_	_	
+1-38	204-207	abs	_	_	
+1-39	207-208	/	_	_	
+1-40	208-218	2111.00980	_	_	
+1-41	218-219	)	_	_	
+1-42	219-220	.	_	_	
+
+#Text=We also release implementation of relevant baselines for [MPE](https://raw.githubusercontent.com/acmi-lab/PU_learning/main/files/MPE.txt) and [PU learning](https://raw.githubusercontent.com/acmi-lab/PU_learning/main/files/PU_classification.txt).
+2-1	221-223	We	_	_	
+2-2	224-228	also	_	_	
+2-3	229-236	release	_	_	
+2-4	237-251	implementation	_	_	
+2-5	252-254	of	_	_	
+2-6	255-263	relevant	_	_	
+2-7	264-273	baselines	_	_	
+2-8	274-277	for	_	_	
+2-9	278-279	[	_	_	
+2-10	279-282	MPE	_	_	
+2-11	282-283	]	_	_	
+2-12	283-284	(	_	_	
+2-13	284-289	https	_	_	
+2-14	289-290	:	_	_	
+2-15	290-291	/	_	_	
+2-16	291-292	/	_	_	
+2-17	292-317	raw.githubusercontent.com	_	_	
+2-18	317-318	/	_	_	
+2-19	318-326	acmi-lab	_	_	
+2-20	326-327	/	_	_	
+2-21	327-338	PU_learning	_	_	
+2-22	338-339	/	_	_	
+2-23	339-343	main	_	_	
+2-24	343-344	/	_	_	
+2-25	344-349	files	_	_	
+2-26	349-350	/	_	_	
+2-27	350-357	MPE.txt	_	_	
+2-28	357-358	)	_	_	
+2-29	359-362	and	_	_	
+2-30	363-364	[	_	_	
+2-31	364-366	PU	_	_	
+2-32	367-375	learning	_	_	
+2-33	375-376	]	_	_	
+2-34	376-377	(	_	_	
+2-35	377-382	https	_	_	
+2-36	382-383	:	_	_	
+2-37	383-384	/	_	_	
+2-38	384-385	/	_	_	
+2-39	385-410	raw.githubusercontent.com	_	_	
+2-40	410-411	/	_	_	
+2-41	411-419	acmi-lab	_	_	
+2-42	419-420	/	_	_	
+2-43	420-431	PU_learning	_	_	
+2-44	431-432	/	_	_	
+2-45	432-436	main	_	_	
+2-46	436-437	/	_	_	
+2-47	437-442	files	_	_	
+2-48	442-443	/	_	_	
+2-49	443-464	PU_classification.txt	_	_	
+2-50	464-465	)	_	_	
+2-51	465-466	.	_	_	
+
+#Text=If you find this repository useful or use this code in your research, please cite the following paper: 
+#Text=
+#Text=> Garg, S., Wu, Y., Smola, A., Balakrishnan, S., Lipton, Z. (2021).
+3-1	468-470	If	_	_	
+3-2	471-474	you	_	_	
+3-3	475-479	find	_	_	
+3-4	480-484	this	_	_	
+3-5	485-495	repository	_	_	
+3-6	496-502	useful	_	_	
+3-7	503-505	or	_	_	
+3-8	506-509	use	_	_	
+3-9	510-514	this	_	_	
+3-10	515-519	code	_	_	
+3-11	520-522	in	_	_	
+3-12	523-527	your	_	_	
+3-13	528-536	research	_	_	
+3-14	536-537	,	_	_	
+3-15	538-544	please	_	_	
+3-16	545-549	cite	_	_	
+3-17	550-553	the	_	_	
+3-18	554-563	following	_	_	
+3-19	564-569	paper	_	_	
+3-20	569-570	:	_	_	
+3-21	573-574	>	_	_	
+3-22	575-579	Garg	_	_	
+3-23	579-580	,	_	_	
+3-24	581-582	S	_	_	
+3-25	582-583	.	_	_	
+3-26	583-584	,	_	_	
+3-27	585-587	Wu	_	_	
+3-28	587-588	,	_	_	
+3-29	589-590	Y	_	_	
+3-30	590-591	.	_	_	
+3-31	591-592	,	_	_	
+3-32	593-598	Smola	_	_	
+3-33	598-599	,	_	_	
+3-34	600-601	A	_	_	
+3-35	601-602	.	_	_	
+3-36	602-603	,	_	_	
+3-37	604-616	Balakrishnan	_	_	
+3-38	616-617	,	_	_	
+3-39	618-619	S	_	_	
+3-40	619-620	.	_	_	
+3-41	620-621	,	_	_	
+3-42	622-628	Lipton	_	_	
+3-43	628-629	,	_	_	
+3-44	630-631	Z	_	_	
+3-45	631-632	.	_	_	
+3-46	633-634	(	_	_	
+3-47	634-638	2021	_	_	
+3-48	638-639	)	_	_	
+3-49	639-640	.	_	_	
+
+#Text=Mixture Proportion Estimation and PU Learning: A Modern Approach. arxiv preprint  arXiv:2111.00980. 
+#Text=```
+#Text=@inproceedings{garg2021PUlearning,
+#Text=    title={Mixture Proportion Estimation and {PU} Learning: A Modern Approach},
+#Text=    author={Garg, Saurabh and Wu, Yifan and Smola, Alex and Balakrishnan, Sivaraman and Lipton, Zachary},
+#Text=    year={2021},
+#Text=    booktitle={Advances in Neural Information Processing Systems (NeurIPS)} 
+#Text=}
+#Text=```
+#Text=
+#Text=## Requirements
+#Text=
+#Text=The code is written in Python and uses [PyTorch](https://pytorch.org/).
+4-1	641-648	Mixture	*[3]	PUBLICATION[3]	
+4-2	649-659	Proportion	*[3]	PUBLICATION[3]	
+4-3	660-670	Estimation	*[3]	PUBLICATION[3]	
+4-4	671-674	and	*[3]	PUBLICATION[3]	
+4-5	675-677	PU	*[3]	PUBLICATION[3]	
+4-6	678-686	Learning	*[3]	PUBLICATION[3]	
+4-7	686-687	:	*[3]	PUBLICATION[3]	
+4-8	688-689	A	*[3]	PUBLICATION[3]	
+4-9	690-696	Modern	*[3]	PUBLICATION[3]	
+4-10	697-705	Approach	*[3]	PUBLICATION[3]	
+4-11	705-706	.	_	_	
+4-12	707-712	arxiv	_	_	
+4-13	713-721	preprint	_	_	
+4-14	723-728	arXiv	_	_	
+4-15	728-729	:	_	_	
+4-16	729-739	2111.00980	_	_	
+4-17	739-740	.	_	_	
+4-18	742-743	`	_	_	
+4-19	743-744	`	_	_	
+4-20	744-745	`	_	_	
+4-21	746-747	@	_	_	
+4-22	747-760	inproceedings	_	_	
+4-23	760-761	{	_	_	
+4-24	761-779	garg2021PUlearning	_	_	
+4-25	779-780	,	_	_	
+4-26	785-790	title	_	_	
+4-27	790-791	=	_	_	
+4-28	791-792	{	_	_	
+4-29	792-799	Mixture	*[4]	PUBLICATION[4]	
+4-30	800-810	Proportion	*[4]	PUBLICATION[4]	
+4-31	811-821	Estimation	*[4]	PUBLICATION[4]	
+4-32	822-825	and	*[4]	PUBLICATION[4]	
+4-33	826-827	{	*[4]	PUBLICATION[4]	
+4-34	827-829	PU	*[4]	PUBLICATION[4]	
+4-35	829-830	}	*[4]	PUBLICATION[4]	
+4-36	831-839	Learning	*[4]	PUBLICATION[4]	
+4-37	839-840	:	*[4]	PUBLICATION[4]	
+4-38	841-842	A	*[4]	PUBLICATION[4]	
+4-39	843-849	Modern	*[4]	PUBLICATION[4]	
+4-40	850-858	Approach	*[4]	PUBLICATION[4]	
+4-41	858-859	}	_	_	
+4-42	859-860	,	_	_	
+4-43	865-871	author	_	_	
+4-44	871-872	=	_	_	
+4-45	872-873	{	_	_	
+4-46	873-877	Garg	_	_	
+4-47	877-878	,	_	_	
+4-48	879-886	Saurabh	_	_	
+4-49	887-890	and	_	_	
+4-50	891-893	Wu	_	_	
+4-51	893-894	,	_	_	
+4-52	895-900	Yifan	_	_	
+4-53	901-904	and	_	_	
+4-54	905-910	Smola	_	_	
+4-55	910-911	,	_	_	
+4-56	912-916	Alex	_	_	
+4-57	917-920	and	_	_	
+4-58	921-933	Balakrishnan	_	_	
+4-59	933-934	,	_	_	
+4-60	935-944	Sivaraman	_	_	
+4-61	945-948	and	_	_	
+4-62	949-955	Lipton	_	_	
+4-63	955-956	,	_	_	
+4-64	957-964	Zachary	_	_	
+4-65	964-965	}	_	_	
+4-66	965-966	,	_	_	
+4-67	971-975	year	_	_	
+4-68	975-976	=	_	_	
+4-69	976-977	{	_	_	
+4-70	977-981	2021	_	_	
+4-71	981-982	}	_	_	
+4-72	982-983	,	_	_	
+4-73	988-997	booktitle	_	_	
+4-74	997-998	=	_	_	
+4-75	998-999	{	_	_	
+4-76	999-1007	Advances	*[5]	PUBLICATION[5]	
+4-77	1008-1010	in	*[5]	PUBLICATION[5]	
+4-78	1011-1017	Neural	*[5]|*[6]	PUBLICATION[5]|CONFERENCE[6]	
+4-79	1018-1029	Information	*[5]|*[6]	PUBLICATION[5]|CONFERENCE[6]	
+4-80	1030-1040	Processing	*[5]|*[6]	PUBLICATION[5]|CONFERENCE[6]	
+4-81	1041-1048	Systems	*[5]|*[6]	PUBLICATION[5]|CONFERENCE[6]	
+4-82	1049-1050	(	_	_	
+4-83	1050-1057	NeurIPS	*	CONFERENCE	
+4-84	1057-1058	)	_	_	
+4-85	1058-1059	}	_	_	
+4-86	1061-1062	}	_	_	
+4-87	1063-1064	`	_	_	
+4-88	1064-1065	`	_	_	
+4-89	1065-1066	`	_	_	
+4-90	1068-1069	#	_	_	
+4-91	1069-1070	#	_	_	
+4-92	1071-1083	Requirements	_	_	
+4-93	1085-1088	The	_	_	
+4-94	1089-1093	code	_	_	
+4-95	1094-1096	is	_	_	
+4-96	1097-1104	written	_	_	
+4-97	1105-1107	in	_	_	
+4-98	1108-1114	Python	*	PROGLANG	
+4-99	1115-1118	and	_	_	
+4-100	1119-1123	uses	_	_	
+4-101	1124-1125	[	_	_	
+4-102	1125-1132	PyTorch	*	SOFTWARE	
+4-103	1132-1133	]	_	_	
+4-104	1133-1134	(	_	_	
+4-105	1134-1139	https	_	_	
+4-106	1139-1140	:	_	_	
+4-107	1140-1141	/	_	_	
+4-108	1141-1142	/	_	_	
+4-109	1142-1153	pytorch.org	_	_	
+4-109.1	1142-1149	pytorch	*	SOFTWARE	
+4-110	1153-1154	/	_	_	
+4-111	1154-1155	)	_	_	
+4-112	1155-1156	.	_	_	
+
+#Text=To install requirements, setup a conda enviornment using the following command:
+#Text=
+#Text=```setup
+#Text=conda create --file requirements.txt
+#Text=```
+#Text=
+#Text=## Quick Experiments 
+#Text=
+#Text=`train.py` file is the main entry point for training the model and run the code with the following command:
+#Text=
+#Text=```setup
+#Text=python train_PU.py --data-type="cifar_DogCat" --train-method="TEDn" --net-type="ResNet" --epochs=1000 --warm-start --warm-start-epochs=100 --alpha=0.5
+#Text=```
+#Text=
+#Text=Change the parameters to your liking and run the experiment.
+5-1	1157-1159	To	_	_	
+5-2	1160-1167	install	_	_	
+5-3	1168-1180	requirements	_	_	
+5-4	1180-1181	,	_	_	
+5-5	1182-1187	setup	_	_	
+5-6	1188-1189	a	_	_	
+5-7	1190-1195	conda	_	_	
+5-8	1196-1207	enviornment	_	_	
+5-9	1208-1213	using	_	_	
+5-10	1214-1217	the	_	_	
+5-11	1218-1227	following	_	_	
+5-12	1228-1235	command	_	_	
+5-13	1235-1236	:	_	_	
+5-14	1238-1239	`	_	_	
+5-15	1239-1240	`	_	_	
+5-16	1240-1241	`	_	_	
+5-17	1241-1246	setup	_	_	
+5-18	1247-1252	conda	_	_	
+5-19	1253-1259	create	_	_	
+5-20	1260-1261	-	_	_	
+5-21	1261-1262	-	_	_	
+5-22	1262-1266	file	_	_	
+5-23	1267-1283	requirements.txt	_	_	
+5-24	1284-1285	`	_	_	
+5-25	1285-1286	`	_	_	
+5-26	1286-1287	`	_	_	
+5-27	1289-1290	#	_	_	
+5-28	1290-1291	#	_	_	
+5-29	1292-1297	Quick	_	_	
+5-30	1298-1309	Experiments	_	_	
+5-31	1312-1313	`	_	_	
+5-32	1313-1321	train.py	_	_	
+5-33	1321-1322	`	_	_	
+5-34	1323-1327	file	_	_	
+5-35	1328-1330	is	_	_	
+5-36	1331-1334	the	_	_	
+5-37	1335-1339	main	_	_	
+5-38	1340-1345	entry	_	_	
+5-39	1346-1351	point	_	_	
+5-40	1352-1355	for	_	_	
+5-41	1356-1364	training	_	_	
+5-42	1365-1368	the	_	_	
+5-43	1369-1374	model	_	_	
+5-44	1375-1378	and	_	_	
+5-45	1379-1382	run	_	_	
+5-46	1383-1386	the	_	_	
+5-47	1387-1391	code	_	_	
+5-48	1392-1396	with	_	_	
+5-49	1397-1400	the	_	_	
+5-50	1401-1410	following	_	_	
+5-51	1411-1418	command	_	_	
+5-52	1418-1419	:	_	_	
+5-53	1421-1422	`	_	_	
+5-54	1422-1423	`	_	_	
+5-55	1423-1424	`	_	_	
+5-56	1424-1429	setup	_	_	
+5-57	1430-1436	python	_	_	
+5-58	1437-1448	train_PU.py	_	_	
+5-59	1449-1450	-	_	_	
+5-60	1450-1451	-	_	_	
+5-61	1451-1460	data-type	_	_	
+5-62	1460-1461	=	_	_	
+5-63	1461-1462	"	_	_	
+5-64	1462-1474	cifar_DogCat	_	_	
+5-65	1474-1475	"	_	_	
+5-66	1476-1477	-	_	_	
+5-67	1477-1478	-	_	_	
+5-68	1478-1490	train-method	_	_	
+5-69	1490-1491	=	_	_	
+5-70	1491-1492	"	_	_	
+5-71	1492-1496	TEDn	_	_	
+5-72	1496-1497	"	_	_	
+5-73	1498-1499	-	_	_	
+5-74	1499-1500	-	_	_	
+5-75	1500-1508	net-type	_	_	
+5-76	1508-1509	=	_	_	
+5-77	1509-1510	"	_	_	
+5-78	1510-1516	ResNet	_	_	
+5-79	1516-1517	"	_	_	
+5-80	1518-1519	-	_	_	
+5-81	1519-1520	-	_	_	
+5-82	1520-1526	epochs	_	_	
+5-83	1526-1527	=	_	_	
+5-84	1527-1531	1000	_	_	
+5-85	1532-1533	-	_	_	
+5-86	1533-1534	-	_	_	
+5-87	1534-1544	warm-start	_	_	
+5-88	1545-1546	-	_	_	
+5-89	1546-1547	-	_	_	
+5-90	1547-1564	warm-start-epochs	_	_	
+5-91	1564-1565	=	_	_	
+5-92	1565-1568	100	_	_	
+5-93	1569-1570	-	_	_	
+5-94	1570-1571	-	_	_	
+5-95	1571-1576	alpha	_	_	
+5-96	1576-1577	=	_	_	
+5-97	1577-1580	0.5	_	_	
+5-98	1581-1582	`	_	_	
+5-99	1582-1583	`	_	_	
+5-100	1583-1584	`	_	_	
+5-101	1586-1592	Change	_	_	
+5-102	1593-1596	the	_	_	
+5-103	1597-1607	parameters	_	_	
+5-104	1608-1610	to	_	_	
+5-105	1611-1615	your	_	_	
+5-106	1616-1622	liking	_	_	
+5-107	1623-1626	and	_	_	
+5-108	1627-1630	run	_	_	
+5-109	1631-1634	the	_	_	
+5-110	1635-1645	experiment	_	_	
+5-111	1645-1646	.	_	_	
+
+#Text=For example, change dataset with varying --data-type and vary algorithm with varying --train-method.
+6-1	1647-1650	For	_	_	
+6-2	1651-1658	example	_	_	
+6-3	1658-1659	,	_	_	
+6-4	1660-1666	change	_	_	
+6-5	1667-1674	dataset	_	_	
+6-6	1675-1679	with	_	_	
+6-7	1680-1687	varying	_	_	
+6-8	1688-1689	-	_	_	
+6-9	1689-1690	-	_	_	
+6-10	1690-1699	data-type	_	_	
+6-11	1700-1703	and	_	_	
+6-12	1704-1708	vary	_	_	
+6-13	1709-1718	algorithm	_	_	
+6-14	1719-1723	with	_	_	
+6-15	1724-1731	varying	_	_	
+6-16	1732-1733	-	_	_	
+6-17	1733-1734	-	_	_	
+6-18	1734-1746	train-method	_	_	
+6-19	1746-1747	.	_	_	
+
+#Text=We implement the BBE estimator in `estimator.py` and CVIR algorithm in `algorithm.py`.
+#Text=
+#Text=## Scripts 
+#Text=We provide a set of scripts to run experiments.
+7-1	1748-1750	We	_	_	
+7-2	1751-1760	implement	_	_	
+7-3	1761-1764	the	_	_	
+7-4	1765-1768	BBE	_	_	
+7-5	1769-1778	estimator	_	_	
+7-6	1779-1781	in	_	_	
+7-7	1782-1783	`	_	_	
+7-8	1783-1795	estimator.py	_	_	
+7-9	1795-1796	`	_	_	
+7-10	1797-1800	and	_	_	
+7-11	1801-1805	CVIR	_	_	
+7-12	1806-1815	algorithm	_	_	
+7-13	1816-1818	in	_	_	
+7-14	1819-1820	`	_	_	
+7-15	1820-1832	algorithm.py	_	_	
+7-16	1832-1833	`	_	_	
+7-17	1833-1834	.	_	_	
+7-18	1836-1837	#	_	_	
+7-19	1837-1838	#	_	_	
+7-20	1839-1846	Scripts	_	_	
+7-21	1848-1850	We	_	_	
+7-22	1851-1858	provide	_	_	
+7-23	1859-1860	a	_	_	
+7-24	1861-1864	set	_	_	
+7-25	1865-1867	of	_	_	
+7-26	1868-1875	scripts	_	_	
+7-27	1876-1878	to	_	_	
+7-28	1879-1882	run	_	_	
+7-29	1883-1894	experiments	_	_	
+7-30	1894-1895	.	_	_	
+
+#Text=See scripts folder for details.
+8-1	1896-1899	See	_	_	
+8-2	1900-1907	scripts	_	_	
+8-3	1908-1914	folder	_	_	
+8-4	1915-1918	for	_	_	
+8-5	1919-1926	details	_	_	
+8-6	1926-1927	.	_	_	
+
+#Text=We provide paper results in paper_results folder and the corresponding code for plots in plot_helper. 
+#Text=
+#Text=## License
+#Text=This repository is licensed under the terms of the [Apache-2.0 License](LICENSE).
+#Text=
+#Text=## Questions?
+9-1	1928-1930	We	_	_	
+9-2	1931-1938	provide	_	_	
+9-3	1939-1944	paper	_	_	
+9-4	1945-1952	results	_	_	
+9-5	1953-1955	in	_	_	
+9-6	1956-1969	paper_results	_	_	
+9-7	1970-1976	folder	_	_	
+9-8	1977-1980	and	_	_	
+9-9	1981-1984	the	_	_	
+9-10	1985-1998	corresponding	_	_	
+9-11	1999-2003	code	_	_	
+9-12	2004-2007	for	_	_	
+9-13	2008-2013	plots	_	_	
+9-14	2014-2016	in	_	_	
+9-15	2017-2028	plot_helper	_	_	
+9-16	2028-2029	.	_	_	
+9-17	2032-2033	#	_	_	
+9-18	2033-2034	#	_	_	
+9-19	2035-2042	License	_	_	
+9-20	2043-2047	This	_	_	
+9-21	2048-2058	repository	_	_	
+9-22	2059-2061	is	_	_	
+9-23	2062-2070	licensed	_	_	
+9-24	2071-2076	under	_	_	
+9-25	2077-2080	the	_	_	
+9-26	2081-2086	terms	_	_	
+9-27	2087-2089	of	_	_	
+9-28	2090-2093	the	_	_	
+9-29	2094-2095	[	_	_	
+9-30	2095-2101	Apache	*[7]	LICENSE[7]	
+9-31	2101-2102	-	*[7]	LICENSE[7]	
+9-32	2102-2105	2.0	*[7]	LICENSE[7]	
+9-33	2106-2113	License	*[7]	LICENSE[7]	
+9-34	2113-2114	]	_	_	
+9-35	2114-2115	(	_	_	
+9-36	2115-2122	LICENSE	_	_	
+9-37	2122-2123	)	_	_	
+9-38	2123-2124	.	_	_	
+9-39	2126-2127	#	_	_	
+9-40	2127-2128	#	_	_	
+9-41	2129-2138	Questions	_	_	
+9-42	2138-2139	?	_	_	
+
+#Text=For more details, refer to the accompanying NeurIPS 2021 paper (Spotlight): [Mixture Proportion Estimation and PU Learning: A Modern Approach](https://arxiv.org/abs/2111.00980).
+10-1	2141-2144	For	_	_	
+10-2	2145-2149	more	_	_	
+10-3	2150-2157	details	_	_	
+10-4	2157-2158	,	_	_	
+10-5	2159-2164	refer	_	_	
+10-6	2165-2167	to	_	_	
+10-7	2168-2171	the	_	_	
+10-8	2172-2184	accompanying	_	_	
+10-9	2185-2192	NeurIPS	*[8]	CONFERENCE[8]	
+10-10	2193-2197	2021	*[8]	CONFERENCE[8]	
+10-11	2198-2203	paper	_	_	
+10-12	2204-2205	(	_	_	
+10-13	2205-2214	Spotlight	_	_	
+10-14	2214-2215	)	_	_	
+10-15	2215-2216	:	_	_	
+10-16	2217-2218	[	_	_	
+10-17	2218-2225	Mixture	*[9]	PUBLICATION[9]	
+10-18	2226-2236	Proportion	*[9]	PUBLICATION[9]	
+10-19	2237-2247	Estimation	*[9]	PUBLICATION[9]	
+10-20	2248-2251	and	*[9]	PUBLICATION[9]	
+10-21	2252-2254	PU	*[9]	PUBLICATION[9]	
+10-22	2255-2263	Learning	*[9]	PUBLICATION[9]	
+10-23	2263-2264	:	*[9]	PUBLICATION[9]	
+10-24	2265-2266	A	*[9]	PUBLICATION[9]	
+10-25	2267-2273	Modern	*[9]	PUBLICATION[9]	
+10-26	2274-2282	Approach	*[9]	PUBLICATION[9]	
+10-27	2282-2283	]	_	_	
+10-28	2283-2284	(	_	_	
+10-29	2284-2289	https	_	_	
+10-30	2289-2290	:	_	_	
+10-31	2290-2291	/	_	_	
+10-32	2291-2292	/	_	_	
+10-33	2292-2301	arxiv.org	_	_	
+10-34	2301-2302	/	_	_	
+10-35	2302-2305	abs	_	_	
+10-36	2305-2306	/	_	_	
+10-37	2306-2316	2111.00980	_	_	
+10-38	2316-2317	)	_	_	
+10-39	2317-2318	.	_	_	
+
+#Text=If you have questions, please feel free to reach us at sgarg2@andrew.cmu.edu or open an issue.
+11-1	2319-2321	If	_	_	
+11-2	2322-2325	you	_	_	
+11-3	2326-2330	have	_	_	
+11-4	2331-2340	questions	_	_	
+11-5	2340-2341	,	_	_	
+11-6	2342-2348	please	_	_	
+11-7	2349-2353	feel	_	_	
+11-8	2354-2358	free	_	_	
+11-9	2359-2361	to	_	_	
+11-10	2362-2367	reach	_	_	
+11-11	2368-2370	us	_	_	
+11-12	2371-2373	at	_	_	
+11-13	2374-2380	sgarg2	_	_	
+11-14	2380-2381	@	_	_	
+11-15	2381-2395	andrew.cmu.edu	_	_	
+11-16	2396-2398	or	_	_	
+11-17	2399-2403	open	_	_	
+11-18	2404-2406	an	_	_	
+11-19	2407-2412	issue	_	_	
+11-20	2412-2413	.	_	_	

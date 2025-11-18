@@ -1,0 +1,5 @@
+The <SOFTWARE>Sketch Model Builder</SOFTWARE> function will display widgets to select concepts and an aggregator. 
+``` 
+msb.create_sketch_model(sb)
+```
+<img src=".

@@ -1,0 +1,1 @@
+DT algorithms have two key ideas: "<EVALMETRIC>decision</EVALMETRIC>" and "<EVALMETRIC>tree</EVALMETRIC>".

@@ -1,0 +1,1 @@
+The <PROGLANG>Python</PROGLANG> code for the system generates outputs, but an exact reproduction may not be possible due to the <EVALMETRIC>temperature</EVALMETRIC> and server-side factors like the <EVALMETRIC>random seed</EVALMETRIC>.

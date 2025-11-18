@@ -1,0 +1,1 @@
+For `<SOFTWARE>staqc-py</SOFTWARE>` and `<SOFTWARE>conala-curated</SOFTWARE>` we did some additional processing, for the `<DATASET>codesearchnet collections</DATASET>` we merely load the original dataset in a format that is consistent with our `<SOFTWARE>code</SOFTWARE>`.

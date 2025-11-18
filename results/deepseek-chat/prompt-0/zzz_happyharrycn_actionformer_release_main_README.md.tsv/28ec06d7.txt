@@ -1,0 +1,3 @@
+```markdown
+/ckpt/<SOFTWARE>thumos_i3d_reproduce</SOFTWARE> ``` * Training our model on <DATASET>THUMOS</DATASET> requires ~4.5GB GPU memory, yet the inference might require over 10GB GPU memory.
+```

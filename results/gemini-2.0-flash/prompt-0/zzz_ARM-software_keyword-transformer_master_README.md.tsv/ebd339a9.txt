@@ -1,0 +1,1 @@
+For a more detailed description of the code structure, see the original authors' [README](kws_streaming/README.md).

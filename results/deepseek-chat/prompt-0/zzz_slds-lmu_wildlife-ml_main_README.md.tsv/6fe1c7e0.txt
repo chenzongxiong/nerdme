@@ -1,0 +1,1 @@
+Our approach is two-fold, combining improved strategies for object detection and image classification with an active learning system that allows for more efficient training of deep learning models.

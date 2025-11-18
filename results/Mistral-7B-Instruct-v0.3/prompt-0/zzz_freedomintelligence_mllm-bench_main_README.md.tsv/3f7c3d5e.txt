@@ -1,0 +1,5 @@
+The provided text contains one entity: `<EVALMETRIC>FREE evaluations</EVALMETRIC>`.
+
+Here's the annotated text in Markdown format:
+
+However, we provide `<EVALMETRIC>a submission entry</EVALMETRIC>` for `<EVALMETRIC>FREE evaluations</EVALMETRIC>`.

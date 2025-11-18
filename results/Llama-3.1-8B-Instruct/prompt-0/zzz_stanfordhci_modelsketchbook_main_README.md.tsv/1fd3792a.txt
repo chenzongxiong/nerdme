@@ -1,0 +1,1 @@
+To set up your sketchbook, you need to specify the schema of your <SOFTWARE>Pandas</SOFTWARE> dataframe.

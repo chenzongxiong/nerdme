@@ -1,0 +1,1 @@
+Here we show an example of **No-Transaction Band Network**, which is proposed in [<PUBLICATION>Imaki *et al.* 21</PUBLICATION>][ntb-network-arxiv].

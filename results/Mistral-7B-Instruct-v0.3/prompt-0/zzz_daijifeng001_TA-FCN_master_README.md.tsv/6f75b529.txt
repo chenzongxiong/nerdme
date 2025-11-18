@@ -1,0 +1,1 @@
+`For Windows users, <PROGLANG>Visual Studio 2015</PROGLANG> is needed to compile <SOFTWARE>cython module</SOFTWARE>.   ### Requirements: Hardware   Any NVIDIA GPUs with at least 5GB memory should be OK  ### Installation  1.`

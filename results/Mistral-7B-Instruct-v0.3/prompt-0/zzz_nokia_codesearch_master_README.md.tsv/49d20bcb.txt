@@ -1,0 +1,5 @@
+The text annotated according to the guidelines is as follows:
+
+```
+Stack Overflow <PUBLICATION>dumps</PUBLICATION> can be found here: <URL>https://archive.org/details/stackexchange</URL>, <LICENSE>https://creativecommons.org/licenses/by-sa/4.0/</LICENSE>                                                             | | <PROJECT>staqc-py-cleaned</PROJECT>     | Derived from the Python <PROGLANG>StaQC</PROGLANG> <SOFTWARE>snippets</SOFTWARE> (additional cleaning was done as described in the paper).
+```

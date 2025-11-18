@@ -1,0 +1,17 @@
+Install the required dependencies using `pip install -r requirements.txt`.
+
+2. Clone the repository: `git clone https://github.com/<USERNAME>/<REPO_NAME>.git`
+
+3. Run the main script: `python main.py`
+
+4. To run the evaluation, use the following command: `python evaluate.py`
+
+5. For more information about the dataset, visit the [official website](https://<DATASET>stanford-sentiment-treebank</DATASET>).
+
+6. The evaluation metrics used are `<EVALMETRIC>Accuracy</EVALMETRIC>`, `<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, and `<EVALMETRIC>F1-Score</EVALMETRIC>`.
+
+7. The project is licensed under `<LICENSE>MIT</LICENSE>`.
+
+8. The software used for this project is `<PROGLANG>Python</PROGLANG>`.
+
+9. The ontology used is

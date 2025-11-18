@@ -1,0 +1,3 @@
+```markdown
+/docs/<SOFTWARE>example_code.ipynb</SOFTWARE>).
+```

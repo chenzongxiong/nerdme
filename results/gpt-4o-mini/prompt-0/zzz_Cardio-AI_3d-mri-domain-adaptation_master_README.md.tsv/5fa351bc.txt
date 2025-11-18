@@ -1,0 +1,3 @@
+```
+│   ├── <SOFTWARE>configs</SOFTWARE>        <- Experiment config files as json with all hyperparameters and paths     │   ├── <SOFTWARE>figures</SOFTWARE>        <- Generated graphics and figures to be used in reporting     │   ├── <SOFTWARE>history</SOFTWARE>        <- <SOFTWARE>Tensorboard</SOFTWARE> trainings history files     │   └── <SOFTWARE>tensorboard_logs</SOFTWARE>  <- Trainings-scalars and images of the intermediate predictions     │     ├── <SOFTWARE>environment.yaml</SOFTWARE>   <- Conda requirements file.
+```

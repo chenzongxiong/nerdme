@@ -1,0 +1,1 @@
+The music tracks are fitted to a `<CONFERENCE>fixed narrative template</CONFERENCE>` based on the output of a `<PROGLANG>machine learning model</PROGLANG>`, which itself distills each track down to its `<EVALMETRIC>narrative essence</EVALMETRIC>`.

@@ -1,0 +1,1 @@
+Our `<SOFTWARE>CVAE</SOFTWARE>`-based audiovisual network, namely `<SOFTWARE>CAV-Net</SOFTWARE>`, consists of a spatial-temporal visual segmentation network, a convolutional audio-encoding network and audiovisual distribution estimation modules.

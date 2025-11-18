@@ -1,0 +1,1 @@
+Within `train.py` you will find a ~300-line boilerplate training loop and within `model.py` you will find a ~300-line GPT model definition with an MLP tokeniser and a regressive loss.

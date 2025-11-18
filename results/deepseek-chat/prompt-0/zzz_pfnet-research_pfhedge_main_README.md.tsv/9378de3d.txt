@@ -1,0 +1,9 @@
+```py from pfhedge.nn import <SOFTWARE>Hedger</SOFTWARE> from pfhedge.nn import <SOFTWARE>WhalleyWilmott</SOFTWARE>  
+
+derivative = <SOFTWARE>EuropeanOption</SOFTWARE>(<SOFTWARE>BrownianStock</SOFTWARE>(cost=1e-3))  
+
+model = <SOFTWARE>WhalleyWilmott</SOFTWARE>(derivative) hedger = <SOFTWARE>Hedger</SOFTWARE>(model, inputs=model.inputs()) ```  
+
+### Your Own Module  
+You can employ any [`<SOFTWARE>Module</SOFTWARE>`](https://pytorch.org/docs/stable/generated/torch.nn.Module.html) you build as a hedging model.
+```

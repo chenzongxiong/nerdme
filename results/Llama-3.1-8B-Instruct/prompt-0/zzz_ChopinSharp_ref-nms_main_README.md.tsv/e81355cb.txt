@@ -1,0 +1,1 @@
+**Evaluate recall on referent object:** `<SOFTWARE>python</SOFTWARE>` tools/<SOFTWARE>eval_proposal_hit_rate.py</SOFTWARE> --m `<EVALMETRIC>loss_type</EVALMETRIC>` --<DATASET>refcoco</DATASET> --split-by `<EVALMETRIC>unc</EVALMETRIC>` --tid `<EVALMETRIC>tid</EVALMETRIC>` --<CONFERENCE>conf</CONFERENCE> `<EVALMETRIC>score threshold</EVALMETRIC>` used to filter Ref-NMS proposals.

@@ -1,0 +1,5 @@
+`For arguments not mentioned above,  please check `<PROGLANG>Python</PROGLANG>` file `/experiment/margin_loss_resnet50.py` <PROGLANG>Python</PROGLANG> for explanation.
+
+### Evaluate or check results during:
+
+* **evaluate a trained model**: `<PROGRAM>eval_model.py</PROGRAM> <log and model checkpoint path>`.

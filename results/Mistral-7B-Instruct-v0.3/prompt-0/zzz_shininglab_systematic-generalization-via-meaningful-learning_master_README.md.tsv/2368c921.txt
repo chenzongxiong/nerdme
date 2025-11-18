@@ -1,0 +1,12 @@
+```
+A virtual environment is recommended. ``` `$ cd Systematic-Generalization-via-Meaningful-Learning $ cd main $ <PROGLANG>pip</PROGLANG> install <PROGLANG>pip</PROGLANG> --upgrade $ <PROGLANG>pip</PROGLANG> install -r requirements.txt ```
+
+```
+## Run Before training, please double check **config.py** to ensure training configurations.
+``` `$ vim config.py $ python train.py` ```
+
+```
+## Outputs If everything goes well, there should be a similar progressing shown as below.
+```
+Initialize...
+```

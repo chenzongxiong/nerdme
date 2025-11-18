@@ -1,0 +1,3 @@
+```markdown
+`.xx` symbolizes that it doesn't matter what format the image files have as long as the format is compatible with `<PROGLANG>PIL</PROGLANG>`.  ###  02: Prediction of Bounding Boxes  #### Running the Megadetector  This package includes an implementation of the <SOFTWARE>Megadetector</SOFTWARE> for detecting objects in camera traps.
+```

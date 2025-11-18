@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+It has a front-end API designed to be familiar to [<SOFTWARE>scikit-learn</SOFTWARE>](http://<SOFTWARE>scikit-learn</SOFTWARE>.org/) but harnesses the <PROGLANG>C++</PROGLANG> <SOFTWARE>Fast Library for Approximate Nearest Neighbors (FLANN)</SOFTWARE> and the <SOFTWARE>Sparse Symmetric Positive Definite (SSPD) solver Locally Optimal Block Precodition Gradient (LOBPCG)</SOFTWARE> method to scale manifold learning algorithms to large data sets.
+```

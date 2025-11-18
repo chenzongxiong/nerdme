@@ -1,0 +1,1 @@
+Faces in canonical views are at the origin of the world coordinate and facing the positive z axis.

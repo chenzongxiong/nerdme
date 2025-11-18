@@ -1,0 +1,14 @@
+**The <PUBLICATION>NELA-GT-2019: A Large Multi-Labelled News Dataset for The Study of Misinformation in News Articles</PUBLICATION> was published on <CONFERENCE>arXiv</CONFERENCE> (<CONFERENCE>arXiv</CONFERENCE> preprint <CONFERENCE>arXiv:2003.08444</CONFERENCE>).** 
+
+If you use this <DATASET>NELA-GT-2019</DATASET> dataset in your work, please cite us as follows:
+
+``` @misc{     gruppi2020nelagt2019,     title={NELA-GT-2019: A Large Multi-Labelled News Dataset for The Study of Misinformation in News Articles},     author={Maurício Gruppi and Benjamin D. <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.} 
+     <PROGLANG>Python</PROGLANG> is used for programming. 
+     The <ONTOLOGY>Information Artifact Ontology</ONTOLOGY> is used in this project.
+     You can use the <SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the resource.
+     This project is part of the <PROJECT>Paper With Code</PROJECT> project (<SOFTWARE>paperswithcode</SOFTWARE>.com/).
+     You can download the <DATASET>USTPO MIT</DATASET> dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip).
+     The <CONFERENCE>International Conference on Computational Intelligence and Security (CIS)</CONFERENCE> is a <CONFERENCE>CIS</CONFERENCE> conference.
+     The <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> workshop is a <WORKSHOP>workshop</WORKSHOP> event.
+     The <EVALMETRIC>Precision</EVALMETRIC> and <EVALMETRIC>Recall</EVALMETRIC> metrics are used to evaluate the model.
+     The <LICENSE>MIT License</LICENSE> is a type of <LICENSE>license</LICENSE>.

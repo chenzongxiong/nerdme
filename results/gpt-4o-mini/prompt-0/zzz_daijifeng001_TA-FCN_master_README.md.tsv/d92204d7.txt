@@ -1,0 +1,1 @@
+<img src='data/readme_img.png' width='800'>   ### Disclaimer  This is an official implementation for <PUBLICATION>Fully Convolutional Instance-aware Semantic Segmentation</PUBLICATION> (<PUBLICATION>https://arxiv.org/abs/1611.07709</PUBLICATION>) (FCIS) based on <SOFTWARE>MXNet</SOFTWARE>.

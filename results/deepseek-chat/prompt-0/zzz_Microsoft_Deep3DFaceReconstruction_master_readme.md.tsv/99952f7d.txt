@@ -1,0 +1,3 @@
+```markdown
+/tf_mesh_renderer/bazel-bin/mesh_renderer/kernels/<SOFTWARE>rasterize_triangles_kernel.so</SOFTWARE> .
+```

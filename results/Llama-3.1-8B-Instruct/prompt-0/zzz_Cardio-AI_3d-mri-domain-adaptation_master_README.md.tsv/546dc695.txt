@@ -1,0 +1,1 @@
+- Model graph description either as <SOFTWARE>json</SOFTWARE> or <SOFTWARE>tensorflow protobuf</SOFTWARE> file and the corresponding model weights as <SOFTWARE>h5</SOFTWARE> file.

@@ -1,0 +1,3 @@
+```markdown
+/docs/media/model_sketching_header.png" alt="Summary of the model sketching process from concepts to sketch models to evaluating and iterating" width="100%">  With **<PROJECT>ModelSketchBook</PROJECT>**, you can **create concepts** using zero-shot methods,  <p align="center"> <img src=".
+```

@@ -1,0 +1,21 @@
+# `LinConGauss` ### \*Integrals and samples of Gaussians under linear domain constraints\* !
+
+`<PROJECT>LinConGauss</PROJECT>`
+
+---
+
+Input Text:
+
+The `<PROJECT>LinConGauss</PROJECT>` project (https://<PROJECT>lincongauss.github.io/) is a collection of algorithms for computing integrals and samples of Gaussians under linear domain constraints.
+
+---
+
+Input Text:
+
+The `<PROJECT>LinConGauss</PROJECT>` project (https://<PROJECT>lincongauss.github.io/) is a collection of algorithms for computing integrals and samples of Gaussians under linear domain constraints. The project is implemented in `<PROGLANG>Python</PROGLANG>`.
+
+---
+
+Input Text:
+
+The `<PROJECT>LinConGauss</PROJECT>` project (https://<PROJECT>lincongauss.github.io/) is a collection of algorithms for computing integrals and samples of Gaussians under linear domain constraints. The project is implemented in `<PROGL

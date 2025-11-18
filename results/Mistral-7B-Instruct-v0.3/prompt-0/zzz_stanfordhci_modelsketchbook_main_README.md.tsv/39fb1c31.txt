@@ -1,0 +1,1 @@
+The schema, the `<PROGLANG>Python</PROGLANG>` code defines the `<KEY>keys</KEY>` as the `<DATASET>string</DATASET>` names of the `<DATASET>columns</DATASET>` in your `<DATASET>dataframe</DATASET>`, and the `<KEY>values</KEY>` indicate the `<DATASET>type</DATASET>` of data contained in that `<DATASET>column</DATASET>`.

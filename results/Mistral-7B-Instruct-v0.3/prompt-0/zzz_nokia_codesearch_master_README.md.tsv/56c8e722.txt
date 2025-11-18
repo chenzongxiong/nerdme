@@ -1,0 +1,5 @@
+The given text does not contain any named entities according to the provided guidelines. Here's the annotated text if it contained the following entities:
+
+```
+(See the <SOFTWARE>Code Examples</SOFTWARE> below).
+```

@@ -1,0 +1,1 @@
+`You can find the required preprocessing in: <FILE>Datasets/Kitti_loader.py</FILE> Run: <COMMAND>source Shell/preprocess $datapath $dest $num_samples</COMMAND>  (Firstly, I transformed the png's to jpg - <IMAGE>images</IMAGE> to save place.)`

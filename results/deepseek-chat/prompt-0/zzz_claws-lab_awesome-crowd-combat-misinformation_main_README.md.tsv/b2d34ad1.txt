@@ -1,0 +1,1 @@
+Particularly, we delve into (i) distinguishing individual, collaborative, and machine-assisted labeling for annotators; (ii) analyzing the effectiveness of counter-misinformation through surveys, interviews, and in-lab experiments for evaluators; and (iii) characterizing creation patterns and creator profiles for creators.

@@ -1,0 +1,3 @@
+The text provided contains several entities that need to be annotated according to the given guidelines. Here's the annotated text in Markdown format:
+
+Most of the methods are available in the form of the `<PROGLANG>R</PROGLANG>` `<SOFTWARE>package</SOFTWARE>`, and in the "`<FOLDER>interface to comparison methods</FOLDER>`" `<FOLDER>folders</FOLDER>`, we provide interface programs (written in `<PROGLANG>R</PROGLANG>`) to use these datasets with the available `<PROGLANG>R</PROGLANG>` `<SOFTWARE>packages</SOFTWARE>` for comparison.

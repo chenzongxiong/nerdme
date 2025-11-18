@@ -1,0 +1,1 @@
+This repository contains the <SOFTWARE>code</SOFTWARE>, <SOFTWARE>data</SOFTWARE> and <SOFTWARE>results</SOFTWARE> for a <PROJECT>Fisher Information</PROJECT> framework for determining the maximum information gain and optimising experimental design in neutron reflectometry experiments using the <SOFTWARE>Fisher information</SOFTWARE>.

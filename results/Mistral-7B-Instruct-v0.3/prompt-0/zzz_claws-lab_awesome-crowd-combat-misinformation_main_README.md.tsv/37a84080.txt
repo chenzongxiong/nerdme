@@ -1,0 +1,8 @@
+```
+https://www.doi.org/10.1108/JPBM-12-2018-2146                  <PUBLICATION>...</PUBLICATION>
+Social media rumor refuter feature analysis and crowd identification based on XG Boost and NLP                                                                                           <ONTOLOGY>...</ONTOLOGY>
+Creator    <PROJECT>...</PROJECT>                                                                                                                                                  <YEAR>2020</YEAR>
+Applied Sciences (Switzerland)                                                                                                                                                      <PUBLISHER>MDPI AG</PUBLISHER>
+https://www.doi.org/10.3390/app10144711                        <PUBLICATION>...</PUBLICATION>
+#Arson Emergency and Australia’s “Black Summer”: Polarisation and Misinformation on Social Media                                                                                         <TITLE>...</TITLE>
+Creator    <PROJECT>...</PROJECT>                                                                

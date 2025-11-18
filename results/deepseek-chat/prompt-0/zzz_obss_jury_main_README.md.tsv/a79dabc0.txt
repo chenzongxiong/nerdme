@@ -1,0 +1,3 @@
+```markdown
+Main advantages that Jury offers are:  - Easy to use for any <PROGLANG>NLP</PROGLANG> project. - Unified structure for computation input across all <EVALMETRIC>metrics</EVALMETRIC>. - Calculate many <EVALMETRIC>metrics</EVALMETRIC> at once. - <EVALMETRIC>Metrics</EVALMETRIC> calculations can be handled concurrently to save processing time. - It seamlessly supports evaluation for multiple predictions/multiple references.
+```

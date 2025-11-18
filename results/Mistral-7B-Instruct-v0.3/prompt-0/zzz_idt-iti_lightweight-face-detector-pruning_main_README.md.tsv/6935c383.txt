@@ -1,0 +1,7 @@
+The naming convention we follow for the pruned models is straightforward; for instance, `<PROJECT>ERES10_FPGM</PROJECT>` refers to the `<PROJECT>EResFD</PROJECT>` model pruned with 10% sparsity using the `<PROGLANG>FPGM</PROGLANG>` technique.
+- `<DIRECTORY>torchscript/</DIRECTORY>`: All the required files for android deployment of the `<PROJECT>EResFD</PROJECT>` model (and its pruned versions) using the `<SOFTWARE>torchscript framework</SOFTWARE>`.
+
+## Prerequisites
+Before running the pruning scripts, the user needs to prepare the necessary dataset:
+### `<DATASET>WIDER FACE Dataset</DATASET>`
+The models are trained and evaluated using the `<DATASET>WIDER FACE Dataset</DATASET>`.

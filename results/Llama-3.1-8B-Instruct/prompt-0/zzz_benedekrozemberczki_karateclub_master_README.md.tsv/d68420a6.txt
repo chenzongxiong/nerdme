@@ -1,0 +1,8 @@
+```markdown
+<p align="center">   <img width="90%" src="https://github.com/benedekrozemberczki/<SOFTWARE>karatelogo.jpg</SOFTWARE>?raw=true"></p>
+<p align="center">   <b><PROJECT>Karate Club</PROJECT></b> is a <SOFTWARE>Python</SOFTWARE> library for building graph neural networks.</p>
+<p align="center">   <b><PROJECT>Karate Club</PROJECT></b> is built on top of the popular <SOFTWARE>PyTorch</SOFTWARE> deep learning framework.</p>
+<p align="center">   The library is designed to be easy to use and provides a simple interface for building and training graph neural networks.</p>
+<p align="center">   The <SOFTWARE>Karate Club</SOFTWARE> library is available on <SOFTWARE>GitHub</SOFTWARE> and can be installed using <SOFTWARE>Pip</SOFTWARE>.</p>
+<p align="center">   For more information, please visit the <SOFTWARE>Karate Club</SOFTWARE> <SOFTWARE>GitHub</SOFTWARE> page.</p>
+```

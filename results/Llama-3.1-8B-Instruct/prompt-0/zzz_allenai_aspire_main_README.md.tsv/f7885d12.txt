@@ -1,0 +1,1 @@
+- TRECCOVID presents an <DATASET>TRECCOVID</DATASET> ad-hoc search <DATASET>dataset</DATASET>.

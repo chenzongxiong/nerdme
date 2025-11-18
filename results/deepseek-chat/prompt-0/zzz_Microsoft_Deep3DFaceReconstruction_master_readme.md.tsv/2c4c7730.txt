@@ -1,0 +1,3 @@
+```markdown
+Evaluating trained model: ``` <PROGLANG>python</PROGLANG> demo.py --use_pb 0 --pretrain_weights <custom_weights>.ckpt ``` Training a model with a batchsize of 16 and 200K iterations takes 20 hours on a single Tesla M40 GPU.  ## Latest Update  ### 2020.4 ### The face reconstruction process is totally transferred to <SOFTWARE>tensorflow</SOFTWARE> version while the old version uses <SOFTWARE>numpy</SOFTWARE>.
+```

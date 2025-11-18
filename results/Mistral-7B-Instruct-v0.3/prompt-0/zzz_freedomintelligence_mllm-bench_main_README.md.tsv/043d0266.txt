@@ -1,0 +1,1 @@
+We use `<PROGLANG>bf16</PROGLANG>` inference by default.

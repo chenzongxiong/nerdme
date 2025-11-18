@@ -1,0 +1,1 @@
+The below script supports the conversion of <DATASET>S2ORC</DATASET> data to a `<SOFTWARE>graph-tool</SOFTWARE>` network, where nodes are papers labeled with paper ID

@@ -1,0 +1,1 @@
+Model sketching refocuses practitioner attention on **composing high-level, human-understandable concepts** that the model is expected to reason over (e.g., profanity, racism, or sarcasm in a content moderation task) using zero-shot concept instantiation.

@@ -1,0 +1,3 @@
+```markdown
+If you find the code useful for your research, please consider citing our paper: ``` @article{sirohi2023uncertainty,   title={<PUBLICATION>Uncertainty-aware panoptic segmentation</PUBLICATION>},   author={Sirohi, Kshitij and Marvi, Sajad and B{\"u}scher, Daniel and Burgard, Wolfram},   journal={<PUBLICATION>IEEE Robotics and Automation Letters</PUBLICATION>},   volume={8},   number={5},   pages={2629--2636},   year={2023},   publisher={IEEE} } ```  ## System Requirements * Linux  * <PROGLANG>Python</PROGLANG> 3.7 * <SOFTWARE>PyTorch</SOFTWARE> 1.7 * <SOFTWARE>CUDA</SOFTWARE> 10.2 * <SOFTWARE>GCC</SOFTWARE> 7 or 8  **IMPORTANT NOTE**: These requirements are not necessarily mandatory.
+```

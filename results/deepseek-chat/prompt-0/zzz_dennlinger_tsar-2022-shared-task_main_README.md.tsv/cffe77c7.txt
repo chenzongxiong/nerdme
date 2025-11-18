@@ -1,0 +1,3 @@
+```markdown
+/tsar_eval.py --gold_file .
+```

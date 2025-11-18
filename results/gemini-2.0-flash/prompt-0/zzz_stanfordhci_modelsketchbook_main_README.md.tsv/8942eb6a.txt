@@ -1,0 +1,1 @@
+It also displays a table view that shows the difference between the concept score and ground truth label for each example in the default <DATASET>dataset</DATASET>. ``` msb.compare_concepts_to_gt(sb) ```  <img src=".

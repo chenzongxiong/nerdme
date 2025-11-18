@@ -1,0 +1,1 @@
+To address this, we introduce `<SOFTWARE>Prompt-OIRL</SOFTWARE>`, which harnesses offline inverse reinforcement learning to draw insights from offline prompting demonstration data.

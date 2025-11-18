@@ -1,0 +1,3 @@
+```markdown
+[<PROJECT>netidee</PROJECT> logo](/media/<PROJECT>netidee</PROJECT>-logo.PNG)
+```

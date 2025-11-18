@@ -1,0 +1,3 @@
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+
+Broadly, our findings suggest that though multidisciplinary venues intend to cater to more general audiences, some fields' writing norms may act as barriers rather than bridges, and thus impede the dispersion of scholarly ideas.  ## <PUBLICATION>Scholarly Jargon</PUBLICATION>  ### <PUBLICATION>Discipline-Specific Word Senses</PUBLICATION>  - `logs/word_clusters_lemmed/0.0/` includes senses and their top predicted substitutes.

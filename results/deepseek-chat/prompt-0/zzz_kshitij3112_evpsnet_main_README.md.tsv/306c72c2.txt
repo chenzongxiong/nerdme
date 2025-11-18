@@ -1,0 +1,3 @@
+```markdown
+Install <SOFTWARE>EvPSNet</SOFTWARE> implementation ```bash cd .. python setup.py develop ``` ## Prepare datasets It is recommended to symlink the dataset root to `$<SOFTWARE>EvPSNet</SOFTWARE>/data`.
+```

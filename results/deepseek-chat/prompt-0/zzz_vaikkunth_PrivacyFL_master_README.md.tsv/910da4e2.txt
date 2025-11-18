@@ -1,0 +1,1 @@
+When initialized, clients are also provided their `<DATASET>dataset</DATASET>`, which in the example is a `<PROGLANG>pyspark</PROGLANG>` dataframe.

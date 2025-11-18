@@ -1,0 +1,5 @@
+**Notes**  
+* The entry :heavy_check_mark: represents that full Jury support is available meaning that all combinations of input types (single prediction & single reference, single prediction & multiple references, multiple predictions & multiple references) are supported  
+* The entry :white_check_mark: means that this metric is supported (for Jury through the `<SOFTWARE>evaluate</SOFTWARE>`), so that it can (and should) be used just like the `<SOFTWARE>evaluate</SOFTWARE>` metric as instructed in `<SOFTWARE>evaluate</SOFTWARE>` implementation although unfortunately full Jury support for those metrics are not yet available.  
+## Request for a New Metric  
+For the request of a new metric please [open an issue](https://github.com/obss/<PROJECT>jury</PROJECT>/issues/new?

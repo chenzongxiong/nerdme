@@ -1,0 +1,1 @@
+If you notice anything unexpected, please open an <A href="https://github.com/benedekrozemberczki/karateclub/issues">issue</A> and let us know.

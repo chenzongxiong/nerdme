@@ -1,0 +1,1 @@
+We also exploit training techniques from `<PUBLICATION>DeiT</PUBLICATION>`(https://github.com/facebookresearch/deit).

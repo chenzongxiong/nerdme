@@ -1,0 +1,4 @@
+### Compare sketch performance
+Plots performance metrics (<EVALMETRIC>Mean Absolute Error</EVALMETRIC>, <EVALMETRIC>F1 Score</EVALMETRIC>, <EVALMETRIC>Classification accuracy</EVALMETRIC>, <EVALMETRIC>precision</EVALMETRIC>, and <EVALMETRIC>recall</EVALMETRIC>) for all of the selected sketches on the specified <DATASET>sb</DATASET>. 
+``` msb.compare_sketches(sb) ```
+<img src=".

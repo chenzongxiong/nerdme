@@ -1,0 +1,1 @@
+Link `<DATASET>datasets</DATASET>` directory and create an output directory.

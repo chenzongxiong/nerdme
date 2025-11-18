@@ -1,0 +1,1 @@
+Also, we provide the code to evaluate different active learning methods on multiple medical imaging `<DATASET>datasets</DATASET>` of classification or segmentation.

@@ -1,0 +1,1 @@
+style=flat)](https://github.com/mmp2/megaman/blob/master/<LICENSE>LICENSE</LICENSE>)  ``megaman`` is a scalable manifold learning package implemented in <PROGLANG>python</PROGLANG>.

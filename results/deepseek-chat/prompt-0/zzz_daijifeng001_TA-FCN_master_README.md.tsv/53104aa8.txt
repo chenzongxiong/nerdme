@@ -1,0 +1,3 @@
+```markdown
+We strongly suggest the user rollback to version [<SOFTWARE>MXNet</SOFTWARE>@(commit 998378a)](https://github.com/dmlc/<SOFTWARE>mxnet</SOFTWARE>/tree/998378a) for training (following Section 3.2 - 3.6).**   ***Quick start***   3.1 Install <SOFTWARE>MXNet</SOFTWARE> and all dependencies by   ```  pip install -r requirements.txt  ```  If there is no other error message, <SOFTWARE>MXNet</SOFTWARE> should be installed successfully.
+```

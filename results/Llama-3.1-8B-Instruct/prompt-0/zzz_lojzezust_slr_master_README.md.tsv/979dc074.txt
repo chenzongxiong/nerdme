@@ -1,0 +1,1 @@
+[click here](https://img.shields.io/badge/bibtex-1a759f?style=for-the-badge&logo=bibtex&labelColor=grey&color=1a759f) to cite the <PUBLICATION>paper</PUBLICATION> which uses the <SOFTWARE>Protege Ontology Editor</SOFTWARE> for creating ontologies. The <DATASET>dataset</DATASET> is available on [github](https://github.com/PROGLANGpython).

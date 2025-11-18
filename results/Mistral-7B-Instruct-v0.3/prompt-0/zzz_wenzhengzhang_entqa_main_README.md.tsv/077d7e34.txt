@@ -1,0 +1,11 @@
+The text contains the following entities:
+
+- **DATASET**: `AIDA CoNLL`
+- **URL**: `https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/ambiverse-nlu/aida/downloads`
+- **DIRECTORY**: `/raw_aida/`
+
+The annotated text in Markdown format is:
+
+```
+Download the <DATASET>AIDA CoNLL</DATASET> datasets [here](<URL>https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/ambiverse-nlu/aida/downloads</URL>) and place them under a <DIRECTORY>/raw_aida/</DIRECTORY> like `/raw_aida/`.
+```

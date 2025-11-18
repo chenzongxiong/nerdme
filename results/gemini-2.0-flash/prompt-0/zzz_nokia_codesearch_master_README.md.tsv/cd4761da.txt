@@ -1,0 +1,1 @@
+Install the tree-sitter parsers (for preprocessing the code snippets): e.g., `codesearch install_parsers <PROGLANG>python</PROGLANG> <PROGLANG>java</PROGLANG>` or simply `codesearch install_parsers` to install parsers for all supported languages.

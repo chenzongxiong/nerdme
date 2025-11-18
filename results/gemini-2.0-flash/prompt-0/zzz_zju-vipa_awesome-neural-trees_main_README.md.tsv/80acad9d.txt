@@ -1,0 +1,1 @@
+Liu - [[Paper]](https://ieeexplore.ieee.org/abstract/document/125869) - ***Soft thresholding of entropy net:*** - **"Neural implementation of tree classifiers"**, <PUBLICATION>IEEE Transactions on Systems, Man, and Cybernetics</PUBLICATION>, 1995 - I.K.

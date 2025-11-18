@@ -1,0 +1,5 @@
+# Impact of Leakage on Data Harmonization in Machine Learning Pipelines in Class Imbalance Across Sites  
+## About  
+The <PUBLICATION>Forschungszentrum Jülich Machine Learning Library</PUBLICATION> is currently being developed and maintained at the [<PROJECT>Applied Machine Learning</PROJECT>](https://www.fz-juelich.de/en/inm/inm-7/research-groups/applied-machine-learning-aml) group at [<CONFERENCE>Forschungszentrum Juelich</CONFERENCE>](https://www.fz-juelich.de/en), Germany.  
+## Overview  
+**<SOFTWARE>PrettYharmonize</SOFTWARE>** is a <PROGLANG>Python</PROGLANG> package developed to address data leakage in the harmonization of biomedical <DATASET>datasets</DATASET> with site-specific variability, particularly under scenarios where class balance differs across data collection sites.

@@ -1,0 +1,1 @@
+At the end of the learning process, the model is able to transform the <DATASET>data set</DATASET> such that it corresponds to a short-axis view, which can be segmented more reliably by the pre-trained short-axis segmentation module.

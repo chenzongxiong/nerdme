@@ -1,0 +1,3 @@
+```markdown
+Strings may be truncated to a max token length for prompts to GPT. - `<SOFTWARE>InputType.Image</SOFTWARE>`: (string) URLs to remotely-hosted images
+```

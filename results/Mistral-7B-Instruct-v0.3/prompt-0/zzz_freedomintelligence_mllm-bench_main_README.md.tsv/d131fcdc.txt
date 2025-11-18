@@ -1,0 +1,8 @@
+`/<PUBLICATION>Model Cards for Model Reporting</PUBLICATION>.md)
+The <PROJECT>Model Cards</PROJECT> project (<URL>https://modelcards.org/</URL>) is an open-source initiative that aims to provide a standardized format for reporting machine learning models. The project was started by <PROJECT>Google Research</PROJECT> and is now maintained by a community of researchers, practitioners, and organizations.
+
+The <PROJECT>Model Cards</PROJECT> project provides a template for creating model cards, which are concise documents that summarize the key characteristics of a machine learning model. These characteristics include the model's purpose, inputs, outputs, performance, fairness, and ethical considerations.
+
+The <PROJECT>Model Cards</PROJECT> project encourages transparency and reproducibility in machine learning by providing a standardized format for reporting models. By using model cards, researchers and practitioners can easily compare and evaluate different models, and make informed decisions about which models to use for their specific tasks.
+
+The <PROJECT>Model Cards</PROJECT> project has gained widespread adoption in the machine

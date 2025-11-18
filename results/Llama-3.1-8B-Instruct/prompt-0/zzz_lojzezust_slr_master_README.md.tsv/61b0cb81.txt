@@ -1,0 +1,4 @@
+[![style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=5b2m0vZnQ2I)<PUBLICATION>Deep Learning for Computer Vision with Python</PUBLICATION> by <PUBLICATION>sentdex</PUBLICATION> on <PUBLICATION>YouTube</PUBLICATION> 
+[![style=for-the-badge&logo=github&logoColor=white)](https://github.com/sentdex/deep_learning_for_computer_vision)
+<PROJECT>Deep Learning for Computer Vision with Python</PROJECT> by <AUTHOR>sentdex</AUTHOR> on <PROJECT>GitHub</PROJECT> 
+<SOFTWARE>GitHub</SOFTWARE> is a <SOFTWARE>web-based</SOFTWARE> platform for <SOFTWARE>version control</SOFTWARE> and <SOFTWARE>collaboration</SOFTWARE>.

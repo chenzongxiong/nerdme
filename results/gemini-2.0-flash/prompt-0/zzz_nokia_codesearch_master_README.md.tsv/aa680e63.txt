@@ -1,0 +1,1 @@
+In addition, the `<PROJECT>project</PROJECT>` also implements some *code-only* retrieval models (BM25, NCS, UNIF) for snippet collections that do not come with descriptions.

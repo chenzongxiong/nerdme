@@ -1,0 +1,1 @@
+Note that many scripts are modified versions of ones found in the <SOFTWARE>WSIatScale</SOFTWARE> repo (<https://github.com/allenai/<SOFTWARE>WSIatScale</SOFTWARE>>).

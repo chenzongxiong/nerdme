@@ -1,0 +1,2 @@
+```py price = hedger.price(derivative) ```  ## More Examples  ### Use GPU  To employ the desired [`device`](https://pytorch.org/docs/stable/tensor_attributes.html#torch.torch.device) and/or [`dtype`](https://pytorch.org/docs/stable/tensor_attributes.html#torch.torch.dtype) in fitting and pricing, use `to` method.
+```

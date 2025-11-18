@@ -1,0 +1,1 @@
+Wikipedia - `word_counts_wikipedia.py`: count words in simple and regular Wikipedia samples Vocab to lemmatize - `write_mask_preds/wsi_vocab.py`: vocab creation Journals & FOS - `word_type.py`: calculate NPMI **WSI pipeline** There are some additional supporting scripts, but these are the main ones to run.

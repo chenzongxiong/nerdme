@@ -1,0 +1,3 @@
+```markdown
+To compile main.hs, run in a terminal:      <PROGLANG>ghc</PROGLANG> -o main main.hs  <SOFTWARE>Sql4ml</SOFTWARE> uses the <SOFTWARE>MySQL</SOFTWARE> database (https://www.<SOFTWARE>mysql</SOFTWARE>.com/) for storing data.
+```

@@ -1,0 +1,3 @@
+Here is the annotated text in Markdown format:
+
+`/renderer/<SOFTWARE>rasterize_triangles.py</SOFTWARE> with ".`

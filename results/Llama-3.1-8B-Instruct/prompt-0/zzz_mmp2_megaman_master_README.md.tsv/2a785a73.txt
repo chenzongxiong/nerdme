@@ -1,0 +1,5 @@
+[<SOFTWARE>A anaconda.org</SOFTWARE> badge](https://<SOFTWARE>anaconda.org</SOFTWARE>/conda-forge/megaman/badges/downloads.svg)](https://<SOFTWARE>anaconda.org</SOFTWARE>/conda-forge/megaman)
+
+[![](https://<SOFTWARE>anaconda.org</SOFTWARE>/conda-forge/megaman/badges/downloads.svg)](https://<SOFTWARE>anaconda.org</SOFTWARE>/conda-forge/megaman)
+
+Anaconda is a <SOFTWARE>Python</SOFTWARE> distribution that includes packages for data science, machine learning, and more.

@@ -1,0 +1,1 @@
+For these experiments we decided to extract different types of melodic patterns, using a relatively trivial approach based on n-grams.

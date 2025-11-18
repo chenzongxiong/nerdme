@@ -1,0 +1,1 @@
+You can use the `<SOFTWARE>Protege ontology editor</SOFTWARE>` to explore and edit the resource.

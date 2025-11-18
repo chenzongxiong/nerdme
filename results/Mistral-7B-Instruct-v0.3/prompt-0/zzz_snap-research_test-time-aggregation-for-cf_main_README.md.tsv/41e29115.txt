@@ -1,0 +1,7 @@
+`The <PROJECT>Paper With Code</PROJECT> project (<PUBLICATION>https://<PROJECT>paperswithcode</PROJECT>.com/</PUBLICATION>) is a valuable resource for researchers. It provides a comprehensive <DATASET>dataset</DATASET> of <ONTOLOGY>ontologies</ONTOLOGY> and their corresponding <EVALMETRIC>evaluation metrics</EVALMETRIC>. The <SOFTWARE>Protege ontology editor</SOFTWARE> can be used to explore and edit the resource.
+
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (<CONFERENCE>ISWC 2019</CONFERENCE>) was a significant event in the field. It featured several workshops, including the <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> workshop.
+
+The <PROGLANG>Python</PROGLANG> programming language is widely used in the field, and the <PROGLANG>C++</PROGLANG> programming language is also popular.
+
+The <LICENSE>cc-by-3

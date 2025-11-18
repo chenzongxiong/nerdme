@@ -1,0 +1,3 @@
+```markdown
+After installing <SOFTWARE>MySQL</SOFTWARE>, you can run the <PROGLANG>SQL</PROGLANG> scripts in the directory /db_setups to create two toy databases, one based on the <DATASET>Boston Housing</DATASET> dataset (https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html) and the other based on the <DATASET>Iris</DATASET> dataset (https://archive.ics.uci.edu/ml/datasets/iris), which you can find in the directory /data.  ## Use  In file main.hs you can find two examples on how to call function endToEndTranslate, which takes the following input parameters:  * A list of <PROGLANG>SQL</PROGLANG> queries defining the objective function of a supervised ML model.
+```

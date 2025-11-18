@@ -1,0 +1,1 @@
+Start a <SOFTWARE>Docker</SOFTWARE> container with our image and enter its shell    ```bash    <SOFTWARE>docker</SOFTWARE> run -it --rm -v $(realpath <DATASET>DejaVu</DATASET>):/workspace <SOFTWARE>lizytalk/dejavu</SOFTWARE> bash    ``` 6.

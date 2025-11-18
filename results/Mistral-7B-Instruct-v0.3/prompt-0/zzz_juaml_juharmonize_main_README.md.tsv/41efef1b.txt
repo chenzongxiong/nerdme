@@ -1,0 +1,7 @@
+```markdown
+[Workflow of PrettYharmonize](figures/PrettYharmonize_workflow.png) *Figure 1: Workflow for the <PROJECT>PrettYharmonize</PROJECT> data harmonization approach, outlining key stages in data processing.*  For more details, see our <PUBLICATION>paper</PUBLICATION> on arXiv: [Impact of Leakage on Data Harmonization in Machine Learning Pipelines in Class Imbalance Across Sites](https://arxiv.org/abs/2410.19643).
+
+## Installation
+To set up the environment for <PROJECT>PrettYharmonize</PROJECT>, follow these steps:
+1.
+```

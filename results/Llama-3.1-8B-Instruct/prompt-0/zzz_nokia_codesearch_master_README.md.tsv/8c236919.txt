@@ -1,0 +1,34 @@
+### Datasets
+This project provides a consistent interface to download and load <DATASET>datasets</DATASET> related to code search.
+
+### Snippet collections
+#### Example: Load a snippet collection
+```python
+from codesearch.data import load_snippet_collection
+collection_name = "<DATASET>so-ds-feb20</DATASET>"
+snippets = load_snippet_collection(collection_name)
+```
+#### Available snippet collections
+
+| Name | Description | Training Data | Notebook |
+|------|-------------|---------------|----------|
+| ncs-embedder-so-ds-feb20 |  | <DATASET>so-ds-feb20</DATASET> | nbs/ncs/ncs.ipynb |
+| ncs-embedder-staqc-py |  | <DATASET>staqc-py-cleaned</DATASET> | nbs/ncs/ncs.ipynb |
+| tnbow-embedder-so-ds-feb20 |  | <DATASET>so-python-question-titles-feb20</DATASET> | nbs/tnbow/tnbow.ipynb |
+| use-embedder-pacs |  | <DATASET>so-duplicates-pacsv1-train</DATASET> | nbs/tuse/tuse_tuned.ipynb |
+| ensemble-embedder-pacs | Description + Code | <DATASET>staqc-py-cleaned</DATASET> + <DATASET>so-duplicates-pacs-train</DATASET> | nbs/ensemble/ensemble.ipynb |
+
+### <DATASET>so-ds-feb20</DATASET>
+This is a <DATASET>dataset</DATASET> for code search.
+
+### <DATASET>staqc-py-cleaned</DATASET>
+This is a <DATASET>dataset</DATASET> for code search.
+
+### <DATASET>so-python-question-titles-feb20</DATASET>
+This is a <DATASET>dataset</DATASET> for code search.
+
+### <DATASET>so-duplicates-pacsv1-train</DATASET>
+This is a <DATASET>dataset</DATASET> for code search.
+
+### <DATASET>so-duplicates-pacs-train</DATASET>
+This is a <DATASET>dataset</DATASET> for code search.

@@ -1,0 +1,3 @@
+```markdown
+Rewrite `<PROGLANG>init_components()</PROGLANG>` and `<PROGLANG>forward()</PROGLANG>` method.
+```

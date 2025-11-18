@@ -1,0 +1,3 @@
+Here is the annotated text in Markdown format:
+
+`Chapterized <PROJECT>Project Guteberg</PROJECT> <DATASET>Data</DATASET> The chapterized book text from <PROJECT>Gutenberg</PROJECT>, for the books we use in our work, has been made available through a public <SOFTWARE>GCP bucket</SOFTWARE>.`

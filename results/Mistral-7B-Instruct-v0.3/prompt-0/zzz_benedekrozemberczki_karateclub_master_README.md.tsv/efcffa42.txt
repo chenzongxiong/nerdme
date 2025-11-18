@@ -1,0 +1,10 @@
+```
+For example, this is all it takes to use on a Watts-Strogatz graph [Ego-splitting](https://www.eecs.yorku.ca/course_archive/2017-18/F/6412/reading/kdd17p145.pdf):  ```python <PROGLANG>import networkx as nx</PROGLANG> from <PROGLANG>karateclub</PROGLANG> import EgoNetSplitter
+  <PROGLANG>g = nx.newman_watts_strogatz_graph(1000, 20, 0.05)</PROGLANG>
+  <SOFTWARE>splitter = EgoNetSplitter(1.0)</SOFTWARE>
+  <SOFTWARE>splitter.fit(g)</SOFTWARE>
+  <PROGLANG>print(splitter.get_memberships())</PROGLANG> ```
+  ----------------------------------------------------------------
+  **Models included**
+  In detail, the following community detection and embedding methods were implemented.
+```

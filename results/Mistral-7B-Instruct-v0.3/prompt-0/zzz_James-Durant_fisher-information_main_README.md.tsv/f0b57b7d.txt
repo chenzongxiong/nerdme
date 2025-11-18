@@ -1,0 +1,10 @@
+```
+For the <PUBLICATION>figures</PUBLICATION> presented in this article, see [<PUBLICATION>figures</PUBLICATION>].
+
+## Installation
+1.
+```
+
+In the following sentence, the DOI, journal, month, volume, year, and URL are all entities that should be annotated:
+
+K.},    doi       = {10.1107/S160057672100563X},    journal   = {Journal of Applied Crystallography},    month     = {Aug},    number    = {4},    pages     = {1100--1110},    publisher = {International Union of Crystallography ({IUCr})},    title     = {{Determining the maximum information gain and optimizing experimental design in neutron reflectometry using the Fisher information}},    url       = {https://doi.org/10.1107/S160057672100563X},    volume    = {54},    year

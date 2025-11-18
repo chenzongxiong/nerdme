@@ -1,0 +1,3 @@
+```markdown
+For the most part, functions in here are implementation specific and you should feel free to add any auxiliary functions scripts.   ## Features  The library is intended to help users simulate secure federated learning to decide whether it would be feasible and beneficial.
+```

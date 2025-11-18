@@ -1,0 +1,210 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Are you tough enough?
+1-1	0-1	#	_	_	
+1-2	2-5	Are	*[1]	PUBLICATION[1]	
+1-3	6-9	you	*[1]	PUBLICATION[1]	
+1-4	10-15	tough	*[1]	PUBLICATION[1]	
+1-5	16-22	enough	*[1]	PUBLICATION[1]	
+1-6	22-23	?	*[1]	PUBLICATION[1]	
+
+#Text=Framework for Robustness Validation of Machine Comprehension Systems
+#Text=
+#Text=This repository contains dataset for robustness validation of machine comprehension systems trained on SQuAD dataset.
+2-1	24-33	Framework	*[1]	PUBLICATION[1]	
+2-2	34-37	for	*[1]	PUBLICATION[1]	
+2-3	38-48	Robustness	*[1]	PUBLICATION[1]	
+2-4	49-59	Validation	*[1]	PUBLICATION[1]	
+2-5	60-62	of	*[1]	PUBLICATION[1]	
+2-6	63-70	Machine	*[1]	PUBLICATION[1]	
+2-7	71-84	Comprehension	*[1]	PUBLICATION[1]	
+2-8	85-92	Systems	*[1]	PUBLICATION[1]	
+2-9	94-98	This	_	_	
+2-10	99-109	repository	_	_	
+2-11	110-118	contains	_	_	
+2-12	119-126	dataset	_	_	
+2-13	127-130	for	_	_	
+2-14	131-141	robustness	_	_	
+2-15	142-152	validation	_	_	
+2-16	153-155	of	_	_	
+2-17	156-163	machine	_	_	
+2-18	164-177	comprehension	_	_	
+2-19	178-185	systems	_	_	
+2-20	186-193	trained	_	_	
+2-21	194-196	on	_	_	
+2-22	197-202	SQuAD	*	DATASET	
+2-23	203-210	dataset	_	_	
+2-24	210-211	.	_	_	
+
+#Text=It was created with WordNet synonyms embedded with ELMo and manually corrected by annotators.
+3-1	212-214	It	_	_	
+3-2	215-218	was	_	_	
+3-3	219-226	created	_	_	
+3-4	227-231	with	_	_	
+3-5	232-239	WordNet	_	_	
+3-6	240-248	synonyms	_	_	
+3-7	249-257	embedded	_	_	
+3-8	258-262	with	_	_	
+3-9	263-267	ELMo	_	_	
+3-10	268-271	and	_	_	
+3-11	272-280	manually	_	_	
+3-12	281-290	corrected	_	_	
+3-13	291-293	by	_	_	
+3-14	294-304	annotators	_	_	
+3-15	304-305	.	_	_	
+
+#Text=**A robust model should be robust to changes in input that do not alter its semantics.**
+#Text=We test this property of 3 popular models: DrQA, BiDAF and QANet by manipulating questions in two ways-
+#Text=swapping important question word for:
+#Text=
+#Text=1) its semantically correct synonym and
+#Text=2) for word vector that is close in embedding space.
+4-1	307-308	*	_	_	
+4-2	308-309	*	_	_	
+4-3	309-310	A	_	_	
+4-4	311-317	robust	_	_	
+4-5	318-323	model	_	_	
+4-6	324-330	should	_	_	
+4-7	331-333	be	_	_	
+4-8	334-340	robust	_	_	
+4-9	341-343	to	_	_	
+4-10	344-351	changes	_	_	
+4-11	352-354	in	_	_	
+4-12	355-360	input	_	_	
+4-13	361-365	that	_	_	
+4-14	366-368	do	_	_	
+4-15	369-372	not	_	_	
+4-16	373-378	alter	_	_	
+4-17	379-382	its	_	_	
+4-18	383-392	semantics	_	_	
+4-19	392-393	.	_	_	
+4-20	393-394	*	_	_	
+4-21	394-395	*	_	_	
+4-22	396-398	We	_	_	
+4-23	399-403	test	_	_	
+4-24	404-408	this	_	_	
+4-25	409-417	property	_	_	
+4-26	418-420	of	_	_	
+4-27	421-422	3	_	_	
+4-28	423-430	popular	_	_	
+4-29	431-437	models	_	_	
+4-30	437-438	:	_	_	
+4-31	439-443	DrQA	_	_	
+4-32	443-444	,	_	_	
+4-33	445-450	BiDAF	_	_	
+4-34	451-454	and	_	_	
+4-35	455-460	QANet	_	_	
+4-36	461-463	by	_	_	
+4-37	464-476	manipulating	_	_	
+4-38	477-486	questions	_	_	
+4-39	487-489	in	_	_	
+4-40	490-493	two	_	_	
+4-41	494-498	ways	_	_	
+4-42	498-499	-	_	_	
+4-43	500-508	swapping	_	_	
+4-44	509-518	important	_	_	
+4-45	519-527	question	_	_	
+4-46	528-532	word	_	_	
+4-47	533-536	for	_	_	
+4-48	536-537	:	_	_	
+4-49	539-540	1	_	_	
+4-50	540-541	)	_	_	
+4-51	542-545	its	_	_	
+4-52	546-558	semantically	_	_	
+4-53	559-566	correct	_	_	
+4-54	567-574	synonym	_	_	
+4-55	575-578	and	_	_	
+4-56	579-580	2	_	_	
+4-57	580-581	)	_	_	
+4-58	582-585	for	_	_	
+4-59	586-590	word	_	_	
+4-60	591-597	vector	_	_	
+4-61	598-602	that	_	_	
+4-62	603-605	is	_	_	
+4-63	606-611	close	_	_	
+4-64	612-614	in	_	_	
+4-65	615-624	embedding	_	_	
+4-66	625-630	space	_	_	
+4-67	630-631	.	_	_	
+
+#Text=We estimate importance of words in asked questions with Locally Interpretable Model Agnostic Explanations method (LIME). 
+#Text=
+#Text=!
+5-1	633-635	We	_	_	
+5-2	636-644	estimate	_	_	
+5-3	645-655	importance	_	_	
+5-4	656-658	of	_	_	
+5-5	659-664	words	_	_	
+5-6	665-667	in	_	_	
+5-7	668-673	asked	_	_	
+5-8	674-683	questions	_	_	
+5-9	684-688	with	_	_	
+5-10	689-696	Locally	_	_	
+5-11	697-710	Interpretable	_	_	
+5-12	711-716	Model	_	_	
+5-13	717-725	Agnostic	_	_	
+5-14	726-738	Explanations	_	_	
+5-15	739-745	method	_	_	
+5-16	746-747	(	_	_	
+5-17	747-751	LIME	_	_	
+5-18	751-752	)	_	_	
+5-19	752-753	.	_	_	
+5-20	756-757	!	_	_	
+
+#Text=[Schema of Robustness Validation Framework](img/workshop_framework_2.png)
+#Text=
+#Text=More details can be found in the paper accepted to NIPS IRASL workshop https://arxiv.org/abs/1812.02205
+#Text=
+#Text=*This framework is in progress and will be updated.*
+6-1	757-758	[	_	_	
+6-2	758-764	Schema	_	_	
+6-3	765-767	of	_	_	
+6-4	768-778	Robustness	_	_	
+6-5	779-789	Validation	_	_	
+6-6	790-799	Framework	_	_	
+6-7	799-800	]	_	_	
+6-8	800-801	(	_	_	
+6-9	801-804	img	_	_	
+6-10	804-805	/	_	_	
+6-11	805-823	workshop_framework	_	_	
+6-12	823-824	_	_	_	
+6-13	824-825	2	_	_	
+6-14	825-826	.	_	_	
+6-15	826-829	png	_	_	
+6-16	829-830	)	_	_	
+6-17	832-836	More	_	_	
+6-18	837-844	details	_	_	
+6-19	845-848	can	_	_	
+6-20	849-851	be	_	_	
+6-21	852-857	found	_	_	
+6-22	858-860	in	_	_	
+6-23	861-864	the	_	_	
+6-24	865-870	paper	_	_	
+6-25	871-879	accepted	_	_	
+6-26	880-882	to	_	_	
+6-27	883-887	NIPS	*[2]	WORKSHOP[2]	
+6-28	888-893	IRASL	*[2]	WORKSHOP[2]	
+6-29	894-902	workshop	*[2]	WORKSHOP[2]	
+6-30	903-908	https	_	_	
+6-31	908-909	:	_	_	
+6-32	909-910	/	_	_	
+6-33	910-911	/	_	_	
+6-34	911-920	arxiv.org	_	_	
+6-35	920-921	/	_	_	
+6-36	921-924	abs	_	_	
+6-37	924-925	/	_	_	
+6-38	925-935	1812.02205	_	_	
+6-39	937-938	*	_	_	
+6-40	938-942	This	_	_	
+6-41	943-952	framework	_	_	
+6-42	953-955	is	_	_	
+6-43	956-958	in	_	_	
+6-44	959-967	progress	_	_	
+6-45	968-971	and	_	_	
+6-46	972-976	will	_	_	
+6-47	977-979	be	_	_	
+6-48	980-987	updated	_	_	
+6-49	987-988	.	_	_	
+6-50	988-989	*	_	_	

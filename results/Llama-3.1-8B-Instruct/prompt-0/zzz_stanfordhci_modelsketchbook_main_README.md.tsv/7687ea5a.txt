@@ -1,0 +1,1 @@
+/docs/media/create_sketch_model.png" alt="create_sketch_model <SOFTWARE>widgets</SOFTWARE>" width="50%">  ## 2: Other functions ### Tune concepts (optional) You may optionally tune your existing concepts by binarizing them at a threshold, normalizing the values, or calibrating them between specified values.

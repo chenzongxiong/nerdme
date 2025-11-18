@@ -1,0 +1,1 @@
+The <SOFTWARE>git</SOFTWARE> clone command used to obtain the preprocessed data and the learned PyTorch models and template curves is `git clone git@github.com:dylanashley/story-distiller.git`. At this time, the raw data used to train the movie frame extractor is not possible to release due to copyright issues.

@@ -1,0 +1,1 @@
+The <PROJECT>Simulation</PROJECT> in this example may or may not benefit the clients. However, the clients <CONFERENCE>participate</CONFERENCE> in the simulation.

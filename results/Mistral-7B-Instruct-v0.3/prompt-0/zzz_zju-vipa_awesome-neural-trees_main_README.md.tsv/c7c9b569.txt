@@ -1,0 +1,1 @@
+`This survey tries to include <PROJECT>NNs</PROJECT> that draw on a part of ideas from <ONTOLOGY>DTs</ONTOLOGY>, either the <ONTOLOGY>class hierarchy</ONTOLOGY> or the <ONTOLOGY>decision branches</ONTOLOGY>, but not both.`

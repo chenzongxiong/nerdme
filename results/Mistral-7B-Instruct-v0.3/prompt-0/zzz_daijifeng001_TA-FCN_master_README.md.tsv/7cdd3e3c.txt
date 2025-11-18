@@ -1,0 +1,1 @@
+`MXNet from <SOFTWARE>the offical repository</SOFTWARE> (<URL>https://github.com/dmlc/mxnet</URL>).`

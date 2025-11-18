@@ -1,0 +1,1 @@
+Several learned templates are included in the <SOFTWARE>templates</SOFTWARE> directory.

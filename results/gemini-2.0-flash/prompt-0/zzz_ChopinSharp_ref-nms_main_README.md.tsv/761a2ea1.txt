@@ -1,0 +1,1 @@
+See [environment.yml](environment.yml) for complete environment settings. - <PROGLANG>python</PROGLANG> 3.7.6 - pytorch 1.1.0 - torchvision 0.3.0 - tensorboard 2.1.0 - spacy 2.2.3 ## Data Preparation Follow instructions in `data/README.md` to setup `data` directory.

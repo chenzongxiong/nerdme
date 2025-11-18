@@ -1,0 +1,1 @@
+- `<SOFTWARE>InputType.ImageLocal</SOFTWARE>`: (string) Filepaths to locally-stored images. - `<SOFTWARE>InputType.GroundTruth</SOFTWARE>`: (float or bool) Ground truth labels.

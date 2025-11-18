@@ -1,0 +1,2 @@
+style=flat]The `<PROGLANG>Python</PROGLANG>` package `<SOFTWARE>megaman</SOFTWARE>` is a scalable manifold learning package implemented in `<PROGLANG>Python</PROGLANG>`.
+The license for `<SOFTWARE>megaman</SOFTWARE>` can be found at `<LICENSE>https://github.com/mmp2/megaman/blob/master/LICENSE</LICENSE>`.

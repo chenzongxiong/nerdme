@@ -1,0 +1,9 @@
+Installation  Please install all dependencies using the command: 
+``` conda create --name <env> --file requirements.txt ```
+## 2. 
+To train the model, you need to download the <DATASET>Stanford Question Answering Dataset (SQuAD)</DATASET> and the <DATASET>WikiText-103</DATASET> dataset.
+You can use the <SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the resource.
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> paper is available online.
+The <PROJECT>Paper With Code</PROJECT> project (https://<PROJECT>paperswithcode</PROJECT>.com/) provides a comprehensive overview of the <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION> paper.
+You can also check the <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> workshop website for more information.
+The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>.

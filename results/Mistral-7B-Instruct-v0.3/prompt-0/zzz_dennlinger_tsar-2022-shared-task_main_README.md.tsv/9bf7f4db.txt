@@ -1,0 +1,7 @@
+The text annotated according to the guidelines is as follows:
+
+```
+<PUBLICATION>doi: 10.3389/frai.2022.991242</PUBLICATION> Preprint available at ArXiV: [<URL>https://arxiv.org/abs/2209.05301</URL>](https://arxiv.org/abs/2209.05301)
+
+<WORKSHOP>## License</WORKSHOP> The python scripts follow <LICENSE>AGPL 3.0v license</LICENSE>.
+```

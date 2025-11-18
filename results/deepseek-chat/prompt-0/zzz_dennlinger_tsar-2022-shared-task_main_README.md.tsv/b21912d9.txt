@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+The <DATASET>datasets</DATASET> (under the /<DATASET>datasets</DATASET> directory) are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License [<LICENSE>CC-BY-NC-SA-4.0</LICENSE>](<LICENSE>CC-BY-NC-SA-4.0</LICENSE>).  ## Contact https://<WORKSHOP>taln.upf.edu/pages/tsar2022-st</WORKSHOP>/#contact
+```

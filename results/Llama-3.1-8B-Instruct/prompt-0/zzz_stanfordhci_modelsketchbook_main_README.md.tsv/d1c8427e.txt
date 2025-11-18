@@ -1,0 +1,1 @@
+The <SOFTWARE>ModelSketchBook</SOFTWARE> instantiates a vision of **<SOFTWARE>model sketching</SOFTWARE>**, a technical framework for rapidly iterating over a machine learning model's decision-making logic.

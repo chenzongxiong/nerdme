@@ -1,0 +1,1 @@
+style=flat]The `<PROGLANG>Python</PROGLANG>` package `megaman` is available on `<PUBLICATION>PyPI</PUBLICATION>`. [!`<URL>https://pypi.python.org/pypi/megaman</URL>`]

@@ -1,0 +1,1 @@
+Additionally, it extends this standard to incorporate responsible AI aspects into the <DATASET>dataset</DATASET> documentation, derived from [<PUBLICATION>Microsoft’s Aether data documentation</PUBLICATION>](https://www.microsoft.com/en-us/research/uploads/prod/2022/07/aether-datadoc-082522.pdf).

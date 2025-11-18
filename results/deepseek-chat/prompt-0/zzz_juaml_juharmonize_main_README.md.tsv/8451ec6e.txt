@@ -1,0 +1,1 @@
+The methodology has been validated on synthetic benchmarks and real-world data, including MRI and clinical `<DATASET>datasets</DATASET>`, to ensure robustness in diverse site-target-dependence scenarios.  !

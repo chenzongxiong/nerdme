@@ -1,0 +1,3 @@
+```markdown
+Run `get_summaries.py` to collect the summaries from the links for each source.
+```

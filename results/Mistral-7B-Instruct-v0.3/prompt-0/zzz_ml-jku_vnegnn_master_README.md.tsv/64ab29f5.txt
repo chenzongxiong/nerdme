@@ -1,0 +1,1 @@
+We acknowledge `<CONFERENCE>EuroHPC Joint Undertaking</CONFERENCE>` for awarding us access to `<SOFTWARE>Karolina</SOFTWARE>` at `<PROJECT>IT4Innovations</PROJECT>`, Czech Republic; `<SOFTWARE>MeluXina</SOFTWARE>` at `<PROJECT>LuxProvide</PROJECT>`, Luxembourg; and `<SOFTWARE>LUMI</SOFTWARE>` at `<PROJECT>CSC</PROJECT>`, Finland. !

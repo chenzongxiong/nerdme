@@ -1,0 +1,3 @@
+```markdown
+An example usage to call some method of client_agent1 would be: `self.directory.clients['client_agent1'].METHOD_TO_CALL()'`  ### Utils Folder This folder contains utilities such as data processing, differential privacy functions, and more.
+```

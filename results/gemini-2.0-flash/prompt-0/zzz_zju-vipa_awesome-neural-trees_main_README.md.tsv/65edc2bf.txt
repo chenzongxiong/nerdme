@@ -1,0 +1,1 @@
+Adopt DTs to approximate the target concept of NNs in terms of logical descriptions, *i.e.*, use DTs to design NNs with structural priors

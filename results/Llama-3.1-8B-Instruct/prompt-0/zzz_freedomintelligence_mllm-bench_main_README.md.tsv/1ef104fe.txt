@@ -1,0 +1,5 @@
+`. <SOFTWARE>baseworker.py</SOFTWARE>` contains the implementation of the two methods. 
+The first method is a <CONFERENCE>NeurIPS 2023</CONFERENCE> paper, which introduces a new <SOFTWARE>model</SOFTWARE> for <DATASET>dialogue systems</DATASET>. 
+The <DATASET>dataset</DATASET> used in this paper is the <DATASET>ConvAI2</DATASET> dataset. 
+The evaluation metrics used are <EVALMETRIC>F1-Score</EVALMETRIC> and <EVALMETRIC>BLEU Score</EVALMETRIC>. 
+The <SOFTWARE>baseworker.py</SOFTWARE> code is released under the <LICENSE>MIT License</LICENSE>.

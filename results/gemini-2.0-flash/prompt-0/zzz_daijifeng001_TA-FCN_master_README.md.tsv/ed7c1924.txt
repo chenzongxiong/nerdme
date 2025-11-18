@@ -1,0 +1,1 @@
+Please download [<DATASET>COCO dataset</DATASET>](http://mscoco.org/dataset/#download) and annotations for the 5k image [minival](https://dl.dropboxusercontent.com/s/o43o90bna78omob/instances_minival2014.json.zip?

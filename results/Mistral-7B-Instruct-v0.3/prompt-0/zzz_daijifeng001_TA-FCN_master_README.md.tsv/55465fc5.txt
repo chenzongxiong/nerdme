@@ -1,0 +1,1 @@
+Two config files have been provided so far: `<PROJECT>FCIS@COCO</PROJECT>` with `<EVALMETRIC>OHEM</EVALMETRIC>` and `<PROJECT>FCIS@VOC</PROJECT>` without `<EVALMETRIC>OHEM</EVALMETRIC>`.

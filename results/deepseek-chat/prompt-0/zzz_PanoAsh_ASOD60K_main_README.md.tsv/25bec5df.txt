@@ -1,0 +1,1 @@
+We further systematically benchmark 13 state-of-the-art salient object detection (SOD)/video object segmentation (VOS) methods based on our `<DATASET>PAVS10K</DATASET>`.

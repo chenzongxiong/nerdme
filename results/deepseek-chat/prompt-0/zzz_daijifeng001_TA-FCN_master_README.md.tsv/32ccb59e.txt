@@ -1,0 +1,3 @@
+```markdown
+It is worth noticing that: * <SOFTWARE>FCIS</SOFTWARE> provides a simple, fast and accurate framework for instance segmentation. * Different from [<SOFTWARE>MNC</SOFTWARE>](https://github.com/daijifeng001/<SOFTWARE>MNC</SOFTWARE>), <SOFTWARE>FCIS</SOFTWARE> performs instance mask estimation and categorization jointly and simultanously, and estimates class-specific masks. * We did not exploit the various techniques & tricks in the <SOFTWARE>Mask RCNN</SOFTWARE> system, like increasing RPN anchor numbers (from 12 to 15), training on anchors out of image boundary, enlarging the image (shorter side from 600 to 800 pixels), utilizing <SOFTWARE>FPN</SOFTWARE> features and aligned ROI pooling.
+```

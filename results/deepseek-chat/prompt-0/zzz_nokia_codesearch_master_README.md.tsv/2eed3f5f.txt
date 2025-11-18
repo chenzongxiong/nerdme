@@ -1,0 +1,3 @@
+```markdown
+To download and load the title pairs from <PROJECT>Stack Overflow</PROJECT> duplicate posts run:  ```<PROGLANG>python</PROGLANG> from codesearch.data import load_train_dataset duplicate_records = load_train_dataset("<DATASET>so-duplicates-pacs-train</DATASET>") ```  These duplicate records have been filtered to ensure that there is no overlap with the `<DATASET>so-ds-feb20</DATASET>` and `<DATASET>staqc-py</DATASET>` evaluation datasets.
+```

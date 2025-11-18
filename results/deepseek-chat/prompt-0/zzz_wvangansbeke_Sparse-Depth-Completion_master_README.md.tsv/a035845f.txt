@@ -1,0 +1,5 @@
+The provided text does not contain any identifiable named entities based on the given guidelines. Therefore, the output is the same as the input text:
+
+```plaintext
+|--validation |--RGB     |--train          |--date              |--sequence1              | ...
+```

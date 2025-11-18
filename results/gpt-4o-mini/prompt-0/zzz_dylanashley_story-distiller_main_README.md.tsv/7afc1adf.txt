@@ -1,0 +1,1 @@
+Note that to obtain the preprocessed data and the learned <SOFTWARE>PyTorch</SOFTWARE> models and template curves, you will have to clone the repository without using the `--sparse` option: ```bash git clone git@github.com:dylanashley/story-distiller.git ```  At this time, the raw data used to train the movie frame extractor is not possible to release due to copyright issues.

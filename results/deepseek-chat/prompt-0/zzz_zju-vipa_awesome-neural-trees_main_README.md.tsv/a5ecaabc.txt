@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+Overview of NNs exploiting class hierarchies:   <p align='center'>     </br>     <img src='class_hierarchy.png' width='1000'> </p>  Functions and notations in the figure are adopted from [Bertinetto *et al.*](https://openaccess.thecvf.com/content_<PUBLICATION>CVPR_2020</PUBLICATION>/html/Bertinetto_Making_Better_Mistakes_Leveraging_Class_Hierarchies_With_Deep_Networks_<PUBLICATION>CVPR_2020</PUBLICATION>_paper.html):  #### 2.1 Hierarchical Architecture.
+```

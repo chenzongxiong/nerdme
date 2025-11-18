@@ -1,0 +1,1 @@
+`<$datadir/<DATASET>cars196</DATASET>>`, pass `$datadir` as input to `--dataset-dir`, by default.

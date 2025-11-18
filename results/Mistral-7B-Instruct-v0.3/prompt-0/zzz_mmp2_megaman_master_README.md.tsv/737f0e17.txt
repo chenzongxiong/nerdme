@@ -1,0 +1,1 @@
+`[version status](http://img.shields.io/pypi/v/<PROGLANG>megaman</PROGLANG>.svg?)\nThe <PROGLANG>megaman</PROGLANG> package is a Python library for ...`

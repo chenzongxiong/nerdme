@@ -1,0 +1,1 @@
+Do you have a wildlife `<DATASET>camera trap image database</DATASET>` and are finding it challenging to apply artificial intelligence systems due to the lack of labeled images?

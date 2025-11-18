@@ -1,0 +1,17 @@
+`citation_graph.py`: create `<PROJECT>citation_graph</PROJECT>`
+
+- `<PROGLANG>Python</PROGLANG>` script for creating `<SOFTWARE>citation graph</SOFTWARE>`
+
+- `<DATASET>Citation Network</DATASET>` used to generate the graph
+
+- `<EVALMETRIC>Citation Impact</EVALMETRIC>` as the primary evaluation metric
+
+- `<LICENSE>MIT License</LICENSE>` for using the project
+
+- `<ONTOLOGY>Citation Ontology</ONTOLOGY>` used for representing the relationships between publications
+
+- `<CONFERENCE>ACM SIGIR Conference on Research and Development in Information Retrieval</CONFERENCE>` where the project was presented
+
+- `<PUBLICATION>Creating a Citation Graph for Analyzing the Impact of Research Publications</PUBLICATION>` is the related publication
+
+- `<WORKSHOP>Data Mining and Information Retrieval Workshop</WORKSHOP>` where the presentation took place

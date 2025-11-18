@@ -1,0 +1,1 @@
+`src/learning/`: Classes for implementing models, training, batching data, and a main script to train and save the model.

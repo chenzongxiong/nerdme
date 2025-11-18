@@ -1,0 +1,27 @@
+[isort](https://img.shields.io/badge/%20imports-isort-%231674b1?) is a Python utility for automatically sorting and reformatting your Python code's imports. It's widely used in the Python community for making code more readable and maintainable. 
+
+You can use it in conjunction with other tools like `black` for code formatting and `flake8` for code linting. 
+
+For instance, you can run the following command in your terminal to format your code using `isort` and `black`:
+
+```bash
+isort. && black.
+```
+
+This command will format all the Python files in your current directory and its subdirectories.
+
+You can also use `isort` with other tools like `pre-commit` to automate the formatting process. 
+
+The <SOFTWARE>isort</SOFTWARE> tool is highly configurable and supports a wide range of options to customize its behavior. 
+
+You can view the full documentation for `isort` by visiting its official GitHub page:
+
+https://github.com/PyCQA/isort
+
+The <SOFTWARE>isort</SOFTWARE> project is maintained by the PyCQA organization, which is a group of developers dedicated to creating and maintaining high-quality tools for the Python community.
+
+You can install `isort` using pip:
+
+```bash
+pip install isort
+```

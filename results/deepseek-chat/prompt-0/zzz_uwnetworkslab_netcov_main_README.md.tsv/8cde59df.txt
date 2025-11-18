@@ -1,0 +1,3 @@
+```markdown
+If you would like to use this feature, install <SOFTWARE>LCOV</SOFTWARE> using <SOFTWARE>Homebrew</SOFTWARE> (<PROGLANG>MacOS</PROGLANG>) or <SOFTWARE>apt</SOFTWARE> (<PROGLANG>Ubuntu</PROGLANG>):  Install `<SOFTWARE>lcov</SOFTWARE>` on <PROGLANG>MacOS</PROGLANG> using <SOFTWARE>Homebrew</SOFTWARE>: ```sh $ brew install <SOFTWARE>lcov</SOFTWARE> ``` Install `<SOFTWARE>lcov</SOFTWARE>` on <PROGLANG>Ubuntu</PROGLANG> using <SOFTWARE>apt</SOFTWARE>: ```sh $ sudo <SOFTWARE>apt</SOFTWARE> install <SOFTWARE>lcov</SOFTWARE> ```     ## Usage <SOFTWARE>NetCov</SOFTWARE> can be used seamlessly with `<SOFTWARE>pybatfish</SOFTWARE>`.
+```

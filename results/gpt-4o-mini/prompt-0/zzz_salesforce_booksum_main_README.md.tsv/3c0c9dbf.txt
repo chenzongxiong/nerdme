@@ -1,0 +1,1 @@
+Run `<SOFTWARE>get_summaries.py</SOFTWARE>` to collect the summaries from the links for each source.

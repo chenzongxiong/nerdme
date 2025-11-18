@@ -1,0 +1,9 @@
+# BOOKSUM: A Collection of Datasets for Long-form Narrative Summarization
+
+*Authors*: `<PROJECT>BOOKSUM</PROJECT>`: `<PERSON>Wojciech Kryściński</PERSON>`, `<PERSON>Nazneen Rajani</PERSON>`, `<PERSON>Divyansh Agarwal</PERSON>`, `<PERSON>Caiming Xiong</PERSON>`, `<PERSON>Dragomir Radev</PERSON>`
+
+## Introduction
+
+The majority of available text summarization datasets include short-form source documents that lack long-range causal and temporal dependencies, and often contain strong layout and stylistic biases.
+
+*Available text summarization datasets*: `<DATASET>BookSum</DATASET>`

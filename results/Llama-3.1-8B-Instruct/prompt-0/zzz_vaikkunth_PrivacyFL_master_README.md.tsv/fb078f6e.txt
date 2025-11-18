@@ -1,0 +1,3 @@
+An example usage to call some method of <SOFTWARE>client_agent1</SOFTWARE> would be: `self.directory.clients['<SOFTWARE>client_agent1</SOFTWARE>'].METHOD_TO_CALL()`  
+### <SOFTWARE>Utils Folder</SOFTWARE>  
+This folder contains utilities such as data processing, differential privacy functions, and more.

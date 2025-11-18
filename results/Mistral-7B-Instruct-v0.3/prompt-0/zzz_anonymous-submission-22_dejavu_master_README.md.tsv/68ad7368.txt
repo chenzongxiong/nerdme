@@ -1,0 +1,5 @@
+The text provided does not contain any of the specified named entities (CONFERENCE, DATASET, EVALMETRIC, LICENSE, ONTOLOGY, PROGLANG, PROJECT, PUBLICATION, SOFTWARE, WORKSHOP). However, I can annotate the term "top-k" as it refers to a specific number of items, which can be considered an evaluation metric in some contexts.
+
+Here's the annotated text:
+
+For an in-coming failure, we calculate its similarity to each historical failure and recommend the `<EVALMETRIC>top-k</EVALMETRIC>` most similar ones to engineers.

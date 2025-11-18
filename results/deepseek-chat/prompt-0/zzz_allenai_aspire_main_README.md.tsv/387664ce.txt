@@ -1,0 +1,1 @@
+Such co-citations not only reflect close paper relatedness, but also provide textual descriptions of how the co-cited papers are related.

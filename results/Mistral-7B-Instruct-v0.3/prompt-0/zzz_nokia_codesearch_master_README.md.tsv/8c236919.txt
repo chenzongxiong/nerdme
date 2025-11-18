@@ -1,0 +1,6 @@
+```markdown
+| name                       | inputs             | training data                                          | notebook                    |
+|----------------------------|--------------------|--------------------------------------------------------|-----------------------------|
+| <PROJECT>ncs-embedder-so-ds-feb20</PROJECT>      | <PROGLANG>code</PROGLANG>               | <DATASET>so-ds-feb20</DATASET>                            | nbs/ncs/ncs.ipynb           |
+| <PROJECT>ncs-embedder-staqc-py</PROJECT>      | <PROGLANG>code</PROGLANG>               | <DATASET>staqc-py-cleaned</DATASET>                      | nbs/ncs/ncs.ipynb           |
+| <PROJECT>tnbow-embedder-so-ds-feb20</PROJECT> | <EVALMETRIC>description</EVALMETRIC>        | <DATASET>so-python-question-titles-feb20</DATASET>        | nbs/tnbow/tnbow.ipyn

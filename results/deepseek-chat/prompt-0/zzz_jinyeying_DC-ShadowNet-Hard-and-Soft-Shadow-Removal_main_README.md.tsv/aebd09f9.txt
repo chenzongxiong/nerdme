@@ -1,0 +1,3 @@
+```markdown
+/feature_release/results_VGGfeatures/shadow_VGGfeatures/22/214/visual_179_0.1125.jpg) ``` cd feature_release python test_VGGfeatures.py ``` <p align="left">   <img width=350" src="teaser/feature_map.png"> </p>    ## Evaluation The root mean squared error (<EVALMETRIC>RMSE</EVALMETRIC>) [evaluation code](https://drive.google.com/file/d/1-lG8nAJbWajAC4xopx7hGPKbuwYRw4x-/view) used by all methods (including ours) computes mean absolute error (<EVALMETRIC>MAE</EVALMETRIC>).   ### 1.
+```

@@ -1,0 +1,1 @@
+Training process has been tested with this model to ensure similar results. - [<SOFTWARE>Resnet50-v1</SOFTWARE>](https://github.com/tensorflow/models/blob/master/research/slim/README.md) pre-trained on <DATASET>ImageNet</DATASET> from <SOFTWARE>Tensorflow Slim</SOFTWARE>.

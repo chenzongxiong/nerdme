@@ -1,0 +1,1 @@
+The manually derived labels are appended to the training process and incorporated into the full procedure.

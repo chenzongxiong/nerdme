@@ -1,0 +1,1 @@
+Our <DATASET>dataset</DATASET> covers source documents from the literature domain, such as novels, plays and stories, and includes highly abstractive, human written summaries on three levels of granularity of increasing difficulty: <EVALMETRIC>paragraph</EVALMETRIC>-, <EVALMETRIC>chapter</EVALMETRIC>-, and <EVALMETRIC>book</EVALMETRIC>-level.

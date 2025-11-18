@@ -1,0 +1,3 @@
+```markdown
+Otherwise, you can provide empty strings.  ``` sb = msb.create_model_sketchbook(     goal='Example sketchbook goal here',     schema={         # Specify your data schema here         "picture_url": msb.InputType.Image,         "neighborhood_overview": msb.InputType.Text,         "description": msb.InputType.Text,         "overall_rating": msb.InputType.GroundTruth,  # Required     },     credentials={         "organization": "org-INSERT",         "api_key": "sk-INSERT"     } ) ```  ### Add your <DATASET>dataset</DATASET>(s) Then, add your <DATASET>dataset</DATASET> from a Pandas dataframe (recommended: 40-50 rows).
+```

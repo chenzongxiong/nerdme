@@ -1,0 +1,16 @@
+`Brent - <PUBLICATION>(https://citeseerx.ist.psu.edu/viewdoc/download?)\
+[Paper]</PUBLICATION>`
+
+`<TITLE>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</TITLE>`
+
+`<AUTHOR>J. M. Carbonell, A. M. Togelius, and J. M. D. M. van Eijck</AUTHOR>`
+
+`<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`
+
+`<YEAR>2013</YEAR>`
+
+`<CONFERENCE>CIKM 2013</CONFERENCE>`
+
+`<URL>https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.361.6414</URL>`
+
+`<LICENSE>CC BY-NC 

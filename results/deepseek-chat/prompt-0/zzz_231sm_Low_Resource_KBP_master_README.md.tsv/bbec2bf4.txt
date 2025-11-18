@@ -1,0 +1,3 @@
+Here is the annotated text in Markdown format:
+
+* We then import and extend some new event types based on an [automatically-labeled event data](https://github.com/<PROJECT>acl2017submission</PROJECT>/event-data), from <DATASET>Freebase</DATASET> and <DATASET>Wikipedia</DATASET>, constrained to specific domains such as music, film, sports, education, etc.  ## Data Structure In "*<DATASET>Few-Shot_ED.json.zip</DATASET>*"，the key is "*event type label*", the value is the event instances.

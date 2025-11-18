@@ -1,0 +1,1 @@
+To get 5 facial landmarks, you can choose any open source face detector that returns them, such as [<SOFTWARE>dlib</SOFTWARE>](http://dlib.net/) or [<SOFTWARE>MTCNN</SOFTWARE>](https://github.com/ipazc/mtcnn).

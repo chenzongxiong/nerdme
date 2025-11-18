@@ -1,0 +1,1 @@
+This survey tries to include <SOFTWARE>NNs</SOFTWARE> that draw on a part of ideas from <SOFTWARE>DTs</SOFTWARE>, either the class hierarchy or the decision branches, but not both.

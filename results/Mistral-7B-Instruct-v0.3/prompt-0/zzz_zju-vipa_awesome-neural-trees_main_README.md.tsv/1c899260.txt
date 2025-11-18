@@ -1,0 +1,14 @@
+The text contains the following named entities:
+
+- **CONFERENCE**: `<CONFERENCE>ICMLA</CONFERENCE>`, 2019
+- **PUBLICATION**: `<PUBLICATION>"Enhancing Decision Tree Based Interpretation of Deep Neural Networks through L1-Orthogonal Regularization"</PUBLICATION>`
+- **AUTHOR**: `<AUTHOR>Nina Schaaf</AUTHOR>`, `<AUTHOR>Marco Huber</AUTHOR>`, `<AUTHOR>Johannes Maucher</AUTHOR>`
+- **LICENSE**: Not present in the text
+- **ONTOLOGY**: Not present in the text
+- **DATASET**: Not present in the text
+- **EVALMETRIC**: Not present in the text
+- **PROGLANG**: Not present in the text
+- **PROJECT**: Not present in the text
+- **PUBLICATION**: `<PUBLICATION>"L1-orthogonal regularization"</PUBLICATION>`
+- **SOFTWARE**: Not present in the text
+- **WORKSHOP

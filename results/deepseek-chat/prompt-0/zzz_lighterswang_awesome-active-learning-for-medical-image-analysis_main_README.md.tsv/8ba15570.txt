@@ -1,0 +1,3 @@
+```markdown
+id=MnEjsw-vj-X)** **[[Code]](https://github.com/MoonLab-YH/AOD_MEH_HUA)**  Evidential Uncertainty and Diversity Guided Active Learning for Scene Graph Generation   **[<CONFERENCE>ICLR'23</CONFERENCE>]** **[[PDF]](https://openreview.net/pdf?
+```

@@ -1,0 +1,1 @@
+Download classification model and place in  ```stable_checkpoints/clf/cnn/yelp/batch_size_256-notes_data260_fixed/```:  <SOFTWARE>clf_e10_l0.6760_a0.7092.pt</SOFTWARE>   ### Reference summaries  Download from: <DATASET>summaries_0-200_cleaned.csv</DATASET>.

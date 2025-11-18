@@ -1,0 +1,9 @@
+/speech_commands_v0.02.tar.gz cd../ 
+And similarly for V1: 
+```shell
+wget http://download.tensorflow.org/data/<DATASET>speech_commands_v0.01.tar.gz</DATASET>
+mkdir <SOFTWARE>data1</SOFTWARE>
+mv <SOFTWARE>data1</SOFTWARE>.
+```
+
+Note: The `<DATASET>` and `<SOFTWARE>` tags are added based on the context, which appears to be related to a dataset and a software tool used for data management, respectively.

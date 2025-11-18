@@ -1,0 +1,3 @@
+```markdown
+Both datasets are organized as the following :  ```sh data ├── <DATASET>borealtc</DATASET> │   ├── CLASS1 │   │   ├── imu_00.csv │   │   ├── imu_01.csv │   │   ├── ... │   │   ├── pro_00.csv │   │   ├── pro_01.csv │   │   └── ... │   └── CLASS2 │       ├── imu_00.csv │       ├── imu_01.csv │       ├── ... │       ├── pro_00.csv │       ├── pro_01.csv │       └── ... └── <DATASET>vulpi</DATASET>     ├── CLASS1     │   ├── imu_1.csv     │   ├── imu_2.csv     │   ├──
+```

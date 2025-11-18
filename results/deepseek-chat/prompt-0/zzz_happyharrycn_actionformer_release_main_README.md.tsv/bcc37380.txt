@@ -1,0 +1,3 @@
+```markdown
+/ckpt/<SOFTWARE>anet_i3d_reproduce</SOFTWARE> ```  * The pre-trained model with all training logs can be downloaded from [this Google Drive link](https://drive.google.com/file/d/152dw2JDoNPssSnaQDaNolQUSFgcHlxe3/view?
+```

@@ -1,0 +1,1 @@
+<PROJECT>PrettYharmonize</PROJECT> introduces a novel approach that leverages "pretending" target labels to mitigate this issue, preserving biologically relevant signals without inadvertently introducing leakage.

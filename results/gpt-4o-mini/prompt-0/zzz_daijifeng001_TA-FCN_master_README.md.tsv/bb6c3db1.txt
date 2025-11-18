@@ -1,0 +1,3 @@
+```  
+Make sure it looks like this:  ```  .data/<DATASET>coco</DATASET>/  .data/<DATASET>coco</DATASET>/annotations/<DATASET>instances_valminusminival2014</DATASET>.json  .data/<DATASET>coco</DATASET>/annotations/<DATASET>instances_minival2014</DATASET>.json  ```  3.
+```  

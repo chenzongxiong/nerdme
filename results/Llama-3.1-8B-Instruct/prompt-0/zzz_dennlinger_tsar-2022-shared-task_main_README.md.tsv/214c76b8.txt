@@ -1,0 +1,1 @@
+An exact reproduction of the system outputs may not be possible, as the generation temperature and other, server-side factors, such as the <SOFTWARE>random seed</SOFTWARE>, can potentially lead to differing predictions.

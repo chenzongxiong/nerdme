@@ -1,0 +1,1 @@
+For specific details on feature extraction, you can refer to the **Visual Feature Extraction** and **Object Embedding** sections of our paper.

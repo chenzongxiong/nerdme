@@ -1,0 +1,3 @@
+```markdown
+[Legal Note](#legal-note) 4.
+```

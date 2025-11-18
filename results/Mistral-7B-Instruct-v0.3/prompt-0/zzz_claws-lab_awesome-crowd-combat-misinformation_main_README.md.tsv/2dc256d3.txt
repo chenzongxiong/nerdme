@@ -1,0 +1,9 @@
+In each assigned role, we conduct a detailed analysis to categorize the specific utilization of the `<PROJECT>crowd</PROJECT>`.
+
+The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is used to represent the knowledge about the roles.
+
+The `<SOFTWARE>Protege ontology editor</SOFTWARE>` can be used to explore and edit the ontology.
+
+The evaluation metrics used are `<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, `<EVALMETRIC>F1-Score</EVALMETRIC>`, and `<EVALMETRIC>BLEU Score</EVALMETRIC>`.
+
+The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`

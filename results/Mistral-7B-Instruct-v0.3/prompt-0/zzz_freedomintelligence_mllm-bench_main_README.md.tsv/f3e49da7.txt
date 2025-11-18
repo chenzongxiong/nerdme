@@ -1,0 +1,3 @@
+`[transformers](https://img.shields.io/badge/transformers-4.36.0.dev0%2B-lightblue) !`
+
+`<PROGLANG>transformers</PROGLANG>` is a programming language version mentioned in the given text. However, it does not fall under any of the specified categories (CONFERENCE, DATASET, EVALMETRIC, LICENSE, ONTOLOGY, PROJECT, PUBLICATION, SOFTWARE, WORKSHOP). Therefore, it cannot be annotated according to the provided guidelines.

@@ -1,0 +1,1 @@
+By contributing to this <PROJECT>project</PROJECT>, you agree to abide by its terms. ## <LICENSE>License</LICENSE> `model_sketch_book` was created by Michelle Lam.

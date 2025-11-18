@@ -1,0 +1,5 @@
+The input text "Black-Scholes:  !" does not contain any identifiable entities based on the provided guidelines. Therefore, the output remains the same as the input:
+
+```markdown
+Black-Scholes:  !
+```

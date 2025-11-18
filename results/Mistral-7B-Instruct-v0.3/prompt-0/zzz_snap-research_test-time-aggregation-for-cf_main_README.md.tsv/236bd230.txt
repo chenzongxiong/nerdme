@@ -1,0 +1,3 @@
+`,   author={<PERSON>Ju, Mingxuan</PERSON> and <PERSON>Shiao, William</PERSON> and <PERSON>Guo, Zhichun</PERSON> and <PERSON>Ye, Yanfang</PERSON> and <PERSON>Liu, Yozen</PERSON> and <PERSON>Shah, Neil</PERSON> and <PERSON>Zhao, Tong</PERSON>},   journal={<PUBLICATION>Advances in Neural Information Processing Systems</PUBLICATION>},   year={2024} } ```
+
+**Note:** I've added the `<PERSON>` tag for the authors since there is no specific category for individual people in the given guidelines.

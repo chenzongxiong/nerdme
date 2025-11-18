@@ -1,0 +1,1 @@
+All of our experiment settings (GPU #, <DATASET>dataset</DATASET>, etc.) are kept in yaml config files at folder `.

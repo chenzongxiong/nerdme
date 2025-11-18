@@ -1,0 +1,17 @@
+Here's the annotated text in Markdown format:
+
+```markdown
+You can now run the tool by directly executing the `<PROGRAMLANG>__main__.py</PROGRAMLANG>` file, or—if you're using <PROGLANG>Linux</PROGRAMLANG> or <PROGLANG>macOS</PROGRAMLANG>—you can use the `makefile` to compile and then install an executable Python zip archive: ```bash make all sudo make install ```
+
+## Command-line Tool Usage
+To run the program, execute it while passing the audio files as command-line arguments: ```bash sdistil <FILE> [files ...] >> playlist.txt ```
+
+[librosa](https://librosa.org/doc/latest/index.html) is used to process the audio files, so most common audio file types are supported.
+```
+
+In this example, the annotated entities are:
+
+- `__main__.py`: PROGRAMLANG
+- Linux, macOS: PROGLANG
+- makefile: PROGRAMLANG
+- s

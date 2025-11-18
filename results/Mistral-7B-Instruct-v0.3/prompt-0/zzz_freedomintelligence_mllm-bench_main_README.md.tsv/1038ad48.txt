@@ -1,0 +1,8 @@
+- NOTE: The per sample criteria are not provided for self-evaluate and this self-evaluation process is just used for your reference.
+
+- The `<SOFTWARE>Protege Ontology Editor</SOFTWARE>` is widely used for creating ontologies.
+- The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`
+- The `<PROJECT>Paper With Code</PROJECT>` project (https://<PROJECT>paperswithcode</PROJECT>.com/)
+- The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is ...
+- The `<PROGLANG>Python</PROGLANG>`, `<PROGLANG>PHP</PROGLANG>`, and `<PROGLANG>C++</PROGLANG>`
+- The `<WORKSHOP>Thermal Image Super-Resolution</

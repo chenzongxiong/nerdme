@@ -1,0 +1,1 @@
+`We use <PROGLANG>8</PROGLANG> and <PROGLANG>4</PROGLANG> GPUs to train models on <DATASET>COCO</DATASET> and on <DATASET>VOC</DATASET>, respectively. <EVALMETRIC>3</EVALMETRIC>`

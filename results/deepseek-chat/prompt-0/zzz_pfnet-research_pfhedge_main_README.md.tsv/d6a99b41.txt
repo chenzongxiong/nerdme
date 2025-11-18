@@ -1,0 +1,3 @@
+```markdown
+Please take a look at [CONTRIBUTING.md](.github/CONTRIBUTING.md) before creating a pull request.
+```

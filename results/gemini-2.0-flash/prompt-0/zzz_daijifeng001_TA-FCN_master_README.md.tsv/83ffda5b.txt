@@ -1,0 +1,1 @@
+Move ```inst, cls, img``` folders to VOCdevit and make sure it looks like this: Please use the train&val split in this repo, which follows the protocal of [SDS](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/shape/sds/). ``` .data/VOCdevkit/VOCSDS/img/ .data/VOCdevkit/VOCSDS/inst/ .data/VOCdevkit/VOCSDS/cls/ ``` 2.

@@ -1,0 +1,1 @@
+The expected average `<EVALMETRIC>mAP</EVALMETRIC>` should be around 36.5(%) as in Table 1 of our main paper.

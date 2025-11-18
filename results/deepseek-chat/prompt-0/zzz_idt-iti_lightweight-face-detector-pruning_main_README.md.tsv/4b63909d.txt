@@ -1,0 +1,3 @@
+```markdown
+Subsequently, move the created <SOFTWARE>lite_scripted_model.ptl</SOFTWARE> to your android application`s asset folder.
+```

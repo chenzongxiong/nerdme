@@ -1,0 +1,1 @@
+In our example, it loads the <DATASET>MNIST</DATASET> dataset and processes it for the client agent instances.

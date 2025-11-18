@@ -1,0 +1,1 @@
+`The <EVALMETRIC>text</EVALMETRIC> of each <EXAMPLE>example</EXAMPLE> will be compared to the specified list of <KEYWORDS>keywords</KEYWORDS>, and if any of the <KEYWORDS>keywords</KEYWORDS> appear in the <EXAMPLE>example</EXAMPLE>, the <EXAMPLE>example</EXAMPLE> will be given a positive (<LABEL>True</LABEL>) label.`

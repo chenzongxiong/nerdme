@@ -1,0 +1,1 @@
+In this survey, we first identify 88 papers related to crowd-based efforts, following a meticulous annotation process adhering to the `<PROJECT>PRISMA</PROJECT>` framework (preferred reporting items for systematic reviews and meta-analyses).

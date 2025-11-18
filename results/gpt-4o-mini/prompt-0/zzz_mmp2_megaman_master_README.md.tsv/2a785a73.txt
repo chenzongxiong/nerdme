@@ -1,0 +1,1 @@
+[Anaconda-Server Badge](https://anaconda.org/conda-forge/<SOFTWARE>megaman</SOFTWARE>/badges/downloads.svg)](https://anaconda.org/conda-forge/<SOFTWARE>megaman</SOFTWARE>) [!

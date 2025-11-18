@@ -1,0 +1,1 @@
+`This function will display widgets to select the <PROJECT>MSB</PROJECT> input field and the comma-separated list of <EVALMETRIC>keywords</EVALMETRIC>, which can be treated in a case-sensitive or case-insensitive manner. ` `<CODE>msb.create_keyword_concept_model(sb)</CODE>`  `<IMG src=".">`

@@ -1,0 +1,1 @@
+/docs/media/<SOFTWARE>compare_concepts_to_gt.png</SOFTWARE>" alt="<SOFTWARE>compare_concepts_to_gt widgets</SOFTWARE>" width="50%">  ### <SOFTWARE>Compare concepts to each other</SOFTWARE> This <SOFTWARE>function</SOFTWARE> displays the <EVALMETRIC>Pearson correlation coefficients</EVALMETRIC> between the two selected <SOFTWARE>concepts</SOFTWARE>.

@@ -1,0 +1,13 @@
+`Sec. <CONFERENCE>ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</CONFERENCE> 2023`
+
+`The <PUBLICATION>Proceedings of the <CONFERENCE>ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</CONFERENCE> 2023</PUBLICATION> will be available online.`
+
+`The <PROJECT>Paper With Code</PROJECT> project (https://<PROJECT>paperswithcode</PROJECT>.com/) is a valuable resource for researchers.`
+
+`The <SOFTWARE>Protege ontology editor</SOFTWARE> is widely used for creating ontologies.`
+
+`The <DATASET>Maules Creek</DATASET> dataset is a useful resource for researchers.`
+
+`The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is a semantic framework for knowledge representation.`
+
+`The <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> workshop (https://<WORKSHOP>pbvs-workshop</

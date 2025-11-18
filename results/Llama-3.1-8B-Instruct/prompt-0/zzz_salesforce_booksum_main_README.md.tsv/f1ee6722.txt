@@ -1,0 +1,3 @@
+Data Cleaning
+1. <SOFTWARE>Data Preprocessing</SOFTWARE> is a crucial step in <SOFTWARE>Machine Learning</SOFTWARE> pipelines. 
+2. It involves various tasks such as <SOFTWARE>Data Cleaning</SOFTWARE>, <SOFTWARE>Data Transformation</SOFTWARE>, and <SOFTWARE>Data Feature Scaling</SOFTWARE>.

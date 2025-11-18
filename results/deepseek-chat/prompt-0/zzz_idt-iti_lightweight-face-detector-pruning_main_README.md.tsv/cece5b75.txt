@@ -1,0 +1,3 @@
+```markdown
+The <SOFTWARE>EResFD.java</SOFTWARE> file contains a <PROGLANG>java</PROGLANG> class that can be used in order to load the model from the assets folder and use it for inference.
+```

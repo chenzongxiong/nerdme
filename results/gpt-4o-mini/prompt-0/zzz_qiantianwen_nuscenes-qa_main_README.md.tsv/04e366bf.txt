@@ -1,0 +1,3 @@
+```markdown
+- `2023.09.04`  Our <DATASET>NuScenes-QA</DATASET> dataset v1.0 released.  ## :hourglass_flowing_sand: To Do  - [x] Release question & answer data - [x] Release visual feature - [x] Release training and testing code  ## :running: Getting Started  ### Data Preparation  We have released our question-answer annotations, please download it from [HERE](https://drive.google.com/drive/folders/1jIkICT23wZWZYPrWCa0x-ubjpClSzOuU?
+```

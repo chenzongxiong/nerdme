@@ -1,0 +1,3 @@
+```markdown
+# <SOFTWARE>Ref-NMS</SOFTWARE> Official codebase for <PUBLICATION>AAAI 2021 paper ["Ref-NMS: Breaking Proposal Bottlenecks in Two-Stage Referring Expression Grounding"](https://arxiv.org/abs/2009.01449)</PUBLICATION>.  ## Prerequisites The following dependencies should be enough.
+```

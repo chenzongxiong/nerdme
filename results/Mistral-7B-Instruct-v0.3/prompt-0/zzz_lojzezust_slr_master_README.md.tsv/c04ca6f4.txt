@@ -1,0 +1,6 @@
+`TIP] > Use the `<PROGLANG>Python</PROGLANG>` `<SOFTWARE>Hugging Face Transformers</SOFTWARE>` `<PROGLANG>Python</PROGLANG>` library's `<FUNCTION>Trainer</FUNCTION>` class to fine-tune the initial model on the estimated pseudo-labels from the previous step.
+
+#### Step III: Fine-tune model
+Fine-tune the initial model on the estimated pseudo-labels from the previous step using the `<PROGLANG>Python</PROGLANG>` `<SOFTWARE>Hugging Face Transformers</SOFTWARE>` `<PROGLANG>Python</PROGLANG>` library's `<FUNCTION>Trainer</FUNCTION>` class.
+
+Use the `<PROGLANG>Python</PROGLANG>` `<SOFTWARE>Hugging Face Transformers</SOFTWARE>` `<PROGLANG>Python</PROGLANG>` library's `<FUNCTION>Trainer</FUNCTION>` class's `<FUNCTION>train</FUNCTION>` method to fine-

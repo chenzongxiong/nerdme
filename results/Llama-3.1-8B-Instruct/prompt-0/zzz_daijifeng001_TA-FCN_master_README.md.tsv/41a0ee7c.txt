@@ -1,0 +1,1 @@
+* We trained our model based on the <DATASET>ImageNet</DATASET> pre-trained <SOFTWARE>ResNet-v1-101</SOFTWARE> using a <SOFTWARE>model converter</SOFTWARE> from <SOFTWARE>caffe_converter</SOFTWARE> in <SOFTWARE>mxnet</SOFTWARE>.

@@ -1,0 +1,3 @@
+```markdown
+/docs/media/create_concept_model.gif" alt="Demo of the <SOFTWARE>create_concept_model</SOFTWARE> function" width="75%"> </p>  **create sketches** that combine these concept building blocks, <p align="center"> <img src=".
+```

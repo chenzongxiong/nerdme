@@ -1,0 +1,12 @@
+`These techniques & tricks should be orthogonal to our simple <PROJECT>baseline</PROJECT>.   ### Resources  1.`
+
+`1. <DATASET>The Stanford Sentiment Treebank</DATASET> (SST)`
+`2. <DATASET>The SemEval-2017 Task 4 Dataset</DATASET>`
+`3. <SOFTWARE>Stanford CoreNLP</SOFTWARE>`
+`4. <SOFTWARE>TextBlob</SOFTWARE>`
+`5. <EVALMETRIC>Accuracy</EVALMETRIC>`
+`6. <EVALMETRIC>F1-Score</EVALMETRIC>`
+`7. <LICENSE>CC BY-NC 4.0</LICENSE>`
+`8. <ONTOLOGY>WordNet</ONTOLOGY>`
+`9. <CONFERENCE>ACL 2018</CONFERENCE>`
+`10. <WORKSHOP>SemEval 2017 Workshop on Semantic Evaluation</WORKSHOP>`

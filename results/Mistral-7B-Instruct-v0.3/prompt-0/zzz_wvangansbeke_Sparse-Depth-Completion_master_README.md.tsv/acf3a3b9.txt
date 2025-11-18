@@ -1,0 +1,1 @@
+- Feel free to experiment with different <PROGLANG>architectures</PROGLANG> for the global or local <NETWORK>network</NETWORK>.

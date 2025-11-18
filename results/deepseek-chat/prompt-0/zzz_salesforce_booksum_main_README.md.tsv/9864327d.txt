@@ -1,0 +1,3 @@
+```markdown
+The main cleanup script separates out analysis/commentary/notes from the summary text, removes prefixes etc.     ```     <PROGLANG>python</PROGLANG> clean_summaries.py     ```  #### Data Alignments Generating paragraph alignments from the chapter-level-summary-alignments, is performed individually for the train/test/val splits:  Gather the data from the summaries and book chapters into a single jsonl.
+```

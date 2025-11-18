@@ -1,0 +1,3 @@
+```markdown
+[Image](motivatingexample.png) Figure 1.
+```

@@ -1,0 +1,1 @@
+- [`<EVALMETRIC>ExpectedShortFall</EVALMETRIC>`](https://pfnet-research.github.io/pfhedge/generated/pfhedge.nn.ExpectedShortFall.html): [`<EVALMETRIC>Expected Shortfall</EVALMETRIC>`](https://en.wikipedia.org/wiki/Expected_shortfall) or `<EVALMETRIC>CVaR</EVALMETRIC>`, a common measure to assess portfolio risk.

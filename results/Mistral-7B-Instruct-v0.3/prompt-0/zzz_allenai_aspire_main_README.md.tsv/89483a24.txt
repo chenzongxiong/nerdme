@@ -1,0 +1,1 @@
+`Details about each dataset are as follows: <PROGLANG>src/pre_process/extract_entities.py</PROGLANG>: Use <ONTOLOGY>PURE's Entity Model</ONTOLOGY> () to extract named entities from abstracts.`

@@ -1,0 +1,1 @@
+On the other hand, this strategy transacts too frequently and consumes too much transaction cost.

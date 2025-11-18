@@ -1,0 +1,1 @@
+For the example shown in the repository, only set `iters` to be equal to or less than to the `iterations` argument in the <SOFTWARE>Initializer</SOFTWARE> `__init__` method, since that is the method that creates the <DATASET>datasets</DATASET> and distributes them to the clients.

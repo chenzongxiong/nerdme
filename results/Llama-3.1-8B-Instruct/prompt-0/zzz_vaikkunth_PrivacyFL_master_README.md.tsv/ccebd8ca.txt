@@ -1,0 +1,1 @@
+The initialization arguments for a client are `<SOFTWARE>client</SOFTWARE> are `agent_number`, `<DATASET>train_datasets</DATASET>`, `<SOFTWARE>evaluator</SOFTWARE>`, and `<EVALMETRIC>sensitivity</EVALMETRIC>`.

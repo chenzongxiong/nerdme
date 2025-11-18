@@ -1,0 +1,10 @@
+The provided text contains the following entities:
+
+1. **PROGLANG**: `<PROGLANG>kts</PROGLANG>`
+2. **LICENSE**: `<LICENSE>academic, non-commercial use only</LICENSE>`
+
+Here's the annotated text in Markdown format:
+
+Additionally, a sample build.`<PROGLANG>kts</PROGLANG>` file is provided with the necessary dependencies to build the android app.
+
+## License This code is provided for `<LICENSE>academic, non-commercial use only</LICENSE>`.

@@ -1,0 +1,8 @@
+```
+Make sure it looks like this:
+```
+.data/<DATASET>coco</DATASET>
+.data/<DATASET>coco</DATASET>/<DATASET>annotations</DATASET>/<DATASET>instances_valminusminival2014</DATASET>.<EVALMETRIC>json</EVALMETRIC>
+.data/<DATASET>coco</DATASET>/<DATASET>annotations</DATASET>/<DATASET>instances_minival2014</DATASET>.<EVALMETRIC>json</EVALMETRIC>
+```
+3.

@@ -1,0 +1,3 @@
+```markdown
+and execute the following command:  `source <SOFTWARE>Test/test.sh</SOFTWARE> /path/to/directory_with_saved_model/ $num_samples /path/to/<DATASET>dataset</DATASET>/ /path/to/directory_with_ground_truth_for_selected_validation_files/`  (You might have to recompile the C files for testing, provided by <SOFTWARE>KITTI</SOFTWARE>, if your architecture is different from mine)  ## Results  Comparision with state-of-the-art:  !
+```

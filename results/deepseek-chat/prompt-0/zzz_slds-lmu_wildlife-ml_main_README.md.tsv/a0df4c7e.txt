@@ -1,0 +1,1 @@
+Look no further than our new <PROJECT>GitHub</PROJECT> repository, which provides a <SOFTWARE>software package</SOFTWARE> designed specifically to help ecologists to leverage the potential of active learning and deep learning for image classification.

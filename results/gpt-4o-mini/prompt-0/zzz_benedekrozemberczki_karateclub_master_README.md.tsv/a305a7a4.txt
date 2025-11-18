@@ -1,0 +1,3 @@
+```markdown
+Besides the case studies we provide synthetic examples for each model.
+```

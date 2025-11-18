@@ -1,0 +1,1 @@
+For these models, the snippet collections are used as training data (of course you should never train on a snippet collection when you intent to use that load that collection as evaluation data as well).

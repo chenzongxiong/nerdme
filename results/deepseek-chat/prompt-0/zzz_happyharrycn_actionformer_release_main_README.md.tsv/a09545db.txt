@@ -1,0 +1,1 @@
+The expected average `<EVALMETRIC>mAP</EVALMETRIC>` and `<EVALMETRIC>Recall@1x, tIoU=0.5</EVALMETRIC>` should be around 22.0(%) and 40.0(%) respectively.

@@ -1,0 +1,1 @@
+- [`<SOFTWARE>BlackScholes</SOFTWARE>`](https://pfnet-research.github.io/pfhedge/generated/pfhedge.nn.BlackScholes.html): [Black-Scholes](https://en.wikipedia.org/wiki/Delta_neutral)' delta-hedging strategy

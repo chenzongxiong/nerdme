@@ -1,0 +1,8 @@
+Move `<SOFTWARE>inst</SOFTWARE>`, `<SOFTWARE>cls</SOFTWARE>`, `<SOFTWARE>img</SOFTWARE>` folders to VOCdevit and make sure it looks like this: 
+Please use the train&val split in this repo, which follows the protocal of `<PUBLICATION>SDS</PUBLICATION>`. 
+```
+  `.data/VOCdevkit/VOCSDS/<SOFTWARE>img</SOFTWARE>/` 
+  `.data/VOCdevkit/VOCSDS/<SOFTWARE>inst</SOFTWARE>/` 
+  `.data/VOCdevkit/VOCSDS/<SOFTWARE>cls</SOFTWARE>/` 
+```
+2.

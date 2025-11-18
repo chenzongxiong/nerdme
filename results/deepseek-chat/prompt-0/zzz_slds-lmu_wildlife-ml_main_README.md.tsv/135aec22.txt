@@ -1,0 +1,1 @@
+Per default, the `<SOFTWARE>Evaluator</SOFTWARE>` assumes the empty class to be encoded with the largest number with class labels starting from 0 (e.g., class 9 for a total of 10 classes).

@@ -1,0 +1,1 @@
+The <SOFTWARE>GPT-3</SOFTWARE> (using the `<SOFTWARE>text-davinci-002</SOFTWARE>` model) or <SOFTWARE>OpenCLIP</SOFTWARE> (using the `<SOFTWARE>ViT-B-32-quickgelu</SOFTWARE>` model), and image concepts can only be served by <SOFTWARE>OpenCLIP</SOFTWARE>.  ### Create sketches Then, you can combine concepts together into sketches with the following function.

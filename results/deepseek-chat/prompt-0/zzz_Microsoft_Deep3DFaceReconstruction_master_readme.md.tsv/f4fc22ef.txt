@@ -1,0 +1,3 @@
+```markdown
+We use the version <SOFTWARE>resnet_v1_50_2016_08_28.tar.gz</SOFTWARE> as an initialization of the face reconstruction network. - [68-facial-landmark detector](https://drive.google.com/file/d/1KYFeTb963jg0F47sTiwqDdhBIvRlUkPa/view?
+```

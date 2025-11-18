@@ -1,0 +1,1 @@
+`First, it provides network embedding techniques at the <PROGLANG>Python</PROGLANG> level with <SOFTWARE>Node2Vec</SOFTWARE> and <SOFTWARE>GraphSAGE</SOFTWARE>. Additionally, it offers graph-level techniques such as <SOFTWARE>Graph Attention Networks</SOFTWARE> and <SOFTWARE>Graph Convolutional Networks</SOFTWARE>.`

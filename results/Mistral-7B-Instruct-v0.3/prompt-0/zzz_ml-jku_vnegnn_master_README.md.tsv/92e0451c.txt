@@ -1,0 +1,1 @@
+`The <PROGLANG>PyTorch</PROGLANG> is a <SOFTWARE>machine learning framework</SOFTWARE> with version <VERSION>2.1.2</VERSION> and color <COLOR>ee4c2c</COLOR>.`

@@ -1,0 +1,3 @@
+```markdown
+</div>                                        | | **Privacy Degree**     | k-anonymity   | <div style="width:300px"> A person's information is indistinguishable from at least k-1 other individuals.
+```

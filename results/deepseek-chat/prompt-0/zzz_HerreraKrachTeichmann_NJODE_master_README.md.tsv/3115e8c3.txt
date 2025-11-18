@@ -1,0 +1,3 @@
+```markdown
+Then:  ```setup pip install -r requirements.txt ```   ## Training & Testing  To train and test the model(s) of the paper, run these commands (other  hyperparameters can be changed in the main section of demo.py):  go to the source directory: ```train cd <PROJECT>NJODE</PROJECT> ```  for Black-Scholes model: ```train python demo.py --dataset='<DATASET>BlackScholes</DATASET>' ```  for Heston model: ```train python demo.py --dataset='<DATASET>Heston</DATASET>' ```  for Ornstein-Uhlenbeck model: ```train python demo.py --dataset='<DATASET>OrnsteinUhlenbeck</DATASET>' ```  If no dataset for the model was generated yet, it will be generated  automatically before the training starts.
+```

@@ -1,0 +1,3 @@
+```markdown
+/docs/media/compare_two_concepts.png" alt="compare_two_concepts widgets" width="50%">  ## 4: Sketch helper functions ### View existing sketches Prints out a summary of all existing sketches with sketch ID, model type, output type, concepts, and associated notes (if provided). ``` msb.show_sketches(sb) ```  ### Test an existing sketch on a dataset Runs a selected (trained) sketch model on the selected dataset. ``` msb.test_sketch(sb) ```  <img src=".
+```

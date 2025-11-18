@@ -1,0 +1,3 @@
+```markdown
+Download the pre-trained models (the table above) and place them in the `results/<DATASET>dataset</DATASET>/model/`  2.
+```

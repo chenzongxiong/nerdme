@@ -1,0 +1,3 @@
+```markdown
+If you find this code useful, please cite our paper: [<PUBLICATION>Neural Jump Ordinary Differential Equations: Consistent Continuous-Time Prediction and Filtering</PUBLICATION>](https://openreview.net/forum?
+```

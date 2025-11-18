@@ -1,0 +1,3 @@
+```markdown
+For training: uncomment the code below the model params and run the file.       ## Comparison to GRU-ODE-Bayes on synthetic <DATASET>dataset</DATASET> Models for the comparison to GRU-ODE-Bayes were trained using <SOFTWARE>parallel_train.py</SOFTWARE> with the model parameters specified below ``` # ========================================================================== # parallel training for GRU-ODE-Bayes # ========================================================================== ``` in the main part of the file <SOFTWARE>parallel_train.py</SOFTWARE>.
+```

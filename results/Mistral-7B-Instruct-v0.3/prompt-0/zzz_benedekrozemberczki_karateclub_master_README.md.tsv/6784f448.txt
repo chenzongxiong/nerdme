@@ -1,0 +1,1 @@
+`If you are missing a specific <PROGLANG>method</PROGLANG>, feel free to open a [<PUBLICATION>feature request</PUBLICATION>](https://github.com/benedekrozemberczki/karateclub/issues).`

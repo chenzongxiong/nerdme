@@ -1,0 +1,1 @@
+It leverages the widely used <DATASET>Data Package</DATASET> standard to describe the <DATASET>dataset</DATASET> and its metadata, benefiting from the support of various tools and libraries.

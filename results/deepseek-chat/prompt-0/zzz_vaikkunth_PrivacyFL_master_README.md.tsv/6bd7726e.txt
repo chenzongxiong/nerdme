@@ -1,0 +1,1 @@
+In addition, any offline stage logic, such as a diffie-helman key exchange, should occur in this class.

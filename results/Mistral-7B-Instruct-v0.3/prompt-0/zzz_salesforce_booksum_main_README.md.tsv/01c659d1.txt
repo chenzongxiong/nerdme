@@ -1,0 +1,11 @@
+The text provided does not contain any named entities according to the given guidelines. However, I will annotate the `BSD-3 License` as it is a `LICENSE` entity.
+
+```
+Furthermore, we are not liable for any damage, loss or expense of any kind arising from or relating to your use of the resources shared in this code repository or the data collected, regardless of whether such liability is based in tort, contract or otherwise.
+
+## License
+The code is released under the **<LICENSE>BSD-3 License</LICENSE>** (see `LICENSE.txt` for details).
+
+## Usage
+#### 1.
+```

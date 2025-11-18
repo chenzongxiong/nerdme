@@ -1,0 +1,1 @@
+Some source files are derived from the `<SOFTWARE>KWS streaming repository</SOFTWARE>` by `<PROJECT>Google Research</PROJECT> (<PROJECT>github</PROJECT>.com/<PROJECT>google-research</PROJECT>/<PROJECT>google-research</PROJECT>/tree/master/<PROJECT>kws_streaming</PROJECT>)`.

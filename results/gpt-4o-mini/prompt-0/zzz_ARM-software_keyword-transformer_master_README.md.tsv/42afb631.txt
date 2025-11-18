@@ -1,0 +1,1 @@
+To train <PROJECT>KWT-3</PROJECT> with hard distillation from a pre-trained model, run  ```shell sh distill.sh ```  ## Run inference using a pre-trained model  Pre-trained weights for <PROJECT>KWT-3</PROJECT>, <PROJECT>KWT-2</PROJECT> and <PROJECT>KWT-1</PROJECT> are provided in .

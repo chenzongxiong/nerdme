@@ -1,0 +1,1170 @@
+canonical_id,name,type,aliases,homepage,doi,source
+8104408,MNIST-Federated-Learning,dataset,mnist-federated-learning,,10.5281/zenodo.8104408,Zenodo
+12759284,MNIST_train_test_set.hdf5,dataset,mnist_train_test_set.hdf5,,10.5281/zenodo.12759284,Zenodo
+5590638,Modified MNIST,dataset,modified mnist,,10.5281/zenodo.5590638,Zenodo
+13357260,mnist dataset,dataset,mnist dataset,,10.5281/zenodo.13357260,Zenodo
+10058130,MNIST dataset,dataset,mnist dataset,,10.5281/zenodo.10058130,Zenodo
+7602025,Wildlife MNIST,dataset,wildlife mnist,,10.5281/zenodo.7602025,Zenodo
+5933397,mnist-train,dataset,mnist-train,,10.5281/zenodo.5933397,Zenodo
+15502371,"Dataset for the article ""OpenMM–MiMiC Interface for Efficient and Flexible Multiscale Simulations""",dataset,"dataset for the article ""openmm–mimic interface for efficient and flexible multiscale simulations""",,10.5281/zenodo.15502371,Zenodo
+4934204,Data from: Varroa destructor changes cuticular hydrocarbons to mimic its new host.,dataset,data from: varroa destructor changes cuticular hydrocarbons to mimic its new host.,,10.5061/dryad.1bf13,Zenodo
+11533788,MIMIC-IV data,dataset,mimic-iv data,,10.5281/zenodo.11533788,Zenodo
+14899937,FastText embeddings for SNOMED CT concepts using MIMIC-IV notes and SNOMED CT walks,dataset,fasttext embeddings for snomed ct concepts using mimic-iv notes and snomed ct walks,,10.5281/zenodo.14899937,Zenodo
+10521789,Assessing the use of HL7 FHIR for implementing the FAIR guiding principles: A case study of the MIMIC-IV emergency department module,dataset,assessing the use of hl7 fhir for implementing the fair guiding principles: a case study of the mimic-iv emergency department module,,10.5061/dryad.1jwstqk10,Zenodo
+8370571,QUMPHY MIMIC IV Waveform Database PPG formatted,dataset,qumphy mimic iv waveform database ppg formatted,,10.5281/zenodo.8370571,Zenodo
+6791421,Data from: Early prediction of in-hospital mortality in patients with congestive heart failure in intensive care unit: a retrospective observational cohort study,dataset,data from: early prediction of in-hospital mortality in patients with congestive heart failure in intensive care unit: a retrospective observational cohort study,,10.5061/dryad.tx95x6b18,Zenodo
+11533788,MIMIC-IV data,dataset,mimic-iv data,,10.5281/zenodo.11533788,Zenodo
+14899937,FastText embeddings for SNOMED CT concepts using MIMIC-IV notes and SNOMED CT walks,dataset,fasttext embeddings for snomed ct concepts using mimic-iv notes and snomed ct walks,,10.5281/zenodo.14899937,Zenodo
+10521789,Assessing the use of HL7 FHIR for implementing the FAIR guiding principles: A case study of the MIMIC-IV emergency department module,dataset,assessing the use of hl7 fhir for implementing the fair guiding principles: a case study of the mimic-iv emergency department module,,10.5061/dryad.1jwstqk10,Zenodo
+8370571,QUMPHY MIMIC IV Waveform Database PPG formatted,dataset,qumphy mimic iv waveform database ppg formatted,,10.5281/zenodo.8370571,Zenodo
+6791421,Data from: Early prediction of in-hospital mortality in patients with congestive heart failure in intensive care unit: a retrospective observational cohort study,dataset,data from: early prediction of in-hospital mortality in patients with congestive heart failure in intensive care unit: a retrospective observational cohort study,,10.5061/dryad.tx95x6b18,Zenodo
+15249543,ADE,dataset,ade,,10.5281/zenodo.15249543,Zenodo
+10264929,Ade Statuette,dataset,ade statuette,,10.5281/zenodo.10264929,Zenodo
+10295810,Ade Statuette,dataset,ade statuette,,10.5281/zenodo.10295810,Zenodo
+4599598,Legacy of Amazonian Dark Earth soils on forest structure and species composition,dataset,legacy of amazonian dark earth soils on forest structure and species composition,,10.5061/dryad.m63xsj3zf,Zenodo
+7849563,Project Gutenberg Self-Publishing Press: Portuguese Books,dataset,project gutenberg self-publishing press: portuguese books,,10.5281/zenodo.7849563,Zenodo
+8104814,Natural Language Inference Dataset for Software Engineering,dataset,natural language inference dataset for software engineering,,10.5281/zenodo.8104814,Zenodo
+15455465,Datasets for: Towards the Roots of the Negation Problem: A Multilingual NLI Dataset and Model Scaling Analysis,dataset,datasets for: towards the roots of the negation problem: a multilingual nli dataset and model scaling analysis,,10.5281/zenodo.15455465,Zenodo
+14219405,Natural Language Inference: A Spanish Case,dataset,natural language inference: a spanish case,,10.5281/zenodo.14219405,Zenodo
+8025041,Natural Language Inference Dataset for Software Engineering,dataset,natural language inference dataset for software engineering,,10.5281/zenodo.8025041,Zenodo
+8104814,Natural Language Inference Dataset for Software Engineering,dataset,natural language inference dataset for software engineering,,10.5281/zenodo.8104814,Zenodo
+11000349,Dataset for: Lessons from the Use of Natural Language Inference (NLI) in Requirements Engineering Tasks,dataset,dataset for: lessons from the use of natural language inference (nli) in requirements engineering tasks,,10.5281/zenodo.11000349,Zenodo
+4478267,Variational Inference for Learning Representations of Natural Language Edits,dataset,variational inference for learning representations of natural language edits,,10.5281/zenodo.4478267,Zenodo
+12249320,SNLI Dataset used in CellularLint,dataset,snli dataset used in cellularlint,,10.5281/zenodo.12249320,Zenodo
+10533148,GAP interatomic potential for SnOx nanoparticles,dataset,gap interatomic potential for snox nanoparticles,,10.5281/zenodo.10533148,Zenodo
+14219405,Natural Language Inference: A Spanish Case,dataset,natural language inference: a spanish case,,10.5281/zenodo.14219405,Zenodo
+8025041,Natural Language Inference Dataset for Software Engineering,dataset,natural language inference dataset for software engineering,,10.5281/zenodo.8025041,Zenodo
+8104814,Natural Language Inference Dataset for Software Engineering,dataset,natural language inference dataset for software engineering,,10.5281/zenodo.8104814,Zenodo
+11000349,Dataset for: Lessons from the Use of Natural Language Inference (NLI) in Requirements Engineering Tasks,dataset,dataset for: lessons from the use of natural language inference (nli) in requirements engineering tasks,,10.5281/zenodo.11000349,Zenodo
+4478267,Variational Inference for Learning Representations of Natural Language Edits,dataset,variational inference for learning representations of natural language edits,,10.5281/zenodo.4478267,Zenodo
+4110593,BERTs of a feather do not generalize together: Large variability in generalization across models with similar test set performance,dataset,berts of a feather do not generalize together: large variability in generalization across models with similar test set performance,,10.5281/zenodo.4110593,Zenodo
+14590935,"[Dataset] NICE: Non-Functional Requirements Identification, Classification, and Explanation Using Small Language Models",dataset,"[dataset] nice: non-functional requirements identification, classification, and explanation using small language models",,10.5281/zenodo.14590935,Zenodo
+843535,Supplementary Data: A global fit of the MSSM with GAMBIT (arXiv:1705.07917),dataset,supplementary data: a global fit of the mssm with gambit (arxiv:1705.07917),,10.5281/zenodo.843535,Zenodo
+843496,Supplementary Data: Global fits of GUT-scale SUSY models with GAMBIT (arXiv:1705.07935),dataset,supplementary data: global fits of gut-scale susy models with gambit (arxiv:1705.07935),,10.5281/zenodo.843496,Zenodo
+7849563,Project Gutenberg Self-Publishing Press: Portuguese Books,dataset,project gutenberg self-publishing press: portuguese books,,10.5281/zenodo.7849563,Zenodo
+8104814,Natural Language Inference Dataset for Software Engineering,dataset,natural language inference dataset for software engineering,,10.5281/zenodo.8104814,Zenodo
+14219405,Natural Language Inference: A Spanish Case,dataset,natural language inference: a spanish case,,10.5281/zenodo.14219405,Zenodo
+8025041,Natural Language Inference Dataset for Software Engineering,dataset,natural language inference dataset for software engineering,,10.5281/zenodo.8025041,Zenodo
+8104814,Natural Language Inference Dataset for Software Engineering,dataset,natural language inference dataset for software engineering,,10.5281/zenodo.8104814,Zenodo
+17140194,PathOS Case Study on Effects of Data Repositories on Data Usage - Replication data,dataset,pathos case study on effects of data repositories on data usage - replication data,,10.5281/zenodo.17140194,Zenodo
+7643581,Oviposition and olfactometry response of codling moth (Cydia pomonella) to quince (Cydonia oblonga) cultivars,dataset,oviposition and olfactometry response of codling moth (cydia pomonella) to quince (cydonia oblonga) cultivars,,10.5281/zenodo.7643581,Zenodo
+15140125,"Table 2 in Revision of the South American Ninetinae genus Guaranita (Araneae, Pholcidae)",dataset,"table 2 in revision of the south american ninetinae genus guaranita (araneae, pholcidae)",,10.5281/zenodo.15140125,Zenodo
+11552317,LENS: A LEO Satellite Network Measurement Dataset (CSV) - 202405,dataset,lens: a leo satellite network measurement dataset (csv) - 202405,,10.5281/zenodo.11552317,Zenodo
+11538900,LENS: A LEO Satellite Network Measurement Dataset - 202405 - Part 2,dataset,lens: a leo satellite network measurement dataset - 202405 - part 2,,10.5281/zenodo.11538900,Zenodo
+11537639,LENS: A LEO Satellite Network Measurement Dataset - 202405 - Part 1,dataset,lens: a leo satellite network measurement dataset - 202405 - part 1,,10.5281/zenodo.11537639,Zenodo
+11540281,LENS: A LEO Satellite Network Measurement Dataset - 202405 - Part 3,dataset,lens: a leo satellite network measurement dataset - 202405 - part 3,,10.5281/zenodo.11540281,Zenodo
+16750337,Synthetic Fuzzy AHP Marketing Strategy,dataset,synthetic fuzzy ahp marketing strategy,,10.5281/zenodo.16750337,Zenodo
+4627924,Deep learning for simultaneously interpreting 3D seismic horizons and faults by estimating a relative geologic time volume,dataset,deep learning for simultaneously interpreting 3d seismic horizons and faults by estimating a relative geologic time volume,,10.5281/zenodo.4627924,Zenodo
+3693810,Broad-Coverage German Sentiment Classification Model and Dataset for Dialog Systems,dataset,broad-coverage german sentiment classification model and dataset for dialog systems,,10.5281/zenodo.3693810,Zenodo
+5997435,COMPRISE_Data06_YELP_V1.0,dataset,comprise_data06_yelp_v1.0,,10.5281/zenodo.5997435,Zenodo
+5495793,Same Sentiment Classification Train/Dev/Test Pair IDs,dataset,same sentiment classification train/dev/test pair ids,,10.5281/zenodo.5495793,Zenodo
+3693810,Broad-Coverage German Sentiment Classification Model and Dataset for Dialog Systems,dataset,broad-coverage german sentiment classification model and dataset for dialog systems,,10.5281/zenodo.3693810,Zenodo
+5997435,COMPRISE_Data06_YELP_V1.0,dataset,comprise_data06_yelp_v1.0,,10.5281/zenodo.5997435,Zenodo
+5495793,Same Sentiment Classification Train/Dev/Test Pair IDs,dataset,same sentiment classification train/dev/test pair ids,,10.5281/zenodo.5495793,Zenodo
+3902718,News Headline Sentiment Dataset,dataset,news headline sentiment dataset,,10.5281/zenodo.3902718,Zenodo
+10794209,Mitigating Biases in Collective Decision-Making: Enhancing Performance in the Face of Fake News,dataset,mitigating biases in collective decision-making: enhancing performance in the face of fake news,,10.5281/zenodo.10794209,Zenodo
+7312046,The English Headline Treebank corpus,dataset,the english headline treebank corpus,,10.5281/zenodo.7312046,Zenodo
+7805128,Line-level Named Entity Recognition annotation for the George Washington and IAM datasets,dataset,line-level named entity recognition annotation for the george washington and iam datasets,,10.5281/zenodo.7805128,Zenodo
+7805128,Line-level Named Entity Recognition annotation for the George Washington and IAM datasets,dataset,line-level named entity recognition annotation for the george washington and iam datasets,,10.5281/zenodo.7805128,Zenodo
+3478447,Image Dataset for FIQA,dataset,image dataset for fiqa,,10.5281/zenodo.3478447,Zenodo
+5720655,Spoken QA,dataset,spoken qa,,10.5281/zenodo.5720655,Zenodo
+2472488,Snow melt onset date estimates derived from CLARA-A2 SAL surface albedo dataset,dataset,snow melt onset date estimates derived from clara-a2 sal surface albedo dataset,,10.5281/zenodo.2472488,Zenodo
+3478447,Image Dataset for FIQA,dataset,image dataset for fiqa,,10.5281/zenodo.3478447,Zenodo
+5720655,Spoken QA,dataset,spoken qa,,10.5281/zenodo.5720655,Zenodo
+2472488,Snow melt onset date estimates derived from CLARA-A2 SAL surface albedo dataset,dataset,snow melt onset date estimates derived from clara-a2 sal surface albedo dataset,,10.5281/zenodo.2472488,Zenodo
+6381970,Daily load patterns of six global exchanges as recorded by vwd/Infront Financial Technology,dataset,daily load patterns of six global exchanges as recorded by vwd/infront financial technology,,10.5281/zenodo.6381970,Zenodo
+3478447,Image Dataset for FIQA,dataset,image dataset for fiqa,,10.5281/zenodo.3478447,Zenodo
+3478447,Image Dataset for FIQA,dataset,image dataset for fiqa,,10.5281/zenodo.3478447,Zenodo
+10058298,GPT annotated news dataset in IPTC news taxonomy,dataset,gpt annotated news dataset in iptc news taxonomy,,10.5281/zenodo.10058298,Zenodo
+17386878,Create a GPT based on Intercultural Facilitator UC,dataset,create a gpt based on intercultural facilitator uc,,10.5281/zenodo.17386878,Zenodo
+6801109,ImageNet-Cartoon and ImageNet-Drawing: two domain shift datasets for ImageNet,dataset,imagenet-cartoon and imagenet-drawing: two domain shift datasets for imagenet,,10.5281/zenodo.6801109,Zenodo
+10720917,Tiny ImageNet,dataset,tiny imagenet,,10.5281/zenodo.10720917,Zenodo
+3549806,French Word Sense Disambiguation with Princeton WordNet Identifiers,dataset,french word sense disambiguation with princeton wordnet identifiers,,10.5281/zenodo.3549806,Zenodo
+17395388,CEFR-Annotated WordNet: LLM-Based Proficiency-Guided Semantic Database for Language Learning,dataset,cefr-annotated wordnet: llm-based proficiency-guided semantic database for language learning,,10.5281/zenodo.17395388,Zenodo
+4994842,Substrate quality drives fungal necromass decay and decomposer community structure under contrasting vegetation types,dataset,substrate quality drives fungal necromass decay and decomposer community structure under contrasting vegetation types,,10.5061/dryad.nk98sf7qj,Zenodo
+6410550,Rapid evolutionary divergence of a songbird population following recent colonization of an urban area,dataset,rapid evolutionary divergence of a songbird population following recent colonization of an urban area,,10.5061/dryad.gf1vhhmpv,Zenodo
+3695870,Intermolecular Vibrational Energy Transfer Enabled by Microcavity Strong Light-Matter Coupling,dataset,intermolecular vibrational energy transfer enabled by microcavity strong light-matter coupling,,10.5281/zenodo.3695870,Zenodo
+16325853,CUB-200-2011 Attribute Revision,dataset,cub-200-2011 attribute revision,,10.5281/zenodo.16325853,Zenodo
+3972388,CUB-200 Speech captions (Part-I),dataset,cub-200 speech captions (part-i),,10.5281/zenodo.3972388,Zenodo
+3973140,CUB-200 Speech captions (Part-II),dataset,cub-200 speech captions (part-ii),,10.5281/zenodo.3973140,Zenodo
+5002934,Data from: Hunting promotes sexual conflict in brown bears,dataset,data from: hunting promotes sexual conflict in brown bears,,10.5061/dryad.tc2cb,Zenodo
+4965712,Data from: The evolution of gametic compatibility and compatibility groups in the sea urchin Mesocentrotus franciscanus: an avenue for speciation in the sea,dataset,data from: the evolution of gametic compatibility and compatibility groups in the sea urchin mesocentrotus franciscanus: an avenue for speciation in the sea,,10.5061/dryad.c1t54v2,Zenodo
+16325853,CUB-200-2011 Attribute Revision,dataset,cub-200-2011 attribute revision,,10.5281/zenodo.16325853,Zenodo
+3972388,CUB-200 Speech captions (Part-I),dataset,cub-200 speech captions (part-i),,10.5281/zenodo.3972388,Zenodo
+3973140,CUB-200 Speech captions (Part-II),dataset,cub-200 speech captions (part-ii),,10.5281/zenodo.3973140,Zenodo
+4965712,Data from: The evolution of gametic compatibility and compatibility groups in the sea urchin Mesocentrotus franciscanus: an avenue for speciation in the sea,dataset,data from: the evolution of gametic compatibility and compatibility groups in the sea urchin mesocentrotus franciscanus: an avenue for speciation in the sea,,10.5061/dryad.c1t54v2,Zenodo
+5528002,Greek_Legal_Code,dataset,greek_legal_code,,10.5281/zenodo.5528002,Zenodo
+17158950,PhishBENCH Dataset,dataset,phishbench dataset,,10.5281/zenodo.17158950,Zenodo
+6590026,Dataset Validation Images for the MICCAI-2022-Challenge: Airway Tree Modeling (ATM'22),dataset,dataset validation images for the miccai-2022-challenge: airway tree modeling (atm'22),,10.5281/zenodo.6590026,Zenodo
+7949582,Dataset TrainBatch1 for the MICCAI-2022-Challenge: Airway Tree Modeling (ATM'22),dataset,dataset trainbatch1 for the miccai-2022-challenge: airway tree modeling (atm'22),,10.5281/zenodo.7949582,Zenodo
+12659652,Evaluation benchmark for natural robustness evaluation of retinal vessel segmentation models,dataset,evaluation benchmark for natural robustness evaluation of retinal vessel segmentation models,,10.5281/zenodo.12659652,Zenodo
+344879,2D bright field yeast cell images with ground truth annotations,dataset,2d bright field yeast cell images with ground truth annotations,,10.5281/zenodo.344879,Zenodo
+7881017,Simulation dataset to benchmark 3D force inference methods,dataset,simulation dataset to benchmark 3d force inference methods,,10.5281/zenodo.7881017,Zenodo
+7837229,OMMT-Fibre: textile fibres acquired using OptoMechanical Modulation Tomography (OMMT),dataset,ommt-fibre: textile fibres acquired using optomechanical modulation tomography (ommt),,10.34777/6m4a-0c80,Zenodo
+4204839,"I2K2020 Data for ""Quantification of the 3D brain vasculature in zebrafish light sheet fluorescence microscopy data""",dataset,"i2k2020 data for ""quantification of the 3d brain vasculature in zebrafish light sheet fluorescence microscopy data""",,10.5281/zenodo.4204839,Zenodo
+6560910,LMRG Image Analysis Study - FISH datasets,dataset,lmrg image analysis study - fish datasets,,10.5281/zenodo.6560910,Zenodo
+15496000,3D Multispectral Lifetime Fluorescence Microscopy Datasets,dataset,3d multispectral lifetime fluorescence microscopy datasets,,10.5281/zenodo.15496000,Zenodo
+4963334,Data from: Serial-section atlas of the Tritonia pedal ganglion,dataset,data from: serial-section atlas of the tritonia pedal ganglion,,10.5061/dryad.m42d17g,Zenodo
+14507343,Training data for miniML,dataset,training data for miniml,,10.5281/zenodo.14507343,Zenodo
+2541462,Data for: Optogenetic olfactory behavior depends on illumination characteristics,dataset,data for: optogenetic olfactory behavior depends on illumination characteristics,,10.5281/zenodo.2541462,Zenodo
+4204839,"I2K2020 Data for ""Quantification of the 3D brain vasculature in zebrafish light sheet fluorescence microscopy data""",dataset,"i2k2020 data for ""quantification of the 3d brain vasculature in zebrafish light sheet fluorescence microscopy data""",,10.5281/zenodo.4204839,Zenodo
+15002760,Confocal imaging data of D. sechellia olfactory projection neurons,dataset,confocal imaging data of d. sechellia olfactory projection neurons,,10.5281/zenodo.15002760,Zenodo
+7858909,Supplementary movies and datasets of the paper: Precise targeting for 3D cryo-correlative light and electron microscopy volume imaging of tissues using a FinderTOP,dataset,supplementary movies and datasets of the paper: precise targeting for 3d cryo-correlative light and electron microscopy volume imaging of tissues using a findertop,,10.5281/zenodo.7858909,Zenodo
+8024696,Immobilized fluorescently stained zebrafish through the eXtended Field of view Light Field Microscope 2D-3D dataset,dataset,immobilized fluorescently stained zebrafish through the extended field of view light field microscope 2d-3d dataset,,10.5281/zenodo.8024696,Zenodo
+10875063,FISBe: A real-world benchmark dataset for instance segmentation of long-range thin filamentous structures,dataset,fisbe: a real-world benchmark dataset for instance segmentation of long-range thin filamentous structures,,10.5281/zenodo.10875063,Zenodo
+17469897,A Public Ground-Truth Dataset for Handwritten Circuit Diagram Images,dataset,a public ground-truth dataset for handwritten circuit diagram images,,10.5281/zenodo.17469897,Zenodo
+15063451,Job Shop Scheduling Problem Benchmark Instances,dataset,job shop scheduling problem benchmark instances,,10.5281/zenodo.15063451,Zenodo
+14007438,Benchmark instances and models for the Oven Scheduling Problem,dataset,benchmark instances and models for the oven scheduling problem,,10.5281/zenodo.14007438,Zenodo
+7981128,Benchmark Instances for the CUAVRP,dataset,benchmark instances for the cuavrp,,10.5281/zenodo.7981128,Zenodo
+3550553,Improved upper bounds for permutation flowshop scheduling benchmarks (Taillard and VRF),dataset,improved upper bounds for permutation flowshop scheduling benchmarks (taillard and vrf),,10.5281/zenodo.3550553,Zenodo
+15524472,RAS Dataset,dataset,ras dataset,,10.5281/zenodo.15524472,Zenodo
+10875063,FISBe: A real-world benchmark dataset for instance segmentation of long-range thin filamentous structures,dataset,fisbe: a real-world benchmark dataset for instance segmentation of long-range thin filamentous structures,,10.5281/zenodo.10875063,Zenodo
+17284863,Surgical-Synthetic-Data-Generation-and-Segmentation,dataset,surgical-synthetic-data-generation-and-segmentation,,10.5281/zenodo.17284863,Zenodo
+5501784,Grapevine Dataset for plant organ segmentation,dataset,grapevine dataset for plant organ segmentation,,10.5281/zenodo.5501784,Zenodo
+8118986,"NPM3D dataset with instance labels used in paper ""Toward Accurate Instance Segmentation in Large-scale LiDAR Point Clouds""",dataset,"npm3d dataset with instance labels used in paper ""toward accurate instance segmentation in large-scale lidar point clouds""",,10.5281/zenodo.8118986,Zenodo
+4980572,VTT-Coffee: A small dataset for instance segmentation and iterative learning,dataset,vtt-coffee: a small dataset for instance segmentation and iterative learning,,10.5281/zenodo.4980572,Zenodo
+15370205,CellBinDB: A Large-Scale Multimodal Annotated Dataset,dataset,cellbindb: a large-scale multimodal annotated dataset,,10.5281/zenodo.15370205,Zenodo
+8068322,CaLiGraph - A Large-Scale Semantic Knowledge Graph compiled from Wikipedia Categories and List Pages,dataset,caligraph - a large-scale semantic knowledge graph compiled from wikipedia categories and list pages,,10.5281/zenodo.8068322,Zenodo
+8050447,CIKM 2023 - KGrEaT Evaluation Results,dataset,cikm 2023 - kgreat evaluation results,,10.5281/zenodo.8050447,Zenodo
+7688590,Entity Typing Datasets,dataset,entity typing datasets,,10.5281/zenodo.7688590,Zenodo
+8068322,CaLiGraph - A Large-Scale Semantic Knowledge Graph compiled from Wikipedia Categories and List Pages,dataset,caligraph - a large-scale semantic knowledge graph compiled from wikipedia categories and list pages,,10.5281/zenodo.8068322,Zenodo
+11658466,CXCL12-loaded-hydrogel (CLG): a new device for metastatic Circulating Tumor Cells (CTCs) capturing and characterization,dataset,cxcl12-loaded-hydrogel (clg): a new device for metastatic circulating tumor cells (ctcs) capturing and characterization,,10.5281/zenodo.11658466,Zenodo
+4769327,December 18 2020 epicPCR sequencing data,dataset,december 18 2020 epicpcr sequencing data,,10.5281/zenodo.4769327,Zenodo
+11658466,CXCL12-loaded-hydrogel (CLG): a new device for metastatic Circulating Tumor Cells (CTCs) capturing and characterization,dataset,cxcl12-loaded-hydrogel (clg): a new device for metastatic circulating tumor cells (ctcs) capturing and characterization,,10.5281/zenodo.11658466,Zenodo
+11658466,CXCL12-loaded-hydrogel (CLG): a new device for metastatic Circulating Tumor Cells (CTCs) capturing and characterization,dataset,cxcl12-loaded-hydrogel (clg): a new device for metastatic circulating tumor cells (ctcs) capturing and characterization,,10.5281/zenodo.11658466,Zenodo
+10265518,Tombstone 013 1k,dataset,tombstone 013 1k,,10.5281/zenodo.10265518,Zenodo
+10338664,[1k] Triceratops Horridus,dataset,[1k] triceratops horridus,,10.5281/zenodo.10338664,Zenodo
+10317373,[1k] Fossilized Ammonite,dataset,[1k] fossilized ammonite,,10.5281/zenodo.10317373,Zenodo
+10312019,[1k] Ninfa (Mulva),dataset,[1k] ninfa (mulva),,10.5281/zenodo.10312019,Zenodo
+8013288,NINCO (Out-Of-Distribution detection dataset for ImageNet),dataset,ninco (out-of-distribution detection dataset for imagenet),,10.5281/zenodo.8013288,Zenodo
+6371680,CNN-Filter-DB,dataset,cnn-filter-db,,10.5281/zenodo.6371680,Zenodo
+14589122,ImageNet statistics and PCA,dataset,imagenet statistics and pca,,10.5281/zenodo.14589122,Zenodo
+14615263,Coco Person Faceswap Dataset (COCO-PFS),dataset,coco person faceswap dataset (coco-pfs),,10.5281/zenodo.14615263,Zenodo
+14671547,Global Coco Peat Market 2024 To 2033,dataset,global coco peat market 2024 to 2033,,10.5281/zenodo.14671547,Zenodo
+4282267,SPEECH-COCO,dataset,speech-coco,,10.5281/zenodo.4282267,Zenodo
+10728674,Multi30k_train-ca,dataset,multi30k_train-ca,,10.5281/zenodo.10728674,Zenodo
+16744074,TIGR-100k: a novel benchmark dataset specifically designed for complex query evaluation,dataset,tigr-100k: a novel benchmark dataset specifically designed for complex query evaluation,,10.5281/zenodo.16744074,Zenodo
+3580414,Die Protokolle des österreichischen Ministerrates 1848-1867,dataset,die protokolle des österreichischen ministerrates 1848-1867,,10.5281/zenodo.3580414,Zenodo
+4967574,SensorsINI/MVSEC-NIGHTL21: First Release,dataset,sensorsini/mvsec-nightl21: first release,,10.5281/zenodo.4967574,Zenodo
+5628493,A pencil-lead immunosensor for the rapid electrochemical measurement of anti-Diphtheria Toxin antibodies,dataset,a pencil-lead immunosensor for the rapid electrochemical measurement of anti-diphtheria toxin antibodies,,10.5281/zenodo.5628493,Zenodo
+17187910,Data from: One Giant Leap for Womankind: First Menstrual Cups Tested in Spaceflight Conditions,dataset,data from: one giant leap for womankind: first menstrual cups tested in spaceflight conditions,,10.5281/zenodo.17187910,Zenodo
+13137352,LSU_AIM2024,dataset,lsu_aim2024,,10.5281/zenodo.13137352,Zenodo
+12623410,Scripts For Viewing S3DIS datasets,dataset,scripts for viewing s3dis datasets,,10.5281/zenodo.12623410,Zenodo
+10820379,KITTI,dataset,kitti,,10.5281/zenodo.10820379,Zenodo
+3931823,KITTI-Masks,dataset,kitti-masks,,10.5281/zenodo.3931823,Zenodo
+13824218,EMS3D-KITTI-Synthetic: A Synthetic 3D Dataset in KITTI Format with Balanced EMS Vehicle Distribution for Autonomous Driving AI Model Training,dataset,ems3d-kitti-synthetic: a synthetic 3d dataset in kitti format with balanced ems vehicle distribution for autonomous driving ai model training,,10.5281/zenodo.13824218,Zenodo
+7046095,KITTI 3D Object Detection,dataset,kitti 3d object detection,,10.5281/zenodo.7046095,Zenodo
+5783420,OpenLABEL-enriched KITTI Tracking scenarios,dataset,openlabel-enriched kitti tracking scenarios,,10.5281/zenodo.5783420,Zenodo
+7079268,"Supplementary data for article ""Reduced B-cell antigenicity of Omicron lowers host serologic response""",dataset,"supplementary data for article ""reduced b-cell antigenicity of omicron lowers host serologic response""",,10.5281/zenodo.7079268,Zenodo
+7792397,SQA3D: Situated Question Answering in 3D Scenes,dataset,sqa3d: situated question answering in 3d scenes,,10.5281/zenodo.7792397,Zenodo
+16685170,Physically Based Neural LiDAR Resimulation for Image Based Tasks,dataset,physically based neural lidar resimulation for image based tasks,,10.5281/zenodo.16685170,Zenodo
+5519448,Point Cloud Curb Detection Dataset,dataset,point cloud curb detection dataset,,10.5281/zenodo.5519448,Zenodo
+13898589,Assessing the impact of central and peripheral obstructions on visual behavior: insights from gaze-contingent eye-tracking studies,dataset,assessing the impact of central and peripheral obstructions on visual behavior: insights from gaze-contingent eye-tracking studies,,10.5281/zenodo.13898589,Zenodo
+12623410,Scripts For Viewing S3DIS datasets,dataset,scripts for viewing s3dis datasets,,10.5281/zenodo.12623410,Zenodo
+12623410,Scripts For Viewing S3DIS datasets,dataset,scripts for viewing s3dis datasets,,10.5281/zenodo.12623410,Zenodo
+4061848,Flora of Russia on iNaturalist backup 2020 Sep 08 (750K + 136K records),dataset,flora of russia on inaturalist backup 2020 sep 08 (750k + 136k records),,10.5281/zenodo.4061848,Zenodo
+13321600,iNaturalist: iNaturalist Images (deprecated),dataset,inaturalist: inaturalist images (deprecated),,10.5281/zenodo.13321600,Zenodo
+4099136,An open dataset of butterflies species of south India,dataset,an open dataset of butterflies species of south india,,10.5281/zenodo.4099136,Zenodo
+13321585,iNaturalist: iNaturalist image source file (deprecated),dataset,inaturalist: inaturalist image source file (deprecated),,10.5281/zenodo.13321585,Zenodo
+6470288,SC2 input files,dataset,sc2 input files,,10.5281/zenodo.6470288,Zenodo
+17783,Vanderpool 41SM77 FIN-SC2,dataset,vanderpool 41sm77 fin-sc2,,10.5281/zenodo.17783,Zenodo
+14963356,SC2ReSet: StarCraft II Esport Replaypack Set,dataset,sc2reset: starcraft ii esport replaypack set,,10.5281/zenodo.14963356,Zenodo
+15073637,SC2EGSet: StarCraft II Esport Game State Dataset,dataset,sc2egset: starcraft ii esport game state dataset,,10.5281/zenodo.15073637,Zenodo
+15073637,SC2EGSet: StarCraft II Esport Game State Dataset,dataset,sc2egset: starcraft ii esport game state dataset,,10.5281/zenodo.15073637,Zenodo
+14963356,SC2ReSet: StarCraft II Esport Replaypack Set,dataset,sc2reset: starcraft ii esport replaypack set,,10.5281/zenodo.14963356,Zenodo
+15073637,SC2EGSet: StarCraft II Esport Game State Dataset,dataset,sc2egset: starcraft ii esport game state dataset,,10.5281/zenodo.15073637,Zenodo
+14963356,SC2ReSet: StarCraft II Esport Replaypack Set,dataset,sc2reset: starcraft ii esport replaypack set,,10.5281/zenodo.14963356,Zenodo
+17392151,Esport Points of Attachment Survey Dataset,dataset,esport points of attachment survey dataset,,10.5281/zenodo.17392151,Zenodo
+14963356,SC2ReSet: StarCraft II Esport Replaypack Set,dataset,sc2reset: starcraft ii esport replaypack set,,10.5281/zenodo.14963356,Zenodo
+15073637,SC2EGSet: StarCraft II Esport Game State Dataset,dataset,sc2egset: starcraft ii esport game state dataset,,10.5281/zenodo.15073637,Zenodo
+7348691,Evaluation of Ortho VITROS and Roche Elecsys S and NC immunoassays for SARS-CoV-2 serosurveillance applications,dataset,evaluation of ortho vitros and roche elecsys s and nc immunoassays for sars-cov-2 serosurveillance applications,,10.5061/dryad.vt4b8gtwd,Zenodo
+10548562,Biotic and abiotic factors and the phylogenetic structure of extinction in the evolution of Tethysuchia,dataset,biotic and abiotic factors and the phylogenetic structure of extinction in the evolution of tethysuchia,,10.5281/zenodo.10548562,Zenodo
+13362977,Feux Foret USA,dataset,feux foret usa,,10.5281/zenodo.13362977,Zenodo
+10618987,Biotic and abiotic factors and the phylogenetic structure of extinction in the evolution of Tethysuchia,dataset,biotic and abiotic factors and the phylogenetic structure of extinction in the evolution of tethysuchia,,10.5061/dryad.bnzs7h4j3,Zenodo
+6801109,ImageNet-Cartoon and ImageNet-Drawing: two domain shift datasets for ImageNet,dataset,imagenet-cartoon and imagenet-drawing: two domain shift datasets for imagenet,,10.5281/zenodo.6801109,Zenodo
+10720917,Tiny ImageNet,dataset,tiny imagenet,,10.5281/zenodo.10720917,Zenodo
+10820379,KITTI,dataset,kitti,,10.5281/zenodo.10820379,Zenodo
+3931823,KITTI-Masks,dataset,kitti-masks,,10.5281/zenodo.3931823,Zenodo
+13824218,EMS3D-KITTI-Synthetic: A Synthetic 3D Dataset in KITTI Format with Balanced EMS Vehicle Distribution for Autonomous Driving AI Model Training,dataset,ems3d-kitti-synthetic: a synthetic 3d dataset in kitti format with balanced ems vehicle distribution for autonomous driving ai model training,,10.5281/zenodo.13824218,Zenodo
+7046095,KITTI 3D Object Detection,dataset,kitti 3d object detection,,10.5281/zenodo.7046095,Zenodo
+5783420,OpenLABEL-enriched KITTI Tracking scenarios,dataset,openlabel-enriched kitti tracking scenarios,,10.5281/zenodo.5783420,Zenodo
+13910002,Annotated Vehicle Dataset for BBSL Specification-based Testing in Autonomous Driving Systems (Modified from KITTI),dataset,annotated vehicle dataset for bbsl specification-based testing in autonomous driving systems (modified from kitti),,10.5281/zenodo.13910002,Zenodo
+14175421,cityscapes,dataset,cityscapes,,10.5281/zenodo.14175421,Zenodo
+7707962,Part of the CityScapes Dataset,dataset,part of the cityscapes dataset,,10.5281/zenodo.7707962,Zenodo
+5801594,AUTH-OpenDR Mixed Image Annotated Dataset for Human-centric Perception Tasks,dataset,auth-opendr mixed image annotated dataset for human-centric perception tasks,,10.5281/zenodo.5801594,Zenodo
+4952212,Data from: Global population divergence and admixture of the brown rat (Rattus norvegicus),dataset,data from: global population divergence and admixture of the brown rat (rattus norvegicus),,10.5061/dryad.jb3tc,Zenodo
+4639465,"Dataset from Monti CB, Secchi F, Capra D, Guarnieri G, Lastella G, Barbaro U, Carminati M, Sardanelli F. Right ventricular strain in repaired Tetralogy of Fallot with regards to pulmonary valve replacement. Eur J Radiol. 2020 Oct;131:109235. doi: 10.1016/j.ejrad.2020.109235. Epub 2020 Aug 28. PMID: 32919263.",dataset,"dataset from monti cb, secchi f, capra d, guarnieri g, lastella g, barbaro u, carminati m, sardanelli f. right ventricular strain in repaired tetralogy of fallot with regards to pulmonary valve replacement. eur j radiol. 2020 oct;131:109235. doi: 10.1016/j.ejrad.2020.109235. epub 2020 aug 28. pmid: 32919263.",,10.5281/zenodo.4639465,Zenodo
+10639392,Cine and real-time free-breathing CMR at rest and under exercise stress of healthy volunteers,dataset,cine and real-time free-breathing cmr at rest and under exercise stress of healthy volunteers,,10.5281/zenodo.10639392,Zenodo
+10554626,The predictive role of right ventricular late gadolinium enhancement in patients with tetralogy of Fallot undergoing pulmonary valve replacement,dataset,the predictive role of right ventricular late gadolinium enhancement in patients with tetralogy of fallot undergoing pulmonary valve replacement,,10.5281/zenodo.10554626,Zenodo
+7504497,Quantifying flow velocities in river deltas via remotely sensed suspended sediment concentration,dataset,quantifying flow velocities in river deltas via remotely sensed suspended sediment concentration,,10.5281/zenodo.7504497,Zenodo
+10422685,Face Florence,dataset,face florence,,10.5281/zenodo.10422685,Zenodo
+4594350,SMART radar and KTLX WSR-88D data and wind retrievals during the landfall of Hurricane Florence (2018),dataset,smart radar and ktlx wsr-88d data and wind retrievals during the landfall of hurricane florence (2018),,10.5281/zenodo.4594350,Zenodo
+4451464,Using Corpus Studies to Find the Origins of the Madrigal: Music and Feature Values,dataset,using corpus studies to find the origins of the madrigal: music and feature values,,10.5281/zenodo.4451464,Zenodo
+16877107,Interim version of habitatmap_terr,dataset,interim version of habitatmap_terr,,10.5281/zenodo.16877107,Zenodo
+16877168,Interim version of watersurfaces_hab,dataset,interim version of watersurfaces_hab,,10.5281/zenodo.16877168,Zenodo
+16876756,Interim version of habitatmap_stdized,dataset,interim version of habitatmap_stdized,,10.5281/zenodo.16876756,Zenodo
+10314072,Coarse Earthenware,dataset,coarse earthenware,,10.5281/zenodo.10314072,Zenodo
+10347579,Lead-glazed Coarse Earthenware,dataset,lead-glazed coarse earthenware,,10.5281/zenodo.10347579,Zenodo
+6792335,HadCM3 passive tracer Green's functions,dataset,hadcm3 passive tracer green's functions,,10.5281/zenodo.6792335,Zenodo
+5809273,AUTH-OpenDR ACelebA Dataset,dataset,auth-opendr aceleba dataset,,10.5281/zenodo.5809273,Zenodo
+3890090,Trained Models for Sliced Iterative Generator (NeurIPS submission),dataset,trained models for sliced iterative generator (neurips submission),,10.5281/zenodo.3890090,Zenodo
+5522953,Re-identification of Individuals in Genomic Datasets Using Public Face Images,dataset,re-identification of individuals in genomic datasets using public face images,,10.5281/zenodo.5522953,Zenodo
+8144361,FaceAttDB: A Multilingual Dataset for Facial Attribute Captioning,dataset,faceattdb: a multilingual dataset for facial attribute captioning,,10.5281/zenodo.8144361,Zenodo
+4323097,PRW Preprint Trust Survey Data,dataset,prw preprint trust survey data,,10.5281/zenodo.4323097,Zenodo
+5846394,Training and test data for retrievals based on MiRAC-P observations during MOSAiC,dataset,training and test data for retrievals based on mirac-p observations during mosaic,,10.5281/zenodo.5846394,Zenodo
+5577401,nPSize JSON file: image annotations,dataset,npsize json file: image annotations,,10.5281/zenodo.5577401,Zenodo
+10031466,Natural Language Annotations for Reasoning about Program Semantics,dataset,natural language annotations for reasoning about program semantics,,10.5281/zenodo.10031466,Zenodo
+8344583,Roost-dataset: a remote sensing object detection dataset,dataset,roost-dataset: a remote sensing object detection dataset,,10.1101/2022.10.28.513761,Zenodo
+10254506,CAUTION Annotations,dataset,caution annotations,,10.5281/zenodo.10254506,Zenodo
+5582648,GAze on TArget Dataset,dataset,gaze on target dataset,,10.5281/zenodo.5582648,Zenodo
+17603691,Polygon Based OpenContrails,dataset,polygon based opencontrails,,10.5281/zenodo.17603691,Zenodo
+14004433,Characterizing cell-type spatial relationships across length scales in spatially resolved omics data: data repository,dataset,characterizing cell-type spatial relationships across length scales in spatially resolved omics data: data repository,,10.5281/zenodo.14004433,Zenodo
+10331843,Fendt GT,dataset,fendt gt,,10.5281/zenodo.10331843,Zenodo
+4282267,SPEECH-COCO,dataset,speech-coco,,10.5281/zenodo.4282267,Zenodo
+7517539,MSCOCO tfrecords for meta-dataset,dataset,mscoco tfrecords for meta-dataset,,10.5281/zenodo.7517539,Zenodo
+400926,Synthetically Spoken COCO,dataset,synthetically spoken coco,,10.5281/zenodo.400926,Zenodo
+15594485,"Fixation crops and saccade coordinates for Nortmann, Sulewski & Kietzmann (2025)",dataset,"fixation crops and saccade coordinates for nortmann, sulewski & kietzmann (2025)",,10.5281/zenodo.15594485,Zenodo
+1495070,Synthetically Spoken STAIR,dataset,synthetically spoken stair,,10.5281/zenodo.1495070,Zenodo
+11072236,"2D Cell Instance Segmentation Dataset of Master Thesis ""Enhancing Cell Instance Segmentation in 3D Microscopy using Self-Supervised ViTs""",dataset,"2d cell instance segmentation dataset of master thesis ""enhancing cell instance segmentation in 3d microscopy using self-supervised vits""",,10.5281/zenodo.11072236,Zenodo
+4944506,Data from: Regulation of Somatostatin receptor 2 trafficking by C-tail motifs and the retromer,dataset,data from: regulation of somatostatin receptor 2 trafficking by c-tail motifs and the retromer,,10.5061/dryad.2h9d7sh,Zenodo
+11389999,"Validation of Soluble Suppression of Tumorigenesis-2, Heart-Type Fatty Acid-Binding Protein and Lipoprotein-Associated Phospholipase A2 as Tools in the Assessment of Chronic Heart Failure",dataset,"validation of soluble suppression of tumorigenesis-2, heart-type fatty acid-binding protein and lipoprotein-associated phospholipase a2 as tools in the assessment of chronic heart failure",,10.5281/zenodo.11389999,Zenodo
+7555310,Binary Stanford Sentiment Treebank 2 (SST-2),dataset,binary stanford sentiment treebank 2 (sst-2),,10.5281/zenodo.7555310,Zenodo
+4954940,Data from: IL-33 mediated iLC2 activation and neutrophil IL-5 production in the lung response after severe trauma: a reverse translation study from a human cohort to a mouse trauma model,dataset,data from: il-33 mediated ilc2 activation and neutrophil il-5 production in the lung response after severe trauma: a reverse translation study from a human cohort to a mouse trauma model,,10.5061/dryad.kt8m4,Zenodo
+7614693,CESM experiments for diverse impacts of ENSO on summertime synoptic-scale disturbance intensity over the tropical western North Pacific,dataset,cesm experiments for diverse impacts of enso on summertime synoptic-scale disturbance intensity over the tropical western north pacific,,10.5281/zenodo.7614693,Zenodo
+7983371,ECHAM6-wiso annual mean data for LGM and PI,dataset,echam6-wiso annual mean data for lgm and pi,,10.5281/zenodo.7983371,Zenodo
+13958734,Output from Linear Inverse Models (LIMs) emulating the observed spatiotemporal statistics of Australian precipitation and global sea surface temperatures,dataset,output from linear inverse models (lims) emulating the observed spatiotemporal statistics of australian precipitation and global sea surface temperatures,,10.5281/zenodo.13958734,Zenodo
+14673390,Data for: Temperature variation and life history drive nonlinear dynamics of marine fish populations,dataset,data for: temperature variation and life history drive nonlinear dynamics of marine fish populations,,10.5281/zenodo.14673390,Zenodo
+14725164,End-to-End Bangla AI for Solving Math Olympiad Problem Benchmark:Leveraging Large Language Model Using Integrated Approach,dataset,end-to-end bangla ai for solving math olympiad problem benchmark:leveraging large language model using integrated approach,,10.5281/zenodo.14725164,Zenodo
+8005507,CARP: Evaluating and Improving Tool-Augmented Computation-Intensive Math Reasoning,dataset,carp: evaluating and improving tool-augmented computation-intensive math reasoning,,10.5281/zenodo.8005507,Zenodo
+6188748,Classes of errors in DOI names: evaluation dataset,dataset,classes of errors in doi names: evaluation dataset,,10.5281/zenodo.6188748,Zenodo
+4892551,Classes of errors in DOI names: output dataset,dataset,classes of errors in doi names: output dataset,,10.5281/zenodo.4892551,Zenodo
+7805018,An Alkali-Activated Concrete Dataset for Sustainable Building Materials,dataset,an alkali-activated concrete dataset for sustainable building materials,,10.5281/zenodo.7805018,Zenodo
+13294003,MathChat: Benchmarking Mathematical Reasoning and Instruction Following in Multi-Turn Interactions,dataset,mathchat: benchmarking mathematical reasoning and instruction following in multi-turn interactions,,10.5281/zenodo.13294003,Zenodo
+13294003,MathChat: Benchmarking Mathematical Reasoning and Instruction Following in Multi-Turn Interactions,dataset,mathchat: benchmarking mathematical reasoning and instruction following in multi-turn interactions,,10.5281/zenodo.13294003,Zenodo
+13294003,MathChat: Benchmarking Mathematical Reasoning and Instruction Following in Multi-Turn Interactions,dataset,mathchat: benchmarking mathematical reasoning and instruction following in multi-turn interactions,,10.5281/zenodo.13294003,Zenodo
+3747888,Sample of facial mask N95 and FFP2 pricing on retail webs and time evolution per country,dataset,sample of facial mask n95 and ffp2 pricing on retail webs and time evolution per country,,10.5281/zenodo.3747888,Zenodo
+5015610,Chilean Subduction Zone rupture scenarios and waveform data,dataset,chilean subduction zone rupture scenarios and waveform data,,10.5281/zenodo.5015610,Zenodo
+14638780,Perturbation generalization H5ad datasets,dataset,perturbation generalization h5ad datasets,,10.5281/zenodo.14638780,Zenodo
+4936903,Data from: Evaluation of the phase-dependent rhythm control of human walking using phase response curves,dataset,data from: evaluation of the phase-dependent rhythm control of human walking using phase response curves,,10.5061/dryad.jk206,Zenodo
+4943162,Data from: Virtual patients and sensitivity analysis of the Guyton model of blood pressure regulation: towards individualized models of whole-body physiology,dataset,data from: virtual patients and sensitivity analysis of the guyton model of blood pressure regulation: towards individualized models of whole-body physiology,,10.5061/dryad.h3s0r,Zenodo
+5500473,perturbation-transcriptomics,dataset,perturbation-transcriptomics,,10.5281/zenodo.5500473,Zenodo
+3747888,Sample of facial mask N95 and FFP2 pricing on retail webs and time evolution per country,dataset,sample of facial mask n95 and ffp2 pricing on retail webs and time evolution per country,,10.5281/zenodo.3747888,Zenodo
+14204875,CityCLIM 2024 Valencia Airborne Campaign Preliminary Data,dataset,cityclim 2024 valencia airborne campaign preliminary data,,10.5281/zenodo.14204875,Zenodo
+4933147,Data from: New records of very high nitrous oxide fluxes from rice cannot be generalized for water management and climate impacts,dataset,data from: new records of very high nitrous oxide fluxes from rice cannot be generalized for water management and climate impacts,,10.5061/dryad.h11125b,Zenodo
+11206259,PenDigits,dataset,pendigits,,10.5281/zenodo.11206259,Zenodo
+15173401,"Collection of Time-Series Classification Datasets with Pretrained Deep Models and SHAP, LIME & Anchor Explanations",dataset,"collection of time-series classification datasets with pretrained deep models and shap, lime & anchor explanations",,10.5281/zenodo.15173401,Zenodo
+13219996,bioimage.io upload: hpa/hpa-kaggle-2021-dataset,dataset,bioimage.io upload: hpa/hpa-kaggle-2021-dataset,,10.5281/zenodo.13219996,Zenodo
+16881244,Structural basis for binding of RILPL1 to TMEM55B reveals a lysosomal platform for adaptor assembly through a conserved TBM motif,dataset,structural basis for binding of rilpl1 to tmem55b reveals a lysosomal platform for adaptor assembly through a conserved tbm motif,,10.5281/zenodo.16881244,Zenodo
+8023364,Whole Proteome Copy Number Dataset in Primary Mouse Cortical Neurons,dataset,whole proteome copy number dataset in primary mouse cortical neurons,,10.5281/zenodo.8023364,Zenodo
+16883557,Structural basis for binding of RILPL1 to TMEM55B reveals a lysosomal platform for adaptor assembly through a conserved TBM motif,dataset,structural basis for binding of rilpl1 to tmem55b reveals a lysosomal platform for adaptor assembly through a conserved tbm motif,,10.5281/zenodo.16883557,Zenodo
+7435859,Data from: Microcrystal Electron Diffraction (MicroED) Structure Determination of a Mechanochemically Synthesized Co-crystal not Affordable from Solution Crystallization,dataset,data from: microcrystal electron diffraction (microed) structure determination of a mechanochemically synthesized co-crystal not affordable from solution crystallization,,10.5281/zenodo.7435859,Zenodo
+8239476,2021 New York City Daily Residential Parcel Volume and Stops,dataset,2021 new york city daily residential parcel volume and stops,,10.5281/zenodo.8239476,Zenodo
+6633627,Model Zoo: A Dataset of Diverse Populations of Neural Network Models - USPS,dataset,model zoo: a dataset of diverse populations of neural network models - usps,,10.5281/zenodo.6633627,Zenodo
+14906179,SemanticTHAB: A High Resolution LiDAR Dataset,dataset,semanticthab: a high resolution lidar dataset,,10.5281/zenodo.14906179,Zenodo
+7569212,Supporting Data for Generating Realistic and Diverse Tests for LiDAR-Based Perception Systems,dataset,supporting data for generating realistic and diverse tests for lidar-based perception systems,,10.5281/zenodo.7569212,Zenodo
+16942462,GOOSE 3D Semantic Segmentation Challenge Label Data,dataset,goose 3d semantic segmentation challenge label data,,10.5281/zenodo.16942462,Zenodo
+16901925,nuScenes-ODD: An Extension of the nuScenes Dataset with Operational Design Domain Annotations,dataset,nuscenes-odd: an extension of the nuscenes dataset with operational design domain annotations,,10.5281/zenodo.16901925,Zenodo
+15667420,can_bus From nuScenes dataset,dataset,can_bus from nuscenes dataset,,10.5281/zenodo.15667420,Zenodo
+15667707,nuScenes map Expansion,dataset,nuscenes map expansion,,10.5281/zenodo.15667707,Zenodo
+10074393,nuScenes Knowledge Graph,dataset,nuscenes knowledge graph,,10.5281/zenodo.10074393,Zenodo
+8045922,Lanelet2 for nuScenes: Map Dataset,dataset,lanelet2 for nuscenes: map dataset,,10.5281/zenodo.8045922,Zenodo
+4361476,CoNLL-RDF ontology,dataset,conll-rdf ontology,,10.5281/zenodo.4361476,Zenodo
+11391166,Dataset for Arabic Event Coreference Relation,dataset,dataset for arabic event coreference relation,,10.5281/zenodo.11391166,Zenodo
+15668020,Long COVID SDOH NER,dataset,long covid sdoh ner,,10.5281/zenodo.15668020,Zenodo
+4361476,CoNLL-RDF ontology,dataset,conll-rdf ontology,,10.5281/zenodo.4361476,Zenodo
+11391166,Dataset for Arabic Event Coreference Relation,dataset,dataset for arabic event coreference relation,,10.5281/zenodo.11391166,Zenodo
+15668020,Long COVID SDOH NER,dataset,long covid sdoh ner,,10.5281/zenodo.15668020,Zenodo
+5494485,Generated RGBD Tracking Benchmarks (LaSOT) Part 06,dataset,generated rgbd tracking benchmarks (lasot) part 06,,10.5281/zenodo.5494485,Zenodo
+5482985,Generated RGBD Tracking Benchmarks (LaSOT) Part01,dataset,generated rgbd tracking benchmarks (lasot) part01,,10.5281/zenodo.5482985,Zenodo
+5493615,Generated RGBD Tracking Benchmarks (LaSOT) Part 04,dataset,generated rgbd tracking benchmarks (lasot) part 04,,10.5281/zenodo.5493615,Zenodo
+5484168,Generated RGBD Tracking Benchmarks (LaSOT) Part 02,dataset,generated rgbd tracking benchmarks (lasot) part 02,,10.5281/zenodo.5484168,Zenodo
+5495246,Generated RGBD Tracking Benchmarks (LaSOT) Part 08,dataset,generated rgbd tracking benchmarks (lasot) part 08,,10.5281/zenodo.5495246,Zenodo
+5495249,Generated RGBD Tracking Benchmarks (LaSOT) Part 09,dataset,generated rgbd tracking benchmarks (lasot) part 09,,10.5281/zenodo.5495249,Zenodo
+5494482,Generated RGBD Tracking Benchmarks (LaSOT) Part 05,dataset,generated rgbd tracking benchmarks (lasot) part 05,,10.5281/zenodo.5494482,Zenodo
+5495255,Generated RGBD Tracking Benchmarks (LaSOT) Part 10,dataset,generated rgbd tracking benchmarks (lasot) part 10,,10.5281/zenodo.5495255,Zenodo
+5495242,Generated RGBD Tracking Benchmarks (LaSOT) Part 07,dataset,generated rgbd tracking benchmarks (lasot) part 07,,10.5281/zenodo.5495242,Zenodo
+5494485,Generated RGBD Tracking Benchmarks (LaSOT) Part 06,dataset,generated rgbd tracking benchmarks (lasot) part 06,,10.5281/zenodo.5494485,Zenodo
+5482985,Generated RGBD Tracking Benchmarks (LaSOT) Part01,dataset,generated rgbd tracking benchmarks (lasot) part01,,10.5281/zenodo.5482985,Zenodo
+5493615,Generated RGBD Tracking Benchmarks (LaSOT) Part 04,dataset,generated rgbd tracking benchmarks (lasot) part 04,,10.5281/zenodo.5493615,Zenodo
+5484168,Generated RGBD Tracking Benchmarks (LaSOT) Part 02,dataset,generated rgbd tracking benchmarks (lasot) part 02,,10.5281/zenodo.5484168,Zenodo
+5495246,Generated RGBD Tracking Benchmarks (LaSOT) Part 08,dataset,generated rgbd tracking benchmarks (lasot) part 08,,10.5281/zenodo.5495246,Zenodo
+5495249,Generated RGBD Tracking Benchmarks (LaSOT) Part 09,dataset,generated rgbd tracking benchmarks (lasot) part 09,,10.5281/zenodo.5495249,Zenodo
+5494482,Generated RGBD Tracking Benchmarks (LaSOT) Part 05,dataset,generated rgbd tracking benchmarks (lasot) part 05,,10.5281/zenodo.5494482,Zenodo
+5495255,Generated RGBD Tracking Benchmarks (LaSOT) Part 10,dataset,generated rgbd tracking benchmarks (lasot) part 10,,10.5281/zenodo.5495255,Zenodo
+5495242,Generated RGBD Tracking Benchmarks (LaSOT) Part 07,dataset,generated rgbd tracking benchmarks (lasot) part 07,,10.5281/zenodo.5495242,Zenodo
+3871306,MALAYALAM LANGUAGE (MIX CODE) Recipe channels Youtube Comments,dataset,malayalam language (mix code) recipe channels youtube comments,,10.5281/zenodo.3871306,Zenodo
+4420891,Identification of co-infections in a cohort of patients diagnosed with Lyme Disease,dataset,identification of co-infections in a cohort of patients diagnosed with lyme disease,,10.5281/zenodo.4420891,Zenodo
+4533069,Identification of co-infections in a cohort of patients diagnosed with Lyme Disease,dataset,identification of co-infections in a cohort of patients diagnosed with lyme disease,,10.5061/dryad.c59zw3r6h,Zenodo
+17180328,Stadestér 1.0 - A Global Database of 41000+ Cities From 3000BC to the Present,dataset,stadestér 1.0 - a global database of 41000+ cities from 3000bc to the present,,10.5281/zenodo.17180328,Zenodo
+15111832,Raw R2Sonic2022 MBES data of Magoodhoo lagoon (Maldives) - BridgET project,dataset,raw r2sonic2022 mbes data of magoodhoo lagoon (maldives) - bridget project,,10.5281/zenodo.15111832,Zenodo
+7392435,"Geophysical and physical oceanography data and acoustic facies mapping results of the Central Basin in the northwestern Ross Sea margin, Antarctica",dataset,"geophysical and physical oceanography data and acoustic facies mapping results of the central basin in the northwestern ross sea margin, antarctica",,10.5281/zenodo.7392435,Zenodo
+7275039,Laerdalselvi MBES,dataset,laerdalselvi mbes,,10.5281/zenodo.7275039,Zenodo
+6670447,Bathymetry 2015 - 1m - HBC Project,dataset,bathymetry 2015 - 1m - hbc project,,10.5281/zenodo.6670447,Zenodo
+15113509,Teledyne Reson SeaBat MBES DTM of Magoodhoo lagoon (Maldives) - 2019,dataset,teledyne reson seabat mbes dtm of magoodhoo lagoon (maldives) - 2019,,10.5281/zenodo.15113509,Zenodo
+7554419,NMA MBES Selva (NTNU),dataset,nma mbes selva (ntnu),,10.5281/zenodo.7554419,Zenodo
+7554401,NMA MBES Nordleksa (NTNU),dataset,nma mbes nordleksa (ntnu),,10.5281/zenodo.7554401,Zenodo
+7554397,NMA MBES Agdenes (NTNU),dataset,nma mbes agdenes (ntnu),,10.5281/zenodo.7554397,Zenodo
+3670627,CIFAR & rotated-MNIST dataset,dataset,cifar & rotated-mnist dataset,,10.5281/zenodo.3670627,Zenodo
+10089977,CIFAR-10 & CIFAR-100,dataset,cifar-10 & cifar-100,,10.5281/zenodo.10089977,Zenodo
+5648918,CIFAR-10G,dataset,cifar-10g,,10.5281/zenodo.5648918,Zenodo
+8316429,CIFAR-100-R dataset,dataset,cifar-100-r dataset,,10.5281/zenodo.8316429,Zenodo
+15188748,Rescaled CIFAR-10 dataset,dataset,rescaled cifar-10 dataset,,10.5281/zenodo.15188748,Zenodo
+14063693,Beyond-classical computation in quantum simulation,dataset,beyond-classical computation in quantum simulation,,10.5281/zenodo.14063693,Zenodo
+6632121,Model Zoo: A Dataset of Diverse Populations of Neural Network Models - SVHN,dataset,model zoo: a dataset of diverse populations of neural network models - svhn,,10.5281/zenodo.6632121,Zenodo
+14735130,Federated SVHN (i.i.d.) and CIFAR-10 (i.i.d. and non-i.i.d.),dataset,federated svhn (i.i.d.) and cifar-10 (i.i.d. and non-i.i.d.),,10.5281/zenodo.14735130,Zenodo
+14221998,Food shopping experience,dataset,food shopping experience,,10.5281/zenodo.14221998,Zenodo
+3565477,"IO Islamic 101. Nusakh-i-Jahânârâ, General History of the World from the Oldest Times",dataset,"io islamic 101. nusakh-i-jahânârâ, general history of the world from the oldest times",,10.5281/zenodo.3565477,Zenodo
+4971789,Data from: Preterm birth prevention post-conization: a model of cervical length screening with targeted cerclage,dataset,data from: preterm birth prevention post-conization: a model of cervical length screening with targeted cerclage,,10.5061/dryad.r7r01,Zenodo
+10828395,Artificial Intelligence Enables Precision Diagnosis of Cervical Cytology Grades and Cervical Cancer,dataset,artificial intelligence enables precision diagnosis of cervical cytology grades and cervical cancer,,10.5281/zenodo.10828395,Zenodo
+14847200,NACHOS dataset: OCT and Xray,dataset,nachos dataset: oct and xray,,10.5281/zenodo.14847200,Zenodo
+14974867,The Japanese Female Facial Expression (JAFFE) Dataset,dataset,the japanese female facial expression (jaffe) dataset,,10.5281/zenodo.14974867,Zenodo
+10793613,UIBVFED Physical States,dataset,uibvfed physical states,,10.5281/zenodo.10793613,Zenodo
+8068171,FER-2013 subset ES-MAPs,dataset,fer-2013 subset es-maps,,10.5281/zenodo.8068171,Zenodo
+11046710,Enhancing Facial Emotion Recognition: A Comparative Analysis of Sobel and Laplacian Filters for Computer Vision Applications,dataset,enhancing facial emotion recognition: a comparative analysis of sobel and laplacian filters for computer vision applications,,10.5281/zenodo.11046710,Zenodo
+15488350,Federated Speaker Dataset,dataset,federated speaker dataset,,10.5281/zenodo.15488350,Zenodo
+5905436,Long-term follow-up after recanalisation of aortic arch atresia.,dataset,long-term follow-up after recanalisation of aortic arch atresia.,,10.5281/zenodo.5905436,Zenodo
+15121577,Research data availability in a selection of journals in educational research,dataset,research data availability in a selection of journals in educational research,,10.5281/zenodo.15121577,Zenodo
+6346444,COMPAS v02.27.05 output at representative metallicities,dataset,compas v02.27.05 output at representative metallicities,,10.5281/zenodo.6346444,Zenodo
+8021237,SNDlib-MIPs: A new set of homogeneous MILP instances,dataset,sndlib-mips: a new set of homogeneous milp instances,,10.5281/zenodo.8021237,Zenodo
+17393590,"Supplementary Data for ""Visualizing the Explainability and Robustness of Machine Learning Models through Fitting Graphs""",dataset,"supplementary data for ""visualizing the explainability and robustness of machine learning models through fitting graphs""",,10.5281/zenodo.17393590,Zenodo
+10785677,Processed German Credit Data,dataset,processed german credit data,,10.5281/zenodo.10785677,Zenodo
+15511564,innovative disruption and bond default,dataset,innovative disruption and bond default,,10.5281/zenodo.15511564,Zenodo
+10231656,FR 29_Custom,dataset,fr 29_custom,,10.5281/zenodo.10231656,Zenodo
+6384148,Zero-derived nouns and deverbal nominalization: Database for Spanish,dataset,zero-derived nouns and deverbal nominalization: database for spanish,,10.5281/zenodo.6384148,Zenodo
+14029257,CodeGraphNet,dataset,codegraphnet,,10.5281/zenodo.14029257,Zenodo
+11583297,COVID-19 pandemic impact on student achievements,dataset,covid-19 pandemic impact on student achievements,,10.5281/zenodo.11583297,Zenodo
+10386825,Student Athlete Academic Performance,dataset,student athlete academic performance,,10.5281/zenodo.10386825,Zenodo
+11206513,Global Microbial SmORF Catalog,dataset,global microbial smorf catalog,,10.5281/zenodo.11206513,Zenodo
+6511404,AMPSphere : the worldwide survey of prokaryotic antimicrobial peptides,dataset,ampsphere : the worldwide survey of prokaryotic antimicrobial peptides,,10.5281/zenodo.6511404,Zenodo
+10041010,Contributor Test,dataset,contributor test,,10.5281/zenodo.10041010,Zenodo
+15189694,"Flow Cytometric Immune Profiling on Peripheral Blood Data from Shapiro MR, Dong X, et al., 2023.",dataset,"flow cytometric immune profiling on peripheral blood data from shapiro mr, dong x, et al., 2023.",,10.5281/zenodo.15189694,Zenodo
+3362478,"EWAS results ""Prediagnostic breast milk DNA methylation alterations in women who develop breast cancer""",dataset,"ewas results ""prediagnostic breast milk dna methylation alterations in women who develop breast cancer""",,10.5281/zenodo.3362478,Zenodo
+5120960,Seer Breast Cancer Data,dataset,seer breast cancer data,,10.5281/zenodo.5120960,Zenodo
+6478212,NanoString dataset for study: Impairment of cancer-associated fibroblasts promotes CD8+ T cell infiltration and enhances sensitivity to immune checkpoint blockade,dataset,nanostring dataset for study: impairment of cancer-associated fibroblasts promotes cd8+ t cell infiltration and enhances sensitivity to immune checkpoint blockade,,10.5281/zenodo.6478212,Zenodo
+8005309,Expression of mgtA encoding a magnesium transporter is activated in the absence of the main Mg2+ transporter CorA in Salmonella,dataset,expression of mgta encoding a magnesium transporter is activated in the absence of the main mg2+ transporter cora in salmonella,,10.5281/zenodo.8005309,Zenodo
+5002050,Data from: Are Bitcoin bubbles predictable? Combining a generalized Metcalfe's law and the LPPLS model,dataset,data from: are bitcoin bubbles predictable? combining a generalized metcalfe's law and the lppls model,,10.5061/dryad.22k10nd,Zenodo
+7258579,UNSW-NB15 and CIC-IDS2017 Labelled PCAP Data,dataset,unsw-nb15 and cic-ids2017 labelled pcap data,,10.5281/zenodo.7258579,Zenodo
+10631860,COVID information commons archive,dataset,covid information commons archive,,10.5061/dryad.37pvmcvqp,Zenodo
+10141593,CIC-IDS-2017 V2,dataset,cic-ids-2017 v2,,10.5281/zenodo.10141593,Zenodo
+5018193,#MarchForBlackWomen,dataset,#marchforblackwomen,,10.6086/D14D4Z,Zenodo
+4940956,I Voted For Trump,dataset,i voted for trump,,10.6086/D1Q946,Zenodo
+7555547,IMDB Reviews,dataset,imdb reviews,,10.5281/zenodo.7555547,Zenodo
+5655513,Top 1000 movies according to IMDb,dataset,top 1000 movies according to imdb,,10.5281/zenodo.5655513,Zenodo
+7854818,Oscar nominated movies,dataset,oscar nominated movies,,10.5281/zenodo.7854818,Zenodo
+7853441,Oscar nominated movies,dataset,oscar nominated movies,,10.5281/zenodo.7853441,Zenodo
+4477881,Sentiment analysis in Galaxy with IMDB movie review dataset,dataset,sentiment analysis in galaxy with imdb movie review dataset,,10.5281/zenodo.4477881,Zenodo
+14585517,Test Observations Dataset from the EDIAQI Project,dataset,test observations dataset from the ediaqi project,,10.5281/zenodo.14585517,Zenodo
+4671026,Dataset Film IMDB,dataset,dataset film imdb,,10.5281/zenodo.4671026,Zenodo
+7339445,IMDB Selection Database,dataset,imdb selection database,,10.5281/zenodo.7339445,Zenodo
+10300997,"Nineveh North Palace, Room 5 Door B panel 2",dataset,"nineveh north palace, room 5 door b panel 2",,10.5281/zenodo.10300997,Zenodo
+14207021,ZAMONAVIY MODA VA SHOTLAND LIBOSLARI TAHLILI,dataset,zamonaviy moda va shotland liboslari tahlili,,10.5281/zenodo.14207021,Zenodo
+10293903,Nineveh SW Palace Court VI Panel,dataset,nineveh sw palace court vi panel,,10.5281/zenodo.10293903,Zenodo
+10378008,Amenhotep III,dataset,amenhotep iii,,10.5281/zenodo.10378008,Zenodo
+10236377,STATUE PRINCE KHAEMWASET - BRITISH MUSEUM 2020,dataset,statue prince khaemwaset - british museum 2020,,10.5281/zenodo.10236377,Zenodo
+10273112,Stele of Senenmut (1913.100.d),dataset,stele of senenmut (1913.100.d),,10.5281/zenodo.10273112,Zenodo
+8335331,"Datasets from the paper ""Measuring the relationship between the use of typical Manosphere discourse and the engagement of a user with the pick-up artist community""",dataset,"datasets from the paper ""measuring the relationship between the use of typical manosphere discourse and the engagement of a user with the pick-up artist community""",,10.5281/zenodo.8335331,Zenodo
+4361476,CoNLL-RDF ontology,dataset,conll-rdf ontology,,10.5281/zenodo.4361476,Zenodo
+8343365,AIDA PBMC sQTL,dataset,aida pbmc sqtl,,10.5281/zenodo.8343365,Zenodo
+8335331,"Datasets from the paper ""Measuring the relationship between the use of typical Manosphere discourse and the engagement of a user with the pick-up artist community""",dataset,"datasets from the paper ""measuring the relationship between the use of typical manosphere discourse and the engagement of a user with the pick-up artist community""",,10.5281/zenodo.8335331,Zenodo
+8343365,AIDA PBMC sQTL,dataset,aida pbmc sqtl,,10.5281/zenodo.8343365,Zenodo
+8335331,"Datasets from the paper ""Measuring the relationship between the use of typical Manosphere discourse and the engagement of a user with the pick-up artist community""",dataset,"datasets from the paper ""measuring the relationship between the use of typical manosphere discourse and the engagement of a user with the pick-up artist community""",,10.5281/zenodo.8335331,Zenodo
+8343365,AIDA PBMC sQTL,dataset,aida pbmc sqtl,,10.5281/zenodo.8343365,Zenodo
+14266841,LODsyndesisIE Evaluation Collection and Results,dataset,lodsyndesisie evaluation collection and results,,10.5281/zenodo.14266841,Zenodo
+14166028,Disinformation on YouTube: A dataset of YouTube comments on videos related to claims made by Trump and Vance on Haitian immigrants,dataset,disinformation on youtube: a dataset of youtube comments on videos related to claims made by trump and vance on haitian immigrants,,10.5281/zenodo.14166028,Zenodo
+6782907,Hildegard Kompositionsmodell Buch der Briefe,dataset,hildegard kompositionsmodell buch der briefe,,10.5281/zenodo.6782907,Zenodo
+5512069,Time- and angle-resolved photoemission spectroscopy data of bismuthene,dataset,time- and angle-resolved photoemission spectroscopy data of bismuthene,,10.5281/zenodo.5512069,Zenodo
+5617246,Femtosecond electron diffraction data of platinum,dataset,femtosecond electron diffraction data of platinum,,10.5281/zenodo.5617246,Zenodo
+4575398,Femtosecond electron diffraction data of nickel,dataset,femtosecond electron diffraction data of nickel,,10.5281/zenodo.4575398,Zenodo
+7441232,Time and momentum resolved characterization of hybrid plasmonic heterostructure Au/WSe2,dataset,time and momentum resolved characterization of hybrid plasmonic heterostructure au/wse2,,10.5281/zenodo.7441232,Zenodo
+3560150,AmpliconTagger pipeline databases,dataset,amplicontagger pipeline databases,,10.5281/zenodo.3560150,Zenodo
+5722108,Single-cell RNA sequencing of Blood-infiltrating HSC-derived phagocytes of Ms4a3Ai14 using 10X Genomics platform. IFN-γ and GM-CSF control complementary differentiation programs in the monocyte to phagocyte transition during neuroinflammation.,dataset,single-cell rna sequencing of blood-infiltrating hsc-derived phagocytes of ms4a3ai14 using 10x genomics platform. ifn-γ and gm-csf control complementary differentiation programs in the monocyte to phagocyte transition during neuroinflammation.,,10.5281/zenodo.5722108,Zenodo
+5711708,Single-cell RNA sequencing of Bone Marrow-infiltrating HSC-derived phagocytes of Ms4a3Ai14 using 10X Genomics platform. IFN-γ and GM-CSF control complementary differentiation programs in the monocyte to phagocyte transition during neuroinflammation.,dataset,single-cell rna sequencing of bone marrow-infiltrating hsc-derived phagocytes of ms4a3ai14 using 10x genomics platform. ifn-γ and gm-csf control complementary differentiation programs in the monocyte to phagocyte transition during neuroinflammation.,,10.5281/zenodo.5711708,Zenodo
+5722172,Single-cell RNA sequencing of Lymph node-infiltrating HSC-derived phagocytes of Ms4a3Ai14 using 10X Genomics platform. IFN-γ and GM-CSF control complementary differentiation programs in the monocyte to phagocyte transition during neuroinflammation.,dataset,single-cell rna sequencing of lymph node-infiltrating hsc-derived phagocytes of ms4a3ai14 using 10x genomics platform. ifn-γ and gm-csf control complementary differentiation programs in the monocyte to phagocyte transition during neuroinflammation.,,10.5281/zenodo.5722172,Zenodo
+13758677,Impact Areas and Dynamical Features associated with Mediterranean Cyclones (1980-2019),dataset,impact areas and dynamical features associated with mediterranean cyclones (1980-2019),,10.5281/zenodo.13758677,Zenodo
+10150675,"The data behind the ApJ article ""Environmental Dependence of Type Ia Supernovae in Low-Redshift Galaxy Clusters""",dataset,"the data behind the apj article ""environmental dependence of type ia supernovae in low-redshift galaxy clusters""",,10.5281/zenodo.10150675,Zenodo
+4988862,"Data from: Genetic architecture, biochemical underpinnings, and ecological impact of floral UV patterning",dataset,"data from: genetic architecture, biochemical underpinnings, and ecological impact of floral uv patterning",,10.5061/dryad.cj375,Zenodo
+4942495,Data from: Allocation to male vs. female floral function varies by currency and responds differentially to density and moisture stress,dataset,data from: allocation to male vs. female floral function varies by currency and responds differentially to density and moisture stress,,10.5061/dryad.5m6p3,Zenodo
+10711596,GBOT training data -Part 2,dataset,gbot training data -part 2,,10.5281/zenodo.10711596,Zenodo
+4030340,AVECL-UMONS DATABASE FOR AUDIO-VISUAL EVENT CLASSIFICATION AND LOCALIZATION,dataset,avecl-umons database for audio-visual event classification and localization,,10.5281/zenodo.4030340,Zenodo
+10076260,Catalogue of Arctic Toothed Whale Click Spectra and Spectrograms from SoundTrap Recordings,dataset,catalogue of arctic toothed whale click spectra and spectrograms from soundtrap recordings,,10.5281/zenodo.10076260,Zenodo
+7495536,Dataset of the visual EEG oddball paradigm with young and older age group,dataset,dataset of the visual eeg oddball paradigm with young and older age group,,10.5281/zenodo.7495536,Zenodo
+5554598,Scripts for post-processing Delft3d output data and figures for manuscript 'Longitudinal scour-bar pattern in estuaries',dataset,scripts for post-processing delft3d output data and figures for manuscript 'longitudinal scour-bar pattern in estuaries',,10.5281/zenodo.5554598,Zenodo
+15032990,"BIN SIN IJODIDAN ""QOG'OZ QAYIQ"" SHE'RINING LINGVOPOETIK TAHLILI XUSUSIDA",dataset,"bin sin ijodidan ""qog'oz qayiq"" she'rining lingvopoetik tahlili xususida",,10.5281/zenodo.15032990,Zenodo
+3972420,Artigos sobre estratégia de difusão digital em instituições culturais,dataset,artigos sobre estratégia de difusão digital em instituições culturais,,10.5281/zenodo.3972420,Zenodo
+6326369,Wikidata Subsets of 4 Gene Wiki Classes (wdsub),dataset,wikidata subsets of 4 gene wiki classes (wdsub),,10.5281/zenodo.6326369,Zenodo
+8340588,"Database of Wikipedia Education Programs from Brazil, 2011-2020",dataset,"database of wikipedia education programs from brazil, 2011-2020",,10.5281/zenodo.8340588,Zenodo
+8433118,"Wikidata Lab Details, 2017-2020",dataset,"wikidata lab details, 2017-2020",,10.5281/zenodo.8433118,Zenodo
+4030340,AVECL-UMONS DATABASE FOR AUDIO-VISUAL EVENT CLASSIFICATION AND LOCALIZATION,dataset,avecl-umons database for audio-visual event classification and localization,,10.5281/zenodo.4030340,Zenodo
+17058101,MULTIVOX: A Spatial Audio-Visual Dataset of Singing Groups,dataset,multivox: a spatial audio-visual dataset of singing groups,,10.5281/zenodo.17058101,Zenodo
+6600531,STARSS22: Sony-TAu Realistic Spatial Soundscapes 2022 dataset,dataset,starss22: sony-tau realistic spatial soundscapes 2022 dataset,,10.5281/zenodo.6600531,Zenodo
+6408611,TAU Spatial Room Impulse Response Database (TAU-SRIR DB),dataset,tau spatial room impulse response database (tau-srir db),,10.5281/zenodo.6408611,Zenodo
+7880637,STARSS23: Sony-TAu Realistic Spatial Soundscapes 2023,dataset,starss23: sony-tau realistic spatial soundscapes 2023,,10.5281/zenodo.7880637,Zenodo
+4064792,TAU-NIGENS Spatial Sound Events 2020,dataset,tau-nigens spatial sound events 2020,,10.5281/zenodo.4064792,Zenodo
+5476980,TAU-NIGENS Spatial Sound Events 2021,dataset,tau-nigens spatial sound events 2021,,10.5281/zenodo.5476980,Zenodo
+3932885,SECL-UMONS DATABASE FOR SOUND EVENT CLASSIFICATION AND LOCALIZATION,dataset,secl-umons database for sound event classification and localization,,10.5281/zenodo.3932885,Zenodo
+6392324,SONYC-FSD-SED,dataset,sonyc-fsd-sed,,10.5281/zenodo.6392324,Zenodo
+14295447,Dataset for a Data-Driven Approach to Estimating Audiovisual Art Event Impact Through Web Presence,dataset,dataset for a data-driven approach to estimating audiovisual art event impact through web presence,,10.5281/zenodo.14295447,Zenodo
+8260591,Exploring Trends in Gerontechnology Research: A Bibliometric Analysis,dataset,exploring trends in gerontechnology research: a bibliometric analysis,,10.5281/zenodo.8260591,Zenodo
+8051720,The Evolution of Positive Psychology Research on Life Satisfaction: A Bibliometric Examination,dataset,the evolution of positive psychology research on life satisfaction: a bibliometric examination,,10.5281/zenodo.8051720,Zenodo
+8033896,Who Makes a Better University Adjustment Wingman: Parents or Friends?,dataset,who makes a better university adjustment wingman: parents or friends?,,10.5281/zenodo.8033896,Zenodo
+15624887,"Mapping the Evolution of Logistics and Supply Chain Education: A Two-Decade Bibliometric Analysis of Trends, Gaps, and Future Directions",dataset,"mapping the evolution of logistics and supply chain education: a two-decade bibliometric analysis of trends, gaps, and future directions",,10.5281/zenodo.15624887,Zenodo
+10782433,A Delphi Study on the Reasons and Solutions of EFL Lecturers' Technostress: Perceptions of Academics from China,dataset,a delphi study on the reasons and solutions of efl lecturers' technostress: perceptions of academics from china,,10.5281/zenodo.10782433,Zenodo
+14293387,Charting the Landscape of Workplace Women Studies: A 20-Year Bibliometric Analysis of Research Hotspots and Emerging Themes,dataset,charting the landscape of workplace women studies: a 20-year bibliometric analysis of research hotspots and emerging themes,,10.5281/zenodo.14293387,Zenodo
+15129684,Harms and ethical issues of Generative AI in mental health care: A Delphi study,dataset,harms and ethical issues of generative ai in mental health care: a delphi study,,10.5281/zenodo.15129684,Zenodo
+14642851,Bibliometric Insights into Pica: A Psychological Perspective on Evolving Research Trends,dataset,bibliometric insights into pica: a psychological perspective on evolving research trends,,10.5281/zenodo.14642851,Zenodo
+11204139,Rise of Metaverse Literature in Asia-Pacific Countries: Bibliometric Study,dataset,rise of metaverse literature in asia-pacific countries: bibliometric study,,10.5281/zenodo.11204139,Zenodo
+7845451,Twitter Dataset,dataset,twitter dataset,,10.5281/zenodo.7845451,Zenodo
+17094810,All Countries' Dataset,dataset,all countries' dataset,,10.5281/zenodo.17094810,Zenodo
+6600531,STARSS22: Sony-TAu Realistic Spatial Soundscapes 2022 dataset,dataset,starss22: sony-tau realistic spatial soundscapes 2022 dataset,,10.5281/zenodo.6600531,Zenodo
+6408611,TAU Spatial Room Impulse Response Database (TAU-SRIR DB),dataset,tau spatial room impulse response database (tau-srir db),,10.5281/zenodo.6408611,Zenodo
+7880637,STARSS23: Sony-TAu Realistic Spatial Soundscapes 2023,dataset,starss23: sony-tau realistic spatial soundscapes 2023,,10.5281/zenodo.7880637,Zenodo
+3236975,Artificial sound mixes with event insertions,dataset,artificial sound mixes with event insertions,,10.5281/zenodo.3236975,Zenodo
+401395,"TUT Rare sound events, Development dataset",dataset,"tut rare sound events, development dataset",,10.5281/zenodo.401395,Zenodo
+10435979,"Rare Diseases hand-annotated news articles: Angelman, De Lange, Fragile X, Kleefstra",dataset,"rare diseases hand-annotated news articles: angelman, de lange, fragile x, kleefstra",,10.5281/zenodo.10435979,Zenodo
+17094810,All Countries' Dataset,dataset,all countries' dataset,,10.5281/zenodo.17094810,Zenodo
+6600531,STARSS22: Sony-TAu Realistic Spatial Soundscapes 2022 dataset,dataset,starss22: sony-tau realistic spatial soundscapes 2022 dataset,,10.5281/zenodo.6600531,Zenodo
+6408611,TAU Spatial Room Impulse Response Database (TAU-SRIR DB),dataset,tau spatial room impulse response database (tau-srir db),,10.5281/zenodo.6408611,Zenodo
+14270974,MOSAIKS-Togo-Agriculture,dataset,mosaiks-togo-agriculture,,10.5281/zenodo.14270974,Zenodo
+7378906,ImageNet Validation Images with Corrupted Patches,dataset,imagenet validation images with corrupted patches,,10.5281/zenodo.7378906,Zenodo
+6568778,ImageNet-Patch: A Dataset for Benchmarking Machine Learning Robustness against Adversarial Patches,dataset,imagenet-patch: a dataset for benchmarking machine learning robustness against adversarial patches,,10.5281/zenodo.6568778,Zenodo
+10784189,Crystal Growth Characterization of WSe2 Thin Film Using Machine Learning,dataset,crystal growth characterization of wse2 thin film using machine learning,,10.5281/zenodo.10784189,Zenodo
+6801109,ImageNet-Cartoon and ImageNet-Drawing: two domain shift datasets for ImageNet,dataset,imagenet-cartoon and imagenet-drawing: two domain shift datasets for imagenet,,10.5281/zenodo.6801109,Zenodo
+14589101,TinyImageNet statistics and PCA,dataset,tinyimagenet statistics and pca,,10.5281/zenodo.14589101,Zenodo
+4645597,FTIR_spectra_Pali_Hawaii_Demouchy_Tommasi_2021,dataset,ftir_spectra_pali_hawaii_demouchy_tommasi_2021,,10.5281/zenodo.4645597,Zenodo
+15486100,Revisiting the Milky Way Dwarf Spheroidal Galaxies with Gaia DR3,dataset,revisiting the milky way dwarf spheroidal galaxies with gaia dr3,,10.5281/zenodo.15486100,Zenodo
+10318287,Dali building,dataset,dali building,,10.5281/zenodo.10318287,Zenodo
+10389032,SEKOYA DALI,dataset,sekoya dali,,10.5281/zenodo.10389032,Zenodo
+15153255,"Table 1 in Two new species of the genus Macrothele Ausserer, 1871 from Yunnan Province, China (Araneae: Macrothelidae)",dataset,"table 1 in two new species of the genus macrothele ausserer, 1871 from yunnan province, china (araneae: macrothelidae)",,10.5281/zenodo.15153255,Zenodo
+15486100,Revisiting the Milky Way Dwarf Spheroidal Galaxies with Gaia DR3,dataset,revisiting the milky way dwarf spheroidal galaxies with gaia dr3,,10.5281/zenodo.15486100,Zenodo
+10318287,Dali building,dataset,dali building,,10.5281/zenodo.10318287,Zenodo
+10389032,SEKOYA DALI,dataset,sekoya dali,,10.5281/zenodo.10389032,Zenodo
+15153255,"Table 1 in Two new species of the genus Macrothele Ausserer, 1871 from Yunnan Province, China (Araneae: Macrothelidae)",dataset,"table 1 in two new species of the genus macrothele ausserer, 1871 from yunnan province, china (araneae: macrothelidae)",,10.5281/zenodo.15153255,Zenodo
+15486100,Revisiting the Milky Way Dwarf Spheroidal Galaxies with Gaia DR3,dataset,revisiting the milky way dwarf spheroidal galaxies with gaia dr3,,10.5281/zenodo.15486100,Zenodo
+10318287,Dali building,dataset,dali building,,10.5281/zenodo.10318287,Zenodo
+10389032,SEKOYA DALI,dataset,sekoya dali,,10.5281/zenodo.10389032,Zenodo
+15486100,Revisiting the Milky Way Dwarf Spheroidal Galaxies with Gaia DR3,dataset,revisiting the milky way dwarf spheroidal galaxies with gaia dr3,,10.5281/zenodo.15486100,Zenodo
+10318287,Dali building,dataset,dali building,,10.5281/zenodo.10318287,Zenodo
+10389032,SEKOYA DALI,dataset,sekoya dali,,10.5281/zenodo.10389032,Zenodo
+15153255,"Table 1 in Two new species of the genus Macrothele Ausserer, 1871 from Yunnan Province, China (Araneae: Macrothelidae)",dataset,"table 1 in two new species of the genus macrothele ausserer, 1871 from yunnan province, china (araneae: macrothelidae)",,10.5281/zenodo.15153255,Zenodo
+2533051,Jamendo SLID-700,dataset,jamendo slid-700,,10.5281/zenodo.2533051,Zenodo
+1284979,Graphless Jamendo Dataset VOILA 2018,dataset,graphless jamendo dataset voila 2018,,10.5281/zenodo.1284979,Zenodo
+3826813,MTG-Jamendo Dataset,dataset,mtg-jamendo dataset,,10.5281/zenodo.3826813,Zenodo
+3480085,singing voice detection dataset ALL-Pub-SVD-In-One,dataset,singing voice detection dataset all-pub-svd-in-one,,10.5281/zenodo.3480085,Zenodo
+6010468,LatentJam Dataset,dataset,latentjam dataset,,10.5281/zenodo.6010468,Zenodo
+2585988,Jamendo Corpus for Singing Voice Detection,dataset,jamendo corpus for singing voice detection,,10.5281/zenodo.2585988,Zenodo
+5597047,PodcastMix - a dataset for separating music and speech in podcasts,dataset,podcastmix - a dataset for separating music and speech in podcasts,,10.5281/zenodo.5597047,Zenodo
+2551256,Jamendo content analysed with the Audio Commons Analysis Service,dataset,jamendo content analysed with the audio commons analysis service,,10.5281/zenodo.2551256,Zenodo
+10089977,CIFAR-10 & CIFAR-100,dataset,cifar-10 & cifar-100,,10.5281/zenodo.10089977,Zenodo
+582892,Baseline models and optimized CNN models for 8 datasets,dataset,baseline models and optimized cnn models for 8 datasets,,10.5281/zenodo.582892,Zenodo
+15188748,Rescaled CIFAR-10 dataset,dataset,rescaled cifar-10 dataset,,10.5281/zenodo.15188748,Zenodo
+8316298,CIFAR-10-R dataset,dataset,cifar-10-r dataset,,10.5281/zenodo.8316298,Zenodo
+8394847,Semantic-Discrepant Outliers on CIFAR-10 Dataset,dataset,semantic-discrepant outliers on cifar-10 dataset,,10.5281/zenodo.8394847,Zenodo
+3670627,CIFAR & rotated-MNIST dataset,dataset,cifar & rotated-mnist dataset,,10.5281/zenodo.3670627,Zenodo
+14735130,Federated SVHN (i.i.d.) and CIFAR-10 (i.i.d. and non-i.i.d.),dataset,federated svhn (i.i.d.) and cifar-10 (i.i.d. and non-i.i.d.),,10.5281/zenodo.14735130,Zenodo
+10089977,CIFAR-10 & CIFAR-100,dataset,cifar-10 & cifar-100,,10.5281/zenodo.10089977,Zenodo
+8316429,CIFAR-100-R dataset,dataset,cifar-100-r dataset,,10.5281/zenodo.8316429,Zenodo
+582892,Baseline models and optimized CNN models for 8 datasets,dataset,baseline models and optimized cnn models for 8 datasets,,10.5281/zenodo.582892,Zenodo
+3670627,CIFAR & rotated-MNIST dataset,dataset,cifar & rotated-mnist dataset,,10.5281/zenodo.3670627,Zenodo
+5648918,CIFAR-10G,dataset,cifar-10g,,10.5281/zenodo.5648918,Zenodo
+10796922,Compressed Image dataset (CIFAR-100) files for testing inference on NDPipe,dataset,compressed image dataset (cifar-100) files for testing inference on ndpipe,,10.5281/zenodo.10796922,Zenodo
+15511789,"Data and Code for Yeager et al., 2022: Enhanced Skill and Signal-to-noise in an Eddy-Resolving Decadal Prediction System",dataset,"data and code for yeager et al., 2022: enhanced skill and signal-to-noise in an eddy-resolving decadal prediction system",,10.5065/9t56-sm14,Zenodo
+17187747,"Gene family data from the PhyloGenes (release version 5.0, phylogenes.org)",dataset,"gene family data from the phylogenes (release version 5.0, phylogenes.org)",,10.5281/zenodo.17187747,Zenodo
+13742244,Cellosaurus release 50,dataset,cellosaurus release 50,,10.5281/zenodo.13742244,Zenodo
+15511789,"Data and Code for Yeager et al., 2022: Enhanced Skill and Signal-to-noise in an Eddy-Resolving Decadal Prediction System",dataset,"data and code for yeager et al., 2022: enhanced skill and signal-to-noise in an eddy-resolving decadal prediction system",,10.5065/9t56-sm14,Zenodo
+4361476,CoNLL-RDF ontology,dataset,conll-rdf ontology,,10.5281/zenodo.4361476,Zenodo
+11391166,Dataset for Arabic Event Coreference Relation,dataset,dataset for arabic event coreference relation,,10.5281/zenodo.11391166,Zenodo
+15668020,Long COVID SDOH NER,dataset,long covid sdoh ner,,10.5281/zenodo.15668020,Zenodo
+4361476,CoNLL-RDF ontology,dataset,conll-rdf ontology,,10.5281/zenodo.4361476,Zenodo
+11391166,Dataset for Arabic Event Coreference Relation,dataset,dataset for arabic event coreference relation,,10.5281/zenodo.11391166,Zenodo
+15668020,Long COVID SDOH NER,dataset,long covid sdoh ner,,10.5281/zenodo.15668020,Zenodo
+4361476,CoNLL-RDF ontology,dataset,conll-rdf ontology,,10.5281/zenodo.4361476,Zenodo
+10285825,"S1000 corpus, large-scale tagging results and other supplementary files",dataset,"s1000 corpus, large-scale tagging results and other supplementary files",,10.5281/zenodo.10285825,Zenodo
+6493847,PANACEA dataset - Heterogeneous COVID-19 Claims,dataset,panacea dataset - heterogeneous covid-19 claims,,10.5281/zenodo.6493847,Zenodo
+16410605,MindScope-AI,dataset,mindscope-ai,,10.5281/zenodo.16410605,Zenodo
+400926,Synthetically Spoken COCO,dataset,synthetically spoken coco,,10.5281/zenodo.400926,Zenodo
+12774929,RT4K dataset,dataset,rt4k dataset,,10.5281/zenodo.12774929,Zenodo
+16325853,CUB-200-2011 Attribute Revision,dataset,cub-200-2011 attribute revision,,10.5281/zenodo.16325853,Zenodo
+10292605,Holy Graill,dataset,holy graill,,10.5281/zenodo.10292605,Zenodo
+7876218,CSF1R scRNAseq Data,dataset,csf1r scrnaseq data,,10.5281/zenodo.7876218,Zenodo
+11202766,Mental Health in Social Networks with Machine Learning Algorihtms,dataset,mental health in social networks with machine learning algorihtms,,10.5281/zenodo.11202766,Zenodo
+10724738,Croatian Coronavirus Corpus NewsHR,dataset,croatian coronavirus corpus newshr,,10.5281/zenodo.10724738,Zenodo
+12518387,Slovenian Coronavirus Corpus NewsSLO,dataset,slovenian coronavirus corpus newsslo,,10.5281/zenodo.12518387,Zenodo
+13856461,Serbian Coronavirus Corpus NewsSR,dataset,serbian coronavirus corpus newssr,,10.5281/zenodo.13856461,Zenodo
+11202766,Mental Health in Social Networks with Machine Learning Algorihtms,dataset,mental health in social networks with machine learning algorihtms,,10.5281/zenodo.11202766,Zenodo
+16644570,NmF2 from SAMI3 run,dataset,nmf2 from sami3 run,,10.5281/zenodo.16644570,Zenodo
+3952763,"Contribution submitted by Antonella Garzelli for the Public consultation on the draft risk assessment of glycoalkaloids in feed and food, in particular in potatoes and potato-derived products",dataset,"contribution submitted by antonella garzelli for the public consultation on the draft risk assessment of glycoalkaloids in feed and food, in particular in potatoes and potato-derived products",,10.5281/zenodo.3952763,Zenodo
+3952772,"Contribution submitted by Matthew Walker for the Public consultation on the draft risk assessment of glycoalkaloids in feed and food, in particular in potatoes and potato-derived products",dataset,"contribution submitted by matthew walker for the public consultation on the draft risk assessment of glycoalkaloids in feed and food, in particular in potatoes and potato-derived products",,10.5281/zenodo.3952772,Zenodo
+3952756,"Contribution submitted by STARCH EU for the Public consultation on the draft risk assessment of glycoalkaloids in feed and food, in particular in potatoes and potato-derived products",dataset,"contribution submitted by starch eu for the public consultation on the draft risk assessment of glycoalkaloids in feed and food, in particular in potatoes and potato-derived products",,10.5281/zenodo.3952756,Zenodo
+4555169,"Dataset from Alì M, Monti CB, Secchi F, Spairani R, Speciani M, Di Leo G, Sardanelli F. Fast thoracic MRI as an alternative to chest x-ray: A retrospective evaluation of 287 patients. Clin Imaging. 2020 Apr;60(2):244-248. doi: 10.1016/j.clinimag.2019.12.016. Epub 2019 Dec 23. PMID: 31968283.",dataset,"dataset from alì m, monti cb, secchi f, spairani r, speciani m, di leo g, sardanelli f. fast thoracic mri as an alternative to chest x-ray: a retrospective evaluation of 287 patients. clin imaging. 2020 apr;60(2):244-248. doi: 10.1016/j.clinimag.2019.12.016. epub 2019 dec 23. pmid: 31968283.",,10.5281/zenodo.4555169,Zenodo
+5906219,Abdominal obesity phenotype is associated with COVID-19 chest X-ray severity score better than BMI-based obesity.,dataset,abdominal obesity phenotype is associated with covid-19 chest x-ray severity score better than bmi-based obesity.,,10.5281/zenodo.5906219,Zenodo
+7568237,Abdominal obesity phenotype is associated with COVID-19 chest X-ray severity score better than BMI-based obesity,dataset,abdominal obesity phenotype is associated with covid-19 chest x-ray severity score better than bmi-based obesity,,10.5281/zenodo.7568237,Zenodo
+14733010,Silicodata: An Annotated Benchmark CXR Dataset for Silicosis Detection,dataset,silicodata: an annotated benchmark cxr dataset for silicosis detection,,10.6084/m9.figshare.25383697,Zenodo
+7102310,Viet Nam:  Private pharmacy TB referrals acceptability survey data,dataset,viet nam:  private pharmacy tb referrals acceptability survey data,,10.5061/dryad.44j0zpchj,Zenodo
+10019951,Sexual Violence Whistleblowing Intention by Higher Education Students and Staff,dataset,sexual violence whistleblowing intention by higher education students and staff,,10.5281/zenodo.10019951,Zenodo
+3871306,MALAYALAM LANGUAGE (MIX CODE) Recipe channels Youtube Comments,dataset,malayalam language (mix code) recipe channels youtube comments,,10.5281/zenodo.3871306,Zenodo
+4420891,Identification of co-infections in a cohort of patients diagnosed with Lyme Disease,dataset,identification of co-infections in a cohort of patients diagnosed with lyme disease,,10.5281/zenodo.4420891,Zenodo
+4533069,Identification of co-infections in a cohort of patients diagnosed with Lyme Disease,dataset,identification of co-infections in a cohort of patients diagnosed with lyme disease,,10.5061/dryad.c59zw3r6h,Zenodo
+3688700,"Datasets of UV irradiance, visible and photosynthetically active radiation in Marambio, Antarctica from March 2017 to May 2019",dataset,"datasets of uv irradiance, visible and photosynthetically active radiation in marambio, antarctica from march 2017 to may 2019",,10.5281/zenodo.3688700,Zenodo
+14330168,Volcanic Information System (VIS) Dataset: global volcanic eruptive activity records using IMS infrasound detections,dataset,volcanic information system (vis) dataset: global volcanic eruptive activity records using ims infrasound detections,,10.5281/zenodo.14330168,Zenodo
+14171830,Integrated Assessment Modeling of Korea's 2050 Carbon Neutrality Technology Pathways,dataset,integrated assessment modeling of korea's 2050 carbon neutrality technology pathways,,10.1016/j.egycc.2022.100075,Zenodo
+7520537,YM2413-MDB: A Multi-Instrumental FM Video Game Music Dataset with Emotion Annotations,dataset,ym2413-mdb: a multi-instrumental fm video game music dataset with emotion annotations,,10.5281/zenodo.7520537,Zenodo
+11448746,GradDA – A novel dataset for investigating domain shifts in image classification,dataset,gradda – a novel dataset for investigating domain shifts in image classification,,10.5281/zenodo.11448746,Zenodo
+7405056,Replication data for: Modellbasierte Analyse einer NH3-HTWP in einem Molkereibetrieb,dataset,replication data for: modellbasierte analyse einer nh3-htwp in einem molkereibetrieb,,10.5281/zenodo.7405056,Zenodo
+7627820,Replication data for: Operating Strategies of an Industrial R717 Heat Pump Recovering Waste Heat of a Chiller,dataset,replication data for: operating strategies of an industrial r717 heat pump recovering waste heat of a chiller,,10.5281/zenodo.7627820,Zenodo
+14921818,Dataset for Super-Resolution Image Reconstruction based on Random-coupled Neural Network and EDSR,dataset,dataset for super-resolution image reconstruction based on random-coupled neural network and edsr,,10.5281/zenodo.14921818,Zenodo
+11177719,BSDS100,dataset,bsds100,,10.5281/zenodo.11177719,Zenodo
+8312614,Pascal VOC,dataset,pascal voc,,10.5281/zenodo.8312614,Zenodo
+8368850,PASCAL VOC Pedestrian,dataset,pascal voc pedestrian,,10.5281/zenodo.8368850,Zenodo
+8186664,Pepper-mini,dataset,pepper-mini,,10.5281/zenodo.8186664,Zenodo
+5662351,HERIDAL dataset in keras-retinanet PASCAL VOC format,dataset,heridal dataset in keras-retinanet pascal voc format,,10.5281/zenodo.5662351,Zenodo
+7065974,Experimental Datasets and Processing Codes for the Semantic PHD Filter,dataset,experimental datasets and processing codes for the semantic phd filter,,10.5281/zenodo.7065974,Zenodo
+8312514,The dataset of Tomato,dataset,the dataset of tomato,,10.5281/zenodo.8312514,Zenodo
+8312614,Pascal VOC,dataset,pascal voc,,10.5281/zenodo.8312614,Zenodo
+8186664,Pepper-mini,dataset,pepper-mini,,10.5281/zenodo.8186664,Zenodo
+8368850,PASCAL VOC Pedestrian,dataset,pascal voc pedestrian,,10.5281/zenodo.8368850,Zenodo
+5662351,HERIDAL dataset in keras-retinanet PASCAL VOC format,dataset,heridal dataset in keras-retinanet pascal voc format,,10.5281/zenodo.5662351,Zenodo
+7065974,Experimental Datasets and Processing Codes for the Semantic PHD Filter,dataset,experimental datasets and processing codes for the semantic phd filter,,10.5281/zenodo.7065974,Zenodo
+8312514,The dataset of Tomato,dataset,the dataset of tomato,,10.5281/zenodo.8312514,Zenodo
+8312614,Pascal VOC,dataset,pascal voc,,10.5281/zenodo.8312614,Zenodo
+15855990,Codes and Datasets for manuscript: Identification and Structural Characterization of Twisted Atomically Thin Bilayer Materials by Deep Learning,dataset,codes and datasets for manuscript: identification and structural characterization of twisted atomically thin bilayer materials by deep learning,,10.1021/acs.nanolett.3c04815,Zenodo
+4987755,Data from: Structure of the rare archaeal biosphere and seasonal dynamics of active ecotypes in surface coastal waters,dataset,data from: structure of the rare archaeal biosphere and seasonal dynamics of active ecotypes in surface coastal waters,,10.5061/dryad.q5903,Zenodo
+17185187,Anthophilous_insects_and_interactions_2023_data_Corsica_France,dataset,anthophilous_insects_and_interactions_2023_data_corsica_france,,10.5281/zenodo.17185187,Zenodo
+8312614,Pascal VOC,dataset,pascal voc,,10.5281/zenodo.8312614,Zenodo
+17182427,Insect_floral_visitors_and_interactions_2022_data_Corsica_France,dataset,insect_floral_visitors_and_interactions_2022_data_corsica_france,,10.5281/zenodo.17182427,Zenodo
+8312614,Pascal VOC,dataset,pascal voc,,10.5281/zenodo.8312614,Zenodo
+8368850,PASCAL VOC Pedestrian,dataset,pascal voc pedestrian,,10.5281/zenodo.8368850,Zenodo
+8186664,Pepper-mini,dataset,pepper-mini,,10.5281/zenodo.8186664,Zenodo
+5662351,HERIDAL dataset in keras-retinanet PASCAL VOC format,dataset,heridal dataset in keras-retinanet pascal voc format,,10.5281/zenodo.5662351,Zenodo
+7065974,Experimental Datasets and Processing Codes for the Semantic PHD Filter,dataset,experimental datasets and processing codes for the semantic phd filter,,10.5281/zenodo.7065974,Zenodo
+8312514,The dataset of Tomato,dataset,the dataset of tomato,,10.5281/zenodo.8312514,Zenodo
+3902506,A Comprehensive Analysis of Weakly-Supervised Semantic Segmentation in Different Image Domains,dataset,a comprehensive analysis of weakly-supervised semantic segmentation in different image domains,,10.5281/zenodo.3902506,Zenodo
+12684017,VOC2012 Detecetion and Segmentation Reupload,dataset,voc2012 detecetion and segmentation reupload,,10.5281/zenodo.12684017,Zenodo
+8312614,Pascal VOC,dataset,pascal voc,,10.5281/zenodo.8312614,Zenodo
+4399973,Predicting human complexity perception of real-world scenes,dataset,predicting human complexity perception of real-world scenes,,10.5061/dryad.3fs556j,Zenodo
+5095407,Object Detection meets Knowledge Graphs Raw Data,dataset,object detection meets knowledge graphs raw data,,10.5281/zenodo.5095407,Zenodo
+8186664,Pepper-mini,dataset,pepper-mini,,10.5281/zenodo.8186664,Zenodo
+11214032,VOC,dataset,voc,,10.5281/zenodo.11214032,Zenodo
+8312614,Pascal VOC,dataset,pascal voc,,10.5281/zenodo.8312614,Zenodo
+11081771,Landslide Detection: Faster-RCNN,dataset,landslide detection: faster-rcnn,,10.5281/zenodo.11081771,Zenodo
+14921818,Dataset for Super-Resolution Image Reconstruction based on Random-coupled Neural Network and EDSR,dataset,dataset for super-resolution image reconstruction based on random-coupled neural network and edsr,,10.5281/zenodo.14921818,Zenodo
+4979877,Data from: Analysis of local-scale background concentrations of methane and other gas-phase species in the Marcellus Shale,dataset,data from: analysis of local-scale background concentrations of methane and other gas-phase species in the marcellus shale,,10.5061/dryad.g8h54,Zenodo
+11214032,VOC,dataset,voc,,10.5281/zenodo.11214032,Zenodo
+5007673,"Supplementary Data to: Mediterranean diet, Alzheimer's disease biomarkers and brain atrophy in old age",dataset,"supplementary data to: mediterranean diet, alzheimer's disease biomarkers and brain atrophy in old age",,10.5061/dryad.6t1g1jwxg,Zenodo
+4362511,"MEDI: Macronutrient Extraction and Determination from Invertebrates, a rapid, cheap and streamlined protocol",dataset,"medi: macronutrient extraction and determination from invertebrates, a rapid, cheap and streamlined protocol",,10.5061/dryad.m905qfv0c,Zenodo
+4952234,Data from: A model for simulating the active dispersal of juvenile sea turtles with a case study on western Pacific leatherback turtles,dataset,data from: a model for simulating the active dispersal of juvenile sea turtles with a case study on western pacific leatherback turtles,,10.5061/dryad.h7j90,Zenodo
+5007673,"Supplementary Data to: Mediterranean diet, Alzheimer's disease biomarkers and brain atrophy in old age",dataset,"supplementary data to: mediterranean diet, alzheimer's disease biomarkers and brain atrophy in old age",,10.5061/dryad.6t1g1jwxg,Zenodo
+4362511,"MEDI: Macronutrient Extraction and Determination from Invertebrates, a rapid, cheap and streamlined protocol",dataset,"medi: macronutrient extraction and determination from invertebrates, a rapid, cheap and streamlined protocol",,10.5061/dryad.m905qfv0c,Zenodo
+4952234,Data from: A model for simulating the active dispersal of juvenile sea turtles with a case study on western Pacific leatherback turtles,dataset,data from: a model for simulating the active dispersal of juvenile sea turtles with a case study on western pacific leatherback turtles,,10.5061/dryad.h7j90,Zenodo
+4987681,Data from: EuMIXFOR empirical forest mensuration and ring width data from pure and mixed stands of Scots pine (Pinus sylvestris L.) and European beech (Fagus sylvatica L.) through Europe,dataset,data from: eumixfor empirical forest mensuration and ring width data from pure and mixed stands of scots pine (pinus sylvestris l.) and european beech (fagus sylvatica l.) through europe,,10.5061/dryad.8v04m,Zenodo
+5007673,"Supplementary Data to: Mediterranean diet, Alzheimer's disease biomarkers and brain atrophy in old age",dataset,"supplementary data to: mediterranean diet, alzheimer's disease biomarkers and brain atrophy in old age",,10.5061/dryad.6t1g1jwxg,Zenodo
+4989887,Data from: The trouble with triplets in biodiversity informatics: a data-driven case against current identifier practices,dataset,data from: the trouble with triplets in biodiversity informatics: a data-driven case against current identifier practices,,10.5061/dryad.4b115,Zenodo
+4944187,Data from: Triplet MaxCut: a new toolkit for rooted supertree,dataset,data from: triplet maxcut: a new toolkit for rooted supertree,,10.5061/dryad.qt26f,Zenodo
+8167225,Flow cytometry data (Clone triplets experiment),dataset,flow cytometry data (clone triplets experiment),,10.5281/zenodo.8167225,Zenodo
+13858535,USPTO dataset used by enviFormer,dataset,uspto dataset used by enviformer,,10.5281/zenodo.13858535,Zenodo
+6352358,Link Compustat – USPTO Patent Assignment Dataset,dataset,link compustat – uspto patent assignment dataset,,10.5281/zenodo.6352358,Zenodo
+8114657,USPTO-50k,dataset,uspto-50k,,10.5281/zenodo.8114657,Zenodo
+15798247,Precedent Finder USPTO artifacts,dataset,precedent finder uspto artifacts,,10.5281/zenodo.15798247,Zenodo
+8226022,"Supplementary dataset for ""Evaluating Graph Neural Networks for Link Prediction: Current Pitfalls and New Benchmarking""",dataset,"supplementary dataset for ""evaluating graph neural networks for link prediction: current pitfalls and new benchmarking""",,10.5281/zenodo.8226022,Zenodo
+12783759,Transcranial direct current stimulation enhances effort maintenance in ADHD,dataset,transcranial direct current stimulation enhances effort maintenance in adhd,,10.5281/zenodo.12783759,Zenodo
+7638511,DBLP-QuAD DBLP Dump,dataset,dblp-quad dblp dump,,10.5281/zenodo.7638511,Zenodo
+7555264,DBLP,dataset,dblp,,10.5281/zenodo.7555264,Zenodo
+4567527,DBLP  Article  Similarities (DBLP-ArtSim) dataset,dataset,dblp  article  similarities (dblp-artsim) dataset,,10.5281/zenodo.4567527,Zenodo
+7643971,DBLP-QuAD,dataset,dblp-quad,,10.5281/zenodo.7643971,Zenodo
+3051910,hdblp: historical data of the dblp collection,dataset,hdblp: historical data of the dblp collection,,10.5281/zenodo.3051910,Zenodo
+4361787,kgbench: dblp,dataset,kgbench: dblp,,10.5281/zenodo.4361787,Zenodo
+13358379,Author research area based on Citation Network Dataset FoS,dataset,author research area based on citation network dataset fos,,10.5281/zenodo.13358379,Zenodo
+4521734,DBLP gender dataset,dataset,dblp gender dataset,,10.5281/zenodo.4521734,Zenodo
+8134612,LUNA16 converted dataset,dataset,luna16 converted dataset,,10.5281/zenodo.8134612,Zenodo
+3723295,LUNA16 Part 1/2,dataset,luna16 part 1/2,,10.5281/zenodo.3723295,Zenodo
+4121926,LUNA16 Part 2/2,dataset,luna16 part 2/2,,10.5281/zenodo.4121926,Zenodo
+8042115,Lung nodule CT false positive reduction,dataset,lung nodule ct false positive reduction,,10.5281/zenodo.8042115,Zenodo
+6559584,LUNA22-ISMI,dataset,luna22-ismi,,10.5281/zenodo.6559584,Zenodo
+5548363,NODE21,dataset,node21,,10.5281/zenodo.5548363,Zenodo
+14659131,Duke Lung Cancer Screening Dataset 2024 - part 3,dataset,duke lung cancer screening dataset 2024 - part 3,,10.5281/zenodo.14659131,Zenodo
+7994201,Serum miRnome Profiling: A Novel Biomarker Platform for the Early Detection of NSCLC,dataset,serum mirnome profiling: a novel biomarker platform for the early detection of nsclc,,10.5281/zenodo.7994201,Zenodo
+5606234,Data from: Downregulation of circATXN7 represses non-small cell lung cancer growth by releasing miR-7-5p,dataset,data from: downregulation of circatxn7 represses non-small cell lung cancer growth by releasing mir-7-5p,,10.5061/dryad.4b8gthtdf,Zenodo
+3595212,ANODE09,dataset,anode09,,10.5281/zenodo.3595212,Zenodo
+6652094,TSN featrure on THUMOS-14,dataset,tsn featrure on thumos-14,,10.5281/zenodo.6652094,Zenodo
+6650813,TSN feature on  ActivityNet v1.3,dataset,tsn feature on  activitynet v1.3,,10.5281/zenodo.6650813,Zenodo
+8183467,The evaluation of ActivityNet-EKG* knowledge graph,dataset,the evaluation of activitynet-ekg* knowledge graph,,10.5281/zenodo.8183467,Zenodo
+7861678,The dataset of Teratogenic Effect of 1.3 bis(p-Hydroxyphenyl)urea,dataset,the dataset of teratogenic effect of 1.3 bis(p-hydroxyphenyl)urea,,10.5281/zenodo.7861678,Zenodo
+7340838,InternVideo-VideoMAE-L verb features for Ego4D MQ,dataset,internvideo-videomae-l verb features for ego4d mq,,10.5281/zenodo.7340838,Zenodo
+7343075,InternVideo-VideoMAE-L verb features for Ego4D NLQ,dataset,internvideo-videomae-l verb features for ego4d nlq,,10.5281/zenodo.7343075,Zenodo
+7343178,InternVideo-VideoMAE-L noun features for Ego4D NLQ,dataset,internvideo-videomae-l noun features for ego4d nlq,,10.5281/zenodo.7343178,Zenodo
+7340838,InternVideo-VideoMAE-L verb features for Ego4D MQ,dataset,internvideo-videomae-l verb features for ego4d mq,,10.5281/zenodo.7340838,Zenodo
+7343075,InternVideo-VideoMAE-L verb features for Ego4D NLQ,dataset,internvideo-videomae-l verb features for ego4d nlq,,10.5281/zenodo.7343075,Zenodo
+7343178,InternVideo-VideoMAE-L noun features for Ego4D NLQ,dataset,internvideo-videomae-l noun features for ego4d nlq,,10.5281/zenodo.7343178,Zenodo
+14614030,Formation and composition of the Earth's Hadean protocrust,dataset,formation and composition of the earth's hadean protocrust,,10.5281/zenodo.14614030,Zenodo
+6650813,TSN feature on  ActivityNet v1.3,dataset,tsn feature on  activitynet v1.3,,10.5281/zenodo.6650813,Zenodo
+8183467,The evaluation of ActivityNet-EKG* knowledge graph,dataset,the evaluation of activitynet-ekg* knowledge graph,,10.5281/zenodo.8183467,Zenodo
+15349075,S-VideoXum: A Dataset for Script-driven Video Summarization,dataset,s-videoxum: a dataset for script-driven video summarization,,10.5281/zenodo.15349075,Zenodo
+6652094,TSN featrure on THUMOS-14,dataset,tsn featrure on thumos-14,,10.5281/zenodo.6652094,Zenodo
+6652094,TSN featrure on THUMOS-14,dataset,tsn featrure on thumos-14,,10.5281/zenodo.6652094,Zenodo
+10233129,Crate,dataset,crate,,10.5281/zenodo.10233129,Zenodo
+3747221,"IO Islamic 14. Ta'rîkh-i- Kashmîr, A Fourth History of Kashmîr",dataset,"io islamic 14. ta'rîkh-i- kashmîr, a fourth history of kashmîr",,10.5281/zenodo.3747221,Zenodo
+4773398,PLANMAP - Deliverable D2.2 Mercury H-14 Debussy quadrangle 3 crater classes,dataset,planmap - deliverable d2.2 mercury h-14 debussy quadrangle 3 crater classes,,10.5281/zenodo.4773398,Zenodo
+8040215,"Data from: Individual life histories: Neither slow nor fast, just diverse",dataset,"data from: individual life histories: neither slow nor fast, just diverse",,10.5061/dryad.3bk3j9kpm,Zenodo
+15777742,Supporting materials for (GEB-2024-0782),dataset,supporting materials for (geb-2024-0782),,10.5281/zenodo.15777742,Zenodo
+6140505,Nitrogen resorption dynamics and slow-fast strategies in 137 Arabidopsis thaliana genotypes,dataset,nitrogen resorption dynamics and slow-fast strategies in 137 arabidopsis thaliana genotypes,,10.5281/zenodo.6140505,Zenodo
+5516384,Numerical responses of omnivorous terrestrial arthropods to plant alternative resources suppress prey populations: a meta-analysis,dataset,numerical responses of omnivorous terrestrial arthropods to plant alternative resources suppress prey populations: a meta-analysis,,10.25338/B8KP8P,Zenodo
+4970144,Data from: Trophic omnivory across a productivity gradient: intraguild predation theory and the structure and strength of species interactions,dataset,data from: trophic omnivory across a productivity gradient: intraguild predation theory and the structure and strength of species interactions,,10.5061/dryad.6k144,Zenodo
+7343075,InternVideo-VideoMAE-L verb features for Ego4D NLQ,dataset,internvideo-videomae-l verb features for ego4d nlq,,10.5281/zenodo.7343075,Zenodo
+7340838,InternVideo-VideoMAE-L verb features for Ego4D MQ,dataset,internvideo-videomae-l verb features for ego4d mq,,10.5281/zenodo.7340838,Zenodo
+7343178,InternVideo-VideoMAE-L noun features for Ego4D NLQ,dataset,internvideo-videomae-l noun features for ego4d nlq,,10.5281/zenodo.7343178,Zenodo
+17058101,MULTIVOX: A Spatial Audio-Visual Dataset of Singing Groups,dataset,multivox: a spatial audio-visual dataset of singing groups,,10.5281/zenodo.17058101,Zenodo
+7343075,InternVideo-VideoMAE-L verb features for Ego4D NLQ,dataset,internvideo-videomae-l verb features for ego4d nlq,,10.5281/zenodo.7343075,Zenodo
+7340838,InternVideo-VideoMAE-L verb features for Ego4D MQ,dataset,internvideo-videomae-l verb features for ego4d mq,,10.5281/zenodo.7340838,Zenodo
+7343178,InternVideo-VideoMAE-L noun features for Ego4D NLQ,dataset,internvideo-videomae-l noun features for ego4d nlq,,10.5281/zenodo.7343178,Zenodo
+5516384,Numerical responses of omnivorous terrestrial arthropods to plant alternative resources suppress prey populations: a meta-analysis,dataset,numerical responses of omnivorous terrestrial arthropods to plant alternative resources suppress prey populations: a meta-analysis,,10.25338/B8KP8P,Zenodo
+15708101,The Yelp Collaborative Knowledge Graph,dataset,the yelp collaborative knowledge graph,,10.5281/zenodo.15708101,Zenodo
+5997435,COMPRISE_Data06_YELP_V1.0,dataset,comprise_data06_yelp_v1.0,,10.5281/zenodo.5997435,Zenodo
+7949307,Geotagged Digital Traces,dataset,geotagged digital traces,,10.5281/zenodo.7949307,Zenodo
+5495793,Same Sentiment Classification Train/Dev/Test Pair IDs,dataset,same sentiment classification train/dev/test pair ids,,10.5281/zenodo.5495793,Zenodo
+17202762,madison-restaurant-reviews,dataset,madison-restaurant-reviews,,10.5281/zenodo.17202762,Zenodo
+11003210,Yelp,dataset,yelp,,10.5281/zenodo.11003210,Zenodo
+11630147,intron-innovation/AfriMed-QA: AfriMed-QA-v-1.2,dataset,intron-innovation/afrimed-qa: afrimed-qa-v-1.2,,10.5281/zenodo.11630147,Zenodo
+17199064,Replication Package of FairMedQA,dataset,replication package of fairmedqa,,10.5281/zenodo.17199064,Zenodo
+7773455,PubMedQA,dataset,pubmedqa,,10.5281/zenodo.7773455,Zenodo
+11624987,MMLU-Redux,dataset,mmlu-redux,,10.57967/hf/2507,Zenodo
+14051942,MMLU-Redux-2.0,dataset,mmlu-redux-2.0,,10.57967/hf/3469,Zenodo
+15703053,"Dataframes and scripts from: ""anti-PD-1 treatment response is associated with the influx of circulating myeloid and T-cell subsets into the metastatic melanoma tumor microenvironment""",dataset,"dataframes and scripts from: ""anti-pd-1 treatment response is associated with the influx of circulating myeloid and t-cell subsets into the metastatic melanoma tumor microenvironment""",,10.5281/zenodo.15703053,Zenodo
+2574335,Jamboree - Triage subsets,dataset,jamboree - triage subsets,,10.5281/zenodo.2574335,Zenodo
+5767210,Gene Wiki subsets,dataset,gene wiki subsets,,10.5281/zenodo.5767210,Zenodo
+11211757,RNAseq of partially paralyzed zebrafish embryos at 5 days post-fertilization compared to normal siblings,dataset,rnaseq of partially paralyzed zebrafish embryos at 5 days post-fertilization compared to normal siblings,,10.5061/dryad.7d7wm3838,Zenodo
+8124265,Oracle segmentation maps for fine-grained multitask CLIP,dataset,oracle segmentation maps for fine-grained multitask clip,,10.5281/zenodo.8124265,Zenodo
+3972388,CUB-200 Speech captions (Part-I),dataset,cub-200 speech captions (part-i),,10.5281/zenodo.3972388,Zenodo
+3973140,CUB-200 Speech captions (Part-II),dataset,cub-200 speech captions (part-ii),,10.5281/zenodo.3973140,Zenodo
+5000887,Data from: Silent fish surveys: bubble-free diving highlights inaccuracies associated with SCUBA-based surveys in heavily fished areas,dataset,data from: silent fish surveys: bubble-free diving highlights inaccuracies associated with scuba-based surveys in heavily fished areas,,10.5061/dryad.673tr,Zenodo
+4960768,Data from: Increasing belief but issue fatigue: changes in Australian Household Climate Change Segments between 2011 and 2016,dataset,data from: increasing belief but issue fatigue: changes in australian household climate change segments between 2011 and 2016,,10.5061/dryad.sf0fc75,Zenodo
+10963829,X-ray tomography 3D image dataset of natural fibre reinforced polypropylene,dataset,x-ray tomography 3d image dataset of natural fibre reinforced polypropylene,,10.5281/zenodo.10963829,Zenodo
+14878710,Credibility,dataset,credibility,,10.5281/zenodo.14878710,Zenodo
+6380073,French-language art critics bibliographies dataset,dataset,french-language art critics bibliographies dataset,,10.5281/zenodo.6380073,Zenodo
+8298062,In-shop Clothes Retrieval,dataset,in-shop clothes retrieval,,10.5281/zenodo.8298062,Zenodo
+7376970,"Availability of information on citizen science activities, checked against the Activities & Dimensions Grid of Citizen Science on the basis of some projects",dataset,"availability of information on citizen science activities, checked against the activities & dimensions grid of citizen science on the basis of some projects",,10.5281/zenodo.7376970,Zenodo
+7310071,Report on a Survey among Organisers of Citizen Science Projects - Dataset and Report,dataset,report on a survey among organisers of citizen science projects - dataset and report,,10.5281/zenodo.7310071,Zenodo
+5005611,Data from: Periodic shell decollation as an ecology-driven strategy in the early Cambrian Cupitheca,dataset,data from: periodic shell decollation as an ecology-driven strategy in the early cambrian cupitheca,,10.5061/dryad.cg747g1,Zenodo
+10422176,Castel Hunedoara II,dataset,castel hunedoara ii,,10.5281/zenodo.10422176,Zenodo
+15698266,Fieldnotes,dataset,fieldnotes,,10.5281/zenodo.15698266,Zenodo
+11481989,SSR and SNP profiles obtained for 40 non-redundant grapevine genotypes found in the living collection of Ain Taoujdate (Morocco),dataset,ssr and snp profiles obtained for 40 non-redundant grapevine genotypes found in the living collection of ain taoujdate (morocco),,10.5281/zenodo.11481989,Zenodo
+13868105,Synthetic dataset: Traffic Accidents & Vehicle Registry,dataset,synthetic dataset: traffic accidents & vehicle registry,,10.5281/zenodo.13868105,Zenodo
+5748237,Steelquist Dissertation - Chapter 2 Supplement,dataset,steelquist dissertation - chapter 2 supplement,,10.5281/zenodo.5748237,Zenodo
+5748198,Steelquist Dissertation - Chapter 3 Supplement,dataset,steelquist dissertation - chapter 3 supplement,,10.5281/zenodo.5748198,Zenodo
+3237458,Twitter pre-trained word vectors,dataset,twitter pre-trained word vectors,,10.5281/zenodo.3237458,Zenodo
+8298062,In-shop Clothes Retrieval,dataset,in-shop clothes retrieval,,10.5281/zenodo.8298062,Zenodo
+10634706,Dataset Retrieval Benchmark,dataset,dataset retrieval benchmark,,10.5281/zenodo.10634706,Zenodo
+11471586,Dataset Retrieval Benchmark,dataset,dataset retrieval benchmark,,10.5281/zenodo.11471586,Zenodo
+3550553,Improved upper bounds for permutation flowshop scheduling benchmarks (Taillard and VRF),dataset,improved upper bounds for permutation flowshop scheduling benchmarks (taillard and vrf),,10.5281/zenodo.3550553,Zenodo
+15063451,Job Shop Scheduling Problem Benchmark Instances,dataset,job shop scheduling problem benchmark instances,,10.5281/zenodo.15063451,Zenodo
+3605801,"Data Publication accompanying the paper ""How FAIR can you get? Image Retrieval as a Use Case to calculate FAIR Metrics""",dataset,"data publication accompanying the paper ""how fair can you get? image retrieval as a use case to calculate fair metrics""",,10.25927/000,Zenodo
+12598215,stark_test_data,dataset,stark_test_data,,10.5281/zenodo.12598215,Zenodo
+8298062,In-shop Clothes Retrieval,dataset,in-shop clothes retrieval,,10.5281/zenodo.8298062,Zenodo
+8124265,Oracle segmentation maps for fine-grained multitask CLIP,dataset,oracle segmentation maps for fine-grained multitask clip,,10.5281/zenodo.8124265,Zenodo
+3972388,CUB-200 Speech captions (Part-I),dataset,cub-200 speech captions (part-i),,10.5281/zenodo.3972388,Zenodo
+3973140,CUB-200 Speech captions (Part-II),dataset,cub-200 speech captions (part-ii),,10.5281/zenodo.3973140,Zenodo
+4247813,Bonpreu-Esclat Online Supermarket Products,dataset,bonpreu-esclat online supermarket products,,10.5281/zenodo.4247813,Zenodo
+4263423,Bonpreu-Esclat Online Supermarket Products,dataset,bonpreu-esclat online supermarket products,,10.5281/zenodo.4263423,Zenodo
+7339319,Dataset Literature Review Online Business AND Products,dataset,dataset literature review online business and products,,10.5281/zenodo.7339319,Zenodo
+7361556,Dataset Literature Review Online Business AND Product,dataset,dataset literature review online business and product,,10.5281/zenodo.7361556,Zenodo
+7339136,Dataset Literature Review Online Business and Products,dataset,dataset literature review online business and products,,10.5281/zenodo.7339136,Zenodo
+4562729,Pre-processed XSum data for BERT,dataset,pre-processed xsum data for bert,,10.5281/zenodo.4562729,Zenodo
+10254976,XSum and CNN with paraphrases of summaries,dataset,xsum and cnn with paraphrases of summaries,,10.5281/zenodo.10254976,Zenodo
+4562810,Pre-processed XSum and CNN/Dailymail for BERT-based summarization,dataset,pre-processed xsum and cnn/dailymail for bert-based summarization,,10.5281/zenodo.4562810,Zenodo
+10720917,Tiny ImageNet,dataset,tiny imagenet,,10.5281/zenodo.10720917,Zenodo
+14986611,CIFAR10,dataset,cifar10,,10.5281/zenodo.14986611,Zenodo
+8056918,ResNet 34 Ensemble Predictions on TinyImageNet,dataset,resnet 34 ensemble predictions on tinyimagenet,,10.5281/zenodo.8056918,Zenodo
+6653675,Tiny-ImageNet-R,dataset,tiny-imagenet-r,,10.5281/zenodo.6653675,Zenodo
+10089977,CIFAR-10 & CIFAR-100,dataset,cifar-10 & cifar-100,,10.5281/zenodo.10089977,Zenodo
+14589101,TinyImageNet statistics and PCA,dataset,tinyimagenet statistics and pca,,10.5281/zenodo.14589101,Zenodo
+15188748,Rescaled CIFAR-10 dataset,dataset,rescaled cifar-10 dataset,,10.5281/zenodo.15188748,Zenodo
+10820379,KITTI,dataset,kitti,,10.5281/zenodo.10820379,Zenodo
+3931823,KITTI-Masks,dataset,kitti-masks,,10.5281/zenodo.3931823,Zenodo
+13824218,EMS3D-KITTI-Synthetic: A Synthetic 3D Dataset in KITTI Format with Balanced EMS Vehicle Distribution for Autonomous Driving AI Model Training,dataset,ems3d-kitti-synthetic: a synthetic 3d dataset in kitti format with balanced ems vehicle distribution for autonomous driving ai model training,,10.5281/zenodo.13824218,Zenodo
+7046095,KITTI 3D Object Detection,dataset,kitti 3d object detection,,10.5281/zenodo.7046095,Zenodo
+5783420,OpenLABEL-enriched KITTI Tracking scenarios,dataset,openlabel-enriched kitti tracking scenarios,,10.5281/zenodo.5783420,Zenodo
+4625767,Austrian court decisions,dataset,austrian court decisions,,10.5281/zenodo.4625767,Zenodo
+6801109,ImageNet-Cartoon and ImageNet-Drawing: two domain shift datasets for ImageNet,dataset,imagenet-cartoon and imagenet-drawing: two domain shift datasets for imagenet,,10.5281/zenodo.6801109,Zenodo
+10720917,Tiny ImageNet,dataset,tiny imagenet,,10.5281/zenodo.10720917,Zenodo
+4061848,Flora of Russia on iNaturalist backup 2020 Sep 08 (750K + 136K records),dataset,flora of russia on inaturalist backup 2020 sep 08 (750k + 136k records),,10.5281/zenodo.4061848,Zenodo
+7544933,Classification of pictures taken from Flickr and iNaturalist for cultural ecosystem services in Minho Region Portugal,dataset,classification of pictures taken from flickr and inaturalist for cultural ecosystem services in minho region portugal,,10.5281/zenodo.7544933,Zenodo
+13321600,iNaturalist: iNaturalist Images (deprecated),dataset,inaturalist: inaturalist images (deprecated),,10.5281/zenodo.13321600,Zenodo
+4099136,An open dataset of butterflies species of south India,dataset,an open dataset of butterflies species of south india,,10.5281/zenodo.4099136,Zenodo
+3371882,SUSTAIN NRL LT,dataset,sustain nrl lt,,10.5281/zenodo.3371882,Zenodo
+5795270,Generated RGBD Tracking Benchmarks (COCO2017),dataset,generated rgbd tracking benchmarks (coco2017),,10.5281/zenodo.5795270,Zenodo
+12533514,Adult dataset preprocessed,dataset,adult dataset preprocessed,,10.5281/zenodo.12533514,Zenodo
+6683974,2011 Census estimates of the workplace population in England and Wales,dataset,2011 census estimates of the workplace population in england and wales,,10.5281/zenodo.6683974,Zenodo
+12524822,UCI_Credit_Card,dataset,uci_credit_card,,10.24432/C55S3H,Zenodo
+6683974,2011 Census estimates of the workplace population in England and Wales,dataset,2011 census estimates of the workplace population in england and wales,,10.5281/zenodo.6683974,Zenodo
+17182944,Magnetic Spectra for Density Scale analysis in Martian Ionosphere.,dataset,magnetic spectra for density scale analysis in martian ionosphere.,,10.5281/zenodo.17182944,Zenodo
+17202702,Power Spectral Characteristic of Martian Ionospheric Irregularities.,dataset,power spectral characteristic of martian ionospheric irregularities.,,10.5281/zenodo.17202702,Zenodo
+3381406,Unstable Ion Composition Boundary Layer Crossings,dataset,unstable ion composition boundary layer crossings,,10.5281/zenodo.3381406,Zenodo
+10519874,Longitudinal wave components of Mars thermosphere composition measured by MAVEN/NGIMS,dataset,longitudinal wave components of mars thermosphere composition measured by maven/ngims,,10.5281/zenodo.10519874,Zenodo
+1489120,Maven central dependency graph,dataset,maven central dependency graph,,10.5281/zenodo.1489120,Zenodo
+8085786,Maven Central Analysis Niels,dataset,maven central analysis niels,,10.5281/zenodo.8085786,Zenodo
+3876714,Spherical harmonic model of the magnetic field of Mars from Langlais et al. (2019),dataset,spherical harmonic model of the magnetic field of mars from langlais et al. (2019),,10.5281/zenodo.3876714,Zenodo
+11236872,Maven packaging,dataset,maven packaging,,10.5281/zenodo.11236872,Zenodo
+10319006,Cozy armchair,dataset,cozy armchair,,10.5281/zenodo.10319006,Zenodo
+10242523,lowpoly knife,dataset,lowpoly knife,,10.5281/zenodo.10242523,Zenodo
+15007457,Consensus molecular environment of schizophrenia risk genes in co-expression networks shifting across age and brain regions,dataset,consensus molecular environment of schizophrenia risk genes in co-expression networks shifting across age and brain regions,,10.5281/zenodo.15007457,Zenodo
+16091428,Tra Loi,dataset,tra loi,,10.5281/zenodo.16091428,Zenodo
+4907200,Raw data related to Robust high-dimensional memory-augmented neural networks,dataset,raw data related to robust high-dimensional memory-augmented neural networks,,10.1038/s41467-021-22364-0,Zenodo
+13218559,few-shot dataset,dataset,few-shot dataset,,10.5281/zenodo.13218559,Zenodo
+3672132,SlimageNet64,dataset,slimagenet64,,10.5281/zenodo.3672132,Zenodo
+4730132,"Dataset used in ""Room Identification Using Frequency Dependence of Spectral Decay Statistics""",dataset,"dataset used in ""room identification using frequency dependence of spectral decay statistics""",,10.5281/zenodo.4730132,Zenodo
+2707356,The Knesset Meetings Corpus 2004-2005,dataset,the knesset meetings corpus 2004-2005,,10.5281/zenodo.2707356,Zenodo
+15007457,Consensus molecular environment of schizophrenia risk genes in co-expression networks shifting across age and brain regions,dataset,consensus molecular environment of schizophrenia risk genes in co-expression networks shifting across age and brain regions,,10.5281/zenodo.15007457,Zenodo
+6695546,gmap - qgis training material: Beagle Rupes (Mercury),dataset,gmap - qgis training material: beagle rupes (mercury),,10.5281/zenodo.6695546,Zenodo
+10852841,LAMASUS NUTS-level climate data 01/2007-12/2016,dataset,lamasus nuts-level climate data 01/2007-12/2016,,10.5281/zenodo.10852841,Zenodo
+14975293,Epigenome-wide association study of pregnancy exposure to green space and placental DNA methylation,dataset,epigenome-wide association study of pregnancy exposure to green space and placental dna methylation,,10.5281/zenodo.14975293,Zenodo
+2597599,Molecular Evolution of Tuatara Visual System Datasets: Supporting Data for the Tuatara Genome,dataset,molecular evolution of tuatara visual system datasets: supporting data for the tuatara genome,,10.5281/zenodo.2597599,Zenodo
+5926295,TELL me what you See (TESE),dataset,tell me what you see (tese),,10.5281/zenodo.5926295,Zenodo
+17156271,Flickr: Flickr Group (15),dataset,flickr: flickr group (15),,10.5281/zenodo.17156271,Zenodo
+17157011,Flickr: Flickr BHL (544),dataset,flickr: flickr bhl (544),,10.5281/zenodo.17157011,Zenodo
+13318983,Flickr: BHL Flickr cropped images,dataset,flickr: bhl flickr cropped images,,10.5281/zenodo.13318983,Zenodo
+13318980,Flickr: Smithsonian Wild Flickr (650),dataset,flickr: smithsonian wild flickr (650),,10.5281/zenodo.13318980,Zenodo
+15627798,Flickr: Andreas Kay Flickr Images & Videos,dataset,flickr: andreas kay flickr images & videos,,10.5281/zenodo.15627798,Zenodo
+4955306,Data from: Chatty maps: constructing sound maps of urban areas from social media data,dataset,data from: chatty maps: constructing sound maps of urban areas from social media data,,10.5061/dryad.tg735,Zenodo
+12572919,Flickr Datasets,dataset,flickr datasets,,10.5281/zenodo.12572919,Zenodo
+7964872,Ambient Diffusion Checkpoints,dataset,ambient diffusion checkpoints,,10.5281/zenodo.7964872,Zenodo
+5016404,"Data from: The morphometrics of ""masculinity"" in human faces",dataset,"data from: the morphometrics of ""masculinity"" in human faces",,10.5061/dryad.cp0p5,Zenodo
+13969130,EEG Dataset of 38 Infants (Aged 5-13 Months) Viewing Human and Monkey Faces (Two Identities Each),dataset,eeg dataset of 38 infants (aged 5-13 months) viewing human and monkey faces (two identities each),,10.5281/zenodo.13969130,Zenodo
+10383857,Ladder - Dayak People,dataset,ladder - dayak people,,10.5281/zenodo.10383857,Zenodo
+14752744,FFHQ-Morphs,dataset,ffhq-morphs,,10.34777/fc28-ch06,Zenodo
+14252074,Diverse Dataset for Eyeglasses Detection: Extending the Flickr-Faces-HQ (FFHQ) Dataset,dataset,diverse dataset for eyeglasses detection: extending the flickr-faces-hq (ffhq) dataset,,10.5281/zenodo.14252074,Zenodo
+15121401,Annotated Dataset of Real and AI-Generated Faces with Dentofacial Markers,dataset,annotated dataset of real and ai-generated faces with dentofacial markers,,10.5281/zenodo.15121401,Zenodo
+14532968,Real vs Fake Faces Balanced Dataset with Multiple Dataset Splits,dataset,real vs fake faces balanced dataset with multiple dataset splits,,10.5281/zenodo.14532968,Zenodo
+16911923,AgeSynth,dataset,agesynth,,10.34777/n312-aw20,Zenodo
+16408473,PsyPlan,dataset,psyplan,,10.5281/zenodo.16408473,Zenodo
+7727882,Intersection Monitoring: A dataset for vehicle detection using an infrastructure camera including ground truth vehicle localization,dataset,intersection monitoring: a dataset for vehicle detection using an infrastructure camera including ground truth vehicle localization,,10.5281/zenodo.7727882,Zenodo
+7964872,Ambient Diffusion Checkpoints,dataset,ambient diffusion checkpoints,,10.5281/zenodo.7964872,Zenodo
+4947815,Data from: Free-ranging farm cats: home range size and predation on a livestock unit in Northwest Georgia,dataset,data from: free-ranging farm cats: home range size and predation on a livestock unit in northwest georgia,,10.5061/dryad.v3n85,Zenodo
+7964872,Ambient Diffusion Checkpoints,dataset,ambient diffusion checkpoints,,10.5281/zenodo.7964872,Zenodo
+5726023,Attitudes Toward and Impacts of Free-roaming Dogs in Madagascar,dataset,attitudes toward and impacts of free-roaming dogs in madagascar,,10.5061/dryad.z34tmpgfs,Zenodo
+7964872,Ambient Diffusion Checkpoints,dataset,ambient diffusion checkpoints,,10.5281/zenodo.7964872,Zenodo
+13910039,"Data from ""Robust sensory traits across light habitats: Visual signals but not receptors vary in centrarchids inhabiting distinct photic environments""",dataset,"data from ""robust sensory traits across light habitats: visual signals but not receptors vary in centrarchids inhabiting distinct photic environments""",,10.5281/zenodo.13910039,Zenodo
+7964872,Ambient Diffusion Checkpoints,dataset,ambient diffusion checkpoints,,10.5281/zenodo.7964872,Zenodo
+13910039,"Data from ""Robust sensory traits across light habitats: Visual signals but not receptors vary in centrarchids inhabiting distinct photic environments""",dataset,"data from ""robust sensory traits across light habitats: visual signals but not receptors vary in centrarchids inhabiting distinct photic environments""",,10.5281/zenodo.13910039,Zenodo
+7248214,"A comprehensive geospatial database of nearly 100,000 reservoirs in China",dataset,"a comprehensive geospatial database of nearly 100,000 reservoirs in china",,10.5281/zenodo.7248214,Zenodo
+16901925,nuScenes-ODD: An Extension of the nuScenes Dataset with Operational Design Domain Annotations,dataset,nuscenes-odd: an extension of the nuscenes dataset with operational design domain annotations,,10.5281/zenodo.16901925,Zenodo
+15667420,can_bus From nuScenes dataset,dataset,can_bus from nuscenes dataset,,10.5281/zenodo.15667420,Zenodo
+15667707,nuScenes map Expansion,dataset,nuscenes map expansion,,10.5281/zenodo.15667707,Zenodo
+10074393,nuScenes Knowledge Graph,dataset,nuscenes knowledge graph,,10.5281/zenodo.10074393,Zenodo
+8045922,Lanelet2 for nuScenes: Map Dataset,dataset,lanelet2 for nuscenes: map dataset,,10.5281/zenodo.8045922,Zenodo
+5720655,Spoken QA,dataset,spoken qa,,10.5281/zenodo.5720655,Zenodo
+3928402,WP6 dataset.csv,dataset,wp6 dataset.csv,,10.5281/zenodo.3928402,Zenodo
+8331281,"Replication package for the paper: ""Machine Learning for the Identification and Classification of Technical Debt Types on StackOverflow Discussions""",dataset,"replication package for the paper: ""machine learning for the identification and classification of technical debt types on stackoverflow discussions""",,10.5281/zenodo.8331281,Zenodo
+15073188,Flow resistance data set and R code,dataset,flow resistance data set and r code,,10.5281/zenodo.15073188,Zenodo
+4958731,"Data from: Temporal, spatial and household dynamics of typhoid fever in Kasese district, Uganda",dataset,"data from: temporal, spatial and household dynamics of typhoid fever in kasese district, uganda",,10.5061/dryad.fh8k355,Zenodo
+4937332,Data from: Egg size and offspring performance in the collared flycatcher (Ficedula albicollis): a within-clutch approach,dataset,data from: egg size and offspring performance in the collared flycatcher (ficedula albicollis): a within-clutch approach,,10.5061/dryad.1758,Zenodo
+8104408,MNIST-Federated-Learning,dataset,mnist-federated-learning,,10.5281/zenodo.8104408,Zenodo
+12759284,MNIST_train_test_set.hdf5,dataset,mnist_train_test_set.hdf5,,10.5281/zenodo.12759284,Zenodo
+5590638,Modified MNIST,dataset,modified mnist,,10.5281/zenodo.5590638,Zenodo
+13357260,mnist dataset,dataset,mnist dataset,,10.5281/zenodo.13357260,Zenodo
+10058130,MNIST dataset,dataset,mnist dataset,,10.5281/zenodo.10058130,Zenodo
+7602025,Wildlife MNIST,dataset,wildlife mnist,,10.5281/zenodo.7602025,Zenodo
+7842598,Event-Human3.6m,dataset,event-human3.6m,,10.5281/zenodo.7842598,Zenodo
+10716924,Datasets generated during study,dataset,datasets generated during study,,10.5281/zenodo.10716924,Zenodo
+17214250,"Human Navigation Dataset: Darko, CMU-Mocap, and Human3.6M",dataset,"human navigation dataset: darko, cmu-mocap, and human3.6m",,10.5281/zenodo.17214250,Zenodo
+16418520,LEGN-CARA,dataset,legn-cara,,10.5281/zenodo.16418520,Zenodo
+16418412,AffectGraph,dataset,affectgraph,,10.5281/zenodo.16418412,Zenodo
+7615573,SocketSense Open Access Data KTH Part,dataset,socketsense open access data kth part,,10.5281/zenodo.7615573,Zenodo
+7714890,SocketSense Open Access Data KTH Part,dataset,socketsense open access data kth part,,10.5281/zenodo.7714890,Zenodo
+4952258,"Data from: First wave of the 2016-17 cholera outbreak in Hodeidah city, Yemen - ACF experience and lessons learned",dataset,"data from: first wave of the 2016-17 cholera outbreak in hodeidah city, yemen - acf experience and lessons learned",,10.5061/dryad.738c1,Zenodo
+14802821,Farming with Alternative Pollinators for Increased Biodiversity and Smallholder Incomes in Zimbabwe,dataset,farming with alternative pollinators for increased biodiversity and smallholder incomes in zimbabwe,,10.1101/2024.11.29.626070,Zenodo
+5608535,Data and code from: Healthy young adults use distinct gait strategies to enhance stability when walking on mild slopes and when altering arm swing,dataset,data and code from: healthy young adults use distinct gait strategies to enhance stability when walking on mild slopes and when altering arm swing,,10.5281/zenodo.5608535,Zenodo
+5608535,Data and code from: Healthy young adults use distinct gait strategies to enhance stability when walking on mild slopes and when altering arm swing,dataset,data and code from: healthy young adults use distinct gait strategies to enhance stability when walking on mild slopes and when altering arm swing,,10.5281/zenodo.5608535,Zenodo
+5026857,"Data from: Estimating the variation, autocorrelation, and environmental sensitivity of phenotypic selection",dataset,"data from: estimating the variation, autocorrelation, and environmental sensitivity of phenotypic selection",,10.5061/dryad.6td18,Zenodo
+10013081,Os Cativos Alcácer Quibir (1579-1607) - Fontes Trinitárias,dataset,os cativos alcácer quibir (1579-1607) - fontes trinitárias,,10.5281/zenodo.10013081,Zenodo
+15067178,Data for the extension of the WeatherBench 2 to binary hydroclimatic forecasts,dataset,data for the extension of the weatherbench 2 to binary hydroclimatic forecasts,,10.5281/zenodo.15067178,Zenodo
+15066898,Data for the extension of the WeatherBench 2 to binary hydroclimatic forecasts: ensemble forecasts for 24h maximum temperature,dataset,data for the extension of the weatherbench 2 to binary hydroclimatic forecasts: ensemble forecasts for 24h maximum temperature,,10.5281/zenodo.15066898,Zenodo
+6480846,TIGGE data for WeatherBench Probability,dataset,tigge data for weatherbench probability,,10.5281/zenodo.6480846,Zenodo
+15066828,Data for the extension of the WeatherBench 2 to binary hydroclimatic forecasts: ensemble forecasts for 24h precipitation,dataset,data for the extension of the weatherbench 2 to binary hydroclimatic forecasts: ensemble forecasts for 24h precipitation,,10.5281/zenodo.15066828,Zenodo
+10624903,Applied Data Science - Met Office Dataset,dataset,applied data science - met office dataset,,10.5281/zenodo.10624903,Zenodo
+15261558,"Example data for the paper ""Exploring Design Choices For Autoregressive Deep Learning Climate Models""",dataset,"example data for the paper ""exploring design choices for autoregressive deep learning climate models""",,10.5281/zenodo.15261558,Zenodo
+14358212,Data release: Validating Deep-Learning Weather Forecast Models on Recent High-Impact Extreme Events,dataset,data release: validating deep-learning weather forecast models on recent high-impact extreme events,,10.5281/zenodo.14358212,Zenodo
+3670627,CIFAR & rotated-MNIST dataset,dataset,cifar & rotated-mnist dataset,,10.5281/zenodo.3670627,Zenodo
+582892,Baseline models and optimized CNN models for 8 datasets,dataset,baseline models and optimized cnn models for 8 datasets,,10.5281/zenodo.582892,Zenodo
+11657876,"Dataset of the ""Unwrapping Non-Locality in the Image Transmission Through Turbid Media""",dataset,"dataset of the ""unwrapping non-locality in the image transmission through turbid media""",,10.5281/zenodo.11657876,Zenodo
+10392793,Neural Field Arena - Classification,dataset,neural field arena - classification,,10.5281/zenodo.10392793,Zenodo
+10089977,CIFAR-10 & CIFAR-100,dataset,cifar-10 & cifar-100,,10.5281/zenodo.10089977,Zenodo
+8104408,MNIST-Federated-Learning,dataset,mnist-federated-learning,,10.5281/zenodo.8104408,Zenodo
+5648918,CIFAR-10G,dataset,cifar-10g,,10.5281/zenodo.5648918,Zenodo
+12759284,MNIST_train_test_set.hdf5,dataset,mnist_train_test_set.hdf5,,10.5281/zenodo.12759284,Zenodo
+7615573,SocketSense Open Access Data KTH Part,dataset,socketsense open access data kth part,,10.5281/zenodo.7615573,Zenodo
+7714890,SocketSense Open Access Data KTH Part,dataset,socketsense open access data kth part,,10.5281/zenodo.7714890,Zenodo
+5496034,OPEN-KTH: An Open Lidar Dataset of KTH Campus Valhallavägen,dataset,open-kth: an open lidar dataset of kth campus valhallavägen,,10.5281/zenodo.5496034,Zenodo
+7842598,Event-Human3.6m,dataset,event-human3.6m,,10.5281/zenodo.7842598,Zenodo
+17052845,"The vertical prifile of the microclimate and flying adult aquatic insects directly above a mountainous stream in Kyushu, Japan",dataset,"the vertical prifile of the microclimate and flying adult aquatic insects directly above a mountainous stream in kyushu, japan",,10.5281/zenodo.17052845,Zenodo
+6243336,NetFlow data collected with different packet sampling rates,dataset,netflow data collected with different packet sampling rates,,10.5281/zenodo.6243336,Zenodo
+5849306,Netflow data with sampling 500 for training (D2),dataset,netflow data with sampling 500 for training (d2),,10.5281/zenodo.5849306,Zenodo
+5849343,Netflow data with sampling 1000 for training (D3),dataset,netflow data with sampling 1000 for training (d3),,10.5281/zenodo.5849343,Zenodo
+5849329,Netflow data with sampling 500 for test (D5),dataset,netflow data with sampling 500 for test (d5),,10.5281/zenodo.5849329,Zenodo
+5849356,Netflow data with sampling 1000 for test (D6),dataset,netflow data with sampling 1000 for test (d6),,10.5281/zenodo.5849356,Zenodo
+5849288,Netflow data with sampling 250 for training (D1),dataset,netflow data with sampling 250 for training (d1),,10.5281/zenodo.5849288,Zenodo
+5849375,Netflow data with sampling collected from RedCAYLE  (D7),dataset,netflow data with sampling collected from redcayle  (d7),,10.5281/zenodo.5849375,Zenodo
+5849262,Netflow data with sampling 250 for test (D4),dataset,netflow data with sampling 250 for test (d4),,10.5281/zenodo.5849262,Zenodo
+7912833,EVIDENT H2020– Environmental data for Sweden cities Dataset,dataset,evident h2020– environmental data for sweden cities dataset,,10.5281/zenodo.7912833,Zenodo
+4601660,"MIDAS Open hourly air temperature data - Coventry, Great Britain",dataset,"midas open hourly air temperature data - coventry, great britain",,10.5281/zenodo.4601660,Zenodo
+5002558,Data from: Solar radiation during rewarming from torpor in elephant shrews: supplementation or substitution of endogenous heat production?,dataset,data from: solar radiation during rewarming from torpor in elephant shrews: supplementation or substitution of endogenous heat production?,,10.5061/dryad.fc7mn,Zenodo
+10650144,Data for: Variations of floral temperature in changing weather conditions,dataset,data for: variations of floral temperature in changing weather conditions,,10.5281/zenodo.10650144,Zenodo
+10649875,Thermography data for: Variations of floral temperature in changing weather conditions,dataset,thermography data for: variations of floral temperature in changing weather conditions,,10.5281/zenodo.10649875,Zenodo
+5129073,Temperature Rain Dataset with Missing Values,dataset,temperature rain dataset with missing values,,10.5281/zenodo.5129073,Zenodo
+5129091,Temperature Rain Dataset without Missing Values,dataset,temperature rain dataset without missing values,,10.5281/zenodo.5129091,Zenodo
+7912833,EVIDENT H2020– Environmental data for Sweden cities Dataset,dataset,evident h2020– environmental data for sweden cities dataset,,10.5281/zenodo.7912833,Zenodo
+12742931,Exemplary dataset measured by Bresser WIFI Weather Station from 21.August 2023,dataset,exemplary dataset measured by bresser wifi weather station from 21.august 2023,,10.5281/zenodo.12742931,Zenodo
+6893120,"Annual indices of heat and humidity, U.S. Army installations, 1990-2018",dataset,"annual indices of heat and humidity, u.s. army installations, 1990-2018",,10.5281/zenodo.6893120,Zenodo
+7446661,AEMET Weather Dataset,dataset,aemet weather dataset,,10.5281/zenodo.7446661,Zenodo
+6555940,Physical Informed Deep Learning Reconstructs Missing Climate Information in the Antarctic,dataset,physical informed deep learning reconstructs missing climate information in the antarctic,,10.5281/zenodo.6555940,Zenodo
+8139869,SAMI3 data in netCDF format (2019-Apr-14),dataset,sami3 data in netcdf format (2019-apr-14),,10.5281/zenodo.8139869,Zenodo
+8215208,SAMI3 data in netCDF format (2019-May-07),dataset,sami3 data in netcdf format (2019-may-07),,10.5281/zenodo.8215208,Zenodo
+8215204,SAMI3 data in netCDF format (2019-May-06),dataset,sami3 data in netcdf format (2019-may-06),,10.5281/zenodo.8215204,Zenodo
+8139771,SAMI3 data in netCDF format (2019-Apr-08),dataset,sami3 data in netcdf format (2019-apr-08),,10.5281/zenodo.8139771,Zenodo
+8215245,SAMI3 data in netCDF format (2019-May-15),dataset,sami3 data in netcdf format (2019-may-15),,10.5281/zenodo.8215245,Zenodo
+7877588,SAMI3 data in netCDF format (2019-Mar-29),dataset,sami3 data in netcdf format (2019-mar-29),,10.5281/zenodo.7877588,Zenodo
+7152472,"Data for ""Impact of Gaussian transformation on cloud cover data assimilation for historical weather reconstruction""",dataset,"data for ""impact of gaussian transformation on cloud cover data assimilation for historical weather reconstruction""",,10.5281/zenodo.7152472,Zenodo
+6927793,Southeast Brazil average temperature for selected stations (1985-2010),dataset,southeast brazil average temperature for selected stations (1985-2010),,10.5281/zenodo.6927793,Zenodo
+8204518,Historical model forecast and observed visibility datasets,dataset,historical model forecast and observed visibility datasets,,10.5281/zenodo.8204518,Zenodo
+14691474,METAR cloud cover over weather stations in Sentinel-2 satellite images,dataset,metar cloud cover over weather stations in sentinel-2 satellite images,,10.5281/zenodo.14691474,Zenodo
+4012291,Ontolex-lemon and TIAD versions of Apertium English-Galician dictionary,dataset,ontolex-lemon and tiad versions of apertium english-galician dictionary,,10.5281/zenodo.4012291,Zenodo
+4012413,Ontolex-lemon and TIAD versions of Apertium Occitan (post 1500)-Spanish dictionary,dataset,ontolex-lemon and tiad versions of apertium occitan (post 1500)-spanish dictionary,,10.5281/zenodo.4012413,Zenodo
+4012409,Ontolex-lemon and TIAD versions of Apertium Occitan (post 1500)-Catalan dictionary,dataset,ontolex-lemon and tiad versions of apertium occitan (post 1500)-catalan dictionary,,10.5281/zenodo.4012409,Zenodo
+4012280,Ontolex-lemon and TIAD versions of Apertium English-Spanish dictionary,dataset,ontolex-lemon and tiad versions of apertium english-spanish dictionary,,10.5281/zenodo.4012280,Zenodo
+3558239,"MeSCCon -  Medical Spanish Chemical compound, drug and medication Name Lexicon (unfiltered version)",dataset,"mesccon -  medical spanish chemical compound, drug and medication name lexicon (unfiltered version)",,10.5281/zenodo.3558239,Zenodo
+3558271,MeSDiCon - Medical Spanish Disease and symptom name Collection lexicon (unfiltered initial version),dataset,mesdicon - medical spanish disease and symptom name collection lexicon (unfiltered initial version),,10.5281/zenodo.3558271,Zenodo
+4775741,MEDDOPROF corpus: training set + complementary entities,dataset,meddoprof corpus: training set + complementary entities,,10.5281/zenodo.4775741,Zenodo
+4012291,Ontolex-lemon and TIAD versions of Apertium English-Galician dictionary,dataset,ontolex-lemon and tiad versions of apertium english-galician dictionary,,10.5281/zenodo.4012291,Zenodo
+4012413,Ontolex-lemon and TIAD versions of Apertium Occitan (post 1500)-Spanish dictionary,dataset,ontolex-lemon and tiad versions of apertium occitan (post 1500)-spanish dictionary,,10.5281/zenodo.4012413,Zenodo
+4012409,Ontolex-lemon and TIAD versions of Apertium Occitan (post 1500)-Catalan dictionary,dataset,ontolex-lemon and tiad versions of apertium occitan (post 1500)-catalan dictionary,,10.5281/zenodo.4012409,Zenodo
+4012280,Ontolex-lemon and TIAD versions of Apertium English-Spanish dictionary,dataset,ontolex-lemon and tiad versions of apertium english-spanish dictionary,,10.5281/zenodo.4012280,Zenodo
+5916501,Preprocessed MovieLens-1M,dataset,preprocessed movielens-1m,,10.5281/zenodo.5916501,Zenodo
+11502634,Fair Graph Augmentation for Graph Collaborative Filtering,dataset,fair graph augmentation for graph collaborative filtering,,10.5281/zenodo.11502634,Zenodo
+11502753,Fairness in Diffusion Recommender Models: Insights from an Empirical Study of DiffRec,dataset,fairness in diffusion recommender models: insights from an empirical study of diffrec,,10.5281/zenodo.11502753,Zenodo
+10998034,MovieLens,dataset,movielens,,10.5281/zenodo.10998034,Zenodo
+14571726,MovieLens 20M Posters and Subtitles Multi-modal,dataset,movielens 20m posters and subtitles multi-modal,,10.5281/zenodo.14571726,Zenodo
+15403972,"See the Movie, Hear the Song, Read the Book: Extending MovieLens-1M, Last.fm 2K, and DBBook with multimodal Data",dataset,"see the movie, hear the song, read the book: extending movielens-1m, last.fm 2k, and dbbook with multimodal data",,10.5281/zenodo.15403972,Zenodo
+8276077,Movies and Ratings,dataset,movies and ratings,,10.5281/zenodo.8276077,Zenodo
+3820050,100 Bestselller books during COVID-19 in Spain,dataset,100 bestselller books during covid-19 in spain,,10.5281/zenodo.3820050,Zenodo
+15708101,The Yelp Collaborative Knowledge Graph,dataset,the yelp collaborative knowledge graph,,10.5281/zenodo.15708101,Zenodo
+11003210,Yelp,dataset,yelp,,10.5281/zenodo.11003210,Zenodo
+5259139,Yelp Reviews Full (YELP) 2015,dataset,yelp reviews full (yelp) 2015,,10.5281/zenodo.5259139,Zenodo
+5997435,COMPRISE_Data06_YELP_V1.0,dataset,comprise_data06_yelp_v1.0,,10.5281/zenodo.5997435,Zenodo
+8288433,DataCI Continuous Text Classification Example Using Yelp Dataset,dataset,dataci continuous text classification example using yelp dataset,,10.5281/zenodo.8288433,Zenodo
+7555898,Yelp 2013,dataset,yelp 2013,,10.5281/zenodo.7555898,Zenodo
+1186609,Business popularity in Yelp,dataset,business popularity in yelp,,10.5281/zenodo.1186609,Zenodo
+10997653,Gowalla,dataset,gowalla,,10.5281/zenodo.10997653,Zenodo
+6369319,Spatiotemporal checkins with social connections,dataset,spatiotemporal checkins with social connections,,10.5281/zenodo.6369319,Zenodo
+7949307,Geotagged Digital Traces,dataset,geotagged digital traces,,10.5281/zenodo.7949307,Zenodo
+15067024,Gowalla check-in dataset,dataset,gowalla check-in dataset,,10.5281/zenodo.15067024,Zenodo
+10048949,Data for:  Insect host plant relationships from Luis Martorell's annotated food plant catalog of the insects of Puerto Rico,dataset,data for:  insect host plant relationships from luis martorell's annotated food plant catalog of the insects of puerto rico,,10.5061/dryad.hqbzkh1mv,Zenodo
+8247695,"Data accompanying the paper ""Improving the near-surface wind and turbulence at the edge of the orographic drag grey zone by tuning the roughness length""",dataset,"data accompanying the paper ""improving the near-surface wind and turbulence at the edge of the orographic drag grey zone by tuning the roughness length""",,10.5281/zenodo.8247695,Zenodo
+14885241,Speech commands keywords,dataset,speech commands keywords,,10.5281/zenodo.14885241,Zenodo
+14140800,Hearing Aid Noisy Speech Dataset,dataset,hearing aid noisy speech dataset,,10.5281/zenodo.14140800,Zenodo
+4662481,Arabic Speech Commands Dataset,dataset,arabic speech commands dataset,,10.5281/zenodo.4662481,Zenodo
+11106540,Fluent speech commands dataset,dataset,fluent speech commands dataset,,10.5281/zenodo.11106540,Zenodo
+4682101,Speech Commands Curated from Tensorflow,dataset,speech commands curated from tensorflow,,10.1234/commands,Zenodo
+834934,VoCub dataset,dataset,vocub dataset,,10.5281/zenodo.834934,Zenodo
+14885241,Speech commands keywords,dataset,speech commands keywords,,10.5281/zenodo.14885241,Zenodo
+4662481,Arabic Speech Commands Dataset,dataset,arabic speech commands dataset,,10.5281/zenodo.4662481,Zenodo
+11106540,Fluent speech commands dataset,dataset,fluent speech commands dataset,,10.5281/zenodo.11106540,Zenodo
+4682101,Speech Commands Curated from Tensorflow,dataset,speech commands curated from tensorflow,,10.1234/commands,Zenodo
+834934,VoCub dataset,dataset,vocub dataset,,10.5281/zenodo.834934,Zenodo
+4452953,Written and spoken digits database for multimodal learning,dataset,written and spoken digits database for multimodal learning,,10.5281/zenodo.4452953,Zenodo
+2634588,Billion Triple Challenge (BTC) 2019 Dataset,dataset,billion triple challenge (btc) 2019 dataset,,10.5281/zenodo.2634588,Zenodo
+13738569,".bed / .bim / .fam files, for 1kg, converted from the raw data on the PLINK website",dataset,".bed / .bim / .fam files, for 1kg, converted from the raw data on the plink website",,10.5281/zenodo.13738569,Zenodo
+6215117,"Dataset for ""Mass loss of the Antarctic ice sheet until the year 3000 under a sustained late-21st-century climate""",dataset,"dataset for ""mass loss of the antarctic ice sheet until the year 3000 under a sustained late-21st-century climate""",,10.5281/zenodo.6215117,Zenodo
+2651652,Results of the initMIP-Antarctica experiments: an ice sheet initialization intercomparison of ISMIP6,dataset,results of the initmip-antarctica experiments: an ice sheet initialization intercomparison of ismip6,,10.5281/zenodo.2651652,Zenodo
+5071539,Tutorial output for Tourmaline amplicon sequence processing workflow,dataset,tutorial output for tourmaline amplicon sequence processing workflow,,10.5281/zenodo.5071539,Zenodo
+835855,RDP LSU taxonomic training data formatted for DADA2  (trainingset 11),dataset,rdp lsu taxonomic training data formatted for dada2  (trainingset 11),,10.5281/zenodo.835855,Zenodo
+14885241,Speech commands keywords,dataset,speech commands keywords,,10.5281/zenodo.14885241,Zenodo
+4662481,Arabic Speech Commands Dataset,dataset,arabic speech commands dataset,,10.5281/zenodo.4662481,Zenodo
+11106540,Fluent speech commands dataset,dataset,fluent speech commands dataset,,10.5281/zenodo.11106540,Zenodo
+4682101,Speech Commands Curated from Tensorflow,dataset,speech commands curated from tensorflow,,10.1234/commands,Zenodo
+834934,VoCub dataset,dataset,vocub dataset,,10.5281/zenodo.834934,Zenodo
+4452953,Written and spoken digits database for multimodal learning,dataset,written and spoken digits database for multimodal learning,,10.5281/zenodo.4452953,Zenodo
+14885241,Speech commands keywords,dataset,speech commands keywords,,10.5281/zenodo.14885241,Zenodo
+4662481,Arabic Speech Commands Dataset,dataset,arabic speech commands dataset,,10.5281/zenodo.4662481,Zenodo
+11106540,Fluent speech commands dataset,dataset,fluent speech commands dataset,,10.5281/zenodo.11106540,Zenodo
+4682101,Speech Commands Curated from Tensorflow,dataset,speech commands curated from tensorflow,,10.1234/commands,Zenodo
+834934,VoCub dataset,dataset,vocub dataset,,10.5281/zenodo.834934,Zenodo
+4452953,Written and spoken digits database for multimodal learning,dataset,written and spoken digits database for multimodal learning,,10.5281/zenodo.4452953,Zenodo
+14885241,Speech commands keywords,dataset,speech commands keywords,,10.5281/zenodo.14885241,Zenodo
+14140800,Hearing Aid Noisy Speech Dataset,dataset,hearing aid noisy speech dataset,,10.5281/zenodo.14140800,Zenodo
+4662481,Arabic Speech Commands Dataset,dataset,arabic speech commands dataset,,10.5281/zenodo.4662481,Zenodo
+11106540,Fluent speech commands dataset,dataset,fluent speech commands dataset,,10.5281/zenodo.11106540,Zenodo
+4682101,Speech Commands Curated from Tensorflow,dataset,speech commands curated from tensorflow,,10.1234/commands,Zenodo
+834934,VoCub dataset,dataset,vocub dataset,,10.5281/zenodo.834934,Zenodo
+16731584,Incorrect Context Uncertainty,dataset,incorrect context uncertainty,,10.5281/zenodo.16731584,Zenodo
+4562810,Pre-processed XSum and CNN/Dailymail for BERT-based summarization,dataset,pre-processed xsum and cnn/dailymail for bert-based summarization,,10.5281/zenodo.4562810,Zenodo
+3764699,CNN,dataset,cnn,,10.5281/zenodo.3764699,Zenodo
+17335521,Dataset for: Transfer learning-based encoder-decoder model with visual explanations for infrastructure crack segmentation: New open database and comprehensive evaluation,dataset,dataset for: transfer learning-based encoder-decoder model with visual explanations for infrastructure crack segmentation: new open database and comprehensive evaluation,,10.5281/zenodo.17335521,Zenodo
+16778523,"One-year impact of behavioural interventions on schistosomiasis-related knowledge, attitude and practices of primary schoolchildren in Pemba, Tanzania",dataset,"one-year impact of behavioural interventions on schistosomiasis-related knowledge, attitude and practices of primary schoolchildren in pemba, tanzania",,10.5281/zenodo.16778523,Zenodo
+10938019,KSPU Moodle activities and marks 2020-2022,dataset,kspu moodle activities and marks 2020-2022,,10.5281/zenodo.10938019,Zenodo
+4562810,Pre-processed XSum and CNN/Dailymail for BERT-based summarization,dataset,pre-processed xsum and cnn/dailymail for bert-based summarization,,10.5281/zenodo.4562810,Zenodo
+3764699,CNN,dataset,cnn,,10.5281/zenodo.3764699,Zenodo
+17335521,Dataset for: Transfer learning-based encoder-decoder model with visual explanations for infrastructure crack segmentation: New open database and comprehensive evaluation,dataset,dataset for: transfer learning-based encoder-decoder model with visual explanations for infrastructure crack segmentation: new open database and comprehensive evaluation,,10.5281/zenodo.17335521,Zenodo
+7248214,"A comprehensive geospatial database of nearly 100,000 reservoirs in China",dataset,"a comprehensive geospatial database of nearly 100,000 reservoirs in china",,10.5281/zenodo.7248214,Zenodo
+15198884,"S2BMS - Sentinel-2 UK Butterfly Monitoring Scheme data set (Van der Plas et al., 2025, CVPR FGVC)",dataset,"s2bms - sentinel-2 uk butterfly monitoring scheme data set (van der plas et al., 2025, cvpr fgvc)",,10.5281/zenodo.15198884,Zenodo
+16789270,Rare Animal Fine-Grained Visual Classification (FGVC) Benchmark,dataset,rare animal fine-grained visual classification (fgvc) benchmark,,10.5281/zenodo.16789270,Zenodo
+7100698,WhichDog: A crowdsourced dataset including candidate set-based labelling,dataset,whichdog: a crowdsourced dataset including candidate set-based labelling,,10.5281/zenodo.7100698,Zenodo
+8099099,Online classified adverts reflect the broader United Kingdom trade in turtles and tortoises rather than drive it.,dataset,online classified adverts reflect the broader united kingdom trade in turtles and tortoises rather than drive it.,,10.5281/zenodo.8099099,Zenodo
+3237458,Twitter pre-trained word vectors,dataset,twitter pre-trained word vectors,,10.5281/zenodo.3237458,Zenodo
+13879824,"Data and code repository for the research ""Assessing the use of Airborne Electromagnetic Data for nitrate vulnerability assessment in the Central Valley, California""",dataset,"data and code repository for the research ""assessing the use of airborne electromagnetic data for nitrate vulnerability assessment in the central valley, california""",,10.5281/zenodo.13879824,Zenodo
+4432838,Detection dogs in nature conservation: a database on their worldwide deployment with a review on breeds used and their performance compared to other methods,dataset,detection dogs in nature conservation: a database on their worldwide deployment with a review on breeds used and their performance compared to other methods,,10.5061/dryad.t76hdr804,Zenodo
+4774415,Data from: Quantifying trade-offs between butterfly abundance and movement in the management of agricultural set-aside strips,dataset,data from: quantifying trade-offs between butterfly abundance and movement in the management of agricultural set-aside strips,,10.5061/dryad.7m0cfxptf,Zenodo
+8369073,Cell membrane buckling governs early-stage ridge formation in butterfly wing scales: data,dataset,cell membrane buckling governs early-stage ridge formation in butterfly wing scales: data,,10.5281/zenodo.8369073,Zenodo
+5726023,Attitudes Toward and Impacts of Free-roaming Dogs in Madagascar,dataset,attitudes toward and impacts of free-roaming dogs in madagascar,,10.5061/dryad.z34tmpgfs,Zenodo
+17156271,Flickr: Flickr Group (15),dataset,flickr: flickr group (15),,10.5281/zenodo.17156271,Zenodo
+17157011,Flickr: Flickr BHL (544),dataset,flickr: flickr bhl (544),,10.5281/zenodo.17157011,Zenodo
+13318983,Flickr: BHL Flickr cropped images,dataset,flickr: bhl flickr cropped images,,10.5281/zenodo.13318983,Zenodo
+13318980,Flickr: Smithsonian Wild Flickr (650),dataset,flickr: smithsonian wild flickr (650),,10.5281/zenodo.13318980,Zenodo
+15627798,Flickr: Andreas Kay Flickr Images & Videos,dataset,flickr: andreas kay flickr images & videos,,10.5281/zenodo.15627798,Zenodo
+4955306,Data from: Chatty maps: constructing sound maps of urban areas from social media data,dataset,data from: chatty maps: constructing sound maps of urban areas from social media data,,10.5061/dryad.tg735,Zenodo
+15166413,Lidar testing data set,dataset,lidar testing data set,,10.5281/zenodo.15166413,Zenodo
+12771266,"Results outputs for ""Beyond the Hype: Identifying and Analyzing Math Word Problem-Solving Challenges for Large Language Models""",dataset,"results outputs for ""beyond the hype: identifying and analyzing math word problem-solving challenges for large language models""",,10.5281/zenodo.12771266,Zenodo
+13345343,RBC-SatImg: Sentinel-2 Imagery and WatData Labels for Water Mapping,dataset,rbc-satimg: sentinel-2 imagery and watdata labels for water mapping,,10.5281/zenodo.13345343,Zenodo
+14917853,Global Spiral Freezer Market 2025 To 2034,dataset,global spiral freezer market 2025 to 2034,,10.5281/zenodo.14917853,Zenodo
+7672210,not available,dataset,not available,,10.5281/zenodo.7672210,Zenodo
+10291649,Circle Churchu -,dataset,circle churchu -,,10.5281/zenodo.10291649,Zenodo
+10273551,Stone circle,dataset,stone circle,,10.5281/zenodo.10273551,Zenodo
+10380435,Hut Circle,dataset,hut circle,,10.5281/zenodo.10380435,Zenodo
+8182674,AssureMOSS Prospector Reports Dataset (Tracer),dataset,assuremoss prospector reports dataset (tracer),,10.5281/zenodo.8182674,Zenodo
+8182670,AssureMOSS Vulnerability Statements Dataset (Steady),dataset,assuremoss vulnerability statements dataset (steady),,10.5281/zenodo.8182670,Zenodo
+8182663,AssureMOSS Prospector Reports Dataset (Steady),dataset,assuremoss prospector reports dataset (steady),,10.5281/zenodo.8182663,Zenodo
+8182671,AssureMOSS Vulnerability Statements Dataset (Tracer),dataset,assuremoss vulnerability statements dataset (tracer),,10.5281/zenodo.8182671,Zenodo
+10141593,CIC-IDS-2017 V2,dataset,cic-ids-2017 v2,,10.5281/zenodo.10141593,Zenodo
+15046995,SAFE-NID: Self-Attention with Normalizing-Flow Encodings for Network Intrusion Detection Dataset,dataset,safe-nid: self-attention with normalizing-flow encodings for network intrusion detection dataset,,10.5281/zenodo.15046995,Zenodo
+7258579,UNSW-NB15 and CIC-IDS2017 Labelled PCAP Data,dataset,unsw-nb15 and cic-ids2017 labelled pcap data,,10.5281/zenodo.7258579,Zenodo
+5770290,DDoS Attacks Data Set - Consolidated from CICDDOS2019 and CICIDS2017,dataset,ddos attacks data set - consolidated from cicddos2019 and cicids2017,,10.5281/zenodo.5770290,Zenodo
+10236399,Brandenburger Tor,dataset,brandenburger tor,,10.5281/zenodo.10236399,Zenodo
+10316022,Glastonbury Tor,dataset,glastonbury tor,,10.5281/zenodo.10316022,Zenodo
+10236399,Brandenburger Tor,dataset,brandenburger tor,,10.5281/zenodo.10236399,Zenodo
+10316022,Glastonbury Tor,dataset,glastonbury tor,,10.5281/zenodo.10316022,Zenodo
+17211646,ID matching for Pacific Islands.,dataset,id matching for pacific islands.,,10.5281/zenodo.17211646,Zenodo
+10149295,CSE-CIC-IDS2018 V2,dataset,cse-cic-ids2018 v2,,10.5281/zenodo.10149295,Zenodo
+10141556,NSL KDD V2,dataset,nsl kdd v2,,10.5281/zenodo.10141556,Zenodo
+17424143,NSL-KDD Dataset,dataset,nsl-kdd dataset,,10.5281/zenodo.17424143,Zenodo
+4570697,Data from: Application of a novel haplotype-based scan for local adaptation to study high-altitude adaptation in rhesus macaques,dataset,data from: application of a novel haplotype-based scan for local adaptation to study high-altitude adaptation in rhesus macaques,,10.5061/dryad.kkwh70s40,Zenodo
+10141556,NSL KDD V2,dataset,nsl kdd v2,,10.5281/zenodo.10141556,Zenodo
+17424143,NSL-KDD Dataset,dataset,nsl-kdd dataset,,10.5281/zenodo.17424143,Zenodo
+7868483,Protein network analysis links the NSL complex to Parkinson's disease via mitochondrial & nuclear biology,dataset,protein network analysis links the nsl complex to parkinson's disease via mitochondrial & nuclear biology,,10.5281/zenodo.7868483,Zenodo
+15144603,"Table 1 in Big trees of small baskets: phylogeny of the Australian genus Spyridium (Rhamnaceae: Pomaderreae), focusing on biogeographic patterns and species circumscriptions",dataset,"table 1 in big trees of small baskets: phylogeny of the australian genus spyridium (rhamnaceae: pomaderreae), focusing on biogeographic patterns and species circumscriptions",,10.5281/zenodo.15144603,Zenodo
+10141556,NSL KDD V2,dataset,nsl kdd v2,,10.5281/zenodo.10141556,Zenodo
+17424143,NSL-KDD Dataset,dataset,nsl-kdd dataset,,10.5281/zenodo.17424143,Zenodo
+10141556,NSL KDD V2,dataset,nsl kdd v2,,10.5281/zenodo.10141556,Zenodo
+17424143,NSL-KDD Dataset,dataset,nsl-kdd dataset,,10.5281/zenodo.17424143,Zenodo
+5770290,DDoS Attacks Data Set - Consolidated from CICDDOS2019 and CICIDS2017,dataset,ddos attacks data set - consolidated from cicddos2019 and cicids2017,,10.5281/zenodo.5770290,Zenodo
+17121740,"SDN traffic data collected from self-generated TCP SYN Flood DDoS attack within 2 hosts, 1 switch network and from public dataset CIC-DDoS2019 in 2025",dataset,"sdn traffic data collected from self-generated tcp syn flood ddos attack within 2 hosts, 1 switch network and from public dataset cic-ddos2019 in 2025",,10.5281/zenodo.17121740,Zenodo
+5770290,DDoS Attacks Data Set - Consolidated from CICDDOS2019 and CICIDS2017,dataset,ddos attacks data set - consolidated from cicddos2019 and cicids2017,,10.5281/zenodo.5770290,Zenodo
+17121740,"SDN traffic data collected from self-generated TCP SYN Flood DDoS attack within 2 hosts, 1 switch network and from public dataset CIC-DDoS2019 in 2025",dataset,"sdn traffic data collected from self-generated tcp syn flood ddos attack within 2 hosts, 1 switch network and from public dataset cic-ddos2019 in 2025",,10.5281/zenodo.17121740,Zenodo
+10631860,COVID information commons archive,dataset,covid information commons archive,,10.5061/dryad.37pvmcvqp,Zenodo
+15177335,"Dataset: Variação mensal e sazonal de populações e Interações Antrópicas de Trinta-réis-real (Thalasseus maximus, Boddaert, 1783), Trinta-réis-de-bando (Thalasseus acuflavidus, Saunders, 1876) e Gaivotões (Larus dominicanus, Lichtenstein, 1823) na Costa Central de São Paulo",dataset,"dataset: variação mensal e sazonal de populações e interações antrópicas de trinta-réis-real (thalasseus maximus, boddaert, 1783), trinta-réis-de-bando (thalasseus acuflavidus, saunders, 1876) e gaivotões (larus dominicanus, lichtenstein, 1823) na costa central de são paulo",,10.5281/zenodo.15177335,Zenodo
+6964831,"GPS fixes for foraging Southern Giant Petrels (Macronectes giganteus) breeding in Nelson Island, Maritime Antarctic Peninsula (December 2019-January 2020)",dataset,"gps fixes for foraging southern giant petrels (macronectes giganteus) breeding in nelson island, maritime antarctic peninsula (december 2019-january 2020)",,10.5281/zenodo.6964831,Zenodo
+15862668,CICFlowMeter-Extracted Multi-Class VPN/Non-VPN Traffic Data from ISCXVPN2016 and VNAT,dataset,cicflowmeter-extracted multi-class vpn/non-vpn traffic data from iscxvpn2016 and vnat,,10.5281/zenodo.15862668,Zenodo
+15763692,Network Flow Datasets Derived from ISCXVPN2016 and VNAT Using CICFlowMeter,dataset,network flow datasets derived from iscxvpn2016 and vnat using cicflowmeter,,10.5281/zenodo.15763692,Zenodo
+3689089,Topological Botnet Detection,dataset,topological botnet detection,,10.5281/zenodo.3689089,Zenodo
+14721214,Datasets for FormaliSE '25 Paper: Robustness Verification of Video Classification Neural Networks,dataset,datasets for formalise '25 paper: robustness verification of video classification neural networks,,10.5281/zenodo.14721214,Zenodo
+16326403,GTSRB-Concepts: Additional German Traffic Sign Recognition Benchmark Labels and Ontology,dataset,gtsrb-concepts: additional german traffic sign recognition benchmark labels and ontology,,10.5281/zenodo.16326403,Zenodo
+13741936,GTSRB - German Traffic Sign Recognition Benchmark by Real-Time Computer Vision at Ruhr-Universität Bochum,dataset,gtsrb - german traffic sign recognition benchmark by real-time computer vision at ruhr-universität bochum,,10.5281/zenodo.13741936,Zenodo
+16326403,GTSRB-Concepts: Additional German Traffic Sign Recognition Benchmark Labels and Ontology,dataset,gtsrb-concepts: additional german traffic sign recognition benchmark labels and ontology,,10.5281/zenodo.16326403,Zenodo
+13741936,GTSRB - German Traffic Sign Recognition Benchmark by Real-Time Computer Vision at Ruhr-Universität Bochum,dataset,gtsrb - german traffic sign recognition benchmark by real-time computer vision at ruhr-universität bochum,,10.5281/zenodo.13741936,Zenodo
+1217105,Extended Malaysian Traffic Sign Dataset (EMTD),dataset,extended malaysian traffic sign dataset (emtd),,10.5281/zenodo.1217105,Zenodo
+16326403,GTSRB-Concepts: Additional German Traffic Sign Recognition Benchmark Labels and Ontology,dataset,gtsrb-concepts: additional german traffic sign recognition benchmark labels and ontology,,10.5281/zenodo.16326403,Zenodo
+1217105,Extended Malaysian Traffic Sign Dataset (EMTD),dataset,extended malaysian traffic sign dataset (emtd),,10.5281/zenodo.1217105,Zenodo
+3903066,CURE-TSR: Challenging Unreal and Real Environments for Traffic Sign Recognition,dataset,cure-tsr: challenging unreal and real environments for traffic sign recognition,,10.5281/zenodo.3903066,Zenodo
+584139,surge monthly maxima from GTSR,dataset,surge monthly maxima from gtsr,,10.5281/zenodo.584139,Zenodo
+3660927,"CoDEC Dataset - Data underlying the paper ""A high-resolution global dataset of extreme sea levels, tides and storm surges including future projections """,dataset,"codec dataset - data underlying the paper ""a high-resolution global dataset of extreme sea levels, tides and storm surges including future projections """,,10.5281/zenodo.3660927,Zenodo
+4106456,Global reanalysis of riverine water levels at the river mouth,dataset,global reanalysis of riverine water levels at the river mouth,,10.5281/zenodo.4106456,Zenodo
+15682346,Open Research Dataset of the 1932 Cairo Congress of Arab Music (ORD-CC32),dataset,open research dataset of the 1932 cairo congress of arab music (ord-cc32),,10.5281/zenodo.15682346,Zenodo
+7555342,TREC,dataset,trec,,10.5281/zenodo.7555342,Zenodo
+17309172,WSA+ (Neural Enhancement of the Traditional Wang–Sheeley–Arge Solar Wind Relation),dataset,wsa+ (neural enhancement of the traditional wang–sheeley–arge solar wind relation),,10.5281/zenodo.17309172,Zenodo
+6773243,Historical Photograph and Document Collection,dataset,historical photograph and document collection,,10.5281/zenodo.6773243,Zenodo
+7619064,TREC CAsT19-20 Collection,dataset,trec cast19-20 collection,,10.1145/3477495.3531961,Zenodo
+11104912,TREC-ToT 2023,dataset,trec-tot 2023,,10.5281/zenodo.11104912,Zenodo
+10467919,Global leaf chlorophyll content product from MERIS imagery (GLOBMAP MERIS LCC),dataset,global leaf chlorophyll content product from meris imagery (globmap meris lcc),,10.5281/zenodo.10467919,Zenodo
+4949274,Data from: Evidence of functional divergence in MSP7 paralogous proteins: a molecular-evolutionary and phylogenetic analysis,dataset,data from: evidence of functional divergence in msp7 paralogous proteins: a molecular-evolutionary and phylogenetic analysis,,10.5061/dryad.3qk84,Zenodo
+1493799,"Supplementary material 6 from: Klimmek F, Baur H (2018) An interactive key to Central European species of the Pteromalus albipennis species group and other species of the genus (Hymenoptera: Chalcidoidea: Pteromalidae), with the description of a new species. Biodiversity Data Journal 6: e27722. https://doi.org/10.3897/BDJ.6.e27722",dataset,"supplementary material 6 from: klimmek f, baur h (2018) an interactive key to central european species of the pteromalus albipennis species group and other species of the genus (hymenoptera: chalcidoidea: pteromalidae), with the description of a new species. biodiversity data journal 6: e27722. https://doi.org/10.3897/bdj.6.e27722",,10.3897/BDJ.6.e27722.suppl6,Zenodo
+1493793,"Supplementary material 3 from: Klimmek F, Baur H (2018) An interactive key to Central European species of the Pteromalus albipennis species group and other species of the genus (Hymenoptera: Chalcidoidea: Pteromalidae), with the description of a new species. Biodiversity Data Journal 6: e27722. https://doi.org/10.3897/BDJ.6.e27722",dataset,"supplementary material 3 from: klimmek f, baur h (2018) an interactive key to central european species of the pteromalus albipennis species group and other species of the genus (hymenoptera: chalcidoidea: pteromalidae), with the description of a new species. biodiversity data journal 6: e27722. https://doi.org/10.3897/bdj.6.e27722",,10.3897/BDJ.6.e27722.suppl3,Zenodo
+1493789,"Supplementary material 11 from: Klimmek F, Baur H (2018) An interactive key to Central European species of the Pteromalus albipennis species group and other species of the genus (Hymenoptera: Chalcidoidea: Pteromalidae), with the description of a new species. Biodiversity Data Journal 6: e27722. https://doi.org/10.3897/BDJ.6.e27722",dataset,"supplementary material 11 from: klimmek f, baur h (2018) an interactive key to central european species of the pteromalus albipennis species group and other species of the genus (hymenoptera: chalcidoidea: pteromalidae), with the description of a new species. biodiversity data journal 6: e27722. https://doi.org/10.3897/bdj.6.e27722",,10.3897/BDJ.6.e27722.suppl11,Zenodo
+1493801,"Supplementary material 7 from: Klimmek F, Baur H (2018) An interactive key to Central European species of the Pteromalus albipennis species group and other species of the genus (Hymenoptera: Chalcidoidea: Pteromalidae), with the description of a new species. Biodiversity Data Journal 6: e27722. https://doi.org/10.3897/BDJ.6.e27722",dataset,"supplementary material 7 from: klimmek f, baur h (2018) an interactive key to central european species of the pteromalus albipennis species group and other species of the genus (hymenoptera: chalcidoidea: pteromalidae), with the description of a new species. biodiversity data journal 6: e27722. https://doi.org/10.3897/bdj.6.e27722",,10.3897/BDJ.6.e27722.suppl7,Zenodo
+3671376,dad_coil100,dataset,dad_coil100,,10.5281/zenodo.3671376,Zenodo
+7267888,"Water quality analysis from the Cozza-Guardati well in Lecce, before and after the ADV.ERT treatment",dataset,"water quality analysis from the cozza-guardati well in lecce, before and after the adv.ert treatment",,10.5281/zenodo.7267888,Zenodo
+5654762,Surface activation for reuse tests,dataset,surface activation for reuse tests,,10.5281/zenodo.5654762,Zenodo
+10864063,Extracting Biomedical Entities from Noisy Audio Transcripts--Dataset,dataset,extracting biomedical entities from noisy audio transcripts--dataset,,10.5281/zenodo.10864063,Zenodo
+3236318,Deep Neural Models for Medical Concept Normalization in User-Generated Texts,dataset,deep neural models for medical concept normalization in user-generated texts,,10.5281/zenodo.3236318,Zenodo
+10864063,Extracting Biomedical Entities from Noisy Audio Transcripts--Dataset,dataset,extracting biomedical entities from noisy audio transcripts--dataset,,10.5281/zenodo.10864063,Zenodo
+3236318,Deep Neural Models for Medical Concept Normalization in User-Generated Texts,dataset,deep neural models for medical concept normalization in user-generated texts,,10.5281/zenodo.3236318,Zenodo
+4710748,AnCora 3.0.1 Spanish,dataset,ancora 3.0.1 spanish,,10.5281/zenodo.4710748,Zenodo
+4762031,AnCora Catalan 2.0.0,dataset,ancora catalan 2.0.0,,10.5281/zenodo.4762031,Zenodo
+14606173,Students' Abnormal Behavior in Online Exam Dataset,dataset,students' abnormal behavior in online exam dataset,,10.5281/zenodo.14606173,Zenodo
+4446249,Classical Syriac annotated lexemes,dataset,classical syriac annotated lexemes,,10.5281/zenodo.4446249,Zenodo
+17447997,Optimized quantitative bacterial two-hybrid (qB2H) for protein-protein interaction assessment.,dataset,optimized quantitative bacterial two-hybrid (qb2h) for protein-protein interaction assessment.,,10.5281/zenodo.17447997,Zenodo
+15058501,Dataset_HTEData_Nitration of heteroarenes,dataset,dataset_htedata_nitration of heteroarenes,,10.5281/zenodo.15058501,Zenodo
+14046713,3D-data Runstenar och tidigkristna gravmonument i Västergötland,dataset,3d-data runstenar och tidigkristna gravmonument i västergötland,,10.5281/zenodo.14046713,Zenodo
+10386805,Buddha - 100K Vertices Decimation,dataset,buddha - 100k vertices decimation,,10.5281/zenodo.10386805,Zenodo
+10227343,AME Church Interior 100k,dataset,ame church interior 100k,,10.5281/zenodo.10227343,Zenodo
+14861195,"Conformational Plasticity of β-rich Proteins: Molecular Insights into Stability, Dynamics, and Functional Adaptation of Bet v 1-like Proteins",dataset,"conformational plasticity of β-rich proteins: molecular insights into stability, dynamics, and functional adaptation of bet v 1-like proteins",,10.5281/zenodo.14861195,Zenodo
+14046713,3D-data Runstenar och tidigkristna gravmonument i Västergötland,dataset,3d-data runstenar och tidigkristna gravmonument i västergötland,,10.5281/zenodo.14046713,Zenodo
+14861195,"Conformational Plasticity of β-rich Proteins: Molecular Insights into Stability, Dynamics, and Functional Adaptation of Bet v 1-like Proteins",dataset,"conformational plasticity of β-rich proteins: molecular insights into stability, dynamics, and functional adaptation of bet v 1-like proteins",,10.5281/zenodo.14861195,Zenodo
+17585685,Reddit climate emotions and topic analysis,dataset,reddit climate emotions and topic analysis,,10.5281/zenodo.17585685,Zenodo
+17340497,The French Lombard Dataset,dataset,the french lombard dataset,,10.5281/zenodo.17340497,Zenodo
+13322242,INSA soil image dataset,dataset,insa soil image dataset,,10.5281/zenodo.13322242,Zenodo
+17198832,"Supplementary material from: Puget Gil J, Coquery E, Samuel J, Gesquière G (2025) Condensed Representation of RDF and its Application on Graph Versioning",dataset,"supplementary material from: puget gil j, coquery e, samuel j, gesquière g (2025) condensed representation of rdf and its application on graph versioning",,10.5281/zenodo.17198832,Zenodo
+4060018,Continental Splitted Non-IID Image Classification Dataset,dataset,continental splitted non-iid image classification dataset,,10.5281/zenodo.4060018,Zenodo
+10663465,"Data for ""Creating metadata using Ecological Metadata Language (EML) standard with EML Assembly Line functionalities"" Galaxy tutorial",dataset,"data for ""creating metadata using ecological metadata language (eml) standard with eml assembly line functionalities"" galaxy tutorial",,10.5281/zenodo.10663465,Zenodo
+17094810,All Countries' Dataset,dataset,all countries' dataset,,10.5281/zenodo.17094810,Zenodo
+11381120,Tyre defect data set,dataset,tyre defect data set,,10.5281/zenodo.11381120,Zenodo
+10540831,OpenImage-O,dataset,openimage-o,,10.5281/zenodo.10540831,Zenodo
+6670746,DECIMER Image classifier dataset,dataset,decimer image classifier dataset,,10.5281/zenodo.6670746,Zenodo
+11331618,MatSeg: Material State Segmentation Dataset and Benchmark,dataset,matseg: material state segmentation dataset and benchmark,,10.5281/zenodo.11331618,Zenodo
+15140899,"Table 5 in Comparative and cladistic analyses of the species of the genus Pelodera Schneider, 1866 (Rhabditidae: Nematoda) belonging to the coarctata group",dataset,"table 5 in comparative and cladistic analyses of the species of the genus pelodera schneider, 1866 (rhabditidae: nematoda) belonging to the coarctata group",,10.5281/zenodo.15140899,Zenodo
+14801641,Datasets for OntoClue Project,dataset,datasets for ontoclue project,,10.5281/zenodo.14801641,Zenodo
+6493847,PANACEA dataset - Heterogeneous COVID-19 Claims,dataset,panacea dataset - heterogeneous covid-19 claims,,10.5281/zenodo.6493847,Zenodo
+10852971,1st International Workshop on Open Web Search #wows2024 at ECIR 2024: Document Processors,dataset,1st international workshop on open web search #wows2024 at ecir 2024: document processors,,10.5281/zenodo.10852971,Zenodo
+4582776,CORD-19 Software Mentions,dataset,cord-19 software mentions,,10.5061/dryad.vmcvdncs0,Zenodo
+3813567,COVID-19 Open Research Dataset (CORD-19),dataset,covid-19 open research dataset (cord-19),,10.5281/zenodo.3813567,Zenodo
+4432958,CORD-19 Diachronic Concept Embeddings,dataset,cord-19 diachronic concept embeddings,,10.5281/zenodo.4432958,Zenodo
+15462002,Wiki-Quantities and Wiki-Measurements: Datasets of Quantities and their Measurement Context from Wikipedia,dataset,wiki-quantities and wiki-measurements: datasets of quantities and their measurement context from wikipedia,,10.5281/zenodo.15462002,Zenodo
+3957521,LG-covid19-HOTP: Literature Graph of Scholarly Articles Relevant to COVID-19 Study,dataset,lg-covid19-hotp: literature graph of scholarly articles relevant to covid-19 study,,10.5281/zenodo.3957521,Zenodo
+14417422,"Citation contexts of [How Many Scientists Fabricate and Falsify Research? A Systematic Review and Meta-Analysis of Survey Data, DOI: 10.1371/journal.pone.0005738]",dataset,"citation contexts of [how many scientists fabricate and falsify research? a systematic review and meta-analysis of survey data, doi: 10.1371/journal.pone.0005738]",,10.5281/zenodo.14417422,Zenodo
+3813567,COVID-19 Open Research Dataset (CORD-19),dataset,covid-19 open research dataset (cord-19),,10.5281/zenodo.3813567,Zenodo
+6782247,Classical Tibetan Word Embeddings,dataset,classical tibetan word embeddings,,10.5281/zenodo.6782247,Zenodo
+14331904,"""Synthetic Dataset for Solving the Black-Scholes Equation with Neural Networks""",dataset,"""synthetic dataset for solving the black-scholes equation with neural networks""",,10.5281/zenodo.14331904,Zenodo
+4086243,Learning agents in black-scholes financial markets,dataset,learning agents in black-scholes financial markets,,10.5061/dryad.prr4xgxjg,Zenodo
+8125581,A cautionary note on the use of Ornstein Uhlenbeck models in macroevolutionary studies,dataset,a cautionary note on the use of ornstein uhlenbeck models in macroevolutionary studies,,10.5061/dryad.jwstqjqc1,Zenodo
+5004482,Data from: Contemporary ecological interactions improve models of past trait evolution,dataset,data from: contemporary ecological interactions improve models of past trait evolution,,10.5061/dryad.3vb73,Zenodo
+7527634,Fast mvSLOUCH: Model comparison for multivariate Ornstein--Uhlenbeck-based models of trait evolution on large phylogenies,dataset,fast mvslouch: model comparison for multivariate ornstein--uhlenbeck-based models of trait evolution on large phylogenies,,10.5061/dryad.sj3tx9656,Zenodo
+5013584,Data from: Reply to 'Inconclusive evidence for rapid adaptive evolution',dataset,data from: reply to 'inconclusive evidence for rapid adaptive evolution',,10.5061/dryad.kg3hp51,Zenodo
+11656118,"Data for the paper ""Particle method for the numerical simulation of the path-dependent McKean-Vlasov equation""",dataset,"data for the paper ""particle method for the numerical simulation of the path-dependent mckean-vlasov equation""",,10.5281/zenodo.11656118,Zenodo
+5013699,Data from: Tempo and mode of performance evolution across multiple independent origins of adhesive toe pads in lizards,dataset,data from: tempo and mode of performance evolution across multiple independent origins of adhesive toe pads in lizards,,10.5061/dryad.45623,Zenodo
+10117230,MIT-BIH Malignant Ventricular Ectopy Database,dataset,mit-bih malignant ventricular ectopy database,,10.5281/zenodo.10117230,Zenodo
+10117296,CU Ventricular Tachyarrhythmia Database,dataset,cu ventricular tachyarrhythmia database,,10.5281/zenodo.10117296,Zenodo
+6879233,Paroxysmal Atrial Fibrillation Events Detection from Dynamic ECG Recordings - The 4th China Physiological Signal Challenge 2021,dataset,paroxysmal atrial fibrillation events detection from dynamic ecg recordings - the 4th china physiological signal challenge 2021,,10.5281/zenodo.6879233,Zenodo
+5794658,Reducing False Arrhythmia Alarms in the ICU - The PhysioNet Computing in Cardiology Challenge 2015,dataset,reducing false arrhythmia alarms in the icu - the physionet computing in cardiology challenge 2015,,10.5281/zenodo.5794658,Zenodo
+11186692,ECG5000 UCR Archive Dataset,dataset,ecg5000 ucr archive dataset,,10.5281/zenodo.11186692,Zenodo
+10852712,AtrialFibrillation,dataset,atrialfibrillation,,10.13026/C2CC7Z,Zenodo
+7303608,"Dataset related to article ""Impact of second-degree related donor on the outcomes of T cell-replete haploidentical transplantation with post-transplant cyclophosphamide """,dataset,"dataset related to article ""impact of second-degree related donor on the outcomes of t cell-replete haploidentical transplantation with post-transplant cyclophosphamide """,,10.5281/zenodo.7303608,Zenodo
+10218665,"Dataset related to: ""Functional ability before and after rehabilitation in elderly patients with shortening and/or rotational deformity of the lower limb after hip fracture""",dataset,"dataset related to: ""functional ability before and after rehabilitation in elderly patients with shortening and/or rotational deformity of the lower limb after hip fracture""",,10.5281/zenodo.10218665,Zenodo
+6035858,Role of citicoline and choline in the treatment of post-stroke depression: an exploratory study,dataset,role of citicoline and choline in the treatment of post-stroke depression: an exploratory study,,10.1177/03000605211055036,Zenodo
+5477349,The LSST Dark Energy Science Collaboration (DESC) Science Requirements Document v1 Released Data Products,dataset,the lsst dark energy science collaboration (desc) science requirements document v1 released data products,,10.5281/zenodo.5477349,Zenodo
+5894663,Amines and lipids metabolites in blood plasma and saliva samples in pigs.,dataset,amines and lipids metabolites in blood plasma and saliva samples in pigs.,,10.5281/zenodo.5894663,Zenodo
+5894663,Amines and lipids metabolites in blood plasma and saliva samples in pigs.,dataset,amines and lipids metabolites in blood plasma and saliva samples in pigs.,,10.5281/zenodo.5894663,Zenodo
+10791293,Shadow-ArUco Dataset,dataset,shadow-aruco dataset,,10.5281/zenodo.10791293,Zenodo
+17094810,All Countries' Dataset,dataset,all countries' dataset,,10.5281/zenodo.17094810,Zenodo
+10791293,Shadow-ArUco Dataset,dataset,shadow-aruco dataset,,10.5281/zenodo.10791293,Zenodo
+17094810,All Countries' Dataset,dataset,all countries' dataset,,10.5281/zenodo.17094810,Zenodo
+10214620,Figure captions,dataset,figure captions,,10.5281/zenodo.10214620,Zenodo
+14397827,Globally Distributed Sentinel-2 cloud and cloud shadow Dataset (GDSD),dataset,globally distributed sentinel-2 cloud and cloud shadow dataset (gdsd),,10.5281/zenodo.14397827,Zenodo
+11373251,Dataset,dataset,dataset,,10.5281/zenodo.11373251,Zenodo
+7820168,Dataset of code metrics - Extension,dataset,dataset of code metrics - extension,,10.5281/zenodo.7820168,Zenodo
+5484322,Dataset - University Social Responsibility in the context of Social Appropriation of Knowledge: A Systematic Literature Mapping Approach (2015-2020),dataset,dataset - university social responsibility in the context of social appropriation of knowledge: a systematic literature mapping approach (2015-2020),,10.5281/zenodo.5484322,Zenodo
+8190897,University Social Responsibility (USR) in the context of Peruvian society A systematic review,dataset,university social responsibility (usr) in the context of peruvian society a systematic review,,10.5281/zenodo.8190897,Zenodo
+13683103,DCE-MRI data of focused ultrasound-induced blood-brain barrier opening in mice (real & simulated),dataset,dce-mri data of focused ultrasound-induced blood-brain barrier opening in mice (real & simulated),,10.5281/zenodo.13683103,Zenodo
+5894663,Amines and lipids metabolites in blood plasma and saliva samples in pigs.,dataset,amines and lipids metabolites in blood plasma and saliva samples in pigs.,,10.5281/zenodo.5894663,Zenodo
+5910672,RECAID,dataset,recaid,,10.5281/zenodo.5910672,Zenodo
+17094810,All Countries' Dataset,dataset,all countries' dataset,,10.5281/zenodo.17094810,Zenodo
+7303608,"Dataset related to article ""Impact of second-degree related donor on the outcomes of T cell-replete haploidentical transplantation with post-transplant cyclophosphamide """,dataset,"dataset related to article ""impact of second-degree related donor on the outcomes of t cell-replete haploidentical transplantation with post-transplant cyclophosphamide """,,10.5281/zenodo.7303608,Zenodo
+10218665,"Dataset related to: ""Functional ability before and after rehabilitation in elderly patients with shortening and/or rotational deformity of the lower limb after hip fracture""",dataset,"dataset related to: ""functional ability before and after rehabilitation in elderly patients with shortening and/or rotational deformity of the lower limb after hip fracture""",,10.5281/zenodo.10218665,Zenodo
+11373251,Dataset,dataset,dataset,,10.5281/zenodo.11373251,Zenodo
+4993267,Data from: The effects of competition on the strength and softness of selection,dataset,data from: the effects of competition on the strength and softness of selection,,10.5061/dryad.cm61n,Zenodo
+5217310,Belgian Statutory Article Retrieval Dataset (BSARD),dataset,belgian statutory article retrieval dataset (bsard),,10.5281/zenodo.5217310,Zenodo
+5217310,Belgian Statutory Article Retrieval Dataset (BSARD),dataset,belgian statutory article retrieval dataset (bsard),,10.5281/zenodo.5217310,Zenodo
+8013207,3D volumes of suspended particulate matter in the Belgian part of the North Sea,dataset,3d volumes of suspended particulate matter in the belgian part of the north sea,,10.5281/zenodo.8013207,Zenodo
+13985391,Dataset for ''First comparison of MLT 3-dimensional wind retrieval methods and first direct extraction of vertical wind tides'',dataset,dataset for ''first comparison of mlt 3-dimensional wind retrieval methods and first direct extraction of vertical wind tides'',,10.5281/zenodo.13985391,Zenodo
+5161010,Cuckoo male bumblebees perform slower and longer flower visits than free-living male and worker bumblebees,dataset,cuckoo male bumblebees perform slower and longer flower visits than free-living male and worker bumblebees,,10.5281/zenodo.5161010,Zenodo
+17094810,All Countries' Dataset,dataset,all countries' dataset,,10.5281/zenodo.17094810,Zenodo
+14615263,Coco Person Faceswap Dataset (COCO-PFS),dataset,coco person faceswap dataset (coco-pfs),,10.5281/zenodo.14615263,Zenodo
+14671547,Global Coco Peat Market 2024 To 2033,dataset,global coco peat market 2024 to 2033,,10.5281/zenodo.14671547,Zenodo
+4282267,SPEECH-COCO,dataset,speech-coco,,10.5281/zenodo.4282267,Zenodo
+5586018,One comprehensive clinical neurologic examination is sufficient to declare brain death,dataset,one comprehensive clinical neurologic examination is sufficient to declare brain death,,10.5061/dryad.pzgmsbcjm,Zenodo
+1410402,Preliminary data collected by 2 prototype Surface Velocity Platform drifters with Barometer and Reference Sensor for Temperature (SVP-BRST),dataset,preliminary data collected by 2 prototype surface velocity platform drifters with barometer and reference sensor for temperature (svp-brst),,10.5281/zenodo.1410402,Zenodo
+11214032,VOC,dataset,voc,,10.5281/zenodo.11214032,Zenodo
+14523157,"VOC Collections, Exhibitions and Projects",dataset,"voc collections, exhibitions and projects",,10.5281/zenodo.14523157,Zenodo
+8312614,Pascal VOC,dataset,pascal voc,,10.5281/zenodo.8312614,Zenodo
+5703620,Unprecedented heat mortality of Magellanic penguins,dataset,unprecedented heat mortality of magellanic penguins,,10.5061/dryad.kprr4xh5t,Zenodo
+10389753,pu b,dataset,pu b,,10.5281/zenodo.10389753,Zenodo
+7314755,Molecular models of the FtsQ-FtsL-FtsB-FtsW-FtsI complex (FtsQLBWI) in mono- and diprotomeric configurations,dataset,molecular models of the ftsq-ftsl-ftsb-ftsw-ftsi complex (ftsqlbwi) in mono- and diprotomeric configurations,,10.5061/dryad.69p8cz957,Zenodo
+10995163,Protein domain embedding,dataset,protein domain embedding,,10.5281/zenodo.10995163,Zenodo
+4835784,X-ray crystallography and Mass spectrometry raw and processed data for Hahn et al. 2021,dataset,x-ray crystallography and mass spectrometry raw and processed data for hahn et al. 2021,,10.5281/zenodo.4835784,Zenodo
+7456077,scPDB BO1 subset (protein ligand-binding sites),dataset,scpdb bo1 subset (protein ligand-binding sites),,10.5281/zenodo.7456077,Zenodo
+6055897,ePharmaLib: A Versatile Library of e-Pharmacophores to Address Small-Molecule (Poly-)Pharmacology,dataset,epharmalib: a versatile library of e-pharmacophores to address small-molecule (poly-)pharmacology,,10.5281/zenodo.6055897,Zenodo
+15571599,Graph Attention Site Prediction (GrASP) sc-PDB Dataset,dataset,graph attention site prediction (grasp) sc-pdb dataset,,10.5281/zenodo.15571599,Zenodo
+14933126,Pocket Predictions for Coach420 Dataset,dataset,pocket predictions for coach420 dataset,,10.5281/zenodo.14933126,Zenodo
+15572019,Graph Attention Site Prediction (GrASP) COACH420 Dataset,dataset,graph attention site prediction (grasp) coach420 dataset,,10.5281/zenodo.15572019,Zenodo
+15571950,Graph Attention Site Prediction (GrASP) HOLO4K Dataset,dataset,graph attention site prediction (grasp) holo4k dataset,,10.5281/zenodo.15571950,Zenodo
+11191555,Prepared protein-ligand complex from MOAD,dataset,prepared protein-ligand complex from moad,,10.5281/zenodo.11191555,Zenodo
+15835201,Aberrant Subclavian Artery CFD Dataset,dataset,aberrant subclavian artery cfd dataset,,10.5281/zenodo.15835201,Zenodo
+17190227,GEMS: Resolving Data Bias Improves Generalization in Binding Affinity Prediction,dataset,gems: resolving data bias improves generalization in binding affinity prediction,,10.5281/zenodo.17190227,Zenodo
+7014096,pdbbind-v2020,dataset,pdbbind-v2020,,10.5281/zenodo.7014096,Zenodo
+14286374,"PGDTA datasets(KIBA, Davis, PDBbind)",dataset,"pgdta datasets(kiba, davis, pdbbind)",,10.5281/zenodo.14286374,Zenodo
+14225758,Targeting protein-ligand neosurfaces using a generalizable deep learning approach [benchmark dataset],dataset,targeting protein-ligand neosurfaces using a generalizable deep learning approach [benchmark dataset],,10.5281/zenodo.14225758,Zenodo
+10245052,SiteMap pockets for the PDBbind dataset,dataset,sitemap pockets for the pdbbind dataset,,10.5281/zenodo.10245052,Zenodo
+7788083,KarmaDock_PDBBind2020_coreset,dataset,karmadock_pdbbind2020_coreset,,10.5281/zenodo.7788083,Zenodo
+16875932,TEMPL Pipeline Benchmark Results Dataset,dataset,templ pipeline benchmark results dataset,,10.5281/zenodo.16875932,Zenodo
+4914718,ATOM3D: Ligand Binding Affinity (LBA) Dataset,dataset,atom3d: ligand binding affinity (lba) dataset,,10.5281/zenodo.4914718,Zenodo
+7014096,pdbbind-v2020,dataset,pdbbind-v2020,,10.5281/zenodo.7014096,Zenodo
+10245052,SiteMap pockets for the PDBbind dataset,dataset,sitemap pockets for the pdbbind dataset,,10.5281/zenodo.10245052,Zenodo
+12623708,100 by 100 Generated Ligands from CrossDocked2020 Benchmark Pockets with DeepICL,dataset,100 by 100 generated ligands from crossdocked2020 benchmark pockets with deepicl,,10.1038/s41467-024-47011-2,Zenodo
+7578480,Graphs for PDBbind-v2020 when training the GenScore,dataset,graphs for pdbbind-v2020 when training the genscore,,10.5281/zenodo.7578480,Zenodo
+10596974,AKScore2,dataset,akscore2,,10.5281/zenodo.10596974,Zenodo
+10202043,Deep Learning-Ready Voxel Representation of Protein-Ligand Complexes from an Enhanced PBDbind v.2020 Dataset,dataset,deep learning-ready voxel representation of protein-ligand complexes from an enhanced pbdbind v.2020 dataset,,10.5281/zenodo.10202043,Zenodo
+15023336,Datasets for AGIMA-Score modeling - latest,dataset,datasets for agima-score modeling - latest,,10.5281/zenodo.15023336,Zenodo
+17190227,GEMS: Resolving Data Bias Improves Generalization in Binding Affinity Prediction,dataset,gems: resolving data bias improves generalization in binding affinity prediction,,10.5281/zenodo.17190227,Zenodo
+14286374,"PGDTA datasets(KIBA, Davis, PDBbind)",dataset,"pgdta datasets(kiba, davis, pdbbind)",,10.5281/zenodo.14286374,Zenodo
+11352521,FABind: Fast and Accurate Protein-Ligand Binding,dataset,fabind: fast and accurate protein-ligand binding,,10.5281/zenodo.11352521,Zenodo
+14875959,Fast and Accurate Blind Flexible Docking,dataset,fast and accurate blind flexible docking,,10.5281/zenodo.14875959,Zenodo
+11562017,Chelsa1.2.STS,dataset,chelsa1.2.sts,,10.5281/zenodo.11562017,Zenodo
+11562017,Chelsa1.2.STS,dataset,chelsa1.2.sts,,10.5281/zenodo.11562017,Zenodo
+11562017,Chelsa1.2.STS,dataset,chelsa1.2.sts,,10.5281/zenodo.11562017,Zenodo
+11562017,Chelsa1.2.STS,dataset,chelsa1.2.sts,,10.5281/zenodo.11562017,Zenodo
+11562017,Chelsa1.2.STS,dataset,chelsa1.2.sts,,10.5281/zenodo.11562017,Zenodo
+11566051,Cleaned libraries and settings matchms library cleaning pipeline,dataset,cleaned libraries and settings matchms library cleaning pipeline,,10.5281/zenodo.11566051,Zenodo
+3834211,Anonymized monthly StackOverflow activity for the Python tag,dataset,anonymized monthly stackoverflow activity for the python tag,,10.5281/zenodo.3834211,Zenodo
+8262593,WISCO occupations_ISCO08_5dgt_55languages_4000titles_with_mapping_surveycodings_20230425,dataset,wisco occupations_isco08_5dgt_55languages_4000titles_with_mapping_surveycodings_20230425,,10.5281/zenodo.8262593,Zenodo
+11354581,Duplicate Question Dataset - Python,dataset,duplicate question dataset - python,,10.5281/zenodo.11354581,Zenodo
+10006012,Extracting Educational Code Scenarios from Python Textbooks,dataset,extracting educational code scenarios from python textbooks,,10.5281/zenodo.10006012,Zenodo
+3942027,Dataset for the paper: Generating Question Titles for Stack Overflow from Mined Code Snippets,dataset,dataset for the paper: generating question titles for stack overflow from mined code snippets,,10.5281/zenodo.3942027,Zenodo
+16751824,Global Picture Archiving and Communication System PACS Market 2025 To 2034,dataset,global picture archiving and communication system pacs market 2025 to 2034,,10.5281/zenodo.16751824,Zenodo
+6359692,"Multilingual CoNaLa Datset, train data",dataset,"multilingual conala datset, train data",,10.5281/zenodo.6359692,Zenodo
+8196385,Loghub: A Large Collection of System Log Datasets for AI-driven Log Analytics,dataset,loghub: a large collection of system log datasets for ai-driven log analytics,,10.5281/zenodo.8196385,Zenodo
+4081595,ActDES – a Curated Actinobacterial Database for Evolutionary Studies,dataset,actdes – a curated actinobacterial database for evolutionary studies,,10.5281/zenodo.4081595,Zenodo
+14578383,SWEC-ETHZ iEEG Seizure Detection Dataset for Bangalore Neuromorphic BNEW Workshop 2025,dataset,swec-ethz ieeg seizure detection dataset for bangalore neuromorphic bnew workshop 2025,,10.5281/zenodo.14578383,Zenodo
+7974586,Porte drug repurposing dataset for epilepsy,dataset,porte drug repurposing dataset for epilepsy,,10.5281/zenodo.7974586,Zenodo
+4001602,Python Annotated Code Search (PACS) Datasets & Pretrained Models,dataset,python annotated code search (pacs) datasets & pretrained models,,10.5281/zenodo.4001602,Zenodo
+7425539,A curated database of fungal pathogens and their host range,dataset,a curated database of fungal pathogens and their host range,,10.5281/zenodo.7425539,Zenodo
+10728956,"Replication package for the paper: ""Automated Technical Debt Identification in StackOverflow Discussions Using Machine Learning and Natural Language Processing""",dataset,"replication package for the paper: ""automated technical debt identification in stackoverflow discussions using machine learning and natural language processing""",,10.5281/zenodo.10728956,Zenodo
+3834211,Anonymized monthly StackOverflow activity for the Python tag,dataset,anonymized monthly stackoverflow activity for the python tag,,10.5281/zenodo.3834211,Zenodo
+807730,Pre-trained word2vec models for ``Easy over Hard: A Case Study on Deep Learning'',dataset,pre-trained word2vec models for ``easy over hard: a case study on deep learning'',,10.5281/zenodo.807730,Zenodo
+7685062,Reddit and StackOverflow dataset (Programming languages),dataset,reddit and stackoverflow dataset (programming languages),,10.5281/zenodo.7685062,Zenodo
+13892239,Robotics on StackOverflow,dataset,robotics on stackoverflow,,10.5281/zenodo.13892239,Zenodo
+581647,Question Oriented Software Text Retrieval,dataset,question oriented software text retrieval,,10.5281/zenodo.581647,Zenodo
+10118839,Preguntas frecuentes en el campo de las ciencias de datos.,dataset,preguntas frecuentes en el campo de las ciencias de datos.,,10.5281/zenodo.10118839,Zenodo
+2558544,Pylint Results for Python Code Snippets on Stack Overflow,dataset,pylint results for python code snippets on stack overflow,,10.5281/zenodo.2558544,Zenodo
+6359692,"Multilingual CoNaLa Datset, train data",dataset,"multilingual conala datset, train data",,10.5281/zenodo.6359692,Zenodo
+4001602,Python Annotated Code Search (PACS) Datasets & Pretrained Models,dataset,python annotated code search (pacs) datasets & pretrained models,,10.5281/zenodo.4001602,Zenodo
+7857872,Unofficial CodeSearchNet Dataset,dataset,unofficial codesearchnet dataset,,10.5281/zenodo.7857872,Zenodo
+7908468,CodeSearchNet Challenge: Evaluating the State of Semantic Code Search,dataset,codesearchnet challenge: evaluating the state of semantic code search,,10.5281/zenodo.7908468,Zenodo
+13755783,Learning to Navigate,dataset,learning to navigate,,10.5281/zenodo.13755783,Zenodo
+7016108,The Artifact of the TSE Submission #TSE-2022-12-0520,dataset,the artifact of the tse submission #tse-2022-12-0520,,10.5281/zenodo.7016108,Zenodo
+5547824,"Datasets for ""Learning Realistic Mutations: Bug Creation for Neural Bug Detectors""",dataset,"datasets for ""learning realistic mutations: bug creation for neural bug detectors""",,10.5281/zenodo.5547824,Zenodo
+7824776,The Artifacts of OOPSLA-2023 Submission #197,dataset,the artifacts of oopsla-2023 submission #197,,10.5281/zenodo.7824776,Zenodo
+13871742,Do Current Language Models Support Code Intelligence for R Programming Language?,dataset,do current language models support code intelligence for r programming language?,,10.5281/zenodo.13871742,Zenodo
+7546358,"The Artifact of the ESEC/FSE 2023 Paper Titled ""Natural Language to Code: How Far are We?""",dataset,"the artifact of the esec/fse 2023 paper titled ""natural language to code: how far are we?""",,10.5281/zenodo.7546358,Zenodo
+10393886,Artifacts of the paper under review by ISSTA,dataset,artifacts of the paper under review by issta,,10.5281/zenodo.10393886,Zenodo
+6359692,"Multilingual CoNaLa Datset, train data",dataset,"multilingual conala datset, train data",,10.5281/zenodo.6359692,Zenodo
+10287751,Set 05 - Test 02,dataset,set 05 - test 02,,10.5281/zenodo.10287751,Zenodo
+11583221,modelforge curated dataset: QM9 1000 conformer test dataset,dataset,modelforge curated dataset: qm9 1000 conformer test dataset,,10.5281/zenodo.11583221,Zenodo
+16751824,Global Picture Archiving and Communication System PACS Market 2025 To 2034,dataset,global picture archiving and communication system pacs market 2025 to 2034,,10.5281/zenodo.16751824,Zenodo
+8260591,Exploring Trends in Gerontechnology Research: A Bibliometric Analysis,dataset,exploring trends in gerontechnology research: a bibliometric analysis,,10.5281/zenodo.8260591,Zenodo
+8051720,The Evolution of Positive Psychology Research on Life Satisfaction: A Bibliometric Examination,dataset,the evolution of positive psychology research on life satisfaction: a bibliometric examination,,10.5281/zenodo.8051720,Zenodo
+8033896,Who Makes a Better University Adjustment Wingman: Parents or Friends?,dataset,who makes a better university adjustment wingman: parents or friends?,,10.5281/zenodo.8033896,Zenodo
+15624887,"Mapping the Evolution of Logistics and Supply Chain Education: A Two-Decade Bibliometric Analysis of Trends, Gaps, and Future Directions",dataset,"mapping the evolution of logistics and supply chain education: a two-decade bibliometric analysis of trends, gaps, and future directions",,10.5281/zenodo.15624887,Zenodo
+10782433,A Delphi Study on the Reasons and Solutions of EFL Lecturers' Technostress: Perceptions of Academics from China,dataset,a delphi study on the reasons and solutions of efl lecturers' technostress: perceptions of academics from china,,10.5281/zenodo.10782433,Zenodo
+14801641,Datasets for OntoClue Project,dataset,datasets for ontoclue project,,10.5281/zenodo.14801641,Zenodo
+6493847,PANACEA dataset - Heterogeneous COVID-19 Claims,dataset,panacea dataset - heterogeneous covid-19 claims,,10.5281/zenodo.6493847,Zenodo
+10852971,1st International Workshop on Open Web Search #wows2024 at ECIR 2024: Document Processors,dataset,1st international workshop on open web search #wows2024 at ecir 2024: document processors,,10.5281/zenodo.10852971,Zenodo
+4582776,CORD-19 Software Mentions,dataset,cord-19 software mentions,,10.5061/dryad.vmcvdncs0,Zenodo
+3813567,COVID-19 Open Research Dataset (CORD-19),dataset,covid-19 open research dataset (cord-19),,10.5281/zenodo.3813567,Zenodo
+4432958,CORD-19 Diachronic Concept Embeddings,dataset,cord-19 diachronic concept embeddings,,10.5281/zenodo.4432958,Zenodo
+3957521,LG-covid19-HOTP: Literature Graph of Scholarly Articles Relevant to COVID-19 Study,dataset,lg-covid19-hotp: literature graph of scholarly articles relevant to covid-19 study,,10.5281/zenodo.3957521,Zenodo
+14417422,"Citation contexts of [How Many Scientists Fabricate and Falsify Research? A Systematic Review and Meta-Analysis of Survey Data, DOI: 10.1371/journal.pone.0005738]",dataset,"citation contexts of [how many scientists fabricate and falsify research? a systematic review and meta-analysis of survey data, doi: 10.1371/journal.pone.0005738]",,10.5281/zenodo.14417422,Zenodo
+3813567,COVID-19 Open Research Dataset (CORD-19),dataset,covid-19 open research dataset (cord-19),,10.5281/zenodo.3813567,Zenodo
+6782247,Classical Tibetan Word Embeddings,dataset,classical tibetan word embeddings,,10.5281/zenodo.6782247,Zenodo

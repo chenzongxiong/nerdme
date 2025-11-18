@@ -1,0 +1,7 @@
+```markdown
+For import, replace pybatfish client session with the one provided by NetCov: 
+```python
+# from pybatfish.client.session import Session
+from netcov import NetCovSession as Session
+```
+```

@@ -1,0 +1,3 @@
+```markdown
+/experiments/scripts/fetch_annotations.sh ``` This will populate the `<DATASET>DrillDown/data</DATASET>` folder with `<DATASET>vg/sg_xmls</DATASET>` and `<DATASET>vg/rg_jsons</DATASET>`, which are per-image scene-graph and region-graph annotations
+```

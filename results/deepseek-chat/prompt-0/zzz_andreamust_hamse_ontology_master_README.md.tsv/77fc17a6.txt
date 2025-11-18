@@ -1,0 +1,1 @@
+This approach has multiple advantages: by connecting different MSRs, it will be possible to exploit all the characteristics that such representations can provide.

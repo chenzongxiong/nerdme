@@ -1,0 +1,1 @@
+[Version](https://badge.fury.io/py/<SOFTWARE>kara teclub</SOFTWARE>.svg)

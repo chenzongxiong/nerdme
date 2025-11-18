@@ -1,0 +1,1808 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=## Attention With Varying Receptive Fields Network
+#Text=
+#Text=### Overview
+#Text=
+#Text=A key application in computer vision is performing super-resolution of degraded
+#Text=images by learning a mapping from low-resolution to high-resolution.
+1-1	0-1	#	_	_	
+1-2	1-2	#	_	_	
+1-3	3-12	Attention	_	_	
+1-4	13-17	With	_	_	
+1-5	18-25	Varying	_	_	
+1-6	26-35	Receptive	_	_	
+1-7	36-42	Fields	_	_	
+1-8	43-50	Network	_	_	
+1-9	52-53	#	_	_	
+1-10	53-54	#	_	_	
+1-11	54-55	#	_	_	
+1-12	56-64	Overview	_	_	
+1-13	66-67	A	_	_	
+1-14	68-71	key	_	_	
+1-15	72-83	application	_	_	
+1-16	84-86	in	_	_	
+1-17	87-95	computer	_	_	
+1-18	96-102	vision	_	_	
+1-19	103-105	is	_	_	
+1-20	106-116	performing	_	_	
+1-21	117-133	super-resolution	_	_	
+1-22	134-136	of	_	_	
+1-23	137-145	degraded	_	_	
+1-24	146-152	images	_	_	
+1-25	153-155	by	_	_	
+1-26	156-164	learning	_	_	
+1-27	165-166	a	_	_	
+1-28	167-174	mapping	_	_	
+1-29	175-179	from	_	_	
+1-30	180-194	low-resolution	_	_	
+1-31	195-197	to	_	_	
+1-32	198-213	high-resolution	_	_	
+1-33	213-214	.	_	_	
+
+#Text=We have
+#Text=created a library of various super-resolution models and modules, along with
+#Text=documentation, for thermal and RGB super-resolution.
+2-1	215-217	We	_	_	
+2-2	218-222	have	_	_	
+2-3	223-230	created	_	_	
+2-4	231-232	a	_	_	
+2-5	233-240	library	_	_	
+2-6	241-243	of	_	_	
+2-7	244-251	various	_	_	
+2-8	252-268	super-resolution	_	_	
+2-9	269-275	models	_	_	
+2-10	276-279	and	_	_	
+2-11	280-287	modules	_	_	
+2-12	287-288	,	_	_	
+2-13	289-294	along	_	_	
+2-14	295-299	with	_	_	
+2-15	300-313	documentation	_	_	
+2-16	313-314	,	_	_	
+2-17	315-318	for	_	_	
+2-18	319-326	thermal	_	_	
+2-19	327-330	and	_	_	
+2-20	331-334	RGB	_	_	
+2-21	335-351	super-resolution	_	_	
+2-22	351-352	.	_	_	
+
+#Text=Specifically, we
+#Text=implement experiments designed to determine how additions of enhanced
+#Text=convolutions and novel modules encompassed in our attention with varying
+#Text=receptive fields network affects performance gains for the task of image
+#Text=super-resolution.
+3-1	353-365	Specifically	_	_	
+3-2	365-366	,	_	_	
+3-3	367-369	we	_	_	
+3-4	370-379	implement	_	_	
+3-5	380-391	experiments	_	_	
+3-6	392-400	designed	_	_	
+3-7	401-403	to	_	_	
+3-8	404-413	determine	_	_	
+3-9	414-417	how	_	_	
+3-10	418-427	additions	_	_	
+3-11	428-430	of	_	_	
+3-12	431-439	enhanced	_	_	
+3-13	440-452	convolutions	_	_	
+3-14	453-456	and	_	_	
+3-15	457-462	novel	_	_	
+3-16	463-470	modules	_	_	
+3-17	471-482	encompassed	_	_	
+3-18	483-485	in	_	_	
+3-19	486-489	our	_	_	
+3-20	490-499	attention	_	_	
+3-21	500-504	with	_	_	
+3-22	505-512	varying	_	_	
+3-23	513-522	receptive	_	_	
+3-24	523-529	fields	_	_	
+3-25	530-537	network	_	_	
+3-26	538-545	affects	_	_	
+3-27	546-557	performance	_	_	
+3-28	558-563	gains	_	_	
+3-29	564-567	for	_	_	
+3-30	568-571	the	_	_	
+3-31	572-576	task	_	_	
+3-32	577-579	of	_	_	
+3-33	580-585	image	_	_	
+3-34	586-602	super-resolution	_	_	
+3-35	602-603	.	_	_	
+
+#Text=<p align="center">
+#Text=<img src='.
+4-1	605-606	<	_	_	
+4-2	606-607	p	_	_	
+4-3	608-613	align	_	_	
+4-4	613-614	=	_	_	
+4-5	614-615	"	_	_	
+4-6	615-621	center	_	_	
+4-7	621-622	"	_	_	
+4-8	622-623	>	_	_	
+4-9	624-625	<	_	_	
+4-10	625-628	img	_	_	
+4-11	629-632	src	_	_	
+4-12	632-633	=	_	_	
+4-13	633-634	'	_	_	
+4-14	634-635	.	_	_	
+
+#Text=/Figures/model_overview.png'>
+#Text=</p>
+#Text=
+#Text=This repository was created to contain the experiments and super-resolution
+#Text=models for our 2021 ICVS paper titled "[Thermal Image Super-Resolution Using
+#Text=Second-Order Channel Attention with Varying Receptive
+#Text=Fields](https://arxiv.org/pdf/2108.00094.pdf)."
+5-1	635-636	/	_	_	
+5-2	636-643	Figures	_	_	
+5-3	643-644	/	_	_	
+5-4	644-662	model_overview.png	_	_	
+5-5	662-663	'	_	_	
+5-6	663-664	>	_	_	
+5-7	665-666	<	_	_	
+5-8	666-667	/	_	_	
+5-9	667-668	p	_	_	
+5-10	668-669	>	_	_	
+5-11	671-675	This	_	_	
+5-12	676-686	repository	_	_	
+5-13	687-690	was	_	_	
+5-14	691-698	created	_	_	
+5-15	699-701	to	_	_	
+5-16	702-709	contain	_	_	
+5-17	710-713	the	_	_	
+5-18	714-725	experiments	_	_	
+5-19	726-729	and	_	_	
+5-20	730-746	super-resolution	_	_	
+5-21	747-753	models	_	_	
+5-22	754-757	for	_	_	
+5-23	758-761	our	_	_	
+5-24	762-766	2021	*[1]	CONFERENCE[1]	
+5-25	767-771	ICVS	*[1]	CONFERENCE[1]	
+5-26	772-777	paper	_	_	
+5-27	778-784	titled	_	_	
+5-28	785-786	"	_	_	
+5-29	786-787	[	_	_	
+5-30	787-794	Thermal	*[2]	PUBLICATION[2]	
+5-31	795-800	Image	*[2]	PUBLICATION[2]	
+5-32	801-817	Super-Resolution	*[2]	PUBLICATION[2]	
+5-33	818-823	Using	*[2]	PUBLICATION[2]	
+5-34	824-836	Second-Order	*[2]	PUBLICATION[2]	
+5-35	837-844	Channel	*[2]	PUBLICATION[2]	
+5-36	845-854	Attention	*[2]	PUBLICATION[2]	
+5-37	855-859	with	*[2]	PUBLICATION[2]	
+5-38	860-867	Varying	*[2]	PUBLICATION[2]	
+5-39	868-877	Receptive	*[2]	PUBLICATION[2]	
+5-40	878-884	Fields	*[2]	PUBLICATION[2]	
+5-41	884-885	]	_	_	
+5-42	885-886	(	_	_	
+5-43	886-891	https	_	_	
+5-44	891-892	:	_	_	
+5-45	892-893	/	_	_	
+5-46	893-894	/	_	_	
+5-47	894-903	arxiv.org	_	_	
+5-48	903-904	/	_	_	
+5-49	904-907	pdf	_	_	
+5-50	907-908	/	_	_	
+5-51	908-918	2108.00094	_	_	
+5-52	918-919	.	_	_	
+5-53	919-922	pdf	_	_	
+5-54	922-923	)	_	_	
+5-55	923-924	.	_	_	
+5-56	924-925	"	_	_	
+
+#Text=The software contains deep
+#Text=learning and computer vision code not only for thermal image super-resolution,
+#Text=but also for super-resolution of the visual image space. 
+#Text=
+#Text=### Citation
+#Text=
+#Text=If you find this project useful, then please consider citing our work.
+6-1	926-929	The	_	_	
+6-2	930-938	software	_	_	
+6-3	939-947	contains	_	_	
+6-4	948-952	deep	_	_	
+6-5	953-961	learning	_	_	
+6-6	962-965	and	_	_	
+6-7	966-974	computer	_	_	
+6-8	975-981	vision	_	_	
+6-9	982-986	code	_	_	
+6-10	987-990	not	_	_	
+6-11	991-995	only	_	_	
+6-12	996-999	for	_	_	
+6-13	1000-1007	thermal	_	_	
+6-14	1008-1013	image	_	_	
+6-15	1014-1030	super-resolution	_	_	
+6-16	1030-1031	,	_	_	
+6-17	1032-1035	but	_	_	
+6-18	1036-1040	also	_	_	
+6-19	1041-1044	for	_	_	
+6-20	1045-1061	super-resolution	_	_	
+6-21	1062-1064	of	_	_	
+6-22	1065-1068	the	_	_	
+6-23	1069-1075	visual	_	_	
+6-24	1076-1081	image	_	_	
+6-25	1082-1087	space	_	_	
+6-26	1087-1088	.	_	_	
+6-27	1091-1092	#	_	_	
+6-28	1092-1093	#	_	_	
+6-29	1093-1094	#	_	_	
+6-30	1095-1103	Citation	_	_	
+6-31	1105-1107	If	_	_	
+6-32	1108-1111	you	_	_	
+6-33	1112-1116	find	_	_	
+6-34	1117-1121	this	_	_	
+6-35	1122-1129	project	_	_	
+6-36	1130-1136	useful	_	_	
+6-37	1136-1137	,	_	_	
+6-38	1138-1142	then	_	_	
+6-39	1143-1149	please	_	_	
+6-40	1150-1158	consider	_	_	
+6-41	1159-1165	citing	_	_	
+6-42	1166-1169	our	_	_	
+6-43	1170-1174	work	_	_	
+6-44	1174-1175	.	_	_	
+
+#Text=```bibtex
+#Text=@inproceedings{gutierrez2021thermal, 
+#Text=  title={Thermal image super-resolution using second-order channel attention with varying receptive fields},
+#Text=  author={Gutierrez, Nolan B and Beksi, William J},
+#Text=  booktitle={Proceedings of the International Conference on Computer Vision Systems (ICVS)},
+#Text=  pages={3--13},
+#Text=  year={2021}
+#Text=}
+#Text=``` 
+#Text=
+#Text=### Installation
+#Text=
+#Text=To run the experiments within this repository, `opencv`, `numpy`, `tensorflow`,
+#Text=and `pillow` need to be installed along with their dependencies.
+7-1	1178-1179	`	_	_	
+7-2	1179-1180	`	_	_	
+7-3	1180-1181	`	_	_	
+7-4	1181-1187	bibtex	_	_	
+7-5	1188-1189	@	_	_	
+7-6	1189-1202	inproceedings	_	_	
+7-7	1202-1203	{	_	_	
+7-8	1203-1223	gutierrez2021thermal	_	_	
+7-9	1223-1224	,	_	_	
+7-10	1228-1233	title	_	_	
+7-11	1233-1234	=	_	_	
+7-12	1234-1235	{	_	_	
+7-13	1235-1242	Thermal	*[3]	PUBLICATION[3]	
+7-14	1243-1248	image	*[3]	PUBLICATION[3]	
+7-15	1249-1265	super-resolution	*[3]	PUBLICATION[3]	
+7-16	1266-1271	using	*[3]	PUBLICATION[3]	
+7-17	1272-1284	second-order	*[3]	PUBLICATION[3]	
+7-18	1285-1292	channel	*[3]	PUBLICATION[3]	
+7-19	1293-1302	attention	*[3]	PUBLICATION[3]	
+7-20	1303-1307	with	*[3]	PUBLICATION[3]	
+7-21	1308-1315	varying	*[3]	PUBLICATION[3]	
+7-22	1316-1325	receptive	*[3]	PUBLICATION[3]	
+7-23	1326-1332	fields	*[3]	PUBLICATION[3]	
+7-24	1332-1333	}	_	_	
+7-25	1333-1334	,	_	_	
+7-26	1337-1343	author	_	_	
+7-27	1343-1344	=	_	_	
+7-28	1344-1345	{	_	_	
+7-29	1345-1354	Gutierrez	_	_	
+7-30	1354-1355	,	_	_	
+7-31	1356-1361	Nolan	_	_	
+7-32	1362-1363	B	_	_	
+7-33	1364-1367	and	_	_	
+7-34	1368-1373	Beksi	_	_	
+7-35	1373-1374	,	_	_	
+7-36	1375-1382	William	_	_	
+7-37	1383-1384	J	_	_	
+7-38	1384-1385	}	_	_	
+7-39	1385-1386	,	_	_	
+7-40	1389-1398	booktitle	_	_	
+7-41	1398-1399	=	_	_	
+7-42	1399-1400	{	_	_	
+7-43	1400-1411	Proceedings	*[4]	PUBLICATION[4]	
+7-44	1412-1414	of	*[4]	PUBLICATION[4]	
+7-45	1415-1418	the	*[4]	PUBLICATION[4]	
+7-46	1419-1432	International	*[4]|*[5]	PUBLICATION[4]|CONFERENCE[5]	
+7-47	1433-1443	Conference	*[4]|*[5]	PUBLICATION[4]|CONFERENCE[5]	
+7-48	1444-1446	on	*[4]|*[5]	PUBLICATION[4]|CONFERENCE[5]	
+7-49	1447-1455	Computer	*[4]|*[5]	PUBLICATION[4]|CONFERENCE[5]	
+7-50	1456-1462	Vision	*[4]|*[5]	PUBLICATION[4]|CONFERENCE[5]	
+7-51	1463-1470	Systems	*[4]|*[5]	PUBLICATION[4]|CONFERENCE[5]	
+7-52	1471-1472	(	_	_	
+7-53	1472-1476	ICVS	*	CONFERENCE	
+7-54	1476-1477	)	_	_	
+7-55	1477-1478	}	_	_	
+7-56	1478-1479	,	_	_	
+7-57	1482-1487	pages	_	_	
+7-58	1487-1488	=	_	_	
+7-59	1488-1489	{	_	_	
+7-60	1489-1490	3	_	_	
+7-61	1490-1491	-	_	_	
+7-62	1491-1492	-	_	_	
+7-63	1492-1494	13	_	_	
+7-64	1494-1495	}	_	_	
+7-65	1495-1496	,	_	_	
+7-66	1499-1503	year	_	_	
+7-67	1503-1504	=	_	_	
+7-68	1504-1505	{	_	_	
+7-69	1505-1509	2021	_	_	
+7-70	1509-1510	}	_	_	
+7-71	1511-1512	}	_	_	
+7-72	1513-1514	`	_	_	
+7-73	1514-1515	`	_	_	
+7-74	1515-1516	`	_	_	
+7-75	1519-1520	#	_	_	
+7-76	1520-1521	#	_	_	
+7-77	1521-1522	#	_	_	
+7-78	1523-1535	Installation	_	_	
+7-79	1537-1539	To	_	_	
+7-80	1540-1543	run	_	_	
+7-81	1544-1547	the	_	_	
+7-82	1548-1559	experiments	_	_	
+7-83	1560-1566	within	_	_	
+7-84	1567-1571	this	_	_	
+7-85	1572-1582	repository	_	_	
+7-86	1582-1583	,	_	_	
+7-87	1584-1585	`	_	_	
+7-88	1585-1591	opencv	*	SOFTWARE	
+7-89	1591-1592	`	_	_	
+7-90	1592-1593	,	_	_	
+7-91	1594-1595	`	_	_	
+7-92	1595-1600	numpy	*	SOFTWARE	
+7-93	1600-1601	`	_	_	
+7-94	1601-1602	,	_	_	
+7-95	1603-1604	`	_	_	
+7-96	1604-1614	tensorflow	*	SOFTWARE	
+7-97	1614-1615	`	_	_	
+7-98	1615-1616	,	_	_	
+7-99	1617-1620	and	_	_	
+7-100	1621-1622	`	_	_	
+7-101	1622-1628	pillow	*	SOFTWARE	
+7-102	1628-1629	`	_	_	
+7-103	1630-1634	need	_	_	
+7-104	1635-1637	to	_	_	
+7-105	1638-1640	be	_	_	
+7-106	1641-1650	installed	_	_	
+7-107	1651-1656	along	_	_	
+7-108	1657-1661	with	_	_	
+7-109	1662-1667	their	_	_	
+7-110	1668-1680	dependencies	_	_	
+7-111	1680-1681	.	_	_	
+
+#Text=The experiments
+#Text=were conducted on an Ubuntu 20.04 machine using an Anaconda 3 environment.
+8-1	1682-1685	The	_	_	
+8-2	1686-1697	experiments	_	_	
+8-3	1698-1702	were	_	_	
+8-4	1703-1712	conducted	_	_	
+8-5	1713-1715	on	_	_	
+8-6	1716-1718	an	_	_	
+8-7	1719-1725	Ubuntu	*[6]	SOFTWARE[6]	
+8-8	1726-1731	20.04	*[6]	SOFTWARE[6]	
+8-9	1732-1739	machine	_	_	
+8-10	1740-1745	using	_	_	
+8-11	1746-1748	an	_	_	
+8-12	1749-1757	Anaconda	*[7]	SOFTWARE[7]	
+8-13	1758-1759	3	*[7]	SOFTWARE[7]	
+8-14	1760-1771	environment	_	_	
+8-15	1771-1772	.	_	_	
+
+#Text=The
+#Text=experiments were run with an NVIDIA GPU and CUDA.
+9-1	1773-1776	The	_	_	
+9-2	1777-1788	experiments	_	_	
+9-3	1789-1793	were	_	_	
+9-4	1794-1797	run	_	_	
+9-5	1798-1802	with	_	_	
+9-6	1803-1805	an	_	_	
+9-7	1806-1812	NVIDIA	_	_	
+9-8	1813-1816	GPU	_	_	
+9-9	1817-1820	and	_	_	
+9-10	1821-1825	CUDA	*	SOFTWARE	
+9-11	1825-1826	.	_	_	
+
+#Text=To create the environment, run
+#Text=the following commands from a terminal with Anaconda 3 installed.
+10-1	1827-1829	To	_	_	
+10-2	1830-1836	create	_	_	
+10-3	1837-1840	the	_	_	
+10-4	1841-1852	environment	_	_	
+10-5	1852-1853	,	_	_	
+10-6	1854-1857	run	_	_	
+10-7	1858-1861	the	_	_	
+10-8	1862-1871	following	_	_	
+10-9	1872-1880	commands	_	_	
+10-10	1881-1885	from	_	_	
+10-11	1886-1887	a	_	_	
+10-12	1888-1896	terminal	_	_	
+10-13	1897-1901	with	_	_	
+10-14	1902-1910	Anaconda	*	SOFTWARE	
+10-15	1911-1912	3	_	_	
+10-16	1913-1922	installed	_	_	
+10-17	1922-1923	.	_	_	
+
+#Text=Create the Anaconda environment:
+#Text= 
+#Text=`conda create -y -n myenv tensorflow==2.4.1 numpy==1.19.2  pip  pillow==7.2.0
+#Text=tensorflow-gpu==2.5.0`
+#Text= 
+#Text=Activate the environment:
+#Text= 
+#Text=`conda activate myenv`
+#Text= 
+#Text=Install OpenCV:
+#Text= 
+#Text=`conda install -c conda-forge opencv`
+#Text= 
+#Text=### Usage
+#Text= 
+#Text=Our driver file is equipped with a simple GUI that allows you to select
+#Text=datasets for training and testing.
+11-1	1927-1933	Create	_	_	
+11-2	1934-1937	the	_	_	
+11-3	1938-1946	Anaconda	*	SOFTWARE	
+11-4	1947-1958	environment	_	_	
+11-5	1958-1959	:	_	_	
+11-6	1962-1963	`	_	_	
+11-7	1963-1968	conda	*	SOFTWARE	
+11-8	1969-1975	create	_	_	
+11-9	1976-1977	-	_	_	
+11-10	1977-1978	y	_	_	
+11-11	1979-1980	-	_	_	
+11-12	1980-1981	n	_	_	
+11-13	1982-1987	myenv	_	_	
+11-14	1988-1998	tensorflow	*[8]	SOFTWARE[8]	
+11-15	1998-1999	=	*[8]	SOFTWARE[8]	
+11-16	1999-2000	=	*[8]	SOFTWARE[8]	
+11-17	2000-2005	2.4.1	*[8]	SOFTWARE[8]	
+11-18	2006-2011	numpy	*[9]	SOFTWARE[9]	
+11-19	2011-2012	=	*[9]	SOFTWARE[9]	
+11-20	2012-2013	=	*[9]	SOFTWARE[9]	
+11-21	2013-2019	1.19.2	*[9]	SOFTWARE[9]	
+11-22	2021-2024	pip	*	SOFTWARE	
+11-23	2026-2032	pillow	*[10]	SOFTWARE[10]	
+11-24	2032-2033	=	*[10]	SOFTWARE[10]	
+11-25	2033-2034	=	*[10]	SOFTWARE[10]	
+11-26	2034-2039	7.2.0	*[10]	SOFTWARE[10]	
+11-27	2040-2054	tensorflow-gpu	*[11]	SOFTWARE[11]	
+11-28	2054-2055	=	*[11]	SOFTWARE[11]	
+11-29	2055-2056	=	*[11]	SOFTWARE[11]	
+11-30	2056-2061	2.5.0	*[11]	SOFTWARE[11]	
+11-31	2061-2062	`	_	_	
+11-32	2065-2073	Activate	_	_	
+11-33	2074-2077	the	_	_	
+11-34	2078-2089	environment	_	_	
+11-35	2089-2090	:	_	_	
+11-36	2093-2094	`	_	_	
+11-37	2094-2099	conda	*	SOFTWARE	
+11-38	2100-2108	activate	_	_	
+11-39	2109-2114	myenv	_	_	
+11-40	2114-2115	`	_	_	
+11-41	2118-2125	Install	_	_	
+11-42	2126-2132	OpenCV	*	SOFTWARE	
+11-43	2132-2133	:	_	_	
+11-44	2136-2137	`	_	_	
+11-45	2137-2142	conda	*	SOFTWARE	
+11-46	2143-2150	install	_	_	
+11-47	2151-2152	-	_	_	
+11-48	2152-2153	c	_	_	
+11-49	2154-2165	conda-forge	_	_	
+11-50	2166-2172	opencv	*	SOFTWARE	
+11-51	2172-2173	`	_	_	
+11-52	2176-2177	#	_	_	
+11-53	2177-2178	#	_	_	
+11-54	2178-2179	#	_	_	
+11-55	2180-2185	Usage	_	_	
+11-56	2188-2191	Our	_	_	
+11-57	2192-2198	driver	_	_	
+11-58	2199-2203	file	_	_	
+11-59	2204-2206	is	_	_	
+11-60	2207-2215	equipped	_	_	
+11-61	2216-2220	with	_	_	
+11-62	2221-2222	a	_	_	
+11-63	2223-2229	simple	_	_	
+11-64	2230-2233	GUI	_	_	
+11-65	2234-2238	that	_	_	
+11-66	2239-2245	allows	_	_	
+11-67	2246-2249	you	_	_	
+11-68	2250-2252	to	_	_	
+11-69	2253-2259	select	_	_	
+11-70	2260-2268	datasets	_	_	
+11-71	2269-2272	for	_	_	
+11-72	2273-2281	training	_	_	
+11-73	2282-2285	and	_	_	
+11-74	2286-2293	testing	_	_	
+11-75	2293-2294	.	_	_	
+
+#Text=In the driver file, simply change the
+#Text=boolean `save_dirs` to `True`.
+12-1	2295-2297	In	_	_	
+12-2	2298-2301	the	_	_	
+12-3	2302-2308	driver	_	_	
+12-4	2309-2313	file	_	_	
+12-5	2313-2314	,	_	_	
+12-6	2315-2321	simply	_	_	
+12-7	2322-2328	change	_	_	
+12-8	2329-2332	the	_	_	
+12-9	2333-2340	boolean	_	_	
+12-10	2341-2342	`	_	_	
+12-11	2342-2351	save_dirs	_	_	
+12-12	2351-2352	`	_	_	
+12-13	2353-2355	to	_	_	
+12-14	2356-2357	`	_	_	
+12-15	2357-2361	True	_	_	
+12-16	2361-2362	`	_	_	
+12-17	2362-2363	.	_	_	
+
+#Text=Next, to quickly set the directories which you
+#Text=will be using run the following command:
+#Text=
+#Text=`python train.py 2`
+#Text=
+#Text=You will be presented with a GUI which allows you to select the proper dataset.
+13-1	2364-2368	Next	_	_	
+13-2	2368-2369	,	_	_	
+13-3	2370-2372	to	_	_	
+13-4	2373-2380	quickly	_	_	
+13-5	2381-2384	set	_	_	
+13-6	2385-2388	the	_	_	
+13-7	2389-2400	directories	_	_	
+13-8	2401-2406	which	_	_	
+13-9	2407-2410	you	_	_	
+13-10	2411-2415	will	_	_	
+13-11	2416-2418	be	_	_	
+13-12	2419-2424	using	_	_	
+13-13	2425-2428	run	_	_	
+13-14	2429-2432	the	_	_	
+13-15	2433-2442	following	_	_	
+13-16	2443-2450	command	_	_	
+13-17	2450-2451	:	_	_	
+13-18	2453-2454	`	_	_	
+13-19	2454-2460	python	*	SOFTWARE	
+13-20	2461-2469	train.py	_	_	
+13-21	2470-2471	2	_	_	
+13-22	2471-2472	`	_	_	
+13-23	2474-2477	You	_	_	
+13-24	2478-2482	will	_	_	
+13-25	2483-2485	be	_	_	
+13-26	2486-2495	presented	_	_	
+13-27	2496-2500	with	_	_	
+13-28	2501-2502	a	_	_	
+13-29	2503-2506	GUI	_	_	
+13-30	2507-2512	which	_	_	
+13-31	2513-2519	allows	_	_	
+13-32	2520-2523	you	_	_	
+13-33	2524-2526	to	_	_	
+13-34	2527-2533	select	_	_	
+13-35	2534-2537	the	_	_	
+13-36	2538-2544	proper	_	_	
+13-37	2545-2552	dataset	_	_	
+13-38	2552-2553	.	_	_	
+
+#Text=Use `Set and Reset` when erasing the current entry, and `Add Directory` when
+#Text=adding a new directory to the list of directories.
+14-1	2554-2557	Use	_	_	
+14-2	2558-2559	`	_	_	
+14-3	2559-2562	Set	_	_	
+14-4	2563-2566	and	_	_	
+14-5	2567-2572	Reset	_	_	
+14-6	2572-2573	`	_	_	
+14-7	2574-2578	when	_	_	
+14-8	2579-2586	erasing	_	_	
+14-9	2587-2590	the	_	_	
+14-10	2591-2598	current	_	_	
+14-11	2599-2604	entry	_	_	
+14-12	2604-2605	,	_	_	
+14-13	2606-2609	and	_	_	
+14-14	2610-2611	`	_	_	
+14-15	2611-2614	Add	_	_	
+14-16	2615-2624	Directory	_	_	
+14-17	2624-2625	`	_	_	
+14-18	2626-2630	when	_	_	
+14-19	2631-2637	adding	_	_	
+14-20	2638-2639	a	_	_	
+14-21	2640-2643	new	_	_	
+14-22	2644-2653	directory	_	_	
+14-23	2654-2656	to	_	_	
+14-24	2657-2660	the	_	_	
+14-25	2661-2665	list	_	_	
+14-26	2666-2668	of	_	_	
+14-27	2669-2680	directories	_	_	
+14-28	2680-2681	.	_	_	
+
+#Text=As of now, the program only
+#Text=supports a single training directory but multiple testing directories.
+15-1	2682-2684	As	_	_	
+15-2	2685-2687	of	_	_	
+15-3	2688-2691	now	_	_	
+15-4	2691-2692	,	_	_	
+15-5	2693-2696	the	_	_	
+15-6	2697-2704	program	_	_	
+15-7	2705-2709	only	_	_	
+15-8	2710-2718	supports	_	_	
+15-9	2719-2720	a	_	_	
+15-10	2721-2727	single	_	_	
+15-11	2728-2736	training	_	_	
+15-12	2737-2746	directory	_	_	
+15-13	2747-2750	but	_	_	
+15-14	2751-2759	multiple	_	_	
+15-15	2760-2767	testing	_	_	
+15-16	2768-2779	directories	_	_	
+15-17	2779-2780	.	_	_	
+
+#Text=Pressing
+#Text=save will write the directories to a JSON file named `saved_dirs.json`.
+16-1	2782-2790	Pressing	_	_	
+16-2	2791-2795	save	_	_	
+16-3	2796-2800	will	_	_	
+16-4	2801-2806	write	_	_	
+16-5	2807-2810	the	_	_	
+16-6	2811-2822	directories	_	_	
+16-7	2823-2825	to	_	_	
+16-8	2826-2827	a	_	_	
+16-9	2828-2832	JSON	_	_	
+16-10	2833-2837	file	_	_	
+16-11	2838-2843	named	_	_	
+16-12	2844-2845	`	_	_	
+16-13	2845-2860	saved_dirs.json	_	_	
+16-14	2860-2861	`	_	_	
+16-15	2861-2862	.	_	_	
+
+#Text=If using
+#Text=the KAIST dataset, we recommend that you place the images in the root directory
+#Text=following the defined list on line 60 of `train.py`.
+#Text=
+#Text=#### Dataset Selection GUI
+#Text= 
+#Text=!
+17-1	2863-2865	If	_	_	
+17-2	2866-2871	using	_	_	
+17-3	2872-2875	the	_	_	
+17-4	2876-2881	KAIST	*	DATASET	
+17-5	2882-2889	dataset	_	_	
+17-6	2889-2890	,	_	_	
+17-7	2891-2893	we	_	_	
+17-8	2894-2903	recommend	_	_	
+17-9	2904-2908	that	_	_	
+17-10	2909-2912	you	_	_	
+17-11	2913-2918	place	_	_	
+17-12	2919-2922	the	_	_	
+17-13	2923-2929	images	_	_	
+17-14	2930-2932	in	_	_	
+17-15	2933-2936	the	_	_	
+17-16	2937-2941	root	_	_	
+17-17	2942-2951	directory	_	_	
+17-18	2952-2961	following	_	_	
+17-19	2962-2965	the	_	_	
+17-20	2966-2973	defined	_	_	
+17-21	2974-2978	list	_	_	
+17-22	2979-2981	on	_	_	
+17-23	2982-2986	line	_	_	
+17-24	2987-2989	60	_	_	
+17-25	2990-2992	of	_	_	
+17-26	2993-2994	`	_	_	
+17-27	2994-3002	train.py	_	_	
+17-28	3002-3003	`	_	_	
+17-29	3003-3004	.	_	_	
+17-30	3006-3007	#	_	_	
+17-31	3007-3008	#	_	_	
+17-32	3008-3009	#	_	_	
+17-33	3009-3010	#	_	_	
+17-34	3011-3018	Dataset	_	_	
+17-35	3019-3028	Selection	_	_	
+17-36	3029-3032	GUI	_	_	
+17-37	3035-3036	!	_	_	
+
+#Text=[dataset_gui](.
+18-1	3036-3037	[	_	_	
+18-2	3037-3048	dataset_gui	_	_	
+18-3	3048-3049	]	_	_	
+18-4	3049-3050	(	_	_	
+18-5	3050-3051	.	_	_	
+
+#Text=/Figures/dataset_gui.png)
+#Text= 
+#Text=#### Selection of Datasets
+#Text= 
+#Text=!
+19-1	3051-3052	/	_	_	
+19-2	3052-3059	Figures	_	_	
+19-3	3059-3060	/	_	_	
+19-4	3060-3075	dataset_gui.png	_	_	
+19-5	3075-3076	)	_	_	
+19-6	3079-3080	#	_	_	
+19-7	3080-3081	#	_	_	
+19-8	3081-3082	#	_	_	
+19-9	3082-3083	#	_	_	
+19-10	3084-3093	Selection	_	_	
+19-11	3094-3096	of	_	_	
+19-12	3097-3105	Datasets	_	_	
+19-13	3108-3109	!	_	_	
+
+#Text=[dataset_selection](.
+20-1	3109-3110	[	_	_	
+20-2	3110-3127	dataset_selection	_	_	
+20-3	3127-3128	]	_	_	
+20-4	3128-3129	(	_	_	
+20-5	3129-3130	.	_	_	
+
+#Text=/Figures/data_selection.png)
+#Text=
+#Text=This is highly recommended to do since the KAIST dataset is very large and our
+#Text=current implementation takes every 200th image.
+21-1	3130-3131	/	_	_	
+21-2	3131-3138	Figures	_	_	
+21-3	3138-3139	/	_	_	
+21-4	3139-3157	data_selection.png	_	_	
+21-5	3157-3158	)	_	_	
+21-6	3160-3164	This	_	_	
+21-7	3165-3167	is	_	_	
+21-8	3168-3174	highly	_	_	
+21-9	3175-3186	recommended	_	_	
+21-10	3187-3189	to	_	_	
+21-11	3190-3192	do	_	_	
+21-12	3193-3198	since	_	_	
+21-13	3199-3202	the	_	_	
+21-14	3203-3208	KAIST	*	DATASET	
+21-15	3209-3216	dataset	_	_	
+21-16	3217-3219	is	_	_	
+21-17	3220-3224	very	_	_	
+21-18	3225-3230	large	_	_	
+21-19	3231-3234	and	_	_	
+21-20	3235-3238	our	_	_	
+21-21	3239-3246	current	_	_	
+21-22	3247-3261	implementation	_	_	
+21-23	3262-3267	takes	_	_	
+21-24	3268-3273	every	_	_	
+21-25	3274-3279	200th	_	_	
+21-26	3280-3285	image	_	_	
+21-27	3285-3286	.	_	_	
+
+#Text=When using the KAIST dataset for
+#Text=evaluation, it is also recommended to simply add `"KAIST"` to the
+#Text=`saved_dirs.json` file.
+22-1	3287-3291	When	_	_	
+22-2	3292-3297	using	_	_	
+22-3	3298-3301	the	_	_	
+22-4	3302-3307	KAIST	*	DATASET	
+22-5	3308-3315	dataset	_	_	
+22-6	3316-3319	for	_	_	
+22-7	3320-3330	evaluation	_	_	
+22-8	3330-3331	,	_	_	
+22-9	3332-3334	it	_	_	
+22-10	3335-3337	is	_	_	
+22-11	3338-3342	also	_	_	
+22-12	3343-3354	recommended	_	_	
+22-13	3355-3357	to	_	_	
+22-14	3358-3364	simply	_	_	
+22-15	3365-3368	add	_	_	
+22-16	3369-3370	`	_	_	
+22-17	3370-3371	"	_	_	
+22-18	3371-3376	KAIST	*	DATASET	
+22-19	3376-3377	"	_	_	
+22-20	3377-3378	`	_	_	
+22-21	3379-3381	to	_	_	
+22-22	3382-3385	the	_	_	
+22-23	3386-3387	`	_	_	
+22-24	3387-3402	saved_dirs.json	_	_	
+22-25	3402-3403	`	_	_	
+22-26	3404-3408	file	_	_	
+22-27	3408-3409	.	_	_	
+
+#Text=If you are working with thermograms, then change the
+#Text=variable `datasets` to `datasets = ['thermal']` and if working with both thermal
+#Text=and RGB data, then change the variable `datasets` to `datasets = ['thermal',
+#Text='div2k']`.
+23-1	3410-3412	If	_	_	
+23-2	3413-3416	you	_	_	
+23-3	3417-3420	are	_	_	
+23-4	3421-3428	working	_	_	
+23-5	3429-3433	with	_	_	
+23-6	3434-3445	thermograms	_	_	
+23-7	3445-3446	,	_	_	
+23-8	3447-3451	then	_	_	
+23-9	3452-3458	change	_	_	
+23-10	3459-3462	the	_	_	
+23-11	3463-3471	variable	_	_	
+23-12	3472-3473	`	_	_	
+23-13	3473-3481	datasets	_	_	
+23-14	3481-3482	`	_	_	
+23-15	3483-3485	to	_	_	
+23-16	3486-3487	`	_	_	
+23-17	3487-3495	datasets	_	_	
+23-18	3496-3497	=	_	_	
+23-19	3498-3499	[	_	_	
+23-20	3499-3500	'	_	_	
+23-21	3500-3507	thermal	_	_	
+23-22	3507-3508	'	_	_	
+23-23	3508-3509	]	_	_	
+23-24	3509-3510	`	_	_	
+23-25	3511-3514	and	_	_	
+23-26	3515-3517	if	_	_	
+23-27	3518-3525	working	_	_	
+23-28	3526-3530	with	_	_	
+23-29	3531-3535	both	_	_	
+23-30	3536-3543	thermal	_	_	
+23-31	3544-3547	and	_	_	
+23-32	3548-3551	RGB	_	_	
+23-33	3552-3556	data	_	_	
+23-34	3556-3557	,	_	_	
+23-35	3558-3562	then	_	_	
+23-36	3563-3569	change	_	_	
+23-37	3570-3573	the	_	_	
+23-38	3574-3582	variable	_	_	
+23-39	3583-3584	`	_	_	
+23-40	3584-3592	datasets	_	_	
+23-41	3592-3593	`	_	_	
+23-42	3594-3596	to	_	_	
+23-43	3597-3598	`	_	_	
+23-44	3598-3606	datasets	_	_	
+23-45	3607-3608	=	_	_	
+23-46	3609-3610	[	_	_	
+23-47	3610-3611	'	_	_	
+23-48	3611-3618	thermal	_	_	
+23-49	3618-3619	'	_	_	
+23-50	3619-3620	,	_	_	
+23-51	3621-3622	'	_	_	
+23-52	3622-3627	div2k	_	_	
+23-53	3627-3628	'	_	_	
+23-54	3628-3629	]	_	_	
+23-55	3629-3630	`	_	_	
+23-56	3630-3631	.	_	_	
+
+#Text=For convenience, here is an example of how `saved_dirs.json` should
+#Text=look if using both thermal and RGB images.
+#Text= 
+#Text=```
+#Text={
+#Text=  "thermal": {
+#Text=    "train_dirs": [
+#Text=      ".
+24-1	3632-3635	For	_	_	
+24-2	3636-3647	convenience	_	_	
+24-3	3647-3648	,	_	_	
+24-4	3649-3653	here	_	_	
+24-5	3654-3656	is	_	_	
+24-6	3657-3659	an	_	_	
+24-7	3660-3667	example	_	_	
+24-8	3668-3670	of	_	_	
+24-9	3671-3674	how	_	_	
+24-10	3675-3676	`	_	_	
+24-11	3676-3691	saved_dirs.json	_	_	
+24-12	3691-3692	`	_	_	
+24-13	3693-3699	should	_	_	
+24-14	3700-3704	look	_	_	
+24-15	3705-3707	if	_	_	
+24-16	3708-3713	using	_	_	
+24-17	3714-3718	both	_	_	
+24-18	3719-3726	thermal	_	_	
+24-19	3727-3730	and	_	_	
+24-20	3731-3734	RGB	_	_	
+24-21	3735-3741	images	_	_	
+24-22	3741-3742	.	_	_	
+24-23	3745-3746	`	_	_	
+24-24	3746-3747	`	_	_	
+24-25	3747-3748	`	_	_	
+24-26	3749-3750	{	_	_	
+24-27	3753-3754	"	_	_	
+24-28	3754-3761	thermal	_	_	
+24-29	3761-3762	"	_	_	
+24-30	3762-3763	:	_	_	
+24-31	3764-3765	{	_	_	
+24-32	3770-3771	"	_	_	
+24-33	3771-3781	train_dirs	_	_	
+24-34	3781-3782	"	_	_	
+24-35	3782-3783	:	_	_	
+24-36	3784-3785	[	_	_	
+24-37	3792-3793	"	_	_	
+24-38	3793-3794	.	_	_	
+
+#Text=/Datasets/Thermal/train/640_flir_hr"
+#Text=    ],
+#Text=    "test_dirs": [
+#Text=      "KAIST",
+#Text=      ".
+25-1	3794-3795	/	_	_	
+25-2	3795-3803	Datasets	_	_	
+25-3	3803-3804	/	_	_	
+25-4	3804-3811	Thermal	*	DATASET	
+25-5	3811-3812	/	_	_	
+25-6	3812-3817	train	_	_	
+25-7	3817-3818	/	_	_	
+25-8	3818-3821	640	_	_	
+25-9	3821-3822	_	_	_	
+25-10	3822-3829	flir_hr	_	_	
+25-11	3829-3830	"	_	_	
+25-12	3835-3836	]	_	_	
+25-13	3836-3837	,	_	_	
+25-14	3842-3843	"	_	_	
+25-15	3843-3852	test_dirs	_	_	
+25-16	3852-3853	"	_	_	
+25-17	3853-3854	:	_	_	
+25-18	3855-3856	[	_	_	
+25-19	3863-3864	"	_	_	
+25-20	3864-3869	KAIST	*	DATASET	
+25-21	3869-3870	"	_	_	
+25-22	3870-3871	,	_	_	
+25-23	3878-3879	"	_	_	
+25-24	3879-3880	.	_	_	
+
+#Text=/Datasets/Thermal/test/320_axis_mr",
+#Text=      ".
+26-1	3880-3881	/	_	_	
+26-2	3881-3889	Datasets	_	_	
+26-3	3889-3890	/	_	_	
+26-4	3890-3897	Thermal	*	DATASET	
+26-5	3897-3898	/	_	_	
+26-6	3898-3902	test	_	_	
+26-7	3902-3903	/	_	_	
+26-8	3903-3906	320	_	_	
+26-9	3906-3907	_	_	_	
+26-10	3907-3914	axis_mr	_	_	
+26-11	3914-3915	"	_	_	
+26-12	3915-3916	,	_	_	
+26-13	3923-3924	"	_	_	
+26-14	3924-3925	.	_	_	
+
+#Text=/Datasets/Thermal/test/640_flir_hr",
+#Text=      ".
+27-1	3925-3926	/	_	_	
+27-2	3926-3934	Datasets	_	_	
+27-3	3934-3935	/	_	_	
+27-4	3935-3942	Thermal	*	DATASET	
+27-5	3942-3943	/	_	_	
+27-6	3943-3947	test	_	_	
+27-7	3947-3948	/	_	_	
+27-8	3948-3951	640	_	_	
+27-9	3951-3952	_	_	_	
+27-10	3952-3959	flir_hr	_	_	
+27-11	3959-3960	"	_	_	
+27-12	3960-3961	,	_	_	
+27-13	3968-3969	"	_	_	
+27-14	3969-3970	.	_	_	
+
+#Text=/Datasets/Thermal/test/Flir_test",
+#Text=      ".
+28-1	3970-3971	/	_	_	
+28-2	3971-3979	Datasets	_	_	
+28-3	3979-3980	/	_	_	
+28-4	3980-3987	Thermal	*	DATASET	
+28-5	3987-3988	/	_	_	
+28-6	3988-3992	test	_	_	
+28-7	3992-3993	/	_	_	
+28-8	3993-4002	Flir_test	_	_	
+28-9	4002-4003	"	_	_	
+28-10	4003-4004	,	_	_	
+28-11	4011-4012	"	_	_	
+28-12	4012-4013	.	_	_	
+
+#Text=/Datasets/Thermal/test/160_domo_lr"
+#Text=    ],
+#Text=    "val_dirs": [
+#Text=      ".
+29-1	4013-4014	/	_	_	
+29-2	4014-4022	Datasets	_	_	
+29-3	4022-4023	/	_	_	
+29-4	4023-4030	Thermal	*	DATASET	
+29-5	4030-4031	/	_	_	
+29-6	4031-4035	test	_	_	
+29-7	4035-4036	/	_	_	
+29-8	4036-4039	160	_	_	
+29-9	4039-4040	_	_	_	
+29-10	4040-4047	domo_lr	_	_	
+29-11	4047-4048	"	_	_	
+29-12	4053-4054	]	_	_	
+29-13	4054-4055	,	_	_	
+29-14	4060-4061	"	_	_	
+29-15	4061-4069	val_dirs	_	_	
+29-16	4069-4070	"	_	_	
+29-17	4070-4071	:	_	_	
+29-18	4072-4073	[	_	_	
+29-19	4080-4081	"	_	_	
+29-20	4081-4082	.	_	_	
+
+#Text=/Datasets/Thermal/test/Flir_test"
+#Text=    ]
+#Text=  },
+#Text=  "div2k": {
+#Text=    "train_dirs": [
+#Text=      ".
+30-1	4082-4083	/	_	_	
+30-2	4083-4091	Datasets	_	_	
+30-3	4091-4092	/	_	_	
+30-4	4092-4099	Thermal	*	DATASET	
+30-5	4099-4100	/	_	_	
+30-6	4100-4104	test	_	_	
+30-7	4104-4105	/	_	_	
+30-8	4105-4114	Flir_test	_	_	
+30-9	4114-4115	"	_	_	
+30-10	4120-4121	]	_	_	
+30-11	4124-4125	}	_	_	
+30-12	4125-4126	,	_	_	
+30-13	4129-4130	"	_	_	
+30-14	4130-4135	div2k	_	_	
+30-15	4135-4136	"	_	_	
+30-16	4136-4137	:	_	_	
+30-17	4138-4139	{	_	_	
+30-18	4144-4145	"	_	_	
+30-19	4145-4155	train_dirs	_	_	
+30-20	4155-4156	"	_	_	
+30-21	4156-4157	:	_	_	
+30-22	4158-4159	[	_	_	
+30-23	4166-4167	"	_	_	
+30-24	4167-4168	.	_	_	
+
+#Text=/Datasets/DIV2K/train"
+#Text=    ],
+#Text=    "test_dirs": [
+#Text=      ".
+31-1	4168-4169	/	_	_	
+31-2	4169-4177	Datasets	_	_	
+31-3	4177-4178	/	_	_	
+31-4	4178-4183	DIV2K	*	DATASET	
+31-5	4183-4184	/	_	_	
+31-6	4184-4189	train	_	_	
+31-7	4189-4190	"	_	_	
+31-8	4195-4196	]	_	_	
+31-9	4196-4197	,	_	_	
+31-10	4202-4203	"	_	_	
+31-11	4203-4212	test_dirs	_	_	
+31-12	4212-4213	"	_	_	
+31-13	4213-4214	:	_	_	
+31-14	4215-4216	[	_	_	
+31-15	4223-4224	"	_	_	
+31-16	4224-4225	.	_	_	
+
+#Text=/Datasets/Set14",
+#Text=      ".
+32-1	4225-4226	/	_	_	
+32-2	4226-4234	Datasets	_	_	
+32-3	4234-4235	/	_	_	
+32-4	4235-4240	Set14	_	_	
+32-5	4240-4241	"	_	_	
+32-6	4241-4242	,	_	_	
+32-7	4249-4250	"	_	_	
+32-8	4250-4251	.	_	_	
+
+#Text=/Datasets/Set5",
+#Text=      ".
+33-1	4251-4252	/	_	_	
+33-2	4252-4260	Datasets	_	_	
+33-3	4260-4261	/	_	_	
+33-4	4261-4265	Set5	_	_	
+33-5	4265-4266	"	_	_	
+33-6	4266-4267	,	_	_	
+33-7	4274-4275	"	_	_	
+33-8	4275-4276	.	_	_	
+
+#Text=/Datasets/DIV2K/test",
+#Text=      ".
+34-1	4276-4277	/	_	_	
+34-2	4277-4285	Datasets	_	_	
+34-3	4285-4286	/	_	_	
+34-4	4286-4291	DIV2K	*	DATASET	
+34-5	4291-4292	/	_	_	
+34-6	4292-4296	test	_	_	
+34-7	4296-4297	"	_	_	
+34-8	4297-4298	,	_	_	
+34-9	4305-4306	"	_	_	
+34-10	4306-4307	.	_	_	
+
+#Text=/Datasets/Urban100",
+#Text=      ".
+35-1	4307-4308	/	_	_	
+35-2	4308-4316	Datasets	_	_	
+35-3	4316-4317	/	_	_	
+35-4	4317-4325	Urban100	*	DATASET	
+35-5	4325-4326	"	_	_	
+35-6	4326-4327	,	_	_	
+35-7	4334-4335	"	_	_	
+35-8	4335-4336	.	_	_	
+
+#Text=/Datasets/BSDS100",
+#Text=      ".
+36-1	4336-4337	/	_	_	
+36-2	4337-4345	Datasets	_	_	
+36-3	4345-4346	/	_	_	
+36-4	4346-4353	BSDS100	*	DATASET	
+36-5	4353-4354	"	_	_	
+36-6	4354-4355	,	_	_	
+36-7	4362-4363	"	_	_	
+36-8	4363-4364	.	_	_	
+
+#Text=/Datasets/Thermal/test/320_axis_mr",
+#Text=      ".
+37-1	4364-4365	/	_	_	
+37-2	4365-4373	Datasets	_	_	
+37-3	4373-4374	/	_	_	
+37-4	4374-4381	Thermal	*	DATASET	
+37-5	4381-4382	/	_	_	
+37-6	4382-4386	test	_	_	
+37-7	4386-4387	/	_	_	
+37-8	4387-4390	320	_	_	
+37-9	4390-4391	_	_	_	
+37-10	4391-4398	axis_mr	_	_	
+37-11	4398-4399	"	_	_	
+37-12	4399-4400	,	_	_	
+37-13	4407-4408	"	_	_	
+37-14	4408-4409	.	_	_	
+
+#Text=/Datasets/Thermal/test/640_flir_hr",
+#Text=      ".
+38-1	4409-4410	/	_	_	
+38-2	4410-4418	Datasets	_	_	
+38-3	4418-4419	/	_	_	
+38-4	4419-4426	Thermal	*	DATASET	
+38-5	4426-4427	/	_	_	
+38-6	4427-4431	test	_	_	
+38-7	4431-4432	/	_	_	
+38-8	4432-4435	640	_	_	
+38-9	4435-4436	_	_	_	
+38-10	4436-4443	flir_hr	_	_	
+38-11	4443-4444	"	_	_	
+38-12	4444-4445	,	_	_	
+38-13	4452-4453	"	_	_	
+38-14	4453-4454	.	_	_	
+
+#Text=/Datasets/Thermal/test/Flir_test",
+#Text=      ".
+39-1	4454-4455	/	_	_	
+39-2	4455-4463	Datasets	_	_	
+39-3	4463-4464	/	_	_	
+39-4	4464-4471	Thermal	*	DATASET	
+39-5	4471-4472	/	_	_	
+39-6	4472-4476	test	_	_	
+39-7	4476-4477	/	_	_	
+39-8	4477-4486	Flir_test	_	_	
+39-9	4486-4487	"	_	_	
+39-10	4487-4488	,	_	_	
+39-11	4495-4496	"	_	_	
+39-12	4496-4497	.	_	_	
+
+#Text=/Datasets/Thermal/test/160_domo_lr"
+#Text=    ],
+#Text=    "val_dirs": [
+#Text=      ".
+40-1	4497-4498	/	_	_	
+40-2	4498-4506	Datasets	_	_	
+40-3	4506-4507	/	_	_	
+40-4	4507-4514	Thermal	*	DATASET	
+40-5	4514-4515	/	_	_	
+40-6	4515-4519	test	_	_	
+40-7	4519-4520	/	_	_	
+40-8	4520-4523	160	_	_	
+40-9	4523-4524	_	_	_	
+40-10	4524-4531	domo_lr	_	_	
+40-11	4531-4532	"	_	_	
+40-12	4537-4538	]	_	_	
+40-13	4538-4539	,	_	_	
+40-14	4544-4545	"	_	_	
+40-15	4545-4553	val_dirs	_	_	
+40-16	4553-4554	"	_	_	
+40-17	4554-4555	:	_	_	
+40-18	4556-4557	[	_	_	
+40-19	4564-4565	"	_	_	
+40-20	4565-4566	.	_	_	
+
+#Text=/Datasets/DIV2K/test"
+#Text=    ]
+#Text=  }
+#Text=}
+#Text=```
+#Text=
+#Text=In this JSON file, `Flir_test` refers to the [FLIR Thermal Dataset for Algorithm
+#Text=Training](https://www.flir.com/oem/adas/adas-dataset-form/), `320_axis_mr,
+#Text=640_flir_hr, 160_domo_lr` refers to the [Thermal Image Super-Resolution
+#Text=Challenge](https://pbvs-workshop.github.io/datasets.html) dataset, and `KAIST`
+#Text=refers to the [KAIST](https://soonminhwang.github.io/rgbt-ped-detection/)
+#Text=dataset.
+41-1	4566-4567	/	_	_	
+41-2	4567-4575	Datasets	_	_	
+41-3	4575-4576	/	_	_	
+41-4	4576-4581	DIV2K	*	DATASET	
+41-5	4581-4582	/	_	_	
+41-6	4582-4586	test	_	_	
+41-7	4586-4587	"	_	_	
+41-8	4592-4593	]	_	_	
+41-9	4596-4597	}	_	_	
+41-10	4598-4599	}	_	_	
+41-11	4600-4601	`	_	_	
+41-12	4601-4602	`	_	_	
+41-13	4602-4603	`	_	_	
+41-14	4605-4607	In	_	_	
+41-15	4608-4612	this	_	_	
+41-16	4613-4617	JSON	_	_	
+41-17	4618-4622	file	_	_	
+41-18	4622-4623	,	_	_	
+41-19	4624-4625	`	_	_	
+41-20	4625-4634	Flir_test	_	_	
+41-21	4634-4635	`	_	_	
+41-22	4636-4642	refers	_	_	
+41-23	4643-4645	to	_	_	
+41-24	4646-4649	the	_	_	
+41-25	4650-4651	[	_	_	
+41-26	4651-4655	FLIR	_	_	
+41-27	4656-4663	Thermal	_	_	
+41-28	4664-4671	Dataset	_	_	
+41-29	4672-4675	for	_	_	
+41-30	4676-4685	Algorithm	_	_	
+41-31	4686-4694	Training	_	_	
+41-32	4694-4695	]	_	_	
+41-33	4695-4696	(	_	_	
+41-34	4696-4701	https	_	_	
+41-35	4701-4702	:	_	_	
+41-36	4702-4703	/	_	_	
+41-37	4703-4704	/	_	_	
+41-38	4704-4716	www.flir.com	_	_	
+41-39	4716-4717	/	_	_	
+41-40	4717-4720	oem	_	_	
+41-41	4720-4721	/	_	_	
+41-42	4721-4725	adas	_	_	
+41-43	4725-4726	/	_	_	
+41-44	4726-4743	adas-dataset-form	_	_	
+41-45	4743-4744	/	_	_	
+41-46	4744-4745	)	_	_	
+41-47	4745-4746	,	_	_	
+41-48	4747-4748	`	_	_	
+41-49	4748-4751	320	_	_	
+41-50	4751-4752	_	_	_	
+41-51	4752-4759	axis_mr	_	_	
+41-52	4759-4760	,	_	_	
+41-53	4761-4764	640	_	_	
+41-54	4764-4765	_	_	_	
+41-55	4765-4772	flir_hr	_	_	
+41-56	4772-4773	,	_	_	
+41-57	4774-4777	160	_	_	
+41-58	4777-4778	_	_	_	
+41-59	4778-4785	domo_lr	_	_	
+41-60	4785-4786	`	_	_	
+41-61	4787-4793	refers	_	_	
+41-62	4794-4796	to	_	_	
+41-63	4797-4800	the	_	_	
+41-64	4801-4802	[	_	_	
+41-65	4802-4809	Thermal	_	_	
+41-66	4810-4815	Image	_	_	
+41-67	4816-4832	Super-Resolution	_	_	
+41-68	4833-4842	Challenge	_	_	
+41-69	4842-4843	]	_	_	
+41-70	4843-4844	(	_	_	
+41-71	4844-4849	https	_	_	
+41-72	4849-4850	:	_	_	
+41-73	4850-4851	/	_	_	
+41-74	4851-4852	/	_	_	
+41-75	4852-4875	pbvs-workshop.github.io	_	_	
+41-76	4875-4876	/	_	_	
+41-77	4876-4889	datasets.html	_	_	
+41-78	4889-4890	)	_	_	
+41-79	4891-4898	dataset	_	_	
+41-80	4898-4899	,	_	_	
+41-81	4900-4903	and	_	_	
+41-82	4904-4905	`	_	_	
+41-83	4905-4910	KAIST	*	DATASET	
+41-84	4910-4911	`	_	_	
+41-85	4912-4918	refers	_	_	
+41-86	4919-4921	to	_	_	
+41-87	4922-4925	the	_	_	
+41-88	4926-4927	[	_	_	
+41-89	4927-4932	KAIST	*	DATASET	
+41-90	4932-4933	]	_	_	
+41-91	4933-4934	(	_	_	
+41-92	4934-4939	https	_	_	
+41-93	4939-4940	:	_	_	
+41-94	4940-4941	/	_	_	
+41-95	4941-4942	/	_	_	
+41-96	4942-4964	soonminhwang.github.io	_	_	
+41-97	4964-4965	/	_	_	
+41-98	4965-4983	rgbt-ped-detection	_	_	
+41-99	4983-4984	/	_	_	
+41-100	4984-4985	)	_	_	
+41-101	4986-4993	dataset	_	_	
+41-102	4993-4994	.	_	_	
+
+#Text=We have created many different models in the file `ModelLists.py`.
+42-1	4997-4999	We	_	_	
+42-2	5000-5004	have	_	_	
+42-3	5005-5012	created	_	_	
+42-4	5013-5017	many	_	_	
+42-5	5018-5027	different	_	_	
+42-6	5028-5034	models	_	_	
+42-7	5035-5037	in	_	_	
+42-8	5038-5041	the	_	_	
+42-9	5042-5046	file	_	_	
+42-10	5047-5048	`	_	_	
+42-11	5048-5061	ModelLists.py	_	_	
+42-12	5061-5062	`	_	_	
+42-13	5062-5063	.	_	_	
+
+#Text=The program
+#Text=is built such that you can select several of these models as defined in the
+#Text=dictionary constructed in the `__init__(self)` method of the class `
+#Text=Model_Lists` of `ModelLists.py`.
+43-1	5064-5067	The	_	_	
+43-2	5068-5075	program	_	_	
+43-3	5076-5078	is	_	_	
+43-4	5079-5084	built	_	_	
+43-5	5085-5089	such	_	_	
+43-6	5090-5094	that	_	_	
+43-7	5095-5098	you	_	_	
+43-8	5099-5102	can	_	_	
+43-9	5103-5109	select	_	_	
+43-10	5110-5117	several	_	_	
+43-11	5118-5120	of	_	_	
+43-12	5121-5126	these	_	_	
+43-13	5127-5133	models	_	_	
+43-14	5134-5136	as	_	_	
+43-15	5137-5144	defined	_	_	
+43-16	5145-5147	in	_	_	
+43-17	5148-5151	the	_	_	
+43-18	5152-5162	dictionary	_	_	
+43-19	5163-5174	constructed	_	_	
+43-20	5175-5177	in	_	_	
+43-21	5178-5181	the	_	_	
+43-22	5182-5183	`	_	_	
+43-23	5183-5184	_	_	_	
+43-24	5184-5185	_	_	_	
+43-25	5185-5189	init	_	_	
+43-26	5189-5190	_	_	_	
+43-27	5190-5191	_	_	_	
+43-28	5191-5192	(	_	_	
+43-29	5192-5196	self	_	_	
+43-30	5196-5197	)	_	_	
+43-31	5197-5198	`	_	_	
+43-32	5199-5205	method	_	_	
+43-33	5206-5208	of	_	_	
+43-34	5209-5212	the	_	_	
+43-35	5213-5218	class	_	_	
+43-36	5219-5220	`	_	_	
+43-37	5221-5232	Model_Lists	_	_	
+43-38	5232-5233	`	_	_	
+43-39	5234-5236	of	_	_	
+43-40	5237-5238	`	_	_	
+43-41	5238-5251	ModelLists.py	_	_	
+43-42	5251-5252	`	_	_	
+43-43	5252-5253	.	_	_	
+
+#Text=If you want to train on additional models from
+#Text=the `ModelLists.py` file, then add to the `modelnames` list on line 90 of
+#Text=`train.py`:
+#Text= 
+#Text=`modelnames = ['rcan']` to `modelnames = ['rcan', 'rcan_DDSOCA']`    
+#Text= 
+#Text=After providing the appropriate datasets and models, the experiments may be
+#Text=started by giving the current scale factor as a command line argument.
+44-1	5254-5256	If	_	_	
+44-2	5257-5260	you	_	_	
+44-3	5261-5265	want	_	_	
+44-4	5266-5268	to	_	_	
+44-5	5269-5274	train	_	_	
+44-6	5275-5277	on	_	_	
+44-7	5278-5288	additional	_	_	
+44-8	5289-5295	models	_	_	
+44-9	5296-5300	from	_	_	
+44-10	5301-5304	the	_	_	
+44-11	5305-5306	`	_	_	
+44-12	5306-5319	ModelLists.py	_	_	
+44-13	5319-5320	`	_	_	
+44-14	5321-5325	file	_	_	
+44-15	5325-5326	,	_	_	
+44-16	5327-5331	then	_	_	
+44-17	5332-5335	add	_	_	
+44-18	5336-5338	to	_	_	
+44-19	5339-5342	the	_	_	
+44-20	5343-5344	`	_	_	
+44-21	5344-5354	modelnames	_	_	
+44-22	5354-5355	`	_	_	
+44-23	5356-5360	list	_	_	
+44-24	5361-5363	on	_	_	
+44-25	5364-5368	line	_	_	
+44-26	5369-5371	90	_	_	
+44-27	5372-5374	of	_	_	
+44-28	5375-5376	`	_	_	
+44-29	5376-5384	train.py	_	_	
+44-30	5384-5385	`	_	_	
+44-31	5385-5386	:	_	_	
+44-32	5389-5390	`	_	_	
+44-33	5390-5400	modelnames	_	_	
+44-34	5401-5402	=	_	_	
+44-35	5403-5404	[	_	_	
+44-36	5404-5405	'	_	_	
+44-37	5405-5409	rcan	_	_	
+44-38	5409-5410	'	_	_	
+44-39	5410-5411	]	_	_	
+44-40	5411-5412	`	_	_	
+44-41	5413-5415	to	_	_	
+44-42	5416-5417	`	_	_	
+44-43	5417-5427	modelnames	_	_	
+44-44	5428-5429	=	_	_	
+44-45	5430-5431	[	_	_	
+44-46	5431-5432	'	_	_	
+44-47	5432-5436	rcan	_	_	
+44-48	5436-5437	'	_	_	
+44-49	5437-5438	,	_	_	
+44-50	5439-5440	'	_	_	
+44-51	5440-5451	rcan_DDSOCA	_	_	
+44-52	5451-5452	'	_	_	
+44-53	5452-5453	]	_	_	
+44-54	5453-5454	`	_	_	
+44-55	5461-5466	After	_	_	
+44-56	5467-5476	providing	_	_	
+44-57	5477-5480	the	_	_	
+44-58	5481-5492	appropriate	_	_	
+44-59	5493-5501	datasets	_	_	
+44-60	5502-5505	and	_	_	
+44-61	5506-5512	models	_	_	
+44-62	5512-5513	,	_	_	
+44-63	5514-5517	the	_	_	
+44-64	5518-5529	experiments	_	_	
+44-65	5530-5533	may	_	_	
+44-66	5534-5536	be	_	_	
+44-67	5537-5544	started	_	_	
+44-68	5545-5547	by	_	_	
+44-69	5548-5554	giving	_	_	
+44-70	5555-5558	the	_	_	
+44-71	5559-5566	current	_	_	
+44-72	5567-5572	scale	_	_	
+44-73	5573-5579	factor	_	_	
+44-74	5580-5582	as	_	_	
+44-75	5583-5584	a	_	_	
+44-76	5585-5592	command	_	_	
+44-77	5593-5597	line	_	_	
+44-78	5598-5606	argument	_	_	
+44-79	5606-5607	.	_	_	
+
+#Text=For
+#Text=example, to begin an experiment using the x4 upscaling factor, run the following
+#Text=command in an Anaconda terminal:
+#Text= 
+#Text=`python train.py 4`
+#Text=
+#Text=You now have the option of training, creating results, and evaluating, as
+#Text=determined by the Booleans in lines 53-55.
+45-1	5608-5611	For	_	_	
+45-2	5612-5619	example	_	_	
+45-3	5619-5620	,	_	_	
+45-4	5621-5623	to	_	_	
+45-5	5624-5629	begin	_	_	
+45-6	5630-5632	an	_	_	
+45-7	5633-5643	experiment	_	_	
+45-8	5644-5649	using	_	_	
+45-9	5650-5653	the	_	_	
+45-10	5654-5656	x4	_	_	
+45-11	5657-5666	upscaling	_	_	
+45-12	5667-5673	factor	_	_	
+45-13	5673-5674	,	_	_	
+45-14	5675-5678	run	_	_	
+45-15	5679-5682	the	_	_	
+45-16	5683-5692	following	_	_	
+45-17	5693-5700	command	_	_	
+45-18	5701-5703	in	_	_	
+45-19	5704-5706	an	_	_	
+45-20	5707-5715	Anaconda	*	SOFTWARE	
+45-21	5716-5724	terminal	_	_	
+45-22	5724-5725	:	_	_	
+45-23	5728-5729	`	_	_	
+45-24	5729-5735	python	*	SOFTWARE	
+45-25	5736-5744	train.py	_	_	
+45-26	5745-5746	4	_	_	
+45-27	5746-5747	`	_	_	
+45-28	5749-5752	You	_	_	
+45-29	5753-5756	now	_	_	
+45-30	5757-5761	have	_	_	
+45-31	5762-5765	the	_	_	
+45-32	5766-5772	option	_	_	
+45-33	5773-5775	of	_	_	
+45-34	5776-5784	training	_	_	
+45-35	5784-5785	,	_	_	
+45-36	5786-5794	creating	_	_	
+45-37	5795-5802	results	_	_	
+45-38	5802-5803	,	_	_	
+45-39	5804-5807	and	_	_	
+45-40	5808-5818	evaluating	_	_	
+45-41	5818-5819	,	_	_	
+45-42	5820-5822	as	_	_	
+45-43	5823-5833	determined	_	_	
+45-44	5834-5836	by	_	_	
+45-45	5837-5840	the	_	_	
+45-46	5841-5849	Booleans	_	_	
+45-47	5850-5852	in	_	_	
+45-48	5853-5858	lines	_	_	
+45-49	5859-5861	53	_	_	
+45-50	5861-5862	-	_	_	
+45-51	5862-5864	55	_	_	
+45-52	5864-5865	.	_	_	
+
+#Text=However, a model must be saved to run
+#Text=the program without training.
+46-1	5866-5873	However	_	_	
+46-2	5873-5874	,	_	_	
+46-3	5875-5876	a	_	_	
+46-4	5877-5882	model	_	_	
+46-5	5883-5887	must	_	_	
+46-6	5888-5890	be	_	_	
+46-7	5891-5896	saved	_	_	
+46-8	5897-5899	to	_	_	
+46-9	5900-5903	run	_	_	
+46-10	5904-5907	the	_	_	
+46-11	5908-5915	program	_	_	
+46-12	5916-5923	without	_	_	
+46-13	5924-5932	training	_	_	
+46-14	5932-5933	.	_	_	
+
+#Text=If you have selected a dataset and model, then the
+#Text=checkpoint directory will default to `.
+47-1	5934-5936	If	_	_	
+47-2	5937-5940	you	_	_	
+47-3	5941-5945	have	_	_	
+47-4	5946-5954	selected	_	_	
+47-5	5955-5956	a	_	_	
+47-6	5957-5964	dataset	_	_	
+47-7	5965-5968	and	_	_	
+47-8	5969-5974	model	_	_	
+47-9	5974-5975	,	_	_	
+47-10	5976-5980	then	_	_	
+47-11	5981-5984	the	_	_	
+47-12	5985-5995	checkpoint	_	_	
+47-13	5996-6005	directory	_	_	
+47-14	6006-6010	will	_	_	
+47-15	6011-6018	default	_	_	
+47-16	6019-6021	to	_	_	
+47-17	6022-6023	`	_	_	
+47-18	6023-6024	.	_	_	
+
+#Text=/model_name/dataset/scale`.
+#Text=
+#Text=### Running Experiments
+#Text=
+#Text=Our experiments require that `modelnames` is set as follows: 
+#Text=
+#Text=`modelnames = ['rcan','rcan_dd','rcan_dd_comp','rcan_DDSOCA', 'rcan_soca']`
+#Text=
+#Text=If you want to run experiments to reproduce our results, then run the following
+#Text=commands:
+#Text=
+#Text=```
+#Text=python train.py 2
+#Text=python train.py 3
+#Text=python train.py 4
+#Text=```
+#Text=
+#Text=All of the results will be stored in the `.
+48-1	6024-6025	/	_	_	
+48-2	6025-6035	model_name	_	_	
+48-3	6035-6036	/	_	_	
+48-4	6036-6043	dataset	_	_	
+48-5	6043-6044	/	_	_	
+48-6	6044-6049	scale	_	_	
+48-7	6049-6050	`	_	_	
+48-8	6050-6051	.	_	_	
+48-9	6053-6054	#	_	_	
+48-10	6054-6055	#	_	_	
+48-11	6055-6056	#	_	_	
+48-12	6057-6064	Running	_	_	
+48-13	6065-6076	Experiments	_	_	
+48-14	6078-6081	Our	_	_	
+48-15	6082-6093	experiments	_	_	
+48-16	6094-6101	require	_	_	
+48-17	6102-6106	that	_	_	
+48-18	6107-6108	`	_	_	
+48-19	6108-6118	modelnames	_	_	
+48-20	6118-6119	`	_	_	
+48-21	6120-6122	is	_	_	
+48-22	6123-6126	set	_	_	
+48-23	6127-6129	as	_	_	
+48-24	6130-6137	follows	_	_	
+48-25	6137-6138	:	_	_	
+48-26	6141-6142	`	_	_	
+48-27	6142-6152	modelnames	_	_	
+48-28	6153-6154	=	_	_	
+48-29	6155-6156	[	_	_	
+48-30	6156-6157	'	_	_	
+48-31	6157-6161	rcan	_	_	
+48-32	6161-6162	'	_	_	
+48-33	6162-6163	,	_	_	
+48-34	6163-6164	'	_	_	
+48-35	6164-6171	rcan_dd	_	_	
+48-36	6171-6172	'	_	_	
+48-37	6172-6173	,	_	_	
+48-38	6173-6174	'	_	_	
+48-39	6174-6186	rcan_dd_comp	_	_	
+48-40	6186-6187	'	_	_	
+48-41	6187-6188	,	_	_	
+48-42	6188-6189	'	_	_	
+48-43	6189-6200	rcan_DDSOCA	_	_	
+48-44	6200-6201	'	_	_	
+48-45	6201-6202	,	_	_	
+48-46	6203-6204	'	_	_	
+48-47	6204-6213	rcan_soca	_	_	
+48-48	6213-6214	'	_	_	
+48-49	6214-6215	]	_	_	
+48-50	6215-6216	`	_	_	
+48-51	6218-6220	If	_	_	
+48-52	6221-6224	you	_	_	
+48-53	6225-6229	want	_	_	
+48-54	6230-6232	to	_	_	
+48-55	6233-6236	run	_	_	
+48-56	6237-6248	experiments	_	_	
+48-57	6249-6251	to	_	_	
+48-58	6252-6261	reproduce	_	_	
+48-59	6262-6265	our	_	_	
+48-60	6266-6273	results	_	_	
+48-61	6273-6274	,	_	_	
+48-62	6275-6279	then	_	_	
+48-63	6280-6283	run	_	_	
+48-64	6284-6287	the	_	_	
+48-65	6288-6297	following	_	_	
+48-66	6298-6306	commands	_	_	
+48-67	6306-6307	:	_	_	
+48-68	6309-6310	`	_	_	
+48-69	6310-6311	`	_	_	
+48-70	6311-6312	`	_	_	
+48-71	6313-6319	python	*	SOFTWARE	
+48-72	6320-6328	train.py	_	_	
+48-73	6329-6330	2	_	_	
+48-74	6331-6337	python	*	SOFTWARE	
+48-75	6338-6346	train.py	_	_	
+48-76	6347-6348	3	_	_	
+48-77	6349-6355	python	*	SOFTWARE	
+48-78	6356-6364	train.py	_	_	
+48-79	6365-6366	4	_	_	
+48-80	6367-6368	`	_	_	
+48-81	6368-6369	`	_	_	
+48-82	6369-6370	`	_	_	
+48-83	6372-6375	All	_	_	
+48-84	6376-6378	of	_	_	
+48-85	6379-6382	the	_	_	
+48-86	6383-6390	results	_	_	
+48-87	6391-6395	will	_	_	
+48-88	6396-6398	be	_	_	
+48-89	6399-6405	stored	_	_	
+48-90	6406-6408	in	_	_	
+48-91	6409-6412	the	_	_	
+48-92	6413-6414	`	_	_	
+48-93	6414-6415	.	_	_	
+
+#Text=/Data/` directory.
+49-1	6415-6416	/	_	_	
+49-2	6416-6420	Data	_	_	
+49-3	6420-6421	/	_	_	
+49-4	6421-6422	`	_	_	
+49-5	6423-6432	directory	_	_	
+49-6	6432-6433	.	_	_	
+
+#Text=Furthermore, each
+#Text=result will be identified by its dataset, upscaling factor, and the name of the
+#Text=model.
+50-1	6434-6445	Furthermore	_	_	
+50-2	6445-6446	,	_	_	
+50-3	6447-6451	each	_	_	
+50-4	6452-6458	result	_	_	
+50-5	6459-6463	will	_	_	
+50-6	6464-6466	be	_	_	
+50-7	6467-6477	identified	_	_	
+50-8	6478-6480	by	_	_	
+50-9	6481-6484	its	_	_	
+50-10	6485-6492	dataset	_	_	
+50-11	6492-6493	,	_	_	
+50-12	6494-6503	upscaling	_	_	
+50-13	6504-6510	factor	_	_	
+50-14	6510-6511	,	_	_	
+50-15	6512-6515	and	_	_	
+50-16	6516-6519	the	_	_	
+50-17	6520-6524	name	_	_	
+50-18	6525-6527	of	_	_	
+50-19	6528-6531	the	_	_	
+50-20	6532-6537	model	_	_	
+50-21	6537-6538	.	_	_	
+
+#Text=We also created a separate driver file named `test_bicubic.py`, which will
+#Text=reproduce our results using the bicubic interpolation baseline found in our
+#Text=paper.
+51-1	6541-6543	We	_	_	
+51-2	6544-6548	also	_	_	
+51-3	6549-6556	created	_	_	
+51-4	6557-6558	a	_	_	
+51-5	6559-6567	separate	_	_	
+51-6	6568-6574	driver	_	_	
+51-7	6575-6579	file	_	_	
+51-8	6580-6585	named	_	_	
+51-9	6586-6587	`	_	_	
+51-10	6587-6602	test_bicubic.py	_	_	
+51-11	6602-6603	`	_	_	
+51-12	6603-6604	,	_	_	
+51-13	6605-6610	which	_	_	
+51-14	6611-6615	will	_	_	
+51-15	6616-6625	reproduce	_	_	
+51-16	6626-6629	our	_	_	
+51-17	6630-6637	results	_	_	
+51-18	6638-6643	using	_	_	
+51-19	6644-6647	the	_	_	
+51-20	6648-6655	bicubic	_	_	
+51-21	6656-6669	interpolation	_	_	
+51-22	6670-6678	baseline	_	_	
+51-23	6679-6684	found	_	_	
+51-24	6685-6687	in	_	_	
+51-25	6688-6691	our	_	_	
+51-26	6692-6697	paper	_	_	
+51-27	6697-6698	.	_	_	
+
+#Text=To reproduce these results (assuming that the datasets are set
+#Text=correctly), simply run the following command: 
+#Text=
+#Text=`python test_bicubic.py`
+#Text=
+#Text=### License
+#Text=
+#Text=[!
+52-1	6699-6701	To	_	_	
+52-2	6702-6711	reproduce	_	_	
+52-3	6712-6717	these	_	_	
+52-4	6718-6725	results	_	_	
+52-5	6726-6727	(	_	_	
+52-6	6727-6735	assuming	_	_	
+52-7	6736-6740	that	_	_	
+52-8	6741-6744	the	_	_	
+52-9	6745-6753	datasets	_	_	
+52-10	6754-6757	are	_	_	
+52-11	6758-6761	set	_	_	
+52-12	6762-6771	correctly	_	_	
+52-13	6771-6772	)	_	_	
+52-14	6772-6773	,	_	_	
+52-15	6774-6780	simply	_	_	
+52-16	6781-6784	run	_	_	
+52-17	6785-6788	the	_	_	
+52-18	6789-6798	following	_	_	
+52-19	6799-6806	command	_	_	
+52-20	6806-6807	:	_	_	
+52-21	6810-6811	`	_	_	
+52-22	6811-6817	python	*	SOFTWARE	
+52-23	6818-6833	test_bicubic.py	_	_	
+52-24	6833-6834	`	_	_	
+52-25	6836-6837	#	_	_	
+52-26	6837-6838	#	_	_	
+52-27	6838-6839	#	_	_	
+52-28	6840-6847	License	_	_	
+52-29	6849-6850	[	_	_	
+52-30	6850-6851	!	_	_	
+
+#Text=[license](https://img.shields.io/github/license/mashape/apistatus.svg?
+53-1	6851-6852	[	_	_	
+53-2	6852-6859	license	_	_	
+53-3	6859-6860	]	_	_	
+53-4	6860-6861	(	_	_	
+53-5	6861-6866	https	_	_	
+53-6	6866-6867	:	_	_	
+53-7	6867-6868	/	_	_	
+53-8	6868-6869	/	_	_	
+53-9	6869-6883	img.shields.io	_	_	
+53-10	6883-6884	/	_	_	
+53-11	6884-6890	github	_	_	
+53-12	6890-6891	/	_	_	
+53-13	6891-6898	license	_	_	
+53-14	6898-6899	/	_	_	
+53-15	6899-6906	mashape	_	_	
+53-16	6906-6907	/	_	_	
+53-17	6907-6920	apistatus.svg	_	_	
+53-18	6920-6921	?	_	_	
+
+#Text=maxAge=2592000)](https://github.com/robotic-vision-lab/Attention-With-Varying-Receptive-Fields-Network/blob/main/LICENSE)
+54-1	6921-6927	maxAge	_	_	
+54-2	6927-6928	=	_	_	
+54-3	6928-6935	2592000	_	_	
+54-4	6935-6936	)	_	_	
+54-5	6936-6937	]	_	_	
+54-6	6937-6938	(	_	_	
+54-7	6938-6943	https	_	_	
+54-8	6943-6944	:	_	_	
+54-9	6944-6945	/	_	_	
+54-10	6945-6946	/	_	_	
+54-11	6946-6956	github.com	_	_	
+54-12	6956-6957	/	_	_	
+54-13	6957-6975	robotic-vision-lab	_	_	
+54-14	6975-6976	/	_	_	
+54-15	6976-7023	Attention-With-Varying-Receptive-Fields-Network	_	_	
+54-16	7023-7024	/	_	_	
+54-17	7024-7028	blob	_	_	
+54-18	7028-7029	/	_	_	
+54-19	7029-7033	main	_	_	
+54-20	7033-7034	/	_	_	
+54-21	7034-7041	LICENSE	_	_	
+54-22	7041-7042	)	_	_	

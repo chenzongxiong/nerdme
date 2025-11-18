@@ -1,0 +1,1 @@
+Scene illumination is also disentangled to generate a pure albedo.

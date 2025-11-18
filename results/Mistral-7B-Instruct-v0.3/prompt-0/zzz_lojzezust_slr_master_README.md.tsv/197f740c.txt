@@ -1,0 +1,9 @@
+`Use the <PROGLANG>Python</PROGLANG> `<SOFTWARE>-e</SOFTWARE>` flag if you want to make changes.`
+
+`The <SOFTWARE>Protege ontology editor</SOFTWARE> is widely used for creating ontologies.`
+
+`The <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION> is available at <URL>https://dl.acm.org/doi/10.1145/3485100.3485111</URL>.`
+
+`The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (<CONFERENCE>ISWC 2019</CONFERENCE>) was held in San Francisco, USA.`
+
+`The <DATASET>Maules Creek</DATASET> dataset can be found at <URL>https://data.gov.au/dataset/maules-creek-coal-mine-air-quality-data</URL>.`

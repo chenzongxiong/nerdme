@@ -1,0 +1,1 @@
+The scripts will build <SOFTWARE>cython</SOFTWARE> module automatically and create some folders.  3.

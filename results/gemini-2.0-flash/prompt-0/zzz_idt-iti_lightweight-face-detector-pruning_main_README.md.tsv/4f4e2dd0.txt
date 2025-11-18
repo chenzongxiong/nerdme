@@ -1,0 +1,1 @@
+To execute the pruning process, use the following commands based on the desired pruning algorithm.

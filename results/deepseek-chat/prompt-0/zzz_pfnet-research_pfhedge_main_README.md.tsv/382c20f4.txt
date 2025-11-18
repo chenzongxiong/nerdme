@@ -1,0 +1,1 @@
+`<PUBLICATION>Quantitative Finance, 2019, 19, 1271-1291</PUBLICATION>. arXiv:[1802.03042][deep-hedging-arxiv] \[q-fin.CP\]. * Hans Bühler, Lukas Gonon, Josef Teichmann, Ben Wood, Baranidharan Mohan and Jonathan Kochems, <PUBLICATION>Deep Hedging: Hedging Derivatives Under Generic Market Frictions Using Reinforcement Learning</PUBLICATION> (March 19, 2019).`

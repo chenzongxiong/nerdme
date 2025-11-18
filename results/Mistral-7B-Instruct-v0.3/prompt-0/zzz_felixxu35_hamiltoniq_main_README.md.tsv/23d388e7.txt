@@ -1,0 +1,5 @@
+<SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+
+The <PROJECT>Paper With Code</PROJECT> project (<PUBLICATION>https://<PROJECT>paperswithcode</PROJECT>.com/</PUBLICATION>) provides valuable resources.
+
+For more technical details please visit our <PUBLICATION>arXiv Paper</PUBLICATION> (<PUBLICATION>https://arxiv.org/abs/2404.13971</PUBLICATION>).

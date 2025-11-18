@@ -1,0 +1,3 @@
+```markdown
+- Run `<PROGLANG>bash</PROGLANG> generate.sh`.
+```

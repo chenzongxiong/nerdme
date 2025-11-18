@@ -1,0 +1,1 @@
+`<SOFTWARE>evaluator</SOFTWARE>`is an instance of the ModelEvaluator class defined in `<SOFTWARE>utils/model_evaluator.py</SOFTWARE>`.

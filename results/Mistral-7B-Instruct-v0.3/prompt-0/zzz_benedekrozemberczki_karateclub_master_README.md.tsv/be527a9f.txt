@@ -1,0 +1,1 @@
+*Karate Club* consists of `<PROJECT>state-of-the-art methods</PROJECT>` to do unsupervised learning on `<DATASET>graph structured data</DATASET>`.

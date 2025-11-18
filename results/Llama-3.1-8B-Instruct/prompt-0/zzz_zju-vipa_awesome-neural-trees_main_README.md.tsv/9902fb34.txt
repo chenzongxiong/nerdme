@@ -1,0 +1,17 @@
+The <PUBLICATION>Extracting decision trees from trained neural networks</PUBLICATION>, <PUBLICATION>Pattern Recognition</PUBLICATION>, 2020 
+- Olcay Boz 
+- [[Paper]](https://dl.acm.org/doi/abs/10.1145/775047.775113)
+
+- The <PUBLICATION>NeC4.5: neural ensemble based C4.5</PUBLICATION>, <PUBLICATION>IEEE Transactions on Knowledge and Data Engineering</PUBLICATION>, 2004 
+- Zhi-Hua Zhou, Yuan Jiang *(use NN ensembles)* 
+- [[Paper]](https://ieeexplore.ieee.org/abstract/document/1294896)
+
+- The <PUBLICATION>Extracting decision trees from trained neural networks</PUBLICATION>, <PUBLICATION>Pattern Recognition</PUBLICATION>, 1999 
+- R.Krishnan, *et al.* *(adapt genetic algorithms to generate artificial examples)* 
+- [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320398001812)
+
+- ***generalize the <SOFTWARE>TREPAN</SOFTWARE> algorithm***
+
+- The <PUBLICATION>An investigation of TREPAN utilising a continuous oracle model</PUBLICATION>, <PUBLICATION>Data Analysis Techniques and Strategies</PUBLICATION>, 2011 
+- William A Young *et al.* *(develop DTs derived from continuous-based models)* 
+- [[Paper]](https://www.researchgate.net/profile/William-Young-10/publication/227441144_An_investigation_of_TREPAN_utilising_a_continuous_oracle_model/links/00b495258560f7e8d3000000/An-investigation-of-TREPAN-utilising-a-continuous-oracle-model.pdf?)

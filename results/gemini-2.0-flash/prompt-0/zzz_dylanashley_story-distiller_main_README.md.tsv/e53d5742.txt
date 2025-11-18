@@ -1,0 +1,24 @@
+# story-distiller  [!](https://github.com/artm-com/story-distiller)
+
+This is a <PROJECT>research project</PROJECT> that aims to automatically extract the most important information from a story.
+
+## Datasets
+
+The <PROJECT>project</PROJECT> uses the following datasets:
+
+*   <DATASET>CNN</DATASET>
+*   <DATASET>DailyMail</DATASET>
+*   <DATASET>NYT</DATASET>
+*   <DATASET>XSum</DATASET>
+
+## Evaluation
+
+The <PROJECT>project</PROJECT> is evaluated using the following metrics:
+
+*   <EVALMETRIC>ROUGE-1</EVALMETRIC>
+*   <EVALMETRIC>ROUGE-2</EVALMETRIC>
+*   <EVALMETRIC>ROUGE-L</EVALMETRIC>
+
+## License
+
+The code is released under the <LICENSE>MIT License</LICENSE>.

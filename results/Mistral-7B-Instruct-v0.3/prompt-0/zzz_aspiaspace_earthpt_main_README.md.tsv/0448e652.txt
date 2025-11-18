@@ -1,0 +1,2 @@
+`This work is also in the <WORKSHOP>2023 CCAI NeurIPS workshop</WORKSHOP>.
+The <PUBLICATION>EarthPT: a time series foundation model for Earth Observation</PUBLICATION> is in the <JOURNAL>arXiv</JOURNAL> with the title <TITLE>EarthPT: a time series foundation model for Earth Observation</TITLE>. The year of publication is <YEAR>2023</YEAR>. The eprint is <EPRINT>2309.07207</EPRINT> and the DOI is <DOI>10.48550/arXiv.2309.07207</DOI>`

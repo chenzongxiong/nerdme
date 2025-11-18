@@ -1,0 +1,3 @@
+```markdown
+See https://<PROJECT>conala-corpus</PROJECT>.github.io/ , [<LICENSE>LICENSE</LICENSE>](https://creativecommons.org/licenses/by-sa/4.0/)                                                                                         | | <DATASET>codesearchnet-{language}-{train\|valid\|test}</DATASET> | The <DATASET>CodeSearchNet</DATASET> snippet collections used for training/<EVALMETRIC>MRR</EVALMETRIC> validation/<EVALMETRIC>MRR</EVALMETRIC> testing.
+```

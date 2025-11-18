@@ -1,0 +1,3 @@
+```markdown
+/data/saved_models/id-x/plots/" for x=1,2,3.    ## Empirical convergence study Models for the empirical convergence study were trained using <SOFTWARE>parallel_train.py</SOFTWARE> with the model parameters specified below ``` # ========================================================================== # parallel training for convergence analysis # ========================================================================== ``` in the main part of the file <SOFTWARE>parallel_train.py</SOFTWARE>.
+```

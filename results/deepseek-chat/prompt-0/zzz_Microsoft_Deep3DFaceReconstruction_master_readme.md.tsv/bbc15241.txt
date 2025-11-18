@@ -1,0 +1,9 @@
+Since the provided input text does not contain any specific content to annotate, I cannot perform Named Entity Recognition on it. Please provide the actual text you'd like to have annotated according to the given guidelines. 
+
+For example, if the input text were:
+"The International Semantic Web Conference 2019 featured a workshop on ontologies using the Protege software."
+
+The annotated output would be:
+"The `<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>` featured a `<WORKSHOP>workshop on ontologies</WORKSHOP>` using the `<SOFTWARE>Protege</SOFTWARE>` software."
+
+Please provide the complete text you'd like annotated.

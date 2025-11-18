@@ -1,0 +1,2 @@
+](https://arxiv.org/abs/2405.08244) <PUBLICATION>LLM-based Zero-Shot Information Extraction for Low-Resource Domains</PUBLICATION>
+[!

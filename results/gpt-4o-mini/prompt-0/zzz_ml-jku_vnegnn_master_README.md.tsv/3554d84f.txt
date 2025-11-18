@@ -1,0 +1,1 @@
+Ligand Information: <http://www.bindingmoad.org/files/csv/every_bind.csv>  #### <DATASET>PDBBind</DATASET>  <http://www.pdbbind.org.cn/download/PDBbind_v2020_other_PL.tar.gz>  ## Replicate results  If you want to replicated the results from the <PUBLICATION>paper</PUBLICATION>, put the downloaded <DATASET>datasets</DATASET> in the specific folders

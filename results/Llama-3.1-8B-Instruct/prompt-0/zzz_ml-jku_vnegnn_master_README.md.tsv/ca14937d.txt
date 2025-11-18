@@ -1,0 +1,24 @@
+Clone the repo:  ``` git clone <https://github.com/ml-jku/vnegnn> ```  
+Setup dependencies:  ``` conda create --name vnegnn python=3.9 conda activate vnegnn conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 pytorch-cuda=12.1 -c pytorch -c nvidia conda install pyg==2.4.0 -c pyg conda env update --name vnegnn --file environment.yaml ```  
+Activate the environment:  ``` conda activate vnegnn ```  
+## Usage Examples  
+Following commands can be executed in the directory of the cloned repository.  
+### Predict  
+Provide your protein in `.pdb` format.  
+``` python predict.py -i protein.pdb -o output -c model.ckpt -d cuda:0               # run prediction on GPU  
+python predict.py -i protein.pdb -o output -c model.ckpt -d cuda:0 -v            # run prediction on GPU and create visualization ```  
+#### Predict Output  
+The model outputs:  
+- `prediction.csv`: holding the predicted positions (x,y,z) of the virtual nodes and the corresponding ranks  
+- `visualization.pse`: PyMOL session file containing the protein structure with the predicted virtual node positions, only created if the `-v` flag is used.a  
+## Data  
+In our training and evaluation process, we adopted the methodology outlined in `<PUBLICATION>Equipocket</PUBLICATION>` (<https://arxiv.org/abs/2302.12177>) with a modification: we utilized a single validation set in place of the 5-fold cross-validation, due to computational limitations.  
+``` 
+Note: 
+- `<SOFTWARE>conda</SOFTWARE>` 
+- `<SOFTWARE>git</SOFTWARE>` 
+- `<SOFTWARE>PyMOL</SOFTWARE>` 
+- `<SOFTWARE>PyTorch</SOFTWARE>` 
+- `<SOFTWARE>Torchaudio</SOFTWARE>` 
+- `<SOFTWARE>PyG</SOFTWARE>` 
+- `<SOFTWARE>Protege Ontology Editor</SOFTWARE>`

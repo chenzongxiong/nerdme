@@ -1,0 +1,3 @@
+The text contains no entities according to the provided guidelines. Here's the annotated text:
+
+It prunes and trains the model iteratively for **200 EPOCHS**, following which the pruning is halted and the model is fine-tuned for an additional **10 EPOCHS**.

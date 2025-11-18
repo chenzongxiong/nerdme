@@ -1,0 +1,2 @@
+```py dtype = torch.<PROGLANG>float64</PROGLANG> device = torch.device("cuda:0")  derivative = <SOFTWARE>EuropeanOption</SOFTWARE>(<SOFTWARE>BrownianStock</SOFTWARE>()).to(dtype, device) hedger = <SOFTWARE>Hedger</SOFTWARE>(...).to(dtype, device) ```  ### Black-Scholes' Delta-Hedging Strategy  In this strategy, a hedger incessantly rebalances their portfolio and keeps it [delta-neutral](https://en.wikipedia.org/wiki/Delta_neutral).
+```

@@ -1,0 +1,4 @@
+`You can view a <LICENSE>CC BY-NC 4.0</LICENSE> license summary [here](http://creativecommons.org/licenses/by-nc/4.0/).
+
+## Introduction
+Monocular depth prediction methods fail to generate <EVALMETRIC>absolute</EVALMETRIC> and <EVALMETRIC>precise</EVALMETRIC> depth maps and <PROGLANG>stereoscopic</PROGLANG> approaches are still significantly outperformed by <SOFTWARE>LiDAR</SOFTWARE> based approaches.`

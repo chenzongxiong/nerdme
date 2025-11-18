@@ -1,0 +1,3 @@
+```markdown
+/pretrained/thumos_i3d_reproduce/ ``` * The results (<EVALMETRIC>mAP</EVALMETRIC> at tIoUs) should be  | Method            |  0.3  |  0.4  |  0.5  |  0.6  |  0.7  |  Avg  | |-------------------|-------|-------|-------|-------|-------|-------| | ActionFormer      | 82.13 | 77.80 | 70.95 | 59.40 | 43.87 | 66.83 |   ## To Reproduce Our Results on <DATASET>ActivityNet 1.3</DATASET> **Download Features and Annotations** * Download *<DATASET>anet_1.3.tar.gz</DATASET>* (`md5sum c415f50120b9425ee1ede9ac3ce11203`) from [this Box link](https://uwmadison.box.com/s/aisdoymowukc99zoc7gpqegxbb4whikx) or [this Google Drive Link](https://drive.google.com/file/d/1VW8px1Nz9A17i0wMVUfxh6YsPCLVqL-S/view?
+```

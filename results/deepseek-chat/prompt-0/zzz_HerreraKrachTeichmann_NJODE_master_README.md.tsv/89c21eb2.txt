@@ -1,0 +1,3 @@
+```markdown
+id=JFKR3WqwyXR).  ``` @inproceedings{ herrera2021neural, title={<PUBLICATION>Neural Jump Ordinary Differential Equations: Consistent Continuous-Time Prediction and Filtering</PUBLICATION>}, author={Calypso Herrera and Florian Krach and Josef Teichmann}, booktitle={<CONFERENCE>International Conference on Learning Representations</CONFERENCE>}, year={2021}, url={https://openreview.net/forum?
+```

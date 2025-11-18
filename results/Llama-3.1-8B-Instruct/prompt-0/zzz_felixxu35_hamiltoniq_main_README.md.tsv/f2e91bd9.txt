@@ -1,0 +1,1 @@
+The <SOFTWARE>Quantum-HPC</SOFTWARE> system can be managed with the help of the H-score.

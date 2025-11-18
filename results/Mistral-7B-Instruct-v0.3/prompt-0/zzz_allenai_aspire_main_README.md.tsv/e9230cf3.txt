@@ -1,0 +1,11 @@
+For instructions, read the detailed help snippets of the `<PROJECT>Argument Parser</PROJECT>`.
+
+The `<SOFTWARE>Protege Ontology Editor</SOFTWARE>` is widely used for creating ontologies.
+
+The `<DATASET>Maules Creek</DATASET>` dataset can be found at (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip).
+
+The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`.
+
+The `<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>` (ISWC 2019) is a well-known conference in the field.
+
+The `<WORKSHOP>Thermal Image Super-Resolution</WORKSHOP>` workshop is

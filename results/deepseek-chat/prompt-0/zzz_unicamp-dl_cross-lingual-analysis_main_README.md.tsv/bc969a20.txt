@@ -1,0 +1,3 @@
+```markdown
+~~~ {.xml  @article{cross-lingual2021,     title={A cost-benefit analysis of cross-lingual transfer methods},     author={Moraes, Guilherme and Bonifácio, Luiz Henrique and Rodrigues de Souza, Leandro and Nogueira, Rodrigo and Lotufo, Roberto},     journal={<PUBLICATION>arXiv preprint arXiv:2105.06813</PUBLICATION>},     url={https://arxiv.org/abs/2105.06813},     year={2021} } ~~~
+```

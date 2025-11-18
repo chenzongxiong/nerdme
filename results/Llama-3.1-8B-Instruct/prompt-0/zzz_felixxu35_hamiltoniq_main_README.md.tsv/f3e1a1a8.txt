@@ -1,0 +1,1 @@
+Integral to the workflow is <SOFTWARE>Quantum Error Mitigation</SOFTWARE> (QEM), which strategically addresses computational noise and errors that could affect the fidelity of the <SOFTWARE>quantum processes</SOFTWARE>.

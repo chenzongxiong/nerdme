@@ -1,0 +1,1 @@
+For `<PROJECT>staqc-py</PROJECT>` and `<PROJECT>conala-curated</PROJECT>` we did some additional processing, for the `<PROJECT>codesearchnet</PROJECT>` collections we merely load the original `<DATASET>dataset</DATASET>` in a format that is consistent with our code.

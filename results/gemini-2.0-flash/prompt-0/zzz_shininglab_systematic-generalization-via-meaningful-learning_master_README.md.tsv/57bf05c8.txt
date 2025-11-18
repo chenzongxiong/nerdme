@@ -1,0 +1,1 @@
+usp=sharing) and should be placed under **main/res/data** according to specific tasks.

@@ -1,0 +1,1 @@
+`To put it simply it is a <SOFTWARE><SOFTWARE>Neo4j</SOFTWARE></SOFTWARE> for small-scale graph mining research.`

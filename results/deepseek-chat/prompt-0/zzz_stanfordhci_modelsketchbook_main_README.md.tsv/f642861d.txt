@@ -1,0 +1,3 @@
+```markdown
+/docs/media/take_note.png" alt="take_note widgets" width="50%">  ## 3: Concept helper functions ### View existing concepts Prints out a summary of all existing concepts with concept ID, concept term, input field, output type, and associated notes (if provided). ``` msb.show_concepts(sb) ```  ### Get concept term suggestions Prints a set of synonyms for the provided concept term to assist in term ideation.
+```

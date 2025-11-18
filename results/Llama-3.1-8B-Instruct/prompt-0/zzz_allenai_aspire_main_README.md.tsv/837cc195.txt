@@ -1,0 +1,1 @@
+The function `<SOFTWARE>get_qbe_pools</SOFTWARE>` in `<SOFTWARE>pre_proc_treccovid.py</SOFTWARE>`, converts the `<DATASET>TRECCOVID</DATASET>` dataset in its original form to the reformulated form, `<DATASET>TRECCOVID-RF</DATASET>`, used in the `<PUBLICATION>TRECCOVID paper</PUBLICATION>`.

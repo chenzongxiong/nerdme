@@ -1,0 +1,1 @@
+The `<SOFTWARE>train_sum.py</SOFTWARE>` script is used for training a summarization model. The script uses a pre-trained language model and default hyperparameters. The `<PROGLANG>Python</PROGLANG>` script is used for running the model.

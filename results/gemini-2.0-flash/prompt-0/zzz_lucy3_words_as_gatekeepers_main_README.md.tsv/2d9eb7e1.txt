@@ -1,0 +1,1 @@
+You should change the file paths to redirect to yours, rather than the placeholders I included

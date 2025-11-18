@@ -1,0 +1,3 @@
+```markdown
+[<PROGLANG>pytorch</PROGLANG>](https://img.shields.io/badge/torch-1.9.0--%20%7C%202.0.0---red)  **<SOFTWARE>PFHedge</SOFTWARE>** is a [<PROGLANG>PyTorch</PROGLANG>](https://pytorch.org/)-based framework for [<PUBLICATION>Deep Hedging</PUBLICATION>][deep-hedging-arxiv]
+```

@@ -1,0 +1,1085 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# [EC-GAN](https://ayaanzhaque.github.io/EC-GAN/)
+#Text=This repository contains the implementation of the paper ["EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs"](https://arxiv.org/abs/2012.15864) by Ayaan Haque from Saratoga High School.
+1-1	0-1	#	_	_	
+1-2	2-3	[	_	_	
+1-3	3-9	EC-GAN	_	_	
+1-4	9-10	]	_	_	
+1-5	10-11	(	_	_	
+1-6	11-16	https	_	_	
+1-7	16-17	:	_	_	
+1-8	17-18	/	_	_	
+1-9	18-19	/	_	_	
+1-10	19-40	ayaanzhaque.github.io	_	_	
+1-11	40-41	/	_	_	
+1-12	41-47	EC-GAN	_	_	
+1-13	47-48	/	_	_	
+1-14	48-49	)	_	_	
+1-15	50-54	This	_	_	
+1-16	55-65	repository	_	_	
+1-17	66-74	contains	_	_	
+1-18	75-78	the	_	_	
+1-19	79-93	implementation	_	_	
+1-20	94-96	of	_	_	
+1-21	97-100	the	_	_	
+1-22	101-106	paper	_	_	
+1-23	107-108	[	_	_	
+1-24	108-109	"	_	_	
+1-25	109-115	EC-GAN	*[1]	PUBLICATION[1]	
+1-26	115-116	:	*[1]	PUBLICATION[1]	
+1-27	117-127	Low-Sample	*[1]	PUBLICATION[1]	
+1-28	128-142	Classification	*[1]	PUBLICATION[1]	
+1-29	143-148	using	*[1]	PUBLICATION[1]	
+1-30	149-164	Semi-Supervised	*[1]	PUBLICATION[1]	
+1-31	165-175	Algorithms	*[1]	PUBLICATION[1]	
+1-32	176-179	and	*[1]	PUBLICATION[1]	
+1-33	180-184	GANs	*[1]	PUBLICATION[1]	
+1-34	184-185	"	_	_	
+1-35	185-186	]	_	_	
+1-36	186-187	(	_	_	
+1-37	187-192	https	_	_	
+1-38	192-193	:	_	_	
+1-39	193-194	/	_	_	
+1-40	194-195	/	_	_	
+1-41	195-204	arxiv.org	_	_	
+1-42	204-205	/	_	_	
+1-43	205-208	abs	_	_	
+1-44	208-209	/	_	_	
+1-45	209-219	2012.15864	_	_	
+1-46	219-220	)	_	_	
+1-47	221-223	by	_	_	
+1-48	224-229	Ayaan	_	_	
+1-49	230-235	Haque	_	_	
+1-50	236-240	from	_	_	
+1-51	241-249	Saratoga	_	_	
+1-52	250-254	High	_	_	
+1-53	255-261	School	_	_	
+1-54	261-262	.	_	_	
+
+#Text=In [AAAI](https://aaai.org/Conferences/AAAI-21/), 2021.
+2-1	263-265	In	_	_	
+2-2	266-267	[	_	_	
+2-3	267-271	AAAI	*	CONFERENCE	
+2-4	271-272	]	_	_	
+2-5	272-273	(	_	_	
+2-6	273-278	https	_	_	
+2-7	278-279	:	_	_	
+2-8	279-280	/	_	_	
+2-9	280-281	/	_	_	
+2-10	281-289	aaai.org	_	_	
+2-11	289-290	/	_	_	
+2-12	290-301	Conferences	_	_	
+2-13	301-302	/	_	_	
+2-14	302-306	AAAI	*[2]	CONFERENCE[2]	
+2-15	306-307	-	*[2]	CONFERENCE[2]	
+2-16	307-309	21	*[2]	CONFERENCE[2]	
+2-17	309-310	/	_	_	
+2-18	310-311	)	_	_	
+2-19	311-312	,	_	_	
+2-20	313-317	2021	_	_	
+2-21	317-318	.	_	_	
+
+#Text=Our proposed model combines a Generative Adversarial Network with a classifier to leverage artifical GAN generations to increase the size of restricted, fully-supervised datasets in a semi-supervised method.
+3-1	320-323	Our	_	_	
+3-2	324-332	proposed	_	_	
+3-3	333-338	model	_	_	
+3-4	339-347	combines	_	_	
+3-5	348-349	a	_	_	
+3-6	350-360	Generative	_	_	
+3-7	361-372	Adversarial	_	_	
+3-8	373-380	Network	_	_	
+3-9	381-385	with	_	_	
+3-10	386-387	a	_	_	
+3-11	388-398	classifier	_	_	
+3-12	399-401	to	_	_	
+3-13	402-410	leverage	_	_	
+3-14	411-420	artifical	_	_	
+3-15	421-424	GAN	_	_	
+3-16	425-436	generations	_	_	
+3-17	437-439	to	_	_	
+3-18	440-448	increase	_	_	
+3-19	449-452	the	_	_	
+3-20	453-457	size	_	_	
+3-21	458-460	of	_	_	
+3-22	461-471	restricted	_	_	
+3-23	471-472	,	_	_	
+3-24	473-489	fully-supervised	_	_	
+3-25	490-498	datasets	_	_	
+3-26	499-501	in	_	_	
+3-27	502-503	a	_	_	
+3-28	504-519	semi-supervised	_	_	
+3-29	520-526	method	_	_	
+3-30	526-527	.	_	_	
+
+#Text=<p align="center">
+#Text=    <a href="https://slideslive.com/38951242/ecgan-lowsample-classification-using-semisupervised-algorithms-and-gans?
+4-1	529-530	<	_	_	
+4-2	530-531	p	_	_	
+4-3	532-537	align	_	_	
+4-4	537-538	=	_	_	
+4-5	538-539	"	_	_	
+4-6	539-545	center	_	_	
+4-7	545-546	"	_	_	
+4-8	546-547	>	_	_	
+4-9	552-553	<	_	_	
+4-10	553-554	a	_	_	
+4-11	555-559	href	_	_	
+4-12	559-560	=	_	_	
+4-13	560-561	"	_	_	
+4-14	561-566	https	_	_	
+4-15	566-567	:	_	_	
+4-16	567-568	/	_	_	
+4-17	568-569	/	_	_	
+4-18	569-583	slideslive.com	_	_	
+4-19	583-584	/	_	_	
+4-20	584-592	38951242	_	_	
+4-21	592-593	/	_	_	
+4-22	593-664	ecgan-lowsample-classification-using-semisupervised-algorithms-and-gans	_	_	
+4-23	664-665	?	_	_	
+
+#Text=ref=account-83491-history">
+#Text=        <img src="https://github.com/ayaanzhaque/EC-GAN/blob/main/images/AAAI%20Finalist%20Presentation%20AH.png" alt="Thumbnail"/>
+#Text=        <br />
+#Text=        Watch Oral Presentation
+#Text=    </a>
+#Text=</p>
+#Text=
+#Text=## Abstract
+#Text=Semi-supervised learning has been gaining attention as it allows for performing image analysis tasks such as classification with limited labeled data.
+5-1	665-668	ref	_	_	
+5-2	668-669	=	_	_	
+5-3	669-676	account	_	_	
+5-4	676-677	-	_	_	
+5-5	677-682	83491	_	_	
+5-6	682-683	-	_	_	
+5-7	683-690	history	_	_	
+5-8	690-691	"	_	_	
+5-9	691-692	>	_	_	
+5-10	701-702	<	_	_	
+5-11	702-705	img	_	_	
+5-12	706-709	src	_	_	
+5-13	709-710	=	_	_	
+5-14	710-711	"	_	_	
+5-15	711-716	https	_	_	
+5-16	716-717	:	_	_	
+5-17	717-718	/	_	_	
+5-18	718-719	/	_	_	
+5-19	719-729	github.com	_	_	
+5-20	729-730	/	_	_	
+5-21	730-741	ayaanzhaque	_	_	
+5-22	741-742	/	_	_	
+5-23	742-748	EC-GAN	_	_	
+5-24	748-749	/	_	_	
+5-25	749-753	blob	_	_	
+5-26	753-754	/	_	_	
+5-27	754-758	main	_	_	
+5-28	758-759	/	_	_	
+5-29	759-765	images	_	_	
+5-30	765-766	/	_	_	
+5-31	766-770	AAAI	*	CONFERENCE	
+5-32	770-771	%	_	_	
+5-33	771-781	20Finalist	_	_	
+5-34	781-782	%	_	_	
+5-35	782-796	20Presentation	_	_	
+5-36	796-797	%	_	_	
+5-37	797-805	20AH.png	_	_	
+5-38	805-806	"	_	_	
+5-39	807-810	alt	_	_	
+5-40	810-811	=	_	_	
+5-41	811-812	"	_	_	
+5-42	812-821	Thumbnail	_	_	
+5-43	821-822	"	_	_	
+5-44	822-823	/	_	_	
+5-45	823-824	>	_	_	
+5-46	833-834	<	_	_	
+5-47	834-836	br	_	_	
+5-48	837-838	/	_	_	
+5-49	838-839	>	_	_	
+5-50	848-853	Watch	_	_	
+5-51	854-858	Oral	_	_	
+5-52	859-871	Presentation	_	_	
+5-53	876-877	<	_	_	
+5-54	877-878	/	_	_	
+5-55	878-879	a	_	_	
+5-56	879-880	>	_	_	
+5-57	881-882	<	_	_	
+5-58	882-883	/	_	_	
+5-59	883-884	p	_	_	
+5-60	884-885	>	_	_	
+5-61	887-888	#	_	_	
+5-62	888-889	#	_	_	
+5-63	890-898	Abstract	_	_	
+5-64	899-914	Semi-supervised	_	_	
+5-65	915-923	learning	_	_	
+5-66	924-927	has	_	_	
+5-67	928-932	been	_	_	
+5-68	933-940	gaining	_	_	
+5-69	941-950	attention	_	_	
+5-70	951-953	as	_	_	
+5-71	954-956	it	_	_	
+5-72	957-963	allows	_	_	
+5-73	964-967	for	_	_	
+5-74	968-978	performing	_	_	
+5-75	979-984	image	_	_	
+5-76	985-993	analysis	_	_	
+5-77	994-999	tasks	_	_	
+5-78	1000-1004	such	_	_	
+5-79	1005-1007	as	_	_	
+5-80	1008-1022	classification	_	_	
+5-81	1023-1027	with	_	_	
+5-82	1028-1035	limited	_	_	
+5-83	1036-1043	labeled	_	_	
+5-84	1044-1048	data	_	_	
+5-85	1048-1049	.	_	_	
+
+#Text=Some popular algorithms using Generative Adversarial Networks (GANs) for semi-supervised classification share a single architecture for classification and discrimination.
+6-1	1050-1054	Some	_	_	
+6-2	1055-1062	popular	_	_	
+6-3	1063-1073	algorithms	_	_	
+6-4	1074-1079	using	_	_	
+6-5	1080-1090	Generative	_	_	
+6-6	1091-1102	Adversarial	_	_	
+6-7	1103-1111	Networks	_	_	
+6-8	1112-1113	(	_	_	
+6-9	1113-1117	GANs	_	_	
+6-10	1117-1118	)	_	_	
+6-11	1119-1122	for	_	_	
+6-12	1123-1138	semi-supervised	_	_	
+6-13	1139-1153	classification	_	_	
+6-14	1154-1159	share	_	_	
+6-15	1160-1161	a	_	_	
+6-16	1162-1168	single	_	_	
+6-17	1169-1181	architecture	_	_	
+6-18	1182-1185	for	_	_	
+6-19	1186-1200	classification	_	_	
+6-20	1201-1204	and	_	_	
+6-21	1205-1219	discrimination	_	_	
+6-22	1219-1220	.	_	_	
+
+#Text=However, this may require a model to converge to a separate data distribution for each task, which may reduce overall performance.
+7-1	1221-1228	However	_	_	
+7-2	1228-1229	,	_	_	
+7-3	1230-1234	this	_	_	
+7-4	1235-1238	may	_	_	
+7-5	1239-1246	require	_	_	
+7-6	1247-1248	a	_	_	
+7-7	1249-1254	model	_	_	
+7-8	1255-1257	to	_	_	
+7-9	1258-1266	converge	_	_	
+7-10	1267-1269	to	_	_	
+7-11	1270-1271	a	_	_	
+7-12	1272-1280	separate	_	_	
+7-13	1281-1285	data	_	_	
+7-14	1286-1298	distribution	_	_	
+7-15	1299-1302	for	_	_	
+7-16	1303-1307	each	_	_	
+7-17	1308-1312	task	_	_	
+7-18	1312-1313	,	_	_	
+7-19	1314-1319	which	_	_	
+7-20	1320-1323	may	_	_	
+7-21	1324-1330	reduce	_	_	
+7-22	1331-1338	overall	_	_	
+7-23	1339-1350	performance	_	_	
+7-24	1350-1351	.	_	_	
+
+#Text=While progress in semi-supervised learning has been made, less addressed are small-scale, fully-supervised tasks where even unlabeled data is unavailable and unattainable.
+8-1	1352-1357	While	_	_	
+8-2	1358-1366	progress	_	_	
+8-3	1367-1369	in	_	_	
+8-4	1370-1385	semi-supervised	_	_	
+8-5	1386-1394	learning	_	_	
+8-6	1395-1398	has	_	_	
+8-7	1399-1403	been	_	_	
+8-8	1404-1408	made	_	_	
+8-9	1408-1409	,	_	_	
+8-10	1410-1414	less	_	_	
+8-11	1415-1424	addressed	_	_	
+8-12	1425-1428	are	_	_	
+8-13	1429-1440	small-scale	_	_	
+8-14	1440-1441	,	_	_	
+8-15	1442-1458	fully-supervised	_	_	
+8-16	1459-1464	tasks	_	_	
+8-17	1465-1470	where	_	_	
+8-18	1471-1475	even	_	_	
+8-19	1476-1485	unlabeled	_	_	
+8-20	1486-1490	data	_	_	
+8-21	1491-1493	is	_	_	
+8-22	1494-1505	unavailable	_	_	
+8-23	1506-1509	and	_	_	
+8-24	1510-1522	unattainable	_	_	
+8-25	1522-1523	.	_	_	
+
+#Text=We therefore, propose a novel GAN model namely External Classifier GAN (EC-GAN), that utilizes GANs and semi-supervised algorithms to improve classification in fully-supervised regimes.
+9-1	1524-1526	We	_	_	
+9-2	1527-1536	therefore	_	_	
+9-3	1536-1537	,	_	_	
+9-4	1538-1545	propose	_	_	
+9-5	1546-1547	a	_	_	
+9-6	1548-1553	novel	_	_	
+9-7	1554-1557	GAN	_	_	
+9-8	1558-1563	model	_	_	
+9-9	1564-1570	namely	_	_	
+9-10	1571-1579	External	_	_	
+9-11	1580-1590	Classifier	_	_	
+9-12	1591-1594	GAN	_	_	
+9-13	1595-1596	(	_	_	
+9-14	1596-1602	EC-GAN	_	_	
+9-15	1602-1603	)	_	_	
+9-16	1603-1604	,	_	_	
+9-17	1605-1609	that	_	_	
+9-18	1610-1618	utilizes	_	_	
+9-19	1619-1623	GANs	_	_	
+9-20	1624-1627	and	_	_	
+9-21	1628-1643	semi-supervised	_	_	
+9-22	1644-1654	algorithms	_	_	
+9-23	1655-1657	to	_	_	
+9-24	1658-1665	improve	_	_	
+9-25	1666-1680	classification	_	_	
+9-26	1681-1683	in	_	_	
+9-27	1684-1700	fully-supervised	_	_	
+9-28	1701-1708	regimes	_	_	
+9-29	1708-1709	.	_	_	
+
+#Text=Our method leverages a GAN to generate artificial data used to supplement supervised classification.
+10-1	1710-1713	Our	_	_	
+10-2	1714-1720	method	_	_	
+10-3	1721-1730	leverages	_	_	
+10-4	1731-1732	a	_	_	
+10-5	1733-1736	GAN	_	_	
+10-6	1737-1739	to	_	_	
+10-7	1740-1748	generate	_	_	
+10-8	1749-1759	artificial	_	_	
+10-9	1760-1764	data	_	_	
+10-10	1765-1769	used	_	_	
+10-11	1770-1772	to	_	_	
+10-12	1773-1783	supplement	_	_	
+10-13	1784-1794	supervised	_	_	
+10-14	1795-1809	classification	_	_	
+10-15	1809-1810	.	_	_	
+
+#Text=More specifically, we attach an external classifier, hence the name EC-GAN, to the GAN's generator, as opposed to sharing an architecture with the discriminator.
+11-1	1811-1815	More	_	_	
+11-2	1816-1828	specifically	_	_	
+11-3	1828-1829	,	_	_	
+11-4	1830-1832	we	_	_	
+11-5	1833-1839	attach	_	_	
+11-6	1840-1842	an	_	_	
+11-7	1843-1851	external	_	_	
+11-8	1852-1862	classifier	_	_	
+11-9	1862-1863	,	_	_	
+11-10	1864-1869	hence	_	_	
+11-11	1870-1873	the	_	_	
+11-12	1874-1878	name	_	_	
+11-13	1879-1885	EC-GAN	_	_	
+11-14	1885-1886	,	_	_	
+11-15	1887-1889	to	_	_	
+11-16	1890-1893	the	_	_	
+11-17	1894-1899	GAN's	_	_	
+11-18	1900-1909	generator	_	_	
+11-19	1909-1910	,	_	_	
+11-20	1911-1913	as	_	_	
+11-21	1914-1921	opposed	_	_	
+11-22	1922-1924	to	_	_	
+11-23	1925-1932	sharing	_	_	
+11-24	1933-1935	an	_	_	
+11-25	1936-1948	architecture	_	_	
+11-26	1949-1953	with	_	_	
+11-27	1954-1957	the	_	_	
+11-28	1958-1971	discriminator	_	_	
+11-29	1971-1972	.	_	_	
+
+#Text=Our experiments demonstrate that EC-GAN's performance is comparable to the shared architecture method, far superior to the standard data augmentation and regularization-based approach, and effective on a small, realistic dataset.
+#Text=
+#Text=## Model
+#Text=
+#Text=!
+12-1	1973-1976	Our	_	_	
+12-2	1977-1988	experiments	_	_	
+12-3	1989-2000	demonstrate	_	_	
+12-4	2001-2005	that	_	_	
+12-5	2006-2014	EC-GAN's	_	_	
+12-6	2015-2026	performance	_	_	
+12-7	2027-2029	is	_	_	
+12-8	2030-2040	comparable	_	_	
+12-9	2041-2043	to	_	_	
+12-10	2044-2047	the	_	_	
+12-11	2048-2054	shared	_	_	
+12-12	2055-2067	architecture	_	_	
+12-13	2068-2074	method	_	_	
+12-14	2074-2075	,	_	_	
+12-15	2076-2079	far	_	_	
+12-16	2080-2088	superior	_	_	
+12-17	2089-2091	to	_	_	
+12-18	2092-2095	the	_	_	
+12-19	2096-2104	standard	_	_	
+12-20	2105-2109	data	_	_	
+12-21	2110-2122	augmentation	_	_	
+12-22	2123-2126	and	_	_	
+12-23	2127-2147	regularization-based	_	_	
+12-24	2148-2156	approach	_	_	
+12-25	2156-2157	,	_	_	
+12-26	2158-2161	and	_	_	
+12-27	2162-2171	effective	_	_	
+12-28	2172-2174	on	_	_	
+12-29	2175-2176	a	_	_	
+12-30	2177-2182	small	_	_	
+12-31	2182-2183	,	_	_	
+12-32	2184-2193	realistic	_	_	
+12-33	2194-2201	dataset	_	_	
+12-34	2201-2202	.	_	_	
+12-35	2204-2205	#	_	_	
+12-36	2205-2206	#	_	_	
+12-37	2207-2212	Model	_	_	
+12-38	2214-2215	!	_	_	
+
+#Text=[Figure](https://github.com/ayaanzhaque/EC-GAN/blob/main/images/EC-GAN.png?
+13-1	2215-2216	[	_	_	
+13-2	2216-2222	Figure	_	_	
+13-3	2222-2223	]	_	_	
+13-4	2223-2224	(	_	_	
+13-5	2224-2229	https	_	_	
+13-6	2229-2230	:	_	_	
+13-7	2230-2231	/	_	_	
+13-8	2231-2232	/	_	_	
+13-9	2232-2242	github.com	_	_	
+13-10	2242-2243	/	_	_	
+13-11	2243-2254	ayaanzhaque	_	_	
+13-12	2254-2255	/	_	_	
+13-13	2255-2261	EC-GAN	_	_	
+13-14	2261-2262	/	_	_	
+13-15	2262-2266	blob	_	_	
+13-16	2266-2267	/	_	_	
+13-17	2267-2271	main	_	_	
+13-18	2271-2272	/	_	_	
+13-19	2272-2278	images	_	_	
+13-20	2278-2279	/	_	_	
+13-21	2279-2289	EC-GAN.png	_	_	
+13-22	2289-2290	?	_	_	
+
+#Text=raw=true)
+#Text=
+#Text=We propose an algorithm to improve classification utilizing GAN-generated images in restricted, fully-supervised regimes.
+14-1	2290-2293	raw	_	_	
+14-2	2293-2294	=	_	_	
+14-3	2294-2298	true	_	_	
+14-4	2298-2299	)	_	_	
+14-5	2301-2303	We	_	_	
+14-6	2304-2311	propose	_	_	
+14-7	2312-2314	an	_	_	
+14-8	2315-2324	algorithm	_	_	
+14-9	2325-2327	to	_	_	
+14-10	2328-2335	improve	_	_	
+14-11	2336-2350	classification	_	_	
+14-12	2351-2360	utilizing	_	_	
+14-13	2361-2374	GAN-generated	_	_	
+14-14	2375-2381	images	_	_	
+14-15	2382-2384	in	_	_	
+14-16	2385-2395	restricted	_	_	
+14-17	2395-2396	,	_	_	
+14-18	2397-2413	fully-supervised	_	_	
+14-19	2414-2421	regimes	_	_	
+14-20	2421-2422	.	_	_	
+
+#Text=Our approach consists of three separate models: a generator, a discriminator, and a classifier.
+15-1	2423-2426	Our	_	_	
+15-2	2427-2435	approach	_	_	
+15-3	2436-2444	consists	_	_	
+15-4	2445-2447	of	_	_	
+15-5	2448-2453	three	_	_	
+15-6	2454-2462	separate	_	_	
+15-7	2463-2469	models	_	_	
+15-8	2469-2470	:	_	_	
+15-9	2471-2472	a	_	_	
+15-10	2473-2482	generator	_	_	
+15-11	2482-2483	,	_	_	
+15-12	2484-2485	a	_	_	
+15-13	2486-2499	discriminator	_	_	
+15-14	2499-2500	,	_	_	
+15-15	2501-2504	and	_	_	
+15-16	2505-2506	a	_	_	
+15-17	2507-2517	classifier	_	_	
+15-18	2517-2518	.	_	_	
+
+#Text=At every training iteration, the generator is given random vectors and generates corresponding images.
+16-1	2519-2521	At	_	_	
+16-2	2522-2527	every	_	_	
+16-3	2528-2536	training	_	_	
+16-4	2537-2546	iteration	_	_	
+16-5	2546-2547	,	_	_	
+16-6	2548-2551	the	_	_	
+16-7	2552-2561	generator	_	_	
+16-8	2562-2564	is	_	_	
+16-9	2565-2570	given	_	_	
+16-10	2571-2577	random	_	_	
+16-11	2578-2585	vectors	_	_	
+16-12	2586-2589	and	_	_	
+16-13	2590-2599	generates	_	_	
+16-14	2600-2613	corresponding	_	_	
+16-15	2614-2620	images	_	_	
+16-16	2620-2621	.	_	_	
+
+#Text=The discriminator is then updated to better distinguish between real and generated samples.
+17-1	2622-2625	The	_	_	
+17-2	2626-2639	discriminator	_	_	
+17-3	2640-2642	is	_	_	
+17-4	2643-2647	then	_	_	
+17-5	2648-2655	updated	_	_	
+17-6	2656-2658	to	_	_	
+17-7	2659-2665	better	_	_	
+17-8	2666-2677	distinguish	_	_	
+17-9	2678-2685	between	_	_	
+17-10	2686-2690	real	_	_	
+17-11	2691-2694	and	_	_	
+17-12	2695-2704	generated	_	_	
+17-13	2705-2712	samples	_	_	
+17-14	2712-2713	.	_	_	
+
+#Text=Simultaneously, a classifier is trained in standard fashion on available real data and their respective labels (note these datasets are fully labeled).
+18-1	2715-2729	Simultaneously	_	_	
+18-2	2729-2730	,	_	_	
+18-3	2731-2732	a	_	_	
+18-4	2733-2743	classifier	_	_	
+18-5	2744-2746	is	_	_	
+18-6	2747-2754	trained	_	_	
+18-7	2755-2757	in	_	_	
+18-8	2758-2766	standard	_	_	
+18-9	2767-2774	fashion	_	_	
+18-10	2775-2777	on	_	_	
+18-11	2778-2787	available	_	_	
+18-12	2788-2792	real	_	_	
+18-13	2793-2797	data	_	_	
+18-14	2798-2801	and	_	_	
+18-15	2802-2807	their	_	_	
+18-16	2808-2818	respective	_	_	
+18-17	2819-2825	labels	_	_	
+18-18	2826-2827	(	_	_	
+18-19	2827-2831	note	_	_	
+18-20	2832-2837	these	_	_	
+18-21	2838-2846	datasets	_	_	
+18-22	2847-2850	are	_	_	
+18-23	2851-2856	fully	_	_	
+18-24	2857-2864	labeled	_	_	
+18-25	2864-2865	)	_	_	
+18-26	2865-2866	.	_	_	
+
+#Text=We then use generated images as inputs for supplementing classification during training.
+19-1	2867-2869	We	_	_	
+19-2	2870-2874	then	_	_	
+19-3	2875-2878	use	_	_	
+19-4	2879-2888	generated	_	_	
+19-5	2889-2895	images	_	_	
+19-6	2896-2898	as	_	_	
+19-7	2899-2905	inputs	_	_	
+19-8	2906-2909	for	_	_	
+19-9	2910-2923	supplementing	_	_	
+19-10	2924-2938	classification	_	_	
+19-11	2939-2945	during	_	_	
+19-12	2946-2954	training	_	_	
+19-13	2954-2955	.	_	_	
+
+#Text=This is the semi-supervised portion of our algorithm, as the generated images do not have associated labels.
+20-1	2956-2960	This	_	_	
+20-2	2961-2963	is	_	_	
+20-3	2964-2967	the	_	_	
+20-4	2968-2983	semi-supervised	_	_	
+20-5	2984-2991	portion	_	_	
+20-6	2992-2994	of	_	_	
+20-7	2995-2998	our	_	_	
+20-8	2999-3008	algorithm	_	_	
+20-9	3008-3009	,	_	_	
+20-10	3010-3012	as	_	_	
+20-11	3013-3016	the	_	_	
+20-12	3017-3026	generated	_	_	
+20-13	3027-3033	images	_	_	
+20-14	3034-3036	do	_	_	
+20-15	3037-3040	not	_	_	
+20-16	3041-3045	have	_	_	
+20-17	3046-3056	associated	_	_	
+20-18	3057-3063	labels	_	_	
+20-19	3063-3064	.	_	_	
+
+#Text=To create labels, we use a pseudo-labeling scheme which assumes a label based on the most likely class according to the current state of the classifier.
+21-1	3065-3067	To	_	_	
+21-2	3068-3074	create	_	_	
+21-3	3075-3081	labels	_	_	
+21-4	3081-3082	,	_	_	
+21-5	3083-3085	we	_	_	
+21-6	3086-3089	use	_	_	
+21-7	3090-3091	a	_	_	
+21-8	3092-3107	pseudo-labeling	_	_	
+21-9	3108-3114	scheme	_	_	
+21-10	3115-3120	which	_	_	
+21-11	3121-3128	assumes	_	_	
+21-12	3129-3130	a	_	_	
+21-13	3131-3136	label	_	_	
+21-14	3137-3142	based	_	_	
+21-15	3143-3145	on	_	_	
+21-16	3146-3149	the	_	_	
+21-17	3150-3154	most	_	_	
+21-18	3155-3161	likely	_	_	
+21-19	3162-3167	class	_	_	
+21-20	3168-3177	according	_	_	
+21-21	3178-3180	to	_	_	
+21-22	3181-3184	the	_	_	
+21-23	3185-3192	current	_	_	
+21-24	3193-3198	state	_	_	
+21-25	3199-3201	of	_	_	
+21-26	3202-3205	the	_	_	
+21-27	3206-3216	classifier	_	_	
+21-28	3216-3217	.	_	_	
+
+#Text=The generated images and labels are only retained if the model predicts the class of the sample with high confidence, or a probability above a certain threshold.
+22-1	3218-3221	The	_	_	
+22-2	3222-3231	generated	_	_	
+22-3	3232-3238	images	_	_	
+22-4	3239-3242	and	_	_	
+22-5	3243-3249	labels	_	_	
+22-6	3250-3253	are	_	_	
+22-7	3254-3258	only	_	_	
+22-8	3259-3267	retained	_	_	
+22-9	3268-3270	if	_	_	
+22-10	3271-3274	the	_	_	
+22-11	3275-3280	model	_	_	
+22-12	3281-3289	predicts	_	_	
+22-13	3290-3293	the	_	_	
+22-14	3294-3299	class	_	_	
+22-15	3300-3302	of	_	_	
+22-16	3303-3306	the	_	_	
+22-17	3307-3313	sample	_	_	
+22-18	3314-3318	with	_	_	
+22-19	3319-3323	high	_	_	
+22-20	3324-3334	confidence	_	_	
+22-21	3334-3335	,	_	_	
+22-22	3336-3338	or	_	_	
+22-23	3339-3340	a	_	_	
+22-24	3341-3352	probability	_	_	
+22-25	3353-3358	above	_	_	
+22-26	3359-3360	a	_	_	
+22-27	3361-3368	certain	_	_	
+22-28	3369-3378	threshold	_	_	
+22-29	3378-3379	.	_	_	
+
+#Text=This loss is multiplied by a hyperparameter, which controls the relative importance of generated data compared to true samples.
+23-1	3380-3384	This	_	_	
+23-2	3385-3389	loss	_	_	
+23-3	3390-3392	is	_	_	
+23-4	3393-3403	multiplied	_	_	
+23-5	3404-3406	by	_	_	
+23-6	3407-3408	a	_	_	
+23-7	3409-3423	hyperparameter	_	_	
+23-8	3423-3424	,	_	_	
+23-9	3425-3430	which	_	_	
+23-10	3431-3439	controls	_	_	
+23-11	3440-3443	the	_	_	
+23-12	3444-3452	relative	_	_	
+23-13	3453-3463	importance	_	_	
+23-14	3464-3466	of	_	_	
+23-15	3467-3476	generated	_	_	
+23-16	3477-3481	data	_	_	
+23-17	3482-3490	compared	_	_	
+23-18	3491-3493	to	_	_	
+23-19	3494-3498	true	_	_	
+23-20	3499-3506	samples	_	_	
+23-21	3506-3507	.	_	_	
+
+#Text=Note that this classifier is its own network, as opposed to a shared architecture with the discriminator.
+24-1	3510-3514	Note	_	_	
+24-2	3515-3519	that	_	_	
+24-3	3520-3524	this	_	_	
+24-4	3525-3535	classifier	_	_	
+24-5	3536-3538	is	_	_	
+24-6	3539-3542	its	_	_	
+24-7	3543-3546	own	_	_	
+24-8	3547-3554	network	_	_	
+24-9	3554-3555	,	_	_	
+24-10	3556-3558	as	_	_	
+24-11	3559-3566	opposed	_	_	
+24-12	3567-3569	to	_	_	
+24-13	3570-3571	a	_	_	
+24-14	3572-3578	shared	_	_	
+24-15	3579-3591	architecture	_	_	
+24-16	3592-3596	with	_	_	
+24-17	3597-3600	the	_	_	
+24-18	3601-3614	discriminator	_	_	
+24-19	3614-3615	.	_	_	
+
+#Text=This is a key contribution of our paper, as most GAN-based classification methods employ a shared discriminator-classifier architecture.
+25-1	3616-3620	This	_	_	
+25-2	3621-3623	is	_	_	
+25-3	3624-3625	a	_	_	
+25-4	3626-3629	key	_	_	
+25-5	3630-3642	contribution	_	_	
+25-6	3643-3645	of	_	_	
+25-7	3646-3649	our	_	_	
+25-8	3650-3655	paper	_	_	
+25-9	3655-3656	,	_	_	
+25-10	3657-3659	as	_	_	
+25-11	3660-3664	most	_	_	
+25-12	3665-3674	GAN-based	_	_	
+25-13	3675-3689	classification	_	_	
+25-14	3690-3697	methods	_	_	
+25-15	3698-3704	employ	_	_	
+25-16	3705-3706	a	_	_	
+25-17	3707-3713	shared	_	_	
+25-18	3714-3738	discriminator-classifier	_	_	
+25-19	3739-3751	architecture	_	_	
+25-20	3751-3752	.	_	_	
+
+#Text=We aim to empirically show that an external classifier performs better than a shared architecture. 
+#Text=
+#Text=## Results
+#Text=A brief summary of the results are shown below.
+26-1	3753-3755	We	_	_	
+26-2	3756-3759	aim	_	_	
+26-3	3760-3762	to	_	_	
+26-4	3763-3774	empirically	_	_	
+26-5	3775-3779	show	_	_	
+26-6	3780-3784	that	_	_	
+26-7	3785-3787	an	_	_	
+26-8	3788-3796	external	_	_	
+26-9	3797-3807	classifier	_	_	
+26-10	3808-3816	performs	_	_	
+26-11	3817-3823	better	_	_	
+26-12	3824-3828	than	_	_	
+26-13	3829-3830	a	_	_	
+26-14	3831-3837	shared	_	_	
+26-15	3838-3850	architecture	_	_	
+26-16	3850-3851	.	_	_	
+26-17	3854-3855	#	_	_	
+26-18	3855-3856	#	_	_	
+26-19	3857-3864	Results	_	_	
+26-20	3865-3866	A	_	_	
+26-21	3867-3872	brief	_	_	
+26-22	3873-3880	summary	_	_	
+26-23	3881-3883	of	_	_	
+26-24	3884-3887	the	_	_	
+26-25	3888-3895	results	_	_	
+26-26	3896-3899	are	_	_	
+26-27	3900-3905	shown	_	_	
+26-28	3906-3911	below	_	_	
+26-29	3911-3912	.	_	_	
+
+#Text=EC-GAN is compared to the shared architecture method on SVHN at different dataset sizes.
+27-1	3913-3919	EC-GAN	_	_	
+27-2	3920-3922	is	_	_	
+27-3	3923-3931	compared	_	_	
+27-4	3932-3934	to	_	_	
+27-5	3935-3938	the	_	_	
+27-6	3939-3945	shared	_	_	
+27-7	3946-3958	architecture	_	_	
+27-8	3959-3965	method	_	_	
+27-9	3966-3968	on	_	_	
+27-10	3969-3973	SVHN	*	DATASET	
+27-11	3974-3976	at	_	_	
+27-12	3977-3986	different	_	_	
+27-13	3987-3994	dataset	_	_	
+27-14	3995-4000	sizes	_	_	
+27-15	4000-4001	.	_	_	
+
+#Text=The left value is the accuracy of a standard classifier (same architecture as GAN counterpart), followed by the accuracy of the GAN classification algorithm.
+#Text=
+#Text=!
+28-1	4002-4005	The	_	_	
+28-2	4006-4010	left	_	_	
+28-3	4011-4016	value	_	_	
+28-4	4017-4019	is	_	_	
+28-5	4020-4023	the	_	_	
+28-6	4024-4032	accuracy	_	_	
+28-7	4033-4035	of	_	_	
+28-8	4036-4037	a	_	_	
+28-9	4038-4046	standard	_	_	
+28-10	4047-4057	classifier	_	_	
+28-11	4058-4059	(	_	_	
+28-12	4059-4063	same	_	_	
+28-13	4064-4076	architecture	_	_	
+28-14	4077-4079	as	_	_	
+28-15	4080-4083	GAN	_	_	
+28-16	4084-4095	counterpart	_	_	
+28-17	4095-4096	)	_	_	
+28-18	4096-4097	,	_	_	
+28-19	4098-4106	followed	_	_	
+28-20	4107-4109	by	_	_	
+28-21	4110-4113	the	_	_	
+28-22	4114-4122	accuracy	_	_	
+28-23	4123-4125	of	_	_	
+28-24	4126-4129	the	_	_	
+28-25	4130-4133	GAN	_	_	
+28-26	4134-4148	classification	_	_	
+28-27	4149-4158	algorithm	_	_	
+28-28	4158-4159	.	_	_	
+28-29	4161-4162	!	_	_	
+
+#Text=[Figure](https://github.com/ayaanzhaque/EC-GAN/blob/main/images/results.png?
+29-1	4162-4163	[	_	_	
+29-2	4163-4169	Figure	_	_	
+29-3	4169-4170	]	_	_	
+29-4	4170-4171	(	_	_	
+29-5	4171-4176	https	_	_	
+29-6	4176-4177	:	_	_	
+29-7	4177-4178	/	_	_	
+29-8	4178-4179	/	_	_	
+29-9	4179-4189	github.com	_	_	
+29-10	4189-4190	/	_	_	
+29-11	4190-4201	ayaanzhaque	_	_	
+29-12	4201-4202	/	_	_	
+29-13	4202-4208	EC-GAN	_	_	
+29-14	4208-4209	/	_	_	
+29-15	4209-4213	blob	_	_	
+29-16	4213-4214	/	_	_	
+29-17	4214-4218	main	_	_	
+29-18	4218-4219	/	_	_	
+29-19	4219-4225	images	_	_	
+29-20	4225-4226	/	_	_	
+29-21	4226-4237	results.png	_	_	
+29-22	4237-4238	?	_	_	
+
+#Text=raw=true)
+#Text=
+#Text=## Code
+#Text=The code has been written in Python using the Pytorch framework.
+30-1	4238-4241	raw	_	_	
+30-2	4241-4242	=	_	_	
+30-3	4242-4246	true	_	_	
+30-4	4246-4247	)	_	_	
+30-5	4249-4250	#	_	_	
+30-6	4250-4251	#	_	_	
+30-7	4252-4256	Code	_	_	
+30-8	4257-4260	The	_	_	
+30-9	4261-4265	code	_	_	
+30-10	4266-4269	has	_	_	
+30-11	4270-4274	been	_	_	
+30-12	4275-4282	written	_	_	
+30-13	4283-4285	in	_	_	
+30-14	4286-4292	Python	*	PROGLANG	
+30-15	4293-4298	using	_	_	
+30-16	4299-4302	the	_	_	
+30-17	4303-4310	Pytorch	*	SOFTWARE	
+30-18	4311-4320	framework	_	_	
+30-19	4320-4321	.	_	_	
+
+#Text=Training requries a GPU.
+31-1	4322-4330	Training	_	_	
+31-2	4331-4339	requries	_	_	
+31-3	4340-4341	a	_	_	
+31-4	4342-4345	GPU	_	_	
+31-5	4345-4346	.	_	_	
+
+#Text=We provide a Jupyter Notebook, which can be run in Google Colab, containing the algorithm in a usable version.
+32-1	4347-4349	We	_	_	
+32-2	4350-4357	provide	_	_	
+32-3	4358-4359	a	_	_	
+32-4	4360-4367	Jupyter	*[3]	SOFTWARE[3]	
+32-5	4368-4376	Notebook	*[3]	SOFTWARE[3]	
+32-6	4376-4377	,	_	_	
+32-7	4378-4383	which	_	_	
+32-8	4384-4387	can	_	_	
+32-9	4388-4390	be	_	_	
+32-10	4391-4394	run	_	_	
+32-11	4395-4397	in	_	_	
+32-12	4398-4404	Google	*[4]	SOFTWARE[4]	
+32-13	4405-4410	Colab	*[4]	SOFTWARE[4]	
+32-14	4410-4411	,	_	_	
+32-15	4412-4422	containing	_	_	
+32-16	4423-4426	the	_	_	
+32-17	4427-4436	algorithm	_	_	
+32-18	4437-4439	in	_	_	
+32-19	4440-4441	a	_	_	
+32-20	4442-4448	usable	_	_	
+32-21	4449-4456	version	_	_	
+32-22	4456-4457	.	_	_	
+
+#Text=Open [`EC-GAN.ipynb`](https://github.com/ayaanzhaque/EC-GAN/blob/main/EC-GAN.ipynb) and run it through.
+33-1	4458-4462	Open	_	_	
+33-2	4463-4464	[	_	_	
+33-3	4464-4465	`	_	_	
+33-4	4465-4477	EC-GAN.ipynb	_	_	
+33-5	4477-4478	`	_	_	
+33-6	4478-4479	]	_	_	
+33-7	4479-4480	(	_	_	
+33-8	4480-4485	https	_	_	
+33-9	4485-4486	:	_	_	
+33-10	4486-4487	/	_	_	
+33-11	4487-4488	/	_	_	
+33-12	4488-4498	github.com	_	_	
+33-13	4498-4499	/	_	_	
+33-14	4499-4510	ayaanzhaque	_	_	
+33-15	4510-4511	/	_	_	
+33-16	4511-4517	EC-GAN	_	_	
+33-17	4517-4518	/	_	_	
+33-18	4518-4522	blob	_	_	
+33-19	4522-4523	/	_	_	
+33-20	4523-4527	main	_	_	
+33-21	4527-4528	/	_	_	
+33-22	4528-4540	EC-GAN.ipynb	_	_	
+33-23	4540-4541	)	_	_	
+33-24	4542-4545	and	_	_	
+33-25	4546-4549	run	_	_	
+33-26	4550-4552	it	_	_	
+33-27	4553-4560	through	_	_	
+33-28	4560-4561	.	_	_	
+
+#Text=The notebook includes annotations to follow along.
+#Text=
+#Text=## Citation
+#Text=
+#Text=If you find this repo or the paper useful, please cite:
+#Text=
+#Text=Ayaan Haque, "EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs," 2021.
+#Text=
+#Text=```
+#Text=@article{Haque_2021, 
+#Text=      title={EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs}, 
+#Text=      volume={35}, 
+#Text=      url={https://ojs.aaai.org/index.php/AAAI/article/view/17895},
+#Text=      number={18}, 
+#Text=      journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+#Text=      author={Haque, Ayaan}, 
+#Text=      year={2021}, 
+#Text=      month={May}, 
+#Text=      pages={15797-15798} 
+#Text=}
+#Text=```
+34-1	4562-4565	The	_	_	
+34-2	4566-4574	notebook	_	_	
+34-3	4575-4583	includes	_	_	
+34-4	4584-4595	annotations	_	_	
+34-5	4596-4598	to	_	_	
+34-6	4599-4605	follow	_	_	
+34-7	4606-4611	along	_	_	
+34-8	4611-4612	.	_	_	
+34-9	4614-4615	#	_	_	
+34-10	4615-4616	#	_	_	
+34-11	4617-4625	Citation	_	_	
+34-12	4627-4629	If	_	_	
+34-13	4630-4633	you	_	_	
+34-14	4634-4638	find	_	_	
+34-15	4639-4643	this	_	_	
+34-16	4644-4648	repo	_	_	
+34-17	4649-4651	or	_	_	
+34-18	4652-4655	the	_	_	
+34-19	4656-4661	paper	_	_	
+34-20	4662-4668	useful	_	_	
+34-21	4668-4669	,	_	_	
+34-22	4670-4676	please	_	_	
+34-23	4677-4681	cite	_	_	
+34-24	4681-4682	:	_	_	
+34-25	4684-4689	Ayaan	_	_	
+34-26	4690-4695	Haque	_	_	
+34-27	4695-4696	,	_	_	
+34-28	4697-4698	"	_	_	
+34-29	4698-4704	EC-GAN	*[5]	PUBLICATION[5]	
+34-30	4704-4705	:	*[5]	PUBLICATION[5]	
+34-31	4706-4716	Low-Sample	*[5]	PUBLICATION[5]	
+34-32	4717-4731	Classification	*[5]	PUBLICATION[5]	
+34-33	4732-4737	using	*[5]	PUBLICATION[5]	
+34-34	4738-4753	Semi-Supervised	*[5]	PUBLICATION[5]	
+34-35	4754-4764	Algorithms	*[5]	PUBLICATION[5]	
+34-36	4765-4768	and	*[5]	PUBLICATION[5]	
+34-37	4769-4773	GANs	*[5]	PUBLICATION[5]	
+34-38	4773-4774	,	_	_	
+34-39	4774-4775	"	_	_	
+34-40	4776-4780	2021	_	_	
+34-41	4780-4781	.	_	_	
+34-42	4783-4784	`	_	_	
+34-43	4784-4785	`	_	_	
+34-44	4785-4786	`	_	_	
+34-45	4787-4788	@	_	_	
+34-46	4788-4795	article	_	_	
+34-47	4795-4796	{	_	_	
+34-48	4796-4801	Haque	_	_	
+34-49	4801-4802	_	_	_	
+34-50	4802-4806	2021	_	_	
+34-51	4806-4807	,	_	_	
+34-52	4815-4820	title	_	_	
+34-53	4820-4821	=	_	_	
+34-54	4821-4822	{	_	_	
+34-55	4822-4828	EC-GAN	*[6]	PUBLICATION[6]	
+34-56	4828-4829	:	*[6]	PUBLICATION[6]	
+34-57	4830-4840	Low-Sample	*[6]	PUBLICATION[6]	
+34-58	4841-4855	Classification	*[6]	PUBLICATION[6]	
+34-59	4856-4861	using	*[6]	PUBLICATION[6]	
+34-60	4862-4877	Semi-Supervised	*[6]	PUBLICATION[6]	
+34-61	4878-4888	Algorithms	*[6]	PUBLICATION[6]	
+34-62	4889-4892	and	*[6]	PUBLICATION[6]	
+34-63	4893-4897	GANs	*[6]	PUBLICATION[6]	
+34-64	4897-4898	}	_	_	
+34-65	4898-4899	,	_	_	
+34-66	4907-4913	volume	_	_	
+34-67	4913-4914	=	_	_	
+34-68	4914-4915	{	_	_	
+34-69	4915-4917	35	_	_	
+34-70	4917-4918	}	_	_	
+34-71	4918-4919	,	_	_	
+34-72	4927-4930	url	_	_	
+34-73	4930-4931	=	_	_	
+34-74	4931-4932	{	_	_	
+34-75	4932-4937	https	_	_	
+34-76	4937-4938	:	_	_	
+34-77	4938-4939	/	_	_	
+34-78	4939-4940	/	_	_	
+34-79	4940-4952	ojs.aaai.org	_	_	
+34-80	4952-4953	/	_	_	
+34-81	4953-4962	index.php	_	_	
+34-82	4962-4963	/	_	_	
+34-83	4963-4967	AAAI	*	CONFERENCE	
+34-84	4967-4968	/	_	_	
+34-85	4968-4975	article	_	_	
+34-86	4975-4976	/	_	_	
+34-87	4976-4980	view	_	_	
+34-88	4980-4981	/	_	_	
+34-89	4981-4986	17895	_	_	
+34-90	4986-4987	}	_	_	
+34-91	4987-4988	,	_	_	
+34-92	4995-5001	number	_	_	
+34-93	5001-5002	=	_	_	
+34-94	5002-5003	{	_	_	
+34-95	5003-5005	18	_	_	
+34-96	5005-5006	}	_	_	
+34-97	5006-5007	,	_	_	
+34-98	5015-5022	journal	_	_	
+34-99	5022-5023	=	_	_	
+34-100	5023-5024	{	_	_	
+34-101	5024-5035	Proceedings	*[7]	PUBLICATION[7]	
+34-102	5036-5038	of	*[7]	PUBLICATION[7]	
+34-103	5039-5042	the	*[7]	PUBLICATION[7]	
+34-104	5043-5047	AAAI	*[7]|*[8]	PUBLICATION[7]|CONFERENCE[8]	
+34-105	5048-5058	Conference	*[7]|*[8]	PUBLICATION[7]|CONFERENCE[8]	
+34-106	5059-5061	on	*[7]|*[8]	PUBLICATION[7]|CONFERENCE[8]	
+34-107	5062-5072	Artificial	*[7]|*[8]	PUBLICATION[7]|CONFERENCE[8]	
+34-108	5073-5085	Intelligence	*[7]|*[8]	PUBLICATION[7]|CONFERENCE[8]	
+34-109	5085-5086	}	_	_	
+34-110	5086-5087	,	_	_	
+34-111	5095-5101	author	_	_	
+34-112	5101-5102	=	_	_	
+34-113	5102-5103	{	_	_	
+34-114	5103-5108	Haque	_	_	
+34-115	5108-5109	,	_	_	
+34-116	5110-5115	Ayaan	_	_	
+34-117	5115-5116	}	_	_	
+34-118	5116-5117	,	_	_	
+34-119	5125-5129	year	_	_	
+34-120	5129-5130	=	_	_	
+34-121	5130-5131	{	_	_	
+34-122	5131-5135	2021	_	_	
+34-123	5135-5136	}	_	_	
+34-124	5136-5137	,	_	_	
+34-125	5145-5150	month	_	_	
+34-126	5150-5151	=	_	_	
+34-127	5151-5152	{	_	_	
+34-128	5152-5155	May	_	_	
+34-129	5155-5156	}	_	_	
+34-130	5156-5157	,	_	_	
+34-131	5165-5170	pages	_	_	
+34-132	5170-5171	=	_	_	
+34-133	5171-5172	{	_	_	
+34-134	5172-5177	15797	_	_	
+34-135	5177-5178	-	_	_	
+34-136	5178-5183	15798	_	_	
+34-137	5183-5184	}	_	_	
+34-138	5186-5187	}	_	_	
+34-139	5188-5189	`	_	_	
+34-140	5189-5190	`	_	_	
+34-141	5190-5191	`	_	_	

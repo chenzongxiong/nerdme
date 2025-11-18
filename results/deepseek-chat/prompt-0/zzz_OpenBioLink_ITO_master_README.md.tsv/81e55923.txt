@@ -1,0 +1,1 @@
+We also make light-weight JSON files containing an export of the curated hierarchies of AI process / task classes and `<EVALMETRIC>performance metrics</EVALMETRIC>`.

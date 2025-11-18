@@ -1,0 +1,5107 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=<img style="width:100%;" alt="CHD logo" src="_images/logo.jpg"></a>
+#Text=
+#Text=
+#Text=# Computational Hypergraph Discovery: A Gaussian process framework for connecting the dots
+#Text=
+#Text=[!
+1-1	0-1	<	_	_	
+1-2	1-4	img	_	_	
+1-3	5-10	style	_	_	
+1-4	10-11	=	_	_	
+1-5	11-12	"	_	_	
+1-6	12-17	width	_	_	
+1-7	17-18	:	_	_	
+1-8	18-22	100%	_	_	
+1-9	22-23	;	_	_	
+1-10	23-24	"	_	_	
+1-11	25-28	alt	_	_	
+1-12	28-29	=	_	_	
+1-13	29-30	"	_	_	
+1-14	30-33	CHD	_	_	
+1-15	34-38	logo	_	_	
+1-16	38-39	"	_	_	
+1-17	40-43	src	_	_	
+1-18	43-44	=	_	_	
+1-19	44-45	"	_	_	
+1-20	45-46	_	_	_	
+1-21	46-52	images	_	_	
+1-22	52-53	/	_	_	
+1-23	53-61	logo.jpg	_	_	
+1-24	61-62	"	_	_	
+1-25	62-63	>	_	_	
+1-26	63-64	<	_	_	
+1-27	64-65	/	_	_	
+1-28	65-66	a	_	_	
+1-29	66-67	>	_	_	
+1-30	70-71	#	_	_	
+1-31	72-85	Computational	*[1]	PUBLICATION[1]	
+1-32	86-96	Hypergraph	*[1]	PUBLICATION[1]	
+1-33	97-106	Discovery	*[1]	PUBLICATION[1]	
+1-34	106-107	:	*[1]	PUBLICATION[1]	
+1-35	108-109	A	*[1]	PUBLICATION[1]	
+1-36	110-118	Gaussian	*[1]	PUBLICATION[1]	
+1-37	119-126	process	*[1]	PUBLICATION[1]	
+1-38	127-136	framework	*[1]	PUBLICATION[1]	
+1-39	137-140	for	*[1]	PUBLICATION[1]	
+1-40	141-151	connecting	*[1]	PUBLICATION[1]	
+1-41	152-155	the	*[1]	PUBLICATION[1]	
+1-42	156-160	dots	*[1]	PUBLICATION[1]	
+1-43	162-163	[	_	_	
+1-44	163-164	!	_	_	
+
+#Text=[License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)](https://opensource.org/license/apache-2-0/)
+#Text=[!
+2-1	164-165	[	_	_	
+2-2	165-172	License	_	_	
+2-3	172-173	:	_	_	
+2-4	174-180	Apache	*[2]	LICENSE[2]	
+2-5	181-184	2.0	*[2]	LICENSE[2]	
+2-6	184-185	]	_	_	
+2-7	185-186	(	_	_	
+2-8	186-191	https	_	_	
+2-9	191-192	:	_	_	
+2-10	192-193	/	_	_	
+2-11	193-194	/	_	_	
+2-12	194-208	img.shields.io	_	_	
+2-13	208-209	/	_	_	
+2-14	209-214	badge	_	_	
+2-15	214-215	/	_	_	
+2-16	215-229	License-Apache	_	_	
+2-16.1	223-229	Apache	*[3]	LICENSE[3]	
+2-17	229-230	_	*[3]	LICENSE[3]	
+2-18	230-233	2.0	*[3]	LICENSE[3]	
+2-19	233-234	-	_	_	
+2-20	234-244	yellow.svg	_	_	
+2-21	244-245	)	_	_	
+2-22	245-246	]	_	_	
+2-23	246-247	(	_	_	
+2-24	247-252	https	_	_	
+2-25	252-253	:	_	_	
+2-26	253-254	/	_	_	
+2-27	254-255	/	_	_	
+2-28	255-269	opensource.org	_	_	
+2-29	269-270	/	_	_	
+2-30	270-277	license	_	_	
+2-31	277-278	/	_	_	
+2-32	278-284	apache	*[4]	LICENSE[4]	
+2-33	284-285	-	*[4]	LICENSE[4]	
+2-34	285-286	2	*[4]	LICENSE[4]	
+2-35	286-287	-	*[4]	LICENSE[4]	
+2-36	287-288	0	*[4]	LICENSE[4]	
+2-37	288-289	/	_	_	
+2-38	289-290	)	_	_	
+2-39	291-292	[	_	_	
+2-40	292-293	!	_	_	
+
+#Text=[Python 3.11.4](https://img.shields.io/badge/python-3.11.4-blue.svg)](https://www.python.org/downloads/release/python-3114/)
+#Text=[!
+3-1	293-294	[	_	_	
+3-2	294-300	Python	*[5]	PROGLANG[5]	
+3-3	301-307	3.11.4	*[5]	PROGLANG[5]	
+3-4	307-308	]	_	_	
+3-5	308-309	(	_	_	
+3-6	309-314	https	_	_	
+3-7	314-315	:	_	_	
+3-8	315-316	/	_	_	
+3-9	316-317	/	_	_	
+3-10	317-331	img.shields.io	_	_	
+3-11	331-332	/	_	_	
+3-12	332-337	badge	_	_	
+3-13	337-338	/	_	_	
+3-14	338-344	python	*[6]	PROGLANG[6]	
+3-15	344-345	-	*[6]	PROGLANG[6]	
+3-16	345-351	3.11.4	*[6]	PROGLANG[6]	
+3-17	351-352	-	_	_	
+3-18	352-360	blue.svg	_	_	
+3-19	360-361	)	_	_	
+3-20	361-362	]	_	_	
+3-21	362-363	(	_	_	
+3-22	363-368	https	_	_	
+3-23	368-369	:	_	_	
+3-24	369-370	/	_	_	
+3-25	370-371	/	_	_	
+3-26	371-385	www.python.org	_	_	
+3-26.1	375-381	python	*	PROGLANG	
+3-27	385-386	/	_	_	
+3-28	386-395	downloads	_	_	
+3-29	395-396	/	_	_	
+3-30	396-403	release	_	_	
+3-31	403-404	/	_	_	
+3-32	404-410	python	*[7]	PROGLANG[7]	
+3-33	410-411	-	*[7]	PROGLANG[7]	
+3-34	411-415	3114	*[7]	PROGLANG[7]	
+3-35	415-416	/	_	_	
+3-36	416-417	)	_	_	
+3-37	418-419	[	_	_	
+3-38	419-420	!	_	_	
+
+#Text=[last commit](https://img.shields.io/github/last-commit/TheoBourdais/ComputationalHypergraphDiscovery.svg)](https://github.com/TheoBourdais/ComputationalHypergraphDiscovery/commits/main)
+#Text=
+#Text=
+#Text=
+#Text=This is the source code for the paper ["Codiscovering graphical structure and functional relationships within data: A Gaussian Process framework for connecting the dots"][paper_url].
+4-1	420-421	[	_	_	
+4-2	421-425	last	_	_	
+4-3	426-432	commit	_	_	
+4-4	432-433	]	_	_	
+4-5	433-434	(	_	_	
+4-6	434-439	https	_	_	
+4-7	439-440	:	_	_	
+4-8	440-441	/	_	_	
+4-9	441-442	/	_	_	
+4-10	442-456	img.shields.io	_	_	
+4-11	456-457	/	_	_	
+4-12	457-463	github	_	_	
+4-13	463-464	/	_	_	
+4-14	464-475	last-commit	_	_	
+4-15	475-476	/	_	_	
+4-16	476-488	TheoBourdais	_	_	
+4-17	488-489	/	_	_	
+4-18	489-525	ComputationalHypergraphDiscovery.svg	_	_	
+4-18.1	489-521	ComputationalHypergraphDiscovery	*	SOFTWARE	
+4-19	525-526	)	_	_	
+4-20	526-527	]	_	_	
+4-21	527-528	(	_	_	
+4-22	528-533	https	_	_	
+4-23	533-534	:	_	_	
+4-24	534-535	/	_	_	
+4-25	535-536	/	_	_	
+4-26	536-546	github.com	_	_	
+4-27	546-547	/	_	_	
+4-28	547-559	TheoBourdais	_	_	
+4-29	559-560	/	_	_	
+4-30	560-592	ComputationalHypergraphDiscovery	*	SOFTWARE	
+4-31	592-593	/	_	_	
+4-32	593-600	commits	_	_	
+4-33	600-601	/	_	_	
+4-34	601-605	main	_	_	
+4-35	605-606	)	_	_	
+4-36	610-614	This	_	_	
+4-37	615-617	is	_	_	
+4-38	618-621	the	_	_	
+4-39	622-628	source	_	_	
+4-40	629-633	code	_	_	
+4-41	634-637	for	_	_	
+4-42	638-641	the	_	_	
+4-43	642-647	paper	_	_	
+4-44	648-649	[	_	_	
+4-45	649-650	"	_	_	
+4-46	650-663	Codiscovering	*[8]	PUBLICATION[8]	
+4-47	664-673	graphical	*[8]	PUBLICATION[8]	
+4-48	674-683	structure	*[8]	PUBLICATION[8]	
+4-49	684-687	and	*[8]	PUBLICATION[8]	
+4-50	688-698	functional	*[8]	PUBLICATION[8]	
+4-51	699-712	relationships	*[8]	PUBLICATION[8]	
+4-52	713-719	within	*[8]	PUBLICATION[8]	
+4-53	720-724	data	*[8]	PUBLICATION[8]	
+4-54	724-725	:	*[8]	PUBLICATION[8]	
+4-55	726-727	A	*[8]	PUBLICATION[8]	
+4-56	728-736	Gaussian	*[8]	PUBLICATION[8]	
+4-57	737-744	Process	*[8]	PUBLICATION[8]	
+4-58	745-754	framework	*[8]	PUBLICATION[8]	
+4-59	755-758	for	*[8]	PUBLICATION[8]	
+4-60	759-769	connecting	*[8]	PUBLICATION[8]	
+4-61	770-773	the	*[8]	PUBLICATION[8]	
+4-62	774-778	dots	*[8]	PUBLICATION[8]	
+4-63	778-779	"	_	_	
+4-64	779-780	]	_	_	
+4-65	780-781	[	_	_	
+4-66	781-790	paper_url	_	_	
+4-67	790-791	]	_	_	
+4-68	791-792	.	_	_	
+
+#Text=Please see the [companion blog post][blog_url] for a gentle introduction to the method and the code.
+#Text=
+#Text=
+#Text=## Installation 
+#Text=
+#Text=The code is written in Python 3 and requires the following packages:
+#Text=- matplotlib
+#Text=- NumPy
+#Text=- scipy
+#Text=- JAX
+#Text=- networkx
+#Text=
+#Text=### Using pip
+#Text=
+#Text=The code is available on [PyPI](https://pypi.org/project/ComputationalHypergraphDiscovery/) and can be installed using pip:
+#Text=
+#Text=```bash
+#Text=pip install ComputationalHypergraphDiscovery
+#Text=```
+#Text=
+#Text=### From source
+#Text=
+#Text=After cloning this repo, you install the required packages using pip:
+#Text=```bash
+#Text=pip install -r requirements.txt
+#Text=```
+#Text=
+#Text=and add the repo to your PYTHONPATH:
+#Text=```bash
+#Text=git clone https://github.com/TheoBourdais/ComputationalHypergraphDiscovery.git
+#Text=export PYTHONPATH=$PYTHONPATH:/path/to/ComputationalHypergraphDiscovery/src
+#Text=```
+#Text=
+#Text=## Quick start
+#Text=
+#Text=Graph discovery takes very little time.
+5-1	795-801	Please	_	_	
+5-2	802-805	see	_	_	
+5-3	806-809	the	_	_	
+5-4	810-811	[	_	_	
+5-5	811-820	companion	_	_	
+5-6	821-825	blog	_	_	
+5-7	826-830	post	_	_	
+5-8	830-831	]	_	_	
+5-9	831-832	[	_	_	
+5-10	832-840	blog_url	_	_	
+5-11	840-841	]	_	_	
+5-12	842-845	for	_	_	
+5-13	846-847	a	_	_	
+5-14	848-854	gentle	_	_	
+5-15	855-867	introduction	_	_	
+5-16	868-870	to	_	_	
+5-17	871-874	the	_	_	
+5-18	875-881	method	_	_	
+5-19	882-885	and	_	_	
+5-20	886-889	the	_	_	
+5-21	890-894	code	_	_	
+5-22	894-895	.	_	_	
+5-23	898-899	#	_	_	
+5-24	899-900	#	_	_	
+5-25	901-913	Installation	_	_	
+5-26	916-919	The	_	_	
+5-27	920-924	code	_	_	
+5-28	925-927	is	_	_	
+5-29	928-935	written	_	_	
+5-30	936-938	in	_	_	
+5-31	939-945	Python	*[9]	PROGLANG[9]	
+5-32	946-947	3	*[9]	PROGLANG[9]	
+5-33	948-951	and	_	_	
+5-34	952-960	requires	_	_	
+5-35	961-964	the	_	_	
+5-36	965-974	following	_	_	
+5-37	975-983	packages	_	_	
+5-38	983-984	:	_	_	
+5-39	985-986	-	_	_	
+5-40	987-997	matplotlib	*	SOFTWARE	
+5-41	998-999	-	_	_	
+5-42	1000-1005	NumPy	*	SOFTWARE	
+5-43	1006-1007	-	_	_	
+5-44	1008-1013	scipy	*	SOFTWARE	
+5-45	1014-1015	-	_	_	
+5-46	1016-1019	JAX	*	SOFTWARE	
+5-47	1020-1021	-	_	_	
+5-48	1022-1030	networkx	*	SOFTWARE	
+5-49	1032-1033	#	_	_	
+5-50	1033-1034	#	_	_	
+5-51	1034-1035	#	_	_	
+5-52	1036-1041	Using	_	_	
+5-53	1042-1045	pip	*	SOFTWARE	
+5-54	1047-1050	The	_	_	
+5-55	1051-1055	code	_	_	
+5-56	1056-1058	is	_	_	
+5-57	1059-1068	available	_	_	
+5-58	1069-1071	on	_	_	
+5-59	1072-1073	[	_	_	
+5-60	1073-1077	PyPI	*	SOFTWARE	
+5-61	1077-1078	]	_	_	
+5-62	1078-1079	(	_	_	
+5-63	1079-1084	https	_	_	
+5-64	1084-1085	:	_	_	
+5-65	1085-1086	/	_	_	
+5-66	1086-1087	/	_	_	
+5-67	1087-1095	pypi.org	_	_	
+5-68	1095-1096	/	_	_	
+5-69	1096-1103	project	_	_	
+5-70	1103-1104	/	_	_	
+5-71	1104-1136	ComputationalHypergraphDiscovery	*	SOFTWARE	
+5-72	1136-1137	/	_	_	
+5-73	1137-1138	)	_	_	
+5-74	1139-1142	and	_	_	
+5-75	1143-1146	can	_	_	
+5-76	1147-1149	be	_	_	
+5-77	1150-1159	installed	_	_	
+5-78	1160-1165	using	_	_	
+5-79	1166-1169	pip	*	SOFTWARE	
+5-80	1169-1170	:	_	_	
+5-81	1172-1173	`	_	_	
+5-82	1173-1174	`	_	_	
+5-83	1174-1175	`	_	_	
+5-84	1175-1179	bash	*	PROGLANG	
+5-85	1180-1183	pip	*	SOFTWARE	
+5-86	1184-1191	install	_	_	
+5-87	1192-1224	ComputationalHypergraphDiscovery	*	SOFTWARE	
+5-88	1225-1226	`	_	_	
+5-89	1226-1227	`	_	_	
+5-90	1227-1228	`	_	_	
+5-91	1230-1231	#	_	_	
+5-92	1231-1232	#	_	_	
+5-93	1232-1233	#	_	_	
+5-94	1234-1238	From	_	_	
+5-95	1239-1245	source	_	_	
+5-96	1247-1252	After	_	_	
+5-97	1253-1260	cloning	_	_	
+5-98	1261-1265	this	_	_	
+5-99	1266-1270	repo	_	_	
+5-100	1270-1271	,	_	_	
+5-101	1272-1275	you	_	_	
+5-102	1276-1283	install	_	_	
+5-103	1284-1287	the	_	_	
+5-104	1288-1296	required	_	_	
+5-105	1297-1305	packages	_	_	
+5-106	1306-1311	using	_	_	
+5-107	1312-1315	pip	_	_	
+5-108	1315-1316	:	_	_	
+5-109	1317-1318	`	_	_	
+5-110	1318-1319	`	_	_	
+5-111	1319-1320	`	_	_	
+5-112	1320-1324	bash	*	PROGLANG	
+5-113	1325-1328	pip	*	SOFTWARE	
+5-114	1329-1336	install	_	_	
+5-115	1337-1338	-	_	_	
+5-116	1338-1339	r	_	_	
+5-117	1340-1356	requirements.txt	_	_	
+5-118	1357-1358	`	_	_	
+5-119	1358-1359	`	_	_	
+5-120	1359-1360	`	_	_	
+5-121	1362-1365	and	_	_	
+5-122	1366-1369	add	_	_	
+5-123	1370-1373	the	_	_	
+5-124	1374-1378	repo	_	_	
+5-125	1379-1381	to	_	_	
+5-126	1382-1386	your	_	_	
+5-127	1387-1397	PYTHONPATH	_	_	
+5-128	1397-1398	:	_	_	
+5-129	1399-1400	`	_	_	
+5-130	1400-1401	`	_	_	
+5-131	1401-1402	`	_	_	
+5-132	1402-1406	bash	*	PROGLANG	
+5-133	1407-1410	git	*	SOFTWARE	
+5-134	1411-1416	clone	_	_	
+5-135	1417-1422	https	_	_	
+5-136	1422-1423	:	_	_	
+5-137	1423-1424	/	_	_	
+5-138	1424-1425	/	_	_	
+5-139	1425-1435	github.com	_	_	
+5-140	1435-1436	/	_	_	
+5-141	1436-1448	TheoBourdais	_	_	
+5-142	1448-1449	/	_	_	
+5-143	1449-1485	ComputationalHypergraphDiscovery.git	_	_	
+5-143.1	1449-1481	ComputationalHypergraphDiscovery	*	SOFTWARE	
+5-144	1486-1492	export	_	_	
+5-145	1493-1503	PYTHONPATH	_	_	
+5-146	1503-1504	=	_	_	
+5-147	1504-1505	$	_	_	
+5-148	1505-1515	PYTHONPATH	_	_	
+5-149	1515-1516	:	_	_	
+5-150	1516-1517	/	_	_	
+5-151	1517-1521	path	_	_	
+5-152	1521-1522	/	_	_	
+5-153	1522-1524	to	_	_	
+5-154	1524-1525	/	_	_	
+5-155	1525-1557	ComputationalHypergraphDiscovery	*	SOFTWARE	
+5-156	1557-1558	/	_	_	
+5-157	1558-1561	src	_	_	
+5-158	1562-1563	`	_	_	
+5-159	1563-1564	`	_	_	
+5-160	1564-1565	`	_	_	
+5-161	1567-1568	#	_	_	
+5-162	1568-1569	#	_	_	
+5-163	1570-1575	Quick	_	_	
+5-164	1576-1581	start	_	_	
+5-165	1583-1588	Graph	_	_	
+5-166	1589-1598	discovery	_	_	
+5-167	1599-1604	takes	_	_	
+5-168	1605-1609	very	_	_	
+5-169	1610-1616	little	_	_	
+5-170	1617-1621	time	_	_	
+5-171	1621-1622	.	_	_	
+
+#Text=The following code runs the method on the example dataset provided in the repo.
+6-1	1623-1626	The	_	_	
+6-2	1627-1636	following	_	_	
+6-3	1637-1641	code	_	_	
+6-4	1642-1646	runs	_	_	
+6-5	1647-1650	the	_	_	
+6-6	1651-1657	method	_	_	
+6-7	1658-1660	on	_	_	
+6-8	1661-1664	the	_	_	
+6-9	1665-1672	example	_	_	
+6-10	1673-1680	dataset	_	_	
+6-11	1681-1689	provided	_	_	
+6-12	1690-1692	in	_	_	
+6-13	1693-1696	the	_	_	
+6-14	1697-1701	repo	_	_	
+6-15	1701-1702	.	_	_	
+
+#Text=The dataset is a 2D array of shape (n_samples, n_features) where each row is a sample and each column is a feature.
+7-1	1703-1706	The	_	_	
+7-2	1707-1714	dataset	_	_	
+7-3	1715-1717	is	_	_	
+7-4	1718-1719	a	_	_	
+7-5	1720-1722	2D	_	_	
+7-6	1723-1728	array	_	_	
+7-7	1729-1731	of	_	_	
+7-8	1732-1737	shape	_	_	
+7-9	1738-1739	(	_	_	
+7-10	1739-1748	n_samples	_	_	
+7-11	1748-1749	,	_	_	
+7-12	1750-1760	n_features	_	_	
+7-13	1760-1761	)	_	_	
+7-14	1762-1767	where	_	_	
+7-15	1768-1772	each	_	_	
+7-16	1773-1776	row	_	_	
+7-17	1777-1779	is	_	_	
+7-18	1780-1781	a	_	_	
+7-19	1782-1788	sample	_	_	
+7-20	1789-1792	and	_	_	
+7-21	1793-1797	each	_	_	
+7-22	1798-1804	column	_	_	
+7-23	1805-1807	is	_	_	
+7-24	1808-1809	a	_	_	
+7-25	1810-1817	feature	_	_	
+7-26	1817-1818	.	_	_	
+
+#Text=After fitting the model, the graph is stored in the `GraphDiscovery` object, specifically its graph `G` attribute.
+8-1	1819-1824	After	_	_	
+8-2	1825-1832	fitting	_	_	
+8-3	1833-1836	the	_	_	
+8-4	1837-1842	model	_	_	
+8-5	1842-1843	,	_	_	
+8-6	1844-1847	the	_	_	
+8-7	1848-1853	graph	_	_	
+8-8	1854-1856	is	_	_	
+8-9	1857-1863	stored	_	_	
+8-10	1864-1866	in	_	_	
+8-11	1867-1870	the	_	_	
+8-12	1871-1872	`	_	_	
+8-13	1872-1886	GraphDiscovery	_	_	
+8-14	1886-1887	`	_	_	
+8-15	1888-1894	object	_	_	
+8-16	1894-1895	,	_	_	
+8-17	1896-1908	specifically	_	_	
+8-18	1909-1912	its	_	_	
+8-19	1913-1918	graph	_	_	
+8-20	1919-1920	`	_	_	
+8-21	1920-1921	G	_	_	
+8-22	1921-1922	`	_	_	
+8-23	1923-1932	attribute	_	_	
+8-24	1932-1933	.	_	_	
+
+#Text=The graph is a `networkx` object, which can be easily plotted using `.plot_graph()`.
+9-1	1934-1937	The	_	_	
+9-2	1938-1943	graph	_	_	
+9-3	1944-1946	is	_	_	
+9-4	1947-1948	a	_	_	
+9-5	1949-1950	`	_	_	
+9-6	1950-1958	networkx	*	SOFTWARE	
+9-7	1958-1959	`	_	_	
+9-8	1960-1966	object	_	_	
+9-9	1966-1967	,	_	_	
+9-10	1968-1973	which	_	_	
+9-11	1974-1977	can	_	_	
+9-12	1978-1980	be	_	_	
+9-13	1981-1987	easily	_	_	
+9-14	1988-1995	plotted	_	_	
+9-15	1996-2001	using	_	_	
+9-16	2002-2003	`	_	_	
+9-17	2003-2004	.	_	_	
+9-18	2004-2014	plot_graph	_	_	
+9-19	2014-2015	(	_	_	
+9-20	2015-2016	)	_	_	
+9-21	2016-2017	`	_	_	
+9-22	2017-2018	.	_	_	
+
+#Text=>You can find the Sachs dataset in the repo, at this [link](https://github.com/TheoBourdais/ComputationalHypergraphDiscovery/blob/main/examples/SachsData.csv).
+10-1	2020-2021	>	_	_	
+10-2	2021-2024	You	_	_	
+10-3	2025-2028	can	_	_	
+10-4	2029-2033	find	_	_	
+10-5	2034-2037	the	_	_	
+10-6	2038-2043	Sachs	*	DATASET	
+10-7	2044-2051	dataset	_	_	
+10-8	2052-2054	in	_	_	
+10-9	2055-2058	the	_	_	
+10-10	2059-2063	repo	_	_	
+10-11	2063-2064	,	_	_	
+10-12	2065-2067	at	_	_	
+10-13	2068-2072	this	_	_	
+10-14	2073-2074	[	_	_	
+10-15	2074-2078	link	_	_	
+10-16	2078-2079	]	_	_	
+10-17	2079-2080	(	_	_	
+10-18	2080-2085	https	_	_	
+10-19	2085-2086	:	_	_	
+10-20	2086-2087	/	_	_	
+10-21	2087-2088	/	_	_	
+10-22	2088-2098	github.com	_	_	
+10-23	2098-2099	/	_	_	
+10-24	2099-2111	TheoBourdais	_	_	
+10-25	2111-2112	/	_	_	
+10-26	2112-2144	ComputationalHypergraphDiscovery	*	SOFTWARE	
+10-27	2144-2145	/	_	_	
+10-28	2145-2149	blob	_	_	
+10-29	2149-2150	/	_	_	
+10-30	2150-2154	main	_	_	
+10-31	2154-2155	/	_	_	
+10-32	2155-2163	examples	_	_	
+10-33	2163-2164	/	_	_	
+10-34	2164-2177	SachsData.csv	_	_	
+10-35	2177-2178	)	_	_	
+10-36	2178-2179	.	_	_	
+
+#Text=```python
+#Text=import ComputationalHypergraphDiscovery as CHD
+#Text=import pandas as pd
+#Text=df=pd.read_csv('https://github.com/TheoBourdais/ComputationalHypergraphDiscovery/blob/8c3fed6dfe58a01cb73e469579ff7703b0681f7e/examples/Sachs/SachsData.csv?
+11-1	2180-2181	`	_	_	
+11-2	2181-2182	`	_	_	
+11-3	2182-2183	`	_	_	
+11-4	2183-2189	python	*	PROGLANG	
+11-5	2190-2196	import	_	_	
+11-6	2197-2229	ComputationalHypergraphDiscovery	*	SOFTWARE	
+11-7	2230-2232	as	_	_	
+11-8	2233-2236	CHD	_	_	
+11-9	2237-2243	import	_	_	
+11-10	2244-2250	pandas	*	SOFTWARE	
+11-11	2251-2253	as	_	_	
+11-12	2254-2256	pd	_	_	
+11-13	2257-2259	df	_	_	
+11-14	2259-2260	=	_	_	
+11-15	2260-2271	pd.read_csv	_	_	
+11-16	2271-2272	(	_	_	
+11-17	2272-2273	'	_	_	
+11-18	2273-2278	https	_	_	
+11-19	2278-2279	:	_	_	
+11-20	2279-2280	/	_	_	
+11-21	2280-2281	/	_	_	
+11-22	2281-2291	github.com	_	_	
+11-23	2291-2292	/	_	_	
+11-24	2292-2304	TheoBourdais	_	_	
+11-25	2304-2305	/	_	_	
+11-26	2305-2337	ComputationalHypergraphDiscovery	*	SOFTWARE	
+11-27	2337-2338	/	_	_	
+11-28	2338-2342	blob	_	_	
+11-29	2342-2343	/	_	_	
+11-30	2343-2383	8c3fed6dfe58a01cb73e469579ff7703b0681f7e	_	_	
+11-31	2383-2384	/	_	_	
+11-32	2384-2392	examples	_	_	
+11-33	2392-2393	/	_	_	
+11-34	2393-2398	Sachs	_	_	
+11-35	2398-2399	/	_	_	
+11-36	2399-2412	SachsData.csv	_	_	
+11-37	2412-2413	?	_	_	
+
+#Text=raw=true')
+#Text=df=df.sample(n=500,random_state=1) #subsample to run example quickly
+#Text=kernels=[CHD.Modes.LinearMode(),CHD.Modes.QuadraticMode()]
+#Text=graph_discovery = CHD.GraphDiscovery.from_dataframe(df,kernels=kernels)
+#Text=graph_discovery.fit()
+#Text=graph_discovery.plot_graph()
+#Text=```
+#Text=
+#Text=You should obtain the following graph (note that it will slightly differ from the graph in the paper due to the subsampling):
+#Text=
+#Text=<img style="width:100%;" alt="Resulting graph Sachs example" src="_images/genegraph_stage1.png"></a>
+#Text=
+#Text=
+#Text=## Available modifications of the base algorithm
+#Text=
+#Text=The code gives an easy-to-use interface to manipulate the graph discovery method.
+12-1	2413-2416	raw	_	_	
+12-2	2416-2417	=	_	_	
+12-3	2417-2421	true	_	_	
+12-4	2421-2422	'	_	_	
+12-5	2422-2423	)	_	_	
+12-6	2424-2426	df	_	_	
+12-7	2426-2427	=	_	_	
+12-8	2427-2436	df.sample	_	_	
+12-9	2436-2437	(	_	_	
+12-10	2437-2438	n	_	_	
+12-11	2438-2439	=	_	_	
+12-12	2439-2442	500	_	_	
+12-13	2442-2443	,	_	_	
+12-14	2443-2455	random_state	_	_	
+12-15	2455-2456	=	_	_	
+12-16	2456-2457	1	_	_	
+12-17	2457-2458	)	_	_	
+12-18	2459-2460	#	_	_	
+12-19	2460-2469	subsample	_	_	
+12-20	2470-2472	to	_	_	
+12-21	2473-2476	run	_	_	
+12-22	2477-2484	example	_	_	
+12-23	2485-2492	quickly	_	_	
+12-24	2493-2500	kernels	_	_	
+12-25	2500-2501	=	_	_	
+12-26	2501-2502	[	_	_	
+12-27	2502-2522	CHD.Modes.LinearMode	_	_	
+12-28	2522-2523	(	_	_	
+12-29	2523-2524	)	_	_	
+12-30	2524-2525	,	_	_	
+12-31	2525-2548	CHD.Modes.QuadraticMode	_	_	
+12-32	2548-2549	(	_	_	
+12-33	2549-2550	)	_	_	
+12-34	2550-2551	]	_	_	
+12-35	2552-2567	graph_discovery	_	_	
+12-36	2568-2569	=	_	_	
+12-37	2570-2603	CHD.GraphDiscovery.from_dataframe	_	_	
+12-38	2603-2604	(	_	_	
+12-39	2604-2606	df	_	_	
+12-40	2606-2607	,	_	_	
+12-41	2607-2614	kernels	_	_	
+12-42	2614-2615	=	_	_	
+12-43	2615-2622	kernels	_	_	
+12-44	2622-2623	)	_	_	
+12-45	2624-2643	graph_discovery.fit	_	_	
+12-46	2643-2644	(	_	_	
+12-47	2644-2645	)	_	_	
+12-48	2646-2672	graph_discovery.plot_graph	_	_	
+12-49	2672-2673	(	_	_	
+12-50	2673-2674	)	_	_	
+12-51	2675-2676	`	_	_	
+12-52	2676-2677	`	_	_	
+12-53	2677-2678	`	_	_	
+12-54	2680-2683	You	_	_	
+12-55	2684-2690	should	_	_	
+12-56	2691-2697	obtain	_	_	
+12-57	2698-2701	the	_	_	
+12-58	2702-2711	following	_	_	
+12-59	2712-2717	graph	_	_	
+12-60	2718-2719	(	_	_	
+12-61	2719-2723	note	_	_	
+12-62	2724-2728	that	_	_	
+12-63	2729-2731	it	_	_	
+12-64	2732-2736	will	_	_	
+12-65	2737-2745	slightly	_	_	
+12-66	2746-2752	differ	_	_	
+12-67	2753-2757	from	_	_	
+12-68	2758-2761	the	_	_	
+12-69	2762-2767	graph	_	_	
+12-70	2768-2770	in	_	_	
+12-71	2771-2774	the	_	_	
+12-72	2775-2780	paper	_	_	
+12-73	2781-2784	due	_	_	
+12-74	2785-2787	to	_	_	
+12-75	2788-2791	the	_	_	
+12-76	2792-2803	subsampling	_	_	
+12-77	2803-2804	)	_	_	
+12-78	2804-2805	:	_	_	
+12-79	2807-2808	<	_	_	
+12-80	2808-2811	img	_	_	
+12-81	2812-2817	style	_	_	
+12-82	2817-2818	=	_	_	
+12-83	2818-2819	"	_	_	
+12-84	2819-2824	width	_	_	
+12-85	2824-2825	:	_	_	
+12-86	2825-2829	100%	_	_	
+12-87	2829-2830	;	_	_	
+12-88	2830-2831	"	_	_	
+12-89	2832-2835	alt	_	_	
+12-90	2835-2836	=	_	_	
+12-91	2836-2837	"	_	_	
+12-92	2837-2846	Resulting	_	_	
+12-93	2847-2852	graph	_	_	
+12-94	2853-2858	Sachs	_	_	
+12-95	2859-2866	example	_	_	
+12-96	2866-2867	"	_	_	
+12-97	2868-2871	src	_	_	
+12-98	2871-2872	=	_	_	
+12-99	2872-2873	"	_	_	
+12-100	2873-2874	_	_	_	
+12-101	2874-2880	images	_	_	
+12-102	2880-2881	/	_	_	
+12-103	2881-2897	genegraph_stage1	_	_	
+12-104	2897-2898	.	_	_	
+12-105	2898-2901	png	_	_	
+12-106	2901-2902	"	_	_	
+12-107	2902-2903	>	_	_	
+12-108	2903-2904	<	_	_	
+12-109	2904-2905	/	_	_	
+12-110	2905-2906	a	_	_	
+12-111	2906-2907	>	_	_	
+12-112	2910-2911	#	_	_	
+12-113	2911-2912	#	_	_	
+12-114	2913-2922	Available	_	_	
+12-115	2923-2936	modifications	_	_	
+12-116	2937-2939	of	_	_	
+12-117	2940-2943	the	_	_	
+12-118	2944-2948	base	_	_	
+12-119	2949-2958	algorithm	_	_	
+12-120	2960-2963	The	_	_	
+12-121	2964-2968	code	_	_	
+12-122	2969-2974	gives	_	_	
+12-123	2975-2977	an	_	_	
+12-124	2978-2989	easy-to-use	_	_	
+12-125	2990-2999	interface	_	_	
+12-126	3000-3002	to	_	_	
+12-127	3003-3013	manipulate	_	_	
+12-128	3014-3017	the	_	_	
+12-129	3018-3023	graph	_	_	
+12-130	3024-3033	discovery	_	_	
+12-131	3034-3040	method	_	_	
+12-132	3040-3041	.	_	_	
+
+#Text=It is designed to be modular and flexible.
+13-1	3042-3044	It	_	_	
+13-2	3045-3047	is	_	_	
+13-3	3048-3056	designed	_	_	
+13-4	3057-3059	to	_	_	
+13-5	3060-3062	be	_	_	
+13-6	3063-3070	modular	_	_	
+13-7	3071-3074	and	_	_	
+13-8	3075-3083	flexible	_	_	
+13-9	3083-3084	.	_	_	
+
+#Text=The main changes you can make are
+#Text=- **[Kernels and modes](#manipulating-kernels)**: You can decide what type of function will be used to link the nodes.
+14-1	3085-3088	The	_	_	
+14-2	3089-3093	main	_	_	
+14-3	3094-3101	changes	_	_	
+14-4	3102-3105	you	_	_	
+14-5	3106-3109	can	_	_	
+14-6	3110-3114	make	_	_	
+14-7	3115-3118	are	_	_	
+14-8	3119-3120	-	_	_	
+14-9	3121-3122	*	_	_	
+14-10	3122-3123	*	_	_	
+14-11	3123-3124	[	_	_	
+14-12	3124-3131	Kernels	_	_	
+14-13	3132-3135	and	_	_	
+14-14	3136-3141	modes	_	_	
+14-15	3141-3142	]	_	_	
+14-16	3142-3143	(	_	_	
+14-17	3143-3144	#	_	_	
+14-18	3144-3164	manipulating-kernels	_	_	
+14-19	3164-3165	)	_	_	
+14-20	3165-3166	*	_	_	
+14-21	3166-3167	*	_	_	
+14-22	3167-3168	:	_	_	
+14-23	3169-3172	You	_	_	
+14-24	3173-3176	can	_	_	
+14-25	3177-3183	decide	_	_	
+14-26	3184-3188	what	_	_	
+14-27	3189-3193	type	_	_	
+14-28	3194-3196	of	_	_	
+14-29	3197-3205	function	_	_	
+14-30	3206-3210	will	_	_	
+14-31	3211-3213	be	_	_	
+14-32	3214-3218	used	_	_	
+14-33	3219-3221	to	_	_	
+14-34	3222-3226	link	_	_	
+14-35	3227-3230	the	_	_	
+14-36	3231-3236	nodes	_	_	
+14-37	3236-3237	.	_	_	
+
+#Text=The code provides a set of kernels, but you can easily add your own.
+15-1	3238-3241	The	_	_	
+15-2	3242-3246	code	_	_	
+15-3	3247-3255	provides	_	_	
+15-4	3256-3257	a	_	_	
+15-5	3258-3261	set	_	_	
+15-6	3262-3264	of	_	_	
+15-7	3265-3272	kernels	_	_	
+15-8	3272-3273	,	_	_	
+15-9	3274-3277	but	_	_	
+15-10	3278-3281	you	_	_	
+15-11	3282-3285	can	_	_	
+15-12	3286-3292	easily	_	_	
+15-13	3293-3296	add	_	_	
+15-14	3297-3301	your	_	_	
+15-15	3302-3305	own	_	_	
+15-16	3305-3306	.	_	_	
+
+#Text=The interface is designed to resemble the scikit-learn API, and you can use any kernel from scikit-learn
+16-1	3307-3310	The	_	_	
+16-2	3311-3320	interface	_	_	
+16-3	3321-3323	is	_	_	
+16-4	3324-3332	designed	_	_	
+16-5	3333-3335	to	_	_	
+16-6	3336-3344	resemble	_	_	
+16-7	3345-3348	the	_	_	
+16-8	3349-3361	scikit-learn	_	_	
+16-9	3362-3365	API	_	_	
+16-10	3365-3366	,	_	_	
+16-11	3367-3370	and	_	_	
+16-12	3371-3374	you	_	_	
+16-13	3375-3378	can	_	_	
+16-14	3379-3382	use	_	_	
+16-15	3383-3386	any	_	_	
+16-16	3387-3393	kernel	_	_	
+16-17	3394-3398	from	_	_	
+16-18	3399-3411	scikit-learn	_	_	
+
+#Text=.
+17-1	3411-3412	.	_	_	
+
+#Text=- **[Decision logics](#manipulating-decision-logics)**: In order to identify the edges of the graph, we need to decide whether certain connections are significant.
+18-1	3414-3415	-	_	_	
+18-2	3416-3417	*	_	_	
+18-3	3417-3418	*	_	_	
+18-4	3418-3419	[	_	_	
+18-5	3419-3427	Decision	_	_	
+18-6	3428-3434	logics	_	_	
+18-7	3434-3435	]	_	_	
+18-8	3435-3436	(	_	_	
+18-9	3436-3437	#	_	_	
+18-10	3437-3465	manipulating-decision-logics	_	_	
+18-11	3465-3466	)	_	_	
+18-12	3466-3467	*	_	_	
+18-13	3467-3468	*	_	_	
+18-14	3468-3469	:	_	_	
+18-15	3470-3472	In	_	_	
+18-16	3473-3478	order	_	_	
+18-17	3479-3481	to	_	_	
+18-18	3482-3490	identify	_	_	
+18-19	3491-3494	the	_	_	
+18-20	3495-3500	edges	_	_	
+18-21	3501-3503	of	_	_	
+18-22	3504-3507	the	_	_	
+18-23	3508-3513	graph	_	_	
+18-24	3513-3514	,	_	_	
+18-25	3515-3517	we	_	_	
+18-26	3518-3522	need	_	_	
+18-27	3523-3525	to	_	_	
+18-28	3526-3532	decide	_	_	
+18-29	3533-3540	whether	_	_	
+18-30	3541-3548	certain	_	_	
+18-31	3549-3560	connections	_	_	
+18-32	3561-3564	are	_	_	
+18-33	3565-3576	significant	_	_	
+18-34	3576-3577	.	_	_	
+
+#Text=The code provides indicators (like the level of noise), and the user specifies how to interpret them.
+19-1	3578-3581	The	_	_	
+19-2	3582-3586	code	_	_	
+19-3	3587-3595	provides	_	_	
+19-4	3596-3606	indicators	_	_	
+19-5	3607-3608	(	_	_	
+19-6	3608-3612	like	_	_	
+19-7	3613-3616	the	_	_	
+19-8	3617-3622	level	_	_	
+19-9	3623-3625	of	_	_	
+19-10	3626-3631	noise	_	_	
+19-11	3631-3632	)	_	_	
+19-12	3632-3633	,	_	_	
+19-13	3634-3637	and	_	_	
+19-14	3638-3641	the	_	_	
+19-15	3642-3646	user	_	_	
+19-16	3647-3656	specifies	_	_	
+19-17	3657-3660	how	_	_	
+19-18	3661-3663	to	_	_	
+19-19	3664-3673	interpret	_	_	
+19-20	3674-3678	them	_	_	
+19-21	3678-3679	.	_	_	
+
+#Text=The code provides a set of decision logic, but you can define your own
+20-1	3680-3683	The	_	_	
+20-2	3684-3688	code	_	_	
+20-3	3689-3697	provides	_	_	
+20-4	3698-3699	a	_	_	
+20-5	3700-3703	set	_	_	
+20-6	3704-3706	of	_	_	
+20-7	3707-3715	decision	_	_	
+20-8	3716-3721	logic	_	_	
+20-9	3721-3722	,	_	_	
+20-10	3723-3726	but	_	_	
+20-11	3727-3730	you	_	_	
+20-12	3731-3734	can	_	_	
+20-13	3735-3741	define	_	_	
+20-14	3742-3746	your	_	_	
+20-15	3747-3750	own	_	_	
+
+#Text=.
+21-1	3750-3751	.	_	_	
+
+#Text=- **[Clustering](#manipulating-clusters-and-possible-edges)**: If a set of nodes is highly dependent, it is possible to merge them into a cluster of nodes.
+22-1	3753-3754	-	_	_	
+22-2	3755-3756	*	_	_	
+22-3	3756-3757	*	_	_	
+22-4	3757-3758	[	_	_	
+22-5	3758-3768	Clustering	_	_	
+22-6	3768-3769	]	_	_	
+22-7	3769-3770	(	_	_	
+22-8	3770-3771	#	_	_	
+22-9	3771-3811	manipulating-clusters-and-possible-edges	_	_	
+22-10	3811-3812	)	_	_	
+22-11	3812-3813	*	_	_	
+22-12	3813-3814	*	_	_	
+22-13	3814-3815	:	_	_	
+22-14	3816-3818	If	_	_	
+22-15	3819-3820	a	_	_	
+22-16	3821-3824	set	_	_	
+22-17	3825-3827	of	_	_	
+22-18	3828-3833	nodes	_	_	
+22-19	3834-3836	is	_	_	
+22-20	3837-3843	highly	_	_	
+22-21	3844-3853	dependent	_	_	
+22-22	3853-3854	,	_	_	
+22-23	3855-3857	it	_	_	
+22-24	3858-3860	is	_	_	
+22-25	3861-3869	possible	_	_	
+22-26	3870-3872	to	_	_	
+22-27	3873-3878	merge	_	_	
+22-28	3879-3883	them	_	_	
+22-29	3884-3888	into	_	_	
+22-30	3889-3890	a	_	_	
+22-31	3891-3898	cluster	_	_	
+22-32	3899-3901	of	_	_	
+22-33	3902-3907	nodes	_	_	
+22-34	3907-3908	.	_	_	
+
+#Text=This gives greater readability and prevents the graph discovery method from missing other connections
+23-1	3909-3913	This	_	_	
+23-2	3914-3919	gives	_	_	
+23-3	3920-3927	greater	_	_	
+23-4	3928-3939	readability	_	_	
+23-5	3940-3943	and	_	_	
+23-6	3944-3952	prevents	_	_	
+23-7	3953-3956	the	_	_	
+23-8	3957-3962	graph	_	_	
+23-9	3963-3972	discovery	_	_	
+23-10	3973-3979	method	_	_	
+23-11	3980-3984	from	_	_	
+23-12	3985-3992	missing	_	_	
+23-13	3993-3998	other	_	_	
+23-14	3999-4010	connections	_	_	
+
+#Text=.
+24-1	4010-4011	.	_	_	
+
+#Text=- **[Possible edges](#manipulating-clusters-and-possible-edges)**: If you know that specific nodes cannot be connected, you can specify it to the algorithm.
+25-1	4013-4014	-	_	_	
+25-2	4015-4016	*	_	_	
+25-3	4016-4017	*	_	_	
+25-4	4017-4018	[	_	_	
+25-5	4018-4026	Possible	_	_	
+25-6	4027-4032	edges	_	_	
+25-7	4032-4033	]	_	_	
+25-8	4033-4034	(	_	_	
+25-9	4034-4035	#	_	_	
+25-10	4035-4075	manipulating-clusters-and-possible-edges	_	_	
+25-11	4075-4076	)	_	_	
+25-12	4076-4077	*	_	_	
+25-13	4077-4078	*	_	_	
+25-14	4078-4079	:	_	_	
+25-15	4080-4082	If	_	_	
+25-16	4083-4086	you	_	_	
+25-17	4087-4091	know	_	_	
+25-18	4092-4096	that	_	_	
+25-19	4097-4105	specific	_	_	
+25-20	4106-4111	nodes	_	_	
+25-21	4112-4118	cannot	_	_	
+25-22	4119-4121	be	_	_	
+25-23	4122-4131	connected	_	_	
+25-24	4131-4132	,	_	_	
+25-25	4133-4136	you	_	_	
+25-26	4137-4140	can	_	_	
+25-27	4141-4148	specify	_	_	
+25-28	4149-4151	it	_	_	
+25-29	4152-4154	to	_	_	
+25-30	4155-4158	the	_	_	
+25-31	4159-4168	algorithm	_	_	
+25-32	4168-4169	.	_	_	
+
+#Text=By default, all edges are possible. 
+#Text=
+#Text=
+#Text=## The Base algorithm
+#Text=
+#Text=In order to initiate the graph discovery method, you need to create a `GraphDiscovery` object.
+26-1	4170-4172	By	_	_	
+26-2	4173-4180	default	_	_	
+26-3	4180-4181	,	_	_	
+26-4	4182-4185	all	_	_	
+26-5	4186-4191	edges	_	_	
+26-6	4192-4195	are	_	_	
+26-7	4196-4204	possible	_	_	
+26-8	4204-4205	.	_	_	
+26-9	4209-4210	#	_	_	
+26-10	4210-4211	#	_	_	
+26-11	4212-4215	The	_	_	
+26-12	4216-4220	Base	_	_	
+26-13	4221-4230	algorithm	_	_	
+26-14	4232-4234	In	_	_	
+26-15	4235-4240	order	_	_	
+26-16	4241-4243	to	_	_	
+26-17	4244-4252	initiate	_	_	
+26-18	4253-4256	the	_	_	
+26-19	4257-4262	graph	_	_	
+26-20	4263-4272	discovery	_	_	
+26-21	4273-4279	method	_	_	
+26-22	4279-4280	,	_	_	
+26-23	4281-4284	you	_	_	
+26-24	4285-4289	need	_	_	
+26-25	4290-4292	to	_	_	
+26-26	4293-4299	create	_	_	
+26-27	4300-4301	a	_	_	
+26-28	4302-4303	`	_	_	
+26-29	4303-4317	GraphDiscovery	_	_	
+26-30	4317-4318	`	_	_	
+26-31	4319-4325	object	_	_	
+26-32	4325-4326	.	_	_	
+
+#Text=The main parameters are:
+#Text=- **Essential parameters**:
+#Text=    - `X`: The data used to fit the model.
+27-1	4327-4330	The	_	_	
+27-2	4331-4335	main	_	_	
+27-3	4336-4346	parameters	_	_	
+27-4	4347-4350	are	_	_	
+27-5	4350-4351	:	_	_	
+27-6	4352-4353	-	_	_	
+27-7	4354-4355	*	_	_	
+27-8	4355-4356	*	_	_	
+27-9	4356-4365	Essential	_	_	
+27-10	4366-4376	parameters	_	_	
+27-11	4376-4377	*	_	_	
+27-12	4377-4378	*	_	_	
+27-13	4378-4379	:	_	_	
+27-14	4384-4385	-	_	_	
+27-15	4386-4387	`	_	_	
+27-16	4387-4388	X	_	_	
+27-17	4388-4389	`	_	_	
+27-18	4389-4390	:	_	_	
+27-19	4391-4394	The	_	_	
+27-20	4395-4399	data	_	_	
+27-21	4400-4404	used	_	_	
+27-22	4405-4407	to	_	_	
+27-23	4408-4411	fit	_	_	
+27-24	4412-4415	the	_	_	
+27-25	4416-4421	model	_	_	
+27-26	4421-4422	.	_	_	
+
+#Text=It is a 2D array of shape (n_features,n_samples) where each row is a feature and each column is a sample
+28-1	4423-4425	It	_	_	
+28-2	4426-4428	is	_	_	
+28-3	4429-4430	a	_	_	
+28-4	4431-4433	2D	_	_	
+28-5	4434-4439	array	_	_	
+28-6	4440-4442	of	_	_	
+28-7	4443-4448	shape	_	_	
+28-8	4449-4450	(	_	_	
+28-9	4450-4460	n_features	_	_	
+28-10	4460-4461	,	_	_	
+28-11	4461-4470	n_samples	_	_	
+28-12	4470-4471	)	_	_	
+28-13	4472-4477	where	_	_	
+28-14	4478-4482	each	_	_	
+28-15	4483-4486	row	_	_	
+28-16	4487-4489	is	_	_	
+28-17	4490-4491	a	_	_	
+28-18	4492-4499	feature	_	_	
+28-19	4500-4503	and	_	_	
+28-20	4504-4508	each	_	_	
+28-21	4509-4515	column	_	_	
+28-22	4516-4518	is	_	_	
+28-23	4519-4520	a	_	_	
+28-24	4521-4527	sample	_	_	
+
+#Text=.
+29-1	4527-4528	.	_	_	
+
+#Text=- `node_names`: The names of the nodes.
+30-1	4533-4534	-	_	_	
+30-2	4535-4536	`	_	_	
+30-3	4536-4546	node_names	_	_	
+30-4	4546-4547	`	_	_	
+30-5	4547-4548	:	_	_	
+30-6	4549-4552	The	_	_	
+30-7	4553-4558	names	_	_	
+30-8	4559-4561	of	_	_	
+30-9	4562-4565	the	_	_	
+30-10	4566-4571	nodes	_	_	
+30-11	4571-4572	.	_	_	
+
+#Text=It is a list of strings of length n_features.
+#Text=- **Refinements**:
+#Text=    - `kernels`: The kernels used to link the nodes.
+31-1	4573-4575	It	_	_	
+31-2	4576-4578	is	_	_	
+31-3	4579-4580	a	_	_	
+31-4	4581-4585	list	_	_	
+31-5	4586-4588	of	_	_	
+31-6	4589-4596	strings	_	_	
+31-7	4597-4599	of	_	_	
+31-8	4600-4606	length	_	_	
+31-9	4607-4617	n_features	_	_	
+31-10	4617-4618	.	_	_	
+31-11	4619-4620	-	_	_	
+31-12	4621-4622	*	_	_	
+31-13	4622-4623	*	_	_	
+31-14	4623-4634	Refinements	_	_	
+31-15	4634-4635	*	_	_	
+31-16	4635-4636	*	_	_	
+31-17	4636-4637	:	_	_	
+31-18	4642-4643	-	_	_	
+31-19	4644-4645	`	_	_	
+31-20	4645-4652	kernels	_	_	
+31-21	4652-4653	`	_	_	
+31-22	4653-4654	:	_	_	
+31-23	4655-4658	The	_	_	
+31-24	4659-4666	kernels	_	_	
+31-25	4667-4671	used	_	_	
+31-26	4672-4674	to	_	_	
+31-27	4675-4679	link	_	_	
+31-28	4680-4683	the	_	_	
+31-29	4684-4689	nodes	_	_	
+31-30	4689-4690	.	_	_	
+
+#Text=If none is provided, a default kernel is used.
+32-1	4691-4693	If	_	_	
+32-2	4694-4698	none	_	_	
+32-3	4699-4701	is	_	_	
+32-4	4702-4710	provided	_	_	
+32-5	4710-4711	,	_	_	
+32-6	4712-4713	a	_	_	
+32-7	4714-4721	default	_	_	
+32-8	4722-4728	kernel	_	_	
+32-9	4729-4731	is	_	_	
+32-10	4732-4736	used	_	_	
+32-11	4736-4737	.	_	_	
+
+#Text=See the section on [manipulating kernels](#manipulating-kernels) for more details
+33-1	4738-4741	See	_	_	
+33-2	4742-4745	the	_	_	
+33-3	4746-4753	section	_	_	
+33-4	4754-4756	on	_	_	
+33-5	4757-4758	[	_	_	
+33-6	4758-4770	manipulating	_	_	
+33-7	4771-4778	kernels	_	_	
+33-8	4778-4779	]	_	_	
+33-9	4779-4780	(	_	_	
+33-10	4780-4781	#	_	_	
+33-11	4781-4801	manipulating-kernels	_	_	
+33-12	4801-4802	)	_	_	
+33-13	4803-4806	for	_	_	
+33-14	4807-4811	more	_	_	
+33-15	4812-4819	details	_	_	
+
+#Text=.
+34-1	4819-4820	.	_	_	
+
+#Text=- `cluster` and `possible_edges`: additional features to inform the graph discovery process and refine the recovery.
+35-1	4825-4826	-	_	_	
+35-2	4827-4828	`	_	_	
+35-3	4828-4835	cluster	_	_	
+35-4	4835-4836	`	_	_	
+35-5	4837-4840	and	_	_	
+35-6	4841-4842	`	_	_	
+35-7	4842-4856	possible_edges	_	_	
+35-8	4856-4857	`	_	_	
+35-9	4857-4858	:	_	_	
+35-10	4859-4869	additional	_	_	
+35-11	4870-4878	features	_	_	
+35-12	4879-4881	to	_	_	
+35-13	4882-4888	inform	_	_	
+35-14	4889-4892	the	_	_	
+35-15	4893-4898	graph	_	_	
+35-16	4899-4908	discovery	_	_	
+35-17	4909-4916	process	_	_	
+35-18	4917-4920	and	_	_	
+35-19	4921-4927	refine	_	_	
+35-20	4928-4931	the	_	_	
+35-21	4932-4940	recovery	_	_	
+35-22	4940-4941	.	_	_	
+
+#Text=See the section on [manipulating clusters and possible edges](#manipulating-clusters-and-possible-edges) for more details.
+#Text=- **Optional**:
+#Text=    - `verbose`: to choose whether to print information during the fitting process.
+36-1	4942-4945	See	_	_	
+36-2	4946-4949	the	_	_	
+36-3	4950-4957	section	_	_	
+36-4	4958-4960	on	_	_	
+36-5	4961-4962	[	_	_	
+36-6	4962-4974	manipulating	_	_	
+36-7	4975-4983	clusters	_	_	
+36-8	4984-4987	and	_	_	
+36-9	4988-4996	possible	_	_	
+36-10	4997-5002	edges	_	_	
+36-11	5002-5003	]	_	_	
+36-12	5003-5004	(	_	_	
+36-13	5004-5005	#	_	_	
+36-14	5005-5045	manipulating-clusters-and-possible-edges	_	_	
+36-15	5045-5046	)	_	_	
+36-16	5047-5050	for	_	_	
+36-17	5051-5055	more	_	_	
+36-18	5056-5063	details	_	_	
+36-19	5063-5064	.	_	_	
+36-20	5065-5066	-	_	_	
+36-21	5067-5068	*	_	_	
+36-22	5068-5069	*	_	_	
+36-23	5069-5077	Optional	_	_	
+36-24	5077-5078	*	_	_	
+36-25	5078-5079	*	_	_	
+36-26	5079-5080	:	_	_	
+36-27	5085-5086	-	_	_	
+36-28	5087-5088	`	_	_	
+36-29	5088-5095	verbose	_	_	
+36-30	5095-5096	`	_	_	
+36-31	5096-5097	:	_	_	
+36-32	5098-5100	to	_	_	
+36-33	5101-5107	choose	_	_	
+36-34	5108-5115	whether	_	_	
+36-35	5116-5118	to	_	_	
+36-36	5119-5124	print	_	_	
+36-37	5125-5136	information	_	_	
+36-38	5137-5143	during	_	_	
+36-39	5144-5147	the	_	_	
+36-40	5148-5155	fitting	_	_	
+36-41	5156-5163	process	_	_	
+36-42	5163-5164	.	_	_	
+
+#Text=Here is an example:
+#Text=
+#Text=
+#Text=```python
+#Text=import ComputationalHypergraphDiscovery as CHD
+#Text=import numpy as np
+#Text=X=np.random.rand(10,100)
+#Text=node_names=[f'node_{i}' for i in range(10)]
+#Text=graph_discovery = CHD.GraphDiscovery(X,node_names)
+#Text=```
+#Text=
+#Text=> **Note**: This shows how to create a `GraphDiscovery` object from a numpy array.
+37-1	5167-5171	Here	_	_	
+37-2	5172-5174	is	_	_	
+37-3	5175-5177	an	_	_	
+37-4	5178-5185	example	_	_	
+37-5	5185-5186	:	_	_	
+37-6	5189-5190	`	_	_	
+37-7	5190-5191	`	_	_	
+37-8	5191-5192	`	_	_	
+37-9	5192-5198	python	*	PROGLANG	
+37-10	5199-5205	import	_	_	
+37-11	5206-5238	ComputationalHypergraphDiscovery	*	SOFTWARE	
+37-12	5239-5241	as	_	_	
+37-13	5242-5245	CHD	_	_	
+37-14	5246-5252	import	_	_	
+37-15	5253-5258	numpy	*	SOFTWARE	
+37-16	5259-5261	as	_	_	
+37-17	5262-5264	np	_	_	
+37-18	5265-5266	X	_	_	
+37-19	5266-5267	=	_	_	
+37-20	5267-5281	np.random.rand	_	_	
+37-21	5281-5282	(	_	_	
+37-22	5282-5288	10,100	_	_	
+37-23	5288-5289	)	_	_	
+37-24	5290-5300	node_names	_	_	
+37-25	5300-5301	=	_	_	
+37-26	5301-5302	[	_	_	
+37-27	5302-5308	f'node	_	_	
+37-28	5308-5309	_	_	_	
+37-29	5309-5310	{	_	_	
+37-30	5310-5311	i	_	_	
+37-31	5311-5312	}	_	_	
+37-32	5312-5313	'	_	_	
+37-33	5314-5317	for	_	_	
+37-34	5318-5319	i	_	_	
+37-35	5320-5322	in	_	_	
+37-36	5323-5328	range	_	_	
+37-37	5328-5329	(	_	_	
+37-38	5329-5331	10	_	_	
+37-39	5331-5332	)	_	_	
+37-40	5332-5333	]	_	_	
+37-41	5334-5349	graph_discovery	_	_	
+37-42	5350-5351	=	_	_	
+37-43	5352-5370	CHD.GraphDiscovery	_	_	
+37-44	5370-5371	(	_	_	
+37-45	5371-5372	X	_	_	
+37-46	5372-5373	,	_	_	
+37-47	5373-5383	node_names	_	_	
+37-48	5383-5384	)	_	_	
+37-49	5385-5386	`	_	_	
+37-50	5386-5387	`	_	_	
+37-51	5387-5388	`	_	_	
+37-52	5390-5391	>	_	_	
+37-53	5392-5393	*	_	_	
+37-54	5393-5394	*	_	_	
+37-55	5394-5398	Note	_	_	
+37-56	5398-5399	*	_	_	
+37-57	5399-5400	*	_	_	
+37-58	5400-5401	:	_	_	
+37-59	5402-5406	This	_	_	
+37-60	5407-5412	shows	_	_	
+37-61	5413-5416	how	_	_	
+37-62	5417-5419	to	_	_	
+37-63	5420-5426	create	_	_	
+37-64	5427-5428	a	_	_	
+37-65	5429-5430	`	_	_	
+37-66	5430-5444	GraphDiscovery	_	_	
+37-67	5444-5445	`	_	_	
+37-68	5446-5452	object	_	_	
+37-69	5453-5457	from	_	_	
+37-70	5458-5459	a	_	_	
+37-71	5460-5465	numpy	_	_	
+37-72	5466-5471	array	_	_	
+37-73	5471-5472	.	_	_	
+
+#Text=If you want to follow this tutorial, use the Sachs dataset provided in the repo as a reference.
+38-1	5473-5475	If	_	_	
+38-2	5476-5479	you	_	_	
+38-3	5480-5484	want	_	_	
+38-4	5485-5487	to	_	_	
+38-5	5488-5494	follow	_	_	
+38-6	5495-5499	this	_	_	
+38-7	5500-5508	tutorial	_	_	
+38-8	5508-5509	,	_	_	
+38-9	5510-5513	use	_	_	
+38-10	5514-5517	the	_	_	
+38-11	5518-5523	Sachs	_	_	
+38-12	5524-5531	dataset	_	_	
+38-13	5532-5540	provided	_	_	
+38-14	5541-5543	in	_	_	
+38-15	5544-5547	the	_	_	
+38-16	5548-5552	repo	_	_	
+38-17	5553-5555	as	_	_	
+38-18	5556-5557	a	_	_	
+38-19	5558-5567	reference	_	_	
+38-20	5567-5568	.	_	_	
+
+#Text=You can use the code below to load it:
+#Text=
+#Text=If you have a Pandas dataframe, you can use the `from_dataframe` method (see the method's docstring for more details):
+#Text=
+#Text=```python
+#Text=import ComputationalHypergraphDiscovery as CHD
+#Text=import pandas as pd
+#Text=df=pd.read_csv('https://github.com/TheoBourdais/ComputationalHypergraphDiscovery/blob/8c3fed6dfe58a01cb73e469579ff7703b0681f7e/examples/Sachs/SachsData.csv?
+39-1	5569-5572	You	_	_	
+39-2	5573-5576	can	_	_	
+39-3	5577-5580	use	_	_	
+39-4	5581-5584	the	_	_	
+39-5	5585-5589	code	_	_	
+39-6	5590-5595	below	_	_	
+39-7	5596-5598	to	_	_	
+39-8	5599-5603	load	_	_	
+39-9	5604-5606	it	_	_	
+39-10	5606-5607	:	_	_	
+39-11	5609-5611	If	_	_	
+39-12	5612-5615	you	_	_	
+39-13	5616-5620	have	_	_	
+39-14	5621-5622	a	_	_	
+39-15	5623-5629	Pandas	*	SOFTWARE	
+39-16	5630-5639	dataframe	_	_	
+39-17	5639-5640	,	_	_	
+39-18	5641-5644	you	_	_	
+39-19	5645-5648	can	_	_	
+39-20	5649-5652	use	_	_	
+39-21	5653-5656	the	_	_	
+39-22	5657-5658	`	_	_	
+39-23	5658-5672	from_dataframe	_	_	
+39-24	5672-5673	`	_	_	
+39-25	5674-5680	method	_	_	
+39-26	5681-5682	(	_	_	
+39-27	5682-5685	see	_	_	
+39-28	5686-5689	the	_	_	
+39-29	5690-5698	method's	_	_	
+39-30	5699-5708	docstring	_	_	
+39-31	5709-5712	for	_	_	
+39-32	5713-5717	more	_	_	
+39-33	5718-5725	details	_	_	
+39-34	5725-5726	)	_	_	
+39-35	5726-5727	:	_	_	
+39-36	5729-5730	`	_	_	
+39-37	5730-5731	`	_	_	
+39-38	5731-5732	`	_	_	
+39-39	5732-5738	python	*	PROGLANG	
+39-40	5739-5745	import	_	_	
+39-41	5746-5778	ComputationalHypergraphDiscovery	*	SOFTWARE	
+39-42	5779-5781	as	_	_	
+39-43	5782-5785	CHD	_	_	
+39-44	5786-5792	import	_	_	
+39-45	5793-5799	pandas	*	SOFTWARE	
+39-46	5800-5802	as	_	_	
+39-47	5803-5805	pd	_	_	
+39-48	5806-5808	df	_	_	
+39-49	5808-5809	=	_	_	
+39-50	5809-5820	pd.read_csv	_	_	
+39-51	5820-5821	(	_	_	
+39-52	5821-5822	'	_	_	
+39-53	5822-5827	https	_	_	
+39-54	5827-5828	:	_	_	
+39-55	5828-5829	/	_	_	
+39-56	5829-5830	/	_	_	
+39-57	5830-5840	github.com	_	_	
+39-58	5840-5841	/	_	_	
+39-59	5841-5853	TheoBourdais	_	_	
+39-60	5853-5854	/	_	_	
+39-61	5854-5886	ComputationalHypergraphDiscovery	*	SOFTWARE	
+39-62	5886-5887	/	_	_	
+39-63	5887-5891	blob	_	_	
+39-64	5891-5892	/	_	_	
+39-65	5892-5932	8c3fed6dfe58a01cb73e469579ff7703b0681f7e	_	_	
+39-66	5932-5933	/	_	_	
+39-67	5933-5941	examples	_	_	
+39-68	5941-5942	/	_	_	
+39-69	5942-5947	Sachs	_	_	
+39-70	5947-5948	/	_	_	
+39-71	5948-5961	SachsData.csv	_	_	
+39-72	5961-5962	?	_	_	
+
+#Text=raw=true')
+#Text=df=df.sample(n=500,random_state=1) #subsample to run example quickly
+#Text=graph_discovery = CHD.GraphDiscovery.from_dataframe(df)
+#Text=```
+#Text=
+#Text=Once the object is created, you can fit the model using the `.fit()` method.
+40-1	5962-5965	raw	_	_	
+40-2	5965-5966	=	_	_	
+40-3	5966-5970	true	_	_	
+40-4	5970-5971	'	_	_	
+40-5	5971-5972	)	_	_	
+40-6	5973-5975	df	_	_	
+40-7	5975-5976	=	_	_	
+40-8	5976-5985	df.sample	_	_	
+40-9	5985-5986	(	_	_	
+40-10	5986-5987	n	_	_	
+40-11	5987-5988	=	_	_	
+40-12	5988-5991	500	_	_	
+40-13	5991-5992	,	_	_	
+40-14	5992-6004	random_state	_	_	
+40-15	6004-6005	=	_	_	
+40-16	6005-6006	1	_	_	
+40-17	6006-6007	)	_	_	
+40-18	6008-6009	#	_	_	
+40-19	6009-6018	subsample	_	_	
+40-20	6019-6021	to	_	_	
+40-21	6022-6025	run	_	_	
+40-22	6026-6033	example	_	_	
+40-23	6034-6041	quickly	_	_	
+40-24	6042-6057	graph_discovery	_	_	
+40-25	6058-6059	=	_	_	
+40-26	6060-6093	CHD.GraphDiscovery.from_dataframe	_	_	
+40-27	6093-6094	(	_	_	
+40-28	6094-6096	df	_	_	
+40-29	6096-6097	)	_	_	
+40-30	6098-6099	`	_	_	
+40-31	6099-6100	`	_	_	
+40-32	6100-6101	`	_	_	
+40-33	6103-6107	Once	_	_	
+40-34	6108-6111	the	_	_	
+40-35	6112-6118	object	_	_	
+40-36	6119-6121	is	_	_	
+40-37	6122-6129	created	_	_	
+40-38	6129-6130	,	_	_	
+40-39	6131-6134	you	_	_	
+40-40	6135-6138	can	_	_	
+40-41	6139-6142	fit	_	_	
+40-42	6143-6146	the	_	_	
+40-43	6147-6152	model	_	_	
+40-44	6153-6158	using	_	_	
+40-45	6159-6162	the	_	_	
+40-46	6163-6164	`	_	_	
+40-47	6164-6165	.	_	_	
+40-48	6165-6168	fit	_	_	
+40-49	6168-6169	(	_	_	
+40-50	6169-6170	)	_	_	
+40-51	6170-6171	`	_	_	
+40-52	6172-6178	method	_	_	
+40-53	6178-6179	.	_	_	
+
+#Text=The fit method takes the following parameters: 
+#Text=- **Essential parameters**:
+#Text=    - `targets`: Which nodes you wish to discover the ancestors of.
+41-1	6180-6183	The	_	_	
+41-2	6184-6187	fit	_	_	
+41-3	6188-6194	method	_	_	
+41-4	6195-6200	takes	_	_	
+41-5	6201-6204	the	_	_	
+41-6	6205-6214	following	_	_	
+41-7	6215-6225	parameters	_	_	
+41-8	6225-6226	:	_	_	
+41-9	6228-6229	-	_	_	
+41-10	6230-6231	*	_	_	
+41-11	6231-6232	*	_	_	
+41-12	6232-6241	Essential	_	_	
+41-13	6242-6252	parameters	_	_	
+41-14	6252-6253	*	_	_	
+41-15	6253-6254	*	_	_	
+41-16	6254-6255	:	_	_	
+41-17	6260-6261	-	_	_	
+41-18	6262-6263	`	_	_	
+41-19	6263-6270	targets	_	_	
+41-20	6270-6271	`	_	_	
+41-21	6271-6272	:	_	_	
+41-22	6273-6278	Which	_	_	
+41-23	6279-6284	nodes	_	_	
+41-24	6285-6288	you	_	_	
+41-25	6289-6293	wish	_	_	
+41-26	6294-6296	to	_	_	
+41-27	6297-6305	discover	_	_	
+41-28	6306-6309	the	_	_	
+41-29	6310-6319	ancestors	_	_	
+41-30	6320-6322	of	_	_	
+41-31	6322-6323	.	_	_	
+
+#Text=By default, we recover the ancestors of all nodes
+42-1	6324-6326	By	_	_	
+42-2	6327-6334	default	_	_	
+42-3	6334-6335	,	_	_	
+42-4	6336-6338	we	_	_	
+42-5	6339-6346	recover	_	_	
+42-6	6347-6350	the	_	_	
+42-7	6351-6360	ancestors	_	_	
+42-8	6361-6363	of	_	_	
+42-9	6364-6367	all	_	_	
+42-10	6368-6373	nodes	_	_	
+
+#Text=.
+43-1	6373-6374	.	_	_	
+
+#Text=- **Refinements**:
+#Text=    - `kernel_chooser` and `mode_chooser`: Decision logic to refine the graph discovery process.
+44-1	6376-6377	-	_	_	
+44-2	6378-6379	*	_	_	
+44-3	6379-6380	*	_	_	
+44-4	6380-6391	Refinements	_	_	
+44-5	6391-6392	*	_	_	
+44-6	6392-6393	*	_	_	
+44-7	6393-6394	:	_	_	
+44-8	6399-6400	-	_	_	
+44-9	6401-6402	`	_	_	
+44-10	6402-6416	kernel_chooser	_	_	
+44-11	6416-6417	`	_	_	
+44-12	6418-6421	and	_	_	
+44-13	6422-6423	`	_	_	
+44-14	6423-6435	mode_chooser	_	_	
+44-15	6435-6436	`	_	_	
+44-16	6436-6437	:	_	_	
+44-17	6438-6446	Decision	_	_	
+44-18	6447-6452	logic	_	_	
+44-19	6453-6455	to	_	_	
+44-20	6456-6462	refine	_	_	
+44-21	6463-6466	the	_	_	
+44-22	6467-6472	graph	_	_	
+44-23	6473-6482	discovery	_	_	
+44-24	6483-6490	process	_	_	
+44-25	6490-6491	.	_	_	
+
+#Text=See the section on [manipulating decision logics](#manipulating-decision-logics) for more details.
+#Text=- **Optional** (better left as default):
+#Text=    - `gamma`: The noise parameter of the kernel.
+45-1	6492-6495	See	_	_	
+45-2	6496-6499	the	_	_	
+45-3	6500-6507	section	_	_	
+45-4	6508-6510	on	_	_	
+45-5	6511-6512	[	_	_	
+45-6	6512-6524	manipulating	_	_	
+45-7	6525-6533	decision	_	_	
+45-8	6534-6540	logics	_	_	
+45-9	6540-6541	]	_	_	
+45-10	6541-6542	(	_	_	
+45-11	6542-6543	#	_	_	
+45-12	6543-6571	manipulating-decision-logics	_	_	
+45-13	6571-6572	)	_	_	
+45-14	6573-6576	for	_	_	
+45-15	6577-6581	more	_	_	
+45-16	6582-6589	details	_	_	
+45-17	6589-6590	.	_	_	
+45-18	6591-6592	-	_	_	
+45-19	6593-6594	*	_	_	
+45-20	6594-6595	*	_	_	
+45-21	6595-6603	Optional	_	_	
+45-22	6603-6604	*	_	_	
+45-23	6604-6605	*	_	_	
+45-24	6606-6607	(	_	_	
+45-25	6607-6613	better	_	_	
+45-26	6614-6618	left	_	_	
+45-27	6619-6621	as	_	_	
+45-28	6622-6629	default	_	_	
+45-29	6629-6630	)	_	_	
+45-30	6630-6631	:	_	_	
+45-31	6636-6637	-	_	_	
+45-32	6638-6639	`	_	_	
+45-33	6639-6644	gamma	_	_	
+45-34	6644-6645	`	_	_	
+45-35	6645-6646	:	_	_	
+45-36	6647-6650	The	_	_	
+45-37	6651-6656	noise	_	_	
+45-38	6657-6666	parameter	_	_	
+45-39	6667-6669	of	_	_	
+45-40	6670-6673	the	_	_	
+45-41	6674-6680	kernel	_	_	
+45-42	6680-6681	.	_	_	
+
+#Text=By default, it is automatically estimated.
+46-1	6682-6684	By	_	_	
+46-2	6685-6692	default	_	_	
+46-3	6692-6693	,	_	_	
+46-4	6694-6696	it	_	_	
+46-5	6697-6699	is	_	_	
+46-6	6700-6713	automatically	_	_	
+46-7	6714-6723	estimated	_	_	
+46-8	6723-6724	.	_	_	
+
+#Text=We advise against setting it manually, as a good choice of gamma is crucial for the performance of the algorithm and is unintuitive to find
+47-1	6725-6727	We	_	_	
+47-2	6728-6734	advise	_	_	
+47-3	6735-6742	against	_	_	
+47-4	6743-6750	setting	_	_	
+47-5	6751-6753	it	_	_	
+47-6	6754-6762	manually	_	_	
+47-7	6762-6763	,	_	_	
+47-8	6764-6766	as	_	_	
+47-9	6767-6768	a	_	_	
+47-10	6769-6773	good	_	_	
+47-11	6774-6780	choice	_	_	
+47-12	6781-6783	of	_	_	
+47-13	6784-6789	gamma	_	_	
+47-14	6790-6792	is	_	_	
+47-15	6793-6800	crucial	_	_	
+47-16	6801-6804	for	_	_	
+47-17	6805-6808	the	_	_	
+47-18	6809-6820	performance	_	_	
+47-19	6821-6823	of	_	_	
+47-20	6824-6827	the	_	_	
+47-21	6828-6837	algorithm	_	_	
+47-22	6838-6841	and	_	_	
+47-23	6842-6844	is	_	_	
+47-24	6845-6856	unintuitive	_	_	
+47-25	6857-6859	to	_	_	
+47-26	6860-6864	find	_	_	
+
+#Text=.
+48-1	6864-6865	.	_	_	
+
+#Text=- `gamma_min`: The minimum value of gamma when finding it automatically.
+49-1	6870-6871	-	_	_	
+49-2	6872-6873	`	_	_	
+49-3	6873-6882	gamma_min	_	_	
+49-4	6882-6883	`	_	_	
+49-5	6883-6884	:	_	_	
+49-6	6885-6888	The	_	_	
+49-7	6889-6896	minimum	_	_	
+49-8	6897-6902	value	_	_	
+49-9	6903-6905	of	_	_	
+49-10	6906-6911	gamma	_	_	
+49-11	6912-6916	when	_	_	
+49-12	6917-6924	finding	_	_	
+49-13	6925-6927	it	_	_	
+49-14	6928-6941	automatically	_	_	
+49-15	6941-6942	.	_	_	
+
+#Text=By default, it is `1e-9`.
+50-1	6943-6945	By	_	_	
+50-2	6946-6953	default	_	_	
+50-3	6953-6954	,	_	_	
+50-4	6955-6957	it	_	_	
+50-5	6958-6960	is	_	_	
+50-6	6961-6962	`	_	_	
+50-7	6962-6964	1e	_	_	
+50-8	6964-6965	-	_	_	
+50-9	6965-6966	9	_	_	
+50-10	6966-6967	`	_	_	
+50-11	6967-6968	.	_	_	
+
+#Text=This is necessary for numerical stability.
+51-1	6969-6973	This	_	_	
+51-2	6974-6976	is	_	_	
+51-3	6977-6986	necessary	_	_	
+51-4	6987-6990	for	_	_	
+51-5	6991-7000	numerical	_	_	
+51-6	7001-7010	stability	_	_	
+51-7	7010-7011	.	_	_	
+
+#Text=Here is an example:
+#Text=```python
+#Text=graph_discovery.fit()
+#Text=```
+#Text=If you wish to discover the ancestors of a specific node, you can do so by specifying the `targets` parameter:
+#Text=```python
+#Text=graph_discovery.fit(targets=['$Raf$'])
+#Text=```
+#Text=
+#Text=Once the model is fitted, you can access all the results of the graph discovery using the `.G` attribute.
+52-1	7013-7017	Here	_	_	
+52-2	7018-7020	is	_	_	
+52-3	7021-7023	an	_	_	
+52-4	7024-7031	example	_	_	
+52-5	7031-7032	:	_	_	
+52-6	7033-7034	`	_	_	
+52-7	7034-7035	`	_	_	
+52-8	7035-7036	`	_	_	
+52-9	7036-7042	python	*	PROGLANG	
+52-10	7043-7062	graph_discovery.fit	_	_	
+52-11	7062-7063	(	_	_	
+52-12	7063-7064	)	_	_	
+52-13	7065-7066	`	_	_	
+52-14	7066-7067	`	_	_	
+52-15	7067-7068	`	_	_	
+52-16	7069-7071	If	_	_	
+52-17	7072-7075	you	_	_	
+52-18	7076-7080	wish	_	_	
+52-19	7081-7083	to	_	_	
+52-20	7084-7092	discover	_	_	
+52-21	7093-7096	the	_	_	
+52-22	7097-7106	ancestors	_	_	
+52-23	7107-7109	of	_	_	
+52-24	7110-7111	a	_	_	
+52-25	7112-7120	specific	_	_	
+52-26	7121-7125	node	_	_	
+52-27	7125-7126	,	_	_	
+52-28	7127-7130	you	_	_	
+52-29	7131-7134	can	_	_	
+52-30	7135-7137	do	_	_	
+52-31	7138-7140	so	_	_	
+52-32	7141-7143	by	_	_	
+52-33	7144-7154	specifying	_	_	
+52-34	7155-7158	the	_	_	
+52-35	7159-7160	`	_	_	
+52-36	7160-7167	targets	_	_	
+52-37	7167-7168	`	_	_	
+52-38	7169-7178	parameter	_	_	
+52-39	7178-7179	:	_	_	
+52-40	7180-7181	`	_	_	
+52-41	7181-7182	`	_	_	
+52-42	7182-7183	`	_	_	
+52-43	7183-7189	python	*	PROGLANG	
+52-44	7190-7209	graph_discovery.fit	_	_	
+52-45	7209-7210	(	_	_	
+52-46	7210-7217	targets	_	_	
+52-47	7217-7218	=	_	_	
+52-48	7218-7219	[	_	_	
+52-49	7219-7220	'	_	_	
+52-50	7220-7221	$	_	_	
+52-51	7221-7224	Raf	_	_	
+52-52	7224-7225	$	_	_	
+52-53	7225-7226	'	_	_	
+52-54	7226-7227	]	_	_	
+52-55	7227-7228	)	_	_	
+52-56	7229-7230	`	_	_	
+52-57	7230-7231	`	_	_	
+52-58	7231-7232	`	_	_	
+52-59	7234-7238	Once	_	_	
+52-60	7239-7242	the	_	_	
+52-61	7243-7248	model	_	_	
+52-62	7249-7251	is	_	_	
+52-63	7252-7258	fitted	_	_	
+52-64	7258-7259	,	_	_	
+52-65	7260-7263	you	_	_	
+52-66	7264-7267	can	_	_	
+52-67	7268-7274	access	_	_	
+52-68	7275-7278	all	_	_	
+52-69	7279-7282	the	_	_	
+52-70	7283-7290	results	_	_	
+52-71	7291-7293	of	_	_	
+52-72	7294-7297	the	_	_	
+52-73	7298-7303	graph	_	_	
+52-74	7304-7313	discovery	_	_	
+52-75	7314-7319	using	_	_	
+52-76	7320-7323	the	_	_	
+52-77	7324-7325	`	_	_	
+52-78	7325-7326	.	_	_	
+52-79	7326-7327	G	_	_	
+52-80	7327-7328	`	_	_	
+52-81	7329-7338	attribute	_	_	
+52-82	7338-7339	.	_	_	
+
+#Text=It is a `networkx` object, and you can use any of the methods provided by `networkx`.
+53-1	7340-7342	It	_	_	
+53-2	7343-7345	is	_	_	
+53-3	7346-7347	a	_	_	
+53-4	7348-7349	`	_	_	
+53-5	7349-7357	networkx	_	_	
+53-6	7357-7358	`	_	_	
+53-7	7359-7365	object	_	_	
+53-8	7365-7366	,	_	_	
+53-9	7367-7370	and	_	_	
+53-10	7371-7374	you	_	_	
+53-11	7375-7378	can	_	_	
+53-12	7379-7382	use	_	_	
+53-13	7383-7386	any	_	_	
+53-14	7387-7389	of	_	_	
+53-15	7390-7393	the	_	_	
+53-16	7394-7401	methods	_	_	
+53-17	7402-7410	provided	_	_	
+53-18	7411-7413	by	_	_	
+53-19	7414-7415	`	_	_	
+53-20	7415-7423	networkx	*	SOFTWARE	
+53-21	7423-7424	`	_	_	
+53-22	7424-7425	.	_	_	
+
+#Text=For example, you can plot the graph using the `.plot_graph()` method:
+#Text=```python
+#Text=graph_discovery.plot_graph()
+#Text=```
+#Text=
+#Text=>The `.plot_graph()` method allows for some customization of the resulting plot.
+54-1	7426-7429	For	_	_	
+54-2	7430-7437	example	_	_	
+54-3	7437-7438	,	_	_	
+54-4	7439-7442	you	_	_	
+54-5	7443-7446	can	_	_	
+54-6	7447-7451	plot	_	_	
+54-7	7452-7455	the	_	_	
+54-8	7456-7461	graph	_	_	
+54-9	7462-7467	using	_	_	
+54-10	7468-7471	the	_	_	
+54-11	7472-7473	`	_	_	
+54-12	7473-7474	.	_	_	
+54-13	7474-7484	plot_graph	_	_	
+54-14	7484-7485	(	_	_	
+54-15	7485-7486	)	_	_	
+54-16	7486-7487	`	_	_	
+54-17	7488-7494	method	_	_	
+54-18	7494-7495	:	_	_	
+54-19	7496-7497	`	_	_	
+54-20	7497-7498	`	_	_	
+54-21	7498-7499	`	_	_	
+54-22	7499-7505	python	*	PROGLANG	
+54-23	7506-7532	graph_discovery.plot_graph	_	_	
+54-24	7532-7533	(	_	_	
+54-25	7533-7534	)	_	_	
+54-26	7535-7536	`	_	_	
+54-27	7536-7537	`	_	_	
+54-28	7537-7538	`	_	_	
+54-29	7540-7541	>	_	_	
+54-30	7541-7544	The	_	_	
+54-31	7545-7546	`	_	_	
+54-32	7546-7547	.	_	_	
+54-33	7547-7557	plot_graph	_	_	
+54-34	7557-7558	(	_	_	
+54-35	7558-7559	)	_	_	
+54-36	7559-7560	`	_	_	
+54-37	7561-7567	method	_	_	
+54-38	7568-7574	allows	_	_	
+54-39	7575-7578	for	_	_	
+54-40	7579-7583	some	_	_	
+54-41	7584-7597	customization	_	_	
+54-42	7598-7600	of	_	_	
+54-43	7601-7604	the	_	_	
+54-44	7605-7614	resulting	_	_	
+54-45	7615-7619	plot	_	_	
+54-46	7619-7620	.	_	_	
+
+#Text=See the method's docstring for more details on available parameters
+55-1	7621-7624	See	_	_	
+55-2	7625-7628	the	_	_	
+55-3	7629-7637	method's	_	_	
+55-4	7638-7647	docstring	_	_	
+55-5	7648-7651	for	_	_	
+55-6	7652-7656	more	_	_	
+55-7	7657-7664	details	_	_	
+55-8	7665-7667	on	_	_	
+55-9	7668-7677	available	_	_	
+55-10	7678-7688	parameters	_	_	
+
+#Text=.
+56-1	7688-7689	.	_	_	
+
+#Text=> **Disclaimer**: Note that the data is assumed to be real numbers.
+57-1	7693-7694	>	_	_	
+57-2	7695-7696	*	_	_	
+57-3	7696-7697	*	_	_	
+57-4	7697-7707	Disclaimer	_	_	
+57-5	7707-7708	*	_	_	
+57-6	7708-7709	*	_	_	
+57-7	7709-7710	:	_	_	
+57-8	7711-7715	Note	_	_	
+57-9	7716-7720	that	_	_	
+57-10	7721-7724	the	_	_	
+57-11	7725-7729	data	_	_	
+57-12	7730-7732	is	_	_	
+57-13	7733-7740	assumed	_	_	
+57-14	7741-7743	to	_	_	
+57-15	7744-7746	be	_	_	
+57-16	7747-7751	real	_	_	
+57-17	7752-7759	numbers	_	_	
+57-18	7759-7760	.	_	_	
+
+#Text=The algorithm only accepts data in the form of a 2D array of shape (n_samples,n_features).
+58-1	7761-7764	The	_	_	
+58-2	7765-7774	algorithm	_	_	
+58-3	7775-7779	only	_	_	
+58-4	7780-7787	accepts	_	_	
+58-5	7788-7792	data	_	_	
+58-6	7793-7795	in	_	_	
+58-7	7796-7799	the	_	_	
+58-8	7800-7804	form	_	_	
+58-9	7805-7807	of	_	_	
+58-10	7808-7809	a	_	_	
+58-11	7810-7812	2D	_	_	
+58-12	7813-7818	array	_	_	
+58-13	7819-7821	of	_	_	
+58-14	7822-7827	shape	_	_	
+58-15	7828-7829	(	_	_	
+58-16	7829-7838	n_samples	_	_	
+58-17	7838-7839	,	_	_	
+58-18	7839-7849	n_features	_	_	
+58-19	7849-7850	)	_	_	
+58-20	7850-7851	.	_	_	
+
+#Text=Other shapes will be rejected, and other types of data will be treated as real numbers.
+#Text=
+#Text=
+#Text=
+#Text=## Manipulating kernels
+#Text=
+#Text=The kernel is the function used to define the type of functions that will link the nodes.
+59-1	7852-7857	Other	_	_	
+59-2	7858-7864	shapes	_	_	
+59-3	7865-7869	will	_	_	
+59-4	7870-7872	be	_	_	
+59-5	7873-7881	rejected	_	_	
+59-6	7881-7882	,	_	_	
+59-7	7883-7886	and	_	_	
+59-8	7887-7892	other	_	_	
+59-9	7893-7898	types	_	_	
+59-10	7899-7901	of	_	_	
+59-11	7902-7906	data	_	_	
+59-12	7907-7911	will	_	_	
+59-13	7912-7914	be	_	_	
+59-14	7915-7922	treated	_	_	
+59-15	7923-7925	as	_	_	
+59-16	7926-7930	real	_	_	
+59-17	7931-7938	numbers	_	_	
+59-18	7938-7939	.	_	_	
+59-19	7943-7944	#	_	_	
+59-20	7944-7945	#	_	_	
+59-21	7946-7958	Manipulating	_	_	
+59-22	7959-7966	kernels	_	_	
+59-23	7968-7971	The	_	_	
+59-24	7972-7978	kernel	_	_	
+59-25	7979-7981	is	_	_	
+59-26	7982-7985	the	_	_	
+59-27	7986-7994	function	_	_	
+59-28	7995-7999	used	_	_	
+59-29	8000-8002	to	_	_	
+59-30	8003-8009	define	_	_	
+59-31	8010-8013	the	_	_	
+59-32	8014-8018	type	_	_	
+59-33	8019-8021	of	_	_	
+59-34	8022-8031	functions	_	_	
+59-35	8032-8036	that	_	_	
+59-36	8037-8041	will	_	_	
+59-37	8042-8046	link	_	_	
+59-38	8047-8050	the	_	_	
+59-39	8051-8056	nodes	_	_	
+59-40	8056-8057	.	_	_	
+
+#Text=The code provides a set of kernels, but you can easily add your own.
+60-1	8058-8061	The	_	_	
+60-2	8062-8066	code	_	_	
+60-3	8067-8075	provides	_	_	
+60-4	8076-8077	a	_	_	
+60-5	8078-8081	set	_	_	
+60-6	8082-8084	of	_	_	
+60-7	8085-8092	kernels	_	_	
+60-8	8092-8093	,	_	_	
+60-9	8094-8097	but	_	_	
+60-10	8098-8101	you	_	_	
+60-11	8102-8105	can	_	_	
+60-12	8106-8112	easily	_	_	
+60-13	8113-8116	add	_	_	
+60-14	8117-8121	your	_	_	
+60-15	8122-8125	own	_	_	
+60-16	8125-8126	.	_	_	
+
+#Text=The interface is designed to ressemble the scikit-learn API, and you can use any kernel from scikit-learn
+61-1	8127-8130	The	_	_	
+61-2	8131-8140	interface	_	_	
+61-3	8141-8143	is	_	_	
+61-4	8144-8152	designed	_	_	
+61-5	8153-8155	to	_	_	
+61-6	8156-8165	ressemble	_	_	
+61-7	8166-8169	the	_	_	
+61-8	8170-8182	scikit-learn	*	SOFTWARE	
+61-9	8183-8186	API	_	_	
+61-10	8186-8187	,	_	_	
+61-11	8188-8191	and	_	_	
+61-12	8192-8195	you	_	_	
+61-13	8196-8199	can	_	_	
+61-14	8200-8203	use	_	_	
+61-15	8204-8207	any	_	_	
+61-16	8208-8214	kernel	_	_	
+61-17	8215-8219	from	_	_	
+61-18	8220-8232	scikit-learn	*	SOFTWARE	
+
+#Text=.
+62-1	8232-8233	.	_	_	
+
+#Text=> **Definitions**: a kernel is a function $k$ such that $k(x,y)=\\langle \\phi(x),\\phi(y)\\rangle$ for some feature map $\\phi$. it allows the definition of a similarity measure between two points and enhances the expressivity of the model.
+63-1	8236-8237	>	_	_	
+63-2	8238-8239	*	_	_	
+63-3	8239-8240	*	_	_	
+63-4	8240-8251	Definitions	_	_	
+63-5	8251-8252	*	_	_	
+63-6	8252-8253	*	_	_	
+63-7	8253-8254	:	_	_	
+63-8	8255-8256	a	_	_	
+63-9	8257-8263	kernel	_	_	
+63-10	8264-8266	is	_	_	
+63-11	8267-8268	a	_	_	
+63-12	8269-8277	function	_	_	
+63-13	8278-8279	$	_	_	
+63-14	8279-8280	k	_	_	
+63-15	8280-8281	$	_	_	
+63-16	8282-8286	such	_	_	
+63-17	8287-8291	that	_	_	
+63-18	8292-8293	$	_	_	
+63-19	8293-8294	k	_	_	
+63-20	8294-8295	(	_	_	
+63-21	8295-8296	x	_	_	
+63-22	8296-8297	,	_	_	
+63-23	8297-8298	y	_	_	
+63-24	8298-8299	)	_	_	
+63-25	8299-8300	=	_	_	
+63-26	8300-8301	\	_	_	
+63-27	8301-8307	langle	_	_	
+63-28	8308-8309	\	_	_	
+63-29	8309-8312	phi	_	_	
+63-30	8312-8313	(	_	_	
+63-31	8313-8314	x	_	_	
+63-32	8314-8315	)	_	_	
+63-33	8315-8316	,	_	_	
+63-34	8316-8317	\	_	_	
+63-35	8317-8320	phi	_	_	
+63-36	8320-8321	(	_	_	
+63-37	8321-8322	y	_	_	
+63-38	8322-8323	)	_	_	
+63-39	8323-8324	\	_	_	
+63-40	8324-8330	rangle	_	_	
+63-41	8330-8331	$	_	_	
+63-42	8332-8335	for	_	_	
+63-43	8336-8340	some	_	_	
+63-44	8341-8348	feature	_	_	
+63-45	8349-8352	map	_	_	
+63-46	8353-8354	$	_	_	
+63-47	8354-8355	\	_	_	
+63-48	8355-8358	phi	_	_	
+63-49	8358-8359	$	_	_	
+63-50	8359-8360	.	_	_	
+63-51	8361-8363	it	_	_	
+63-52	8364-8370	allows	_	_	
+63-53	8371-8374	the	_	_	
+63-54	8375-8385	definition	_	_	
+63-55	8386-8388	of	_	_	
+63-56	8389-8390	a	_	_	
+63-57	8391-8401	similarity	_	_	
+63-58	8402-8409	measure	_	_	
+63-59	8410-8417	between	_	_	
+63-60	8418-8421	two	_	_	
+63-61	8422-8428	points	_	_	
+63-62	8429-8432	and	_	_	
+63-63	8433-8441	enhances	_	_	
+63-64	8442-8445	the	_	_	
+63-65	8446-8458	expressivity	_	_	
+63-66	8459-8461	of	_	_	
+63-67	8462-8465	the	_	_	
+63-68	8466-8471	model	_	_	
+63-69	8471-8472	.	_	_	
+
+#Text=We use kernels extensively in this project and will define some terms here:
+#Text=> - **Kernel**: a function $k$ used to perform the downstream ML task (here, identify the ancestors)
+64-1	8473-8475	We	_	_	
+64-2	8476-8479	use	_	_	
+64-3	8480-8487	kernels	_	_	
+64-4	8488-8499	extensively	_	_	
+64-5	8500-8502	in	_	_	
+64-6	8503-8507	this	_	_	
+64-7	8508-8515	project	_	_	
+64-8	8516-8519	and	_	_	
+64-9	8520-8524	will	_	_	
+64-10	8525-8531	define	_	_	
+64-11	8532-8536	some	_	_	
+64-12	8537-8542	terms	_	_	
+64-13	8543-8547	here	_	_	
+64-14	8547-8548	:	_	_	
+64-15	8549-8550	>	_	_	
+64-16	8551-8552	-	_	_	
+64-17	8553-8554	*	_	_	
+64-18	8554-8555	*	_	_	
+64-19	8555-8561	Kernel	_	_	
+64-20	8561-8562	*	_	_	
+64-21	8562-8563	*	_	_	
+64-22	8563-8564	:	_	_	
+64-23	8565-8566	a	_	_	
+64-24	8567-8575	function	_	_	
+64-25	8576-8577	$	_	_	
+64-26	8577-8578	k	_	_	
+64-27	8578-8579	$	_	_	
+64-28	8580-8584	used	_	_	
+64-29	8585-8587	to	_	_	
+64-30	8588-8595	perform	_	_	
+64-31	8596-8599	the	_	_	
+64-32	8600-8610	downstream	_	_	
+64-33	8611-8613	ML	_	_	
+64-34	8614-8618	task	_	_	
+64-35	8619-8620	(	_	_	
+64-36	8620-8624	here	_	_	
+64-37	8624-8625	,	_	_	
+64-38	8626-8634	identify	_	_	
+64-39	8635-8638	the	_	_	
+64-40	8639-8648	ancestors	_	_	
+64-41	8648-8649	)	_	_	
+
+#Text=.
+65-1	8649-8650	.	_	_	
+
+#Text=> - **Kernel Matrix**: Given a kernel $k$ and a dataset $X$ of shape (n_features,n_samples), the kernel matrix is a matrix of shape (n_samples,n_samples) defined by $K_{i,j}=k(X_i, X_j)$.
+#Text=> - **Kernel Mode**: A kernel mode is a kernel itself that is used to form a sum kernel (if $k=k_1+k_2$, $k_1$ and $k_2$ are kernel modes of $k$)
+#Text=> - **Kernel Mode Matrix**: Given kernel modes $k_1,..,k_p$ of $k$ ($k=k_1+..
+66-1	8652-8653	>	_	_	
+66-2	8654-8655	-	_	_	
+66-3	8656-8657	*	_	_	
+66-4	8657-8658	*	_	_	
+66-5	8658-8664	Kernel	_	_	
+66-6	8665-8671	Matrix	_	_	
+66-7	8671-8672	*	_	_	
+66-8	8672-8673	*	_	_	
+66-9	8673-8674	:	_	_	
+66-10	8675-8680	Given	_	_	
+66-11	8681-8682	a	_	_	
+66-12	8683-8689	kernel	_	_	
+66-13	8690-8691	$	_	_	
+66-14	8691-8692	k	_	_	
+66-15	8692-8693	$	_	_	
+66-16	8694-8697	and	_	_	
+66-17	8698-8699	a	_	_	
+66-18	8700-8707	dataset	_	_	
+66-19	8708-8709	$	_	_	
+66-20	8709-8710	X	_	_	
+66-21	8710-8711	$	_	_	
+66-22	8712-8714	of	_	_	
+66-23	8715-8720	shape	_	_	
+66-24	8721-8722	(	_	_	
+66-25	8722-8732	n_features	_	_	
+66-26	8732-8733	,	_	_	
+66-27	8733-8742	n_samples	_	_	
+66-28	8742-8743	)	_	_	
+66-29	8743-8744	,	_	_	
+66-30	8745-8748	the	_	_	
+66-31	8749-8755	kernel	_	_	
+66-32	8756-8762	matrix	_	_	
+66-33	8763-8765	is	_	_	
+66-34	8766-8767	a	_	_	
+66-35	8768-8774	matrix	_	_	
+66-36	8775-8777	of	_	_	
+66-37	8778-8783	shape	_	_	
+66-38	8784-8785	(	_	_	
+66-39	8785-8794	n_samples	_	_	
+66-40	8794-8795	,	_	_	
+66-41	8795-8804	n_samples	_	_	
+66-42	8804-8805	)	_	_	
+66-43	8806-8813	defined	_	_	
+66-44	8814-8816	by	_	_	
+66-45	8817-8818	$	_	_	
+66-46	8818-8819	K	_	_	
+66-47	8819-8820	_	_	_	
+66-48	8820-8821	{	_	_	
+66-49	8821-8822	i	_	_	
+66-50	8822-8823	,	_	_	
+66-51	8823-8824	j	_	_	
+66-52	8824-8825	}	_	_	
+66-53	8825-8826	=	_	_	
+66-54	8826-8827	k	_	_	
+66-55	8827-8828	(	_	_	
+66-56	8828-8831	X_i	_	_	
+66-57	8831-8832	,	_	_	
+66-58	8833-8836	X_j	_	_	
+66-59	8836-8837	)	_	_	
+66-60	8837-8838	$	_	_	
+66-61	8838-8839	.	_	_	
+66-62	8840-8841	>	_	_	
+66-63	8842-8843	-	_	_	
+66-64	8844-8845	*	_	_	
+66-65	8845-8846	*	_	_	
+66-66	8846-8852	Kernel	_	_	
+66-67	8853-8857	Mode	_	_	
+66-68	8857-8858	*	_	_	
+66-69	8858-8859	*	_	_	
+66-70	8859-8860	:	_	_	
+66-71	8861-8862	A	_	_	
+66-72	8863-8869	kernel	_	_	
+66-73	8870-8874	mode	_	_	
+66-74	8875-8877	is	_	_	
+66-75	8878-8879	a	_	_	
+66-76	8880-8886	kernel	_	_	
+66-77	8887-8893	itself	_	_	
+66-78	8894-8898	that	_	_	
+66-79	8899-8901	is	_	_	
+66-80	8902-8906	used	_	_	
+66-81	8907-8909	to	_	_	
+66-82	8910-8914	form	_	_	
+66-83	8915-8916	a	_	_	
+66-84	8917-8920	sum	_	_	
+66-85	8921-8927	kernel	_	_	
+66-86	8928-8929	(	_	_	
+66-87	8929-8931	if	_	_	
+66-88	8932-8933	$	_	_	
+66-89	8933-8934	k	_	_	
+66-90	8934-8935	=	_	_	
+66-91	8935-8936	k	_	_	
+66-92	8936-8937	_	_	_	
+66-93	8937-8938	1	_	_	
+66-94	8938-8939	+	_	_	
+66-95	8939-8940	k	_	_	
+66-96	8940-8941	_	_	_	
+66-97	8941-8942	2	_	_	
+66-98	8942-8943	$	_	_	
+66-99	8943-8944	,	_	_	
+66-100	8945-8946	$	_	_	
+66-101	8946-8947	k	_	_	
+66-102	8947-8948	_	_	_	
+66-103	8948-8949	1	_	_	
+66-104	8949-8950	$	_	_	
+66-105	8951-8954	and	_	_	
+66-106	8955-8956	$	_	_	
+66-107	8956-8957	k	_	_	
+66-108	8957-8958	_	_	_	
+66-109	8958-8959	2	_	_	
+66-110	8959-8960	$	_	_	
+66-111	8961-8964	are	_	_	
+66-112	8965-8971	kernel	_	_	
+66-113	8972-8977	modes	_	_	
+66-114	8978-8980	of	_	_	
+66-115	8981-8982	$	_	_	
+66-116	8982-8983	k	_	_	
+66-117	8983-8984	$	_	_	
+66-118	8984-8985	)	_	_	
+66-119	8986-8987	>	_	_	
+66-120	8988-8989	-	_	_	
+66-121	8990-8991	*	_	_	
+66-122	8991-8992	*	_	_	
+66-123	8992-8998	Kernel	_	_	
+66-124	8999-9003	Mode	_	_	
+66-125	9004-9010	Matrix	_	_	
+66-126	9010-9011	*	_	_	
+66-127	9011-9012	*	_	_	
+66-128	9012-9013	:	_	_	
+66-129	9014-9019	Given	_	_	
+66-130	9020-9026	kernel	_	_	
+66-131	9027-9032	modes	_	_	
+66-132	9033-9034	$	_	_	
+66-133	9034-9035	k	_	_	
+66-134	9035-9036	_	_	_	
+66-135	9036-9037	1	_	_	
+66-136	9037-9038	,	_	_	
+66-137	9038-9039	.	_	_	
+66-138	9039-9040	.	_	_	
+66-139	9040-9041	,	_	_	
+66-140	9041-9044	k_p	_	_	
+66-141	9044-9045	$	_	_	
+66-142	9046-9048	of	_	_	
+66-143	9049-9050	$	_	_	
+66-144	9050-9051	k	_	_	
+66-145	9051-9052	$	_	_	
+66-146	9053-9054	(	_	_	
+66-147	9054-9055	$	_	_	
+66-148	9055-9056	k	_	_	
+66-149	9056-9057	=	_	_	
+66-150	9057-9058	k	_	_	
+66-151	9058-9059	_	_	_	
+66-152	9059-9060	1	_	_	
+66-153	9060-9061	+	_	_	
+66-154	9061-9062	.	_	_	
+66-155	9062-9063	.	_	_	
+
+#Text=+k_p$) and a dataset $X$ of shape (n_features,n_samples), the kernel mode matrix is a matrix of shape (p,n_samples,n_samples) defined by $K_{l, i,j}=k_l(X_i, X_j)$ where $k_l$ is the ith kernel mode of $k$.
+67-1	9063-9064	+	_	_	
+67-2	9064-9067	k_p	_	_	
+67-3	9067-9068	$	_	_	
+67-4	9068-9069	)	_	_	
+67-5	9070-9073	and	_	_	
+67-6	9074-9075	a	_	_	
+67-7	9076-9083	dataset	_	_	
+67-8	9084-9085	$	_	_	
+67-9	9085-9086	X	_	_	
+67-10	9086-9087	$	_	_	
+67-11	9088-9090	of	_	_	
+67-12	9091-9096	shape	_	_	
+67-13	9097-9098	(	_	_	
+67-14	9098-9108	n_features	_	_	
+67-15	9108-9109	,	_	_	
+67-16	9109-9118	n_samples	_	_	
+67-17	9118-9119	)	_	_	
+67-18	9119-9120	,	_	_	
+67-19	9121-9124	the	_	_	
+67-20	9125-9131	kernel	_	_	
+67-21	9132-9136	mode	_	_	
+67-22	9137-9143	matrix	_	_	
+67-23	9144-9146	is	_	_	
+67-24	9147-9148	a	_	_	
+67-25	9149-9155	matrix	_	_	
+67-26	9156-9158	of	_	_	
+67-27	9159-9164	shape	_	_	
+67-28	9165-9166	(	_	_	
+67-29	9166-9167	p	_	_	
+67-30	9167-9168	,	_	_	
+67-31	9168-9177	n_samples	_	_	
+67-32	9177-9178	,	_	_	
+67-33	9178-9187	n_samples	_	_	
+67-34	9187-9188	)	_	_	
+67-35	9189-9196	defined	_	_	
+67-36	9197-9199	by	_	_	
+67-37	9200-9201	$	_	_	
+67-38	9201-9202	K	_	_	
+67-39	9202-9203	_	_	_	
+67-40	9203-9204	{	_	_	
+67-41	9204-9205	l	_	_	
+67-42	9205-9206	,	_	_	
+67-43	9207-9208	i	_	_	
+67-44	9208-9209	,	_	_	
+67-45	9209-9210	j	_	_	
+67-46	9210-9211	}	_	_	
+67-47	9211-9212	=	_	_	
+67-48	9212-9215	k_l	_	_	
+67-49	9215-9216	(	_	_	
+67-50	9216-9219	X_i	_	_	
+67-51	9219-9220	,	_	_	
+67-52	9221-9224	X_j	_	_	
+67-53	9224-9225	)	_	_	
+67-54	9225-9226	$	_	_	
+67-55	9227-9232	where	_	_	
+67-56	9233-9234	$	_	_	
+67-57	9234-9237	k_l	_	_	
+67-58	9237-9238	$	_	_	
+67-59	9239-9241	is	_	_	
+67-60	9242-9245	the	_	_	
+67-61	9246-9249	ith	_	_	
+67-62	9250-9256	kernel	_	_	
+67-63	9257-9261	mode	_	_	
+67-64	9262-9264	of	_	_	
+67-65	9265-9266	$	_	_	
+67-66	9266-9267	k	_	_	
+67-67	9267-9268	$	_	_	
+67-68	9268-9269	.	_	_	
+
+#Text=We have $K_{i,j}=k(X_i,X_j)=\\sum_{l=1}^p K_{l,i,j}$.
+68-1	9270-9272	We	_	_	
+68-2	9273-9277	have	_	_	
+68-3	9278-9279	$	_	_	
+68-4	9279-9280	K	_	_	
+68-5	9280-9281	_	_	_	
+68-6	9281-9282	{	_	_	
+68-7	9282-9283	i	_	_	
+68-8	9283-9284	,	_	_	
+68-9	9284-9285	j	_	_	
+68-10	9285-9286	}	_	_	
+68-11	9286-9287	=	_	_	
+68-12	9287-9288	k	_	_	
+68-13	9288-9289	(	_	_	
+68-14	9289-9292	X_i	_	_	
+68-15	9292-9293	,	_	_	
+68-16	9293-9296	X_j	_	_	
+68-17	9296-9297	)	_	_	
+68-18	9297-9298	=	_	_	
+68-19	9298-9299	\	_	_	
+68-20	9299-9302	sum	_	_	
+68-21	9302-9303	_	_	_	
+68-22	9303-9304	{	_	_	
+68-23	9304-9305	l	_	_	
+68-24	9305-9306	=	_	_	
+68-25	9306-9307	1	_	_	
+68-26	9307-9308	}	_	_	
+68-27	9308-9309	^	_	_	
+68-28	9309-9310	p	_	_	
+68-29	9311-9312	K	_	_	
+68-30	9312-9313	_	_	_	
+68-31	9313-9314	{	_	_	
+68-32	9314-9315	l	_	_	
+68-33	9315-9316	,	_	_	
+68-34	9316-9317	i	_	_	
+68-35	9317-9318	,	_	_	
+68-36	9318-9319	j	_	_	
+68-37	9319-9320	}	_	_	
+68-38	9320-9321	$	_	_	
+68-39	9321-9322	.	_	_	
+
+#Text=To manipulate kernels, import the modes module:
+#Text=```python
+#Text=import ComputationalHypergraphDiscovery.Modes as Modes
+#Text=```
+#Text=
+#Text=
+#Text=The `ModeKernel` interface defines our kernel modes.
+69-1	9325-9327	To	_	_	
+69-2	9328-9338	manipulate	_	_	
+69-3	9339-9346	kernels	_	_	
+69-4	9346-9347	,	_	_	
+69-5	9348-9354	import	_	_	
+69-6	9355-9358	the	_	_	
+69-7	9359-9364	modes	_	_	
+69-8	9365-9371	module	_	_	
+69-9	9371-9372	:	_	_	
+69-10	9373-9374	`	_	_	
+69-11	9374-9375	`	_	_	
+69-12	9375-9376	`	_	_	
+69-13	9376-9382	python	*	PROGLANG	
+69-14	9383-9389	import	_	_	
+69-15	9390-9428	ComputationalHypergraphDiscovery.Modes	_	_	
+69-15.1	9390-9422	ComputationalHypergraphDiscovery	*	SOFTWARE	
+69-16	9429-9431	as	_	_	
+69-17	9432-9437	Modes	_	_	
+69-18	9438-9439	`	_	_	
+69-19	9439-9440	`	_	_	
+69-20	9440-9441	`	_	_	
+69-21	9444-9447	The	_	_	
+69-22	9448-9449	`	_	_	
+69-23	9449-9459	ModeKernel	_	_	
+69-24	9459-9460	`	_	_	
+69-25	9461-9470	interface	_	_	
+69-26	9471-9478	defines	_	_	
+69-27	9479-9482	our	_	_	
+69-28	9483-9489	kernel	_	_	
+69-29	9490-9495	modes	_	_	
+69-30	9495-9496	.	_	_	
+
+#Text=An example of a kernel mode is the `LinearMode` class, which implements the linear kernel that can be used as a mode.
+70-1	9497-9499	An	_	_	
+70-2	9500-9507	example	_	_	
+70-3	9508-9510	of	_	_	
+70-4	9511-9512	a	_	_	
+70-5	9513-9519	kernel	_	_	
+70-6	9520-9524	mode	_	_	
+70-7	9525-9527	is	_	_	
+70-8	9528-9531	the	_	_	
+70-9	9532-9533	`	_	_	
+70-10	9533-9543	LinearMode	_	_	
+70-11	9543-9544	`	_	_	
+70-12	9545-9550	class	_	_	
+70-13	9550-9551	,	_	_	
+70-14	9552-9557	which	_	_	
+70-15	9558-9568	implements	_	_	
+70-16	9569-9572	the	_	_	
+70-17	9573-9579	linear	_	_	
+70-18	9580-9586	kernel	_	_	
+70-19	9587-9591	that	_	_	
+70-20	9592-9595	can	_	_	
+70-21	9596-9598	be	_	_	
+70-22	9599-9603	used	_	_	
+70-23	9604-9606	as	_	_	
+70-24	9607-9608	a	_	_	
+70-25	9609-9613	mode	_	_	
+70-26	9613-9614	.	_	_	
+
+#Text=Currently, we only provide the 3 kernels used in the paper, applied to $x$ and $y$ that are rows of our dataset:
+#Text=- **LinearMode**: The linear kernel
+71-1	9615-9624	Currently	_	_	
+71-2	9624-9625	,	_	_	
+71-3	9626-9628	we	_	_	
+71-4	9629-9633	only	_	_	
+71-5	9634-9641	provide	_	_	
+71-6	9642-9645	the	_	_	
+71-7	9646-9647	3	_	_	
+71-8	9648-9655	kernels	_	_	
+71-9	9656-9660	used	_	_	
+71-10	9661-9663	in	_	_	
+71-11	9664-9667	the	_	_	
+71-12	9668-9673	paper	_	_	
+71-13	9673-9674	,	_	_	
+71-14	9675-9682	applied	_	_	
+71-15	9683-9685	to	_	_	
+71-16	9686-9687	$	_	_	
+71-17	9687-9688	x	_	_	
+71-18	9688-9689	$	_	_	
+71-19	9690-9693	and	_	_	
+71-20	9694-9695	$	_	_	
+71-21	9695-9696	y	_	_	
+71-22	9696-9697	$	_	_	
+71-23	9698-9702	that	_	_	
+71-24	9703-9706	are	_	_	
+71-25	9707-9711	rows	_	_	
+71-26	9712-9714	of	_	_	
+71-27	9715-9718	our	_	_	
+71-28	9719-9726	dataset	_	_	
+71-29	9726-9727	:	_	_	
+71-30	9728-9729	-	_	_	
+71-31	9730-9731	*	_	_	
+71-32	9731-9732	*	_	_	
+71-33	9732-9742	LinearMode	_	_	
+71-34	9742-9743	*	_	_	
+71-35	9743-9744	*	_	_	
+71-36	9744-9745	:	_	_	
+71-37	9746-9749	The	_	_	
+71-38	9750-9756	linear	_	_	
+71-39	9757-9763	kernel	_	_	
+
+#Text=.
+72-1	9763-9764	.	_	_	
+
+#Text=- not interpolatory 
+#Text=    - $\\kappa_{\\text{linear}}(x,y)=1+\\langle x,y\\rangle$
+#Text=    - Call: `Modes.LinearMode()`
+#Text=- **QuadraticMode**: The quadratic kernel
+73-1	9770-9771	-	_	_	
+73-2	9772-9775	not	_	_	
+73-3	9776-9789	interpolatory	_	_	
+73-4	9795-9796	-	_	_	
+73-5	9797-9798	$	_	_	
+73-6	9798-9799	\	_	_	
+73-7	9799-9804	kappa	_	_	
+73-8	9804-9805	_	_	_	
+73-9	9805-9806	{	_	_	
+73-10	9806-9807	\	_	_	
+73-11	9807-9811	text	_	_	
+73-12	9811-9812	{	_	_	
+73-13	9812-9818	linear	_	_	
+73-14	9818-9819	}	_	_	
+73-15	9819-9820	}	_	_	
+73-16	9820-9821	(	_	_	
+73-17	9821-9822	x	_	_	
+73-18	9822-9823	,	_	_	
+73-19	9823-9824	y	_	_	
+73-20	9824-9825	)	_	_	
+73-21	9825-9826	=	_	_	
+73-22	9826-9827	1	_	_	
+73-23	9827-9828	+	_	_	
+73-24	9828-9829	\	_	_	
+73-25	9829-9835	langle	_	_	
+73-26	9836-9837	x	_	_	
+73-27	9837-9838	,	_	_	
+73-28	9838-9839	y	_	_	
+73-29	9839-9840	\	_	_	
+73-30	9840-9846	rangle	_	_	
+73-31	9846-9847	$	_	_	
+73-32	9852-9853	-	_	_	
+73-33	9854-9858	Call	_	_	
+73-34	9858-9859	:	_	_	
+73-35	9860-9861	`	_	_	
+73-36	9861-9877	Modes.LinearMode	_	_	
+73-37	9877-9878	(	_	_	
+73-38	9878-9879	)	_	_	
+73-39	9879-9880	`	_	_	
+73-40	9881-9882	-	_	_	
+73-41	9883-9884	*	_	_	
+73-42	9884-9885	*	_	_	
+73-43	9885-9898	QuadraticMode	_	_	
+73-44	9898-9899	*	_	_	
+73-45	9899-9900	*	_	_	
+73-46	9900-9901	:	_	_	
+73-47	9902-9905	The	_	_	
+73-48	9906-9915	quadratic	_	_	
+73-49	9916-9922	kernel	_	_	
+
+#Text=.
+74-1	9922-9923	.	_	_	
+
+#Text=- not interpolatory 
+#Text=    - $\\kappa_{\\text{quadratic}}(x,y)=(1+\\langle x,y\\rangle)^2$ (only implemented for $x_1,y_1,x_2,y_2\\in\\mathbb{R}$)
+75-1	9929-9930	-	_	_	
+75-2	9931-9934	not	_	_	
+75-3	9935-9948	interpolatory	_	_	
+75-4	9954-9955	-	_	_	
+75-5	9956-9957	$	_	_	
+75-6	9957-9958	\	_	_	
+75-7	9958-9963	kappa	_	_	
+75-8	9963-9964	_	_	_	
+75-9	9964-9965	{	_	_	
+75-10	9965-9966	\	_	_	
+75-11	9966-9970	text	_	_	
+75-12	9970-9971	{	_	_	
+75-13	9971-9980	quadratic	_	_	
+75-14	9980-9981	}	_	_	
+75-15	9981-9982	}	_	_	
+75-16	9982-9983	(	_	_	
+75-17	9983-9984	x	_	_	
+75-18	9984-9985	,	_	_	
+75-19	9985-9986	y	_	_	
+75-20	9986-9987	)	_	_	
+75-21	9987-9988	=	_	_	
+75-22	9988-9989	(	_	_	
+75-23	9989-9990	1	_	_	
+75-24	9990-9991	+	_	_	
+75-25	9991-9992	\	_	_	
+75-26	9992-9998	langle	_	_	
+75-27	9999-10000	x	_	_	
+75-28	10000-10001	,	_	_	
+75-29	10001-10002	y	_	_	
+75-30	10002-10003	\	_	_	
+75-31	10003-10009	rangle	_	_	
+75-32	10009-10010	)	_	_	
+75-33	10010-10011	^	_	_	
+75-34	10011-10012	2	_	_	
+75-35	10012-10013	$	_	_	
+75-36	10014-10015	(	_	_	
+75-37	10015-10019	only	_	_	
+75-38	10020-10031	implemented	_	_	
+75-39	10032-10035	for	_	_	
+75-40	10036-10037	$	_	_	
+75-41	10037-10038	x	_	_	
+75-42	10038-10039	_	_	_	
+75-43	10039-10040	1	_	_	
+75-44	10040-10041	,	_	_	
+75-45	10041-10042	y	_	_	
+75-46	10042-10043	_	_	_	
+75-47	10043-10044	1	_	_	
+75-48	10044-10045	,	_	_	
+75-49	10045-10046	x	_	_	
+75-50	10046-10047	_	_	_	
+75-51	10047-10048	2	_	_	
+75-52	10048-10049	,	_	_	
+75-53	10049-10050	y	_	_	
+75-54	10050-10051	_	_	_	
+75-55	10051-10052	2	_	_	
+75-56	10052-10053	\	_	_	
+75-57	10053-10055	in	_	_	
+75-58	10055-10056	\	_	_	
+75-59	10056-10062	mathbb	_	_	
+75-60	10062-10063	{	_	_	
+75-61	10063-10064	R	_	_	
+75-62	10064-10065	}	_	_	
+75-63	10065-10066	$	_	_	
+75-64	10066-10067	)	_	_	
+
+#Text=.
+76-1	10067-10068	.	_	_	
+
+#Text=- Call: `Modes.QuadraticMode()`
+#Text=- **GaussianMode**: The Gaussian kernel
+77-1	10073-10074	-	_	_	
+77-2	10075-10079	Call	_	_	
+77-3	10079-10080	:	_	_	
+77-4	10081-10082	`	_	_	
+77-5	10082-10101	Modes.QuadraticMode	_	_	
+77-6	10101-10102	(	_	_	
+77-7	10102-10103	)	_	_	
+77-8	10103-10104	`	_	_	
+77-9	10105-10106	-	_	_	
+77-10	10107-10108	*	_	_	
+77-11	10108-10109	*	_	_	
+77-12	10109-10121	GaussianMode	_	_	
+77-13	10121-10122	*	_	_	
+77-14	10122-10123	*	_	_	
+77-15	10123-10124	:	_	_	
+77-16	10125-10128	The	_	_	
+77-17	10129-10137	Gaussian	_	_	
+77-18	10138-10144	kernel	_	_	
+
+#Text=.
+78-1	10144-10145	.	_	_	
+
+#Text=- interpolatory 
+#Text=    - has hyperparameter `l` the lengthscale
+#Text=    - $\\kappa_{\\text{gaussian}}(x,y)=\\kappa_{\\text{quadratic}}(x,y)+\\prod_{i=1}^p (1+\\exp(-(x_i-y_i)^2/(2l^2)))$ only implemented for $x,y\\in\\mathbb{R}$
+79-1	10151-10152	-	_	_	
+79-2	10153-10166	interpolatory	_	_	
+79-3	10172-10173	-	_	_	
+79-4	10174-10177	has	_	_	
+79-5	10178-10192	hyperparameter	_	_	
+79-6	10193-10194	`	_	_	
+79-7	10194-10195	l	_	_	
+79-8	10195-10196	`	_	_	
+79-9	10197-10200	the	_	_	
+79-10	10201-10212	lengthscale	_	_	
+79-11	10217-10218	-	_	_	
+79-12	10219-10220	$	_	_	
+79-13	10220-10221	\	_	_	
+79-14	10221-10226	kappa	_	_	
+79-15	10226-10227	_	_	_	
+79-16	10227-10228	{	_	_	
+79-17	10228-10229	\	_	_	
+79-18	10229-10233	text	_	_	
+79-19	10233-10234	{	_	_	
+79-20	10234-10242	gaussian	_	_	
+79-21	10242-10243	}	_	_	
+79-22	10243-10244	}	_	_	
+79-23	10244-10245	(	_	_	
+79-24	10245-10246	x	_	_	
+79-25	10246-10247	,	_	_	
+79-26	10247-10248	y	_	_	
+79-27	10248-10249	)	_	_	
+79-28	10249-10250	=	_	_	
+79-29	10250-10251	\	_	_	
+79-30	10251-10256	kappa	_	_	
+79-31	10256-10257	_	_	_	
+79-32	10257-10258	{	_	_	
+79-33	10258-10259	\	_	_	
+79-34	10259-10263	text	_	_	
+79-35	10263-10264	{	_	_	
+79-36	10264-10273	quadratic	_	_	
+79-37	10273-10274	}	_	_	
+79-38	10274-10275	}	_	_	
+79-39	10275-10276	(	_	_	
+79-40	10276-10277	x	_	_	
+79-41	10277-10278	,	_	_	
+79-42	10278-10279	y	_	_	
+79-43	10279-10280	)	_	_	
+79-44	10280-10281	+	_	_	
+79-45	10281-10282	\	_	_	
+79-46	10282-10286	prod	_	_	
+79-47	10286-10287	_	_	_	
+79-48	10287-10288	{	_	_	
+79-49	10288-10289	i	_	_	
+79-50	10289-10290	=	_	_	
+79-51	10290-10291	1	_	_	
+79-52	10291-10292	}	_	_	
+79-53	10292-10293	^	_	_	
+79-54	10293-10294	p	_	_	
+79-55	10295-10296	(	_	_	
+79-56	10296-10297	1	_	_	
+79-57	10297-10298	+	_	_	
+79-58	10298-10299	\	_	_	
+79-59	10299-10302	exp	_	_	
+79-60	10302-10303	(	_	_	
+79-61	10303-10304	-	_	_	
+79-62	10304-10305	(	_	_	
+79-63	10305-10312	x_i-y_i	_	_	
+79-64	10312-10313	)	_	_	
+79-65	10313-10314	^	_	_	
+79-66	10314-10315	2	_	_	
+79-67	10315-10316	/	_	_	
+79-68	10316-10317	(	_	_	
+79-69	10317-10319	2l	_	_	
+79-70	10319-10320	^	_	_	
+79-71	10320-10321	2	_	_	
+79-72	10321-10322	)	_	_	
+79-73	10322-10323	)	_	_	
+79-74	10323-10324	)	_	_	
+79-75	10324-10325	$	_	_	
+79-76	10326-10330	only	_	_	
+79-77	10331-10342	implemented	_	_	
+79-78	10343-10346	for	_	_	
+79-79	10347-10348	$	_	_	
+79-80	10348-10349	x	_	_	
+79-81	10349-10350	,	_	_	
+79-82	10350-10351	y	_	_	
+79-83	10351-10352	\	_	_	
+79-84	10352-10354	in	_	_	
+79-85	10354-10355	\	_	_	
+79-86	10355-10361	mathbb	_	_	
+79-87	10361-10362	{	_	_	
+79-88	10362-10363	R	_	_	
+79-89	10363-10364	}	_	_	
+79-90	10364-10365	$	_	_	
+
+#Text=.
+80-1	10365-10366	.	_	_	
+
+#Text=- Call: `Modes.GaussianMode(l=1)`
+#Text=
+#Text=
+#Text=>### Interpolatory: 
+#Text=>
+#Text=>A kernel $k(x,y)=\\langle\\phi(x),\\phi(y)\\rangle$ will be interpolatory if its associated feature map $\\phi$ has more dimensions than the number of data points.
+81-1	10371-10372	-	_	_	
+81-2	10373-10377	Call	_	_	
+81-3	10377-10378	:	_	_	
+81-4	10379-10380	`	_	_	
+81-5	10380-10398	Modes.GaussianMode	_	_	
+81-6	10398-10399	(	_	_	
+81-7	10399-10400	l	_	_	
+81-8	10400-10401	=	_	_	
+81-9	10401-10402	1	_	_	
+81-10	10402-10403	)	_	_	
+81-11	10403-10404	`	_	_	
+81-12	10407-10408	>	_	_	
+81-13	10408-10409	#	_	_	
+81-14	10409-10410	#	_	_	
+81-15	10410-10411	#	_	_	
+81-16	10412-10425	Interpolatory	_	_	
+81-17	10425-10426	:	_	_	
+81-18	10428-10429	>	_	_	
+81-19	10430-10431	>	_	_	
+81-20	10431-10432	A	_	_	
+81-21	10433-10439	kernel	_	_	
+81-22	10440-10441	$	_	_	
+81-23	10441-10442	k	_	_	
+81-24	10442-10443	(	_	_	
+81-25	10443-10444	x	_	_	
+81-26	10444-10445	,	_	_	
+81-27	10445-10446	y	_	_	
+81-28	10446-10447	)	_	_	
+81-29	10447-10448	=	_	_	
+81-30	10448-10449	\	_	_	
+81-31	10449-10455	langle	_	_	
+81-32	10455-10456	\	_	_	
+81-33	10456-10459	phi	_	_	
+81-34	10459-10460	(	_	_	
+81-35	10460-10461	x	_	_	
+81-36	10461-10462	)	_	_	
+81-37	10462-10463	,	_	_	
+81-38	10463-10464	\	_	_	
+81-39	10464-10467	phi	_	_	
+81-40	10467-10468	(	_	_	
+81-41	10468-10469	y	_	_	
+81-42	10469-10470	)	_	_	
+81-43	10470-10471	\	_	_	
+81-44	10471-10477	rangle	_	_	
+81-45	10477-10478	$	_	_	
+81-46	10479-10483	will	_	_	
+81-47	10484-10486	be	_	_	
+81-48	10487-10500	interpolatory	_	_	
+81-49	10501-10503	if	_	_	
+81-50	10504-10507	its	_	_	
+81-51	10508-10518	associated	_	_	
+81-52	10519-10526	feature	_	_	
+81-53	10527-10530	map	_	_	
+81-54	10531-10532	$	_	_	
+81-55	10532-10533	\	_	_	
+81-56	10533-10536	phi	_	_	
+81-57	10536-10537	$	_	_	
+81-58	10538-10541	has	_	_	
+81-59	10542-10546	more	_	_	
+81-60	10547-10557	dimensions	_	_	
+81-61	10558-10562	than	_	_	
+81-62	10563-10566	the	_	_	
+81-63	10567-10573	number	_	_	
+81-64	10574-10576	of	_	_	
+81-65	10577-10581	data	_	_	
+81-66	10582-10588	points	_	_	
+81-67	10588-10589	.	_	_	
+
+#Text=For example, the Gaussian kernel is interpolatory (its feature map is infinite-dimensional), while the linear kernel will probably not be (if the input is of dimension d, the number of data points is n, if n>d the kernel is not interpolatory)
+82-1	10590-10593	For	_	_	
+82-2	10594-10601	example	_	_	
+82-3	10601-10602	,	_	_	
+82-4	10603-10606	the	_	_	
+82-5	10607-10615	Gaussian	_	_	
+82-6	10616-10622	kernel	_	_	
+82-7	10623-10625	is	_	_	
+82-8	10626-10639	interpolatory	_	_	
+82-9	10640-10641	(	_	_	
+82-10	10641-10644	its	_	_	
+82-11	10645-10652	feature	_	_	
+82-12	10653-10656	map	_	_	
+82-13	10657-10659	is	_	_	
+82-14	10660-10680	infinite-dimensional	_	_	
+82-15	10680-10681	)	_	_	
+82-16	10681-10682	,	_	_	
+82-17	10683-10688	while	_	_	
+82-18	10689-10692	the	_	_	
+82-19	10693-10699	linear	_	_	
+82-20	10700-10706	kernel	_	_	
+82-21	10707-10711	will	_	_	
+82-22	10712-10720	probably	_	_	
+82-23	10721-10724	not	_	_	
+82-24	10725-10727	be	_	_	
+82-25	10728-10729	(	_	_	
+82-26	10729-10731	if	_	_	
+82-27	10732-10735	the	_	_	
+82-28	10736-10741	input	_	_	
+82-29	10742-10744	is	_	_	
+82-30	10745-10747	of	_	_	
+82-31	10748-10757	dimension	_	_	
+82-32	10758-10759	d	_	_	
+82-33	10759-10760	,	_	_	
+82-34	10761-10764	the	_	_	
+82-35	10765-10771	number	_	_	
+82-36	10772-10774	of	_	_	
+82-37	10775-10779	data	_	_	
+82-38	10780-10786	points	_	_	
+82-39	10787-10789	is	_	_	
+82-40	10790-10791	n	_	_	
+82-41	10791-10792	,	_	_	
+82-42	10793-10795	if	_	_	
+82-43	10796-10797	n	_	_	
+82-44	10797-10798	>	_	_	
+82-45	10798-10799	d	_	_	
+82-46	10800-10803	the	_	_	
+82-47	10804-10810	kernel	_	_	
+82-48	10811-10813	is	_	_	
+82-49	10814-10817	not	_	_	
+82-50	10818-10831	interpolatory	_	_	
+82-51	10831-10832	)	_	_	
+
+#Text=.
+83-1	10832-10833	.	_	_	
+
+#Text=> **Caution**: We have defined here a kernel with 3 modes: one linear, one quadratic, and one Gaussian.
+84-1	10838-10839	>	_	_	
+84-2	10840-10841	*	_	_	
+84-3	10841-10842	*	_	_	
+84-4	10842-10849	Caution	_	_	
+84-5	10849-10850	*	_	_	
+84-6	10850-10851	*	_	_	
+84-7	10851-10852	:	_	_	
+84-8	10853-10855	We	_	_	
+84-9	10856-10860	have	_	_	
+84-10	10861-10868	defined	_	_	
+84-11	10869-10873	here	_	_	
+84-12	10874-10875	a	_	_	
+84-13	10876-10882	kernel	_	_	
+84-14	10883-10887	with	_	_	
+84-15	10888-10889	3	_	_	
+84-16	10890-10895	modes	_	_	
+84-17	10895-10896	:	_	_	
+84-18	10897-10900	one	_	_	
+84-19	10901-10907	linear	_	_	
+84-20	10907-10908	,	_	_	
+84-21	10909-10912	one	_	_	
+84-22	10913-10922	quadratic	_	_	
+84-23	10922-10923	,	_	_	
+84-24	10924-10927	and	_	_	
+84-25	10928-10931	one	_	_	
+84-26	10932-10940	Gaussian	_	_	
+84-27	10940-10941	.	_	_	
+
+#Text=However, for the overall algorithm to work, we prefer to define the 3 following hierarchical modes:
+#Text=> - Linear mode
+#Text=> - Linear + quadratic mode
+#Text=> - Linear + quadratic + Gaussian mode
+#Text=>
+#Text=> This allows us to have modes of increasing complexity so that when we change mode, the new one is strictly more expressive than the previous one (this means we widen the search as we progress)
+#Text=
+#Text=
+#Text=
+#Text=## Manipulating decision logics
+#Text=
+#Text=In order to identify the edges of the graph, we need to decide whether certain connections are significant.
+85-1	10942-10949	However	_	_	
+85-2	10949-10950	,	_	_	
+85-3	10951-10954	for	_	_	
+85-4	10955-10958	the	_	_	
+85-5	10959-10966	overall	_	_	
+85-6	10967-10976	algorithm	_	_	
+85-7	10977-10979	to	_	_	
+85-8	10980-10984	work	_	_	
+85-9	10984-10985	,	_	_	
+85-10	10986-10988	we	_	_	
+85-11	10989-10995	prefer	_	_	
+85-12	10996-10998	to	_	_	
+85-13	10999-11005	define	_	_	
+85-14	11006-11009	the	_	_	
+85-15	11010-11011	3	_	_	
+85-16	11012-11021	following	_	_	
+85-17	11022-11034	hierarchical	_	_	
+85-18	11035-11040	modes	_	_	
+85-19	11040-11041	:	_	_	
+85-20	11042-11043	>	_	_	
+85-21	11044-11045	-	_	_	
+85-22	11046-11052	Linear	_	_	
+85-23	11053-11057	mode	_	_	
+85-24	11058-11059	>	_	_	
+85-25	11060-11061	-	_	_	
+85-26	11062-11068	Linear	_	_	
+85-27	11069-11070	+	_	_	
+85-28	11071-11080	quadratic	_	_	
+85-29	11081-11085	mode	_	_	
+85-30	11086-11087	>	_	_	
+85-31	11088-11089	-	_	_	
+85-32	11090-11096	Linear	_	_	
+85-33	11097-11098	+	_	_	
+85-34	11099-11108	quadratic	_	_	
+85-35	11109-11110	+	_	_	
+85-36	11111-11119	Gaussian	_	_	
+85-37	11120-11124	mode	_	_	
+85-38	11125-11126	>	_	_	
+85-39	11127-11128	>	_	_	
+85-40	11129-11133	This	_	_	
+85-41	11134-11140	allows	_	_	
+85-42	11141-11143	us	_	_	
+85-43	11144-11146	to	_	_	
+85-44	11147-11151	have	_	_	
+85-45	11152-11157	modes	_	_	
+85-46	11158-11160	of	_	_	
+85-47	11161-11171	increasing	_	_	
+85-48	11172-11182	complexity	_	_	
+85-49	11183-11185	so	_	_	
+85-50	11186-11190	that	_	_	
+85-51	11191-11195	when	_	_	
+85-52	11196-11198	we	_	_	
+85-53	11199-11205	change	_	_	
+85-54	11206-11210	mode	_	_	
+85-55	11210-11211	,	_	_	
+85-56	11212-11215	the	_	_	
+85-57	11216-11219	new	_	_	
+85-58	11220-11223	one	_	_	
+85-59	11224-11226	is	_	_	
+85-60	11227-11235	strictly	_	_	
+85-61	11236-11240	more	_	_	
+85-62	11241-11251	expressive	_	_	
+85-63	11252-11256	than	_	_	
+85-64	11257-11260	the	_	_	
+85-65	11261-11269	previous	_	_	
+85-66	11270-11273	one	_	_	
+85-67	11274-11275	(	_	_	
+85-68	11275-11279	this	_	_	
+85-69	11280-11285	means	_	_	
+85-70	11286-11288	we	_	_	
+85-71	11289-11294	widen	_	_	
+85-72	11295-11298	the	_	_	
+85-73	11299-11305	search	_	_	
+85-74	11306-11308	as	_	_	
+85-75	11309-11311	we	_	_	
+85-76	11312-11320	progress	_	_	
+85-77	11320-11321	)	_	_	
+85-78	11325-11326	#	_	_	
+85-79	11326-11327	#	_	_	
+85-80	11328-11340	Manipulating	_	_	
+85-81	11341-11349	decision	_	_	
+85-82	11350-11356	logics	_	_	
+85-83	11358-11360	In	_	_	
+85-84	11361-11366	order	_	_	
+85-85	11367-11369	to	_	_	
+85-86	11370-11378	identify	_	_	
+85-87	11379-11382	the	_	_	
+85-88	11383-11388	edges	_	_	
+85-89	11389-11391	of	_	_	
+85-90	11392-11395	the	_	_	
+85-91	11396-11401	graph	_	_	
+85-92	11401-11402	,	_	_	
+85-93	11403-11405	we	_	_	
+85-94	11406-11410	need	_	_	
+85-95	11411-11413	to	_	_	
+85-96	11414-11420	decide	_	_	
+85-97	11421-11428	whether	_	_	
+85-98	11429-11436	certain	_	_	
+85-99	11437-11448	connections	_	_	
+85-100	11449-11452	are	_	_	
+85-101	11453-11464	significant	_	_	
+85-102	11464-11465	.	_	_	
+
+#Text=The code provides indicators (like the level of noise), and the user specifies how to interpret them.
+86-1	11466-11469	The	_	_	
+86-2	11470-11474	code	_	_	
+86-3	11475-11483	provides	_	_	
+86-4	11484-11494	indicators	_	_	
+86-5	11495-11496	(	_	_	
+86-6	11496-11500	like	_	_	
+86-7	11501-11504	the	_	_	
+86-8	11505-11510	level	_	_	
+86-9	11511-11513	of	_	_	
+86-10	11514-11519	noise	_	_	
+86-11	11519-11520	)	_	_	
+86-12	11520-11521	,	_	_	
+86-13	11522-11525	and	_	_	
+86-14	11526-11529	the	_	_	
+86-15	11530-11534	user	_	_	
+86-16	11535-11544	specifies	_	_	
+86-17	11545-11548	how	_	_	
+86-18	11549-11551	to	_	_	
+86-19	11552-11561	interpret	_	_	
+86-20	11562-11566	them	_	_	
+86-21	11566-11567	.	_	_	
+
+#Text=The functions used to make these decisions are available in the `decision` module.
+87-1	11568-11571	The	_	_	
+87-2	11572-11581	functions	_	_	
+87-3	11582-11586	used	_	_	
+87-4	11587-11589	to	_	_	
+87-5	11590-11594	make	_	_	
+87-6	11595-11600	these	_	_	
+87-7	11601-11610	decisions	_	_	
+87-8	11611-11614	are	_	_	
+87-9	11615-11624	available	_	_	
+87-10	11625-11627	in	_	_	
+87-11	11628-11631	the	_	_	
+87-12	11632-11633	`	_	_	
+87-13	11633-11641	decision	_	_	
+87-14	11641-11642	`	_	_	
+87-15	11643-11649	module	_	_	
+87-16	11649-11650	.	_	_	
+
+#Text=```python
+#Text=import ComputationalHypergraphDiscovery.decision as decision
+#Text=```
+#Text=
+#Text=There are two leading indicators that we use to make decisions (See the [paper][paper_url] or the [blog post][blog_url] for more details):
+#Text=- **Signal-to-noise ratio**: The signal-to-noise ratio is a measure of how much the signal is stronger than the noise.
+88-1	11652-11653	`	_	_	
+88-2	11653-11654	`	_	_	
+88-3	11654-11655	`	_	_	
+88-4	11655-11661	python	*	PROGLANG	
+88-5	11662-11668	import	_	_	
+88-6	11669-11710	ComputationalHypergraphDiscovery.decision	_	_	
+88-6.1	11669-11701	ComputationalHypergraphDiscovery	*	SOFTWARE	
+88-7	11711-11713	as	_	_	
+88-8	11714-11722	decision	_	_	
+88-9	11723-11724	`	_	_	
+88-10	11724-11725	`	_	_	
+88-11	11725-11726	`	_	_	
+88-12	11728-11733	There	_	_	
+88-13	11734-11737	are	_	_	
+88-14	11738-11741	two	_	_	
+88-15	11742-11749	leading	_	_	
+88-16	11750-11760	indicators	_	_	
+88-17	11761-11765	that	_	_	
+88-18	11766-11768	we	_	_	
+88-19	11769-11772	use	_	_	
+88-20	11773-11775	to	_	_	
+88-21	11776-11780	make	_	_	
+88-22	11781-11790	decisions	_	_	
+88-23	11791-11792	(	_	_	
+88-24	11792-11795	See	_	_	
+88-25	11796-11799	the	_	_	
+88-26	11800-11801	[	_	_	
+88-27	11801-11806	paper	_	_	
+88-28	11806-11807	]	_	_	
+88-29	11807-11808	[	_	_	
+88-30	11808-11817	paper_url	_	_	
+88-31	11817-11818	]	_	_	
+88-32	11819-11821	or	_	_	
+88-33	11822-11825	the	_	_	
+88-34	11826-11827	[	_	_	
+88-35	11827-11831	blog	_	_	
+88-36	11832-11836	post	_	_	
+88-37	11836-11837	]	_	_	
+88-38	11837-11838	[	_	_	
+88-39	11838-11846	blog_url	_	_	
+88-40	11846-11847	]	_	_	
+88-41	11848-11851	for	_	_	
+88-42	11852-11856	more	_	_	
+88-43	11857-11864	details	_	_	
+88-44	11864-11865	)	_	_	
+88-45	11865-11866	:	_	_	
+88-46	11867-11868	-	_	_	
+88-47	11869-11870	*	_	_	
+88-48	11870-11871	*	_	_	
+88-49	11871-11886	Signal-to-noise	*[10]	EVALMETRIC[10]	
+88-50	11887-11892	ratio	*[10]	EVALMETRIC[10]	
+88-51	11892-11893	*	_	_	
+88-52	11893-11894	*	_	_	
+88-53	11894-11895	:	_	_	
+88-54	11896-11899	The	_	_	
+88-55	11900-11915	signal-to-noise	*[11]	EVALMETRIC[11]	
+88-56	11916-11921	ratio	*[11]	EVALMETRIC[11]	
+88-57	11922-11924	is	_	_	
+88-58	11925-11926	a	_	_	
+88-59	11927-11934	measure	_	_	
+88-60	11935-11937	of	_	_	
+88-61	11938-11941	how	_	_	
+88-62	11942-11946	much	_	_	
+88-63	11947-11950	the	_	_	
+88-64	11951-11957	signal	_	_	
+88-65	11958-11960	is	_	_	
+88-66	11961-11969	stronger	_	_	
+88-67	11970-11974	than	_	_	
+88-68	11975-11978	the	_	_	
+88-69	11979-11984	noise	_	_	
+88-70	11984-11985	.	_	_	
+
+#Text=We also use its complementary value, the noise-to-signal ratio.
+89-1	11986-11988	We	_	_	
+89-2	11989-11993	also	_	_	
+89-3	11994-11997	use	_	_	
+89-4	11998-12001	its	_	_	
+89-5	12002-12015	complementary	_	_	
+89-6	12016-12021	value	_	_	
+89-7	12021-12022	,	_	_	
+89-8	12023-12026	the	_	_	
+89-9	12027-12042	noise-to-signal	*[12]	EVALMETRIC[12]	
+89-10	12043-12048	ratio	*[12]	EVALMETRIC[12]	
+89-11	12048-12049	.	_	_	
+
+#Text=Here, it indicates the amount of noise we measure in the data given a set of ancestors.
+90-1	12050-12054	Here	_	_	
+90-2	12054-12055	,	_	_	
+90-3	12056-12058	it	_	_	
+90-4	12059-12068	indicates	_	_	
+90-5	12069-12072	the	_	_	
+90-6	12073-12079	amount	_	_	
+90-7	12080-12082	of	_	_	
+90-8	12083-12088	noise	_	_	
+90-9	12089-12091	we	_	_	
+90-10	12092-12099	measure	_	_	
+90-11	12100-12102	in	_	_	
+90-12	12103-12106	the	_	_	
+90-13	12107-12111	data	_	_	
+90-14	12112-12117	given	_	_	
+90-15	12118-12119	a	_	_	
+90-16	12120-12123	set	_	_	
+90-17	12124-12126	of	_	_	
+90-18	12127-12136	ancestors	_	_	
+90-19	12136-12137	.	_	_	
+
+#Text=If there is a lot of noise, this means the current set of ancestors doesn't explain well the node (and thus there are not true ancestors)
+91-1	12138-12140	If	_	_	
+91-2	12141-12146	there	_	_	
+91-3	12147-12149	is	_	_	
+91-4	12150-12151	a	_	_	
+91-5	12152-12155	lot	_	_	
+91-6	12156-12158	of	_	_	
+91-7	12159-12164	noise	_	_	
+91-8	12164-12165	,	_	_	
+91-9	12166-12170	this	_	_	
+91-10	12171-12176	means	_	_	
+91-11	12177-12180	the	_	_	
+91-12	12181-12188	current	_	_	
+91-13	12189-12192	set	_	_	
+91-14	12193-12195	of	_	_	
+91-15	12196-12205	ancestors	_	_	
+91-16	12206-12213	doesn't	_	_	
+91-17	12214-12221	explain	_	_	
+91-18	12222-12226	well	_	_	
+91-19	12227-12230	the	_	_	
+91-20	12231-12235	node	_	_	
+91-21	12236-12237	(	_	_	
+91-22	12237-12240	and	_	_	
+91-23	12241-12245	thus	_	_	
+91-24	12246-12251	there	_	_	
+91-25	12252-12255	are	_	_	
+91-26	12256-12259	not	_	_	
+91-27	12260-12264	true	_	_	
+91-28	12265-12274	ancestors	_	_	
+91-29	12274-12275	)	_	_	
+
+#Text=.
+92-1	12275-12276	.	_	_	
+
+#Text=- **Z_test**: The Z_test is a statistical test that allows to test if the signal-to-noise ratio we obtained is statistically significant.
+93-1	12278-12279	-	_	_	
+93-2	12280-12281	*	_	_	
+93-3	12281-12282	*	_	_	
+93-4	12282-12288	Z_test	*	EVALMETRIC	
+93-5	12288-12289	*	_	_	
+93-6	12289-12290	*	_	_	
+93-7	12290-12291	:	_	_	
+93-8	12292-12295	The	_	_	
+93-9	12296-12302	Z_test	*	EVALMETRIC	
+93-10	12303-12305	is	_	_	
+93-11	12306-12307	a	_	_	
+93-12	12308-12319	statistical	_	_	
+93-13	12320-12324	test	_	_	
+93-14	12325-12329	that	_	_	
+93-15	12330-12336	allows	_	_	
+93-16	12337-12339	to	_	_	
+93-17	12340-12344	test	_	_	
+93-18	12345-12347	if	_	_	
+93-19	12348-12351	the	_	_	
+93-20	12352-12367	signal-to-noise	*[13]	EVALMETRIC[13]	
+93-21	12368-12373	ratio	*[13]	EVALMETRIC[13]	
+93-22	12374-12376	we	_	_	
+93-23	12377-12385	obtained	_	_	
+93-24	12386-12388	is	_	_	
+93-25	12389-12402	statistically	_	_	
+93-26	12403-12414	significant	_	_	
+93-27	12414-12415	.	_	_	
+
+#Text=There are three types of decisions to be made in the algorithm:
+#Text=- **Kernel chooser**: Chooses if a node has ancestors and with which kernel.
+#Text=- **Mode chooser**: Chooses the ancestors of a mode
+#Text=
+#Text=### Kernel chooser
+#Text=The first decision to make is to decide if a node has ancestors or not, as well as the kernel with which the node has ancestors.
+94-1	12417-12422	There	_	_	
+94-2	12423-12426	are	_	_	
+94-3	12427-12432	three	_	_	
+94-4	12433-12438	types	_	_	
+94-5	12439-12441	of	_	_	
+94-6	12442-12451	decisions	_	_	
+94-7	12452-12454	to	_	_	
+94-8	12455-12457	be	_	_	
+94-9	12458-12462	made	_	_	
+94-10	12463-12465	in	_	_	
+94-11	12466-12469	the	_	_	
+94-12	12470-12479	algorithm	_	_	
+94-13	12479-12480	:	_	_	
+94-14	12481-12482	-	_	_	
+94-15	12483-12484	*	_	_	
+94-16	12484-12485	*	_	_	
+94-17	12485-12491	Kernel	_	_	
+94-18	12492-12499	chooser	_	_	
+94-19	12499-12500	*	_	_	
+94-20	12500-12501	*	_	_	
+94-21	12501-12502	:	_	_	
+94-22	12503-12510	Chooses	_	_	
+94-23	12511-12513	if	_	_	
+94-24	12514-12515	a	_	_	
+94-25	12516-12520	node	_	_	
+94-26	12521-12524	has	_	_	
+94-27	12525-12534	ancestors	_	_	
+94-28	12535-12538	and	_	_	
+94-29	12539-12543	with	_	_	
+94-30	12544-12549	which	_	_	
+94-31	12550-12556	kernel	_	_	
+94-32	12556-12557	.	_	_	
+94-33	12558-12559	-	_	_	
+94-34	12560-12561	*	_	_	
+94-35	12561-12562	*	_	_	
+94-36	12562-12566	Mode	_	_	
+94-37	12567-12574	chooser	_	_	
+94-38	12574-12575	*	_	_	
+94-39	12575-12576	*	_	_	
+94-40	12576-12577	:	_	_	
+94-41	12578-12585	Chooses	_	_	
+94-42	12586-12589	the	_	_	
+94-43	12590-12599	ancestors	_	_	
+94-44	12600-12602	of	_	_	
+94-45	12603-12604	a	_	_	
+94-46	12605-12609	mode	_	_	
+94-47	12611-12612	#	_	_	
+94-48	12612-12613	#	_	_	
+94-49	12613-12614	#	_	_	
+94-50	12615-12621	Kernel	_	_	
+94-51	12622-12629	chooser	_	_	
+94-52	12630-12633	The	_	_	
+94-53	12634-12639	first	_	_	
+94-54	12640-12648	decision	_	_	
+94-55	12649-12651	to	_	_	
+94-56	12652-12656	make	_	_	
+94-57	12657-12659	is	_	_	
+94-58	12660-12662	to	_	_	
+94-59	12663-12669	decide	_	_	
+94-60	12670-12672	if	_	_	
+94-61	12673-12674	a	_	_	
+94-62	12675-12679	node	_	_	
+94-63	12680-12683	has	_	_	
+94-64	12684-12693	ancestors	_	_	
+94-65	12694-12696	or	_	_	
+94-66	12697-12700	not	_	_	
+94-67	12700-12701	,	_	_	
+94-68	12702-12704	as	_	_	
+94-69	12705-12709	well	_	_	
+94-70	12710-12712	as	_	_	
+94-71	12713-12716	the	_	_	
+94-72	12717-12723	kernel	_	_	
+94-73	12724-12728	with	_	_	
+94-74	12729-12734	which	_	_	
+94-75	12735-12738	the	_	_	
+94-76	12739-12743	node	_	_	
+94-77	12744-12747	has	_	_	
+94-78	12748-12757	ancestors	_	_	
+94-79	12757-12758	.	_	_	
+
+#Text=To do so, we compute the signal-to-noise ratio and the `Z_test` for each kernel.
+95-1	12759-12761	To	_	_	
+95-2	12762-12764	do	_	_	
+95-3	12765-12767	so	_	_	
+95-4	12767-12768	,	_	_	
+95-5	12769-12771	we	_	_	
+95-6	12772-12779	compute	_	_	
+95-7	12780-12783	the	_	_	
+95-8	12784-12799	signal-to-noise	*[14]	EVALMETRIC[14]	
+95-9	12800-12805	ratio	*[14]	EVALMETRIC[14]	
+95-10	12806-12809	and	_	_	
+95-11	12810-12813	the	_	_	
+95-12	12814-12815	`	_	_	
+95-13	12815-12821	Z_test	*	EVALMETRIC	
+95-14	12821-12822	`	_	_	
+95-15	12823-12826	for	_	_	
+95-16	12827-12831	each	_	_	
+95-17	12832-12838	kernel	_	_	
+95-18	12838-12839	.	_	_	
+
+#Text=We get the following performances:
+#Text=
+#Text=An example of output is the following dictionary (some keys have been hidden for clarity):
+#Text=```python
+#Text=kernel_performances={
+#Text=  'linear': {
+#Text=    'noise-to-signal ratio': 0.45,
+#Text=    'Z_test': [0.98, 1.0]
+#Text=    },
+#Text=  'quadratic': {#see note above, this is not the quadratic kernel but linear+quadratic
+#Text=    'noise-to-signal ratio': 0.91, 
+#Text=    'Z_test': [0.96, 1.0]
+#Text=    }, 
+#Text=  'gaussian': {#same comment as above
+#Text=    'noise-to-signal ratio': 0.33, 
+#Text=    'Z_test': [0.74, 1.0]
+#Text=    }
+#Text=}
+#Text=```
+#Text=
+#Text=Several decisions can be made using this dictionary.
+96-1	12840-12842	We	_	_	
+96-2	12843-12846	get	_	_	
+96-3	12847-12850	the	_	_	
+96-4	12851-12860	following	_	_	
+96-5	12861-12873	performances	_	_	
+96-6	12873-12874	:	_	_	
+96-7	12876-12878	An	_	_	
+96-8	12879-12886	example	_	_	
+96-9	12887-12889	of	_	_	
+96-10	12890-12896	output	_	_	
+96-11	12897-12899	is	_	_	
+96-12	12900-12903	the	_	_	
+96-13	12904-12913	following	_	_	
+96-14	12914-12924	dictionary	_	_	
+96-15	12925-12926	(	_	_	
+96-16	12926-12930	some	_	_	
+96-17	12931-12935	keys	_	_	
+96-18	12936-12940	have	_	_	
+96-19	12941-12945	been	_	_	
+96-20	12946-12952	hidden	_	_	
+96-21	12953-12956	for	_	_	
+96-22	12957-12964	clarity	_	_	
+96-23	12964-12965	)	_	_	
+96-24	12965-12966	:	_	_	
+96-25	12967-12968	`	_	_	
+96-26	12968-12969	`	_	_	
+96-27	12969-12970	`	_	_	
+96-28	12970-12976	python	*	PROGLANG	
+96-29	12977-12996	kernel_performances	_	_	
+96-30	12996-12997	=	_	_	
+96-31	12997-12998	{	_	_	
+96-32	13001-13002	'	_	_	
+96-33	13002-13008	linear	_	_	
+96-34	13008-13009	'	_	_	
+96-35	13009-13010	:	_	_	
+96-36	13011-13012	{	_	_	
+96-37	13017-13018	'	_	_	
+96-38	13018-13033	noise-to-signal	*[15]	EVALMETRIC[15]	
+96-39	13034-13039	ratio	*[15]	EVALMETRIC[15]	
+96-40	13039-13040	'	_	_	
+96-41	13040-13041	:	_	_	
+96-42	13042-13046	0.45	_	_	
+96-43	13046-13047	,	_	_	
+96-44	13052-13053	'	_	_	
+96-45	13053-13059	Z_test	*	EVALMETRIC	
+96-46	13059-13060	'	_	_	
+96-47	13060-13061	:	_	_	
+96-48	13062-13063	[	_	_	
+96-49	13063-13067	0.98	_	_	
+96-50	13067-13068	,	_	_	
+96-51	13069-13072	1.0	_	_	
+96-52	13072-13073	]	_	_	
+96-53	13078-13079	}	_	_	
+96-54	13079-13080	,	_	_	
+96-55	13083-13084	'	_	_	
+96-56	13084-13093	quadratic	_	_	
+96-57	13093-13094	'	_	_	
+96-58	13094-13095	:	_	_	
+96-59	13096-13097	{	_	_	
+96-60	13097-13098	#	_	_	
+96-61	13098-13101	see	_	_	
+96-62	13102-13106	note	_	_	
+96-63	13107-13112	above	_	_	
+96-64	13112-13113	,	_	_	
+96-65	13114-13118	this	_	_	
+96-66	13119-13121	is	_	_	
+96-67	13122-13125	not	_	_	
+96-68	13126-13129	the	_	_	
+96-69	13130-13139	quadratic	_	_	
+96-70	13140-13146	kernel	_	_	
+96-71	13147-13150	but	_	_	
+96-72	13151-13157	linear	_	_	
+96-73	13157-13158	+	_	_	
+96-74	13158-13167	quadratic	_	_	
+96-75	13172-13173	'	_	_	
+96-76	13173-13188	noise-to-signal	*[16]	EVALMETRIC[16]	
+96-77	13189-13194	ratio	*[16]	EVALMETRIC[16]	
+96-78	13194-13195	'	_	_	
+96-79	13195-13196	:	_	_	
+96-80	13197-13201	0.91	_	_	
+96-81	13201-13202	,	_	_	
+96-82	13208-13209	'	_	_	
+96-83	13209-13215	Z_test	*	EVALMETRIC	
+96-84	13215-13216	'	_	_	
+96-85	13216-13217	:	_	_	
+96-86	13218-13219	[	_	_	
+96-87	13219-13223	0.96	_	_	
+96-88	13223-13224	,	_	_	
+96-89	13225-13228	1.0	_	_	
+96-90	13228-13229	]	_	_	
+96-91	13234-13235	}	_	_	
+96-92	13235-13236	,	_	_	
+96-93	13240-13241	'	_	_	
+96-94	13241-13249	gaussian	_	_	
+96-95	13249-13250	'	_	_	
+96-96	13250-13251	:	_	_	
+96-97	13252-13253	{	_	_	
+96-98	13253-13254	#	_	_	
+96-99	13254-13258	same	_	_	
+96-100	13259-13266	comment	_	_	
+96-101	13267-13269	as	_	_	
+96-102	13270-13275	above	_	_	
+96-103	13280-13281	'	_	_	
+96-104	13281-13296	noise-to-signal	*[17]	EVALMETRIC[17]	
+96-105	13297-13302	ratio	*[17]	EVALMETRIC[17]	
+96-106	13302-13303	'	_	_	
+96-107	13303-13304	:	_	_	
+96-108	13305-13309	0.33	_	_	
+96-109	13309-13310	,	_	_	
+96-110	13316-13317	'	_	_	
+96-111	13317-13323	Z_test	*	EVALMETRIC	
+96-112	13323-13324	'	_	_	
+96-113	13324-13325	:	_	_	
+96-114	13326-13327	[	_	_	
+96-115	13327-13331	0.74	_	_	
+96-116	13331-13332	,	_	_	
+96-117	13333-13336	1.0	_	_	
+96-118	13336-13337	]	_	_	
+96-119	13342-13343	}	_	_	
+96-120	13344-13345	}	_	_	
+96-121	13346-13347	`	_	_	
+96-122	13347-13348	`	_	_	
+96-123	13348-13349	`	_	_	
+96-124	13351-13358	Several	_	_	
+96-125	13359-13368	decisions	_	_	
+96-126	13369-13372	can	_	_	
+96-127	13373-13375	be	_	_	
+96-128	13376-13380	made	_	_	
+96-129	13381-13386	using	_	_	
+96-130	13387-13391	this	_	_	
+96-131	13392-13402	dictionary	_	_	
+96-132	13402-13403	.	_	_	
+
+#Text=Decisions are made by instances of the `KernelChooser` class
+97-1	13404-13413	Decisions	_	_	
+97-2	13414-13417	are	_	_	
+97-3	13418-13422	made	_	_	
+97-4	13423-13425	by	_	_	
+97-5	13426-13435	instances	_	_	
+97-6	13436-13438	of	_	_	
+97-7	13439-13442	the	_	_	
+97-8	13443-13444	`	_	_	
+97-9	13444-13457	KernelChooser	_	_	
+97-10	13457-13458	`	_	_	
+97-11	13459-13464	class	_	_	
+
+#Text=.
+98-1	13464-13465	.	_	_	
+
+#Text=- **Threshold**: 
+#Text=    - Implemented in `ThresholdKernelChooser`
+99-1	13467-13468	-	_	_	
+99-2	13469-13470	*	_	_	
+99-3	13470-13471	*	_	_	
+99-4	13471-13480	Threshold	_	_	
+99-5	13480-13481	*	_	_	
+99-6	13481-13482	*	_	_	
+99-7	13482-13483	:	_	_	
+99-8	13489-13490	-	_	_	
+99-9	13491-13502	Implemented	_	_	
+99-10	13503-13505	in	_	_	
+99-11	13506-13507	`	_	_	
+99-12	13507-13529	ThresholdKernelChooser	_	_	
+99-13	13529-13530	`	_	_	
+
+#Text=.
+100-1	13530-13531	.	_	_	
+
+#Text=- Choose an amount of noise that is acceptable, and choose the simplest kernel that has a noise-to-signal ratio below this threshold
+101-1	13537-13538	-	_	_	
+101-2	13539-13545	Choose	_	_	
+101-3	13546-13548	an	_	_	
+101-4	13549-13555	amount	_	_	
+101-5	13556-13558	of	_	_	
+101-6	13559-13564	noise	_	_	
+101-7	13565-13569	that	_	_	
+101-8	13570-13572	is	_	_	
+101-9	13573-13583	acceptable	_	_	
+101-10	13583-13584	,	_	_	
+101-11	13585-13588	and	_	_	
+101-12	13589-13595	choose	_	_	
+101-13	13596-13599	the	_	_	
+101-14	13600-13608	simplest	_	_	
+101-15	13609-13615	kernel	_	_	
+101-16	13616-13620	that	_	_	
+101-17	13621-13624	has	_	_	
+101-18	13625-13626	a	_	_	
+101-19	13627-13642	noise-to-signal	*[18]	EVALMETRIC[18]	
+101-20	13643-13648	ratio	*[18]	EVALMETRIC[18]	
+101-21	13649-13654	below	_	_	
+101-22	13655-13659	this	_	_	
+101-23	13660-13669	threshold	_	_	
+
+#Text=.
+102-1	13669-13670	.	_	_	
+
+#Text=- If the threshold is too low, no kernel will be chosen 
+#Text=    - In the example, with a threshold of 0.5 (i.e., half of the data is noise, half is signal), the linear kernel is chosen.
+#Text=-  **Minimum noise**:
+#Text=    - Implemented in `MinNoiseKernelChooser`
+103-1	13676-13677	-	_	_	
+103-2	13678-13680	If	_	_	
+103-3	13681-13684	the	_	_	
+103-4	13685-13694	threshold	_	_	
+103-5	13695-13697	is	_	_	
+103-6	13698-13701	too	_	_	
+103-7	13702-13705	low	_	_	
+103-8	13705-13706	,	_	_	
+103-9	13707-13709	no	_	_	
+103-10	13710-13716	kernel	_	_	
+103-11	13717-13721	will	_	_	
+103-12	13722-13724	be	_	_	
+103-13	13725-13731	chosen	_	_	
+103-14	13737-13738	-	_	_	
+103-15	13739-13741	In	_	_	
+103-16	13742-13745	the	_	_	
+103-17	13746-13753	example	_	_	
+103-18	13753-13754	,	_	_	
+103-19	13755-13759	with	_	_	
+103-20	13760-13761	a	_	_	
+103-21	13762-13771	threshold	_	_	
+103-22	13772-13774	of	_	_	
+103-23	13775-13778	0.5	_	_	
+103-24	13779-13780	(	_	_	
+103-25	13780-13783	i.e	_	_	
+103-26	13783-13784	.	_	_	
+103-27	13784-13785	,	_	_	
+103-28	13786-13790	half	_	_	
+103-29	13791-13793	of	_	_	
+103-30	13794-13797	the	_	_	
+103-31	13798-13802	data	_	_	
+103-32	13803-13805	is	_	_	
+103-33	13806-13811	noise	_	_	
+103-34	13811-13812	,	_	_	
+103-35	13813-13817	half	_	_	
+103-36	13818-13820	is	_	_	
+103-37	13821-13827	signal	_	_	
+103-38	13827-13828	)	_	_	
+103-39	13828-13829	,	_	_	
+103-40	13830-13833	the	_	_	
+103-41	13834-13840	linear	_	_	
+103-42	13841-13847	kernel	_	_	
+103-43	13848-13850	is	_	_	
+103-44	13851-13857	chosen	_	_	
+103-45	13857-13858	.	_	_	
+103-46	13859-13860	-	_	_	
+103-47	13862-13863	*	_	_	
+103-48	13863-13864	*	_	_	
+103-49	13864-13871	Minimum	_	_	
+103-50	13872-13877	noise	_	_	
+103-51	13877-13878	*	_	_	
+103-52	13878-13879	*	_	_	
+103-53	13879-13880	:	_	_	
+103-54	13885-13886	-	_	_	
+103-55	13887-13898	Implemented	_	_	
+103-56	13899-13901	in	_	_	
+103-57	13902-13903	`	_	_	
+103-58	13903-13924	MinNoiseKernelChooser	_	_	
+103-59	13924-13925	`	_	_	
+
+#Text=.
+104-1	13925-13926	.	_	_	
+
+#Text=- Choose the kernel that has the lowest noise such that the noise is not in the `Z_test` interval (which would mean the noise ratio is not statistically significant)
+105-1	13931-13932	-	_	_	
+105-2	13933-13939	Choose	_	_	
+105-3	13940-13943	the	_	_	
+105-4	13944-13950	kernel	_	_	
+105-5	13951-13955	that	_	_	
+105-6	13956-13959	has	_	_	
+105-7	13960-13963	the	_	_	
+105-8	13964-13970	lowest	_	_	
+105-9	13971-13976	noise	_	_	
+105-10	13977-13981	such	_	_	
+105-11	13982-13986	that	_	_	
+105-12	13987-13990	the	_	_	
+105-13	13991-13996	noise	_	_	
+105-14	13997-13999	is	_	_	
+105-15	14000-14003	not	_	_	
+105-16	14004-14006	in	_	_	
+105-17	14007-14010	the	_	_	
+105-18	14011-14012	`	_	_	
+105-19	14012-14018	Z_test	*	EVALMETRIC	
+105-20	14018-14019	`	_	_	
+105-21	14020-14028	interval	_	_	
+105-22	14029-14030	(	_	_	
+105-23	14030-14035	which	_	_	
+105-24	14036-14041	would	_	_	
+105-25	14042-14046	mean	_	_	
+105-26	14047-14050	the	_	_	
+105-27	14051-14056	noise	_	_	
+105-28	14057-14062	ratio	_	_	
+105-29	14063-14065	is	_	_	
+105-30	14066-14069	not	_	_	
+105-31	14070-14083	statistically	_	_	
+105-32	14084-14095	significant	_	_	
+105-33	14095-14096	)	_	_	
+
+#Text=.
+106-1	14096-14097	.	_	_	
+
+#Text=- If no kernel has a noise ratio that is not statistically significant, no kernel is chosen
+107-1	14102-14103	-	_	_	
+107-2	14104-14106	If	_	_	
+107-3	14107-14109	no	_	_	
+107-4	14110-14116	kernel	_	_	
+107-5	14117-14120	has	_	_	
+107-6	14121-14122	a	_	_	
+107-7	14123-14128	noise	_	_	
+107-8	14129-14134	ratio	_	_	
+107-9	14135-14139	that	_	_	
+107-10	14140-14142	is	_	_	
+107-11	14143-14146	not	_	_	
+107-12	14147-14160	statistically	_	_	
+107-13	14161-14172	significant	_	_	
+107-14	14172-14173	,	_	_	
+107-15	14174-14176	no	_	_	
+107-16	14177-14183	kernel	_	_	
+107-17	14184-14186	is	_	_	
+107-18	14187-14193	chosen	_	_	
+
+#Text=.
+108-1	14193-14194	.	_	_	
+
+#Text=- In the example, the Gaussian kernel is chosen.
+#Text=
+#Text=### Mode chooser
+#Text=
+#Text=Once we have chosen a kernel, we need to select the ancestors of the node.
+109-1	14199-14200	-	_	_	
+109-2	14201-14203	In	_	_	
+109-3	14204-14207	the	_	_	
+109-4	14208-14215	example	_	_	
+109-5	14215-14216	,	_	_	
+109-6	14217-14220	the	_	_	
+109-7	14221-14229	Gaussian	_	_	
+109-8	14230-14236	kernel	_	_	
+109-9	14237-14239	is	_	_	
+109-10	14240-14246	chosen	_	_	
+109-11	14246-14247	.	_	_	
+109-12	14249-14250	#	_	_	
+109-13	14250-14251	#	_	_	
+109-14	14251-14252	#	_	_	
+109-15	14253-14257	Mode	_	_	
+109-16	14258-14265	chooser	_	_	
+109-17	14267-14271	Once	_	_	
+109-18	14272-14274	we	_	_	
+109-19	14275-14279	have	_	_	
+109-20	14280-14286	chosen	_	_	
+109-21	14287-14288	a	_	_	
+109-22	14289-14295	kernel	_	_	
+109-23	14295-14296	,	_	_	
+109-24	14297-14299	we	_	_	
+109-25	14300-14304	need	_	_	
+109-26	14305-14307	to	_	_	
+109-27	14308-14314	select	_	_	
+109-28	14315-14318	the	_	_	
+109-29	14319-14328	ancestors	_	_	
+109-30	14329-14331	of	_	_	
+109-31	14332-14335	the	_	_	
+109-32	14336-14340	node	_	_	
+109-33	14340-14341	.	_	_	
+
+#Text=To do so, we remove the ancestors one by one and compute the signal-to-noise ratio and the `Z_test` after each removal.
+110-1	14342-14344	To	_	_	
+110-2	14345-14347	do	_	_	
+110-3	14348-14350	so	_	_	
+110-4	14350-14351	,	_	_	
+110-5	14352-14354	we	_	_	
+110-6	14355-14361	remove	_	_	
+110-7	14362-14365	the	_	_	
+110-8	14366-14375	ancestors	_	_	
+110-9	14376-14379	one	_	_	
+110-10	14380-14382	by	_	_	
+110-11	14383-14386	one	_	_	
+110-12	14387-14390	and	_	_	
+110-13	14391-14398	compute	_	_	
+110-14	14399-14402	the	_	_	
+110-15	14403-14418	signal-to-noise	*[19]	EVALMETRIC[19]	
+110-16	14419-14424	ratio	*[19]	EVALMETRIC[19]	
+110-17	14425-14428	and	_	_	
+110-18	14429-14432	the	_	_	
+110-19	14433-14434	`	_	_	
+110-20	14434-14440	Z_test	*	EVALMETRIC	
+110-21	14440-14441	`	_	_	
+110-22	14442-14447	after	_	_	
+110-23	14448-14452	each	_	_	
+110-24	14453-14460	removal	_	_	
+110-25	14460-14461	.	_	_	
+
+#Text=The evolution of the signal-to-noise ratio and the `Z_test` gives the following graph: 
+#Text=
+#Text=<img style="width:100%;" alt="Prototypical signal to noise ratio evolution" src="_images/signal_to_noise_ratio_evolution.png"></a>
+#Text=
+#Text=As we remove ancestors, it becomes harder to explain the node from the remaining ancestors.
+111-1	14462-14465	The	_	_	
+111-2	14466-14475	evolution	_	_	
+111-3	14476-14478	of	_	_	
+111-4	14479-14482	the	_	_	
+111-5	14483-14498	signal-to-noise	*[20]	EVALMETRIC[20]	
+111-6	14499-14504	ratio	*[20]	EVALMETRIC[20]	
+111-7	14505-14508	and	_	_	
+111-8	14509-14512	the	_	_	
+111-9	14513-14514	`	_	_	
+111-10	14514-14520	Z_test	*	EVALMETRIC	
+111-11	14520-14521	`	_	_	
+111-12	14522-14527	gives	_	_	
+111-13	14528-14531	the	_	_	
+111-14	14532-14541	following	_	_	
+111-15	14542-14547	graph	_	_	
+111-16	14547-14548	:	_	_	
+111-17	14551-14552	<	_	_	
+111-18	14552-14555	img	_	_	
+111-19	14556-14561	style	_	_	
+111-20	14561-14562	=	_	_	
+111-21	14562-14563	"	_	_	
+111-22	14563-14568	width	_	_	
+111-23	14568-14569	:	_	_	
+111-24	14569-14573	100%	_	_	
+111-25	14573-14574	;	_	_	
+111-26	14574-14575	"	_	_	
+111-27	14576-14579	alt	_	_	
+111-28	14579-14580	=	_	_	
+111-29	14580-14581	"	_	_	
+111-30	14581-14593	Prototypical	_	_	
+111-31	14594-14600	signal	_	_	
+111-32	14601-14603	to	_	_	
+111-33	14604-14609	noise	_	_	
+111-34	14610-14615	ratio	_	_	
+111-35	14616-14625	evolution	_	_	
+111-36	14625-14626	"	_	_	
+111-37	14627-14630	src	_	_	
+111-38	14630-14631	=	_	_	
+111-39	14631-14632	"	_	_	
+111-40	14632-14633	_	_	_	
+111-41	14633-14639	images	_	_	
+111-42	14639-14640	/	_	_	
+111-43	14640-14675	signal_to_noise_ratio_evolution.png	_	_	
+111-44	14675-14676	"	_	_	
+111-45	14676-14677	>	_	_	
+111-46	14677-14678	<	_	_	
+111-47	14678-14679	/	_	_	
+111-48	14679-14680	a	_	_	
+111-49	14680-14681	>	_	_	
+111-50	14683-14685	As	_	_	
+111-51	14686-14688	we	_	_	
+111-52	14689-14695	remove	_	_	
+111-53	14696-14705	ancestors	_	_	
+111-54	14705-14706	,	_	_	
+111-55	14707-14709	it	_	_	
+111-56	14710-14717	becomes	_	_	
+111-57	14718-14724	harder	_	_	
+111-58	14725-14727	to	_	_	
+111-59	14728-14735	explain	_	_	
+111-60	14736-14739	the	_	_	
+111-61	14740-14744	node	_	_	
+111-62	14745-14749	from	_	_	
+111-63	14750-14753	the	_	_	
+111-64	14754-14763	remaining	_	_	
+111-65	14764-14773	ancestors	_	_	
+111-66	14773-14774	.	_	_	
+
+#Text=Seeing the evolution of the signal-to-noise ratio and the `Z_test`, we must choose how many ancestors we wish to keep.
+112-1	14775-14781	Seeing	_	_	
+112-2	14782-14785	the	_	_	
+112-3	14786-14795	evolution	_	_	
+112-4	14796-14798	of	_	_	
+112-5	14799-14802	the	_	_	
+112-6	14803-14818	signal-to-noise	*[21]	EVALMETRIC[21]	
+112-7	14819-14824	ratio	*[21]	EVALMETRIC[21]	
+112-8	14825-14828	and	_	_	
+112-9	14829-14832	the	_	_	
+112-10	14833-14834	`	_	_	
+112-11	14834-14840	Z_test	*	EVALMETRIC	
+112-12	14840-14841	`	_	_	
+112-13	14841-14842	,	_	_	
+112-14	14843-14845	we	_	_	
+112-15	14846-14850	must	_	_	
+112-16	14851-14857	choose	_	_	
+112-17	14858-14861	how	_	_	
+112-18	14862-14866	many	_	_	
+112-19	14867-14876	ancestors	_	_	
+112-20	14877-14879	we	_	_	
+112-21	14880-14884	wish	_	_	
+112-22	14885-14887	to	_	_	
+112-23	14888-14892	keep	_	_	
+112-24	14892-14893	.	_	_	
+
+#Text=>**Note**: One good indicator of when we have removed an essential ancestor is when we observe a spike in the noise ratio.
+113-1	14896-14897	>	_	_	
+113-2	14897-14898	*	_	_	
+113-3	14898-14899	*	_	_	
+113-4	14899-14903	Note	_	_	
+113-5	14903-14904	*	_	_	
+113-6	14904-14905	*	_	_	
+113-7	14905-14906	:	_	_	
+113-8	14907-14910	One	_	_	
+113-9	14911-14915	good	_	_	
+113-10	14916-14925	indicator	_	_	
+113-11	14926-14928	of	_	_	
+113-12	14929-14933	when	_	_	
+113-13	14934-14936	we	_	_	
+113-14	14937-14941	have	_	_	
+113-15	14942-14949	removed	_	_	
+113-16	14950-14952	an	_	_	
+113-17	14953-14962	essential	_	_	
+113-18	14963-14971	ancestor	_	_	
+113-19	14972-14974	is	_	_	
+113-20	14975-14979	when	_	_	
+113-21	14980-14982	we	_	_	
+113-22	14983-14990	observe	_	_	
+113-23	14991-14992	a	_	_	
+113-24	14993-14998	spike	_	_	
+113-25	14999-15001	in	_	_	
+113-26	15002-15005	the	_	_	
+113-27	15006-15011	noise	_	_	
+113-28	15012-15017	ratio	_	_	
+113-29	15017-15018	.	_	_	
+
+#Text=This is why increments in the noise ratio are plotted on the right, as it is a good indicator.
+114-1	15019-15023	This	_	_	
+114-2	15024-15026	is	_	_	
+114-3	15027-15030	why	_	_	
+114-4	15031-15041	increments	_	_	
+114-5	15042-15044	in	_	_	
+114-6	15045-15048	the	_	_	
+114-7	15049-15054	noise	_	_	
+114-8	15055-15060	ratio	_	_	
+114-9	15061-15064	are	_	_	
+114-10	15065-15072	plotted	_	_	
+114-11	15073-15075	on	_	_	
+114-12	15076-15079	the	_	_	
+114-13	15080-15085	right	_	_	
+114-14	15085-15086	,	_	_	
+114-15	15087-15089	as	_	_	
+114-16	15090-15092	it	_	_	
+114-17	15093-15095	is	_	_	
+114-18	15096-15097	a	_	_	
+114-19	15098-15102	good	_	_	
+114-20	15103-15112	indicator	_	_	
+114-21	15112-15113	.	_	_	
+
+#Text=Several decisions can be made from this evolution.
+115-1	15116-15123	Several	_	_	
+115-2	15124-15133	decisions	_	_	
+115-3	15134-15137	can	_	_	
+115-4	15138-15140	be	_	_	
+115-5	15141-15145	made	_	_	
+115-6	15146-15150	from	_	_	
+115-7	15151-15155	this	_	_	
+115-8	15156-15165	evolution	_	_	
+115-9	15165-15166	.	_	_	
+
+#Text=By default, we use `MaxIncrementModeChooser`.
+116-1	15167-15169	By	_	_	
+116-2	15170-15177	default	_	_	
+116-3	15177-15178	,	_	_	
+116-4	15179-15181	we	_	_	
+116-5	15182-15185	use	_	_	
+116-6	15186-15187	`	_	_	
+116-7	15187-15210	MaxIncrementModeChooser	_	_	
+116-8	15210-15211	`	_	_	
+116-9	15211-15212	.	_	_	
+
+#Text=Decisions are made by instances of the `ModeChooser` class:
+#Text=- **Threshold**: 
+#Text=    - Implemented in `ThresholdModeChooser`
+117-1	15213-15222	Decisions	_	_	
+117-2	15223-15226	are	_	_	
+117-3	15227-15231	made	_	_	
+117-4	15232-15234	by	_	_	
+117-5	15235-15244	instances	_	_	
+117-6	15245-15247	of	_	_	
+117-7	15248-15251	the	_	_	
+117-8	15252-15253	`	_	_	
+117-9	15253-15264	ModeChooser	_	_	
+117-10	15264-15265	`	_	_	
+117-11	15266-15271	class	_	_	
+117-12	15271-15272	:	_	_	
+117-13	15273-15274	-	_	_	
+117-14	15275-15276	*	_	_	
+117-15	15276-15277	*	_	_	
+117-16	15277-15286	Threshold	_	_	
+117-17	15286-15287	*	_	_	
+117-18	15287-15288	*	_	_	
+117-19	15288-15289	:	_	_	
+117-20	15295-15296	-	_	_	
+117-21	15297-15308	Implemented	_	_	
+117-22	15309-15311	in	_	_	
+117-23	15312-15313	`	_	_	
+117-24	15313-15333	ThresholdModeChooser	_	_	
+117-25	15333-15334	`	_	_	
+
+#Text=.
+118-1	15334-15335	.	_	_	
+
+#Text=- Choose a threshold for the noise ratio, and keep the ancestors until the noise ratio goes above this threshold
+119-1	15341-15342	-	_	_	
+119-2	15343-15349	Choose	_	_	
+119-3	15350-15351	a	_	_	
+119-4	15352-15361	threshold	_	_	
+119-5	15362-15365	for	_	_	
+119-6	15366-15369	the	_	_	
+119-7	15370-15375	noise	_	_	
+119-8	15376-15381	ratio	_	_	
+119-9	15381-15382	,	_	_	
+119-10	15383-15386	and	_	_	
+119-11	15387-15391	keep	_	_	
+119-12	15392-15395	the	_	_	
+119-13	15396-15405	ancestors	_	_	
+119-14	15406-15411	until	_	_	
+119-15	15412-15415	the	_	_	
+119-16	15416-15421	noise	_	_	
+119-17	15422-15427	ratio	_	_	
+119-18	15428-15432	goes	_	_	
+119-19	15433-15438	above	_	_	
+119-20	15439-15443	this	_	_	
+119-21	15444-15453	threshold	_	_	
+
+#Text=.
+120-1	15453-15454	.	_	_	
+
+#Text=- In the example, with a threshold of 0.7, we would keep 8 ancestors.
+#Text=- **Maximum increment**: 
+#Text=    - Implemented in `MaxIncrementModeChooser`
+121-1	15459-15460	-	_	_	
+121-2	15461-15463	In	_	_	
+121-3	15464-15467	the	_	_	
+121-4	15468-15475	example	_	_	
+121-5	15475-15476	,	_	_	
+121-6	15477-15481	with	_	_	
+121-7	15482-15483	a	_	_	
+121-8	15484-15493	threshold	_	_	
+121-9	15494-15496	of	_	_	
+121-10	15497-15500	0.7	_	_	
+121-11	15500-15501	,	_	_	
+121-12	15502-15504	we	_	_	
+121-13	15505-15510	would	_	_	
+121-14	15511-15515	keep	_	_	
+121-15	15516-15517	8	_	_	
+121-16	15518-15527	ancestors	_	_	
+121-17	15527-15528	.	_	_	
+121-18	15529-15530	-	_	_	
+121-19	15531-15532	*	_	_	
+121-20	15532-15533	*	_	_	
+121-21	15533-15540	Maximum	_	_	
+121-22	15541-15550	increment	_	_	
+121-23	15550-15551	*	_	_	
+121-24	15551-15552	*	_	_	
+121-25	15552-15553	:	_	_	
+121-26	15559-15560	-	_	_	
+121-27	15561-15572	Implemented	_	_	
+121-28	15573-15575	in	_	_	
+121-29	15576-15577	`	_	_	
+121-30	15577-15600	MaxIncrementModeChooser	_	_	
+121-31	15600-15601	`	_	_	
+
+#Text=.
+122-1	15601-15602	.	_	_	
+
+#Text=- We look at the highest spike in the noise ratio and keep the ancestors we had at the moment of this spike
+123-1	15608-15609	-	_	_	
+123-2	15610-15612	We	_	_	
+123-3	15613-15617	look	_	_	
+123-4	15618-15620	at	_	_	
+123-5	15621-15624	the	_	_	
+123-6	15625-15632	highest	_	_	
+123-7	15633-15638	spike	_	_	
+123-8	15639-15641	in	_	_	
+123-9	15642-15645	the	_	_	
+123-10	15646-15651	noise	_	_	
+123-11	15652-15657	ratio	_	_	
+123-12	15658-15661	and	_	_	
+123-13	15662-15666	keep	_	_	
+123-14	15667-15670	the	_	_	
+123-15	15671-15680	ancestors	_	_	
+123-16	15681-15683	we	_	_	
+123-17	15684-15687	had	_	_	
+123-18	15688-15690	at	_	_	
+123-19	15691-15694	the	_	_	
+123-20	15695-15701	moment	_	_	
+123-21	15702-15704	of	_	_	
+123-22	15705-15709	this	_	_	
+123-23	15710-15715	spike	_	_	
+
+#Text=.
+124-1	15715-15716	.	_	_	
+
+#Text=- In the example, we see the spike occurs at 2 ancestors, so we keep these 2 ancestors. 
+#Text=
+#Text=## Manipulating clusters and possible edges
+#Text=
+#Text=### Clusters
+#Text=
+#Text=If a set of nodes is highly dependent, it is possible to merge them into a cluster of nodes.
+125-1	15721-15722	-	_	_	
+125-2	15723-15725	In	_	_	
+125-3	15726-15729	the	_	_	
+125-4	15730-15737	example	_	_	
+125-5	15737-15738	,	_	_	
+125-6	15739-15741	we	_	_	
+125-7	15742-15745	see	_	_	
+125-8	15746-15749	the	_	_	
+125-9	15750-15755	spike	_	_	
+125-10	15756-15762	occurs	_	_	
+125-11	15763-15765	at	_	_	
+125-12	15766-15767	2	_	_	
+125-13	15768-15777	ancestors	_	_	
+125-14	15777-15778	,	_	_	
+125-15	15779-15781	so	_	_	
+125-16	15782-15784	we	_	_	
+125-17	15785-15789	keep	_	_	
+125-18	15790-15795	these	_	_	
+125-19	15796-15797	2	_	_	
+125-20	15798-15807	ancestors	_	_	
+125-21	15807-15808	.	_	_	
+125-22	15811-15812	#	_	_	
+125-23	15812-15813	#	_	_	
+125-24	15814-15826	Manipulating	_	_	
+125-25	15827-15835	clusters	_	_	
+125-26	15836-15839	and	_	_	
+125-27	15840-15848	possible	_	_	
+125-28	15849-15854	edges	_	_	
+125-29	15856-15857	#	_	_	
+125-30	15857-15858	#	_	_	
+125-31	15858-15859	#	_	_	
+125-32	15860-15868	Clusters	_	_	
+125-33	15870-15872	If	_	_	
+125-34	15873-15874	a	_	_	
+125-35	15875-15878	set	_	_	
+125-36	15879-15881	of	_	_	
+125-37	15882-15887	nodes	_	_	
+125-38	15888-15890	is	_	_	
+125-39	15891-15897	highly	_	_	
+125-40	15898-15907	dependent	_	_	
+125-41	15907-15908	,	_	_	
+125-42	15909-15911	it	_	_	
+125-43	15912-15914	is	_	_	
+125-44	15915-15923	possible	_	_	
+125-45	15924-15926	to	_	_	
+125-46	15927-15932	merge	_	_	
+125-47	15933-15937	them	_	_	
+125-48	15938-15942	into	_	_	
+125-49	15943-15944	a	_	_	
+125-50	15945-15952	cluster	_	_	
+125-51	15953-15955	of	_	_	
+125-52	15956-15961	nodes	_	_	
+125-53	15961-15962	.	_	_	
+
+#Text=This gives greater readability and prevents the graph discovery method from missing other connections.
+126-1	15963-15967	This	_	_	
+126-2	15968-15973	gives	_	_	
+126-3	15974-15981	greater	_	_	
+126-4	15982-15993	readability	_	_	
+126-5	15994-15997	and	_	_	
+126-6	15998-16006	prevents	_	_	
+126-7	16007-16010	the	_	_	
+126-8	16011-16016	graph	_	_	
+126-9	16017-16026	discovery	_	_	
+126-10	16027-16033	method	_	_	
+126-11	16034-16038	from	_	_	
+126-12	16039-16046	missing	_	_	
+126-13	16047-16052	other	_	_	
+126-14	16053-16064	connections	_	_	
+126-15	16064-16065	.	_	_	
+
+#Text=It also lets you perform graph discovery in a hierarchical fashion:
+#Text=1.
+127-1	16066-16068	It	_	_	
+127-2	16069-16073	also	_	_	
+127-3	16074-16078	lets	_	_	
+127-4	16079-16082	you	_	_	
+127-5	16083-16090	perform	_	_	
+127-6	16091-16096	graph	_	_	
+127-7	16097-16106	discovery	_	_	
+127-8	16107-16109	in	_	_	
+127-9	16110-16111	a	_	_	
+127-10	16112-16124	hierarchical	_	_	
+127-11	16125-16132	fashion	_	_	
+127-12	16132-16133	:	_	_	
+127-13	16134-16135	1	_	_	
+127-14	16135-16136	.	_	_	
+
+#Text=Run CHD once on all nodes
+#Text=2.
+128-1	16137-16140	Run	_	_	
+128-2	16141-16144	CHD	_	_	
+128-3	16145-16149	once	_	_	
+128-4	16150-16152	on	_	_	
+128-5	16153-16156	all	_	_	
+128-6	16157-16162	nodes	_	_	
+128-7	16163-16164	2	_	_	
+128-8	16164-16165	.	_	_	
+
+#Text=Identify clusters of nodes: if a set of nodes is highly dependent, with strong (i.e., low noise) connections, merge them into a cluster of nodes.
+#Text=3.
+129-1	16166-16174	Identify	_	_	
+129-2	16175-16183	clusters	_	_	
+129-3	16184-16186	of	_	_	
+129-4	16187-16192	nodes	_	_	
+129-5	16192-16193	:	_	_	
+129-6	16194-16196	if	_	_	
+129-7	16197-16198	a	_	_	
+129-8	16199-16202	set	_	_	
+129-9	16203-16205	of	_	_	
+129-10	16206-16211	nodes	_	_	
+129-11	16212-16214	is	_	_	
+129-12	16215-16221	highly	_	_	
+129-13	16222-16231	dependent	_	_	
+129-14	16231-16232	,	_	_	
+129-15	16233-16237	with	_	_	
+129-16	16238-16244	strong	_	_	
+129-17	16245-16246	(	_	_	
+129-18	16246-16249	i.e	_	_	
+129-19	16249-16250	.	_	_	
+129-20	16250-16251	,	_	_	
+129-21	16252-16255	low	_	_	
+129-22	16256-16261	noise	_	_	
+129-23	16261-16262	)	_	_	
+129-24	16263-16274	connections	_	_	
+129-25	16274-16275	,	_	_	
+129-26	16276-16281	merge	_	_	
+129-27	16282-16286	them	_	_	
+129-28	16287-16291	into	_	_	
+129-29	16292-16293	a	_	_	
+129-30	16294-16301	cluster	_	_	
+129-31	16302-16304	of	_	_	
+129-32	16305-16310	nodes	_	_	
+129-33	16310-16311	.	_	_	
+129-34	16312-16313	3	_	_	
+129-35	16313-16314	.	_	_	
+
+#Text=Run CHD with clusters
+#Text=
+#Text=>An example of the use of clusters is given in the [Gene notebook](.
+130-1	16315-16318	Run	_	_	
+130-2	16319-16322	CHD	_	_	
+130-3	16323-16327	with	_	_	
+130-4	16328-16336	clusters	_	_	
+130-5	16338-16339	>	_	_	
+130-6	16339-16341	An	_	_	
+130-7	16342-16349	example	_	_	
+130-8	16350-16352	of	_	_	
+130-9	16353-16356	the	_	_	
+130-10	16357-16360	use	_	_	
+130-11	16361-16363	of	_	_	
+130-12	16364-16372	clusters	_	_	
+130-13	16373-16375	is	_	_	
+130-14	16376-16381	given	_	_	
+130-15	16382-16384	in	_	_	
+130-16	16385-16388	the	_	_	
+130-17	16389-16390	[	_	_	
+130-18	16390-16394	Gene	_	_	
+130-19	16395-16403	notebook	_	_	
+130-20	16403-16404	]	_	_	
+130-21	16404-16405	(	_	_	
+130-22	16405-16406	.	_	_	
+
+#Text=/examples/Gene_graph_discovery.ipynb)
+#Text=
+#Text=### Cluster definition
+#Text=
+#Text=#### When creating a `GraphDiscovery` object
+#Text=
+#Text=When creating a `GraphDiscovery` object, you can specify the `cluster` parameter.
+131-1	16406-16407	/	_	_	
+131-2	16407-16415	examples	_	_	
+131-3	16415-16416	/	_	_	
+131-4	16416-16442	Gene_graph_discovery.ipynb	_	_	
+131-5	16442-16443	)	_	_	
+131-6	16445-16446	#	_	_	
+131-7	16446-16447	#	_	_	
+131-8	16447-16448	#	_	_	
+131-9	16449-16456	Cluster	_	_	
+131-10	16457-16467	definition	_	_	
+131-11	16469-16470	#	_	_	
+131-12	16470-16471	#	_	_	
+131-13	16471-16472	#	_	_	
+131-14	16472-16473	#	_	_	
+131-15	16474-16478	When	_	_	
+131-16	16479-16487	creating	_	_	
+131-17	16488-16489	a	_	_	
+131-18	16490-16491	`	_	_	
+131-19	16491-16505	GraphDiscovery	_	_	
+131-20	16505-16506	`	_	_	
+131-21	16507-16513	object	_	_	
+131-22	16515-16519	When	_	_	
+131-23	16520-16528	creating	_	_	
+131-24	16529-16530	a	_	_	
+131-25	16531-16532	`	_	_	
+131-26	16532-16546	GraphDiscovery	_	_	
+131-27	16546-16547	`	_	_	
+131-28	16548-16554	object	_	_	
+131-29	16554-16555	,	_	_	
+131-30	16556-16559	you	_	_	
+131-31	16560-16563	can	_	_	
+131-32	16564-16571	specify	_	_	
+131-33	16572-16575	the	_	_	
+131-34	16576-16577	`	_	_	
+131-35	16577-16584	cluster	_	_	
+131-36	16584-16585	`	_	_	
+131-37	16586-16595	parameter	_	_	
+131-38	16595-16596	.	_	_	
+
+#Text=It is a list of lists of strings, where each list of strings is a cluster of nodes.
+132-1	16597-16599	It	_	_	
+132-2	16600-16602	is	_	_	
+132-3	16603-16604	a	_	_	
+132-4	16605-16609	list	_	_	
+132-5	16610-16612	of	_	_	
+132-6	16613-16618	lists	_	_	
+132-7	16619-16621	of	_	_	
+132-8	16622-16629	strings	_	_	
+132-9	16629-16630	,	_	_	
+132-10	16631-16636	where	_	_	
+132-11	16637-16641	each	_	_	
+132-12	16642-16646	list	_	_	
+132-13	16647-16649	of	_	_	
+132-14	16650-16657	strings	_	_	
+132-15	16658-16660	is	_	_	
+132-16	16661-16662	a	_	_	
+132-17	16663-16670	cluster	_	_	
+132-18	16671-16673	of	_	_	
+132-19	16674-16679	nodes	_	_	
+132-20	16679-16680	.	_	_	
+
+#Text=For example, with the Sachs dataset, we can define the following clusters:
+#Text=```python
+#Text=clusters=[
+#Text=    ['$PKC$','$P38$','$Jnk$'],
+#Text=    ['$Erk$','$Akt$','$PKA$'],
+#Text=    ['$Raf$','$Mek$'],
+#Text=    ['$Plcg$','$PIP2$','$PIP3$']
+#Text=]
+#Text=graph_discovery = CHD.GraphDiscovery.from_dataframe(df,clusters=clusters)
+#Text=```
+#Text=
+#Text=#### After creating a `GraphDiscovery` object, for the second run
+#Text=
+#Text=If you already have a `GraphDiscovery` object named `graph_discovery` on which you have run the algorithm, you can choose the clusters based on the results and apply them to get a new `GraphDiscovery` object:
+#Text=```python
+#Text=graph_discovery2=graph_discovery.prepare_new_graph_with_clusters(clusters)
+#Text=```
+#Text=
+#Text=### Using clusters
+#Text=Once the clusters have been defined, you can use the `GraphDiscovery` object as usual.
+133-1	16681-16684	For	_	_	
+133-2	16685-16692	example	_	_	
+133-3	16692-16693	,	_	_	
+133-4	16694-16698	with	_	_	
+133-5	16699-16702	the	_	_	
+133-6	16703-16708	Sachs	*	DATASET	
+133-7	16709-16716	dataset	_	_	
+133-8	16716-16717	,	_	_	
+133-9	16718-16720	we	_	_	
+133-10	16721-16724	can	_	_	
+133-11	16725-16731	define	_	_	
+133-12	16732-16735	the	_	_	
+133-13	16736-16745	following	_	_	
+133-14	16746-16754	clusters	_	_	
+133-15	16754-16755	:	_	_	
+133-16	16756-16757	`	_	_	
+133-17	16757-16758	`	_	_	
+133-18	16758-16759	`	_	_	
+133-19	16759-16765	python	*	SOFTWARE	
+133-20	16766-16774	clusters	_	_	
+133-21	16774-16775	=	_	_	
+133-22	16775-16776	[	_	_	
+133-23	16781-16782	[	_	_	
+133-24	16782-16783	'	_	_	
+133-25	16783-16784	$	_	_	
+133-26	16784-16787	PKC	_	_	
+133-27	16787-16788	$	_	_	
+133-28	16788-16789	'	_	_	
+133-29	16789-16790	,	_	_	
+133-30	16790-16791	'	_	_	
+133-31	16791-16792	$	_	_	
+133-32	16792-16795	P38	_	_	
+133-33	16795-16796	$	_	_	
+133-34	16796-16797	'	_	_	
+133-35	16797-16798	,	_	_	
+133-36	16798-16799	'	_	_	
+133-37	16799-16800	$	_	_	
+133-38	16800-16803	Jnk	_	_	
+133-39	16803-16804	$	_	_	
+133-40	16804-16805	'	_	_	
+133-41	16805-16806	]	_	_	
+133-42	16806-16807	,	_	_	
+133-43	16812-16813	[	_	_	
+133-44	16813-16814	'	_	_	
+133-45	16814-16815	$	_	_	
+133-46	16815-16818	Erk	_	_	
+133-47	16818-16819	$	_	_	
+133-48	16819-16820	'	_	_	
+133-49	16820-16821	,	_	_	
+133-50	16821-16822	'	_	_	
+133-51	16822-16823	$	_	_	
+133-52	16823-16826	Akt	_	_	
+133-53	16826-16827	$	_	_	
+133-54	16827-16828	'	_	_	
+133-55	16828-16829	,	_	_	
+133-56	16829-16830	'	_	_	
+133-57	16830-16831	$	_	_	
+133-58	16831-16834	PKA	_	_	
+133-59	16834-16835	$	_	_	
+133-60	16835-16836	'	_	_	
+133-61	16836-16837	]	_	_	
+133-62	16837-16838	,	_	_	
+133-63	16843-16844	[	_	_	
+133-64	16844-16845	'	_	_	
+133-65	16845-16846	$	_	_	
+133-66	16846-16849	Raf	_	_	
+133-67	16849-16850	$	_	_	
+133-68	16850-16851	'	_	_	
+133-69	16851-16852	,	_	_	
+133-70	16852-16853	'	_	_	
+133-71	16853-16854	$	_	_	
+133-72	16854-16857	Mek	_	_	
+133-73	16857-16858	$	_	_	
+133-74	16858-16859	'	_	_	
+133-75	16859-16860	]	_	_	
+133-76	16860-16861	,	_	_	
+133-77	16866-16867	[	_	_	
+133-78	16867-16868	'	_	_	
+133-79	16868-16869	$	_	_	
+133-80	16869-16873	Plcg	_	_	
+133-81	16873-16874	$	_	_	
+133-82	16874-16875	'	_	_	
+133-83	16875-16876	,	_	_	
+133-84	16876-16877	'	_	_	
+133-85	16877-16878	$	_	_	
+133-86	16878-16882	PIP2	_	_	
+133-87	16882-16883	$	_	_	
+133-88	16883-16884	'	_	_	
+133-89	16884-16885	,	_	_	
+133-90	16885-16886	'	_	_	
+133-91	16886-16887	$	_	_	
+133-92	16887-16891	PIP3	_	_	
+133-93	16891-16892	$	_	_	
+133-94	16892-16893	'	_	_	
+133-95	16893-16894	]	_	_	
+133-96	16895-16896	]	_	_	
+133-97	16897-16912	graph_discovery	_	_	
+133-98	16913-16914	=	_	_	
+133-99	16915-16948	CHD.GraphDiscovery.from_dataframe	_	_	
+133-100	16948-16949	(	_	_	
+133-101	16949-16951	df	_	_	
+133-102	16951-16952	,	_	_	
+133-103	16952-16960	clusters	_	_	
+133-104	16960-16961	=	_	_	
+133-105	16961-16969	clusters	_	_	
+133-106	16969-16970	)	_	_	
+133-107	16971-16972	`	_	_	
+133-108	16972-16973	`	_	_	
+133-109	16973-16974	`	_	_	
+133-110	16976-16977	#	_	_	
+133-111	16977-16978	#	_	_	
+133-112	16978-16979	#	_	_	
+133-113	16979-16980	#	_	_	
+133-114	16981-16986	After	_	_	
+133-115	16987-16995	creating	_	_	
+133-116	16996-16997	a	_	_	
+133-117	16998-16999	`	_	_	
+133-118	16999-17013	GraphDiscovery	_	_	
+133-119	17013-17014	`	_	_	
+133-120	17015-17021	object	_	_	
+133-121	17021-17022	,	_	_	
+133-122	17023-17026	for	_	_	
+133-123	17027-17030	the	_	_	
+133-124	17031-17037	second	_	_	
+133-125	17038-17041	run	_	_	
+133-126	17043-17045	If	_	_	
+133-127	17046-17049	you	_	_	
+133-128	17050-17057	already	_	_	
+133-129	17058-17062	have	_	_	
+133-130	17063-17064	a	_	_	
+133-131	17065-17066	`	_	_	
+133-132	17066-17080	GraphDiscovery	_	_	
+133-133	17080-17081	`	_	_	
+133-134	17082-17088	object	_	_	
+133-135	17089-17094	named	_	_	
+133-136	17095-17096	`	_	_	
+133-137	17096-17111	graph_discovery	_	_	
+133-138	17111-17112	`	_	_	
+133-139	17113-17115	on	_	_	
+133-140	17116-17121	which	_	_	
+133-141	17122-17125	you	_	_	
+133-142	17126-17130	have	_	_	
+133-143	17131-17134	run	_	_	
+133-144	17135-17138	the	_	_	
+133-145	17139-17148	algorithm	_	_	
+133-146	17148-17149	,	_	_	
+133-147	17150-17153	you	_	_	
+133-148	17154-17157	can	_	_	
+133-149	17158-17164	choose	_	_	
+133-150	17165-17168	the	_	_	
+133-151	17169-17177	clusters	_	_	
+133-152	17178-17183	based	_	_	
+133-153	17184-17186	on	_	_	
+133-154	17187-17190	the	_	_	
+133-155	17191-17198	results	_	_	
+133-156	17199-17202	and	_	_	
+133-157	17203-17208	apply	_	_	
+133-158	17209-17213	them	_	_	
+133-159	17214-17216	to	_	_	
+133-160	17217-17220	get	_	_	
+133-161	17221-17222	a	_	_	
+133-162	17223-17226	new	_	_	
+133-163	17227-17228	`	_	_	
+133-164	17228-17242	GraphDiscovery	_	_	
+133-165	17242-17243	`	_	_	
+133-166	17244-17250	object	_	_	
+133-167	17250-17251	:	_	_	
+133-168	17252-17253	`	_	_	
+133-169	17253-17254	`	_	_	
+133-170	17254-17255	`	_	_	
+133-171	17255-17261	python	*	PROGLANG	
+133-172	17262-17278	graph_discovery2	_	_	
+133-173	17278-17279	=	_	_	
+133-174	17279-17326	graph_discovery.prepare_new_graph_with_clusters	_	_	
+133-175	17326-17327	(	_	_	
+133-176	17327-17335	clusters	_	_	
+133-177	17335-17336	)	_	_	
+133-178	17337-17338	`	_	_	
+133-179	17338-17339	`	_	_	
+133-180	17339-17340	`	_	_	
+133-181	17342-17343	#	_	_	
+133-182	17343-17344	#	_	_	
+133-183	17344-17345	#	_	_	
+133-184	17346-17351	Using	_	_	
+133-185	17352-17360	clusters	_	_	
+133-186	17361-17365	Once	_	_	
+133-187	17366-17369	the	_	_	
+133-188	17370-17378	clusters	_	_	
+133-189	17379-17383	have	_	_	
+133-190	17384-17388	been	_	_	
+133-191	17389-17396	defined	_	_	
+133-192	17396-17397	,	_	_	
+133-193	17398-17401	you	_	_	
+133-194	17402-17405	can	_	_	
+133-195	17406-17409	use	_	_	
+133-196	17410-17413	the	_	_	
+133-197	17414-17415	`	_	_	
+133-198	17415-17429	GraphDiscovery	_	_	
+133-199	17429-17430	`	_	_	
+133-200	17431-17437	object	_	_	
+133-201	17438-17440	as	_	_	
+133-202	17441-17446	usual	_	_	
+133-203	17446-17447	.	_	_	
+
+#Text=It will handle the clustering you specified and will plot the graph showing clusters.
+134-1	17448-17450	It	_	_	
+134-2	17451-17455	will	_	_	
+134-3	17456-17462	handle	_	_	
+134-4	17463-17466	the	_	_	
+134-5	17467-17477	clustering	_	_	
+134-6	17478-17481	you	_	_	
+134-7	17482-17491	specified	_	_	
+134-8	17492-17495	and	_	_	
+134-9	17496-17500	will	_	_	
+134-10	17501-17505	plot	_	_	
+134-11	17506-17509	the	_	_	
+134-12	17510-17515	graph	_	_	
+134-13	17516-17523	showing	_	_	
+134-14	17524-17532	clusters	_	_	
+134-15	17532-17533	.	_	_	
+
+#Text=We advise using clusters in a multi-level fashion, as is demonstrated here.
+135-1	17535-17537	We	_	_	
+135-2	17538-17544	advise	_	_	
+135-3	17545-17550	using	_	_	
+135-4	17551-17559	clusters	_	_	
+135-5	17560-17562	in	_	_	
+135-6	17563-17564	a	_	_	
+135-7	17565-17576	multi-level	_	_	
+135-8	17577-17584	fashion	_	_	
+135-9	17584-17585	,	_	_	
+135-10	17586-17588	as	_	_	
+135-11	17589-17591	is	_	_	
+135-12	17592-17604	demonstrated	_	_	
+135-13	17605-17609	here	_	_	
+135-14	17609-17610	.	_	_	
+
+#Text=```python
+#Text=import numpy as np
+#Text=import ComputationalHypergraphDiscovery as CHD
+#Text=from ComputationalHypergraphDiscovery.Modes import *
+#Text=
+#Text=# Load the data
+#Text=data = np.loadtxt('data/Sachs.txt', delimiter='\\t')
+#Text=# Normalize the data
+#Text=data = (data - np.mean(data, axis=0)) / np.std(data, axis=0)
+#Text=node_names=np.array(['$Raf$','$Mek$','$Plcg$','$PIP2$','$PIP3$','$Erk$','$Akt$','$PKA$','$PKC$','$P38$','$Jnk$'])
+#Text=
+#Text=# Define the kernel
+#Text=kernel = [0.1*LinearMode(), 0.01*QuadraticMode()]
+#Text=# Set up CHD
+#Text=graph_discovery = CHD.GraphDiscovery(data,node_names,kernel)
+#Text=# Perform CHD
+#Text=graph_discovery.fit()
+#Text=graph_discovery.plot_graph()
+#Text=
+#Text=# Refine the graph with clusters
+#Text=clusters=[
+#Text=    ['$PKC$','$P38$','$Jnk$'],
+#Text=    ['$Erk$','$Akt$','$PKA$'],
+#Text=    ['$Raf$','$Mek$'],
+#Text=    ['$Plcg$','$PIP2$','$PIP3$']
+#Text=]
+#Text=graph_discovery2=graph_discovery.prepare_new_graph_with_clusters(clusters)
+#Text=graph_discovery2.fit()
+#Text=graph_discovery2.plot_graph()
+#Text=```
+#Text=This code recovers the following graph:
+#Text=
+#Text=<img style="width:100%;" alt="Resulting graph Sachs example" src="_images/sachs_cluster_plot.png"></a>
+#Text=
+#Text=### Possible edges
+#Text=
+#Text=As a practitioner, you may have some knowledge about the data that you wish to use to inform the graph discovery process.
+136-1	17611-17612	`	_	_	
+136-2	17612-17613	`	_	_	
+136-3	17613-17614	`	_	_	
+136-4	17614-17620	python	*	PROGLANG	
+136-5	17621-17627	import	_	_	
+136-6	17628-17633	numpy	*	SOFTWARE	
+136-7	17634-17636	as	_	_	
+136-8	17637-17639	np	_	_	
+136-9	17640-17646	import	_	_	
+136-10	17647-17679	ComputationalHypergraphDiscovery	*	SOFTWARE	
+136-11	17680-17682	as	_	_	
+136-12	17683-17686	CHD	_	_	
+136-13	17687-17691	from	_	_	
+136-14	17692-17730	ComputationalHypergraphDiscovery.Modes	_	_	
+136-14.1	17692-17724	ComputationalHypergraphDiscovery	*	SOFTWARE	
+136-15	17731-17737	import	_	_	
+136-16	17738-17739	*	_	_	
+136-17	17741-17742	#	_	_	
+136-18	17743-17747	Load	_	_	
+136-19	17748-17751	the	_	_	
+136-20	17752-17756	data	_	_	
+136-21	17757-17761	data	_	_	
+136-22	17762-17763	=	_	_	
+136-23	17764-17774	np.loadtxt	_	_	
+136-24	17774-17775	(	_	_	
+136-25	17775-17776	'	_	_	
+136-26	17776-17780	data	_	_	
+136-27	17780-17781	/	_	_	
+136-28	17781-17790	Sachs.txt	_	_	
+136-29	17790-17791	'	_	_	
+136-30	17791-17792	,	_	_	
+136-31	17793-17802	delimiter	_	_	
+136-32	17802-17803	=	_	_	
+136-33	17803-17804	'	_	_	
+136-34	17804-17805	\	_	_	
+136-35	17805-17806	t	_	_	
+136-36	17806-17807	'	_	_	
+136-37	17807-17808	)	_	_	
+136-38	17809-17810	#	_	_	
+136-39	17811-17820	Normalize	_	_	
+136-40	17821-17824	the	_	_	
+136-41	17825-17829	data	_	_	
+136-42	17830-17834	data	_	_	
+136-43	17835-17836	=	_	_	
+136-44	17837-17838	(	_	_	
+136-45	17838-17842	data	_	_	
+136-46	17843-17844	-	_	_	
+136-47	17845-17852	np.mean	_	_	
+136-48	17852-17853	(	_	_	
+136-49	17853-17857	data	_	_	
+136-50	17857-17858	,	_	_	
+136-51	17859-17863	axis	_	_	
+136-52	17863-17864	=	_	_	
+136-53	17864-17865	0	_	_	
+136-54	17865-17866	)	_	_	
+136-55	17866-17867	)	_	_	
+136-56	17868-17869	/	_	_	
+136-57	17870-17876	np.std	_	_	
+136-58	17876-17877	(	_	_	
+136-59	17877-17881	data	_	_	
+136-60	17881-17882	,	_	_	
+136-61	17883-17887	axis	_	_	
+136-62	17887-17888	=	_	_	
+136-63	17888-17889	0	_	_	
+136-64	17889-17890	)	_	_	
+136-65	17891-17901	node_names	_	_	
+136-66	17901-17902	=	_	_	
+136-67	17902-17910	np.array	_	_	
+136-68	17910-17911	(	_	_	
+136-69	17911-17912	[	_	_	
+136-70	17912-17913	'	_	_	
+136-71	17913-17914	$	_	_	
+136-72	17914-17917	Raf	_	_	
+136-73	17917-17918	$	_	_	
+136-74	17918-17919	'	_	_	
+136-75	17919-17920	,	_	_	
+136-76	17920-17921	'	_	_	
+136-77	17921-17922	$	_	_	
+136-78	17922-17925	Mek	_	_	
+136-79	17925-17926	$	_	_	
+136-80	17926-17927	'	_	_	
+136-81	17927-17928	,	_	_	
+136-82	17928-17929	'	_	_	
+136-83	17929-17930	$	_	_	
+136-84	17930-17934	Plcg	_	_	
+136-85	17934-17935	$	_	_	
+136-86	17935-17936	'	_	_	
+136-87	17936-17937	,	_	_	
+136-88	17937-17938	'	_	_	
+136-89	17938-17939	$	_	_	
+136-90	17939-17943	PIP2	_	_	
+136-91	17943-17944	$	_	_	
+136-92	17944-17945	'	_	_	
+136-93	17945-17946	,	_	_	
+136-94	17946-17947	'	_	_	
+136-95	17947-17948	$	_	_	
+136-96	17948-17952	PIP3	_	_	
+136-97	17952-17953	$	_	_	
+136-98	17953-17954	'	_	_	
+136-99	17954-17955	,	_	_	
+136-100	17955-17956	'	_	_	
+136-101	17956-17957	$	_	_	
+136-102	17957-17960	Erk	_	_	
+136-103	17960-17961	$	_	_	
+136-104	17961-17962	'	_	_	
+136-105	17962-17963	,	_	_	
+136-106	17963-17964	'	_	_	
+136-107	17964-17965	$	_	_	
+136-108	17965-17968	Akt	_	_	
+136-109	17968-17969	$	_	_	
+136-110	17969-17970	'	_	_	
+136-111	17970-17971	,	_	_	
+136-112	17971-17972	'	_	_	
+136-113	17972-17973	$	_	_	
+136-114	17973-17976	PKA	_	_	
+136-115	17976-17977	$	_	_	
+136-116	17977-17978	'	_	_	
+136-117	17978-17979	,	_	_	
+136-118	17979-17980	'	_	_	
+136-119	17980-17981	$	_	_	
+136-120	17981-17984	PKC	_	_	
+136-121	17984-17985	$	_	_	
+136-122	17985-17986	'	_	_	
+136-123	17986-17987	,	_	_	
+136-124	17987-17988	'	_	_	
+136-125	17988-17989	$	_	_	
+136-126	17989-17992	P38	_	_	
+136-127	17992-17993	$	_	_	
+136-128	17993-17994	'	_	_	
+136-129	17994-17995	,	_	_	
+136-130	17995-17996	'	_	_	
+136-131	17996-17997	$	_	_	
+136-132	17997-18000	Jnk	_	_	
+136-133	18000-18001	$	_	_	
+136-134	18001-18002	'	_	_	
+136-135	18002-18003	]	_	_	
+136-136	18003-18004	)	_	_	
+136-137	18006-18007	#	_	_	
+136-138	18008-18014	Define	_	_	
+136-139	18015-18018	the	_	_	
+136-140	18019-18025	kernel	_	_	
+136-141	18026-18032	kernel	_	_	
+136-142	18033-18034	=	_	_	
+136-143	18035-18036	[	_	_	
+136-144	18036-18039	0.1	_	_	
+136-145	18039-18040	*	_	_	
+136-146	18040-18050	LinearMode	_	_	
+136-147	18050-18051	(	_	_	
+136-148	18051-18052	)	_	_	
+136-149	18052-18053	,	_	_	
+136-150	18054-18058	0.01	_	_	
+136-151	18058-18059	*	_	_	
+136-152	18059-18072	QuadraticMode	_	_	
+136-153	18072-18073	(	_	_	
+136-154	18073-18074	)	_	_	
+136-155	18074-18075	]	_	_	
+136-156	18076-18077	#	_	_	
+136-157	18078-18081	Set	_	_	
+136-158	18082-18084	up	_	_	
+136-159	18085-18088	CHD	_	_	
+136-160	18089-18104	graph_discovery	_	_	
+136-161	18105-18106	=	_	_	
+136-162	18107-18125	CHD.GraphDiscovery	_	_	
+136-163	18125-18126	(	_	_	
+136-164	18126-18130	data	_	_	
+136-165	18130-18131	,	_	_	
+136-166	18131-18141	node_names	_	_	
+136-167	18141-18142	,	_	_	
+136-168	18142-18148	kernel	_	_	
+136-169	18148-18149	)	_	_	
+136-170	18150-18151	#	_	_	
+136-171	18152-18159	Perform	_	_	
+136-172	18160-18163	CHD	_	_	
+136-173	18164-18183	graph_discovery.fit	_	_	
+136-174	18183-18184	(	_	_	
+136-175	18184-18185	)	_	_	
+136-176	18186-18212	graph_discovery.plot_graph	_	_	
+136-177	18212-18213	(	_	_	
+136-178	18213-18214	)	_	_	
+136-179	18216-18217	#	_	_	
+136-180	18218-18224	Refine	_	_	
+136-181	18225-18228	the	_	_	
+136-182	18229-18234	graph	_	_	
+136-183	18235-18239	with	_	_	
+136-184	18240-18248	clusters	_	_	
+136-185	18249-18257	clusters	_	_	
+136-186	18257-18258	=	_	_	
+136-187	18258-18259	[	_	_	
+136-188	18264-18265	[	_	_	
+136-189	18265-18266	'	_	_	
+136-190	18266-18267	$	_	_	
+136-191	18267-18270	PKC	_	_	
+136-192	18270-18271	$	_	_	
+136-193	18271-18272	'	_	_	
+136-194	18272-18273	,	_	_	
+136-195	18273-18274	'	_	_	
+136-196	18274-18275	$	_	_	
+136-197	18275-18278	P38	_	_	
+136-198	18278-18279	$	_	_	
+136-199	18279-18280	'	_	_	
+136-200	18280-18281	,	_	_	
+136-201	18281-18282	'	_	_	
+136-202	18282-18283	$	_	_	
+136-203	18283-18286	Jnk	_	_	
+136-204	18286-18287	$	_	_	
+136-205	18287-18288	'	_	_	
+136-206	18288-18289	]	_	_	
+136-207	18289-18290	,	_	_	
+136-208	18295-18296	[	_	_	
+136-209	18296-18297	'	_	_	
+136-210	18297-18298	$	_	_	
+136-211	18298-18301	Erk	_	_	
+136-212	18301-18302	$	_	_	
+136-213	18302-18303	'	_	_	
+136-214	18303-18304	,	_	_	
+136-215	18304-18305	'	_	_	
+136-216	18305-18306	$	_	_	
+136-217	18306-18309	Akt	_	_	
+136-218	18309-18310	$	_	_	
+136-219	18310-18311	'	_	_	
+136-220	18311-18312	,	_	_	
+136-221	18312-18313	'	_	_	
+136-222	18313-18314	$	_	_	
+136-223	18314-18317	PKA	_	_	
+136-224	18317-18318	$	_	_	
+136-225	18318-18319	'	_	_	
+136-226	18319-18320	]	_	_	
+136-227	18320-18321	,	_	_	
+136-228	18326-18327	[	_	_	
+136-229	18327-18328	'	_	_	
+136-230	18328-18329	$	_	_	
+136-231	18329-18332	Raf	_	_	
+136-232	18332-18333	$	_	_	
+136-233	18333-18334	'	_	_	
+136-234	18334-18335	,	_	_	
+136-235	18335-18336	'	_	_	
+136-236	18336-18337	$	_	_	
+136-237	18337-18340	Mek	_	_	
+136-238	18340-18341	$	_	_	
+136-239	18341-18342	'	_	_	
+136-240	18342-18343	]	_	_	
+136-241	18343-18344	,	_	_	
+136-242	18349-18350	[	_	_	
+136-243	18350-18351	'	_	_	
+136-244	18351-18352	$	_	_	
+136-245	18352-18356	Plcg	_	_	
+136-246	18356-18357	$	_	_	
+136-247	18357-18358	'	_	_	
+136-248	18358-18359	,	_	_	
+136-249	18359-18360	'	_	_	
+136-250	18360-18361	$	_	_	
+136-251	18361-18365	PIP2	_	_	
+136-252	18365-18366	$	_	_	
+136-253	18366-18367	'	_	_	
+136-254	18367-18368	,	_	_	
+136-255	18368-18369	'	_	_	
+136-256	18369-18370	$	_	_	
+136-257	18370-18374	PIP3	_	_	
+136-258	18374-18375	$	_	_	
+136-259	18375-18376	'	_	_	
+136-260	18376-18377	]	_	_	
+136-261	18378-18379	]	_	_	
+136-262	18380-18396	graph_discovery2	_	_	
+136-263	18396-18397	=	_	_	
+136-264	18397-18444	graph_discovery.prepare_new_graph_with_clusters	_	_	
+136-265	18444-18445	(	_	_	
+136-266	18445-18453	clusters	_	_	
+136-267	18453-18454	)	_	_	
+136-268	18455-18471	graph_discovery2	_	_	
+136-269	18471-18472	.	_	_	
+136-270	18472-18475	fit	_	_	
+136-271	18475-18476	(	_	_	
+136-272	18476-18477	)	_	_	
+136-273	18478-18494	graph_discovery2	_	_	
+136-274	18494-18495	.	_	_	
+136-275	18495-18505	plot_graph	_	_	
+136-276	18505-18506	(	_	_	
+136-277	18506-18507	)	_	_	
+136-278	18508-18509	`	_	_	
+136-279	18509-18510	`	_	_	
+136-280	18510-18511	`	_	_	
+136-281	18512-18516	This	_	_	
+136-282	18517-18521	code	_	_	
+136-283	18522-18530	recovers	_	_	
+136-284	18531-18534	the	_	_	
+136-285	18535-18544	following	_	_	
+136-286	18545-18550	graph	_	_	
+136-287	18550-18551	:	_	_	
+136-288	18553-18554	<	_	_	
+136-289	18554-18557	img	_	_	
+136-290	18558-18563	style	_	_	
+136-291	18563-18564	=	_	_	
+136-292	18564-18565	"	_	_	
+136-293	18565-18570	width	_	_	
+136-294	18570-18571	:	_	_	
+136-295	18571-18575	100%	_	_	
+136-296	18575-18576	;	_	_	
+136-297	18576-18577	"	_	_	
+136-298	18578-18581	alt	_	_	
+136-299	18581-18582	=	_	_	
+136-300	18582-18583	"	_	_	
+136-301	18583-18592	Resulting	_	_	
+136-302	18593-18598	graph	_	_	
+136-303	18599-18604	Sachs	_	_	
+136-304	18605-18612	example	_	_	
+136-305	18612-18613	"	_	_	
+136-306	18614-18617	src	_	_	
+136-307	18617-18618	=	_	_	
+136-308	18618-18619	"	_	_	
+136-309	18619-18620	_	_	_	
+136-310	18620-18626	images	_	_	
+136-311	18626-18627	/	_	_	
+136-312	18627-18649	sachs_cluster_plot.png	_	_	
+136-313	18649-18650	"	_	_	
+136-314	18650-18651	>	_	_	
+136-315	18651-18652	<	_	_	
+136-316	18652-18653	/	_	_	
+136-317	18653-18654	a	_	_	
+136-318	18654-18655	>	_	_	
+136-319	18657-18658	#	_	_	
+136-320	18658-18659	#	_	_	
+136-321	18659-18660	#	_	_	
+136-322	18661-18669	Possible	_	_	
+136-323	18670-18675	edges	_	_	
+136-324	18677-18679	As	_	_	
+136-325	18680-18681	a	_	_	
+136-326	18682-18694	practitioner	_	_	
+136-327	18694-18695	,	_	_	
+136-328	18696-18699	you	_	_	
+136-329	18700-18703	may	_	_	
+136-330	18704-18708	have	_	_	
+136-331	18709-18713	some	_	_	
+136-332	18714-18723	knowledge	_	_	
+136-333	18724-18729	about	_	_	
+136-334	18730-18733	the	_	_	
+136-335	18734-18738	data	_	_	
+136-336	18739-18743	that	_	_	
+136-337	18744-18747	you	_	_	
+136-338	18748-18752	wish	_	_	
+136-339	18753-18755	to	_	_	
+136-340	18756-18759	use	_	_	
+136-341	18760-18762	to	_	_	
+136-342	18763-18769	inform	_	_	
+136-343	18770-18773	the	_	_	
+136-344	18774-18779	graph	_	_	
+136-345	18780-18789	discovery	_	_	
+136-346	18790-18797	process	_	_	
+136-347	18797-18798	.	_	_	
+
+#Text=For example, you may know that specific nodes cannot be connected.
+137-1	18799-18802	For	_	_	
+137-2	18803-18810	example	_	_	
+137-3	18810-18811	,	_	_	
+137-4	18812-18815	you	_	_	
+137-5	18816-18819	may	_	_	
+137-6	18820-18824	know	_	_	
+137-7	18825-18829	that	_	_	
+137-8	18830-18838	specific	_	_	
+137-9	18839-18844	nodes	_	_	
+137-10	18845-18851	cannot	_	_	
+137-11	18852-18854	be	_	_	
+137-12	18855-18864	connected	_	_	
+137-13	18864-18865	.	_	_	
+
+#Text=You can specify this information to the algorithm using the `possible_edges` parameter of the `GraphDiscovery` object.
+138-1	18866-18869	You	_	_	
+138-2	18870-18873	can	_	_	
+138-3	18874-18881	specify	_	_	
+138-4	18882-18886	this	_	_	
+138-5	18887-18898	information	_	_	
+138-6	18899-18901	to	_	_	
+138-7	18902-18905	the	_	_	
+138-8	18906-18915	algorithm	_	_	
+138-9	18916-18921	using	_	_	
+138-10	18922-18925	the	_	_	
+138-11	18926-18927	`	_	_	
+138-12	18927-18941	possible_edges	_	_	
+138-13	18941-18942	`	_	_	
+138-14	18943-18952	parameter	_	_	
+138-15	18953-18955	of	_	_	
+138-16	18956-18959	the	_	_	
+138-17	18960-18961	`	_	_	
+138-18	18961-18975	GraphDiscovery	_	_	
+138-19	18975-18976	`	_	_	
+138-20	18977-18983	object	_	_	
+138-21	18983-18984	.	_	_	
+
+#Text=This is a directed graph in the form of a `networkx.DiGraph` object.
+139-1	18985-18989	This	_	_	
+139-2	18990-18992	is	_	_	
+139-3	18993-18994	a	_	_	
+139-4	18995-19003	directed	_	_	
+139-5	19004-19009	graph	_	_	
+139-6	19010-19012	in	_	_	
+139-7	19013-19016	the	_	_	
+139-8	19017-19021	form	_	_	
+139-9	19022-19024	of	_	_	
+139-10	19025-19026	a	_	_	
+139-11	19027-19028	`	_	_	
+139-12	19028-19044	networkx.DiGraph	_	_	
+139-13	19044-19045	`	_	_	
+139-14	19046-19052	object	_	_	
+139-15	19052-19053	.	_	_	
+
+#Text=Graph discovery will ignore all connections that are not in the `possible_edges` graph.
+140-1	19054-19059	Graph	_	_	
+140-2	19060-19069	discovery	_	_	
+140-3	19070-19074	will	_	_	
+140-4	19075-19081	ignore	_	_	
+140-5	19082-19085	all	_	_	
+140-6	19086-19097	connections	_	_	
+140-7	19098-19102	that	_	_	
+140-8	19103-19106	are	_	_	
+140-9	19107-19110	not	_	_	
+140-10	19111-19113	in	_	_	
+140-11	19114-19117	the	_	_	
+140-12	19118-19119	`	_	_	
+140-13	19119-19133	possible_edges	_	_	
+140-14	19133-19134	`	_	_	
+140-15	19135-19140	graph	_	_	
+140-16	19140-19141	.	_	_	
+
+#Text=An example of use is given in the [chemistry notebook](.
+141-1	19142-19144	An	_	_	
+141-2	19145-19152	example	_	_	
+141-3	19153-19155	of	_	_	
+141-4	19156-19159	use	_	_	
+141-5	19160-19162	is	_	_	
+141-6	19163-19168	given	_	_	
+141-7	19169-19171	in	_	_	
+141-8	19172-19175	the	_	_	
+141-9	19176-19177	[	_	_	
+141-10	19177-19186	chemistry	_	_	
+141-11	19187-19195	notebook	_	_	
+141-12	19195-19196	]	_	_	
+141-13	19196-19197	(	_	_	
+141-14	19197-19198	.	_	_	
+
+#Text=/examples/ChemistryNew.ipynb)
+142-1	19198-19199	/	_	_	
+142-2	19199-19207	examples	_	_	
+142-3	19207-19208	/	_	_	
+142-4	19208-19226	ChemistryNew.ipynb	_	_	
+142-5	19226-19227	)	_	_	
+
+#Text=.
+143-1	19227-19228	.	_	_	
+
+#Text=<!
+144-1	19232-19233	<	_	_	
+144-2	19233-19234	!	_	_	
+
+#Text=-- links -->
+#Text=
+#Text=[paper_url]: https://www.pnas.org/doi/10.1073/pnas.2403449121
+#Text=[blog_url]: https://theobourdais.github.io/posts/2023/11/CHD/
+145-1	19234-19235	-	_	_	
+145-2	19235-19236	-	_	_	
+145-3	19237-19242	links	_	_	
+145-4	19243-19244	-	_	_	
+145-5	19244-19245	-	_	_	
+145-6	19245-19246	>	_	_	
+145-7	19248-19249	[	_	_	
+145-8	19249-19258	paper_url	_	_	
+145-9	19258-19259	]	_	_	
+145-10	19259-19260	:	_	_	
+145-11	19261-19266	https	_	_	
+145-12	19266-19267	:	_	_	
+145-13	19267-19268	/	_	_	
+145-14	19268-19269	/	_	_	
+145-15	19269-19281	www.pnas.org	_	_	
+145-16	19281-19282	/	_	_	
+145-17	19282-19285	doi	_	_	
+145-18	19285-19286	/	_	_	
+145-19	19286-19293	10.1073	_	_	
+145-20	19293-19294	/	_	_	
+145-21	19294-19298	pnas	_	_	
+145-22	19298-19309	.2403449121	_	_	
+145-23	19310-19311	[	_	_	
+145-24	19311-19319	blog_url	_	_	
+145-25	19319-19320	]	_	_	
+145-26	19320-19321	:	_	_	
+145-27	19322-19327	https	_	_	
+145-28	19327-19328	:	_	_	
+145-29	19328-19329	/	_	_	
+145-30	19329-19330	/	_	_	
+145-31	19330-19352	theobourdais.github.io	_	_	
+145-32	19352-19353	/	_	_	
+145-33	19353-19358	posts	_	_	
+145-34	19358-19359	/	_	_	
+145-35	19359-19363	2023	_	_	
+145-36	19363-19364	/	_	_	
+145-37	19364-19366	11	_	_	
+145-38	19366-19367	/	_	_	
+145-39	19367-19370	CHD	_	_	
+145-40	19370-19371	/	_	_	

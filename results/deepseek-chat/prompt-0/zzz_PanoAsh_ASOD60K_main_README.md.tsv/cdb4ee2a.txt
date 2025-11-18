@@ -1,0 +1,5 @@
+The input text provided is empty (only contains a single period). Since there is no content to annotate, the output will also be empty. 
+
+```markdown
+.
+```

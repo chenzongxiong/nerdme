@@ -1,0 +1,1 @@
+On <PROGLANG>macOS</PROGLANG>, you can install it by `brew install <SOFTWARE>coreutils</SOFTWARE>`. 5.

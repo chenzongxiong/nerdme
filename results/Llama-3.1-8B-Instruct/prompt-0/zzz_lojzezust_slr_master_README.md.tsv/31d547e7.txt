@@ -1,0 +1,1 @@
+Prepares partial masks - compute the partial masks used in the <SOFTWARE>warm-up phase</SOFTWARE>.

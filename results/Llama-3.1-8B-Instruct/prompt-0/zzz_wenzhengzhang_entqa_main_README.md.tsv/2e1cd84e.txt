@@ -1,0 +1,7 @@
+You can follow the above instructions to train your reader or you can download our trained reader <SOFTWARE>here</SOFTWARE>. The trained reader is available in the following <PROGLANG>Python</PROGLANG> package: `pip install <SOFTWARE>Trained Reader</SOFTWARE>`. 
+
+The trained reader can be used to evaluate the performance of your model on the <DATASET>WIKI</DATASET> dataset. The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, and <EVALMETRIC>F1-Score</EVALMETRIC>. The trained reader is licensed under <LICENSE>Apache 2.0</LICENSE>. 
+
+You can use the trained reader to evaluate your model on the <CONFERENCE>CVPR2023</CONFERENCE> dataset. The trained reader is a part of the <PROJECT>Trained Reader</PROJECT> project. The trained reader is a <SOFTWARE>Python</SOFTWARE> package that can be used to evaluate the performance of your model on various <DATASET>datasets</DATASET>. 
+
+The trained reader is available for download from the <SOFTWARE>Google Drive</SOFTWARE> link: <https://drive.google.com/file/d/1A4I1fJZKxmROIE1fd0mdXN6b1emP_xt4/view?usp=sharing</SOFTWARE>.

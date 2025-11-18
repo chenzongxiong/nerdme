@@ -1,0 +1,1 @@
+By virtue of the high representability of a neural network and modern optimization algorithms, one can expect to achieve the optimal hedge by training a neural network.

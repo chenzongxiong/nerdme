@@ -1,0 +1,3 @@
+```markdown
+|                                | Location                                                                                           | |--------------------------------|----------------------------------------------------------------------------------------------------| | Bug Report                     | [Bug Report Template](https://github.com/<PROJECT>obss</PROJECT>/<PROJECT>jury</PROJECT>/issues/new?
+```

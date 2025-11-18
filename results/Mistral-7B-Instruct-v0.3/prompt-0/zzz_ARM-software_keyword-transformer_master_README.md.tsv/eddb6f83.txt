@@ -1,0 +1,1 @@
+The input takes the `<SOFTWARE>mel scale spectrogram</SOFTWARE>` as input, which has shape `<DATASET>98 x 40</DATASET>` using the default settings, corresponding to the `<DATASET>98</DATASET>` time windows with `<DATASET>40</DATASET>` frequency coefficients.

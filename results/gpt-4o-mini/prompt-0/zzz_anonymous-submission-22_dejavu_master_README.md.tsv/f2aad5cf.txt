@@ -1,0 +1,1 @@
+For example, suppose that the features are $1$ for root-cause failure units and $0$ for other failure units and there are four failure units (<DATASET>$v_1$</DATASET>, <DATASET>$v_2$</DATASET>, <DATASET>$v_3$</DATASET>, <DATASET>$v_4$</DATASET>).

@@ -1,0 +1,7 @@
+`[weights](https://img.shields.io/badge/weights-34a0a4?)` is a color-coded badge representing an unknown entity class.
+
+The following text contains entities that can be annotated:
+
+The `<PROGLANG>PyTorch</PROGLANG>` framework is an open-source machine learning library based on the `<PROGLANG>Torch</PROGLANG>` library. It provides a flexible and efficient way to build and train deep learning models. The `<PROJECT>Pytorch-Lightning</PROJECT>` project is a popular library for building and training PyTorch models. It provides a simple and consistent interface for building, training, and deploying deep learning models.
+
+The `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>` contains the paper "No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths". This paper proposes a new method for handling sequences of excessive or insufficient lengths in knowledge tracing.

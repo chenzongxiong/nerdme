@@ -1,0 +1,3 @@
+```markdown
+You can also prepare your own data following the procedures below.  ## 1.1  Download raw datasets from <PROJECT>10X genomics</PROJECT> website (https://support.<PROJECT>10xgenomics</PROJECT>.com/single-cell-gene-expression/<DATASET>datasets</DATASET>) and store the files in the datasets folder;  ## 1.2  Follow the comments in "<SOFTWARE>data_preparation.m</SOFTWARE>" to modify the file names based on the downloaded data files;  ## 1.3  Follow the comments in "<SOFTWARE>data_preparation.m</SOFTWARE>" to set the number of cells (randomly selected) and top variable genes;  ## 1.4  Run "<SOFTWARE>data_preparation.m</SOFTWARE>";     # 2.
+```

@@ -1,0 +1,1 @@
+Monocular RGB images are used for the guidance of this depth completion task. * Confidence maps are learned for the global branch and the local branch in an unsupervised manner.

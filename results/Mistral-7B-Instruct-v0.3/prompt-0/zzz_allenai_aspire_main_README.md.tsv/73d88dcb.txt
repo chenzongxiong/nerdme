@@ -1,0 +1,3 @@
+Dataset splits are created in `<PROGLANG>pre_proc_relish.py</PROGLANG>`
+
+The `<DATASET>splits</DATASET>` are created in the `<PROGLANG>pre_proc_relish.py</PROGLANG>` script.

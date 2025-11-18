@@ -1,0 +1,2 @@
+`src/evaluation/`: Scripts to evaluate model performances on various `<DATASET>`evaluation datasets</DATASET>.\
+`<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, `<EVALMETRIC>F1-Score</EVALMETRIC>`, and `<EVALMETRIC>BLEU Score</EVALMETRIC>` are used for evaluation.

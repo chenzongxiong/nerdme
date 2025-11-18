@@ -1,0 +1,1 @@
+`<EVALMETRIC>F1</EVALMETRIC>` obstacle detection scores are reported overall and separately within the 15m critical danger zone around the boat

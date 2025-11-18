@@ -1,0 +1,1 @@
+/evaluate.sh), especially `<SOFTWARE>model_name</SOFTWARE>` and `<SOFTWARE>model2_path</SOFTWARE>`

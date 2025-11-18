@@ -1,0 +1,1 @@
+`Download the <DATASET>subword tokenizer built on Yelp</DATASET> and place it in ```datasets/yelp_dataset/processed/```:  [link](https://s3.us-east-2.amazonaws.com/unsup-sum/<PROGLANG>subwordenc_32000_maxrevs260_fixed.pkl</PROGLANG>)  ### Pre-trained models  1.`

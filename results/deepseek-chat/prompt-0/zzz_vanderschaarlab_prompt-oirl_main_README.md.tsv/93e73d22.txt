@@ -1,0 +1,3 @@
+```markdown
+(https://arxiv.org/pdf/2310.06147.pdf)     ## 📚  BibTex Citation If you would like to cite our code or paper, please use  ``` @inproceedings{sun2023query,   title={<PUBLICATION>Query-Dependent Prompt Evaluation and Optimization with Offline Inverse RL</PUBLICATION>},   author={Sun, Hao and H{\"u}y{\"u}k, Alihan and van der Schaar, Mihaela},   booktitle={<CONFERENCE>The Twelfth International Conference on Learning Representations</CONFERENCE>},   year={2024} }   @article{sun2023reinforcement,   title={<PUBLICATION>Reinforcement Learning in the Era of LLMs: What is Essential?</PUBLICATION>
+```

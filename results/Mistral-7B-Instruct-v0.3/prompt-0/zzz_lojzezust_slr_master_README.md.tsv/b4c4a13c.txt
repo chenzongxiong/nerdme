@@ -1,0 +1,23 @@
+The directory structure should match the one of `<DATASET>image dir</DATASET>`
+
+---
+
+Input Text:
+
+The `<PROJECT>Paper With Code</PROJECT>` project (https://<PROJECT>paperswithcode</PROJECT>.com/)
+
+The `<PROJECT>Paper With Code</PROJECT>` project (<https://<PROJECT>paperswithcode</PROJECT>.com/>) provides a platform for researchers to share their papers and code.
+
+---
+
+Input Text:
+
+The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is a semantic framework for representing intelligence tasks.
+
+The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is a semantic framework for representing intelligence tasks. It provides a structured representation of various intelligence tasks and their relationships.
+
+---
+
+Input Text:
+
+The evaluation metrics used are `<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, `<EVALMETR

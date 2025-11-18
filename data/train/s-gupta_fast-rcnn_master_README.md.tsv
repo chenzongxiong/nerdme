@@ -1,0 +1,2802 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# *Fast* R-CNN: Fast Region-based Convolutional Networks for object detection
+#Text=
+#Text=Created by Ross Girshick at Microsoft Research, Redmond.
+#Text=
+#Text=### Introduction
+#Text=
+#Text=**Fast R-CNN** is a fast framework for object detection with deep ConvNets.
+1-1	0-1	#	_	_	
+1-2	2-3	*	*[1]|*[2]	PUBLICATION[1]|SOFTWARE[2]	
+1-3	3-7	Fast	*[1]|*[2]	PUBLICATION[1]|SOFTWARE[2]	
+1-4	7-8	*	*[1]|*[2]	PUBLICATION[1]|SOFTWARE[2]	
+1-5	9-14	R-CNN	*[1]|*[2]	PUBLICATION[1]|SOFTWARE[2]	
+1-6	14-15	:	*[1]	PUBLICATION[1]	
+1-7	16-20	Fast	*[1]	PUBLICATION[1]	
+1-8	21-33	Region-based	*[1]	PUBLICATION[1]	
+1-9	34-47	Convolutional	*[1]	PUBLICATION[1]	
+1-10	48-56	Networks	*[1]	PUBLICATION[1]	
+1-11	57-60	for	*[1]	PUBLICATION[1]	
+1-12	61-67	object	*[1]	PUBLICATION[1]	
+1-13	68-77	detection	*[1]	PUBLICATION[1]	
+1-14	79-86	Created	_	_	
+1-15	87-89	by	_	_	
+1-16	90-94	Ross	_	_	
+1-17	95-103	Girshick	_	_	
+1-18	104-106	at	_	_	
+1-19	107-116	Microsoft	_	_	
+1-20	117-125	Research	_	_	
+1-21	125-126	,	_	_	
+1-22	127-134	Redmond	_	_	
+1-23	134-135	.	_	_	
+1-24	137-138	#	_	_	
+1-25	138-139	#	_	_	
+1-26	139-140	#	_	_	
+1-27	141-153	Introduction	_	_	
+1-28	155-156	*	_	_	
+1-29	156-157	*	_	_	
+1-30	157-161	Fast	*[3]	SOFTWARE[3]	
+1-31	162-167	R-CNN	*[3]	SOFTWARE[3]	
+1-32	167-168	*	_	_	
+1-33	168-169	*	_	_	
+1-34	170-172	is	_	_	
+1-35	173-174	a	_	_	
+1-36	175-179	fast	_	_	
+1-37	180-189	framework	_	_	
+1-38	190-193	for	_	_	
+1-39	194-200	object	_	_	
+1-40	201-210	detection	_	_	
+1-41	211-215	with	_	_	
+1-42	216-220	deep	_	_	
+1-43	221-229	ConvNets	_	_	
+1-44	229-230	.	_	_	
+
+#Text=Fast R-CNN
+#Text= - trains state-of-the-art models, like VGG16, 9x faster than traditional R-CNN and 3x faster than SPPnet,
+#Text= - runs 200x faster than R-CNN and 10x faster than SPPnet at test-time,
+#Text= - has a significantly higher mAP on PASCAL VOC than both R-CNN and SPPnet,
+#Text= - and is written in Python and C++/Caffe.
+2-1	231-235	Fast	*[4]	SOFTWARE[4]	
+2-2	236-241	R-CNN	*[4]	SOFTWARE[4]	
+2-3	243-244	-	_	_	
+2-4	245-251	trains	_	_	
+2-5	252-268	state-of-the-art	_	_	
+2-6	269-275	models	_	_	
+2-7	275-276	,	_	_	
+2-8	277-281	like	_	_	
+2-9	282-287	VGG16	*	SOFTWARE	
+2-10	287-288	,	_	_	
+2-11	289-291	9x	_	_	
+2-12	292-298	faster	_	_	
+2-13	299-303	than	_	_	
+2-14	304-315	traditional	_	_	
+2-15	316-321	R-CNN	*	SOFTWARE	
+2-16	322-325	and	_	_	
+2-17	326-328	3x	_	_	
+2-18	329-335	faster	_	_	
+2-19	336-340	than	_	_	
+2-20	341-347	SPPnet	*	SOFTWARE	
+2-21	347-348	,	_	_	
+2-22	350-351	-	_	_	
+2-23	352-356	runs	_	_	
+2-24	357-361	200x	_	_	
+2-25	362-368	faster	_	_	
+2-26	369-373	than	_	_	
+2-27	374-379	R-CNN	*	SOFTWARE	
+2-28	380-383	and	_	_	
+2-29	384-387	10x	_	_	
+2-30	388-394	faster	_	_	
+2-31	395-399	than	_	_	
+2-32	400-406	SPPnet	*	SOFTWARE	
+2-33	407-409	at	_	_	
+2-34	410-419	test-time	_	_	
+2-35	419-420	,	_	_	
+2-36	422-423	-	_	_	
+2-37	424-427	has	_	_	
+2-38	428-429	a	_	_	
+2-39	430-443	significantly	_	_	
+2-40	444-450	higher	_	_	
+2-41	451-454	mAP	*	EVALMETRIC	
+2-42	455-457	on	_	_	
+2-43	458-464	PASCAL	*[5]	DATASET[5]	
+2-44	465-468	VOC	*[5]	DATASET[5]	
+2-45	469-473	than	_	_	
+2-46	474-478	both	_	_	
+2-47	479-484	R-CNN	_	_	
+2-48	485-488	and	_	_	
+2-49	489-495	SPPnet	_	_	
+2-50	495-496	,	_	_	
+2-51	498-499	-	_	_	
+2-52	500-503	and	_	_	
+2-53	504-506	is	_	_	
+2-54	507-514	written	_	_	
+2-55	515-517	in	_	_	
+2-56	518-524	Python	*	PROGLANG	
+2-57	525-528	and	_	_	
+2-58	529-530	C	*[6]	PROGLANG[6]	
+2-59	530-531	+	*[6]	PROGLANG[6]	
+2-60	531-532	+	*[6]	PROGLANG[6]	
+2-61	532-533	/	_	_	
+2-62	533-538	Caffe	*	SOFTWARE	
+2-63	538-539	.	_	_	
+
+#Text=Fast R-CNN was initially described in an [arXiv tech report](http://arxiv.org/abs/1504.08083).
+#Text=
+#Text=### License
+#Text=
+#Text=Fast R-CNN is released under the MIT License (refer to the LICENSE file for details).
+#Text=
+#Text=### Citing Fast R-CNN
+#Text=
+#Text=If you find Fast R-CNN useful in your research, please consider citing:
+#Text=
+#Text=    @article{girshick15fastrcnn,
+#Text=        Author = {Ross Girshick},
+#Text=        Title = {Fast R-CNN},
+#Text=        Journal = {arXiv preprint arXiv:1504.08083},
+#Text=        Year = {2015}
+#Text=    }
+#Text=    
+#Text=### Contents
+#Text=1.
+3-1	541-545	Fast	*[7]	SOFTWARE[7]	
+3-2	546-551	R-CNN	*[7]	SOFTWARE[7]	
+3-3	552-555	was	_	_	
+3-4	556-565	initially	_	_	
+3-5	566-575	described	_	_	
+3-6	576-578	in	_	_	
+3-7	579-581	an	_	_	
+3-8	582-583	[	_	_	
+3-9	583-588	arXiv	_	_	
+3-10	589-593	tech	_	_	
+3-11	594-600	report	_	_	
+3-12	600-601	]	_	_	
+3-13	601-602	(	_	_	
+3-14	602-606	http	_	_	
+3-15	606-607	:	_	_	
+3-16	607-608	/	_	_	
+3-17	608-609	/	_	_	
+3-18	609-618	arxiv.org	_	_	
+3-19	618-619	/	_	_	
+3-20	619-622	abs	_	_	
+3-21	622-623	/	_	_	
+3-22	623-633	1504.08083	_	_	
+3-23	633-634	)	_	_	
+3-24	634-635	.	_	_	
+3-25	637-638	#	_	_	
+3-26	638-639	#	_	_	
+3-27	639-640	#	_	_	
+3-28	641-648	License	_	_	
+3-29	650-654	Fast	*[8]	SOFTWARE[8]	
+3-30	655-660	R-CNN	*[8]	SOFTWARE[8]	
+3-31	661-663	is	_	_	
+3-32	664-672	released	_	_	
+3-33	673-678	under	_	_	
+3-34	679-682	the	_	_	
+3-35	683-686	MIT	*[9]	LICENSE[9]	
+3-36	687-694	License	*[9]	LICENSE[9]	
+3-37	695-696	(	_	_	
+3-38	696-701	refer	_	_	
+3-39	702-704	to	_	_	
+3-40	705-708	the	_	_	
+3-41	709-716	LICENSE	_	_	
+3-42	717-721	file	_	_	
+3-43	722-725	for	_	_	
+3-44	726-733	details	_	_	
+3-45	733-734	)	_	_	
+3-46	734-735	.	_	_	
+3-47	737-738	#	_	_	
+3-48	738-739	#	_	_	
+3-49	739-740	#	_	_	
+3-50	741-747	Citing	_	_	
+3-51	748-752	Fast	*[10]	PUBLICATION[10]	
+3-52	753-758	R-CNN	*[10]	PUBLICATION[10]	
+3-53	760-762	If	_	_	
+3-54	763-766	you	_	_	
+3-55	767-771	find	_	_	
+3-56	772-776	Fast	*[11]	SOFTWARE[11]	
+3-57	777-782	R-CNN	*[11]	SOFTWARE[11]	
+3-58	783-789	useful	_	_	
+3-59	790-792	in	_	_	
+3-60	793-797	your	_	_	
+3-61	798-806	research	_	_	
+3-62	806-807	,	_	_	
+3-63	808-814	please	_	_	
+3-64	815-823	consider	_	_	
+3-65	824-830	citing	_	_	
+3-66	830-831	:	_	_	
+3-67	837-838	@	_	_	
+3-68	838-845	article	_	_	
+3-69	845-846	{	_	_	
+3-70	846-864	girshick15fastrcnn	_	_	
+3-71	864-865	,	_	_	
+3-72	874-880	Author	_	_	
+3-73	881-882	=	_	_	
+3-74	883-884	{	_	_	
+3-75	884-888	Ross	_	_	
+3-76	889-897	Girshick	_	_	
+3-77	897-898	}	_	_	
+3-78	898-899	,	_	_	
+3-79	908-913	Title	_	_	
+3-80	914-915	=	_	_	
+3-81	916-917	{	_	_	
+3-82	917-921	Fast	*[12]	PUBLICATION[12]	
+3-83	922-927	R-CNN	*[12]	PUBLICATION[12]	
+3-84	927-928	}	_	_	
+3-85	928-929	,	_	_	
+3-86	938-945	Journal	_	_	
+3-87	946-947	=	_	_	
+3-88	948-949	{	_	_	
+3-89	949-954	arXiv	_	_	
+3-90	955-963	preprint	_	_	
+3-91	964-969	arXiv	_	_	
+3-92	969-970	:	_	_	
+3-93	970-980	1504.08083	_	_	
+3-94	980-981	}	_	_	
+3-95	981-982	,	_	_	
+3-96	991-995	Year	_	_	
+3-97	996-997	=	_	_	
+3-98	998-999	{	_	_	
+3-99	999-1003	2015	_	_	
+3-100	1003-1004	}	_	_	
+3-101	1009-1010	}	_	_	
+3-102	1016-1017	#	_	_	
+3-103	1017-1018	#	_	_	
+3-104	1018-1019	#	_	_	
+3-105	1020-1028	Contents	_	_	
+3-106	1029-1030	1	_	_	
+3-107	1030-1031	.	_	_	
+
+#Text=[Requirements: software](#requirements-software)
+#Text=2.
+4-1	1032-1033	[	_	_	
+4-2	1033-1045	Requirements	_	_	
+4-3	1045-1046	:	_	_	
+4-4	1047-1055	software	_	_	
+4-5	1055-1056	]	_	_	
+4-6	1056-1057	(	_	_	
+4-7	1057-1058	#	_	_	
+4-8	1058-1079	requirements-software	_	_	
+4-9	1079-1080	)	_	_	
+4-10	1081-1082	2	_	_	
+4-11	1082-1083	.	_	_	
+
+#Text=[Requirements: hardware](#requirements-hardware)
+#Text=3.
+5-1	1084-1085	[	_	_	
+5-2	1085-1097	Requirements	_	_	
+5-3	1097-1098	:	_	_	
+5-4	1099-1107	hardware	_	_	
+5-5	1107-1108	]	_	_	
+5-6	1108-1109	(	_	_	
+5-7	1109-1110	#	_	_	
+5-8	1110-1131	requirements-hardware	_	_	
+5-9	1131-1132	)	_	_	
+5-10	1133-1134	3	_	_	
+5-11	1134-1135	.	_	_	
+
+#Text=[Basic installation](#installation-sufficient-for-the-demo)
+#Text=4.
+6-1	1136-1137	[	_	_	
+6-2	1137-1142	Basic	_	_	
+6-3	1143-1155	installation	_	_	
+6-4	1155-1156	]	_	_	
+6-5	1156-1157	(	_	_	
+6-6	1157-1158	#	_	_	
+6-7	1158-1194	installation-sufficient-for-the-demo	_	_	
+6-8	1194-1195	)	_	_	
+6-9	1196-1197	4	_	_	
+6-10	1197-1198	.	_	_	
+
+#Text=[Demo](#demo)
+#Text=5.
+7-1	1199-1200	[	_	_	
+7-2	1200-1204	Demo	_	_	
+7-3	1204-1205	]	_	_	
+7-4	1205-1206	(	_	_	
+7-5	1206-1207	#	_	_	
+7-6	1207-1211	demo	_	_	
+7-7	1211-1212	)	_	_	
+7-8	1213-1214	5	_	_	
+7-9	1214-1215	.	_	_	
+
+#Text=[Beyond the demo: training and testing](#beyond-the-demo-installation-for-training-and-testing-models)
+#Text=6.
+8-1	1216-1217	[	_	_	
+8-2	1217-1223	Beyond	_	_	
+8-3	1224-1227	the	_	_	
+8-4	1228-1232	demo	_	_	
+8-5	1232-1233	:	_	_	
+8-6	1234-1242	training	_	_	
+8-7	1243-1246	and	_	_	
+8-8	1247-1254	testing	_	_	
+8-9	1254-1255	]	_	_	
+8-10	1255-1256	(	_	_	
+8-11	1256-1257	#	_	_	
+8-12	1257-1317	beyond-the-demo-installation-for-training-and-testing-models	_	_	
+8-13	1317-1318	)	_	_	
+8-14	1319-1320	6	_	_	
+8-15	1320-1321	.	_	_	
+
+#Text=[Usage](#usage)
+#Text=7.
+9-1	1322-1323	[	_	_	
+9-2	1323-1328	Usage	_	_	
+9-3	1328-1329	]	_	_	
+9-4	1329-1330	(	_	_	
+9-5	1330-1331	#	_	_	
+9-6	1331-1336	usage	_	_	
+9-7	1336-1337	)	_	_	
+9-8	1338-1339	7	_	_	
+9-9	1339-1340	.	_	_	
+
+#Text=[Extra downloads](#extra-downloads)
+#Text=
+#Text=### Requirements: software
+#Text=
+#Text=1.
+10-1	1341-1342	[	_	_	
+10-2	1342-1347	Extra	_	_	
+10-3	1348-1357	downloads	_	_	
+10-4	1357-1358	]	_	_	
+10-5	1358-1359	(	_	_	
+10-6	1359-1360	#	_	_	
+10-7	1360-1375	extra-downloads	_	_	
+10-8	1375-1376	)	_	_	
+10-9	1378-1379	#	_	_	
+10-10	1379-1380	#	_	_	
+10-11	1380-1381	#	_	_	
+10-12	1382-1394	Requirements	_	_	
+10-13	1394-1395	:	_	_	
+10-14	1396-1404	software	_	_	
+10-15	1406-1407	1	_	_	
+10-16	1407-1408	.	_	_	
+
+#Text=Requirements for `Caffe` and `pycaffe` (see: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html))
+#Text=
+#Text=  **Note:** Caffe *must* be built with support for Python layers!
+11-1	1409-1421	Requirements	_	_	
+11-2	1422-1425	for	_	_	
+11-3	1426-1427	`	_	_	
+11-4	1427-1432	Caffe	*	SOFTWARE	
+11-5	1432-1433	`	_	_	
+11-6	1434-1437	and	_	_	
+11-7	1438-1439	`	_	_	
+11-8	1439-1446	pycaffe	*	SOFTWARE	
+11-9	1446-1447	`	_	_	
+11-10	1448-1449	(	_	_	
+11-11	1449-1452	see	_	_	
+11-12	1452-1453	:	_	_	
+11-13	1454-1455	[	_	_	
+11-14	1455-1460	Caffe	*	SOFTWARE	
+11-15	1461-1473	installation	_	_	
+11-16	1474-1486	instructions	_	_	
+11-17	1486-1487	]	_	_	
+11-18	1487-1488	(	_	_	
+11-19	1488-1492	http	_	_	
+11-20	1492-1493	:	_	_	
+11-21	1493-1494	/	_	_	
+11-22	1494-1495	/	_	_	
+11-23	1495-1519	caffe.berkeleyvision.org	_	_	
+11-23.1	1495-1500	caffe	*	SOFTWARE	
+11-24	1519-1520	/	_	_	
+11-25	1520-1537	installation.html	_	_	
+11-26	1537-1538	)	_	_	
+11-27	1538-1539	)	_	_	
+11-28	1543-1544	*	_	_	
+11-29	1544-1545	*	_	_	
+11-30	1545-1549	Note	_	_	
+11-31	1549-1550	:	_	_	
+11-32	1550-1551	*	_	_	
+11-33	1551-1552	*	_	_	
+11-34	1553-1558	Caffe	*	SOFTWARE	
+11-35	1559-1560	*	_	_	
+11-36	1560-1564	must	_	_	
+11-37	1564-1565	*	_	_	
+11-38	1566-1568	be	_	_	
+11-39	1569-1574	built	_	_	
+11-40	1575-1579	with	_	_	
+11-41	1580-1587	support	_	_	
+11-42	1588-1591	for	_	_	
+11-43	1592-1598	Python	*	PROGLANG	
+11-44	1599-1605	layers	_	_	
+11-45	1605-1606	!	_	_	
+
+#Text=```make
+#Text=  # In your Makefile.config, make sure to have this line uncommented
+#Text=  WITH_PYTHON_LAYER := 1
+#Text=  ```
+#Text=
+#Text=  You can download my [Makefile.config](http://www.cs.berkeley.edu/~rbg/fast-rcnn-data/Makefile.config) for reference.
+#Text=2.
+12-1	1610-1611	`	_	_	
+12-2	1611-1612	`	_	_	
+12-3	1612-1613	`	_	_	
+12-4	1613-1617	make	_	_	
+12-5	1620-1621	#	_	_	
+12-6	1622-1624	In	_	_	
+12-7	1625-1629	your	_	_	
+12-8	1630-1645	Makefile.config	_	_	
+12-9	1645-1646	,	_	_	
+12-10	1647-1651	make	_	_	
+12-11	1652-1656	sure	_	_	
+12-12	1657-1659	to	_	_	
+12-13	1660-1664	have	_	_	
+12-14	1665-1669	this	_	_	
+12-15	1670-1674	line	_	_	
+12-16	1675-1686	uncommented	_	_	
+12-17	1689-1706	WITH_PYTHON_LAYER	_	_	
+12-17.1	1694-1700	PYTHON	*	PROGLANG	
+12-18	1707-1708	:	_	_	
+12-19	1708-1709	=	_	_	
+12-20	1710-1711	1	_	_	
+12-21	1714-1715	`	_	_	
+12-22	1715-1716	`	_	_	
+12-23	1716-1717	`	_	_	
+12-24	1721-1724	You	_	_	
+12-25	1725-1728	can	_	_	
+12-26	1729-1737	download	_	_	
+12-27	1738-1740	my	_	_	
+12-28	1741-1742	[	_	_	
+12-29	1742-1757	Makefile.config	_	_	
+12-30	1757-1758	]	_	_	
+12-31	1758-1759	(	_	_	
+12-32	1759-1763	http	_	_	
+12-33	1763-1764	:	_	_	
+12-34	1764-1765	/	_	_	
+12-35	1765-1766	/	_	_	
+12-36	1766-1785	www.cs.berkeley.edu	_	_	
+12-37	1785-1786	/	_	_	
+12-38	1786-1787	~	_	_	
+12-39	1787-1790	rbg	_	_	
+12-40	1790-1791	/	_	_	
+12-41	1791-1805	fast-rcnn-data	_	_	
+12-42	1805-1806	/	_	_	
+12-43	1806-1821	Makefile.config	_	_	
+12-44	1821-1822	)	_	_	
+12-45	1823-1826	for	_	_	
+12-46	1827-1836	reference	_	_	
+12-47	1836-1837	.	_	_	
+12-48	1838-1839	2	_	_	
+12-49	1839-1840	.	_	_	
+
+#Text=Python packages you might not have: `cython`, `python-opencv`, `easydict`
+#Text=3.
+13-1	1841-1847	Python	*	SOFTWARE	
+13-2	1848-1856	packages	_	_	
+13-3	1857-1860	you	_	_	
+13-4	1861-1866	might	_	_	
+13-5	1867-1870	not	_	_	
+13-6	1871-1875	have	_	_	
+13-7	1875-1876	:	_	_	
+13-8	1877-1878	`	_	_	
+13-9	1878-1884	cython	*	PROGLANG	
+13-10	1884-1885	`	_	_	
+13-11	1885-1886	,	_	_	
+13-12	1887-1888	`	_	_	
+13-13	1888-1901	python-opencv	*	SOFTWARE	
+13-14	1901-1902	`	_	_	
+13-15	1902-1903	,	_	_	
+13-16	1904-1905	`	_	_	
+13-17	1905-1913	easydict	*	SOFTWARE	
+13-18	1913-1914	`	_	_	
+13-19	1915-1916	3	_	_	
+13-20	1916-1917	.	_	_	
+
+#Text=[optional] MATLAB (required for PASCAL VOC evaluation only)
+#Text=
+#Text=### Requirements: hardware
+#Text=
+#Text=1.
+14-1	1918-1919	[	_	_	
+14-2	1919-1927	optional	_	_	
+14-3	1927-1928	]	_	_	
+14-4	1929-1935	MATLAB	*	SOFTWARE	
+14-5	1936-1937	(	_	_	
+14-6	1937-1945	required	_	_	
+14-7	1946-1949	for	_	_	
+14-8	1950-1956	PASCAL	*[13]	DATASET[13]	
+14-9	1957-1960	VOC	*[13]	DATASET[13]	
+14-10	1961-1971	evaluation	_	_	
+14-11	1972-1976	only	_	_	
+14-12	1976-1977	)	_	_	
+14-13	1979-1980	#	_	_	
+14-14	1980-1981	#	_	_	
+14-15	1981-1982	#	_	_	
+14-16	1983-1995	Requirements	_	_	
+14-17	1995-1996	:	_	_	
+14-18	1997-2005	hardware	_	_	
+14-19	2007-2008	1	_	_	
+14-20	2008-2009	.	_	_	
+
+#Text=For training smaller networks (CaffeNet, VGG_CNN_M_1024) a good GPU (e.g., Titan, K20, K40, ...) with at least 3G of memory suffices
+#Text=2.
+15-1	2010-2013	For	_	_	
+15-2	2014-2022	training	_	_	
+15-3	2023-2030	smaller	_	_	
+15-4	2031-2039	networks	_	_	
+15-5	2040-2041	(	_	_	
+15-6	2041-2049	CaffeNet	*	SOFTWARE	
+15-7	2049-2050	,	_	_	
+15-8	2051-2060	VGG_CNN_M	_	_	
+15-9	2060-2061	_	_	_	
+15-10	2061-2065	1024	_	_	
+15-11	2065-2066	)	_	_	
+15-12	2067-2068	a	_	_	
+15-13	2069-2073	good	_	_	
+15-14	2074-2077	GPU	_	_	
+15-15	2078-2079	(	_	_	
+15-16	2079-2082	e.g	_	_	
+15-17	2082-2083	.	_	_	
+15-18	2083-2084	,	_	_	
+15-19	2085-2090	Titan	_	_	
+15-20	2090-2091	,	_	_	
+15-21	2092-2095	K20	_	_	
+15-22	2095-2096	,	_	_	
+15-23	2097-2100	K40	_	_	
+15-24	2100-2101	,	_	_	
+15-25	2102-2103	.	_	_	
+15-26	2103-2104	.	_	_	
+15-27	2104-2105	.	_	_	
+15-28	2105-2106	)	_	_	
+15-29	2107-2111	with	_	_	
+15-30	2112-2114	at	_	_	
+15-31	2115-2120	least	_	_	
+15-32	2121-2123	3G	_	_	
+15-33	2124-2126	of	_	_	
+15-34	2127-2133	memory	_	_	
+15-35	2134-2142	suffices	_	_	
+15-36	2143-2144	2	_	_	
+15-37	2144-2145	.	_	_	
+
+#Text=For training with VGG16, you'll need a K40 (~11G of memory)
+#Text=
+#Text=### Installation (sufficient for the demo)
+#Text=
+#Text=1.
+16-1	2146-2149	For	_	_	
+16-2	2150-2158	training	_	_	
+16-3	2159-2163	with	_	_	
+16-4	2164-2169	VGG16	*	SOFTWARE	
+16-5	2169-2170	,	_	_	
+16-6	2171-2177	you'll	_	_	
+16-7	2178-2182	need	_	_	
+16-8	2183-2184	a	_	_	
+16-9	2185-2188	K40	_	_	
+16-10	2189-2190	(	_	_	
+16-11	2190-2191	~	_	_	
+16-12	2191-2194	11G	_	_	
+16-13	2195-2197	of	_	_	
+16-14	2198-2204	memory	_	_	
+16-15	2204-2205	)	_	_	
+16-16	2207-2208	#	_	_	
+16-17	2208-2209	#	_	_	
+16-18	2209-2210	#	_	_	
+16-19	2211-2223	Installation	_	_	
+16-20	2224-2225	(	_	_	
+16-21	2225-2235	sufficient	_	_	
+16-22	2236-2239	for	_	_	
+16-23	2240-2243	the	_	_	
+16-24	2244-2248	demo	_	_	
+16-25	2248-2249	)	_	_	
+16-26	2251-2252	1	_	_	
+16-27	2252-2253	.	_	_	
+
+#Text=Clone the Fast R-CNN repository
+#Text=  ```Shell
+#Text=  # Make sure to clone with --recursive
+#Text=  git clone --recursive https://github.com/rbgirshick/fast-rcnn.git
+#Text=  ```
+#Text=  
+#Text=2.
+17-1	2254-2259	Clone	_	_	
+17-2	2260-2263	the	_	_	
+17-3	2264-2268	Fast	*[14]	SOFTWARE[14]	
+17-4	2269-2274	R-CNN	*[14]	SOFTWARE[14]	
+17-5	2275-2285	repository	_	_	
+17-6	2288-2289	`	_	_	
+17-7	2289-2290	`	_	_	
+17-8	2290-2291	`	_	_	
+17-9	2291-2296	Shell	*	PROGLANG	
+17-10	2299-2300	#	_	_	
+17-11	2301-2305	Make	_	_	
+17-12	2306-2310	sure	_	_	
+17-13	2311-2313	to	_	_	
+17-14	2314-2319	clone	_	_	
+17-15	2320-2324	with	_	_	
+17-16	2325-2326	-	_	_	
+17-17	2326-2327	-	_	_	
+17-18	2327-2336	recursive	_	_	
+17-19	2339-2342	git	*	SOFTWARE	
+17-20	2343-2348	clone	_	_	
+17-21	2349-2350	-	_	_	
+17-22	2350-2351	-	_	_	
+17-23	2351-2360	recursive	_	_	
+17-24	2361-2366	https	_	_	
+17-25	2366-2367	:	_	_	
+17-26	2367-2368	/	_	_	
+17-27	2368-2369	/	_	_	
+17-28	2369-2379	github.com	_	_	
+17-29	2379-2380	/	_	_	
+17-30	2380-2390	rbgirshick	_	_	
+17-31	2390-2391	/	_	_	
+17-32	2391-2404	fast-rcnn.git	_	_	
+17-33	2407-2408	`	_	_	
+17-34	2408-2409	`	_	_	
+17-35	2409-2410	`	_	_	
+17-36	2414-2415	2	_	_	
+17-37	2415-2416	.	_	_	
+
+#Text=We'll call the directory that you cloned Fast R-CNN into `FRCN_ROOT`
+#Text=
+#Text=   *Ignore notes 1 and 2 if you followed step 1 above.*
+#Text=   
+#Text=   **Note 1:** If you didn't clone Fast R-CNN with the `--recursive` flag, then you'll need to manually clone the `caffe-fast-rcnn` submodule:
+#Text=    ```Shell
+#Text=    git submodule update --init --recursive
+#Text=    ```
+#Text=    **Note 2:** The `caffe-fast-rcnn` submodule needs to be on the `fast-rcnn` branch (or equivalent detached state).
+18-1	2417-2422	We'll	_	_	
+18-2	2423-2427	call	_	_	
+18-3	2428-2431	the	_	_	
+18-4	2432-2441	directory	_	_	
+18-5	2442-2446	that	_	_	
+18-6	2447-2450	you	_	_	
+18-7	2451-2457	cloned	_	_	
+18-8	2458-2462	Fast	*[15]	SOFTWARE[15]	
+18-9	2463-2468	R-CNN	*[15]	SOFTWARE[15]	
+18-10	2469-2473	into	_	_	
+18-11	2474-2475	`	_	_	
+18-12	2475-2484	FRCN_ROOT	_	_	
+18-13	2484-2485	`	_	_	
+18-14	2490-2491	*	_	_	
+18-15	2491-2497	Ignore	_	_	
+18-16	2498-2503	notes	_	_	
+18-17	2504-2505	1	_	_	
+18-18	2506-2509	and	_	_	
+18-19	2510-2511	2	_	_	
+18-20	2512-2514	if	_	_	
+18-21	2515-2518	you	_	_	
+18-22	2519-2527	followed	_	_	
+18-23	2528-2532	step	_	_	
+18-24	2533-2534	1	_	_	
+18-25	2535-2540	above	_	_	
+18-26	2540-2541	.	_	_	
+18-27	2541-2542	*	_	_	
+18-28	2550-2551	*	_	_	
+18-29	2551-2552	*	_	_	
+18-30	2552-2556	Note	_	_	
+18-31	2557-2558	1	_	_	
+18-32	2558-2559	:	_	_	
+18-33	2559-2560	*	_	_	
+18-34	2560-2561	*	_	_	
+18-35	2562-2564	If	_	_	
+18-36	2565-2568	you	_	_	
+18-37	2569-2575	didn't	_	_	
+18-38	2576-2581	clone	_	_	
+18-39	2582-2586	Fast	*[16]	SOFTWARE[16]	
+18-40	2587-2592	R-CNN	*[16]	SOFTWARE[16]	
+18-41	2593-2597	with	_	_	
+18-42	2598-2601	the	_	_	
+18-43	2602-2603	`	_	_	
+18-44	2603-2604	-	_	_	
+18-45	2604-2605	-	_	_	
+18-46	2605-2614	recursive	_	_	
+18-47	2614-2615	`	_	_	
+18-48	2616-2620	flag	_	_	
+18-49	2620-2621	,	_	_	
+18-50	2622-2626	then	_	_	
+18-51	2627-2633	you'll	_	_	
+18-52	2634-2638	need	_	_	
+18-53	2639-2641	to	_	_	
+18-54	2642-2650	manually	_	_	
+18-55	2651-2656	clone	_	_	
+18-56	2657-2660	the	_	_	
+18-57	2661-2662	`	_	_	
+18-58	2662-2677	caffe-fast-rcnn	_	_	
+18-58.1	2662-2667	caffe	*	SOFTWARE	
+18-59	2677-2678	`	_	_	
+18-60	2679-2688	submodule	_	_	
+18-61	2688-2689	:	_	_	
+18-62	2694-2695	`	_	_	
+18-63	2695-2696	`	_	_	
+18-64	2696-2697	`	_	_	
+18-65	2697-2702	Shell	*	PROGLANG	
+18-66	2707-2710	git	*	SOFTWARE	
+18-67	2711-2720	submodule	_	_	
+18-68	2721-2727	update	_	_	
+18-69	2728-2729	-	_	_	
+18-70	2729-2730	-	_	_	
+18-71	2730-2734	init	_	_	
+18-72	2735-2736	-	_	_	
+18-73	2736-2737	-	_	_	
+18-74	2737-2746	recursive	_	_	
+18-75	2751-2752	`	_	_	
+18-76	2752-2753	`	_	_	
+18-77	2753-2754	`	_	_	
+18-78	2759-2760	*	_	_	
+18-79	2760-2761	*	_	_	
+18-80	2761-2765	Note	_	_	
+18-81	2766-2767	2	_	_	
+18-82	2767-2768	:	_	_	
+18-83	2768-2769	*	_	_	
+18-84	2769-2770	*	_	_	
+18-85	2771-2774	The	_	_	
+18-86	2775-2776	`	_	_	
+18-87	2776-2791	caffe-fast-rcnn	_	_	
+18-87.1	2776-2781	caffe	*	SOFTWARE	
+18-88	2791-2792	`	_	_	
+18-89	2793-2802	submodule	_	_	
+18-90	2803-2808	needs	_	_	
+18-91	2809-2811	to	_	_	
+18-92	2812-2814	be	_	_	
+18-93	2815-2817	on	_	_	
+18-94	2818-2821	the	_	_	
+18-95	2822-2823	`	_	_	
+18-96	2823-2832	fast-rcnn	_	_	
+18-97	2832-2833	`	_	_	
+18-98	2834-2840	branch	_	_	
+18-99	2841-2842	(	_	_	
+18-100	2842-2844	or	_	_	
+18-101	2845-2855	equivalent	_	_	
+18-102	2856-2864	detached	_	_	
+18-103	2865-2870	state	_	_	
+18-104	2870-2871	)	_	_	
+18-105	2871-2872	.	_	_	
+
+#Text=This will happen automatically *if you follow these instructions*.
+#Text=
+#Text=3.
+19-1	2873-2877	This	_	_	
+19-2	2878-2882	will	_	_	
+19-3	2883-2889	happen	_	_	
+19-4	2890-2903	automatically	_	_	
+19-5	2904-2905	*	_	_	
+19-6	2905-2907	if	_	_	
+19-7	2908-2911	you	_	_	
+19-8	2912-2918	follow	_	_	
+19-9	2919-2924	these	_	_	
+19-10	2925-2937	instructions	_	_	
+19-11	2937-2938	*	_	_	
+19-12	2938-2939	.	_	_	
+19-13	2941-2942	3	_	_	
+19-14	2942-2943	.	_	_	
+
+#Text=Build the Cython modules
+#Text=    ```Shell
+#Text=    cd $FRCN_ROOT/lib
+#Text=    make
+#Text=    ```
+#Text=    
+#Text=4.
+20-1	2944-2949	Build	_	_	
+20-2	2950-2953	the	_	_	
+20-3	2954-2960	Cython	*	PROGLANG	
+20-4	2961-2968	modules	_	_	
+20-5	2973-2974	`	_	_	
+20-6	2974-2975	`	_	_	
+20-7	2975-2976	`	_	_	
+20-8	2976-2981	Shell	*	PROGLANG	
+20-9	2986-2988	cd	_	_	
+20-10	2989-2990	$	_	_	
+20-11	2990-2999	FRCN_ROOT	_	_	
+20-12	2999-3000	/	_	_	
+20-13	3000-3003	lib	_	_	
+20-14	3008-3012	make	_	_	
+20-15	3017-3018	`	_	_	
+20-16	3018-3019	`	_	_	
+20-17	3019-3020	`	_	_	
+20-18	3026-3027	4	_	_	
+20-19	3027-3028	.	_	_	
+
+#Text=Build Caffe and pycaffe
+#Text=    ```Shell
+#Text=    cd $FRCN_ROOT/caffe-fast-rcnn
+#Text=    # Now follow the Caffe installation instructions here:
+#Text=    #   http://caffe.berkeleyvision.org/installation.html
+#Text=
+#Text=    # If you're experienced with Caffe and have all of the requirements installed
+#Text=    # and your Makefile.config in place, then simply do:
+#Text=    make -j8 && make pycaffe
+#Text=    ```
+#Text=    
+#Text=5.
+21-1	3029-3034	Build	_	_	
+21-2	3035-3040	Caffe	*	SOFTWARE	
+21-3	3041-3044	and	_	_	
+21-4	3045-3052	pycaffe	*	SOFTWARE	
+21-5	3057-3058	`	_	_	
+21-6	3058-3059	`	_	_	
+21-7	3059-3060	`	_	_	
+21-8	3060-3065	Shell	*	PROGLANG	
+21-9	3070-3072	cd	_	_	
+21-10	3073-3074	$	_	_	
+21-11	3074-3083	FRCN_ROOT	_	_	
+21-12	3083-3084	/	_	_	
+21-13	3084-3099	caffe-fast-rcnn	_	_	
+21-14	3104-3105	#	_	_	
+21-15	3106-3109	Now	_	_	
+21-16	3110-3116	follow	_	_	
+21-17	3117-3120	the	_	_	
+21-18	3121-3126	Caffe	*	SOFTWARE	
+21-19	3127-3139	installation	_	_	
+21-20	3140-3152	instructions	_	_	
+21-21	3153-3157	here	_	_	
+21-22	3157-3158	:	_	_	
+21-23	3163-3164	#	_	_	
+21-24	3167-3171	http	_	_	
+21-25	3171-3172	:	_	_	
+21-26	3172-3173	/	_	_	
+21-27	3173-3174	/	_	_	
+21-28	3174-3198	caffe.berkeleyvision.org	_	_	
+21-28.1	3174-3179	caffe	*	SOFTWARE	
+21-29	3198-3199	/	_	_	
+21-30	3199-3216	installation.html	_	_	
+21-31	3222-3223	#	_	_	
+21-32	3224-3226	If	_	_	
+21-33	3227-3233	you're	_	_	
+21-34	3234-3245	experienced	_	_	
+21-35	3246-3250	with	_	_	
+21-36	3251-3256	Caffe	*	SOFTWARE	
+21-37	3257-3260	and	_	_	
+21-38	3261-3265	have	_	_	
+21-39	3266-3269	all	_	_	
+21-40	3270-3272	of	_	_	
+21-41	3273-3276	the	_	_	
+21-42	3277-3289	requirements	_	_	
+21-43	3290-3299	installed	_	_	
+21-44	3304-3305	#	_	_	
+21-45	3306-3309	and	_	_	
+21-46	3310-3314	your	_	_	
+21-47	3315-3330	Makefile.config	_	_	
+21-48	3331-3333	in	_	_	
+21-49	3334-3339	place	_	_	
+21-50	3339-3340	,	_	_	
+21-51	3341-3345	then	_	_	
+21-52	3346-3352	simply	_	_	
+21-53	3353-3355	do	_	_	
+21-54	3355-3356	:	_	_	
+21-55	3361-3365	make	_	_	
+21-56	3366-3367	-	_	_	
+21-57	3367-3369	j8	_	_	
+21-58	3370-3371	&	_	_	
+21-59	3371-3372	&	_	_	
+21-60	3373-3377	make	_	_	
+21-61	3378-3385	pycaffe	*	SOFTWARE	
+21-62	3390-3391	`	_	_	
+21-63	3391-3392	`	_	_	
+21-64	3392-3393	`	_	_	
+21-65	3399-3400	5	_	_	
+21-66	3400-3401	.	_	_	
+
+#Text=Download pre-computed Fast R-CNN detectors
+#Text=    ```Shell
+#Text=    cd $FRCN_ROOT
+#Text=    .
+22-1	3402-3410	Download	_	_	
+22-2	3411-3423	pre-computed	_	_	
+22-3	3424-3428	Fast	*[17]	SOFTWARE[17]	
+22-4	3429-3434	R-CNN	*[17]	SOFTWARE[17]	
+22-5	3435-3444	detectors	_	_	
+22-6	3449-3450	`	_	_	
+22-7	3450-3451	`	_	_	
+22-8	3451-3452	`	_	_	
+22-9	3452-3457	Shell	*	SOFTWARE	
+22-10	3462-3464	cd	_	_	
+22-11	3465-3466	$	_	_	
+22-12	3466-3475	FRCN_ROOT	_	_	
+22-13	3480-3481	.	_	_	
+
+#Text=/data/scripts/fetch_fast_rcnn_models.sh
+#Text=    ```
+#Text=
+#Text=    This will populate the `$FRCN_ROOT/data` folder with `fast_rcnn_models`.
+23-1	3481-3482	/	_	_	
+23-2	3482-3486	data	_	_	
+23-3	3486-3487	/	_	_	
+23-4	3487-3494	scripts	_	_	
+23-5	3494-3495	/	_	_	
+23-6	3495-3520	fetch_fast_rcnn_models.sh	_	_	
+23-7	3525-3526	`	_	_	
+23-8	3526-3527	`	_	_	
+23-9	3527-3528	`	_	_	
+23-10	3534-3538	This	_	_	
+23-11	3539-3543	will	_	_	
+23-12	3544-3552	populate	_	_	
+23-13	3553-3556	the	_	_	
+23-14	3557-3558	`	_	_	
+23-15	3558-3559	$	_	_	
+23-16	3559-3568	FRCN_ROOT	_	_	
+23-17	3568-3569	/	_	_	
+23-18	3569-3573	data	_	_	
+23-19	3573-3574	`	_	_	
+23-20	3575-3581	folder	_	_	
+23-21	3582-3586	with	_	_	
+23-22	3587-3588	`	_	_	
+23-23	3588-3604	fast_rcnn_models	_	_	
+23-24	3604-3605	`	_	_	
+23-25	3605-3606	.	_	_	
+
+#Text=See `data/README.md` for details.
+#Text=
+#Text=### Demo
+#Text=
+#Text=*After successfully completing [basic installation](#installation-sufficient-for-the-demo)*, you'll be ready to run the demo.
+24-1	3607-3610	See	_	_	
+24-2	3611-3612	`	_	_	
+24-3	3612-3616	data	_	_	
+24-4	3616-3617	/	_	_	
+24-5	3617-3626	README.md	_	_	
+24-6	3626-3627	`	_	_	
+24-7	3628-3631	for	_	_	
+24-8	3632-3639	details	_	_	
+24-9	3639-3640	.	_	_	
+24-10	3642-3643	#	_	_	
+24-11	3643-3644	#	_	_	
+24-12	3644-3645	#	_	_	
+24-13	3646-3650	Demo	_	_	
+24-14	3652-3653	*	_	_	
+24-15	3653-3658	After	_	_	
+24-16	3659-3671	successfully	_	_	
+24-17	3672-3682	completing	_	_	
+24-18	3683-3684	[	_	_	
+24-19	3684-3689	basic	_	_	
+24-20	3690-3702	installation	_	_	
+24-21	3702-3703	]	_	_	
+24-22	3703-3704	(	_	_	
+24-23	3704-3705	#	_	_	
+24-24	3705-3741	installation-sufficient-for-the-demo	_	_	
+24-25	3741-3742	)	_	_	
+24-26	3742-3743	*	_	_	
+24-27	3743-3744	,	_	_	
+24-28	3745-3751	you'll	_	_	
+24-29	3752-3754	be	_	_	
+24-30	3755-3760	ready	_	_	
+24-31	3761-3763	to	_	_	
+24-32	3764-3767	run	_	_	
+24-33	3768-3771	the	_	_	
+24-34	3772-3776	demo	_	_	
+24-35	3776-3777	.	_	_	
+
+#Text=**Python**
+#Text=
+#Text=To run the demo
+#Text=```Shell
+#Text=cd $FRCN_ROOT
+#Text=.
+25-1	3779-3780	*	_	_	
+25-2	3780-3781	*	_	_	
+25-3	3781-3787	Python	*	PROGLANG	
+25-4	3787-3788	*	_	_	
+25-5	3788-3789	*	_	_	
+25-6	3791-3793	To	_	_	
+25-7	3794-3797	run	_	_	
+25-8	3798-3801	the	_	_	
+25-9	3802-3806	demo	_	_	
+25-10	3807-3808	`	_	_	
+25-11	3808-3809	`	_	_	
+25-12	3809-3810	`	_	_	
+25-13	3810-3815	Shell	*	SOFTWARE	
+25-14	3816-3818	cd	_	_	
+25-15	3819-3820	$	_	_	
+25-16	3820-3829	FRCN_ROOT	_	_	
+25-17	3830-3831	.	_	_	
+
+#Text=/tools/demo.py
+#Text=```
+#Text=The demo performs detection using a VGG16 network trained for detection on PASCAL VOC 2007.
+26-1	3831-3832	/	_	_	
+26-2	3832-3837	tools	_	_	
+26-3	3837-3838	/	_	_	
+26-4	3838-3845	demo.py	_	_	
+26-5	3846-3847	`	_	_	
+26-6	3847-3848	`	_	_	
+26-7	3848-3849	`	_	_	
+26-8	3850-3853	The	_	_	
+26-9	3854-3858	demo	_	_	
+26-10	3859-3867	performs	_	_	
+26-11	3868-3877	detection	_	_	
+26-12	3878-3883	using	_	_	
+26-13	3884-3885	a	_	_	
+26-14	3886-3891	VGG16	_	_	
+26-15	3892-3899	network	_	_	
+26-16	3900-3907	trained	_	_	
+26-17	3908-3911	for	_	_	
+26-18	3912-3921	detection	_	_	
+26-19	3922-3924	on	_	_	
+26-20	3925-3931	PASCAL	*[18]	DATASET[18]	
+26-21	3932-3935	VOC	*[18]	DATASET[18]	
+26-22	3936-3940	2007	*[18]	DATASET[18]	
+26-23	3940-3941	.	_	_	
+
+#Text=The object proposals are pre-computed in order to reduce installation requirements.
+27-1	3942-3945	The	_	_	
+27-2	3946-3952	object	_	_	
+27-3	3953-3962	proposals	_	_	
+27-4	3963-3966	are	_	_	
+27-5	3967-3979	pre-computed	_	_	
+27-6	3980-3982	in	_	_	
+27-7	3983-3988	order	_	_	
+27-8	3989-3991	to	_	_	
+27-9	3992-3998	reduce	_	_	
+27-10	3999-4011	installation	_	_	
+27-11	4012-4024	requirements	_	_	
+27-12	4024-4025	.	_	_	
+
+#Text=**Note:** If the demo crashes Caffe because your GPU doesn't have enough memory, try running the demo with a small network, e.g., `.
+28-1	4027-4028	*	_	_	
+28-2	4028-4029	*	_	_	
+28-3	4029-4033	Note	_	_	
+28-4	4033-4034	:	_	_	
+28-5	4034-4035	*	_	_	
+28-6	4035-4036	*	_	_	
+28-7	4037-4039	If	_	_	
+28-8	4040-4043	the	_	_	
+28-9	4044-4048	demo	_	_	
+28-10	4049-4056	crashes	_	_	
+28-11	4057-4062	Caffe	*	SOFTWARE	
+28-12	4063-4070	because	_	_	
+28-13	4071-4075	your	_	_	
+28-14	4076-4079	GPU	_	_	
+28-15	4080-4087	doesn't	_	_	
+28-16	4088-4092	have	_	_	
+28-17	4093-4099	enough	_	_	
+28-18	4100-4106	memory	_	_	
+28-19	4106-4107	,	_	_	
+28-20	4108-4111	try	_	_	
+28-21	4112-4119	running	_	_	
+28-22	4120-4123	the	_	_	
+28-23	4124-4128	demo	_	_	
+28-24	4129-4133	with	_	_	
+28-25	4134-4135	a	_	_	
+28-26	4136-4141	small	_	_	
+28-27	4142-4149	network	_	_	
+28-28	4149-4150	,	_	_	
+28-29	4151-4154	e.g	_	_	
+28-30	4154-4155	.	_	_	
+28-31	4155-4156	,	_	_	
+28-32	4157-4158	`	_	_	
+28-33	4158-4159	.	_	_	
+
+#Text=/tools/demo.py --net caffenet` or with `--net vgg_cnn_m_1024`.
+29-1	4159-4160	/	_	_	
+29-2	4160-4165	tools	_	_	
+29-3	4165-4166	/	_	_	
+29-4	4166-4173	demo.py	_	_	
+29-5	4174-4175	-	_	_	
+29-6	4175-4176	-	_	_	
+29-7	4176-4179	net	_	_	
+29-8	4180-4188	caffenet	_	_	
+29-9	4188-4189	`	_	_	
+29-10	4190-4192	or	_	_	
+29-11	4193-4197	with	_	_	
+29-12	4198-4199	`	_	_	
+29-13	4199-4200	-	_	_	
+29-14	4200-4201	-	_	_	
+29-15	4201-4204	net	_	_	
+29-16	4205-4214	vgg_cnn_m	_	_	
+29-17	4214-4215	_	_	_	
+29-18	4215-4219	1024	_	_	
+29-19	4219-4220	`	_	_	
+29-20	4220-4221	.	_	_	
+
+#Text=Or run in CPU mode `.
+30-1	4222-4224	Or	_	_	
+30-2	4225-4228	run	_	_	
+30-3	4229-4231	in	_	_	
+30-4	4232-4235	CPU	_	_	
+30-5	4236-4240	mode	_	_	
+30-6	4241-4242	`	_	_	
+30-7	4242-4243	.	_	_	
+
+#Text=/tools/demo.py --cpu`.
+31-1	4243-4244	/	_	_	
+31-2	4244-4249	tools	_	_	
+31-3	4249-4250	/	_	_	
+31-4	4250-4257	demo.py	_	_	
+31-5	4258-4259	-	_	_	
+31-6	4259-4260	-	_	_	
+31-7	4260-4263	cpu	_	_	
+31-8	4263-4264	`	_	_	
+31-9	4264-4265	.	_	_	
+
+#Text=Type `.
+32-1	4266-4270	Type	_	_	
+32-2	4271-4272	`	_	_	
+32-3	4272-4273	.	_	_	
+
+#Text=/tools/demo.py -h` for usage.
+33-1	4273-4274	/	_	_	
+33-2	4274-4279	tools	_	_	
+33-3	4279-4280	/	_	_	
+33-4	4280-4287	demo.py	_	_	
+33-5	4288-4289	-	_	_	
+33-6	4289-4290	h	_	_	
+33-7	4290-4291	`	_	_	
+33-8	4292-4295	for	_	_	
+33-9	4296-4301	usage	_	_	
+33-10	4301-4302	.	_	_	
+
+#Text=**MATLAB**
+#Text=
+#Text=There's also a *basic* MATLAB demo, though it's missing some minor bells and whistles compared to the Python version.
+34-1	4304-4305	*	_	_	
+34-2	4305-4306	*	_	_	
+34-3	4306-4312	MATLAB	*	SOFTWARE	
+34-4	4312-4313	*	_	_	
+34-5	4313-4314	*	_	_	
+34-6	4316-4323	There's	_	_	
+34-7	4324-4328	also	_	_	
+34-8	4329-4330	a	_	_	
+34-9	4331-4332	*	_	_	
+34-10	4332-4337	basic	_	_	
+34-11	4337-4338	*	_	_	
+34-12	4339-4345	MATLAB	*	SOFTWARE	
+34-13	4346-4350	demo	_	_	
+34-14	4350-4351	,	_	_	
+34-15	4352-4358	though	_	_	
+34-16	4359-4363	it's	_	_	
+34-17	4364-4371	missing	_	_	
+34-18	4372-4376	some	_	_	
+34-19	4377-4382	minor	_	_	
+34-20	4383-4388	bells	_	_	
+34-21	4389-4392	and	_	_	
+34-22	4393-4401	whistles	_	_	
+34-23	4402-4410	compared	_	_	
+34-24	4411-4413	to	_	_	
+34-25	4414-4417	the	_	_	
+34-26	4418-4424	Python	*	PROGLANG	
+34-27	4425-4432	version	_	_	
+34-28	4432-4433	.	_	_	
+
+#Text=```Shell
+#Text=cd $FRCN_ROOT/matlab
+#Text=matlab # wait for matlab to start
+35-1	4434-4435	`	_	_	
+35-2	4435-4436	`	_	_	
+35-3	4436-4437	`	_	_	
+35-4	4437-4442	Shell	*	PROGLANG	
+35-5	4443-4445	cd	_	_	
+35-6	4446-4447	$	_	_	
+35-7	4447-4456	FRCN_ROOT	_	_	
+35-8	4456-4457	/	_	_	
+35-9	4457-4463	matlab	*	PROGLANG	
+35-10	4464-4470	matlab	*	SOFTWARE	
+35-11	4471-4472	#	_	_	
+35-12	4473-4477	wait	_	_	
+35-13	4478-4481	for	_	_	
+35-14	4482-4488	matlab	*	SOFTWARE	
+35-15	4489-4491	to	_	_	
+35-16	4492-4497	start	_	_	
+
+#Text=.
+36-1	4497-4498	.	_	_	
+
+#Text=.
+37-1	4498-4499	.	_	_	
+
+#Text=.
+38-1	4499-4500	.	_	_	
+
+#Text=# At the matlab prompt, run the script:
+#Text=>> fast_rcnn_demo
+#Text=```
+#Text=
+#Text=Fast R-CNN training is implemented in Python only, but test-time detection functionality also exists in MATLAB.
+39-1	4502-4503	#	_	_	
+39-2	4504-4506	At	_	_	
+39-3	4507-4510	the	_	_	
+39-4	4511-4517	matlab	*	SOFTWARE	
+39-5	4518-4524	prompt	_	_	
+39-6	4524-4525	,	_	_	
+39-7	4526-4529	run	_	_	
+39-8	4530-4533	the	_	_	
+39-9	4534-4540	script	_	_	
+39-10	4540-4541	:	_	_	
+39-11	4542-4543	>	_	_	
+39-12	4543-4544	>	_	_	
+39-13	4545-4559	fast_rcnn_demo	_	_	
+39-14	4560-4561	`	_	_	
+39-15	4561-4562	`	_	_	
+39-16	4562-4563	`	_	_	
+39-17	4565-4569	Fast	*[19]	SOFTWARE[19]	
+39-18	4570-4575	R-CNN	*[19]	SOFTWARE[19]	
+39-19	4576-4584	training	_	_	
+39-20	4585-4587	is	_	_	
+39-21	4588-4599	implemented	_	_	
+39-22	4600-4602	in	_	_	
+39-23	4603-4609	Python	*	PROGLANG	
+39-24	4610-4614	only	_	_	
+39-25	4614-4615	,	_	_	
+39-26	4616-4619	but	_	_	
+39-27	4620-4629	test-time	_	_	
+39-28	4630-4639	detection	_	_	
+39-29	4640-4653	functionality	_	_	
+39-30	4654-4658	also	_	_	
+39-31	4659-4665	exists	_	_	
+39-32	4666-4668	in	_	_	
+39-33	4669-4675	MATLAB	*	SOFTWARE	
+39-34	4675-4676	.	_	_	
+
+#Text=See `matlab/fast_rcnn_demo.m` and `matlab/fast_rcnn_im_detect.m` for details.
+40-1	4677-4680	See	_	_	
+40-2	4681-4682	`	_	_	
+40-3	4682-4688	matlab	*	PROGLANG	
+40-4	4688-4689	/	_	_	
+40-5	4689-4705	fast_rcnn_demo.m	_	_	
+40-6	4705-4706	`	_	_	
+40-7	4707-4710	and	_	_	
+40-8	4711-4712	`	_	_	
+40-9	4712-4718	matlab	*	PROGLANG	
+40-10	4718-4719	/	_	_	
+40-11	4719-4740	fast_rcnn_im_detect.m	_	_	
+40-12	4740-4741	`	_	_	
+40-13	4742-4745	for	_	_	
+40-14	4746-4753	details	_	_	
+40-15	4753-4754	.	_	_	
+
+#Text=**Computing object proposals**
+#Text=
+#Text=The demo uses pre-computed selective search proposals computed with [this code](https://github.com/rbgirshick/rcnn/blob/master/selective_search/selective_search_boxes.m).
+41-1	4756-4757	*	_	_	
+41-2	4757-4758	*	_	_	
+41-3	4758-4767	Computing	_	_	
+41-4	4768-4774	object	_	_	
+41-5	4775-4784	proposals	_	_	
+41-6	4784-4785	*	_	_	
+41-7	4785-4786	*	_	_	
+41-8	4788-4791	The	_	_	
+41-9	4792-4796	demo	_	_	
+41-10	4797-4801	uses	_	_	
+41-11	4802-4814	pre-computed	_	_	
+41-12	4815-4824	selective	_	_	
+41-13	4825-4831	search	_	_	
+41-14	4832-4841	proposals	_	_	
+41-15	4842-4850	computed	_	_	
+41-16	4851-4855	with	_	_	
+41-17	4856-4857	[	_	_	
+41-18	4857-4861	this	_	_	
+41-19	4862-4866	code	_	_	
+41-20	4866-4867	]	_	_	
+41-21	4867-4868	(	_	_	
+41-22	4868-4873	https	_	_	
+41-23	4873-4874	:	_	_	
+41-24	4874-4875	/	_	_	
+41-25	4875-4876	/	_	_	
+41-26	4876-4886	github.com	_	_	
+41-27	4886-4887	/	_	_	
+41-28	4887-4897	rbgirshick	_	_	
+41-29	4897-4898	/	_	_	
+41-30	4898-4902	rcnn	_	_	
+41-31	4902-4903	/	_	_	
+41-32	4903-4907	blob	_	_	
+41-33	4907-4908	/	_	_	
+41-34	4908-4914	master	_	_	
+41-35	4914-4915	/	_	_	
+41-36	4915-4931	selective_search	_	_	
+41-37	4931-4932	/	_	_	
+41-38	4932-4956	selective_search_boxes.m	_	_	
+41-39	4956-4957	)	_	_	
+41-40	4957-4958	.	_	_	
+
+#Text=If you'd like to compute proposals on your own images, there are many options.
+42-1	4959-4961	If	_	_	
+42-2	4962-4967	you'd	_	_	
+42-3	4968-4972	like	_	_	
+42-4	4973-4975	to	_	_	
+42-5	4976-4983	compute	_	_	
+42-6	4984-4993	proposals	_	_	
+42-7	4994-4996	on	_	_	
+42-8	4997-5001	your	_	_	
+42-9	5002-5005	own	_	_	
+42-10	5006-5012	images	_	_	
+42-11	5012-5013	,	_	_	
+42-12	5014-5019	there	_	_	
+42-13	5020-5023	are	_	_	
+42-14	5024-5028	many	_	_	
+42-15	5029-5036	options	_	_	
+42-16	5036-5037	.	_	_	
+
+#Text=Here are some pointers; if you run into trouble using these resources please direct questions to the respective authors.
+#Text=
+#Text=1.
+43-1	5038-5042	Here	_	_	
+43-2	5043-5046	are	_	_	
+43-3	5047-5051	some	_	_	
+43-4	5052-5060	pointers	_	_	
+43-5	5060-5061	;	_	_	
+43-6	5062-5064	if	_	_	
+43-7	5065-5068	you	_	_	
+43-8	5069-5072	run	_	_	
+43-9	5073-5077	into	_	_	
+43-10	5078-5085	trouble	_	_	
+43-11	5086-5091	using	_	_	
+43-12	5092-5097	these	_	_	
+43-13	5098-5107	resources	_	_	
+43-14	5108-5114	please	_	_	
+43-15	5115-5121	direct	_	_	
+43-16	5122-5131	questions	_	_	
+43-17	5132-5134	to	_	_	
+43-18	5135-5138	the	_	_	
+43-19	5139-5149	respective	_	_	
+43-20	5150-5157	authors	_	_	
+43-21	5157-5158	.	_	_	
+43-22	5160-5161	1	_	_	
+43-23	5161-5162	.	_	_	
+
+#Text=Selective Search: [original matlab code](http://disi.unitn.it/~uijlings/MyHomepage/index.php#page=projects1), [python wrapper](https://github.com/sergeyk/selective_search_ijcv_with_python)
+#Text=2.
+44-1	5163-5172	Selective	_	_	
+44-2	5173-5179	Search	_	_	
+44-3	5179-5180	:	_	_	
+44-4	5181-5182	[	_	_	
+44-5	5182-5190	original	_	_	
+44-6	5191-5197	matlab	*	PROGLANG	
+44-7	5198-5202	code	_	_	
+44-8	5202-5203	]	_	_	
+44-9	5203-5204	(	_	_	
+44-10	5204-5208	http	_	_	
+44-11	5208-5209	:	_	_	
+44-12	5209-5210	/	_	_	
+44-13	5210-5211	/	_	_	
+44-14	5211-5224	disi.unitn.it	_	_	
+44-15	5224-5225	/	_	_	
+44-16	5225-5226	~	_	_	
+44-17	5226-5234	uijlings	_	_	
+44-18	5234-5235	/	_	_	
+44-19	5235-5245	MyHomepage	_	_	
+44-20	5245-5246	/	_	_	
+44-21	5246-5255	index.php	_	_	
+44-22	5255-5256	#	_	_	
+44-23	5256-5260	page	_	_	
+44-24	5260-5261	=	_	_	
+44-25	5261-5270	projects1	_	_	
+44-26	5270-5271	)	_	_	
+44-27	5271-5272	,	_	_	
+44-28	5273-5274	[	_	_	
+44-29	5274-5280	python	*	PROGLANG	
+44-30	5281-5288	wrapper	_	_	
+44-31	5288-5289	]	_	_	
+44-32	5289-5290	(	_	_	
+44-33	5290-5295	https	_	_	
+44-34	5295-5296	:	_	_	
+44-35	5296-5297	/	_	_	
+44-36	5297-5298	/	_	_	
+44-37	5298-5308	github.com	_	_	
+44-38	5308-5309	/	_	_	
+44-39	5309-5316	sergeyk	_	_	
+44-40	5316-5317	/	_	_	
+44-41	5317-5350	selective_search_ijcv_with_python	_	_	
+44-41.1	5344-5350	python	*	PROGLANG	
+44-42	5350-5351	)	_	_	
+44-43	5352-5353	2	_	_	
+44-44	5353-5354	.	_	_	
+
+#Text=EdgeBoxes: [matlab code](https://github.com/pdollar/edges)
+#Text=3.
+45-1	5355-5364	EdgeBoxes	*	SOFTWARE	
+45-2	5364-5365	:	_	_	
+45-3	5366-5367	[	_	_	
+45-4	5367-5373	matlab	*	PROGLANG	
+45-5	5374-5378	code	_	_	
+45-6	5378-5379	]	_	_	
+45-7	5379-5380	(	_	_	
+45-8	5380-5385	https	_	_	
+45-9	5385-5386	:	_	_	
+45-10	5386-5387	/	_	_	
+45-11	5387-5388	/	_	_	
+45-12	5388-5398	github.com	_	_	
+45-13	5398-5399	/	_	_	
+45-14	5399-5406	pdollar	_	_	
+45-15	5406-5407	/	_	_	
+45-16	5407-5412	edges	_	_	
+45-17	5412-5413	)	_	_	
+45-18	5414-5415	3	_	_	
+45-19	5415-5416	.	_	_	
+
+#Text=GOP and LPO: [python code](http://www.philkr.net/)
+#Text=4.
+46-1	5417-5420	GOP	*	SOFTWARE	
+46-2	5421-5424	and	_	_	
+46-3	5425-5428	LPO	*	SOFTWARE	
+46-4	5428-5429	:	_	_	
+46-5	5430-5431	[	_	_	
+46-6	5431-5437	python	*	PROGLANG	
+46-7	5438-5442	code	_	_	
+46-8	5442-5443	]	_	_	
+46-9	5443-5444	(	_	_	
+46-10	5444-5448	http	_	_	
+46-11	5448-5449	:	_	_	
+46-12	5449-5450	/	_	_	
+46-13	5450-5451	/	_	_	
+46-14	5451-5465	www.philkr.net	_	_	
+46-15	5465-5466	/	_	_	
+46-16	5466-5467	)	_	_	
+46-17	5468-5469	4	_	_	
+46-18	5469-5470	.	_	_	
+
+#Text=MCG: [matlab code](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/mcg/)
+#Text=5.
+47-1	5471-5474	MCG	*	PROJECT	
+47-2	5474-5475	:	_	_	
+47-3	5476-5477	[	_	_	
+47-4	5477-5483	matlab	*	PROGLANG	
+47-5	5484-5488	code	_	_	
+47-6	5488-5489	]	_	_	
+47-7	5489-5490	(	_	_	
+47-8	5490-5494	http	_	_	
+47-9	5494-5495	:	_	_	
+47-10	5495-5496	/	_	_	
+47-11	5496-5497	/	_	_	
+47-12	5497-5518	www.eecs.berkeley.edu	_	_	
+47-13	5518-5519	/	_	_	
+47-14	5519-5527	Research	_	_	
+47-15	5527-5528	/	_	_	
+47-16	5528-5536	Projects	_	_	
+47-17	5536-5537	/	_	_	
+47-18	5537-5539	CS	_	_	
+47-19	5539-5540	/	_	_	
+47-20	5540-5546	vision	_	_	
+47-21	5546-5547	/	_	_	
+47-22	5547-5555	grouping	_	_	
+47-23	5555-5556	/	_	_	
+47-24	5556-5559	mcg	_	_	
+47-25	5559-5560	/	_	_	
+47-26	5560-5561	)	_	_	
+47-27	5562-5563	5	_	_	
+47-28	5563-5564	.	_	_	
+
+#Text=RIGOR: [matlab code](http://cpl.cc.gatech.edu/projects/RIGOR/)
+#Text=
+#Text=Apologies if I've left your method off this list.
+48-1	5565-5570	RIGOR	*	PROJECT	
+48-2	5570-5571	:	_	_	
+48-3	5572-5573	[	_	_	
+48-4	5573-5579	matlab	_	_	
+48-5	5580-5584	code	_	_	
+48-6	5584-5585	]	_	_	
+48-7	5585-5586	(	_	_	
+48-8	5586-5590	http	_	_	
+48-9	5590-5591	:	_	_	
+48-10	5591-5592	/	_	_	
+48-11	5592-5593	/	_	_	
+48-12	5593-5610	cpl.cc.gatech.edu	_	_	
+48-13	5610-5611	/	_	_	
+48-14	5611-5619	projects	_	_	
+48-15	5619-5620	/	_	_	
+48-16	5620-5625	RIGOR	*	PROJECT	
+48-17	5625-5626	/	_	_	
+48-18	5626-5627	)	_	_	
+48-19	5629-5638	Apologies	_	_	
+48-20	5639-5641	if	_	_	
+48-21	5642-5646	I've	_	_	
+48-22	5647-5651	left	_	_	
+48-23	5652-5656	your	_	_	
+48-24	5657-5663	method	_	_	
+48-25	5664-5667	off	_	_	
+48-26	5668-5672	this	_	_	
+48-27	5673-5677	list	_	_	
+48-28	5677-5678	.	_	_	
+
+#Text=Feel free to contact me and ask for it to be included.
+#Text=
+#Text=### Beyond the demo: installation for training and testing models
+#Text=1.
+49-1	5679-5683	Feel	_	_	
+49-2	5684-5688	free	_	_	
+49-3	5689-5691	to	_	_	
+49-4	5692-5699	contact	_	_	
+49-5	5700-5702	me	_	_	
+49-6	5703-5706	and	_	_	
+49-7	5707-5710	ask	_	_	
+49-8	5711-5714	for	_	_	
+49-9	5715-5717	it	_	_	
+49-10	5718-5720	to	_	_	
+49-11	5721-5723	be	_	_	
+49-12	5724-5732	included	_	_	
+49-13	5732-5733	.	_	_	
+49-14	5735-5736	#	_	_	
+49-15	5736-5737	#	_	_	
+49-16	5737-5738	#	_	_	
+49-17	5739-5745	Beyond	_	_	
+49-18	5746-5749	the	_	_	
+49-19	5750-5754	demo	_	_	
+49-20	5754-5755	:	_	_	
+49-21	5756-5768	installation	_	_	
+49-22	5769-5772	for	_	_	
+49-23	5773-5781	training	_	_	
+49-24	5782-5785	and	_	_	
+49-25	5786-5793	testing	_	_	
+49-26	5794-5800	models	_	_	
+49-27	5801-5802	1	_	_	
+49-28	5802-5803	.	_	_	
+
+#Text=Download the training, validation, test data and VOCdevkit
+#Text=
+#Text=\t```Shell
+#Text=\twget http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2007/VOCtrainval_06-Nov-2007.tar
+#Text=\twget http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2007/VOCtest_06-Nov-2007.tar
+#Text=\twget http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2007/VOCdevkit_08-Jun-2007.tar
+#Text=\t```
+#Text=\t
+#Text=2.
+50-1	5804-5812	Download	_	_	
+50-2	5813-5816	the	_	_	
+50-3	5817-5825	training	_	_	
+50-4	5825-5826	,	_	_	
+50-5	5827-5837	validation	_	_	
+50-6	5837-5838	,	_	_	
+50-7	5839-5843	test	_	_	
+50-8	5844-5848	data	_	_	
+50-9	5849-5852	and	_	_	
+50-10	5853-5862	VOCdevkit	*	SOFTWARE	
+50-11	5865-5866	`	_	_	
+50-12	5866-5867	`	_	_	
+50-13	5867-5868	`	_	_	
+50-14	5868-5873	Shell	*	SOFTWARE	
+50-15	5875-5879	wget	_	_	
+50-16	5880-5884	http	_	_	
+50-17	5884-5885	:	_	_	
+50-18	5885-5886	/	_	_	
+50-19	5886-5887	/	_	_	
+50-20	5887-5912	pascallin.ecs.soton.ac.uk	_	_	
+50-21	5912-5913	/	_	_	
+50-22	5913-5923	challenges	_	_	
+50-23	5923-5924	/	_	_	
+50-24	5924-5927	VOC	_	_	
+50-25	5927-5928	/	_	_	
+50-26	5928-5935	voc2007	*	DATASET	
+50-27	5935-5936	/	_	_	
+50-28	5936-5947	VOCtrainval	_	_	
+50-29	5947-5948	_	_	_	
+50-30	5948-5950	06	_	_	
+50-31	5950-5951	-	_	_	
+50-32	5951-5954	Nov	_	_	
+50-33	5954-5955	-	_	_	
+50-34	5955-5959	2007	_	_	
+50-35	5959-5960	.	_	_	
+50-36	5960-5963	tar	_	_	
+50-37	5965-5969	wget	*	SOFTWARE	
+50-38	5970-5974	http	_	_	
+50-39	5974-5975	:	_	_	
+50-40	5975-5976	/	_	_	
+50-41	5976-5977	/	_	_	
+50-42	5977-6002	pascallin.ecs.soton.ac.uk	_	_	
+50-43	6002-6003	/	_	_	
+50-44	6003-6013	challenges	_	_	
+50-45	6013-6014	/	_	_	
+50-46	6014-6017	VOC	_	_	
+50-47	6017-6018	/	_	_	
+50-48	6018-6025	voc2007	*	DATASET	
+50-49	6025-6026	/	_	_	
+50-50	6026-6033	VOCtest	_	_	
+50-51	6033-6034	_	_	_	
+50-52	6034-6036	06	_	_	
+50-53	6036-6037	-	_	_	
+50-54	6037-6040	Nov	_	_	
+50-55	6040-6041	-	_	_	
+50-56	6041-6045	2007	_	_	
+50-57	6045-6046	.	_	_	
+50-58	6046-6049	tar	_	_	
+50-59	6051-6055	wget	_	_	
+50-60	6056-6060	http	_	_	
+50-61	6060-6061	:	_	_	
+50-62	6061-6062	/	_	_	
+50-63	6062-6063	/	_	_	
+50-64	6063-6088	pascallin.ecs.soton.ac.uk	_	_	
+50-65	6088-6089	/	_	_	
+50-66	6089-6099	challenges	_	_	
+50-67	6099-6100	/	_	_	
+50-68	6100-6103	VOC	_	_	
+50-69	6103-6104	/	_	_	
+50-70	6104-6111	voc2007	*	DATASET	
+50-71	6111-6112	/	_	_	
+50-72	6112-6121	VOCdevkit	_	_	
+50-73	6121-6122	_	_	_	
+50-74	6122-6124	08	_	_	
+50-75	6124-6125	-	_	_	
+50-76	6125-6128	Jun	_	_	
+50-77	6128-6129	-	_	_	
+50-78	6129-6133	2007	_	_	
+50-79	6133-6134	.	_	_	
+50-80	6134-6137	tar	_	_	
+50-81	6139-6140	`	_	_	
+50-82	6140-6141	`	_	_	
+50-83	6141-6142	`	_	_	
+50-84	6145-6146	2	_	_	
+50-85	6146-6147	.	_	_	
+
+#Text=Extract all of these tars into one directory named `VOCdevkit`
+#Text=
+#Text=\t```Shell
+#Text=\ttar xvf VOCtrainval_06-Nov-2007.tar
+#Text=\ttar xvf VOCtest_06-Nov-2007.tar
+#Text=\ttar xvf VOCdevkit_08-Jun-2007.tar
+#Text=\t```
+#Text=
+#Text=3.
+51-1	6148-6155	Extract	_	_	
+51-2	6156-6159	all	_	_	
+51-3	6160-6162	of	_	_	
+51-4	6163-6168	these	_	_	
+51-5	6169-6173	tars	_	_	
+51-6	6174-6178	into	_	_	
+51-7	6179-6182	one	_	_	
+51-8	6183-6192	directory	_	_	
+51-9	6193-6198	named	_	_	
+51-10	6199-6200	`	_	_	
+51-11	6200-6209	VOCdevkit	_	_	
+51-12	6209-6210	`	_	_	
+51-13	6213-6214	`	_	_	
+51-14	6214-6215	`	_	_	
+51-15	6215-6216	`	_	_	
+51-16	6216-6221	Shell	*	SOFTWARE	
+51-17	6223-6226	tar	*	SOFTWARE	
+51-18	6227-6230	xvf	_	_	
+51-19	6231-6242	VOCtrainval	_	_	
+51-20	6242-6243	_	_	_	
+51-21	6243-6245	06	_	_	
+51-22	6245-6246	-	_	_	
+51-23	6246-6249	Nov	_	_	
+51-24	6249-6250	-	_	_	
+51-25	6250-6254	2007	_	_	
+51-26	6254-6255	.	_	_	
+51-27	6255-6258	tar	_	_	
+51-28	6260-6263	tar	*	SOFTWARE	
+51-29	6264-6267	xvf	_	_	
+51-30	6268-6275	VOCtest	_	_	
+51-31	6275-6276	_	_	_	
+51-32	6276-6278	06	_	_	
+51-33	6278-6279	-	_	_	
+51-34	6279-6282	Nov	_	_	
+51-35	6282-6283	-	_	_	
+51-36	6283-6287	2007	_	_	
+51-37	6287-6288	.	_	_	
+51-38	6288-6291	tar	_	_	
+51-39	6293-6296	tar	*	SOFTWARE	
+51-40	6297-6300	xvf	_	_	
+51-41	6301-6310	VOCdevkit	_	_	
+51-42	6310-6311	_	_	_	
+51-43	6311-6313	08	_	_	
+51-44	6313-6314	-	_	_	
+51-45	6314-6317	Jun	_	_	
+51-46	6317-6318	-	_	_	
+51-47	6318-6322	2007	_	_	
+51-48	6322-6323	.	_	_	
+51-49	6323-6326	tar	_	_	
+51-50	6328-6329	`	_	_	
+51-51	6329-6330	`	_	_	
+51-52	6330-6331	`	_	_	
+51-53	6333-6334	3	_	_	
+51-54	6334-6335	.	_	_	
+
+#Text=It should have this basic structure
+#Text=
+#Text=\t```Shell
+#Text=  \t$VOCdevkit/                           # development kit
+#Text=  \t$VOCdevkit/VOCcode/                   # VOC utility code
+#Text=  \t$VOCdevkit/VOC2007                    # image sets, annotations, etc
+52-1	6336-6338	It	_	_	
+52-2	6339-6345	should	_	_	
+52-3	6346-6350	have	_	_	
+52-4	6351-6355	this	_	_	
+52-5	6356-6361	basic	_	_	
+52-6	6362-6371	structure	_	_	
+52-7	6374-6375	`	_	_	
+52-8	6375-6376	`	_	_	
+52-9	6376-6377	`	_	_	
+52-10	6377-6382	Shell	*	SOFTWARE	
+52-11	6386-6387	$	_	_	
+52-12	6387-6396	VOCdevkit	_	_	
+52-13	6396-6397	/	_	_	
+52-14	6424-6425	#	_	_	
+52-15	6426-6437	development	_	_	
+52-16	6438-6441	kit	_	_	
+52-17	6445-6446	$	_	_	
+52-18	6446-6455	VOCdevkit	_	_	
+52-19	6455-6456	/	_	_	
+52-20	6456-6463	VOCcode	_	_	
+52-21	6463-6464	/	_	_	
+52-22	6483-6484	#	_	_	
+52-23	6485-6488	VOC	_	_	
+52-24	6489-6496	utility	_	_	
+52-25	6497-6501	code	_	_	
+52-26	6505-6506	$	_	_	
+52-27	6506-6515	VOCdevkit	_	_	
+52-28	6515-6516	/	_	_	
+52-29	6516-6523	VOC2007	_	_	
+52-29.1	6516-6517	V	*	SOFTWARE	
+52-30	6543-6544	#	_	_	
+52-31	6545-6550	image	_	_	
+52-32	6551-6555	sets	_	_	
+52-33	6555-6556	,	_	_	
+52-34	6557-6568	annotations	_	_	
+52-35	6568-6569	,	_	_	
+52-36	6570-6573	etc	_	_	
+
+#Text=.
+53-1	6573-6574	.	_	_	
+
+#Text=# ... and several other directories ...
+#Text=  \t```
+#Text=  \t
+#Text=4.
+54-1	6578-6579	#	_	_	
+54-2	6580-6581	.	_	_	
+54-3	6581-6582	.	_	_	
+54-4	6582-6583	.	_	_	
+54-5	6584-6587	and	_	_	
+54-6	6588-6595	several	_	_	
+54-7	6596-6601	other	_	_	
+54-8	6602-6613	directories	_	_	
+54-9	6614-6615	.	_	_	
+54-10	6615-6616	.	_	_	
+54-11	6616-6617	.	_	_	
+54-12	6621-6622	`	_	_	
+54-13	6622-6623	`	_	_	
+54-14	6623-6624	`	_	_	
+54-15	6629-6630	4	_	_	
+54-16	6630-6631	.	_	_	
+
+#Text=Create symlinks for the PASCAL VOC dataset
+#Text=
+#Text=\t```Shell
+#Text=    cd $FRCN_ROOT/data
+#Text=    ln -s $VOCdevkit VOCdevkit2007
+#Text=    ```
+#Text=    Using symlinks is a good idea because you will likely want to share the same PASCAL dataset installation between multiple projects.
+#Text=5.
+55-1	6632-6638	Create	_	_	
+55-2	6639-6647	symlinks	_	_	
+55-3	6648-6651	for	_	_	
+55-4	6652-6655	the	_	_	
+55-5	6656-6662	PASCAL	*[20]	DATASET[20]	
+55-6	6663-6666	VOC	*[20]	DATASET[20]	
+55-7	6667-6674	dataset	_	_	
+55-8	6677-6678	`	_	_	
+55-9	6678-6679	`	_	_	
+55-10	6679-6680	`	_	_	
+55-11	6680-6685	Shell	*	PROGLANG	
+55-12	6690-6692	cd	_	_	
+55-13	6693-6694	$	_	_	
+55-14	6694-6703	FRCN_ROOT	_	_	
+55-15	6703-6704	/	_	_	
+55-16	6704-6708	data	_	_	
+55-17	6713-6715	ln	_	_	
+55-18	6716-6717	-	_	_	
+55-19	6717-6718	s	_	_	
+55-20	6719-6720	$	_	_	
+55-21	6720-6729	VOCdevkit	_	_	
+55-22	6730-6743	VOCdevkit2007	_	_	
+55-23	6748-6749	`	_	_	
+55-24	6749-6750	`	_	_	
+55-25	6750-6751	`	_	_	
+55-26	6756-6761	Using	_	_	
+55-27	6762-6770	symlinks	_	_	
+55-28	6771-6773	is	_	_	
+55-29	6774-6775	a	_	_	
+55-30	6776-6780	good	_	_	
+55-31	6781-6785	idea	_	_	
+55-32	6786-6793	because	_	_	
+55-33	6794-6797	you	_	_	
+55-34	6798-6802	will	_	_	
+55-35	6803-6809	likely	_	_	
+55-36	6810-6814	want	_	_	
+55-37	6815-6817	to	_	_	
+55-38	6818-6823	share	_	_	
+55-39	6824-6827	the	_	_	
+55-40	6828-6832	same	_	_	
+55-41	6833-6839	PASCAL	*	DATASET	
+55-42	6840-6847	dataset	_	_	
+55-43	6848-6860	installation	_	_	
+55-44	6861-6868	between	_	_	
+55-45	6869-6877	multiple	_	_	
+55-46	6878-6886	projects	_	_	
+55-47	6886-6887	.	_	_	
+55-48	6888-6889	5	_	_	
+55-49	6889-6890	.	_	_	
+
+#Text=[Optional] follow similar steps to get PASCAL VOC 2010 and 2012
+#Text=6.
+56-1	6891-6892	[	_	_	
+56-2	6892-6900	Optional	_	_	
+56-3	6900-6901	]	_	_	
+56-4	6902-6908	follow	_	_	
+56-5	6909-6916	similar	_	_	
+56-6	6917-6922	steps	_	_	
+56-7	6923-6925	to	_	_	
+56-8	6926-6929	get	_	_	
+56-9	6930-6936	PASCAL	*[21]	DATASET[21]	
+56-10	6937-6940	VOC	*[21]	DATASET[21]	
+56-11	6941-6945	2010	*[21]	DATASET[21]	
+56-12	6946-6949	and	_	_	
+56-13	6950-6954	2012	_	_	
+56-14	6955-6956	6	_	_	
+56-15	6956-6957	.	_	_	
+
+#Text=Follow the next sections to download pre-computed object proposals and pre-trained ImageNet models
+#Text=
+#Text=### Download pre-computed Selective Search object proposals
+#Text=
+#Text=Pre-computed selective search boxes can also be downloaded for VOC2007 and VOC2012.
+57-1	6958-6964	Follow	_	_	
+57-2	6965-6968	the	_	_	
+57-3	6969-6973	next	_	_	
+57-4	6974-6982	sections	_	_	
+57-5	6983-6985	to	_	_	
+57-6	6986-6994	download	_	_	
+57-7	6995-7007	pre-computed	_	_	
+57-8	7008-7014	object	_	_	
+57-9	7015-7024	proposals	_	_	
+57-10	7025-7028	and	_	_	
+57-11	7029-7040	pre-trained	_	_	
+57-12	7041-7049	ImageNet	_	_	
+57-13	7050-7056	models	_	_	
+57-14	7058-7059	#	_	_	
+57-15	7059-7060	#	_	_	
+57-16	7060-7061	#	_	_	
+57-17	7062-7070	Download	_	_	
+57-18	7071-7083	pre-computed	_	_	
+57-19	7084-7093	Selective	_	_	
+57-20	7094-7100	Search	_	_	
+57-21	7101-7107	object	_	_	
+57-22	7108-7117	proposals	_	_	
+57-23	7119-7131	Pre-computed	_	_	
+57-24	7132-7141	selective	_	_	
+57-25	7142-7148	search	_	_	
+57-26	7149-7154	boxes	_	_	
+57-27	7155-7158	can	_	_	
+57-28	7159-7163	also	_	_	
+57-29	7164-7166	be	_	_	
+57-30	7167-7177	downloaded	_	_	
+57-31	7178-7181	for	_	_	
+57-32	7182-7189	VOC2007	*	DATASET	
+57-33	7190-7193	and	_	_	
+57-34	7194-7201	VOC2012	*	DATASET	
+57-35	7201-7202	.	_	_	
+
+#Text=```Shell
+#Text=cd $FRCN_ROOT
+#Text=.
+58-1	7204-7205	`	_	_	
+58-2	7205-7206	`	_	_	
+58-3	7206-7207	`	_	_	
+58-4	7207-7212	Shell	*	PROGLANG	
+58-5	7213-7215	cd	_	_	
+58-6	7216-7217	$	_	_	
+58-7	7217-7226	FRCN_ROOT	_	_	
+58-8	7227-7228	.	_	_	
+
+#Text=/data/scripts/fetch_selective_search_data.sh
+#Text=```
+#Text=
+#Text=This will populate the `$FRCN_ROOT/data` folder with `selective_selective_data`.
+#Text=
+#Text=### Download pre-trained ImageNet models
+#Text=
+#Text=Pre-trained ImageNet models can be downloaded for the three networks described in the paper: CaffeNet (model **S**), VGG_CNN_M_1024 (model **M**), and VGG16 (model **L**).
+59-1	7228-7229	/	_	_	
+59-2	7229-7233	data	_	_	
+59-3	7233-7234	/	_	_	
+59-4	7234-7241	scripts	_	_	
+59-5	7241-7242	/	_	_	
+59-6	7242-7272	fetch_selective_search_data.sh	_	_	
+59-7	7273-7274	`	_	_	
+59-8	7274-7275	`	_	_	
+59-9	7275-7276	`	_	_	
+59-10	7278-7282	This	_	_	
+59-11	7283-7287	will	_	_	
+59-12	7288-7296	populate	_	_	
+59-13	7297-7300	the	_	_	
+59-14	7301-7302	`	_	_	
+59-15	7302-7303	$	_	_	
+59-16	7303-7312	FRCN_ROOT	_	_	
+59-17	7312-7313	/	_	_	
+59-18	7313-7317	data	_	_	
+59-19	7317-7318	`	_	_	
+59-20	7319-7325	folder	_	_	
+59-21	7326-7330	with	_	_	
+59-22	7331-7332	`	_	_	
+59-23	7332-7356	selective_selective_data	_	_	
+59-24	7356-7357	`	_	_	
+59-25	7357-7358	.	_	_	
+59-26	7360-7361	#	_	_	
+59-27	7361-7362	#	_	_	
+59-28	7362-7363	#	_	_	
+59-29	7364-7372	Download	_	_	
+59-30	7373-7384	pre-trained	_	_	
+59-31	7385-7393	ImageNet	*	DATASET	
+59-32	7394-7400	models	_	_	
+59-33	7402-7413	Pre-trained	_	_	
+59-34	7414-7422	ImageNet	_	_	
+59-35	7423-7429	models	_	_	
+59-36	7430-7433	can	_	_	
+59-37	7434-7436	be	_	_	
+59-38	7437-7447	downloaded	_	_	
+59-39	7448-7451	for	_	_	
+59-40	7452-7455	the	_	_	
+59-41	7456-7461	three	_	_	
+59-42	7462-7470	networks	_	_	
+59-43	7471-7480	described	_	_	
+59-44	7481-7483	in	_	_	
+59-45	7484-7487	the	_	_	
+59-46	7488-7493	paper	_	_	
+59-47	7493-7494	:	_	_	
+59-48	7495-7503	CaffeNet	*	SOFTWARE	
+59-49	7504-7505	(	_	_	
+59-50	7505-7510	model	_	_	
+59-51	7511-7512	*	_	_	
+59-52	7512-7513	*	_	_	
+59-53	7513-7514	S	_	_	
+59-54	7514-7515	*	_	_	
+59-55	7515-7516	*	_	_	
+59-56	7516-7517	)	_	_	
+59-57	7517-7518	,	_	_	
+59-58	7519-7528	VGG_CNN_M	*[22]	SOFTWARE[22]	
+59-59	7528-7529	_	*[22]	SOFTWARE[22]	
+59-60	7529-7533	1024	*[22]	SOFTWARE[22]	
+59-61	7534-7535	(	_	_	
+59-62	7535-7540	model	_	_	
+59-63	7541-7542	*	_	_	
+59-64	7542-7543	*	_	_	
+59-65	7543-7544	M	_	_	
+59-66	7544-7545	*	_	_	
+59-67	7545-7546	*	_	_	
+59-68	7546-7547	)	_	_	
+59-69	7547-7548	,	_	_	
+59-70	7549-7552	and	_	_	
+59-71	7553-7558	VGG16	*	SOFTWARE	
+59-72	7559-7560	(	_	_	
+59-73	7560-7565	model	_	_	
+59-74	7566-7567	*	_	_	
+59-75	7567-7568	*	_	_	
+59-76	7568-7569	L	_	_	
+59-77	7569-7570	*	_	_	
+59-78	7570-7571	*	_	_	
+59-79	7571-7572	)	_	_	
+59-80	7572-7573	.	_	_	
+
+#Text=```Shell
+#Text=cd $FRCN_ROOT
+#Text=.
+60-1	7575-7576	`	_	_	
+60-2	7576-7577	`	_	_	
+60-3	7577-7578	`	_	_	
+60-4	7578-7583	Shell	*	PROGLANG	
+60-5	7584-7586	cd	_	_	
+60-6	7587-7588	$	_	_	
+60-7	7588-7597	FRCN_ROOT	_	_	
+60-8	7598-7599	.	_	_	
+
+#Text=/data/scripts/fetch_imagenet_models.sh
+#Text=```
+#Text=These models are all available in the [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo), but are provided here for your convenience.
+#Text=
+#Text=### Usage
+#Text=
+#Text=**Train** a Fast R-CNN detector.
+61-1	7599-7600	/	_	_	
+61-2	7600-7604	data	_	_	
+61-3	7604-7605	/	_	_	
+61-4	7605-7612	scripts	_	_	
+61-5	7612-7613	/	_	_	
+61-6	7613-7637	fetch_imagenet_models.sh	_	_	
+61-7	7638-7639	`	_	_	
+61-8	7639-7640	`	_	_	
+61-9	7640-7641	`	_	_	
+61-10	7642-7647	These	_	_	
+61-11	7648-7654	models	_	_	
+61-12	7655-7658	are	_	_	
+61-13	7659-7662	all	_	_	
+61-14	7663-7672	available	_	_	
+61-15	7673-7675	in	_	_	
+61-16	7676-7679	the	_	_	
+61-17	7680-7681	[	_	_	
+61-18	7681-7686	Caffe	*	SOFTWARE	
+61-19	7687-7692	Model	_	_	
+61-20	7693-7696	Zoo	_	_	
+61-21	7696-7697	]	_	_	
+61-22	7697-7698	(	_	_	
+61-23	7698-7703	https	_	_	
+61-24	7703-7704	:	_	_	
+61-25	7704-7705	/	_	_	
+61-26	7705-7706	/	_	_	
+61-27	7706-7716	github.com	_	_	
+61-28	7716-7717	/	_	_	
+61-29	7717-7721	BVLC	_	_	
+61-30	7721-7722	/	_	_	
+61-31	7722-7727	caffe	*	SOFTWARE	
+61-32	7727-7728	/	_	_	
+61-33	7728-7732	wiki	_	_	
+61-34	7732-7733	/	_	_	
+61-35	7733-7742	Model-Zoo	_	_	
+61-36	7742-7743	)	_	_	
+61-37	7743-7744	,	_	_	
+61-38	7745-7748	but	_	_	
+61-39	7749-7752	are	_	_	
+61-40	7753-7761	provided	_	_	
+61-41	7762-7766	here	_	_	
+61-42	7767-7770	for	_	_	
+61-43	7771-7775	your	_	_	
+61-44	7776-7787	convenience	_	_	
+61-45	7787-7788	.	_	_	
+61-46	7790-7791	#	_	_	
+61-47	7791-7792	#	_	_	
+61-48	7792-7793	#	_	_	
+61-49	7794-7799	Usage	_	_	
+61-50	7801-7802	*	_	_	
+61-51	7802-7803	*	_	_	
+61-52	7803-7808	Train	_	_	
+61-53	7808-7809	*	_	_	
+61-54	7809-7810	*	_	_	
+61-55	7811-7812	a	_	_	
+61-56	7813-7817	Fast	*[23]	SOFTWARE[23]	
+61-57	7818-7823	R-CNN	*[23]	SOFTWARE[23]	
+61-58	7824-7832	detector	_	_	
+61-59	7832-7833	.	_	_	
+
+#Text=For example, train a VGG16 network on VOC 2007 trainval:
+#Text=
+#Text=```Shell
+#Text=.
+62-1	7834-7837	For	_	_	
+62-2	7838-7845	example	_	_	
+62-3	7845-7846	,	_	_	
+62-4	7847-7852	train	_	_	
+62-5	7853-7854	a	_	_	
+62-6	7855-7860	VGG16	*	SOFTWARE	
+62-7	7861-7868	network	_	_	
+62-8	7869-7871	on	_	_	
+62-9	7872-7875	VOC	*[24]	DATASET[24]	
+62-10	7876-7880	2007	*[24]	DATASET[24]	
+62-11	7881-7889	trainval	_	_	
+62-12	7889-7890	:	_	_	
+62-13	7892-7893	`	_	_	
+62-14	7893-7894	`	_	_	
+62-15	7894-7895	`	_	_	
+62-16	7895-7900	Shell	*	PROGLANG	
+62-17	7901-7902	.	_	_	
+
+#Text=/tools/train_net.py --gpu 0 --solver models/VGG16/solver.prototxt \\
+#Text=\t--weights data/imagenet_models/VGG16.v2.caffemodel
+#Text=```
+#Text=
+#Text=If you see this error
+#Text=
+#Text=```
+#Text=EnvironmentError: MATLAB command 'matlab' not found.
+63-1	7902-7903	/	_	_	
+63-2	7903-7908	tools	_	_	
+63-3	7908-7909	/	_	_	
+63-4	7909-7921	train_net.py	_	_	
+63-5	7922-7923	-	_	_	
+63-6	7923-7924	-	_	_	
+63-7	7924-7927	gpu	_	_	
+63-8	7928-7929	0	_	_	
+63-9	7930-7931	-	_	_	
+63-10	7931-7932	-	_	_	
+63-11	7932-7938	solver	_	_	
+63-12	7939-7945	models	_	_	
+63-13	7945-7946	/	_	_	
+63-14	7946-7951	VGG16	_	_	
+63-15	7951-7952	/	_	_	
+63-16	7952-7967	solver.prototxt	_	_	
+63-17	7968-7969	\	_	_	
+63-18	7971-7972	-	_	_	
+63-19	7972-7973	-	_	_	
+63-20	7973-7980	weights	_	_	
+63-21	7981-7985	data	_	_	
+63-22	7985-7986	/	_	_	
+63-23	7986-8001	imagenet_models	_	_	
+63-24	8001-8002	/	_	_	
+63-25	8002-8007	VGG16	_	_	
+63-26	8007-8008	.	_	_	
+63-27	8008-8010	v2	_	_	
+63-28	8010-8011	.	_	_	
+63-29	8011-8021	caffemodel	_	_	
+63-30	8022-8023	`	_	_	
+63-31	8023-8024	`	_	_	
+63-32	8024-8025	`	_	_	
+63-33	8027-8029	If	_	_	
+63-34	8030-8033	you	_	_	
+63-35	8034-8037	see	_	_	
+63-36	8038-8042	this	_	_	
+63-37	8043-8048	error	_	_	
+63-38	8050-8051	`	_	_	
+63-39	8051-8052	`	_	_	
+63-40	8052-8053	`	_	_	
+63-41	8054-8070	EnvironmentError	_	_	
+63-42	8070-8071	:	_	_	
+63-43	8072-8078	MATLAB	*	SOFTWARE	
+63-44	8079-8086	command	_	_	
+63-45	8087-8088	'	_	_	
+63-46	8088-8094	matlab	*	SOFTWARE	
+63-47	8094-8095	'	_	_	
+63-48	8096-8099	not	_	_	
+63-49	8100-8105	found	_	_	
+63-50	8105-8106	.	_	_	
+
+#Text=Please add 'matlab' to your PATH.
+#Text=```
+#Text=
+#Text=then you need to make sure the `matlab` binary is in your `$PATH`.
+64-1	8107-8113	Please	_	_	
+64-2	8114-8117	add	_	_	
+64-3	8118-8119	'	_	_	
+64-4	8119-8125	matlab	*	SOFTWARE	
+64-5	8125-8126	'	_	_	
+64-6	8127-8129	to	_	_	
+64-7	8130-8134	your	_	_	
+64-8	8135-8139	PATH	_	_	
+64-9	8139-8140	.	_	_	
+64-10	8141-8142	`	_	_	
+64-11	8142-8143	`	_	_	
+64-12	8143-8144	`	_	_	
+64-13	8146-8150	then	_	_	
+64-14	8151-8154	you	_	_	
+64-15	8155-8159	need	_	_	
+64-16	8160-8162	to	_	_	
+64-17	8163-8167	make	_	_	
+64-18	8168-8172	sure	_	_	
+64-19	8173-8176	the	_	_	
+64-20	8177-8178	`	_	_	
+64-21	8178-8184	matlab	*	SOFTWARE	
+64-22	8184-8185	`	_	_	
+64-23	8186-8192	binary	_	_	
+64-24	8193-8195	is	_	_	
+64-25	8196-8198	in	_	_	
+64-26	8199-8203	your	_	_	
+64-27	8204-8205	`	_	_	
+64-28	8205-8206	$	_	_	
+64-29	8206-8210	PATH	_	_	
+64-30	8210-8211	`	_	_	
+64-31	8211-8212	.	_	_	
+
+#Text=MATLAB is currently required for PASCAL VOC evaluation.
+65-1	8213-8219	MATLAB	*	SOFTWARE	
+65-2	8220-8222	is	_	_	
+65-3	8223-8232	currently	_	_	
+65-4	8233-8241	required	_	_	
+65-5	8242-8245	for	_	_	
+65-6	8246-8252	PASCAL	*[25]	DATASET[25]	
+65-7	8253-8256	VOC	*[25]	DATASET[25]	
+65-8	8257-8267	evaluation	_	_	
+65-9	8267-8268	.	_	_	
+
+#Text=**Test** a Fast R-CNN detector.
+66-1	8270-8271	*	_	_	
+66-2	8271-8272	*	_	_	
+66-3	8272-8276	Test	_	_	
+66-4	8276-8277	*	_	_	
+66-5	8277-8278	*	_	_	
+66-6	8279-8280	a	_	_	
+66-7	8281-8285	Fast	*[26]	SOFTWARE[26]	
+66-8	8286-8291	R-CNN	*[26]	SOFTWARE[26]	
+66-9	8292-8300	detector	_	_	
+66-10	8300-8301	.	_	_	
+
+#Text=For example, test the VGG 16 network on VOC 2007 test:
+#Text=
+#Text=```Shell
+#Text=.
+67-1	8302-8305	For	_	_	
+67-2	8306-8313	example	_	_	
+67-3	8313-8314	,	_	_	
+67-4	8315-8319	test	_	_	
+67-5	8320-8323	the	_	_	
+67-6	8324-8327	VGG	_	_	
+67-7	8328-8330	16	_	_	
+67-8	8331-8338	network	_	_	
+67-9	8339-8341	on	_	_	
+67-10	8342-8345	VOC	*[27]	DATASET[27]	
+67-11	8346-8350	2007	*[27]	DATASET[27]	
+67-12	8351-8355	test	_	_	
+67-13	8355-8356	:	_	_	
+67-14	8358-8359	`	_	_	
+67-15	8359-8360	`	_	_	
+67-16	8360-8361	`	_	_	
+67-17	8361-8366	Shell	*	PROGLANG	
+67-18	8367-8368	.	_	_	
+
+#Text=/tools/test_net.py --gpu 1 --def models/VGG16/test.prototxt \\
+#Text=\t--net output/default/voc_2007_trainval/vgg16_fast_rcnn_iter_40000.caffemodel
+#Text=```
+#Text=
+#Text=Test output is written underneath `$FRCN_ROOT/output`.
+68-1	8368-8369	/	_	_	
+68-2	8369-8374	tools	_	_	
+68-3	8374-8375	/	_	_	
+68-4	8375-8386	test_net.py	_	_	
+68-5	8387-8388	-	_	_	
+68-6	8388-8389	-	_	_	
+68-7	8389-8392	gpu	_	_	
+68-8	8393-8394	1	_	_	
+68-9	8395-8396	-	_	_	
+68-10	8396-8397	-	_	_	
+68-11	8397-8400	def	_	_	
+68-12	8401-8407	models	_	_	
+68-13	8407-8408	/	_	_	
+68-14	8408-8413	VGG16	_	_	
+68-15	8413-8414	/	_	_	
+68-16	8414-8427	test.prototxt	_	_	
+68-17	8428-8429	\	_	_	
+68-18	8431-8432	-	_	_	
+68-19	8432-8433	-	_	_	
+68-20	8433-8436	net	_	_	
+68-21	8437-8443	output	_	_	
+68-22	8443-8444	/	_	_	
+68-23	8444-8451	default	_	_	
+68-24	8451-8452	/	_	_	
+68-25	8452-8455	voc	*[28]	DATASET[28]	
+68-26	8455-8456	_	*[28]	DATASET[28]	
+68-27	8456-8460	2007	*[28]	DATASET[28]	
+68-28	8460-8461	_	_	_	
+68-29	8461-8469	trainval	_	_	
+68-30	8469-8470	/	_	_	
+68-31	8470-8475	vgg16	_	_	
+68-32	8475-8476	_	_	_	
+68-33	8476-8490	fast_rcnn_iter	_	_	
+68-33.1	8476-8485	fast_rcnn	*	SOFTWARE	
+68-34	8490-8491	_	_	_	
+68-35	8491-8496	40000	_	_	
+68-36	8496-8497	.	_	_	
+68-37	8497-8507	caffemodel	_	_	
+68-38	8508-8509	`	_	_	
+68-39	8509-8510	`	_	_	
+68-40	8510-8511	`	_	_	
+68-41	8513-8517	Test	_	_	
+68-42	8518-8524	output	_	_	
+68-43	8525-8527	is	_	_	
+68-44	8528-8535	written	_	_	
+68-45	8536-8546	underneath	_	_	
+68-46	8547-8548	`	_	_	
+68-47	8548-8549	$	_	_	
+68-48	8549-8558	FRCN_ROOT	_	_	
+68-49	8558-8559	/	_	_	
+68-50	8559-8565	output	_	_	
+68-51	8565-8566	`	_	_	
+68-52	8566-8567	.	_	_	
+
+#Text=**Compress** a Fast R-CNN model using truncated SVD on the fully-connected layers:
+#Text=
+#Text=```Shell
+#Text=.
+69-1	8569-8570	*	_	_	
+69-2	8570-8571	*	_	_	
+69-3	8571-8579	Compress	_	_	
+69-4	8579-8580	*	_	_	
+69-5	8580-8581	*	_	_	
+69-6	8582-8583	a	_	_	
+69-7	8584-8588	Fast	_	_	
+69-8	8589-8594	R-CNN	_	_	
+69-9	8595-8600	model	_	_	
+69-10	8601-8606	using	_	_	
+69-11	8607-8616	truncated	_	_	
+69-12	8617-8620	SVD	_	_	
+69-13	8621-8623	on	_	_	
+69-14	8624-8627	the	_	_	
+69-15	8628-8643	fully-connected	_	_	
+69-16	8644-8650	layers	_	_	
+69-17	8650-8651	:	_	_	
+69-18	8653-8654	`	_	_	
+69-19	8654-8655	`	_	_	
+69-20	8655-8656	`	_	_	
+69-21	8656-8661	Shell	*	PROGLANG	
+69-22	8662-8663	.	_	_	
+
+#Text=/tools/compress_net.py --def models/VGG16/test.prototxt \\
+#Text=\t--def-svd models/VGG16/compressed/test.prototxt \\
+#Text=    --net output/default/voc_2007_trainval/vgg16_fast_rcnn_iter_40000.caffemodel
+#Text=# Test the model you just compressed
+#Text=.
+70-1	8663-8664	/	_	_	
+70-2	8664-8669	tools	_	_	
+70-3	8669-8670	/	_	_	
+70-4	8670-8685	compress_net.py	_	_	
+70-5	8686-8687	-	_	_	
+70-6	8687-8688	-	_	_	
+70-7	8688-8691	def	_	_	
+70-8	8692-8698	models	_	_	
+70-9	8698-8699	/	_	_	
+70-10	8699-8704	VGG16	_	_	
+70-11	8704-8705	/	_	_	
+70-12	8705-8718	test.prototxt	_	_	
+70-13	8719-8720	\	_	_	
+70-14	8722-8723	-	_	_	
+70-15	8723-8724	-	_	_	
+70-16	8724-8731	def-svd	_	_	
+70-17	8732-8738	models	_	_	
+70-18	8738-8739	/	_	_	
+70-19	8739-8744	VGG16	_	_	
+70-20	8744-8745	/	_	_	
+70-21	8745-8755	compressed	_	_	
+70-22	8755-8756	/	_	_	
+70-23	8756-8769	test.prototxt	_	_	
+70-24	8770-8771	\	_	_	
+70-25	8776-8777	-	_	_	
+70-26	8777-8778	-	_	_	
+70-27	8778-8781	net	_	_	
+70-28	8782-8788	output	_	_	
+70-29	8788-8789	/	_	_	
+70-30	8789-8796	default	_	_	
+70-31	8796-8797	/	_	_	
+70-32	8797-8800	voc	*[29]	DATASET[29]	
+70-33	8800-8801	_	*[29]	DATASET[29]	
+70-34	8801-8805	2007	*[29]	DATASET[29]	
+70-35	8805-8806	_	_	_	
+70-36	8806-8814	trainval	_	_	
+70-37	8814-8815	/	_	_	
+70-38	8815-8820	vgg16	_	_	
+70-39	8820-8821	_	_	_	
+70-40	8821-8835	fast_rcnn_iter	_	_	
+70-40.1	8821-8830	fast_rcnn	*	SOFTWARE	
+70-41	8835-8836	_	_	_	
+70-42	8836-8841	40000	_	_	
+70-43	8841-8842	.	_	_	
+70-44	8842-8852	caffemodel	_	_	
+70-45	8853-8854	#	_	_	
+70-46	8855-8859	Test	_	_	
+70-47	8860-8863	the	_	_	
+70-48	8864-8869	model	_	_	
+70-49	8870-8873	you	_	_	
+70-50	8874-8878	just	_	_	
+70-51	8879-8889	compressed	_	_	
+70-52	8890-8891	.	_	_	
+
+#Text=/tools/test_net.py --gpu 0 --def models/VGG16/compressed/test.prototxt \\
+#Text=\t--net output/default/voc_2007_trainval/vgg16_fast_rcnn_iter_40000_svd_fc6_1024_fc7_256.caffemodel
+#Text=```
+#Text=
+#Text=### Experiment scripts
+#Text=Scripts to reproduce the experiments in the paper (*up to stochastic variation*) are provided in `$FRCN_ROOT/experiments/scripts`.
+71-1	8891-8892	/	_	_	
+71-2	8892-8897	tools	_	_	
+71-3	8897-8898	/	_	_	
+71-4	8898-8909	test_net.py	_	_	
+71-5	8910-8911	-	_	_	
+71-6	8911-8912	-	_	_	
+71-7	8912-8915	gpu	_	_	
+71-8	8916-8917	0	_	_	
+71-9	8918-8919	-	_	_	
+71-10	8919-8920	-	_	_	
+71-11	8920-8923	def	_	_	
+71-12	8924-8930	models	_	_	
+71-13	8930-8931	/	_	_	
+71-14	8931-8936	VGG16	_	_	
+71-15	8936-8937	/	_	_	
+71-16	8937-8947	compressed	_	_	
+71-17	8947-8948	/	_	_	
+71-18	8948-8961	test.prototxt	_	_	
+71-19	8962-8963	\	_	_	
+71-20	8965-8966	-	_	_	
+71-21	8966-8967	-	_	_	
+71-22	8967-8970	net	_	_	
+71-23	8971-8977	output	_	_	
+71-24	8977-8978	/	_	_	
+71-25	8978-8985	default	_	_	
+71-26	8985-8986	/	_	_	
+71-27	8986-8989	voc	_	_	
+71-28	8989-8990	_	_	_	
+71-29	8990-8994	2007	_	_	
+71-30	8994-8995	_	_	_	
+71-31	8995-9003	trainval	_	_	
+71-32	9003-9004	/	_	_	
+71-33	9004-9009	vgg16	_	_	
+71-34	9009-9010	_	_	_	
+71-35	9010-9024	fast_rcnn_iter	_	_	
+71-36	9024-9025	_	_	_	
+71-37	9025-9030	40000	_	_	
+71-38	9030-9031	_	_	_	
+71-39	9031-9038	svd_fc6	_	_	
+71-40	9038-9039	_	_	_	
+71-41	9039-9043	1024	_	_	
+71-42	9043-9044	_	_	_	
+71-43	9044-9047	fc7	_	_	
+71-44	9047-9048	_	_	_	
+71-45	9048-9051	256	_	_	
+71-46	9051-9052	.	_	_	
+71-47	9052-9062	caffemodel	_	_	
+71-48	9063-9064	`	_	_	
+71-49	9064-9065	`	_	_	
+71-50	9065-9066	`	_	_	
+71-51	9068-9069	#	_	_	
+71-52	9069-9070	#	_	_	
+71-53	9070-9071	#	_	_	
+71-54	9072-9082	Experiment	_	_	
+71-55	9083-9090	scripts	_	_	
+71-56	9091-9098	Scripts	_	_	
+71-57	9099-9101	to	_	_	
+71-58	9102-9111	reproduce	_	_	
+71-59	9112-9115	the	_	_	
+71-60	9116-9127	experiments	_	_	
+71-61	9128-9130	in	_	_	
+71-62	9131-9134	the	_	_	
+71-63	9135-9140	paper	_	_	
+71-64	9141-9142	(	_	_	
+71-65	9142-9143	*	_	_	
+71-66	9143-9145	up	_	_	
+71-67	9146-9148	to	_	_	
+71-68	9149-9159	stochastic	_	_	
+71-69	9160-9169	variation	_	_	
+71-70	9169-9170	*	_	_	
+71-71	9170-9171	)	_	_	
+71-72	9172-9175	are	_	_	
+71-73	9176-9184	provided	_	_	
+71-74	9185-9187	in	_	_	
+71-75	9188-9189	`	_	_	
+71-76	9189-9190	$	_	_	
+71-77	9190-9199	FRCN_ROOT	_	_	
+71-78	9199-9200	/	_	_	
+71-79	9200-9211	experiments	_	_	
+71-80	9211-9212	/	_	_	
+71-81	9212-9219	scripts	_	_	
+71-82	9219-9220	`	_	_	
+71-83	9220-9221	.	_	_	
+
+#Text=Log files for experiments are located in `experiments/logs`.
+72-1	9222-9225	Log	_	_	
+72-2	9226-9231	files	_	_	
+72-3	9232-9235	for	_	_	
+72-4	9236-9247	experiments	_	_	
+72-5	9248-9251	are	_	_	
+72-6	9252-9259	located	_	_	
+72-7	9260-9262	in	_	_	
+72-8	9263-9264	`	_	_	
+72-9	9264-9275	experiments	_	_	
+72-10	9275-9276	/	_	_	
+72-11	9276-9280	logs	_	_	
+72-12	9280-9281	`	_	_	
+72-13	9281-9282	.	_	_	
+
+#Text=**Note:** Until recently (commit a566e39), the RNG seed for Caffe was not fixed during training.
+73-1	9284-9285	*	_	_	
+73-2	9285-9286	*	_	_	
+73-3	9286-9290	Note	_	_	
+73-4	9290-9291	:	_	_	
+73-5	9291-9292	*	_	_	
+73-6	9292-9293	*	_	_	
+73-7	9294-9299	Until	_	_	
+73-8	9300-9308	recently	_	_	
+73-9	9309-9310	(	_	_	
+73-10	9310-9316	commit	_	_	
+73-11	9317-9324	a566e39	_	_	
+73-12	9324-9325	)	_	_	
+73-13	9325-9326	,	_	_	
+73-14	9327-9330	the	_	_	
+73-15	9331-9334	RNG	_	_	
+73-16	9335-9339	seed	_	_	
+73-17	9340-9343	for	_	_	
+73-18	9344-9349	Caffe	*	SOFTWARE	
+73-19	9350-9353	was	_	_	
+73-20	9354-9357	not	_	_	
+73-21	9358-9363	fixed	_	_	
+73-22	9364-9370	during	_	_	
+73-23	9371-9379	training	_	_	
+73-24	9379-9380	.	_	_	
+
+#Text=Now it's fixed, unless `train_net.py` is called with the `--rand` flag.
+74-1	9381-9384	Now	_	_	
+74-2	9385-9389	it's	_	_	
+74-3	9390-9395	fixed	_	_	
+74-4	9395-9396	,	_	_	
+74-5	9397-9403	unless	_	_	
+74-6	9404-9405	`	_	_	
+74-7	9405-9417	train_net.py	_	_	
+74-8	9417-9418	`	_	_	
+74-9	9419-9421	is	_	_	
+74-10	9422-9428	called	_	_	
+74-11	9429-9433	with	_	_	
+74-12	9434-9437	the	_	_	
+74-13	9438-9439	`	_	_	
+74-14	9439-9440	-	_	_	
+74-15	9440-9441	-	_	_	
+74-16	9441-9445	rand	_	_	
+74-17	9445-9446	`	_	_	
+74-18	9447-9451	flag	_	_	
+74-19	9451-9452	.	_	_	
+
+#Text=Results generated before this commit will have some stochastic variation.
+#Text=
+#Text=### Extra downloads
+#Text=
+#Text=- [Experiment logs](http://www.cs.berkeley.edu/~rbg/fast-rcnn-data/fast_rcnn_experiments.tgz)
+#Text=- PASCAL VOC test set detections
+#Text=    - [voc_2007_test_results_fast_rcnn_caffenet_trained_on_2007_trainval.tgz](http://www.cs.berkeley.edu/~rbg/fast-rcnn-data/voc_2007_test_results_fast_rcnn_caffenet_trained_on_2007_trainval.tgz)
+#Text=    - [voc_2007_test_results_fast_rcnn_vgg16_trained_on_2007_trainval.tgz](http://www.cs.berkeley.edu/~rbg/fast-rcnn-data/voc_2007_test_results_fast_rcnn_vgg16_trained_on_2007_trainval.tgz)
+#Text=    - [voc_2007_test_results_fast_rcnn_vgg_cnn_m_1024_trained_on_2007_trainval.tgz](http://www.cs.berkeley.edu/~rbg/fast-rcnn-data/voc_2007_test_results_fast_rcnn_vgg_cnn_m_1024_trained_on_2007_trainval.tgz)
+#Text=    - [voc_2012_test_results_fast_rcnn_vgg16_trained_on_2007_trainvaltest_2012_trainval.tgz](http://www.cs.berkeley.edu/~rbg/fast-rcnn-data/voc_2012_test_results_fast_rcnn_vgg16_trained_on_2007_trainvaltest_2012_trainval.tgz)
+#Text=    - [voc_2012_test_results_fast_rcnn_vgg16_trained_on_2012_trainval.tgz](http://www.cs.berkeley.edu/~rbg/fast-rcnn-data/voc_2012_test_results_fast_rcnn_vgg16_trained_on_2012_trainval.tgz)
+#Text=- [Fast R-CNN VGG16 model](http://www.cs.berkeley.edu/~rbg/fast-rcnn-data/voc12_submission.tgz) trained on VOC07 train,val,test union with VOC12 train,val
+75-1	9453-9460	Results	_	_	
+75-2	9461-9470	generated	_	_	
+75-3	9471-9477	before	_	_	
+75-4	9478-9482	this	_	_	
+75-5	9483-9489	commit	_	_	
+75-6	9490-9494	will	_	_	
+75-7	9495-9499	have	_	_	
+75-8	9500-9504	some	_	_	
+75-9	9505-9515	stochastic	_	_	
+75-10	9516-9525	variation	_	_	
+75-11	9525-9526	.	_	_	
+75-12	9528-9529	#	_	_	
+75-13	9529-9530	#	_	_	
+75-14	9530-9531	#	_	_	
+75-15	9532-9537	Extra	_	_	
+75-16	9538-9547	downloads	_	_	
+75-17	9549-9550	-	_	_	
+75-18	9551-9552	[	_	_	
+75-19	9552-9562	Experiment	_	_	
+75-20	9563-9567	logs	_	_	
+75-21	9567-9568	]	_	_	
+75-22	9568-9569	(	_	_	
+75-23	9569-9573	http	_	_	
+75-24	9573-9574	:	_	_	
+75-25	9574-9575	/	_	_	
+75-26	9575-9576	/	_	_	
+75-27	9576-9595	www.cs.berkeley.edu	_	_	
+75-28	9595-9596	/	_	_	
+75-29	9596-9597	~	_	_	
+75-30	9597-9600	rbg	_	_	
+75-31	9600-9601	/	_	_	
+75-32	9601-9615	fast-rcnn-data	_	_	
+75-32.1	9601-9610	fast-rcnn	*	SOFTWARE	
+75-33	9615-9616	/	_	_	
+75-34	9616-9641	fast_rcnn_experiments.tgz	_	_	
+75-35	9641-9642	)	_	_	
+75-36	9643-9644	-	_	_	
+75-37	9645-9651	PASCAL	*[30]	DATASET[30]	
+75-38	9652-9655	VOC	*[30]	DATASET[30]	
+75-39	9656-9660	test	_	_	
+75-40	9661-9664	set	_	_	
+75-41	9665-9675	detections	_	_	
+75-42	9680-9681	-	_	_	
+75-43	9682-9683	[	_	_	
+75-44	9683-9686	voc	*[31]	DATASET[31]	
+75-45	9686-9687	_	*[31]	DATASET[31]	
+75-46	9687-9691	2007	*[31]	DATASET[31]	
+75-47	9691-9692	_	_	_	
+75-48	9692-9734	test_results_fast_rcnn_caffenet_trained_on	_	_	
+75-48.1	9705-9714	fast_rcnn	*	SOFTWARE	
+75-49	9734-9735	_	_	_	
+75-50	9735-9739	2007	_	_	
+75-51	9739-9740	_	_	_	
+75-52	9740-9752	trainval.tgz	_	_	
+75-53	9752-9753	]	_	_	
+75-54	9753-9754	(	_	_	
+75-55	9754-9758	http	_	_	
+75-56	9758-9759	:	_	_	
+75-57	9759-9760	/	_	_	
+75-58	9760-9761	/	_	_	
+75-59	9761-9780	www.cs.berkeley.edu	_	_	
+75-60	9780-9781	/	_	_	
+75-61	9781-9782	~	_	_	
+75-62	9782-9785	rbg	_	_	
+75-63	9785-9786	/	_	_	
+75-64	9786-9800	fast-rcnn-data	_	_	
+75-64.1	9787-9795	ast-rcnn	*	SOFTWARE	
+75-65	9800-9801	/	_	_	
+75-66	9801-9804	voc	*[32]	SOFTWARE[32]	
+75-67	9804-9805	_	*[32]	SOFTWARE[32]	
+75-68	9805-9809	2007	*[32]	SOFTWARE[32]	
+75-69	9809-9810	_	_	_	
+75-70	9810-9852	test_results_fast_rcnn_caffenet_trained_on	_	_	
+75-70.1	9823-9832	fast_rcnn	*	SOFTWARE	
+75-71	9852-9853	_	_	_	
+75-72	9853-9857	2007	_	_	
+75-73	9857-9858	_	_	_	
+75-74	9858-9870	trainval.tgz	_	_	
+75-75	9870-9871	)	_	_	
+75-76	9876-9877	-	_	_	
+75-77	9878-9879	[	_	_	
+75-78	9879-9882	voc	*[33]	DATASET[33]	
+75-79	9882-9883	_	*[33]	DATASET[33]	
+75-80	9883-9887	2007	*[33]	DATASET[33]	
+75-81	9887-9888	_	_	_	
+75-82	9888-9916	test_results_fast_rcnn_vgg16	_	_	
+75-82.1	9901-9910	fast_rcnn	*	DATASET	
+75-83	9916-9917	_	_	_	
+75-84	9917-9927	trained_on	_	_	
+75-85	9927-9928	_	_	_	
+75-86	9928-9932	2007	_	_	
+75-87	9932-9933	_	_	_	
+75-88	9933-9945	trainval.tgz	_	_	
+75-89	9945-9946	]	_	_	
+75-90	9946-9947	(	_	_	
+75-91	9947-9951	http	_	_	
+75-92	9951-9952	:	_	_	
+75-93	9952-9953	/	_	_	
+75-94	9953-9954	/	_	_	
+75-95	9954-9973	www.cs.berkeley.edu	_	_	
+75-96	9973-9974	/	_	_	
+75-97	9974-9975	~	_	_	
+75-98	9975-9978	rbg	_	_	
+75-99	9978-9979	/	_	_	
+75-100	9979-9993	fast-rcnn-data	_	_	
+75-100.1	9979-9988	fast-rcnn	*	SOFTWARE	
+75-101	9993-9994	/	_	_	
+75-102	9994-9997	voc	*[34]	DATASET[34]	
+75-103	9997-9998	_	*[34]	DATASET[34]	
+75-104	9998-10002	2007	*[34]	DATASET[34]	
+75-105	10002-10003	_	_	_	
+75-106	10003-10031	test_results_fast_rcnn_vgg16	_	_	
+75-106.1	10016-10025	fast_rcnn	*	SOFTWARE	
+75-107	10031-10032	_	_	_	
+75-108	10032-10042	trained_on	_	_	
+75-109	10042-10043	_	_	_	
+75-110	10043-10047	2007	_	_	
+75-111	10047-10048	_	_	_	
+75-112	10048-10060	trainval.tgz	_	_	
+75-113	10060-10061	)	_	_	
+75-114	10066-10067	-	_	_	
+75-115	10068-10069	[	_	_	
+75-116	10069-10072	voc	*[35]	DATASET[35]	
+75-117	10072-10073	_	*[35]	DATASET[35]	
+75-118	10073-10077	2007	*[35]	DATASET[35]	
+75-119	10077-10078	_	_	_	
+75-120	10078-10110	test_results_fast_rcnn_vgg_cnn_m	_	_	
+75-120.1	10091-10100	fast_rcnn	*	SOFTWARE	
+75-121	10110-10111	_	_	_	
+75-122	10111-10115	1024	_	_	
+75-123	10115-10116	_	_	_	
+75-124	10116-10126	trained_on	_	_	
+75-125	10126-10127	_	_	_	
+75-126	10127-10131	2007	_	_	
+75-127	10131-10132	_	_	_	
+75-128	10132-10144	trainval.tgz	_	_	
+75-129	10144-10145	]	_	_	
+75-130	10145-10146	(	_	_	
+75-131	10146-10150	http	_	_	
+75-132	10150-10151	:	_	_	
+75-133	10151-10152	/	_	_	
+75-134	10152-10153	/	_	_	
+75-135	10153-10172	www.cs.berkeley.edu	_	_	
+75-136	10172-10173	/	_	_	
+75-137	10173-10174	~	_	_	
+75-138	10174-10177	rbg	_	_	
+75-139	10177-10178	/	_	_	
+75-140	10178-10192	fast-rcnn-data	_	_	
+75-140.1	10179-10187	ast-rcnn	*	SOFTWARE	
+75-141	10192-10193	/	_	_	
+75-142	10193-10196	voc	_	_	
+75-143	10196-10197	_	_	_	
+75-144	10197-10201	2007	_	_	
+75-145	10201-10202	_	_	_	
+75-146	10202-10234	test_results_fast_rcnn_vgg_cnn_m	_	_	
+75-146.1	10215-10224	fast_rcnn	*	SOFTWARE	
+75-147	10234-10235	_	_	_	
+75-148	10235-10239	1024	_	_	
+75-149	10239-10240	_	_	_	
+75-150	10240-10250	trained_on	_	_	
+75-151	10250-10251	_	_	_	
+75-152	10251-10255	2007	_	_	
+75-153	10255-10256	_	_	_	
+75-154	10256-10268	trainval.tgz	_	_	
+75-155	10268-10269	)	_	_	
+75-156	10274-10275	-	_	_	
+75-157	10276-10277	[	_	_	
+75-158	10277-10280	voc	_	_	
+75-159	10280-10281	_	_	_	
+75-160	10281-10285	2012	_	_	
+75-161	10285-10286	_	_	_	
+75-162	10286-10314	test_results_fast_rcnn_vgg16	_	_	
+75-162.1	10299-10308	fast_rcnn	*	SOFTWARE	
+75-163	10314-10315	_	_	_	
+75-164	10315-10325	trained_on	_	_	
+75-165	10325-10326	_	_	_	
+75-166	10326-10330	2007	_	_	
+75-167	10330-10331	_	_	_	
+75-168	10331-10343	trainvaltest	_	_	
+75-169	10343-10344	_	_	_	
+75-170	10344-10348	2012	_	_	
+75-171	10348-10349	_	_	_	
+75-172	10349-10361	trainval.tgz	_	_	
+75-173	10361-10362	]	_	_	
+75-174	10362-10363	(	_	_	
+75-175	10363-10367	http	_	_	
+75-176	10367-10368	:	_	_	
+75-177	10368-10369	/	_	_	
+75-178	10369-10370	/	_	_	
+75-179	10370-10389	www.cs.berkeley.edu	_	_	
+75-180	10389-10390	/	_	_	
+75-181	10390-10391	~	_	_	
+75-182	10391-10394	rbg	_	_	
+75-183	10394-10395	/	_	_	
+75-184	10395-10409	fast-rcnn-data	_	_	
+75-184.1	10395-10404	fast-rcnn	*	SOFTWARE	
+75-185	10409-10410	/	_	_	
+75-186	10410-10413	voc	*[36]	DATASET[36]	
+75-187	10413-10414	_	*[36]	DATASET[36]	
+75-188	10414-10418	2012	*[36]	DATASET[36]	
+75-189	10418-10419	_	_	_	
+75-190	10419-10447	test_results_fast_rcnn_vgg16	_	_	
+75-190.1	10432-10441	fast_rcnn	*	SOFTWARE	
+75-191	10447-10448	_	_	_	
+75-192	10448-10458	trained_on	_	_	
+75-193	10458-10459	_	_	_	
+75-194	10459-10463	2007	_	_	
+75-195	10463-10464	_	_	_	
+75-196	10464-10476	trainvaltest	_	_	
+75-197	10476-10477	_	_	_	
+75-198	10477-10481	2012	_	_	
+75-199	10481-10482	_	_	_	
+75-200	10482-10494	trainval.tgz	_	_	
+75-201	10494-10495	)	_	_	
+75-202	10500-10501	-	_	_	
+75-203	10502-10503	[	_	_	
+75-204	10503-10506	voc	*[37]	DATASET[37]	
+75-205	10506-10507	_	*[37]	DATASET[37]	
+75-206	10507-10511	2012	*[37]	DATASET[37]	
+75-207	10511-10512	_	_	_	
+75-208	10512-10540	test_results_fast_rcnn_vgg16	_	_	
+75-209	10540-10541	_	_	_	
+75-210	10541-10551	trained_on	_	_	
+75-211	10551-10552	_	_	_	
+75-212	10552-10556	2012	_	_	
+75-213	10556-10557	_	_	_	
+75-214	10557-10569	trainval.tgz	_	_	
+75-215	10569-10570	]	_	_	
+75-216	10570-10571	(	_	_	
+75-217	10571-10575	http	_	_	
+75-218	10575-10576	:	_	_	
+75-219	10576-10577	/	_	_	
+75-220	10577-10578	/	_	_	
+75-221	10578-10597	www.cs.berkeley.edu	_	_	
+75-222	10597-10598	/	_	_	
+75-223	10598-10599	~	_	_	
+75-224	10599-10602	rbg	_	_	
+75-225	10602-10603	/	_	_	
+75-226	10603-10617	fast-rcnn-data	_	_	
+75-226.1	10603-10612	fast-rcnn	*	SOFTWARE	
+75-227	10617-10618	/	_	_	
+75-228	10618-10621	voc	*[38]	SOFTWARE[38]	
+75-229	10621-10622	_	*[38]	SOFTWARE[38]	
+75-230	10622-10626	2012	*[38]	SOFTWARE[38]	
+75-231	10626-10627	_	_	_	
+75-232	10627-10655	test_results_fast_rcnn_vgg16	_	_	
+75-233	10655-10656	_	_	_	
+75-234	10656-10666	trained_on	_	_	
+75-235	10666-10667	_	_	_	
+75-236	10667-10671	2012	_	_	
+75-237	10671-10672	_	_	_	
+75-238	10672-10684	trainval.tgz	_	_	
+75-239	10684-10685	)	_	_	
+75-240	10686-10687	-	_	_	
+75-241	10688-10689	[	_	_	
+75-242	10689-10693	Fast	*[39]	SOFTWARE[39]	
+75-243	10694-10699	R-CNN	*[39]	SOFTWARE[39]	
+75-244	10700-10705	VGG16	_	_	
+75-245	10706-10711	model	_	_	
+75-246	10711-10712	]	_	_	
+75-247	10712-10713	(	_	_	
+75-248	10713-10717	http	_	_	
+75-249	10717-10718	:	_	_	
+75-250	10718-10719	/	_	_	
+75-251	10719-10720	/	_	_	
+75-252	10720-10739	www.cs.berkeley.edu	_	_	
+75-253	10739-10740	/	_	_	
+75-254	10740-10741	~	_	_	
+75-255	10741-10744	rbg	_	_	
+75-256	10744-10745	/	_	_	
+75-257	10745-10759	fast-rcnn-data	_	_	
+75-258	10759-10760	/	_	_	
+75-259	10760-10765	voc12	_	_	
+75-260	10765-10766	_	_	_	
+75-261	10766-10780	submission.tgz	_	_	
+75-262	10780-10781	)	_	_	
+75-263	10782-10789	trained	_	_	
+75-264	10790-10792	on	_	_	
+75-265	10793-10798	VOC07	*	DATASET	
+75-266	10799-10804	train	_	_	
+75-267	10804-10805	,	_	_	
+75-268	10805-10808	val	_	_	
+75-269	10808-10809	,	_	_	
+75-270	10809-10813	test	_	_	
+75-271	10814-10819	union	_	_	
+75-272	10820-10824	with	_	_	
+75-273	10825-10830	VOC12	*	DATASET	
+75-274	10831-10836	train	_	_	
+75-275	10836-10837	,	_	_	
+75-276	10837-10840	val	_	_	

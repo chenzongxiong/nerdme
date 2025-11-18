@@ -1,0 +1,743 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# extrapolating-classifier-accuracy-to-larger-datasets
+#Text=
+#Text=[A Probabilistic Method to Predict Classifier Accuracy on Larger Datasets given Small Pilot Data](https://arxiv.org/abs/2311.18025) by Ethan Harvey, Wansu Chen, David M.
+1-1	0-1	#	_	_	
+1-2	2-54	extrapolating-classifier-accuracy-to-larger-datasets	_	_	
+1-3	56-57	[	_	_	
+1-4	57-58	A	*[1]	PUBLICATION[1]	
+1-5	59-72	Probabilistic	*[1]	PUBLICATION[1]	
+1-6	73-79	Method	*[1]	PUBLICATION[1]	
+1-7	80-82	to	*[1]	PUBLICATION[1]	
+1-8	83-90	Predict	*[1]	PUBLICATION[1]	
+1-9	91-101	Classifier	*[1]	PUBLICATION[1]	
+1-10	102-110	Accuracy	*[1]	PUBLICATION[1]	
+1-11	111-113	on	*[1]	PUBLICATION[1]	
+1-12	114-120	Larger	*[1]	PUBLICATION[1]	
+1-13	121-129	Datasets	*[1]	PUBLICATION[1]	
+1-14	130-135	given	*[1]	PUBLICATION[1]	
+1-15	136-141	Small	*[1]	PUBLICATION[1]	
+1-16	142-147	Pilot	*[1]	PUBLICATION[1]	
+1-17	148-152	Data	*[1]	PUBLICATION[1]	
+1-18	152-153	]	_	_	
+1-19	153-154	(	_	_	
+1-20	154-159	https	_	_	
+1-21	159-160	:	_	_	
+1-22	160-161	/	_	_	
+1-23	161-162	/	_	_	
+1-24	162-171	arxiv.org	_	_	
+1-25	171-172	/	_	_	
+1-26	172-175	abs	_	_	
+1-27	175-176	/	_	_	
+1-28	176-186	2311.18025	_	_	
+1-29	186-187	)	_	_	
+1-30	188-190	by	_	_	
+1-31	191-196	Ethan	_	_	
+1-32	197-203	Harvey	_	_	
+1-33	203-204	,	_	_	
+1-34	205-210	Wansu	_	_	
+1-35	211-215	Chen	_	_	
+1-36	215-216	,	_	_	
+1-37	217-222	David	_	_	
+1-38	223-224	M	_	_	
+1-39	224-225	.	_	_	
+
+#Text=Kent, and Michael C.
+2-1	226-230	Kent	_	_	
+2-2	230-231	,	_	_	
+2-3	232-235	and	_	_	
+2-4	236-243	Michael	_	_	
+2-5	244-245	C	_	_	
+2-6	245-246	.	_	_	
+
+#Text=Hughes
+#Text=
+#Text=!
+3-1	247-253	Hughes	_	_	
+3-2	255-256	!	_	_	
+
+#Text=[Figure 1](.
+4-1	256-257	[	_	_	
+4-2	257-263	Figure	_	_	
+4-3	264-265	1	_	_	
+4-4	265-266	]	_	_	
+4-5	266-267	(	_	_	
+4-6	267-268	.	_	_	
+
+#Text=/motivation.png)
+#Text=Figure 1: Example learning curves for predicting infiltration from chest x-rays assessed using area under the receiver operating characteristic (AUROC).
+5-1	268-269	/	_	_	
+5-2	269-283	motivation.png	_	_	
+5-3	283-284	)	_	_	
+5-4	285-291	Figure	_	_	
+5-5	292-293	1	_	_	
+5-6	293-294	:	_	_	
+5-7	295-302	Example	_	_	
+5-8	303-311	learning	_	_	
+5-9	312-318	curves	_	_	
+5-10	319-322	for	_	_	
+5-11	323-333	predicting	_	_	
+5-12	334-346	infiltration	_	_	
+5-13	347-351	from	_	_	
+5-14	352-357	chest	_	_	
+5-15	358-364	x-rays	_	_	
+5-16	365-373	assessed	_	_	
+5-17	374-379	using	_	_	
+5-18	380-384	area	*[2]	EVALMETRIC[2]	
+5-19	385-390	under	*[2]	EVALMETRIC[2]	
+5-20	391-394	the	*[2]	EVALMETRIC[2]	
+5-21	395-403	receiver	*[2]	EVALMETRIC[2]	
+5-22	404-413	operating	*[2]	EVALMETRIC[2]	
+5-23	414-428	characteristic	*[2]	EVALMETRIC[2]	
+5-24	429-430	(	_	_	
+5-25	430-435	AUROC	*	EVALMETRIC	
+5-26	435-436	)	_	_	
+5-27	436-437	.	_	_	
+
+#Text=Left: Single "best-fit" using power law (Rosenfeld et al., 2020).
+6-1	438-442	Left	_	_	
+6-2	442-443	:	_	_	
+6-3	444-450	Single	_	_	
+6-4	451-452	"	_	_	
+6-5	452-460	best-fit	_	_	
+6-6	460-461	"	_	_	
+6-7	462-467	using	_	_	
+6-8	468-473	power	_	_	
+6-9	474-477	law	_	_	
+6-10	478-479	(	_	_	
+6-11	479-488	Rosenfeld	_	_	
+6-12	489-491	et	_	_	
+6-13	492-494	al	_	_	
+6-14	494-495	.	_	_	
+6-15	495-496	,	_	_	
+6-16	497-501	2020	_	_	
+6-17	501-502	)	_	_	
+6-18	502-503	.	_	_	
+
+#Text=Right: Our probabilistic Gaussian process with a power law mean function and 95% confidence interval for uncertainty.
+#Text=
+#Text=## Problem statement
+#Text=
+#Text=When a large dataset of labeled images is not available, research projects often have a common trajectory:
+#Text=
+#Text=(1) gather a small "pilot" dataset of images and corresponding class labels,
+#Text=
+#Text=(2) train classifiers using this available data, and then
+#Text=
+#Text=(3) plan to collect an even larger dataset to further improve performance
+#Text=
+#Text=When gathering more labeled data is expensive, practitioners face a key decision in step 3: *given that the classifier’s accuracy is y% at the current size x, how much better might the model do at 2x, 10x, or 50x images?
+7-1	504-509	Right	_	_	
+7-2	509-510	:	_	_	
+7-3	511-514	Our	_	_	
+7-4	515-528	probabilistic	_	_	
+7-5	529-537	Gaussian	_	_	
+7-6	538-545	process	_	_	
+7-7	546-550	with	_	_	
+7-8	551-552	a	_	_	
+7-9	553-558	power	_	_	
+7-10	559-562	law	_	_	
+7-11	563-567	mean	_	_	
+7-12	568-576	function	_	_	
+7-13	577-580	and	_	_	
+7-14	581-584	95%	_	_	
+7-15	585-595	confidence	_	_	
+7-16	596-604	interval	_	_	
+7-17	605-608	for	_	_	
+7-18	609-620	uncertainty	_	_	
+7-19	620-621	.	_	_	
+7-20	623-624	#	_	_	
+7-21	624-625	#	_	_	
+7-22	626-633	Problem	_	_	
+7-23	634-643	statement	_	_	
+7-24	645-649	When	_	_	
+7-25	650-651	a	_	_	
+7-26	652-657	large	_	_	
+7-27	658-665	dataset	_	_	
+7-28	666-668	of	_	_	
+7-29	669-676	labeled	_	_	
+7-30	677-683	images	_	_	
+7-31	684-686	is	_	_	
+7-32	687-690	not	_	_	
+7-33	691-700	available	_	_	
+7-34	700-701	,	_	_	
+7-35	702-710	research	_	_	
+7-36	711-719	projects	_	_	
+7-37	720-725	often	_	_	
+7-38	726-730	have	_	_	
+7-39	731-732	a	_	_	
+7-40	733-739	common	_	_	
+7-41	740-750	trajectory	_	_	
+7-42	750-751	:	_	_	
+7-43	753-754	(	_	_	
+7-44	754-755	1	_	_	
+7-45	755-756	)	_	_	
+7-46	757-763	gather	_	_	
+7-47	764-765	a	_	_	
+7-48	766-771	small	_	_	
+7-49	772-773	"	_	_	
+7-50	773-778	pilot	_	_	
+7-51	778-779	"	_	_	
+7-52	780-787	dataset	_	_	
+7-53	788-790	of	_	_	
+7-54	791-797	images	_	_	
+7-55	798-801	and	_	_	
+7-56	802-815	corresponding	_	_	
+7-57	816-821	class	_	_	
+7-58	822-828	labels	_	_	
+7-59	828-829	,	_	_	
+7-60	831-832	(	_	_	
+7-61	832-833	2	_	_	
+7-62	833-834	)	_	_	
+7-63	835-840	train	_	_	
+7-64	841-852	classifiers	_	_	
+7-65	853-858	using	_	_	
+7-66	859-863	this	_	_	
+7-67	864-873	available	_	_	
+7-68	874-878	data	_	_	
+7-69	878-879	,	_	_	
+7-70	880-883	and	_	_	
+7-71	884-888	then	_	_	
+7-72	890-891	(	_	_	
+7-73	891-892	3	_	_	
+7-74	892-893	)	_	_	
+7-75	894-898	plan	_	_	
+7-76	899-901	to	_	_	
+7-77	902-909	collect	_	_	
+7-78	910-912	an	_	_	
+7-79	913-917	even	_	_	
+7-80	918-924	larger	_	_	
+7-81	925-932	dataset	_	_	
+7-82	933-935	to	_	_	
+7-83	936-943	further	_	_	
+7-84	944-951	improve	_	_	
+7-85	952-963	performance	_	_	
+7-86	965-969	When	_	_	
+7-87	970-979	gathering	_	_	
+7-88	980-984	more	_	_	
+7-89	985-992	labeled	_	_	
+7-90	993-997	data	_	_	
+7-91	998-1000	is	_	_	
+7-92	1001-1010	expensive	_	_	
+7-93	1010-1011	,	_	_	
+7-94	1012-1025	practitioners	_	_	
+7-95	1026-1030	face	_	_	
+7-96	1031-1032	a	_	_	
+7-97	1033-1036	key	_	_	
+7-98	1037-1045	decision	_	_	
+7-99	1046-1048	in	_	_	
+7-100	1049-1053	step	_	_	
+7-101	1054-1055	3	_	_	
+7-102	1055-1056	:	_	_	
+7-103	1057-1058	*	_	_	
+7-104	1058-1063	given	_	_	
+7-105	1064-1068	that	_	_	
+7-106	1069-1072	the	_	_	
+7-107	1073-1083	classifier	_	_	
+7-108	1083-1084	’	_	_	
+7-109	1084-1085	s	_	_	
+7-110	1086-1094	accuracy	_	_	
+7-111	1095-1097	is	_	_	
+7-112	1098-1099	y	_	_	
+7-113	1099-1100	%	_	_	
+7-114	1101-1103	at	_	_	
+7-115	1104-1107	the	_	_	
+7-116	1108-1115	current	_	_	
+7-117	1116-1120	size	_	_	
+7-118	1121-1122	x	_	_	
+7-119	1122-1123	,	_	_	
+7-120	1124-1127	how	_	_	
+7-121	1128-1132	much	_	_	
+7-122	1133-1139	better	_	_	
+7-123	1140-1145	might	_	_	
+7-124	1146-1149	the	_	_	
+7-125	1150-1155	model	_	_	
+7-126	1156-1158	do	_	_	
+7-127	1159-1161	at	_	_	
+7-128	1162-1164	2x	_	_	
+7-129	1164-1165	,	_	_	
+7-130	1166-1169	10x	_	_	
+7-131	1169-1170	,	_	_	
+7-132	1171-1173	or	_	_	
+7-133	1174-1177	50x	_	_	
+7-134	1178-1184	images	_	_	
+7-135	1184-1185	?	_	_	
+
+#Text=*
+#Text=
+#Text=## Our contributions
+#Text=
+#Text=Our contributions are:
+#Text=
+#Text=(1) a reusable GP-based accuracy probabilistic extrapolator (APEx-GP) that can match existing curve-fitting approaches in terms of error while providing additional uncertainty estimates, and 
+#Text=
+#Text=(2) a careful assessment of our proposed probabilistic extrapolations compared to ground truth on larger datasets across six medical classification tasks involving both 2D and 3D images across diverse modalities (x-ray, ultrasound, and CT) with various sample sizes.
+#Text=
+#Text=## Using our method
+#Text=
+#Text=To use our Gaussian process to extrapolate classifier accuracy to larger datasets see `notebooks/demo.ipynb`.
+#Text=
+#Text=### Initializing our Gaussian process
+#Text=
+#Text=```python
+#Text=likelihood = gpytorch.likelihoods.GaussianLikelihood()
+#Text=# Note: If you want to use the Gaussian process with an arctan mean function use models.GPArctan() instead.
+#Text=model = models.GPPowerLaw(X_train, y_train, likelihood, epsilon_min=0.05, with_priors=True)
+#Text=```
+#Text=
+#Text=### Extrapolating classifier accuracy
+#Text=
+#Text=```python
+#Text=with torch.no_grad(): predictions = likelihood(model(X_test))
+#Text=loc = predictions.mean.numpy()
+#Text=scale = predictions.stddev.numpy()
+#Text=# Note: If you want to forecast with 20%-80% change lower and upper percentile.
+#Text=lower, upper = priors.truncated_normal_uncertainty(a=0.0, b=1.0, loc=loc, scale=scale, lower_percentile=0.025, upper_percentile=0.975) 
+#Text=```
+#Text=
+#Text=## Citation
+#Text=
+#Text=```bibtex
+#Text=@inproceedings{harvey2023probabilistic,
+#Text=  author={Harvey, Ethan and Chen, Wansu and Kent, David M. and Hughes, Michael C.},
+#Text=  title={A Probabilistic Method to Predict Classifier Accuracy on Larger Datasets given Small Pilot Data},
+#Text=  booktitle={Machine Learning for Health (ML4H)},
+#Text=  year={2023}
+#Text=}
+#Text=```
+#Text=
+#Text=## Reproducing results
+#Text=
+#Text=To reproduce model performance at varying dataset sizes 1) download datasets (see `encode_images/README.md` and `label_images/README.md` for more details) and 2) fit classifiers to each dataset (see `src/finetune_2D.py` and `src/finetune_3D.py`).
+8-1	1185-1186	*	_	_	
+8-2	1188-1189	#	_	_	
+8-3	1189-1190	#	_	_	
+8-4	1191-1194	Our	_	_	
+8-5	1195-1208	contributions	_	_	
+8-6	1210-1213	Our	_	_	
+8-7	1214-1227	contributions	_	_	
+8-8	1228-1231	are	_	_	
+8-9	1231-1232	:	_	_	
+8-10	1234-1235	(	_	_	
+8-11	1235-1236	1	_	_	
+8-12	1236-1237	)	_	_	
+8-13	1238-1239	a	_	_	
+8-14	1240-1248	reusable	_	_	
+8-15	1249-1257	GP-based	_	_	
+8-16	1258-1266	accuracy	_	_	
+8-17	1267-1280	probabilistic	_	_	
+8-18	1281-1293	extrapolator	_	_	
+8-19	1294-1295	(	_	_	
+8-20	1295-1302	APEx-GP	_	_	
+8-21	1302-1303	)	_	_	
+8-22	1304-1308	that	_	_	
+8-23	1309-1312	can	_	_	
+8-24	1313-1318	match	_	_	
+8-25	1319-1327	existing	_	_	
+8-26	1328-1341	curve-fitting	_	_	
+8-27	1342-1352	approaches	_	_	
+8-28	1353-1355	in	_	_	
+8-29	1356-1361	terms	_	_	
+8-30	1362-1364	of	_	_	
+8-31	1365-1370	error	_	_	
+8-32	1371-1376	while	_	_	
+8-33	1377-1386	providing	_	_	
+8-34	1387-1397	additional	_	_	
+8-35	1398-1409	uncertainty	_	_	
+8-36	1410-1419	estimates	_	_	
+8-37	1419-1420	,	_	_	
+8-38	1421-1424	and	_	_	
+8-39	1427-1428	(	_	_	
+8-40	1428-1429	2	_	_	
+8-41	1429-1430	)	_	_	
+8-42	1431-1432	a	_	_	
+8-43	1433-1440	careful	_	_	
+8-44	1441-1451	assessment	_	_	
+8-45	1452-1454	of	_	_	
+8-46	1455-1458	our	_	_	
+8-47	1459-1467	proposed	_	_	
+8-48	1468-1481	probabilistic	_	_	
+8-49	1482-1496	extrapolations	_	_	
+8-50	1497-1505	compared	_	_	
+8-51	1506-1508	to	_	_	
+8-52	1509-1515	ground	_	_	
+8-53	1516-1521	truth	_	_	
+8-54	1522-1524	on	_	_	
+8-55	1525-1531	larger	_	_	
+8-56	1532-1540	datasets	_	_	
+8-57	1541-1547	across	_	_	
+8-58	1548-1551	six	_	_	
+8-59	1552-1559	medical	_	_	
+8-60	1560-1574	classification	_	_	
+8-61	1575-1580	tasks	_	_	
+8-62	1581-1590	involving	_	_	
+8-63	1591-1595	both	_	_	
+8-64	1596-1598	2D	_	_	
+8-65	1599-1602	and	_	_	
+8-66	1603-1605	3D	_	_	
+8-67	1606-1612	images	_	_	
+8-68	1613-1619	across	_	_	
+8-69	1620-1627	diverse	_	_	
+8-70	1628-1638	modalities	_	_	
+8-71	1639-1640	(	_	_	
+8-72	1640-1645	x-ray	_	_	
+8-73	1645-1646	,	_	_	
+8-74	1647-1657	ultrasound	_	_	
+8-75	1657-1658	,	_	_	
+8-76	1659-1662	and	_	_	
+8-77	1663-1665	CT	_	_	
+8-78	1665-1666	)	_	_	
+8-79	1667-1671	with	_	_	
+8-80	1672-1679	various	_	_	
+8-81	1680-1686	sample	_	_	
+8-82	1687-1692	sizes	_	_	
+8-83	1692-1693	.	_	_	
+8-84	1695-1696	#	_	_	
+8-85	1696-1697	#	_	_	
+8-86	1698-1703	Using	_	_	
+8-87	1704-1707	our	_	_	
+8-88	1708-1714	method	_	_	
+8-89	1716-1718	To	_	_	
+8-90	1719-1722	use	_	_	
+8-91	1723-1726	our	_	_	
+8-92	1727-1735	Gaussian	_	_	
+8-93	1736-1743	process	_	_	
+8-94	1744-1746	to	_	_	
+8-95	1747-1758	extrapolate	_	_	
+8-96	1759-1769	classifier	_	_	
+8-97	1770-1778	accuracy	_	_	
+8-98	1779-1781	to	_	_	
+8-99	1782-1788	larger	_	_	
+8-100	1789-1797	datasets	_	_	
+8-101	1798-1801	see	_	_	
+8-102	1802-1803	`	_	_	
+8-103	1803-1812	notebooks	_	_	
+8-104	1812-1813	/	_	_	
+8-105	1813-1823	demo.ipynb	_	_	
+8-106	1823-1824	`	_	_	
+8-107	1824-1825	.	_	_	
+8-108	1827-1828	#	_	_	
+8-109	1828-1829	#	_	_	
+8-110	1829-1830	#	_	_	
+8-111	1831-1843	Initializing	_	_	
+8-112	1844-1847	our	_	_	
+8-113	1848-1856	Gaussian	_	_	
+8-114	1857-1864	process	_	_	
+8-115	1866-1867	`	_	_	
+8-116	1867-1868	`	_	_	
+8-117	1868-1869	`	_	_	
+8-118	1869-1875	python	*	PROGLANG	
+8-119	1876-1886	likelihood	_	_	
+8-120	1887-1888	=	_	_	
+8-121	1889-1928	gpytorch.likelihoods.GaussianLikelihood	_	_	
+8-121.1	1889-1897	gpytorch	*	SOFTWARE	
+8-122	1928-1929	(	_	_	
+8-123	1929-1930	)	_	_	
+8-124	1931-1932	#	_	_	
+8-125	1933-1937	Note	_	_	
+8-126	1937-1938	:	_	_	
+8-127	1939-1941	If	_	_	
+8-128	1942-1945	you	_	_	
+8-129	1946-1950	want	_	_	
+8-130	1951-1953	to	_	_	
+8-131	1954-1957	use	_	_	
+8-132	1958-1961	the	_	_	
+8-133	1962-1970	Gaussian	_	_	
+8-134	1971-1978	process	_	_	
+8-135	1979-1983	with	_	_	
+8-136	1984-1986	an	_	_	
+8-137	1987-1993	arctan	_	_	
+8-138	1994-1998	mean	_	_	
+8-139	1999-2007	function	_	_	
+8-140	2008-2011	use	_	_	
+8-141	2012-2027	models.GPArctan	_	_	
+8-142	2027-2028	(	_	_	
+8-143	2028-2029	)	_	_	
+8-144	2030-2037	instead	_	_	
+8-145	2037-2038	.	_	_	
+8-146	2039-2044	model	_	_	
+8-147	2045-2046	=	_	_	
+8-148	2047-2064	models.GPPowerLaw	_	_	
+8-149	2064-2065	(	_	_	
+8-150	2065-2072	X_train	_	_	
+8-151	2072-2073	,	_	_	
+8-152	2074-2081	y_train	_	_	
+8-153	2081-2082	,	_	_	
+8-154	2083-2093	likelihood	_	_	
+8-155	2093-2094	,	_	_	
+8-156	2095-2106	epsilon_min	_	_	
+8-157	2106-2107	=	_	_	
+8-158	2107-2111	0.05	_	_	
+8-159	2111-2112	,	_	_	
+8-160	2113-2124	with_priors	_	_	
+8-161	2124-2125	=	_	_	
+8-162	2125-2129	True	_	_	
+8-163	2129-2130	)	_	_	
+8-164	2131-2132	`	_	_	
+8-165	2132-2133	`	_	_	
+8-166	2133-2134	`	_	_	
+8-167	2136-2137	#	_	_	
+8-168	2137-2138	#	_	_	
+8-169	2138-2139	#	_	_	
+8-170	2140-2153	Extrapolating	_	_	
+8-171	2154-2164	classifier	_	_	
+8-172	2165-2173	accuracy	*	EVALMETRIC	
+8-173	2175-2176	`	_	_	
+8-174	2176-2177	`	_	_	
+8-175	2177-2178	`	_	_	
+8-176	2178-2184	python	*	PROGLANG	
+8-177	2185-2189	with	_	_	
+8-178	2190-2203	torch.no_grad	_	_	
+8-178.1	2190-2195	torch	*	SOFTWARE	
+8-179	2203-2204	(	_	_	
+8-180	2204-2205	)	_	_	
+8-181	2205-2206	:	_	_	
+8-182	2207-2218	predictions	_	_	
+8-183	2219-2220	=	_	_	
+8-184	2221-2231	likelihood	_	_	
+8-185	2231-2232	(	_	_	
+8-186	2232-2237	model	_	_	
+8-187	2237-2238	(	_	_	
+8-188	2238-2244	X_test	_	_	
+8-189	2244-2245	)	_	_	
+8-190	2245-2246	)	_	_	
+8-191	2247-2250	loc	_	_	
+8-192	2251-2252	=	_	_	
+8-193	2253-2275	predictions.mean.numpy	_	_	
+8-194	2275-2276	(	_	_	
+8-195	2276-2277	)	_	_	
+8-196	2278-2283	scale	_	_	
+8-197	2284-2285	=	_	_	
+8-198	2286-2310	predictions.stddev.numpy	_	_	
+8-199	2310-2311	(	_	_	
+8-200	2311-2312	)	_	_	
+8-201	2313-2314	#	_	_	
+8-202	2315-2319	Note	_	_	
+8-203	2319-2320	:	_	_	
+8-204	2321-2323	If	_	_	
+8-205	2324-2327	you	_	_	
+8-206	2328-2332	want	_	_	
+8-207	2333-2335	to	_	_	
+8-208	2336-2344	forecast	_	_	
+8-209	2345-2349	with	_	_	
+8-210	2350-2353	20%	_	_	
+8-211	2353-2354	-	_	_	
+8-212	2354-2357	80%	_	_	
+8-213	2358-2364	change	_	_	
+8-214	2365-2370	lower	_	_	
+8-215	2371-2374	and	_	_	
+8-216	2375-2380	upper	_	_	
+8-217	2381-2391	percentile	_	_	
+8-218	2391-2392	.	_	_	
+8-219	2393-2398	lower	_	_	
+8-220	2398-2399	,	_	_	
+8-221	2400-2405	upper	_	_	
+8-222	2406-2407	=	_	_	
+8-223	2408-2443	priors.truncated_normal_uncertainty	_	_	
+8-224	2443-2444	(	_	_	
+8-225	2444-2445	a	_	_	
+8-226	2445-2446	=	_	_	
+8-227	2446-2449	0.0	_	_	
+8-228	2449-2450	,	_	_	
+8-229	2451-2452	b	_	_	
+8-230	2452-2453	=	_	_	
+8-231	2453-2456	1.0	_	_	
+8-232	2456-2457	,	_	_	
+8-233	2458-2461	loc	_	_	
+8-234	2461-2462	=	_	_	
+8-235	2462-2465	loc	_	_	
+8-236	2465-2466	,	_	_	
+8-237	2467-2472	scale	_	_	
+8-238	2472-2473	=	_	_	
+8-239	2473-2478	scale	_	_	
+8-240	2478-2479	,	_	_	
+8-241	2480-2496	lower_percentile	_	_	
+8-242	2496-2497	=	_	_	
+8-243	2497-2502	0.025	_	_	
+8-244	2502-2503	,	_	_	
+8-245	2504-2520	upper_percentile	_	_	
+8-246	2520-2521	=	_	_	
+8-247	2521-2526	0.975	_	_	
+8-248	2526-2527	)	_	_	
+8-249	2529-2530	`	_	_	
+8-250	2530-2531	`	_	_	
+8-251	2531-2532	`	_	_	
+8-252	2534-2535	#	_	_	
+8-253	2535-2536	#	_	_	
+8-254	2537-2545	Citation	_	_	
+8-255	2547-2548	`	_	_	
+8-256	2548-2549	`	_	_	
+8-257	2549-2550	`	_	_	
+8-258	2550-2556	bibtex	_	_	
+8-259	2557-2558	@	_	_	
+8-260	2558-2571	inproceedings	_	_	
+8-261	2571-2572	{	_	_	
+8-262	2572-2595	harvey2023probabilistic	_	_	
+8-263	2595-2596	,	_	_	
+8-264	2599-2605	author	_	_	
+8-265	2605-2606	=	_	_	
+8-266	2606-2607	{	_	_	
+8-267	2607-2613	Harvey	_	_	
+8-268	2613-2614	,	_	_	
+8-269	2615-2620	Ethan	_	_	
+8-270	2621-2624	and	_	_	
+8-271	2625-2629	Chen	_	_	
+8-272	2629-2630	,	_	_	
+8-273	2631-2636	Wansu	_	_	
+8-274	2637-2640	and	_	_	
+8-275	2641-2645	Kent	_	_	
+8-276	2645-2646	,	_	_	
+8-277	2647-2652	David	_	_	
+8-278	2653-2654	M	_	_	
+8-279	2654-2655	.	_	_	
+8-280	2656-2659	and	_	_	
+8-281	2660-2666	Hughes	_	_	
+8-282	2666-2667	,	_	_	
+8-283	2668-2675	Michael	_	_	
+8-284	2676-2677	C	_	_	
+8-285	2677-2678	.	_	_	
+8-286	2678-2679	}	_	_	
+8-287	2679-2680	,	_	_	
+8-288	2683-2688	title	_	_	
+8-289	2688-2689	=	_	_	
+8-290	2689-2690	{	_	_	
+8-291	2690-2691	A	*[3]	PUBLICATION[3]	
+8-292	2692-2705	Probabilistic	*[3]	PUBLICATION[3]	
+8-293	2706-2712	Method	*[3]	PUBLICATION[3]	
+8-294	2713-2715	to	*[3]	PUBLICATION[3]	
+8-295	2716-2723	Predict	*[3]	PUBLICATION[3]	
+8-296	2724-2734	Classifier	*[3]	PUBLICATION[3]	
+8-297	2735-2743	Accuracy	*[3]	PUBLICATION[3]	
+8-298	2744-2746	on	*[3]	PUBLICATION[3]	
+8-299	2747-2753	Larger	*[3]	PUBLICATION[3]	
+8-300	2754-2762	Datasets	*[3]	PUBLICATION[3]	
+8-301	2763-2768	given	*[3]	PUBLICATION[3]	
+8-302	2769-2774	Small	*[3]	PUBLICATION[3]	
+8-303	2775-2780	Pilot	*[3]	PUBLICATION[3]	
+8-304	2781-2785	Data	*[3]	PUBLICATION[3]	
+8-305	2785-2786	}	_	_	
+8-306	2786-2787	,	_	_	
+8-307	2790-2799	booktitle	_	_	
+8-308	2799-2800	=	_	_	
+8-309	2800-2801	{	_	_	
+8-310	2801-2808	Machine	_	_	
+8-311	2809-2817	Learning	_	_	
+8-312	2818-2821	for	_	_	
+8-313	2822-2828	Health	_	_	
+8-314	2829-2830	(	_	_	
+8-315	2830-2834	ML4H	_	_	
+8-316	2834-2835	)	_	_	
+8-317	2835-2836	}	_	_	
+8-318	2836-2837	,	_	_	
+8-319	2840-2844	year	_	_	
+8-320	2844-2845	=	_	_	
+8-321	2845-2846	{	_	_	
+8-322	2846-2850	2023	_	_	
+8-323	2850-2851	}	_	_	
+8-324	2852-2853	}	_	_	
+8-325	2854-2855	`	_	_	
+8-326	2855-2856	`	_	_	
+8-327	2856-2857	`	_	_	
+8-328	2859-2860	#	_	_	
+8-329	2860-2861	#	_	_	
+8-330	2862-2873	Reproducing	_	_	
+8-331	2874-2881	results	_	_	
+8-332	2883-2885	To	_	_	
+8-333	2886-2895	reproduce	_	_	
+8-334	2896-2901	model	_	_	
+8-335	2902-2913	performance	_	_	
+8-336	2914-2916	at	_	_	
+8-337	2917-2924	varying	_	_	
+8-338	2925-2932	dataset	_	_	
+8-339	2933-2938	sizes	_	_	
+8-340	2939-2940	1	_	_	
+8-341	2940-2941	)	_	_	
+8-342	2942-2950	download	_	_	
+8-343	2951-2959	datasets	_	_	
+8-344	2960-2961	(	_	_	
+8-345	2961-2964	see	_	_	
+8-346	2965-2966	`	_	_	
+8-347	2966-2979	encode_images	_	_	
+8-348	2979-2980	/	_	_	
+8-349	2980-2989	README.md	_	_	
+8-350	2989-2990	`	_	_	
+8-351	2991-2994	and	_	_	
+8-352	2995-2996	`	_	_	
+8-353	2996-3008	label_images	_	_	
+8-354	3008-3009	/	_	_	
+8-355	3009-3018	README.md	_	_	
+8-356	3018-3019	`	_	_	
+8-357	3020-3023	for	_	_	
+8-358	3024-3028	more	_	_	
+8-359	3029-3036	details	_	_	
+8-360	3036-3037	)	_	_	
+8-361	3038-3041	and	_	_	
+8-362	3042-3043	2	_	_	
+8-363	3043-3044	)	_	_	
+8-364	3045-3048	fit	_	_	
+8-365	3049-3060	classifiers	_	_	
+8-366	3061-3063	to	_	_	
+8-367	3064-3068	each	_	_	
+8-368	3069-3076	dataset	_	_	
+8-369	3077-3078	(	_	_	
+8-370	3078-3081	see	_	_	
+8-371	3082-3083	`	_	_	
+8-372	3083-3086	src	_	_	
+8-373	3086-3087	/	_	_	
+8-374	3087-3095	finetune	_	_	
+8-375	3095-3096	_	_	_	
+8-376	3096-3101	2D.py	_	_	
+8-377	3101-3102	`	_	_	
+8-378	3103-3106	and	_	_	
+8-379	3107-3108	`	_	_	
+8-380	3108-3111	src	_	_	
+8-381	3111-3112	/	_	_	
+8-382	3112-3120	finetune	_	_	
+8-383	3120-3121	_	_	_	
+8-384	3121-3126	3D.py	_	_	
+8-385	3126-3127	`	_	_	
+8-386	3127-3128	)	_	_	
+8-387	3128-3129	.	_	_	
+
+#Text=The results from our paper are saved in `experiments/`.
+9-1	3130-3133	The	_	_	
+9-2	3134-3141	results	_	_	
+9-3	3142-3146	from	_	_	
+9-4	3147-3150	our	_	_	
+9-5	3151-3156	paper	_	_	
+9-6	3157-3160	are	_	_	
+9-7	3161-3166	saved	_	_	
+9-8	3167-3169	in	_	_	
+9-9	3170-3171	`	_	_	
+9-10	3171-3182	experiments	_	_	
+9-11	3182-3183	/	_	_	
+9-12	3183-3184	`	_	_	
+9-13	3184-3185	.	_	_	
+
+#Text=To reproduce learning curves with the results from our paper see `notebooks/figures.ipynb` and `notebooks/tables.ipynb`.
+10-1	3187-3189	To	_	_	
+10-2	3190-3199	reproduce	_	_	
+10-3	3200-3208	learning	_	_	
+10-4	3209-3215	curves	_	_	
+10-5	3216-3220	with	_	_	
+10-6	3221-3224	the	_	_	
+10-7	3225-3232	results	_	_	
+10-8	3233-3237	from	_	_	
+10-9	3238-3241	our	_	_	
+10-10	3242-3247	paper	_	_	
+10-11	3248-3251	see	_	_	
+10-12	3252-3253	`	_	_	
+10-13	3253-3262	notebooks	_	_	
+10-14	3262-3263	/	_	_	
+10-15	3263-3276	figures.ipynb	_	_	
+10-16	3276-3277	`	_	_	
+10-17	3278-3281	and	_	_	
+10-18	3282-3283	`	_	_	
+10-19	3283-3292	notebooks	_	_	
+10-20	3292-3293	/	_	_	
+10-21	3293-3305	tables.ipynb	_	_	
+10-22	3305-3306	`	_	_	
+10-23	3306-3307	.	_	_	

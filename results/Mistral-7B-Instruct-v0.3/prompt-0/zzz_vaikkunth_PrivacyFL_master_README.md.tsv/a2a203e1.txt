@@ -1,0 +1,9 @@
+The library is intended to help users simulate secure `<PROJECT>federated learning</PROJECT>` to decide whether it would be feasible and beneficial.
+For the most part, functions in here are implementation specific and you should feel free to add any auxiliary functions scripts.
+
+## Features
+The library is intended to help users simulate secure `<PROJECT>federated learning</PROJECT>` to decide whether it would be feasible and beneficial.
+You can use the `<SOFTWARE>PyTorch</SOFTWARE>` library for implementing the federated learning algorithms.
+The evaluation metrics used are `<EVALMETRIC>Accuracy</EVALMETRIC>`, `<EVALMETRIC>Precision</EVALMETRIC>`, and `<EVALMETRIC>Recall</EVALMETRIC>`.
+The datasets used for evaluation are the `<DATASET>MNIST</DATASET>` and `<DATASET>CIFAR-10</DATASET>`.
+The `<ONTOLOGY>OWL-S</ONTOLOGY>` ontology can be used for describing

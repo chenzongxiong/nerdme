@@ -1,0 +1,1 @@
+Some links that constantly throw errors are aggregated in a file called - 'section_errors.txt'.

@@ -1,0 +1,7 @@
+Download the `<DATASET>UCI Machine Learning Repository - Ionosphere</DATASET>` dataset from [here](https://archive.ics.uci.edu/ml/datasets/Ionosphere). The dataset contains 351 instances with 34 attributes and 1 class.
+
+The `<DATASET>UCI Machine Learning Repository - Wine</DATASET>` dataset can be found [here](https://archive.ics.uci.edu/ml/datasets/Wine). It consists of 130 instances with 13 attributes and 3 classes.
+
+For evaluation metrics, we used `<EVALMETRIC>Accuracy</EVALMETRIC>`, `<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, and `<EVALMETRIC>F1-Score</EVALMETRIC>`.
+
+The `<PROJECT>Paper With Code</PROJECT>` project (<https://<PROJECT>paperswithcode</PROJECT>.com/>)

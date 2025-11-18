@@ -1,0 +1,481 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Debt-Financed Collateral
+#Text=## Overview
+#Text=This repository documents the data analysis performed for the paper "Debt-Financed Collateral and Stability Risks in the DeFi Ecosystem" ([ArXiv](https://arxiv.org/abs/2204.11107)).
+1-1	0-1	#	_	_	
+1-2	2-15	Debt-Financed	_	_	
+1-3	16-26	Collateral	_	_	
+1-4	27-28	#	_	_	
+1-5	28-29	#	_	_	
+1-6	30-38	Overview	_	_	
+1-7	39-43	This	_	_	
+1-8	44-54	repository	_	_	
+1-9	55-64	documents	_	_	
+1-10	65-68	the	_	_	
+1-11	69-73	data	_	_	
+1-12	74-82	analysis	_	_	
+1-13	83-92	performed	_	_	
+1-14	93-96	for	_	_	
+1-15	97-100	the	_	_	
+1-16	101-106	paper	_	_	
+1-17	107-108	"	_	_	
+1-18	108-121	Debt-Financed	*[1]	PUBLICATION[1]	
+1-19	122-132	Collateral	*[1]	PUBLICATION[1]	
+1-20	133-136	and	*[1]	PUBLICATION[1]	
+1-21	137-146	Stability	*[1]	PUBLICATION[1]	
+1-22	147-152	Risks	*[1]	PUBLICATION[1]	
+1-23	153-155	in	*[1]	PUBLICATION[1]	
+1-24	156-159	the	*[1]	PUBLICATION[1]	
+1-25	160-164	DeFi	*[1]	PUBLICATION[1]	
+1-26	165-174	Ecosystem	*[1]	PUBLICATION[1]	
+1-27	174-175	"	_	_	
+1-28	176-177	(	_	_	
+1-29	177-178	[	_	_	
+1-30	178-183	ArXiv	_	_	
+1-31	183-184	]	_	_	
+1-32	184-185	(	_	_	
+1-33	185-190	https	_	_	
+1-34	190-191	:	_	_	
+1-35	191-192	/	_	_	
+1-36	192-193	/	_	_	
+1-37	193-202	arxiv.org	_	_	
+1-38	202-203	/	_	_	
+1-39	203-206	abs	_	_	
+1-40	206-207	/	_	_	
+1-41	207-217	2204.11107	_	_	
+1-42	217-218	)	_	_	
+1-43	218-219	)	_	_	
+1-44	219-220	.	_	_	
+
+#Text=All relevant data was stored in a MariaDB database; an export of the table data is available [here](https://drive.google.com/drive/folders/1QGkh0MTT-lXiGh7ofzswA7042KVGEqq_).
+#Text=
+#Text=## Files/folders
+#Text=
+#Text=**1-scrape**
+#Text=
+#Text=- **Large-scale data collection (Python)** - The majority of event data was collected through Google's BigQuery service, using Python
+2-1	221-224	All	_	_	
+2-2	225-233	relevant	_	_	
+2-3	234-238	data	_	_	
+2-4	239-242	was	_	_	
+2-5	243-249	stored	_	_	
+2-6	250-252	in	_	_	
+2-7	253-254	a	_	_	
+2-8	255-262	MariaDB	_	_	
+2-9	263-271	database	_	_	
+2-10	271-272	;	_	_	
+2-11	273-275	an	_	_	
+2-12	276-282	export	_	_	
+2-13	283-285	of	_	_	
+2-14	286-289	the	_	_	
+2-15	290-295	table	_	_	
+2-16	296-300	data	_	_	
+2-17	301-303	is	_	_	
+2-18	304-313	available	_	_	
+2-19	314-315	[	_	_	
+2-20	315-319	here	_	_	
+2-21	319-320	]	_	_	
+2-22	320-321	(	_	_	
+2-23	321-326	https	_	_	
+2-24	326-327	:	_	_	
+2-25	327-328	/	_	_	
+2-26	328-329	/	_	_	
+2-27	329-345	drive.google.com	_	_	
+2-28	345-346	/	_	_	
+2-29	346-351	drive	_	_	
+2-30	351-352	/	_	_	
+2-31	352-359	folders	_	_	
+2-32	359-360	/	_	_	
+2-33	360-392	1QGkh0MTT-lXiGh7ofzswA7042KVGEqq	_	_	
+2-34	392-393	_	_	_	
+2-35	393-394	)	_	_	
+2-36	394-395	.	_	_	
+2-37	397-398	#	_	_	
+2-38	398-399	#	_	_	
+2-39	400-405	Files	_	_	
+2-40	405-406	/	_	_	
+2-41	406-413	folders	_	_	
+2-42	415-416	*	_	_	
+2-43	416-417	*	_	_	
+2-44	417-418	1	_	_	
+2-45	418-419	-	_	_	
+2-46	419-425	scrape	_	_	
+2-47	425-426	*	_	_	
+2-48	426-427	*	_	_	
+2-49	429-430	-	_	_	
+2-50	431-432	*	_	_	
+2-51	432-433	*	_	_	
+2-52	433-444	Large-scale	_	_	
+2-53	445-449	data	_	_	
+2-54	450-460	collection	_	_	
+2-55	461-462	(	_	_	
+2-56	462-468	Python	*	PROGLANG	
+2-57	468-469	)	_	_	
+2-58	469-470	*	_	_	
+2-59	470-471	*	_	_	
+2-60	472-473	-	_	_	
+2-61	474-477	The	_	_	
+2-62	478-486	majority	_	_	
+2-63	487-489	of	_	_	
+2-64	490-495	event	_	_	
+2-65	496-500	data	_	_	
+2-66	501-504	was	_	_	
+2-67	505-514	collected	_	_	
+2-68	515-522	through	_	_	
+2-69	523-531	Google's	_	_	
+2-70	532-540	BigQuery	_	_	
+2-71	541-548	service	_	_	
+2-72	548-549	,	_	_	
+2-73	550-555	using	_	_	
+2-74	556-562	Python	*	PROGLANG	
+
+#Text=.
+3-1	562-563	.	_	_	
+
+#Text=- *defiEvents.py*: collection of classes used for data collection
+4-1	569-570	-	_	_	
+4-2	571-572	*	_	_	
+4-3	572-585	defiEvents.py	_	_	
+4-4	585-586	*	_	_	
+4-5	586-587	:	_	_	
+4-6	588-598	collection	_	_	
+4-7	599-601	of	_	_	
+4-8	602-609	classes	_	_	
+4-9	610-614	used	_	_	
+4-10	615-618	for	_	_	
+4-11	619-623	data	_	_	
+4-12	624-634	collection	_	_	
+
+#Text=.
+5-1	634-635	.	_	_	
+
+#Text=- *collectEvents.py*: script to collect data.
+6-1	640-641	-	_	_	
+6-2	642-643	*	_	_	
+6-3	643-659	collectEvents.py	_	_	
+6-4	659-660	*	_	_	
+6-5	660-661	:	_	_	
+6-6	662-668	script	_	_	
+6-7	669-671	to	_	_	
+6-8	672-679	collect	_	_	
+6-9	680-684	data	_	_	
+6-10	684-685	.	_	_	
+
+#Text=This script was run once for each project.
+7-1	686-690	This	_	_	
+7-2	691-697	script	_	_	
+7-3	698-701	was	_	_	
+7-4	702-705	run	_	_	
+7-5	706-710	once	_	_	
+7-6	711-714	for	_	_	
+7-7	715-719	each	_	_	
+7-8	720-727	project	_	_	
+7-9	727-728	.	_	_	
+
+#Text=Code was written to collect data across multiple protocol versions (e.g. both Version 1 and Version 2 of Uniswap), but only data from the most recent protocol was used.
+#Text=- **One-off data collection (NodeJS)** - These scripts were used to collect more targeted information
+8-1	729-733	Code	_	_	
+8-2	734-737	was	_	_	
+8-3	738-745	written	_	_	
+8-4	746-748	to	_	_	
+8-5	749-756	collect	_	_	
+8-6	757-761	data	_	_	
+8-7	762-768	across	_	_	
+8-8	769-777	multiple	_	_	
+8-9	778-786	protocol	_	_	
+8-10	787-795	versions	_	_	
+8-11	796-797	(	_	_	
+8-12	797-800	e.g	_	_	
+8-13	800-801	.	_	_	
+8-14	802-806	both	_	_	
+8-15	807-814	Version	_	_	
+8-16	815-816	1	_	_	
+8-17	817-820	and	_	_	
+8-18	821-828	Version	_	_	
+8-19	829-830	2	_	_	
+8-20	831-833	of	_	_	
+8-21	834-841	Uniswap	_	_	
+8-22	841-842	)	_	_	
+8-23	842-843	,	_	_	
+8-24	844-847	but	_	_	
+8-25	848-852	only	_	_	
+8-26	853-857	data	_	_	
+8-27	858-862	from	_	_	
+8-28	863-866	the	_	_	
+8-29	867-871	most	_	_	
+8-30	872-878	recent	_	_	
+8-31	879-887	protocol	_	_	
+8-32	888-891	was	_	_	
+8-33	892-896	used	_	_	
+8-34	896-897	.	_	_	
+8-35	898-899	-	_	_	
+8-36	900-901	*	_	_	
+8-37	901-902	*	_	_	
+8-38	902-909	One-off	_	_	
+8-39	910-914	data	_	_	
+8-40	915-925	collection	_	_	
+8-41	926-927	(	_	_	
+8-42	927-933	NodeJS	*	SOFTWARE	
+8-43	933-934	)	_	_	
+8-44	934-935	*	_	_	
+8-45	935-936	*	_	_	
+8-46	937-938	-	_	_	
+8-47	939-944	These	_	_	
+8-48	945-952	scripts	_	_	
+8-49	953-957	were	_	_	
+8-50	958-962	used	_	_	
+8-51	963-965	to	_	_	
+8-52	966-973	collect	_	_	
+8-53	974-978	more	_	_	
+8-54	979-987	targeted	_	_	
+8-55	988-999	information	_	_	
+
+#Text=.
+9-1	999-1000	.	_	_	
+
+#Text=- *mkrVaults.js*: Collect data on all existing Maker vaults, including all addresses associated to the vault (owner, DSProxy, and UrnHandler addresses)
+10-1	1005-1006	-	_	_	
+10-2	1007-1008	*	_	_	
+10-3	1008-1020	mkrVaults.js	_	_	
+10-4	1020-1021	*	_	_	
+10-5	1021-1022	:	_	_	
+10-6	1023-1030	Collect	_	_	
+10-7	1031-1035	data	_	_	
+10-8	1036-1038	on	_	_	
+10-9	1039-1042	all	_	_	
+10-10	1043-1051	existing	_	_	
+10-11	1052-1057	Maker	_	_	
+10-12	1058-1064	vaults	_	_	
+10-13	1064-1065	,	_	_	
+10-14	1066-1075	including	_	_	
+10-15	1076-1079	all	_	_	
+10-16	1080-1089	addresses	_	_	
+10-17	1090-1100	associated	_	_	
+10-18	1101-1103	to	_	_	
+10-19	1104-1107	the	_	_	
+10-20	1108-1113	vault	_	_	
+10-21	1114-1115	(	_	_	
+10-22	1115-1120	owner	_	_	
+10-23	1120-1121	,	_	_	
+10-24	1122-1129	DSProxy	_	_	
+10-25	1129-1130	,	_	_	
+10-26	1131-1134	and	_	_	
+10-27	1135-1145	UrnHandler	_	_	
+10-28	1146-1155	addresses	_	_	
+10-29	1155-1156	)	_	_	
+
+#Text=.
+11-1	1156-1157	.	_	_	
+
+#Text=- *mkrRateAdjust.js*: Collect information to adjust DAI amounts recorded in frob transactions.
+12-1	1162-1163	-	_	_	
+12-2	1164-1165	*	_	_	
+12-3	1165-1181	mkrRateAdjust.js	_	_	
+12-4	1181-1182	*	_	_	
+12-5	1182-1183	:	_	_	
+12-6	1184-1191	Collect	_	_	
+12-7	1192-1203	information	_	_	
+12-8	1204-1206	to	_	_	
+12-9	1207-1213	adjust	_	_	
+12-10	1214-1217	DAI	_	_	
+12-11	1218-1225	amounts	_	_	
+12-12	1226-1234	recorded	_	_	
+12-13	1235-1237	in	_	_	
+12-14	1238-1242	frob	_	_	
+12-15	1243-1255	transactions	_	_	
+12-16	1255-1256	.	_	_	
+
+#Text=Frob transaction amounts (specifically for debt withdrawal/repayment) are recorded without interest rate adjustments.
+13-1	1257-1261	Frob	_	_	
+13-2	1262-1273	transaction	_	_	
+13-3	1274-1281	amounts	_	_	
+13-4	1282-1283	(	_	_	
+13-5	1283-1295	specifically	_	_	
+13-6	1296-1299	for	_	_	
+13-7	1300-1304	debt	_	_	
+13-8	1305-1315	withdrawal	_	_	
+13-9	1315-1316	/	_	_	
+13-10	1316-1325	repayment	_	_	
+13-11	1325-1326	)	_	_	
+13-12	1327-1330	are	_	_	
+13-13	1331-1339	recorded	_	_	
+13-14	1340-1347	without	_	_	
+13-15	1348-1356	interest	_	_	
+13-16	1357-1361	rate	_	_	
+13-17	1362-1373	adjustments	_	_	
+13-18	1373-1374	.	_	_	
+
+#Text=This file collects information to adjust DAI amounts according to the prevailing cumulative interest rate in the Maker Vat contract
+14-1	1375-1379	This	_	_	
+14-2	1380-1384	file	_	_	
+14-3	1385-1393	collects	_	_	
+14-4	1394-1405	information	_	_	
+14-5	1406-1408	to	_	_	
+14-6	1409-1415	adjust	_	_	
+14-7	1416-1419	DAI	_	_	
+14-8	1420-1427	amounts	_	_	
+14-9	1428-1437	according	_	_	
+14-10	1438-1440	to	_	_	
+14-11	1441-1444	the	_	_	
+14-12	1445-1455	prevailing	_	_	
+14-13	1456-1466	cumulative	_	_	
+14-14	1467-1475	interest	_	_	
+14-15	1476-1480	rate	_	_	
+14-16	1481-1483	in	_	_	
+14-17	1484-1487	the	_	_	
+14-18	1488-1493	Maker	_	_	
+14-19	1494-1497	Vat	_	_	
+14-20	1498-1506	contract	_	_	
+
+#Text=.
+15-1	1506-1507	.	_	_	
+
+#Text=- *uniExchanges.js*: Collect pair addresses from Uniswap for all tokens used in the final analysis
+16-1	1512-1513	-	_	_	
+16-2	1514-1515	*	_	_	
+16-3	1515-1530	uniExchanges.js	_	_	
+16-4	1530-1531	*	_	_	
+16-5	1531-1532	:	_	_	
+16-6	1533-1540	Collect	_	_	
+16-7	1541-1545	pair	_	_	
+16-8	1546-1555	addresses	_	_	
+16-9	1556-1560	from	_	_	
+16-10	1561-1568	Uniswap	_	_	
+16-11	1569-1572	for	_	_	
+16-12	1573-1576	all	_	_	
+16-13	1577-1583	tokens	_	_	
+16-14	1584-1588	used	_	_	
+16-15	1589-1591	in	_	_	
+16-16	1592-1595	the	_	_	
+16-17	1596-1601	final	_	_	
+16-18	1602-1610	analysis	_	_	
+
+#Text=.
+17-1	1610-1611	.	_	_	
+
+#Text=- *usdValues.js*: Collect hourly USD pricing data from Coinbase and update each transaction with the most recent USD price.
+#Text=
+#Text=**2-transform**
+#Text=
+#Text=*algo.ipynb* contains the algorithm used to estimate the percentage of debt-financed collateral
+#Text=
+#Text=**3-analyze**
+#Text=
+#Text=*analysis.r* contains the R code used to create charts and tables for the final paper.
+18-1	1616-1617	-	_	_	
+18-2	1618-1619	*	_	_	
+18-3	1619-1631	usdValues.js	_	_	
+18-4	1631-1632	*	_	_	
+18-5	1632-1633	:	_	_	
+18-6	1634-1641	Collect	_	_	
+18-7	1642-1648	hourly	_	_	
+18-8	1649-1652	USD	_	_	
+18-9	1653-1660	pricing	_	_	
+18-10	1661-1665	data	_	_	
+18-11	1666-1670	from	_	_	
+18-12	1671-1679	Coinbase	_	_	
+18-13	1680-1683	and	_	_	
+18-14	1684-1690	update	_	_	
+18-15	1691-1695	each	_	_	
+18-16	1696-1707	transaction	_	_	
+18-17	1708-1712	with	_	_	
+18-18	1713-1716	the	_	_	
+18-19	1717-1721	most	_	_	
+18-20	1722-1728	recent	_	_	
+18-21	1729-1732	USD	_	_	
+18-22	1733-1738	price	_	_	
+18-23	1738-1739	.	_	_	
+18-24	1741-1742	*	_	_	
+18-25	1742-1743	*	_	_	
+18-26	1743-1744	2	_	_	
+18-27	1744-1745	-	_	_	
+18-28	1745-1754	transform	_	_	
+18-29	1754-1755	*	_	_	
+18-30	1755-1756	*	_	_	
+18-31	1758-1759	*	_	_	
+18-32	1759-1769	algo.ipynb	_	_	
+18-33	1769-1770	*	_	_	
+18-34	1771-1779	contains	_	_	
+18-35	1780-1783	the	_	_	
+18-36	1784-1793	algorithm	_	_	
+18-37	1794-1798	used	_	_	
+18-38	1799-1801	to	_	_	
+18-39	1802-1810	estimate	_	_	
+18-40	1811-1814	the	_	_	
+18-41	1815-1825	percentage	_	_	
+18-42	1826-1828	of	_	_	
+18-43	1829-1842	debt-financed	_	_	
+18-44	1843-1853	collateral	_	_	
+18-45	1855-1856	*	_	_	
+18-46	1856-1857	*	_	_	
+18-47	1857-1858	3	_	_	
+18-48	1858-1859	-	_	_	
+18-49	1859-1866	analyze	_	_	
+18-50	1866-1867	*	_	_	
+18-51	1867-1868	*	_	_	
+18-52	1870-1871	*	_	_	
+18-53	1871-1881	analysis.r	_	_	
+18-54	1881-1882	*	_	_	
+18-55	1883-1891	contains	_	_	
+18-56	1892-1895	the	_	_	
+18-57	1896-1897	R	*	PROGLANG	
+18-58	1898-1902	code	_	_	
+18-59	1903-1907	used	_	_	
+18-60	1908-1910	to	_	_	
+18-61	1911-1917	create	_	_	
+18-62	1918-1924	charts	_	_	
+18-63	1925-1928	and	_	_	
+18-64	1929-1935	tables	_	_	
+18-65	1936-1939	for	_	_	
+18-66	1940-1943	the	_	_	
+18-67	1944-1949	final	_	_	
+18-68	1950-1955	paper	_	_	
+18-69	1955-1956	.	_	_	
+
+#Text=**utils**
+#Text=
+#Text=This folder contains several files used by NodeJS scripts:
+#Text=- *abi.js*: ABIs for relevant contracts
+#Text=- *addr.js*: relevant addresses
+#Text=- *eventLib.js*: helper functions
+19-1	1958-1959	*	_	_	
+19-2	1959-1960	*	_	_	
+19-3	1960-1965	utils	_	_	
+19-4	1965-1966	*	_	_	
+19-5	1966-1967	*	_	_	
+19-6	1969-1973	This	_	_	
+19-7	1974-1980	folder	_	_	
+19-8	1981-1989	contains	_	_	
+19-9	1990-1997	several	_	_	
+19-10	1998-2003	files	_	_	
+19-11	2004-2008	used	_	_	
+19-12	2009-2011	by	_	_	
+19-13	2012-2018	NodeJS	*	SOFTWARE	
+19-14	2019-2026	scripts	_	_	
+19-15	2026-2027	:	_	_	
+19-16	2028-2029	-	_	_	
+19-17	2030-2031	*	_	_	
+19-18	2031-2037	abi.js	_	_	
+19-19	2037-2038	*	_	_	
+19-20	2038-2039	:	_	_	
+19-21	2040-2044	ABIs	_	_	
+19-22	2045-2048	for	_	_	
+19-23	2049-2057	relevant	_	_	
+19-24	2058-2067	contracts	_	_	
+19-25	2068-2069	-	_	_	
+19-26	2070-2071	*	_	_	
+19-27	2071-2078	addr.js	_	_	
+19-28	2078-2079	*	_	_	
+19-29	2079-2080	:	_	_	
+19-30	2081-2089	relevant	_	_	
+19-31	2090-2099	addresses	_	_	
+19-32	2100-2101	-	_	_	
+19-33	2102-2103	*	_	_	
+19-34	2103-2114	eventLib.js	_	_	
+19-35	2114-2115	*	_	_	
+19-36	2115-2116	:	_	_	
+19-37	2117-2123	helper	_	_	
+19-38	2124-2133	functions	_	_	

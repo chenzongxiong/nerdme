@@ -1,0 +1,1 @@
+We present a novel method to study grounding abilities using `<DATASET>Fakepedia</DATASET>`, a dataset of counterfactual texts constructed to clash with a model's internal parametric knowledge.

@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+The processed <DATASET>datasets</DATASET> will be released soon, because of the large size of the <DATASET>datasets</DATASET> (<DATASET>graph with esm embeddings</DATASET>), we will upload the pipeline to process the raw data.  ### Raw <DATASET>Datasets</DATASET>  #### <DATASET>SC-PDB</DATASET>  <https://github.com/jivankandel/<SOFTWARE>PUResNet</SOFTWARE>/blob/main/<DATASET>scpdb_subset</DATASET>.zip>  #### <DATASET>COACH420/HOLO4K</DATASET>  <https://github.com/rdk/<SOFTWARE>p2rank-datasets</SOFTWARE>>  These two <DATASET>datasets</DATASET> do not include ligands in a pre-extracted format.
+```

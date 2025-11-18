@@ -1,0 +1,5 @@
+`and execute the following command:  `<SOFTWARE>source</SOFTWARE>` <PROGLANG>Test/test.sh</PROGLANG> `/path/to/directory_with_saved_model/` <DATASET>$num_samples</DATASET> `/path/to/dataset/` `/path/to/directory_with_ground_truth_for_selected_validation_files/`  (You might have to recompile the C files for testing, provided by KITTI, if your architecture is different from mine)
+
+## Results
+Comparision with state-of-the-art:
+!`

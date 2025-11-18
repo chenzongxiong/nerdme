@@ -1,0 +1,11 @@
+The given text contains the following named entities:
+
+1. **DATASET**: `sfr-books-dataset-chapters-research`
+2. **PROGLANG**: `gsutil`
+3. **URL**: `gs://sfr-books-dataset-chapters-research/all_chapterized_books.zip`
+
+The annotated text in Markdown format is:
+
+```
+It can be fetched using: ``` gsutil cp <PROGLANG>gs://sfr-books-dataset-chapters-research/all_chapterized_books.zip</PROGLANG>. ```  or downloaded directly [<URL>https://storage.cloud.google.com/sfr-books-dataset-chapters-research/all_chapterized_books.zip</URL>].  #### 2.
+```

@@ -1,0 +1,6 @@
+```sh
+`$ pip install karateclub --upgrade`
+
+**Running examples**
+As part of the documentation we provide a number of **USE CASES** to show how the clusterings and embeddings can be utilized for **DOWNSTREAM LEARNING**.
+```

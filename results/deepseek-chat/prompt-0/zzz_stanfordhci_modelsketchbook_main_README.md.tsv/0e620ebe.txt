@@ -1,0 +1,1 @@
+Could early model development instead focus on **high-level questions of which factors a model ought to pay attention to**?

@@ -1,0 +1,3 @@
+```markdown
+assignees=&labels=&projects=&template=new-metric.md&title=) | | All other issues and questions | [General Issues](https://github.com/obss/jury/issues/new)                                                            |  ## <div align="center"> License </div>  Licensed under the [<LICENSE>MIT</LICENSE>](LICENSE) License.
+```

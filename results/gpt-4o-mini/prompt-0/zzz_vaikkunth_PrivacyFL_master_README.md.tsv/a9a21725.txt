@@ -1,0 +1,1 @@
+Conversely, one can set the `USING_CUMULATIVE` flag to `False`, which will make the <DATASET>dataset</DATASET> non-cumulative and clients perform gradient descent from last iteration's federated weights.  ## System Architecure ### Agent  <SOFTWARE>Agent</SOFTWARE> (defined in <SOFTWARE>agent.py</SOFTWARE>) is the base class for this simulation.

@@ -1,0 +1,10 @@
+## How to cite
+If you used this package or framework for your research, please cite: 
+```text 
+@article{xu2024hamiltoniq, 
+  title={<PUBLICATION>HamilToniQ: An Open-Source Benchmark Toolkit for Quantum Computers</PUBLICATION>}, 
+  author={Xu, Xiaotian and Chen, Kuan-Cheng and Wille, Robert}, 
+  journal={arXiv preprint arXiv:2404.13971}, 
+  year={2024} 
+}
+```

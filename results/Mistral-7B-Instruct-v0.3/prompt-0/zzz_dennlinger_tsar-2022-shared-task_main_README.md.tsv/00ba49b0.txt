@@ -1,0 +1,1 @@
+The trial dataset consists of a set of `<DATASET>10 instances (for English and Portuguese)</DATASET>` and `<DATASET>12 instances (for Spanish)</DATASET>` of a sentence, a target complex word.

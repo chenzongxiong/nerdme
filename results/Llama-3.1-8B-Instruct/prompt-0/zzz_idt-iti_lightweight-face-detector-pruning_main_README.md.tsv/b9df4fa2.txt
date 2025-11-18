@@ -1,0 +1,1 @@
+To use the <DATASET>Open Images Dataset V6</DATASET>: 1. Download the dataset from the <DATASET>Open Images Dataset V6</DATASET> website. 2. Extract the downloaded file. 3. Use the <SOFTWARE>LabelImg</SOFTWARE> tool to annotate the images.

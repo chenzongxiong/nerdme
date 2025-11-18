@@ -1,0 +1,11 @@
+The text provided does not contain any named entities according to the given guidelines. However, I can help you identify the license mentioned in the text:
+
+`<LICENSE>cc-by-3</LICENSE>` and `<LICENSE>CC BY-NC 4.0</LICENSE>`
+
+Here's the annotated text:
+
+For the materials not covered by any such restrictions, redistribution and use in source and binary forms, with or without modification, are permitted for academic non-commercial use provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+`<LICENSE>cc-by-3</LICENSE>` and `<LICENSE>CC BY-NC 4.0</LICENSE>`

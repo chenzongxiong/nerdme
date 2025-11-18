@@ -1,0 +1,1 @@
+The numbers denote `<EVALMETRIC>win/tie/lose</EVALMETRIC>` of a benchmarked model over `<SOFTWARE>LLaVA-v1.5-13B</SOFTWARE>`.

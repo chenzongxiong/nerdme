@@ -1,0 +1,3 @@
+```markdown
+/figures/benchmarking_flow.png" alt="flow" width="400" /></p>  <a name="cite"></a>  ## How to cite  If you used this package or framework for your research, please cite:  ```text @article{xu2024hamiltoniq,   title={<PUBLICATION>HamilToniQ: An Open-Source Benchmark Toolkit for Quantum Computers</PUBLICATION>},   author={Xu, Xiaotian and Chen, Kuan-Cheng and Wille, Robert},   journal={<PUBLICATION>arXiv preprint arXiv:2404.13971</PUBLICATION>},   year={2024} } ```
+```

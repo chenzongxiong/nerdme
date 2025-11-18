@@ -1,0 +1,1 @@
+Each experiment includes the following artefacts: - One config file, which represents all experimental hyper-parameters which are neccessary to reproduce the experiment or to load it for later predictions - Three `<SOFTWARE>tensorboard</SOFTWARE>` logfiles per training to keep track of the trainings, evaluation and visual output progress

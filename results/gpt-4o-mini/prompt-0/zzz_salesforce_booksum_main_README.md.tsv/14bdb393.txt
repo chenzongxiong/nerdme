@@ -1,0 +1,1 @@
+Using a mapping of which chapter summaries are separable (`<DATASET>alignments/chapter_summary_aligned.jsonl.aggregate_splits</DATASET>`), the summary text is split into different sections (eg.

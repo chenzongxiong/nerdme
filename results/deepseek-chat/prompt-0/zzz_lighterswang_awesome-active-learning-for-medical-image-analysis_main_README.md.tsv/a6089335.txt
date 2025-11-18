@@ -1,0 +1,3 @@
+```markdown
+id=Dqn715Txgl)** **[[Code]](https://github.com/<SOFTWARE>IML-DKFZ/realistic-al</SOFTWARE>)**  How to Select Which Active Learning Strategy Is Best Suited for Your Specific Problem and Budget   🕝  **[<CONFERENCE>NeurIPS'23</CONFERENCE>]** **[[PDF]](https://arxiv.org/pdf/2306.03543.pdf)**    Not All Out-of-Distribution Data Are Harmful to Open-Set Active Learning   🕝  **[<CONFERENCE>NeurIPS'23</CONFERENCE>]** **[[PDF]](https://openreview.net/pdf?
+```

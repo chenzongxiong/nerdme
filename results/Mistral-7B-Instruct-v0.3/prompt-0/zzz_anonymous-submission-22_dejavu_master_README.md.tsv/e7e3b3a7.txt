@@ -1,0 +1,7 @@
+The similarity function to compare `<PUBLICATION>$T_1$</PUBLICATION>` and `<PUBLICATION>$T_2$</PUBLICATION>` can be formalized as follows:
+
+$$
+d(<PUBLICATION>T_1</PUBLICATION>, <PUBLICATION>T_2</PUBLICATION>) = \frac{1}{|V|} \sum_{v \in V} s_{T_1}(v) (\min_{v' \in N_c(v;G)} ||\boldsymbol{\hat{f}}^{(T_1, v)} - \boldsymbol{\hat{f}}^{(T_2, v')} ||_1)
+$$
+
+where `<ONTOLOGY>$N_c(v;G)$</ONTOLOGY>` denotes the failure units of the same class as `$v$` in `$G$`, and `$||\cdot||_1$` denotes `$L1$` norm.

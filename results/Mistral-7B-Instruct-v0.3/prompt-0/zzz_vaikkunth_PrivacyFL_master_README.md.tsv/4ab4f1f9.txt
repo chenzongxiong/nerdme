@@ -1,0 +1,5 @@
+The given text does not contain any of the specified entity classes. However, I can provide an example of how to annotate the text if it contained entities from the guidelines:
+
+```
+Increasing the <EVALMETRIC>amount of differentially private noise</EVALMETRIC> is expected to decrease the <EVALMETRIC>federated accuracy</EVALMETRIC>.
+```

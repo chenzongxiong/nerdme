@@ -1,0 +1,10 @@
+The text has been annotated according to the provided guidelines. Here's the annotated version in Markdown format:
+
+```
+usp=sharing) and put it under `<PROJECT>/raw_aida/` for remapping outdated entities of `<DATASET>AIDA datasets</DATASET>` to `<DATASET>KILT wikipedia entity titles</DATASET>` \
+5. preprocess `<DATASET>AIDA data</DATASET>` and `<DATASET>KILT kb</DATASET>` by ``` python preprocess_data.py \
+--raw_dir `<PROJECT>/raw_aida/` \
+--out_aida_dir `<PROJECT>/retriever_input/` \
+--raw_kb_path `<DATASET>/raw_kb/[kilt wikipedia file name]` --out_kb_path `<DATASET>/kb/entities_kilt.json` \
+--max_ent_len 128 \
+--instance_length 32 --stride 16 --pos_prop 1 --

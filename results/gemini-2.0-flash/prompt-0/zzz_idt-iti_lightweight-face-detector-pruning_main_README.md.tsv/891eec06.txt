@@ -1,0 +1,1 @@
+/weights/eres10' ``` Here, `fpgm.py` specifies the pruning methd to be used (in this example, FPGM), the value of `pruning_rate` specifies the sparsity per layer that the user wishes to introduce (`0.1` denotes a 10% target pruning rate), and `pruned_eres` is the prefix of the file where the pruned models will be saved, e.g.

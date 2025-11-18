@@ -1,0 +1,936 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Setup
+#Text=
+#Text=[This repo](https://github.com/dayu11/selective_pretraining_for_private_finetuning) implements the framework in [this paper](https://arxiv.org/abs/2305.13865) on SST-2.
+1-1	0-1	#	_	_	
+1-2	2-7	Setup	_	_	
+1-3	9-10	[	_	_	
+1-4	10-14	This	_	_	
+1-5	15-19	repo	_	_	
+1-6	19-20	]	_	_	
+1-7	20-21	(	_	_	
+1-8	21-26	https	_	_	
+1-9	26-27	:	_	_	
+1-10	27-28	/	_	_	
+1-11	28-29	/	_	_	
+1-12	29-39	github.com	_	_	
+1-13	39-40	/	_	_	
+1-14	40-46	dayu11	_	_	
+1-15	46-47	/	_	_	
+1-16	47-91	selective_pretraining_for_private_finetuning	_	_	
+1-17	91-92	)	_	_	
+1-18	93-103	implements	_	_	
+1-19	104-107	the	_	_	
+1-20	108-117	framework	_	_	
+1-21	118-120	in	_	_	
+1-22	121-122	[	_	_	
+1-23	122-126	this	_	_	
+1-24	127-132	paper	_	_	
+1-25	132-133	]	_	_	
+1-26	133-134	(	_	_	
+1-27	134-139	https	_	_	
+1-28	139-140	:	_	_	
+1-29	140-141	/	_	_	
+1-30	141-142	/	_	_	
+1-31	142-151	arxiv.org	_	_	
+1-32	151-152	/	_	_	
+1-33	152-155	abs	_	_	
+1-34	155-156	/	_	_	
+1-35	156-166	2305.13865	_	_	
+1-36	166-167	)	_	_	
+1-37	168-170	on	_	_	
+1-38	171-174	SST	_	_	
+1-39	174-175	-	_	_	
+1-40	175-176	2	_	_	
+1-41	176-177	.	_	_	
+
+#Text=Please see the example commands below for details.
+2-1	178-184	Please	_	_	
+2-2	185-188	see	_	_	
+2-3	189-192	the	_	_	
+2-4	193-200	example	_	_	
+2-5	201-209	commands	_	_	
+2-6	210-215	below	_	_	
+2-7	216-219	for	_	_	
+2-8	220-227	details	_	_	
+2-9	227-228	.	_	_	
+
+#Text=The code requires GPUs that support half-precision training.
+3-1	229-232	The	_	_	
+3-2	233-237	code	_	_	
+3-3	238-246	requires	_	_	
+3-4	247-251	GPUs	_	_	
+3-5	252-256	that	_	_	
+3-6	257-264	support	_	_	
+3-7	265-279	half-precision	_	_	
+3-8	280-288	training	_	_	
+3-9	288-289	.	_	_	
+
+#Text=Please first install the following python packages.
+#Text=```
+#Text=torch==1.12.1
+#Text=datasets
+#Text=evaluate
+#Text=accelerate
+#Text=tqdm
+#Text=```
+#Text=
+#Text=## Implementation of DP fine-tuning
+#Text=
+#Text=The transformers package in `dp_finetuning` enables DP training.
+4-1	290-296	Please	_	_	
+4-2	297-302	first	_	_	
+4-3	303-310	install	_	_	
+4-4	311-314	the	_	_	
+4-5	315-324	following	_	_	
+4-6	325-331	python	*	PROGLANG	
+4-7	332-340	packages	_	_	
+4-8	340-341	.	_	_	
+4-9	342-343	`	_	_	
+4-10	343-344	`	_	_	
+4-11	344-345	`	_	_	
+4-12	346-351	torch	*[1]	SOFTWARE[1]	
+4-13	351-352	=	*[1]	SOFTWARE[1]	
+4-14	352-353	=	*[1]	SOFTWARE[1]	
+4-15	353-359	1.12.1	*[1]	SOFTWARE[1]	
+4-16	360-368	datasets	*	SOFTWARE	
+4-17	369-377	evaluate	*	SOFTWARE	
+4-18	378-388	accelerate	*	SOFTWARE	
+4-19	389-393	tqdm	*	SOFTWARE	
+4-20	394-395	`	_	_	
+4-21	395-396	`	_	_	
+4-22	396-397	`	_	_	
+4-23	399-400	#	_	_	
+4-24	400-401	#	_	_	
+4-25	402-416	Implementation	_	_	
+4-26	417-419	of	_	_	
+4-27	420-422	DP	_	_	
+4-28	423-434	fine-tuning	_	_	
+4-29	436-439	The	_	_	
+4-30	440-452	transformers	*	SOFTWARE	
+4-31	453-460	package	_	_	
+4-32	461-463	in	_	_	
+4-33	464-465	`	_	_	
+4-34	465-478	dp_finetuning	_	_	
+4-35	478-479	`	_	_	
+4-36	480-487	enables	_	_	
+4-37	488-490	DP	_	_	
+4-38	491-499	training	_	_	
+4-39	499-500	.	_	_	
+
+#Text=We register Pytorch backward hooks to linear layers to enable per-example gradient computation.
+5-1	502-504	We	_	_	
+5-2	505-513	register	_	_	
+5-3	514-521	Pytorch	*	SOFTWARE	
+5-4	522-530	backward	_	_	
+5-5	531-536	hooks	_	_	
+5-6	537-539	to	_	_	
+5-7	540-546	linear	_	_	
+5-8	547-553	layers	_	_	
+5-9	554-556	to	_	_	
+5-10	557-563	enable	_	_	
+5-11	564-575	per-example	_	_	
+5-12	576-584	gradient	_	_	
+5-13	585-596	computation	_	_	
+5-14	596-597	.	_	_	
+
+#Text=The implementation of hooks is in `src/transformers/models/grad_sample_utils.py`.
+6-1	599-602	The	_	_	
+6-2	603-617	implementation	_	_	
+6-3	618-620	of	_	_	
+6-4	621-626	hooks	_	_	
+6-5	627-629	is	_	_	
+6-6	630-632	in	_	_	
+6-7	633-634	`	_	_	
+6-8	634-637	src	_	_	
+6-9	637-638	/	_	_	
+6-10	638-650	transformers	*	SOFTWARE	
+6-11	650-651	/	_	_	
+6-12	651-657	models	_	_	
+6-13	657-658	/	_	_	
+6-14	658-678	grad_sample_utils.py	_	_	
+6-15	678-679	`	_	_	
+6-16	679-680	.	_	_	
+
+#Text=The hooks are attached to the model in `src/transformers/models/gpt2.py`
+#Text=
+#Text=## The first stage: selective pre-training.
+#Text=
+#Text=1.
+7-1	681-684	The	_	_	
+7-2	685-690	hooks	_	_	
+7-3	691-694	are	_	_	
+7-4	695-703	attached	_	_	
+7-5	704-706	to	_	_	
+7-6	707-710	the	_	_	
+7-7	711-716	model	_	_	
+7-8	717-719	in	_	_	
+7-9	720-721	`	_	_	
+7-10	721-724	src	_	_	
+7-11	724-725	/	_	_	
+7-12	725-737	transformers	*	SOFTWARE	
+7-13	737-738	/	_	_	
+7-14	738-744	models	_	_	
+7-15	744-745	/	_	_	
+7-16	745-749	gpt2	_	_	
+7-17	749-750	.	_	_	
+7-18	750-752	py	_	_	
+7-19	752-753	`	_	_	
+7-20	755-756	#	_	_	
+7-21	756-757	#	_	_	
+7-22	758-761	The	_	_	
+7-23	762-767	first	_	_	
+7-24	768-773	stage	_	_	
+7-25	773-774	:	_	_	
+7-26	775-784	selective	_	_	
+7-27	785-797	pre-training	_	_	
+7-28	797-798	.	_	_	
+7-29	800-801	1	_	_	
+7-30	801-802	.	_	_	
+
+#Text=Run the following command to download Wikipedia + BookCorpus, and split the documents into natural sentences.
+8-1	803-806	Run	_	_	
+8-2	807-810	the	_	_	
+8-3	811-820	following	_	_	
+8-4	821-828	command	_	_	
+8-5	829-831	to	_	_	
+8-6	832-840	download	_	_	
+8-7	841-850	Wikipedia	_	_	
+8-8	851-852	+	_	_	
+8-9	853-863	BookCorpus	_	_	
+8-10	863-864	,	_	_	
+8-11	865-868	and	_	_	
+8-12	869-874	split	_	_	
+8-13	875-878	the	_	_	
+8-14	879-888	documents	_	_	
+8-15	889-893	into	_	_	
+8-16	894-901	natural	_	_	
+8-17	902-911	sentences	_	_	
+8-18	911-912	.	_	_	
+
+#Text=The resulting dataset is saved at `data/flatten_wiki_book_sentences.ds`.
+#Text=
+#Text=```
+#Text=cd pretraining_data_selection
+#Text=python splitting_into_sentences.py
+#Text=```
+#Text=
+#Text=2.
+9-1	913-916	The	_	_	
+9-2	917-926	resulting	_	_	
+9-3	927-934	dataset	_	_	
+9-4	935-937	is	_	_	
+9-5	938-943	saved	_	_	
+9-6	944-946	at	_	_	
+9-7	947-948	`	_	_	
+9-8	948-952	data	_	_	
+9-9	952-953	/	_	_	
+9-10	953-983	flatten_wiki_book_sentences.ds	_	_	
+9-11	983-984	`	_	_	
+9-12	984-985	.	_	_	
+9-13	987-988	`	_	_	
+9-14	988-989	`	_	_	
+9-15	989-990	`	_	_	
+9-16	991-993	cd	_	_	
+9-17	994-1020	pretraining_data_selection	_	_	
+9-18	1021-1027	python	*	SOFTWARE	
+9-19	1028-1055	splitting_into_sentences.py	_	_	
+9-20	1056-1057	`	_	_	
+9-21	1057-1058	`	_	_	
+9-22	1058-1059	`	_	_	
+9-23	1061-1062	2	_	_	
+9-24	1062-1063	.	_	_	
+
+#Text=Prepare the data for training the domain classifier.
+10-1	1064-1071	Prepare	_	_	
+10-2	1072-1075	the	_	_	
+10-3	1076-1080	data	_	_	
+10-4	1081-1084	for	_	_	
+10-5	1085-1093	training	_	_	
+10-6	1094-1097	the	_	_	
+10-7	1098-1104	domain	_	_	
+10-8	1105-1115	classifier	_	_	
+10-9	1115-1116	.	_	_	
+
+#Text=The results are saved at `data/sst2/filter_train_nonewline.json` and `data/sst2/filter_val_nonewline.json`.
+#Text=
+#Text=```
+#Text=python build_classifier_data_for_sst2.py
+#Text=```
+#Text=
+#Text=3.
+11-1	1117-1120	The	_	_	
+11-2	1121-1128	results	_	_	
+11-3	1129-1132	are	_	_	
+11-4	1133-1138	saved	_	_	
+11-5	1139-1141	at	_	_	
+11-6	1142-1143	`	_	_	
+11-7	1143-1147	data	_	_	
+11-8	1147-1148	/	_	_	
+11-9	1148-1152	sst2	*	DATASET	
+11-10	1152-1153	/	_	_	
+11-11	1153-1180	filter_train_nonewline.json	_	_	
+11-12	1180-1181	`	_	_	
+11-13	1182-1185	and	_	_	
+11-14	1186-1187	`	_	_	
+11-15	1187-1191	data	_	_	
+11-16	1191-1192	/	_	_	
+11-17	1192-1196	sst2	*	DATASET	
+11-18	1196-1197	/	_	_	
+11-19	1197-1222	filter_val_nonewline.json	_	_	
+11-20	1222-1223	`	_	_	
+11-21	1223-1224	.	_	_	
+11-22	1226-1227	`	_	_	
+11-23	1227-1228	`	_	_	
+11-24	1228-1229	`	_	_	
+11-25	1230-1236	python	*	SOFTWARE	
+11-26	1237-1267	build_classifier_data_for_sst2	_	_	
+11-26.1	1263-1267	sst2	*	DATASET	
+11-27	1267-1268	.	_	_	
+11-28	1268-1270	py	_	_	
+11-29	1271-1272	`	_	_	
+11-30	1272-1273	`	_	_	
+11-31	1273-1274	`	_	_	
+11-32	1276-1277	3	_	_	
+11-33	1277-1278	.	_	_	
+
+#Text=Train the domain classifier with DP-Adam and compute the logits of the trained classifier on all pre-training sentences.
+12-1	1279-1284	Train	_	_	
+12-2	1285-1288	the	_	_	
+12-3	1289-1295	domain	_	_	
+12-4	1296-1306	classifier	_	_	
+12-5	1307-1311	with	_	_	
+12-6	1312-1319	DP-Adam	_	_	
+12-7	1320-1323	and	_	_	
+12-8	1324-1331	compute	_	_	
+12-9	1332-1335	the	_	_	
+12-10	1336-1342	logits	_	_	
+12-11	1343-1345	of	_	_	
+12-12	1346-1349	the	_	_	
+12-13	1350-1357	trained	_	_	
+12-14	1358-1368	classifier	_	_	
+12-15	1369-1371	on	_	_	
+12-16	1372-1375	all	_	_	
+12-17	1376-1388	pre-training	_	_	
+12-18	1389-1398	sentences	_	_	
+12-19	1398-1399	.	_	_	
+
+#Text=The logits are saved at `dp_finetuning/sst2/domain_classifier_output`.
+13-1	1400-1403	The	_	_	
+13-2	1404-1410	logits	_	_	
+13-3	1411-1414	are	_	_	
+13-4	1415-1420	saved	_	_	
+13-5	1421-1423	at	_	_	
+13-6	1424-1425	`	_	_	
+13-7	1425-1438	dp_finetuning	_	_	
+13-8	1438-1439	/	_	_	
+13-9	1439-1443	sst2	*	DATASET	
+13-10	1443-1444	/	_	_	
+13-11	1444-1468	domain_classifier_output	_	_	
+13-12	1468-1469	`	_	_	
+13-13	1469-1470	.	_	_	
+
+#Text=Please install the local transformers directory, in which we implement per-example gradient computation (`transformers/src/transformers/models/grad_sample_utils.py`), and clipping + noising (`line 709-744 in dp_finetuning/run_glue_no_trainer.py`).
+14-1	1471-1477	Please	_	_	
+14-2	1478-1485	install	_	_	
+14-3	1486-1489	the	_	_	
+14-4	1490-1495	local	_	_	
+14-5	1496-1508	transformers	*	SOFTWARE	
+14-6	1509-1518	directory	_	_	
+14-7	1518-1519	,	_	_	
+14-8	1520-1522	in	_	_	
+14-9	1523-1528	which	_	_	
+14-10	1529-1531	we	_	_	
+14-11	1532-1541	implement	_	_	
+14-12	1542-1553	per-example	_	_	
+14-13	1554-1562	gradient	_	_	
+14-14	1563-1574	computation	_	_	
+14-15	1575-1576	(	_	_	
+14-16	1576-1577	`	_	_	
+14-17	1577-1589	transformers	*	SOFTWARE	
+14-18	1589-1590	/	_	_	
+14-19	1590-1593	src	_	_	
+14-20	1593-1594	/	_	_	
+14-21	1594-1606	transformers	*	SOFTWARE	
+14-22	1606-1607	/	_	_	
+14-23	1607-1613	models	_	_	
+14-24	1613-1614	/	_	_	
+14-25	1614-1634	grad_sample_utils.py	_	_	
+14-26	1634-1635	`	_	_	
+14-27	1635-1636	)	_	_	
+14-28	1636-1637	,	_	_	
+14-29	1638-1641	and	_	_	
+14-30	1642-1650	clipping	_	_	
+14-31	1651-1652	+	_	_	
+14-32	1653-1660	noising	_	_	
+14-33	1661-1662	(	_	_	
+14-34	1662-1663	`	_	_	
+14-35	1663-1667	line	_	_	
+14-36	1668-1671	709	_	_	
+14-37	1671-1672	-	_	_	
+14-38	1672-1675	744	_	_	
+14-39	1676-1678	in	_	_	
+14-40	1679-1692	dp_finetuning	_	_	
+14-41	1692-1693	/	_	_	
+14-42	1693-1715	run_glue_no_trainer.py	_	_	
+14-43	1715-1716	`	_	_	
+14-44	1716-1717	)	_	_	
+14-45	1717-1718	.	_	_	
+
+#Text=This implementation only supports single GPU training for dp fine-tuning.
+#Text=
+#Text=```
+#Text=cd ..
+15-1	1719-1723	This	_	_	
+15-2	1724-1738	implementation	_	_	
+15-3	1739-1743	only	_	_	
+15-4	1744-1752	supports	_	_	
+15-5	1753-1759	single	_	_	
+15-6	1760-1763	GPU	_	_	
+15-7	1764-1772	training	_	_	
+15-8	1773-1776	for	_	_	
+15-9	1777-1779	dp	_	_	
+15-10	1780-1791	fine-tuning	_	_	
+15-11	1791-1792	.	_	_	
+15-12	1794-1795	`	_	_	
+15-13	1795-1796	`	_	_	
+15-14	1796-1797	`	_	_	
+15-15	1798-1800	cd	_	_	
+15-16	1801-1802	.	_	_	
+15-17	1802-1803	.	_	_	
+
+#Text=/dp_finetuning
+#Text=cd transformers
+#Text=pip install --editable .
+#Text=cd ..
+#Text=```
+#Text=
+#Text=
+#Text=```
+#Text=bash scripts/train_domain_classifier.sh 1.4 1 64 32 1e-3
+#Text=```
+#Text=
+#Text=> The arguments are: noise_multiplier, clip, pergpu_bs, gradient accumulation steps, and learning rate.
+16-1	1803-1804	/	_	_	
+16-2	1804-1817	dp_finetuning	_	_	
+16-3	1818-1820	cd	_	_	
+16-4	1821-1833	transformers	*	SOFTWARE	
+16-5	1834-1837	pip	*	SOFTWARE	
+16-6	1838-1845	install	_	_	
+16-7	1846-1847	-	_	_	
+16-8	1847-1848	-	_	_	
+16-9	1848-1856	editable	_	_	
+16-10	1857-1858	.	_	_	
+16-11	1859-1861	cd	_	_	
+16-12	1862-1863	.	_	_	
+16-13	1863-1864	.	_	_	
+16-14	1865-1866	`	_	_	
+16-15	1866-1867	`	_	_	
+16-16	1867-1868	`	_	_	
+16-17	1871-1872	`	_	_	
+16-18	1872-1873	`	_	_	
+16-19	1873-1874	`	_	_	
+16-20	1875-1879	bash	*	PROGLANG	
+16-21	1880-1887	scripts	_	_	
+16-22	1887-1888	/	_	_	
+16-23	1888-1914	train_domain_classifier.sh	_	_	
+16-24	1915-1918	1.4	_	_	
+16-25	1919-1920	1	_	_	
+16-26	1921-1923	64	_	_	
+16-27	1924-1926	32	_	_	
+16-28	1927-1929	1e	_	_	
+16-29	1929-1930	-	_	_	
+16-30	1930-1931	3	_	_	
+16-31	1932-1933	`	_	_	
+16-32	1933-1934	`	_	_	
+16-33	1934-1935	`	_	_	
+16-34	1937-1938	>	_	_	
+16-35	1939-1942	The	_	_	
+16-36	1943-1952	arguments	_	_	
+16-37	1953-1956	are	_	_	
+16-38	1956-1957	:	_	_	
+16-39	1958-1974	noise_multiplier	_	_	
+16-40	1974-1975	,	_	_	
+16-41	1976-1980	clip	_	_	
+16-42	1980-1981	,	_	_	
+16-43	1982-1991	pergpu_bs	_	_	
+16-44	1991-1992	,	_	_	
+16-45	1993-2001	gradient	_	_	
+16-46	2002-2014	accumulation	_	_	
+16-47	2015-2020	steps	_	_	
+16-48	2020-2021	,	_	_	
+16-49	2022-2025	and	_	_	
+16-50	2026-2034	learning	_	_	
+16-51	2035-2039	rate	_	_	
+16-52	2039-2040	.	_	_	
+
+#Text=We compute the logits in the function 'filter_pretraining_data' in 'run_glue_no_trainer.py'.
+17-1	2041-2043	We	_	_	
+17-2	2044-2051	compute	_	_	
+17-3	2052-2055	the	_	_	
+17-4	2056-2062	logits	_	_	
+17-5	2063-2065	in	_	_	
+17-6	2066-2069	the	_	_	
+17-7	2070-2078	function	_	_	
+17-8	2079-2080	'	_	_	
+17-9	2080-2103	filter_pretraining_data	_	_	
+17-10	2103-2104	'	_	_	
+17-11	2105-2107	in	_	_	
+17-12	2108-2109	'	_	_	
+17-13	2109-2131	run_glue_no_trainer.py	_	_	
+17-14	2131-2132	'	_	_	
+17-15	2132-2133	.	_	_	
+
+#Text=In this implementation, only 1 GPU is used for training the domain classifier and computing the logits.
+#Text=
+#Text=
+#Text=4.
+18-1	2134-2136	In	_	_	
+18-2	2137-2141	this	_	_	
+18-3	2142-2156	implementation	_	_	
+18-4	2156-2157	,	_	_	
+18-5	2158-2162	only	_	_	
+18-6	2163-2164	1	_	_	
+18-7	2165-2168	GPU	_	_	
+18-8	2169-2171	is	_	_	
+18-9	2172-2176	used	_	_	
+18-10	2177-2180	for	_	_	
+18-11	2181-2189	training	_	_	
+18-12	2190-2193	the	_	_	
+18-13	2194-2200	domain	_	_	
+18-14	2201-2211	classifier	_	_	
+18-15	2212-2215	and	_	_	
+18-16	2216-2225	computing	_	_	
+18-17	2226-2229	the	_	_	
+18-18	2230-2236	logits	_	_	
+18-19	2236-2237	.	_	_	
+18-20	2240-2241	4	_	_	
+18-21	2241-2242	.	_	_	
+
+#Text=Use the logits to select pre-training sentences.
+19-1	2243-2246	Use	_	_	
+19-2	2247-2250	the	_	_	
+19-3	2251-2257	logits	_	_	
+19-4	2258-2260	to	_	_	
+19-5	2261-2267	select	_	_	
+19-6	2268-2280	pre-training	_	_	
+19-7	2281-2290	sentences	_	_	
+19-8	2290-2291	.	_	_	
+
+#Text=The argument is target number of pre-training tokens (in M).
+20-1	2292-2295	The	_	_	
+20-2	2296-2304	argument	_	_	
+20-3	2305-2307	is	_	_	
+20-4	2308-2314	target	_	_	
+20-5	2315-2321	number	_	_	
+20-6	2322-2324	of	_	_	
+20-7	2325-2337	pre-training	_	_	
+20-8	2338-2344	tokens	_	_	
+20-9	2345-2346	(	_	_	
+20-10	2346-2348	in	_	_	
+20-11	2349-2350	M	_	_	
+20-12	2350-2351	)	_	_	
+20-13	2351-2352	.	_	_	
+
+#Text=**In this simple implementation, we directly select natural sentences instead of fixed-length sequences.** We found that this simple implementation is enough to achieve good performance on SST-2. 
+#Text=
+#Text=```
+#Text=cd ..
+21-1	2353-2354	*	_	_	
+21-2	2354-2355	*	_	_	
+21-3	2355-2357	In	_	_	
+21-4	2358-2362	this	_	_	
+21-5	2363-2369	simple	_	_	
+21-6	2370-2384	implementation	_	_	
+21-7	2384-2385	,	_	_	
+21-8	2386-2388	we	_	_	
+21-9	2389-2397	directly	_	_	
+21-10	2398-2404	select	_	_	
+21-11	2405-2412	natural	_	_	
+21-12	2413-2422	sentences	_	_	
+21-13	2423-2430	instead	_	_	
+21-14	2431-2433	of	_	_	
+21-15	2434-2446	fixed-length	_	_	
+21-16	2447-2456	sequences	_	_	
+21-17	2456-2457	.	_	_	
+21-18	2457-2458	*	_	_	
+21-19	2458-2459	*	_	_	
+21-20	2460-2462	We	_	_	
+21-21	2463-2468	found	_	_	
+21-22	2469-2473	that	_	_	
+21-23	2474-2478	this	_	_	
+21-24	2479-2485	simple	_	_	
+21-25	2486-2500	implementation	_	_	
+21-26	2501-2503	is	_	_	
+21-27	2504-2510	enough	_	_	
+21-28	2511-2513	to	_	_	
+21-29	2514-2521	achieve	_	_	
+21-30	2522-2526	good	_	_	
+21-31	2527-2538	performance	_	_	
+21-32	2539-2541	on	_	_	
+21-33	2542-2545	SST	*[2]	DATASET[2]	
+21-34	2545-2546	-	*[2]	DATASET[2]	
+21-35	2546-2547	2	*[2]	DATASET[2]	
+21-36	2547-2548	.	_	_	
+21-37	2551-2552	`	_	_	
+21-38	2552-2553	`	_	_	
+21-39	2553-2554	`	_	_	
+21-40	2555-2557	cd	_	_	
+21-41	2558-2559	.	_	_	
+21-42	2559-2560	.	_	_	
+
+#Text=/pretraining_data_selection
+#Text=python sampling_with_logits.py --num_tokens 40
+#Text=```
+#Text=
+#Text=> You can also select random sentences.
+#Text=
+#Text=```
+#Text=python sampling_with_logits.py --num_tokens 40 --random
+#Text=```
+#Text=
+#Text=5.
+22-1	2560-2561	/	_	_	
+22-2	2561-2587	pretraining_data_selection	_	_	
+22-3	2588-2594	python	*	SOFTWARE	
+22-4	2595-2618	sampling_with_logits.py	_	_	
+22-5	2619-2620	-	_	_	
+22-6	2620-2621	-	_	_	
+22-7	2621-2631	num_tokens	_	_	
+22-8	2632-2634	40	_	_	
+22-9	2635-2636	`	_	_	
+22-10	2636-2637	`	_	_	
+22-11	2637-2638	`	_	_	
+22-12	2640-2641	>	_	_	
+22-13	2642-2645	You	_	_	
+22-14	2646-2649	can	_	_	
+22-15	2650-2654	also	_	_	
+22-16	2655-2661	select	_	_	
+22-17	2662-2668	random	_	_	
+22-18	2669-2678	sentences	_	_	
+22-19	2678-2679	.	_	_	
+22-20	2681-2682	`	_	_	
+22-21	2682-2683	`	_	_	
+22-22	2683-2684	`	_	_	
+22-23	2685-2691	python	*	SOFTWARE	
+22-24	2692-2715	sampling_with_logits.py	_	_	
+22-25	2716-2717	-	_	_	
+22-26	2717-2718	-	_	_	
+22-27	2718-2728	num_tokens	_	_	
+22-28	2729-2731	40	_	_	
+22-29	2732-2733	-	_	_	
+22-30	2733-2734	-	_	_	
+22-31	2734-2740	random	_	_	
+22-32	2741-2742	`	_	_	
+22-33	2742-2743	`	_	_	
+22-34	2743-2744	`	_	_	
+22-35	2746-2747	5	_	_	
+22-36	2747-2748	.	_	_	
+
+#Text=Pre-training on selected data.
+23-1	2749-2761	Pre-training	_	_	
+23-2	2762-2764	on	_	_	
+23-3	2765-2773	selected	_	_	
+23-4	2774-2778	data	_	_	
+23-5	2778-2779	.	_	_	
+
+#Text=Install standard transformers package, i.e., without pre-example gradients computation.
+24-1	2780-2787	Install	_	_	
+24-2	2788-2796	standard	_	_	
+24-3	2797-2809	transformers	*	SOFTWARE	
+24-4	2810-2817	package	_	_	
+24-5	2817-2818	,	_	_	
+24-6	2819-2822	i.e	_	_	
+24-7	2822-2823	.	_	_	
+24-8	2823-2824	,	_	_	
+24-9	2825-2832	without	_	_	
+24-10	2833-2844	pre-example	_	_	
+24-11	2845-2854	gradients	_	_	
+24-12	2855-2866	computation	_	_	
+24-13	2866-2867	.	_	_	
+
+#Text=This also enables pre-training with multi gpus.
+#Text=
+#Text=```
+#Text=cd ..
+25-1	2868-2872	This	_	_	
+25-2	2873-2877	also	_	_	
+25-3	2878-2885	enables	_	_	
+25-4	2886-2898	pre-training	_	_	
+25-5	2899-2903	with	_	_	
+25-6	2904-2909	multi	_	_	
+25-7	2910-2914	gpus	_	_	
+25-8	2914-2915	.	_	_	
+25-9	2917-2918	`	_	_	
+25-10	2918-2919	`	_	_	
+25-11	2919-2920	`	_	_	
+25-12	2921-2923	cd	_	_	
+25-13	2924-2925	.	_	_	
+25-14	2925-2926	.	_	_	
+
+#Text=/pretraining
+#Text=cd transformers
+#Text=pip install --editable .
+#Text=cd ..
+#Text=```
+#Text=
+#Text=
+#Text=
+#Text=```
+#Text=bash scripts/pretraining.sh pretraining_data_40m.ds tiny 3e-4 1000000 32 8 1
+#Text=```
+#Text=
+#Text=> The arguments are: pre-training data path, model size (tiny=5M), lr, pre-training steps, per-gpu-bs, num_gpus, gradient accumulation
+26-1	2926-2927	/	_	_	
+26-2	2927-2938	pretraining	_	_	
+26-3	2939-2941	cd	_	_	
+26-4	2942-2954	transformers	*	SOFTWARE	
+26-5	2955-2958	pip	*	SOFTWARE	
+26-6	2959-2966	install	_	_	
+26-7	2967-2968	-	_	_	
+26-8	2968-2969	-	_	_	
+26-9	2969-2977	editable	_	_	
+26-10	2978-2979	.	_	_	
+26-11	2980-2982	cd	_	_	
+26-12	2983-2984	.	_	_	
+26-13	2984-2985	.	_	_	
+26-14	2986-2987	`	_	_	
+26-15	2987-2988	`	_	_	
+26-16	2988-2989	`	_	_	
+26-17	2993-2994	`	_	_	
+26-18	2994-2995	`	_	_	
+26-19	2995-2996	`	_	_	
+26-20	2997-3001	bash	*	PROGLANG	
+26-21	3002-3009	scripts	_	_	
+26-22	3009-3010	/	_	_	
+26-23	3010-3024	pretraining.sh	_	_	
+26-24	3025-3041	pretraining_data	_	_	
+26-25	3041-3042	_	_	_	
+26-26	3042-3048	40m.ds	_	_	
+26-27	3049-3053	tiny	_	_	
+26-28	3054-3056	3e	_	_	
+26-29	3056-3057	-	_	_	
+26-30	3057-3058	4	_	_	
+26-31	3059-3066	1000000	_	_	
+26-32	3067-3069	32	_	_	
+26-33	3070-3071	8	_	_	
+26-34	3072-3073	1	_	_	
+26-35	3074-3075	`	_	_	
+26-36	3075-3076	`	_	_	
+26-37	3076-3077	`	_	_	
+26-38	3079-3080	>	_	_	
+26-39	3081-3084	The	_	_	
+26-40	3085-3094	arguments	_	_	
+26-41	3095-3098	are	_	_	
+26-42	3098-3099	:	_	_	
+26-43	3100-3112	pre-training	_	_	
+26-44	3113-3117	data	_	_	
+26-45	3118-3122	path	_	_	
+26-46	3122-3123	,	_	_	
+26-47	3124-3129	model	_	_	
+26-48	3130-3134	size	_	_	
+26-49	3135-3136	(	_	_	
+26-50	3136-3140	tiny	_	_	
+26-51	3140-3141	=	_	_	
+26-52	3141-3143	5M	_	_	
+26-53	3143-3144	)	_	_	
+26-54	3144-3145	,	_	_	
+26-55	3146-3148	lr	_	_	
+26-56	3148-3149	,	_	_	
+26-57	3150-3162	pre-training	_	_	
+26-58	3163-3168	steps	_	_	
+26-59	3168-3169	,	_	_	
+26-60	3170-3180	per-gpu-bs	_	_	
+26-61	3180-3181	,	_	_	
+26-62	3182-3190	num_gpus	_	_	
+26-63	3190-3191	,	_	_	
+26-64	3192-3200	gradient	_	_	
+26-65	3201-3213	accumulation	_	_	
+
+#Text=.
+27-1	3213-3214	.	_	_	
+
+#Text=> You can also pre-train on random data.
+#Text=
+#Text=```
+#Text=bash scripts/pretraining.sh pretraining_data_random_40m.ds tiny 3e-4 1000000 32 8 1
+#Text=```
+#Text=
+#Text=## Finally, the second stage: private fine-tuning.
+#Text=
+#Text=6.
+28-1	3216-3217	>	_	_	
+28-2	3218-3221	You	_	_	
+28-3	3222-3225	can	_	_	
+28-4	3226-3230	also	_	_	
+28-5	3231-3240	pre-train	_	_	
+28-6	3241-3243	on	_	_	
+28-7	3244-3250	random	_	_	
+28-8	3251-3255	data	_	_	
+28-9	3255-3256	.	_	_	
+28-10	3258-3259	`	_	_	
+28-11	3259-3260	`	_	_	
+28-12	3260-3261	`	_	_	
+28-13	3262-3266	bash	_	_	
+28-14	3267-3274	scripts	_	_	
+28-15	3274-3275	/	_	_	
+28-16	3275-3289	pretraining.sh	_	_	
+28-17	3290-3313	pretraining_data_random	_	_	
+28-18	3313-3314	_	_	_	
+28-19	3314-3320	40m.ds	_	_	
+28-20	3321-3325	tiny	_	_	
+28-21	3326-3328	3e	_	_	
+28-22	3328-3329	-	_	_	
+28-23	3329-3330	4	_	_	
+28-24	3331-3338	1000000	_	_	
+28-25	3339-3341	32	_	_	
+28-26	3342-3343	8	_	_	
+28-27	3344-3345	1	_	_	
+28-28	3346-3347	`	_	_	
+28-29	3347-3348	`	_	_	
+28-30	3348-3349	`	_	_	
+28-31	3351-3352	#	_	_	
+28-32	3352-3353	#	_	_	
+28-33	3354-3361	Finally	_	_	
+28-34	3361-3362	,	_	_	
+28-35	3363-3366	the	_	_	
+28-36	3367-3373	second	_	_	
+28-37	3374-3379	stage	_	_	
+28-38	3379-3380	:	_	_	
+28-39	3381-3388	private	_	_	
+28-40	3389-3400	fine-tuning	_	_	
+28-41	3400-3401	.	_	_	
+28-42	3403-3404	6	_	_	
+28-43	3404-3405	.	_	_	
+
+#Text=Private fine-tuning on sst-2.
+29-1	3406-3413	Private	_	_	
+29-2	3414-3425	fine-tuning	_	_	
+29-3	3426-3428	on	_	_	
+29-4	3429-3432	sst	*[3]	DATASET[3]	
+29-5	3432-3433	-	*[3]	DATASET[3]	
+29-6	3433-3434	2	*[3]	DATASET[3]	
+29-7	3434-3435	.	_	_	
+
+#Text=Don't forget installing dp enabled transformers package.
+#Text=
+#Text=```
+#Text=cd ..
+30-1	3436-3441	Don't	_	_	
+30-2	3442-3448	forget	_	_	
+30-3	3449-3459	installing	_	_	
+30-4	3460-3462	dp	_	_	
+30-5	3463-3470	enabled	_	_	
+30-6	3471-3483	transformers	*	SOFTWARE	
+30-7	3484-3491	package	_	_	
+30-8	3491-3492	.	_	_	
+30-9	3494-3495	`	_	_	
+30-10	3495-3496	`	_	_	
+30-11	3496-3497	`	_	_	
+30-12	3498-3500	cd	_	_	
+30-13	3501-3502	.	_	_	
+30-14	3502-3503	.	_	_	
+
+#Text=/dp_finetuning
+#Text=cd transformers
+#Text=pip install --editable .
+#Text=cd ..
+#Text=```
+#Text=
+#Text=> The argumentments are: pre-trained model path, noise_multiplier, clip, pergpu_bs, gradient accumulation, lr, epochs, seed.
+31-1	3503-3504	/	_	_	
+31-2	3504-3517	dp_finetuning	_	_	
+31-3	3518-3520	cd	_	_	
+31-4	3521-3533	transformers	*	SOFTWARE	
+31-5	3534-3537	pip	*	SOFTWARE	
+31-6	3538-3545	install	_	_	
+31-7	3546-3547	-	_	_	
+31-8	3547-3548	-	_	_	
+31-9	3548-3556	editable	_	_	
+31-10	3557-3558	.	_	_	
+31-11	3559-3561	cd	_	_	
+31-12	3562-3563	.	_	_	
+31-13	3563-3564	.	_	_	
+31-14	3565-3566	`	_	_	
+31-15	3566-3567	`	_	_	
+31-16	3567-3568	`	_	_	
+31-17	3570-3571	>	_	_	
+31-18	3572-3575	The	_	_	
+31-19	3576-3589	argumentments	_	_	
+31-20	3590-3593	are	_	_	
+31-21	3593-3594	:	_	_	
+31-22	3595-3606	pre-trained	_	_	
+31-23	3607-3612	model	_	_	
+31-24	3613-3617	path	_	_	
+31-25	3617-3618	,	_	_	
+31-26	3619-3635	noise_multiplier	_	_	
+31-27	3635-3636	,	_	_	
+31-28	3637-3641	clip	_	_	
+31-29	3641-3642	,	_	_	
+31-30	3643-3652	pergpu_bs	_	_	
+31-31	3652-3653	,	_	_	
+31-32	3654-3662	gradient	_	_	
+31-33	3663-3675	accumulation	_	_	
+31-34	3675-3676	,	_	_	
+31-35	3677-3679	lr	_	_	
+31-36	3679-3680	,	_	_	
+31-37	3681-3687	epochs	_	_	
+31-38	3687-3688	,	_	_	
+31-39	3689-3693	seed	_	_	
+31-40	3693-3694	.	_	_	
+
+#Text=Replace checkpoint-XXXX with your checkpoint.
+#Text=
+#Text=```
+#Text=bash scripts/train_sst2.sh ..
+32-1	3695-3702	Replace	_	_	
+32-2	3703-3718	checkpoint-XXXX	_	_	
+32-3	3719-3723	with	_	_	
+32-4	3724-3728	your	_	_	
+32-5	3729-3739	checkpoint	_	_	
+32-6	3739-3740	.	_	_	
+32-7	3742-3743	`	_	_	
+32-8	3743-3744	`	_	_	
+32-9	3744-3745	`	_	_	
+32-10	3746-3750	bash	*	PROGLANG	
+32-11	3751-3758	scripts	_	_	
+32-12	3758-3759	/	_	_	
+32-13	3759-3769	train_sst2	_	_	
+32-14	3769-3770	.	_	_	
+32-15	3770-3772	sh	_	_	
+32-16	3773-3774	.	_	_	
+32-17	3774-3775	.	_	_	
+
+#Text=/pretraining/results/pretraining_data_random_40m.ds_lr3e-4_maxsteps1000000_tiny/checkpoint-XXXX 1.4 1 32 64 1e-3 30 0
+#Text=```
+33-1	3775-3776	/	_	_	
+33-2	3776-3787	pretraining	_	_	
+33-3	3787-3788	/	_	_	
+33-4	3788-3795	results	_	_	
+33-5	3795-3796	/	_	_	
+33-6	3796-3819	pretraining_data_random	_	_	
+33-7	3819-3820	_	_	_	
+33-8	3820-3831	40m.ds_lr3e	_	_	
+33-9	3831-3832	-	_	_	
+33-10	3832-3833	4	_	_	
+33-11	3833-3834	_	_	_	
+33-12	3834-3849	maxsteps1000000	_	_	
+33-13	3849-3850	_	_	_	
+33-14	3850-3854	tiny	_	_	
+33-15	3854-3855	/	_	_	
+33-16	3855-3870	checkpoint-XXXX	_	_	
+33-17	3871-3874	1.4	_	_	
+33-18	3875-3876	1	_	_	
+33-19	3877-3879	32	_	_	
+33-20	3880-3882	64	_	_	
+33-21	3883-3885	1e	_	_	
+33-22	3885-3886	-	_	_	
+33-23	3886-3887	3	_	_	
+33-24	3888-3890	30	_	_	
+33-25	3891-3892	0	_	_	
+33-26	3893-3894	`	_	_	
+33-27	3894-3895	`	_	_	
+33-28	3895-3896	`	_	_	

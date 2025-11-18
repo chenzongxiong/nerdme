@@ -1,0 +1,3 @@
+```markdown
+# Run the <SOFTWARE>Docker</SOFTWARE> image docker run --gpus all -e CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES --rm --ipc host \    --mount type=bind,source=.,target=/code/ \    --mount type=bind,source=/dev/shm,target=/dev/shm \    borealtc-gpu <PROGLANG>python3</PROGLANG> main.py ```  ## Dataset  The `data` directory contains two different datasets:  * the `<DATASET>BorealTC</DATASET>` dataset, our publicly available dataset * the `<DATASET>Vulpi</DATASET>` dataset, from the 2021 [<PUBLICATION>paper</PUBLICATION>](https://doi.org/10.1016/j.jterra.2020.12.002) of Vulpi et al.
+```

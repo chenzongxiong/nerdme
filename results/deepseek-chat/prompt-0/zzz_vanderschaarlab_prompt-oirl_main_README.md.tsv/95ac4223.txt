@@ -1,0 +1,3 @@
+```markdown
+- (2023.10) Code with <SOFTWARE>LLaMA2</SOFTWARE> has been released. - (2023.10) <PROJECT>Prompt-OIRL</PROJECT> has been featured in a positioning [paper](https://arxiv.org/pdf/2310.06147.pdf) as an example of **inverse alignment**. - (2023.9) <PROJECT>Prompt-OIRL</PROJECT> has been selected as an **oral presentation** at the <WORKSHOP>ENLSP</WORKSHOP> workshop at <CONFERENCE>NeurIPS'2023</CONFERENCE>.  ## 📖  Abstract  > In this study, we aim to enhance the arithmetic reasoning ability of Large Language Models (LLMs) through zero-shot prompt optimization.
+```

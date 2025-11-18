@@ -1,0 +1,1 @@
+Run `cd scripts & bash evaluate4elo.sh` for elo rating

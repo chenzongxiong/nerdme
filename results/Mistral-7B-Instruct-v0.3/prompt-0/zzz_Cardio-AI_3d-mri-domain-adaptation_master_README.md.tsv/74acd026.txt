@@ -1,0 +1,6 @@
+The text contains the following named entities:
+
+```markdown
+Generated with `<PROGLANG>conda</PROGLANG> env export > <DATASET>environment.yml</DATASET>`     │     ├── <SOFTWARE>setup.py</SOFTWARE>           <- Makes project pip installable (pip install -e .) so <PROJECT>src</PROJECT> can be imported     ├── <PROJECT>src</PROJECT>                <- Python modules with classes and functions that will be orchestrated in the notebooks.         ├── <DATASET>data</DATASET>           <- Python modules - Generators, preprocess and postprocess functions         ├── <PROJECT>models</PROJECT>         <- Python modules - TF.keras 2.X Model and Layer definition         ├── <PROJECT>utils</PROJECT>          <- Python modules - Metrics, losses, prediction, evaluation code, TF-callbacks and io-utils         └── <PROJECT>visualization</PROJECT>  <- Python modules - Plot functions for the evaluation and data description
+
+The dataset for this work is

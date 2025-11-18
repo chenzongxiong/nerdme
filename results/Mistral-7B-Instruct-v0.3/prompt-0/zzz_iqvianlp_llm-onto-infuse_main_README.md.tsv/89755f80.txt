@@ -1,0 +1,7 @@
+The python scripts included in this repository **<PROGLANG>Python</PROGLANG>** should be able to read files from and write files to the **<SOFTWARE>resource-folder</SOFTWARE>**.
+
+### 2) Preload MONDO ontology
+Run the **<SOFTWARE>onto/load.py</SOFTWARE>** script: in the **<SOFTWARE>resource-folder</SOFTWARE>** a MONDO ontology pickle object file **<ONTOLOGY>MONDO ontology</ONTOLOGY>** pickle object file will be created, exploited to store the contents of the ontology to support ontological knowledge infusion.
+
+### 3) Generate synthetic definitions of MONDO ontology concepts
+- Add your OpenAI access credentials to prompt GPT-3.5-turbo in the module **<PROGLANG>synth_data_gen/constants.py</PROGLANG>**.

@@ -1,0 +1,7 @@
+The impact of psycholinguistic patterns in discriminating between fake news spreaders and fact checkers <PUBLICATION>[10.3389/fphy.2022.833385](https://www.doi.org/10.3389/fphy.2022.833385)</PUBLICATION>
+
+Creator: <PUBLICATION>Elsevier B.V</PUBLICATION>
+
+[10.3389/fphy.2022.833385]: <DATASET>Data and Knowledge Engineering</DATASET>
+
+Year: <PROJECT>2022</PROJECT>

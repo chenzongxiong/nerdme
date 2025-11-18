@@ -1,0 +1,2 @@
+```bash     <PROGLANG>python</PROGLANG> tools/prepare_data.py     ```     The preparation script performs the following operations:     1.
+```

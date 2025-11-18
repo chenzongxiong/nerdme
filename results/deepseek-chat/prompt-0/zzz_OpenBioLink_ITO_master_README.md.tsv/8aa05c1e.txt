@@ -1,0 +1,1 @@
+You can use a wide variety of frameworks for <PROGLANG>OWL</PROGLANG>, <PROGLANG>RDF</PROGLANG> and the <PROGLANG>SPARQL</PROGLANG> graph query language to access and query the ontology.

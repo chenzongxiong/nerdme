@@ -1,0 +1,1 @@
+To see which vertices in the original model are preserved, check `<SOFTWARE>select_vertex_id.mat</SOFTWARE>` in the .

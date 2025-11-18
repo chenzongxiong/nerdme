@@ -1,0 +1,1 @@
+The goal of the <SOFTWARE>depth completion task</SOFTWARE> is to generate dense depth predictions from sparse and irregular point clouds.

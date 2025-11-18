@@ -1,0 +1,11 @@
+If you find this interesting or relevant to your work, consider citing:  `<PUBLICATION>wvangansbeke_depth_2019</PUBLICATION>`  
+`@inproceedings{<PUBLICATION>wvangansbeke_depth_2019</PUBLICATION>,`  
+`     author={<PERSON>Van Gansbeke, Wouter</PERSON> and <PERSON>Neven, Davy</PERSON> and <PERSON>De Brabandere, Bert</PERSON> and <PERSON>Van Gool, Luc</PERSON>},`  
+`     booktitle={<CONFERENCE>2019 16th International Conference on Machine Vision Applications (MVA)</CONFERENCE>},`  
+`     title={<PUBLICATION>Sparse and Noisy LiDAR Completion with RGB Guidance and Uncertainty</PUBLICATION>},`  
+`     year={2019},`  
+`     pages={1-6},`  
+`     organization={<ORGANIZATION>IEEE</ORGANIZATION>} }`  
+
+## <LICENSE>Creative Commons License</LICENSE>  
+This software is released under a <LICENSE>Creative Commons License</LICENSE> which allows for personal and research use only.

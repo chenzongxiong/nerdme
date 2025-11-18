@@ -1,0 +1,13 @@
+```markdown
+- **"<PUBLICATION>Extracting fuzzy symbolic representation from artificial neural networks</PUBLICATION>"**, <CONFERENCE>NAFIPS</CONFERENCE>, 1999
+  - Maciej Faifer *et al.* *(use fuzzy representation during the tree-induction process)*
+  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/781764)
+- **"<PUBLICATION>DT+GNN: A Fully Explainable Graph Neural Network using Decision Trees</PUBLICATION>"**, <PUBLICATION>arXiv</PUBLICATION>, 2022
+  - Peter Müller *et al.* *(incorporate DTs into graph neural networks)*
+  - [[Paper]](https://arxiv.org/abs/2205.13234)
+- ***NNs perform significance analysis to select attributes***
+- **"<PUBLICATION>ANN-DT: an algorithm for extraction of decision trees from artificial neural networks</PUBLICATION>"**, <PUBLICATION>IEEE Transactions on Neural Networks</PUBLICATION>, 1999
+  - Gregor PJ Schmitz *et al.*
+  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/809084)
+##### *1.2.2 Decompositional Techniques.* Decompositional techniques concern units in the hidden layers.
+```

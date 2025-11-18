@@ -1,0 +1,1 @@
+In the scoring part, the <SOFTWARE>Quantum Approximate Optimization Algorithm</SOFTWARE> (QAOA) is executed a certain number of times, and the scoring curve is used to determine the score of each iteration based on its accuracy.

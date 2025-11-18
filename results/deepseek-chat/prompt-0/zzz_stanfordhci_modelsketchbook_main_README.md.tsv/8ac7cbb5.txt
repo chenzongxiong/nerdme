@@ -1,0 +1,1 @@
+`<SOFTWARE>ModelSketchBook</SOFTWARE> is designed to work with datasets in <PROGLANG>Pandas</PROGLANG> DataFrame format.`

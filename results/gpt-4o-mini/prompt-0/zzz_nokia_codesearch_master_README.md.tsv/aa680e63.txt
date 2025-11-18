@@ -1,0 +1,1 @@
+In addition, the <PROJECT>project</PROJECT> also implements some *code-only* retrieval models (<EVALMETRIC>BM25</EVALMETRIC>, <EVALMETRIC>NCS</EVALMETRIC>, <EVALMETRIC>UNIF</EVALMETRIC>) for snippet collections that do not come with descriptions.

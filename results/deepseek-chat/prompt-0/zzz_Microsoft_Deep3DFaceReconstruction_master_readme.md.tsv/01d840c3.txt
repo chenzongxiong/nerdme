@@ -1,0 +1,3 @@
+```markdown
+**Note that the pre-compiled file can only be run with <SOFTWARE>tensorflow 1.12</SOFTWARE>.**  If you install <SOFTWARE>tensorflow</SOFTWARE> using <PROGLANG>conda</PROGLANG>, you have to compile <SOFTWARE>tf_mesh_renderer</SOFTWARE> from sources.
+```

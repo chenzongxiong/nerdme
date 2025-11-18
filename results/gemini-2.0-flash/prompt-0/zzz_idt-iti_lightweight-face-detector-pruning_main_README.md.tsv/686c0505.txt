@@ -1,0 +1,1 @@
+Additionally, the code was developed using <PROGLANG>Python</PROGLANG> 3.11.7, <SOFTWARE>CUDA</SOFTWARE> 11.4 and <SOFTWARE>Ubuntu</SOFTWARE> 20.04.06 LTS.

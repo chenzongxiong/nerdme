@@ -1,0 +1,3 @@
+```markdown
+A mapping from the model names/classes/configs in the repository to the models reported in the paper is as follows:  `<SOFTWARE>src/evaluation/evaluate.py</SOFTWARE>`: Contain code to generate rankings over the evaluation datasets.
+```

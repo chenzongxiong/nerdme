@@ -1,0 +1,3 @@
+```markdown
+<br> Please note that, hence, the results couldn't be reproduced if you use smaller hardware than V100.  ### <DATASET>COCO Caption</DATASET>  ``` <PROGLANG>python</PROGLANG> train_coco.py .
+```

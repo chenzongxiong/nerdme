@@ -1,0 +1,1 @@
+We focus on active learning papers of medical image analysis which were published on top-tier journals or `<CONFERENCE>conferences</CONFERENCE>`.

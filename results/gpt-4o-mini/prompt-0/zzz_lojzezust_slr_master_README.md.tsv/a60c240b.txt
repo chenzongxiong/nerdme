@@ -1,0 +1,3 @@
+```markdown
+TIP] > Use the `<SOFTWARE>--help</SOFTWARE>` switch for more details on all possible arguments and settings.  #### <CONFERENCE>MODS</CONFERENCE> inference  `<SOFTWARE>tools/mods_inference.py</SOFTWARE>` can be used in a similar fashion to run inference on the <DATASET>MODS benchmark</DATASET>
+```

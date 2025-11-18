@@ -1,0 +1,6 @@
+This function will display widgets to select the concepts and the logical operator (<EVALMETRIC>AND</EVALMETRIC> or <EVALMETRIC>OR</EVALMETRIC>) to apply to those concept scores. ``` msb.create_logical_concept_model(sb) ```  <img src=". 
+The model can be used for <PROJECT>Concept-Based Sentiment Analysis</PROJECT> task. 
+It uses the <SOFTWARE>ConceptNet</SOFTWARE> dataset and the <SOFTWARE>WordNet</SOFTWARE> ontology.
+The results can be evaluated using the <EVALMETRIC>F1-Score</EVALMETRIC> and <EVALMETRIC>Accuracy</EVALMETRIC> metrics.
+The model is trained using the <SOFTWARE>TensorFlow</SOFTWARE> framework and the <PROGLANG>Python</PROGLANG> programming language.
+The model is available under the <LICENSE>Apache License 2.0</LICENSE> license.

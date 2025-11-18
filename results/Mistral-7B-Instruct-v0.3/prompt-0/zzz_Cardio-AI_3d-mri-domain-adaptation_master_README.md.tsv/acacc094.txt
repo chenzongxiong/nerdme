@@ -1,0 +1,11 @@
+# Overview - The repository dependencies are saved as `<FILE>environment.yaml</FILE>` conda environment file
+
+# The `<CONFERENCE>International Conference on Learning Representations (ICLR)</CONFERENCE>` 2023 paper proposes a new approach for `<PROGLANG>PyTorch</PROGLANG>`-based `<SOFTWARE>Auto-encoder</SOFTWARE>` models.
+
+# The `<DATASET>CIFAR-10</DATASET>` dataset is widely used for image classification tasks.
+
+# The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`
+
+# The `<WORKSHOP>Thermal Image Super-Resolution</WORKSHOP>` workshop focuses on improving the resolution of thermal images.
+
+# The `<ONTOLOGY>Intelligence Task Ontology</ON

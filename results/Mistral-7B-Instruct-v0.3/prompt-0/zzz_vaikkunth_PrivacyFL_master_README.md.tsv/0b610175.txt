@@ -1,0 +1,1 @@
+The default `<PROGLANG>config.py</PROGLANG>` file also has `<EVALMETRIC>USING_CUMULATIVE</EVALMETRIC>` set to `<EVALMETRIC>True</EVALMETRIC>`.

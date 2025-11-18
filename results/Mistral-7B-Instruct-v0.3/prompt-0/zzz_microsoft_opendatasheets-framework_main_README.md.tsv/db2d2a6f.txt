@@ -1,0 +1,11 @@
+Here's the annotated text in Markdown format:
+
+```
+You can also work with files located locally on your <PROJECT>Paper With Code</PROJECT> project (https://<PROJECT>paperswithcode</PROJECT>.com/).
+
+For example, you can use the <SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>.
+
+The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>.
+
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (ISWC 2019) workshop refers to the [Thermal Image Super-Resolution](https://<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html).
+

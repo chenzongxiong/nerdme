@@ -1,0 +1,1 @@
+```On another terminal/screen run: ``` cd gerbil-SpotWrapNifWS4Test/ <PROGLANG>mvn</PROGLANG> clean -Dmaven.tomcat.port=1235 tomcat:run  ``` 4.```

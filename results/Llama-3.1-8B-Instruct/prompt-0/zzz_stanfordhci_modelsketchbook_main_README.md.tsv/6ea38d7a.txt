@@ -1,0 +1,1 @@
+/docs/media/compare_sketches.png" alt="compare_sketches <SOFTWARE>widgets</SOFTWARE>" width="50%">   ## <PROJECT>Contributing</PROJECT>  Interested in <PROJECT>contributing</PROJECT>?

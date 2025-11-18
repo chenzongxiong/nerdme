@@ -1,0 +1,7 @@
+```
++ Loading data from <DATASET>single or multiple sources</DATASET> from the <DATASET>database</DATASET>   + Loading data from the <DATASET>database</DATASET> into a <SOFTWARE>Pandas dataframe</SOFTWARE>
+Usage: ``` python3 load-sqlite3.py <path-to-database> ```
+
+###  load-json.py
+* How to load <DATASET>NELA</DATASET> in <PROGLANG>JSON</PROGLANG> format with <PROGLANG>Python 3</PROGLANG>
+```

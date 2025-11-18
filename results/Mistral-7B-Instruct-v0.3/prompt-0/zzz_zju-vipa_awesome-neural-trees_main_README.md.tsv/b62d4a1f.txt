@@ -1,0 +1,5 @@
+The text provided does not contain any of the specified entity classes. However, I can provide an example of how the text would be annotated if it contained entities from the guidelines:
+
+```
+In these approaches, "<PROGLANG>neural</PROGLANG>" and "<PROGLANG>tree</PROGLANG>" are separated, *i.e.*, one of NN and DT is assigned to accomplish a specific task, while the other performs as its assistant or interpreter.
+```

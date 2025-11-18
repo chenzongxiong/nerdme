@@ -1,0 +1,1 @@
+DT algorithms have two key ideas: "decision" and "tree".

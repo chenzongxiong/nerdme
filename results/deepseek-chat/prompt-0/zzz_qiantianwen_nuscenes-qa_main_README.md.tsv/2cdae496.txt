@@ -1,0 +1,3 @@
+```markdown
+[<PROJECT>DataConstruction</PROJECT>](docs/data_construction.png)  ## :fire: News  - `2024.11.01`  <SOFTWARE>CenterPoint</SOFTWARE> feature released
+```

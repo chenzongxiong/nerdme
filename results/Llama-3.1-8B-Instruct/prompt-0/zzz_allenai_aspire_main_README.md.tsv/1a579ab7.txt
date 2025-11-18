@@ -1,0 +1,1 @@
+These are the functions `<SOFTWARE>filter_cocitation_sentences</SOFTWARE>` and `<SOFTWARE>filter_cocitation_papers</SOFTWARE>`.

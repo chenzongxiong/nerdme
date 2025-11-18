@@ -1,0 +1,6 @@
+To execute the pruning process, use the following commands based on the desired pruning algorithm:
+1. For the `Random Pruning` algorithm, use the following command: `python prune_random.py --model_path /path/to/model --pruning_ratio 0.5`
+2. For the `L1 Pruning` algorithm, use the following command: `python prune_l1.py --model_path /path/to/model --pruning_ratio 0.5`
+3. For the `L2 Pruning` algorithm, use the following command: `python prune_l2.py --model_path /path/to/model --pruning_ratio 0.5`
+
+Note: The commands are based on the `prune_random.py`, `prune_l1.py`, and `prune_l2.py` scripts, which are not provided in the input text. However, the entities are annotated accordingly.

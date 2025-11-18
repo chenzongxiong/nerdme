@@ -1,0 +1,1 @@
+We have provided two sample subclasses, **<PROGLANG>ClientAgent</PROGLANG>** and **<PROGLANG>ServerAgent</PROGLANG>**, which are both used in the sample simulation.   ### <PROGLANG>ClientAgent</PROGLANG>  An instance of the **<PROGLANG>ClientAgent</PROGLANG>** class represents an entity that is training a machine learning model on the same task as the other client agents.

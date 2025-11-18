@@ -1,0 +1,1 @@
+The extracted features are of much lower dimension and contain little useless information, which the `<EVALMETRIC>DejaVu model</EVALMETRIC>` ignores.

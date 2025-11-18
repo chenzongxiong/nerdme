@@ -1,0 +1,3 @@
+```markdown
+For training on <SOFTWARE>SLURM</SOFTWARE> cluster with <SOFTWARE>submitit</SOFTWARE> used the `<PUBLICATION>conf/hydra/meluxina.yaml</PUBLICATION>` as blueprint.
+```

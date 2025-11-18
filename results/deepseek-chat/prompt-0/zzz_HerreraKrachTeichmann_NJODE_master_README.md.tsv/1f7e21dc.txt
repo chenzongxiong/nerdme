@@ -1,0 +1,3 @@
+```markdown
+[DOI](https://zenodo.org/badge/269355048.svg)](https://zenodo.org/badge/latestdoi/269355048)  This repository is the official implementation of  [<PUBLICATION>Neural Jump Ordinary Differential Equations: Consistent Continuous-Time Prediction and Filtering</PUBLICATION>](https://openreview.net/forum?
+```

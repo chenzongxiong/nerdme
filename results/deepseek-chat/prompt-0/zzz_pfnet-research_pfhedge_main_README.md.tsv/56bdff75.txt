@@ -1,0 +1,1 @@
+Indeed, the experiments in `<PUBLICATION>Bühler *et al.* 18</PUBLICATION>`[deep-hedging-qf] and `<PUBLICATION>Imaki *et al.* 21</PUBLICATION>`[ntb-network-arxiv] show high feasibility and scalability of Deep Hedging algorithms for options under transaction costs.

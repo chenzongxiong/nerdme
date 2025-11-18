@@ -1,0 +1,2 @@
+This generates `<SOFTWARE>s2orc_fos.json</SOFTWARE>` **<PROGLANG>Word type pipeline</PROGLANG>**  In the `<DIRECTORY>type_jargon</DIRECTORY>`:
+   FOS - `<PROGLANG>word_counts_per_fos.py</PROGLANG>`: count words per field of study.

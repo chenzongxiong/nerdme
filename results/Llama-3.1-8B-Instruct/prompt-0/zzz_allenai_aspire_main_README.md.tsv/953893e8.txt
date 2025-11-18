@@ -1,0 +1,1 @@
+Functions listed under `<SOFTWARE>write_examples</SOFTWARE> generate training positive pairs for various models (negatives are generated with in-batch negative sampling).

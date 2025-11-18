@@ -1,0 +1,7 @@
+/dataset/<DATASET>README.md</DATASET>).  ## 3.
+
+The <PROJECT>Paper With Code</PROJECT> project (<PUBLICATION>https://<PROJECT>paperswithcode</PROJECT>.com/</PUBLICATION>) provides a platform for researchers to share their code and datasets.
+
+The <PROJECT>Paper With Code</PROJECT> project has a <DATASET>Maules Creek</DATASET> dataset that can be downloaded from (<LICENSE><A HREF="https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip">Download the <DATASET>USTPO MIT</DATASET> dataset</A></LICENSE>).
+
+The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>.

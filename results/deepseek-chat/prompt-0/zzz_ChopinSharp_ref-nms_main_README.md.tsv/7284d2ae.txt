@@ -1,0 +1,1 @@
+It should be picked properly so that the `<EVALMETRIC>recall</EVALMETRIC>` of the referent is high while the number of proposals per expression is around 8-10.

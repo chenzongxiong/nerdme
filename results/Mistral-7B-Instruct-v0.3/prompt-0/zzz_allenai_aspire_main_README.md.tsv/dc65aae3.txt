@@ -1,0 +1,8 @@
+```markdown
+[TODOs](#todos)   ### Artifacts <a name="artifacts"></a>  #### Models <a name="models"></a>  Models described in the paper are released as Hugging Face models:
+  `otAspire`:
+   - [`allenai/aspire-contextualsentence-multim-compsci`](https://huggingface.co/allenai/aspire-contextualsentence-multim-compsci)
+   - [`allenai/aspire-contextualsentence-multim-biomed`](https://huggingface.co/allenai/aspire-contextualsentence-multim-biomed)
+  `tsAspire`:
+   - [`allenai/aspire-contextualsentence-singlem-compsci`](https://huggingface.co/allenai/aspire-contextualsentence-singlem-compsci)
+   - [`allenai/aspire-contextualsentence-singlem-biomed`](https://huggingface.co/allenai/aspire-

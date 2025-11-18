@@ -1,0 +1,1 @@
+We recommend using a GPU with at least 12 GB of memory.

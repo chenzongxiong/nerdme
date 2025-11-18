@@ -1,0 +1,1 @@
+Memory requirements were similarly varying, ranging between 2-80 GB of RAM and 4-8 GB of GPU memory.

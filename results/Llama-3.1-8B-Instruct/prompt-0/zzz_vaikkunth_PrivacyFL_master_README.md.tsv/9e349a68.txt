@@ -1,0 +1,1 @@
+The source code is currently set up for the configuration of three clients performing secure and differentially private federated learning using logistic <SOFTWARE>regression</SOFTWARE> on the <DATASET>MNIST</DATASET> <DATASET>dataset</DATASET>.

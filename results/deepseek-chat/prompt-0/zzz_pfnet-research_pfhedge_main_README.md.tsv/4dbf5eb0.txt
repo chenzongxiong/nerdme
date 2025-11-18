@@ -1,0 +1,3 @@
+```markdown
+[<SOFTWARE>codecov</SOFTWARE>](https://<SOFTWARE>codecov</SOFTWARE>.io/gh/pfnet-research/pfhedge/branch/main/graph/badge.svg?
+```

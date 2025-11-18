@@ -1,0 +1,1 @@
+`See the <LICENSE>license</LICENSE> for more information.`

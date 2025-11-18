@@ -1,0 +1,1 @@
+A mapping from the <SOFTWARE>model names/classes/configs</SOFTWARE> in the repository to the models reported in the paper is as follows:  `<SOFTWARE>src/evaluation/evaluate.py</SOFTWARE>`: Contain code to generate rankings over the <DATASET>evaluation datasets</DATASET>.

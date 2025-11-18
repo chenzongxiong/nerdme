@@ -1,0 +1,3 @@
+```markdown
+jury eval --config path/to/config.json  ### Custom Metrics  You can use custom metrics with inheriting `<PROGLANG>jury.metrics.Metric</PROGLANG>`, you can see current metrics implemented on Jury from [jury/metrics](https://github.com/obss/jury/tree/master/jury/metrics).
+```

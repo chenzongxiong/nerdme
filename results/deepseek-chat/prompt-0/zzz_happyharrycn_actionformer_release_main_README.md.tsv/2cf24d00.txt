@@ -1,0 +1,3 @@
+```markdown
+/pretrained/anet_i3d_reproduce/ ```  * The results (<EVALMETRIC>mAP</EVALMETRIC> at tIoUs) with I3D features should be  | Method            |  0.5  |  0.75 |  0.95 |  Avg  | |-------------------|-------|-------|-------|-------| | ActionFormer      | 54.29 | 36.71 |  8.24 | 36.03 |  ## To Reproduce Our Results on <DATASET>EPIC Kitchens 100</DATASET> **Download Features and Annotations** * Download *<DATASET>epic_kitchens.tar.gz</DATASET>* (`md5sum add9803756afd9a023bc9a9c547e0229`) from [this Box link](https://uwmadison.box.com/s/vdha47qnce6jhqktz9g4mq1gc40w82yj) or [this Google Drive Link](https://drive.google.com/file/d/1Z4U_dLuu6_cV5NBIrSzsSDOOj2Uar85X/view?
+```

@@ -1,0 +1,1 @@
+`#<DATASET>GT</DATASET>: The number of object-level pixel-wise masks (ground truth for SOD).`

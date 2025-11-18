@@ -1,0 +1,1 @@
+Each label also has an associated confidence score.

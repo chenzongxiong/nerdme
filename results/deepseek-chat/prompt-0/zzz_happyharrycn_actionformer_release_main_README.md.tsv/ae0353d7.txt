@@ -1,0 +1,3 @@
+```markdown
+/configs/<SOFTWARE>anet_i3d.yaml</SOFTWARE> --output reproduce ```  * Evaluate the trained model.
+```

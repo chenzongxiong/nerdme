@@ -1,0 +1,3 @@
+```markdown
+/processed_data <PROGLANG>python</PROGLANG> preprocess_img.py  # Alternatively, you can set your custom image path and save path <PROGLANG>python</PROGLANG> preprocess_img.py --img_path <raw_img_path> --save_path <save_path_for_processed_data>  ```  ### Training networks ### 1.
+```

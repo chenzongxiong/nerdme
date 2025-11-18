@@ -1,0 +1,3 @@
+```markdown
+See [environment.yml](environment.yml) for complete environment settings. - <PROGLANG>python</PROGLANG> 3.7.6 - <PROGLANG>pytorch</PROGLANG> 1.1.0 - <PROGLANG>torchvision</PROGLANG> 0.3.0 - <PROGLANG>tensorboard</PROGLANG> 2.1.0 - <PROGLANG>spacy</PROGLANG> 2.2.3  ## Data Preparation Follow instructions in `data/README.md` to setup `data` directory.
+```

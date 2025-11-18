@@ -1,0 +1,9 @@
+The `EVAL_RESULT` folder (that is a sub-folder of the resource-folder) contains `.eval` text files with `<EVALMETRIC>Evaluation results</EVALMETRIC>`.
+
+### Reference `<PUBLICATION>Publication</PUBLICATION>`
+The code shared by this repository implements the ontological knowledge infusion approach presented by the following `<PUBLICATION>publication</PUBLICATION>`:
+- **TITLE**: `<TITLE>Towards Ontology-Enhanced Representation Learning for Large Language Models</TITLE>`
+- **AUTHORS**: `<AUTHOR>Francesco Ronzano</AUTHOR>` and `<AUTHOR>Jay Nanavati</AUTHOR>`
+- **AFFILIATION**: `<AFFILIATION>IQVIA</AFFILIATION>`
+- **ARXIV LINK**: `<URL>https://arxiv.org/abs/2405.20527</URL>`
+- **DATE**: `<DATE>3

@@ -1,0 +1,10 @@
+```markdown
+View example usage and sample document matches here: [`examples/demo-contextualsentence-multim.ipynb`](https://github.com/allenai/aspire/blob/main/examples/demo-contextualsentence-multim.ipynb)  ##### `<PROJECT>SPECTER-CoCite</PROJECT>`  The `<PROJECT>SPECTER-CoCite</PROJECT>` bi-encoder model can be used via the `transformers` library as:
+  ````python
+  from transformers import AutoModel, AutoTokenizer
+  aspire_bienc = AutoModel.from_pretrained('allenai/aspire-biencoder-compsci-spec')
+  aspire_tok = AutoTokenizer.from_pretrained('allenai/aspire-biencoder-compsci-spec')
+  title = "Multi-Vector Models with Textual Guidance for Fine-Grained Scientific "
+           "Document Similarity"
+  abstract = "We present a new scientific document similarity model based on matching "
+              "fine-grained

@@ -1,0 +1,1 @@
+It achieves state-of-the-art performance on multiple datasets such as `<DATASET>FaceWarehouse</DATASET>`, `<DATASET>MICC Florence</DATASET>` and `<DATASET>BU-3DFE</DATASET>`.     ## Features  ### ● Accurate shapes The method reconstructs faces with high accuracy.

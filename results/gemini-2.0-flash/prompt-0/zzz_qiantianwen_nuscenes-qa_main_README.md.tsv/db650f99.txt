@@ -1,0 +1,1 @@
+# [<CONFERENCE>AAAI 2024</CONFERENCE>] <DATASET>NuScenes-QA</DATASET> Official repository for the <CONFERENCE>AAAI 2024</CONFERENCE> paper **[<PUBLICATION>NuScenes-QA: A Multi-modal Visual Question Answering Benchmark for Autonomous Driving Scenario</PUBLICATION>](https://arxiv.org/pdf/2305.14836.pdf)**.  !

@@ -1,0 +1,21 @@
+# <PUBLICATION>How Does Message Passing Improve Collaborative Filtering?</PUBLICATION> <CONFERENCE>ICLR 2023</CONFERENCE> Source code for the paper **[How Does Message Passing Improve Collaborative Filtering?]**
+ 
+The proposed model aggregates the message passing information from the <SOFTWARE>GraphSAGE</SOFTWARE> layer and the <SOFTWARE>GraphAttention</SOFTWARE> layer.
+ 
+The <DATASET>Yelp</DATASET> dataset is used for the experiments, which can be downloaded from [https://www.kaggle.com/yelp/dataset](https://www.kaggle.com/yelp/dataset).
+ 
+The <SOFTWARE>PyTorch</SOFTWARE> implementation of the proposed method is available at [https://github.com/...](https://github.com/...).
+ 
+The <PROJECT>GraphSAGE</PROJECT> project is a library for graph neural networks, and it provides a lot of useful tools and models for graph-based machine learning tasks.
+ 
+The <CONFERENCE>ICLR 2023</CONFERENCE> is a top-tier conference in the field of machine learning.
+ 
+The <PUBLICATION>How Does Message Passing Improve Collaborative Filtering?</PUBLICATION> paper presents a new method for collaborative filtering, which uses message passing to improve the performance of the model.
+ 
+The <SOFTWARE>PyTorch</SOFTWARE> library is a popular deep learning framework, and it provides a lot of useful tools and models for deep learning tasks.
+ 
+The <DATASET>Yelp</DATASET> dataset is a large dataset of user reviews, and it is commonly used for evaluating the performance of collaborative filtering models.
+ 
+The <PROJECT>GraphSAGE</PROJECT> project is a library for graph neural networks, and it provides a lot of useful tools and models for graph-based machine learning tasks.
+ 
+The <CONFERENCE>ICLR 2023</CONFERENCE> is a top-tier conference in the field of machine learning.

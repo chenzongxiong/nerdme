@@ -1,0 +1,1 @@
+ModelSketchBook instantiates a vision of <PROJECT>model sketching</PROJECT>, a technical framework for rapidly iterating over a machine learning model's decision-making logic.

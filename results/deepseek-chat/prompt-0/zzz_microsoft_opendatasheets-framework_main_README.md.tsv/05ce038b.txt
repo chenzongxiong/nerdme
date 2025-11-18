@@ -1,0 +1,3 @@
+```markdown
+# Citation  If you use the <SOFTWARE>Open Datasheets</SOFTWARE> framework in your research or <PROJECT>project</PROJECT>, please cite our <PUBLICATION>paper</PUBLICATION>:  ``` @article{roman2023open,   title={<PUBLICATION>Open Datasheets: Machine-readable Documentation for Open Datasets and Responsible AI Assessments</PUBLICATION>},   author={Roman, Anthony Cintron and Vaughan, Jennifer Wortman and See, Valerie and Ballard, Steph and Schifano, Nicolas and Torres, Jehu and Robinson, Caleb and Ferres, Juan M Lavista},   journal={<PUBLICATION>arXiv preprint arXiv:2312.06153</PUBLICATION>},   year={2023} } ```
+```

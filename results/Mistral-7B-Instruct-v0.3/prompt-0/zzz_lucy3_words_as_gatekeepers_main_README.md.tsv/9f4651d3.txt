@@ -1,0 +1,1 @@
+`It also generates the figure that summarizes whether some fields tend to use more <EVALMETRIC>jargon</EVALMETRIC> than others, and whether a field tends to use lots of <EVALMETRIC>distinctive words</EVALMETRIC>, or repurpose existing words with <EVALMETRIC>distinctive meanings</EVALMETRIC>`

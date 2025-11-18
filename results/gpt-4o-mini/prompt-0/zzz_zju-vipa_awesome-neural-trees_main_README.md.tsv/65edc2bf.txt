@@ -1,0 +1,1 @@
+Adopt <PROGLANG>DTs</PROGLANG> to approximate the target concept of <PROGLANG>NNs</PROGLANG> in terms of logical descriptions, *i.e.*, use <PROGLANG>DTs</PROGLANG> to design <PROGLANG>NNs</PROGLANG> with structural priors.

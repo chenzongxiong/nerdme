@@ -1,0 +1,2 @@
+### Annotated Text
+The original reported results are from the `<PROJECT>Papers With Code</PROJECT>` project. First, follow the README in each repository to reproduce the original reported results as baseline (c.f. `<PUBLICATION>Reproducibility of State-of-the-art Natural Language Processing Research</PUBLICATION>`).

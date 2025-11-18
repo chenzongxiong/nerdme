@@ -1,0 +1,3 @@
+```markdown
+│ └───data/ │    └───<DATASET>anet_1.3</DATASET>/ │    │  └───annotations │    │  └───tsp_features    │    └───... | └───libs │ │   ... ```  **Training and Evaluation** * Train our <SOFTWARE>ActionFormer</SOFTWARE> with TSP features.
+```

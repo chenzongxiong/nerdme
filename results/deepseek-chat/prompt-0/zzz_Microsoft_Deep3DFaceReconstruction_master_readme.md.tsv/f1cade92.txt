@@ -1,0 +1,3 @@
+```markdown
+/mesh_renderer/kernels/<SOFTWARE>BUILD</SOFTWARE> before the compilation**: ``` cd <SOFTWARE>tf_mesh_renderer</SOFTWARE> git checkout ba27ea1798 git checkout master <SOFTWARE>WORKSPACE</SOFTWARE> bazel test ... cd .. ``` If the library is compiled correctly, there should be a file named "<SOFTWARE>rasterize_triangles_kernel.so</SOFTWARE>" in .
+```

@@ -1,0 +1,1 @@
+Our predictions submitted to the `<WORKSHOP>workshop</WORKSHOP>` can be found either in the subfolder `<FILE>en/</FILE>`, or the file `<FILE>UniHD.zip</FILE>`.

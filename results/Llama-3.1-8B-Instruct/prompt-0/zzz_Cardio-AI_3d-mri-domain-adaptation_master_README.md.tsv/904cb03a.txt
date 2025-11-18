@@ -1,0 +1,8 @@
+Use the Notebooks to interact (train, predict or evaluate) with the <PROGLANG>Python</PROGLANG> functions.  
+## <PROJECT>Repository Structure</PROJECT>  
+      ├── <LICENSE>LICENSE</LICENSE>  
+      ├── <SOFTWARE>Makefile</SOFTWARE>           <- <SOFTWARE>Makefile</SOFTWARE> with commands like'make environment'  
+      ├── <PUBLICATION>README.md</PUBLICATION>          <- The top-level <PUBLICATION>README</PUBLICATION> for developers using this project.  
+      ├── <SOFTWARE>data</SOFTWARE>  
+      │   ├── <SOFTWARE>metadata</SOFTWARE>       <- Excel and csv files with additional metadata are stored here  
+      │   ├── <SOFTWARE>interim</SOFTWARE>        <- Intermediate data that has been transformed

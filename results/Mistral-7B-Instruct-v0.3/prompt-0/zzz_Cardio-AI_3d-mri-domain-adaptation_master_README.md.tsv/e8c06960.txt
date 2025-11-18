@@ -1,0 +1,13 @@
+The tensorflow model and layer definitions are within `<PROJECT>/src/models`.
+
+The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is ...
+
+The `<SOFTWARE>Protege ontology editor</SOFTWARE>` to explore and edit the resource.
+
+The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`
+
+The `<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>` (ISWC 2019)
+
+Download the `<DATASET>USTPO MIT</DATASET>` dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip)
+
+The evaluation metrics used are `<EVALMETRIC>Precision</EVAL

@@ -1,0 +1,1 @@
+Other required packages can be installed with `python3 -m pip install -r <SOFTWARE>requirements.txt</SOFTWARE>` from the main repository folder.

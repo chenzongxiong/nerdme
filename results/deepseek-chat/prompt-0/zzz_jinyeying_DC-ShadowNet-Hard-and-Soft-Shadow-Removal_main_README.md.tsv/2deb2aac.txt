@@ -1,0 +1,3 @@
+```markdown
+p=dc-shadownet-single-image-hard-and-soft-1)  ## Prerequisites ``` git clone https://github.com/jinyeying/<SOFTWARE>DC-ShadowNet-Hard-and-Soft-Shadow-Removal</SOFTWARE>.git cd <SOFTWARE>DC-ShadowNet-Hard-and-Soft-Shadow-Removal</SOFTWARE>/ conda create -n shadow <PROGLANG>python</PROGLANG>=3.7 conda activate shadow conda install <SOFTWARE>pytorch</SOFTWARE>=1.10.2 <SOFTWARE>torchvision</SOFTWARE> <SOFTWARE>torchaudio</SOFTWARE> <SOFTWARE>cudatoolkit</SOFTWARE>=11.3 -c <SOFTWARE>pytorch</SOFTWARE> <PROGLANG>python3</PROGLANG> -m pip install -r requirements.txt ```  ## <DATASET>Datasets</DATASET> 1.
+```

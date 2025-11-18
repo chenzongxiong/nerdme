@@ -1,0 +1,1 @@
+`FCIS is initially described in a <PUBLICATION>CVPR 2017 spotlight paper</PUBLICATION> (<URL>https://arxiv.org/abs/1611.07709</URL>).`

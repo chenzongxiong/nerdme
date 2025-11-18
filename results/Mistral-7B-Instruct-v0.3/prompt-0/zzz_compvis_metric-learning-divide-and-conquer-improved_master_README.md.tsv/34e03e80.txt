@@ -1,0 +1,11 @@
+```
+└───cabinet_final |   │   xxx.jpg |       ... | bicycle.txt | ... | cabinet_final.txt
+* For In-shop Clothes and PKU Vehicle id datasets, simply download them from the above given links and unzip their folder as they originally are.
+## Results
+__CUB200__
+Variants | Loss/Sampling |   NMI  |  mARP  | Recall @ 1 -- 2 -- 4 -- 8
+---------|--------------- |--------|------|-----------------
+fixed |  Margin/Distance    | 68.60 | 54.98 | 67.39 -- 77.43 --  84.82 --  90.83
+learn |  Margin/Distance    | 69.84 | 55.11 | __67.71__ --  78.14 --  85.80 --  91.46
+__Cars196__
+Variants | Loss/Sampling |   NMI  |  mARP 

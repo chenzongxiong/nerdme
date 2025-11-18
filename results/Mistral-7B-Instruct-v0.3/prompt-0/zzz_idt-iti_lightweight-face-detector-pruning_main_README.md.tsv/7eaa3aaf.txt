@@ -1,0 +1,4 @@
+The `WIDER` folder should be placed in the same directory as the `EXTD` and `EResFD` folders.
+
+## Dependencies
+A `requirements.txt` file is provided with all the necessary `<PROGLANG>Python</PROGLANG>` dependencies.

@@ -1,0 +1,1 @@
+Note: At the time of collecting the data, all links in <SOFTWARE>literature_links.tsv</SOFTWARE> were working for the respective <PUBLICATION>sources</PUBLICATION>.

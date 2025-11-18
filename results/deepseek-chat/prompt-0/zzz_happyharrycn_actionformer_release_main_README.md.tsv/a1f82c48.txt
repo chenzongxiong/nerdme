@@ -1,0 +1,1 @@
+**Details**: All features are extracted at `1.875 fps` from videos at `30 fps`.

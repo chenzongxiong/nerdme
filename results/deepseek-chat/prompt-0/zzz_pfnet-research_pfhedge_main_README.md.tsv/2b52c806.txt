@@ -1,0 +1,1 @@
+This strategy is the optimal one in the absence of cost.

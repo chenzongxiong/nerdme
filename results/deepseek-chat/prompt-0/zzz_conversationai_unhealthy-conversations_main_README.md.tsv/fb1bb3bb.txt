@@ -1,0 +1,1 @@
+In addition to labels and confidence scores for each of the above-mentioned attributes, each comment includes the number of trusted judgements which were aggregated to yield the results labels and confidence scores (see paper for details).

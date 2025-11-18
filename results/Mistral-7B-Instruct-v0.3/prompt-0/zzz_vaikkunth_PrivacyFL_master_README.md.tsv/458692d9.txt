@@ -1,0 +1,1 @@
+`On the other hand, the <PROJECT>personal accuracy</PROJECT> will remain the same since it is assumed you don't add differentially private noise to your <PROJECT>personal model</PROJECT> since you are not sharing it.`

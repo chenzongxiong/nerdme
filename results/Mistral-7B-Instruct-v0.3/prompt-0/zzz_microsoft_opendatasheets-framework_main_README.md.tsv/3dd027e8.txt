@@ -1,0 +1,6 @@
+```
+For more information see the <PUBLICATION>Code of Conduct FAQ</PUBLICATION> at <SOFTWARE>https://opensource.microsoft.com/codeofconduct/faq/</SOFTWARE> or contact <EMAIL>opencode@microsoft.com</EMAIL> with any additional questions or comments.
+
+## Trademarks
+This project may contain trademarks or logos for <PROJECT>projects, products, or services.</PROJECT>
+```

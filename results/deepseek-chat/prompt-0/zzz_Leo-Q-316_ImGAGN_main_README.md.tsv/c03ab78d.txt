@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+It introduces a novel generator for graph structure data, named **<SOFTWARE>GraphGenerator</SOFTWARE>**, which can simulate both the minority class nodes’ attribute distribution and network topological structure distribution by generating a set of synthetic minority nodes such that the number of nodes in different classes can be balanced.   ## Requirements  + <PROGLANG>PyTorch</PROGLANG> >= 0.4  + <PROGLANG>Python</PROGLANG> >= 3.6  ## Usage  ### Dataset  The datasets can be downloaded from [<DATASET>Cora</DATASET>](https://relational.fit.cvut.cz/dataset/CORA), [<DATASET>Citeseer</DATASET>](https://linqs.soe.ucsc.edu/data), [<DATASET>Pubmed</DATASET>](https://linqs.soe.ucsc.edu/data) and [<DATASET>DBLP</DATASET>](https://www.aminer.cn/citation#b541).
+```

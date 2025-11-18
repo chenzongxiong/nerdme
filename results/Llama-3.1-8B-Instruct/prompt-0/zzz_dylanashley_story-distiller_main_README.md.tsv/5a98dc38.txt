@@ -1,0 +1,11 @@
+You can now run the tool by directly executing the `<SOFTWARE>__main__.py</SOFTWARE>` file, or—if you're using Linux or macOS—you can use the `<SOFTWARE>makefile</SOFTWARE>` to compile and then install an executable Python zip archive: 
+```bash
+<SOFTWARE>make</SOFTWARE> all 
+<SOFTWARE>sudo</SOFTWARE> <SOFTWARE>make</SOFTWARE> install 
+```
+## Command-line Tool Usage
+To run the program, execute it while passing the audio files as command-line arguments: 
+```bash
+<SOFTWARE>sdistil</SOFTWARE> files [files...] >> playlist.txt 
+```
+[<SOFTWARE>librosa</SOFTWARE>](https://<SOFTWARE>librosa.org</SOFTWARE>/doc/latest/index.html) is used to process the audio files, so most common audio file types are supported.

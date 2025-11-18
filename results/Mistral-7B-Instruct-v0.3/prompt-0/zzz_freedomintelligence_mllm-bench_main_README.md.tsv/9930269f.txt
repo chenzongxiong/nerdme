@@ -1,0 +1,1 @@
+The worker should inherit `<PROGLANG>BaseWorker</PROGLANG>`.

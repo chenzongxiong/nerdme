@@ -1,0 +1,5 @@
+```markdown
+/docs/media/<PROJECT>test_sketch</PROJECT>.png" alt="test_sketch widgets" width="50%">  ### Compare sketch performance
+Plots performance metrics (Mean Absolute Error, F1 Score, Classification accuracy, precision, and recall) for all of the selected sketches on the specified <DATASET>.
+```
+`<img src=".">` is not a complete entity, so it will not be annotated.

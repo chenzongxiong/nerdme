@@ -1,0 +1,10 @@
+The given text contains the following named entities:
+
+1. `<PROGLANG>Python</PROGLANG>` (PROGLANG)
+2. `<SOFTWARE>Protege ontology editor</SOFTWARE>` (SOFTWARE)
+
+The annotated text in Markdown format is:
+
+```
+One way to fix this is to use higher sleep timeouts when one of the links throws an exception, which has been implemented in some of the `<PROGLANG>Python</PROGLANG>` scripts. 2. You can use the `<SOFTWARE>Protege ontology editor</SOFTWARE>` to explore and edit the resource.
+```

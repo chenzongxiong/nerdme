@@ -1,0 +1,3 @@
+```markdown
+Prepares the prior obstacle segmentation masks - reads RLE encoded <SOFTWARE>Dextr</SOFTWARE> predictions and adds sky and water segmentation based on <SOFTWARE>IMU</SOFTWARE> horizon masks and partial labels.     5.
+```

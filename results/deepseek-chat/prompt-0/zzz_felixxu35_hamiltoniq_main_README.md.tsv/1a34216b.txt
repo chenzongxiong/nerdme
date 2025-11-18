@@ -1,0 +1,3 @@
+```markdown
+/figures/<SOFTWARE>HamilToniQ</SOFTWARE>_logo.png)<SOFTWARE>HamilToniQ</SOFTWARE>: An Open-Source Benchmark Toolkit for Quantum Computers  Table of Contents:  1.
+```

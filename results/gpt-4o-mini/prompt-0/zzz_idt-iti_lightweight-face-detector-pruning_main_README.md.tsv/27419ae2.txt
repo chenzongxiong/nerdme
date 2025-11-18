@@ -1,0 +1,1 @@
+The pruned models that are evaluated in Tables 1 and 2 of our <PUBLICATION>paper</PUBLICATION> are provided, i.e. each of the <SOFTWARE>EXTD</SOFTWARE>, <SOFTWARE>EResFD Face Detectors</SOFTWARE> is pruned using one of the <EVALMETRIC>FPGM</EVALMETRIC>, <EVALMETRIC>L1</EVALMETRIC> pruning techniques, for target pruning rates equal to 10%, 20%, 30%, 40% and 50%.

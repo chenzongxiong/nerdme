@@ -1,0 +1,1 @@
+`This function will display widgets to select the concepts and the logical operator (<PROGLANG>AND</PROGLANG> or <PROGLANG>OR</PROGLANG>) to apply to those concept scores. <CODE>msb.create_logical_concept_model(sb)</CODE> <img src=".<IMAGE>`

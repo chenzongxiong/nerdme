@@ -1,0 +1,13 @@
+The simulation behavior can easily be configured by changing the files in the `<FILE>config file</FILE>`.
+
+The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is ...
+
+The `<PROJECT>Paper With Code</PROJECT>` project (https://<PROJECT>paperswithcode</PROJECT>.com/)
+
+The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`
+
+You can use the `<SOFTWARE>Protege ontology editor</SOFTWARE>` to explore and edit the resource.
+
+Refers to the [Thermal Image Super-Resolution](https://<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html)
+
+Download the `<DATASET>USTPO MIT</DATASET>` dataset from (https://github.com/

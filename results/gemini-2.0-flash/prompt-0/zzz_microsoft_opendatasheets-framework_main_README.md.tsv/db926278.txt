@@ -1,0 +1,1 @@
+It leverages the widely used [<DATASET>Data Package</DATASET>](https://specs.frictionlessdata.io/data-package/) standard to describe the dataset and its metadata, benefiting from the support of various tools and libraries.

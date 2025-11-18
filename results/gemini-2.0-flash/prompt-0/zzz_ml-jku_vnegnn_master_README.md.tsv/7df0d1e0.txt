@@ -1,0 +1,1 @@
+- `bindingsite_test_data/coach420/raw` - `bindingsite_test_data/holo4k/raw` - `bindingsite_test_data/holo4k_split_chain/raw` This `<DATASET>dataset</DATASET>` is the same as the `<DATASET>holo4k dataset</DATASET>`, but the chains are split into separate files.

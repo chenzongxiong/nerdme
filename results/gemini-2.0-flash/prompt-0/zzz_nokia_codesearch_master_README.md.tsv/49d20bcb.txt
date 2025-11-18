@@ -1,0 +1,1 @@
+Stack Overflow dumps can be found here: https://archive.org/details/stackexchange, <LICENSE>https://creativecommons.org/licenses/by-sa/4.0/</LICENSE>                                                             | | staqc-py-cleaned                     | Derived from the <PROGLANG>Python</PROGLANG> StaQC snippets (additional cleaning was done as decribed in the paper).

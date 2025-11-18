@@ -1,0 +1,16 @@
+The <SOFTWARE>transformers</SOFTWARE> library can be used via the <SOFTWARE>transformers</SOFTWARE> library as:
+```python
+from <SOFTWARE>transformers</SOFTWARE> import AutoModel, AutoTokenizer
+aspire_bienc = AutoModel.from_pretrained('allenai/<SOFTWARE>aspire-biencoder-compsci-spec</SOFTWARE>')
+aspire_tok = AutoTokenizer.from_pretrained('allenai/<SOFTWARE>aspire-biencoder-compsci-spec</SOFTWARE>')
+title = "Multi-Vector Models with Textual Guidance for Fine-Grained Scientific "
+         "Document Similarity"
+abstract = "We present a new scientific document similarity model based on matching "
+            "fine-grained aspects of texts."
+d=[title + aspire_tok.sep_token + abstract]
+inputs = aspire_tok(d, padding=True, truncation=True, return_tensors="pt", max_length=512)
+result = aspire_bienc(**inputs)
+clsrep = result.last_hidden_state[:, 0, :]
+```
+However, note that the <SOFTWARE>Hugging Face</SOFTWARE> models don't have a set of additional scalar-mix parameters to compute a learned weighted sum of the representations from different layers of the transformer encoder.
+View example usage and sample document matches here: [`<PROJECT>examples</PROJECT>/demo-contextualsentence-multim.ipynb`](https://github.com/allenai/<PROJECT>aspire</PROJECT>/blob/main/<PROJECT>examples</PROJECT>/demo-contextualsentence-multim.ipynb)  ##### `<DATASET>SPECTER-CoCite</DATASET>`  The `<DATASET>SPECTER-CoCite</DATASET>` bi-encoder model can be used via the `<SOFTWARE>transformers</SOFTWARE>` library as:  ```python from <SOFTWARE>transformers</SOFTWARE> import AutoModel, AutoTokenizer aspire_bienc = AutoModel.from_pretrained('allenai/<SOFTWARE>aspire-biencoder-compsci-spec</SOFTWARE>') aspire_tok = AutoTokenizer.from_pretrained('allenai/<SOFTWARE>aspire-biencoder-compsci-spec</SOFTWARE>') title = "Multi-Vector Models with Textual Guidance for Fine-Grained Scientific "         "Document Similarity" abstract = "We present a new scientific document similarity model based on matching "            "fine-grained aspects of texts." d=[title + aspire_tok.sep_token + abstract] inputs = aspire_tok(d, padding=True, truncation=True, return_tensors="pt", max_length=512) result = aspire_bienc(**inputs) clsrep = result.last_hidden_state[:, 0, :] ```  However, note that the <SOFTWARE>Hugging Face</SOFTWARE> models don't have a set of additional scalar-mix parameters to compute a learned weighted sum of the representations from different layers of the transformer encoder.

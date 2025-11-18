@@ -1,0 +1,1 @@
+Compared with raw metrics, the extracted features are of much lower dimension and contain little useless information, which the <SOFTWARE>DejaVu</SOFTWARE> model ignores.

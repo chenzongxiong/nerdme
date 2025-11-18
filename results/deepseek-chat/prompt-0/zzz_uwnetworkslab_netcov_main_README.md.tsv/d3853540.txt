@@ -1,0 +1,3 @@
+```markdown
+To generate HTML report, use `<PROGLANG>bf.cov.html_report()</PROGLANG>`.  ### Use <SOFTWARE>NetCov</SOFTWARE> for a new <PROGLANG>pybatfish</PROGLANG> script/notebook   We provide a [demo video](https://www.youtube.com/watch?
+```

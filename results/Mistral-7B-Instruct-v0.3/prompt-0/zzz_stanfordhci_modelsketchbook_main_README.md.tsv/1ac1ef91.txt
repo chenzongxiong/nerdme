@@ -1,0 +1,24 @@
+```
+Otherwise, you can provide empty strings.  ``` `sb` = `msb.create_model_sketchbook(
+     goal='Example sketchbook goal here',
+     schema={
+         # Specify your data schema here
+         "<DATASET>Pandas Dataframe</DATASET>": `msb.InputType.DataFrame`,
+         "picture_url": `msb.InputType.Image`,
+         "neighborhood_overview": `msb.InputType.Text`,
+         "description": `msb.InputType.Text`,
+         "overall_rating": `msb.InputType.GroundTruth`,  # Required
+     },
+     credentials={
+         "<LICENSE>cc-by-3</LICENSE>": "org-INSERT",
+         "<LICENSE>CC BY-NC 4.0</LICENSE>": "org-INSERT"
+     }
+ ) ```
+
+### Add your dataset(s)
+Then, add your dataset from a Pandas dataframe (recommended: 40-50 rows).
+
+```python
+import pandas as pd
+
+# Load your dataset

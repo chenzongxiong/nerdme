@@ -1,0 +1,1 @@
+To solve this problem, we calculate similarities based on failure classes rather than single failure units.

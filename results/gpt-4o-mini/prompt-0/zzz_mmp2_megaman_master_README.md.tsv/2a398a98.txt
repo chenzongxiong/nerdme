@@ -1,0 +1,1 @@
+To install <SOFTWARE>megaman</SOFTWARE> and its dependencies, run  ``` $ conda install <SOFTWARE>megaman</SOFTWARE> --channel=<SOFTWARE>conda-forge</SOFTWARE> ```  Currently builds are available for <PROGLANG>OSX</PROGLANG> and <PROGLANG>Linux</PROGLANG>, on <PROGLANG>Python</PROGLANG> 2.7, 3.4, and 3.5.

@@ -1,0 +1,3 @@
+```markdown
+See also the section on installation on how to build dependent projects.  ## Installation  <SOFTWARE>Sql4ml</SOFTWARE> uses the open source <PROJECT>queryparser</PROJECT> (https://github.com/uber/<PROJECT>queryparser</PROJECT>), also in <PROGLANG>Haskell</PROGLANG>.
+```

@@ -1,0 +1,18 @@
+- [Install & Example script]( https://colab.research.google.com/drive/<SOFTWARE>1ms22YK3TvrIx0gji6UZqG0zoSNRCWtXj</SOFTWARE>? 
+  <SOFTWARE>Google Colab</SOFTWARE> provides a free environment for data scientists and ML researchers to work with large datasets, 
+  and <SOFTWARE>Drive</SOFTWARE> allows you to store and share files. 
+  The <SOFTWARE>Jupyter Notebook</SOFTWARE> interface is also available in <SOFTWARE>Colab</SOFTWARE> 
+  to create and share interactive documents with code, equations, visualizations, and narrative text.
+  
+  The <SOFTWARE>Colab</SOFTWARE> environment is based on <SOFTWARE>Jupyter Notebook</SOFTWARE> and supports most <PROGLANG>Python</PROGLANG> packages. 
+  You can install new packages using <SOFTWARE>!pip</SOFTWARE> command. 
+  For example, to install <SOFTWARE>transformers</SOFTWARE> library, run the following command in a cell: 
+  ```
+ !pip install transformers
+  ```
+  
+  To get started with the example script, click on the "Runtime" menu and select "Run all". 
+  The script will be executed, and the output will be displayed below. 
+  You can also use the "Save" button to save the notebook as a <PROGLANG>Python</PROGLANG> script.
+  
+  If you have any questions or need help, feel free to ask in the comments below.

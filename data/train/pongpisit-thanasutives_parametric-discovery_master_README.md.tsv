@@ -1,0 +1,426 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Parametric PDE discovery using UBIC 
+#Text=Using the uncertainty-penalized Bayesian information criterion (UBIC) originally proposed in [Adaptive Uncertainty-Penalized Model Selection for Data-Driven PDE Discovery](https://ieeexplore.ieee.org/document/10401233) to discover parametric PDEs automatically
+1-1	0-1	#	_	_	
+1-2	2-12	Parametric	_	_	
+1-3	13-16	PDE	_	_	
+1-4	17-26	discovery	_	_	
+1-5	27-32	using	_	_	
+1-6	33-37	UBIC	_	_	
+1-7	39-44	Using	_	_	
+1-8	45-48	the	_	_	
+1-9	49-70	uncertainty-penalized	_	_	
+1-10	71-79	Bayesian	_	_	
+1-11	80-91	information	_	_	
+1-12	92-101	criterion	_	_	
+1-13	102-103	(	_	_	
+1-14	103-107	UBIC	_	_	
+1-15	107-108	)	_	_	
+1-16	109-119	originally	_	_	
+1-17	120-128	proposed	_	_	
+1-18	129-131	in	_	_	
+1-19	132-133	[	_	_	
+1-20	133-141	Adaptive	*[1]	PUBLICATION[1]	
+1-21	142-163	Uncertainty-Penalized	*[1]	PUBLICATION[1]	
+1-22	164-169	Model	*[1]	PUBLICATION[1]	
+1-23	170-179	Selection	*[1]	PUBLICATION[1]	
+1-24	180-183	for	*[1]	PUBLICATION[1]	
+1-25	184-195	Data-Driven	*[1]	PUBLICATION[1]	
+1-26	196-199	PDE	*[1]	PUBLICATION[1]	
+1-27	200-209	Discovery	*[1]	PUBLICATION[1]	
+1-28	209-210	]	_	_	
+1-29	210-211	(	_	_	
+1-30	211-216	https	_	_	
+1-31	216-217	:	_	_	
+1-32	217-218	/	_	_	
+1-33	218-219	/	_	_	
+1-34	219-238	ieeexplore.ieee.org	_	_	
+1-35	238-239	/	_	_	
+1-36	239-247	document	_	_	
+1-37	247-248	/	_	_	
+1-38	248-256	10401233	_	_	
+1-39	256-257	)	_	_	
+1-40	258-260	to	_	_	
+1-41	261-269	discover	_	_	
+1-42	270-280	parametric	_	_	
+1-43	281-285	PDEs	_	_	
+1-44	286-299	automatically	_	_	
+
+#Text=.
+2-1	299-300	.	_	_	
+
+#Text=- Please first install our modified pysindy package archived at [this OneDrive link](https://1drv.ms/u/c/39cecf604f8b30de/Ed4wi09gz84ggDl7AAAAAAABgZ89ebMdSRESd2a8jiF01w?
+3-1	302-303	-	_	_	
+3-2	304-310	Please	_	_	
+3-3	311-316	first	_	_	
+3-4	317-324	install	_	_	
+3-5	325-328	our	_	_	
+3-6	329-337	modified	_	_	
+3-7	338-345	pysindy	*	SOFTWARE	
+3-8	346-353	package	_	_	
+3-9	354-362	archived	_	_	
+3-10	363-365	at	_	_	
+3-11	366-367	[	_	_	
+3-12	367-371	this	_	_	
+3-13	372-380	OneDrive	*	SOFTWARE	
+3-14	381-385	link	_	_	
+3-15	385-386	]	_	_	
+3-16	386-387	(	_	_	
+3-17	387-392	https	_	_	
+3-18	392-393	:	_	_	
+3-19	393-394	/	_	_	
+3-20	394-395	/	_	_	
+3-21	395-402	1drv.ms	_	_	
+3-22	402-403	/	_	_	
+3-23	403-404	u	_	_	
+3-24	404-405	/	_	_	
+3-25	405-406	c	_	_	
+3-26	406-407	/	_	_	
+3-27	407-423	39cecf604f8b30de	_	_	
+3-28	423-424	/	_	_	
+3-29	424-470	Ed4wi09gz84ggDl7AAAAAAABgZ89ebMdSRESd2a8jiF01w	_	_	
+3-30	470-471	?	_	_	
+
+#Text=e=6m0EXl) (Password: UBIC).
+4-1	471-472	e	_	_	
+4-2	472-473	=	_	_	
+4-3	473-479	6m0EXl	_	_	
+4-4	479-480	)	_	_	
+4-5	481-482	(	_	_	
+4-6	482-490	Password	_	_	
+4-7	490-491	:	_	_	
+4-8	492-496	UBIC	_	_	
+4-9	496-497	)	_	_	
+4-10	497-498	.	_	_	
+
+#Text=The more updated version is avaiable at [this repository](https://github.com/Pongpisit-Thanasutives/pysindy).
+#Text=- To use the L0BnB best-subset solver, please install [the package](https://github.com/Pongpisit-Thanasutives/l0bnb).
+5-1	499-502	The	_	_	
+5-2	503-507	more	_	_	
+5-3	508-515	updated	_	_	
+5-4	516-523	version	_	_	
+5-5	524-526	is	_	_	
+5-6	527-535	avaiable	_	_	
+5-7	536-538	at	_	_	
+5-8	539-540	[	_	_	
+5-9	540-544	this	_	_	
+5-10	545-555	repository	_	_	
+5-11	555-556	]	_	_	
+5-12	556-557	(	_	_	
+5-13	557-562	https	_	_	
+5-14	562-563	:	_	_	
+5-15	563-564	/	_	_	
+5-16	564-565	/	_	_	
+5-17	565-575	github.com	_	_	
+5-18	575-576	/	_	_	
+5-19	576-598	Pongpisit-Thanasutives	_	_	
+5-20	598-599	/	_	_	
+5-21	599-606	pysindy	_	_	
+5-22	606-607	)	_	_	
+5-23	607-608	.	_	_	
+5-24	609-610	-	_	_	
+5-25	611-613	To	_	_	
+5-26	614-617	use	_	_	
+5-27	618-621	the	_	_	
+5-28	622-627	L0BnB	*	SOFTWARE	
+5-29	628-639	best-subset	_	_	
+5-30	640-646	solver	_	_	
+5-31	646-647	,	_	_	
+5-32	648-654	please	_	_	
+5-33	655-662	install	_	_	
+5-34	663-664	[	_	_	
+5-35	664-667	the	_	_	
+5-36	668-675	package	_	_	
+5-37	675-676	]	_	_	
+5-38	676-677	(	_	_	
+5-39	677-682	https	_	_	
+5-40	682-683	:	_	_	
+5-41	683-684	/	_	_	
+5-42	684-685	/	_	_	
+5-43	685-695	github.com	_	_	
+5-44	695-696	/	_	_	
+5-45	696-718	Pongpisit-Thanasutives	_	_	
+5-46	718-719	/	_	_	
+5-47	719-724	l0bnb	_	_	
+5-48	724-725	)	_	_	
+5-49	725-726	.	_	_	
+
+#Text=The three major files for reproducing the results in [arXiv:2408.08106](https://www.arxiv.org/abs/2408.08106) (accepted as a workshop paper in [the Machine Learning and the Physical Sciences workshop, NeurIPS 2024](https://ml4physicalsciences.github.io/2024/)) are in the following
+6-1	728-731	The	_	_	
+6-2	732-737	three	_	_	
+6-3	738-743	major	_	_	
+6-4	744-749	files	_	_	
+6-5	750-753	for	_	_	
+6-6	754-765	reproducing	_	_	
+6-7	766-769	the	_	_	
+6-8	770-777	results	_	_	
+6-9	778-780	in	_	_	
+6-10	781-782	[	_	_	
+6-11	782-787	arXiv	_	_	
+6-12	787-788	:	_	_	
+6-13	788-798	2408.08106	_	_	
+6-14	798-799	]	_	_	
+6-15	799-800	(	_	_	
+6-16	800-805	https	_	_	
+6-17	805-806	:	_	_	
+6-18	806-807	/	_	_	
+6-19	807-808	/	_	_	
+6-20	808-821	www.arxiv.org	_	_	
+6-21	821-822	/	_	_	
+6-22	822-825	abs	_	_	
+6-23	825-826	/	_	_	
+6-24	826-836	2408.08106	_	_	
+6-25	836-837	)	_	_	
+6-26	838-839	(	_	_	
+6-27	839-847	accepted	_	_	
+6-28	848-850	as	_	_	
+6-29	851-852	a	_	_	
+6-30	853-861	workshop	_	_	
+6-31	862-867	paper	_	_	
+6-32	868-870	in	_	_	
+6-33	871-872	[	_	_	
+6-34	872-875	the	_	_	
+6-35	876-883	Machine	*[2]	WORKSHOP[2]	
+6-36	884-892	Learning	*[2]	WORKSHOP[2]	
+6-37	893-896	and	*[2]	WORKSHOP[2]	
+6-38	897-900	the	*[2]	WORKSHOP[2]	
+6-39	901-909	Physical	*[2]	WORKSHOP[2]	
+6-40	910-918	Sciences	*[2]	WORKSHOP[2]	
+6-41	919-927	workshop	_	_	
+6-42	927-928	,	_	_	
+6-43	929-936	NeurIPS	*[3]	CONFERENCE[3]	
+6-44	937-941	2024	*[3]	CONFERENCE[3]	
+6-45	941-942	]	_	_	
+6-46	942-943	(	_	_	
+6-47	943-948	https	_	_	
+6-48	948-949	:	_	_	
+6-49	949-950	/	_	_	
+6-50	950-951	/	_	_	
+6-51	951-980	ml4physicalsciences.github.io	_	_	
+6-52	980-981	/	_	_	
+6-53	981-985	2024	_	_	
+6-54	985-986	/	_	_	
+6-55	986-987	)	_	_	
+6-56	987-988	)	_	_	
+6-57	989-992	are	_	_	
+6-58	993-995	in	_	_	
+6-59	996-999	the	_	_	
+6-60	1000-1009	following	_	_	
+
+#Text=.
+7-1	1009-1010	.	_	_	
+
+#Text=- Burgers' PDE: `Parametric_Burgers-DEV3.ipynb`
+#Text=- Advection-diffusion PDE: `Spatial_Advection_Diffusion_WeakLib_KRR-DEV3.ipynb`
+#Text=- Kuramoto-Sivashinsky PDE: `Spatial_KS_Equation_Chaotic-DEV2.ipynb`
+#Text=
+#Text=# Citing UBIC
+#Text=
+#Text=```
+#Text=@article{thanasutives2023adaptive,
+#Text=  author={Thanasutives, Pongpisit and Morita, Takashi and Numao, Masayuki and Fukui, Ken-ichi},
+#Text=  journal={IEEE Access},
+#Text=  title={Adaptive Uncertainty-Penalized Model Selection for Data-Driven PDE Discovery},
+#Text=  year={2024},
+#Text=  volume={12},
+#Text=  pages={13165-13182},
+#Text=  doi={10.1109/ACCESS.2024.3354819}
+#Text=}
+#Text=
+#Text=@misc{thanasutives2024adaptation,
+#Text=  title={Adaptation of uncertainty-penalized Bayesian information criterion for parametric partial differential equation discovery}, 
+#Text=  author={Thanasutives, Pongpisit and Fukui, Ken-ichi},
+#Text=  year={2024},
+#Text=  eprint={2408.08106},
+#Text=  archivePrefix={arXiv},
+#Text=  primaryClass={cs.LG},
+#Text=  url={https://arxiv.org/abs/2408.08106}, 
+#Text=}
+#Text=```
+8-1	1012-1013	-	_	_	
+8-2	1014-1021	Burgers	_	_	
+8-3	1021-1022	'	_	_	
+8-4	1023-1026	PDE	_	_	
+8-5	1026-1027	:	_	_	
+8-6	1028-1029	`	_	_	
+8-7	1029-1052	Parametric_Burgers-DEV3	_	_	
+8-8	1052-1053	.	_	_	
+8-9	1053-1058	ipynb	_	_	
+8-10	1058-1059	`	_	_	
+8-11	1060-1061	-	_	_	
+8-12	1062-1081	Advection-diffusion	_	_	
+8-13	1082-1085	PDE	_	_	
+8-14	1085-1086	:	_	_	
+8-15	1087-1088	`	_	_	
+8-16	1088-1132	Spatial_Advection_Diffusion_WeakLib_KRR-DEV3	_	_	
+8-17	1132-1133	.	_	_	
+8-18	1133-1138	ipynb	_	_	
+8-19	1138-1139	`	_	_	
+8-20	1140-1141	-	_	_	
+8-21	1142-1162	Kuramoto-Sivashinsky	_	_	
+8-22	1163-1166	PDE	_	_	
+8-23	1166-1167	:	_	_	
+8-24	1168-1169	`	_	_	
+8-25	1169-1201	Spatial_KS_Equation_Chaotic-DEV2	_	_	
+8-26	1201-1202	.	_	_	
+8-27	1202-1207	ipynb	_	_	
+8-28	1207-1208	`	_	_	
+8-29	1210-1211	#	_	_	
+8-30	1212-1218	Citing	_	_	
+8-31	1219-1223	UBIC	_	_	
+8-32	1225-1226	`	_	_	
+8-33	1226-1227	`	_	_	
+8-34	1227-1228	`	_	_	
+8-35	1229-1230	@	_	_	
+8-36	1230-1237	article	_	_	
+8-37	1237-1238	{	_	_	
+8-38	1238-1262	thanasutives2023adaptive	_	_	
+8-39	1262-1263	,	_	_	
+8-40	1266-1272	author	_	_	
+8-41	1272-1273	=	_	_	
+8-42	1273-1274	{	_	_	
+8-43	1274-1286	Thanasutives	_	_	
+8-44	1286-1287	,	_	_	
+8-45	1288-1297	Pongpisit	_	_	
+8-46	1298-1301	and	_	_	
+8-47	1302-1308	Morita	_	_	
+8-48	1308-1309	,	_	_	
+8-49	1310-1317	Takashi	_	_	
+8-50	1318-1321	and	_	_	
+8-51	1322-1327	Numao	_	_	
+8-52	1327-1328	,	_	_	
+8-53	1329-1337	Masayuki	_	_	
+8-54	1338-1341	and	_	_	
+8-55	1342-1347	Fukui	_	_	
+8-56	1347-1348	,	_	_	
+8-57	1349-1357	Ken-ichi	_	_	
+8-58	1357-1358	}	_	_	
+8-59	1358-1359	,	_	_	
+8-60	1362-1369	journal	_	_	
+8-61	1369-1370	=	_	_	
+8-62	1370-1371	{	_	_	
+8-63	1371-1375	IEEE	_	_	
+8-64	1376-1382	Access	_	_	
+8-65	1382-1383	}	_	_	
+8-66	1383-1384	,	_	_	
+8-67	1387-1392	title	_	_	
+8-68	1392-1393	=	_	_	
+8-69	1393-1394	{	_	_	
+8-70	1394-1402	Adaptive	*[4]	PUBLICATION[4]	
+8-71	1403-1424	Uncertainty-Penalized	*[4]	PUBLICATION[4]	
+8-72	1425-1430	Model	*[4]	PUBLICATION[4]	
+8-73	1431-1440	Selection	*[4]	PUBLICATION[4]	
+8-74	1441-1444	for	*[4]	PUBLICATION[4]	
+8-75	1445-1456	Data-Driven	*[4]	PUBLICATION[4]	
+8-76	1457-1460	PDE	*[4]	PUBLICATION[4]	
+8-77	1461-1470	Discovery	*[4]	PUBLICATION[4]	
+8-78	1470-1471	}	_	_	
+8-79	1471-1472	,	_	_	
+8-80	1475-1479	year	_	_	
+8-81	1479-1480	=	_	_	
+8-82	1480-1481	{	_	_	
+8-83	1481-1485	2024	_	_	
+8-84	1485-1486	}	_	_	
+8-85	1486-1487	,	_	_	
+8-86	1490-1496	volume	_	_	
+8-87	1496-1497	=	_	_	
+8-88	1497-1498	{	_	_	
+8-89	1498-1500	12	_	_	
+8-90	1500-1501	}	_	_	
+8-91	1501-1502	,	_	_	
+8-92	1505-1510	pages	_	_	
+8-93	1510-1511	=	_	_	
+8-94	1511-1512	{	_	_	
+8-95	1512-1517	13165	_	_	
+8-96	1517-1518	-	_	_	
+8-97	1518-1523	13182	_	_	
+8-98	1523-1524	}	_	_	
+8-99	1524-1525	,	_	_	
+8-100	1528-1531	doi	_	_	
+8-101	1531-1532	=	_	_	
+8-102	1532-1533	{	_	_	
+8-103	1533-1540	10.1109	_	_	
+8-104	1540-1541	/	_	_	
+8-105	1541-1547	ACCESS	_	_	
+8-106	1547-1560	.2024.3354819	_	_	
+8-107	1560-1561	}	_	_	
+8-108	1562-1563	}	_	_	
+8-109	1565-1566	@	_	_	
+8-110	1566-1570	misc	_	_	
+8-111	1570-1571	{	_	_	
+8-112	1571-1597	thanasutives2024adaptation	_	_	
+8-113	1597-1598	,	_	_	
+8-114	1601-1606	title	_	_	
+8-115	1606-1607	=	_	_	
+8-116	1607-1608	{	_	_	
+8-117	1608-1618	Adaptation	*[5]	PUBLICATION[5]	
+8-118	1619-1621	of	*[5]	PUBLICATION[5]	
+8-119	1622-1643	uncertainty-penalized	*[5]	PUBLICATION[5]	
+8-120	1644-1652	Bayesian	*[5]	PUBLICATION[5]	
+8-121	1653-1664	information	*[5]	PUBLICATION[5]	
+8-122	1665-1674	criterion	*[5]	PUBLICATION[5]	
+8-123	1675-1678	for	*[5]	PUBLICATION[5]	
+8-124	1679-1689	parametric	*[5]	PUBLICATION[5]	
+8-125	1690-1697	partial	*[5]	PUBLICATION[5]	
+8-126	1698-1710	differential	*[5]	PUBLICATION[5]	
+8-127	1711-1719	equation	*[5]	PUBLICATION[5]	
+8-128	1720-1729	discovery	*[5]	PUBLICATION[5]	
+8-129	1729-1730	}	_	_	
+8-130	1730-1731	,	_	_	
+8-131	1735-1741	author	_	_	
+8-132	1741-1742	=	_	_	
+8-133	1742-1743	{	_	_	
+8-134	1743-1755	Thanasutives	_	_	
+8-135	1755-1756	,	_	_	
+8-136	1757-1766	Pongpisit	_	_	
+8-137	1767-1770	and	_	_	
+8-138	1771-1776	Fukui	_	_	
+8-139	1776-1777	,	_	_	
+8-140	1778-1786	Ken-ichi	_	_	
+8-141	1786-1787	}	_	_	
+8-142	1787-1788	,	_	_	
+8-143	1791-1795	year	_	_	
+8-144	1795-1796	=	_	_	
+8-145	1796-1797	{	_	_	
+8-146	1797-1801	2024	_	_	
+8-147	1801-1802	}	_	_	
+8-148	1802-1803	,	_	_	
+8-149	1806-1812	eprint	_	_	
+8-150	1812-1813	=	_	_	
+8-151	1813-1814	{	_	_	
+8-152	1814-1824	2408.08106	_	_	
+8-153	1824-1825	}	_	_	
+8-154	1825-1826	,	_	_	
+8-155	1829-1842	archivePrefix	_	_	
+8-156	1842-1843	=	_	_	
+8-157	1843-1844	{	_	_	
+8-158	1844-1849	arXiv	_	_	
+8-159	1849-1850	}	_	_	
+8-160	1850-1851	,	_	_	
+8-161	1854-1866	primaryClass	_	_	
+8-162	1866-1867	=	_	_	
+8-163	1867-1868	{	_	_	
+8-164	1868-1873	cs.LG	_	_	
+8-165	1873-1874	}	_	_	
+8-166	1874-1875	,	_	_	
+8-167	1878-1881	url	_	_	
+8-168	1881-1882	=	_	_	
+8-169	1882-1883	{	_	_	
+8-170	1883-1888	https	_	_	
+8-171	1888-1889	:	_	_	
+8-172	1889-1890	/	_	_	
+8-173	1890-1891	/	_	_	
+8-174	1891-1900	arxiv.org	_	_	
+8-175	1900-1901	/	_	_	
+8-176	1901-1904	abs	_	_	
+8-177	1904-1905	/	_	_	
+8-178	1905-1915	2408.08106	_	_	
+8-179	1915-1916	}	_	_	
+8-180	1916-1917	,	_	_	
+8-181	1919-1920	}	_	_	
+8-182	1921-1922	`	_	_	
+8-183	1922-1923	`	_	_	
+8-184	1923-1924	`	_	_	

@@ -1,0 +1,3 @@
+```markdown
+│ └───data/ │    └───<DATASET>thumos</DATASET>/ │    │  └───annotations │    │  └───i3d_features    │    └───... | └───libs │ │   ... ```  **Training and Evaluation** * Train our ActionFormer with I3D features.
+```

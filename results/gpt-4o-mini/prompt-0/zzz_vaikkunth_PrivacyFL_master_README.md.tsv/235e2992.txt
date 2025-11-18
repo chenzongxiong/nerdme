@@ -1,0 +1,1 @@
+See deployment for notes on how to deploy the <PROJECT>project</PROJECT> on a live system.   ### Installing First, clone this <SOFTWARE>repository</SOFTWARE> locally.

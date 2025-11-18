@@ -1,0 +1,6 @@
+```markdown
+/docs/media/<SOFTWARE>create_keyword_concept_model.png</SOFTWARE>" alt="<PROJECT>create_keyword_concept_model</PROJECT> widgets" width="35%">
+
+### Take notes
+You can select from among your <PROJECT>created concepts</PROJECT> and sketches and enter free-text notes into the text field.
+```

@@ -1,0 +1,3 @@
+```markdown
+It is easy to add new architectures to `<SOFTWARE>Models/__init__.py</SOFTWARE>`  - I used a Tesla V100 GPU for evaluation.  ## Acknowledgement This work was supported by Toyota, and was carried out at the `<PROJECT>TRACE Lab</PROJECT>` at `<PROJECT>KU Leuven</PROJECT>` (Toyota Research on Automated Cars in Europe - Leuven)
+```

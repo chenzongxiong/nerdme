@@ -1,0 +1,1 @@
+They borrow some inherent ideas from DTs for NNs, instead of designing a NN that works like a DT.

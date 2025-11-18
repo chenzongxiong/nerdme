@@ -1,0 +1,2 @@
+```shell git clone https://github.com/kshitij3112/<SOFTWARE>EvPSNet</SOFTWARE>.git cd <SOFTWARE>EvPSNet</SOFTWARE> conda env create -n EvPSnet_env --file=environment.yml conda activate EvPSnet_env ``` b.
+```

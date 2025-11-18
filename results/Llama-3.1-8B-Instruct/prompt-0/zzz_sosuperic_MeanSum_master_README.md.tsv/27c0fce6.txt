@@ -1,0 +1,1 @@
+Results will be in `<SOFTWARE>outputs/eval/yelp/n_docs_8/unsup_<run_name></SOFTWARE>` NOTE: Unlike some conventions, 'gpus' option here represents the `<SOFTWARE>GPU ID</SOFTWARE>` (the one which is visible) and NOT the number of `<SOFTWARE>GPUs</SOFTWARE>`.

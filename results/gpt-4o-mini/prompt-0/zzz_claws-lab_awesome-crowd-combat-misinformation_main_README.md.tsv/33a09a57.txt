@@ -1,0 +1,1 @@
+This taxonomy explores the crowd’s capabilities in <EVALMETRIC>misinformation detection</EVALMETRIC>, identifies the prerequisites for effective counter-misinformation, and analyzes crowd-generated counter-misinformation.

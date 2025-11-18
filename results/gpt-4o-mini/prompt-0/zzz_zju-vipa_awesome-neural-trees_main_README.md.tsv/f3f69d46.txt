@@ -1,0 +1,1 @@
+Neural Decision Trees (<PROJECT>NDTs</PROJECT>) are hybrid <PROGLANG>NN</PROGLANG> models that implement both the class hierarchy and the decision branches.

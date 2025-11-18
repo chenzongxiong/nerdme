@@ -1,0 +1,1 @@
+First, it provides network embedding techniques at the <SOFTWARE>node2vec</SOFTWARE> and <SOFTWARE>GraphSAGE</SOFTWARE> level.

@@ -1,0 +1,16 @@
+The `<PROGLANG>Python</PROGLANG>` code snippet demonstrates how to `<FUNCTION>benchmark_on_pacs</FUNCTION>` a model on the `<DATASET>PACS</DATASET>` dataset.
+
+```python
+<FUNCTION>from codesearch.benchmark import benchmark_on_pacs</FUNCTION>
+benchmark_on_pacs(
+    model_path=model_path, # one of the pretrained model names or a path to a model that can be loaded with `codesearch.utils.load_model`
+    output_dir=output_dir
+)
+```
+
+The given text mentions several `<PROGLANG>Python</PROGLANG>` files that implement custom embedding models:
+
+- `<FILE>codesearch/tuse/tuse_embedder.py</FILE>`
+- `<FILE>codesearch/tnbow/tnbow_embedder.py</FILE>`
+- `<FILE>codesearch/ncs/ncs_embedder.py</FILE>`
+- `<FILE>codesearch.utils.load

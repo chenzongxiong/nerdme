@@ -1,0 +1,1 @@
+The following gives a <em>very brief</em> overview of the general functionality, for more detailed examples we refer to the notebooks.   ## Data Preparation The presented pipelines require the hdf5 file format for processing.

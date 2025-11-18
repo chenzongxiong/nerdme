@@ -1,0 +1,1 @@
+We demonstrate the utility of our <EVALMETRIC>metrics</EVALMETRIC> for <ONTOLOGY>science of science</ONTOLOGY> and <ONTOLOGY>computational sociolinguistics</ONTOLOGY> by highlighting two key social implications.

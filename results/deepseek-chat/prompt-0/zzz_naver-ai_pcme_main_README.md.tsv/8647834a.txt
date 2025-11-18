@@ -1,0 +1,3 @@
+```markdown
+# <PROJECT>Probabilistic Cross-Modal Embedding (PCME)</PROJECT> <CONFERENCE>CVPR 2021</CONFERENCE>  Official <PROGLANG>Pytorch</PROGLANG> implementation of <PROJECT>PCME</PROJECT> | [<PUBLICATION>Paper</PUBLICATION>](https://arxiv.org/abs/2101.05068)  [Sanghyuk Chun](https://sanghyukchun.github.io/home/)<sup>1</sup> [Seong Joon Oh](https://seongjoonoh.com/)<sup>1</sup> Rafael Sampaio de Rezende<sup>2</sup> [Yannis Kalantidis](https://www.skamalas.com/)<sup>2</sup> Diane Larlus<sup>2</sup>  <sup>1</sup><sub>[<PROJECT>NAVER AI LAB</PROJECT>](https://naver-career.gitbook.io/en/teams/clova-cic)</sub><br> <sup>2</sup><sub>[<PROJECT>NAVER LABS Europe</PROJECT>](https://europe.naverlabs.com/)</sub>   <a href="https://www.youtube.com/watch?
+```

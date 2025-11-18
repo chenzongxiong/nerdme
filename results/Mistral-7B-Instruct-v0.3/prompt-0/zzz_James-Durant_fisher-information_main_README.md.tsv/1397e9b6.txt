@@ -1,0 +1,10 @@
+Here's the annotated text in Markdown format:
+
+```
+Please ensure you are running a version of **<PROGLANG>Python</PROGLANG>** >= 3.8.0 \
+If you are running an old version of **<SOFTWARE>Anaconda</SOFTWARE>**, you may need to reinstall with a newer version for this.  ## Contact **<EMAIL>Jos Cooper</EMAIL>** - **<EMAIL>jos.cooper@stfc.ac.uk</EMAIL>** \
+**<EMAIL>James Durant</EMAIL>** - **<EMAIL>james.durant@warwick.ac.uk</EMAIL>** \
+**<EMAIL>Lucas Wilkins</EMAIL>** - **<EMAIL>lucas@lucaswilkins.com</EMAIL>**
+
+## Acknowledgements
+This work has been partially supported by the **<CONFERENCE>STFC Facilities Programme Fund</CONFERENCE>** through the **<SOFTWARE>ISIS Neutron and Muon Source</SOFTWARE

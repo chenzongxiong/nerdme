@@ -1,0 +1,3 @@
+```markdown
+Please refer to the related issue template for opening new issues
+```

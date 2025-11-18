@@ -1,0 +1,11 @@
+### Resources
+1. The <CONFERENCE>ICLR 2023</CONFERENCE> paper presents a novel approach to image classification.
+2. Download the <DATASET>ILSVRC</DATASET> dataset from (https://<DATASET>imagenet</DATASET>.org/).
+3. The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>.
+4. Available licenses to use: <LICENSE>MIT</LICENSE> and <LICENSE>Apache 2.0</LICENSE>.
+5. The <ONTOLOGY>DBpedia Ontology</ONTOLOGY> is widely used for knowledge representation.
+6. Programming languages such as <PROGLANG>Java</PROGLANG>, <PROGLANG>C++</PROGLANG>, and <PROGLANG>Python</PROGLANG>.
+7. The <PROJECT>Open Source Intelligence</PROJECT> project aims to collect and analyze open-source data.
+8. A <PUBLICATION>paper</PUBLICATION> on "Transfer Learning for Image Classification" was presented at <CONFERENCE>CVPR 2022</CONFERENCE>.
+9. You can use the <SOFTWARE>PyTorch</SOFTWARE> library to implement the proposed model.
+10. The <WORKSHOP>CVPR 2023 Workshop</WORKSHOP> will be held on May 21st, 2023.

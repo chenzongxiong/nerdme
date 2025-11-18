@@ -1,0 +1,1 @@
+The <SOFTWARE>python</SOFTWARE> split_aggregate_chaps_all_sources.py script is used to process the summaries.

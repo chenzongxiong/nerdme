@@ -1,0 +1,1 @@
+Have a look at the log file (in the case of the example: `<SOFTWARE>log_elk-hermit.txt</SOFTWARE>`) for additional information about the reasoning process.

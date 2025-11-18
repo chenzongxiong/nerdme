@@ -1,0 +1,1 @@
+Without bells and whistles, `<SOFTWARE>ActionFormer</SOFTWARE>` achieves 71.0% `<EVALMETRIC>mAP</EVALMETRIC>` at `<EVALMETRIC>tIoU</EVALMETRIC>=0.5` on `<DATASET>THUMOS14</DATASET>`, outperforming the best prior model by 14.1 absolute percentage points and crossing the 60% `<EVALMETRIC>mAP</EVALMETRIC>` for the first time.

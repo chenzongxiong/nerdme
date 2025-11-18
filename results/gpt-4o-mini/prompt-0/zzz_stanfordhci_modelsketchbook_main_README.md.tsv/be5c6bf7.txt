@@ -1,0 +1,1 @@
+`- <INPUTTYPE>InputType.ImageLocal</INPUTTYPE>: (string) Filepaths to locally-stored images. - <INPUTTYPE>InputType.GroundTruth</INPUTTYPE>: (float or bool) Ground truth labels.`

@@ -1,0 +1,1 @@
+**January 2022**: Preliminary version presented at <CONFERENCE>WACV 2022</CONFERENCE>.  ## About <PROJECT>SLR</PROJECT>  Scaffolding Learning Regime (<PROJECT>SLR</PROJECT>) is a method for training semantic segmentation models for maritime obstacle detection using only weak annotations (obstacle bounding boxes and water-edge poly-line).

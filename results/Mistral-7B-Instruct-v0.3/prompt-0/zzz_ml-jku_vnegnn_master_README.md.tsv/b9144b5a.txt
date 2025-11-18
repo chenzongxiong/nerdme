@@ -1,0 +1,1 @@
+`logo=[<PROGLANG>PyTorch Lightning</PROGLANG>](https://pytorchlightning.ai/) [![logoColor=white)](https://pytorchlightning.ai/)`

@@ -1,0 +1,1 @@
+`<SOFTWARE>Star History Chart</SOFTWARE>` is an image from `<SOFTWARE>api.star-history.com</SOFTWARE>`. The `<PROJECT>MLLM-Bench</PROJECT>` project is hosted on `<PROJECT>GitHub</PROJECT>` by `<PROJECT>FreedomIntelligence</PROJECT>`.

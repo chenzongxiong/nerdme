@@ -1,0 +1,25 @@
+Some deviations in results based on different <SOFTWARE>PyTorch</SOFTWARE>/<SOFTWARE>Cuda</SOFTWARE>/<SOFTWARE>Faiss</SOFTWARE> versions and hardware (e.g. between <SOFTWARE>P100</SOFTWARE> and <SOFTWARE>RTX</SOFTWARE> GPUs) are to be expected.
+
+## Related Repos
+
+* Divide and Conquer the Embedding Space for Metric Learning (our previous paper on <CONFERENCE>CVPR 2019</CONFERENCE>): https://github.com/CompVis/metric-learning-divide-and-conquer
+* An easy-to-use repo to start your DML research, containing collections of models, losses, and samplers implemented in <SOFTWARE>PyTorch</SOFTWARE>: https://github.com/Confusezius/Revisiting_Deep_Metric_Learning_PyTorch
+
+## BibTex
+If you use this code in your research, please cite the following papers:
+
+``` 
+@InProceedings{dcesml,
+  title={Divide and Conquer the Embedding Space for Metric Learning},
+  author={Sanakoyeu, Artsiom and Tschernezki, Vadim and B\"uchler, Uta and Ommer, Bj\"orn},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year={2019}
+}
+@article{sanakoyeu2021improving,
+  title={Improving Deep Metric Learning by Divide and Conquer},
+  author={Artsiom Sanakoyeu and Pingchuan Ma and Vadim Tschernezki and Björn Ommer},
+  journal={IEEE Transactions on pattern analysis and machine intelligence},
+  year={2021},
+  publisher={IEEE}
+}
+```

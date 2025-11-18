@@ -1,0 +1,1 @@
+# <SOFTWARE>PrivacyFL</SOFTWARE>: A simulator for privacy-preserving and secure federated learning  This repository contains the source code for running a privacy perserving federated learning <SOFTWARE>simulator</SOFTWARE>.

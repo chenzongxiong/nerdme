@@ -1,0 +1,1 @@
+It is then passed on to all the agents using their `set_directory` method.

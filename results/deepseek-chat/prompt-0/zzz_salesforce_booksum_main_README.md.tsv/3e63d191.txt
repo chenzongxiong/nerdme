@@ -1,0 +1,1 @@
+For each data source, the file `<SOFTWARE>literature_links.tsv.pruned</SOFTWARE>` contains the links for the books in our `<DATASET>dataset</DATASET>`.

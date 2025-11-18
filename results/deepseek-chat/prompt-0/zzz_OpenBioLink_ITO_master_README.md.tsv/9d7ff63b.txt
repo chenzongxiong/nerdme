@@ -1,0 +1,3 @@
+```markdown
+„A curated, <ONTOLOGY>ontology</ONTOLOGY>-based, large-scale knowledge graph of artificial intelligence tasks and benchmarks“. <PUBLICATION>arXiv:2110.01434</PUBLICATION> [cs], October 2021. http://arxiv.org/abs/2110.01434  ### Licensing  The <ONTOLOGY>ontology</ONTOLOGY> file and JSON extract files are distributed under a <LICENSE>CC-BY-SA 3.0 AT</LICENSE> license.
+```

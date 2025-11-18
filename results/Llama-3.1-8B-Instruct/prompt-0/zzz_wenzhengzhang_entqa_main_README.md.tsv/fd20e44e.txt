@@ -1,0 +1,1 @@
+You can run retriever local evaluation for your trained <SOFTWARE>retriever</SOFTWARE> or our trained <SOFTWARE>retriever</SOFTWARE> to get reader input <DATASET>data</DATASET>.

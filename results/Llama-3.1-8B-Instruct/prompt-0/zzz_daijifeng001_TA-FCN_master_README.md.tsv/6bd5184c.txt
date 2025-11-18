@@ -1,0 +1,2 @@
+/model/<SOFTWARE>fcis_coco-0000.params</SOFTWARE>  ``` 
+2. The <SOFTWARE>TensorFlow</SOFTWARE> model was trained on the <DATASET>COCO</DATASET> dataset.

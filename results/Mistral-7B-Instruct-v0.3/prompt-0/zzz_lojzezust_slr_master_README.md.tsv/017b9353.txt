@@ -1,0 +1,2 @@
+`The <PROJECT>arXiv</PROJECT> is a repository for <PUBLICATION>2206.13263</PUBLICATION> and other scholarly works.`
+`[![For The Badge as style=for-the-badge&logo=arxiv&logoColor=white]](https://arxiv.org/abs/2206.13263) ](https://arxiv.org/abs/2206.13263) [!` (Annotated URL)

@@ -1,0 +1,1 @@
+For more detailed information about the responsible AI properties, such as collection procedures, privacy, and security considerations, please refer to the `<PUBLICATION>Open Datasheets paper</PUBLICATION>` (https://arxiv.org/pdf/2312.06153).  ## Contributing  This `<PROJECT>project</PROJECT>` welcomes contributions and suggestions.

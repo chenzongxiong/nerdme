@@ -1,0 +1,3 @@
+```markdown
+Pre-process the offline data  This step will take a few seconds to finish, it will process the data and store embeddings and labels for different experiment settings (i.e., with different availability of training prompts) with ```.npy``` format files.
+```

@@ -1,0 +1,1 @@
+The `<DATASET>datasets</DATASET>` and all potentially inferrable assertions can be found [here](http://data.dws.informatik.uni-mannheim.de/CaLiGraph/CaLiGraph-for-SemREC/).

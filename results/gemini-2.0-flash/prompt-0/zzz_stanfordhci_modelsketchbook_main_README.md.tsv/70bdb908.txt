@@ -1,0 +1,1 @@
+These notes will be displayed with your concept or sketch in calls to `show_concepts()` or `show_sketches()`. ``` msb.take_note(sb) ```  <img src=".

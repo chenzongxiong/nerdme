@@ -1,0 +1,1 @@
+Perform basic cleanup operations and setup the summary text for splitting and further cleaning operations ``` cd scripts/data_cleaning_scripts/ python basic_clean.py ``` 2.

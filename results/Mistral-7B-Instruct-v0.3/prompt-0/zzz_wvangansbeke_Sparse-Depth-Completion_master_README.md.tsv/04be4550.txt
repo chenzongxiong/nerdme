@@ -1,0 +1,1 @@
+`Be aware that this change will alter the appearance of the <CONFERENCE>confidence maps</CONFERENCE> since fusion happens at multiple stages now`

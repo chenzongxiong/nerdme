@@ -1,0 +1,3 @@
+```markdown
+Download the pre-trained <SOFTWARE>SRD</SOFTWARE> model [[Dropbox]](https://www.dropbox.com/scl/fi/icj273vu98w1l9zzwjxt7/<SOFTWARE>SRD</SOFTWARE>_params_0500000.pt?
+```

@@ -1,0 +1,3 @@
+```markdown
+labelColor=gray)](https://<SOFTWARE>black</SOFTWARE>.readthedocs.io/en/stable/) [!
+```

@@ -1,0 +1,1 @@
+│   ├── <SOFTWARE>predicted</SOFTWARE>      <- <SOFTWARE>Model</SOFTWARE> <SOFTWARE>predictions</SOFTWARE>, will be used for the <SOFTWARE>evaluation</SOFTWARE> <SOFTWARE>scripts</SOFTWARE>     │   └── <SOFTWARE>raw</SOFTWARE>            <- The original, immutable <SOFTWARE>data</SOFTWARE> dump

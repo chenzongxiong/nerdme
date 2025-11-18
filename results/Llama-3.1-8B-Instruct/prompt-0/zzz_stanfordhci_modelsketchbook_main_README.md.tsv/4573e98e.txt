@@ -1,0 +1,1 @@
+/docs/media/create_keyword_concept_model.png" alt="create_keyword_concept_model <SOFTWARE>widgets</SOFTWARE>" width="35%">  ### Take notes You can select from among your created concepts and sketches and enter free-text notes into the <SOFTWARE>text field</SOFTWARE>.

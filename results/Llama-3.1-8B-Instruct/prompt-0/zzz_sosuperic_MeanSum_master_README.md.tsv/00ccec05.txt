@@ -1,0 +1,1 @@
+Download language model and place in  `<SOFTWARE>stable_checkpoints</SOFTWARE>/<SOFTWARE>lm</SOFTWARE>/<SOFTWARE>mlstm</SOFTWARE>/<SOFTWARE>yelp</SOFTWARE>/<SOFTWARE>batch_size_512-lm_lr_0.001-notes_data260_fixed/</SOFTWARE>`:  [link](https://s3.us-east-2.amazonaws.com/unsup-sum/<SOFTWARE>lm_e24_2.88.pt</SOFTWARE> )

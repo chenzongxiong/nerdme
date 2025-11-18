@@ -1,0 +1,3 @@
+```markdown
+NOTE] > The <SOFTWARE>IMU</SOFTWARE> dir has to be provided for models architectures relying on <SOFTWARE>IMU</SOFTWARE> data (i.e.
+```

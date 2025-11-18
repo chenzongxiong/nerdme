@@ -1,0 +1,1 @@
+Rotations and translations predicted by the <SOFTWARE>R-Net</SOFTWARE> are all with respect to the world coordinate.

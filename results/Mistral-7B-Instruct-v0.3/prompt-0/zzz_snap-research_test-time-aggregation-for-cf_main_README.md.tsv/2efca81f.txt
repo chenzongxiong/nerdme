@@ -1,0 +1,7 @@
+```
+Install all dependencies using the command: ``` conda create --name <env> --file requirements.txt ```
+
+## 2.
+
+The `<PROGLANG>Python</PROGLANG>` environment `<env>` should be created using the provided `requirements.txt` file.
+```

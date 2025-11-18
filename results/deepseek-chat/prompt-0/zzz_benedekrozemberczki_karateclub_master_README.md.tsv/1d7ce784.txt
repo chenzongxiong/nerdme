@@ -1,0 +1,18 @@
+```markdown
+**Overlapping Community Detection**  
+* **<SOFTWARE>DANMF</SOFTWARE>** from Ye *et al.*: [Deep Autoencoder-like Nonnegative Matrix Factorization for Community Detection](https://github.com/benedekrozemberczki/DANMF/blob/master/18DANMF.pdf) (<CONFERENCE>CIKM 2018</CONFERENCE>)  
+* **<SOFTWARE>M-NMF</SOFTWARE>** from Wang *et al.*: [Community Preserving Network Embedding](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14589) (<CONFERENCE>AAAI 2017</CONFERENCE>)  
+* **<SOFTWARE>Ego-Splitting</SOFTWARE>** from Epasto *et al.*: [Ego-splitting Framework: from Non-Overlapping to Overlapping Clusters](https://www.eecs.yorku.ca/course_archive/2017-18/F/6412/reading/kdd17p145.pdf) (<CONFERENCE>KDD 2017</CONFERENCE>)  
+* **<SOFTWARE>NNSED</SOFTWARE>** from Sun *et al.*: [A Non-negative Symmetric Encoder-Decoder Approach for Community Detection](http://www.bigdatalab.ac.cn/~shenhuawei/publications/2017/cikm-sun.pdf) (<CONFERENCE>CIKM 2017</CONFERENCE>)  
+* **<SOFTWARE>BigClam</SOFTWARE>** from Yang and Leskovec: [Overlapping Community Detection at Scale: A Nonnegative Matrix Factorization Approach](http://infolab.stanford.edu/~crucis/pubs/paper-nmfagm.pdf) (<CONFERENCE>WSDM 2013</CONFERENCE>)  
+* **<SOFTWARE>SymmNMF</SOFTWARE>** from Kuang *et al.*: [Symmetric Nonnegative Matrix Factorization for Graph Clustering](https://www.cc.gatech.edu/~hpark/papers/DaDingParkSDM12.pdf) (<CONFERENCE>SDM 2012</CONFERENCE>)  
+
+**Non-Overlapping Community Detection**  
+* **<SOFTWARE>GEMSEC</SOFTWARE>** from Rozemberczki *et al.*: [GEMSEC: Graph Embedding with Self Clustering](https://arxiv.org/abs/1802.03997) (<CONFERENCE>ASONAM 2019</CONFERENCE>)  
+* **<SOFTWARE>EdMot</SOFTWARE>** from Li *et al.*: [EdMot: An Edge Enhancement Approach for Motif-aware Community Detection](https://arxiv.org/abs/1906.04560) (<CONFERENCE>KDD 2019</CONFERENCE>)  
+* **<SOFTWARE>SCD</SOFTWARE>** from Prat-Perez *et al.*: [High Quality, Scalable and Parallel Community Detectionfor Large Real Graphs](http://wwwconference.org/proceedings/www2014/proceedings/p225.pdf) (<CONFERENCE>WWW 2014</CONFERENCE>)  
+* **<SOFTWARE>Label Propagation</SOFTWARE>** from Raghavan *et al.*: [Near Linear Time Algorithm to Detect Community Structures in Large-Scale Networks](https://arxiv.org/abs/0709.2938) (<PUBLICATION>Physics Review E 2007</PUBLICATION>)  
+
+**Proximity Preserving Node Embedding**  
+* **<SOFTWARE>GraRep</SOFTWARE>** from Cao *et al.*: [GraRep: Learning Graph Representations with Global Structural Information](https://dl.acm.org/citation.cfm?
+```

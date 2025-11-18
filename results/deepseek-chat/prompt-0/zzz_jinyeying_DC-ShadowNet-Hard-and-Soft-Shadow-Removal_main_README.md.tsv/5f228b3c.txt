@@ -1,0 +1,3 @@
+```markdown
+<DATASET>LRSS</DATASET>: <DATASET>Soft Shadow Dataset</DATASET> [[link]](http://visual.cs.ucl.ac.uk/pubs/softshadows/)<br>    The <DATASET>LRSS dataset</DATASET> contains 134 shadow images (62 pairs of shadow and shadow-free images).
+```

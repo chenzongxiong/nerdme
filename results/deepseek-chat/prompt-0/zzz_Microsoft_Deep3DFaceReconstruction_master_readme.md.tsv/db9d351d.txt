@@ -1,0 +1,3 @@
+```markdown
+Set up the <PROGLANG>python</PROGLANG> environment If you use anaconda, run the following: ``` conda create -n deep3d <PROGLANG>python</PROGLANG>=3.6 source activate deep3d conda install <SOFTWARE>tensorflow-gpu</SOFTWARE>==1.12.0 scipy pip install <SOFTWARE>pillow</SOFTWARE> <SOFTWARE>argparse</SOFTWARE> ```  Alternatively, you can install <SOFTWARE>tensorflow</SOFTWARE> via pip install (In this way, you need to link /usr/local/cuda to cuda-9.0): ``` pip install <SOFTWARE>tensorflow-gpu</SOFTWARE>==1.12.0 ```  #### 3.
+```

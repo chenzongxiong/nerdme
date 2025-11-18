@@ -1,0 +1,1 @@
+Try `<SOFTWARE>Diffusion Explainer</SOFTWARE>` at https://<PROJECT>poloclub</PROJECT>.github.io/<SOFTWARE>diffusion-explainer</SOFTWARE> and watch a demo video on YouTube https://youtu.be/Zg4gxdIWDds!

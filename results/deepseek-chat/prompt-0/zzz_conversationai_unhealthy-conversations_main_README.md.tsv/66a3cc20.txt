@@ -1,0 +1,1 @@
+For each comment, we randomly hold out one annotator to act as our 'human model' and use the aggregated score of the other annotators as the ground truth to compute the `<EVALMETRIC>ROC AUC</EVALMETRIC>` (repeated 5 times then averaged).

@@ -1,0 +1,3 @@
+```markdown
+<br> One trick used in `<SOFTWARE>networks.py</SOFTWARE>` is to change `out = self.UpBlock2(x)` to [out = (self.UpBlock2(x)+input).tanh()](https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal/blob/35aaf00625f039f9f331d261355945c5eb1a8806/<SOFTWARE>networks.py</SOFTWARE>#L103) to learn a residual.  ## License The code and models in this repository are licensed under the `<LICENSE>MIT License</LICENSE>` for academic and other non-commercial uses.
+```

@@ -1,0 +1,9 @@
+`<PROJECT>Papers With Code</PROJECT>` project (<a href="https://<PROJECT>paperswithcode</PROJECT>.com/">https://paperswithcode.com/</a>)
+
+The `<SOFTWARE>Protege ontology editor</SOFTWARE>` is widely used for creating ontologies.
+
+The `<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>` (<a href="https://iswc2019.semanticweb.org/">https://iswc2019.semanticweb.org/</a>)
+
+The `<CONFERENCE>CVPR2023</CONFERENCE>` workshop refers to the [Thermal Image Super-Resolution](https://<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html)
+
+The evaluation metrics used are `<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, `<EVALMETRIC>F1

@@ -1,0 +1,17 @@
+# Ref-NMS Official codebase for <PUBLICATION>Ref-NMS: Breaking Proposal Bottlenecks in Two-Stage Referring Expression Grounding</PUBLICATION> (<CONFERENCE>AAAI 2021</CONFERENCE> paper).  ## Prerequisites The following dependencies should be enough.
+
+The codebase is based on <SOFTWARE>PyTorch</SOFTWARE> and requires the following packages to be installed:
+- <SOFTWARE>PyTorch</SOFTWARE>
+- <SOFTWARE>PyTorch Geometric</SOFTWARE>
+- <SOFTWARE>PyTorch Vision</SOFTWARE>
+- <SOFTWARE>OpenCV</SOFTWARE>
+- <SOFTWARE>scikit-image</SOFTWARE>
+- <SOFTWARE>scipy</SOFTWARE>
+- <SOFTWARE>numpy</SOFTWARE>
+- <SOFTWARE>scikit-learn</SOFTWARE>
+- <SOFTWARE>scipy</SOFTWARE>
+
+To install the dependencies, you can use the following command:
+```bash
+pip install -r requirements.txt
+```

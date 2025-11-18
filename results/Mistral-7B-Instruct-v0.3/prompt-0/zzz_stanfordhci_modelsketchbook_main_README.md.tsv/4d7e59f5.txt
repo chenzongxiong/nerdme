@@ -1,0 +1,31 @@
+`*Michelle S.<PERSON>`
+
+---
+Input Text:
+
+The `<PROJECT>Paper With Code</PROJECT>` project (https://<PROJECT>paperswithcode</PROJECT>.com/) is a platform for sharing and evaluating machine learning papers.
+
+---
+Input Text:
+
+The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is a semantic framework for representing intelligence tasks.
+
+---
+Input Text:
+
+The `<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>` (ISWC 2019) was held in San Francisco, USA.
+
+---
+Input Text:
+
+The `<DATASET>Maules Creek</DATASET>` dataset contains images of the Maules Creek coal mine in Australia.
+
+---
+Input Text:
+
+The `<SOFTWARE>Protege ontology editor</SOFTWARE>` is a popular tool for creating and editing ontologies.
+
+---
+Input Text:
+
+The evaluation metrics used are `<EVALMETRIC>Precision</EVALME

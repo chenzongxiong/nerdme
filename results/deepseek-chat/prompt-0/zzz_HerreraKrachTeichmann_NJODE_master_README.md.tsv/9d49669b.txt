@@ -1,0 +1,3 @@
+```markdown
+[alt text](data/model_id-3_training-progress.gif)    ## Usage, License & Citation  This code can be used in accordance with the <LICENSE>LICENSE.txt</LICENSE>.
+```

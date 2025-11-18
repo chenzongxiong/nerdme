@@ -1,0 +1,13 @@
+- Run `bash <PROGLANG>generate.sh</PROGLANG>`.
+
+- The `<SOFTWARE>Protege ontology editor</SOFTWARE>` is widely used for creating ontologies.
+
+- The `<DATASET>Maules Creek</DATASET>` dataset is available for analysis.
+
+- The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`
+
+- The `<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>` (ISWC 2019) is a significant event in the field.
+
+- The `<WORKSHOP>Thermal Image Super-Resolution</WORKSHOP>` workshop is focused on improving thermal image resolution.
+
+- The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is a valuable resource for understanding intelligence tasks

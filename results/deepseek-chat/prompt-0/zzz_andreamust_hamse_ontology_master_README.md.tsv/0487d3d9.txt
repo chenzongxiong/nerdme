@@ -1,0 +1,1 @@
+The URI of this ontology is the following: `https://github.com/andreamust/<ONTOLOGY>HaMSE_Ontology</ONTOLOGY>/schema`  ## The Knowledge Base We created a small knowledge base in order to test the ontology.

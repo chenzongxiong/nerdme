@@ -1,0 +1,3 @@
+```markdown
+Run `bash prepare_sense_input.sh 2>&1 | tee temp.log` to do the next three scripts:   - `<SOFTWARE>write_mask_preds/wsi_vocab.py</SOFTWARE>`: determine vocabulary of words to perform WSI - `<SOFTWARE>val_data_process/process_wiktionary.py</SOFTWARE>`: get wiktionary definitions for vocabulary words - `<SOFTWARE>write_mask_preds/wsi_preprocessing.py</SOFTWARE>`: input preparation, also copy vocab file into output folder  Then, run the following script on S2ORC and Wikipedia:   - `<SOFTWARE>write_mask_preds/write_mask_preds.py</SOFTWARE>`: write replacements   We recommend splitting input files into numbered parts and running the script on ranges of file numbers.
+```

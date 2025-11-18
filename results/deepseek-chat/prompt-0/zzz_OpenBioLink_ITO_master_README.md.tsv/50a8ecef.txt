@@ -1,0 +1,3 @@
+```markdown
+[MRI Example Hierarchy](/media/example-hierarchy-1-detail-with-score.PNG)  Exploring the class hierarchy:  > !
+```

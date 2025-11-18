@@ -1,0 +1,15 @@
+```markdown
+We especially thank the authors of: 
+- [<SOFTWARE>EfficientPS</SOFTWARE>](https://github.com/DeepSceneSeg/<SOFTWARE>EfficientPS</SOFTWARE>) 
+- [<SOFTWARE>mmdetection</SOFTWARE>](https://github.com/open-mmlab/<SOFTWARE>mmdetection</SOFTWARE>) 
+- [<SOFTWARE>gen-efficientnet-pytorch</SOFTWARE>](https://github.com/rwightman/<SOFTWARE>gen-efficientnet-pytorch</SOFTWARE>) 
+- [<SOFTWARE>seamseg</SOFTWARE>](https://github.com/mapillary/<SOFTWARE>seamseg</SOFTWARE>.git)  
+
+## Contacts 
+* [Kshitij Sirohi](http://www2.informatik.uni-freiburg.de/~sirohik/) 
+* [Sajad Marvi](http://www2.informatik.uni-freiburg.de/~sirohik/) 
+* [Daniel Büscher](http://www2.informatik.uni-freiburg.de/~buescher/)  
+
+## License 
+For academic usage, the code is released under the [<LICENSE>GPLv3</LICENSE>](https://www.gnu.org/licenses/<LICENSE>gpl-3.0</LICENSE>.en.html) license.
+```

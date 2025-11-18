@@ -1,0 +1,21 @@
+```markdown
+```shell
+cd /path/to/your/directory
+git clone https://github.com/<PROJECT>FelixXu35/hamiltoniq</PROJECT>.git
+cd hamiltoniq
+pip install -e .
+```
+### <CONFERENCE>Bechmark</CONFERENCE> a backend
+Simply copy and run the following <PROGLANG>Python</PROGLANG> code:
+```python
+from hamiltoniq.bechmark import Toniq
+toniq = Toniq()
+backend = <your_backend>
+n_qubits = <your_prefered_number_of_qubits>
+n_layers = <your_prefered_number_of_layers>
+n_cores = <number_of_cores_in_your_PC>
+
+score = toniq.simulator_run(backend=backend, n_qubits=n_qubits, n_layers=n_layers, n_cores=n_cores)
+```
+An example is given in [this notebook](.
+```

@@ -1,0 +1,7 @@
+# MLLM-Bench MLLM-Bench: Evaluating Multimodal LLMs with Per-sample Criteria <center>  !
+
+The `<PUBLICATION>MLLM-Bench</PUBLICATION>` paper proposes a benchmark for evaluating multimodal large language models (LLMs) using per-sample criteria. The `<SOFTWARE>MLLM-Bench</SOFTWARE>` toolkit provides a comprehensive evaluation framework for assessing the performance of multimodal LLMs.
+
+The `<DATASET>MLLM-Bench</DATASET>` dataset includes a diverse range of tasks, such as text summarization, question answering, and image captioning, to evaluate the capabilities of multimodal LLMs. The evaluation metrics used are `<EVALMETRIC>Perplexity</EVALMETRIC>`, `<EVALMETRIC>BLEU Score</EVALMETRIC>`, and `<EVALMETRIC>ROUGE Score</EVALMETRIC>`.
+
+The `<CONFERENCE>ACL 2023</CONFERENCE

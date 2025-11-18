@@ -1,0 +1,1 @@
+/assets/crowd_role_visual.jpg" alt=""/> This taxonomy explores the crowd’s capabilities in misinformation detection, identifies the prerequisites for effective counter-misinformation, and analyzes crowd-generated counter-misinformation.

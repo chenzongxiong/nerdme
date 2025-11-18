@@ -1,0 +1,14 @@
+```py from <SOFTWARE>pfhedge.instruments</SOFTWARE> import <PROGLANG>BrownianStock</PROGLANG> from <SOFTWARE>pfhedge.instruments</SOFTWARE> import <PROGLANG>EuropeanOption</PROGLANG>  
+
+stock = <PROGLANG>BrownianStock</PROGLANG>(cost=1e-4)  
+derivative = <PROGLANG>EuropeanOption</PROGLANG>(stock)  
+
+derivative # <PROGLANG>EuropeanOption</PROGLANG>(  
+#   strike=1., maturity=0.0800  
+#   (underlier): <PROGLANG>BrownianStock</PROGLANG>(sigma=0.2000, cost=1.0000e-04, dt=0.0040)  
+# )  
+
+### Create Your Hedger  
+A [`<SOFTWARE>Hedger</SOFTWARE>`](https://<PROJECT>pfnet-research</PROJECT>.github.io/<SOFTWARE>pfhedge</SOFTWARE>/generated/<SOFTWARE>pfhedge.nn.Hedger</SOFTWARE>.html) in Deep Hedging is basically characterized by three elements:  
+* **Inputs**: A hedger uses any market information as input features  
+```

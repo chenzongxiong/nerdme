@@ -1,0 +1,1 @@
+In our image pre-processing stage, we solve a least square problem between 5 facial landmarks on the image and 5 facial landmarks of the <DATASET>BFM09</DATASET> average 3D face to cancel out face scales and misalignment.

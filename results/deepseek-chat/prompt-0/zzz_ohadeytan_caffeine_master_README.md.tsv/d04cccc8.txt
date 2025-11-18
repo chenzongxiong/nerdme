@@ -1,0 +1,3 @@
+```markdown
+[<PROGLANG>JavaDoc</PROGLANG>](http://www.javadoc.io/badge/com.github.ben-manes.caffeine/caffeine.svg)](http://www.javadoc.io/doc/com.github.ben-manes.caffeine/caffeine) [!
+```

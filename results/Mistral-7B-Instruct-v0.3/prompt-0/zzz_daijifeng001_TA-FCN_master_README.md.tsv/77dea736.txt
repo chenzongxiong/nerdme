@@ -1,0 +1,5 @@
+The given text does not contain any of the specified entity classes. Here's an example of how the text might look if it contained entities:
+
+```
+The <PROJECT>Paper With Code</PROJECT> project (<URL>https://<PROJECT>paperswithcode</PROJECT>.com/</URL>) provides a wealth of information on various <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>. The <SOFTWARE>Protege ontology editor</SOFTWARE> is widely used for creating ontologies. You can use the <SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the resource. The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (<URL>https://iswc2019.semanticweb.org/</URL>) is a valuable source of information on the latest developments in the field.
+```

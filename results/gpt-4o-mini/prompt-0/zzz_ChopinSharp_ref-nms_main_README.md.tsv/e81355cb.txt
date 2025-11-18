@@ -1,0 +1,1 @@
+**Evaluate recall on referent object:** ``` PYTHONPATH=$PWD python tools/eval_proposal_hit_rate.py --m <loss_type> --dataset <DATASET>refcoco</DATASET> --split-by unc --tid <tid> --conf <conf> ``` `conf` parameter is the score threshold used to filter <DATASET>Ref-NMS</DATASET> proposals.

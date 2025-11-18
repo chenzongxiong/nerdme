@@ -1,0 +1,1 @@
+The file contains `<SOFTWARE>Boolean variables</SOFTWARE>` `USE_SECURITY` and `USE_DP_PRIVACY` to toggle `<SOFTWARE>security</SOFTWARE>` and `<SOFTWARE>differential privacy</SOFTWARE>` features.

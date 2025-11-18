@@ -1,0 +1,24 @@
+">
+
+We are pleased to announce the <CONFERENCE>1st Workshop on Knowledge-infused Deep Learning</CONFERENCE> (<WORKSHOP>KIDL</WORKSHOP>) at <CONFERENCE>TheWebConf 2024</CONFERENCE>!
+
+The <WORKSHOP>KIDL</WORKSHOP> workshop aims to bring together researchers and practitioners from diverse backgrounds to discuss and explore the latest advances in knowledge-infused deep learning. The workshop will feature a mix of invited talks, contributed papers, and a panel discussion. We invite submissions of original research papers on all aspects of knowledge-infused deep learning. Topics of interest include, but are not limited to:
+
+- Knowledge representation and reasoning for deep learning
+- Knowledge graph embedding for deep learning
+- Knowledge-enhanced deep learning models
+- Applications of knowledge-infused deep learning
+
+Important Dates:
+- Submission deadline: February 16, 2024
+- Notification deadline: March 15, 2024
+- Workshop date: May 13-17, 2024
+
+Submission Guidelines:
+All submissions must be original and not under consideration elsewhere. Papers should be formatted according to the <CONFERENCE>TheWebConf 2024</CONFERENCE> guidelines. Submissions should be submitted electronically through the <CONFERENCE>TheWebConf 2024</CONFERENCE> submission system.
+
+Organizers:
+- Xin Luna Dong, <PROJECT>Amazon</PROJECT>
+- James Hendler, <PROJECT>Rensselaer Polytechnic Institute</PROJECT>
+- Gerard de Melo, <PROJECT>Rutgers University</PROJECT>
+- Michael Witbrock, <PROJECT>University of Auckland</PROJECT>

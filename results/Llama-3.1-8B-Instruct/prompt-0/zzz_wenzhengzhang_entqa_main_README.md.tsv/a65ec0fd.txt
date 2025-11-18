@@ -1,0 +1,7 @@
+/start.sh
+```bash
+#!/bin/bash
+cd /path/to/dataset
+python train.py --config=conf/evalmetric.yaml --dataset=<DATASET>OpenImage Dataset</DATASET> --model=<SOFTWARE>PyTorch</SOFTWARE> --batch-size=32
+```
+The `<DATASET>OpenImage Dataset</DATASET>` is used for training and evaluation of models. The `<SOFTWARE>PyTorch</SOFTWARE>` is used for building and training the deep learning model.

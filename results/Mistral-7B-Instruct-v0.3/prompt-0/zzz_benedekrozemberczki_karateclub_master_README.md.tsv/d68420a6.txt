@@ -1,0 +1,1 @@
+`branch=master) <p align="center">   <img width="90%" src="https://github.com/<PROGLANG>benedekrozemberczki</PROGLANG>/karateclub/blob/<CONFERENCE>master</CONFERENCE>/karatelogo.jpg?`

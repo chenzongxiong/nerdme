@@ -1,0 +1,11 @@
+`<PROJECT>Papers With Code</PROJECT>` project (<a href="https://<PROJECT>paperswithcode</PROJECT>.com/">https://paperswithcode.com/</a>)
+
+The `<SOFTWARE>Protege ontology editor</SOFTWARE>` is widely used for creating ontologies.
+
+The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`
+
+The `<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>` (<a href="https://iswc2019.semanticweb.org/">https://iswc2019.semanticweb.org/</a>)
+
+The `<CONFERENCE>CVPR2023</CONFERENCE>` workshop
+
+Refers to the [Thermal Image Super-Resolution](

@@ -1,0 +1,1 @@
+- Run `<SOFTWARE>bash</SOFTWARE> <SOFTWARE>generate.sh</SOFTWARE>.

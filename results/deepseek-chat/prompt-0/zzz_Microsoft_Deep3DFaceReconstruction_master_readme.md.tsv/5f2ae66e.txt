@@ -1,0 +1,1 @@
+As a result, reconstruction images aligned with the input can be easily obtained without extra efforts.

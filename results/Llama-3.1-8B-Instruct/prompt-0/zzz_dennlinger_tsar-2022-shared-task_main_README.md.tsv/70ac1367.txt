@@ -1,0 +1,1 @@
+Later additions of the Spanish and Portuguese predictions are in the respective folders `<SOFTWARE>es/</SOFTWARE>` (for Spanish) and `<SOFTWARE>pt/</SOFTWARE>` (for Portuguese).

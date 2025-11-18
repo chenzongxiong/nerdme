@@ -1,0 +1,1 @@
+In the current example, the client returns a message to the server agent through the `receive_weights` method indicating whether its weights have converged.   ### Initializer  An instance of the **Initializer** class is used to initialize the agents and model evaluator.

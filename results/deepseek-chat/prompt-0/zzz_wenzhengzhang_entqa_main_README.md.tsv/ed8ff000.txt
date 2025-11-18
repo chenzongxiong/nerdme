@@ -1,0 +1,11 @@
+The provided input text is:
+
+```
+usp=sharing).  2.
+```
+
+After analyzing the text, there are no entities that fit the defined categories (CONFERENCE, DATASET, EVALMETRIC, LICENSE, ONTOLOGY, PROGLANG, PROJECT, PUBLICATION, SOFTWARE, WORKSHOP). Therefore, the output remains the same as the input:
+
+```
+usp=sharing).  2.
+```

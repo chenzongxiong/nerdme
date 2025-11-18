@@ -1,0 +1,691 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# An Empirical Framework for Domain Generalization In Clinical Settings
+#Text=
+#Text=## Paper
+#Text=If you use this code in your research, please cite the following publication:
+#Text=```
+#Text=@inproceedings{zhang2021empirical,
+#Text=  title={An empirical framework for domain generalization in clinical settings},
+#Text=  author={Zhang, Haoran and Dullerud, Natalie and Seyyed-Kalantari, Laleh and Morris, Quaid and Joshi, Shalmali and Ghassemi, Marzyeh},
+#Text=  booktitle={Proceedings of the Conference on Health, Inference, and Learning},
+#Text=  pages={279--290},
+#Text=  year={2021}
+#Text=}
+#Text=```
+#Text=
+#Text=This paper can also be found on arxiv: https://arxiv.org/abs/2103.11163 
+#Text=
+#Text=
+#Text=## Acknowledgements
+#Text=
+#Text=Our implementation is a modified version of the excellent [DomainBed](https://github.com/facebookresearch/DomainBed) framework (from commit [a10458a](https://github.com/facebookresearch/DomainBed/tree/a10458a2adfd8aec0fda2d617f710e5044e5dc60)).
+1-1	0-1	#	*[1]	*[1]	
+1-2	2-4	An	*[1]|*[2]	*[1]|PUBLICATION[2]	
+1-3	5-14	Empirical	*[1]|*[2]	*[1]|PUBLICATION[2]	
+1-4	15-24	Framework	*[1]|*[2]	*[1]|PUBLICATION[2]	
+1-5	25-28	for	*[1]|*[2]	*[1]|PUBLICATION[2]	
+1-6	29-35	Domain	*[1]|*[2]	*[1]|PUBLICATION[2]	
+1-7	36-50	Generalization	*[1]|*[2]	*[1]|PUBLICATION[2]	
+1-8	51-53	In	*[1]|*[2]	*[1]|PUBLICATION[2]	
+1-9	54-62	Clinical	*[1]|*[2]	*[1]|PUBLICATION[2]	
+1-10	63-71	Settings	*[1]|*[2]	*[1]|PUBLICATION[2]	
+1-11	73-74	#	*[1]	*[1]	
+1-12	74-75	#	*[1]	*[1]	
+1-13	76-81	Paper	*[1]	*[1]	
+1-14	82-84	If	*[1]	*[1]	
+1-15	85-88	you	*[1]	*[1]	
+1-16	89-92	use	*[1]	*[1]	
+1-17	93-97	this	*[1]	*[1]	
+1-18	98-102	code	*[1]	*[1]	
+1-19	103-105	in	*[1]	*[1]	
+1-20	106-110	your	*[1]	*[1]	
+1-21	111-119	research	*[1]	*[1]	
+1-22	119-120	,	*[1]	*[1]	
+1-23	121-127	please	*[1]	*[1]	
+1-24	128-132	cite	*[1]	*[1]	
+1-25	133-136	the	*[1]	*[1]	
+1-26	137-146	following	*[1]	*[1]	
+1-27	147-158	publication	*[1]	*[1]	
+1-28	158-159	:	*[1]	*[1]	
+1-29	160-161	`	*[1]	*[1]	
+1-30	161-162	`	*[1]	*[1]	
+1-31	162-163	`	*[1]	*[1]	
+1-32	164-165	@	*[1]	*[1]	
+1-33	165-178	inproceedings	*[1]	*[1]	
+1-34	178-179	{	*[1]	*[1]	
+1-35	179-197	zhang2021empirical	*[1]	*[1]	
+1-36	197-198	,	*[1]	*[1]	
+1-37	201-206	title	*[1]	*[1]	
+1-38	206-207	=	*[1]	*[1]	
+1-39	207-208	{	*[1]	*[1]	
+1-40	208-210	An	*[1]|*[3]	*[1]|PUBLICATION[3]	
+1-41	211-220	empirical	*[1]|*[3]	*[1]|PUBLICATION[3]	
+1-42	221-230	framework	*[1]|*[3]	*[1]|PUBLICATION[3]	
+1-43	231-234	for	*[1]|*[3]	*[1]|PUBLICATION[3]	
+1-44	235-241	domain	*[1]|*[3]	*[1]|PUBLICATION[3]	
+1-45	242-256	generalization	*[1]|*[3]	*[1]|PUBLICATION[3]	
+1-46	257-259	in	*[1]|*[3]	*[1]|PUBLICATION[3]	
+1-47	260-268	clinical	*[1]|*[3]	*[1]|PUBLICATION[3]	
+1-48	269-277	settings	*[1]|*[3]	*[1]|PUBLICATION[3]	
+1-49	277-278	}	*[1]	*[1]	
+1-50	278-279	,	*[1]	*[1]	
+1-51	282-288	author	*[1]	*[1]	
+1-52	288-289	=	*[1]	*[1]	
+1-53	289-290	{	*[1]	*[1]	
+1-54	290-295	Zhang	*[1]	*[1]	
+1-55	295-296	,	*[1]	*[1]	
+1-56	297-303	Haoran	*[1]	*[1]	
+1-57	304-307	and	*[1]	*[1]	
+1-58	308-316	Dullerud	*[1]	*[1]	
+1-59	316-317	,	*[1]	*[1]	
+1-60	318-325	Natalie	*[1]	*[1]	
+1-61	326-329	and	*[1]	*[1]	
+1-62	330-346	Seyyed-Kalantari	*[1]	*[1]	
+1-63	346-347	,	*[1]	*[1]	
+1-64	348-353	Laleh	*[1]	*[1]	
+1-65	354-357	and	*[1]	*[1]	
+1-66	358-364	Morris	*[1]	*[1]	
+1-67	364-365	,	*[1]	*[1]	
+1-68	366-371	Quaid	*[1]	*[1]	
+1-69	372-375	and	*[1]	*[1]	
+1-70	376-381	Joshi	*[1]	*[1]	
+1-71	381-382	,	*[1]	*[1]	
+1-72	383-391	Shalmali	*[1]	*[1]	
+1-73	392-395	and	*[1]	*[1]	
+1-74	396-404	Ghassemi	*[1]	*[1]	
+1-75	404-405	,	*[1]	*[1]	
+1-76	406-413	Marzyeh	*[1]	*[1]	
+1-77	413-414	}	*[1]	*[1]	
+1-78	414-415	,	*[1]	*[1]	
+1-79	418-427	booktitle	*[1]	*[1]	
+1-80	427-428	=	*[1]	*[1]	
+1-81	428-429	{	*[1]	*[1]	
+1-82	429-440	Proceedings	*[1]|*[4]	*[1]|PUBLICATION[4]	
+1-83	441-443	of	*[1]|*[4]	*[1]|PUBLICATION[4]	
+1-84	444-447	the	*[1]|*[4]	*[1]|PUBLICATION[4]	
+1-85	448-458	Conference	*[1]|*[4]|*[5]	*[1]|PUBLICATION[4]|CONFERENCE[5]	
+1-86	459-461	on	*[1]|*[4]|*[5]	*[1]|PUBLICATION[4]|CONFERENCE[5]	
+1-87	462-468	Health	*[1]|*[4]|*[5]	*[1]|PUBLICATION[4]|CONFERENCE[5]	
+1-88	468-469	,	*[1]|*[4]|*[5]	*[1]|PUBLICATION[4]|CONFERENCE[5]	
+1-89	470-479	Inference	*[1]|*[4]|*[5]	*[1]|PUBLICATION[4]|CONFERENCE[5]	
+1-90	479-480	,	*[1]|*[4]|*[5]	*[1]|PUBLICATION[4]|CONFERENCE[5]	
+1-91	481-484	and	*[1]|*[4]|*[5]	*[1]|PUBLICATION[4]|CONFERENCE[5]	
+1-92	485-493	Learning	*[1]|*[4]|*[5]	*[1]|PUBLICATION[4]|CONFERENCE[5]	
+1-93	493-494	}	*[1]	*[1]	
+1-94	494-495	,	*[1]	*[1]	
+1-95	498-503	pages	*[1]	*[1]	
+1-96	503-504	=	*[1]	*[1]	
+1-97	504-505	{	*[1]	*[1]	
+1-98	505-508	279	*[1]	*[1]	
+1-99	508-509	-	*[1]	*[1]	
+1-100	509-510	-	*[1]	*[1]	
+1-101	510-513	290	*[1]	*[1]	
+1-102	513-514	}	*[1]	*[1]	
+1-103	514-515	,	*[1]	*[1]	
+1-104	518-522	year	*[1]	*[1]	
+1-105	522-523	=	*[1]	*[1]	
+1-106	523-524	{	*[1]	*[1]	
+1-107	524-528	2021	*[1]	*[1]	
+1-108	528-529	}	*[1]	*[1]	
+1-109	530-531	}	*[1]	*[1]	
+1-110	532-533	`	*[1]	*[1]	
+1-111	533-534	`	*[1]	*[1]	
+1-112	534-535	`	*[1]	*[1]	
+1-113	537-541	This	*[1]	*[1]	
+1-114	542-547	paper	*[1]	*[1]	
+1-115	548-551	can	*[1]	*[1]	
+1-116	552-556	also	*[1]	*[1]	
+1-117	557-559	be	*[1]	*[1]	
+1-118	560-565	found	*[1]	*[1]	
+1-119	566-568	on	*[1]	*[1]	
+1-120	569-574	arxiv	*[1]	*[1]	
+1-121	574-575	:	*[1]	*[1]	
+1-122	576-581	https	*[1]	*[1]	
+1-123	581-582	:	*[1]	*[1]	
+1-124	582-583	/	*[1]	*[1]	
+1-125	583-584	/	*[1]	*[1]	
+1-126	584-593	arxiv.org	*[1]	*[1]	
+1-127	593-594	/	*[1]	*[1]	
+1-128	594-597	abs	*[1]	*[1]	
+1-129	597-598	/	*[1]	*[1]	
+1-130	598-608	2103.11163	*[1]	*[1]	
+1-131	612-613	#	*[1]	*[1]	
+1-132	613-614	#	*[1]	*[1]	
+1-133	615-631	Acknowledgements	*[1]	*[1]	
+1-134	633-636	Our	*[1]	*[1]	
+1-135	637-651	implementation	*[1]	*[1]	
+1-136	652-654	is	*[1]	*[1]	
+1-137	655-656	a	*[1]	*[1]	
+1-138	657-665	modified	*[1]	*[1]	
+1-139	666-673	version	*[1]	*[1]	
+1-140	674-676	of	*[1]	*[1]	
+1-141	677-680	the	*[1]	*[1]	
+1-142	681-690	excellent	*[1]	*[1]	
+1-143	691-692	[	*[1]	*[1]	
+1-144	692-701	DomainBed	*[1]|*[6]	*[1]|PROJECT[6]	
+1-145	701-702	]	*[1]	*[1]	
+1-146	702-703	(	*[1]	*[1]	
+1-147	703-708	https	*[1]	*[1]	
+1-148	708-709	:	*[1]	*[1]	
+1-149	709-710	/	*[1]	*[1]	
+1-150	710-711	/	*[1]	*[1]	
+1-151	711-721	github.com	*[1]	*[1]	
+1-152	721-722	/	*[1]	*[1]	
+1-153	722-738	facebookresearch	*[1]	*[1]	
+1-154	738-739	/	*[1]	*[1]	
+1-155	739-748	DomainBed	*[1]	*[1]	
+1-156	748-749	)	*[1]	*[1]	
+1-157	750-759	framework	*[1]	*[1]	
+1-158	760-761	(	*[1]	*[1]	
+1-159	761-765	from	*[1]	*[1]	
+1-160	766-772	commit	*[1]	*[1]	
+1-161	773-774	[	*[1]	*[1]	
+1-162	774-781	a10458a	*[1]	*[1]	
+1-163	781-782	]	*[1]	*[1]	
+1-164	782-783	(	*[1]	*[1]	
+1-165	783-788	https	*[1]	*[1]	
+1-166	788-789	:	*[1]	*[1]	
+1-167	789-790	/	*[1]	*[1]	
+1-168	790-791	/	*[1]	*[1]	
+1-169	791-801	github.com	*[1]	*[1]	
+1-170	801-802	/	*[1]	*[1]	
+1-171	802-818	facebookresearch	*[1]	*[1]	
+1-172	818-819	/	*[1]	*[1]	
+1-173	819-828	DomainBed	*[1]	*[1]	
+1-174	828-829	/	*[1]	*[1]	
+1-175	829-833	tree	*[1]	*[1]	
+1-176	833-834	/	*[1]	*[1]	
+1-177	834-874	a10458a2adfd8aec0fda2d617f710e5044e5dc60	*[1]	*[1]	
+1-178	874-875	)	*[1]	*[1]	
+1-179	875-876	)	*[1]	*[1]	
+1-180	876-877	.	*[1]	*[1]	
+
+#Text=We also make use of some code from [eICU Benchmarks](https://github.com/mostafaalishahi/eICU_Benchmark).
+#Text=
+#Text=
+#Text=## To replicate the experiments in the paper:
+#Text=
+#Text=### Step 0: Environment and Prerequisites
+#Text=Run the following commands to clone this repo and create the Conda environment:
+#Text=
+#Text=```
+#Text=git clone https://github.com/MLforHealth/ClinicalDG.git
+#Text=cd ClinicalDG/
+#Text=conda env create -f environment.yml
+#Text=conda activate clinicaldg
+#Text=```
+#Text=
+#Text=### Step 1: Obtaining the Data
+#Text=See [DataSources.md](DataSources.md) for detailed instructions.
+#Text=
+#Text=### Step 2: Running Experiments
+#Text=
+#Text=Experiments can be ran using the same procedure as for the [DomainBed framework](https://github.com/facebookresearch/DomainBed), with a few additional adjustable data hyperparameters which should be passed in as a JSON formatted dictionary.
+2-1	878-880	We	*[1]	*[1]	
+2-2	881-885	also	*[1]	*[1]	
+2-3	886-890	make	*[1]	*[1]	
+2-4	891-894	use	*[1]	*[1]	
+2-5	895-897	of	*[1]	*[1]	
+2-6	898-902	some	*[1]	*[1]	
+2-7	903-907	code	*[1]	*[1]	
+2-8	908-912	from	_	_	
+2-8.1	908-909	f	*[1]	*[1]	
+2-9	913-914	[	_	_	
+2-10	914-918	eICU	*[7]	SOFTWARE[7]	
+2-11	919-929	Benchmarks	*[7]	SOFTWARE[7]	
+2-12	929-930	]	_	_	
+2-13	930-931	(	_	_	
+2-14	931-936	https	_	_	
+2-15	936-937	:	_	_	
+2-16	937-938	/	_	_	
+2-17	938-939	/	_	_	
+2-18	939-949	github.com	_	_	
+2-19	949-950	/	_	_	
+2-20	950-965	mostafaalishahi	_	_	
+2-21	965-966	/	_	_	
+2-22	966-980	eICU_Benchmark	*	SOFTWARE	
+2-23	980-981	)	_	_	
+2-24	981-982	.	_	_	
+2-25	985-986	#	_	_	
+2-26	986-987	#	_	_	
+2-27	988-990	To	_	_	
+2-28	991-1000	replicate	_	_	
+2-29	1001-1004	the	_	_	
+2-30	1005-1016	experiments	_	_	
+2-31	1017-1019	in	_	_	
+2-32	1020-1023	the	_	_	
+2-33	1024-1029	paper	_	_	
+2-34	1029-1030	:	_	_	
+2-35	1032-1033	#	_	_	
+2-36	1033-1034	#	_	_	
+2-37	1034-1035	#	_	_	
+2-38	1036-1040	Step	_	_	
+2-39	1041-1042	0	_	_	
+2-40	1042-1043	:	_	_	
+2-41	1044-1055	Environment	_	_	
+2-42	1056-1059	and	_	_	
+2-43	1060-1073	Prerequisites	_	_	
+2-44	1074-1077	Run	_	_	
+2-45	1078-1081	the	_	_	
+2-46	1082-1091	following	_	_	
+2-47	1092-1100	commands	_	_	
+2-48	1101-1103	to	_	_	
+2-49	1104-1109	clone	_	_	
+2-50	1110-1114	this	_	_	
+2-51	1115-1119	repo	_	_	
+2-52	1120-1123	and	_	_	
+2-53	1124-1130	create	_	_	
+2-54	1131-1134	the	_	_	
+2-55	1135-1140	Conda	_	_	
+2-56	1141-1152	environment	_	_	
+2-57	1152-1153	:	_	_	
+2-58	1155-1156	`	_	_	
+2-59	1156-1157	`	_	_	
+2-60	1157-1158	`	_	_	
+2-61	1159-1162	git	*	SOFTWARE	
+2-62	1163-1168	clone	_	_	
+2-63	1169-1174	https	_	_	
+2-64	1174-1175	:	_	_	
+2-65	1175-1176	/	_	_	
+2-66	1176-1177	/	_	_	
+2-67	1177-1187	github.com	_	_	
+2-68	1187-1188	/	_	_	
+2-69	1188-1199	MLforHealth	*	PROJECT	
+2-70	1199-1200	/	_	_	
+2-71	1200-1214	ClinicalDG.git	_	_	
+2-71.1	1200-1210	ClinicalDG	*	SOFTWARE	
+2-72	1215-1217	cd	_	_	
+2-73	1218-1228	ClinicalDG	_	_	
+2-74	1228-1229	/	_	_	
+2-75	1230-1235	conda	*	SOFTWARE	
+2-76	1236-1239	env	_	_	
+2-77	1240-1246	create	_	_	
+2-78	1247-1248	-	_	_	
+2-79	1248-1249	f	_	_	
+2-80	1250-1265	environment.yml	_	_	
+2-81	1266-1271	conda	*	SOFTWARE	
+2-82	1272-1280	activate	_	_	
+2-83	1281-1291	clinicaldg	_	_	
+2-84	1292-1293	`	_	_	
+2-85	1293-1294	`	_	_	
+2-86	1294-1295	`	_	_	
+2-87	1297-1298	#	_	_	
+2-88	1298-1299	#	_	_	
+2-89	1299-1300	#	_	_	
+2-90	1301-1305	Step	_	_	
+2-91	1306-1307	1	_	_	
+2-92	1307-1308	:	_	_	
+2-93	1309-1318	Obtaining	_	_	
+2-94	1319-1322	the	_	_	
+2-95	1323-1327	Data	_	_	
+2-96	1328-1331	See	_	_	
+2-97	1332-1333	[	_	_	
+2-98	1333-1347	DataSources.md	_	_	
+2-99	1347-1348	]	_	_	
+2-100	1348-1349	(	_	_	
+2-101	1349-1363	DataSources.md	_	_	
+2-102	1363-1364	)	_	_	
+2-103	1365-1368	for	_	_	
+2-104	1369-1377	detailed	_	_	
+2-105	1378-1390	instructions	_	_	
+2-106	1390-1391	.	_	_	
+2-107	1393-1394	#	_	_	
+2-108	1394-1395	#	_	_	
+2-109	1395-1396	#	_	_	
+2-110	1397-1401	Step	_	_	
+2-111	1402-1403	2	_	_	
+2-112	1403-1404	:	_	_	
+2-113	1405-1412	Running	_	_	
+2-114	1413-1424	Experiments	_	_	
+2-115	1426-1437	Experiments	_	_	
+2-116	1438-1441	can	_	_	
+2-117	1442-1444	be	_	_	
+2-118	1445-1448	ran	_	_	
+2-119	1449-1454	using	_	_	
+2-120	1455-1458	the	_	_	
+2-121	1459-1463	same	_	_	
+2-122	1464-1473	procedure	_	_	
+2-123	1474-1476	as	_	_	
+2-124	1477-1480	for	_	_	
+2-125	1481-1484	the	_	_	
+2-126	1485-1486	[	_	_	
+2-127	1486-1495	DomainBed	*	SOFTWARE	
+2-128	1496-1505	framework	_	_	
+2-129	1505-1506	]	_	_	
+2-130	1506-1507	(	_	_	
+2-131	1507-1512	https	_	_	
+2-132	1512-1513	:	_	_	
+2-133	1513-1514	/	_	_	
+2-134	1514-1515	/	_	_	
+2-135	1515-1525	github.com	_	_	
+2-136	1525-1526	/	_	_	
+2-137	1526-1542	facebookresearch	_	_	
+2-138	1542-1543	/	_	_	
+2-139	1543-1552	DomainBed	*	SOFTWARE	
+2-140	1552-1553	)	_	_	
+2-141	1553-1554	,	_	_	
+2-142	1555-1559	with	_	_	
+2-143	1560-1561	a	_	_	
+2-144	1562-1565	few	_	_	
+2-145	1566-1576	additional	_	_	
+2-146	1577-1587	adjustable	_	_	
+2-147	1588-1592	data	_	_	
+2-148	1593-1608	hyperparameters	_	_	
+2-149	1609-1614	which	_	_	
+2-150	1615-1621	should	_	_	
+2-151	1622-1624	be	_	_	
+2-152	1625-1631	passed	_	_	
+2-153	1632-1634	in	_	_	
+2-154	1635-1637	as	_	_	
+2-155	1638-1639	a	_	_	
+2-156	1640-1644	JSON	_	_	
+2-157	1645-1654	formatted	_	_	
+2-158	1655-1665	dictionary	_	_	
+2-159	1665-1666	.	_	_	
+
+#Text=For example, to train a single model:
+#Text=```
+#Text=python -m clinicaldg.scripts.train\\
+#Text=       --algorithm ERM\\
+#Text=       --dataset eICUSubsampleUnobs\\
+#Text=       --es_method val\\
+#Text=       --hparams  '{"eicu_architecture": "GRU", "eicu_subsample_g1_mean": 0.5, "eicu_subsample_g2_mean": 0.05}'\\
+#Text=       --output_dir /path/to/output
+#Text=```
+#Text=
+#Text=To sweep a range of datasets, algorithms, and hyperparameters:
+#Text=```
+#Text=python -m clinicaldg.scripts.sweep launch\\
+#Text=       --output_dir=/my/sweep/output/path\\
+#Text=       --command_launcher slurm\\
+#Text=       --algorithms ERMID ERM IRM VREx RVP IGA CORAL MLDG GroupDRO \\
+#Text=       --datasets CXR CXRBinary\\
+#Text=       --n_hparams 10\\
+#Text=       --n_trials 5\\
+#Text=       --es_method train\\
+#Text=       --hparams '{"cxr_augment": 1}'
+#Text=```
+#Text=
+#Text=A detailed list of `hparams` available for each dataset can be found [here](hparams.md).
+3-1	1668-1671	For	_	_	
+3-2	1672-1679	example	_	_	
+3-3	1679-1680	,	_	_	
+3-4	1681-1683	to	_	_	
+3-5	1684-1689	train	_	_	
+3-6	1690-1691	a	_	_	
+3-7	1692-1698	single	_	_	
+3-8	1699-1704	model	_	_	
+3-9	1704-1705	:	_	_	
+3-10	1706-1707	`	_	_	
+3-11	1707-1708	`	_	_	
+3-12	1708-1709	`	_	_	
+3-13	1710-1716	python	*	SOFTWARE	
+3-14	1717-1718	-	_	_	
+3-15	1718-1719	m	_	_	
+3-16	1720-1744	clinicaldg.scripts.train	_	_	
+3-17	1744-1745	\	_	_	
+3-18	1753-1754	-	_	_	
+3-19	1754-1755	-	_	_	
+3-20	1755-1764	algorithm	_	_	
+3-21	1765-1768	ERM	_	_	
+3-22	1768-1769	\	_	_	
+3-23	1777-1778	-	_	_	
+3-24	1778-1779	-	_	_	
+3-25	1779-1786	dataset	_	_	
+3-26	1787-1805	eICUSubsampleUnobs	*	DATASET	
+3-27	1805-1806	\	_	_	
+3-28	1814-1815	-	_	_	
+3-29	1815-1816	-	_	_	
+3-30	1816-1825	es_method	_	_	
+3-31	1826-1829	val	_	_	
+3-32	1829-1830	\	_	_	
+3-33	1838-1839	-	_	_	
+3-34	1839-1840	-	_	_	
+3-35	1840-1847	hparams	_	_	
+3-36	1849-1850	'	_	_	
+3-37	1850-1851	{	_	_	
+3-38	1851-1852	"	_	_	
+3-39	1852-1869	eicu_architecture	_	_	
+3-40	1869-1870	"	_	_	
+3-41	1870-1871	:	_	_	
+3-42	1872-1873	"	_	_	
+3-43	1873-1876	GRU	_	_	
+3-44	1876-1877	"	_	_	
+3-45	1877-1878	,	_	_	
+3-46	1879-1880	"	_	_	
+3-47	1880-1897	eicu_subsample_g1	_	_	
+3-48	1897-1898	_	_	_	
+3-49	1898-1902	mean	_	_	
+3-50	1902-1903	"	_	_	
+3-51	1903-1904	:	_	_	
+3-52	1905-1908	0.5	_	_	
+3-53	1908-1909	,	_	_	
+3-54	1910-1911	"	_	_	
+3-55	1911-1928	eicu_subsample_g2	_	_	
+3-56	1928-1929	_	_	_	
+3-57	1929-1933	mean	_	_	
+3-58	1933-1934	"	_	_	
+3-59	1934-1935	:	_	_	
+3-60	1936-1940	0.05	_	_	
+3-61	1940-1941	}	_	_	
+3-62	1941-1942	'	_	_	
+3-63	1942-1943	\	_	_	
+3-64	1951-1952	-	_	_	
+3-65	1952-1953	-	_	_	
+3-66	1953-1963	output_dir	_	_	
+3-67	1964-1965	/	_	_	
+3-68	1965-1969	path	_	_	
+3-69	1969-1970	/	_	_	
+3-70	1970-1972	to	_	_	
+3-71	1972-1973	/	_	_	
+3-72	1973-1979	output	_	_	
+3-73	1980-1981	`	_	_	
+3-74	1981-1982	`	_	_	
+3-75	1982-1983	`	_	_	
+3-76	1985-1987	To	_	_	
+3-77	1988-1993	sweep	_	_	
+3-78	1994-1995	a	_	_	
+3-79	1996-2001	range	_	_	
+3-80	2002-2004	of	_	_	
+3-81	2005-2013	datasets	_	_	
+3-82	2013-2014	,	_	_	
+3-83	2015-2025	algorithms	_	_	
+3-84	2025-2026	,	_	_	
+3-85	2027-2030	and	_	_	
+3-86	2031-2046	hyperparameters	_	_	
+3-87	2046-2047	:	_	_	
+3-88	2048-2049	`	_	_	
+3-89	2049-2050	`	_	_	
+3-90	2050-2051	`	_	_	
+3-91	2052-2058	python	*	SOFTWARE	
+3-92	2059-2060	-	_	_	
+3-93	2060-2061	m	_	_	
+3-94	2062-2086	clinicaldg.scripts.sweep	_	_	
+3-95	2087-2093	launch	_	_	
+3-96	2093-2094	\	_	_	
+3-97	2102-2103	-	_	_	
+3-98	2103-2104	-	_	_	
+3-99	2104-2114	output_dir	_	_	
+3-100	2114-2115	=	_	_	
+3-101	2115-2116	/	_	_	
+3-102	2116-2118	my	_	_	
+3-103	2118-2119	/	_	_	
+3-104	2119-2124	sweep	_	_	
+3-105	2124-2125	/	_	_	
+3-106	2125-2131	output	_	_	
+3-107	2131-2132	/	_	_	
+3-108	2132-2136	path	_	_	
+3-109	2136-2137	\	_	_	
+3-110	2145-2146	-	_	_	
+3-111	2146-2147	-	_	_	
+3-112	2147-2163	command_launcher	_	_	
+3-113	2164-2169	slurm	_	_	
+3-114	2169-2170	\	_	_	
+3-115	2178-2179	-	_	_	
+3-116	2179-2180	-	_	_	
+3-117	2180-2190	algorithms	_	_	
+3-118	2191-2196	ERMID	_	_	
+3-119	2197-2200	ERM	_	_	
+3-120	2201-2204	IRM	_	_	
+3-121	2205-2209	VREx	_	_	
+3-122	2210-2213	RVP	_	_	
+3-123	2214-2217	IGA	_	_	
+3-124	2218-2223	CORAL	_	_	
+3-125	2224-2228	MLDG	_	_	
+3-126	2229-2237	GroupDRO	_	_	
+3-127	2238-2239	\	_	_	
+3-128	2247-2248	-	_	_	
+3-129	2248-2249	-	_	_	
+3-130	2249-2257	datasets	_	_	
+3-131	2258-2261	CXR	*	DATASET	
+3-132	2262-2271	CXRBinary	*	DATASET	
+3-133	2271-2272	\	_	_	
+3-134	2280-2281	-	_	_	
+3-135	2281-2282	-	_	_	
+3-136	2282-2291	n_hparams	_	_	
+3-137	2292-2294	10	_	_	
+3-138	2294-2295	\	_	_	
+3-139	2303-2304	-	_	_	
+3-140	2304-2305	-	_	_	
+3-141	2305-2313	n_trials	_	_	
+3-142	2314-2315	5	_	_	
+3-143	2315-2316	\	_	_	
+3-144	2324-2325	-	_	_	
+3-145	2325-2326	-	_	_	
+3-146	2326-2335	es_method	_	_	
+3-147	2336-2341	train	_	_	
+3-148	2341-2342	\	_	_	
+3-149	2350-2351	-	_	_	
+3-150	2351-2352	-	_	_	
+3-151	2352-2359	hparams	_	_	
+3-152	2360-2361	'	_	_	
+3-153	2361-2362	{	_	_	
+3-154	2362-2363	"	_	_	
+3-155	2363-2374	cxr_augment	_	_	
+3-156	2374-2375	"	_	_	
+3-157	2375-2376	:	_	_	
+3-158	2377-2378	1	_	_	
+3-159	2378-2379	}	_	_	
+3-160	2379-2380	'	_	_	
+3-161	2381-2382	`	_	_	
+3-162	2382-2383	`	_	_	
+3-163	2383-2384	`	_	_	
+3-164	2386-2387	A	_	_	
+3-165	2388-2396	detailed	_	_	
+3-166	2397-2401	list	_	_	
+3-167	2402-2404	of	_	_	
+3-168	2405-2406	`	_	_	
+3-169	2406-2413	hparams	_	_	
+3-170	2413-2414	`	_	_	
+3-171	2415-2424	available	_	_	
+3-172	2425-2428	for	_	_	
+3-173	2429-2433	each	_	_	
+3-174	2434-2441	dataset	_	_	
+3-175	2442-2445	can	_	_	
+3-176	2446-2448	be	_	_	
+3-177	2449-2454	found	_	_	
+3-178	2455-2456	[	_	_	
+3-179	2456-2460	here	_	_	
+3-180	2460-2461	]	_	_	
+3-181	2461-2462	(	_	_	
+3-182	2462-2472	hparams.md	_	_	
+3-183	2472-2473	)	_	_	
+3-184	2473-2474	.	_	_	
+
+#Text=We provide the bash scripts used for our main experiments in the `bash_scripts` directory.
+4-1	2476-2478	We	_	_	
+4-2	2479-2486	provide	_	_	
+4-3	2487-2490	the	_	_	
+4-4	2491-2495	bash	*	PROGLANG	
+4-5	2496-2503	scripts	_	_	
+4-6	2504-2508	used	_	_	
+4-7	2509-2512	for	_	_	
+4-8	2513-2516	our	_	_	
+4-9	2517-2521	main	_	_	
+4-10	2522-2533	experiments	_	_	
+4-11	2534-2536	in	_	_	
+4-12	2537-2540	the	_	_	
+4-13	2541-2542	`	_	_	
+4-14	2542-2554	bash_scripts	_	_	
+4-15	2554-2555	`	_	_	
+4-16	2556-2565	directory	_	_	
+4-17	2565-2566	.	_	_	
+
+#Text=You will likely need to customize them, along with the launcher, to your compute environment.
+#Text=
+#Text=### Step 3: Aggregating Results
+#Text=
+#Text=We provide sample code for creating aggregate results for an experiment in `notebooks/AggResults.ipynb`.
+#Text=
+#Text=
+#Text=
+#Text=## License
+#Text=This source code is released under the MIT license, included [here](LICENSE).
+5-1	2567-2570	You	_	_	
+5-2	2571-2575	will	_	_	
+5-3	2576-2582	likely	_	_	
+5-4	2583-2587	need	_	_	
+5-5	2588-2590	to	_	_	
+5-6	2591-2600	customize	_	_	
+5-7	2601-2605	them	_	_	
+5-8	2605-2606	,	_	_	
+5-9	2607-2612	along	_	_	
+5-10	2613-2617	with	_	_	
+5-11	2618-2621	the	_	_	
+5-12	2622-2630	launcher	_	_	
+5-13	2630-2631	,	_	_	
+5-14	2632-2634	to	_	_	
+5-15	2635-2639	your	_	_	
+5-16	2640-2647	compute	_	_	
+5-17	2648-2659	environment	_	_	
+5-18	2659-2660	.	_	_	
+5-19	2662-2663	#	_	_	
+5-20	2663-2664	#	_	_	
+5-21	2664-2665	#	_	_	
+5-22	2666-2670	Step	_	_	
+5-23	2671-2672	3	_	_	
+5-24	2672-2673	:	_	_	
+5-25	2674-2685	Aggregating	_	_	
+5-26	2686-2693	Results	_	_	
+5-27	2695-2697	We	_	_	
+5-28	2698-2705	provide	_	_	
+5-29	2706-2712	sample	_	_	
+5-30	2713-2717	code	_	_	
+5-31	2718-2721	for	_	_	
+5-32	2722-2730	creating	_	_	
+5-33	2731-2740	aggregate	_	_	
+5-34	2741-2748	results	_	_	
+5-35	2749-2752	for	_	_	
+5-36	2753-2755	an	_	_	
+5-37	2756-2766	experiment	_	_	
+5-38	2767-2769	in	_	_	
+5-39	2770-2771	`	_	_	
+5-40	2771-2780	notebooks	_	_	
+5-41	2780-2781	/	_	_	
+5-42	2781-2797	AggResults.ipynb	_	_	
+5-43	2797-2798	`	_	_	
+5-44	2798-2799	.	_	_	
+5-45	2803-2804	#	_	_	
+5-46	2804-2805	#	_	_	
+5-47	2806-2813	License	_	_	
+5-48	2814-2818	This	_	_	
+5-49	2819-2825	source	_	_	
+5-50	2826-2830	code	_	_	
+5-51	2831-2833	is	_	_	
+5-52	2834-2842	released	_	_	
+5-53	2843-2848	under	_	_	
+5-54	2849-2852	the	_	_	
+5-55	2853-2856	MIT	*	LICENSE	
+5-56	2857-2864	license	_	_	
+5-57	2864-2865	,	_	_	
+5-58	2866-2874	included	_	_	
+5-59	2875-2876	[	_	_	
+5-60	2876-2880	here	_	_	
+5-61	2880-2881	]	_	_	
+5-62	2881-2882	(	_	_	
+5-63	2882-2889	LICENSE	_	_	
+5-64	2889-2890	)	_	_	
+5-65	2890-2891	.	_	_	

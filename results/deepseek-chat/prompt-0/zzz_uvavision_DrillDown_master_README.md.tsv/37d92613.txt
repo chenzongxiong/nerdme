@@ -1,0 +1,3 @@
+```markdown
+/experiments/scripts/fetch_images.sh ``` This will populate the `<DATASET>DrillDown/data</DATASET>` folder with `<DATASET>vg/VG_100K</DATASET>` and `<DATASET>vg/VG_100K_2</DATASET>`
+```

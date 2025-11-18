@@ -1,0 +1,11 @@
+The processed datasets will be released soon, because of the large size of the datasets (`<DATASET>graph with esm embeddings</DATASET>`), we will upload the pipeline to process the raw data.
+
+### Raw Datasets
+
+#### SC-PDB
+<https://github.com/jivankandel/PUResNet/blob/main/`<DATASET>scpdb_subset</DATASET>.zip`>
+
+#### COACH420/HOLO4K
+<https://github.com/rdk/p2rank-datasets>
+
+These two datasets do not include ligands in a `<PROGLANG>pre-extracted format</PROGLANG>`.

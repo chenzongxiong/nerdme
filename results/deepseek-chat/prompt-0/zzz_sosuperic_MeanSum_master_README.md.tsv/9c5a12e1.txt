@@ -1,0 +1,5 @@
+The input text does not contain any entities that fit the defined categories for Named Entity Recognition (NER) according to the provided guidelines. Therefore, the output remains unchanged:
+
+```markdown
+cause texts from writer.add_text() to not show up.
+```

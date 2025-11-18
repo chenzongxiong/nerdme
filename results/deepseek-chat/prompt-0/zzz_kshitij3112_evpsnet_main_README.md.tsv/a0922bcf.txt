@@ -1,0 +1,3 @@
+```markdown
+Create a conda virtual environment from the provided environment.yml and activate it.
+```

@@ -1,0 +1,3 @@
+```markdown
+/experiments/fcis/cfgs/*.yaml` to `$(YOUR_<PROGLANG>MXNET</PROGLANG>_PACKAGE)`.
+```

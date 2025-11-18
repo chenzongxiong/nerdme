@@ -1,0 +1,1 @@
+Initializaing a `<SOFTWARE>ServerAgent</SOFTWARE>` only requires the same default argument for initializing its superclass `<SOFTWARE>Agent</SOFTWARE>`: `agent_number` which should be `0` for the first `<SOFTWARE>ServerAgent</SOFTWARE>`.

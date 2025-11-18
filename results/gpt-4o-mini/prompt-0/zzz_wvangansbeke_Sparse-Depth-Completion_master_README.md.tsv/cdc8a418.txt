@@ -1,0 +1,1 @@
+You can view a <LICENSE>license summary</LICENSE> [here](http://creativecommons.org/licenses/by-nc/4.0/)  ## Introduction Monocular depth prediction methods fail to generate absolute and precise depth maps and stereoscopic approaches are still significantly outperformed by <SOFTWARE>LiDAR</SOFTWARE> based approaches.

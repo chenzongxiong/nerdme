@@ -1,0 +1,1 @@
+Extract and place the `<SOFTWARE>WIDER</SOFTWARE>` folder in the same directory as the `<SOFTWARE>EXTD</SOFTWARE>` and `<SOFTWARE>EResFD</SOFTWARE>` folders.  ## Dependencies  A `<SOFTWARE>requirements.txt</SOFTWARE>` file is provided with all the necessary `<PROGLANG>python</PROGLANG>` dependencies.

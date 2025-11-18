@@ -1,0 +1,3 @@
+```markdown
+"img_id1.xx_nnn"     ],     ....... } ```  The `<SOFTWARE>BBoxMapper</SOFTWARE>` requires a path to the MD file.
+```

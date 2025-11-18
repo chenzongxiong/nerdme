@@ -1,0 +1,7 @@
+`TIP] > Use the `<PROGLANG>Python</PROGLANG>` `<SOFTWARE>--help</SOFTWARE>` `<SWITCH>switch</SWITCH>` `for more details on all possible arguments and settings.`
+
+`### Inference`
+
+`#### General inference`
+
+`Run inference using a trained `<SOFTWARE>model</SOFTWARE>`.`

@@ -1,0 +1,3 @@
+Here is the annotated text in Markdown format:
+
+`usp=sharing) (NLI)  The datasets <DATASET>SQuAD</DATASET> and <DATASET>MNLI</DATASET> are directly downloaded from the notebooks of this repository.`

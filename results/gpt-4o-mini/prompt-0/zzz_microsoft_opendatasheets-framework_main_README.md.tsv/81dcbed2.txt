@@ -1,0 +1,1 @@
+By integrating directly with <SOFTWARE>GitHub</SOFTWARE>, the framework allows you to create, edit, and export your <DATASET>Open Datasheets</DATASET> directly to <SOFTWARE>GitHub</SOFTWARE>.

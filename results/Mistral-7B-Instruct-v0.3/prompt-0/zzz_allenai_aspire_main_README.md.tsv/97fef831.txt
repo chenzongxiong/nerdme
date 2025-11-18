@@ -1,0 +1,7 @@
+The text contains the following named entities:
+
+- **DATASET**: RELISH, TRECCOVID-RF, CSFCube, SciDocs
+
+The annotated text in Markdown format is:
+
+Since we evaluate on datasets in the `<DATASET>RELISH</DATASET>`, `<DATASET>TRECCOVID-RF</DATASET>`, `<DATASET>CSFCube</DATASET>`, and `<DATASET>SciDocs</DATASET>` we train separate models for these domains, the sub-directories named `s2orcbiomed`, `s2orccompsci`, and `s2orcscidocs` contain config files for the models trained for each domain.

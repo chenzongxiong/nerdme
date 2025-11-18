@@ -1,0 +1,5 @@
+Here's the annotated text in Markdown format:
+
+```
+│   ├── configs        <- Experiment config files as json with all hyperparameters and paths     │   ├── figures        <- Generated graphics and figures to be used in reporting     │   ├── history        <- Tensorboard trainings history files     │   └── tensorboard_logs  <- Trainings-scalars and images of the intermediate predictions     │     ├── environment.yaml   <- <PROGLANG>YAML</PROGLANG> requirements file.
+```

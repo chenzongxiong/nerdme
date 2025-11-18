@@ -1,0 +1,3 @@
+```markdown
+/configs/<SOFTWARE>model_configs.yaml</SOFTWARE>)  - Create a model worker in [workers/<SOFTWARE>model_workers.py</SOFTWARE>](.
+```

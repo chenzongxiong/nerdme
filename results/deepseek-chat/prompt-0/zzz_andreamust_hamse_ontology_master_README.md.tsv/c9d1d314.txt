@@ -1,0 +1,1 @@
+The two signals have been then aligned using the `<SOFTWARE>DTW</SOFTWARE>` algorithm.

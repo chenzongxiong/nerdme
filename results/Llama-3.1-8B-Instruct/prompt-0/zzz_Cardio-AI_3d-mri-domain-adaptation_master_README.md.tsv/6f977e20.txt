@@ -1,0 +1,1 @@
+Engelhardt, "<PUBLICATION>Unsupervised Domain Adaptation from Axial to Short-Axis Multi-Slice Cardiac MR Images by Incorporating Pretrained Task Networks</PUBLICATION>," in "<PUBLICATION>IEEE Transactions on Medical Imaging (TMI)</PUBLICATION>", early access, doi: 10.1109/<PUBLICATION>TMI</PUBLICATION>.2021.3052972

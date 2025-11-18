@@ -1,0 +1,3 @@
+```markdown
+[build status](http://img.shields.io/travis/<PROJECT>mmp2</PROJECT>/<PROJECT>megaman</PROJECT>/master.svg?
+```

@@ -1,0 +1,3 @@
+```markdown
+E.g., for pruning with the Geometric Median (FPGM) algorithm the EResFD model:   ```bash   <PROGLANG>python</PROGLANG> fpgm.py --pruning_rate 0.1 --pruned_eres '.
+```

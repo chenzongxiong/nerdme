@@ -1,0 +1,1 @@
+Install pip by running: ```conda install pip``` 4.

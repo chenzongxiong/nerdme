@@ -1,0 +1,11 @@
+It appears that the input text provided is incomplete or truncated. Could you please provide the full text you'd like me to annotate with Named Entity Recognition (NER) tags? Once you provide the complete text, I can proceed with the annotation according to the guidelines. 
+
+For example, if the input text is:
+
+"The International Semantic Web Conference 2019 featured a workshop on ontologies. Researchers presented the Intelligence Task Ontology and discussed evaluation metrics like Precision and Recall. The dataset used was Maules Creek, and the software Protege was demonstrated."
+
+The annotated output would be:
+
+`The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> featured a <WORKSHOP>workshop on ontologies</WORKSHOP>. Researchers presented the <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> and discussed evaluation metrics like <EVALMETRIC>Precision</EVALMETRIC> and <EVALMETRIC>Recall</EVALMETRIC>. The <DATASET>Maules Creek</DATASET> dataset was used, and the <SOFTWARE>Protege</SOFTWARE> software was demonstrated.`
+
+Please provide the complete text you'd like annotated, and I'll generate the marked-up version accordingly.

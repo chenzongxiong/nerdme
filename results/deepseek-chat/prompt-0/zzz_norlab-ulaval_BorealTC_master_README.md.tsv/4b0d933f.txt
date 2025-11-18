@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+This repo started as a fork of [<SOFTWARE>Ph0bi0/T_DEEP</SOFTWARE>](https://github.com/<SOFTWARE>Ph0bi0/T_DEEP</SOFTWARE>), their repo, which contains the source code and the <DATASET>dataset</DATASET> of their <PUBLICATION>paper</PUBLICATION>.  ## Citation  If you use the code or data in an academic context, please cite the following work:  ```bibtex @article{<PUBLICATION>LaRocque2024BorealTC</PUBLICATION>,     title={<PUBLICATION>Proprioception Is All You Need: Terrain Classification for Boreal Forests</PUBLICATION>},     author={Damien LaRocque and William Guimont-Martin and David-Alexandre Duclos and Philippe Giguère and François Pomerleau},     journal={<PUBLICATION>arXiv preprint arXiv:2403.16877</PUBLICATION>},     year={2024},     eprint={2403.16877},     archivePrefix={arXiv},     primaryClass={cs.RO} } ```  ## License  This <PROJECT>project</PROJECT> is licensed under a [<LICENSE>MIT</LICENSE>](LICENSE) license.
+```

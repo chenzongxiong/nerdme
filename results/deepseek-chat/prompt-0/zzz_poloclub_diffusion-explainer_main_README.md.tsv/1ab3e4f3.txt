@@ -1,0 +1,3 @@
+```markdown
+Short paper, <PUBLICATION>IEEE VIS 2024</PUBLICATION>.  ## How to run locally ``` git clone https://github.com/<PROJECT>poloclub</PROJECT>/<SOFTWARE>diffusion-explainer</SOFTWARE>.git cd <SOFTWARE>diffusion-explainer</SOFTWARE> <PROGLANG>python</PROGLANG> -m http.server 8000 ```  Then, on your web browser, access http://localhost:8000.
+```

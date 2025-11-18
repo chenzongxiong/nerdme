@@ -1,0 +1,1 @@
+## A Taxonomy of Current Methods In this survey, we present a thorough taxonomy for <ONTOLOGY>NTs</ONTOLOGY> that expresses the gradual integration and co-evolution of <ONTOLOGY>NNs</ONTOLOGY> and <ONTOLOGY>DTs</ONTOLOGY>.

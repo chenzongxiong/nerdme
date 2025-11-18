@@ -1,0 +1,5 @@
+Interspeech <CONFERENCE>2021</CONFERENCE>,   pages={4249--4253},   doi={10.21437/<CONFERENCE>Interspeech</CONFERENCE>.2021-1286} } 
+
+## Setup
+### Download Google <SOFTWARE>Speech Commands</SOFTWARE>
+There are two versions of the <DATASET>dataset</DATASET>, V1 and V2.

@@ -1,0 +1,1 @@
+If the dataframe contains <SOFTWARE>images</SOFTWARE>, this step will involve caching the <SOFTWARE>images</SOFTWARE> to speed up processing later.

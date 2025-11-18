@@ -1,0 +1,3 @@
+```markdown
+Download <SOFTWARE>BLINK</SOFTWARE> pretrained retriever model [here](https://github.com/facebookresearch/<SOFTWARE>BLINK</SOFTWARE>)  \ 3.
+```

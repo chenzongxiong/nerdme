@@ -1,0 +1,1 @@
+`Obtaining predictions from the API should be possible by running <PROGLANG>context_predictor.py</PROGLANG> for English results, and the <PROGLANG>_es.py</PROGLANG> and <PROGLANG>_pt.py</PROGLANG> files for Spanish and Portuguese predictions, respectively.`

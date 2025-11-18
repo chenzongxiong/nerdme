@@ -1,0 +1,1 @@
+To activate the environment, run: ```<PROGLANG>conda</PROGLANG> activate <PROGLANG>fisher-information</PROGLANG>```  3.

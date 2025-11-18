@@ -1,0 +1,4 @@
+The `[SLR Architecture](resources/slr.png)` is comprised of three steps.
+1) The model is warmed-up using `<ONTOLOGY>object-wise</ONTOLOGY>` and `<ONTOLOGY>global</ONTOLOGY>` objectives derived from `<DATASET>weak annotations</DATASET>` and `<PROGLANG>IMU</PROGLANG>`.
+2) The `<SOFTWARE>learned encoder features</SOFTWARE>` and `<SOFTWARE>model predictions</SOFTWARE>` are used to estimate the `<EVALMETRIC>pseudo labels</EVALMETRIC>`.
+3) The network is fine-tuned on the estimated `<EVALMETRIC>pseudo labels</EVALMETRIC>`.

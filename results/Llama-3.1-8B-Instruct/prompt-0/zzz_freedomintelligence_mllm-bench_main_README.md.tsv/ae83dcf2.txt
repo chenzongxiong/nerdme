@@ -1,0 +1,1 @@
+`<SOFTWARE>Star History</SOFTWARE> API` is used to generate SVGs. The `<DATASET>MLLM-Bench</DATASET>` dataset is available for benchmarking. The project is hosted at `<PROJECT>GitHub</PROJECT>` and can be accessed via `<URL>https://api.star-history.com</URL>`.

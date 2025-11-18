@@ -1,0 +1,1 @@
+- `<DATASET>bindingsite_test_data/pdbbind2020/raw</DATASET>` The <DATASET>holo4k</DATASET> and the <DATASET>coach420</DATASET> <DATASET>dataset</DATASET> were created by extracting the relevant ligands from the <DATASET>MOAD</DATASET> <DATASET>database</DATASET>.

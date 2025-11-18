@@ -1,0 +1,1 @@
+Each of these annotations includes the trustworthiness score of the annotator, allowing users to impose higher trustworthiness thresholds or apply different aggregation methods as desired.

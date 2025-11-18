@@ -1,0 +1,1 @@
+E.g., for pruning with the Geometric Median (FPGM) algorithm the EResFD model: ```bash python fpgm.py --pruning_rate 0.1 --pruned_eres '.

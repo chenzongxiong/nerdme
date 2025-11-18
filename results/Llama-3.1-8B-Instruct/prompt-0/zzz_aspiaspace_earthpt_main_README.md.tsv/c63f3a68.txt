@@ -1,0 +1,1 @@
+We have purposefully kept the <SOFTWARE>code</SOFTWARE> as simple and hackable as possible so that it is easy for all to hack this base to their <SOFTWARE>needs</SOFTWARE>.

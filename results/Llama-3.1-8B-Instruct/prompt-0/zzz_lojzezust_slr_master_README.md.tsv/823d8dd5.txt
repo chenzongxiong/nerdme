@@ -1,0 +1,1 @@
+Install the requirements `<SOFTWARE>pip</SOFTWARE>` to install the packages listed in the `<PROJECT>requirements.txt</PROJECT>` file.

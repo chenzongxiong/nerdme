@@ -1,0 +1,1 @@
+- Co-citation `<DATASET>data</DATASET>` used to train the above model will also be released, this is co-citation `<DATASET>pairs</DATASET>` on the order of a few million `<EVALMETRIC>pairs</EVALMETRIC>` of `<PUBLICATION>papers</PUBLICATION>`. `3.`

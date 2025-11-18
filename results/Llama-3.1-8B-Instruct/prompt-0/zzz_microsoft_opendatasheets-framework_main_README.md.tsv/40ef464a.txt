@@ -1,0 +1,1 @@
+This project has adopted the `<LICENSE>Microsoft Open Source Code of Conduct</LICENSE>` (<https://opensource.microsoft.com/codeofconduct/>).

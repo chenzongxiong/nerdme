@@ -1,0 +1,13 @@
+Here's the annotated text in Markdown format:
+
+You can also prepare your own data following the procedures below.
+
+## 1.1 Download raw datasets from <DATASET>10X genomics</DATASET> website (<URL>https://support.10xgenomics.com/single-cell-gene-expression/datasets</URL>) and store the files in the <FOLDER>datasets</FOLDER> folder;
+
+## 1.2 Follow the comments in "<PROGLANG>Matlab</PROGLANG>" script "<FILE>data_preparation.m</FILE>" to modify the file names based on the downloaded data files;
+
+## 1.3 Follow the comments in "<PROGLANG>Matlab</PROGLANG>" script "<FILE>data_preparation.m</FILE>" to set the number of cells (randomly selected) and top variable genes;
+
+## 1.4 Run "<FILE>data_preparation.m</FILE>";
+
+# 2.

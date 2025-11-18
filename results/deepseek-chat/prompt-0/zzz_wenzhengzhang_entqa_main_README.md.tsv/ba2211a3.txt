@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+usp=sharing), our cached entities embeddings [here](https://drive.google.com/file/d/1znMYd5HS80XpLpvpp_dFkQMbJiaFsQIn/view?
+```

@@ -1,0 +1,1 @@
+Some simulation behavior can easily be configured by changing the files in the <SOFTWARE>config file</SOFTWARE>.

@@ -1,0 +1,1 @@
+See <DATASET>https://conala-corpus.github.io/</DATASET>, [<LICENSE>LICENSE</LICENSE>](<LICENSE>https://creativecommons.org/licenses/by-sa/4.0/</LICENSE>) | | codesearchnet-{language}-{train\|valid\|test} | The <DATASET>CodeSearchNet</DATASET> snippet collections used for training/<EVALMETRIC>MRR</EVALMETRIC> validation/<EVALMETRIC>MRR</EVALMETRIC> testing.

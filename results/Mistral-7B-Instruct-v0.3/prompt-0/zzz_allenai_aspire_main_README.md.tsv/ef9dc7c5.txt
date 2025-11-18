@@ -1,0 +1,9 @@
+Download the `<DATASET>USTPO MIT</DATASET>` dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip) and use the `<SOFTWARE>Protege ontology editor</SOFTWARE>` to explore and edit the resource.
+
+The `<PROJECT>Paper With Code</PROJECT>` project (https://<PROJECT>paperswithcode</PROJECT>.com/) provides a platform for researchers to share their work and compare the performance of different models.
+
+The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is a semantic framework for representing knowledge about intelligence tasks.
+
+The evaluation metrics used are `<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, `<EVALMETRIC>F1-Score</EVALMETRIC>`, and `<EVALMETRIC>BLEU Score</EVALMETRIC>`.
+
+The `<CON

@@ -1,0 +1,3 @@
+```markdown
+This can be mitigated by the `<SOFTWARE>BBoxMapper</SOFTWARE>`, which computes a dictionary that is structured as follows:  ``` {     "img_id1.xx": [         "img_id1.xx_001",         "img_id1.xx_002",         ........
+```

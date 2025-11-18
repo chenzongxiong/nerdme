@@ -1,0 +1,1 @@
+The transformation layer is built on the <PROJECT>neuron</PROJECT> project, which is also part of the current Voxelmorph approach (<SOFTWARE>Voxelmorph</SOFTWARE> (https://github.com/voxelmorph/<SOFTWARE>voxelmorph</SOFTWARE>)).

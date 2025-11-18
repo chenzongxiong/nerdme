@@ -1,0 +1,1 @@
+Be aware that this change will alter the appearance of the <EVALMETRIC>confidence maps</EVALMETRIC> since fusion happens at multiple stages now

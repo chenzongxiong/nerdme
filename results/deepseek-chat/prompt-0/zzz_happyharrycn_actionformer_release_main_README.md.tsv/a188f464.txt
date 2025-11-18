@@ -1,0 +1,1 @@
+/pretrained/thumos_i3d_reproduce/logs*. * The pre-trained model is *.

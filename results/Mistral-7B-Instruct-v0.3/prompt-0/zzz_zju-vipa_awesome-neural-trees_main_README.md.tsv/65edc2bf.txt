@@ -1,0 +1,1 @@
+`Adopt DTs to approximate the <ONTOLOGY>target concept of NNs</ONTOLOGY> in terms of logical descriptions, *i.e.*, use DTs to design <NE>NNs</NE> with structural priors`

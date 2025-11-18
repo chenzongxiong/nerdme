@@ -1,0 +1,3 @@
+```markdown
+</div>                           | | **Attack Success**     | `<EVALMETRIC>Precision</EVALMETRIC>`/`<EVALMETRIC>Recall</EVALMETRIC>`/`<EVALMETRIC>F1</EVALMETRIC>` | $Prec = \frac{TP}{TP+FP}$, </br> $Rec = \frac{TP}{TP+FN}$, </br> $F1 = 2 \times \frac{\text{precision} \times \text{recall}}{\text{precision} + \text{recall}}$ | <div style="width:500px"> Evaluate an attack's effectiveness in correctly and completely identifying the properties it is designed to infer.
+```

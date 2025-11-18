@@ -1,0 +1,1 @@
+The `request_values` method first requests weights in parallel from the `<PROGLANG>clients</PROGLANG>` by calling their `<METHOD>compute_weights</METHOD>` method, averages them, and then returns them to the `<PROGLANG>clients</PROGLANG>` in parallel by calling their `<METHOD>receive_weights</METHOD>` method.

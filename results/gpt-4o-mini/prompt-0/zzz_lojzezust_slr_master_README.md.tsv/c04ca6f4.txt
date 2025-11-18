@@ -1,0 +1,3 @@
+```markdown
+TIP] > Use the `<SOFTWARE>--help</SOFTWARE>` switch for more details on all possible arguments and settings.  #### Step III: Fine-tune model  Fine-tune the initial model on the estimated pseudo-labels from the previous step.
+```

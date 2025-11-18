@@ -1,0 +1,206 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Pure Emotion Lexicon
+#Text=
+#Text=This lexicon is a collection of terms and annotations, as described in:
+#Text=- [Crowdsourcing for Beyond Polarity Sentiment Analysis A Pure Emotion Lexicon](https://arxiv.org/abs/1710.04203)
+#Text=- [A Multivalued Emotion Lexicon Created and Evaluated by the Crowd](https://ieeexplore.ieee.org/document/8554956)
+#Text=
+#Text=**Please cite the aforementioned papers, if you find the lexicon useful for your research.**
+#Text=
+#Text=## **Header description**
+#Text=
+#Text=**Stem**: the stem derived from terms in "terms" column
+#Text=
+#Text=**Terms**: terms found in the corpus
+#Text=
+#Text=**Anticipation, joy, trust, fear, sadness, disgust, anger, surprise**: emotion classes
+#Text=
+#Text=**Intensifier, negator**: intensifiers classes
+#Text=
+#Text=**None**: stop-words, not emotion evocative, or not intensifying terms
+#Text=
+#Text=**Total**: the total number of annotations received
+1-1	0-1	#	_	_	
+1-2	2-6	Pure	_	_	
+1-3	7-14	Emotion	_	_	
+1-4	15-22	Lexicon	_	_	
+1-5	24-28	This	_	_	
+1-6	29-36	lexicon	_	_	
+1-7	37-39	is	_	_	
+1-8	40-41	a	_	_	
+1-9	42-52	collection	_	_	
+1-10	53-55	of	_	_	
+1-11	56-61	terms	_	_	
+1-12	62-65	and	_	_	
+1-13	66-77	annotations	_	_	
+1-14	77-78	,	_	_	
+1-15	79-81	as	_	_	
+1-16	82-91	described	_	_	
+1-17	92-94	in	_	_	
+1-18	94-95	:	_	_	
+1-19	96-97	-	_	_	
+1-20	98-99	[	_	_	
+1-21	99-112	Crowdsourcing	*[1]	PUBLICATION[1]	
+1-22	113-116	for	*[1]	PUBLICATION[1]	
+1-23	117-123	Beyond	*[1]	PUBLICATION[1]	
+1-24	124-132	Polarity	*[1]	PUBLICATION[1]	
+1-25	133-142	Sentiment	*[1]	PUBLICATION[1]	
+1-26	143-151	Analysis	*[1]	PUBLICATION[1]	
+1-27	152-153	A	*[1]	PUBLICATION[1]	
+1-28	154-158	Pure	*[1]	PUBLICATION[1]	
+1-29	159-166	Emotion	*[1]	PUBLICATION[1]	
+1-30	167-174	Lexicon	*[1]	PUBLICATION[1]	
+1-31	174-175	]	_	_	
+1-32	175-176	(	_	_	
+1-33	176-181	https	_	_	
+1-34	181-182	:	_	_	
+1-35	182-183	/	_	_	
+1-36	183-184	/	_	_	
+1-37	184-193	arxiv.org	_	_	
+1-38	193-194	/	_	_	
+1-39	194-197	abs	_	_	
+1-40	197-198	/	_	_	
+1-41	198-208	1710.04203	_	_	
+1-42	208-209	)	_	_	
+1-43	210-211	-	_	_	
+1-44	212-213	[	_	_	
+1-45	213-214	A	*[2]	PUBLICATION[2]	
+1-46	215-226	Multivalued	*[2]	PUBLICATION[2]	
+1-47	227-234	Emotion	*[2]	PUBLICATION[2]	
+1-48	235-242	Lexicon	*[2]	PUBLICATION[2]	
+1-49	243-250	Created	*[2]	PUBLICATION[2]	
+1-50	251-254	and	*[2]	PUBLICATION[2]	
+1-51	255-264	Evaluated	*[2]	PUBLICATION[2]	
+1-52	265-267	by	*[2]	PUBLICATION[2]	
+1-53	268-271	the	*[2]	PUBLICATION[2]	
+1-54	272-277	Crowd	*[2]	PUBLICATION[2]	
+1-55	277-278	]	_	_	
+1-56	278-279	(	_	_	
+1-57	279-284	https	_	_	
+1-58	284-285	:	_	_	
+1-59	285-286	/	_	_	
+1-60	286-287	/	_	_	
+1-61	287-306	ieeexplore.ieee.org	_	_	
+1-62	306-307	/	_	_	
+1-63	307-315	document	_	_	
+1-64	315-316	/	_	_	
+1-65	316-323	8554956	_	_	
+1-66	323-324	)	_	_	
+1-67	326-327	*	_	_	
+1-68	327-328	*	_	_	
+1-69	328-334	Please	_	_	
+1-70	335-339	cite	_	_	
+1-71	340-343	the	_	_	
+1-72	344-358	aforementioned	_	_	
+1-73	359-365	papers	_	_	
+1-74	365-366	,	_	_	
+1-75	367-369	if	_	_	
+1-76	370-373	you	_	_	
+1-77	374-378	find	_	_	
+1-78	379-382	the	_	_	
+1-79	383-390	lexicon	_	_	
+1-80	391-397	useful	_	_	
+1-81	398-401	for	_	_	
+1-82	402-406	your	_	_	
+1-83	407-415	research	_	_	
+1-84	415-416	.	_	_	
+1-85	416-417	*	_	_	
+1-86	417-418	*	_	_	
+1-87	420-421	#	_	_	
+1-88	421-422	#	_	_	
+1-89	423-424	*	_	_	
+1-90	424-425	*	_	_	
+1-91	425-431	Header	_	_	
+1-92	432-443	description	_	_	
+1-93	443-444	*	_	_	
+1-94	444-445	*	_	_	
+1-95	447-448	*	_	_	
+1-96	448-449	*	_	_	
+1-97	449-453	Stem	_	_	
+1-98	453-454	*	_	_	
+1-99	454-455	*	_	_	
+1-100	455-456	:	_	_	
+1-101	457-460	the	_	_	
+1-102	461-465	stem	_	_	
+1-103	466-473	derived	_	_	
+1-104	474-478	from	_	_	
+1-105	479-484	terms	_	_	
+1-106	485-487	in	_	_	
+1-107	488-489	"	_	_	
+1-108	489-494	terms	_	_	
+1-109	494-495	"	_	_	
+1-110	496-502	column	_	_	
+1-111	504-505	*	_	_	
+1-112	505-506	*	_	_	
+1-113	506-511	Terms	_	_	
+1-114	511-512	*	_	_	
+1-115	512-513	*	_	_	
+1-116	513-514	:	_	_	
+1-117	515-520	terms	_	_	
+1-118	521-526	found	_	_	
+1-119	527-529	in	_	_	
+1-120	530-533	the	_	_	
+1-121	534-540	corpus	_	_	
+1-122	542-543	*	_	_	
+1-123	543-544	*	_	_	
+1-124	544-556	Anticipation	_	_	
+1-125	556-557	,	_	_	
+1-126	558-561	joy	_	_	
+1-127	561-562	,	_	_	
+1-128	563-568	trust	_	_	
+1-129	568-569	,	_	_	
+1-130	570-574	fear	_	_	
+1-131	574-575	,	_	_	
+1-132	576-583	sadness	_	_	
+1-133	583-584	,	_	_	
+1-134	585-592	disgust	_	_	
+1-135	592-593	,	_	_	
+1-136	594-599	anger	_	_	
+1-137	599-600	,	_	_	
+1-138	601-609	surprise	_	_	
+1-139	609-610	*	_	_	
+1-140	610-611	*	_	_	
+1-141	611-612	:	_	_	
+1-142	613-620	emotion	_	_	
+1-143	621-628	classes	_	_	
+1-144	630-631	*	_	_	
+1-145	631-632	*	_	_	
+1-146	632-643	Intensifier	_	_	
+1-147	643-644	,	_	_	
+1-148	645-652	negator	_	_	
+1-149	652-653	*	_	_	
+1-150	653-654	*	_	_	
+1-151	654-655	:	_	_	
+1-152	656-668	intensifiers	_	_	
+1-153	669-676	classes	_	_	
+1-154	678-679	*	_	_	
+1-155	679-680	*	_	_	
+1-156	680-684	None	_	_	
+1-157	684-685	*	_	_	
+1-158	685-686	*	_	_	
+1-159	686-687	:	_	_	
+1-160	688-698	stop-words	_	_	
+1-161	698-699	,	_	_	
+1-162	700-703	not	_	_	
+1-163	704-711	emotion	_	_	
+1-164	712-721	evocative	_	_	
+1-165	721-722	,	_	_	
+1-166	723-725	or	_	_	
+1-167	726-729	not	_	_	
+1-168	730-742	intensifying	_	_	
+1-169	743-748	terms	_	_	
+1-170	750-751	*	_	_	
+1-171	751-752	*	_	_	
+1-172	752-757	Total	_	_	
+1-173	757-758	*	_	_	
+1-174	758-759	*	_	_	
+1-175	759-760	:	_	_	
+1-176	761-764	the	_	_	
+1-177	765-770	total	_	_	
+1-178	771-777	number	_	_	
+1-179	778-780	of	_	_	
+1-180	781-792	annotations	_	_	
+1-181	793-801	received	_	_	

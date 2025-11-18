@@ -1,0 +1,1 @@
+Download the <DATASET>Maules Creek</DATASET> and <DATASET>USTPO MIT</DATASET> datasets from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip) and extract the <DATASET>USTPO MIT</DATASET> dataset into `.

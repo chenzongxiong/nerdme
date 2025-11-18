@@ -1,0 +1,3 @@
+```markdown
+Plus, our <SOFTWARE>software package</SOFTWARE> is designed to be user-friendly, making it accessible to researchers without specific programming skills.
+```

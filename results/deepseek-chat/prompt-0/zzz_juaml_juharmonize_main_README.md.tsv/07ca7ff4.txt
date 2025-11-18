@@ -1,0 +1,3 @@
+```markdown
+This program is free <SOFTWARE>software</SOFTWARE>: you can redistribute it and/or modify it under the terms of the <LICENSE>GNU Affero General Public License</LICENSE> as published by the <PROJECT>Free Software Foundation</PROJECT>, either version 3 of the <LICENSE>License</LICENSE>, or any later version.
+```

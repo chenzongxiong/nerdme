@@ -1,0 +1,5 @@
+The major contributors of this repository include `<PROJECT>Haozhi Qi</PROJECT>`, `<PROJECT>Yi Li</PROJECT>`, `<PROJECT>Guodong Zhang</PROJECT>`, `<PROJECT>Haochen Zhang</PROJECT>`, `<PROJECT>Jifeng Dai</PROJECT>`, and `<PROJECT>Yichen Wei</PROJECT>`.
+
+`### Introduction`
+
+**FCIS** is a fully convolutional end-to-end solution for instance segmentation, which won the first place in `<CONFERENCE>COCO Segmentation Challenge 2016</CONFERENCE>`.

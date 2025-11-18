@@ -1,0 +1,1 @@
+The `<LICENSE>BSD 3-Clause License</LICENSE>` must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation provided with the distribution.

@@ -1,0 +1,1 @@
+`A <SOFTWARE>PyTorch</SOFTWARE> implementation of the <PROJECT>SLR</PROJECT> (Scaffolding Learning Regime) for training <SOFTWARE>obstacle detection models</SOFTWARE> for <DATASET>aquatic domains</DATASET>.`

@@ -1,0 +1,1 @@
+We also exploit training techniques from `<PROGLANG>PyTorch</PROGLANG>`-based `<SOFTWARE>DeiT</SOFTWARE>` (<LICENSE>MIT</LICENSE>) available at `<URL>https://github.com/facebookresearch/deit</URL>`.

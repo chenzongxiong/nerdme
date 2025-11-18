@@ -1,0 +1,1 @@
+`A mapping from the <PROJECT>model names/classes/configs</PROJECT> in the <REPOSITORY>repository</REPOSITORY> to the models reported in the <PUBLICATION>paper</PUBLICATION> is as follows: <FILE>src/evaluation/evaluate.py</FILE>: Contain code to generate rankings over the <DATASET>evaluation datasets</DATASET>.`

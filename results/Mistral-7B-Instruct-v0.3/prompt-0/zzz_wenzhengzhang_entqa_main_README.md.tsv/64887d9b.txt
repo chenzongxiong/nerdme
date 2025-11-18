@@ -1,0 +1,2 @@
+`One one terminal/screen run GERBIL by: ``` cd gerbil \
+`. In the <PROJECT>GERBIL</PROJECT>, you can find the <SOFTWARE>Gerbil</SOFTWARE> software.`

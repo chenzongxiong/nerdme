@@ -1,0 +1,3 @@
+```markdown
+It is accessible as a <PROGLANG>python</PROGLANG> object:  ```python from wildlifeml import <SOFTWARE>MegaDetector</SOFTWARE>  md = <SOFTWARE>MegaDetector</SOFTWARE>(batch_size=32, confidence_threshold=0.1) md.predict_directory(directory='<directory>', output_file='<output_file>') ```  `<directory>` should be a directory that contains images, where bounding boxes should be predicted.
+```

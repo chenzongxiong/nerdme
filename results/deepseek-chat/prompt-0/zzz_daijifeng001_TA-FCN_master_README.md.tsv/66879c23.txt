@@ -1,0 +1,3 @@
+```markdown
+/external/<SOFTWARE>mxnet</SOFTWARE>/$(YOUR_MXNET_PACKAGE)`, and modify `MXNET_VERSION` in `.
+```

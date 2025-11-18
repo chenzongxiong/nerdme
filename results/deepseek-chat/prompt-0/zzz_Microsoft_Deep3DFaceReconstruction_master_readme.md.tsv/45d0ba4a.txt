@@ -1,0 +1,3 @@
+```markdown
+- face_shape: vertex positions of 3D face in the world coordinate
+```

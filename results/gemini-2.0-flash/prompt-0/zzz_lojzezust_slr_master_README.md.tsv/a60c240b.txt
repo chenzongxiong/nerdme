@@ -1,0 +1,1 @@
+TIP] > Use the `--help` switch for more details on all possible arguments and settings. #### MODS inference `tools/mods_inference.py` can be used in a similar fashion to run inference on the `<DATASET>MODS</DATASET>` benchmark

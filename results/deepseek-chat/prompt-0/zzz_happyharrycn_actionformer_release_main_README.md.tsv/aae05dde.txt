@@ -1,0 +1,3 @@
+```markdown
+/ckpt/<SOFTWARE>ego4d_omnivore_egovlp_reproduce</SOFTWARE>/logs ``` * Evaluate the trained model.
+```

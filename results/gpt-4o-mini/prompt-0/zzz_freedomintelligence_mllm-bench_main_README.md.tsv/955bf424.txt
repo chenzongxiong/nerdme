@@ -1,0 +1,1 @@
+[Pytorch <SOFTWARE>2.0</SOFTWARE>](https://img.shields.io/badge/PyTorch-<SOFTWARE>2.0</SOFTWARE>+-lightblue) !

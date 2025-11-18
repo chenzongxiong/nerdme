@@ -1,0 +1,1 @@
+This repository contains the [code](/fisher-information), [data](/fisher-information/data) and [results](/fisher-information/results) for a framework for determining the maximum information gain and optimising experimental design in neutron reflectometry experiments using the <DATASET>Fisher information</DATASET> (FI).

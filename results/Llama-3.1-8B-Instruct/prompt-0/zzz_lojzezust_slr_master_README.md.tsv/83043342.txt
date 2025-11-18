@@ -1,0 +1,1 @@
+Partial masks are constructed from weak annotations and <SOFTWARE>IMU</SOFTWARE> horizon masks.

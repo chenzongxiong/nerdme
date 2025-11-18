@@ -1,0 +1,1 @@
+Two dependencies, [`<SOFTWARE>mamba-ssm</SOFTWARE>`](https://github.com/state-spaces/<SOFTWARE>mamba</SOFTWARE>) and [`<SOFTWARE>causal-conv1d</SOFTWARE>`](https://github.com/Dao-AILab/<SOFTWARE>causal-conv1d</SOFTWARE>) require a NVIDIA GPU.

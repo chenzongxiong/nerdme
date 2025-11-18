@@ -1,0 +1,3 @@
+```markdown
+[arXiv](https://img.shields.io/badge/arXiv-<PUBLICATION>Paper</PUBLICATION>-<COLOR>.svg)](https://arxiv.org/abs/2207.10434) [[<PUBLICATION>Paper</PUBLICATION>]](https://openaccess.thecvf.com/content/<CONFERENCE>ICCV2021</CONFERENCE>/papers/Jin_DC-ShadowNet_Single-Image_Hard_and_Soft_Shadow_Removal_Using_Unsupervised_Domain-Classifier_<CONFERENCE>ICCV_2021</CONFERENCE>_paper.pdf)  [[Supplementary]](https://openaccess.thecvf.com/content/<CONFERENCE>ICCV2021</CONFERENCE>/supplemental/Jin_DC-ShadowNet_Single-Image_Hard_<CONFERENCE>ICCV_2021</CONFERENCE>_supplemental.pdf)  [[Poster]](poster_slides/DC-ShadowNet_poster.pdf) [[Slides]](poster_slides/DC-ShadowNet_slides.pdf)  [[Video]](https://www.bilibili.com/video/BV12e411H7bx/?
+```

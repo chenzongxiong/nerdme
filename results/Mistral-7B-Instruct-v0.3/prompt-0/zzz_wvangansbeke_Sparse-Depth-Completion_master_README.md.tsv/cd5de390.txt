@@ -1,0 +1,1 @@
+`Secondly, two <DIRECTORY>directories</DIRECTORY> are built <CONDITION>i.e.</CONDITION> <CONDITION>one</CONDITION> for <CONFERENCE>training</CONFERENCE> and <CONDITION>one</CONDITION> for <CONFERENCE>validation</CONFERENCE>`.

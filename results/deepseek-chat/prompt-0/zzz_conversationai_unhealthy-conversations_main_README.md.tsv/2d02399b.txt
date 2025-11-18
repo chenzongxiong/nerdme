@@ -1,0 +1,1 @@
+We hope that this `<DATASET>dataset</DATASET>` can contribute to research on how to understand, monitor and deal with unhealthy online interactions to promote healthier conversations online.  ## The data  The `<DATASET>dataset</DATASET>` is provided as three .csv files, `<DATASET>train.csv</DATASET>`, `<DATASET>test.csv</DATASET>`, and `<DATASET>val.csv</DATASET>`.

@@ -1,0 +1,3 @@
+The **Title** is: `<PUBLICATION>"Multi-Vector Models with Textual Guidance for Fine-Grained Scientific Document Similarity"</PUBLICATION>`
+The **Authors** are: `<PERSON>Sheshera Mysore</PERSON>`, `<PERSON>Arman Cohan</PERSON>`, and `<PERSON>Tom Hope</PERSON>`
+The **Abstract** is: We present a new scientific document similarity model based on matching fine-grained aspects of texts.

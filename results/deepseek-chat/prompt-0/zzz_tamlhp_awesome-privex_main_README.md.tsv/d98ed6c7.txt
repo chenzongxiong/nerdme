@@ -1,0 +1,3 @@
+```markdown
+[<PROJECT>Awesome</PROJECT>](https://<PROJECT>awesome</PROJECT>.re/badge.svg)](https://<PROJECT>awesome</PROJECT>.re) [!
+```

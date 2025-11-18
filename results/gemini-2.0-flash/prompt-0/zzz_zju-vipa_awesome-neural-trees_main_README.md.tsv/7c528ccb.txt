@@ -1,0 +1,1 @@
+These methods attempt to incorporate the class hierarchy into the architecture of the classifier, so that the networks are designed to be branched and each branch is tasked to identify the concept abstraction at one specific level of the class hierarchy

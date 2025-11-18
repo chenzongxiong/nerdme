@@ -1,0 +1,1 @@
+The result can be used to assess the rigorousness of the test suite and help discover the blind spots.

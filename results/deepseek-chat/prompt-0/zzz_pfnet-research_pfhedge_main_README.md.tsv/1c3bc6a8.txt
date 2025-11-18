@@ -1,0 +1,1 @@
+- [`<SOFTWARE>WhalleyWilmott</SOFTWARE>`](https://pfnet-research.github.io/pfhedge/generated/pfhedge.nn.WhalleyWilmott.html): [<SOFTWARE>Whalley-Wilmott</SOFTWARE>][whalley-wilmott]'s asymptotically optimal strategy for small costs

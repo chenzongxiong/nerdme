@@ -1,0 +1,3 @@
+```markdown
+# <PROJECT>Sparse-Depth-Completion</PROJECT>  This repo contains the implementation of our <PUBLICATION>paper [Sparse and Noisy LiDAR Completion with RGB Guidance and Uncertainty](https://arxiv.org/abs/1902.05356)</PUBLICATION> by [<SOFTWARE>Wouter Van Gansbeke</SOFTWARE>](https://github.com/wvangansbeke), Davy Neven, Bert De Brabandere and Luc Van Gool.
+```

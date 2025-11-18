@@ -1,0 +1,4 @@
+Copyright (C) `<YEAR>2020</YEAR>`, `<AUTHOR>authors of preattyharmonize</AUTHOR>`.
+The `<SOFTWARE>prettyharmonize</SOFTWARE>` tool is a Python library for automatic formatting of JavaScript files.
+It is available under the `<LICENSE>MIT License</LICENSE>`.
+For more information, visit the project's `<WEBSITE>https://github.com/google/prettier/tree/main/packages/prettier-plugin-preattyharmonize</WEBSITE>`.

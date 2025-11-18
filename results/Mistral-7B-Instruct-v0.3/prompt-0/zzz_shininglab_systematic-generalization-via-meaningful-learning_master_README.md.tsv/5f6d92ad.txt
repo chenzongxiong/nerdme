@@ -1,0 +1,14 @@
+```
+Please find the example pipeline shown below.
+
+### Models + LSTM - <PROJECT>lstm_luong_wmt_en_de</PROJECT> + Transformer - <PROJECT>transformer_iwslt_de_en</PROJECT> + Dynamic Conv. - <PROJECT>lightconv_iwslt_de_en</PROJECT>
+
+### BPE
+``` examples/translation/subword-nmt/apply_bpe.py -c iwslt14.tokenized.de-en/code <iwslt14.tokenized.de-en/iwslt14.vocab.en> iwslt14.tokenized.de-en/iwslt14.vocab.en.bpe ```
+
+### Preprocessing
+```
+TEXT=examples/translation/iwslt14.tokenized.de-en
+fairseq-preprocess --source-lang en --target-lang de
+     --trainpref $TEXT/train --validpref $TEXT/valid --testpref $TEXT/test
+     --destdir

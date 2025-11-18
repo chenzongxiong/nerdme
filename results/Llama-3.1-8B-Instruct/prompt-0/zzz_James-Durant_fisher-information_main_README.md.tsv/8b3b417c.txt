@@ -1,0 +1,1 @@
+Determining the maximum <EVALMETRIC>information gain</EVALMETRIC> and optimizing experimental design in neutron reflectometry using the <SOFTWARE>Fisher information</SOFTWARE>.

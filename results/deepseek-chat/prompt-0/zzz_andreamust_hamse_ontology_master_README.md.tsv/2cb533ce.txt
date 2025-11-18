@@ -1,0 +1,1 @@
+The documentation of the `<ONTOLOGY>ontology</ONTOLOGY>`, together with other more specific information is hosted on [The `<PROJECT>HaMSE</PROJECT>` Project Website](https://andreapoltronieri.org/`<PROJECT>HaMSE</PROJECT>`_project/).

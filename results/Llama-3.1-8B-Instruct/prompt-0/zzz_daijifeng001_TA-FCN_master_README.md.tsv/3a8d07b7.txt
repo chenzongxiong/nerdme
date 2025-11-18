@@ -1,0 +1,1 @@
+/experiments/fcis/cfgs/<DATASET>*.yaml</DATASET>` to `$(YOUR_MXNET_PACKAGE)`.

@@ -1,0 +1,3 @@
+```markdown
+Determining the maximum information gain and optimizing experimental design in neutron reflectometry using the <EVALMETRIC>Fisher information</EVALMETRIC>.
+```

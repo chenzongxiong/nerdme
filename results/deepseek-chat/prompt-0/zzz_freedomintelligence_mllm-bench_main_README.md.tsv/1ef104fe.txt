@@ -1,0 +1,3 @@
+```markdown
+Explanations of parameters and outputs of the two methods are in [workers/<SOFTWARE>baseworker</SOFTWARE>.py](.
+```

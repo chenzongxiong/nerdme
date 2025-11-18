@@ -1,0 +1,3 @@
+```markdown
+</div>            | | **Information Loss**   | Normalised Certainty Penalty </br> (NCP) | $\text{NCP}(G) = \sum\limits_{i=1}^{d} w_i \cdot \text{NCP}_{A_i}(G)$                                                       | <div style="width:500px"> Higher <EVALMETRIC>NCP</EVALMETRIC> values indicate a greater degree of generalization and more information loss.
+```

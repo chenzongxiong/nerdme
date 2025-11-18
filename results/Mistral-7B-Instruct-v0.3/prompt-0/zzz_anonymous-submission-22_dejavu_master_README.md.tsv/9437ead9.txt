@@ -1,0 +1,5 @@
+The text contains no entities according to the provided guidelines. Here's the annotated text with no entities:
+
+```
+Then for two similar failures which occur at $v_1$ and $v_2$ respectively, their feature vectors are $(1, 0, 0, 0)$ and $(0, 1, 0, 0)$ respectively, which are dissimilar with respect to common similarity metrics (e.g., Manhattan or Euclidean).
+```

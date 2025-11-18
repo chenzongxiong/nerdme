@@ -1,0 +1,3 @@
+```markdown
+│   ├── predicted      <- Model predictions, will be used for the <EVALMETRIC>evaluation</EVALMETRIC> scripts     │   └── raw            <- The original, immutable <DATASET>data dump</DATASET>
+```

@@ -1,0 +1,9 @@
+`First, follow the <REPO>README</REPO> in each <REPO>repository</REPO> to reproduce the original reported results as baseline (c.f. <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>).`
+
+`The <SOFTWARE>Protege ontology editor</SOFTWARE> is widely used for creating ontologies.`
+
+`The <DATASET>Maules Creek</DATASET> dataset is available at <URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip</URL>.`
+
+`The <PROJECT>Paper With Code</PROJECT> project (<URL>https://<PROJECT>paperswithcode</PROJECT>.com/) provides a platform for sharing research papers and code.`
+
+`The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (<URL>https://iswc2019.semanticweb.org/</URL>) is a

@@ -1,0 +1,1 @@
+With ``nose`` installed, type ``` $ make test ``` to run the unit tests.

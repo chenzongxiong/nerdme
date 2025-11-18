@@ -1,0 +1,3 @@
+```markdown
+Used for saving logs and weights. - `<EVALMETRIC>BATCH_SIZE</EVALMETRIC>`: Batch size per gpu. - `<EVALMETRIC>WARMUP_EPOCHS</EVALMETRIC>`: Number of epochs for the warm-up phase. - `<EVALMETRIC>FINETUNE_EPOCHS</EVALMETRIC>`: Number of epochs for the fine-tuning phase. - `<EVALMETRIC>NUM_ITER</EVALMETRIC>`: Number of iterations of the SLR pseudo label estimation and fine-tuning.  ### Individual training steps  Individual steps of the SLR pipeline can also be executed separately, with the following python scripts.  #### Step I: Feature warm-up  Train an initial model on partial labels generated from weak annotations and IMU.
+```

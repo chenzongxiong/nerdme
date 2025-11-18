@@ -1,0 +1,1 @@
+`Please cite this paper if your work use <SOFTWARE>Jury</SOFTWARE>, and if your <PUBLICATION>publication material</PUBLICATION> will be submitted to the venues after this date`

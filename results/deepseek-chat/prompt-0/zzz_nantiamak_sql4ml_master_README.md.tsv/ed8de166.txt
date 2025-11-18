@@ -1,0 +1,1 @@
+It is the prototype that is used in the paper `<PUBLICATION>Nantia Makrynioti, Ruy Ley-Wild and Vasilis Vassalos. sql4ml: a declarative end-to-end workflow for machine learning.</PUBLICATION>`

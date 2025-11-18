@@ -1,0 +1,3 @@
+The following gif exemplary visualizes the learning progress of this model.
+
+`<PUBLICATION>The following gif exemplary visualizes the learning progress of this model.</PUBLICATION>`

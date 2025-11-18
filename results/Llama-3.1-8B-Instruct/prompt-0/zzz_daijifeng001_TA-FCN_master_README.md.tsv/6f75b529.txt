@@ -1,0 +1,111 @@
+For Windows users, Visual Studio 2015 is needed to compile cython module.   ### Requirements: 
+Hardware  Any NVIDIA GPUs with at least 5GB memory should be OK 
+### Installation 
+1. Install the <SOFTWARE>Cython</SOFTWARE> module from the official website.
+2. Install the <SOFTWARE>Visual Studio 2015</SOFTWARE> and the necessary packages.
+3. Install the <SOFTWARE>NVIDIA CUDA Toolkit</SOFTWARE> and the necessary packages.
+4. Install the <SOFTWARE>cuDNN</SOFTWARE> library.
+5. Install the <SOFTWARE>TensorFlow</SOFTWARE> library.
+6. Install the <SOFTWARE>Keras</SOFTWARE> library.
+7. Install the <SOFTWARE>Scikit-learn</SOFTWARE> library.
+8. Install the <SOFTWARE>Matplotlib</SOFTWARE> library.
+9. Install the <SOFTWARE>Seaborn</SOFTWARE> library.
+10. Install the <SOFTWARE>Pandas</SOFTWARE> library.
+11. Install the <SOFTWARE>NumPy</SOFTWARE> library.
+12. Install the <SOFTWARE>SciPy</SOFTWARE> library.
+13. Install the <SOFTWARE>OpenCV</SOFTWARE> library.
+14. Install the <SOFTWARE>PyTorch</SOFTWARE> library.
+15. Install the <SOFTWARE>PyTorch Lightning</SOFTWARE> library.
+16. Install the <SOFTWARE>Horovod</SOFTWARE> library.
+17. Install the <SOFTWARE>Horovod Keras</SOFTWARE> library.
+18. Install the <SOFTWARE>Horovod TensorFlow</SOFTWARE> library.
+19. Install the <SOFTWARE>Horovod PyTorch</SOFTWARE> library.
+20. Install the <SOFTWARE>OpenMPI</SOFTWARE> library.
+21. Install the <SOFTWARE>MPICH</SOFTWARE> library.
+22. Install the <SOFTWARE>MS-MPI</SOFTWARE> library.
+23. Install the <SOFTWARE>Microsoft MPI</SOFTWARE> library.
+24. Install the <SOFTWARE>Intel MPI</SOFTWARE> library.
+25. Install the <SOFTWARE>IBM MPI</SOFTWARE> library.
+26. Install the <SOFTWARE>Oracle MPI</SOFTWARE> library.
+27. Install the <SOFTWARE>PGI MPI</SOFTWARE> library.
+28. Install the <SOFTWARE>OpenACC</SOFTWARE> library.
+29. Install the <SOFTWARE>OpenMP</SOFTWARE> library.
+30. Install the <SOFTWARE>Intel OpenMP</SOFTWARE> library.
+31. Install the <SOFTWARE>PGI OpenMP</SOFTWARE> library.
+32. Install the <SOFTWARE>Oracle OpenMP</SOFTWARE> library.
+33. Install the <SOFTWARE>Microsoft OpenMP</SOFTWARE> library.
+34. Install the <SOFTWARE>Horovod MPI</SOFTWARE> library.
+35. Install the <SOFTWARE>Horovod OpenMP</SOFTWARE> library.
+36. Install the <SOFTWARE>Horovod CUDA</SOFTWARE> library.
+37. Install the <SOFTWARE>Horovod cuDNN</SOFTWARE> library.
+38. Install the <SOFTWARE>Horovod OpenCL</SOFTWARE> library.
+39. Install the <SOFTWARE>Horovod OpenGL</SOFTWARE> library.
+40. Install the <SOFTWARE>Horovod OpenCV</SOFTWARE> library.
+41. Install the <SOFTWARE>Horovod PyTorch Lightning</SOFTWARE> library.
+42. Install the <SOFTWARE>Horovod Keras</SOFTWARE> library.
+43. Install the <SOFTWARE>Horovod TensorFlow</SOFTWARE> library.
+44. Install the <SOFTWARE>Horovod PyTorch</SOFTWARE> library.
+45. Install the <SOFTWARE>Horovod OpenMPI</SOFTWARE> library.
+46. Install the <SOFTWARE>Horovod MPICH</SOFTWARE> library.
+47. Install the <SOFTWARE>Horovod MS-MPI</SOFTWARE> library.
+48. Install the <SOFTWARE>Horovod Microsoft MPI</SOFTWARE> library.
+49. Install the <SOFTWARE>Horovod Intel MPI</SOFTWARE> library.
+50. Install the <SOFTWARE>Horovod IBM MPI</SOFTWARE> library.
+51. Install the <SOFTWARE>Horovod Oracle MPI</SOFTWARE> library.
+52. Install the <SOFTWARE>Horovod PGI MPI</SOFTWARE> library.
+53. Install the <SOFTWARE>Horovod OpenACC</SOFTWARE> library.
+54. Install the <SOFTWARE>Horovod OpenMP</SOFTWARE> library.
+55. Install the <SOFTWARE>Horovod Intel OpenMP</SOFTWARE> library.
+56. Install the <SOFTWARE>Horovod PGI OpenMP</SOFTWARE> library.
+57. Install the <SOFTWARE>Horovod Oracle OpenMP</SOFTWARE> library.
+58. Install the <SOFTWARE>Horovod Microsoft OpenMP</SOFTWARE> library.
+59. Install the <SOFTWARE>Horovod Horovod MPI</SOFTWARE> library.
+60. Install the <SOFTWARE>Horovod Horovod OpenMP</SOFTWARE> library.
+61. Install the <SOFTWARE>Horovod Horovod CUDA</SOFTWARE> library.
+62. Install the <SOFTWARE>Horovod Horovod cuDNN</SOFTWARE> library.
+63. Install the <SOFTWARE>Horovod Horovod OpenCL</SOFTWARE> library.
+64. Install the <SOFTWARE>Horovod Horovod OpenGL</SOFTWARE> library.
+65. Install the <SOFTWARE>Horovod Horovod OpenCV</SOFTWARE> library.
+66. Install the <SOFTWARE>Horovod Horovod PyTorch Lightning</SOFTWARE> library.
+67. Install the <SOFTWARE>Horovod Horovod Keras</SOFTWARE> library.
+68. Install the <SOFTWARE>Horovod Horovod TensorFlow</SOFTWARE> library.
+69. Install the <SOFTWARE>Horovod Horovod PyTorch</SOFTWARE> library.
+70. Install the <SOFTWARE>Horovod Horovod OpenMPI</SOFTWARE> library.
+71. Install the <SOFTWARE>Horovod Horovod MPICH</SOFTWARE> library.
+72. Install the <SOFTWARE>Horovod Horovod MS-MPI</SOFTWARE> library.
+73. Install the <SOFTWARE>Horovod Horovod Microsoft MPI</SOFTWARE> library.
+74. Install the <SOFTWARE>Horovod Horovod Intel MPI</SOFTWARE> library.
+75. Install the <SOFTWARE>Horovod Horovod IBM MPI</SOFTWARE> library.
+76. Install the <SOFTWARE>Horovod Horovod Oracle MPI</SOFTWARE> library.
+77. Install the <SOFTWARE>Horovod Horovod PGI MPI</SOFTWARE> library.
+78. Install the <SOFTWARE>Horovod Horovod OpenACC</SOFTWARE> library.
+79. Install the <SOFTWARE>Horovod Horovod OpenMP</SOFTWARE> library.
+80. Install the <SOFTWARE>Horovod Horovod Intel OpenMP</SOFTWARE> library.
+81. Install the <SOFTWARE>Horovod Horovod PGI OpenMP</SOFTWARE> library.
+82. Install the <SOFTWARE>Horovod Horovod Oracle OpenMP</SOFTWARE> library.
+83. Install the <SOFTWARE>Horovod Horovod Microsoft OpenMP</SOFTWARE> library.
+84. Install the <SOFTWARE>Horovod Horovod Horovod MPI</SOFTWARE> library.
+85. Install the <SOFTWARE>Horovod Horovod Horovod OpenMP</SOFTWARE> library.
+86. Install the <SOFTWARE>Horovod Horovod Horovod CUDA</SOFTWARE> library.
+87. Install the <SOFTWARE>Horovod Horovod Horovod cuDNN</SOFTWARE> library.
+88. Install the <SOFTWARE>Horovod Horovod Horovod OpenCL</SOFTWARE> library.
+89. Install the <SOFTWARE>Horovod Horovod Horovod OpenGL</SOFTWARE> library.
+90. Install the <SOFTWARE>Horovod Horovod Horovod OpenCV</SOFTWARE> library.
+91. Install the <SOFTWARE>Horovod Horovod Horovod PyTorch Lightning</SOFTWARE> library.
+92. Install the <SOFTWARE>Horovod Horovod Horovod Keras</SOFTWARE> library.
+93. Install the <SOFTWARE>Horovod Horovod Horovod TensorFlow</SOFTWARE> library.
+94. Install the <SOFTWARE>Horovod Horovod Horovod PyTorch</SOFTWARE> library.
+95. Install the <SOFTWARE>Horovod Horovod Horovod OpenMPI</SOFTWARE> library.
+96. Install the <SOFTWARE>Horovod Horovod Horovod MPICH</SOFTWARE> library.
+97. Install the <SOFTWARE>Horovod Horovod Horovod MS-MPI</SOFTWARE> library.
+98. Install the <SOFTWARE>Horovod Horovod Horovod Microsoft MPI</SOFTWARE> library.
+99. Install the <SOFTWARE>Horovod Horovod Horovod Intel MPI</SOFTWARE> library.
+100. Install the <SOFTWARE>Horovod Horovod Horovod IBM MPI</SOFTWARE> library.
+101. Install the <SOFTWARE>Horovod Horovod Horovod Oracle MPI</SOFTWARE> library.
+102. Install the <SOFTWARE>Horovod Horovod Horovod PGI MPI</SOFTWARE> library.
+103. Install the <SOFTWARE>Horovod Horovod Horovod OpenACC</SOFTWARE> library.
+104. Install the <SOFTWARE>Horovod Horovod Horovod OpenMP</SOFTWARE> library.
+105. Install the <SOFTWARE>Horovod Horovod Horovod Intel OpenMP</SOFTWARE> library.
+106. Install the <SOFTWARE>Horovod Horovod Horovod PGI OpenMP</SOFTWARE> library.
+107. Install the <SOFTWARE>Horovod Horovod Horovod Oracle OpenMP</SOFTWARE> library.
+108. Install the <SOFTWARE>Horovod Horovod

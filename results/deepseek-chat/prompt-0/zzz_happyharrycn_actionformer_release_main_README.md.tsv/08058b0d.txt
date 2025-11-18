@@ -1,0 +1,3 @@
+```markdown
+**Related <PROJECT>projects</PROJECT>**: > [**<PROJECT>SnAG: Scalable and Accurate Video Grounding</PROJECT>**](https://arxiv.org/abs/2404.02257) <br> > Fangzhou Mu\*, Sicheng Mo\*, Yin Li <br> > *<CONFERENCE>CVPR 2024</CONFERENCE>* <br> [!
+```

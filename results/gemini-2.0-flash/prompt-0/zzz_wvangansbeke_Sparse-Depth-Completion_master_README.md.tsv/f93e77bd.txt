@@ -1,0 +1,1 @@
+Mapped lidar points together with RGB images (monocular) are used in this framework.

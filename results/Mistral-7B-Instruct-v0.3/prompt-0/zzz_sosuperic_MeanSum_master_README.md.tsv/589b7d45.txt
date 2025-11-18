@@ -1,0 +1,1 @@
+`Hence, for a machine with a single GPU, you will give gpus=<PROGLANG>Python</PROGLANG> <SOFTWARE>train_sum.py</SOFTWARE> <ONTOLOGY>Pre-trained Language Model</ONTOLOGY> <ONTOLOGY>Default Hyperparameters</ONTOLOGY>`. Training summarization model (using pre-trained language model and default hyperparams). `<EVALMETRIC>Notes</EVALMETRIC>=<run_name>`

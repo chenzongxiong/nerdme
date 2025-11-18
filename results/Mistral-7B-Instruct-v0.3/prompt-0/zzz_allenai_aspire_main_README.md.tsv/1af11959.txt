@@ -1,0 +1,1 @@
+The <PROJECT>Paper With Code</PROJECT> project (<URL>https://<PROJECT>paperswithcode</PROJECT>.com/</URL>) provides a dataset called `<DATASET>Maules Creek</DATASET>`. In this dataset, some experiments involve adding additional sentences to the abstract as an augmented input, which has shown to improve results.

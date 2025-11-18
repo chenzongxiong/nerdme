@@ -1,0 +1,3 @@
+```markdown
+`config/models_config`: JSON files with hyper-parameters for models in the paper consumed by code in `<PROGLANG>src/learning/</PROGLANG>`.
+```

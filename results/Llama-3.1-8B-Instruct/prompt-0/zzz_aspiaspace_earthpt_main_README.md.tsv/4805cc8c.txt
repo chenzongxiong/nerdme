@@ -1,0 +1,1 @@
+This repository began its life as <SOFTWARE>nanoGPT</SOFTWARE> (<SOFTWARE>https://github.com/karpathy/nanoGPT</SOFTWARE>), and has been altered so that it is usable for time series data.

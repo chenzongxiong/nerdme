@@ -1,0 +1,8 @@
+The text annotated with Named Entity Recognition (NER) according to the provided guidelines is as follows:
+
+```
+See [<SOFTWARE>environment.yml</SOFTWARE>](environment.yml) for complete environment settings. - <PROGLANG>python</PROGLANG> 3.7.6 - <SOFTWARE>pytorch</SOFTWARE> 1.1.0 - <SOFTWARE>torchvision</SOFTWARE> 0.3.0 - <SOFTWARE>tensorboard</SOFTWARE> 2.1.0 - <SOFTWARE>spacy</SOFTWARE> 2.2.3
+
+## Data Preparation
+Follow instructions in `<DATASET>data/README.md</DATASET>` to setup `<DATASET>data</DATASET>` directory.
+```

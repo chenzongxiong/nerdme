@@ -1,0 +1,527 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Active Learning with Gaussian Processes for Crop Phenotyping
+#Text=Plant phenotyping evaluates crops based on physical characteristics to support plant breeding and genetics activities.
+1-1	0-1	#	_	_	
+1-2	2-8	Active	_	_	
+1-3	9-17	Learning	_	_	
+1-4	18-22	with	_	_	
+1-5	23-31	Gaussian	_	_	
+1-6	32-41	Processes	_	_	
+1-7	42-45	for	_	_	
+1-8	46-50	Crop	_	_	
+1-9	51-62	Phenotyping	_	_	
+1-10	63-68	Plant	_	_	
+1-11	69-80	phenotyping	_	_	
+1-12	81-90	evaluates	_	_	
+1-13	91-96	crops	_	_	
+1-14	97-102	based	_	_	
+1-15	103-105	on	_	_	
+1-16	106-114	physical	_	_	
+1-17	115-130	characteristics	_	_	
+1-18	131-133	to	_	_	
+1-19	134-141	support	_	_	
+1-20	142-147	plant	_	_	
+1-21	148-156	breeding	_	_	
+1-22	157-160	and	_	_	
+1-23	161-169	genetics	_	_	
+1-24	170-180	activities	_	_	
+1-25	180-181	.	_	_	
+
+#Text=Since the current standard practice in collecting phenotype data needs human specialists to assess thousands of plants, phenotyping is currently the bottleneck in the plant breeding process.
+2-1	182-187	Since	_	_	
+2-2	188-191	the	_	_	
+2-3	192-199	current	_	_	
+2-4	200-208	standard	_	_	
+2-5	209-217	practice	_	_	
+2-6	218-220	in	_	_	
+2-7	221-231	collecting	_	_	
+2-8	232-241	phenotype	_	_	
+2-9	242-246	data	_	_	
+2-10	247-252	needs	_	_	
+2-11	253-258	human	_	_	
+2-12	259-270	specialists	_	_	
+2-13	271-273	to	_	_	
+2-14	274-280	assess	_	_	
+2-15	281-290	thousands	_	_	
+2-16	291-293	of	_	_	
+2-17	294-300	plants	_	_	
+2-18	300-301	,	_	_	
+2-19	302-313	phenotyping	_	_	
+2-20	314-316	is	_	_	
+2-21	317-326	currently	_	_	
+2-22	327-330	the	_	_	
+2-23	331-341	bottleneck	_	_	
+2-24	342-344	in	_	_	
+2-25	345-348	the	_	_	
+2-26	349-354	plant	_	_	
+2-27	355-363	breeding	_	_	
+2-28	364-371	process	_	_	
+2-29	371-372	.	_	_	
+
+#Text=To increase efficiency of phenotyping, high throughput phenotyping (HTP) uses sensors and robotic platforms to gather plant phenotype data.
+3-1	373-375	To	_	_	
+3-2	376-384	increase	_	_	
+3-3	385-395	efficiency	_	_	
+3-4	396-398	of	_	_	
+3-5	399-410	phenotyping	_	_	
+3-6	410-411	,	_	_	
+3-7	412-416	high	_	_	
+3-8	417-427	throughput	_	_	
+3-9	428-439	phenotyping	_	_	
+3-10	440-441	(	_	_	
+3-11	441-444	HTP	_	_	
+3-12	444-445	)	_	_	
+3-13	446-450	uses	_	_	
+3-14	451-458	sensors	_	_	
+3-15	459-462	and	_	_	
+3-16	463-470	robotic	_	_	
+3-17	471-480	platforms	_	_	
+3-18	481-483	to	_	_	
+3-19	484-490	gather	_	_	
+3-20	491-496	plant	_	_	
+3-21	497-506	phenotype	_	_	
+3-22	507-511	data	_	_	
+3-23	511-512	.	_	_	
+
+#Text=However, the current practices involve exhaustive data collection and is time-consuming.
+4-1	513-520	However	_	_	
+4-2	520-521	,	_	_	
+4-3	522-525	the	_	_	
+4-4	526-533	current	_	_	
+4-5	534-543	practices	_	_	
+4-6	544-551	involve	_	_	
+4-7	552-562	exhaustive	_	_	
+4-8	563-567	data	_	_	
+4-9	568-578	collection	_	_	
+4-10	579-582	and	_	_	
+4-11	583-585	is	_	_	
+4-12	586-600	time-consuming	_	_	
+4-13	600-601	.	_	_	
+
+#Text=In this project, we develop an active learning algorithm with Gaussian Processes to enable a robotic system to actively gather measurements from the field in order to learn the phenotype distribution.
+5-1	602-604	In	_	_	
+5-2	605-609	this	_	_	
+5-3	610-617	project	_	_	
+5-4	617-618	,	_	_	
+5-5	619-621	we	_	_	
+5-6	622-629	develop	_	_	
+5-7	630-632	an	_	_	
+5-8	633-639	active	_	_	
+5-9	640-648	learning	_	_	
+5-10	649-658	algorithm	_	_	
+5-11	659-663	with	_	_	
+5-12	664-672	Gaussian	_	_	
+5-13	673-682	Processes	_	_	
+5-14	683-685	to	_	_	
+5-15	686-692	enable	_	_	
+5-16	693-694	a	_	_	
+5-17	695-702	robotic	_	_	
+5-18	703-709	system	_	_	
+5-19	710-712	to	_	_	
+5-20	713-721	actively	_	_	
+5-21	722-728	gather	_	_	
+5-22	729-741	measurements	_	_	
+5-23	742-746	from	_	_	
+5-24	747-750	the	_	_	
+5-25	751-756	field	_	_	
+5-26	757-759	in	_	_	
+5-27	760-765	order	_	_	
+5-28	766-768	to	_	_	
+5-29	769-774	learn	_	_	
+5-30	775-778	the	_	_	
+5-31	779-788	phenotype	_	_	
+5-32	789-801	distribution	_	_	
+5-33	801-802	.	_	_	
+
+#Text=The paper can be found at https://arxiv.org/abs/1901.06803 and will appear at [AAMAS 2019](http://aamas2019.encs.concordia.ca/).
+#Text=
+#Text=## Installation
+#Text=
+#Text=### Requirements: 
+#Text=* [GPytorch](https://github.com/cornellius-gp/gpytorch) (Beta Release)
+#Text=* [Networkx](https://networkx.github.io/)
+#Text=* [Seaborn](https://seaborn.pydata.org/)
+#Text=* [Pandas](https://pandas.pydata.org/)
+#Text=
+#Text=After installing the listed dependencies, simply clone this package to run experiments.
+#Text=
+#Text=## Getting Started
+#Text=
+#Text=See `run.py` script to setup a simulation environment and run an agent to adapively collect data and learn the target distribution.
+6-1	805-808	The	_	_	
+6-2	809-814	paper	_	_	
+6-3	815-818	can	_	_	
+6-4	819-821	be	_	_	
+6-5	822-827	found	_	_	
+6-6	828-830	at	_	_	
+6-7	831-836	https	_	_	
+6-8	836-837	:	_	_	
+6-9	837-838	/	_	_	
+6-10	838-839	/	_	_	
+6-11	839-848	arxiv.org	_	_	
+6-12	848-849	/	_	_	
+6-13	849-852	abs	_	_	
+6-14	852-853	/	_	_	
+6-15	853-863	1901.06803	_	_	
+6-16	864-867	and	_	_	
+6-17	868-872	will	_	_	
+6-18	873-879	appear	_	_	
+6-19	880-882	at	_	_	
+6-20	883-884	[	_	_	
+6-21	884-889	AAMAS	*[1]	CONFERENCE[1]	
+6-22	890-894	2019	*[1]	CONFERENCE[1]	
+6-23	894-895	]	_	_	
+6-24	895-896	(	_	_	
+6-25	896-900	http	_	_	
+6-26	900-901	:	_	_	
+6-27	901-902	/	_	_	
+6-28	902-903	/	_	_	
+6-29	903-912	aamas2019	*	CONFERENCE	
+6-30	912-913	.	_	_	
+6-31	913-930	encs.concordia.ca	_	_	
+6-32	930-931	/	_	_	
+6-33	931-932	)	_	_	
+6-34	932-933	.	_	_	
+6-35	935-936	#	_	_	
+6-36	936-937	#	_	_	
+6-37	938-950	Installation	_	_	
+6-38	952-953	#	_	_	
+6-39	953-954	#	_	_	
+6-40	954-955	#	_	_	
+6-41	956-968	Requirements	_	_	
+6-42	968-969	:	_	_	
+6-43	971-972	*	_	_	
+6-44	973-974	[	_	_	
+6-45	974-982	GPytorch	*	SOFTWARE	
+6-46	982-983	]	_	_	
+6-47	983-984	(	_	_	
+6-48	984-989	https	_	_	
+6-49	989-990	:	_	_	
+6-50	990-991	/	_	_	
+6-51	991-992	/	_	_	
+6-52	992-1002	github.com	_	_	
+6-53	1002-1003	/	_	_	
+6-54	1003-1016	cornellius-gp	_	_	
+6-55	1016-1017	/	_	_	
+6-56	1017-1025	gpytorch	*	SOFTWARE	
+6-57	1025-1026	)	_	_	
+6-58	1027-1028	(	_	_	
+6-59	1028-1032	Beta	_	_	
+6-60	1033-1040	Release	_	_	
+6-61	1040-1041	)	_	_	
+6-62	1042-1043	*	_	_	
+6-63	1044-1045	[	_	_	
+6-64	1045-1053	Networkx	*	SOFTWARE	
+6-65	1053-1054	]	_	_	
+6-66	1054-1055	(	_	_	
+6-67	1055-1060	https	_	_	
+6-68	1060-1061	:	_	_	
+6-69	1061-1062	/	_	_	
+6-70	1062-1063	/	_	_	
+6-71	1063-1081	networkx.github.io	_	_	
+6-71.1	1063-1071	networkx	*	SOFTWARE	
+6-72	1081-1082	/	_	_	
+6-73	1082-1083	)	_	_	
+6-74	1084-1085	*	_	_	
+6-75	1086-1087	[	_	_	
+6-76	1087-1094	Seaborn	*	SOFTWARE	
+6-77	1094-1095	]	_	_	
+6-78	1095-1096	(	_	_	
+6-79	1096-1101	https	_	_	
+6-80	1101-1102	:	_	_	
+6-81	1102-1103	/	_	_	
+6-82	1103-1104	/	_	_	
+6-83	1104-1122	seaborn.pydata.org	_	_	
+6-83.1	1104-1111	seaborn	*	SOFTWARE	
+6-84	1122-1123	/	_	_	
+6-85	1123-1124	)	_	_	
+6-86	1125-1126	*	_	_	
+6-87	1127-1128	[	_	_	
+6-88	1128-1134	Pandas	*	SOFTWARE	
+6-89	1134-1135	]	_	_	
+6-90	1135-1136	(	_	_	
+6-91	1136-1141	https	_	_	
+6-92	1141-1142	:	_	_	
+6-93	1142-1143	/	_	_	
+6-94	1143-1144	/	_	_	
+6-95	1144-1161	pandas.pydata.org	_	_	
+6-95.1	1144-1150	pandas	*	SOFTWARE	
+6-96	1161-1162	/	_	_	
+6-97	1162-1163	)	_	_	
+6-98	1165-1170	After	_	_	
+6-99	1171-1181	installing	_	_	
+6-100	1182-1185	the	_	_	
+6-101	1186-1192	listed	_	_	
+6-102	1193-1205	dependencies	_	_	
+6-103	1205-1206	,	_	_	
+6-104	1207-1213	simply	_	_	
+6-105	1214-1219	clone	_	_	
+6-106	1220-1224	this	_	_	
+6-107	1225-1232	package	_	_	
+6-108	1233-1235	to	_	_	
+6-109	1236-1239	run	_	_	
+6-110	1240-1251	experiments	_	_	
+6-111	1251-1252	.	_	_	
+6-112	1254-1255	#	_	_	
+6-113	1255-1256	#	_	_	
+6-114	1257-1264	Getting	_	_	
+6-115	1265-1272	Started	_	_	
+6-116	1274-1277	See	_	_	
+6-117	1278-1279	`	_	_	
+6-118	1279-1285	run.py	_	_	
+6-119	1285-1286	`	_	_	
+6-120	1287-1293	script	_	_	
+6-121	1294-1296	to	_	_	
+6-122	1297-1302	setup	_	_	
+6-123	1303-1304	a	_	_	
+6-124	1305-1315	simulation	_	_	
+6-125	1316-1327	environment	_	_	
+6-126	1328-1331	and	_	_	
+6-127	1332-1335	run	_	_	
+6-128	1336-1338	an	_	_	
+6-129	1339-1344	agent	_	_	
+6-130	1345-1347	to	_	_	
+6-131	1348-1357	adapively	_	_	
+6-132	1358-1365	collect	_	_	
+6-133	1366-1370	data	_	_	
+6-134	1371-1374	and	_	_	
+6-135	1375-1380	learn	_	_	
+6-136	1381-1384	the	_	_	
+6-137	1385-1391	target	_	_	
+6-138	1392-1404	distribution	_	_	
+6-139	1404-1405	.	_	_	
+
+#Text=For example, 
+#Text=
+#Text=```
+#Text=python run.py --eval_only --render
+#Text=```
+#Text=simulates an agent moving in the field to gather samples in an informative manner.
+7-1	1406-1409	For	_	_	
+7-2	1410-1417	example	_	_	
+7-3	1417-1418	,	_	_	
+7-4	1421-1422	`	_	_	
+7-5	1422-1423	`	_	_	
+7-6	1423-1424	`	_	_	
+7-7	1425-1431	python	*	SOFTWARE	
+7-8	1432-1438	run.py	_	_	
+7-9	1439-1440	-	_	_	
+7-10	1440-1441	-	_	_	
+7-11	1441-1450	eval_only	_	_	
+7-12	1451-1452	-	_	_	
+7-13	1452-1453	-	_	_	
+7-14	1453-1459	render	_	_	
+7-15	1460-1461	`	_	_	
+7-16	1461-1462	`	_	_	
+7-17	1462-1463	`	_	_	
+7-18	1464-1473	simulates	_	_	
+7-19	1474-1476	an	_	_	
+7-20	1477-1482	agent	_	_	
+7-21	1483-1489	moving	_	_	
+7-22	1490-1492	in	_	_	
+7-23	1493-1496	the	_	_	
+7-24	1497-1502	field	_	_	
+7-25	1503-1505	to	_	_	
+7-26	1506-1512	gather	_	_	
+7-27	1513-1520	samples	_	_	
+7-28	1521-1523	in	_	_	
+7-29	1524-1526	an	_	_	
+7-30	1527-1538	informative	_	_	
+7-31	1539-1545	manner	_	_	
+7-32	1545-1546	.	_	_	
+
+#Text=The simulation will use a randomly generated mixture of Gaussian dataset.
+8-1	1547-1550	The	_	_	
+8-2	1551-1561	simulation	_	_	
+8-3	1562-1566	will	_	_	
+8-4	1567-1570	use	_	_	
+8-5	1571-1572	a	_	_	
+8-6	1573-1581	randomly	_	_	
+8-7	1582-1591	generated	_	_	
+8-8	1592-1599	mixture	_	_	
+8-9	1600-1602	of	_	_	
+8-10	1603-1611	Gaussian	_	_	
+8-11	1612-1619	dataset	_	_	
+8-12	1619-1620	.	_	_	
+
+#Text=Please contact us if you need the sorghum field data. 
+#Text=
+#Text=## Results
+#Text=Here is an example simulation video:
+#Text=!
+9-1	1621-1627	Please	_	_	
+9-2	1628-1635	contact	_	_	
+9-3	1636-1638	us	_	_	
+9-4	1639-1641	if	_	_	
+9-5	1642-1645	you	_	_	
+9-6	1646-1650	need	_	_	
+9-7	1651-1654	the	_	_	
+9-8	1655-1662	sorghum	_	_	
+9-9	1663-1668	field	_	_	
+9-10	1669-1673	data	_	_	
+9-11	1673-1674	.	_	_	
+9-12	1677-1678	#	_	_	
+9-13	1678-1679	#	_	_	
+9-14	1680-1687	Results	_	_	
+9-15	1688-1692	Here	_	_	
+9-16	1693-1695	is	_	_	
+9-17	1696-1698	an	_	_	
+9-18	1699-1706	example	_	_	
+9-19	1707-1717	simulation	_	_	
+9-20	1718-1723	video	_	_	
+9-21	1723-1724	:	_	_	
+9-22	1725-1726	!	_	_	
+
+#Text=[Active Learing and Planning](imgs/ipp.gif)
+#Text=
+#Text=
+#Text=## Contact
+#Text=
+#Text=For any queries, feel free to raise an issue or contact me at sumit.sks4@gmail.com
+10-1	1726-1727	[	_	_	
+10-2	1727-1733	Active	_	_	
+10-3	1734-1741	Learing	_	_	
+10-4	1742-1745	and	_	_	
+10-5	1746-1754	Planning	_	_	
+10-6	1754-1755	]	_	_	
+10-7	1755-1756	(	_	_	
+10-8	1756-1760	imgs	_	_	
+10-9	1760-1761	/	_	_	
+10-10	1761-1768	ipp.gif	_	_	
+10-11	1768-1769	)	_	_	
+10-12	1772-1773	#	_	_	
+10-13	1773-1774	#	_	_	
+10-14	1775-1782	Contact	_	_	
+10-15	1784-1787	For	_	_	
+10-16	1788-1791	any	_	_	
+10-17	1792-1799	queries	_	_	
+10-18	1799-1800	,	_	_	
+10-19	1801-1805	feel	_	_	
+10-20	1806-1810	free	_	_	
+10-21	1811-1813	to	_	_	
+10-22	1814-1819	raise	_	_	
+10-23	1820-1822	an	_	_	
+10-24	1823-1828	issue	_	_	
+10-25	1829-1831	or	_	_	
+10-26	1832-1839	contact	_	_	
+10-27	1840-1842	me	_	_	
+10-28	1843-1845	at	_	_	
+10-29	1846-1856	sumit.sks4	_	_	
+10-30	1856-1857	@	_	_	
+10-31	1857-1866	gmail.com	_	_	
+
+#Text=.
+11-1	1866-1867	.	_	_	
+
+#Text=<!
+12-1	1869-1870	<	_	_	
+12-2	1870-1871	!	_	_	
+
+#Text=-- <img width="100" src=https://www.cmu.edu/marcom/brand-standards/images/logos-colors-type/full-color-seal-min.png /> -->
+#Text=!
+13-1	1871-1872	-	_	_	
+13-2	1872-1873	-	_	_	
+13-3	1874-1875	<	_	_	
+13-4	1875-1878	img	_	_	
+13-5	1879-1884	width	_	_	
+13-6	1884-1885	=	_	_	
+13-7	1885-1886	"	_	_	
+13-8	1886-1889	100	_	_	
+13-9	1889-1890	"	_	_	
+13-10	1891-1894	src	_	_	
+13-11	1894-1895	=	_	_	
+13-12	1895-1900	https	_	_	
+13-13	1900-1901	:	_	_	
+13-14	1901-1902	/	_	_	
+13-15	1902-1903	/	_	_	
+13-16	1903-1914	www.cmu.edu	_	_	
+13-17	1914-1915	/	_	_	
+13-18	1915-1921	marcom	_	_	
+13-19	1921-1922	/	_	_	
+13-20	1922-1937	brand-standards	_	_	
+13-21	1937-1938	/	_	_	
+13-22	1938-1944	images	_	_	
+13-23	1944-1945	/	_	_	
+13-24	1945-1962	logos-colors-type	_	_	
+13-25	1962-1963	/	_	_	
+13-26	1963-1986	full-color-seal-min.png	_	_	
+13-27	1987-1988	/	_	_	
+13-28	1988-1989	>	_	_	
+13-29	1990-1991	-	_	_	
+13-30	1991-1992	-	_	_	
+13-31	1992-1993	>	_	_	
+13-32	1994-1995	!	_	_	
+
+#Text=[](imgs/cmu_logo2.png)
+#Text=
+#Text=## License
+#Text=
+#Text=This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+#Text=
+#Text=## Acknowledgments
+#Text=
+#Text=This work was supported in part by U.S.
+14-1	1995-1996	[	_	_	
+14-2	1996-1997	]	_	_	
+14-3	1997-1998	(	_	_	
+14-4	1998-2002	imgs	_	_	
+14-5	2002-2003	/	_	_	
+14-6	2003-2012	cmu_logo2	_	_	
+14-7	2012-2013	.	_	_	
+14-8	2013-2016	png	_	_	
+14-9	2016-2017	)	_	_	
+14-10	2019-2020	#	_	_	
+14-11	2020-2021	#	_	_	
+14-12	2022-2029	License	_	_	
+14-13	2031-2035	This	_	_	
+14-14	2036-2043	project	_	_	
+14-15	2044-2046	is	_	_	
+14-16	2047-2055	licensed	_	_	
+14-17	2056-2061	under	_	_	
+14-18	2062-2065	the	_	_	
+14-19	2066-2069	MIT	*[2]	LICENSE[2]	
+14-20	2070-2077	License	*[2]	LICENSE[2]	
+14-21	2078-2079	-	_	_	
+14-22	2080-2083	see	_	_	
+14-23	2084-2087	the	_	_	
+14-24	2088-2089	[	_	_	
+14-25	2089-2099	LICENSE.md	_	_	
+14-26	2099-2100	]	_	_	
+14-27	2100-2101	(	_	_	
+14-28	2101-2111	LICENSE.md	_	_	
+14-29	2111-2112	)	_	_	
+14-30	2113-2117	file	_	_	
+14-31	2118-2121	for	_	_	
+14-32	2122-2129	details	_	_	
+14-33	2129-2130	.	_	_	
+14-34	2132-2133	#	_	_	
+14-35	2133-2134	#	_	_	
+14-36	2135-2150	Acknowledgments	_	_	
+14-37	2152-2156	This	_	_	
+14-38	2157-2161	work	_	_	
+14-39	2162-2165	was	_	_	
+14-40	2166-2175	supported	_	_	
+14-41	2176-2178	in	_	_	
+14-42	2179-2183	part	_	_	
+14-43	2184-2186	by	_	_	
+14-44	2187-2190	U.S	_	_	
+14-45	2190-2191	.	_	_	
+
+#Text=Department of Agriculture
+#Text=(DOA) award 2017-6700-726152.
+15-1	2192-2202	Department	_	_	
+15-2	2203-2205	of	_	_	
+15-3	2206-2217	Agriculture	_	_	
+15-4	2218-2219	(	_	_	
+15-5	2219-2222	DOA	_	_	
+15-6	2222-2223	)	_	_	
+15-7	2224-2229	award	_	_	
+15-8	2230-2234	2017	_	_	
+15-9	2234-2235	-	_	_	
+15-10	2235-2239	6700	_	_	
+15-11	2239-2240	-	_	_	
+15-12	2240-2246	726152	_	_	
+15-13	2246-2247	.	_	_	

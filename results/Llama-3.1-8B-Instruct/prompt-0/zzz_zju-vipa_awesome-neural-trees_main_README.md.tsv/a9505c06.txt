@@ -1,0 +1,27 @@
+**Expires=1662897159&Signature=C2Z0VL3cIkc56vlIci5ERXC7VADyi9tEqIlvJ3CqHzaLB9bfY9Tma8UVsZpu1BXI1l24paZ0iJArqUUzEqrTvum7s93dAUL-pKmmBKausyKiAw3qj2Bx18I5jzDOat2TCKA6wd2GbiexuK7gtlfNgeu03fBg0Rx2UWt~2KW6RNMeamZinhzp1FCrSzH4fFRqhTuc2~UgajTzsaUlJHbJef-s9u2wOiwqNiEUAfwN8zG0tIEt-fE0GEUdSC9AzBVXLpodLTadDzUZODX7lzUX~o00-ZHxKl7VOnbi0wQ8OZw087zKQjqQNOw1ik16zfKMamZW~YS6e38aUgud0sOrBg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA**
+- **"Extracting fuzzy symbolic representation from artificial neural networks"**, <PUBLICATION>NAFIPS 1999</PUBLICATION>
+- Maciej Faifer *et al.* *(use fuzzy representation during the tree-induction process)*
+- [[Paper]](https://ieeexplore.ieee.org/abstract/document/781764)
+- **"DT+GNN: A Fully Explainable Graph Neural Network using Decision Trees"**, <PUBLICATION>arXiv 2022</PUBLICATION>
+- Peter Müller *et al.* *(incorporate DTs into graph neural networks)*
+- [[Paper]](https://arxiv.org/abs/2205.13234)
+- ***NNs perform significance analysis to select attributes***
+- **"ANN-DT: an algorithm for extraction of decision trees from artificial neural networks"**, <PUBLICATION>IEEE Transactions on Neural Networks 1999</PUBLICATION>
+- Gregor PJ Schmitz *et al.*
+- [[Paper]](https://ieeexplore.ieee.org/abstract/document/809084)
+- ##### *1.2.2 Decompositional Techniques.* Decompositional techniques concern units in the hidden layers.
+- <SOFTWARE>ANN-DT</SOFTWARE> algorithm
+- <PROGLANG>Python</PROGLANG>
+- <PROGLANG>Java</PROGLANG>
+- <PROGLANG>C++</PROGLANG>
+- <ONTOLOGY>Ontology of Artificial Neural Networks</ONTOLOGY>
+- <DATASET>ANN-DT dataset</DATASET>
+- <EVALMETRIC>F1-Score</EVALMETRIC>
+- <EVALMETRIC>Precision</EVALMETRIC>
+- <EVALMETRIC>Recall</EVALMETRIC>
+- <LICENSE>CC BY-NC 4.0</LICENSE>
+- <PROJECT>ANN-DT project</PROJECT>
+- <PROJECT>Paper With Code</PROJECT>
+- <SOFTWARE>Protege Ontology Editor</SOFTWARE>
+- <CONFERENCE>NIPS 2017</CONFERENCE>
+- <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP>

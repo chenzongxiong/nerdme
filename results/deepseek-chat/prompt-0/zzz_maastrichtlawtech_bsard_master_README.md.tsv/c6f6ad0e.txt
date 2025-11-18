@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+To address this bottleneck, we introduce the <DATASET>Belgian Statutory Article Retrieval Dataset (BSARD)</DATASET>, which consists of 1,100+ French native legal questions labeled by experienced jurists with relevant articles from a corpus of 22,600+ Belgian law articles.
+```

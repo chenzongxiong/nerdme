@@ -1,0 +1,8 @@
+`[license](http://img.shields.io/badge/license-<LICENSE>BSD</LICENSE>-blue.svg?)
+The <PROJECT>Paper With Code</PROJECT> project (https://<PROJECT>paperswithcode</PROJECT>.com/) is a platform for sharing and evaluating machine learning papers and code. The <PROJECT>Paper With Code</PROJECT> project provides a comprehensive benchmark for various machine learning tasks, including object detection, semantic segmentation, and image classification.
+
+The <PROJECT>Paper With Code</PROJECT> project also offers a leaderboard that ranks models based on their performance on the benchmark datasets. This allows researchers to compare their models with others in the field and identify areas for improvement.
+
+In addition to the benchmark and leaderboard, the <PROJECT>Paper With Code</PROJECT> project also provides a code search engine that allows users to find and reuse code from published papers. This can save researchers time and effort when implementing machine learning models.
+
+The <PROJECT>Paper With Code</PROJECT> project is open source and licensed under the <LICENSE>BSD</

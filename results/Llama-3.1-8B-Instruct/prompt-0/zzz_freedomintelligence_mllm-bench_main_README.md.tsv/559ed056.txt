@@ -1,0 +1,1 @@
+The `init_components()` and `<SOFTWARE>forward()</SOFTWARE>` method.

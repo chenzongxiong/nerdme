@@ -1,0 +1,14 @@
+```
+Please use other provided `CONFIG` files to reproduce results for other `DATASET`s.
+
+```
+- `CONFIG`: PROJECT
+- `config/MF.yaml`: PROGLANG (YAML)
+- `config/bpr_ml.yaml`: DATASET (YAML)
+- `config/LGCN.yaml`: PROGLANG (YAML)
+- `config/TAGCF_bpr_ml.yaml`: PROGLANG (YAML)
+
+```
+- `make run_pipeline`: SOFTWARE
+- `MODEL_YAML_PATH`: PROGLANG (YAML)
+- `DATA_YAML_PATH`: DATASET (YAML)

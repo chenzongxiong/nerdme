@@ -1,0 +1,3 @@
+```markdown
+[<LICENSE>License</LICENSE>](http://img.shields.io/:license-apache-brightgreen.svg)](http://www.apache.org/licenses/<LICENSE>LICENSE-2.0</LICENSE>.html) [!
+```

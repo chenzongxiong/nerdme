@@ -1,0 +1,48 @@
+[
+  {
+    "exact": {
+      "FN": 560,
+      "FP": 22,
+      "TN": 7220,
+      "TP": 0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "exact2": {
+      "WORKSHOP": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 32.0
+      },
+      "macro avg": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 32.0
+      },
+      "micro avg": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 32.0
+      },
+      "weighted avg": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 32.0
+      }
+    },
+    "partial": {
+      "FN": 556,
+      "FP": 23,
+      "TN": 7220,
+      "TP": 3,
+      "f1": 0.010256410256410256,
+      "precision": 0.11538461538461539,
+      "recall": 0.005366726296958855
+    }
+  }
+]

@@ -1,0 +1,3 @@
+Here's the annotated text in Markdown format:
+
+**, <CONFERENCE>TVCG</CONFERENCE>, 2017     - <AUTHOR>Bilal Alsallakh *et al.*</AUTHOR> *(<PROGLANG>deep CNN with branches at intermediate layers to fit the coarser-grained labels)*     - [[<PUBLICATION>Paper](https://ieeexplore.ieee.org/abstract/document/8017618)]]   - **"<TITLE>Fine-Grained Representation Learning and Recognition by Exploiting Hierarchical Semantic Embedding"**", <CONFERENCE>ACM international conference on Multimedia</CONFERENCE>, 2018     - <AUTHOR>Tianshui Chen *et al.*</AUTHOR> *(introduce an attention mechanism to incorporate the coarse-grained results for learning finer-grained features)*     - [[<PUBLICATION>Paper](https://dl.acm.org/doi/abs/10.1145/3240508

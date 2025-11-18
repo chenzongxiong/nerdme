@@ -1,0 +1,3 @@
+The <PUBLICATION>Trepan-Plus: An Extension of a Decision Tree Extraction Algorithm Utilizing Artificial Neural Networks</PUBLICATION>, <CONFERENCE>Intelligent Engineering Systems Through Artificial Neural Networks</CONFERENCE>, 2007
+- M Rangwala *et al.* *(extend <SOFTWARE>TREPAN</SOFTWARE> to multi-class regression problems)*
+- [[<PUBLICATION>Paper</PUBLICATION>]](https://d1wqtxts1xzle7.cloudfront.net/47121083/TREPAN-PLUS_AN_EXTENSION_OF_A_DECISION_T20160708-16395-1sj4ete-with-cover-page-v2.pdf?

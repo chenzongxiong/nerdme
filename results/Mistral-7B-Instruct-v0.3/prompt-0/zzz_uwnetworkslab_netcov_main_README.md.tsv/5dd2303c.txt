@@ -1,0 +1,1 @@
+`Given a set of <SOFTWARE>Batfish queries</SOFTWARE>, it analyzes which lines of configurations <ONTOLOGY>configurations</ONTOLOGY> has/has not been covered.`

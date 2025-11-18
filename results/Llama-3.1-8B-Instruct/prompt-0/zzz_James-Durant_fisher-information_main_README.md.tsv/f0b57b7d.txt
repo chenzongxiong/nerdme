@@ -1,0 +1,8 @@
+The <SOFTWARE>LaTeX</SOFTWARE> is widely used for creating documents. The <PUBLICATION>Determining the maximum information gain and optimizing experimental design in neutron reflectometry using the Fisher information</PUBLICATION> was published in the <PUBLICATION>Journal of Applied Crystallography</PUBLICATION> in <PUBLICATION>2021</PUBLICATION>. The <PROJECT>IUCr</PROJECT> is the publisher. 
+
+## Installation
+1. Install the required packages by running `pip install -r requirements.txt`
+2. Install the <SOFTWARE>Protege Ontology Editor</SOFTWARE> to create and edit ontologies. 
+3. Download the <DATASET>Maules Creek</DATASET> dataset from the provided link.
+4. The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>. 
+5. The <CONFERENCE>International Union of Crystallography</CONFERENCE> conference was held in <YEAR>2021</YEAR>.

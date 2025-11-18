@@ -1,0 +1,9 @@
+The text provided does not contain any of the specified entity classes (CONFERENCE, DATASET, EVALMETRIC, LICENSE, ONTOLOGY, PROGLANG, PROJECT, PUBLICATION, SOFTWARE, WORKSHOP). However, it does mention a `<DATASET>Open Datasheets</DATASET>` and a `<SOFTWARE>no-code tool</SOFTWARE>`.
+
+Here's the annotated text in Markdown format:
+
+With the `<SOFTWARE>no-code tool</SOFTWARE>`, you have the ability to:
+- Create a new `<DATASET>Open Datasheets</DATASET>` datapackage from scratch.
+- Generate a new `<DATASET>Open Datasheets</DATASET>` datapackage from data located on GitHub or a local file.
+- Modify an existing `<DATASET>Open Datasheets</DATASET>` datapackage file from GitHub or a local file.
+- Save an `<DATASET>Open Datasheets</DATASET>` datapackage file to GitHub or locally.

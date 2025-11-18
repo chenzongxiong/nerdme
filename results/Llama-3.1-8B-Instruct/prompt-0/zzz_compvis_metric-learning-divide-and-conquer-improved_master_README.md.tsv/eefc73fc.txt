@@ -1,0 +1,1 @@
+The `ulimit` command is used to set or display user resource limits. You can use the `<SOFTWARE>ulimit</SOFTWARE>` command to set or display user resource limits. If you are a `<PROGLANG>Ubuntu</PROGLANG>` user, `ulimit -n <twice the number of the default>` usually will do the trick.

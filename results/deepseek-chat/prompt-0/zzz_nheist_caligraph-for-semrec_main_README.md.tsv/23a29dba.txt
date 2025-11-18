@@ -1,0 +1,3 @@
+```markdown
+First download the sample <DATASET>dataset</DATASET> you want to run the reasoners on, then run the jar file and provide the location of the <DATASET>dataset</DATASET> as first argument like this:  ```<PROGLANG>java</PROGLANG> -jar <SOFTWARE>semrec-caligraph-elk-hermit.jar</SOFTWARE> <PATH-TO-DATASET-FILE> &> log_elk-hermit.txt```  The result is a realization of the input <DATASET>dataset</DATASET> through the selected reasoners.
+```

@@ -1,0 +1,3 @@
+```markdown
+id=JFKR3WqwyXR} } ```   ## Acknowledgements and References Parts of this code are based on and/or copied from the code of:  https://github.com/<SOFTWARE>edebrouwer/gru_ode_bayes</SOFTWARE>, of the <PUBLICATION>paper  [GRU-ODE-Bayes: Continuous modeling of sporadically-observed time series](https://arxiv.org/abs/1905.12374)</PUBLICATION> and the code of: https://github.com/<SOFTWARE>YuliaRubanova/latent_ode</SOFTWARE>, of the <PUBLICATION>paper [Latent ODEs for Irregularly-Sampled Time Series](https://arxiv.org/abs/1907.03907)</PUBLICATION>.
+```

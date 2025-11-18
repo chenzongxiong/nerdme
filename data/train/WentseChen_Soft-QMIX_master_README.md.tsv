@@ -1,0 +1,340 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Soft-QMIX
+#Text=
+#Text=This repo is heavily based on the [pymarl](https://github.com/benellis3/pymarl2)
+#Text=
+#Text=## Installation
+#Text=
+#Text=please follow the installation guide in the original repo [pymarl](https://github.com/benellis3/pymarl2)
+#Text=
+#Text=## Run
+#Text=
+#Text=To run the code, you can use the following command:
+#Text=
+#Text=```bash
+#Text=bash .
+1-1	0-1	#	_	_	
+1-2	2-11	Soft-QMIX	_	_	
+1-3	13-17	This	_	_	
+1-4	18-22	repo	_	_	
+1-5	23-25	is	_	_	
+1-6	26-33	heavily	_	_	
+1-7	34-39	based	_	_	
+1-8	40-42	on	_	_	
+1-9	43-46	the	_	_	
+1-10	47-48	[	_	_	
+1-11	48-54	pymarl	*	SOFTWARE	
+1-12	54-55	]	_	_	
+1-13	55-56	(	_	_	
+1-14	56-61	https	_	_	
+1-15	61-62	:	_	_	
+1-16	62-63	/	_	_	
+1-17	63-64	/	_	_	
+1-18	64-74	github.com	_	_	
+1-19	74-75	/	_	_	
+1-20	75-84	benellis3	_	_	
+1-21	84-85	/	_	_	
+1-22	85-92	pymarl2	*	SOFTWARE	
+1-23	92-93	)	_	_	
+1-24	95-96	#	_	_	
+1-25	96-97	#	_	_	
+1-26	98-110	Installation	_	_	
+1-27	112-118	please	_	_	
+1-28	119-125	follow	_	_	
+1-29	126-129	the	_	_	
+1-30	130-142	installation	_	_	
+1-31	143-148	guide	_	_	
+1-32	149-151	in	_	_	
+1-33	152-155	the	_	_	
+1-34	156-164	original	_	_	
+1-35	165-169	repo	_	_	
+1-36	170-171	[	_	_	
+1-37	171-177	pymarl	*	SOFTWARE	
+1-38	177-178	]	_	_	
+1-39	178-179	(	_	_	
+1-40	179-184	https	_	_	
+1-41	184-185	:	_	_	
+1-42	185-186	/	_	_	
+1-43	186-187	/	_	_	
+1-44	187-197	github.com	_	_	
+1-45	197-198	/	_	_	
+1-46	198-207	benellis3	_	_	
+1-47	207-208	/	_	_	
+1-48	208-215	pymarl2	*	SOFTWARE	
+1-49	215-216	)	_	_	
+1-50	218-219	#	_	_	
+1-51	219-220	#	_	_	
+1-52	221-224	Run	_	_	
+1-53	226-228	To	_	_	
+1-54	229-232	run	_	_	
+1-55	233-236	the	_	_	
+1-56	237-241	code	_	_	
+1-57	241-242	,	_	_	
+1-58	243-246	you	_	_	
+1-59	247-250	can	_	_	
+1-60	251-254	use	_	_	
+1-61	255-258	the	_	_	
+1-62	259-268	following	_	_	
+1-63	269-276	command	_	_	
+1-64	276-277	:	_	_	
+1-65	279-280	`	_	_	
+1-66	280-281	`	_	_	
+1-67	281-282	`	_	_	
+1-68	282-286	bash	*	PROGLANG	
+1-69	287-291	bash	*	SOFTWARE	
+1-70	292-293	.	_	_	
+
+#Text=/qmix.sh
+#Text=```
+#Text=
+#Text=> You have to change `entity: "xxx"` in the `src/config/default.yaml` file to your own wandb entity.
+2-1	293-294	/	_	_	
+2-2	294-301	qmix.sh	_	_	
+2-3	302-303	`	_	_	
+2-4	303-304	`	_	_	
+2-5	304-305	`	_	_	
+2-6	307-308	>	_	_	
+2-7	309-312	You	_	_	
+2-8	313-317	have	_	_	
+2-9	318-320	to	_	_	
+2-10	321-327	change	_	_	
+2-11	328-329	`	_	_	
+2-12	329-335	entity	_	_	
+2-13	335-336	:	_	_	
+2-14	337-338	"	_	_	
+2-15	338-341	xxx	_	_	
+2-16	341-342	"	_	_	
+2-17	342-343	`	_	_	
+2-18	344-346	in	_	_	
+2-19	347-350	the	_	_	
+2-20	351-352	`	_	_	
+2-21	352-355	src	_	_	
+2-22	355-356	/	_	_	
+2-23	356-362	config	_	_	
+2-24	362-363	/	_	_	
+2-25	363-375	default.yaml	_	_	
+2-26	375-376	`	_	_	
+2-27	377-381	file	_	_	
+2-28	382-384	to	_	_	
+2-29	385-389	your	_	_	
+2-30	390-393	own	_	_	
+2-31	394-399	wandb	_	_	
+2-32	400-406	entity	_	_	
+2-33	406-407	.	_	_	
+
+#Text=you can change the hyperparameters in the `qmix.sh` file.
+3-1	409-412	you	_	_	
+3-2	413-416	can	_	_	
+3-3	417-423	change	_	_	
+3-4	424-427	the	_	_	
+3-5	428-443	hyperparameters	_	_	
+3-6	444-446	in	_	_	
+3-7	447-450	the	_	_	
+3-8	451-452	`	_	_	
+3-9	452-459	qmix.sh	_	_	
+3-10	459-460	`	_	_	
+3-11	461-465	file	_	_	
+3-12	465-466	.	_	_	
+
+#Text=For instance to run protoss5v5 map, you can use the following command (default is terran5v5):
+#Text=
+#Text=```bash
+#Text=CUDA_VISIBLE_DEVICES=0 python src/main.py --config=qmix --env-config=sc2_gen_protoss
+#Text=```
+#Text=
+#Text=To run 10v10 map, you should change the `sc2_gen_terran.yaml` file
+#Text=
+#Text=```yaml
+#Text=capability_config:
+#Text=    n_units: 10
+#Text=    n_enemies: 10
+#Text=```
+#Text=
+#Text=## Publication
+#Text=
+#Text=If you find this repository useful, please cite our [paper]([https://arxiv.org/abs/2207.05631](https://arxiv.org/pdf/2406.13930)):
+#Text=```
+#Text=@article{chen2024soft,
+#Text=  title={Soft-QMIX: Integrating Maximum Entropy For Monotonic Value Function Factorization},
+#Text=  author={Chen, Wentse and Huang, Shiyu and Schneider, Jeff},
+#Text=  journal={arXiv preprint arXiv:2406.13930},
+#Text=  year={2024}
+#Text=}
+#Text=```
+4-1	467-470	For	_	_	
+4-2	471-479	instance	_	_	
+4-3	480-482	to	_	_	
+4-4	483-486	run	_	_	
+4-5	487-497	protoss5v5	_	_	
+4-6	498-501	map	_	_	
+4-7	501-502	,	_	_	
+4-8	503-506	you	_	_	
+4-9	507-510	can	_	_	
+4-10	511-514	use	_	_	
+4-11	515-518	the	_	_	
+4-12	519-528	following	_	_	
+4-13	529-536	command	_	_	
+4-14	537-538	(	_	_	
+4-15	538-545	default	_	_	
+4-16	546-548	is	_	_	
+4-17	549-558	terran5v5	_	_	
+4-18	558-559	)	_	_	
+4-19	559-560	:	_	_	
+4-20	562-563	`	_	_	
+4-21	563-564	`	_	_	
+4-22	564-565	`	_	_	
+4-23	565-569	bash	_	_	
+4-24	570-590	CUDA_VISIBLE_DEVICES	_	_	
+4-25	590-591	=	_	_	
+4-26	591-592	0	_	_	
+4-27	593-599	python	_	_	
+4-28	600-603	src	_	_	
+4-29	603-604	/	_	_	
+4-30	604-611	main.py	_	_	
+4-31	612-613	-	_	_	
+4-32	613-614	-	_	_	
+4-33	614-620	config	_	_	
+4-34	620-621	=	_	_	
+4-35	621-625	qmix	_	_	
+4-36	626-627	-	_	_	
+4-37	627-628	-	_	_	
+4-38	628-638	env-config	_	_	
+4-39	638-639	=	_	_	
+4-40	639-642	sc2	_	_	
+4-41	642-643	_	_	_	
+4-42	643-654	gen_protoss	_	_	
+4-43	655-656	`	_	_	
+4-44	656-657	`	_	_	
+4-45	657-658	`	_	_	
+4-46	660-662	To	_	_	
+4-47	663-666	run	_	_	
+4-48	667-672	10v10	_	_	
+4-49	673-676	map	_	_	
+4-50	676-677	,	_	_	
+4-51	678-681	you	_	_	
+4-52	682-688	should	_	_	
+4-53	689-695	change	_	_	
+4-54	696-699	the	_	_	
+4-55	700-701	`	_	_	
+4-56	701-704	sc2	_	_	
+4-57	704-705	_	_	_	
+4-58	705-720	gen_terran.yaml	_	_	
+4-59	720-721	`	_	_	
+4-60	722-726	file	_	_	
+4-61	728-729	`	_	_	
+4-62	729-730	`	_	_	
+4-63	730-731	`	_	_	
+4-64	731-735	yaml	_	_	
+4-65	736-753	capability_config	_	_	
+4-66	753-754	:	_	_	
+4-67	759-766	n_units	_	_	
+4-68	766-767	:	_	_	
+4-69	768-770	10	_	_	
+4-70	775-784	n_enemies	_	_	
+4-71	784-785	:	_	_	
+4-72	786-788	10	_	_	
+4-73	789-790	`	_	_	
+4-74	790-791	`	_	_	
+4-75	791-792	`	_	_	
+4-76	794-795	#	_	_	
+4-77	795-796	#	_	_	
+4-78	797-808	Publication	_	_	
+4-79	810-812	If	_	_	
+4-80	813-816	you	_	_	
+4-81	817-821	find	_	_	
+4-82	822-826	this	_	_	
+4-83	827-837	repository	_	_	
+4-84	838-844	useful	_	_	
+4-85	844-845	,	_	_	
+4-86	846-852	please	_	_	
+4-87	853-857	cite	_	_	
+4-88	858-861	our	_	_	
+4-89	862-863	[	_	_	
+4-90	863-868	paper	_	_	
+4-91	868-869	]	_	_	
+4-92	869-870	(	_	_	
+4-93	870-871	[	_	_	
+4-94	871-876	https	_	_	
+4-95	876-877	:	_	_	
+4-96	877-878	/	_	_	
+4-97	878-879	/	_	_	
+4-98	879-888	arxiv.org	_	_	
+4-99	888-889	/	_	_	
+4-100	889-892	abs	_	_	
+4-101	892-893	/	_	_	
+4-102	893-903	2207.05631	_	_	
+4-103	903-904	]	_	_	
+4-104	904-905	(	_	_	
+4-105	905-910	https	_	_	
+4-106	910-911	:	_	_	
+4-107	911-912	/	_	_	
+4-108	912-913	/	_	_	
+4-109	913-922	arxiv.org	_	_	
+4-110	922-923	/	_	_	
+4-111	923-926	pdf	_	_	
+4-112	926-927	/	_	_	
+4-113	927-937	2406.13930	_	_	
+4-114	937-938	)	_	_	
+4-115	938-939	)	_	_	
+4-116	939-940	:	_	_	
+4-117	941-942	`	_	_	
+4-118	942-943	`	_	_	
+4-119	943-944	`	_	_	
+4-120	945-946	@	_	_	
+4-121	946-953	article	_	_	
+4-122	953-954	{	_	_	
+4-123	954-966	chen2024soft	_	_	
+4-124	966-967	,	_	_	
+4-125	970-975	title	_	_	
+4-126	975-976	=	_	_	
+4-127	976-977	{	_	_	
+4-128	977-986	Soft-QMIX	*[1]	PUBLICATION[1]	
+4-129	986-987	:	*[1]	PUBLICATION[1]	
+4-130	988-999	Integrating	*[1]	PUBLICATION[1]	
+4-131	1000-1007	Maximum	*[1]	PUBLICATION[1]	
+4-132	1008-1015	Entropy	*[1]	PUBLICATION[1]	
+4-133	1016-1019	For	*[1]	PUBLICATION[1]	
+4-134	1020-1029	Monotonic	*[1]	PUBLICATION[1]	
+4-135	1030-1035	Value	*[1]	PUBLICATION[1]	
+4-136	1036-1044	Function	*[1]	PUBLICATION[1]	
+4-137	1045-1058	Factorization	*[1]	PUBLICATION[1]	
+4-138	1058-1059	}	_	_	
+4-139	1059-1060	,	_	_	
+4-140	1063-1069	author	_	_	
+4-141	1069-1070	=	_	_	
+4-142	1070-1071	{	_	_	
+4-143	1071-1075	Chen	_	_	
+4-144	1075-1076	,	_	_	
+4-145	1077-1083	Wentse	_	_	
+4-146	1084-1087	and	_	_	
+4-147	1088-1093	Huang	_	_	
+4-148	1093-1094	,	_	_	
+4-149	1095-1100	Shiyu	_	_	
+4-150	1101-1104	and	_	_	
+4-151	1105-1114	Schneider	_	_	
+4-152	1114-1115	,	_	_	
+4-153	1116-1120	Jeff	_	_	
+4-154	1120-1121	}	_	_	
+4-155	1121-1122	,	_	_	
+4-156	1125-1132	journal	_	_	
+4-157	1132-1133	=	_	_	
+4-158	1133-1134	{	_	_	
+4-159	1134-1139	arXiv	_	_	
+4-160	1140-1148	preprint	_	_	
+4-161	1149-1154	arXiv	_	_	
+4-162	1154-1155	:	_	_	
+4-163	1155-1165	2406.13930	_	_	
+4-164	1165-1166	}	_	_	
+4-165	1166-1167	,	_	_	
+4-166	1170-1174	year	_	_	
+4-167	1174-1175	=	_	_	
+4-168	1175-1176	{	_	_	
+4-169	1176-1180	2024	_	_	
+4-170	1180-1181	}	_	_	
+4-171	1182-1183	}	_	_	
+4-172	1184-1185	`	_	_	
+4-173	1185-1186	`	_	_	
+4-174	1186-1187	`	_	_	

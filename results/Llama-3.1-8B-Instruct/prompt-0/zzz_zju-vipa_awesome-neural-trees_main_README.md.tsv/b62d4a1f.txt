@@ -1,0 +1,1 @@
+In these approaches, "neural" and "tree" are separated, *i.e.*, one of NN and DT is assigned to accomplish a specific task, while the other performs as its assistant or interpreter.

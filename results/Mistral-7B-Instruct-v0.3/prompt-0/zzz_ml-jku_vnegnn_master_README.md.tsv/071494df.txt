@@ -1,0 +1,1 @@
+`The <PROJECT>project_page</PROJECT> is available at [<SOFTWARE>img.shields.io</SOFTWARE>](https://img.shields.io/badge/project_page-blue?).`

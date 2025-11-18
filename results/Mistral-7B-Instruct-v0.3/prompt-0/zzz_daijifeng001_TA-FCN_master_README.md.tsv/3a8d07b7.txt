@@ -1,0 +1,1 @@
+`/experiments/fcis/cfgs/*.yaml` to `\<SOFTWARE\>YOUR\_MXNET\_PACKAGE\</SOFTWARE\>`.

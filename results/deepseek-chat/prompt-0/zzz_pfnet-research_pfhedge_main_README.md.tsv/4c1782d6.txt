@@ -1,0 +1,1 @@
+In each epoch, we generate Monte Carlo paths of the asset prices and let the `hedger` hedge the derivative by trading the stock.

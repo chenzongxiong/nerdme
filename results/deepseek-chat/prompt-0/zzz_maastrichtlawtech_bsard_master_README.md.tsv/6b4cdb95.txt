@@ -1,0 +1,1 @@
+We find that fine-tuned dense retrieval models significantly outperform other systems.

@@ -1,0 +1,15 @@
+The text contains the following named entities:
+
+- **CONFERENCE**: `<CONFERENCE>ICCV, 2021</CONFERENCE>`
+- **PUBLICATION**: `<PUBLICATION>"Self-Born Wiring for Neural Trees"</PUBLICATION>`
+- **AUTHOR**: `Ying Chen *et al.*`
+- **PROJECT**: `<PROJECT>AdaptiveNeuralTrees</PROJECT>`
+- **SOFTWARE**: `<SOFTWARE>Code</SOFTWARE>` (twice)
+- **PROJECT**: `<PROJECT>SeBoW-paddle</PROJECT>`
+
+The annotated text in Markdown format is:
+
+The `<SOFTWARE>Code</SOFTWARE>` is available at `https://github.com/rtanno21609/AdaptiveNeuralTrees`.
+
+- **"Self-Born Wiring for Neural Trees"**, `<CONFERENCE>ICCV, 2021</CONFERENCE>`
+- Ying Chen `*et al.*` *(NDT

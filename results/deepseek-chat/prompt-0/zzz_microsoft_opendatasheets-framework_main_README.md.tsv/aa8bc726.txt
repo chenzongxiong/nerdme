@@ -1,0 +1,1 @@
+Most contributions require you to agree to a `<LICENSE>Contributor License Agreement (CLA)</LICENSE>` declaring that you have the right to, and actually do, grant us the rights to use your contribution.

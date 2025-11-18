@@ -1,0 +1,3 @@
+```markdown
+<PUBLICATION>An RL Perspective on RLHF, Prompting, and Beyond</PUBLICATION>,   author={Sun, Hao},   journal={<PUBLICATION>arXiv preprint arXiv:2310.06147</PUBLICATION>},   year={2023} }
+```

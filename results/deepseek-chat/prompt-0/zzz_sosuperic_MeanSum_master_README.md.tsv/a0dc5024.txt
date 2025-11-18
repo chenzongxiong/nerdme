@@ -1,0 +1,3 @@
+```markdown
+Tested in <SOFTWARE>Docker</SOFTWARE>, image = ```<SOFTWARE>pytorch/pytorch:0.4_cuda9_cudnn7</SOFTWARE>```.  ## General setup   Execute inside ```scripts/```:  ##### Create directories that aren't part of the Git repo (checkpoints/, outputs/):  ``` bash setup_dirs.sh ```  ##### Install python packages:  ``` bash install_python_pkgs.sh ```  ##### The default parameters for <SOFTWARE>Tensorboard</SOFTWARE>(x?)
+```

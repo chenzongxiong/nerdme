@@ -1,0 +1,2 @@
+```py from pfhedge.nn import <SOFTWARE>BlackScholes</SOFTWARE> from pfhedge.nn import <SOFTWARE>Hedger</SOFTWARE>  derivative = <SOFTWARE>EuropeanOption</SOFTWARE>(<SOFTWARE>BrownianStock</SOFTWARE>(cost=1e-4))  model = <SOFTWARE>BlackScholes</SOFTWARE>(derivative) hedger = <SOFTWARE>Hedger</SOFTWARE>(model, inputs=model.inputs()) ```  ### Whalley-Wilmott's Asymptotically Optimal Strategy for Small Costs  This strategy is proposed by [<PUBLICATION>Whalley *et al.* 1997</PUBLICATION>][whalley-wilmott] and is proved to be optimal for asymptotically small transaction costs.
+```

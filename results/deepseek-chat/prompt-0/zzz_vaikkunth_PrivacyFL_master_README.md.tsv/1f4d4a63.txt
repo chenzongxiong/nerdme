@@ -1,0 +1,1 @@
+Note that while the clients benefit from participating in the simulation in this example, that is not always the case.

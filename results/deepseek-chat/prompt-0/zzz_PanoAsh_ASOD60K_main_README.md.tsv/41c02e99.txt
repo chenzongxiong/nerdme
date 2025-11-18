@@ -1,0 +1,1 @@
+/figures/fig_teaser.jpg"/> <br />     <em>      Figure 1: An example of our <DATASET>PAVS10K</DATASET> where coarse-to-fine annotations are provided, based on a guidance of fixations acquired from subjective experiments conducted by multiple (N) subjects wearing Head-Mounted Displays (HMDs) and headphones.

@@ -1,0 +1,3 @@
+Here's the annotated text in Markdown format:
+
+However, a sample of `<DATASET>10 or 12 instances</DATASET>` with `<PUBLICATION>gold standard annotations</PUBLICATION>` is provided here as a `<DATASET>trial/sample dataset</DATASET>`.

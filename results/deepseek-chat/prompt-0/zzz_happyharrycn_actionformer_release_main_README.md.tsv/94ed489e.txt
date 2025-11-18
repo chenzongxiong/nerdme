@@ -1,0 +1,3 @@
+```markdown
+│ └───data/ │    └───<DATASET>epic_kitchens</DATASET>/ │    │  └───annotations │    │  └───features    │    └───... | └───libs │ │   ... ```  **Training and Evaluation** * On <DATASET>EPIC Kitchens</DATASET>, we train separate models for nouns and verbs. * To train our <SOFTWARE>ActionFormer</SOFTWARE> on verbs with <SOFTWARE>SlowFast</SOFTWARE> features, use ```shell python .
+```

@@ -1,0 +1,3 @@
+```markdown
+This function will display widgets to select the input field and the comma-separated list of keywords, which can be treated in a case-sensitive or case-insensitive manner. ``` <SOFTWARE>msb.create_keyword_concept_model(sb)</SOFTWARE> ```  <img src=".
+```

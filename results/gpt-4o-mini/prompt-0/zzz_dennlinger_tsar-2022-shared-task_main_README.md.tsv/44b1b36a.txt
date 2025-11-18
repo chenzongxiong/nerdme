@@ -1,0 +1,1 @@
+# <CONFERENCE>TSAR-2022</CONFERENCE> Shared Task: Is Compute All We Need for Lexical Simplification?

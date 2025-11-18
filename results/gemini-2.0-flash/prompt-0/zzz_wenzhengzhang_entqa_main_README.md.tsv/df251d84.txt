@@ -1,0 +1,1 @@
+Download `<SOFTWARE>BLINK</SOFTWARE>` pretrained retriever model [here](https://github.com/facebookresearch/BLINK) \ 3.

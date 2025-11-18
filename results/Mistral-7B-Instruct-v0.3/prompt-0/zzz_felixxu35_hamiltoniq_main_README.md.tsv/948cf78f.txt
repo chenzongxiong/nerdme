@@ -1,0 +1,18 @@
+`[Quick Start](#quickstart) <PROJECT>3. Data Preparation for Named Entity Recognition</PROJECT>`
+
+`**Data Preparation Steps**`
+
+`1. **Download the <DATASET>CoNLL-2003 Named Entity Recognition Corpus</DATASET>**`
+`You can find the corpus at <URL>http://www.clips.uantwerpen.be/conll2003/ner/</URL>`
+
+`2. **Preprocess the Data**`
+`- **Tokenize** the text using the <SOFTWARE>NLTK</SOFTWARE> library`
+`- **Lowercase** all tokens`
+`- **Remove punctuation**`
+`- **Remove stopwords**`
+
+`3. **Label the Data**`
+`- **Manually annotate** the entities using the <ONTOLOGY>IOB2</ONTOLOGY> format`
+`- **Save the annotated data** in the <FORMAT>CoNLL</FORMAT> format`
+
+`4. **Split the Data

@@ -1,0 +1,1 @@
+The contribution of this paper is threefold: `<PROJECT>Global and local information</PROJECT>` are combined in order to accurately complete and correct the sparse and noisy `<DATASET>LiDAR input</DATASET>`.

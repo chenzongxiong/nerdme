@@ -1,0 +1,1 @@
+Our observations suggest that models can successfully one-shot generalize to novel concepts and compositions through semantic linking, either inductively or deductively.

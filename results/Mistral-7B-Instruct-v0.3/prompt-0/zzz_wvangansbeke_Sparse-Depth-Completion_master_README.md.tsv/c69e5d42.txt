@@ -1,0 +1,1 @@
+The `<PROGLANG>Monocular RGB images</PROGLANG>` are used for the guidance of this `<TASK>depth completion task</TASK>`. `*` `<CONFIDENCE_MAP>Confidence maps</CONFIDENCE_MAP>` are learned for the `<BRANCH>global branch</BRANCH>` and the `<BRANCH>local branch</BRANCH>` in an `<METHOD>unsupervised manner</METHOD>`.

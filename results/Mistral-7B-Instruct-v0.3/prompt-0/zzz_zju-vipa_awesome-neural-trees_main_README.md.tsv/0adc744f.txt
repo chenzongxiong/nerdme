@@ -1,0 +1,11 @@
+The given text does not contain any of the specified entity classes. However, I can help you understand how to annotate entities if they were present.
+
+For example, if the text contained "International Semantic Web Conference 2019", it would be annotated as follows:
+
+`If a NDT satisfies this property, it means each internal node is assigned a specific and intermediate <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> classification task.`
+
+In Markdown format:
+
+```
+If a NDT satisfies this property, it means each internal node is assigned a specific and intermediate **<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>** classification task.
+```

@@ -1,0 +1,1 @@
+Reorganize the collected offline data  For the easiest way to run the experiment it is recommended that you start with this step.

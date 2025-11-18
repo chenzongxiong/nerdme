@@ -1,0 +1,394 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Benchmarking methods for label error detection in token classification data
+#Text=
+#Text=Code to reproduce results from the paper:
+#Text=
+#Text=[**Detecting Label Errors in Token Classification Data**](https://arxiv.org/abs/2210.03920)  
+#Text=*NeurIPS 2022 Workshop on Interactive Learning for Natural Language Processing (InterNLP)*
+#Text=
+#Text=This repository is only for intended for scientific purposes.
+1-1	0-1	#	_	_	
+1-2	2-14	Benchmarking	_	_	
+1-3	15-22	methods	_	_	
+1-4	23-26	for	_	_	
+1-5	27-32	label	_	_	
+1-6	33-38	error	_	_	
+1-7	39-48	detection	_	_	
+1-8	49-51	in	_	_	
+1-9	52-57	token	_	_	
+1-10	58-72	classification	_	_	
+1-11	73-77	data	_	_	
+1-12	79-83	Code	_	_	
+1-13	84-86	to	_	_	
+1-14	87-96	reproduce	_	_	
+1-15	97-104	results	_	_	
+1-16	105-109	from	_	_	
+1-17	110-113	the	_	_	
+1-18	114-119	paper	_	_	
+1-19	119-120	:	_	_	
+1-20	122-123	[	_	_	
+1-21	123-124	*	_	_	
+1-22	124-125	*	_	_	
+1-23	125-134	Detecting	*[1]	PUBLICATION[1]	
+1-24	135-140	Label	*[1]	PUBLICATION[1]	
+1-25	141-147	Errors	*[1]	PUBLICATION[1]	
+1-26	148-150	in	*[1]	PUBLICATION[1]	
+1-27	151-156	Token	*[1]	PUBLICATION[1]	
+1-28	157-171	Classification	*[1]	PUBLICATION[1]	
+1-29	172-176	Data	*[1]	PUBLICATION[1]	
+1-30	176-177	*	_	_	
+1-31	177-178	*	_	_	
+1-32	178-179	]	_	_	
+1-33	179-180	(	_	_	
+1-34	180-185	https	_	_	
+1-35	185-186	:	_	_	
+1-36	186-187	/	_	_	
+1-37	187-188	/	_	_	
+1-38	188-197	arxiv.org	_	_	
+1-39	197-198	/	_	_	
+1-40	198-201	abs	_	_	
+1-41	201-202	/	_	_	
+1-42	202-212	2210.03920	_	_	
+1-43	212-213	)	_	_	
+1-44	216-217	*	_	_	
+1-45	217-224	NeurIPS	*[2]|*[3]	WORKSHOP[2]|CONFERENCE[3]	
+1-46	225-229	2022	*[2]|*[3]	WORKSHOP[2]|CONFERENCE[3]	
+1-47	230-238	Workshop	*[2]	WORKSHOP[2]	
+1-48	239-241	on	*[2]	WORKSHOP[2]	
+1-49	242-253	Interactive	*[2]	WORKSHOP[2]	
+1-50	254-262	Learning	*[2]	WORKSHOP[2]	
+1-51	263-266	for	*[2]	WORKSHOP[2]	
+1-52	267-274	Natural	*[2]	WORKSHOP[2]	
+1-53	275-283	Language	*[2]	WORKSHOP[2]	
+1-54	284-294	Processing	*[2]	WORKSHOP[2]	
+1-55	295-296	(	*[2]	WORKSHOP[2]	
+1-56	296-304	InterNLP	*[2]	WORKSHOP[2]	
+1-57	304-305	)	*[2]	WORKSHOP[2]	
+1-58	305-306	*	_	_	
+1-59	308-312	This	_	_	
+1-60	313-323	repository	_	_	
+1-61	324-326	is	_	_	
+1-62	327-331	only	_	_	
+1-63	332-335	for	_	_	
+1-64	336-344	intended	_	_	
+1-65	345-348	for	_	_	
+1-66	349-359	scientific	_	_	
+1-67	360-368	purposes	_	_	
+1-68	368-369	.	_	_	
+
+#Text=To find label errors in your own token classification data, you should instead use [the implementation](https://docs.cleanlab.ai/stable/tutorials/token_classification.html) from the official [cleanlab library](https://github.com/cleanlab/cleanlab).
+#Text=
+#Text=
+#Text=#### Install Cleanlab Package 
+#Text=--- 
+#Text=Install the Cleanlab version used for our experiments: `pip install .
+2-1	370-372	To	_	_	
+2-2	373-377	find	_	_	
+2-3	378-383	label	_	_	
+2-4	384-390	errors	_	_	
+2-5	391-393	in	_	_	
+2-6	394-398	your	_	_	
+2-7	399-402	own	_	_	
+2-8	403-408	token	_	_	
+2-9	409-423	classification	_	_	
+2-10	424-428	data	_	_	
+2-11	428-429	,	_	_	
+2-12	430-433	you	_	_	
+2-13	434-440	should	_	_	
+2-14	441-448	instead	_	_	
+2-15	449-452	use	_	_	
+2-16	453-454	[	_	_	
+2-17	454-457	the	_	_	
+2-18	458-472	implementation	_	_	
+2-19	472-473	]	_	_	
+2-20	473-474	(	_	_	
+2-21	474-479	https	_	_	
+2-22	479-480	:	_	_	
+2-23	480-481	/	_	_	
+2-24	481-482	/	_	_	
+2-25	482-498	docs.cleanlab.ai	_	_	
+2-25.1	487-495	cleanlab	*	SOFTWARE	
+2-26	498-499	/	_	_	
+2-27	499-505	stable	_	_	
+2-28	505-506	/	_	_	
+2-29	506-515	tutorials	_	_	
+2-30	515-516	/	_	_	
+2-31	516-541	token_classification.html	_	_	
+2-32	541-542	)	_	_	
+2-33	543-547	from	_	_	
+2-34	548-551	the	_	_	
+2-35	552-560	official	_	_	
+2-36	561-562	[	_	_	
+2-37	562-570	cleanlab	*	SOFTWARE	
+2-38	571-578	library	_	_	
+2-39	578-579	]	_	_	
+2-40	579-580	(	_	_	
+2-41	580-585	https	_	_	
+2-42	585-586	:	_	_	
+2-43	586-587	/	_	_	
+2-44	587-588	/	_	_	
+2-45	588-598	github.com	_	_	
+2-46	598-599	/	_	_	
+2-47	599-607	cleanlab	_	_	
+2-48	607-608	/	_	_	
+2-49	608-616	cleanlab	*	SOFTWARE	
+2-50	616-617	)	_	_	
+2-51	617-618	.	_	_	
+2-52	621-622	#	_	_	
+2-53	622-623	#	_	_	
+2-54	623-624	#	_	_	
+2-55	624-625	#	_	_	
+2-56	626-633	Install	_	_	
+2-57	634-642	Cleanlab	*	SOFTWARE	
+2-58	643-650	Package	_	_	
+2-59	652-653	-	_	_	
+2-60	653-654	-	_	_	
+2-61	654-655	-	_	_	
+2-62	657-664	Install	_	_	
+2-63	665-668	the	_	_	
+2-64	669-677	Cleanlab	*	SOFTWARE	
+2-65	678-685	version	_	_	
+2-66	686-690	used	_	_	
+2-67	691-694	for	_	_	
+2-68	695-698	our	_	_	
+2-69	699-710	experiments	_	_	
+2-70	710-711	:	_	_	
+2-71	712-713	`	_	_	
+2-72	713-716	pip	_	_	
+2-73	717-724	install	_	_	
+2-74	725-726	.	_	_	
+
+#Text=/cleanlab`
+#Text=
+#Text=#### Download Datasets 
+#Text=---
+#Text=CoNLL-2003: 
+#Text=- Original paper: [Introduction to the CoNLL-2003 Shared Task:
+#Text=Language-Independent Named Entity Recognition](https://arxiv.org/pdf/cs/0306050v1.pdf) 
+#Text=- Original dataset: [Papers with Code](https://paperswithcode.com/dataset/conll-2003)
+3-1	726-727	/	_	_	
+3-2	727-735	cleanlab	*	SOFTWARE	
+3-3	735-736	`	_	_	
+3-4	738-739	#	_	_	
+3-5	739-740	#	_	_	
+3-6	740-741	#	_	_	
+3-7	741-742	#	_	_	
+3-8	743-751	Download	_	_	
+3-9	752-760	Datasets	_	_	
+3-10	762-763	-	_	_	
+3-11	763-764	-	_	_	
+3-12	764-765	-	_	_	
+3-13	766-771	CoNLL	*[4]	DATASET[4]	
+3-14	771-772	-	*[4]	DATASET[4]	
+3-15	772-776	2003	*[4]	DATASET[4]	
+3-16	776-777	:	_	_	
+3-17	779-780	-	_	_	
+3-18	781-789	Original	_	_	
+3-19	790-795	paper	_	_	
+3-20	795-796	:	_	_	
+3-21	797-798	[	_	_	
+3-22	798-810	Introduction	*[5]	PUBLICATION[5]	
+3-23	811-813	to	*[5]	PUBLICATION[5]	
+3-24	814-817	the	*[5]	PUBLICATION[5]	
+3-25	818-823	CoNLL	*[5]	PUBLICATION[5]	
+3-26	823-824	-	*[5]	PUBLICATION[5]	
+3-27	824-828	2003	*[5]	PUBLICATION[5]	
+3-28	829-835	Shared	*[5]	PUBLICATION[5]	
+3-29	836-840	Task	*[5]	PUBLICATION[5]	
+3-30	840-841	:	*[5]	PUBLICATION[5]	
+3-31	842-862	Language-Independent	*[5]	PUBLICATION[5]	
+3-32	863-868	Named	*[5]	PUBLICATION[5]	
+3-33	869-875	Entity	*[5]	PUBLICATION[5]	
+3-34	876-887	Recognition	*[5]	PUBLICATION[5]	
+3-35	887-888	]	_	_	
+3-36	888-889	(	_	_	
+3-37	889-894	https	_	_	
+3-38	894-895	:	_	_	
+3-39	895-896	/	_	_	
+3-40	896-897	/	_	_	
+3-41	897-906	arxiv.org	_	_	
+3-42	906-907	/	_	_	
+3-43	907-910	pdf	_	_	
+3-44	910-911	/	_	_	
+3-45	911-913	cs	_	_	
+3-46	913-914	/	_	_	
+3-47	914-923	0306050v1	_	_	
+3-48	923-924	.	_	_	
+3-49	924-927	pdf	_	_	
+3-50	927-928	)	_	_	
+3-51	930-931	-	_	_	
+3-52	932-940	Original	_	_	
+3-53	941-948	dataset	_	_	
+3-54	948-949	:	_	_	
+3-55	950-951	[	_	_	
+3-56	951-957	Papers	_	_	
+3-57	958-962	with	_	_	
+3-58	963-967	Code	_	_	
+3-59	967-968	]	_	_	
+3-60	968-969	(	_	_	
+3-61	969-974	https	_	_	
+3-62	974-975	:	_	_	
+3-63	975-976	/	_	_	
+3-64	976-977	/	_	_	
+3-65	977-995	paperswithcode.com	_	_	
+3-66	995-996	/	_	_	
+3-67	996-1003	dataset	_	_	
+3-68	1003-1004	/	_	_	
+3-69	1004-1009	conll	*[6]	DATASET[6]	
+3-70	1009-1010	-	*[6]	DATASET[6]	
+3-71	1010-1014	2003	*[6]	DATASET[6]	
+3-72	1014-1015	)	_	_	
+
+#Text=.
+4-1	1015-1016	.	_	_	
+
+#Text=- Verified Labels (CoNLL++): https://github.com/ZihanWangKi/CrossWeigh/tree/master/data 
+#Text=
+#Text=#### Experiments 
+#Text=--- 
+#Text=
+#Text=`token-classification-benchmark.ipynb`: We implement 11 different methods of aggregating the label quality scores for each token to obtain an overall score per sentence, and evaluate the precision-recall curve and related label-error detection metrics for each method.
+5-1	1018-1019	-	_	_	
+5-2	1020-1028	Verified	_	_	
+5-3	1029-1035	Labels	_	_	
+5-4	1036-1037	(	_	_	
+5-5	1037-1042	CoNLL	_	_	
+5-6	1042-1043	+	_	_	
+5-7	1043-1044	+	_	_	
+5-8	1044-1045	)	_	_	
+5-9	1045-1046	:	_	_	
+5-10	1047-1052	https	_	_	
+5-11	1052-1053	:	_	_	
+5-12	1053-1054	/	_	_	
+5-13	1054-1055	/	_	_	
+5-14	1055-1065	github.com	_	_	
+5-15	1065-1066	/	_	_	
+5-16	1066-1077	ZihanWangKi	_	_	
+5-17	1077-1078	/	_	_	
+5-18	1078-1088	CrossWeigh	_	_	
+5-19	1088-1089	/	_	_	
+5-20	1089-1093	tree	_	_	
+5-21	1093-1094	/	_	_	
+5-22	1094-1100	master	_	_	
+5-23	1100-1101	/	_	_	
+5-24	1101-1105	data	_	_	
+5-25	1108-1109	#	_	_	
+5-26	1109-1110	#	_	_	
+5-27	1110-1111	#	_	_	
+5-28	1111-1112	#	_	_	
+5-29	1113-1124	Experiments	_	_	
+5-30	1126-1127	-	_	_	
+5-31	1127-1128	-	_	_	
+5-32	1128-1129	-	_	_	
+5-33	1132-1133	`	_	_	
+5-34	1133-1169	token-classification-benchmark.ipynb	_	_	
+5-35	1169-1170	`	_	_	
+5-36	1170-1171	:	_	_	
+5-37	1172-1174	We	_	_	
+5-38	1175-1184	implement	_	_	
+5-39	1185-1187	11	_	_	
+5-40	1188-1197	different	_	_	
+5-41	1198-1205	methods	_	_	
+5-42	1206-1208	of	_	_	
+5-43	1209-1220	aggregating	_	_	
+5-44	1221-1224	the	_	_	
+5-45	1225-1230	label	_	_	
+5-46	1231-1238	quality	_	_	
+5-47	1239-1245	scores	_	_	
+5-48	1246-1249	for	_	_	
+5-49	1250-1254	each	_	_	
+5-50	1255-1260	token	_	_	
+5-51	1261-1263	to	_	_	
+5-52	1264-1270	obtain	_	_	
+5-53	1271-1273	an	_	_	
+5-54	1274-1281	overall	_	_	
+5-55	1282-1287	score	_	_	
+5-56	1288-1291	per	_	_	
+5-57	1292-1300	sentence	_	_	
+5-58	1300-1301	,	_	_	
+5-59	1302-1305	and	_	_	
+5-60	1306-1314	evaluate	_	_	
+5-61	1315-1318	the	_	_	
+5-62	1319-1335	precision-recall	*[7]	EVALMETRIC[7]	
+5-63	1336-1341	curve	*[7]	EVALMETRIC[7]	
+5-64	1342-1345	and	_	_	
+5-65	1346-1353	related	_	_	
+5-66	1354-1365	label-error	_	_	
+5-67	1366-1375	detection	_	_	
+5-68	1376-1383	metrics	_	_	
+5-69	1384-1387	for	_	_	
+5-70	1388-1392	each	_	_	
+5-71	1393-1399	method	_	_	
+5-72	1399-1400	.	_	_	
+
+#Text=We consider the named entity recognition dataset CoNLL-2003, and use CoNLL++ as the ground truth.
+6-1	1401-1403	We	_	_	
+6-2	1404-1412	consider	_	_	
+6-3	1413-1416	the	_	_	
+6-4	1417-1422	named	_	_	
+6-5	1423-1429	entity	_	_	
+6-6	1430-1441	recognition	_	_	
+6-7	1442-1449	dataset	_	_	
+6-8	1450-1455	CoNLL	*[8]	DATASET[8]	
+6-9	1455-1456	-	*[8]	DATASET[8]	
+6-10	1456-1460	2003	*[8]	DATASET[8]	
+6-11	1460-1461	,	_	_	
+6-12	1462-1465	and	_	_	
+6-13	1466-1469	use	_	_	
+6-14	1470-1475	CoNLL	*[9]	DATASET[9]	
+6-15	1475-1476	+	*[9]	DATASET[9]	
+6-16	1476-1477	+	*[9]	DATASET[9]	
+6-17	1478-1480	as	_	_	
+6-18	1481-1484	the	_	_	
+6-19	1485-1491	ground	_	_	
+6-20	1492-1497	truth	_	_	
+6-21	1497-1498	.	_	_	
+
+#Text=`token-level.ipynb`: We examine the token-level label errors for the same dataset (rather than sentence-level).
+7-1	1500-1501	`	_	_	
+7-2	1501-1518	token-level.ipynb	_	_	
+7-3	1518-1519	`	_	_	
+7-4	1519-1520	:	_	_	
+7-5	1521-1523	We	_	_	
+7-6	1524-1531	examine	_	_	
+7-7	1532-1535	the	_	_	
+7-8	1536-1547	token-level	_	_	
+7-9	1548-1553	label	_	_	
+7-10	1554-1560	errors	_	_	
+7-11	1561-1564	for	_	_	
+7-12	1565-1568	the	_	_	
+7-13	1569-1573	same	_	_	
+7-14	1574-1581	dataset	_	_	
+7-15	1582-1583	(	_	_	
+7-16	1583-1589	rather	_	_	
+7-17	1590-1594	than	_	_	
+7-18	1595-1609	sentence-level	_	_	
+7-19	1609-1610	)	_	_	
+7-20	1610-1611	.	_	_	
+
+#Text=We examine the distribution of the label errors by class, and evaluate different label quality scoring methods on the token-level.
+8-1	1612-1614	We	_	_	
+8-2	1615-1622	examine	_	_	
+8-3	1623-1626	the	_	_	
+8-4	1627-1639	distribution	_	_	
+8-5	1640-1642	of	_	_	
+8-6	1643-1646	the	_	_	
+8-7	1647-1652	label	_	_	
+8-8	1653-1659	errors	_	_	
+8-9	1660-1662	by	_	_	
+8-10	1663-1668	class	_	_	
+8-11	1668-1669	,	_	_	
+8-12	1670-1673	and	_	_	
+8-13	1674-1682	evaluate	_	_	
+8-14	1683-1692	different	_	_	
+8-15	1693-1698	label	_	_	
+8-16	1699-1706	quality	_	_	
+8-17	1707-1714	scoring	_	_	
+8-18	1715-1722	methods	_	_	
+8-19	1723-1725	on	_	_	
+8-20	1726-1729	the	_	_	
+8-21	1730-1741	token-level	_	_	
+8-22	1741-1742	.	_	_	

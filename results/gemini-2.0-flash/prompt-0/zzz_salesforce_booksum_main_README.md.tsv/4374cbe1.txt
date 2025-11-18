@@ -1,0 +1,1 @@
+It can be fetched using: ``` gsutil cp gs://sfr-books-dataset-chapters-research/all_chapterized_books.zip . ``` or downloaded directly [here](https://storage.cloud.google.com/sfr-books-dataset-chapters-research/all_chapterized_books.zip). #### 2.

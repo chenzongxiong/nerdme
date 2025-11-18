@@ -1,0 +1,15 @@
+`[HF Models](#<PROJECT>HF Models</PROJECT>)`
+
+1. `<PROJECT>T5</PROJECT>` is a text-to-text generation model.
+
+2. The `<DATASET>GLUE</DATASET>` dataset is used for evaluating the model's performance.
+
+3. The `<SOFTWARE>Hugging Face Transformers</SOFTWARE>` library is required to run the model.
+
+4. The `<ONTOLOGY>OWL</ONTOLOGY>` ontology can be used for knowledge representation.
+
+5. The `<PUBLICATION>Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer</PUBLICATION>` paper provides more information about the T5 model.
+
+6. The `<CONFERENCE>EMNLP 2019</CONFERENCE>` conference was where the T5 model was first presented.
+
+7. The `<WORKSHOP>Hugging Face Workshop</WORKSHOP>` offers hands-on sessions related to the T5 model

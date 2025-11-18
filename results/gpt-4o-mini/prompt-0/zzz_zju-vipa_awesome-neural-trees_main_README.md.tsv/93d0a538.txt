@@ -1,0 +1,1 @@
+Incorporate the class hierarchy into loss functions, which exploits the underlying hierarchical relationships and produce predictions coherent with the pre-defined class hierarchy.

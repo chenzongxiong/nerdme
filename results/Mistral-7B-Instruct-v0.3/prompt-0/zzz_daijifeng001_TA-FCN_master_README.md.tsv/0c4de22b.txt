@@ -1,0 +1,23 @@
+`Thus you can switch among different versions of <PROGLANG>MXNet</PROGLANG> quickly.  ### Demo  1.`
+
+`1.`
+
+`* <CONFERENCE>International Conference on Learning Representations (ICLR)</CONFERENCE> 2023`
+`* <CONFERENCE>NeurIPS</CONFERENCE> 2022`
+`* <CONFERENCE>AAAI</CONFERENCE> 2023`
+
+`2.`
+
+`* <DATASET>CIFAR-10</DATASET>`
+`* <DATASET>ImageNet</DATASET>`
+`* <DATASET>MNIST</DATASET>`
+
+`3.`
+
+`* <EVALMETRIC>Accuracy</EVALMETRIC>`
+`* <EVALMETRIC>F1-Score</EVALMETRIC>`
+`* <EVALMETRIC>Precision</EVALMETRIC>`
+
+`4.`
+
+`* <LICENSE>MIT License</LICENSE>

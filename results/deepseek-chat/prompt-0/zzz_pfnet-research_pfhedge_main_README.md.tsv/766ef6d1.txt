@@ -1,0 +1,1 @@
+In this strategy, a hedger always maintains their hedge ratio in the range (called no-transaction band) while they never transact inside this range.

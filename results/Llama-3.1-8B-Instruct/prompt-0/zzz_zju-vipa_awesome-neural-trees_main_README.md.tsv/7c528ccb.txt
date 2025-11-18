@@ -1,0 +1,1 @@
+These methods attempt to incorporate the <SOFTWARE>class hierarchy</SOFTWARE> into the architecture of the <SOFTWARE>classifier</SOFTWARE>, so that the <SOFTWARE>networks</SOFTWARE> are designed to be branched and each branch is tasked to identify the <PUBLICATION>concept abstraction</PUBLICATION> at one specific level of the <ONTOLOGY>class hierarchy</ONTOLOGY>.

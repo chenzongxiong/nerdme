@@ -1,0 +1,3 @@
+```markdown
+/config/coco/<DATASET>pcme_coco</DATASET>.yaml \     --dataset_root <your_dataset_path> \     --model_path model_last.pth \     # --model__cache_dir /vector_cache # if you use my docker image ```  ``` # Compute plausible match R-Precision (PMRP) metric python extract_rankings_coco.py .
+```

@@ -1,0 +1,1 @@
+[build badge](https://github.com/benedekrozemberczki/<PROJECT>karateclub</PROJECT>/workflows/CI/badge.svg)](https://github.com/benedekrozemberczki/<PROJECT>karateclub</PROJECT>/actions?

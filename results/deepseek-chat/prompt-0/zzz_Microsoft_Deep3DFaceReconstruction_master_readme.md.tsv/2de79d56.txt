@@ -1,0 +1,1 @@
+For each input test image, two output files can be obtained after running the demo code:  - "xxx.mat" :    - cropped_img: an RGB image after alignment, which is the input to the <SOFTWARE>R-Net</SOFTWARE>   - recon_img: an RGBA reconstruction image aligned with the input image (only on Linux)

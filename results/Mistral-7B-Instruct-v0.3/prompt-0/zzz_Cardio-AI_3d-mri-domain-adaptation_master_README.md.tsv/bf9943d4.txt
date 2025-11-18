@@ -1,0 +1,8 @@
+```
+- The <PROGLANG>TF 2.X</PROGLANG> are build with the <PROGLANG>TF 2.X</PROGLANG> models/layers.
+- Setup instruction for the repository are given here: [Install <SOFTWARE>requirements</SOFTWARE>](https://github.com/Cardio-AI/3d-mri-domain-adaptation#setup-instructions-tested-with-osx-and-ubuntu)
+- An overview of all files and there <ONTOLOGY>usage</ONTOLOGY> is given here: [Repository <ONTOLOGY>Structure</ONTOLOGY>](https://github.com/Cardio-AI/3d-mri-domain-adaptation#repository-structure)
+
+# Paper:
+Please cite the following <PUBLICATION>paper</PUBLICATION> if you use/modify or adapt part of the code from this repository: S.
+```

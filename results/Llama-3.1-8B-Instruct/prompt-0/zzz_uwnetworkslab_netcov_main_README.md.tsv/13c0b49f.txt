@@ -1,0 +1,1 @@
+To print coverage metrics to the console, use `<SOFTWARE>bf.cov.result()</SOFTWARE>`.

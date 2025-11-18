@@ -1,0 +1,1 @@
+`Currently surfaced using the <ONTOLOGY>WordNet</ONTOLOGY> <SOFTWARE>synsets</SOFTWARE>. ``` `msb.get_similar_concepts("your concept term")``  ### Compare concepts to ground truth labels This function displays the Pearson correlation coefficients between each of the selected concepts and the ground truth <EVALMETRIC>label</EVALMETRIC> column.

@@ -1,0 +1,1 @@
+In particular, as one increases the amount of differentially private noise, the federated accuracy is expected to decrease.

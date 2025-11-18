@@ -1,0 +1,6 @@
+The <SOFTWARE>DejaVu</SOFTWARE> should output as follows:
+- FDG message, including the data paths, edge types, the number of nodes (failure units), the number of metrics, the metrics of each failure class. - Traning setup message: the faults used for training, validation and testing. - Model architecture: model parameters in each part, total params - Training process: the training/validation/testing loss and accuracy - Time Report. - command output one-line summary.
+### Example See <URL>https://github.com/NetManAIOps/DejaVu/issues/4</URL>
+## <DATASET>Datasets</DATASET>
+The <DATASET>A</DATASET>, <DATASET>B</DATASET>, <DATASET>C</DATASET>, <DATASET>D</DATASET> are public at :
+- <URL>https://www.dropbox.com/sh/ist4ojr03e2oeuw/AAD5NkpAFg1nOI2Ttug3h2qja</URL>?

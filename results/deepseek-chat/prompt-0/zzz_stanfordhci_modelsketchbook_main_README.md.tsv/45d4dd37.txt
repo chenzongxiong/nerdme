@@ -1,0 +1,1 @@
+Please supply your own `<PROJECT>OpenAI</PROJECT>` organization and API key if you would like to use `<SOFTWARE>GPT</SOFTWARE>`-based concepts.

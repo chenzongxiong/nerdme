@@ -1,0 +1,1 @@
+[Unsupervised Domain adaptation learning](https://github.com/Cardio-AI/3d-mri-domain-adaption/blob/master/reports/ax_sax_learning_example.gif "learning progress")   Each temporal frame shows the AX2SAX prediction of the model after successive epochs.

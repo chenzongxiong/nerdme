@@ -1,0 +1,41 @@
+The <SOFTWARE>transformers</SOFTWARE> library provides an example of fine-tuning a model on pseudo-labels. 
+You can use the `<PROGLANG>Python</PROGLANG>` code snippet below to fine-tune the model:
+
+```python
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
+# Load pre-trained model and tokenizer
+model_name = "distilbert-base-uncased-finetuned-sst-2-english"
+model = AutoModelForSequenceClassification.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+# Load pseudo-labels from previous step
+pseudo_labels =...
+
+# Fine-tune the model on pseudo-labels
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
+criterion = nn.CrossEntropyLoss()
+optimizer = Adam(model.parameters(), lr=1e-5)
+
+for epoch in range(5):
+    model.train()
+    total_loss = 0
+    for batch in pseudo_labels:
+        input_ids = batch["input_ids"].to(device)
+        attention_mask = batch["attention_mask"].to(device)
+        labels = batch["labels"].to(device)
+
+        optimizer.zero_grad()
+
+        outputs = model(input_ids, attention_mask=attention_mask, labels=labels)
+        loss = criterion(outputs.logits, labels)
+
+        loss.backward()
+        optimizer.step()
+
+        total_loss += loss.item()
+    print(f"Epoch {epoch+1}, Loss: {total_loss / len(pseudo_labels)}")
+```
+
+Note that the above code is just an example and may need to be adjusted based on your specific use case.

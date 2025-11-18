@@ -1,0 +1,1 @@
+[TSAR-2022 Shared-Task <CONFERENCE>website</CONFERENCE>](https://taln.upf.edu/pages/tsar2022-st/)  ## <DATASET>Datasets</DATASET>  There is no training <DATASET>dataset</DATASET> for the TSAR-2022 Shared <CONFERENCE>Task</CONFERENCE>.

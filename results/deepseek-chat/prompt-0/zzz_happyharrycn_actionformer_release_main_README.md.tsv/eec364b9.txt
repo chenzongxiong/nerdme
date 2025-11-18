@@ -1,0 +1,3 @@
+```markdown
+/ckpt/thumos_i3d_reproduce/logs ``` * Evaluate the trained model.
+```

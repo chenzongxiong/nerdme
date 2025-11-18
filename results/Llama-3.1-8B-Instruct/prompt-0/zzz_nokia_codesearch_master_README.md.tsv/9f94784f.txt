@@ -1,0 +1,1 @@
+Code-only models are trained on pairs of <SOFTWARE>CodeBERT</SOFTWARE> and <SOFTWARE>CodeT5</SOFTWARE> descriptions.

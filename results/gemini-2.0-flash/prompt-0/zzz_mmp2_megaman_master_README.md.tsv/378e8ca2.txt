@@ -1,0 +1,1 @@
+style=flat)](https://travis-ci.org/mmp2/megaman) [!

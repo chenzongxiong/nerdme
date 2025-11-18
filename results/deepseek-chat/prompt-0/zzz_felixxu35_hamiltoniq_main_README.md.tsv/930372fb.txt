@@ -1,0 +1,1 @@
+It seems the input text you provided is incomplete or missing. Could you please provide the full text you'd like me to perform Named Entity Recognition on? Once you do, I'll annotate the entities according to the guidelines and return the marked-up text in Markdown format.

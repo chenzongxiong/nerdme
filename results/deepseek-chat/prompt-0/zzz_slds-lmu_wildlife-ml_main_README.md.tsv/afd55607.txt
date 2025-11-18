@@ -1,0 +1,1 @@
+The program proposes a selection of images, which would contribute the most to improvement of the model.

@@ -1,0 +1,1 @@
+The current `<APIVERSION>API version</APIVERSION>` requires exactly one `<GROUNDTRUTH>ground truth column</GROUNDTRUTH>` in the `<SCHEMA>schema</SCHEMA>`, though you can later add `<DATASET>datasets</DATASET>` that don't contain this `<GROUNDTRUTH>ground truth column</GROUNDTRUTH>`.

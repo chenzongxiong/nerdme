@@ -1,0 +1,1 @@
+The predicted <SOFTWARE>depth maps</SOFTWARE> are weighted by their respective <SOFTWARE>confidence map</SOFTWARE>.

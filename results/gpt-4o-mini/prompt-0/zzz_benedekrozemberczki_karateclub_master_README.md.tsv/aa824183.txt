@@ -1,0 +1,7 @@
+```markdown
+```sh
+$ pip install <SOFTWARE>karateclub</SOFTWARE> --upgrade
+```
+--------------------------------------------------------------------------------
+**Running examples** As part of the documentation we provide a number of use cases to show how the clusterings and embeddings can be utilized for downstream learning.
+```

@@ -1,0 +1,1 @@
+The final H-Score is computed as the average of all individual scores.

@@ -1,0 +1,1 @@
+An instance of <SOFTWARE>Directory</SOFTWARE> is created in the `__init__` method of the <SOFTWARE>Initializer</SOFTWARE> class after all the agents have been created.

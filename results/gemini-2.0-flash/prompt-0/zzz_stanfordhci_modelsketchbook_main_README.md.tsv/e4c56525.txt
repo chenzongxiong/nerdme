@@ -1,0 +1,1 @@
+It also displays a table view that shows the difference between the concept scores for each example in the default <DATASET>dataset</DATASET>. ``` msb.compare_two_concepts(sb) ``` <img src=".

@@ -1,0 +1,1 @@
+Additionally, `get_works.py` can be used to collect an exhaustive set of summaries from that source. ``` cd scripts/data_collection/cliffnotes/ <PROGLANG>python</PROGLANG> get_summaries.py ``` #### 3.

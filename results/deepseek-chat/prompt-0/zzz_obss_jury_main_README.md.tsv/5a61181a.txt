@@ -1,0 +1,3 @@
+```markdown
+assignees=&labels=&template=<PUBLICATION>new-metric.md</PUBLICATION>&title=) providing the minimum information.
+```

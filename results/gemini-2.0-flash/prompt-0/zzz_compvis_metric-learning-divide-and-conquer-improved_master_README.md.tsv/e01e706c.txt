@@ -1,0 +1,1 @@
+For arguments not mentioned above, please check `/experiment/margin_loss_resnet50.py` for explanation. ### Evaluate or check results during: * **evaluate a trained model**: `eval_model.py <log and model checkpoint path>`.

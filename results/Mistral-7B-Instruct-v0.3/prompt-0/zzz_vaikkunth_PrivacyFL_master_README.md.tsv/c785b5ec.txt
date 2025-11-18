@@ -1,0 +1,1 @@
+Client agents are named and `<ASSIGNED>assigned</ASSIGNED>` an `<AGENT_NUMBER>agent_number</AGENT_NUMBER>`. This `<AGENT_NUMBER>` is then `<APPENDED>appended</APPENDED>` to the string `<CLIENT_AGENT>client_agent</CLIENT_AGENT>` to create their name.

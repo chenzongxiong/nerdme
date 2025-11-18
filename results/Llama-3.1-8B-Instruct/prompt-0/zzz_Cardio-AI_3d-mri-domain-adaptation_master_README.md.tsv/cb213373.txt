@@ -1,0 +1,1 @@
+│     ├── <SOFTWARE>models</SOFTWARE>             <- Trained and serialized model definitions and weights     │     ├── <SOFTWARE>notebooks</SOFTWARE>          <- Jupyter notebooks

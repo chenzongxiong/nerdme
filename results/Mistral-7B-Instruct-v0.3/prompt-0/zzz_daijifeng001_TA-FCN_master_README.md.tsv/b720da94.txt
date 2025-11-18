@@ -1,0 +1,11 @@
+```
+Licensed under an <LICENSE>MIT license</LICENSE>.
+
+### Citing FCIS
+If you find FCIS useful in your research, please consider citing:
+```
+`@inproceedings{li2016fully,   Author = {Yi Li, Haozhi Qi, Jifeng Dai, Xiangyang Ji and Yichen Wei}   Title = {Fully Convolutional Instance-aware Semantic Segmentation}   Conference = {CVPR}   year = {2017} }`
+```
+
+### Main Results
+|                                 | training data  | testing data | mAP^r@0.5 | mAP^r@0.7 | time   | |:---------------------------------:|:----------------:|:--------------:|:-----------:|:-----------:|:--------:| | FCIS, ResNet-v1-101             | VOC 2012 train | VOC 2012 val | 66.0      | 51.9      |   0.23s    |  |                                 | <sub

@@ -1,0 +1,1 @@
+*  ## Introduction <PROGLANG>Neural trees</PROGLANG> (NTs) refer to a school of methods that combine <PROGLANG>neural networks</PROGLANG> (NNs) and <PROGLANG>decision trees</PROGLANG> (DTs), for which we present a comprehensive review in this survey.

@@ -1,0 +1,3 @@
+```markdown
+# <PROJECT>ModelSketchBook</PROJECT> — Getting Started  [<PUBLICATION>Paper</PUBLICATION](https://hci.stanford.edu/publications/2023/Lam_ModelSketching_CHI23.pdf) | [<PUBLICATION>DOI</PUBLICATION](https://doi.org/10.1145/3544548.3581290) |  [<PUBLICATION>Video</PUBLICATION](https://youtu.be/-zaeXENVTfk) | [<DATASET>Sample NB</DATASET](https://github.com/StanfordHCI/ModelSketchBook/blob/main/example_nb/23_04_ModelSketchBook_example.ipynb) |  <a target="_blank" href="https://colab.research.google.com/github/StanfordHCI/ModelSketchBook/blob/main/example_nb/23_04_ModelSketchBook_example.ipynb">   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a>  <p align="center"> <img src=".
+```

@@ -1,0 +1,3 @@
+```markdown
+<PUBLICATION>Locating and Detecting Language Model Grounding with Fakepedia</PUBLICATION>,        author={Giovanni Monea and Maxime Peyrard and Martin Josifoski and Vishrav Chaudhary and Jason Eisner and Emre Kıcıman and Hamid Palangi and Barun Patra and Robert West},       year={2023},       eprint={2312.02073},       archivePrefix={arXiv},       primaryClass={cs.CL} } ```  > **Abstract:** Large language models (LLMs) have an impressive ability to draw on novel information supplied in their context.
+```

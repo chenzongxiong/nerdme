@@ -1,0 +1,1 @@
+The file `<SOFTWARE>requirements-dev.txt</SOFTWARE>` includes packages  which are currently only available through a git source, or they are PYPI packages with no recent release or  incompatible with `<SOFTWARE>Jury</SOFTWARE>`, so that they are added as git sources or pointing to specific commits.

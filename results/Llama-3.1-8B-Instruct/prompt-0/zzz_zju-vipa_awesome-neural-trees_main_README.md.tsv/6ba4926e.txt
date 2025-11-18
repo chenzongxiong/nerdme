@@ -1,0 +1,8 @@
+### 1. <CONFERENCE>CVPR2023</CONFERENCE> workshop
+In this paper, we present our approach to <SOFTWARE>Object Detection</SOFTWARE> using <PROGLANG>Python</PROGLANG> and <SOFTWARE>TensorFlow</SOFTWARE>. Our method is evaluated on the <DATASET>CVPR 2023 Dataset</DATASET> and achieves state-of-the-art results. The code is available on <PROJECT>Paper With Code</PROJECT>. 
+
+The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>. The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is used to represent the knowledge graph. 
+
+Our approach is implemented in <SOFTWARE>Protege ontology editor</SOFTWARE> and is available for download on <PROJECT>Papers With Code</PROJECT>. The <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION> paper presents the details of our method. 
+
+We also conduct a <WORKSHOP>workshop</WORKSHOP> on <SOFTWARE>Object Detection</SOFTWARE> at the <CONFERENCE>CVPR2023</CONFERENCE> conference. The <LICENSE>MIT License</LICENSE> is used for our code.

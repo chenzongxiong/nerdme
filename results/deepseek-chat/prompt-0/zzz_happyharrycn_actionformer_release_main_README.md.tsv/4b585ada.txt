@@ -1,0 +1,3 @@
+```markdown
+<div align="center">   <img src="teaser.jpg" width="600px"/> </div>  Specifically, we adopt a minimalist design and develop a Transformer based model for temporal action localization, inspired by the recent success of Transformers in NLP and vision.
+```

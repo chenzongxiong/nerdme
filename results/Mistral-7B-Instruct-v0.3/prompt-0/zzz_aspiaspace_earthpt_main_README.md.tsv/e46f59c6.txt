@@ -1,0 +1,2 @@
+`train.py` reproduces the `<PUBLICATION>EarthPT-700M</PUBLICATION>` when trained on 14B time series 'tokens' of ClearSky EO data within the `<PROJECT>TL UK National Grid</PROJECT>` tile.
+[EarthPT-700M](https://arxiv.org/abs/2309.07207) refers to `<URL>https://arxiv.org/abs/2309.07207</URL>`.

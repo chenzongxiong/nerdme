@@ -1,0 +1,11 @@
+```markdown
+```bash
+export CUDA_VISIBLE_DEVICES=0,1 
+python tools/train.py finetune \ 
+--architecture <PROGLANG>wasr_resnet101_imu</PROGLANG> \ 
+--model-name <PROGLANG>wasr_slr</PROGLANG> \ 
+--batch-size 4 \ 
+--pretrained-weights output/logs/<PROGLANG>wasr_slr_warmup</PROGLANG>/version_0/checkpoints/last.ckpt \ 
+--mask-dir output/pseudo_labels/<PROGLANG>wasr_slr_warmup_v0</PROGLANG> 
+```
+```

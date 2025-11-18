@@ -1,0 +1,2 @@
+```shell <PROGLANG>python</PROGLANG> .
+```

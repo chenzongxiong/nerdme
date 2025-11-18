@@ -1,0 +1,3 @@
+Here is the annotated text in Markdown format:
+
+This repository began its life as Andrej Karpathy's [<SOFTWARE>nanoGPT</SOFTWARE>](https://github.com/karpathy/<SOFTWARE>nanoGPT</SOFTWARE>), and has been altered so that it is usable for time series data.

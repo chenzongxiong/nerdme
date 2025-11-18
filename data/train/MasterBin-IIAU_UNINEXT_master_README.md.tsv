@@ -1,0 +1,1846 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Universal Instance Perception as Object Discovery and Retrieval
+#Text=!
+1-1	0-1	#	_	_	
+1-2	2-11	Universal	*[1]	PUBLICATION[1]	
+1-3	12-20	Instance	*[1]	PUBLICATION[1]	
+1-4	21-31	Perception	*[1]	PUBLICATION[1]	
+1-5	32-34	as	*[1]	PUBLICATION[1]	
+1-6	35-41	Object	*[1]	PUBLICATION[1]	
+1-7	42-51	Discovery	*[1]	PUBLICATION[1]	
+1-8	52-55	and	*[1]	PUBLICATION[1]	
+1-9	56-65	Retrieval	*[1]	PUBLICATION[1]	
+1-10	66-67	!	_	_	
+
+#Text=[UNINEXT](assets/Framework.png)
+#Text=This is the official implementation of the paper [Universal Instance Perception as Object Discovery and Retrieval](https://arxiv.org/abs/2303.06674)
+2-1	67-68	[	_	_	
+2-2	68-75	UNINEXT	_	_	
+2-3	75-76	]	_	_	
+2-4	76-77	(	_	_	
+2-5	77-83	assets	_	_	
+2-6	83-84	/	_	_	
+2-7	84-97	Framework.png	_	_	
+2-8	97-98	)	_	_	
+2-9	99-103	This	_	_	
+2-10	104-106	is	_	_	
+2-11	107-110	the	_	_	
+2-12	111-119	official	_	_	
+2-13	120-134	implementation	_	_	
+2-14	135-137	of	_	_	
+2-15	138-141	the	_	_	
+2-16	142-147	paper	_	_	
+2-17	148-149	[	_	_	
+2-18	149-158	Universal	*[2]	PUBLICATION[2]	
+2-19	159-167	Instance	*[2]	PUBLICATION[2]	
+2-20	168-178	Perception	*[2]	PUBLICATION[2]	
+2-21	179-181	as	*[2]	PUBLICATION[2]	
+2-22	182-188	Object	*[2]	PUBLICATION[2]	
+2-23	189-198	Discovery	*[2]	PUBLICATION[2]	
+2-24	199-202	and	*[2]	PUBLICATION[2]	
+2-25	203-212	Retrieval	*[2]	PUBLICATION[2]	
+2-26	212-213	]	_	_	
+2-27	213-214	(	_	_	
+2-28	214-219	https	_	_	
+2-29	219-220	:	_	_	
+2-30	220-221	/	_	_	
+2-31	221-222	/	_	_	
+2-32	222-231	arxiv.org	_	_	
+2-33	231-232	/	_	_	
+2-34	232-235	abs	_	_	
+2-35	235-236	/	_	_	
+2-36	236-246	2303.06674	_	_	
+2-37	246-247	)	_	_	
+
+#Text=.
+3-1	247-248	.	_	_	
+
+#Text=[!
+4-1	250-251	[	_	_	
+4-2	251-252	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+5-1	252-253	[	_	_	
+5-2	253-256	PWC	_	_	
+5-3	256-257	]	_	_	
+5-4	257-258	(	_	_	
+5-5	258-263	https	_	_	
+5-6	263-264	:	_	_	
+5-7	264-265	/	_	_	
+5-8	265-266	/	_	_	
+5-9	266-280	img.shields.io	_	_	
+5-10	280-281	/	_	_	
+5-11	281-293	endpoint.svg	_	_	
+5-12	293-294	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/visual-object-tracking-on-lasot-ext)](https://paperswithcode.com/sota/visual-object-tracking-on-lasot-ext?
+6-1	294-297	url	_	_	
+6-2	297-298	=	_	_	
+6-3	298-303	https	_	_	
+6-4	303-304	:	_	_	
+6-5	304-305	/	_	_	
+6-6	305-306	/	_	_	
+6-7	306-324	paperswithcode.com	_	_	
+6-7.1	306-320	paperswithcode	*	PROJECT	
+6-8	324-325	/	_	_	
+6-9	325-330	badge	_	_	
+6-10	330-331	/	_	_	
+6-11	331-370	universal-instance-perception-as-object	_	_	
+6-12	370-371	/	_	_	
+6-13	371-406	visual-object-tracking-on-lasot-ext	_	_	
+6-13.1	397-406	lasot-ext	*	DATASET	
+6-14	406-407	)	_	_	
+6-15	407-408	]	_	_	
+6-16	408-409	(	_	_	
+6-17	409-414	https	_	_	
+6-18	414-415	:	_	_	
+6-19	415-416	/	_	_	
+6-20	416-417	/	_	_	
+6-21	417-435	paperswithcode.com	_	_	
+6-21.1	417-431	paperswithcode	*	PROJECT	
+6-22	435-436	/	_	_	
+6-23	436-440	sota	_	_	
+6-24	440-441	/	_	_	
+6-25	441-476	visual-object-tracking-on-lasot-ext	_	_	
+6-25.1	467-476	lasot-ext	*	DATASET	
+6-26	476-477	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=[!
+7-1	477-478	p	_	_	
+7-2	478-479	=	_	_	
+7-3	479-518	universal-instance-perception-as-object	_	_	
+7-4	518-519	)	_	_	
+7-5	520-521	[	_	_	
+7-6	521-522	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+8-1	522-523	[	_	_	
+8-2	523-526	PWC	_	_	
+8-3	526-527	]	_	_	
+8-4	527-528	(	_	_	
+8-5	528-533	https	_	_	
+8-6	533-534	:	_	_	
+8-7	534-535	/	_	_	
+8-8	535-536	/	_	_	
+8-9	536-550	img.shields.io	_	_	
+8-10	550-551	/	_	_	
+8-11	551-563	endpoint.svg	_	_	
+8-12	563-564	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/visual-object-tracking-on-lasot)](https://paperswithcode.com/sota/visual-object-tracking-on-lasot?
+9-1	564-567	url	_	_	
+9-2	567-568	=	_	_	
+9-3	568-573	https	_	_	
+9-4	573-574	:	_	_	
+9-5	574-575	/	_	_	
+9-6	575-576	/	_	_	
+9-7	576-594	paperswithcode.com	_	_	
+9-7.1	576-590	paperswithcode	*	PROJECT	
+9-8	594-595	/	_	_	
+9-9	595-600	badge	_	_	
+9-10	600-601	/	_	_	
+9-11	601-640	universal-instance-perception-as-object	_	_	
+9-12	640-641	/	_	_	
+9-13	641-672	visual-object-tracking-on-lasot	_	_	
+9-13.1	667-672	lasot	*	DATASET	
+9-14	672-673	)	_	_	
+9-15	673-674	]	_	_	
+9-16	674-675	(	_	_	
+9-17	675-680	https	_	_	
+9-18	680-681	:	_	_	
+9-19	681-682	/	_	_	
+9-20	682-683	/	_	_	
+9-21	683-701	paperswithcode.com	_	_	
+9-21.1	683-697	paperswithcode	*	PROJECT	
+9-22	701-702	/	_	_	
+9-23	702-706	sota	_	_	
+9-24	706-707	/	_	_	
+9-25	707-738	visual-object-tracking-on-lasot	_	_	
+9-25.1	733-738	lasot	*	DATASET	
+9-26	738-739	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=[!
+10-1	739-740	p	_	_	
+10-2	740-741	=	_	_	
+10-3	741-780	universal-instance-perception-as-object	_	_	
+10-4	780-781	)	_	_	
+10-5	782-783	[	_	_	
+10-6	783-784	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+11-1	784-785	[	_	_	
+11-2	785-788	PWC	_	_	
+11-3	788-789	]	_	_	
+11-4	789-790	(	_	_	
+11-5	790-795	https	_	_	
+11-6	795-796	:	_	_	
+11-7	796-797	/	_	_	
+11-8	797-798	/	_	_	
+11-9	798-812	img.shields.io	_	_	
+11-10	812-813	/	_	_	
+11-11	813-825	endpoint.svg	_	_	
+11-12	825-826	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/visual-tracking-on-tnl2k)](https://paperswithcode.com/sota/visual-tracking-on-tnl2k?
+12-1	826-829	url	_	_	
+12-2	829-830	=	_	_	
+12-3	830-835	https	_	_	
+12-4	835-836	:	_	_	
+12-5	836-837	/	_	_	
+12-6	837-838	/	_	_	
+12-7	838-856	paperswithcode.com	_	_	
+12-7.1	838-852	paperswithcode	*	PROJECT	
+12-8	856-857	/	_	_	
+12-9	857-862	badge	_	_	
+12-10	862-863	/	_	_	
+12-11	863-902	universal-instance-perception-as-object	_	_	
+12-12	902-903	/	_	_	
+12-13	903-927	visual-tracking-on-tnl2k	_	_	
+12-13.1	922-927	tnl2k	*	DATASET	
+12-14	927-928	)	_	_	
+12-15	928-929	]	_	_	
+12-16	929-930	(	_	_	
+12-17	930-935	https	_	_	
+12-18	935-936	:	_	_	
+12-19	936-937	/	_	_	
+12-20	937-938	/	_	_	
+12-21	938-956	paperswithcode.com	_	_	
+12-21.1	938-952	paperswithcode	*	PROJECT	
+12-22	956-957	/	_	_	
+12-23	957-961	sota	_	_	
+12-24	961-962	/	_	_	
+12-25	962-986	visual-tracking-on-tnl2k	_	_	
+12-25.1	981-986	tnl2k	*	DATASET	
+12-26	986-987	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=[!
+13-1	987-988	p	_	_	
+13-2	988-989	=	_	_	
+13-3	989-1028	universal-instance-perception-as-object	_	_	
+13-4	1028-1029	)	_	_	
+13-5	1030-1031	[	_	_	
+13-6	1031-1032	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+14-1	1032-1033	[	_	_	
+14-2	1033-1036	PWC	_	_	
+14-3	1036-1037	]	_	_	
+14-4	1037-1038	(	_	_	
+14-5	1038-1043	https	_	_	
+14-6	1043-1044	:	_	_	
+14-7	1044-1045	/	_	_	
+14-8	1045-1046	/	_	_	
+14-9	1046-1060	img.shields.io	_	_	
+14-10	1060-1061	/	_	_	
+14-11	1061-1073	endpoint.svg	_	_	
+14-12	1073-1074	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/visual-object-tracking-on-trackingnet)](https://paperswithcode.com/sota/visual-object-tracking-on-trackingnet?
+15-1	1074-1077	url	_	_	
+15-2	1077-1078	=	_	_	
+15-3	1078-1083	https	_	_	
+15-4	1083-1084	:	_	_	
+15-5	1084-1085	/	_	_	
+15-6	1085-1086	/	_	_	
+15-7	1086-1104	paperswithcode.com	_	_	
+15-7.1	1086-1100	paperswithcode	*	PROJECT	
+15-8	1104-1105	/	_	_	
+15-9	1105-1110	badge	_	_	
+15-10	1110-1111	/	_	_	
+15-11	1111-1150	universal-instance-perception-as-object	_	_	
+15-12	1150-1151	/	_	_	
+15-13	1151-1188	visual-object-tracking-on-trackingnet	_	_	
+15-13.1	1177-1188	trackingnet	*	DATASET	
+15-14	1188-1189	)	_	_	
+15-15	1189-1190	]	_	_	
+15-16	1190-1191	(	_	_	
+15-17	1191-1196	https	_	_	
+15-18	1196-1197	:	_	_	
+15-19	1197-1198	/	_	_	
+15-20	1198-1199	/	_	_	
+15-21	1199-1217	paperswithcode.com	_	_	
+15-21.1	1199-1213	paperswithcode	*	PROJECT	
+15-22	1217-1218	/	_	_	
+15-23	1218-1222	sota	_	_	
+15-24	1222-1223	/	_	_	
+15-25	1223-1260	visual-object-tracking-on-trackingnet	_	_	
+15-25.1	1249-1260	trackingnet	*	DATASET	
+15-26	1260-1261	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=[!
+16-1	1261-1262	p	_	_	
+16-2	1262-1263	=	_	_	
+16-3	1263-1302	universal-instance-perception-as-object	_	_	
+16-4	1302-1303	)	_	_	
+16-5	1304-1305	[	_	_	
+16-6	1305-1306	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+17-1	1306-1307	[	_	_	
+17-2	1307-1310	PWC	_	_	
+17-3	1310-1311	]	_	_	
+17-4	1311-1312	(	_	_	
+17-5	1312-1317	https	_	_	
+17-6	1317-1318	:	_	_	
+17-7	1318-1319	/	_	_	
+17-8	1319-1320	/	_	_	
+17-9	1320-1334	img.shields.io	_	_	
+17-10	1334-1335	/	_	_	
+17-11	1335-1347	endpoint.svg	_	_	
+17-12	1347-1348	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/multi-object-tracking-and-segmentation-on-3)](https://paperswithcode.com/sota/multi-object-tracking-and-segmentation-on-3?
+18-1	1348-1351	url	_	_	
+18-2	1351-1352	=	_	_	
+18-3	1352-1357	https	_	_	
+18-4	1357-1358	:	_	_	
+18-5	1358-1359	/	_	_	
+18-6	1359-1360	/	_	_	
+18-7	1360-1378	paperswithcode.com	_	_	
+18-7.1	1360-1374	paperswithcode	*	PROJECT	
+18-8	1378-1379	/	_	_	
+18-9	1379-1384	badge	_	_	
+18-10	1384-1385	/	_	_	
+18-11	1385-1424	universal-instance-perception-as-object	_	_	
+18-12	1424-1425	/	_	_	
+18-13	1425-1466	multi-object-tracking-and-segmentation-on	_	_	
+18-14	1466-1467	-	_	_	
+18-15	1467-1468	3	_	_	
+18-16	1468-1469	)	_	_	
+18-17	1469-1470	]	_	_	
+18-18	1470-1471	(	_	_	
+18-19	1471-1476	https	_	_	
+18-20	1476-1477	:	_	_	
+18-21	1477-1478	/	_	_	
+18-22	1478-1479	/	_	_	
+18-23	1479-1497	paperswithcode.com	_	_	
+18-23.1	1479-1493	paperswithcode	*	PROJECT	
+18-24	1497-1498	/	_	_	
+18-25	1498-1502	sota	_	_	
+18-26	1502-1503	/	_	_	
+18-27	1503-1544	multi-object-tracking-and-segmentation-on	_	_	
+18-28	1544-1545	-	_	_	
+18-29	1545-1546	3	_	_	
+18-30	1546-1547	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=[!
+19-1	1547-1548	p	_	_	
+19-2	1548-1549	=	_	_	
+19-3	1549-1588	universal-instance-perception-as-object	_	_	
+19-4	1588-1589	)	_	_	
+19-5	1590-1591	[	_	_	
+19-6	1591-1592	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+20-1	1592-1593	[	_	_	
+20-2	1593-1596	PWC	_	_	
+20-3	1596-1597	]	_	_	
+20-4	1597-1598	(	_	_	
+20-5	1598-1603	https	_	_	
+20-6	1603-1604	:	_	_	
+20-7	1604-1605	/	_	_	
+20-8	1605-1606	/	_	_	
+20-9	1606-1620	img.shields.io	_	_	
+20-10	1620-1621	/	_	_	
+20-11	1621-1633	endpoint.svg	_	_	
+20-12	1633-1634	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/multiple-object-tracking-on-bdd100k-val)](https://paperswithcode.com/sota/multiple-object-tracking-on-bdd100k-val?
+21-1	1634-1637	url	_	_	
+21-2	1637-1638	=	_	_	
+21-3	1638-1643	https	_	_	
+21-4	1643-1644	:	_	_	
+21-5	1644-1645	/	_	_	
+21-6	1645-1646	/	_	_	
+21-7	1646-1664	paperswithcode.com	_	_	
+21-7.1	1646-1660	paperswithcode	*	PROJECT	
+21-8	1664-1665	/	_	_	
+21-9	1665-1670	badge	_	_	
+21-10	1670-1671	/	_	_	
+21-11	1671-1710	universal-instance-perception-as-object	_	_	
+21-12	1710-1711	/	_	_	
+21-13	1711-1750	multiple-object-tracking-on-bdd100k-val	_	_	
+21-14	1750-1751	)	_	_	
+21-15	1751-1752	]	_	_	
+21-16	1752-1753	(	_	_	
+21-17	1753-1758	https	_	_	
+21-18	1758-1759	:	_	_	
+21-19	1759-1760	/	_	_	
+21-20	1760-1761	/	_	_	
+21-21	1761-1779	paperswithcode.com	_	_	
+21-21.1	1761-1775	paperswithcode	*	PROJECT	
+21-22	1779-1780	/	_	_	
+21-23	1780-1784	sota	_	_	
+21-24	1784-1785	/	_	_	
+21-25	1785-1824	multiple-object-tracking-on-bdd100k-val	_	_	
+21-26	1824-1825	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=[!
+22-1	1825-1826	p	_	_	
+22-2	1826-1827	=	_	_	
+22-3	1827-1866	universal-instance-perception-as-object	_	_	
+22-4	1866-1867	)	_	_	
+22-5	1868-1869	[	_	_	
+22-6	1869-1870	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+23-1	1870-1871	[	_	_	
+23-2	1871-1874	PWC	_	_	
+23-3	1874-1875	]	_	_	
+23-4	1875-1876	(	_	_	
+23-5	1876-1881	https	_	_	
+23-6	1881-1882	:	_	_	
+23-7	1882-1883	/	_	_	
+23-8	1883-1884	/	_	_	
+23-9	1884-1898	img.shields.io	_	_	
+23-10	1898-1899	/	_	_	
+23-11	1899-1911	endpoint.svg	_	_	
+23-12	1911-1912	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/video-instance-segmentation-on-youtube-vis-1)](https://paperswithcode.com/sota/video-instance-segmentation-on-youtube-vis-1?
+24-1	1912-1915	url	_	_	
+24-2	1915-1916	=	_	_	
+24-3	1916-1921	https	_	_	
+24-4	1921-1922	:	_	_	
+24-5	1922-1923	/	_	_	
+24-6	1923-1924	/	_	_	
+24-7	1924-1942	paperswithcode.com	_	_	
+24-7.1	1924-1938	paperswithcode	*	PROJECT	
+24-8	1942-1943	/	_	_	
+24-9	1943-1948	badge	_	_	
+24-10	1948-1949	/	_	_	
+24-11	1949-1988	universal-instance-perception-as-object	_	_	
+24-12	1988-1989	/	_	_	
+24-13	1989-2031	video-instance-segmentation-on-youtube-vis	_	_	
+24-13.1	2020-2031	youtube-vis	*	DATASET	
+24-14	2031-2032	-	_	_	
+24-15	2032-2033	1	_	_	
+24-16	2033-2034	)	_	_	
+24-17	2034-2035	]	_	_	
+24-18	2035-2036	(	_	_	
+24-19	2036-2041	https	_	_	
+24-20	2041-2042	:	_	_	
+24-21	2042-2043	/	_	_	
+24-22	2043-2044	/	_	_	
+24-23	2044-2062	paperswithcode.com	_	_	
+24-23.1	2044-2058	paperswithcode	*	PROJECT	
+24-24	2062-2063	/	_	_	
+24-25	2063-2067	sota	_	_	
+24-26	2067-2068	/	_	_	
+24-27	2068-2110	video-instance-segmentation-on-youtube-vis	_	_	
+24-27.1	2099-2110	youtube-vis	*	DATASET	
+24-28	2110-2111	-	_	_	
+24-29	2111-2112	1	_	_	
+24-30	2112-2113	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=[!
+25-1	2113-2114	p	_	_	
+25-2	2114-2115	=	_	_	
+25-3	2115-2154	universal-instance-perception-as-object	_	_	
+25-4	2154-2155	)	_	_	
+25-5	2156-2157	[	_	_	
+25-6	2157-2158	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+26-1	2158-2159	[	_	_	
+26-2	2159-2162	PWC	_	_	
+26-3	2162-2163	]	_	_	
+26-4	2163-2164	(	_	_	
+26-5	2164-2169	https	_	_	
+26-6	2169-2170	:	_	_	
+26-7	2170-2171	/	_	_	
+26-8	2171-2172	/	_	_	
+26-9	2172-2186	img.shields.io	_	_	
+26-10	2186-2187	/	_	_	
+26-11	2187-2199	endpoint.svg	_	_	
+26-12	2199-2200	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/video-instance-segmentation-on-ovis-1)](https://paperswithcode.com/sota/video-instance-segmentation-on-ovis-1?
+27-1	2200-2203	url	_	_	
+27-2	2203-2204	=	_	_	
+27-3	2204-2209	https	_	_	
+27-4	2209-2210	:	_	_	
+27-5	2210-2211	/	_	_	
+27-6	2211-2212	/	_	_	
+27-7	2212-2230	paperswithcode.com	_	_	
+27-7.1	2212-2226	paperswithcode	*	PROJECT	
+27-8	2230-2231	/	_	_	
+27-9	2231-2236	badge	_	_	
+27-10	2236-2237	/	_	_	
+27-11	2237-2276	universal-instance-perception-as-object	_	_	
+27-12	2276-2277	/	_	_	
+27-13	2277-2312	video-instance-segmentation-on-ovis	_	_	
+27-13.1	2308-2312	ovis	*	DATASET	
+27-14	2312-2313	-	_	_	
+27-15	2313-2314	1	_	_	
+27-16	2314-2315	)	_	_	
+27-17	2315-2316	]	_	_	
+27-18	2316-2317	(	_	_	
+27-19	2317-2322	https	_	_	
+27-20	2322-2323	:	_	_	
+27-21	2323-2324	/	_	_	
+27-22	2324-2325	/	_	_	
+27-23	2325-2343	paperswithcode.com	_	_	
+27-23.1	2325-2339	paperswithcode	*	PROJECT	
+27-24	2343-2344	/	_	_	
+27-25	2344-2348	sota	_	_	
+27-26	2348-2349	/	_	_	
+27-27	2349-2384	video-instance-segmentation-on-ovis	_	_	
+27-27.1	2380-2384	ovis	*	DATASET	
+27-28	2384-2385	-	_	_	
+27-29	2385-2386	1	_	_	
+27-30	2386-2387	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=[!
+28-1	2387-2388	p	_	_	
+28-2	2388-2389	=	_	_	
+28-3	2389-2428	universal-instance-perception-as-object	_	_	
+28-4	2428-2429	)	_	_	
+28-5	2430-2431	[	_	_	
+28-6	2431-2432	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+29-1	2432-2433	[	_	_	
+29-2	2433-2436	PWC	_	_	
+29-3	2436-2437	]	_	_	
+29-4	2437-2438	(	_	_	
+29-5	2438-2443	https	_	_	
+29-6	2443-2444	:	_	_	
+29-7	2444-2445	/	_	_	
+29-8	2445-2446	/	_	_	
+29-9	2446-2460	img.shields.io	_	_	
+29-10	2460-2461	/	_	_	
+29-11	2461-2473	endpoint.svg	_	_	
+29-12	2473-2474	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/referring-expression-segmentation-on-refer-1)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refer-1?
+30-1	2474-2477	url	_	_	
+30-2	2477-2478	=	_	_	
+30-3	2478-2483	https	_	_	
+30-4	2483-2484	:	_	_	
+30-5	2484-2485	/	_	_	
+30-6	2485-2486	/	_	_	
+30-7	2486-2504	paperswithcode.com	_	_	
+30-7.1	2486-2500	paperswithcode	*	PROJECT	
+30-8	2504-2505	/	_	_	
+30-9	2505-2510	badge	_	_	
+30-10	2510-2511	/	_	_	
+30-11	2511-2550	universal-instance-perception-as-object	_	_	
+30-12	2550-2551	/	_	_	
+30-13	2551-2593	referring-expression-segmentation-on-refer	_	_	
+30-14	2593-2594	-	_	_	
+30-15	2594-2595	1	_	_	
+30-16	2595-2596	)	_	_	
+30-17	2596-2597	]	_	_	
+30-18	2597-2598	(	_	_	
+30-19	2598-2603	https	_	_	
+30-20	2603-2604	:	_	_	
+30-21	2604-2605	/	_	_	
+30-22	2605-2606	/	_	_	
+30-23	2606-2624	paperswithcode.com	_	_	
+30-23.1	2606-2620	paperswithcode	*	PROJECT	
+30-24	2624-2625	/	_	_	
+30-25	2625-2629	sota	_	_	
+30-26	2629-2630	/	_	_	
+30-27	2630-2672	referring-expression-segmentation-on-refer	_	_	
+30-28	2672-2673	-	_	_	
+30-29	2673-2674	1	_	_	
+30-30	2674-2675	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=[!
+31-1	2675-2676	p	_	_	
+31-2	2676-2677	=	_	_	
+31-3	2677-2716	universal-instance-perception-as-object	_	_	
+31-4	2716-2717	)	_	_	
+31-5	2718-2719	[	_	_	
+31-6	2719-2720	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+32-1	2720-2721	[	_	_	
+32-2	2721-2724	PWC	_	_	
+32-3	2724-2725	]	_	_	
+32-4	2725-2726	(	_	_	
+32-5	2726-2731	https	_	_	
+32-6	2731-2732	:	_	_	
+32-7	2732-2733	/	_	_	
+32-8	2733-2734	/	_	_	
+32-9	2734-2748	img.shields.io	_	_	
+32-10	2748-2749	/	_	_	
+32-11	2749-2761	endpoint.svg	_	_	
+32-12	2761-2762	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/referring-expression-segmentation-on-davis)](https://paperswithcode.com/sota/referring-expression-segmentation-on-davis?
+33-1	2762-2765	url	_	_	
+33-2	2765-2766	=	_	_	
+33-3	2766-2771	https	_	_	
+33-4	2771-2772	:	_	_	
+33-5	2772-2773	/	_	_	
+33-6	2773-2774	/	_	_	
+33-7	2774-2792	paperswithcode.com	_	_	
+33-7.1	2774-2788	paperswithcode	*	PROJECT	
+33-8	2792-2793	/	_	_	
+33-9	2793-2798	badge	_	_	
+33-10	2798-2799	/	_	_	
+33-11	2799-2838	universal-instance-perception-as-object	_	_	
+33-12	2838-2839	/	_	_	
+33-13	2839-2881	referring-expression-segmentation-on-davis	_	_	
+33-13.1	2876-2881	davis	*	DATASET	
+33-14	2881-2882	)	_	_	
+33-15	2882-2883	]	_	_	
+33-16	2883-2884	(	_	_	
+33-17	2884-2889	https	_	_	
+33-18	2889-2890	:	_	_	
+33-19	2890-2891	/	_	_	
+33-20	2891-2892	/	_	_	
+33-21	2892-2910	paperswithcode.com	_	_	
+33-21.1	2892-2906	paperswithcode	*	PROJECT	
+33-22	2910-2911	/	_	_	
+33-23	2911-2915	sota	_	_	
+33-24	2915-2916	/	_	_	
+33-25	2916-2958	referring-expression-segmentation-on-davis	_	_	
+33-25.1	2953-2958	davis	*	DATASET	
+33-26	2958-2959	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=[!
+34-1	2959-2960	p	_	_	
+34-2	2960-2961	=	_	_	
+34-3	2961-3000	universal-instance-perception-as-object	_	_	
+34-4	3000-3001	)	_	_	
+34-5	3002-3003	[	_	_	
+34-6	3003-3004	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+35-1	3004-3005	[	_	_	
+35-2	3005-3008	PWC	_	_	
+35-3	3008-3009	]	_	_	
+35-4	3009-3010	(	_	_	
+35-5	3010-3015	https	_	_	
+35-6	3015-3016	:	_	_	
+35-7	3016-3017	/	_	_	
+35-8	3017-3018	/	_	_	
+35-9	3018-3032	img.shields.io	_	_	
+35-10	3032-3033	/	_	_	
+35-11	3033-3045	endpoint.svg	_	_	
+35-12	3045-3046	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/referring-expression-segmentation-on-refcoco)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcoco?
+36-1	3046-3049	url	_	_	
+36-2	3049-3050	=	_	_	
+36-3	3050-3055	https	_	_	
+36-4	3055-3056	:	_	_	
+36-5	3056-3057	/	_	_	
+36-6	3057-3058	/	_	_	
+36-7	3058-3076	paperswithcode.com	_	_	
+36-7.1	3058-3072	paperswithcode	*	PROJECT	
+36-8	3076-3077	/	_	_	
+36-9	3077-3082	badge	_	_	
+36-10	3082-3083	/	_	_	
+36-11	3083-3122	universal-instance-perception-as-object	_	_	
+36-12	3122-3123	/	_	_	
+36-13	3123-3167	referring-expression-segmentation-on-refcoco	_	_	
+36-13.1	3160-3167	refcoco	*	DATASET	
+36-14	3167-3168	)	_	_	
+36-15	3168-3169	]	_	_	
+36-16	3169-3170	(	_	_	
+36-17	3170-3175	https	_	_	
+36-18	3175-3176	:	_	_	
+36-19	3176-3177	/	_	_	
+36-20	3177-3178	/	_	_	
+36-21	3178-3196	paperswithcode.com	_	_	
+36-21.1	3178-3192	paperswithcode	*	PROJECT	
+36-22	3196-3197	/	_	_	
+36-23	3197-3201	sota	_	_	
+36-24	3201-3202	/	_	_	
+36-25	3202-3246	referring-expression-segmentation-on-refcoco	_	_	
+36-25.1	3239-3246	refcoco	*	DATASET	
+36-26	3246-3247	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=[!
+37-1	3247-3248	p	_	_	
+37-2	3248-3249	=	_	_	
+37-3	3249-3288	universal-instance-perception-as-object	_	_	
+37-4	3288-3289	)	_	_	
+37-5	3290-3291	[	_	_	
+37-6	3291-3292	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+38-1	3292-3293	[	_	_	
+38-2	3293-3296	PWC	_	_	
+38-3	3296-3297	]	_	_	
+38-4	3297-3298	(	_	_	
+38-5	3298-3303	https	_	_	
+38-6	3303-3304	:	_	_	
+38-7	3304-3305	/	_	_	
+38-8	3305-3306	/	_	_	
+38-9	3306-3320	img.shields.io	_	_	
+38-10	3320-3321	/	_	_	
+38-11	3321-3333	endpoint.svg	_	_	
+38-12	3333-3334	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/referring-expression-segmentation-on-refcoco-3)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcoco-3?
+39-1	3334-3337	url	_	_	
+39-2	3337-3338	=	_	_	
+39-3	3338-3343	https	_	_	
+39-4	3343-3344	:	_	_	
+39-5	3344-3345	/	_	_	
+39-6	3345-3346	/	_	_	
+39-7	3346-3364	paperswithcode.com	_	_	
+39-8	3364-3365	/	_	_	
+39-9	3365-3370	badge	_	_	
+39-10	3370-3371	/	_	_	
+39-11	3371-3410	universal-instance-perception-as-object	_	_	
+39-12	3410-3411	/	_	_	
+39-13	3411-3455	referring-expression-segmentation-on-refcoco	_	_	
+39-13.1	3448-3455	refcoco	*	DATASET	
+39-14	3455-3456	-	_	_	
+39-15	3456-3457	3	_	_	
+39-16	3457-3458	)	_	_	
+39-17	3458-3459	]	_	_	
+39-18	3459-3460	(	_	_	
+39-19	3460-3465	https	_	_	
+39-20	3465-3466	:	_	_	
+39-21	3466-3467	/	_	_	
+39-22	3467-3468	/	_	_	
+39-23	3468-3486	paperswithcode.com	_	_	
+39-23.1	3468-3482	paperswithcode	*	PROJECT	
+39-24	3486-3487	/	_	_	
+39-25	3487-3491	sota	_	_	
+39-26	3491-3492	/	_	_	
+39-27	3492-3536	referring-expression-segmentation-on-refcoco	_	_	
+39-27.1	3529-3536	refcoco	*	DATASET	
+39-28	3536-3537	-	_	_	
+39-29	3537-3538	3	_	_	
+39-30	3538-3539	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=[!
+40-1	3539-3540	p	_	_	
+40-2	3540-3541	=	_	_	
+40-3	3541-3580	universal-instance-perception-as-object	_	_	
+40-4	3580-3581	)	_	_	
+40-5	3582-3583	[	_	_	
+40-6	3583-3584	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+41-1	3584-3585	[	_	_	
+41-2	3585-3588	PWC	_	_	
+41-3	3588-3589	]	_	_	
+41-4	3589-3590	(	_	_	
+41-5	3590-3595	https	_	_	
+41-6	3595-3596	:	_	_	
+41-7	3596-3597	/	_	_	
+41-8	3597-3598	/	_	_	
+41-9	3598-3612	img.shields.io	_	_	
+41-10	3612-3613	/	_	_	
+41-11	3613-3625	endpoint.svg	_	_	
+41-12	3625-3626	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/referring-expression-comprehension-on-refcoco)](https://paperswithcode.com/sota/referring-expression-comprehension-on-refcoco?
+42-1	3626-3629	url	_	_	
+42-2	3629-3630	=	_	_	
+42-3	3630-3635	https	_	_	
+42-4	3635-3636	:	_	_	
+42-5	3636-3637	/	_	_	
+42-6	3637-3638	/	_	_	
+42-7	3638-3656	paperswithcode.com	_	_	
+42-7.1	3638-3652	paperswithcode	*	PROJECT	
+42-8	3656-3657	/	_	_	
+42-9	3657-3662	badge	_	_	
+42-10	3662-3663	/	_	_	
+42-11	3663-3702	universal-instance-perception-as-object	_	_	
+42-12	3702-3703	/	_	_	
+42-13	3703-3748	referring-expression-comprehension-on-refcoco	_	_	
+42-13.1	3741-3748	refcoco	*	DATASET	
+42-14	3748-3749	)	_	_	
+42-15	3749-3750	]	_	_	
+42-16	3750-3751	(	_	_	
+42-17	3751-3756	https	_	_	
+42-18	3756-3757	:	_	_	
+42-19	3757-3758	/	_	_	
+42-20	3758-3759	/	_	_	
+42-21	3759-3777	paperswithcode.com	_	_	
+42-21.1	3759-3773	paperswithcode	*	PROJECT	
+42-22	3777-3778	/	_	_	
+42-23	3778-3782	sota	_	_	
+42-24	3782-3783	/	_	_	
+42-25	3783-3828	referring-expression-comprehension-on-refcoco	_	_	
+42-25.1	3821-3828	refcoco	*	DATASET	
+42-26	3828-3829	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=[!
+43-1	3829-3830	p	_	_	
+43-2	3830-3831	=	_	_	
+43-3	3831-3870	universal-instance-perception-as-object	_	_	
+43-4	3870-3871	)	_	_	
+43-5	3872-3873	[	_	_	
+43-6	3873-3874	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+44-1	3874-3875	[	_	_	
+44-2	3875-3878	PWC	_	_	
+44-3	3878-3879	]	_	_	
+44-4	3879-3880	(	_	_	
+44-5	3880-3885	https	_	_	
+44-6	3885-3886	:	_	_	
+44-7	3886-3887	/	_	_	
+44-8	3887-3888	/	_	_	
+44-9	3888-3902	img.shields.io	_	_	
+44-10	3902-3903	/	_	_	
+44-11	3903-3915	endpoint.svg	_	_	
+44-12	3915-3916	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/referring-expression-comprehension-on)](https://paperswithcode.com/sota/referring-expression-comprehension-on?
+45-1	3916-3919	url	_	_	
+45-2	3919-3920	=	_	_	
+45-3	3920-3925	https	_	_	
+45-4	3925-3926	:	_	_	
+45-5	3926-3927	/	_	_	
+45-6	3927-3928	/	_	_	
+45-7	3928-3946	paperswithcode.com	_	_	
+45-7.1	3928-3942	paperswithcode	*	PROJECT	
+45-8	3946-3947	/	_	_	
+45-9	3947-3952	badge	_	_	
+45-10	3952-3953	/	_	_	
+45-11	3953-3992	universal-instance-perception-as-object	_	_	
+45-12	3992-3993	/	_	_	
+45-13	3993-4030	referring-expression-comprehension-on	_	_	
+45-14	4030-4031	)	_	_	
+45-15	4031-4032	]	_	_	
+45-16	4032-4033	(	_	_	
+45-17	4033-4038	https	_	_	
+45-18	4038-4039	:	_	_	
+45-19	4039-4040	/	_	_	
+45-20	4040-4041	/	_	_	
+45-21	4041-4059	paperswithcode.com	_	_	
+45-21.1	4041-4055	paperswithcode	*	PROJECT	
+45-22	4059-4060	/	_	_	
+45-23	4060-4064	sota	_	_	
+45-24	4064-4065	/	_	_	
+45-25	4065-4102	referring-expression-comprehension-on	_	_	
+45-26	4102-4103	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=[!
+46-1	4103-4104	p	_	_	
+46-2	4104-4105	=	_	_	
+46-3	4105-4144	universal-instance-perception-as-object	_	_	
+46-4	4144-4145	)	_	_	
+46-5	4146-4147	[	_	_	
+46-6	4147-4148	!	_	_	
+
+#Text=[PWC](https://img.shields.io/endpoint.svg?
+47-1	4148-4149	[	_	_	
+47-2	4149-4152	PWC	_	_	
+47-3	4152-4153	]	_	_	
+47-4	4153-4154	(	_	_	
+47-5	4154-4159	https	_	_	
+47-6	4159-4160	:	_	_	
+47-7	4160-4161	/	_	_	
+47-8	4161-4162	/	_	_	
+47-9	4162-4176	img.shields.io	_	_	
+47-10	4176-4177	/	_	_	
+47-11	4177-4189	endpoint.svg	_	_	
+47-12	4189-4190	?	_	_	
+
+#Text=url=https://paperswithcode.com/badge/universal-instance-perception-as-object/referring-expression-comprehension-on-refcoco-1)](https://paperswithcode.com/sota/referring-expression-comprehension-on-refcoco-1?
+48-1	4190-4193	url	_	_	
+48-2	4193-4194	=	_	_	
+48-3	4194-4199	https	_	_	
+48-4	4199-4200	:	_	_	
+48-5	4200-4201	/	_	_	
+48-6	4201-4202	/	_	_	
+48-7	4202-4220	paperswithcode.com	_	_	
+48-7.1	4202-4216	paperswithcode	*	PROJECT	
+48-8	4220-4221	/	_	_	
+48-9	4221-4226	badge	_	_	
+48-10	4226-4227	/	_	_	
+48-11	4227-4266	universal-instance-perception-as-object	_	_	
+48-12	4266-4267	/	_	_	
+48-13	4267-4312	referring-expression-comprehension-on-refcoco	_	_	
+48-13.1	4305-4312	refcoco	*	DATASET	
+48-14	4312-4313	-	_	_	
+48-15	4313-4314	1	_	_	
+48-16	4314-4315	)	_	_	
+48-17	4315-4316	]	_	_	
+48-18	4316-4317	(	_	_	
+48-19	4317-4322	https	_	_	
+48-20	4322-4323	:	_	_	
+48-21	4323-4324	/	_	_	
+48-22	4324-4325	/	_	_	
+48-23	4325-4343	paperswithcode.com	_	_	
+48-24	4343-4344	/	_	_	
+48-25	4344-4348	sota	_	_	
+48-26	4348-4349	/	_	_	
+48-27	4349-4394	referring-expression-comprehension-on-refcoco	_	_	
+48-27.1	4387-4394	refcoco	*	DATASET	
+48-28	4394-4395	-	_	_	
+48-29	4395-4396	1	_	_	
+48-30	4396-4397	?	_	_	
+
+#Text=p=universal-instance-perception-as-object)
+#Text=
+#Text=## News
+#Text=- :trophy: We are the runner-up in [Segmentation in the Wild challenge](https://eval.ai/web/challenges/challenge-page/1931/leaderboard/4567).
+#Text=- :trophy: We are the winner of [BDD100K MOT Challenge](https://eval.ai/web/challenges/challenge-page/1989/leaderboard/4696) and the runner-up of [BDD MOTS Challenge](https://eval.ai/web/challenges/challenge-page/1996/leaderboard/4718) on CVPR2023 workshop.
+#Text=
+#Text=## Highlight
+#Text=- UNINEXT is accepted by **CVPR2023**.
+#Text=- UNINEXT reformulates diverse instance perception tasks into **a unified object discovery and retrieval paradigm** and can flexibly perceive different types of objects by simply changing the input prompts.
+#Text=- UNINEXT achieves **superior performance on 20 challenging benchmarks using a single model with the same model parameters**. 
+#Text=
+#Text=## Introduction
+#Text=
+#Text=!
+49-1	4397-4398	p	_	_	
+49-2	4398-4399	=	_	_	
+49-3	4399-4438	universal-instance-perception-as-object	_	_	
+49-4	4438-4439	)	_	_	
+49-5	4441-4442	#	_	_	
+49-6	4442-4443	#	_	_	
+49-7	4444-4448	News	_	_	
+49-8	4449-4450	-	_	_	
+49-9	4451-4452	:	_	_	
+49-10	4452-4458	trophy	_	_	
+49-11	4458-4459	:	_	_	
+49-12	4460-4462	We	_	_	
+49-13	4463-4466	are	_	_	
+49-14	4467-4470	the	_	_	
+49-15	4471-4480	runner-up	_	_	
+49-16	4481-4483	in	_	_	
+49-17	4484-4485	[	_	_	
+49-18	4485-4497	Segmentation	_	_	
+49-19	4498-4500	in	_	_	
+49-20	4501-4504	the	_	_	
+49-21	4505-4509	Wild	_	_	
+49-22	4510-4519	challenge	_	_	
+49-23	4519-4520	]	_	_	
+49-24	4520-4521	(	_	_	
+49-25	4521-4526	https	_	_	
+49-26	4526-4527	:	_	_	
+49-27	4527-4528	/	_	_	
+49-28	4528-4529	/	_	_	
+49-29	4529-4536	eval.ai	_	_	
+49-30	4536-4537	/	_	_	
+49-31	4537-4540	web	_	_	
+49-32	4540-4541	/	_	_	
+49-33	4541-4551	challenges	_	_	
+49-34	4551-4552	/	_	_	
+49-35	4552-4566	challenge-page	_	_	
+49-36	4566-4567	/	_	_	
+49-37	4567-4571	1931	_	_	
+49-38	4571-4572	/	_	_	
+49-39	4572-4583	leaderboard	_	_	
+49-40	4583-4584	/	_	_	
+49-41	4584-4588	4567	_	_	
+49-42	4588-4589	)	_	_	
+49-43	4589-4590	.	_	_	
+49-44	4591-4592	-	_	_	
+49-45	4593-4594	:	_	_	
+49-46	4594-4600	trophy	_	_	
+49-47	4600-4601	:	_	_	
+49-48	4602-4604	We	_	_	
+49-49	4605-4608	are	_	_	
+49-50	4609-4612	the	_	_	
+49-51	4613-4619	winner	_	_	
+49-52	4620-4622	of	_	_	
+49-53	4623-4624	[	_	_	
+49-54	4624-4631	BDD100K	_	_	
+49-55	4632-4635	MOT	_	_	
+49-56	4636-4645	Challenge	_	_	
+49-57	4645-4646	]	_	_	
+49-58	4646-4647	(	_	_	
+49-59	4647-4652	https	_	_	
+49-60	4652-4653	:	_	_	
+49-61	4653-4654	/	_	_	
+49-62	4654-4655	/	_	_	
+49-63	4655-4662	eval.ai	_	_	
+49-64	4662-4663	/	_	_	
+49-65	4663-4666	web	_	_	
+49-66	4666-4667	/	_	_	
+49-67	4667-4677	challenges	_	_	
+49-68	4677-4678	/	_	_	
+49-69	4678-4692	challenge-page	_	_	
+49-70	4692-4693	/	_	_	
+49-71	4693-4697	1989	_	_	
+49-72	4697-4698	/	_	_	
+49-73	4698-4709	leaderboard	_	_	
+49-74	4709-4710	/	_	_	
+49-75	4710-4714	4696	_	_	
+49-76	4714-4715	)	_	_	
+49-77	4716-4719	and	_	_	
+49-78	4720-4723	the	_	_	
+49-79	4724-4733	runner-up	_	_	
+49-80	4734-4736	of	_	_	
+49-81	4737-4738	[	_	_	
+49-82	4738-4741	BDD	_	_	
+49-83	4742-4746	MOTS	_	_	
+49-84	4747-4756	Challenge	_	_	
+49-85	4756-4757	]	_	_	
+49-86	4757-4758	(	_	_	
+49-87	4758-4763	https	_	_	
+49-88	4763-4764	:	_	_	
+49-89	4764-4765	/	_	_	
+49-90	4765-4766	/	_	_	
+49-91	4766-4773	eval.ai	_	_	
+49-92	4773-4774	/	_	_	
+49-93	4774-4777	web	_	_	
+49-94	4777-4778	/	_	_	
+49-95	4778-4788	challenges	_	_	
+49-96	4788-4789	/	_	_	
+49-97	4789-4803	challenge-page	_	_	
+49-98	4803-4804	/	_	_	
+49-99	4804-4808	1996	_	_	
+49-100	4808-4809	/	_	_	
+49-101	4809-4820	leaderboard	_	_	
+49-102	4820-4821	/	_	_	
+49-103	4821-4825	4718	_	_	
+49-104	4825-4826	)	_	_	
+49-105	4827-4829	on	_	_	
+49-106	4830-4838	CVPR2023	*[3]	WORKSHOP[3]	
+49-107	4839-4847	workshop	*[3]	WORKSHOP[3]	
+49-108	4847-4848	.	_	_	
+49-109	4850-4851	#	_	_	
+49-110	4851-4852	#	_	_	
+49-111	4853-4862	Highlight	_	_	
+49-112	4863-4864	-	_	_	
+49-113	4865-4872	UNINEXT	_	_	
+49-114	4873-4875	is	_	_	
+49-115	4876-4884	accepted	_	_	
+49-116	4885-4887	by	_	_	
+49-117	4888-4889	*	_	_	
+49-118	4889-4890	*	_	_	
+49-119	4890-4898	CVPR2023	*	CONFERENCE	
+49-120	4898-4899	*	_	_	
+49-121	4899-4900	*	_	_	
+49-122	4900-4901	.	_	_	
+49-123	4902-4903	-	_	_	
+49-124	4904-4911	UNINEXT	_	_	
+49-125	4912-4924	reformulates	_	_	
+49-126	4925-4932	diverse	_	_	
+49-127	4933-4941	instance	_	_	
+49-128	4942-4952	perception	_	_	
+49-129	4953-4958	tasks	_	_	
+49-130	4959-4963	into	_	_	
+49-131	4964-4965	*	_	_	
+49-132	4965-4966	*	_	_	
+49-133	4966-4967	a	_	_	
+49-134	4968-4975	unified	_	_	
+49-135	4976-4982	object	_	_	
+49-136	4983-4992	discovery	_	_	
+49-137	4993-4996	and	_	_	
+49-138	4997-5006	retrieval	_	_	
+49-139	5007-5015	paradigm	_	_	
+49-140	5015-5016	*	_	_	
+49-141	5016-5017	*	_	_	
+49-142	5018-5021	and	_	_	
+49-143	5022-5025	can	_	_	
+49-144	5026-5034	flexibly	_	_	
+49-145	5035-5043	perceive	_	_	
+49-146	5044-5053	different	_	_	
+49-147	5054-5059	types	_	_	
+49-148	5060-5062	of	_	_	
+49-149	5063-5070	objects	_	_	
+49-150	5071-5073	by	_	_	
+49-151	5074-5080	simply	_	_	
+49-152	5081-5089	changing	_	_	
+49-153	5090-5093	the	_	_	
+49-154	5094-5099	input	_	_	
+49-155	5100-5107	prompts	_	_	
+49-156	5107-5108	.	_	_	
+49-157	5109-5110	-	_	_	
+49-158	5111-5118	UNINEXT	_	_	
+49-159	5119-5127	achieves	_	_	
+49-160	5128-5129	*	_	_	
+49-161	5129-5130	*	_	_	
+49-162	5130-5138	superior	_	_	
+49-163	5139-5150	performance	_	_	
+49-164	5151-5153	on	_	_	
+49-165	5154-5156	20	_	_	
+49-166	5157-5168	challenging	_	_	
+49-167	5169-5179	benchmarks	_	_	
+49-168	5180-5185	using	_	_	
+49-169	5186-5187	a	_	_	
+49-170	5188-5194	single	_	_	
+49-171	5195-5200	model	_	_	
+49-172	5201-5205	with	_	_	
+49-173	5206-5209	the	_	_	
+49-174	5210-5214	same	_	_	
+49-175	5215-5220	model	_	_	
+49-176	5221-5231	parameters	_	_	
+49-177	5231-5232	*	_	_	
+49-178	5232-5233	*	_	_	
+49-179	5233-5234	.	_	_	
+49-180	5237-5238	#	_	_	
+49-181	5238-5239	#	_	_	
+49-182	5240-5252	Introduction	_	_	
+49-183	5254-5255	!	_	_	
+
+#Text=[TASK-RADAR](assets/task-radar.png)
+#Text=
+#Text=Object-centric understanding is one of the most essential and challenging problems in computer vision.
+50-1	5255-5256	[	_	_	
+50-2	5256-5266	TASK-RADAR	_	_	
+50-3	5266-5267	]	_	_	
+50-4	5267-5268	(	_	_	
+50-5	5268-5274	assets	_	_	
+50-6	5274-5275	/	_	_	
+50-7	5275-5289	task-radar.png	_	_	
+50-8	5289-5290	)	_	_	
+50-9	5292-5306	Object-centric	_	_	
+50-10	5307-5320	understanding	_	_	
+50-11	5321-5323	is	_	_	
+50-12	5324-5327	one	_	_	
+50-13	5328-5330	of	_	_	
+50-14	5331-5334	the	_	_	
+50-15	5335-5339	most	_	_	
+50-16	5340-5349	essential	_	_	
+50-17	5350-5353	and	_	_	
+50-18	5354-5365	challenging	_	_	
+50-19	5366-5374	problems	_	_	
+50-20	5375-5377	in	_	_	
+50-21	5378-5386	computer	_	_	
+50-22	5387-5393	vision	_	_	
+50-23	5393-5394	.	_	_	
+
+#Text=In this work, we mainly discuss 10 sub-tasks, distributed on the vertices of the cube shown in the above figure.
+51-1	5395-5397	In	_	_	
+51-2	5398-5402	this	_	_	
+51-3	5403-5407	work	_	_	
+51-4	5407-5408	,	_	_	
+51-5	5409-5411	we	_	_	
+51-6	5412-5418	mainly	_	_	
+51-7	5419-5426	discuss	_	_	
+51-8	5427-5429	10	_	_	
+51-9	5430-5439	sub-tasks	_	_	
+51-10	5439-5440	,	_	_	
+51-11	5441-5452	distributed	_	_	
+51-12	5453-5455	on	_	_	
+51-13	5456-5459	the	_	_	
+51-14	5460-5468	vertices	_	_	
+51-15	5469-5471	of	_	_	
+51-16	5472-5475	the	_	_	
+51-17	5476-5480	cube	_	_	
+51-18	5481-5486	shown	_	_	
+51-19	5487-5489	in	_	_	
+51-20	5490-5493	the	_	_	
+51-21	5494-5499	above	_	_	
+51-22	5500-5506	figure	_	_	
+51-23	5506-5507	.	_	_	
+
+#Text=Since all these tasks aim to perceive instances of certain properties, UNINEXT reorganizes them into three types according to the different input prompts:
+#Text=- Category Names
+#Text=  - Object Detection
+#Text=  - Instance Segmentation
+#Text=  - Multiple Object Tracking (MOT)
+#Text=  - Multi-Object Tracking and Segmentation (MOTS)
+#Text=  - Video Instance Segmentation (VIS)
+#Text=-  Language Expressions
+#Text=    - Referring Expression Comprehension (REC)
+#Text=    - Referring Expression Segmentation (RES)
+#Text=    - Referring Video Object Segmentation (R-VOS)
+#Text=- Target Annotations
+#Text=    - Single Object Tracking (SOT)
+#Text=    - Video Object Segmentation (VOS)
+#Text=
+#Text=Then we propose a unified prompt-guided object discovery and retrieval formulation
+#Text=to solve all the above tasks.
+52-1	5508-5513	Since	_	_	
+52-2	5514-5517	all	_	_	
+52-3	5518-5523	these	_	_	
+52-4	5524-5529	tasks	_	_	
+52-5	5530-5533	aim	_	_	
+52-6	5534-5536	to	_	_	
+52-7	5537-5545	perceive	_	_	
+52-8	5546-5555	instances	_	_	
+52-9	5556-5558	of	_	_	
+52-10	5559-5566	certain	_	_	
+52-11	5567-5577	properties	_	_	
+52-12	5577-5578	,	_	_	
+52-13	5579-5586	UNINEXT	_	_	
+52-14	5587-5598	reorganizes	_	_	
+52-15	5599-5603	them	_	_	
+52-16	5604-5608	into	_	_	
+52-17	5609-5614	three	_	_	
+52-18	5615-5620	types	_	_	
+52-19	5621-5630	according	_	_	
+52-20	5631-5633	to	_	_	
+52-21	5634-5637	the	_	_	
+52-22	5638-5647	different	_	_	
+52-23	5648-5653	input	_	_	
+52-24	5654-5661	prompts	_	_	
+52-25	5661-5662	:	_	_	
+52-26	5663-5664	-	_	_	
+52-27	5665-5673	Category	_	_	
+52-28	5674-5679	Names	_	_	
+52-29	5682-5683	-	_	_	
+52-30	5684-5690	Object	_	_	
+52-31	5691-5700	Detection	_	_	
+52-32	5703-5704	-	_	_	
+52-33	5705-5713	Instance	_	_	
+52-34	5714-5726	Segmentation	_	_	
+52-35	5729-5730	-	_	_	
+52-36	5731-5739	Multiple	_	_	
+52-37	5740-5746	Object	_	_	
+52-38	5747-5755	Tracking	_	_	
+52-39	5756-5757	(	_	_	
+52-40	5757-5760	MOT	_	_	
+52-41	5760-5761	)	_	_	
+52-42	5764-5765	-	_	_	
+52-43	5766-5778	Multi-Object	_	_	
+52-44	5779-5787	Tracking	_	_	
+52-45	5788-5791	and	_	_	
+52-46	5792-5804	Segmentation	_	_	
+52-47	5805-5806	(	_	_	
+52-48	5806-5810	MOTS	_	_	
+52-49	5810-5811	)	_	_	
+52-50	5814-5815	-	_	_	
+52-51	5816-5821	Video	_	_	
+52-52	5822-5830	Instance	_	_	
+52-53	5831-5843	Segmentation	_	_	
+52-54	5844-5845	(	_	_	
+52-55	5845-5848	VIS	_	_	
+52-56	5848-5849	)	_	_	
+52-57	5850-5851	-	_	_	
+52-58	5853-5861	Language	_	_	
+52-59	5862-5873	Expressions	_	_	
+52-60	5878-5879	-	_	_	
+52-61	5880-5889	Referring	_	_	
+52-62	5890-5900	Expression	_	_	
+52-63	5901-5914	Comprehension	_	_	
+52-64	5915-5916	(	_	_	
+52-65	5916-5919	REC	_	_	
+52-66	5919-5920	)	_	_	
+52-67	5925-5926	-	_	_	
+52-68	5927-5936	Referring	_	_	
+52-69	5937-5947	Expression	_	_	
+52-70	5948-5960	Segmentation	_	_	
+52-71	5961-5962	(	_	_	
+52-72	5962-5965	RES	_	_	
+52-73	5965-5966	)	_	_	
+52-74	5971-5972	-	_	_	
+52-75	5973-5982	Referring	_	_	
+52-76	5983-5988	Video	_	_	
+52-77	5989-5995	Object	_	_	
+52-78	5996-6008	Segmentation	_	_	
+52-79	6009-6010	(	_	_	
+52-80	6010-6015	R-VOS	_	_	
+52-81	6015-6016	)	_	_	
+52-82	6017-6018	-	_	_	
+52-83	6019-6025	Target	_	_	
+52-84	6026-6037	Annotations	_	_	
+52-85	6042-6043	-	_	_	
+52-86	6044-6050	Single	_	_	
+52-87	6051-6057	Object	_	_	
+52-88	6058-6066	Tracking	_	_	
+52-89	6067-6068	(	_	_	
+52-90	6068-6071	SOT	_	_	
+52-91	6071-6072	)	_	_	
+52-92	6077-6078	-	_	_	
+52-93	6079-6084	Video	_	_	
+52-94	6085-6091	Object	_	_	
+52-95	6092-6104	Segmentation	_	_	
+52-96	6105-6106	(	_	_	
+52-97	6106-6109	VOS	_	_	
+52-98	6109-6110	)	_	_	
+52-99	6112-6116	Then	_	_	
+52-100	6117-6119	we	_	_	
+52-101	6120-6127	propose	_	_	
+52-102	6128-6129	a	_	_	
+52-103	6130-6137	unified	_	_	
+52-104	6138-6151	prompt-guided	_	_	
+52-105	6152-6158	object	_	_	
+52-106	6159-6168	discovery	_	_	
+52-107	6169-6172	and	_	_	
+52-108	6173-6182	retrieval	_	_	
+52-109	6183-6194	formulation	_	_	
+52-110	6195-6197	to	_	_	
+52-111	6198-6203	solve	_	_	
+52-112	6204-6207	all	_	_	
+52-113	6208-6211	the	_	_	
+52-114	6212-6217	above	_	_	
+52-115	6218-6223	tasks	_	_	
+52-116	6223-6224	.	_	_	
+
+#Text=Extensive
+#Text=experiments demonstrate that UNINEXT achieves superior performance on 20 challenging benchmarks.
+#Text=
+#Text=## Demo
+#Text=https://user-images.githubusercontent.com/40926230/224527028-f31e8de0-b8aa-4cfb-a83b-63a70ff5bd52.mp4
+#Text=
+#Text=UNINEXT can flexibly perceive various types of objects by simply changing the input prompts, such as category names, language expressions, and target annotations.
+53-1	6225-6234	Extensive	_	_	
+53-2	6235-6246	experiments	_	_	
+53-3	6247-6258	demonstrate	_	_	
+53-4	6259-6263	that	_	_	
+53-5	6264-6271	UNINEXT	_	_	
+53-6	6272-6280	achieves	_	_	
+53-7	6281-6289	superior	_	_	
+53-8	6290-6301	performance	_	_	
+53-9	6302-6304	on	_	_	
+53-10	6305-6307	20	_	_	
+53-11	6308-6319	challenging	_	_	
+53-12	6320-6330	benchmarks	_	_	
+53-13	6330-6331	.	_	_	
+53-14	6333-6334	#	_	_	
+53-15	6334-6335	#	_	_	
+53-16	6336-6340	Demo	_	_	
+53-17	6341-6346	https	_	_	
+53-18	6346-6347	:	_	_	
+53-19	6347-6348	/	_	_	
+53-20	6348-6349	/	_	_	
+53-21	6349-6382	user-images.githubusercontent.com	_	_	
+53-22	6382-6383	/	_	_	
+53-23	6383-6391	40926230	_	_	
+53-24	6391-6392	/	_	_	
+53-25	6392-6401	224527028	_	_	
+53-26	6401-6402	-	_	_	
+53-27	6402-6410	f31e8de0	_	_	
+53-28	6410-6411	-	_	_	
+53-29	6411-6415	b8aa	_	_	
+53-30	6415-6416	-	_	_	
+53-31	6416-6425	4cfb-a83b	_	_	
+53-32	6425-6426	-	_	_	
+53-33	6426-6438	63a70ff5bd52	_	_	
+53-34	6438-6439	.	_	_	
+53-35	6439-6442	mp4	_	_	
+53-36	6444-6451	UNINEXT	_	_	
+53-37	6452-6455	can	_	_	
+53-38	6456-6464	flexibly	_	_	
+53-39	6465-6473	perceive	_	_	
+53-40	6474-6481	various	_	_	
+53-41	6482-6487	types	_	_	
+53-42	6488-6490	of	_	_	
+53-43	6491-6498	objects	_	_	
+53-44	6499-6501	by	_	_	
+53-45	6502-6508	simply	_	_	
+53-46	6509-6517	changing	_	_	
+53-47	6518-6521	the	_	_	
+53-48	6522-6527	input	_	_	
+53-49	6528-6535	prompts	_	_	
+53-50	6535-6536	,	_	_	
+53-51	6537-6541	such	_	_	
+53-52	6542-6544	as	_	_	
+53-53	6545-6553	category	_	_	
+53-54	6554-6559	names	_	_	
+53-55	6559-6560	,	_	_	
+53-56	6561-6569	language	_	_	
+53-57	6570-6581	expressions	_	_	
+53-58	6581-6582	,	_	_	
+53-59	6583-6586	and	_	_	
+53-60	6587-6593	target	_	_	
+53-61	6594-6605	annotations	_	_	
+53-62	6605-6606	.	_	_	
+
+#Text=We also provide a simple [demo script](assets/demo.sh), which supports 4 image-level tasks (object detection, instance segmentation, REC, RES).
+#Text=
+#Text=## Results
+#Text=### Retrieval by Category Names
+#Text=!
+54-1	6607-6609	We	_	_	
+54-2	6610-6614	also	_	_	
+54-3	6615-6622	provide	_	_	
+54-4	6623-6624	a	_	_	
+54-5	6625-6631	simple	_	_	
+54-6	6632-6633	[	_	_	
+54-7	6633-6637	demo	_	_	
+54-8	6638-6644	script	_	_	
+54-9	6644-6645	]	_	_	
+54-10	6645-6646	(	_	_	
+54-11	6646-6652	assets	_	_	
+54-12	6652-6653	/	_	_	
+54-13	6653-6660	demo.sh	_	_	
+54-14	6660-6661	)	_	_	
+54-15	6661-6662	,	_	_	
+54-16	6663-6668	which	_	_	
+54-17	6669-6677	supports	_	_	
+54-18	6678-6679	4	_	_	
+54-19	6680-6691	image-level	_	_	
+54-20	6692-6697	tasks	_	_	
+54-21	6698-6699	(	_	_	
+54-22	6699-6705	object	_	_	
+54-23	6706-6715	detection	_	_	
+54-24	6715-6716	,	_	_	
+54-25	6717-6725	instance	_	_	
+54-26	6726-6738	segmentation	_	_	
+54-27	6738-6739	,	_	_	
+54-28	6740-6743	REC	_	_	
+54-29	6743-6744	,	_	_	
+54-30	6745-6748	RES	_	_	
+54-31	6748-6749	)	_	_	
+54-32	6749-6750	.	_	_	
+54-33	6752-6753	#	_	_	
+54-34	6753-6754	#	_	_	
+54-35	6755-6762	Results	_	_	
+54-36	6763-6764	#	_	_	
+54-37	6764-6765	#	_	_	
+54-38	6765-6766	#	_	_	
+54-39	6767-6776	Retrieval	_	_	
+54-40	6777-6779	by	_	_	
+54-41	6780-6788	Category	_	_	
+54-42	6789-6794	Names	_	_	
+54-43	6795-6796	!	_	_	
+
+#Text=[OD-IS](assets/res-od.png)
+#Text=!
+55-1	6796-6797	[	_	_	
+55-2	6797-6802	OD-IS	_	_	
+55-3	6802-6803	]	_	_	
+55-4	6803-6804	(	_	_	
+55-5	6804-6810	assets	_	_	
+55-6	6810-6811	/	_	_	
+55-7	6811-6821	res-od.png	_	_	
+55-8	6821-6822	)	_	_	
+55-9	6823-6824	!	_	_	
+
+#Text=[MOT-MOTS-VIS](assets/res-vis-mots.png)
+#Text=### Retrieval by Language Expressions
+#Text=!
+56-1	6824-6825	[	_	_	
+56-2	6825-6837	MOT-MOTS-VIS	_	_	
+56-3	6837-6838	]	_	_	
+56-4	6838-6839	(	_	_	
+56-5	6839-6845	assets	_	_	
+56-6	6845-6846	/	_	_	
+56-7	6846-6862	res-vis-mots.png	_	_	
+56-8	6862-6863	)	_	_	
+56-9	6864-6865	#	_	_	
+56-10	6865-6866	#	_	_	
+56-11	6866-6867	#	_	_	
+56-12	6868-6877	Retrieval	_	_	
+56-13	6878-6880	by	_	_	
+56-14	6881-6889	Language	_	_	
+56-15	6890-6901	Expressions	_	_	
+56-16	6902-6903	!	_	_	
+
+#Text=[REC-RES-RVOS](assets/res-rec-res-rvos.png)
+#Text=### Retrieval by Target Annotations
+#Text=!
+57-1	6903-6904	[	_	_	
+57-2	6904-6916	REC-RES-RVOS	_	_	
+57-3	6916-6917	]	_	_	
+57-4	6917-6918	(	_	_	
+57-5	6918-6924	assets	_	_	
+57-6	6924-6925	/	_	_	
+57-7	6925-6945	res-rec-res-rvos.png	_	_	
+57-8	6945-6946	)	_	_	
+57-9	6947-6948	#	_	_	
+57-10	6948-6949	#	_	_	
+57-11	6949-6950	#	_	_	
+57-12	6951-6960	Retrieval	_	_	
+57-13	6961-6963	by	_	_	
+57-14	6964-6970	Target	_	_	
+57-15	6971-6982	Annotations	_	_	
+57-16	6983-6984	!	_	_	
+
+#Text=[SOT-VOS](assets/res-sot-vos.png)
+#Text=
+#Text=## Getting started
+#Text=1.
+58-1	6984-6985	[	_	_	
+58-2	6985-6992	SOT-VOS	_	_	
+58-3	6992-6993	]	_	_	
+58-4	6993-6994	(	_	_	
+58-5	6994-7000	assets	_	_	
+58-6	7000-7001	/	_	_	
+58-7	7001-7016	res-sot-vos.png	_	_	
+58-8	7016-7017	)	_	_	
+58-9	7019-7020	#	_	_	
+58-10	7020-7021	#	_	_	
+58-11	7022-7029	Getting	_	_	
+58-12	7030-7037	started	_	_	
+58-13	7038-7039	1	_	_	
+58-14	7039-7040	.	_	_	
+
+#Text=Installation: Please refer to [INSTALL.md](assets/INSTALL.md) for more details.
+#Text=2.
+59-1	7041-7053	Installation	_	_	
+59-2	7053-7054	:	_	_	
+59-3	7055-7061	Please	_	_	
+59-4	7062-7067	refer	_	_	
+59-5	7068-7070	to	_	_	
+59-6	7071-7072	[	_	_	
+59-7	7072-7082	INSTALL.md	_	_	
+59-8	7082-7083	]	_	_	
+59-9	7083-7084	(	_	_	
+59-10	7084-7090	assets	_	_	
+59-11	7090-7091	/	_	_	
+59-12	7091-7101	INSTALL.md	_	_	
+59-13	7101-7102	)	_	_	
+59-14	7103-7106	for	_	_	
+59-15	7107-7111	more	_	_	
+59-16	7112-7119	details	_	_	
+59-17	7119-7120	.	_	_	
+59-18	7121-7122	2	_	_	
+59-19	7122-7123	.	_	_	
+
+#Text=Data preparation: Please refer to [DATA.md](assets/DATA.md) for more details.
+#Text=3.
+60-1	7124-7128	Data	_	_	
+60-2	7129-7140	preparation	_	_	
+60-3	7140-7141	:	_	_	
+60-4	7142-7148	Please	_	_	
+60-5	7149-7154	refer	_	_	
+60-6	7155-7157	to	_	_	
+60-7	7158-7159	[	_	_	
+60-8	7159-7166	DATA.md	_	_	
+60-9	7166-7167	]	_	_	
+60-10	7167-7168	(	_	_	
+60-11	7168-7174	assets	_	_	
+60-12	7174-7175	/	_	_	
+60-13	7175-7182	DATA.md	_	_	
+60-14	7182-7183	)	_	_	
+60-15	7184-7187	for	_	_	
+60-16	7188-7192	more	_	_	
+60-17	7193-7200	details	_	_	
+60-18	7200-7201	.	_	_	
+60-19	7202-7203	3	_	_	
+60-20	7203-7204	.	_	_	
+
+#Text=Training: Please refer to [TRAIN.md](assets/TRAIN.md) for more details.
+#Text=4.
+61-1	7205-7213	Training	_	_	
+61-2	7213-7214	:	_	_	
+61-3	7215-7221	Please	_	_	
+61-4	7222-7227	refer	_	_	
+61-5	7228-7230	to	_	_	
+61-6	7231-7232	[	_	_	
+61-7	7232-7240	TRAIN.md	_	_	
+61-8	7240-7241	]	_	_	
+61-9	7241-7242	(	_	_	
+61-10	7242-7248	assets	_	_	
+61-11	7248-7249	/	_	_	
+61-12	7249-7257	TRAIN.md	_	_	
+61-13	7257-7258	)	_	_	
+61-14	7259-7262	for	_	_	
+61-15	7263-7267	more	_	_	
+61-16	7268-7275	details	_	_	
+61-17	7275-7276	.	_	_	
+61-18	7277-7278	4	_	_	
+61-19	7278-7279	.	_	_	
+
+#Text=Testing: Please refer to [TEST.md](assets/TEST.md) for more details. 
+#Text=5.
+62-1	7280-7287	Testing	_	_	
+62-2	7287-7288	:	_	_	
+62-3	7289-7295	Please	_	_	
+62-4	7296-7301	refer	_	_	
+62-5	7302-7304	to	_	_	
+62-6	7305-7306	[	_	_	
+62-7	7306-7313	TEST.md	_	_	
+62-8	7313-7314	]	_	_	
+62-9	7314-7315	(	_	_	
+62-10	7315-7321	assets	_	_	
+62-11	7321-7322	/	_	_	
+62-12	7322-7329	TEST.md	_	_	
+62-13	7329-7330	)	_	_	
+62-14	7331-7334	for	_	_	
+62-15	7335-7339	more	_	_	
+62-16	7340-7347	details	_	_	
+62-17	7347-7348	.	_	_	
+62-18	7350-7351	5	_	_	
+62-19	7351-7352	.	_	_	
+
+#Text=Model zoo: Please refer to [MODEL_ZOO.md](assets/MODEL_ZOO.md) for more details.
+#Text=
+#Text=## Citing UNINEXT
+#Text=If you find UNINEXT useful in your research, please consider citing:
+#Text=```bibtex
+#Text=@inproceedings{UNINEXT,
+#Text=  title={Universal Instance Perception as Object Discovery and Retrieval},
+#Text=  author={Yan, Bin and Jiang, Yi and Wu, Jiannan and Wang, Dong and Yuan, Zehuan and Luo, Ping and Lu, Huchuan},
+#Text=  booktitle={CVPR},
+#Text=  year={2023}
+#Text=}
+#Text=```
+#Text=
+#Text=## Acknowledgments
+#Text=- Thanks [Unicorn](https://github.com/MasterBin-IIAU/Unicorn) for providing experience of unifying four object tracking tasks (SOT, MOT, VOS, MOTS).
+#Text=- Thanks [VNext](https://github.com/wjf5203/VNext) for providing experience of Video Instance Segmentation (VIS).
+#Text=- Thanks [ReferFormer](https://github.com/wjn922/ReferFormer) for providing experience of REC, RES, and R-VOS.
+#Text=- Thanks [GLIP](https://github.com/microsoft/GLIP) for the idea of unifying object detection and phrase grounding.
+#Text=- Thanks [Detic](https://github.com/facebookresearch/Detic) for the implementation of multi-dataset training.
+#Text=- Thanks [detrex](https://github.com/IDEA-Research/detrex) for the implementation of denoising mechnism.
+63-1	7353-7358	Model	_	_	
+63-2	7359-7362	zoo	_	_	
+63-3	7362-7363	:	_	_	
+63-4	7364-7370	Please	_	_	
+63-5	7371-7376	refer	_	_	
+63-6	7377-7379	to	_	_	
+63-7	7380-7381	[	_	_	
+63-8	7381-7393	MODEL_ZOO.md	_	_	
+63-9	7393-7394	]	_	_	
+63-10	7394-7395	(	_	_	
+63-11	7395-7401	assets	_	_	
+63-12	7401-7402	/	_	_	
+63-13	7402-7414	MODEL_ZOO.md	_	_	
+63-14	7414-7415	)	_	_	
+63-15	7416-7419	for	_	_	
+63-16	7420-7424	more	_	_	
+63-17	7425-7432	details	_	_	
+63-18	7432-7433	.	_	_	
+63-19	7435-7436	#	_	_	
+63-20	7436-7437	#	_	_	
+63-21	7438-7444	Citing	_	_	
+63-22	7445-7452	UNINEXT	_	_	
+63-23	7453-7455	If	_	_	
+63-24	7456-7459	you	_	_	
+63-25	7460-7464	find	_	_	
+63-26	7465-7472	UNINEXT	_	_	
+63-27	7473-7479	useful	_	_	
+63-28	7480-7482	in	_	_	
+63-29	7483-7487	your	_	_	
+63-30	7488-7496	research	_	_	
+63-31	7496-7497	,	_	_	
+63-32	7498-7504	please	_	_	
+63-33	7505-7513	consider	_	_	
+63-34	7514-7520	citing	_	_	
+63-35	7520-7521	:	_	_	
+63-36	7522-7523	`	_	_	
+63-37	7523-7524	`	_	_	
+63-38	7524-7525	`	_	_	
+63-39	7525-7531	bibtex	_	_	
+63-40	7532-7533	@	_	_	
+63-41	7533-7546	inproceedings	_	_	
+63-42	7546-7547	{	_	_	
+63-43	7547-7554	UNINEXT	_	_	
+63-44	7554-7555	,	_	_	
+63-45	7558-7563	title	_	_	
+63-46	7563-7564	=	_	_	
+63-47	7564-7565	{	_	_	
+63-48	7565-7574	Universal	*[4]	PUBLICATION[4]	
+63-49	7575-7583	Instance	*[4]	PUBLICATION[4]	
+63-50	7584-7594	Perception	*[4]	PUBLICATION[4]	
+63-51	7595-7597	as	*[4]	PUBLICATION[4]	
+63-52	7598-7604	Object	*[4]	PUBLICATION[4]	
+63-53	7605-7614	Discovery	*[4]	PUBLICATION[4]	
+63-54	7615-7618	and	*[4]	PUBLICATION[4]	
+63-55	7619-7628	Retrieval	*[4]	PUBLICATION[4]	
+63-56	7628-7629	}	_	_	
+63-57	7629-7630	,	_	_	
+63-58	7633-7639	author	_	_	
+63-59	7639-7640	=	_	_	
+63-60	7640-7641	{	_	_	
+63-61	7641-7644	Yan	_	_	
+63-62	7644-7645	,	_	_	
+63-63	7646-7649	Bin	_	_	
+63-64	7650-7653	and	_	_	
+63-65	7654-7659	Jiang	_	_	
+63-66	7659-7660	,	_	_	
+63-67	7661-7663	Yi	_	_	
+63-68	7664-7667	and	_	_	
+63-69	7668-7670	Wu	_	_	
+63-70	7670-7671	,	_	_	
+63-71	7672-7679	Jiannan	_	_	
+63-72	7680-7683	and	_	_	
+63-73	7684-7688	Wang	_	_	
+63-74	7688-7689	,	_	_	
+63-75	7690-7694	Dong	_	_	
+63-76	7695-7698	and	_	_	
+63-77	7699-7703	Yuan	_	_	
+63-78	7703-7704	,	_	_	
+63-79	7705-7711	Zehuan	_	_	
+63-80	7712-7715	and	_	_	
+63-81	7716-7719	Luo	_	_	
+63-82	7719-7720	,	_	_	
+63-83	7721-7725	Ping	_	_	
+63-84	7726-7729	and	_	_	
+63-85	7730-7732	Lu	_	_	
+63-86	7732-7733	,	_	_	
+63-87	7734-7741	Huchuan	_	_	
+63-88	7741-7742	}	_	_	
+63-89	7742-7743	,	_	_	
+63-90	7746-7755	booktitle	_	_	
+63-91	7755-7756	=	_	_	
+63-92	7756-7757	{	_	_	
+63-93	7757-7761	CVPR	*	CONFERENCE	
+63-94	7761-7762	}	_	_	
+63-95	7762-7763	,	_	_	
+63-96	7766-7770	year	_	_	
+63-97	7770-7771	=	_	_	
+63-98	7771-7772	{	_	_	
+63-99	7772-7776	2023	_	_	
+63-100	7776-7777	}	_	_	
+63-101	7778-7779	}	_	_	
+63-102	7780-7781	`	_	_	
+63-103	7781-7782	`	_	_	
+63-104	7782-7783	`	_	_	
+63-105	7785-7786	#	_	_	
+63-106	7786-7787	#	_	_	
+63-107	7788-7803	Acknowledgments	_	_	
+63-108	7804-7805	-	_	_	
+63-109	7806-7812	Thanks	_	_	
+63-110	7813-7814	[	_	_	
+63-111	7814-7821	Unicorn	*	SOFTWARE	
+63-112	7821-7822	]	_	_	
+63-113	7822-7823	(	_	_	
+63-114	7823-7828	https	_	_	
+63-115	7828-7829	:	_	_	
+63-116	7829-7830	/	_	_	
+63-117	7830-7831	/	_	_	
+63-118	7831-7841	github.com	_	_	
+63-119	7841-7842	/	_	_	
+63-120	7842-7856	MasterBin-IIAU	_	_	
+63-121	7856-7857	/	_	_	
+63-122	7857-7864	Unicorn	*	SOFTWARE	
+63-123	7864-7865	)	_	_	
+63-124	7866-7869	for	_	_	
+63-125	7870-7879	providing	_	_	
+63-126	7880-7890	experience	_	_	
+63-127	7891-7893	of	_	_	
+63-128	7894-7902	unifying	_	_	
+63-129	7903-7907	four	_	_	
+63-130	7908-7914	object	_	_	
+63-131	7915-7923	tracking	_	_	
+63-132	7924-7929	tasks	_	_	
+63-133	7930-7931	(	_	_	
+63-134	7931-7934	SOT	_	_	
+63-135	7934-7935	,	_	_	
+63-136	7936-7939	MOT	_	_	
+63-137	7939-7940	,	_	_	
+63-138	7941-7944	VOS	_	_	
+63-139	7944-7945	,	_	_	
+63-140	7946-7950	MOTS	_	_	
+63-141	7950-7951	)	_	_	
+63-142	7951-7952	.	_	_	
+63-143	7953-7954	-	_	_	
+63-144	7955-7961	Thanks	_	_	
+63-145	7962-7963	[	_	_	
+63-146	7963-7968	VNext	*	SOFTWARE	
+63-147	7968-7969	]	_	_	
+63-148	7969-7970	(	_	_	
+63-149	7970-7975	https	_	_	
+63-150	7975-7976	:	_	_	
+63-151	7976-7977	/	_	_	
+63-152	7977-7978	/	_	_	
+63-153	7978-7988	github.com	_	_	
+63-154	7988-7989	/	_	_	
+63-155	7989-7996	wjf5203	_	_	
+63-156	7996-7997	/	_	_	
+63-157	7997-8002	VNext	*	SOFTWARE	
+63-158	8002-8003	)	_	_	
+63-159	8004-8007	for	_	_	
+63-160	8008-8017	providing	_	_	
+63-161	8018-8028	experience	_	_	
+63-162	8029-8031	of	_	_	
+63-163	8032-8037	Video	_	_	
+63-164	8038-8046	Instance	_	_	
+63-165	8047-8059	Segmentation	_	_	
+63-166	8060-8061	(	_	_	
+63-167	8061-8064	VIS	_	_	
+63-168	8064-8065	)	_	_	
+63-169	8065-8066	.	_	_	
+63-170	8067-8068	-	_	_	
+63-171	8069-8075	Thanks	_	_	
+63-172	8076-8077	[	_	_	
+63-173	8077-8088	ReferFormer	*	SOFTWARE	
+63-174	8088-8089	]	_	_	
+63-175	8089-8090	(	_	_	
+63-176	8090-8095	https	_	_	
+63-177	8095-8096	:	_	_	
+63-178	8096-8097	/	_	_	
+63-179	8097-8098	/	_	_	
+63-180	8098-8108	github.com	_	_	
+63-181	8108-8109	/	_	_	
+63-182	8109-8115	wjn922	_	_	
+63-183	8115-8116	/	_	_	
+63-184	8116-8127	ReferFormer	*	SOFTWARE	
+63-185	8127-8128	)	_	_	
+63-186	8129-8132	for	_	_	
+63-187	8133-8142	providing	_	_	
+63-188	8143-8153	experience	_	_	
+63-189	8154-8156	of	_	_	
+63-190	8157-8160	REC	_	_	
+63-191	8160-8161	,	_	_	
+63-192	8162-8165	RES	_	_	
+63-193	8165-8166	,	_	_	
+63-194	8167-8170	and	_	_	
+63-195	8171-8176	R-VOS	_	_	
+63-196	8176-8177	.	_	_	
+63-197	8178-8179	-	_	_	
+63-198	8180-8186	Thanks	_	_	
+63-199	8187-8188	[	_	_	
+63-200	8188-8192	GLIP	*	SOFTWARE	
+63-201	8192-8193	]	_	_	
+63-202	8193-8194	(	_	_	
+63-203	8194-8199	https	_	_	
+63-204	8199-8200	:	_	_	
+63-205	8200-8201	/	_	_	
+63-206	8201-8202	/	_	_	
+63-207	8202-8212	github.com	_	_	
+63-208	8212-8213	/	_	_	
+63-209	8213-8222	microsoft	_	_	
+63-210	8222-8223	/	_	_	
+63-211	8223-8227	GLIP	*	SOFTWARE	
+63-212	8227-8228	)	_	_	
+63-213	8229-8232	for	_	_	
+63-214	8233-8236	the	_	_	
+63-215	8237-8241	idea	_	_	
+63-216	8242-8244	of	_	_	
+63-217	8245-8253	unifying	_	_	
+63-218	8254-8260	object	_	_	
+63-219	8261-8270	detection	_	_	
+63-220	8271-8274	and	_	_	
+63-221	8275-8281	phrase	_	_	
+63-222	8282-8291	grounding	_	_	
+63-223	8291-8292	.	_	_	
+63-224	8293-8294	-	_	_	
+63-225	8295-8301	Thanks	_	_	
+63-226	8302-8303	[	_	_	
+63-227	8303-8308	Detic	*	SOFTWARE	
+63-228	8308-8309	]	_	_	
+63-229	8309-8310	(	_	_	
+63-230	8310-8315	https	_	_	
+63-231	8315-8316	:	_	_	
+63-232	8316-8317	/	_	_	
+63-233	8317-8318	/	_	_	
+63-234	8318-8328	github.com	_	_	
+63-235	8328-8329	/	_	_	
+63-236	8329-8345	facebookresearch	_	_	
+63-237	8345-8346	/	_	_	
+63-238	8346-8351	Detic	*	SOFTWARE	
+63-239	8351-8352	)	_	_	
+63-240	8353-8356	for	_	_	
+63-241	8357-8360	the	_	_	
+63-242	8361-8375	implementation	_	_	
+63-243	8376-8378	of	_	_	
+63-244	8379-8392	multi-dataset	_	_	
+63-245	8393-8401	training	_	_	
+63-246	8401-8402	.	_	_	
+63-247	8403-8404	-	_	_	
+63-248	8405-8411	Thanks	_	_	
+63-249	8412-8413	[	_	_	
+63-250	8413-8419	detrex	*	SOFTWARE	
+63-251	8419-8420	]	_	_	
+63-252	8420-8421	(	_	_	
+63-253	8421-8426	https	_	_	
+63-254	8426-8427	:	_	_	
+63-255	8427-8428	/	_	_	
+63-256	8428-8429	/	_	_	
+63-257	8429-8439	github.com	_	_	
+63-258	8439-8440	/	_	_	
+63-259	8440-8453	IDEA-Research	_	_	
+63-260	8453-8454	/	_	_	
+63-261	8454-8460	detrex	*	SOFTWARE	
+63-262	8460-8461	)	_	_	
+63-263	8462-8465	for	_	_	
+63-264	8466-8469	the	_	_	
+63-265	8470-8484	implementation	_	_	
+63-266	8485-8487	of	_	_	
+63-267	8488-8497	denoising	_	_	
+63-268	8498-8506	mechnism	_	_	
+63-269	8506-8507	.	_	_	

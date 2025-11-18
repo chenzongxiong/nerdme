@@ -1,0 +1,1 @@
+Download the <DATASET>WIDER FACE</DATASET> dataset from <CONFERENCE>here</CONFERENCE> (<SOFTWARE>https://shuoyang1213.me/WIDERFACE/</SOFTWARE>).

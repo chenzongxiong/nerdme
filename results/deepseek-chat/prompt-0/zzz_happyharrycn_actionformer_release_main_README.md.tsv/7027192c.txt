@@ -1,0 +1,3 @@
+```markdown
+/ckpt/<SOFTWARE>ego4d_omnivore_egovlp_reproduce</SOFTWARE> ``` * Training our model on <DATASET>Ego4D</DATASET> with all three features requires ~4.5GB GPU memory, yet the inference might require over 10GB GPU memory.
+```

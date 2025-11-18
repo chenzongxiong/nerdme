@@ -1,0 +1,3 @@
+```markdown
+Tong, <PUBLICATION>[Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set]</PUBLICATION>(https://arxiv.org/abs/1903.08527), <WORKSHOP>IEEE Computer Vision and Pattern Recognition Workshop (CVPRW) on Analysis and Modeling of Faces and Gestures (AMFG)</WORKSHOP>, 2019.
+```

@@ -1,0 +1,13 @@
+Dataset splits are created in `<PROGLANG>pre_proc_treccovid.py</PROGLANG>`
+
+Conference papers will be presented at the `<CONFERENCE>ACL 2023</CONFERENCE>` workshop.
+
+The `<DATASET>TREC COVID-19</DATASET>` dataset is used for evaluation.
+
+The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>` was published in the `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`.
+
+The `<SOFTWARE>Protege ontology editor</SOFTWARE>` is widely used for creating ontologies.
+
+The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is available under the `<LICENSE>CC BY-NC 4.0</LICENSE>` license.
+
+The evaluation metrics used are `<EVALMETRIC>Precision</E

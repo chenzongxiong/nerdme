@@ -1,0 +1,1 @@
+For 'sarcastic', the gap between the `<SOFTWARE>BERT</SOFTWARE>` model and human annotators indicates a rich area for studying whether model performance can be improved

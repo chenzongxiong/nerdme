@@ -1,0 +1,1 @@
+Furthermore, we find that existing image <DATASET>datasets with textual captions</DATASET> can provide a surprisingly effective form of weak supervision for this task.

@@ -1,0 +1,1 @@
+The security feature does not affect accuracy, however you can set `<PROGLANG>USE_DP_PRIVACY</PROGLANG>` to `False` if you want to see what the federated accuracy would be without differential privacy.

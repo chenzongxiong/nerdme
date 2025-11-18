@@ -1,0 +1,1 @@
+/pretrained/thumos_i3d_reproduce/config.txt*. * The training log is located at *.

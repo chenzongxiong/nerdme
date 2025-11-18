@@ -1,0 +1,1 @@
+The task associated to the domain adaptation is to perform a <SOFTWARE>segmentation task</SOFTWARE> via a pre-trained fixed <SOFTWARE>network</SOFTWARE>, and the results are leveraged to guide the transformation process (rigid transform via <SOFTWARE>spatial transformer networks</SOFTWARE>).

@@ -1,0 +1,1 @@
+The detector is trained on `<DATASET>[300WLP](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm)</DATASET>`, `<DATASET>[LFW](http://vis-www.cs.umass.edu/lfw/)</DATASET>`, and `<DATASET>[LS3D-W](https://www.adrianbulat.com/face-alignment)</DATASET>`.  ### Training preparation ###  1.

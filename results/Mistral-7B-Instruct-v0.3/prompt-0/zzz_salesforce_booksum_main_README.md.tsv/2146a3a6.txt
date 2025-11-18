@@ -1,0 +1,3 @@
+It is recommended to download them in the `<DIRECTORY>booksum root directory</DIRECTORY>` for the scripts to work without requiring any modifications to the paths.
+
+Please create a GitHub issue if you have any questions, suggestions, requests, or `<PUBLICATION>bug-reports</PUBLICATION>`.

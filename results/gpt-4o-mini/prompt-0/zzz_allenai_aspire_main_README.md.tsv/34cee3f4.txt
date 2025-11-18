@@ -1,0 +1,1 @@
+`config/models_config`: JSON files with hyper-parameters for models in the <PUBLICATION>paper</PUBLICATION> consumed by code in `src/learning/`.

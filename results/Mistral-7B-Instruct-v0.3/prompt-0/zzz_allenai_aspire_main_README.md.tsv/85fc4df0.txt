@@ -1,0 +1,7 @@
+```markdown
+For info on how to run this file see src/pre_process/README_NER     <div style="margin-left: auto;             margin-right: auto;             width: 95%">
+  | Model name in paper         | Config under `config/models_config/{<domain>}`  | Model class in code   |
+  |-----------------------------|:-------------------------:|:-----------:|
+  | <PROJECT>cosentbert</PROJECT>              |        `<PROJECT>cosentbert</PROJECT>`        |  `facetid_models.sentsim_models.SentBERTWrapper` |
+  | <PROJECT>ICTSentBert</PROJECT>              |        `<PROJECT>ictsentbert</PROJECT>`        |  `facetid_models.sentsim_models.ICTBERTWrapper` |
+  | <PROJECT>SPECTER-CoCite</PROJECT>              |        `<PROJECT>hparam_opt/cospecter-best</PROJECT>`/`<PROJECT>hparam_opt/cospecter-

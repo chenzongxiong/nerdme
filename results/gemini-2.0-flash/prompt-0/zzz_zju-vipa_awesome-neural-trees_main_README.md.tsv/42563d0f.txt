@@ -1,0 +1,1 @@
+Apply DTs to interpret trained NNs by approximating the network (mostly in terms of input-output mapping) and mimic the decision boundaries implicitly learned by the hidden layers. ##### *1.2.1 Pedagogical Techniques.* Treat NNs as black-box approaches, and extract the input-output rule directly form NNs regardless of its intermediate layers.

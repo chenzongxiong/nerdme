@@ -1,0 +1,11 @@
+`[black](https://img.shields.io/badge/Code%20Style-<PROGLANG>Black</PROGLANG>-black.svg?)`
+
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+
+The <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION> is in the <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>.
+
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (ISWC 2019) workshop refers to the [Thermal Image Super-Resolution](https://<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html).
+
+You can use the <SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the <DATASET>Intelligence Task Ontology</DATASET>.
+
+Download the <DATA

@@ -1,0 +1,3 @@
+```markdown
+NOTE: this quantitiy does incorporate other client's data if you set the config.USING_CUMULATIVE flag to False, since that indicates to clients that they should start training on this iteration using the federated weights from the previous iteration since the datasets aren't cumulative. ii) the federated accuracy: the accuracy of the federated model which is the average of all the clients' personal weights + differentially private noise for that iteration.
+```

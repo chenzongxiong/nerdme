@@ -1,0 +1,1 @@
+MXNet from [the <SOFTWARE>offical repository</SOFTWARE>](https://github.com/dmlc/mxnet).

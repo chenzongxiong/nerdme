@@ -1,0 +1,1 @@
+`<PROJECT>Papers With Code</PROJECT> is licensed under the <LICENSE>CC-BY-SA</LICENSE> license.`

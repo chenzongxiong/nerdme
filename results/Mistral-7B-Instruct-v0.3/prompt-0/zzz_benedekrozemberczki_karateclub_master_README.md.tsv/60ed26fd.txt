@@ -1,0 +1,2 @@
+`[coverage badge](https://codecov.io/gh/benedekrozemberczki/karateclub/branch/master/graph/badge.svg)](https://codecov.io/github/benedekrozemberczki/karateclub?)\
+The <SOFTWARE>Karate Club</SOFTWARE> is a <PROJECT>Java testing framework</PROJECT> developed by <PUBLICATION>Benedek Rózsa</PUBLICATION>.`

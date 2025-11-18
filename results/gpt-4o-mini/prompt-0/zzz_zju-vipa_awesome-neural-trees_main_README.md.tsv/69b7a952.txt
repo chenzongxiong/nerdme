@@ -1,0 +1,1 @@
+It can date back to the early 1990s when <PROJECT>DTs</PROJECT> were supposed to provide structural priors for <PROGLANG>NNs</PROGLANG> or extract rules from a trained <PROGLANG>NN</PROGLANG>.

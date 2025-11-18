@@ -1,0 +1,1 @@
+Fine-tuning pre-trained <SOFTWARE>BERT</SOFTWARE> produces classifiers with modest performance compared to the state of the art for sequence classification.

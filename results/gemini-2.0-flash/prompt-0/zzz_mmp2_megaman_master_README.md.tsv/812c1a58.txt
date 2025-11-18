@@ -1,0 +1,1 @@
+style=flat)](https://pypi.<PROGLANG>python</PROGLANG>.org/pypi/megaman) [!

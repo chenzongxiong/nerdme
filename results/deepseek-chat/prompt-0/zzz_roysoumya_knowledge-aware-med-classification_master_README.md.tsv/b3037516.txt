@@ -1,0 +1,3 @@
+```markdown
+/tmp/ichi_bert_base_new --overwrite_output_dir ```  ### Experiments and Results The BERT and MedBERT models were trained and evaluated on two datasets: `<DATASET>CADEC</DATASET>` (multi-label) and `<DATASET>ICHI</DATASET>` (multi-class) (Datasets provided in the data directory).   ### Annotated `<DATASET>CADEC</DATASET>`, a multi-label medical forum question classificaton dataset We annotate `<DATASET>CADEC</DATASET>` as a multi-label multi-class dataset, for the task of "Medical Forum Question Classification".
+```

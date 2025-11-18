@@ -1,0 +1,3 @@
+```markdown
+The module [<SOFTWARE>synth_data_gen/prompt_openai.py</SOFTWARE>](synth_data_gen/prompt_openai.py) wraps interactions with <SOFTWARE>OpenAI GPT-3.5-turbo</SOFTWARE> model. - Run [<SOFTWARE>synth_data_gen/generate_synth_data.py</SOFTWARE>](synth_data_gen/generate_synth_data.py) script: this script will generate a synthetic  concept definition from each synonym of each concept of the <ONTOLOGY>MONDO</ONTOLOGY> ontology.
+```

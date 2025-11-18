@@ -1,0 +1,1 @@
+/evaluate.sh), especially `<EVALMETRIC>model_name</EVALMETRIC>` and `<SOFTWARE>model2_path</SOFTWARE>`

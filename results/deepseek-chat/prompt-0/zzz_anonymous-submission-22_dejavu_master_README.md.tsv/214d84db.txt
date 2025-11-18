@@ -1,0 +1,1 @@
+Then, we average the similarities to T2 if all units with their suspicious scores (of $T_1$) as the weights.

@@ -1,0 +1,3 @@
+The `<PROJECT>lmdb</PROJECT>` database will be created for each `<DATASET>`. During inference, all ligand protein complexes will be combined by their `<EVALMETRIC>PDB ID</EVALMETRIC>` to evaluate the model based on all the bindingsites for a given protein.
+
+`### Process the datasets` This will create a `<DATASET>lmdb</DATASET>` database for each `<DATASET>`.

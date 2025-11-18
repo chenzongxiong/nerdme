@@ -1,0 +1,1 @@
+See [license](/<LICENSE>license</LICENSE>) for more information.

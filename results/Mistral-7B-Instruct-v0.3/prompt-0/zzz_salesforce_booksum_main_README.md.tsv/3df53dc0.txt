@@ -1,0 +1,8 @@
+The updates for the 2nd time are as follows:
+
+- The [**CONFERENCE**](CONFERENCE) `<CONFERENCE>International Conference on Learning Representations (ICLR) 2023</CONFERENCE>` will be held from May 29 to June 3, 2023.
+- The [**DATASET**](DATASET) `<DATASET>Stanford Sentiment Treebank (SST)</DATASET>` is a large annotated corpus of movie reviews.
+- The [**EVALMETRIC**](EVALMETRIC) used for evaluating the performance of the models is the `<EVALMETRIC>F1-Score</EVALMETRIC>`.
+- The [**LICENSE**](LICENSE) for using the resource is `<LICENSE>CC BY-NC 4.0</LICENSE>`.
+- The [**ONTOLOGY**](ONTOLOGY) used in the project is the `<ONTOLOGY>WordNet</ONTOLOGY>`.
+- The [**PROGLANG**](PROGLANG) used for the

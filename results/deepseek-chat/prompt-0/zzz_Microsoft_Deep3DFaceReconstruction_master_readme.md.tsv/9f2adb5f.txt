@@ -1,0 +1,1 @@
+- face_color: vertex color of 3D face, which takes lighting into consideration

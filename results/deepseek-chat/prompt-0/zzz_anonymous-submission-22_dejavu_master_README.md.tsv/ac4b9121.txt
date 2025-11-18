@@ -1,0 +1,3 @@
+```markdown
+Pull the code from GitHub    ```bash    git pull https://github.com/<PROJECT>NetManAIOps</PROJECT>/<SOFTWARE>DejaVu</SOFTWARE>.git <SOFTWARE>DejaVu</SOFTWARE>    ``` 3.
+```

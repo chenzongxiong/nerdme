@@ -1,0 +1,3 @@
+Functions listed under `<FUNCTION>write_examples</FUNCTION>` generate training positive pairs for various models (negatives are generated with in-batch negative sampling).
+
+In the given text, the entity `write_examples` is a function, so it should be annotated as `<FUNCTION>write_examples</FUNCTION>`.

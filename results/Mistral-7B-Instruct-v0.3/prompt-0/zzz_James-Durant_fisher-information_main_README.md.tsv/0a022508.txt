@@ -1,0 +1,5 @@
+These uncertainties can influence real-time decisions about measurement angle, measurement time, contrast choice and other experimental conditions based on parameters of interest.
+
+- **SOFTWARE**: Protege Ontology Editor
+
+The `<SOFTWARE>Protege Ontology Editor</SOFTWARE>` is widely used for creating ontologies.

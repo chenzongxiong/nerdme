@@ -1,0 +1,3 @@
+```markdown
+Nevertheless, the functionality used in this work can be found in `<SOFTWARE>utils.synthetic_cell_membrane_masks</SOFTWARE>` and `<SOFTWARE>utils.synthetic_cell_nuclei_masks</SOFTWARE>` for cellular membranes and nuclei, respectively.  ## Processing Times and Hardware Requirements Due to the layout and working principle of the computation cluster we used, determining precise hardware requirements was difficult.
+```

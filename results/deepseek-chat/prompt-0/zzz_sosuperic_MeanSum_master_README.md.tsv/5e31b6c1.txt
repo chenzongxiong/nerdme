@@ -1,0 +1,1 @@
+Each row contains `<SOFTWARE>Input.business_id</SOFTWARE>`, `<SOFTWARE>Input.original_review_\<num\>\_id</SOFTWARE>`,  `<SOFTWARE>Input.original_review__\<num\>\_</SOFTWARE>`, `<SOFTWARE>Answer.summary</SOFTWARE>`, etc.

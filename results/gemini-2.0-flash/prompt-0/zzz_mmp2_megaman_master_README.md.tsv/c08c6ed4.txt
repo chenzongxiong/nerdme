@@ -1,0 +1,1 @@
+-- The easiest way to install ``megaman`` and its dependencies is with [conda](http://conda.pydata.org/miniconda.html), the cross-platform package manager for the scientific <PROGLANG>Python</PROGLANG> ecosystem.

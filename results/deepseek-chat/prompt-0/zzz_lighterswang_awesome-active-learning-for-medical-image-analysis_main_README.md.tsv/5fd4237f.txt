@@ -1,0 +1,3 @@
+```markdown
+id=v8OlxjGn23S)**  Deep Batch Active Learning by Diverse, Uncertain Gradient Lower Bounds   **[<CONFERENCE>ICLR'20</CONFERENCE>]** **[[PDF]](https://openreview.net/pdf?
+```

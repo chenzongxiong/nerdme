@@ -1,0 +1,3 @@
+```markdown
+If you want to change only a few options, instead of re-writing a new configuration file, you can override the configuration as the follows:  ``` <PROGLANG>python</PROGLANG> <train | eval>.py --dataloader__batch_size 32 --dataloader__eval_batch_size 8 --model__eval_method matching_prob ```  See [config/parser.py](config/parser.py) for details  ## Dataset preparation  ### <DATASET>COCO Caption</DATASET>  We followed the same split provided by [<SOFTWARE>VSE++</SOFTWARE>](http://www.cs.toronto.edu/~faghri/vsepp/data.tar).
+```

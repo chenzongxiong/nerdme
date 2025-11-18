@@ -1,0 +1,5 @@
+Since the input text is empty (only containing a period), there are no entities to annotate. Here is the output in Markdown format:
+
+```markdown
+.
+```

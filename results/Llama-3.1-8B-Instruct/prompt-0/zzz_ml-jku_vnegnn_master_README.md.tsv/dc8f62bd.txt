@@ -1,0 +1,1 @@
+Instead, the <SOFTWARE>MOAD database</SOFTWARE> contains the ligand information, according to the criteria of <DATASET>relevant ligand</DATASET> as specified in the <SOFTWARE>MOAD database</SOFTWARE>.

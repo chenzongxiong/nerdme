@@ -1,0 +1,5 @@
+**Learn decision trees with deep visual primitives**, `<PUBLICATION>SSRN</PUBLICATION>`, 2022
+- Mengqi Xue, *et al*
+- [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=<DATASET>3079842</DATASET>)
+- Available at <https://githubhelp.com> and <https://github.com/M-Nauta/ProtoTree>
+- A project that uses `<SOFTWARE>Python</SOFTWARE>` and is hosted on <https://github.com/>

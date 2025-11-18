@@ -1,0 +1,1 @@
+As `<SOFTWARE>Pellet</SOFTWARE>` needs an `<SOFTWARE>OWL API</SOFTWARE>` version lower than 4 (while the others need a version higher than 4) we provide two `<SOFTWARE>pom.xml</SOFTWARE>` files.

@@ -1,0 +1,3 @@
+```markdown
+Wikipedia - `<SOFTWARE>word_counts_wikipedia.py</SOFTWARE>`: count words in simple and regular Wikipedia samples  Vocab to lemmatize - `<SOFTWARE>write_mask_preds/wsi_vocab.py</SOFTWARE>`: vocab creation  Journals & FOS - `<SOFTWARE>word_type.py</SOFTWARE>`: calculate NPMI  **<PROJECT>WSI pipeline</PROJECT>**  There are some additional supporting scripts, but these are the main ones to run.
+```

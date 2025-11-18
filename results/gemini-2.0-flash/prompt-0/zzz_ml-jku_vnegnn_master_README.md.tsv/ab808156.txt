@@ -1,0 +1,1 @@
+- `bindingsite_test_data/pdbbind2020/raw` The holo4k and the coach420 <DATASET>dataset</DATASET> were created by extracting the relevant ligans from the <DATASET>MOAD</DATASET> database.

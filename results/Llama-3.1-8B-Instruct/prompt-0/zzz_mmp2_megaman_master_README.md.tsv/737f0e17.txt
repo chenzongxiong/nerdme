@@ -1,0 +1,3 @@
+[version status](http://img.shields.io/pypi/v/ <SOFTWARE>Megaman</SOFTWARE>.svg)
+ 
+Note: Only one entity was found in the given text, which is annotated above.

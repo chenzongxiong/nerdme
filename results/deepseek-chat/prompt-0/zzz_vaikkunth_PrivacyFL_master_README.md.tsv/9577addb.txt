@@ -1,0 +1,1 @@
+We have provided two sample subclasses, **<SOFTWARE>ClientAgent</SOFTWARE>** and **<SOFTWARE>ServerAgent</SOFTWARE>**, which are both used in the sample simulation.   ### <SOFTWARE>ClientAgent</SOFTWARE>  An instance of the **<SOFTWARE>ClientAgent</SOFTWARE>** class represents an entity that is training a machine learning model on the same task as the other client agents.

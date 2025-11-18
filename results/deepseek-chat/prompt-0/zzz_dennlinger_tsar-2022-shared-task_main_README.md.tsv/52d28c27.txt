@@ -1,0 +1,1 @@
+Other required packages can be installed with `<PROGLANG>python3</PROGLANG> -m pip install -r requirements.txt` from the main repository folder.

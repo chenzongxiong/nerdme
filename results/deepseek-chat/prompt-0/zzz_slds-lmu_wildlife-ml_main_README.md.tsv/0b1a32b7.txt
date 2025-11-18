@@ -1,0 +1,1 @@
+Second, parts or the full `<SOFTWARE>model_backbone</SOFTWARE>` is unfrozen and more parts of the network can be adapted (`<SOFTWARE>finetune</SOFTWARE>`-phase).

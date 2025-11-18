@@ -1,0 +1,3 @@
+```markdown
+- Feel free to experiment with different architectures for the <PROJECT>global</PROJECT> or <PROJECT>local</PROJECT> network.
+```

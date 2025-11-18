@@ -1,0 +1,1 @@
+Our pretrained `<SOFTWARE>models</SOFTWARE>` and `<DATASET>datasets</DATASET>` are hosted on `<ONTOLOGY>Zenodo</ONTOLOGY>` (`<URL>https://zenodo.org/record/4001602</URL>`).

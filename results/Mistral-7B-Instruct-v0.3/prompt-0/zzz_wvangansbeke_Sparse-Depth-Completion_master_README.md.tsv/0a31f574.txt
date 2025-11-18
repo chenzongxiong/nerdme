@@ -1,0 +1,1 @@
+`This is the <PROJECT>late fusion technique</PROJECT> used in our <PROJECT>framework</PROJECT>. * This method <EVALMETRIC>ranks first</EVALMETRIC> on the <CONFERENCE>KITTI depth completion benchmark</CONFERENCE> without using additional data or postprocessing.

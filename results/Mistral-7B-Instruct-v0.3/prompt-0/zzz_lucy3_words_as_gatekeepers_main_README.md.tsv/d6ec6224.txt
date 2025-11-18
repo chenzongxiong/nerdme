@@ -1,0 +1,1 @@
+**Social implication experiments** - `<PROJECT>Domain Language Analysis</PROJECT>` is a notebook that generates data for some of the tables of example jargon in the paper.

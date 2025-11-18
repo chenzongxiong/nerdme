@@ -1,0 +1,1 @@
+`Chapterized Project Guteberg Data <DATASET>The chapterized book text from Gutenberg</DATASET> has been made available through a public <SOFTWARE>Google Cloud Platform (GCP)</SOFTWARE> bucket.`

@@ -1,0 +1,3 @@
+```markdown
+You can find the required preprocessing in: `<DATASET>Datasets/Kitti_loader.py</DATASET>`  Run:  `source <SOFTWARE>Shell/preprocess</SOFTWARE> $datapath $dest $num_samples`  (Firstly, I transformed the png's to jpg - images to save place.
+```

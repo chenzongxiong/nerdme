@@ -1,0 +1,1 @@
+- face_texture: vertex texture of 3D face, which excludes lighting effect

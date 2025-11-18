@@ -1,0 +1,1 @@
+`We then import and extend some new event types based on an <DATASET>automatically-labeled event data</DATASET> from Freebase and Wikipedia, constrained to specific domains such as music, film, sports, education, etc.  ## Data Structure In "*Few-Shot_ED.json.zip*", the key is "<ONTOLOGY>event type label</ONTOLOGY>", the value is the event instances.`

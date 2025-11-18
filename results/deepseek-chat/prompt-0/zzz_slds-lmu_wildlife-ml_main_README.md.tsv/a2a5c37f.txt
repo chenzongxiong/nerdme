@@ -1,0 +1,1 @@
+The file could look something like:  ``` {     "img_id1.xx_001": {         "category": 1,         "conf": 0.9999,         "bbox": [             0.3052,             0.6357,             0.08082,             0.1481         ],         "file": "path_to_img_id1.xx"     },     .... } ```  Each detected bounding box receives one entry in the `.json` file.

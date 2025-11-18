@@ -1,0 +1,1 @@
+If you are missing a specific method, feel free to open a [feature request](https://github.com/benedekrozemberczki/<PROJECT>karateclub</PROJECT>/issues).

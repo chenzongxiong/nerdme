@@ -1,0 +1,1 @@
+This code assumes the 2019-09-28 release of `<DATASET>S2ORC</DATASET>`.

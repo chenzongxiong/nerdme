@@ -1,0 +1,3 @@
+```markdown
+# <SOFTWARE>Keyword Transformer</SOFTWARE>: A Self-Attention Model for Keyword Spotting  <img src="kwt.png" alt="drawing" width="200"/>  This is the official repository for the paper <PUBLICATION>Keyword Transformer: A Self-Attention Model for Keyword Spotting</PUBLICATION>, presented at <CONFERENCE>Interspeech 2021</CONFERENCE>.
+```

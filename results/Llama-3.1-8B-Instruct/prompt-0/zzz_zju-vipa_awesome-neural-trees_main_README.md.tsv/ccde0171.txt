@@ -1,0 +1,1 @@
+There are three lines of research: <PUBLICATION>hierarchical architecture</PUBLICATION>, <PUBLICATION>hierarchical loss function and label embedding based methods</PUBLICATION> and <PUBLICATION>corresponding to different strategies of employing class hierarchies</PUBLICATION>.

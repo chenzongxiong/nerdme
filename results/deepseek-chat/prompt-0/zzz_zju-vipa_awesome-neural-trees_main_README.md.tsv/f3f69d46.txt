@@ -1,0 +1,3 @@
+```markdown
+Neural Decision Trees (NDTs) are hybrid NN models that implement both the class hierarchy and the decision branches.
+```

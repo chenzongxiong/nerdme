@@ -1,0 +1,6 @@
+```markdown
+The `<SOFTWARE>python</SOFTWARE> tools/prepare_data.py script performs the following operations:
+1. Download the <DATASET>Wiki-SQL</DATASET> dataset from https://github.com/google-research-datasets/Wiki-SQL
+2. <CONFERENCE>EMNLP 2020</CONFERENCE> paper titled "<PUBLICATION>WikiSQL: Semantic Parsing Dynamics and Natural Language Generation</PUBLICATION>" 
+3. The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, and <EVALMETRIC>F1-Score</EVALMETRIC>
+```

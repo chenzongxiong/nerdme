@@ -1,0 +1,15 @@
+`[Repository Contents](#repocontents) 1.`
+
+`<PROJECT>Paper With Code</PROJECT> project (https://<PROJECT>paperswithcode</PROJECT>.com/)`
+
+`<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`
+
+`The <SOFTWARE>Protege ontology editor</SOFTWARE> is widely used for creating ontologies.`
+
+`The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is ...`
+
+`The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (ISWC 2019)`
+
+`The <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP>`
+
+`Download the <DATASET>USTPO MIT</DATASET> dataset from (https://

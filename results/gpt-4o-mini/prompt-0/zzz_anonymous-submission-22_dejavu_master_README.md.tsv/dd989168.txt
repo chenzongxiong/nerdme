@@ -1,0 +1,1 @@
+`<DATASET>FDG.pkl</DATASET>` is a pickle of the `<DATASET>FDG</DATASET>` object, which contains all the above data.

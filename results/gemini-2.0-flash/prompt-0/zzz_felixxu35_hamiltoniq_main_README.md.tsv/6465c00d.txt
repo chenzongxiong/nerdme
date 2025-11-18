@@ -1,0 +1,1 @@
+/hamiltoniq/H_Scores/qubit_5.png" alt="n_qubits=4" width="700" /></p> ##### 6 qubits <p align=center><img src=".

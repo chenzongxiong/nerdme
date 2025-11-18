@@ -1,0 +1,1 @@
+The `<PROGLANG>Python</PROGLANG>` script constructs `<SOFTWARE>partial masks</SOFTWARE>` from `<DATASET>weak annotations</DATASET>` and `<SOFTWARE>IMU horizon masks</SOFTWARE>`. `<EVALMETRIC>4</EVALMETRIC>`

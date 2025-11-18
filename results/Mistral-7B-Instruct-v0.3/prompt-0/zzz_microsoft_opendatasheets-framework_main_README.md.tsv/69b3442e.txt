@@ -1,0 +1,8 @@
+The text contains the following entities:
+
+- **DATASET**: `<DATASET>Microsoft’s Aether data documentation</DATASET>`
+- **URL**: `<URL>https://www.microsoft.com/en-us/research/uploads/prod/2022/07/aether-datadoc-082522.pdf</URL>`
+
+The annotated text in Markdown format is:
+
+`Additionally, it extends this standard to incorporate responsible AI aspects into the <DATASET>Microsoft’s Aether data documentation</DATASET>, derived from <URL>https://www.microsoft.com/en-us/research/uploads/prod/2022/07/aether-datadoc-082522.pdf</URL>.`

@@ -1,0 +1,3 @@
+```markdown
+/configs/epic_slowfast_verb.yaml --output reproduce ``` * To train our <PROJECT>ActionFormer</PROJECT> on nouns with <SOFTWARE>SlowFast</SOFTWARE> features, use ```shell python .
+```

@@ -1,0 +1,1 @@
+Loading a single source's <DATASET>JSON</DATASET> + Loading a directory of <DATASET>NELA JSON</DATASET> files - **WARNING**: this consumes a lot of memory Usage: ``` <PROGLANG>python3</PROGLANG> load-json.py <path-to-file> ```

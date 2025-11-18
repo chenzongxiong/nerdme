@@ -1,0 +1,1 @@
+Since our split is based on the zero-shot learning benchmark `<PUBLICATION>(Xian, et al. 2017)</PUBLICATION>` [(Xian, et al. 2017)](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xian_Zero-Shot_Learning_-_CVPR_2017_paper.pdf), we leave out 50 classes from 200 bird classes for the evaluation

@@ -1,0 +1,8 @@
+# MeanSum: A Model for Unsupervised Neural Multi-Document Abstractive Summarization  Corresponding paper, accepted to **<PUBLICATION>ICML 2019</PUBLICATION>**: [<URL>https://arxiv.org/abs/1810.05739</URL>].
+
+## Requirements
+
+- **<PROGLANG>python</PROGLANG>** 3
+- **<SOFTWARE>torch</SOFTWARE>** 0.4.0
+
+Rest of python packages in ```requirements.txt```.

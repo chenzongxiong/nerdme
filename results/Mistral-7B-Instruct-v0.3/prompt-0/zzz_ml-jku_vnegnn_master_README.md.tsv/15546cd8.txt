@@ -1,0 +1,14 @@
+The text contains the following named entities:
+
+- **PROGLANG**: `<PROGLANG>Python</PROGLANG>`
+- **SOFTWARE**: `<SOFTWARE>isort</SOFTWARE>`
+- **CONFERENCE**: `<CONFERENCE>International Sorting Conference</CONFERENCE>` (assuming "isort" is a conference)
+- **LICENSE**: `<LICENSE>MIT License</LICENSE>` (assuming the link provided is the license)
+- **PROGLANG**: `<PROGLANG>PyTorch</PROGLANG>`
+- **SOFTWARE**: `<SOFTWARE>Cuda</SOFTWARE>`
+- **SOFTWARE**: `<SOFTWARE>PyG</SOFTWARE>`
+
+The annotated text in Markdown format is:
+
+```
+The <SOFTWARE>isort</SOFTWARE> (<CONFERENCE>International Sorting Conference</CONFERENCE>), licensed under the <LICENSE>MIT License</LICENSE>, is a <PROGLANG>Python</PROGLANG> software tool. To reproduce the results, please use <PROGLANG>Python</

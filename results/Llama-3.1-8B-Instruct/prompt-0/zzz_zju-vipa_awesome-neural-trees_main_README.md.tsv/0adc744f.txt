@@ -1,0 +1,1 @@
+If a <PUBLICATION>NDT</PUBLICATION> satisfies this property, it means each internal node is assigned a specific and intermediate classification task.

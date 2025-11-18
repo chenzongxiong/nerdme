@@ -1,0 +1,1 @@
+Clone the `<SOFTWARE>FCIS</SOFTWARE>` repository, and we'll call the directory that you cloned `<SOFTWARE>FCIS</SOFTWARE>` as ${FCIS_ROOT}. ~~~ git clone https://github.com/msracver/<SOFTWARE>FCIS</SOFTWARE>.git ~~~ 2.

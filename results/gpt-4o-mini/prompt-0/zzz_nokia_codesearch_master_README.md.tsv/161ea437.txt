@@ -1,0 +1,1 @@
+By default, parsers are installed under the `<PROJECT>codesearch</PROJECT>/parsers` directory this can be customized by setting the `<PROGLANG>TREE_SITTER_DIR</PROGLANG>` variable. 3.

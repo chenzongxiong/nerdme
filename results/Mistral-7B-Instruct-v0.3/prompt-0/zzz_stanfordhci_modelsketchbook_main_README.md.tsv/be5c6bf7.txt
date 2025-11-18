@@ -1,0 +1,1 @@
+- `<PROGLANG>InputType</PROGLANG>.<PROGLANG>ImageLocal</PROGLANG>`: (<PROGLANG>string</PROGLANG>) Filepaths to locally-stored <PROGLANG>images</PROGLANG>. - `<PROGLANG>InputType</PROGLANG>.<PROGLANG>GroundTruth</PROGLANG>`: (<PROGLANG>float</PROGLANG> or <PROGLANG>bool</PROGLANG>) Ground truth labels.

@@ -1,0 +1,1 @@
+The `<PROJECT>HamilToniQ’s benchmarking workflow</PROJECT>` commences with the characterization of `<QPU>QPUs</QPU>`, where each `<QPU>QPU</QPU>` is classified according to its `<ONTOLOGY>type</ONTOLOGY>`, `<ONTOLOGY>topology</ONTOLOGY>`, and `<ONTOLOGY>multi-QPU system</ONTOLOGY>`.

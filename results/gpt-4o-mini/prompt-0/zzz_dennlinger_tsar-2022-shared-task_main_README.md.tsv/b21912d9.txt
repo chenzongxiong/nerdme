@@ -1,0 +1,1 @@
+The <DATASET>datasets</DATASET> (under the <DATASET>/datasets</DATASET> directory) are licensed under a <LICENSE>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</LICENSE> [<LICENSE>CC-BY-NC-SA-4.0</LICENSE>](<LICENSE>CC-BY-NC-SA-4.0</LICENSE>).  ## Contact <CONFERENCE>https://taln.upf.edu/pages/tsar2022-st/#contact</CONFERENCE>

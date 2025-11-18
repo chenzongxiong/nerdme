@@ -1,0 +1,1 @@
+As a result, our <SOFTWARE>CAV-Net</SOFTWARE> outperforms all competing models and is able to estimate the aleatoric uncertainties within <DATASET>PAVS10K</DATASET>.

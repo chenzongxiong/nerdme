@@ -1,0 +1,5 @@
+The `<PROJECT>Paper With Code</PROJECT>` project ([https://<PROJECT>paperswithcode</PROJECT>.com/](https://paperswithcode.com/)) is a valuable resource for researchers. The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`.
+
+The `<SOFTWARE>Protege ontology editor</SOFTWARE>` is widely used for creating ontologies. You can use the `<SOFTWARE>Protege ontology editor</SOFTWARE>` to explore and edit the resource.
+
+The `<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>` (ISWC 2019) workshop refers to the [Thermal Image Super-Resolution](https://<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html).

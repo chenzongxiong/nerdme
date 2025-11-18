@@ -1,0 +1,1 @@
+- ***Entropy net: the first practice***   - **"Entropy nets: from decision trees to neural networks"** (<PUBLICATION>)Proceedings of the IEEE</PUBLICATION>), 1990 (<YEAR>1990</YEAR>) - <AUTHOR>I.K.</AUTHOR>

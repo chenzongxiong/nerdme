@@ -1,0 +1,3 @@
+```markdown
+[Schema of Robustness Validation Framework](img/workshop_framework_2.png)  More details can be found in the paper accepted to <WORKSHOP>NIPS IRASL workshop</WORKSHOP> https://arxiv.org/abs/1812.02205  *This framework is in progress and will be updated.*
+```

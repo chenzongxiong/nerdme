@@ -1,0 +1,1 @@
+`This function will display widgets to specify your <PROJECT>ConceptNet Model Builder</PROJECT> term, input field, and output type. `<CODE>msb.create_concept_model(sb)</CODE>` <img src=".<ONTOLOGY>ConceptNet</ONTOLOGY>">

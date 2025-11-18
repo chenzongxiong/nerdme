@@ -1,0 +1,1 @@
+For more details, see our [user's guide][users-guide] and browse the [API docs][javadoc] for the latest release.  ### Cache  <SOFTWARE>Caffeine</SOFTWARE> provides an in-memory cache using a <SOFTWARE>Google Guava</SOFTWARE> inspired API.

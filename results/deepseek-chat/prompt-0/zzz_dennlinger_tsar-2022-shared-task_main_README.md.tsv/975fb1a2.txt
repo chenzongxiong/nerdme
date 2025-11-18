@@ -1,0 +1,1 @@
+The *<DATASET>trial_none</DATASET>* files contain only the instances and the *<DATASET>trial_gold</DATASET>* files contain the instances and set of gold annotations

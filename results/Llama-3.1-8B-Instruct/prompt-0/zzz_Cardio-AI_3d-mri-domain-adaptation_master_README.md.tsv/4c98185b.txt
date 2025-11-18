@@ -1,0 +1,1 @@
+Finally the inverse transformation could be applied to the <SOFTWARE>segmentation</SOFTWARE> algorithm, which results in a automatically segmented AX CMR.

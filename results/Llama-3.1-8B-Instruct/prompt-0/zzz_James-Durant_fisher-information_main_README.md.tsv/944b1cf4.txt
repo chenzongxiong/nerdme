@@ -1,0 +1,1 @@
+The FI <SOFTWARE>provides</SOFTWARE> a lower bound on parameter estimation uncertainties and these are shown to decrease with the square root of measurement time, providing useful information for the planning and scheduling of experimental work.

@@ -1,0 +1,1 @@
+For a quick start, check out our [examples](https://github.com/<SOFTWARE>benedekrozemberczki</SOFTWARE>/<SOFTWARE>karateclub</SOFTWARE>/tree/master/<SOFTWARE>examples.py</SOFTWARE>).

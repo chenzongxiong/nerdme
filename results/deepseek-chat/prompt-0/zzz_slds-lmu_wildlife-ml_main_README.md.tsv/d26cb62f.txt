@@ -1,0 +1,1 @@
+After the user has finished labelling the images, the `<PROGLANG>csv</PROGLANG>` file should be saved and the above `<SOFTWARE>run</SOFTWARE>` function should be invoked again.

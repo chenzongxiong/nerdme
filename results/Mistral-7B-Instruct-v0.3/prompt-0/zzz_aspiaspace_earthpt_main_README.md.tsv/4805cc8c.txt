@@ -1,0 +1,1 @@
+This repository began its life as `<PROJECT>nanoGPT</PROJECT>` ([https://github.com/karpathy/nanoGPT](https://github.com/karpathy/nanoGPT)), and has been altered so that it is usable for `<DATASET>time series data</DATASET>`.

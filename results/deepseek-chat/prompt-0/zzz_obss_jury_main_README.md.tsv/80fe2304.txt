@@ -1,0 +1,3 @@
+```markdown
+<h1 align="center">Jury</h1>  <p align="center"> <a href="https://pypi.org/project/jury"><img src="https://img.shields.io/pypi/pyversions/<PROGLANG>jury</PROGLANG>" alt="<PROGLANG>Python</PROGLANG> versions"></a> <a href="https://pepy.tech/project/jury"><img src="https://pepy.tech/badge/<SOFTWARE>jury</SOFTWARE>" alt="downloads"></a> <a href="https://pypi.org/project/jury"><img src="https://img.shields.io/pypi/v/<SOFTWARE>jury</SOFTWARE>?
+```

@@ -1,0 +1,3 @@
+Here is the annotated text in Markdown format:
+
+We acknowledge `<PROJECT>EuroHPC Joint Undertaking</PROJECT>` for awarding us access to `<SOFTWARE>Karolina</SOFTWARE>` at `<PROJECT>IT4Innovations</PROJECT>`, Czech Republic; `<SOFTWARE>MeluXina</SOFTWARE>` at `<PROJECT>LuxProvide</PROJECT>`, Luxembourg; `<SOFTWARE>LUMI</SOFTWARE>` at `<PROJECT>CSC</PROJECT>`, Finland. !

@@ -1,0 +1,11 @@
+`PMID: <PUBLICATION>21908707</PUBLICATION>`
+
+The `<SOFTWARE>Protege ontology editor</SOFTWARE>` is widely used for creating ontologies.
+
+The `<PROJECT>Paper With Code</PROJECT>` project (https://<PROJECT>paperswithcode</PROJECT>.com/)
+
+The `<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>` (ISWC 2019)
+
+Download the `<DATASET>USTPO MIT</DATASET>` dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip)
+
+The evaluation metrics used are `<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, `<EVALMETRIC>F1-Score</EVALMETRIC>`, and `<EVALMETRIC>BLEU Score</E

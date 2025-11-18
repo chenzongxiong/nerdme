@@ -1,0 +1,1 @@
+`For an elaborated introduction to the areas of active learning, we recommend to read our <PUBLICATION>paper</PUBLICATION>.`

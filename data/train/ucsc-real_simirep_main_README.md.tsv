@@ -1,0 +1,220 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Detecting Corrupted Labels Without Training a Model to Predict
+#Text=
+#Text=**[Update 5/17/2023]** SimiFeat is a module of [Docta](https://github.com/Docta-ai/docta) now!
+1-1	0-1	#	_	_	
+1-2	2-11	Detecting	*[1]	PUBLICATION[1]	
+1-3	12-21	Corrupted	*[1]	PUBLICATION[1]	
+1-4	22-28	Labels	*[1]	PUBLICATION[1]	
+1-5	29-36	Without	*[1]	PUBLICATION[1]	
+1-6	37-45	Training	*[1]	PUBLICATION[1]	
+1-7	46-47	a	*[1]	PUBLICATION[1]	
+1-8	48-53	Model	*[1]	PUBLICATION[1]	
+1-9	54-56	to	*[1]	PUBLICATION[1]	
+1-10	57-64	Predict	*[1]	PUBLICATION[1]	
+1-11	66-67	*	_	_	
+1-12	67-68	*	_	_	
+1-13	68-69	[	_	_	
+1-14	69-75	Update	_	_	
+1-15	76-77	5	_	_	
+1-16	77-78	/	_	_	
+1-17	78-80	17	_	_	
+1-18	80-81	/	_	_	
+1-19	81-85	2023	_	_	
+1-20	85-86	]	_	_	
+1-21	86-87	*	_	_	
+1-22	87-88	*	_	_	
+1-23	89-97	SimiFeat	*	SOFTWARE	
+1-24	98-100	is	_	_	
+1-25	101-102	a	_	_	
+1-26	103-109	module	_	_	
+1-27	110-112	of	_	_	
+1-28	113-114	[	_	_	
+1-29	114-119	Docta	*	SOFTWARE	
+1-30	119-120	]	_	_	
+1-31	120-121	(	_	_	
+1-32	121-126	https	_	_	
+1-33	126-127	:	_	_	
+1-34	127-128	/	_	_	
+1-35	128-129	/	_	_	
+1-36	129-139	github.com	_	_	
+1-37	139-140	/	_	_	
+1-38	140-148	Docta-ai	_	_	
+1-39	148-149	/	_	_	
+1-40	149-154	docta	*	SOFTWARE	
+1-41	154-155	)	_	_	
+1-42	156-159	now	_	_	
+1-43	159-160	!	_	_	
+
+#Text=- A doctor for your data
+#Text=- An advanced data-centric AI platform that offers a comprehensive range of services aimed at detecting and rectifying issues in your data.
+2-1	161-162	-	_	_	
+2-2	163-164	A	_	_	
+2-3	165-171	doctor	_	_	
+2-4	172-175	for	_	_	
+2-5	176-180	your	_	_	
+2-6	181-185	data	_	_	
+2-7	186-187	-	_	_	
+2-8	188-190	An	_	_	
+2-9	191-199	advanced	_	_	
+2-10	200-212	data-centric	_	_	
+2-11	213-215	AI	_	_	
+2-12	216-224	platform	_	_	
+2-13	225-229	that	_	_	
+2-14	230-236	offers	_	_	
+2-15	237-238	a	_	_	
+2-16	239-252	comprehensive	_	_	
+2-17	253-258	range	_	_	
+2-18	259-261	of	_	_	
+2-19	262-270	services	_	_	
+2-20	271-276	aimed	_	_	
+2-21	277-279	at	_	_	
+2-22	280-289	detecting	_	_	
+2-23	290-293	and	_	_	
+2-24	294-304	rectifying	_	_	
+2-25	305-311	issues	_	_	
+2-26	312-314	in	_	_	
+2-27	315-319	your	_	_	
+2-28	320-324	data	_	_	
+2-29	324-325	.	_	_	
+
+#Text=This code is a PyTorch implementation of the [paper](https://arxiv.org/abs/2110.06283): Detecting Corrupted Labels Without Training a Model to Predict 
+#Text=
+#Text=
+#Text=## Prerequisites
+#Text=
+#Text=Python 3.6.9
+#Text=
+#Text=PyTorch 1.7.1
+#Text=
+#Text=Torchvision 0.8.2
+#Text=
+#Text=Full list in .
+3-1	327-331	This	_	_	
+3-2	332-336	code	_	_	
+3-3	337-339	is	_	_	
+3-4	340-341	a	_	_	
+3-5	342-349	PyTorch	*	SOFTWARE	
+3-6	350-364	implementation	_	_	
+3-7	365-367	of	_	_	
+3-8	368-371	the	_	_	
+3-9	372-373	[	_	_	
+3-10	373-378	paper	_	_	
+3-11	378-379	]	_	_	
+3-12	379-380	(	_	_	
+3-13	380-385	https	_	_	
+3-14	385-386	:	_	_	
+3-15	386-387	/	_	_	
+3-16	387-388	/	_	_	
+3-17	388-397	arxiv.org	_	_	
+3-18	397-398	/	_	_	
+3-19	398-401	abs	_	_	
+3-20	401-402	/	_	_	
+3-21	402-412	2110.06283	_	_	
+3-22	412-413	)	_	_	
+3-23	413-414	:	_	_	
+3-24	415-424	Detecting	*[2]	PUBLICATION[2]	
+3-25	425-434	Corrupted	*[2]	PUBLICATION[2]	
+3-26	435-441	Labels	*[2]	PUBLICATION[2]	
+3-27	442-449	Without	*[2]	PUBLICATION[2]	
+3-28	450-458	Training	*[2]	PUBLICATION[2]	
+3-29	459-460	a	*[2]	PUBLICATION[2]	
+3-30	461-466	Model	*[2]	PUBLICATION[2]	
+3-31	467-469	to	*[2]	PUBLICATION[2]	
+3-32	470-477	Predict	*[2]	PUBLICATION[2]	
+3-33	481-482	#	_	_	
+3-34	482-483	#	_	_	
+3-35	484-497	Prerequisites	_	_	
+3-36	499-505	Python	*[3]	SOFTWARE[3]	
+3-37	506-511	3.6.9	*[3]	SOFTWARE[3]	
+3-38	513-520	PyTorch	*[4]	SOFTWARE[4]	
+3-39	521-526	1.7.1	*[4]	SOFTWARE[4]	
+3-40	528-539	Torchvision	*[5]	SOFTWARE[5]	
+3-41	540-545	0.8.2	*[5]	SOFTWARE[5]	
+3-42	547-551	Full	_	_	
+3-43	552-556	list	_	_	
+3-44	557-559	in	_	_	
+3-45	560-561	.	_	_	
+
+#Text=/requirements.txt
+#Text=
+#Text=Datasets will be downloaded to .
+4-1	561-562	/	_	_	
+4-2	562-578	requirements.txt	_	_	
+4-3	580-588	Datasets	_	_	
+4-4	589-593	will	_	_	
+4-5	594-596	be	_	_	
+4-6	597-607	downloaded	_	_	
+4-7	608-610	to	_	_	
+4-8	611-612	.	_	_	
+
+#Text=/data/.
+#Text=
+#Text=## Run HOC + Vote Based and Rank Based method
+#Text=
+#Text=On CIFAR-10 .
+#Text=
+#Text=```
+#Text=sh .
+5-1	612-613	/	_	_	
+5-2	613-617	data	_	_	
+5-3	617-618	/	_	_	
+5-4	618-619	.	_	_	
+5-5	621-622	#	_	_	
+5-6	622-623	#	_	_	
+5-7	624-627	Run	_	_	
+5-8	628-631	HOC	_	_	
+5-9	632-633	+	_	_	
+5-10	634-638	Vote	_	_	
+5-11	639-644	Based	_	_	
+5-12	645-648	and	_	_	
+5-13	649-653	Rank	_	_	
+5-14	654-659	Based	_	_	
+5-15	660-666	method	_	_	
+5-16	668-670	On	_	_	
+5-17	671-676	CIFAR	*[6]	DATASET[6]	
+5-18	676-677	-	*[6]	DATASET[6]	
+5-19	677-679	10	*[6]	DATASET[6]	
+5-20	680-681	.	_	_	
+5-21	683-684	`	_	_	
+5-22	684-685	`	_	_	
+5-23	685-686	`	_	_	
+5-24	687-689	sh	_	_	
+5-25	690-691	.	_	_	
+
+#Text=/test_c10_instance.sh  
+#Text=```
+#Text=
+#Text=On CIFAR-100
+#Text=
+#Text=```
+#Text=sh .
+6-1	691-692	/	_	_	
+6-2	692-700	test_c10	_	_	
+6-3	700-701	_	_	_	
+6-4	701-712	instance.sh	_	_	
+6-5	715-716	`	_	_	
+6-6	716-717	`	_	_	
+6-7	717-718	`	_	_	
+6-8	720-722	On	_	_	
+6-9	723-728	CIFAR	*[7]	DATASET[7]	
+6-10	728-729	-	*[7]	DATASET[7]	
+6-11	729-732	100	*[7]	DATASET[7]	
+6-12	734-735	`	_	_	
+6-13	735-736	`	_	_	
+6-14	736-737	`	_	_	
+6-15	738-740	sh	_	_	
+6-16	741-742	.	_	_	
+
+#Text=/test_c100_instance.sh  
+#Text=```
+7-1	742-743	/	_	_	
+7-2	743-752	test_c100	_	_	
+7-3	752-753	_	_	_	
+7-4	753-764	instance.sh	_	_	
+7-5	767-768	`	_	_	
+7-6	768-769	`	_	_	
+7-7	769-770	`	_	_	

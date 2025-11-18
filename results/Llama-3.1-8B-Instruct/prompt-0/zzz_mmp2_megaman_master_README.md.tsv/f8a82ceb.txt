@@ -1,0 +1,48 @@
+Please see the full install instructions below to build <SOFTWARE>megaman</SOFTWARE> from source.
+
+## Installation from source
+
+To install <SOFTWARE>megaman</SOFTWARE> from source requires the following:
+
+- <PROGLANG>Python</PROGLANG> tested with versions 2.7, 3.5 and 3.6 <http://python.org>
+- <DATASET>numpy</DATASET> version 1.8 or higher <http://numpy.org>
+- <DATASET>scipy</DATASET> version 0.16.0 or higher <http://scipy.org>
+- <DATASET>scikit-learn</DATASET> <http://scikit-learn.org>
+- <DATASET>FLANN</DATASET> <http://www.cs.ubc.ca/research/flann/>
+- <SOFTWARE>pyflann</SOFTWARE> which offers another method of computing distance matrices (this is bundled with the <DATASET>FLANN</DATASET> source code) <http://www.cs.ubc.ca/research/flann/>
+- <PROGLANG>Cython</PROGLANG> <http://cython.org/>
+- A C++ compiler such as ``gcc``/``g++``
+
+Optional requirements include
+
+- <DATASET>pyamg</DATASET>, which allows for faster decompositions of large matrices <http://pyamg.org/>
+- <SOFTWARE>nose</SOFTWARE> for running the unit tests <https://nose.readthedocs.org/>
+- <DATASET>h5py</DATASET> for reading testing.mat files <http://www.h5py.org>
+- <SOFTWARE>plotly</SOFTWARE> an graphing library for interactive plot <https://plot.ly>
+
+These requirements can be installed on Linux and MacOSX using the following conda command:
+
+```shell
+ $ conda create -n manifold_env python=3.5 -y # can also use python=2.7 or python=3.6
+ $ source activate manifold_env
+ $ conda install --channel=conda-forge -y pip nose coverage cython numpy scipy \
+                                          scikit-learn pyflann pyamg h5py plotly
+```
+
+Clone this repository and `cd` into source repository
+
+```shell
+ $ cd /tmp/
+ $ git clone https://github.com/mmp2/megaman.git
+ $ cd megaman
+```
+
+Finally, within the source repository, run this command to install the ``megaman`` package itself:
+
+```shell
+ $ python setup.py install
+```
+
+## Unit Tests
+
+<megaman> uses ``<SOFTWARE>nose</SOFTWARE>`` for unit tests.

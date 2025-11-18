@@ -1,0 +1,1 @@
+&lt;a name="hscores"&gt;&lt;/a&gt; ## H-Scores The following results were obtained on the built-in Q matrices.

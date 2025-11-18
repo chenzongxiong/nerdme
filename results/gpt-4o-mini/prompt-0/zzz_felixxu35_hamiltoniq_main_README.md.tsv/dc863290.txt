@@ -1,0 +1,1 @@
+Subsequently, the process engages in <PROJECT>quantum circuit compilation</PROJECT>, employing a specific strategy designed to optimize the execution of <ONTOLOGY>quantum circuits</ONTOLOGY> on the identified <ONTOLOGY>QPUs</ONTOLOGY>.

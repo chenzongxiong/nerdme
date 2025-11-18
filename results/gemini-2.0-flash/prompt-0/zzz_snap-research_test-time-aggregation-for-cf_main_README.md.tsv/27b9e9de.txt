@@ -1,0 +1,1 @@
+Reference If you find this repo and our work useful to you, please kindly cite us using:  ``` @article{ju2024does,   title={How Does Message Passing Improve Collaborative Filtering?}

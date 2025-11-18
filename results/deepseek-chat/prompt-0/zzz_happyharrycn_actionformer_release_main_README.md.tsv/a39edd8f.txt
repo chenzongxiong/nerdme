@@ -1,0 +1,3 @@
+```markdown
+Our paper is accepted to <CONFERENCE>ECCV 2022</CONFERENCE> and an arXiv version can be found at [this link](https://arxiv.org/abs/2202.07925).
+```

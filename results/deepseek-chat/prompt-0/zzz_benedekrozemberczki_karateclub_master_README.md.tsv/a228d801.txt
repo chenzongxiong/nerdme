@@ -1,0 +1,3 @@
+```markdown
+[Version](https://badge.fury.io/py/<SOFTWARE>karateclub</SOFTWARE>.svg?
+```

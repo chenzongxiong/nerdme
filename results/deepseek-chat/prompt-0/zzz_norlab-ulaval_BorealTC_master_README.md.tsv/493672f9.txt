@@ -1,0 +1,1 @@
+During optimization, each data type branch can have separate parameters.  ### <PROGLANG>CNN</PROGLANG>  The <PROGLANG>CNN</PROGLANG> model used the same hyperparameters for both <DATASET>datasets</DATASET> and their combination.

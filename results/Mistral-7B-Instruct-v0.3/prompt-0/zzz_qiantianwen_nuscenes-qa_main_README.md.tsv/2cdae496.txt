@@ -1,0 +1,2 @@
+`[DataConstruction](docs/data_construction.png)  ## :fire: News  - `<DATE>2024.11.01</DATE>`  CenterPoint feature released
+`<SOFTWARE>CenterPoint</SOFTWARE>` feature was released.

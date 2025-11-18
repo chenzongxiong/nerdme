@@ -1,0 +1,1 @@
+The resultant tree will lead to a recursive partitioning of the `<DATASET>X</DATASET>` 𝑋  through a cascade of tests and define the output of each leaf in terms of examples falling within it.

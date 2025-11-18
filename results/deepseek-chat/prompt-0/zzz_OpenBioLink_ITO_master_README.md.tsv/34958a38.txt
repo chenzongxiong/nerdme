@@ -1,0 +1,3 @@
+```markdown
+[Property hierarchy screen capture](media/screencapture-property-hierarchy-in-webprotege.gif)   ### Using <ONTOLOGY>ITO</ONTOLOGY>  <ONTOLOGY>ITO</ONTOLOGY> is made available as an OWL (Web Ontology Language) file.
+```

@@ -1,0 +1,21 @@
+Clone the repository: `<REPO>git clone https://github.com/NokiaBellLabsResearch/<PROJECT>Application-Platforms-and-Software-Systems-Lab-Project</PROJECT>.git</REPO>`
+
+Navigate to the project directory: `cd <PROJECT>Application-Platforms-and-Software-Systems-Lab-Project</PROJECT>`
+
+Install the dependencies:
+
+```bash
+<PROGLANG>bash</PROGLANG> <SOFTWARE>./install.sh</SOFTWARE>
+```
+
+Run the project:
+
+```bash
+<PROGLANG>bash</PROGLANG> <SOFTWARE>./run.sh</SOFTWARE>
+```
+
+The project is developed by a research team in the `<PROJECT>Application Platforms and Software Systems Lab</PROJECT>` of `<ORGANIZATION>Nokia Bell Labs</ORGANIZATION>`.
+
+**Installation**
+
+1. Clone the repository: `<REPO>git clone https://github.com

@@ -1,0 +1,1 @@
+On the other hand, the personal accuracy will remain the same since it is assumed you don't add differentially private noise to your personal model since you are not sharing it.

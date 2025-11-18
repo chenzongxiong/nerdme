@@ -1,0 +1,1 @@
+This repo uses the version [20170512-110547](https://github.com/davidsandberg/<SOFTWARE>facenet</SOFTWARE>/blob/529c3b0b5fc8da4e0f48d2818906120f2e5687e6/README.md) trained on <DATASET>MS-Celeb-1M</DATASET>.

@@ -1,0 +1,8 @@
+## Run Code
+```markdown
+To run the code:  `python <SOFTWARE>main.py</SOFTWARE> --data_path /path/to/<DATASET>data</DATASET>/ --lr_policy <EVALMETRIC>plateau</EVALMETRIC>`
+Flags: 
+- Set flag "input_type" to rgb or depth.
+- Set flag "pretrained" to true or false to use a model pretrained on <DATASET>Cityscapes</DATASET> for the global branch.
+- See `python <SOFTWARE>main.py</SOFTWARE> --help` for more information.
+```

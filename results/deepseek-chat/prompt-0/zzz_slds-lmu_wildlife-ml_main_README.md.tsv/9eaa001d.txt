@@ -1,0 +1,3 @@
+```markdown
+Required parameters for the evaluator are:  - `label_file_path`: Path pointing to the labels - `detector_file_path`: Path to the MD file - `<DATASET>WildlifeDataset</DATASET>` to evaluate - `num_classes`: Number of classes in the dataset.
+```

@@ -1,0 +1,3 @@
+`With **ModelSketchBook**, you can **create <PROJECT>concepts</PROJECT>** using zero-shot methods,
+<p align="center">
+<img src=".<PROJECT>ModelSketchBook</PROJECT>.png" alt="Summary of the model sketching process from concepts to sketch models to evaluating and iterating" width="100%">`

@@ -1,0 +1,11 @@
+Here is the annotated text with entities directly annotated using XML-style tags for their respective classes:
+
+A comparison between NDTs according to whether it implements a class hierarchy and whether it is data-driven: <p align='center'>
+     </br>
+     <img src='NDT_hierarchy.png' width='1000'>
+</p>
+
+- ***Informativeness-related splitting functions with NN-based routers***
+   - **"<CONFERENCE>Neural trees-using neural nets in a tree classifier structure</CONFERENCE>", <CONFERENCE>ICASSP</CONFERENCE>, 1991**
+     - J-E Stromberg, Jalel Zrida, Alf Isaksson *(train a small NN at each internal node, which singles out one unique class that gains the most class purity)*
+     - [[<PUBLICATION>Paper</PUBLICATION>]](https://www.computer.org/csdl/proceedings-article/icassp/1991/0003137/12OmN

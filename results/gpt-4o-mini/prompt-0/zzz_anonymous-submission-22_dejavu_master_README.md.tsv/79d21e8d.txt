@@ -1,0 +1,1 @@
+The requirements are also listed in `<SOFTWARE>requirements.txt</SOFTWARE>` and `<SOFTWARE>requirements-dev.txt</SOFTWARE>`.

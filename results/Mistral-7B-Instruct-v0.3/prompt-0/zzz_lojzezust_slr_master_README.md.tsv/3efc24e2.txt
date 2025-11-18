@@ -1,0 +1,8 @@
+```bash
+export <PROGLANG>Python</PROGLANG> tools/<PROJECT>general_inference</PROJECT>.py \
+--<ONTOLOGY>architecture</ONTOLOGY> <PROGLANG>wasr_resnet101</PROGLANG> \
+--<EVALMETRIC>weights-file</EVALMETRIC> output/logs/<CONFERENCE>wasr_slr_v2_it1</CONFERENCE>/<VERSION>version_0</VERSION>/checkpoints/last.ckpt \
+--<DATASET>image-dir</DATASET> data/example_dir \
+--<DATASET>output-dir</DATASET> output/predictions/test_predictions/ \
+--<OPTIONAL>--imu-dir</OPTIONAL> can be used to supply a directory with corresponding IMU horizon masks.
+```

@@ -1,0 +1,1 @@
+Then use `<SOFTWARE>wiktionary_eval.sh</SOFTWARE>` to run wiktionary evaluation steps for clustering and assigning.

@@ -1,0 +1,1 @@
+The `<PROJECT>Code Repository</PROJECT>` contains scripts that can be used for research purposes only. `<LICENSE>CC BY-NC 4.0</LICENSE>` applies to the scripts in this repository.

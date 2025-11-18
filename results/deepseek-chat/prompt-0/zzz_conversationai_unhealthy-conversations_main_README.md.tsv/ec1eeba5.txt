@@ -1,0 +1,3 @@
+```markdown
+| Attribute}  | Human AUC | BERT AUC | |------------ |-----------|----------| |Antagonistic |0.71       |  0.82    |  |Condescending| 0.72      |    0.78  | |Dismissive   | 0.68      | 0.82     | |Generalisation | 0.73    | 0.74     | |Hostile       |0.76      |0.84      | |Sarcastic     |0.72      |0.64      | |Unhealthy     | 0.62     | 0.69   |   Code for  this analysis is in `<SOFTWARE>AUC_analysis.ipynb</SOFTWARE>`.  _____   This work is licensed under a `<LICENSE>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</LICENSE>`. https://creativecommons.org/licenses/by-nc-sa/4.0/
+```

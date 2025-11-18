@@ -1,0 +1,3 @@
+```markdown
+<SOFTWARE>ResNet-50</SOFTWARE> is used as backbone network to achieve over 50 fps (on <SOFTWARE>GTX 1080</SOFTWARE>) for reconstructions.   ## Getting Started ### Testing Requirements ###  - Reconstructions can be done on both <PROGLANG>Windows</PROGLANG> and <PROGLANG>Linux</PROGLANG>.
+```

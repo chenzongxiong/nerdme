@@ -1,0 +1,1 @@
+`Run <SOFTWARE>direnv allow</SOFTWARE> in the shell of the <SOFTWARE>Docker container</SOFTWARE> to set the environment variables. 7.`

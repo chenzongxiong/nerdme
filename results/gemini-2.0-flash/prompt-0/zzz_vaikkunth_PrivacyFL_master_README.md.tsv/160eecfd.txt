@@ -1,0 +1,1 @@
+<br/><br/> To commence the simulation, the initializer's `run_simulation` method is invoked, which then invokes the server agent's `request_values` method. ### Directory The **Directory** class contains a mapping of agent names to agent instances that allows agents to invoke other agents' methods by only having their name.

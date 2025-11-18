@@ -1,0 +1,1 @@
+We provide altered version of <SOFTWARE>MAttNet</SOFTWARE> (<https://github.com/ChopinSharp/MAttNet>) and <SOFTWARE>CM-A-E</SOFTWARE> (<https://github.com/ChopinSharp/CM-Erase-REG>) for downstream <EVALMETRIC>REG</EVALMETRIC> task evaluation.

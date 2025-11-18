@@ -1,0 +1,1 @@
+The project also implements some `<SOFTWARE>BM25</SOFTWARE>`, `<SOFTWARE>NCS</SOFTWARE>`, and `<SOFTWARE>UNIF</SOFTWARE>` retrieval models for snippet collections that do not come with descriptions.

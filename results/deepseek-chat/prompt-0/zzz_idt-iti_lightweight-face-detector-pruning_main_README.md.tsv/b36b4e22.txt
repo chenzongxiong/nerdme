@@ -1,0 +1,3 @@
+```markdown
+<CONFERENCE>IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW 2024)</CONFERENCE>, Waikoloa, Hawaii, USA, Jan. 2024.
+```

@@ -1,0 +1,1 @@
+The `<ONTOLOGY>FI</ONTOLOGY>` provides a lower bound on `<EVALMETRIC>parameter estimation uncertainties</EVALMETRIC>` and these are shown to decrease with the square root of `<EVALMETRIC>measurement time</EVALMETRIC>`, providing useful information for the planning and scheduling of `<PROJECT>experimental work</PROJECT>`.

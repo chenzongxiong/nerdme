@@ -1,0 +1,1 @@
+The split `<DATASET>datasets</DATASET>` can be found [here](http://data.dws.informatik.uni-mannheim.de/CaLiGraph/CaLiGraph-for-SemREC/SemREC-2022-Datasets/).

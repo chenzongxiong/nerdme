@@ -1,0 +1,3 @@
+```markdown
+/figures/fig_dataset_statistics.jpg"/> <br />     <em>      Figure 4: Statistics of the proposed <DATASET>PAVS10K</DATASET>.
+```

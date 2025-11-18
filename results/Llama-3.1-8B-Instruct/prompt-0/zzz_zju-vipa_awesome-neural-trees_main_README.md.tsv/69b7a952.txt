@@ -1,0 +1,1 @@
+It can date back to the early <SOFTWARE>1990s</SOFTWARE> when DTs were supposed to provide structural priors for NNs or extract rules from a trained NN.

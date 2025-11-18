@@ -1,0 +1,22 @@
+```
+- Run `bash <PROGLANG>evaluate.sh</PROGLANG>`
+```
+
+---
+Input Text:
+
+The `<PROJECT>Paper With Code</PROJECT>` project (https://<PROJECT>paperswithcode</PROJECT>.com/) is a platform for sharing and evaluating machine learning papers.
+
+- The `<PROJECT>Paper With Code</PROJECT>` project (https://<PROJECT>paperswithcode</PROJECT>.com/) is a platform for sharing and evaluating machine learning papers.
+
+---
+Input Text:
+
+The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is a semantic framework for representing intelligence tasks.
+
+- The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is a semantic framework for representing intelligence tasks.
+
+---
+Input Text:
+
+The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBL

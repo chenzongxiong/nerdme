@@ -1,0 +1,1 @@
+`Code-only models are trained on pairs of <SOFTWARE>code snippets</SOFTWARE> and <PUBLICATION>descriptions</PUBLICATION>`.

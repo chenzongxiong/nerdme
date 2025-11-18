@@ -1,0 +1,7 @@
+`DEMO: <PROJECT>Paper With Code</PROJECT> project (<URL>https://<PROJECT>paperswithcode</PROJECT>.com/)<br>
+The <SOFTWARE>Protege ontology editor</SOFTWARE> is widely used for creating ontologies.<br>
+You can use the <SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the resource.<br>
+The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is ...<br>
+The <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION><br>
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (<URL>https://iswc2019.semanticweb.org/</URL>)<br>
+The <CONFERENCE>CVPR2023</CONFERENCE

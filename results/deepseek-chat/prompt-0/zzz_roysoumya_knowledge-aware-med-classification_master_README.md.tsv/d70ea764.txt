@@ -1,0 +1,1 @@
+The `<SOFTWARE>LCF-BERT</SOFTWARE>` and `<SOFTWARE>LCF-associated codes</SOFTWARE>` is based on `<SOFTWARE>ABSA-Pytorch</SOFTWARE>` [Github codebase](https://github.com/<SOFTWARE>songyouwei</SOFTWARE>/<SOFTWARE>ABSA-PyTorch</SOFTWARE>/blob/master/models/<SOFTWARE>lcf_bert</SOFTWARE>.py)  !

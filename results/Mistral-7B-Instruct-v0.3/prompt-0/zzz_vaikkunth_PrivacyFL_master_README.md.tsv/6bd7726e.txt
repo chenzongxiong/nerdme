@@ -1,0 +1,1 @@
+`In addition, any offline stage logic, such as a <PROGLANG>Diffie-Hellman</PROGLANG> key exchange, should occur in this <CLASS>class</CLASS>.`

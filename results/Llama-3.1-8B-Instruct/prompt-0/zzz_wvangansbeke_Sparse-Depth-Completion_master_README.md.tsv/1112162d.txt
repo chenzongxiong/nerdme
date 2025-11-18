@@ -1,0 +1,1 @@
+The RMSE is around <EVALMETRIC>802 mm</EVALMETRIC> on the selected <DATASET>validation set</DATASET> for this model as reported in the <PUBLICATION>paper</PUBLICATION>.

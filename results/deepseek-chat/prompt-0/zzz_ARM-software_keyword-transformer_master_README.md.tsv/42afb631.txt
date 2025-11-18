@@ -1,0 +1,3 @@
+```markdown
+To train <SOFTWARE>KWT-3</SOFTWARE> with hard distillation from a pre-trained model, run  ```shell sh distill.sh ```  ## Run inference using a pre-trained model  Pre-trained weights for <SOFTWARE>KWT-3</SOFTWARE>, <SOFTWARE>KWT-2</SOFTWARE> and <SOFTWARE>KWT-1</SOFTWARE> are provided in .
+```

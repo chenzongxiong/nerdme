@@ -1,0 +1,1 @@
+The framework achieves its goal by applying a no-code approach, making it accessible to both `<PROJECT>non-technical data producers</PROJECT>` and those with a `<PROGLANG>technical background</PROGLANG>`.

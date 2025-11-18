@@ -1,0 +1,3 @@
+```python
+Otherwise, you can provide empty strings.  ``` sb = <SOFTWARE>msb</SOFTWARE>.create_model_sketchbook(     goal='Example sketchbook goal here',     schema={         # Specify your data schema here         "picture_url": <SOFTWARE>msb</SOFTWARE>.InputType.Image,         "neighborhood_overview": <SOFTWARE>msb</SOFTWARE>.InputType.Text,         "description": <SOFTWARE>msb</SOFTWARE>.InputType.Text,         "overall_rating": <SOFTWARE>msb</SOFTWARE>.InputType.GroundTruth,  # Required     },     credentials={         "organization": "org-INSERT",         "api_key": "sk-INSERT"     } ) ```  ### Add your <DATASET>dataset(s)</DATASET> Then, add your <DATASET>dataset</DATASET> from a <SOFTWARE>Pandas</SOFTWARE> dataframe (recommended: 40-50 rows).
+```

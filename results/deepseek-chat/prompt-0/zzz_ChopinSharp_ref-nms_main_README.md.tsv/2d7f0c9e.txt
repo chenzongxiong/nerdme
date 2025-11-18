@@ -1,0 +1,3 @@
+```markdown
+**Evaluate `<EVALMETRIC>recall</EVALMETRIC>` on critical objects:** ``` PYTHONPATH=$PWD python tools/eval_proposal_ctx_recall.py --m <loss_type> --dataset `<DATASET>refcoco</DATASET>` --split-by unc --tid <tid> --conf <conf> ```  ## Evaluate REG Performance Save MAttNet-style detection file: ``` PYTHONPATH=$PWD python tools/save_matt_dets.py --dataset `<DATASET>refcoco</DATASET>` --split-by unc --m <loss_type> --tid <tid> --conf <conf> ``` This script will save all the detection information needed for downstream REG evaluation to `output/matt_dets_<loss_type>_<tid>_<dataset>_<split_by>_<top_N>.json`.
+```

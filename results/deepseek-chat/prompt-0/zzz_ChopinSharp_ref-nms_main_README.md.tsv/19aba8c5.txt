@@ -1,0 +1,3 @@
+```markdown
+usp=sharing) [[Baidu Disk]](https://pan.baidu.com/s/1G4k7APKSUs-_5StXoYaNrA) (extraction code: 5a9r)  ## Citation ``` @inproceedings{chen2021ref,   title={<PUBLICATION>Ref-NMS: Breaking Proposal Bottlenecks in Two-Stage Referring Expression Grounding</PUBLICATION>},   author={Chen, Long and Ma, Wenbo and Xiao, Jun and Zhang, Hanwang and Chang, Shih-Fu},   booktitle={<CONFERENCE>AAAI</CONFERENCE>},   year={2021} } ```
+```

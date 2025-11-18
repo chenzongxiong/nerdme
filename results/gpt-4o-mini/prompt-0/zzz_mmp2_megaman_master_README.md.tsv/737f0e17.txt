@@ -1,0 +1,3 @@
+```markdown
+[version status](http://img.shields.io/pypi/v/<SOFTWARE>megaman</SOFTWARE>.svg?)
+```

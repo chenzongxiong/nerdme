@@ -1,0 +1,7 @@
+`# VN-EGNN: E(3)-Equivariant Graph Neural Networks with Virtual Nodes Enhance Protein Binding Site Identification  [!`
+`<PUBLICATION>VN-EGNN: E(3)-Equivariant Graph Neural Networks with Virtual Nodes Enhance Protein Binding Site Identification</PUBLICATION>` `[!`
+`]`
+`The <PROJECT>VN-EGNN</PROJECT> project proposes a novel approach to protein binding site identification using E(3)-equivariant graph neural networks with virtual nodes.`
+`The <PROJECT>VN-EGNN</PROJECT> project is based on the <PROGLANG>PyTorch</PROGLANG> framework.`
+`The <PROJECT>VN-EGNN</PROJECT> project was presented at the <CONFERENCE>AAAI 2023</CONFERENCE> conference.`
+`The <PROJECT>VN-EGNN</PROJECT> project's code and data are available at <URL>https://github.com

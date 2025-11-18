@@ -1,0 +1,1 @@
+usp=sharing) - [You can download the <SOFTWARE>Jupyter Notebook</SOFTWARE> version here]( https://github.com/mmp2/megaman/blob/master/examples/megaman_install_usage_colab.ipynb) ## ~~Installation with Conda~~ <!

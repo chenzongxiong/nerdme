@@ -1,0 +1,11 @@
+We revisit this controversial topic from the perspective of `<ONTOLOGY>Meaningful Learning</ONTOLOGY>`, an exceptional capability of humans to learn novel concepts by connecting them with known ones.
+
+The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`
+
+The `<PROJECT>Paper With Code</PROJECT>` project (https://<PROJECT>paperswithcode</PROJECT>.com/)
+
+The `<SOFTWARE>Protege ontology editor</SOFTWARE>` is widely used for creating ontologies.
+
+The `<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>` (ISWC 2019) is a significant event in the field of semantic web research.
+
+The `<WORKSHOP>Thermal Image Super-Resolution</WORKSHOP>` (https

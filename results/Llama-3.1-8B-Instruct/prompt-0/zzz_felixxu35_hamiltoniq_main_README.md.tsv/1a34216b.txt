@@ -1,0 +1,1 @@
+/figures/<SOFTWARE>HamilToniQ</SOFTWARE>_logo.png) <SOFTWARE>HamilToniQ</SOFTWARE>: An Open-Source <SOFTWARE>Benchmark</SOFTWARE> Toolkit for <SOFTWARE>Quantum Computers</SOFTWARE> Table of Contents:  1.

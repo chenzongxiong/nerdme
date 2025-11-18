@@ -1,0 +1,2747 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=<p align="center">
+#Text=  <picture>
+#Text=    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HPAI-BSC/prompt_engine/main/images/prompt_engine_logo.png">
+#Text=    <img alt="prompt_engine" src="https://raw.githubusercontent.com/HPAI-BSC/prompt_engine/main/images/prompt_engine_logo.png" width=55%>
+#Text=  </picture>
+#Text=</p>
+#Text=<h2 align="center">
+#Text=prompt_engine: Evaluate your model using advanced prompt strategies
+#Text=</h2>
+#Text=
+#Text=<p align="center">
+#Text=| <a href="https://arxiv.org/abs/2409.15127"><b>Paper</b></a> | <a href="https://huggingface.co/collections/HPAI-BSC/healthcare-llms-aloe-family-6701b6a777f7e874a2123363"><b>Aloe Family Models</b></a> | <a href="https://hpai.bsc.es/"><b>HPAI Website</b></a> |
+#Text=</p>
+#Text=
+#Text=*Latest News* 🔥
+#Text=- [2024/09] [**Aloe-Beta**](https://huggingface.co/collections/HPAI-BSC/healthcare-llms-aloe-family-6701b6a777f7e874a2123363) is out!
+1-1	0-1	<	_	_	
+1-2	1-2	p	_	_	
+1-3	3-8	align	_	_	
+1-4	8-9	=	_	_	
+1-5	9-10	"	_	_	
+1-6	10-16	center	_	_	
+1-7	16-17	"	_	_	
+1-8	17-18	>	_	_	
+1-9	21-22	<	_	_	
+1-10	22-29	picture	_	_	
+1-11	29-30	>	_	_	
+1-12	35-36	<	_	_	
+1-13	36-42	source	_	_	
+1-14	43-48	media	_	_	
+1-15	48-49	=	_	_	
+1-16	49-50	"	_	_	
+1-17	50-51	(	_	_	
+1-18	51-71	prefers-color-scheme	_	_	
+1-19	71-72	:	_	_	
+1-20	73-77	dark	_	_	
+1-21	77-78	)	_	_	
+1-22	78-79	"	_	_	
+1-23	80-86	srcset	_	_	
+1-24	86-87	=	_	_	
+1-25	87-88	"	_	_	
+1-26	88-93	https	_	_	
+1-27	93-94	:	_	_	
+1-28	94-95	/	_	_	
+1-29	95-96	/	_	_	
+1-30	96-121	raw.githubusercontent.com	_	_	
+1-31	121-122	/	_	_	
+1-32	122-130	HPAI-BSC	_	_	
+1-33	130-131	/	_	_	
+1-34	131-144	prompt_engine	_	_	
+1-35	144-145	/	_	_	
+1-36	145-149	main	_	_	
+1-37	149-150	/	_	_	
+1-38	150-156	images	_	_	
+1-39	156-157	/	_	_	
+1-40	157-179	prompt_engine_logo.png	_	_	
+1-41	179-180	"	_	_	
+1-42	180-181	>	_	_	
+1-43	186-187	<	_	_	
+1-44	187-190	img	_	_	
+1-45	191-194	alt	_	_	
+1-46	194-195	=	_	_	
+1-47	195-196	"	_	_	
+1-48	196-209	prompt_engine	_	_	
+1-49	209-210	"	_	_	
+1-50	211-214	src	_	_	
+1-51	214-215	=	_	_	
+1-52	215-216	"	_	_	
+1-53	216-221	https	_	_	
+1-54	221-222	:	_	_	
+1-55	222-223	/	_	_	
+1-56	223-224	/	_	_	
+1-57	224-249	raw.githubusercontent.com	_	_	
+1-58	249-250	/	_	_	
+1-59	250-258	HPAI-BSC	_	_	
+1-60	258-259	/	_	_	
+1-61	259-272	prompt_engine	_	_	
+1-62	272-273	/	_	_	
+1-63	273-277	main	_	_	
+1-64	277-278	/	_	_	
+1-65	278-284	images	_	_	
+1-66	284-285	/	_	_	
+1-67	285-307	prompt_engine_logo.png	_	_	
+1-68	307-308	"	_	_	
+1-69	309-314	width	_	_	
+1-70	314-315	=	_	_	
+1-71	315-318	55%	_	_	
+1-72	318-319	>	_	_	
+1-73	322-323	<	_	_	
+1-74	323-324	/	_	_	
+1-75	324-331	picture	_	_	
+1-76	331-332	>	_	_	
+1-77	333-334	<	_	_	
+1-78	334-335	/	_	_	
+1-79	335-336	p	_	_	
+1-80	336-337	>	_	_	
+1-81	338-339	<	_	_	
+1-82	339-341	h2	_	_	
+1-83	342-347	align	_	_	
+1-84	347-348	=	_	_	
+1-85	348-349	"	_	_	
+1-86	349-355	center	_	_	
+1-87	355-356	"	_	_	
+1-88	356-357	>	_	_	
+1-89	358-371	prompt_engine	_	_	
+1-90	371-372	:	_	_	
+1-91	373-381	Evaluate	_	_	
+1-92	382-386	your	_	_	
+1-93	387-392	model	_	_	
+1-94	393-398	using	_	_	
+1-95	399-407	advanced	_	_	
+1-96	408-414	prompt	_	_	
+1-97	415-425	strategies	_	_	
+1-98	426-427	<	_	_	
+1-99	427-428	/	_	_	
+1-100	428-430	h2	_	_	
+1-101	430-431	>	_	_	
+1-102	433-434	<	_	_	
+1-103	434-435	p	_	_	
+1-104	436-441	align	_	_	
+1-105	441-442	=	_	_	
+1-106	442-443	"	_	_	
+1-107	443-449	center	_	_	
+1-108	449-450	"	_	_	
+1-109	450-451	>	_	_	
+1-110	452-453	|	_	_	
+1-111	454-455	<	_	_	
+1-112	455-456	a	_	_	
+1-113	457-461	href	_	_	
+1-114	461-462	=	_	_	
+1-115	462-463	"	_	_	
+1-116	463-468	https	_	_	
+1-117	468-469	:	_	_	
+1-118	469-470	/	_	_	
+1-119	470-471	/	_	_	
+1-120	471-480	arxiv.org	_	_	
+1-121	480-481	/	_	_	
+1-122	481-484	abs	_	_	
+1-123	484-485	/	_	_	
+1-124	485-495	2409.15127	_	_	
+1-125	495-496	"	_	_	
+1-126	496-497	>	_	_	
+1-127	497-498	<	_	_	
+1-128	498-499	b	_	_	
+1-129	499-500	>	_	_	
+1-130	500-505	Paper	_	_	
+1-131	505-506	<	_	_	
+1-132	506-507	/	_	_	
+1-133	507-508	b	_	_	
+1-134	508-509	>	_	_	
+1-135	509-510	<	_	_	
+1-136	510-511	/	_	_	
+1-137	511-512	a	_	_	
+1-138	512-513	>	_	_	
+1-139	514-515	|	_	_	
+1-140	516-517	<	_	_	
+1-141	517-518	a	_	_	
+1-142	519-523	href	_	_	
+1-143	523-524	=	_	_	
+1-144	524-525	"	_	_	
+1-145	525-530	https	_	_	
+1-146	530-531	:	_	_	
+1-147	531-532	/	_	_	
+1-148	532-533	/	_	_	
+1-149	533-547	huggingface.co	_	_	
+1-150	547-548	/	_	_	
+1-151	548-559	collections	_	_	
+1-152	559-560	/	_	_	
+1-153	560-568	HPAI-BSC	_	_	
+1-154	568-569	/	_	_	
+1-155	569-596	healthcare-llms-aloe-family	_	_	
+1-156	596-597	-	_	_	
+1-157	597-621	6701b6a777f7e874a2123363	_	_	
+1-158	621-622	"	_	_	
+1-159	622-623	>	_	_	
+1-160	623-624	<	_	_	
+1-161	624-625	b	_	_	
+1-162	625-626	>	_	_	
+1-163	626-630	Aloe	_	_	
+1-164	631-637	Family	_	_	
+1-165	638-644	Models	_	_	
+1-166	644-645	<	_	_	
+1-167	645-646	/	_	_	
+1-168	646-647	b	_	_	
+1-169	647-648	>	_	_	
+1-170	648-649	<	_	_	
+1-171	649-650	/	_	_	
+1-172	650-651	a	_	_	
+1-173	651-652	>	_	_	
+1-174	653-654	|	_	_	
+1-175	655-656	<	_	_	
+1-176	656-657	a	_	_	
+1-177	658-662	href	_	_	
+1-178	662-663	=	_	_	
+1-179	663-664	"	_	_	
+1-180	664-669	https	_	_	
+1-181	669-670	:	_	_	
+1-182	670-671	/	_	_	
+1-183	671-672	/	_	_	
+1-184	672-683	hpai.bsc.es	_	_	
+1-185	683-684	/	_	_	
+1-186	684-685	"	_	_	
+1-187	685-686	>	_	_	
+1-188	686-687	<	_	_	
+1-189	687-688	b	_	_	
+1-190	688-689	>	_	_	
+1-191	689-693	HPAI	_	_	
+1-192	694-701	Website	_	_	
+1-193	701-702	<	_	_	
+1-194	702-703	/	_	_	
+1-195	703-704	b	_	_	
+1-196	704-705	>	_	_	
+1-197	705-706	<	_	_	
+1-198	706-707	/	_	_	
+1-199	707-708	a	_	_	
+1-200	708-709	>	_	_	
+1-201	710-711	|	_	_	
+1-202	712-713	<	_	_	
+1-203	713-714	/	_	_	
+1-204	714-715	p	_	_	
+1-205	715-716	>	_	_	
+1-206	718-719	*	_	_	
+1-207	719-725	Latest	_	_	
+1-208	726-730	News	_	_	
+1-209	730-731	*	_	_	
+1-210	732-734	🔥	_	_	
+1-211	735-736	-	_	_	
+1-212	737-738	[	_	_	
+1-213	738-742	2024	_	_	
+1-214	742-743	/	_	_	
+1-215	743-745	09	_	_	
+1-216	745-746	]	_	_	
+1-217	747-748	[	_	_	
+1-218	748-749	*	_	_	
+1-219	749-750	*	_	_	
+1-220	750-759	Aloe-Beta	*	SOFTWARE	
+1-221	759-760	*	_	_	
+1-222	760-761	*	_	_	
+1-223	761-762	]	_	_	
+1-224	762-763	(	_	_	
+1-225	763-768	https	_	_	
+1-226	768-769	:	_	_	
+1-227	769-770	/	_	_	
+1-228	770-771	/	_	_	
+1-229	771-785	huggingface.co	_	_	
+1-230	785-786	/	_	_	
+1-231	786-797	collections	_	_	
+1-232	797-798	/	_	_	
+1-233	798-806	HPAI-BSC	_	_	
+1-234	806-807	/	_	_	
+1-235	807-834	healthcare-llms-aloe-family	_	_	
+1-236	834-835	-	_	_	
+1-237	835-859	6701b6a777f7e874a2123363	_	_	
+1-238	859-860	)	_	_	
+1-239	861-863	is	_	_	
+1-240	864-867	out	_	_	
+1-241	867-868	!	_	_	
+
+#Text=New medical SOTA models available in Hugginface!
+2-1	869-872	New	_	_	
+2-2	873-880	medical	_	_	
+2-3	881-885	SOTA	_	_	
+2-4	886-892	models	_	_	
+2-5	893-902	available	_	_	
+2-6	903-905	in	_	_	
+2-7	906-916	Hugginface	_	_	
+2-8	916-917	!	_	_	
+
+#Text=- [2024/09] [**Boosting Healthcare LLMs Through Retrieved Context**](https://arxiv.org/abs/2409.15127) is now available in Arxiv!
+3-1	918-919	-	_	_	
+3-2	920-921	[	_	_	
+3-3	921-925	2024	_	_	
+3-4	925-926	/	_	_	
+3-5	926-928	09	_	_	
+3-6	928-929	]	_	_	
+3-7	930-931	[	_	_	
+3-8	931-932	*	_	_	
+3-9	932-933	*	_	_	
+3-10	933-941	Boosting	*[1]	PUBLICATION[1]	
+3-11	942-952	Healthcare	*[1]	PUBLICATION[1]	
+3-12	953-957	LLMs	*[1]	PUBLICATION[1]	
+3-13	958-965	Through	*[1]	PUBLICATION[1]	
+3-14	966-975	Retrieved	*[1]	PUBLICATION[1]	
+3-15	976-983	Context	*[1]	PUBLICATION[1]	
+3-16	983-984	*	_	_	
+3-17	984-985	*	_	_	
+3-18	985-986	]	_	_	
+3-19	986-987	(	_	_	
+3-20	987-992	https	_	_	
+3-21	992-993	:	_	_	
+3-22	993-994	/	_	_	
+3-23	994-995	/	_	_	
+3-24	995-1004	arxiv.org	_	_	
+3-25	1004-1005	/	_	_	
+3-26	1005-1008	abs	_	_	
+3-27	1008-1009	/	_	_	
+3-28	1009-1019	2409.15127	_	_	
+3-29	1019-1020	)	_	_	
+3-30	1021-1023	is	_	_	
+3-31	1024-1027	now	_	_	
+3-32	1028-1037	available	_	_	
+3-33	1038-1040	in	_	_	
+3-34	1041-1046	Arxiv	_	_	
+3-35	1046-1047	!	_	_	
+
+#Text=- [2024/05] [**Aloe: A Family of Fine-tuned Open Healthcare LLMs**](https://arxiv.org/abs/2405.01886) is now available in Arxiv!
+4-1	1048-1049	-	_	_	
+4-2	1050-1051	[	_	_	
+4-3	1051-1055	2024	_	_	
+4-4	1055-1056	/	_	_	
+4-5	1056-1058	05	_	_	
+4-6	1058-1059	]	_	_	
+4-7	1060-1061	[	_	_	
+4-8	1061-1062	*	_	_	
+4-9	1062-1063	*	_	_	
+4-10	1063-1067	Aloe	*[2]	PUBLICATION[2]	
+4-11	1067-1068	:	*[2]	PUBLICATION[2]	
+4-12	1069-1070	A	*[2]	PUBLICATION[2]	
+4-13	1071-1077	Family	*[2]	PUBLICATION[2]	
+4-14	1078-1080	of	*[2]	PUBLICATION[2]	
+4-15	1081-1091	Fine-tuned	*[2]	PUBLICATION[2]	
+4-16	1092-1096	Open	*[2]	PUBLICATION[2]	
+4-17	1097-1107	Healthcare	*[2]	PUBLICATION[2]	
+4-18	1108-1112	LLMs	*[2]	PUBLICATION[2]	
+4-19	1112-1113	*	_	_	
+4-20	1113-1114	*	_	_	
+4-21	1114-1115	]	_	_	
+4-22	1115-1116	(	_	_	
+4-23	1116-1121	https	_	_	
+4-24	1121-1122	:	_	_	
+4-25	1122-1123	/	_	_	
+4-26	1123-1124	/	_	_	
+4-27	1124-1133	arxiv.org	_	_	
+4-28	1133-1134	/	_	_	
+4-29	1134-1137	abs	_	_	
+4-30	1137-1138	/	_	_	
+4-31	1138-1148	2405.01886	_	_	
+4-32	1148-1149	)	_	_	
+4-33	1150-1152	is	_	_	
+4-34	1153-1156	now	_	_	
+4-35	1157-1166	available	_	_	
+4-36	1167-1169	in	_	_	
+4-37	1170-1175	Arxiv	_	_	
+4-38	1175-1176	!	_	_	
+
+#Text=- [2024/04] [**Aloe-Alpha-8B**](https://huggingface.co/HPAI-BSC/Llama3-Aloe-8B-Alpha) is now available in Hugginface!
+5-1	1177-1178	-	_	_	
+5-2	1179-1180	[	_	_	
+5-3	1180-1184	2024	_	_	
+5-4	1184-1185	/	_	_	
+5-5	1185-1187	04	_	_	
+5-6	1187-1188	]	_	_	
+5-7	1189-1190	[	_	_	
+5-8	1190-1191	*	_	_	
+5-9	1191-1192	*	_	_	
+5-10	1192-1202	Aloe-Alpha	*[3]	SOFTWARE[3]	
+5-11	1202-1203	-	*[3]	SOFTWARE[3]	
+5-12	1203-1205	8B	*[3]	SOFTWARE[3]	
+5-13	1205-1206	*	_	_	
+5-14	1206-1207	*	_	_	
+5-15	1207-1208	]	_	_	
+5-16	1208-1209	(	_	_	
+5-17	1209-1214	https	_	_	
+5-18	1214-1215	:	_	_	
+5-19	1215-1216	/	_	_	
+5-20	1216-1217	/	_	_	
+5-21	1217-1231	huggingface.co	_	_	
+5-22	1231-1232	/	_	_	
+5-23	1232-1240	HPAI-BSC	_	_	
+5-24	1240-1241	/	_	_	
+5-25	1241-1247	Llama3	*[4]	SOFTWARE[4]	
+5-26	1247-1248	-	*[4]	SOFTWARE[4]	
+5-27	1248-1252	Aloe	*[4]	SOFTWARE[4]	
+5-28	1252-1253	-	*[4]	SOFTWARE[4]	
+5-29	1253-1261	8B-Alpha	*[4]	SOFTWARE[4]	
+5-30	1261-1262	)	_	_	
+5-31	1263-1265	is	_	_	
+5-32	1266-1269	now	_	_	
+5-33	1270-1279	available	_	_	
+5-34	1280-1282	in	_	_	
+5-35	1283-1293	Hugginface	_	_	
+5-36	1293-1294	!	_	_	
+
+#Text=## About
+#Text=
+#Text=This repository serves as a comprehensive platform for evaluating large language models (LLMs) utilizing diverse prompt engineering techniques aimed at enhancing performance on medical benchmarks.
+6-1	1298-1299	#	_	_	
+6-2	1299-1300	#	_	_	
+6-3	1301-1306	About	_	_	
+6-4	1308-1312	This	_	_	
+6-5	1313-1323	repository	_	_	
+6-6	1324-1330	serves	_	_	
+6-7	1331-1333	as	_	_	
+6-8	1334-1335	a	_	_	
+6-9	1336-1349	comprehensive	_	_	
+6-10	1350-1358	platform	_	_	
+6-11	1359-1362	for	_	_	
+6-12	1363-1373	evaluating	_	_	
+6-13	1374-1379	large	_	_	
+6-14	1380-1388	language	_	_	
+6-15	1389-1395	models	_	_	
+6-16	1396-1397	(	_	_	
+6-17	1397-1401	LLMs	_	_	
+6-18	1401-1402	)	_	_	
+6-19	1403-1412	utilizing	_	_	
+6-20	1413-1420	diverse	_	_	
+6-21	1421-1427	prompt	_	_	
+6-22	1428-1439	engineering	_	_	
+6-23	1440-1450	techniques	_	_	
+6-24	1451-1456	aimed	_	_	
+6-25	1457-1459	at	_	_	
+6-26	1460-1469	enhancing	_	_	
+6-27	1470-1481	performance	_	_	
+6-28	1482-1484	on	_	_	
+6-29	1485-1492	medical	_	_	
+6-30	1493-1503	benchmarks	_	_	
+6-31	1503-1504	.	_	_	
+
+#Text=Our goal is to explore how prompt engineering impact LLMs' accuracy, reliability, and overall usefulness in addressing complex medical scenarios.
+7-1	1505-1508	Our	_	_	
+7-2	1509-1513	goal	_	_	
+7-3	1514-1516	is	_	_	
+7-4	1517-1519	to	_	_	
+7-5	1520-1527	explore	_	_	
+7-6	1528-1531	how	_	_	
+7-7	1532-1538	prompt	_	_	
+7-8	1539-1550	engineering	_	_	
+7-9	1551-1557	impact	_	_	
+7-10	1558-1562	LLMs	_	_	
+7-11	1562-1563	'	_	_	
+7-12	1564-1572	accuracy	_	_	
+7-13	1572-1573	,	_	_	
+7-14	1574-1585	reliability	_	_	
+7-15	1585-1586	,	_	_	
+7-16	1587-1590	and	_	_	
+7-17	1591-1598	overall	_	_	
+7-18	1599-1609	usefulness	_	_	
+7-19	1610-1612	in	_	_	
+7-20	1613-1623	addressing	_	_	
+7-21	1624-1631	complex	_	_	
+7-22	1632-1639	medical	_	_	
+7-23	1640-1649	scenarios	_	_	
+7-24	1649-1650	.	_	_	
+
+#Text=This repo was first created to support the [Aloe](https://huggingface.co/HPAI-BSC/Llama3-Aloe-8B-Alpha) model.
+8-1	1651-1655	This	_	_	
+8-2	1656-1660	repo	_	_	
+8-3	1661-1664	was	_	_	
+8-4	1665-1670	first	_	_	
+8-5	1671-1678	created	_	_	
+8-6	1679-1681	to	_	_	
+8-7	1682-1689	support	_	_	
+8-8	1690-1693	the	_	_	
+8-9	1694-1695	[	_	_	
+8-10	1695-1699	Aloe	_	_	
+8-11	1699-1700	]	_	_	
+8-12	1700-1701	(	_	_	
+8-13	1701-1706	https	_	_	
+8-14	1706-1707	:	_	_	
+8-15	1707-1708	/	_	_	
+8-16	1708-1709	/	_	_	
+8-17	1709-1723	huggingface.co	_	_	
+8-18	1723-1724	/	_	_	
+8-19	1724-1732	HPAI-BSC	_	_	
+8-20	1732-1733	/	_	_	
+8-21	1733-1739	Llama3	*[5]	SOFTWARE[5]	
+8-22	1739-1740	-	*[5]	SOFTWARE[5]	
+8-23	1740-1744	Aloe	*[5]	SOFTWARE[5]	
+8-24	1744-1745	-	*[5]	SOFTWARE[5]	
+8-25	1745-1753	8B-Alpha	*[5]	SOFTWARE[5]	
+8-26	1753-1754	)	_	_	
+8-27	1755-1760	model	_	_	
+8-28	1760-1761	.	_	_	
+
+#Text=Central to our investigation were efforts to exploit the inherent reasoning capabilities of LLMs by employing sophisticated prompt engineering approaches towards medical applications.
+9-1	1763-1770	Central	_	_	
+9-2	1771-1773	to	_	_	
+9-3	1774-1777	our	_	_	
+9-4	1778-1791	investigation	_	_	
+9-5	1792-1796	were	_	_	
+9-6	1797-1804	efforts	_	_	
+9-7	1805-1807	to	_	_	
+9-8	1808-1815	exploit	_	_	
+9-9	1816-1819	the	_	_	
+9-10	1820-1828	inherent	_	_	
+9-11	1829-1838	reasoning	_	_	
+9-12	1839-1851	capabilities	_	_	
+9-13	1852-1854	of	_	_	
+9-14	1855-1859	LLMs	_	_	
+9-15	1860-1862	by	_	_	
+9-16	1863-1872	employing	_	_	
+9-17	1873-1886	sophisticated	_	_	
+9-18	1887-1893	prompt	_	_	
+9-19	1894-1905	engineering	_	_	
+9-20	1906-1916	approaches	_	_	
+9-21	1917-1924	towards	_	_	
+9-22	1925-1932	medical	_	_	
+9-23	1933-1945	applications	_	_	
+9-24	1945-1946	.	_	_	
+
+#Text=Among the techniques adopted include:
+#Text=- **Self-Consistency Chain-of-Thought (SC-CoT)**: An iterative process wherein the LLM generates plausible explanations supporting each proposed solution before settling on a final answer.
+10-1	1947-1952	Among	_	_	
+10-2	1953-1956	the	_	_	
+10-3	1957-1967	techniques	_	_	
+10-4	1968-1975	adopted	_	_	
+10-5	1976-1983	include	_	_	
+10-6	1983-1984	:	_	_	
+10-7	1985-1986	-	_	_	
+10-8	1987-1988	*	_	_	
+10-9	1988-1989	*	_	_	
+10-10	1989-2005	Self-Consistency	_	_	
+10-11	2006-2022	Chain-of-Thought	_	_	
+10-12	2023-2024	(	_	_	
+10-13	2024-2030	SC-CoT	_	_	
+10-14	2030-2031	)	_	_	
+10-15	2031-2032	*	_	_	
+10-16	2032-2033	*	_	_	
+10-17	2033-2034	:	_	_	
+10-18	2035-2037	An	_	_	
+10-19	2038-2047	iterative	_	_	
+10-20	2048-2055	process	_	_	
+10-21	2056-2063	wherein	_	_	
+10-22	2064-2067	the	_	_	
+10-23	2068-2071	LLM	_	_	
+10-24	2072-2081	generates	_	_	
+10-25	2082-2091	plausible	_	_	
+10-26	2092-2104	explanations	_	_	
+10-27	2105-2115	supporting	_	_	
+10-28	2116-2120	each	_	_	
+10-29	2121-2129	proposed	_	_	
+10-30	2130-2138	solution	_	_	
+10-31	2139-2145	before	_	_	
+10-32	2146-2154	settling	_	_	
+10-33	2155-2157	on	_	_	
+10-34	2158-2159	a	_	_	
+10-35	2160-2165	final	_	_	
+10-36	2166-2172	answer	_	_	
+10-37	2172-2173	.	_	_	
+
+#Text=By encouraging systematic thinking, SC-CoT helps enhance both the confidence and veracity of generated responses
+11-1	2174-2176	By	_	_	
+11-2	2177-2188	encouraging	_	_	
+11-3	2189-2199	systematic	_	_	
+11-4	2200-2208	thinking	_	_	
+11-5	2208-2209	,	_	_	
+11-6	2210-2216	SC-CoT	_	_	
+11-7	2217-2222	helps	_	_	
+11-8	2223-2230	enhance	_	_	
+11-9	2231-2235	both	_	_	
+11-10	2236-2239	the	_	_	
+11-11	2240-2250	confidence	_	_	
+11-12	2251-2254	and	_	_	
+11-13	2255-2263	veracity	_	_	
+11-14	2264-2266	of	_	_	
+11-15	2267-2276	generated	_	_	
+11-16	2277-2286	responses	_	_	
+
+#Text=.
+12-1	2286-2287	.	_	_	
+
+#Text=- [**Medprompt**](https://github.com/microsoft/promptbase): A technique proposed by Microsoft, extending the traditional SC-COT.
+13-1	2289-2290	-	_	_	
+13-2	2291-2292	[	_	_	
+13-3	2292-2293	*	_	_	
+13-4	2293-2294	*	_	_	
+13-5	2294-2303	Medprompt	_	_	
+13-6	2303-2304	*	_	_	
+13-7	2304-2305	*	_	_	
+13-8	2305-2306	]	_	_	
+13-9	2306-2307	(	_	_	
+13-10	2307-2312	https	_	_	
+13-11	2312-2313	:	_	_	
+13-12	2313-2314	/	_	_	
+13-13	2314-2315	/	_	_	
+13-14	2315-2325	github.com	_	_	
+13-15	2325-2326	/	_	_	
+13-16	2326-2335	microsoft	_	_	
+13-17	2335-2336	/	_	_	
+13-18	2336-2346	promptbase	_	_	
+13-19	2346-2347	)	_	_	
+13-20	2347-2348	:	_	_	
+13-21	2349-2350	A	_	_	
+13-22	2351-2360	technique	_	_	
+13-23	2361-2369	proposed	_	_	
+13-24	2370-2372	by	_	_	
+13-25	2373-2382	Microsoft	_	_	
+13-26	2382-2383	,	_	_	
+13-27	2384-2393	extending	_	_	
+13-28	2394-2397	the	_	_	
+13-29	2398-2409	traditional	_	_	
+13-30	2410-2416	SC-COT	_	_	
+13-31	2416-2417	.	_	_	
+
+#Text=Medprompt introduces additional features specifically targeted at refining LLM behavior in medical settings.
+14-1	2418-2427	Medprompt	_	_	
+14-2	2428-2438	introduces	_	_	
+14-3	2439-2449	additional	_	_	
+14-4	2450-2458	features	_	_	
+14-5	2459-2471	specifically	_	_	
+14-6	2472-2480	targeted	_	_	
+14-7	2481-2483	at	_	_	
+14-8	2484-2492	refining	_	_	
+14-9	2493-2496	LLM	_	_	
+14-10	2497-2505	behavior	_	_	
+14-11	2506-2508	in	_	_	
+14-12	2509-2516	medical	_	_	
+14-13	2517-2525	settings	_	_	
+14-14	2525-2526	.	_	_	
+
+#Text=One key enhancement involves randomly shuffling provided choices before soliciting the LLM's response, thereby discouraging biases arising from predictable option orderings.
+15-1	2527-2530	One	_	_	
+15-2	2531-2534	key	_	_	
+15-3	2535-2546	enhancement	_	_	
+15-4	2547-2555	involves	_	_	
+15-5	2556-2564	randomly	_	_	
+15-6	2565-2574	shuffling	_	_	
+15-7	2575-2583	provided	_	_	
+15-8	2584-2591	choices	_	_	
+15-9	2592-2598	before	_	_	
+15-10	2599-2609	soliciting	_	_	
+15-11	2610-2613	the	_	_	
+15-12	2614-2619	LLM's	_	_	
+15-13	2620-2628	response	_	_	
+15-14	2628-2629	,	_	_	
+15-15	2630-2637	thereby	_	_	
+15-16	2638-2650	discouraging	_	_	
+15-17	2651-2657	biases	_	_	
+15-18	2658-2665	arising	_	_	
+15-19	2666-2670	from	_	_	
+15-20	2671-2682	predictable	_	_	
+15-21	2683-2689	option	_	_	
+15-22	2690-2699	orderings	_	_	
+15-23	2699-2700	.	_	_	
+
+#Text=Furthermore, integrating relevant case studies or "K nearest neighbor" (Knn) few-shot examples directly into prompts allows LLMs to learn from analogous situations and draw parallels between them, ultimately fostering better-rounded judgments.
+#Text=- **OpenMedprompt**: We aim to go beyond traditional Multiple-Choice Question-Answer approaches by introducing a novel strategy that enhances the generation of more accurate and reliable open-ended responses.
+16-1	2701-2712	Furthermore	_	_	
+16-2	2712-2713	,	_	_	
+16-3	2714-2725	integrating	_	_	
+16-4	2726-2734	relevant	_	_	
+16-5	2735-2739	case	_	_	
+16-6	2740-2747	studies	_	_	
+16-7	2748-2750	or	_	_	
+16-8	2751-2752	"	_	_	
+16-9	2752-2753	K	_	_	
+16-10	2754-2761	nearest	_	_	
+16-11	2762-2770	neighbor	_	_	
+16-12	2770-2771	"	_	_	
+16-13	2772-2773	(	_	_	
+16-14	2773-2776	Knn	_	_	
+16-15	2776-2777	)	_	_	
+16-16	2778-2786	few-shot	_	_	
+16-17	2787-2795	examples	_	_	
+16-18	2796-2804	directly	_	_	
+16-19	2805-2809	into	_	_	
+16-20	2810-2817	prompts	_	_	
+16-21	2818-2824	allows	_	_	
+16-22	2825-2829	LLMs	_	_	
+16-23	2830-2832	to	_	_	
+16-24	2833-2838	learn	_	_	
+16-25	2839-2843	from	_	_	
+16-26	2844-2853	analogous	_	_	
+16-27	2854-2864	situations	_	_	
+16-28	2865-2868	and	_	_	
+16-29	2869-2873	draw	_	_	
+16-30	2874-2883	parallels	_	_	
+16-31	2884-2891	between	_	_	
+16-32	2892-2896	them	_	_	
+16-33	2896-2897	,	_	_	
+16-34	2898-2908	ultimately	_	_	
+16-35	2909-2918	fostering	_	_	
+16-36	2919-2933	better-rounded	_	_	
+16-37	2934-2943	judgments	_	_	
+16-38	2943-2944	.	_	_	
+16-39	2945-2946	-	_	_	
+16-40	2947-2948	*	_	_	
+16-41	2948-2949	*	_	_	
+16-42	2949-2962	OpenMedprompt	_	_	
+16-43	2962-2963	*	_	_	
+16-44	2963-2964	*	_	_	
+16-45	2964-2965	:	_	_	
+16-46	2966-2968	We	_	_	
+16-47	2969-2972	aim	_	_	
+16-48	2973-2975	to	_	_	
+16-49	2976-2978	go	_	_	
+16-50	2979-2985	beyond	_	_	
+16-51	2986-2997	traditional	_	_	
+16-52	2998-3013	Multiple-Choice	_	_	
+16-53	3014-3029	Question-Answer	_	_	
+16-54	3030-3040	approaches	_	_	
+16-55	3041-3043	by	_	_	
+16-56	3044-3055	introducing	_	_	
+16-57	3056-3057	a	_	_	
+16-58	3058-3063	novel	_	_	
+16-59	3064-3072	strategy	_	_	
+16-60	3073-3077	that	_	_	
+16-61	3078-3086	enhances	_	_	
+16-62	3087-3090	the	_	_	
+16-63	3091-3101	generation	_	_	
+16-64	3102-3104	of	_	_	
+16-65	3105-3109	more	_	_	
+16-66	3110-3118	accurate	_	_	
+16-67	3119-3122	and	_	_	
+16-68	3123-3131	reliable	_	_	
+16-69	3132-3142	open-ended	_	_	
+16-70	3143-3152	responses	_	_	
+16-71	3152-3153	.	_	_	
+
+#Text=To achieve this, we propose two innovative methods focused on consensus-building and answer refinement:
+#Text=    - **OM-ER (OpenMedprompt with Ensemble Refining)**: Leverages the diversity of multiple generated answers to produce a refined and more accurate final response.
+17-1	3154-3156	To	_	_	
+17-2	3157-3164	achieve	_	_	
+17-3	3165-3169	this	_	_	
+17-4	3169-3170	,	_	_	
+17-5	3171-3173	we	_	_	
+17-6	3174-3181	propose	_	_	
+17-7	3182-3185	two	_	_	
+17-8	3186-3196	innovative	_	_	
+17-9	3197-3204	methods	_	_	
+17-10	3205-3212	focused	_	_	
+17-11	3213-3215	on	_	_	
+17-12	3216-3234	consensus-building	_	_	
+17-13	3235-3238	and	_	_	
+17-14	3239-3245	answer	_	_	
+17-15	3246-3256	refinement	_	_	
+17-16	3256-3257	:	_	_	
+17-17	3262-3263	-	_	_	
+17-18	3264-3265	*	_	_	
+17-19	3265-3266	*	_	_	
+17-20	3266-3271	OM-ER	_	_	
+17-21	3272-3273	(	_	_	
+17-22	3273-3286	OpenMedprompt	_	_	
+17-23	3287-3291	with	_	_	
+17-24	3292-3300	Ensemble	_	_	
+17-25	3301-3309	Refining	_	_	
+17-26	3309-3310	)	_	_	
+17-27	3310-3311	*	_	_	
+17-28	3311-3312	*	_	_	
+17-29	3312-3313	:	_	_	
+17-30	3314-3323	Leverages	_	_	
+17-31	3324-3327	the	_	_	
+17-32	3328-3337	diversity	_	_	
+17-33	3338-3340	of	_	_	
+17-34	3341-3349	multiple	_	_	
+17-35	3350-3359	generated	_	_	
+17-36	3360-3367	answers	_	_	
+17-37	3368-3370	to	_	_	
+17-38	3371-3378	produce	_	_	
+17-39	3379-3380	a	_	_	
+17-40	3381-3388	refined	_	_	
+17-41	3389-3392	and	_	_	
+17-42	3393-3397	more	_	_	
+17-43	3398-3406	accurate	_	_	
+17-44	3407-3412	final	_	_	
+17-45	3413-3421	response	_	_	
+17-46	3421-3422	.	_	_	
+
+#Text=It involves generating 𝑁 initial answers with randomized temperature and top_p parameters, incorporating 𝐾 relevant examples from the database into the prompt.
+18-1	3423-3425	It	_	_	
+18-2	3426-3434	involves	_	_	
+18-3	3435-3445	generating	_	_	
+18-4	3446-3448	𝑁	_	_	
+18-5	3449-3456	initial	_	_	
+18-6	3457-3464	answers	_	_	
+18-7	3465-3469	with	_	_	
+18-8	3470-3480	randomized	_	_	
+18-9	3481-3492	temperature	_	_	
+18-10	3493-3496	and	_	_	
+18-11	3497-3502	top_p	_	_	
+18-12	3503-3513	parameters	_	_	
+18-13	3513-3514	,	_	_	
+18-14	3515-3528	incorporating	_	_	
+18-15	3529-3531	𝐾	_	_	
+18-16	3532-3540	relevant	_	_	
+18-17	3541-3549	examples	_	_	
+18-18	3550-3554	from	_	_	
+18-19	3555-3558	the	_	_	
+18-20	3559-3567	database	_	_	
+18-21	3568-3572	into	_	_	
+18-22	3573-3576	the	_	_	
+18-23	3577-3583	prompt	_	_	
+18-24	3583-3584	.	_	_	
+
+#Text=Then, the LLM synthesizes these 𝑁 answers into a single, refined response
+19-1	3585-3589	Then	_	_	
+19-2	3589-3590	,	_	_	
+19-3	3591-3594	the	_	_	
+19-4	3595-3598	LLM	_	_	
+19-5	3599-3610	synthesizes	_	_	
+19-6	3611-3616	these	_	_	
+19-7	3617-3619	𝑁	_	_	
+19-8	3620-3627	answers	_	_	
+19-9	3628-3632	into	_	_	
+19-10	3633-3634	a	_	_	
+19-11	3635-3641	single	_	_	
+19-12	3641-3642	,	_	_	
+19-13	3643-3650	refined	_	_	
+19-14	3651-3659	response	_	_	
+
+#Text=.
+20-1	3659-3660	.	_	_	
+
+#Text=- **OM-SR (OpenMedprompt with Self-reflection)**: This strategy employs a feedback loop to improve the generated answer.
+21-1	3665-3666	-	_	_	
+21-2	3667-3668	*	_	_	
+21-3	3668-3669	*	_	_	
+21-4	3669-3674	OM-SR	_	_	
+21-5	3675-3676	(	_	_	
+21-6	3676-3689	OpenMedprompt	_	_	
+21-7	3690-3694	with	_	_	
+21-8	3695-3710	Self-reflection	_	_	
+21-9	3710-3711	)	_	_	
+21-10	3711-3712	*	_	_	
+21-11	3712-3713	*	_	_	
+21-12	3713-3714	:	_	_	
+21-13	3715-3719	This	_	_	
+21-14	3720-3728	strategy	_	_	
+21-15	3729-3736	employs	_	_	
+21-16	3737-3738	a	_	_	
+21-17	3739-3747	feedback	_	_	
+21-18	3748-3752	loop	_	_	
+21-19	3753-3755	to	_	_	
+21-20	3756-3763	improve	_	_	
+21-21	3764-3767	the	_	_	
+21-22	3768-3777	generated	_	_	
+21-23	3778-3784	answer	_	_	
+21-24	3784-3785	.	_	_	
+
+#Text=It begins by generating an initial answer using the 𝐾 most similar examples from the database.
+22-1	3786-3788	It	_	_	
+22-2	3789-3795	begins	_	_	
+22-3	3796-3798	by	_	_	
+22-4	3799-3809	generating	_	_	
+22-5	3810-3812	an	_	_	
+22-6	3813-3820	initial	_	_	
+22-7	3821-3827	answer	_	_	
+22-8	3828-3833	using	_	_	
+22-9	3834-3837	the	_	_	
+22-10	3838-3840	𝐾	_	_	
+22-11	3841-3845	most	_	_	
+22-12	3846-3853	similar	_	_	
+22-13	3854-3862	examples	_	_	
+22-14	3863-3867	from	_	_	
+22-15	3868-3871	the	_	_	
+22-16	3872-3880	database	_	_	
+22-17	3880-3881	.	_	_	
+
+#Text=Then, it performs 𝑁 iterations of self-reflection, where the model generates feedback on its previous response and produces an improved answer based on this feedback.
+23-1	3882-3886	Then	_	_	
+23-2	3886-3887	,	_	_	
+23-3	3888-3890	it	_	_	
+23-4	3891-3899	performs	_	_	
+23-5	3900-3902	𝑁	_	_	
+23-6	3903-3913	iterations	_	_	
+23-7	3914-3916	of	_	_	
+23-8	3917-3932	self-reflection	_	_	
+23-9	3932-3933	,	_	_	
+23-10	3934-3939	where	_	_	
+23-11	3940-3943	the	_	_	
+23-12	3944-3949	model	_	_	
+23-13	3950-3959	generates	_	_	
+23-14	3960-3968	feedback	_	_	
+23-15	3969-3971	on	_	_	
+23-16	3972-3975	its	_	_	
+23-17	3976-3984	previous	_	_	
+23-18	3985-3993	response	_	_	
+23-19	3994-3997	and	_	_	
+23-20	3998-4006	produces	_	_	
+23-21	4007-4009	an	_	_	
+23-22	4010-4018	improved	_	_	
+23-23	4019-4025	answer	_	_	
+23-24	4026-4031	based	_	_	
+23-25	4032-4034	on	_	_	
+23-26	4035-4039	this	_	_	
+23-27	4040-4048	feedback	_	_	
+23-28	4048-4049	.	_	_	
+
+#Text=We integrate attribute scores from ArmoRM-Llama3-8B, a reward model along with the critique model’s reflection as an external feedback to guide answer generation.
+#Text=
+#Text=
+#Text=## Implementation
+#Text=
+#Text=To effectively implement these novel techniques, we developed a specialized framework centered around accelerated inference speed and efficient data storage & retrieval mechanisms.
+24-1	4050-4052	We	_	_	
+24-2	4053-4062	integrate	_	_	
+24-3	4063-4072	attribute	_	_	
+24-4	4073-4079	scores	_	_	
+24-5	4080-4084	from	_	_	
+24-6	4085-4098	ArmoRM-Llama3	*[6]	SOFTWARE[6]	
+24-7	4098-4099	-	*[6]	SOFTWARE[6]	
+24-8	4099-4101	8B	*[6]	SOFTWARE[6]	
+24-9	4101-4102	,	_	_	
+24-10	4103-4104	a	_	_	
+24-11	4105-4111	reward	_	_	
+24-12	4112-4117	model	_	_	
+24-13	4118-4123	along	_	_	
+24-14	4124-4128	with	_	_	
+24-15	4129-4132	the	_	_	
+24-16	4133-4141	critique	_	_	
+24-17	4142-4147	model	_	_	
+24-18	4147-4148	’	_	_	
+24-19	4148-4149	s	_	_	
+24-20	4150-4160	reflection	_	_	
+24-21	4161-4163	as	_	_	
+24-22	4164-4166	an	_	_	
+24-23	4167-4175	external	_	_	
+24-24	4176-4184	feedback	_	_	
+24-25	4185-4187	to	_	_	
+24-26	4188-4193	guide	_	_	
+24-27	4194-4200	answer	_	_	
+24-28	4201-4211	generation	_	_	
+24-29	4211-4212	.	_	_	
+24-30	4215-4216	#	_	_	
+24-31	4216-4217	#	_	_	
+24-32	4218-4232	Implementation	_	_	
+24-33	4234-4236	To	_	_	
+24-34	4237-4248	effectively	_	_	
+24-35	4249-4258	implement	_	_	
+24-36	4259-4264	these	_	_	
+24-37	4265-4270	novel	_	_	
+24-38	4271-4281	techniques	_	_	
+24-39	4281-4282	,	_	_	
+24-40	4283-4285	we	_	_	
+24-41	4286-4295	developed	_	_	
+24-42	4296-4297	a	_	_	
+24-43	4298-4309	specialized	_	_	
+24-44	4310-4319	framework	_	_	
+24-45	4320-4328	centered	_	_	
+24-46	4329-4335	around	_	_	
+24-47	4336-4347	accelerated	_	_	
+24-48	4348-4357	inference	_	_	
+24-49	4358-4363	speed	_	_	
+24-50	4364-4367	and	_	_	
+24-51	4368-4377	efficient	_	_	
+24-52	4378-4382	data	_	_	
+24-53	4383-4390	storage	_	_	
+24-54	4391-4392	&	_	_	
+24-55	4393-4402	retrieval	_	_	
+24-56	4403-4413	mechanisms	_	_	
+24-57	4413-4414	.	_	_	
+
+#Text=Specifically, the architecture employs:
+#Text=- [**VLLM**](https://github.com/vllm-project/vllm): Fast Inference Very Large Language Model ibrary to facilitate rapid generation of responses in a efficient way.
+#Text=- Vector database:  Vector database solution to facilitate the storage and computation of vector similarities required for setting up the Medprompt technique.
+25-1	4415-4427	Specifically	_	_	
+25-2	4427-4428	,	_	_	
+25-3	4429-4432	the	_	_	
+25-4	4433-4445	architecture	_	_	
+25-5	4446-4453	employs	_	_	
+25-6	4453-4454	:	_	_	
+25-7	4455-4456	-	_	_	
+25-8	4457-4458	[	_	_	
+25-9	4458-4459	*	_	_	
+25-10	4459-4460	*	_	_	
+25-11	4460-4464	VLLM	*	SOFTWARE	
+25-12	4464-4465	*	_	_	
+25-13	4465-4466	*	_	_	
+25-14	4466-4467	]	_	_	
+25-15	4467-4468	(	_	_	
+25-16	4468-4473	https	_	_	
+25-17	4473-4474	:	_	_	
+25-18	4474-4475	/	_	_	
+25-19	4475-4476	/	_	_	
+25-20	4476-4486	github.com	_	_	
+25-21	4486-4487	/	_	_	
+25-22	4487-4499	vllm-project	_	_	
+25-23	4499-4500	/	_	_	
+25-24	4500-4504	vllm	*	SOFTWARE	
+25-25	4504-4505	)	_	_	
+25-26	4505-4506	:	_	_	
+25-27	4507-4511	Fast	_	_	
+25-28	4512-4521	Inference	_	_	
+25-29	4522-4526	Very	_	_	
+25-30	4527-4532	Large	_	_	
+25-31	4533-4541	Language	_	_	
+25-32	4542-4547	Model	_	_	
+25-33	4548-4554	ibrary	_	_	
+25-34	4555-4557	to	_	_	
+25-35	4558-4568	facilitate	_	_	
+25-36	4569-4574	rapid	_	_	
+25-37	4575-4585	generation	_	_	
+25-38	4586-4588	of	_	_	
+25-39	4589-4598	responses	_	_	
+25-40	4599-4601	in	_	_	
+25-41	4602-4603	a	_	_	
+25-42	4604-4613	efficient	_	_	
+25-43	4614-4617	way	_	_	
+25-44	4617-4618	.	_	_	
+25-45	4619-4620	-	_	_	
+25-46	4621-4627	Vector	_	_	
+25-47	4628-4636	database	_	_	
+25-48	4636-4637	:	_	_	
+25-49	4639-4645	Vector	_	_	
+25-50	4646-4654	database	_	_	
+25-51	4655-4663	solution	_	_	
+25-52	4664-4666	to	_	_	
+25-53	4667-4677	facilitate	_	_	
+25-54	4678-4681	the	_	_	
+25-55	4682-4689	storage	_	_	
+25-56	4690-4693	and	_	_	
+25-57	4694-4705	computation	_	_	
+25-58	4706-4708	of	_	_	
+25-59	4709-4715	vector	_	_	
+25-60	4716-4728	similarities	_	_	
+25-61	4729-4737	required	_	_	
+25-62	4738-4741	for	_	_	
+25-63	4742-4749	setting	_	_	
+25-64	4750-4752	up	_	_	
+25-65	4753-4756	the	_	_	
+25-66	4757-4766	Medprompt	_	_	
+25-67	4767-4776	technique	_	_	
+25-68	4776-4777	.	_	_	
+
+#Text=Both frameworks work in the self-hosted mode, storing the database locally under the "databases" path.
+26-1	4778-4782	Both	_	_	
+26-2	4783-4793	frameworks	_	_	
+26-3	4794-4798	work	_	_	
+26-4	4799-4801	in	_	_	
+26-5	4802-4805	the	_	_	
+26-6	4806-4817	self-hosted	_	_	
+26-7	4818-4822	mode	_	_	
+26-8	4822-4823	,	_	_	
+26-9	4824-4831	storing	_	_	
+26-10	4832-4835	the	_	_	
+26-11	4836-4844	database	_	_	
+26-12	4845-4852	locally	_	_	
+26-13	4853-4858	under	_	_	
+26-14	4859-4862	the	_	_	
+26-15	4863-4864	"	_	_	
+26-16	4864-4873	databases	_	_	
+26-17	4873-4874	"	_	_	
+26-18	4875-4879	path	_	_	
+26-19	4879-4880	.	_	_	
+
+#Text=We integrated two different vector database solutions:
+#Text=    - [**ChromaDB**](https://github.com/chroma-core/chroma):.
+27-1	4881-4883	We	_	_	
+27-2	4884-4894	integrated	_	_	
+27-3	4895-4898	two	_	_	
+27-4	4899-4908	different	_	_	
+27-5	4909-4915	vector	_	_	
+27-6	4916-4924	database	_	_	
+27-7	4925-4934	solutions	_	_	
+27-8	4934-4935	:	_	_	
+27-9	4940-4941	-	_	_	
+27-10	4942-4943	[	_	_	
+27-11	4943-4944	*	_	_	
+27-12	4944-4945	*	_	_	
+27-13	4945-4953	ChromaDB	*	SOFTWARE	
+27-14	4953-4954	*	_	_	
+27-15	4954-4955	*	_	_	
+27-16	4955-4956	]	_	_	
+27-17	4956-4957	(	_	_	
+27-18	4957-4962	https	_	_	
+27-19	4962-4963	:	_	_	
+27-20	4963-4964	/	_	_	
+27-21	4964-4965	/	_	_	
+27-22	4965-4975	github.com	_	_	
+27-23	4975-4976	/	_	_	
+27-24	4976-4987	chroma-core	_	_	
+27-25	4987-4988	/	_	_	
+27-26	4988-4994	chroma	_	_	
+27-27	4994-4995	)	_	_	
+27-28	4995-4996	:	_	_	
+27-29	4996-4997	.	_	_	
+
+#Text=Open-source embedding database, focused on the simplicity and efficiency. only dense vectors are allowed
+28-1	4998-5009	Open-source	_	_	
+28-2	5010-5019	embedding	_	_	
+28-3	5020-5028	database	_	_	
+28-4	5028-5029	,	_	_	
+28-5	5030-5037	focused	_	_	
+28-6	5038-5040	on	_	_	
+28-7	5041-5044	the	_	_	
+28-8	5045-5055	simplicity	_	_	
+28-9	5056-5059	and	_	_	
+28-10	5060-5070	efficiency	_	_	
+28-11	5070-5071	.	_	_	
+28-12	5072-5076	only	_	_	
+28-13	5077-5082	dense	_	_	
+28-14	5083-5090	vectors	_	_	
+28-15	5091-5094	are	_	_	
+28-16	5095-5102	allowed	_	_	
+
+#Text=.
+29-1	5102-5103	.	_	_	
+
+#Text=- [**Qdrant**](https://qdrant.tech/): Embedding database focused on production-ready service with a convenient API.
+30-1	5108-5109	-	_	_	
+30-2	5110-5111	[	_	_	
+30-3	5111-5112	*	_	_	
+30-4	5112-5113	*	_	_	
+30-5	5113-5119	Qdrant	*	SOFTWARE	
+30-6	5119-5120	*	_	_	
+30-7	5120-5121	*	_	_	
+30-8	5121-5122	]	_	_	
+30-9	5122-5123	(	_	_	
+30-10	5123-5128	https	_	_	
+30-11	5128-5129	:	_	_	
+30-12	5129-5130	/	_	_	
+30-13	5130-5131	/	_	_	
+30-14	5131-5142	qdrant.tech	_	_	
+30-14.1	5131-5137	qdrant	*	SOFTWARE	
+30-15	5142-5143	/	_	_	
+30-16	5143-5144	)	_	_	
+30-17	5144-5145	:	_	_	
+30-18	5146-5155	Embedding	_	_	
+30-19	5156-5164	database	_	_	
+30-20	5165-5172	focused	_	_	
+30-21	5173-5175	on	_	_	
+30-22	5176-5192	production-ready	_	_	
+30-23	5193-5200	service	_	_	
+30-24	5201-5205	with	_	_	
+30-25	5206-5207	a	_	_	
+30-26	5208-5218	convenient	_	_	
+30-27	5219-5222	API	_	_	
+30-28	5222-5223	.	_	_	
+
+#Text=It allows to use the database client by creating a docker image, using the local memory or in the cloud.
+31-1	5224-5226	It	_	_	
+31-2	5227-5233	allows	_	_	
+31-3	5234-5236	to	_	_	
+31-4	5237-5240	use	_	_	
+31-5	5241-5244	the	_	_	
+31-6	5245-5253	database	_	_	
+31-7	5254-5260	client	_	_	
+31-8	5261-5263	by	_	_	
+31-9	5264-5272	creating	_	_	
+31-10	5273-5274	a	_	_	
+31-11	5275-5281	docker	_	_	
+31-12	5282-5287	image	_	_	
+31-13	5287-5288	,	_	_	
+31-14	5289-5294	using	_	_	
+31-15	5295-5298	the	_	_	
+31-16	5299-5304	local	_	_	
+31-17	5305-5311	memory	_	_	
+31-18	5312-5314	or	_	_	
+31-19	5315-5317	in	_	_	
+31-20	5318-5321	the	_	_	
+31-21	5322-5327	cloud	_	_	
+31-22	5327-5328	.	_	_	
+
+#Text=In our implementation we use the local memory.
+32-1	5329-5331	In	_	_	
+32-2	5332-5335	our	_	_	
+32-3	5336-5350	implementation	_	_	
+32-4	5351-5353	we	_	_	
+32-5	5354-5357	use	_	_	
+32-6	5358-5361	the	_	_	
+32-7	5362-5367	local	_	_	
+32-8	5368-5374	memory	_	_	
+32-9	5374-5375	.	_	_	
+
+#Text=It allows Sparse Vectors.
+33-1	5376-5378	It	_	_	
+33-2	5379-5385	allows	_	_	
+33-3	5386-5392	Sparse	_	_	
+33-4	5393-5400	Vectors	_	_	
+33-5	5400-5401	.	_	_	
+
+#Text=We recommend to use this database only when dealing with Sparse Vectors.
+34-1	5402-5404	We	_	_	
+34-2	5405-5414	recommend	_	_	
+34-3	5415-5417	to	_	_	
+34-4	5418-5421	use	_	_	
+34-5	5422-5426	this	_	_	
+34-6	5427-5435	database	_	_	
+34-7	5436-5440	only	_	_	
+34-8	5441-5445	when	_	_	
+34-9	5446-5453	dealing	_	_	
+34-10	5454-5458	with	_	_	
+34-11	5459-5465	Sparse	_	_	
+34-12	5466-5473	Vectors	_	_	
+34-13	5473-5474	.	_	_	
+
+#Text=Indeed, central to our approach was providing flexibility and adaptability in executing diverse tasks related to evaluating LLMs on medical benchmarks.
+35-1	5477-5483	Indeed	_	_	
+35-2	5483-5484	,	_	_	
+35-3	5485-5492	central	_	_	
+35-4	5493-5495	to	_	_	
+35-5	5496-5499	our	_	_	
+35-6	5500-5508	approach	_	_	
+35-7	5509-5512	was	_	_	
+35-8	5513-5522	providing	_	_	
+35-9	5523-5534	flexibility	_	_	
+35-10	5535-5538	and	_	_	
+35-11	5539-5551	adaptability	_	_	
+35-12	5552-5554	in	_	_	
+35-13	5555-5564	executing	_	_	
+35-14	5565-5572	diverse	_	_	
+35-15	5573-5578	tasks	_	_	
+35-16	5579-5586	related	_	_	
+35-17	5587-5589	to	_	_	
+35-18	5590-5600	evaluating	_	_	
+35-19	5601-5605	LLMs	_	_	
+35-20	5606-5608	on	_	_	
+35-21	5609-5616	medical	_	_	
+35-22	5617-5627	benchmarks	_	_	
+35-23	5627-5628	.	_	_	
+
+#Text=Users can easily configure a wide array of parameters according to their unique experimental designs or preferences by modifying simple YAML configuration files found within the designated config directory. 
+#Text=
+#Text=## Usage guide
+#Text=
+#Text=### Installation
+#Text=A requirements file with the necessary packages is provided to install and execute this repo.
+#Text=
+#Text=```
+#Text=pip install -r requirements.txt
+#Text=```
+#Text=
+#Text=To execute the test.
+36-1	5629-5634	Users	_	_	
+36-2	5635-5638	can	_	_	
+36-3	5639-5645	easily	_	_	
+36-4	5646-5655	configure	_	_	
+36-5	5656-5657	a	_	_	
+36-6	5658-5662	wide	_	_	
+36-7	5663-5668	array	_	_	
+36-8	5669-5671	of	_	_	
+36-9	5672-5682	parameters	_	_	
+36-10	5683-5692	according	_	_	
+36-11	5693-5695	to	_	_	
+36-12	5696-5701	their	_	_	
+36-13	5702-5708	unique	_	_	
+36-14	5709-5721	experimental	_	_	
+36-15	5722-5729	designs	_	_	
+36-16	5730-5732	or	_	_	
+36-17	5733-5744	preferences	_	_	
+36-18	5745-5747	by	_	_	
+36-19	5748-5757	modifying	_	_	
+36-20	5758-5764	simple	_	_	
+36-21	5765-5769	YAML	_	_	
+36-22	5770-5783	configuration	_	_	
+36-23	5784-5789	files	_	_	
+36-24	5790-5795	found	_	_	
+36-25	5796-5802	within	_	_	
+36-26	5803-5806	the	_	_	
+36-27	5807-5817	designated	_	_	
+36-28	5818-5824	config	_	_	
+36-29	5825-5834	directory	_	_	
+36-30	5834-5835	.	_	_	
+36-31	5838-5839	#	_	_	
+36-32	5839-5840	#	_	_	
+36-33	5841-5846	Usage	_	_	
+36-34	5847-5852	guide	_	_	
+36-35	5854-5855	#	_	_	
+36-36	5855-5856	#	_	_	
+36-37	5856-5857	#	_	_	
+36-38	5858-5870	Installation	_	_	
+36-39	5871-5872	A	_	_	
+36-40	5873-5885	requirements	_	_	
+36-41	5886-5890	file	_	_	
+36-42	5891-5895	with	_	_	
+36-43	5896-5899	the	_	_	
+36-44	5900-5909	necessary	_	_	
+36-45	5910-5918	packages	_	_	
+36-46	5919-5921	is	_	_	
+36-47	5922-5930	provided	_	_	
+36-48	5931-5933	to	_	_	
+36-49	5934-5941	install	_	_	
+36-50	5942-5945	and	_	_	
+36-51	5946-5953	execute	_	_	
+36-52	5954-5958	this	_	_	
+36-53	5959-5963	repo	_	_	
+36-54	5963-5964	.	_	_	
+36-55	5966-5967	`	_	_	
+36-56	5967-5968	`	_	_	
+36-57	5968-5969	`	_	_	
+36-58	5970-5973	pip	*	SOFTWARE	
+36-59	5974-5981	install	_	_	
+36-60	5982-5983	-	_	_	
+36-61	5983-5984	r	_	_	
+36-62	5985-6001	requirements.txt	_	_	
+36-63	6002-6003	`	_	_	
+36-64	6003-6004	`	_	_	
+36-65	6004-6005	`	_	_	
+36-66	6007-6009	To	_	_	
+36-67	6010-6017	execute	_	_	
+36-68	6018-6021	the	_	_	
+36-69	6022-6026	test	_	_	
+36-70	6026-6027	.	_	_	
+
+#Text=First, make sure you configured properly a YAML configuration file.
+37-1	6028-6033	First	_	_	
+37-2	6033-6034	,	_	_	
+37-3	6035-6039	make	_	_	
+37-4	6040-6044	sure	_	_	
+37-5	6045-6048	you	_	_	
+37-6	6049-6059	configured	_	_	
+37-7	6060-6068	properly	_	_	
+37-8	6069-6070	a	_	_	
+37-9	6071-6075	YAML	_	_	
+37-10	6076-6089	configuration	_	_	
+37-11	6090-6094	file	_	_	
+37-12	6094-6095	.	_	_	
+
+#Text=Then, execute the following script:
+#Text=
+#Text=```
+#Text=python prompt_engine/run.py configs/your_config.YAML
+#Text=```
+#Text=
+#Text=### Configure an execution
+#Text=To configure an execution of Medprompt or Self-Consistency CoT ensembling, a configuration file must be created.
+38-1	6096-6100	Then	_	_	
+38-2	6100-6101	,	_	_	
+38-3	6102-6109	execute	_	_	
+38-4	6110-6113	the	_	_	
+38-5	6114-6123	following	_	_	
+38-6	6124-6130	script	_	_	
+38-7	6130-6131	:	_	_	
+38-8	6133-6134	`	_	_	
+38-9	6134-6135	`	_	_	
+38-10	6135-6136	`	_	_	
+38-11	6137-6143	python	*	PROGLANG	
+38-12	6144-6157	prompt_engine	_	_	
+38-13	6157-6158	/	_	_	
+38-14	6158-6164	run.py	_	_	
+38-15	6165-6172	configs	_	_	
+38-16	6172-6173	/	_	_	
+38-17	6173-6189	your_config.YAML	_	_	
+38-18	6190-6191	`	_	_	
+38-19	6191-6192	`	_	_	
+38-20	6192-6193	`	_	_	
+38-21	6195-6196	#	_	_	
+38-22	6196-6197	#	_	_	
+38-23	6197-6198	#	_	_	
+38-24	6199-6208	Configure	_	_	
+38-25	6209-6211	an	_	_	
+38-26	6212-6221	execution	_	_	
+38-27	6222-6224	To	_	_	
+38-28	6225-6234	configure	_	_	
+38-29	6235-6237	an	_	_	
+38-30	6238-6247	execution	_	_	
+38-31	6248-6250	of	_	_	
+38-32	6251-6260	Medprompt	_	_	
+38-33	6261-6263	or	_	_	
+38-34	6264-6280	Self-Consistency	_	_	
+38-35	6281-6284	CoT	_	_	
+38-36	6285-6295	ensembling	_	_	
+38-37	6295-6296	,	_	_	
+38-38	6297-6298	a	_	_	
+38-39	6299-6312	configuration	_	_	
+38-40	6313-6317	file	_	_	
+38-41	6318-6322	must	_	_	
+38-42	6323-6325	be	_	_	
+38-43	6326-6333	created	_	_	
+38-44	6333-6334	.	_	_	
+
+#Text=Some examples are included in the "/configs" folder.
+39-1	6335-6339	Some	_	_	
+39-2	6340-6348	examples	_	_	
+39-3	6349-6352	are	_	_	
+39-4	6353-6361	included	_	_	
+39-5	6362-6364	in	_	_	
+39-6	6365-6368	the	_	_	
+39-7	6369-6370	"	_	_	
+39-8	6370-6371	/	_	_	
+39-9	6371-6378	configs	_	_	
+39-10	6378-6379	"	_	_	
+39-11	6380-6386	folder	_	_	
+39-12	6386-6387	.	_	_	
+
+#Text=The configuration files define the parameters of the execution, model configuration, and sampling parameters.
+40-1	6388-6391	The	_	_	
+40-2	6392-6405	configuration	_	_	
+40-3	6406-6411	files	_	_	
+40-4	6412-6418	define	_	_	
+40-5	6419-6422	the	_	_	
+40-6	6423-6433	parameters	_	_	
+40-7	6434-6436	of	_	_	
+40-8	6437-6440	the	_	_	
+40-9	6441-6450	execution	_	_	
+40-10	6450-6451	,	_	_	
+40-11	6452-6457	model	_	_	
+40-12	6458-6471	configuration	_	_	
+40-13	6471-6472	,	_	_	
+40-14	6473-6476	and	_	_	
+40-15	6477-6485	sampling	_	_	
+40-16	6486-6496	parameters	_	_	
+40-17	6496-6497	.	_	_	
+
+#Text=More details about the configuration parameters can be found [here](configs).
+#Text=
+#Text=### Datasets
+#Text=We include the following medical datasets formatted in the required format:
+#Text=
+#Text=- MedQA
+#Text=- MedMCQA
+#Text=- PubMedQA
+#Text=- MMLU (medical subsets)
+#Text=- CareQA
+#Text=
+#Text=Other datasets can be used if they are in the required format.
+41-1	6498-6502	More	_	_	
+41-2	6503-6510	details	_	_	
+41-3	6511-6516	about	_	_	
+41-4	6517-6520	the	_	_	
+41-5	6521-6534	configuration	_	_	
+41-6	6535-6545	parameters	_	_	
+41-7	6546-6549	can	_	_	
+41-8	6550-6552	be	_	_	
+41-9	6553-6558	found	_	_	
+41-10	6559-6560	[	_	_	
+41-11	6560-6564	here	_	_	
+41-12	6564-6565	]	_	_	
+41-13	6565-6566	(	_	_	
+41-14	6566-6573	configs	_	_	
+41-15	6573-6574	)	_	_	
+41-16	6574-6575	.	_	_	
+41-17	6577-6578	#	_	_	
+41-18	6578-6579	#	_	_	
+41-19	6579-6580	#	_	_	
+41-20	6581-6589	Datasets	_	_	
+41-21	6590-6592	We	_	_	
+41-22	6593-6600	include	_	_	
+41-23	6601-6604	the	_	_	
+41-24	6605-6614	following	_	_	
+41-25	6615-6622	medical	_	_	
+41-26	6623-6631	datasets	_	_	
+41-27	6632-6641	formatted	_	_	
+41-28	6642-6644	in	_	_	
+41-29	6645-6648	the	_	_	
+41-30	6649-6657	required	_	_	
+41-31	6658-6664	format	_	_	
+41-32	6664-6665	:	_	_	
+41-33	6667-6668	-	_	_	
+41-34	6669-6674	MedQA	*	DATASET	
+41-35	6675-6676	-	_	_	
+41-36	6677-6684	MedMCQA	*	DATASET	
+41-37	6685-6686	-	_	_	
+41-38	6687-6695	PubMedQA	*	DATASET	
+41-39	6696-6697	-	_	_	
+41-40	6698-6702	MMLU	*[7]	DATASET[7]	
+41-41	6703-6704	(	*[7]	DATASET[7]	
+41-42	6704-6711	medical	*[7]	DATASET[7]	
+41-43	6712-6719	subsets	*[7]	DATASET[7]	
+41-44	6719-6720	)	*[7]	DATASET[7]	
+41-45	6721-6722	-	_	_	
+41-46	6723-6729	CareQA	*	DATASET	
+41-47	6731-6736	Other	_	_	
+41-48	6737-6745	datasets	_	_	
+41-49	6746-6749	can	_	_	
+41-50	6750-6752	be	_	_	
+41-51	6753-6757	used	_	_	
+41-52	6758-6760	if	_	_	
+41-53	6761-6765	they	_	_	
+41-54	6766-6769	are	_	_	
+41-55	6770-6772	in	_	_	
+41-56	6773-6776	the	_	_	
+41-57	6777-6785	required	_	_	
+41-58	6786-6792	format	_	_	
+41-59	6792-6793	.	_	_	
+
+#Text=More details can be found in [Datasets](medprompt/datasets) section.
+#Text=
+#Text=
+#Text=### Output
+#Text=Each execution is stored in a specific path that is determined by the parameters selected and under the "outputs/" directory.
+42-1	6794-6798	More	_	_	
+42-2	6799-6806	details	_	_	
+42-3	6807-6810	can	_	_	
+42-4	6811-6813	be	_	_	
+42-5	6814-6819	found	_	_	
+42-6	6820-6822	in	_	_	
+42-7	6823-6824	[	_	_	
+42-8	6824-6832	Datasets	_	_	
+42-9	6832-6833	]	_	_	
+42-10	6833-6834	(	_	_	
+42-11	6834-6843	medprompt	_	_	
+42-12	6843-6844	/	_	_	
+42-13	6844-6852	datasets	_	_	
+42-14	6852-6853	)	_	_	
+42-15	6854-6861	section	_	_	
+42-16	6861-6862	.	_	_	
+42-17	6865-6866	#	_	_	
+42-18	6866-6867	#	_	_	
+42-19	6867-6868	#	_	_	
+42-20	6869-6875	Output	_	_	
+42-21	6876-6880	Each	_	_	
+42-22	6881-6890	execution	_	_	
+42-23	6891-6893	is	_	_	
+42-24	6894-6900	stored	_	_	
+42-25	6901-6903	in	_	_	
+42-26	6904-6905	a	_	_	
+42-27	6906-6914	specific	_	_	
+42-28	6915-6919	path	_	_	
+42-29	6920-6924	that	_	_	
+42-30	6925-6927	is	_	_	
+42-31	6928-6938	determined	_	_	
+42-32	6939-6941	by	_	_	
+42-33	6942-6945	the	_	_	
+42-34	6946-6956	parameters	_	_	
+42-35	6957-6965	selected	_	_	
+42-36	6966-6969	and	_	_	
+42-37	6970-6975	under	_	_	
+42-38	6976-6979	the	_	_	
+42-39	6980-6981	"	_	_	
+42-40	6981-6988	outputs	_	_	
+42-41	6988-6989	/	_	_	
+42-42	6989-6990	"	_	_	
+42-43	6991-7000	directory	_	_	
+42-44	7000-7001	.	_	_	
+
+#Text=The subdirectories generated will have this format:
+#Text=
+#Text=```
+#Text=    - outputs  
+#Text=        -- MODEL_NAME
+#Text=            -- embedding1
+#Text=                --- DATASET_NAME
+#Text=                    ---- SUBJECT (if dataset have subjects)
+#Text=                        ----- N_ENSEMBLES
+#Text=                            ----- Kk (5k, 4k...) + _database and/or _reranker if they exist in confg
+#Text=            -- embedding2
+#Text=                ...
+#Text=                    ...
+#Text=            -- SC-COT
+#Text=                --- DATASET_NAME
+#Text=                    ---- SUBJECT (if dataset have subjects)
+#Text=                        ----- N_ENSEMBLES
+#Text=                            ----- Kk (5k, 4k...)
+#Text=            -- val
+#Text=                --- DATASET_NAME
+#Text=                    ---- SUBJECT (if dataset have subjects)
+#Text=                        ----- N_ENSEMBLES
+#Text=                            ------ Kk (5k, 4k...)
+#Text=```
+#Text=
+#Text=In the "val" directory are saved the generations of Medprompt of the training/validation sets, that are used for selecting the knn similar examples for the test questions.
+43-1	7002-7005	The	_	_	
+43-2	7006-7020	subdirectories	_	_	
+43-3	7021-7030	generated	_	_	
+43-4	7031-7035	will	_	_	
+43-5	7036-7040	have	_	_	
+43-6	7041-7045	this	_	_	
+43-7	7046-7052	format	_	_	
+43-8	7052-7053	:	_	_	
+43-9	7055-7056	`	_	_	
+43-10	7056-7057	`	_	_	
+43-11	7057-7058	`	_	_	
+43-12	7063-7064	-	_	_	
+43-13	7065-7072	outputs	_	_	
+43-14	7083-7084	-	_	_	
+43-15	7084-7085	-	_	_	
+43-16	7086-7096	MODEL_NAME	_	_	
+43-17	7109-7110	-	_	_	
+43-18	7110-7111	-	_	_	
+43-19	7112-7122	embedding1	_	_	
+43-20	7139-7140	-	_	_	
+43-21	7140-7141	-	_	_	
+43-22	7141-7142	-	_	_	
+43-23	7143-7155	DATASET_NAME	_	_	
+43-24	7176-7177	-	_	_	
+43-25	7177-7178	-	_	_	
+43-26	7178-7179	-	_	_	
+43-27	7179-7180	-	_	_	
+43-28	7181-7188	SUBJECT	_	_	
+43-29	7189-7190	(	_	_	
+43-30	7190-7192	if	_	_	
+43-31	7193-7200	dataset	_	_	
+43-32	7201-7205	have	_	_	
+43-33	7206-7214	subjects	_	_	
+43-34	7214-7215	)	_	_	
+43-35	7240-7241	-	_	_	
+43-36	7241-7242	-	_	_	
+43-37	7242-7243	-	_	_	
+43-38	7243-7244	-	_	_	
+43-39	7244-7245	-	_	_	
+43-40	7246-7257	N_ENSEMBLES	_	_	
+43-41	7286-7287	-	_	_	
+43-42	7287-7288	-	_	_	
+43-43	7288-7289	-	_	_	
+43-44	7289-7290	-	_	_	
+43-45	7290-7291	-	_	_	
+43-46	7292-7294	Kk	_	_	
+43-47	7295-7296	(	_	_	
+43-48	7296-7298	5k	_	_	
+43-49	7298-7299	,	_	_	
+43-50	7300-7302	4k	_	_	
+43-51	7302-7303	.	_	_	
+43-52	7303-7304	.	_	_	
+43-53	7304-7305	.	_	_	
+43-54	7305-7306	)	_	_	
+43-55	7307-7308	+	_	_	
+43-56	7309-7310	_	_	_	
+43-57	7310-7318	database	_	_	
+43-58	7319-7322	and	_	_	
+43-59	7322-7323	/	_	_	
+43-60	7323-7325	or	_	_	
+43-61	7326-7327	_	_	_	
+43-62	7327-7335	reranker	_	_	
+43-63	7336-7338	if	_	_	
+43-64	7339-7343	they	_	_	
+43-65	7344-7349	exist	_	_	
+43-66	7350-7352	in	_	_	
+43-67	7353-7358	confg	_	_	
+43-68	7371-7372	-	_	_	
+43-69	7372-7373	-	_	_	
+43-70	7374-7384	embedding2	_	_	
+43-71	7401-7402	.	_	_	
+43-72	7402-7403	.	_	_	
+43-73	7403-7404	.	_	_	
+43-74	7425-7426	.	_	_	
+43-75	7426-7427	.	_	_	
+43-76	7427-7428	.	_	_	
+43-77	7441-7442	-	_	_	
+43-78	7442-7443	-	_	_	
+43-79	7444-7450	SC-COT	_	_	
+43-80	7467-7468	-	_	_	
+43-81	7468-7469	-	_	_	
+43-82	7469-7470	-	_	_	
+43-83	7471-7483	DATASET_NAME	_	_	
+43-84	7504-7505	-	_	_	
+43-85	7505-7506	-	_	_	
+43-86	7506-7507	-	_	_	
+43-87	7507-7508	-	_	_	
+43-88	7509-7516	SUBJECT	_	_	
+43-89	7517-7518	(	_	_	
+43-90	7518-7520	if	_	_	
+43-91	7521-7528	dataset	_	_	
+43-92	7529-7533	have	_	_	
+43-93	7534-7542	subjects	_	_	
+43-94	7542-7543	)	_	_	
+43-95	7568-7569	-	_	_	
+43-96	7569-7570	-	_	_	
+43-97	7570-7571	-	_	_	
+43-98	7571-7572	-	_	_	
+43-99	7572-7573	-	_	_	
+43-100	7574-7585	N_ENSEMBLES	_	_	
+43-101	7614-7615	-	_	_	
+43-102	7615-7616	-	_	_	
+43-103	7616-7617	-	_	_	
+43-104	7617-7618	-	_	_	
+43-105	7618-7619	-	_	_	
+43-106	7620-7622	Kk	_	_	
+43-107	7623-7624	(	_	_	
+43-108	7624-7626	5k	_	_	
+43-109	7626-7627	,	_	_	
+43-110	7628-7630	4k	_	_	
+43-111	7630-7631	.	_	_	
+43-112	7631-7632	.	_	_	
+43-113	7632-7633	.	_	_	
+43-114	7633-7634	)	_	_	
+43-115	7647-7648	-	_	_	
+43-116	7648-7649	-	_	_	
+43-117	7650-7653	val	_	_	
+43-118	7670-7671	-	_	_	
+43-119	7671-7672	-	_	_	
+43-120	7672-7673	-	_	_	
+43-121	7674-7686	DATASET_NAME	_	_	
+43-122	7707-7708	-	_	_	
+43-123	7708-7709	-	_	_	
+43-124	7709-7710	-	_	_	
+43-125	7710-7711	-	_	_	
+43-126	7712-7719	SUBJECT	_	_	
+43-127	7720-7721	(	_	_	
+43-128	7721-7723	if	_	_	
+43-129	7724-7731	dataset	_	_	
+43-130	7732-7736	have	_	_	
+43-131	7737-7745	subjects	_	_	
+43-132	7745-7746	)	_	_	
+43-133	7771-7772	-	_	_	
+43-134	7772-7773	-	_	_	
+43-135	7773-7774	-	_	_	
+43-136	7774-7775	-	_	_	
+43-137	7775-7776	-	_	_	
+43-138	7777-7788	N_ENSEMBLES	_	_	
+43-139	7817-7818	-	_	_	
+43-140	7818-7819	-	_	_	
+43-141	7819-7820	-	_	_	
+43-142	7820-7821	-	_	_	
+43-143	7821-7822	-	_	_	
+43-144	7822-7823	-	_	_	
+43-145	7824-7826	Kk	_	_	
+43-146	7827-7828	(	_	_	
+43-147	7828-7830	5k	_	_	
+43-148	7830-7831	,	_	_	
+43-149	7832-7834	4k	_	_	
+43-150	7834-7835	.	_	_	
+43-151	7835-7836	.	_	_	
+43-152	7836-7837	.	_	_	
+43-153	7837-7838	)	_	_	
+43-154	7839-7840	`	_	_	
+43-155	7840-7841	`	_	_	
+43-156	7841-7842	`	_	_	
+43-157	7844-7846	In	_	_	
+43-158	7847-7850	the	_	_	
+43-159	7851-7852	"	_	_	
+43-160	7852-7855	val	_	_	
+43-161	7855-7856	"	_	_	
+43-162	7857-7866	directory	_	_	
+43-163	7867-7870	are	_	_	
+43-164	7871-7876	saved	_	_	
+43-165	7877-7880	the	_	_	
+43-166	7881-7892	generations	_	_	
+43-167	7893-7895	of	_	_	
+43-168	7896-7905	Medprompt	_	_	
+43-169	7906-7908	of	_	_	
+43-170	7909-7912	the	_	_	
+43-171	7913-7921	training	_	_	
+43-172	7921-7922	/	_	_	
+43-173	7922-7932	validation	_	_	
+43-174	7933-7937	sets	_	_	
+43-175	7937-7938	,	_	_	
+43-176	7939-7943	that	_	_	
+43-177	7944-7947	are	_	_	
+43-178	7948-7952	used	_	_	
+43-179	7953-7956	for	_	_	
+43-180	7957-7966	selecting	_	_	
+43-181	7967-7970	the	_	_	
+43-182	7971-7974	knn	_	_	
+43-183	7975-7982	similar	_	_	
+43-184	7983-7991	examples	_	_	
+43-185	7992-7995	for	_	_	
+43-186	7996-7999	the	_	_	
+43-187	8000-8004	test	_	_	
+43-188	8005-8014	questions	_	_	
+43-189	8014-8015	.	_	_	
+
+#Text=It is only generated when running Medprompt without database.
+44-1	8016-8018	It	_	_	
+44-2	8019-8021	is	_	_	
+44-3	8022-8026	only	_	_	
+44-4	8027-8036	generated	_	_	
+44-5	8037-8041	when	_	_	
+44-6	8042-8049	running	_	_	
+44-7	8050-8059	Medprompt	_	_	
+44-8	8060-8067	without	_	_	
+44-9	8068-8076	database	_	_	
+44-10	8076-8077	.	_	_	
+
+#Text=Each final directory will store the generations file of the exection, named "generations.json".
+45-1	8079-8083	Each	_	_	
+45-2	8084-8089	final	_	_	
+45-3	8090-8099	directory	_	_	
+45-4	8100-8104	will	_	_	
+45-5	8105-8110	store	_	_	
+45-6	8111-8114	the	_	_	
+45-7	8115-8126	generations	_	_	
+45-8	8127-8131	file	_	_	
+45-9	8132-8134	of	_	_	
+45-10	8135-8138	the	_	_	
+45-11	8139-8147	exection	_	_	
+45-12	8147-8148	,	_	_	
+45-13	8149-8154	named	_	_	
+45-14	8155-8156	"	_	_	
+45-15	8156-8172	generations.json	_	_	
+45-16	8172-8173	"	_	_	
+45-17	8173-8174	.	_	_	
+
+#Text=The generations file holds the information of the question and the corresponding generations.
+46-1	8175-8178	The	_	_	
+46-2	8179-8190	generations	_	_	
+46-3	8191-8195	file	_	_	
+46-4	8196-8201	holds	_	_	
+46-5	8202-8205	the	_	_	
+46-6	8206-8217	information	_	_	
+46-7	8218-8220	of	_	_	
+46-8	8221-8224	the	_	_	
+46-9	8225-8233	question	_	_	
+46-10	8234-8237	and	_	_	
+46-11	8238-8241	the	_	_	
+46-12	8242-8255	corresponding	_	_	
+46-13	8256-8267	generations	_	_	
+46-14	8267-8268	.	_	_	
+
+#Text=The format of the generations is the following:
+#Text=
+#Text=```
+#Text={
+#Text=  "ID": {
+#Text=    "question": "QUESTION",
+#Text=    "correct_answer": "A",
+#Text=    "options": {
+#Text=      "A": "1",
+#Text=      "B": "2",
+#Text=      "C": "3",
+#Text=      "D": "4"
+#Text=    },
+#Text=    "generations": [
+#Text=      {
+#Text=        "description": "DESCRITION OF THE QUESTION = QUESTION + SHUFFLED OPTIONS",
+#Text=        "response": "RESPONSE OF THE MODEL",
+#Text=        "original_answer": "A", # Original option selection of the model response
+#Text=        "result": "C",  # Option selection in the original options order
+#Text=        "order": "BDAC",    # Order of the options in the description
+#Text=        "retries": 1,   # Number of retries until the model returned a valid answer
+#Text=        "prompt_tokens": 684,   # Number of tokens in the prompt
+#Text=        "generated_tokens": 95, # Number of generated tokens
+#Text=        "metrics": {    # Time information of the inference returned by VLLM
+#Text=          "arrival_time": 6843.604095897,
+#Text=          "last_token_time": 6843.604095897,
+#Text=          "first_scheduled_time": 1713348678.0800078,
+#Text=          "first_token_time": 1713348678.198892,
+#Text=          "time_in_queue": 1713341834.4759119,
+#Text=          "finished_time": 1713348681.9018264
+#Text=        }
+#Text=      },
+#Text=      {
+#Text=          ...
+47-1	8269-8272	The	_	_	
+47-2	8273-8279	format	_	_	
+47-3	8280-8282	of	_	_	
+47-4	8283-8286	the	_	_	
+47-5	8287-8298	generations	_	_	
+47-6	8299-8301	is	_	_	
+47-7	8302-8305	the	_	_	
+47-8	8306-8315	following	_	_	
+47-9	8315-8316	:	_	_	
+47-10	8318-8319	`	_	_	
+47-11	8319-8320	`	_	_	
+47-12	8320-8321	`	_	_	
+47-13	8322-8323	{	_	_	
+47-14	8326-8327	"	_	_	
+47-15	8327-8329	ID	_	_	
+47-16	8329-8330	"	_	_	
+47-17	8330-8331	:	_	_	
+47-18	8332-8333	{	_	_	
+47-19	8338-8339	"	_	_	
+47-20	8339-8347	question	_	_	
+47-21	8347-8348	"	_	_	
+47-22	8348-8349	:	_	_	
+47-23	8350-8351	"	_	_	
+47-24	8351-8359	QUESTION	_	_	
+47-25	8359-8360	"	_	_	
+47-26	8360-8361	,	_	_	
+47-27	8366-8367	"	_	_	
+47-28	8367-8381	correct_answer	_	_	
+47-29	8381-8382	"	_	_	
+47-30	8382-8383	:	_	_	
+47-31	8384-8385	"	_	_	
+47-32	8385-8386	A	_	_	
+47-33	8386-8387	"	_	_	
+47-34	8387-8388	,	_	_	
+47-35	8393-8394	"	_	_	
+47-36	8394-8401	options	_	_	
+47-37	8401-8402	"	_	_	
+47-38	8402-8403	:	_	_	
+47-39	8404-8405	{	_	_	
+47-40	8412-8413	"	_	_	
+47-41	8413-8414	A	_	_	
+47-42	8414-8415	"	_	_	
+47-43	8415-8416	:	_	_	
+47-44	8417-8418	"	_	_	
+47-45	8418-8419	1	_	_	
+47-46	8419-8420	"	_	_	
+47-47	8420-8421	,	_	_	
+47-48	8428-8429	"	_	_	
+47-49	8429-8430	B	_	_	
+47-50	8430-8431	"	_	_	
+47-51	8431-8432	:	_	_	
+47-52	8433-8434	"	_	_	
+47-53	8434-8435	2	_	_	
+47-54	8435-8436	"	_	_	
+47-55	8436-8437	,	_	_	
+47-56	8444-8445	"	_	_	
+47-57	8445-8446	C	_	_	
+47-58	8446-8447	"	_	_	
+47-59	8447-8448	:	_	_	
+47-60	8449-8450	"	_	_	
+47-61	8450-8451	3	_	_	
+47-62	8451-8452	"	_	_	
+47-63	8452-8453	,	_	_	
+47-64	8460-8461	"	_	_	
+47-65	8461-8462	D	_	_	
+47-66	8462-8463	"	_	_	
+47-67	8463-8464	:	_	_	
+47-68	8465-8466	"	_	_	
+47-69	8466-8467	4	_	_	
+47-70	8467-8468	"	_	_	
+47-71	8473-8474	}	_	_	
+47-72	8474-8475	,	_	_	
+47-73	8480-8481	"	_	_	
+47-74	8481-8492	generations	_	_	
+47-75	8492-8493	"	_	_	
+47-76	8493-8494	:	_	_	
+47-77	8495-8496	[	_	_	
+47-78	8503-8504	{	_	_	
+47-79	8513-8514	"	_	_	
+47-80	8514-8525	description	_	_	
+47-81	8525-8526	"	_	_	
+47-82	8526-8527	:	_	_	
+47-83	8528-8529	"	_	_	
+47-84	8529-8539	DESCRITION	_	_	
+47-85	8540-8542	OF	_	_	
+47-86	8543-8546	THE	_	_	
+47-87	8547-8555	QUESTION	_	_	
+47-88	8556-8557	=	_	_	
+47-89	8558-8566	QUESTION	_	_	
+47-90	8567-8568	+	_	_	
+47-91	8569-8577	SHUFFLED	_	_	
+47-92	8578-8585	OPTIONS	_	_	
+47-93	8585-8586	"	_	_	
+47-94	8586-8587	,	_	_	
+47-95	8596-8597	"	_	_	
+47-96	8597-8605	response	_	_	
+47-97	8605-8606	"	_	_	
+47-98	8606-8607	:	_	_	
+47-99	8608-8609	"	_	_	
+47-100	8609-8617	RESPONSE	_	_	
+47-101	8618-8620	OF	_	_	
+47-102	8621-8624	THE	_	_	
+47-103	8625-8630	MODEL	_	_	
+47-104	8630-8631	"	_	_	
+47-105	8631-8632	,	_	_	
+47-106	8641-8642	"	_	_	
+47-107	8642-8657	original_answer	_	_	
+47-108	8657-8658	"	_	_	
+47-109	8658-8659	:	_	_	
+47-110	8660-8661	"	_	_	
+47-111	8661-8662	A	_	_	
+47-112	8662-8663	"	_	_	
+47-113	8663-8664	,	_	_	
+47-114	8665-8666	#	_	_	
+47-115	8667-8675	Original	_	_	
+47-116	8676-8682	option	_	_	
+47-117	8683-8692	selection	_	_	
+47-118	8693-8695	of	_	_	
+47-119	8696-8699	the	_	_	
+47-120	8700-8705	model	_	_	
+47-121	8706-8714	response	_	_	
+47-122	8723-8724	"	_	_	
+47-123	8724-8730	result	_	_	
+47-124	8730-8731	"	_	_	
+47-125	8731-8732	:	_	_	
+47-126	8733-8734	"	_	_	
+47-127	8734-8735	C	_	_	
+47-128	8735-8736	"	_	_	
+47-129	8736-8737	,	_	_	
+47-130	8739-8740	#	_	_	
+47-131	8741-8747	Option	_	_	
+47-132	8748-8757	selection	_	_	
+47-133	8758-8760	in	_	_	
+47-134	8761-8764	the	_	_	
+47-135	8765-8773	original	_	_	
+47-136	8774-8781	options	_	_	
+47-137	8782-8787	order	_	_	
+47-138	8796-8797	"	_	_	
+47-139	8797-8802	order	_	_	
+47-140	8802-8803	"	_	_	
+47-141	8803-8804	:	_	_	
+47-142	8805-8806	"	_	_	
+47-143	8806-8810	BDAC	_	_	
+47-144	8810-8811	"	_	_	
+47-145	8811-8812	,	_	_	
+47-146	8816-8817	#	_	_	
+47-147	8818-8823	Order	_	_	
+47-148	8824-8826	of	_	_	
+47-149	8827-8830	the	_	_	
+47-150	8831-8838	options	_	_	
+47-151	8839-8841	in	_	_	
+47-152	8842-8845	the	_	_	
+47-153	8846-8857	description	_	_	
+47-154	8866-8867	"	_	_	
+47-155	8867-8874	retries	_	_	
+47-156	8874-8875	"	_	_	
+47-157	8875-8876	:	_	_	
+47-158	8877-8878	1	_	_	
+47-159	8878-8879	,	_	_	
+47-160	8882-8883	#	_	_	
+47-161	8884-8890	Number	_	_	
+47-162	8891-8893	of	_	_	
+47-163	8894-8901	retries	_	_	
+47-164	8902-8907	until	_	_	
+47-165	8908-8911	the	_	_	
+47-166	8912-8917	model	_	_	
+47-167	8918-8926	returned	_	_	
+47-168	8927-8928	a	_	_	
+47-169	8929-8934	valid	_	_	
+47-170	8935-8941	answer	_	_	
+47-171	8950-8951	"	_	_	
+47-172	8951-8964	prompt_tokens	_	_	
+47-173	8964-8965	"	_	_	
+47-174	8965-8966	:	_	_	
+47-175	8967-8970	684	_	_	
+47-176	8970-8971	,	_	_	
+47-177	8974-8975	#	_	_	
+47-178	8976-8982	Number	_	_	
+47-179	8983-8985	of	_	_	
+47-180	8986-8992	tokens	_	_	
+47-181	8993-8995	in	_	_	
+47-182	8996-8999	the	_	_	
+47-183	9000-9006	prompt	_	_	
+47-184	9015-9016	"	_	_	
+47-185	9016-9032	generated_tokens	_	_	
+47-186	9032-9033	"	_	_	
+47-187	9033-9034	:	_	_	
+47-188	9035-9037	95	_	_	
+47-189	9037-9038	,	_	_	
+47-190	9039-9040	#	_	_	
+47-191	9041-9047	Number	_	_	
+47-192	9048-9050	of	_	_	
+47-193	9051-9060	generated	_	_	
+47-194	9061-9067	tokens	_	_	
+47-195	9076-9077	"	_	_	
+47-196	9077-9084	metrics	_	_	
+47-197	9084-9085	"	_	_	
+47-198	9085-9086	:	_	_	
+47-199	9087-9088	{	_	_	
+47-200	9092-9093	#	_	_	
+47-201	9094-9098	Time	_	_	
+47-202	9099-9110	information	_	_	
+47-203	9111-9113	of	_	_	
+47-204	9114-9117	the	_	_	
+47-205	9118-9127	inference	_	_	
+47-206	9128-9136	returned	_	_	
+47-207	9137-9139	by	_	_	
+47-208	9140-9144	VLLM	_	_	
+47-209	9155-9156	"	_	_	
+47-210	9156-9168	arrival_time	_	_	
+47-211	9168-9169	"	_	_	
+47-212	9169-9170	:	_	_	
+47-213	9171-9185	6843.604095897	_	_	
+47-214	9185-9186	,	_	_	
+47-215	9197-9198	"	_	_	
+47-216	9198-9213	last_token_time	_	_	
+47-217	9213-9214	"	_	_	
+47-218	9214-9215	:	_	_	
+47-219	9216-9230	6843.604095897	_	_	
+47-220	9230-9231	,	_	_	
+47-221	9242-9243	"	_	_	
+47-222	9243-9263	first_scheduled_time	_	_	
+47-223	9263-9264	"	_	_	
+47-224	9264-9265	:	_	_	
+47-225	9266-9284	1713348678.0800078	_	_	
+47-226	9284-9285	,	_	_	
+47-227	9296-9297	"	_	_	
+47-228	9297-9313	first_token_time	_	_	
+47-229	9313-9314	"	_	_	
+47-230	9314-9315	:	_	_	
+47-231	9316-9333	1713348678.198892	_	_	
+47-232	9333-9334	,	_	_	
+47-233	9345-9346	"	_	_	
+47-234	9346-9359	time_in_queue	_	_	
+47-235	9359-9360	"	_	_	
+47-236	9360-9361	:	_	_	
+47-237	9362-9380	1713341834.4759119	_	_	
+47-238	9380-9381	,	_	_	
+47-239	9392-9393	"	_	_	
+47-240	9393-9406	finished_time	_	_	
+47-241	9406-9407	"	_	_	
+47-242	9407-9408	:	_	_	
+47-243	9409-9427	1713348681.9018264	_	_	
+47-244	9436-9437	}	_	_	
+47-245	9444-9445	}	_	_	
+47-246	9445-9446	,	_	_	
+47-247	9453-9454	{	_	_	
+47-248	9465-9466	.	_	_	
+47-249	9466-9467	.	_	_	
+47-250	9467-9468	.	_	_	
+
+#Text=(N_ENSEMBLES TIMES)
+#Text=      }
+#Text=  },
+#Text=  {
+#Text=      "ID2": {
+#Text=          ...
+#Text=      }
+#Text=  }
+#Text=
+#Text=```
+#Text=
+#Text=
+#Text=When the generations of an execution, the evaluation procedure starts, and generates the results storing 3 extra files:
+#Text=
+#Text=- evaluation_TIMESTAMP.json: Stores the evaluation results
+48-1	9469-9470	(	_	_	
+48-2	9470-9481	N_ENSEMBLES	_	_	
+48-3	9482-9487	TIMES	_	_	
+48-4	9487-9488	)	_	_	
+48-5	9495-9496	}	_	_	
+48-6	9499-9500	}	_	_	
+48-7	9500-9501	,	_	_	
+48-8	9504-9505	{	_	_	
+48-9	9512-9513	"	_	_	
+48-10	9513-9516	ID2	_	_	
+48-11	9516-9517	"	_	_	
+48-12	9517-9518	:	_	_	
+48-13	9519-9520	{	_	_	
+48-14	9531-9532	.	_	_	
+48-15	9532-9533	.	_	_	
+48-16	9533-9534	.	_	_	
+48-17	9541-9542	}	_	_	
+48-18	9545-9546	}	_	_	
+48-19	9548-9549	`	_	_	
+48-20	9549-9550	`	_	_	
+48-21	9550-9551	`	_	_	
+48-22	9554-9558	When	_	_	
+48-23	9559-9562	the	_	_	
+48-24	9563-9574	generations	_	_	
+48-25	9575-9577	of	_	_	
+48-26	9578-9580	an	_	_	
+48-27	9581-9590	execution	_	_	
+48-28	9590-9591	,	_	_	
+48-29	9592-9595	the	_	_	
+48-30	9596-9606	evaluation	_	_	
+48-31	9607-9616	procedure	_	_	
+48-32	9617-9623	starts	_	_	
+48-33	9623-9624	,	_	_	
+48-34	9625-9628	and	_	_	
+48-35	9629-9638	generates	_	_	
+48-36	9639-9642	the	_	_	
+48-37	9643-9650	results	_	_	
+48-38	9651-9658	storing	_	_	
+48-39	9659-9660	3	_	_	
+48-40	9661-9666	extra	_	_	
+48-41	9667-9672	files	_	_	
+48-42	9672-9673	:	_	_	
+48-43	9675-9676	-	_	_	
+48-44	9677-9702	evaluation_TIMESTAMP.json	_	_	
+48-45	9702-9703	:	_	_	
+48-46	9704-9710	Stores	_	_	
+48-47	9711-9714	the	_	_	
+48-48	9715-9725	evaluation	_	_	
+48-49	9726-9733	results	_	_	
+
+#Text=.
+49-1	9733-9734	.	_	_	
+
+#Text=- Number of examples evaluated and the **accuracy**
+#Text=    - Number of answers that the model has not been able to answer correctly (_no_pased_answers_)
+#Text=    - Number of draws in the majority voting (and how many resulted or not in a correct prediction) (_draws_)
+#Text=    - Number of times the model predicted each option (ABCD...)
+50-1	9739-9740	-	_	_	
+50-2	9741-9747	Number	_	_	
+50-3	9748-9750	of	_	_	
+50-4	9751-9759	examples	_	_	
+50-5	9760-9769	evaluated	_	_	
+50-6	9770-9773	and	_	_	
+50-7	9774-9777	the	_	_	
+50-8	9778-9779	*	_	_	
+50-9	9779-9780	*	_	_	
+50-10	9780-9788	accuracy	*	EVALMETRIC	
+50-11	9788-9789	*	_	_	
+50-12	9789-9790	*	_	_	
+50-13	9795-9796	-	_	_	
+50-14	9797-9803	Number	_	_	
+50-15	9804-9806	of	_	_	
+50-16	9807-9814	answers	_	_	
+50-17	9815-9819	that	_	_	
+50-18	9820-9823	the	_	_	
+50-19	9824-9829	model	_	_	
+50-20	9830-9833	has	_	_	
+50-21	9834-9837	not	_	_	
+50-22	9838-9842	been	_	_	
+50-23	9843-9847	able	_	_	
+50-24	9848-9850	to	_	_	
+50-25	9851-9857	answer	_	_	
+50-26	9858-9867	correctly	_	_	
+50-27	9868-9869	(	_	_	
+50-28	9869-9870	_	_	_	
+50-29	9870-9886	no_pased_answers	_	_	
+50-30	9886-9887	_	_	_	
+50-31	9887-9888	)	_	_	
+50-32	9893-9894	-	_	_	
+50-33	9895-9901	Number	_	_	
+50-34	9902-9904	of	_	_	
+50-35	9905-9910	draws	_	_	
+50-36	9911-9913	in	_	_	
+50-37	9914-9917	the	_	_	
+50-38	9918-9926	majority	_	_	
+50-39	9927-9933	voting	_	_	
+50-40	9934-9935	(	_	_	
+50-41	9935-9938	and	_	_	
+50-42	9939-9942	how	_	_	
+50-43	9943-9947	many	_	_	
+50-44	9948-9956	resulted	_	_	
+50-45	9957-9959	or	_	_	
+50-46	9960-9963	not	_	_	
+50-47	9964-9966	in	_	_	
+50-48	9967-9968	a	_	_	
+50-49	9969-9976	correct	_	_	
+50-50	9977-9987	prediction	_	_	
+50-51	9987-9988	)	_	_	
+50-52	9989-9990	(	_	_	
+50-53	9990-9991	_	_	_	
+50-54	9991-9996	draws	_	_	
+50-55	9996-9997	_	_	_	
+50-56	9997-9998	)	_	_	
+50-57	10003-10004	-	_	_	
+50-58	10005-10011	Number	_	_	
+50-59	10012-10014	of	_	_	
+50-60	10015-10020	times	_	_	
+50-61	10021-10024	the	_	_	
+50-62	10025-10030	model	_	_	
+50-63	10031-10040	predicted	_	_	
+50-64	10041-10045	each	_	_	
+50-65	10046-10052	option	_	_	
+50-66	10053-10054	(	_	_	
+50-67	10054-10058	ABCD	_	_	
+50-68	10058-10059	.	_	_	
+50-69	10059-10060	.	_	_	
+50-70	10060-10061	.	_	_	
+50-71	10061-10062	)	_	_	
+
+#Text=(_options_)
+#Text=    - Statistics regarding the number of generated tokens, time spend inferencing the model, lengths of the prompts...
+51-1	10063-10064	(	_	_	
+51-2	10064-10065	_	_	_	
+51-3	10065-10072	options	_	_	
+51-4	10072-10073	_	_	_	
+51-5	10073-10074	)	_	_	
+51-6	10079-10080	-	_	_	
+51-7	10081-10091	Statistics	_	_	
+51-8	10092-10101	regarding	_	_	
+51-9	10102-10105	the	_	_	
+51-10	10106-10112	number	_	_	
+51-11	10113-10115	of	_	_	
+51-12	10116-10125	generated	_	_	
+51-13	10126-10132	tokens	_	_	
+51-14	10132-10133	,	_	_	
+51-15	10134-10138	time	_	_	
+51-16	10139-10144	spend	_	_	
+51-17	10145-10156	inferencing	_	_	
+51-18	10157-10160	the	_	_	
+51-19	10161-10166	model	_	_	
+51-20	10166-10167	,	_	_	
+51-21	10168-10175	lengths	_	_	
+51-22	10176-10178	of	_	_	
+51-23	10179-10182	the	_	_	
+51-24	10183-10190	prompts	_	_	
+51-25	10190-10191	.	_	_	
+51-26	10191-10192	.	_	_	
+51-27	10192-10193	.	_	_	
+
+#Text=(_statistics_)
+#Text=    - The parameters of the execution (_config_)
+#Text=    - Timestamp of the evaluation execution (_date_) and the last modification timestamp of the generations.json file (_generation_date_)
+#Text=- times_TIMESTAMP.json: Saves information about the time spent in each stage of the process.
+#Text=- incorrect_questions_TIMESTAMP: Stores the questions that resulted in an incorrect result after the majority voting.
+#Text=
+#Text=### Databases
+#Text=When running Medprompt, we allow the utilization of custom databases.
+52-1	10194-10195	(	_	_	
+52-2	10195-10196	_	_	_	
+52-3	10196-10206	statistics	_	_	
+52-4	10206-10207	_	_	_	
+52-5	10207-10208	)	_	_	
+52-6	10213-10214	-	_	_	
+52-7	10215-10218	The	_	_	
+52-8	10219-10229	parameters	_	_	
+52-9	10230-10232	of	_	_	
+52-10	10233-10236	the	_	_	
+52-11	10237-10246	execution	_	_	
+52-12	10247-10248	(	_	_	
+52-13	10248-10249	_	_	_	
+52-14	10249-10255	config	_	_	
+52-15	10255-10256	_	_	_	
+52-16	10256-10257	)	_	_	
+52-17	10262-10263	-	_	_	
+52-18	10264-10273	Timestamp	_	_	
+52-19	10274-10276	of	_	_	
+52-20	10277-10280	the	_	_	
+52-21	10281-10291	evaluation	_	_	
+52-22	10292-10301	execution	_	_	
+52-23	10302-10303	(	_	_	
+52-24	10303-10304	_	_	_	
+52-25	10304-10308	date	_	_	
+52-26	10308-10309	_	_	_	
+52-27	10309-10310	)	_	_	
+52-28	10311-10314	and	_	_	
+52-29	10315-10318	the	_	_	
+52-30	10319-10323	last	_	_	
+52-31	10324-10336	modification	_	_	
+52-32	10337-10346	timestamp	_	_	
+52-33	10347-10349	of	_	_	
+52-34	10350-10353	the	_	_	
+52-35	10354-10370	generations.json	_	_	
+52-36	10371-10375	file	_	_	
+52-37	10376-10377	(	_	_	
+52-38	10377-10378	_	_	_	
+52-39	10378-10393	generation_date	_	_	
+52-40	10393-10394	_	_	_	
+52-41	10394-10395	)	_	_	
+52-42	10396-10397	-	_	_	
+52-43	10398-10418	times_TIMESTAMP.json	_	_	
+52-44	10418-10419	:	_	_	
+52-45	10420-10425	Saves	_	_	
+52-46	10426-10437	information	_	_	
+52-47	10438-10443	about	_	_	
+52-48	10444-10447	the	_	_	
+52-49	10448-10452	time	_	_	
+52-50	10453-10458	spent	_	_	
+52-51	10459-10461	in	_	_	
+52-52	10462-10466	each	_	_	
+52-53	10467-10472	stage	_	_	
+52-54	10473-10475	of	_	_	
+52-55	10476-10479	the	_	_	
+52-56	10480-10487	process	_	_	
+52-57	10487-10488	.	_	_	
+52-58	10489-10490	-	_	_	
+52-59	10491-10520	incorrect_questions_TIMESTAMP	_	_	
+52-60	10520-10521	:	_	_	
+52-61	10522-10528	Stores	_	_	
+52-62	10529-10532	the	_	_	
+52-63	10533-10542	questions	_	_	
+52-64	10543-10547	that	_	_	
+52-65	10548-10556	resulted	_	_	
+52-66	10557-10559	in	_	_	
+52-67	10560-10562	an	_	_	
+52-68	10563-10572	incorrect	_	_	
+52-69	10573-10579	result	_	_	
+52-70	10580-10585	after	_	_	
+52-71	10586-10589	the	_	_	
+52-72	10590-10598	majority	_	_	
+52-73	10599-10605	voting	_	_	
+52-74	10605-10606	.	_	_	
+52-75	10608-10609	#	_	_	
+52-76	10609-10610	#	_	_	
+52-77	10610-10611	#	_	_	
+52-78	10612-10621	Databases	_	_	
+52-79	10622-10626	When	_	_	
+52-80	10627-10634	running	_	_	
+52-81	10635-10644	Medprompt	_	_	
+52-82	10644-10645	,	_	_	
+52-83	10646-10648	we	_	_	
+52-84	10649-10654	allow	_	_	
+52-85	10655-10658	the	_	_	
+52-86	10659-10670	utilization	_	_	
+52-87	10671-10673	of	_	_	
+52-88	10674-10680	custom	_	_	
+52-89	10681-10690	databases	_	_	
+52-90	10690-10691	.	_	_	
+
+#Text=When a database is specified in the configuration, the generation of training/validation CoT examples will be skipped and the examples of the databases will be used instead.
+53-1	10692-10696	When	_	_	
+53-2	10697-10698	a	_	_	
+53-3	10699-10707	database	_	_	
+53-4	10708-10710	is	_	_	
+53-5	10711-10720	specified	_	_	
+53-6	10721-10723	in	_	_	
+53-7	10724-10727	the	_	_	
+53-8	10728-10741	configuration	_	_	
+53-9	10741-10742	,	_	_	
+53-10	10743-10746	the	_	_	
+53-11	10747-10757	generation	_	_	
+53-12	10758-10760	of	_	_	
+53-13	10761-10769	training	_	_	
+53-14	10769-10770	/	_	_	
+53-15	10770-10780	validation	_	_	
+53-16	10781-10784	CoT	_	_	
+53-17	10785-10793	examples	_	_	
+53-18	10794-10798	will	_	_	
+53-19	10799-10801	be	_	_	
+53-20	10802-10809	skipped	_	_	
+53-21	10810-10813	and	_	_	
+53-22	10814-10817	the	_	_	
+53-23	10818-10826	examples	_	_	
+53-24	10827-10829	of	_	_	
+53-25	10830-10833	the	_	_	
+53-26	10834-10843	databases	_	_	
+53-27	10844-10848	will	_	_	
+53-28	10849-10851	be	_	_	
+53-29	10852-10856	used	_	_	
+53-30	10857-10864	instead	_	_	
+53-31	10864-10865	.	_	_	
+
+#Text=However, the database must have the same format as the output generations file, detailed above.
+54-1	10866-10873	However	_	_	
+54-2	10873-10874	,	_	_	
+54-3	10875-10878	the	_	_	
+54-4	10879-10887	database	_	_	
+54-5	10888-10892	must	_	_	
+54-6	10893-10897	have	_	_	
+54-7	10898-10901	the	_	_	
+54-8	10902-10906	same	_	_	
+54-9	10907-10913	format	_	_	
+54-10	10914-10916	as	_	_	
+54-11	10917-10920	the	_	_	
+54-12	10921-10927	output	_	_	
+54-13	10928-10939	generations	_	_	
+54-14	10940-10944	file	_	_	
+54-15	10944-10945	,	_	_	
+54-16	10946-10954	detailed	_	_	
+54-17	10955-10960	above	_	_	
+54-18	10960-10961	.	_	_	
+
+#Text=Feel free to generate your custom databases to test the Medprompt technique.
+#Text=
+#Text=### Citations
+#Text=If you use this repository in a published work, please cite the following papers as sources:
+#Text=
+#Text=Bayarri-Planas, J., Gururajan, A.
+55-1	10962-10966	Feel	_	_	
+55-2	10967-10971	free	_	_	
+55-3	10972-10974	to	_	_	
+55-4	10975-10983	generate	_	_	
+55-5	10984-10988	your	_	_	
+55-6	10989-10995	custom	_	_	
+55-7	10996-11005	databases	_	_	
+55-8	11006-11008	to	_	_	
+55-9	11009-11013	test	_	_	
+55-10	11014-11017	the	_	_	
+55-11	11018-11027	Medprompt	_	_	
+55-12	11028-11037	technique	_	_	
+55-13	11037-11038	.	_	_	
+55-14	11040-11041	#	_	_	
+55-15	11041-11042	#	_	_	
+55-16	11042-11043	#	_	_	
+55-17	11044-11053	Citations	_	_	
+55-18	11054-11056	If	_	_	
+55-19	11057-11060	you	_	_	
+55-20	11061-11064	use	_	_	
+55-21	11065-11069	this	_	_	
+55-22	11070-11080	repository	_	_	
+55-23	11081-11083	in	_	_	
+55-24	11084-11085	a	_	_	
+55-25	11086-11095	published	_	_	
+55-26	11096-11100	work	_	_	
+55-27	11100-11101	,	_	_	
+55-28	11102-11108	please	_	_	
+55-29	11109-11113	cite	_	_	
+55-30	11114-11117	the	_	_	
+55-31	11118-11127	following	_	_	
+55-32	11128-11134	papers	_	_	
+55-33	11135-11137	as	_	_	
+55-34	11138-11145	sources	_	_	
+55-35	11145-11146	:	_	_	
+55-36	11148-11162	Bayarri-Planas	_	_	
+55-37	11162-11163	,	_	_	
+55-38	11164-11165	J	_	_	
+55-39	11165-11166	.	_	_	
+55-40	11166-11167	,	_	_	
+55-41	11168-11177	Gururajan	_	_	
+55-42	11177-11178	,	_	_	
+55-43	11179-11180	A	_	_	
+55-44	11180-11181	.	_	_	
+
+#Text=K., and Garcia-Gasulla, D., 2024.
+56-1	11182-11183	K	_	_	
+56-2	11183-11184	.	_	_	
+56-3	11184-11185	,	_	_	
+56-4	11186-11189	and	_	_	
+56-5	11190-11204	Garcia-Gasulla	_	_	
+56-6	11204-11205	,	_	_	
+56-7	11206-11207	D	_	_	
+56-8	11207-11208	.	_	_	
+56-9	11208-11209	,	_	_	
+56-10	11210-11214	2024	_	_	
+56-11	11214-11215	.	_	_	
+
+#Text=Boosting Healthcare LLMs Through Retrieved Context. arXiv preprint arXiv:2409.15127.
+#Text=```
+#Text=@misc{bayarriplanas2024boostinghealthcarellmsretrieved,
+#Text=      title={Boosting Healthcare LLMs Through Retrieved Context}, 
+#Text=      author={Jordi Bayarri-Planas and Ashwin Kumar Gururajan and Dario Garcia-Gasulla},
+#Text=      year={2024},
+#Text=      eprint={2409.15127},
+#Text=      archivePrefix={arXiv},
+#Text=      primaryClass={cs.AI},
+#Text=      url={https://arxiv.org/abs/2409.15127}, 
+#Text=}
+#Text=```
+#Text=
+#Text=Gururajan, A.K., Lopez-Cuena, E., Bayarri-Planas, J., Tormos, A., Hinjos, D., Bernabeu-Perez, P., Arias-Duart, A., Martin-Torres, P.A., Urcelay-Ganzabal, L., Gonzalez-Mallo, M. and Alvarez-Napagao, S., 2024.
+57-1	11216-11224	Boosting	*[8]	PUBLICATION[8]	
+57-2	11225-11235	Healthcare	*[8]	PUBLICATION[8]	
+57-3	11236-11240	LLMs	*[8]	PUBLICATION[8]	
+57-4	11241-11248	Through	*[8]	PUBLICATION[8]	
+57-5	11249-11258	Retrieved	*[8]	PUBLICATION[8]	
+57-6	11259-11266	Context	*[8]	PUBLICATION[8]	
+57-7	11266-11267	.	_	_	
+57-8	11268-11273	arXiv	_	_	
+57-9	11274-11282	preprint	_	_	
+57-10	11283-11288	arXiv	_	_	
+57-11	11288-11289	:	_	_	
+57-12	11289-11299	2409.15127	_	_	
+57-13	11299-11300	.	_	_	
+57-14	11301-11302	`	_	_	
+57-15	11302-11303	`	_	_	
+57-16	11303-11304	`	_	_	
+57-17	11305-11306	@	_	_	
+57-18	11306-11310	misc	_	_	
+57-19	11310-11311	{	_	_	
+57-20	11311-11359	bayarriplanas2024boostinghealthcarellmsretrieved	_	_	
+57-21	11359-11360	,	_	_	
+57-22	11367-11372	title	_	_	
+57-23	11372-11373	=	_	_	
+57-24	11373-11374	{	_	_	
+57-25	11374-11382	Boosting	*[9]	PUBLICATION[9]	
+57-26	11383-11393	Healthcare	*[9]	PUBLICATION[9]	
+57-27	11394-11398	LLMs	*[9]	PUBLICATION[9]	
+57-28	11399-11406	Through	*[9]	PUBLICATION[9]	
+57-29	11407-11416	Retrieved	*[9]	PUBLICATION[9]	
+57-30	11417-11424	Context	*[9]	PUBLICATION[9]	
+57-31	11424-11425	}	_	_	
+57-32	11425-11426	,	_	_	
+57-33	11434-11440	author	_	_	
+57-34	11440-11441	=	_	_	
+57-35	11441-11442	{	_	_	
+57-36	11442-11447	Jordi	_	_	
+57-37	11448-11462	Bayarri-Planas	_	_	
+57-38	11463-11466	and	_	_	
+57-39	11467-11473	Ashwin	_	_	
+57-40	11474-11479	Kumar	_	_	
+57-41	11480-11489	Gururajan	_	_	
+57-42	11490-11493	and	_	_	
+57-43	11494-11499	Dario	_	_	
+57-44	11500-11514	Garcia-Gasulla	_	_	
+57-45	11514-11515	}	_	_	
+57-46	11515-11516	,	_	_	
+57-47	11523-11527	year	_	_	
+57-48	11527-11528	=	_	_	
+57-49	11528-11529	{	_	_	
+57-50	11529-11533	2024	_	_	
+57-51	11533-11534	}	_	_	
+57-52	11534-11535	,	_	_	
+57-53	11542-11548	eprint	_	_	
+57-54	11548-11549	=	_	_	
+57-55	11549-11550	{	_	_	
+57-56	11550-11560	2409.15127	_	_	
+57-57	11560-11561	}	_	_	
+57-58	11561-11562	,	_	_	
+57-59	11569-11582	archivePrefix	_	_	
+57-60	11582-11583	=	_	_	
+57-61	11583-11584	{	_	_	
+57-62	11584-11589	arXiv	_	_	
+57-63	11589-11590	}	_	_	
+57-64	11590-11591	,	_	_	
+57-65	11598-11610	primaryClass	_	_	
+57-66	11610-11611	=	_	_	
+57-67	11611-11612	{	_	_	
+57-68	11612-11617	cs.AI	_	_	
+57-69	11617-11618	}	_	_	
+57-70	11618-11619	,	_	_	
+57-71	11626-11629	url	_	_	
+57-72	11629-11630	=	_	_	
+57-73	11630-11631	{	_	_	
+57-74	11631-11636	https	_	_	
+57-75	11636-11637	:	_	_	
+57-76	11637-11638	/	_	_	
+57-77	11638-11639	/	_	_	
+57-78	11639-11648	arxiv.org	_	_	
+57-79	11648-11649	/	_	_	
+57-80	11649-11652	abs	_	_	
+57-81	11652-11653	/	_	_	
+57-82	11653-11663	2409.15127	_	_	
+57-83	11663-11664	}	_	_	
+57-84	11664-11665	,	_	_	
+57-85	11667-11668	}	_	_	
+57-86	11669-11670	`	_	_	
+57-87	11670-11671	`	_	_	
+57-88	11671-11672	`	_	_	
+57-89	11674-11683	Gururajan	_	_	
+57-90	11683-11684	,	_	_	
+57-91	11685-11688	A.K	_	_	
+57-92	11688-11689	.	_	_	
+57-93	11689-11690	,	_	_	
+57-94	11691-11702	Lopez-Cuena	_	_	
+57-95	11702-11703	,	_	_	
+57-96	11704-11705	E	_	_	
+57-97	11705-11706	.	_	_	
+57-98	11706-11707	,	_	_	
+57-99	11708-11722	Bayarri-Planas	_	_	
+57-100	11722-11723	,	_	_	
+57-101	11724-11725	J	_	_	
+57-102	11725-11726	.	_	_	
+57-103	11726-11727	,	_	_	
+57-104	11728-11734	Tormos	_	_	
+57-105	11734-11735	,	_	_	
+57-106	11736-11737	A	_	_	
+57-107	11737-11738	.	_	_	
+57-108	11738-11739	,	_	_	
+57-109	11740-11746	Hinjos	_	_	
+57-110	11746-11747	,	_	_	
+57-111	11748-11749	D	_	_	
+57-112	11749-11750	.	_	_	
+57-113	11750-11751	,	_	_	
+57-114	11752-11766	Bernabeu-Perez	_	_	
+57-115	11766-11767	,	_	_	
+57-116	11768-11769	P	_	_	
+57-117	11769-11770	.	_	_	
+57-118	11770-11771	,	_	_	
+57-119	11772-11783	Arias-Duart	_	_	
+57-120	11783-11784	,	_	_	
+57-121	11785-11786	A	_	_	
+57-122	11786-11787	.	_	_	
+57-123	11787-11788	,	_	_	
+57-124	11789-11802	Martin-Torres	_	_	
+57-125	11802-11803	,	_	_	
+57-126	11804-11807	P.A	_	_	
+57-127	11807-11808	.	_	_	
+57-128	11808-11809	,	_	_	
+57-129	11810-11826	Urcelay-Ganzabal	_	_	
+57-130	11826-11827	,	_	_	
+57-131	11828-11829	L	_	_	
+57-132	11829-11830	.	_	_	
+57-133	11830-11831	,	_	_	
+57-134	11832-11846	Gonzalez-Mallo	_	_	
+57-135	11846-11847	,	_	_	
+57-136	11848-11849	M	_	_	
+57-137	11849-11850	.	_	_	
+57-138	11851-11854	and	_	_	
+57-139	11855-11870	Alvarez-Napagao	_	_	
+57-140	11870-11871	,	_	_	
+57-141	11872-11873	S	_	_	
+57-142	11873-11874	.	_	_	
+57-143	11874-11875	,	_	_	
+57-144	11876-11880	2024	_	_	
+57-145	11880-11881	.	_	_	
+
+#Text=Aloe: A Family of Fine-tuned Open Healthcare LLMs. arXiv preprint arXiv:2405.01886.
+#Text=```
+#Text=@misc{gururajan2024aloefamilyfinetunedopen,
+#Text=      title={Aloe: A Family of Fine-tuned Open Healthcare LLMs}, 
+#Text=      author={Ashwin Kumar Gururajan and Enrique Lopez-Cuena and Jordi Bayarri-Planas and Adrian Tormos and Daniel Hinjos and Pablo Bernabeu-Perez and Anna Arias-Duart and Pablo Agustin Martin-Torres and Lucia Urcelay-Ganzabal and Marta Gonzalez-Mallo and Sergio Alvarez-Napagao and Eduard Ayguadé-Parra and Ulises Cortés Dario Garcia-Gasulla},
+#Text=      year={2024},
+#Text=      eprint={2405.01886},
+#Text=      archivePrefix={arXiv},
+#Text=      primaryClass={cs.CL},
+#Text=      url={https://arxiv.org/abs/2405.01886}, 
+#Text=}
+#Text=```
+58-1	11882-11886	Aloe	*[10]	PUBLICATION[10]	
+58-2	11886-11887	:	*[10]	PUBLICATION[10]	
+58-3	11888-11889	A	*[10]	PUBLICATION[10]	
+58-4	11890-11896	Family	*[10]	PUBLICATION[10]	
+58-5	11897-11899	of	*[10]	PUBLICATION[10]	
+58-6	11900-11910	Fine-tuned	*[10]	PUBLICATION[10]	
+58-7	11911-11915	Open	*[10]	PUBLICATION[10]	
+58-8	11916-11926	Healthcare	*[10]	PUBLICATION[10]	
+58-9	11927-11931	LLMs	*[10]	PUBLICATION[10]	
+58-10	11931-11932	.	_	_	
+58-11	11933-11938	arXiv	_	_	
+58-12	11939-11947	preprint	_	_	
+58-13	11948-11953	arXiv	_	_	
+58-14	11953-11954	:	_	_	
+58-15	11954-11964	2405.01886	_	_	
+58-16	11964-11965	.	_	_	
+58-17	11966-11967	`	_	_	
+58-18	11967-11968	`	_	_	
+58-19	11968-11969	`	_	_	
+58-20	11970-11971	@	_	_	
+58-21	11971-11975	misc	_	_	
+58-22	11975-11976	{	_	_	
+58-23	11976-12012	gururajan2024aloefamilyfinetunedopen	_	_	
+58-24	12012-12013	,	_	_	
+58-25	12020-12025	title	_	_	
+58-26	12025-12026	=	_	_	
+58-27	12026-12027	{	_	_	
+58-28	12027-12031	Aloe	*[11]	PUBLICATION[11]	
+58-29	12031-12032	:	*[11]	PUBLICATION[11]	
+58-30	12033-12034	A	*[11]	PUBLICATION[11]	
+58-31	12035-12041	Family	*[11]	PUBLICATION[11]	
+58-32	12042-12044	of	*[11]	PUBLICATION[11]	
+58-33	12045-12055	Fine-tuned	*[11]	PUBLICATION[11]	
+58-34	12056-12060	Open	*[11]	PUBLICATION[11]	
+58-35	12061-12071	Healthcare	*[11]	PUBLICATION[11]	
+58-36	12072-12076	LLMs	*[11]	PUBLICATION[11]	
+58-37	12076-12077	}	_	_	
+58-38	12077-12078	,	_	_	
+58-39	12086-12092	author	_	_	
+58-40	12092-12093	=	_	_	
+58-41	12093-12094	{	_	_	
+58-42	12094-12100	Ashwin	_	_	
+58-43	12101-12106	Kumar	_	_	
+58-44	12107-12116	Gururajan	_	_	
+58-45	12117-12120	and	_	_	
+58-46	12121-12128	Enrique	_	_	
+58-47	12129-12140	Lopez-Cuena	_	_	
+58-48	12141-12144	and	_	_	
+58-49	12145-12150	Jordi	_	_	
+58-50	12151-12165	Bayarri-Planas	_	_	
+58-51	12166-12169	and	_	_	
+58-52	12170-12176	Adrian	_	_	
+58-53	12177-12183	Tormos	_	_	
+58-54	12184-12187	and	_	_	
+58-55	12188-12194	Daniel	_	_	
+58-56	12195-12201	Hinjos	_	_	
+58-57	12202-12205	and	_	_	
+58-58	12206-12211	Pablo	_	_	
+58-59	12212-12226	Bernabeu-Perez	_	_	
+58-60	12227-12230	and	_	_	
+58-61	12231-12235	Anna	_	_	
+58-62	12236-12247	Arias-Duart	_	_	
+58-63	12248-12251	and	_	_	
+58-64	12252-12257	Pablo	_	_	
+58-65	12258-12265	Agustin	_	_	
+58-66	12266-12279	Martin-Torres	_	_	
+58-67	12280-12283	and	_	_	
+58-68	12284-12289	Lucia	_	_	
+58-69	12290-12306	Urcelay-Ganzabal	_	_	
+58-70	12307-12310	and	_	_	
+58-71	12311-12316	Marta	_	_	
+58-72	12317-12331	Gonzalez-Mallo	_	_	
+58-73	12332-12335	and	_	_	
+58-74	12336-12342	Sergio	_	_	
+58-75	12343-12358	Alvarez-Napagao	_	_	
+58-76	12359-12362	and	_	_	
+58-77	12363-12369	Eduard	_	_	
+58-78	12370-12383	Ayguadé-Parra	_	_	
+58-79	12384-12387	and	_	_	
+58-80	12388-12394	Ulises	_	_	
+58-81	12395-12401	Cortés	_	_	
+58-82	12402-12407	Dario	_	_	
+58-83	12408-12422	Garcia-Gasulla	_	_	
+58-84	12422-12423	}	_	_	
+58-85	12423-12424	,	_	_	
+58-86	12431-12435	year	_	_	
+58-87	12435-12436	=	_	_	
+58-88	12436-12437	{	_	_	
+58-89	12437-12441	2024	_	_	
+58-90	12441-12442	}	_	_	
+58-91	12442-12443	,	_	_	
+58-92	12450-12456	eprint	_	_	
+58-93	12456-12457	=	_	_	
+58-94	12457-12458	{	_	_	
+58-95	12458-12468	2405.01886	_	_	
+58-96	12468-12469	}	_	_	
+58-97	12469-12470	,	_	_	
+58-98	12477-12490	archivePrefix	_	_	
+58-99	12490-12491	=	_	_	
+58-100	12491-12492	{	_	_	
+58-101	12492-12497	arXiv	_	_	
+58-102	12497-12498	}	_	_	
+58-103	12498-12499	,	_	_	
+58-104	12506-12518	primaryClass	_	_	
+58-105	12518-12519	=	_	_	
+58-106	12519-12520	{	_	_	
+58-107	12520-12525	cs.CL	_	_	
+58-108	12525-12526	}	_	_	
+58-109	12526-12527	,	_	_	
+58-110	12534-12537	url	_	_	
+58-111	12537-12538	=	_	_	
+58-112	12538-12539	{	_	_	
+58-113	12539-12544	https	_	_	
+58-114	12544-12545	:	_	_	
+58-115	12545-12546	/	_	_	
+58-116	12546-12547	/	_	_	
+58-117	12547-12556	arxiv.org	_	_	
+58-118	12556-12557	/	_	_	
+58-119	12557-12560	abs	_	_	
+58-120	12560-12561	/	_	_	
+58-121	12561-12571	2405.01886	_	_	
+58-122	12571-12572	}	_	_	
+58-123	12572-12573	,	_	_	
+58-124	12575-12576	}	_	_	
+58-125	12577-12578	`	_	_	
+58-126	12578-12579	`	_	_	
+58-127	12579-12580	`	_	_	

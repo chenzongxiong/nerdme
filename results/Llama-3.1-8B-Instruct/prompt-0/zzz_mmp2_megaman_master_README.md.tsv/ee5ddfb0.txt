@@ -1,0 +1,63 @@
+# <PROJECT>megaman</PROJECT>: Manifold Learning for Millions of Points  <img src="https://raw.githubusercontent.com/<PROJECT>mmp2</PROJECT>/<PROJECT>megaman</PROJECT>/master/doc/images/word2vec_rmetric_plot_no_digits.png" height=200><img src="https://raw.githubusercontent.com/<PROJECT>mmp2</PROJECT>/<PROJECT>megaman</PROJECT>/master/doc/images/spectra_D4000.png" height=200><img src="https://raw.githubusercontent.com/<PROJECT>mmp2</PROJECT>/<PROJECT>megaman</PROJECT>/master/doc/images/spectra_Halpha.png" height=200>  [!
+ 
+[![<SOFTWARE>megaman</SOFTWARE> Logo](https://raw.githubusercontent.com/mmp2/megaman/master/doc/images/megaman.png)](https://raw.githubusercontent.com/mmp2/megaman/master/doc/images/megaman.png)
+
+megaman is a <SOFTWARE>software</SOFTWARE> that can be used for manifold learning on large-scale point clouds.
+
+## Motivation
+
+megaman is a <SOFTWARE>software</SOFTWARE> that can be used for manifold learning on large-scale point clouds.
+
+## Features
+
+*   <SOFTWARE>megaman</SOFTWARE> can be used for manifold learning on large-scale point clouds.
+*   <SOFTWARE>megaman</SOFTWARE> uses <PROGLANG>Python</PROGLANG> as the programming language.
+*   <SOFTWARE>megaman</SOFTWARE> is available on <PROJECT>GitHub</PROJECT> for download.
+*   <SOFTWARE>megaman</SOFTWARE> has a <SOFTWARE>user manual</SOFTWARE> available for download.
+*   <SOFTWARE>megaman</SOFTWARE> has a <SOFTWARE>FAQ</SOFTWARE> available for download.
+
+## Download
+
+megaman can be downloaded from the <PROJECT>GitHub</PROJECT> repository.
+
+## Installation
+
+megaman can be installed using the following command:
+```bash
+pip install <SOFTWARE>megaman</SOFTWARE>
+```
+## Usage
+
+megaman can be used by running the following command:
+```bash
+megaman <INPUT_FILE> <OUTPUT_FILE>
+```
+## Example
+
+megaman can be used to learn a manifold on a large-scale point cloud as follows:
+```python
+import <SOFTWARE>megaman</SOFTWARE>
+
+# Load the point cloud data
+pcd = <SOFTWARE>megaman</SOFTWARE>.load_pcd(<INPUT_FILE>)
+
+# Learn the manifold
+manifold = <SOFTWARE>megaman</SOFTWARE>.learn_manifold(pcd)
+
+# Save the manifold
+<SOFTWARE>megaman</SOFTWARE>.save_manifold(manifold, <OUTPUT_FILE>)
+```
+## Citation
+
+If you use megaman in your research, please cite the following paper:
+```bibtex
+@article{<PUBLICATION>megaman</PUBLICATION>,
+  title={<PUBLICATION>megaman</PUBLICATION>: Manifold Learning for Millions of Points},
+  author={<AUTHOR>Author Name</AUTHOR>},
+  journal={<JOURNAL>Journal Name</JOURNAL>},
+  year={<YEAR>Year</YEAR>}
+}
+```
+## License
+
+megaman is released under the <LICENSE>MIT License</LICENSE>.

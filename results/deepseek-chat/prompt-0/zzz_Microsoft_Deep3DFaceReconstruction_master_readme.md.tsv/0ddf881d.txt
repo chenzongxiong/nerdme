@@ -1,0 +1,1 @@
+Our model may give inferior results for images with severe perspetive distortions (e.g., some selfies).

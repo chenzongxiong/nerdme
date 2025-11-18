@@ -1,0 +1,1 @@
+Run script to pre-process script and create train, val, test splits:     ```     bash scripts/preprocess_data.sh     ``` 3.

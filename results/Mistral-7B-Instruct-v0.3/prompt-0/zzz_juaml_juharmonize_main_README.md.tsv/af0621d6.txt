@@ -1,0 +1,1 @@
+`Traditional harmonization methods like <PROGLANG>ComBat</PROGLANG>, while widely used, often struggle with data leakage, leading to compromised model performance.`

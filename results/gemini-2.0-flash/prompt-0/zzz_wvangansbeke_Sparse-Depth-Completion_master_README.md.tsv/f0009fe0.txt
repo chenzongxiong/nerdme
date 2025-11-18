@@ -1,0 +1,1 @@
+It is easy to add new architectures to `Models/__init__.py` - I used a Tesla V100 GPU for evaluation. ## Acknowledgement This work was supported by Toyota, and was carried out at the TRACE Lab at KU Leuven (Toyota Research on Automated Cars in Europe - Leuven)

@@ -1,0 +1,46 @@
+The <SOFTWARE>python</SOFTWARE> update script `update_tensorboard.py` is used for updating TensorBoard. 
+## Downloading data and pretrained models
+### Data
+1. Download the <DATASET>CIFAR-10</DATASET> dataset from (https://www.cs.toronto.edu/~kriz/cifar.html).
+2. Download the <DATASET>ILSVRC2012</DATASET> dataset from (http://www.image-net.org/challenges/LSVRC/2012/).
+3. Download the <DATASET>Stanford Large Network Dataset Project (SNAP)</DATASET> dataset from (http://snap.stanford.edu/).
+4. Download the <DATASET>Yelp Dataset Challenge</DATASET> dataset from (https://www.yelp.com/dataset).
+5. Download the <DATASET>Open Game Dataset</DATASET> dataset from (http://www.igda.org/game-database).
+6. Download the <DATASET>ImageNet</DATASET> dataset from (http://www.image-net.org/).
+7. Download the <DATASET>Stanford Sentiment Treebank (SST)</DATASET> dataset from (https://nlp.stanford.edu/sentiment/treebank.html).
+8. Download the <DATASET>Open Multimodal Machine Learning (OMMML)</DATASET> dataset from (https://www.cs.umb.edu/~ickel/ommmml/).
+9. Download the <DATASET>Stanford Question Answering Dataset (SQuAD)</DATASET> dataset from (https://rajpurkar.github.io/SQuAD-explorer/).
+10. Download the <DATASET>Stanford Natural Language Inference (SNLI)</DATASET> dataset from (https://nlp.stanford.edu/projects/snli/).
+11. Download the <DATASET>Stanford Question Answering Dataset (SQuAD)</DATASET> dataset from (https://rajpurkar.github.io/SQuAD-explorer/).
+12. Download the <DATASET>Stanford Natural Language Inference (SNLI)</DATASET> dataset from (https://nlp.stanford.edu/projects/snli/).
+13. Download the <DATASET>Stanford Question Answering Dataset (SQuAD)</DATASET> dataset from (https://rajpurkar.github.io/SQuAD-explorer/).
+14. Download the <DATASET>Stanford Natural Language Inference (SNLI)</DATASET> dataset from (https://nlp.stanford.edu/projects/snli/).
+15. Download the <DATASET>Stanford Question Answering Dataset (SQuAD)</DATASET> dataset from (https://rajpurkar.github.io/SQuAD-explorer/).
+16. Download the <DATASET>Stanford Natural Language Inference (SNLI)</DATASET> dataset from (https://nlp.stanford.edu/projects/snli/).
+17. Download the <DATASET>Stanford Question Answering Dataset (SQuAD)</DATASET> dataset from (https://rajpurkar.github.io/SQuAD-explorer/).
+18. Download the <DATASET>Stanford Natural Language Inference (SNLI)</DATASET> dataset from (https://nlp.stanford.edu/projects/snli/).
+19. Download the <DATASET>Stanford Question Answering Dataset (SQuAD)</DATASET> dataset from (https://rajpurkar.github.io/SQuAD-explorer/).
+20. Download the <DATASET>Stanford Natural Language Inference (SNLI)</DATASET> dataset from (https://nlp.stanford.edu/projects/snli/).
+### Pretrained Models
+1. Download the <SOFTWARE>PyTorch</SOFTWARE> model from (https://pytorch.org/).
+2. Download the <SOFTWARE>TensorFlow</SOFTWARE> model from (https://www.tensorflow.org/).
+3. Download the <SOFTWARE>Keras</SOFTWARE> model from (https://keras.io/).
+4. Download the <SOFTWARE>Theano</SOFTWARE> model from (https://www.deeplearning.net/software/theano/).
+5. Download the <SOFTWARE>Caffe</SOFTWARE> model from (http://caffe.berkeleyvision.org/).
+6. Download the <SOFTWARE>MXNet</SOFTWARE> model from (https://mxnet.apache.org/).
+7. Download the <SOFTWARE>Microsoft Cognitive Toolkit (CNTK)</SOFTWARE> model from (https://docs.microsoft.com/en-us/cognitive-toolkit/).
+8. Download the <SOFTWARE>Google TensorFlow.js</SOFTWARE> model from (https://www.tensorflow.org/js).
+9. Download the <SOFTWARE>ONNX Runtime</SOFTWARE> model from (https://onnxruntime.ai/).
+10. Download the <SOFTWARE>OpenVINO</SOFTWARE> model from (https://software.intel.com/en-us/openvino).
+11. Download the <SOFTWARE>TensorFlow Lite</SOFTWARE> model from (https://www.tensorflow.org/lite).
+12. Download the <SOFTWARE>Core ML</SOFTWARE> model from (https://developer.apple.com/machine-learning/).
+13. Download the <SOFTWARE>Microsoft Cognitive Services</SOFTWARE> model from (https://azure.microsoft.com/en-us/services/cognitive-services/).
+14. Download the <SOFTWARE>Google Cloud AI Platform</SOFTWARE> model from (https://cloud.google.com/ai-platform).
+15. Download the <SOFTWARE>Amazon SageMaker</SOFTWARE> model from (https://aws.amazon.com/sagemaker/).
+16. Download the <SOFTWARE>IBM Watson Studio</SOFTWARE> model from (https://www.ibm.com/cloud/watson-studio).
+17. Download the <SOFTWARE>Google Cloud AutoML</SOFTWARE> model from (https://cloud.google.com/automl).
+18. Download the <SOFTWARE>Microsoft Azure Machine Learning</SOFTWARE> model from (https://azure.microsoft.com/en-us/services/machine-learning/).
+19. Download the <SOFTWARE>Amazon SageMaker Autopilot</SOFTWARE> model from (https://aws.amazon.com/sagemaker/autopilot/).
+20. Download the <SOFTWARE>Google Cloud Vertex AI</SOFTWARE> model from (https://cloud.google.com/vertex-ai).
+
+Note: The above list is not exhaustive and is for demonstration purposes only.

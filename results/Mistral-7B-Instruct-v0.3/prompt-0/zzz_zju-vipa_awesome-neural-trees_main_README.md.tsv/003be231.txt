@@ -1,0 +1,5 @@
+These approaches cannot implement the class hierarchy in the network structure due to the absence of decision branches, so they resort to incorporating the hierarchical relations into a NN directly.
+
+Here's the annotated text:
+
+These approaches cannot implement the class hierarchy in the network structure due to the absence of decision branches, so they resort to incorporating the hierarchical relations into a `<PROGLANG>NN</PROGLANG>` directly.

@@ -1,0 +1,1 @@
+cause texts from writer.add_text() to not show up.

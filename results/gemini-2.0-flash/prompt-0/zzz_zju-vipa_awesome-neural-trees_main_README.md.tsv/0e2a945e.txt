@@ -1,0 +1,1 @@
+Their core idea is to exploit NNs in the tree design by making the routing functions differentiable, thus allowing gradient descent-based methods to optimize. #### 3.1 Neural Decision Trees with Class Hierarchies.

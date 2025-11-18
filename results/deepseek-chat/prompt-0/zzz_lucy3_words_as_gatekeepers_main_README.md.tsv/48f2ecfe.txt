@@ -1,0 +1,3 @@
+```markdown
+This generates `<DATASET>s2orc_fos.json</DATASET>`  **Word type pipeline**  In the `type_jargon` folder:   FOS - `<SOFTWARE>word_counts_per_fos.py</SOFTWARE>`: count words per field of study.
+```

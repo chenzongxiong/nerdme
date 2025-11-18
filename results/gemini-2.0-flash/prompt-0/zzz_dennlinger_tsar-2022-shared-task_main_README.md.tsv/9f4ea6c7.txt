@@ -1,0 +1,1 @@
+<br/>[<PROJECT>TSAR-2022 Shared-Task</PROJECT> website](https://taln.upf.edu/pages/tsar2022-st/) ## <DATASET>Datasets</DATASET> There is no training dataset for the <PROJECT>TSAR-2022 Shared Task</PROJECT>.

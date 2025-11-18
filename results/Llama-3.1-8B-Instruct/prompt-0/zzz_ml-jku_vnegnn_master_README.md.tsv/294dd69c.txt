@@ -1,0 +1,57 @@
+```markdown
+```python
+python train.py --config-name=config_binding_hetero <SOFTWARE>hydra</SOFTWARE>=<SOFTWARE>meluxina</SOFTWARE> --multirun        # homogenous model traind on SLURM <SOFTWARE>hydra</SOFTWARE>=<SOFTWARE>meluxina</SOFTWARE>
+```
+
+### Run on test <DATASET>dataset</DATASET>
+
+```python
+# Run this from the root of the project
+from src.models.egnn import <SOFTWARE>EGNNClassifierGlobalNodeHetero</SOFTWARE>
+from <SOFTWARE>hydra.utils</SOFTWARE> import instantiate
+import <SOFTWARE>pytorch_lightning</SOFTWARE> as pl
+
+path_to_config = "/path/to_config/"
+cfg = <SOFTWARE>OmegaConf</SOFTWARE>.create(run.config)
+
+      <DATASET>datamodule</DATASET> = instantiate(cfg.<DATASET>datamodule</DATASET>)
+ckpt_file = "/path/to/your/checkpoint.ckpt"
+
+      <SOFTWARE>model</SOFTWARE> = <SOFTWARE>EGNNClassifierGlobalNodeHetero</SOFTWARE>.load_from_checkpoint(
+     ckpt_file,
+     strict=False,
+     segmentation_loss=instantiate(cfg.<DATASET>model</DATASET>.segmentation_loss),
+     global_node_pos_loss=instantiate(cfg.<DATASET>model</DATASET>.global_node_pos_loss),
+)
+<SOFTWARE>model</SOFTWARE>.eval()
+
+trainer = pl.Trainer(devices=1)
+loader = <DATASET>datamodule</DATASET>.named_test_loaders["<DATASET>test_coach420</DATASET>"] # name of <DATASET>dataloader</DATASET> ["<DATASET>test_coach420</DATASET>", "<DATASET>test_pdbbind2020</DATASET>", "<DATASET>test_holo4k</DATASET>"]
+trainer.test(<SOFTWARE>model</SOFTWARE>, dataloaders=loader)
+
+                 # CAUTION: for the <DATASET>test_holo4k</DATASET> <DATASET>dataset</DATASET>, if you evalute it like this you will get lower scores than reported in the paper,
+# For the results in the paper we splitted the proteins into chains, run the predictions and combined them (clean code for this procedure will be released in future)
+# The intuition behind this step is explained in the paper.
+```
+
+## <PUBLICATION>Citation</PUBLICATION>
+
+```markdown
+@misc{<PUBLICATION>sestak2024vnegnn</PUBLICATION>,
+       <PUBLICATION>title</PUBLICATION>=<PUBLICATION> VN-EGNN: E(3)-Equivariant Graph Neural Networks with Virtual Nodes Enhance Protein Binding Site Identification</PUBLICATION>,
+        <PUBLICATION>author</PUBLICATION>=<PUBLICATION>Florian Sestak and Lisa Schneckenreiter and Johannes Brandstetter and Sepp Hochreiter and Andreas Mayr and Günter Klambauer</PUBLICATION>,
+       <PUBLICATION>year</PUBLICATION>=<PUBLICATION>2024</PUBLICATION>,
+       <PUBLICATION>eprint</PUBLICATION>=<PUBLICATION>2404.07194</PUBLICATION>,
+       <PUBLICATION>archivePrefix</PUBLICATION>=<PUBLICATION>arXiv</PUBLICATION>,
+       <PUBLICATION>primaryClass</PUBLICATION>=<PUBLICATION>cs.LG</PUBLICATION>
+}
+```
+
+## <LICENSE>License</LICENSE>
+
+<LICENSE>MIT</LICENSE>
+
+## <PUBLICATION>Acknowledgements</PUBLICATION>
+
+The <SOFTWARE>ELLIS Unit Linz</SOFTWARE>, the <SOFTWARE>LIT AI Lab</SOFTWARE>, the <SOFTWARE>Institute for Ma- chine Learning</SOFTWARE>, are supported by the Federal State Upper Austria.
+```

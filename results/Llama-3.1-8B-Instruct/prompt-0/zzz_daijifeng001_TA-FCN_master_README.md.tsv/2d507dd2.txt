@@ -1,0 +1,1 @@
+The <SOFTWARE>Microsoft OneDrive</SOFTWARE> model is available for download. To run the demo with our trained model (on <DATASET>COCO trainval35k</DATASET>), please download the model manually from <SOFTWARE>OneDrive</SOFTWARE> (<https://1drv.ms/u/s!...>).

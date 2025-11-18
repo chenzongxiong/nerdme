@@ -1,0 +1,4 @@
+### Reader Results  |   val F1  |  test F1  |  val Recall |  test Recall |  val Precision  |  test Precision  | |:-----------:|:-----------:|:-------------:|:--------------:|:-----------------:|:------------------:| |   87.32%  |   84.4%  |   90.23%    |    87.0%    |     84.6%      |      81.96%      |
+
+## <SOFTWARE>GERBIL</SOFTWARE> evaluation Our <SOFTWARE>GERBIL</SOFTWARE> evaluation steps follow <PUBLICATION>here</PUBLICATION> (<SOFTWARE>GERBIL</SOFTWARE> evaluation steps follow [https://github.com/dalab/end2end_neural_el](https://github.com/dalab/end2end_neural_el)), specifically:
+1.

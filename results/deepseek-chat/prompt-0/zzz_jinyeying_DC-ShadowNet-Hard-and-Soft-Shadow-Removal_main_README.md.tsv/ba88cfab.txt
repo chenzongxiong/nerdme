@@ -1,0 +1,3 @@
+```markdown
+<DATASET>LRSS Soft Shadow Dataset</DATASET> Evaluation set the paths of the shadow removal result and the dataset in `evaluation/demo_lrss_release.m` and then run it. ``` demo_lrss_release.m ```  Get the following Table 3 in the main paper on the <DATASET>LRSS</DATASET> dataset (size: 256x256): | Method | Training | All |  |------------------|----------|----------| | **DC-ShadowNet** | Unpaired | **3.48** | | Input Image | N/A | 12.26 |   ## Acknowledgments Code is implemented based [<SOFTWARE>U-GAT-IT</SOFTWARE>](https://github.com/znxlwm/UGATIT-pytorch), we would like to thank them.
+```

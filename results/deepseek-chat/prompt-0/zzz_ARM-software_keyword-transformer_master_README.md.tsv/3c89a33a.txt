@@ -1,0 +1,3 @@
+```markdown
+/venv3/bin/activate ```  To install dependencies, run  ```shell pip install -r requirements.txt ```  Tested using `<SOFTWARE>Tensorflow 2.4.0rc1</SOFTWARE>` with `<SOFTWARE>CUDA 11</SOFTWARE>`.
+```

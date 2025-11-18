@@ -1,0 +1,1 @@
+`src/pre_process/pre_proc_gorc.py:` Code to gather full text articles from the [<DATASET>S2ORC</DATASET>](https://github.com/allenai/s2orc) corpus, exclude noisy data, and gather co-citations for different domains used in the paper (biomedical papers and computer science papers).

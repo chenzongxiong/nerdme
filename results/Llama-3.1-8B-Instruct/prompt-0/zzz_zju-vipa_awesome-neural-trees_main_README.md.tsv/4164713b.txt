@@ -1,0 +1,1 @@
+The <PUBLICATION>"Layered neural net design through decision trees"</PUBLICATION> by I.K. Sethi was presented at the <CONFERENCE>ISCAS 1990</CONFERENCE>.

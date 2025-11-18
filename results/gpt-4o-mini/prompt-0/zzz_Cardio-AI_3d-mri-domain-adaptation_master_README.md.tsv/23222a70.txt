@@ -1,0 +1,1 @@
+“How well do <PROGLANG>U-Net</PROGLANG>-based segmentation trained on adult cardiac magnetic resonance imaging data generalise to rare congenital heart diseases for surgical planning?”

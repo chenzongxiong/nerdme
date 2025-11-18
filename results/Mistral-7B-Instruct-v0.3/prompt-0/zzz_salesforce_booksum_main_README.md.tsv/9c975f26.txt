@@ -1,0 +1,6 @@
+```
+Additionally, the <SOFTWARE>get_works.py</SOFTWARE> can be used to collect an exhaustive set of summaries from that source.  ``` `cd scripts/data_collection/cliffnotes/
+python get_summaries.py`` `  #### 3.
+```
+The <SOFTWARE>get_works.py</SOFTWARE> script is located in the `scripts/data_collection/cliffnotes/` directory.
+```

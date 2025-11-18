@@ -1,0 +1,1 @@
+The <PUBLICATION>Durant, J.</PUBLICATION> et al. (2013). "Beam search optimisation by learning where to stop". In <CONFERENCE>ICASSP 2013</CONFERENCE>, pp. 5956–5959.

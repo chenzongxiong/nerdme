@@ -1,0 +1,1 @@
+For example, in the example simulation there are three client agents named `<SOFTWARE>client_agent0</SOFTWARE>`, `<SOFTWARE>client_agent1</SOFTWARE>`, and `<SOFTWARE>client_agent2</SOFTWARE>`.

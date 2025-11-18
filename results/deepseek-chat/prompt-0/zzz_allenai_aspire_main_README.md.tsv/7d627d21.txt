@@ -1,0 +1,3 @@
+```markdown
+`src/pre_process/pre_proc_{relish/scidocs/treccovid}.py`: Pre-process the evaluation <DATASET>RELISH</DATASET>, <DATASET>TRECCOVID</DATASET>, and <DATASET>SciDocs</DATASET> into a format consumed by trained models and evaluation scripts.
+```

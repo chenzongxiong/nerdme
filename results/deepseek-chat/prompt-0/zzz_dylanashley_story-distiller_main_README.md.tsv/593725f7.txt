@@ -1,0 +1,3 @@
+```markdown
+[templates.jpg](https://github.com/<PROJECT>dylanashley</PROJECT>/<PROJECT>story-distiller</PROJECT>/blob/main/templates.jpg?
+```

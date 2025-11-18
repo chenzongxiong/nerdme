@@ -1,0 +1,14 @@
+The <SOFTWARE>PyTorch</SOFTWARE> library is used in the given Docker image. 
+
+Tested in Docker, image = `<SOFTWARE>pytorch/pytorch</SOFTWARE>:0.4_cuda9_cudnn7`.  
+## General setup  
+Execute inside `<SOFTWARE>scripts</SOFTWARE>`:  
+##### Create directories that aren't part of the Git repo (checkpoints/, outputs/):  
+```bash  
+<SOFTWARE>setup_dirs.sh</SOFTWARE>  
+```  
+##### Install python packages:  
+```bash  
+<SOFTWARE>install_python_pkgs.sh</SOFTWARE>  
+```  
+##### The default parameters for Tensorboard(x?)

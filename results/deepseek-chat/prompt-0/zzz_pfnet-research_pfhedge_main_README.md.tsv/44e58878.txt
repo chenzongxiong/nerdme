@@ -1,0 +1,3 @@
+```markdown
+- Any <PROGLANG>PyTorch</PROGLANG> [`Module`](https://pytorch.org/docs/stable/generated/torch.nn.Module.html) which you build. * **<EVALMETRIC>Criterion</EVALMETRIC>**: A hedger wishes to minimize their [risk measure](https://en.wikipedia.org/wiki/Risk_measure)
+```

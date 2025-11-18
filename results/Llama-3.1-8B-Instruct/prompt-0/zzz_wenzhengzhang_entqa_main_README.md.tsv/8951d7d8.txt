@@ -1,0 +1,4 @@
+The <SOFTWARE>Google Drive</SOFTWARE> is used to share files. 
+In this example, our cached entity embeddings [here](https://drive.google.com/file/d/1znMYd5HS80XpLpvpp_dFkQMbJiaFsQIn/view?usp=sharing) are stored on <DATASET>Google Drive</DATASET>. 
+You can download them from <DATASET>Google Drive</DATASET> (<SOFTWARE>Google Drive</SOFTWARE>).
+The <SOFTWARE>Google Drive</SOFTWARE> link is https://drive.google.com/file/d/1znMYd5HS80XpLpvpp_dFkQMbJiaFsQIn/view?usp=sharing.

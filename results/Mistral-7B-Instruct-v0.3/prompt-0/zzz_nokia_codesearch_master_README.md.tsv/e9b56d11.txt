@@ -1,0 +1,5 @@
+The annotated text is as follows:
+
+See <URL>https://conala-corpus.github.io/</URL> , [<LICENSE>CC BY-SA 4.0</LICENSE>](https://creativecommons.org/licenses/by-sa/4.0/)
+
+| | <DATASET>codesearchnet-{language}-{train\|valid\|test}</DATASET> | The <DATASET>CodeSearchNet snippet collections</DATASET> used for training/<EVALMETRIC>MRR</EVALMETRIC> validation/<EVALMETRIC>MRR</EVALMETRIC> testing.

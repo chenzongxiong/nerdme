@@ -1,0 +1,1015 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# sql4ml
+#Text=
+#Text=Sql4ml is a Haskell project that takes as input SQL code which defines the objective/cost/loss function of a
+#Text=supervised machine learning model (ML), as well as a set of parameters, and generates TensorFlow (Python API) code
+#Text=that trains this model.
+1-1	0-1	#	_	_	
+1-2	2-8	sql4ml	*	PROJECT	
+1-3	10-16	Sql4ml	*	PROJECT	
+1-4	17-19	is	_	_	
+1-5	20-21	a	_	_	
+1-6	22-29	Haskell	*	PROGLANG	
+1-7	30-37	project	_	_	
+1-8	38-42	that	_	_	
+1-9	43-48	takes	_	_	
+1-10	49-51	as	_	_	
+1-11	52-57	input	_	_	
+1-12	58-61	SQL	*	PROGLANG	
+1-13	62-66	code	_	_	
+1-14	67-72	which	_	_	
+1-15	73-80	defines	_	_	
+1-16	81-84	the	_	_	
+1-17	85-94	objective	_	_	
+1-18	94-95	/	_	_	
+1-19	95-99	cost	_	_	
+1-20	99-100	/	_	_	
+1-21	100-104	loss	_	_	
+1-22	105-113	function	_	_	
+1-23	114-116	of	_	_	
+1-24	117-118	a	_	_	
+1-25	119-129	supervised	_	_	
+1-26	130-137	machine	_	_	
+1-27	138-146	learning	_	_	
+1-28	147-152	model	_	_	
+1-29	153-154	(	_	_	
+1-30	154-156	ML	_	_	
+1-31	156-157	)	_	_	
+1-32	157-158	,	_	_	
+1-33	159-161	as	_	_	
+1-34	162-166	well	_	_	
+1-35	167-169	as	_	_	
+1-36	170-171	a	_	_	
+1-37	172-175	set	_	_	
+1-38	176-178	of	_	_	
+1-39	179-189	parameters	_	_	
+1-40	189-190	,	_	_	
+1-41	191-194	and	_	_	
+1-42	195-204	generates	_	_	
+1-43	205-215	TensorFlow	*	SOFTWARE	
+1-44	216-217	(	_	_	
+1-45	217-223	Python	*	PROGLANG	
+1-46	224-227	API	_	_	
+1-47	227-228	)	_	_	
+1-48	229-233	code	_	_	
+1-49	234-238	that	_	_	
+1-50	239-245	trains	_	_	
+1-51	246-250	this	_	_	
+1-52	251-256	model	_	_	
+1-53	256-257	.	_	_	
+
+#Text=It is the prototype that is used in the paper
+#Text="Nantia Makrynioti, Ruy Ley-Wild and Vasilis Vassalos. sql4ml: a declarative end-to-end workflow for machine learning."
+2-1	259-261	It	_	_	
+2-2	262-264	is	_	_	
+2-3	265-268	the	_	_	
+2-4	269-278	prototype	_	_	
+2-5	279-283	that	_	_	
+2-6	284-286	is	_	_	
+2-7	287-291	used	_	_	
+2-8	292-294	in	_	_	
+2-9	295-298	the	_	_	
+2-10	299-304	paper	_	_	
+2-11	305-306	"	_	_	
+2-12	306-312	Nantia	_	_	
+2-13	313-323	Makrynioti	_	_	
+2-14	323-324	,	_	_	
+2-15	325-328	Ruy	_	_	
+2-16	329-337	Ley-Wild	_	_	
+2-17	338-341	and	_	_	
+2-18	342-349	Vasilis	_	_	
+2-19	350-358	Vassalos	_	_	
+2-20	358-359	.	_	_	
+2-21	360-366	sql4ml	*[1]|*[2]	PUBLICATION[1]|PROJECT[2]	
+2-22	366-367	:	*[1]	PUBLICATION[1]	
+2-23	368-369	a	*[1]	PUBLICATION[1]	
+2-24	370-381	declarative	*[1]	PUBLICATION[1]	
+2-25	382-392	end-to-end	*[1]	PUBLICATION[1]	
+2-26	393-401	workflow	*[1]	PUBLICATION[1]	
+2-27	402-405	for	*[1]	PUBLICATION[1]	
+2-28	406-413	machine	*[1]	PUBLICATION[1]	
+2-29	414-422	learning	*[1]	PUBLICATION[1]	
+2-30	422-423	.	_	_	
+2-31	423-424	"	_	_	
+
+#Text=(https://arxiv.org/abs/1907.12415).
+#Text=
+#Text=## Requirements
+#Text=
+#Text=The software has been tested on macOS High Sierra and Ubuntu 16.04.
+3-1	425-426	(	_	_	
+3-2	426-431	https	_	_	
+3-3	431-432	:	_	_	
+3-4	432-433	/	_	_	
+3-5	433-434	/	_	_	
+3-6	434-443	arxiv.org	_	_	
+3-7	443-444	/	_	_	
+3-8	444-447	abs	_	_	
+3-9	447-448	/	_	_	
+3-10	448-458	1907.12415	_	_	
+3-11	458-459	)	_	_	
+3-12	459-460	.	_	_	
+3-13	462-463	#	_	_	
+3-14	463-464	#	_	_	
+3-15	465-477	Requirements	_	_	
+3-16	479-482	The	_	_	
+3-17	483-491	software	_	_	
+3-18	492-495	has	_	_	
+3-19	496-500	been	_	_	
+3-20	501-507	tested	_	_	
+3-21	508-510	on	_	_	
+3-22	511-516	macOS	*[3]	SOFTWARE[3]	
+3-23	517-521	High	*[3]	SOFTWARE[3]	
+3-24	522-528	Sierra	*[3]	SOFTWARE[3]	
+3-25	529-532	and	_	_	
+3-26	533-539	Ubuntu	*[4]	SOFTWARE[4]	
+3-27	540-545	16.04	*[4]	SOFTWARE[4]	
+3-28	545-546	.	_	_	
+
+#Text=To compile it you need to install the Haskell Platform (https://www.haskell.org/platform/).
+4-1	548-550	To	_	_	
+4-2	551-558	compile	_	_	
+4-3	559-561	it	_	_	
+4-4	562-565	you	_	_	
+4-5	566-570	need	_	_	
+4-6	571-573	to	_	_	
+4-7	574-581	install	_	_	
+4-8	582-585	the	_	_	
+4-9	586-593	Haskell	*[5]|*[6]	SOFTWARE[5]|PROGLANG[6]	
+4-10	594-602	Platform	*[5]	SOFTWARE[5]	
+4-11	603-604	(	_	_	
+4-12	604-609	https	_	_	
+4-13	609-610	:	_	_	
+4-14	610-611	/	_	_	
+4-15	611-612	/	_	_	
+4-16	612-627	www.haskell.org	_	_	
+4-16.1	616-623	haskell	*	SOFTWARE	
+4-17	627-628	/	_	_	
+4-18	628-636	platform	_	_	
+4-19	636-637	/	_	_	
+4-20	637-638	)	_	_	
+4-21	638-639	.	_	_	
+
+#Text=See also the section on installation on how to build dependent projects.
+#Text=
+#Text=## Installation
+#Text=
+#Text=Sql4ml uses the open source project queryparser (https://github.com/uber/queryparser), also in Haskell.
+5-1	640-643	See	_	_	
+5-2	644-648	also	_	_	
+5-3	649-652	the	_	_	
+5-4	653-660	section	_	_	
+5-5	661-663	on	_	_	
+5-6	664-676	installation	_	_	
+5-7	677-679	on	_	_	
+5-8	680-683	how	_	_	
+5-9	684-686	to	_	_	
+5-10	687-692	build	_	_	
+5-11	693-702	dependent	_	_	
+5-12	703-711	projects	_	_	
+5-13	711-712	.	_	_	
+5-14	714-715	#	_	_	
+5-15	715-716	#	_	_	
+5-16	717-729	Installation	_	_	
+5-17	731-737	Sql4ml	*	PROJECT	
+5-18	738-742	uses	_	_	
+5-19	743-746	the	_	_	
+5-20	747-751	open	_	_	
+5-21	752-758	source	_	_	
+5-22	759-766	project	_	_	
+5-23	767-778	queryparser	*	PROJECT	
+5-24	779-780	(	_	_	
+5-25	780-785	https	_	_	
+5-26	785-786	:	_	_	
+5-27	786-787	/	_	_	
+5-28	787-788	/	_	_	
+5-29	788-798	github.com	_	_	
+5-30	798-799	/	_	_	
+5-31	799-803	uber	_	_	
+5-32	803-804	/	_	_	
+5-33	804-815	queryparser	*	PROJECT	
+5-34	815-816	)	_	_	
+5-35	816-817	,	_	_	
+5-36	818-822	also	_	_	
+5-37	823-825	in	_	_	
+5-38	826-833	Haskell	*	PROGLANG	
+5-39	833-834	.	_	_	
+
+#Text=To build queryparser, follow the instructions on the Github page of the project.
+6-1	835-837	To	_	_	
+6-2	838-843	build	_	_	
+6-3	844-855	queryparser	_	_	
+6-4	855-856	,	_	_	
+6-5	857-863	follow	_	_	
+6-6	864-867	the	_	_	
+6-7	868-880	instructions	_	_	
+6-8	881-883	on	_	_	
+6-9	884-887	the	_	_	
+6-10	888-894	Github	_	_	
+6-11	895-899	page	_	_	
+6-12	900-902	of	_	_	
+6-13	903-906	the	_	_	
+6-14	907-914	project	_	_	
+6-15	914-915	.	_	_	
+
+#Text=The sql4ml module is in file sql4ml_translator.hs.
+7-1	917-920	The	_	_	
+7-2	921-927	sql4ml	*	PROJECT	
+7-3	928-934	module	_	_	
+7-4	935-937	is	_	_	
+7-5	938-940	in	_	_	
+7-6	941-945	file	_	_	
+7-7	946-966	sql4ml_translator.hs	_	_	
+7-7.1	946-952	sql4ml	*	PROJECT	
+7-8	966-967	.	_	_	
+
+#Text=You can load the module via ghci.
+8-1	968-971	You	_	_	
+8-2	972-975	can	_	_	
+8-3	976-980	load	_	_	
+8-4	981-984	the	_	_	
+8-5	985-991	module	_	_	
+8-6	992-995	via	_	_	
+8-7	996-1000	ghci	*	SOFTWARE	
+8-8	1000-1001	.	_	_	
+
+#Text=File main.hs containts two examples on how to translate SQL to TensorFlow code end-to-end.
+9-1	1003-1007	File	_	_	
+9-2	1008-1015	main.hs	_	_	
+9-3	1016-1025	containts	_	_	
+9-4	1026-1029	two	_	_	
+9-5	1030-1038	examples	_	_	
+9-6	1039-1041	on	_	_	
+9-7	1042-1045	how	_	_	
+9-8	1046-1048	to	_	_	
+9-9	1049-1058	translate	_	_	
+9-10	1059-1062	SQL	*	PROGLANG	
+9-11	1063-1065	to	_	_	
+9-12	1066-1076	TensorFlow	*	SOFTWARE	
+9-13	1077-1081	code	_	_	
+9-14	1082-1092	end-to-end	_	_	
+9-15	1092-1093	.	_	_	
+
+#Text=To compile main.hs, run in a terminal:
+#Text=
+#Text=    ghc -o main main.hs
+#Text=
+#Text=Sql4ml uses the MySQL database (https://www.mysql.com/) for storing data.
+10-1	1095-1097	To	_	_	
+10-2	1098-1105	compile	_	_	
+10-3	1106-1113	main.hs	_	_	
+10-4	1113-1114	,	_	_	
+10-5	1115-1118	run	_	_	
+10-6	1119-1121	in	_	_	
+10-7	1122-1123	a	_	_	
+10-8	1124-1132	terminal	_	_	
+10-9	1132-1133	:	_	_	
+10-10	1139-1142	ghc	_	_	
+10-11	1143-1144	-	_	_	
+10-12	1144-1145	o	_	_	
+10-13	1146-1150	main	_	_	
+10-14	1151-1158	main.hs	_	_	
+10-15	1160-1166	Sql4ml	*	PROJECT	
+10-16	1167-1171	uses	_	_	
+10-17	1172-1175	the	_	_	
+10-18	1176-1181	MySQL	*	SOFTWARE	
+10-19	1182-1190	database	_	_	
+10-20	1191-1192	(	_	_	
+10-21	1192-1197	https	_	_	
+10-22	1197-1198	:	_	_	
+10-23	1198-1199	/	_	_	
+10-24	1199-1200	/	_	_	
+10-25	1200-1213	www.mysql.com	_	_	
+10-25.1	1204-1209	mysql	*	SOFTWARE	
+10-26	1213-1214	/	_	_	
+10-27	1214-1215	)	_	_	
+10-28	1216-1219	for	_	_	
+10-29	1220-1227	storing	_	_	
+10-30	1228-1232	data	_	_	
+10-31	1232-1233	.	_	_	
+
+#Text=To run the generated TensorFlow code, you need to install MySQL.
+11-1	1234-1236	To	_	_	
+11-2	1237-1240	run	_	_	
+11-3	1241-1244	the	_	_	
+11-4	1245-1254	generated	_	_	
+11-5	1255-1265	TensorFlow	*	SOFTWARE	
+11-6	1266-1270	code	_	_	
+11-7	1270-1271	,	_	_	
+11-8	1272-1275	you	_	_	
+11-9	1276-1280	need	_	_	
+11-10	1281-1283	to	_	_	
+11-11	1284-1291	install	_	_	
+11-12	1292-1297	MySQL	*	SOFTWARE	
+11-13	1297-1298	.	_	_	
+
+#Text=To install it follow the instructions in https://www.mysql.com/.
+12-1	1299-1301	To	_	_	
+12-2	1302-1309	install	_	_	
+12-3	1310-1312	it	_	_	
+12-4	1313-1319	follow	_	_	
+12-5	1320-1323	the	_	_	
+12-6	1324-1336	instructions	_	_	
+12-7	1337-1339	in	_	_	
+12-8	1340-1345	https	_	_	
+12-9	1345-1346	:	_	_	
+12-10	1346-1347	/	_	_	
+12-11	1347-1348	/	_	_	
+12-12	1348-1361	www.mysql.com	_	_	
+12-12.1	1352-1357	mysql	*	SOFTWARE	
+12-13	1361-1362	/	_	_	
+12-14	1362-1363	.	_	_	
+
+#Text=After installing MySQL, you can run the SQL scripts in the directory /db_setups to create two toy databases, one based
+#Text=on the Boston Housing dataset (https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html) and the other based
+#Text=on the Iris dataset (https://archive.ics.uci.edu/ml/datasets/iris), which you can find in the directory /data.
+#Text=
+#Text=## Use
+#Text=
+#Text=In file main.hs you can find two examples on how to call function endToEndTranslate, which takes the following input parameters:
+#Text=
+#Text=* A list of SQL queries defining the objective function of a supervised ML model.
+13-1	1365-1370	After	_	_	
+13-2	1371-1381	installing	_	_	
+13-3	1382-1387	MySQL	*	SOFTWARE	
+13-4	1387-1388	,	_	_	
+13-5	1389-1392	you	_	_	
+13-6	1393-1396	can	_	_	
+13-7	1397-1400	run	_	_	
+13-8	1401-1404	the	_	_	
+13-9	1405-1408	SQL	*	PROGLANG	
+13-10	1409-1416	scripts	_	_	
+13-11	1417-1419	in	_	_	
+13-12	1420-1423	the	_	_	
+13-13	1424-1433	directory	_	_	
+13-14	1434-1435	/	_	_	
+13-15	1435-1444	db_setups	_	_	
+13-16	1445-1447	to	_	_	
+13-17	1448-1454	create	_	_	
+13-18	1455-1458	two	_	_	
+13-19	1459-1462	toy	_	_	
+13-20	1463-1472	databases	_	_	
+13-21	1472-1473	,	_	_	
+13-22	1474-1477	one	_	_	
+13-23	1478-1483	based	_	_	
+13-24	1484-1486	on	_	_	
+13-25	1487-1490	the	_	_	
+13-26	1491-1497	Boston	*[7]	DATASET[7]	
+13-27	1498-1505	Housing	*[7]	DATASET[7]	
+13-28	1506-1513	dataset	_	_	
+13-29	1514-1515	(	_	_	
+13-30	1515-1520	https	_	_	
+13-31	1520-1521	:	_	_	
+13-32	1521-1522	/	_	_	
+13-33	1522-1523	/	_	_	
+13-34	1523-1541	www.cs.toronto.edu	_	_	
+13-35	1541-1542	/	_	_	
+13-36	1542-1543	~	_	_	
+13-37	1543-1548	delve	_	_	
+13-38	1548-1549	/	_	_	
+13-39	1549-1553	data	_	_	
+13-40	1553-1554	/	_	_	
+13-41	1554-1560	boston	*	DATASET	
+13-42	1560-1561	/	_	_	
+13-43	1561-1578	bostonDetail.html	_	_	
+13-44	1578-1579	)	_	_	
+13-45	1580-1583	and	_	_	
+13-46	1584-1587	the	_	_	
+13-47	1588-1593	other	_	_	
+13-48	1594-1599	based	_	_	
+13-49	1600-1602	on	_	_	
+13-50	1603-1606	the	_	_	
+13-51	1607-1611	Iris	*	DATASET	
+13-52	1612-1619	dataset	_	_	
+13-53	1620-1621	(	_	_	
+13-54	1621-1626	https	_	_	
+13-55	1626-1627	:	_	_	
+13-56	1627-1628	/	_	_	
+13-57	1628-1629	/	_	_	
+13-58	1629-1648	archive.ics.uci.edu	_	_	
+13-59	1648-1649	/	_	_	
+13-60	1649-1651	ml	_	_	
+13-61	1651-1652	/	_	_	
+13-62	1652-1660	datasets	_	_	
+13-63	1660-1661	/	_	_	
+13-64	1661-1665	iris	*	DATASET	
+13-65	1665-1666	)	_	_	
+13-66	1666-1667	,	_	_	
+13-67	1668-1673	which	_	_	
+13-68	1674-1677	you	_	_	
+13-69	1678-1681	can	_	_	
+13-70	1682-1686	find	_	_	
+13-71	1687-1689	in	_	_	
+13-72	1690-1693	the	_	_	
+13-73	1694-1703	directory	_	_	
+13-74	1704-1705	/	_	_	
+13-75	1705-1709	data	_	_	
+13-76	1709-1710	.	_	_	
+13-77	1712-1713	#	_	_	
+13-78	1713-1714	#	_	_	
+13-79	1715-1718	Use	_	_	
+13-80	1720-1722	In	_	_	
+13-81	1723-1727	file	_	_	
+13-82	1728-1735	main.hs	_	_	
+13-83	1736-1739	you	_	_	
+13-84	1740-1743	can	_	_	
+13-85	1744-1748	find	_	_	
+13-86	1749-1752	two	_	_	
+13-87	1753-1761	examples	_	_	
+13-88	1762-1764	on	_	_	
+13-89	1765-1768	how	_	_	
+13-90	1769-1771	to	_	_	
+13-91	1772-1776	call	_	_	
+13-92	1777-1785	function	_	_	
+13-93	1786-1803	endToEndTranslate	_	_	
+13-94	1803-1804	,	_	_	
+13-95	1805-1810	which	_	_	
+13-96	1811-1816	takes	_	_	
+13-97	1817-1820	the	_	_	
+13-98	1821-1830	following	_	_	
+13-99	1831-1836	input	_	_	
+13-100	1837-1847	parameters	_	_	
+13-101	1847-1848	:	_	_	
+13-102	1850-1851	*	_	_	
+13-103	1852-1853	A	_	_	
+13-104	1854-1858	list	_	_	
+13-105	1859-1861	of	_	_	
+13-106	1862-1865	SQL	*	PROGLANG	
+13-107	1866-1873	queries	_	_	
+13-108	1874-1882	defining	_	_	
+13-109	1883-1886	the	_	_	
+13-110	1887-1896	objective	_	_	
+13-111	1897-1905	function	_	_	
+13-112	1906-1908	of	_	_	
+13-113	1909-1910	a	_	_	
+13-114	1911-1921	supervised	_	_	
+13-115	1922-1924	ML	_	_	
+13-116	1925-1930	model	_	_	
+13-117	1930-1931	.	_	_	
+
+#Text=You can find two examples of SQL code defining Linear and Logistic Regression in directory working_examples.
+#Text=* A list of names of the tables storing the features of the model.
+#Text=* A list of columns in the aforementioned tables that store names of features.
+#Text=* A list of lists, each of which has the actual names of features stored in each table.
+#Text=* The name of the table storing the training observations.
+#Text=* The name of the table storing the labels/targets of training observations.
+#Text=* The name of the view computing the objective function of the ML model.
+#Text=* The username of a user to connect to the database where training data are stored.
+#Text=* The password of the same user.
+#Text=* The name of the database storing training data.
+#Text=* A list of names of the tables storing the weights of the model.
+#Text=* A map whose elements consist of the name of a weight table and its dimenions as a list.
+#Text=* The number of gradient descent iterations.
+#Text=* The learning rate used in gradient descent.
+14-1	1932-1935	You	_	_	
+14-2	1936-1939	can	_	_	
+14-3	1940-1944	find	_	_	
+14-4	1945-1948	two	_	_	
+14-5	1949-1957	examples	_	_	
+14-6	1958-1960	of	_	_	
+14-7	1961-1964	SQL	*	PROGLANG	
+14-8	1965-1969	code	_	_	
+14-9	1970-1978	defining	_	_	
+14-10	1979-1985	Linear	_	_	
+14-11	1986-1989	and	_	_	
+14-12	1990-1998	Logistic	_	_	
+14-13	1999-2009	Regression	_	_	
+14-14	2010-2012	in	_	_	
+14-15	2013-2022	directory	_	_	
+14-16	2023-2039	working_examples	_	_	
+14-17	2039-2040	.	_	_	
+14-18	2041-2042	*	_	_	
+14-19	2043-2044	A	_	_	
+14-20	2045-2049	list	_	_	
+14-21	2050-2052	of	_	_	
+14-22	2053-2058	names	_	_	
+14-23	2059-2061	of	_	_	
+14-24	2062-2065	the	_	_	
+14-25	2066-2072	tables	_	_	
+14-26	2073-2080	storing	_	_	
+14-27	2081-2084	the	_	_	
+14-28	2085-2093	features	_	_	
+14-29	2094-2096	of	_	_	
+14-30	2097-2100	the	_	_	
+14-31	2101-2106	model	_	_	
+14-32	2106-2107	.	_	_	
+14-33	2108-2109	*	_	_	
+14-34	2110-2111	A	_	_	
+14-35	2112-2116	list	_	_	
+14-36	2117-2119	of	_	_	
+14-37	2120-2127	columns	_	_	
+14-38	2128-2130	in	_	_	
+14-39	2131-2134	the	_	_	
+14-40	2135-2149	aforementioned	_	_	
+14-41	2150-2156	tables	_	_	
+14-42	2157-2161	that	_	_	
+14-43	2162-2167	store	_	_	
+14-44	2168-2173	names	_	_	
+14-45	2174-2176	of	_	_	
+14-46	2177-2185	features	_	_	
+14-47	2185-2186	.	_	_	
+14-48	2187-2188	*	_	_	
+14-49	2189-2190	A	_	_	
+14-50	2191-2195	list	_	_	
+14-51	2196-2198	of	_	_	
+14-52	2199-2204	lists	_	_	
+14-53	2204-2205	,	_	_	
+14-54	2206-2210	each	_	_	
+14-55	2211-2213	of	_	_	
+14-56	2214-2219	which	_	_	
+14-57	2220-2223	has	_	_	
+14-58	2224-2227	the	_	_	
+14-59	2228-2234	actual	_	_	
+14-60	2235-2240	names	_	_	
+14-61	2241-2243	of	_	_	
+14-62	2244-2252	features	_	_	
+14-63	2253-2259	stored	_	_	
+14-64	2260-2262	in	_	_	
+14-65	2263-2267	each	_	_	
+14-66	2268-2273	table	_	_	
+14-67	2273-2274	.	_	_	
+14-68	2275-2276	*	_	_	
+14-69	2277-2280	The	_	_	
+14-70	2281-2285	name	_	_	
+14-71	2286-2288	of	_	_	
+14-72	2289-2292	the	_	_	
+14-73	2293-2298	table	_	_	
+14-74	2299-2306	storing	_	_	
+14-75	2307-2310	the	_	_	
+14-76	2311-2319	training	_	_	
+14-77	2320-2332	observations	_	_	
+14-78	2332-2333	.	_	_	
+14-79	2334-2335	*	_	_	
+14-80	2336-2339	The	_	_	
+14-81	2340-2344	name	_	_	
+14-82	2345-2347	of	_	_	
+14-83	2348-2351	the	_	_	
+14-84	2352-2357	table	_	_	
+14-85	2358-2365	storing	_	_	
+14-86	2366-2369	the	_	_	
+14-87	2370-2376	labels	_	_	
+14-88	2376-2377	/	_	_	
+14-89	2377-2384	targets	_	_	
+14-90	2385-2387	of	_	_	
+14-91	2388-2396	training	_	_	
+14-92	2397-2409	observations	_	_	
+14-93	2409-2410	.	_	_	
+14-94	2411-2412	*	_	_	
+14-95	2413-2416	The	_	_	
+14-96	2417-2421	name	_	_	
+14-97	2422-2424	of	_	_	
+14-98	2425-2428	the	_	_	
+14-99	2429-2433	view	_	_	
+14-100	2434-2443	computing	_	_	
+14-101	2444-2447	the	_	_	
+14-102	2448-2457	objective	_	_	
+14-103	2458-2466	function	_	_	
+14-104	2467-2469	of	_	_	
+14-105	2470-2473	the	_	_	
+14-106	2474-2476	ML	_	_	
+14-107	2477-2482	model	_	_	
+14-108	2482-2483	.	_	_	
+14-109	2484-2485	*	_	_	
+14-110	2486-2489	The	_	_	
+14-111	2490-2498	username	_	_	
+14-112	2499-2501	of	_	_	
+14-113	2502-2503	a	_	_	
+14-114	2504-2508	user	_	_	
+14-115	2509-2511	to	_	_	
+14-116	2512-2519	connect	_	_	
+14-117	2520-2522	to	_	_	
+14-118	2523-2526	the	_	_	
+14-119	2527-2535	database	_	_	
+14-120	2536-2541	where	_	_	
+14-121	2542-2550	training	_	_	
+14-122	2551-2555	data	_	_	
+14-123	2556-2559	are	_	_	
+14-124	2560-2566	stored	_	_	
+14-125	2566-2567	.	_	_	
+14-126	2568-2569	*	_	_	
+14-127	2570-2573	The	_	_	
+14-128	2574-2582	password	_	_	
+14-129	2583-2585	of	_	_	
+14-130	2586-2589	the	_	_	
+14-131	2590-2594	same	_	_	
+14-132	2595-2599	user	_	_	
+14-133	2599-2600	.	_	_	
+14-134	2601-2602	*	_	_	
+14-135	2603-2606	The	_	_	
+14-136	2607-2611	name	_	_	
+14-137	2612-2614	of	_	_	
+14-138	2615-2618	the	_	_	
+14-139	2619-2627	database	_	_	
+14-140	2628-2635	storing	_	_	
+14-141	2636-2644	training	_	_	
+14-142	2645-2649	data	_	_	
+14-143	2649-2650	.	_	_	
+14-144	2651-2652	*	_	_	
+14-145	2653-2654	A	_	_	
+14-146	2655-2659	list	_	_	
+14-147	2660-2662	of	_	_	
+14-148	2663-2668	names	_	_	
+14-149	2669-2671	of	_	_	
+14-150	2672-2675	the	_	_	
+14-151	2676-2682	tables	_	_	
+14-152	2683-2690	storing	_	_	
+14-153	2691-2694	the	_	_	
+14-154	2695-2702	weights	_	_	
+14-155	2703-2705	of	_	_	
+14-156	2706-2709	the	_	_	
+14-157	2710-2715	model	_	_	
+14-158	2715-2716	.	_	_	
+14-159	2717-2718	*	_	_	
+14-160	2719-2720	A	_	_	
+14-161	2721-2724	map	_	_	
+14-162	2725-2730	whose	_	_	
+14-163	2731-2739	elements	_	_	
+14-164	2740-2747	consist	_	_	
+14-165	2748-2750	of	_	_	
+14-166	2751-2754	the	_	_	
+14-167	2755-2759	name	_	_	
+14-168	2760-2762	of	_	_	
+14-169	2763-2764	a	_	_	
+14-170	2765-2771	weight	_	_	
+14-171	2772-2777	table	_	_	
+14-172	2778-2781	and	_	_	
+14-173	2782-2785	its	_	_	
+14-174	2786-2795	dimenions	_	_	
+14-175	2796-2798	as	_	_	
+14-176	2799-2800	a	_	_	
+14-177	2801-2805	list	_	_	
+14-178	2805-2806	.	_	_	
+14-179	2807-2808	*	_	_	
+14-180	2809-2812	The	_	_	
+14-181	2813-2819	number	_	_	
+14-182	2820-2822	of	_	_	
+14-183	2823-2831	gradient	_	_	
+14-184	2832-2839	descent	_	_	
+14-185	2840-2850	iterations	_	_	
+14-186	2850-2851	.	_	_	
+14-187	2852-2853	*	_	_	
+14-188	2854-2857	The	_	_	
+14-189	2858-2866	learning	_	_	
+14-190	2867-2871	rate	_	_	
+14-191	2872-2876	used	_	_	
+14-192	2877-2879	in	_	_	
+14-193	2880-2888	gradient	_	_	
+14-194	2889-2896	descent	_	_	
+14-195	2896-2897	.	_	_	
+
+#Text=Currently sql4ml supports the translation of SQL create view queries of the following form,
+#Text=
+#Text=    CREATE VIEW $(name) AS
+#Text=    SELECT $(columns), $(numericExpr)
+#Text=    FROM $(tables)
+#Text=    WHERE $(joinElement)
+#Text=    GROUP BY $(groupingElement)
+#Text=
+#Text=and generate an equivalent TensorFlow expression as below:
+#Text=
+#Text=    $(name) = $(translateNumericExpr(numericExpr))
+#Text=
+#Text=For examples, check SQL files in the directory /working_examples.
+15-1	2899-2908	Currently	_	_	
+15-2	2909-2915	sql4ml	*	SOFTWARE	
+15-3	2916-2924	supports	_	_	
+15-4	2925-2928	the	_	_	
+15-5	2929-2940	translation	_	_	
+15-6	2941-2943	of	_	_	
+15-7	2944-2947	SQL	*	PROGLANG	
+15-8	2948-2954	create	_	_	
+15-9	2955-2959	view	_	_	
+15-10	2960-2967	queries	_	_	
+15-11	2968-2970	of	_	_	
+15-12	2971-2974	the	_	_	
+15-13	2975-2984	following	_	_	
+15-14	2985-2989	form	_	_	
+15-15	2989-2990	,	_	_	
+15-16	2996-3002	CREATE	_	_	
+15-17	3003-3007	VIEW	_	_	
+15-18	3008-3009	$	_	_	
+15-19	3009-3010	(	_	_	
+15-20	3010-3014	name	_	_	
+15-21	3014-3015	)	_	_	
+15-22	3016-3018	AS	_	_	
+15-23	3023-3029	SELECT	_	_	
+15-24	3030-3031	$	_	_	
+15-25	3031-3032	(	_	_	
+15-26	3032-3039	columns	_	_	
+15-27	3039-3040	)	_	_	
+15-28	3040-3041	,	_	_	
+15-29	3042-3043	$	_	_	
+15-30	3043-3044	(	_	_	
+15-31	3044-3055	numericExpr	_	_	
+15-32	3055-3056	)	_	_	
+15-33	3061-3065	FROM	_	_	
+15-34	3066-3067	$	_	_	
+15-35	3067-3068	(	_	_	
+15-36	3068-3074	tables	_	_	
+15-37	3074-3075	)	_	_	
+15-38	3080-3085	WHERE	_	_	
+15-39	3086-3087	$	_	_	
+15-40	3087-3088	(	_	_	
+15-41	3088-3099	joinElement	_	_	
+15-42	3099-3100	)	_	_	
+15-43	3105-3110	GROUP	_	_	
+15-44	3111-3113	BY	_	_	
+15-45	3114-3115	$	_	_	
+15-46	3115-3116	(	_	_	
+15-47	3116-3131	groupingElement	_	_	
+15-48	3131-3132	)	_	_	
+15-49	3134-3137	and	_	_	
+15-50	3138-3146	generate	_	_	
+15-51	3147-3149	an	_	_	
+15-52	3150-3160	equivalent	_	_	
+15-53	3161-3171	TensorFlow	*	SOFTWARE	
+15-54	3172-3182	expression	_	_	
+15-55	3183-3185	as	_	_	
+15-56	3186-3191	below	_	_	
+15-57	3191-3192	:	_	_	
+15-58	3198-3199	$	_	_	
+15-59	3199-3200	(	_	_	
+15-60	3200-3204	name	_	_	
+15-61	3204-3205	)	_	_	
+15-62	3206-3207	=	_	_	
+15-63	3208-3209	$	_	_	
+15-64	3209-3210	(	_	_	
+15-65	3210-3230	translateNumericExpr	_	_	
+15-66	3230-3231	(	_	_	
+15-67	3231-3242	numericExpr	_	_	
+15-68	3242-3243	)	_	_	
+15-69	3243-3244	)	_	_	
+15-70	3246-3249	For	_	_	
+15-71	3250-3258	examples	_	_	
+15-72	3258-3259	,	_	_	
+15-73	3260-3265	check	_	_	
+15-74	3266-3269	SQL	*	PROGLANG	
+15-75	3270-3275	files	_	_	
+15-76	3276-3278	in	_	_	
+15-77	3279-3282	the	_	_	
+15-78	3283-3292	directory	_	_	
+15-79	3293-3294	/	_	_	
+15-80	3294-3310	working_examples	_	_	
+15-81	3310-3311	.	_	_	
+
+#Text=To run main, type in a terminal:
+#Text=
+#Text=    .
+16-1	3314-3316	To	_	_	
+16-2	3317-3320	run	_	_	
+16-3	3321-3325	main	_	_	
+16-4	3325-3326	,	_	_	
+16-5	3327-3331	type	_	_	
+16-6	3332-3334	in	_	_	
+16-7	3335-3336	a	_	_	
+16-8	3337-3345	terminal	_	_	
+16-9	3345-3346	:	_	_	
+16-10	3352-3353	.	_	_	
+
+#Text=/main linear //To generate TensorFlow code for the Linear Regression model in working_examples/linear_regression.sql
+#Text=    .
+17-1	3353-3354	/	_	_	
+17-2	3354-3358	main	_	_	
+17-3	3359-3365	linear	_	_	
+17-4	3366-3367	/	_	_	
+17-5	3367-3368	/	_	_	
+17-6	3368-3370	To	_	_	
+17-7	3371-3379	generate	_	_	
+17-8	3380-3390	TensorFlow	*	SOFTWARE	
+17-9	3391-3395	code	_	_	
+17-10	3396-3399	for	_	_	
+17-11	3400-3403	the	_	_	
+17-12	3404-3410	Linear	_	_	
+17-13	3411-3421	Regression	_	_	
+17-14	3422-3427	model	_	_	
+17-15	3428-3430	in	_	_	
+17-16	3431-3447	working_examples	_	_	
+17-17	3447-3448	/	_	_	
+17-18	3448-3469	linear_regression.sql	_	_	
+17-19	3474-3475	.	_	_	
+
+#Text=/main logistic //To generate TensorFlow code for the Logistic Regression model in working_examples/logistic_regression.sql
+#Text=
+#Text=The files with the generated TensorFlow/Python code can be executed like any other TensorFlow program.
+18-1	3475-3476	/	_	_	
+18-2	3476-3480	main	_	_	
+18-3	3481-3489	logistic	_	_	
+18-4	3490-3491	/	_	_	
+18-5	3491-3492	/	_	_	
+18-6	3492-3494	To	_	_	
+18-7	3495-3503	generate	_	_	
+18-8	3504-3514	TensorFlow	*	SOFTWARE	
+18-9	3515-3519	code	_	_	
+18-10	3520-3523	for	_	_	
+18-11	3524-3527	the	_	_	
+18-12	3528-3536	Logistic	_	_	
+18-13	3537-3547	Regression	_	_	
+18-14	3548-3553	model	_	_	
+18-15	3554-3556	in	_	_	
+18-16	3557-3573	working_examples	_	_	
+18-17	3573-3574	/	_	_	
+18-18	3574-3597	logistic_regression.sql	_	_	
+18-19	3599-3602	The	_	_	
+18-20	3603-3608	files	_	_	
+18-21	3609-3613	with	_	_	
+18-22	3614-3617	the	_	_	
+18-23	3618-3627	generated	_	_	
+18-24	3628-3638	TensorFlow	*	SOFTWARE	
+18-25	3638-3639	/	_	_	
+18-26	3639-3645	Python	*	PROGLANG	
+18-27	3646-3650	code	_	_	
+18-28	3651-3654	can	_	_	
+18-29	3655-3657	be	_	_	
+18-30	3658-3666	executed	_	_	
+18-31	3667-3671	like	_	_	
+18-32	3672-3675	any	_	_	
+18-33	3676-3681	other	_	_	
+18-34	3682-3692	TensorFlow	*	SOFTWARE	
+18-35	3693-3700	program	_	_	
+18-36	3700-3701	.	_	_	
+
+#Text=You can also try to translate individual SQL queries by loading the sql4ml_translator module in ghci and type:
+#Text=
+#Text=    translateToTensorFlowCommand (L.pack "CREATE VIEW squaredErrors AS SELECT POW(errors.errorValue, 2) AS squaredErrorValue, errors.observationID AS observationID FROM errors;") ["features"] ["weights"] [["f1", "f2"]]
+#Text=
+#Text=where
+#Text=
+#Text=    translateToTensorFlowCommand :: L.Text -> [String] -> [String] -> [[String]] -> String
+#Text=    translateToTensorFlowCommand sql_statement feature_tables variable_tables feature_names
+#Text=
+#Text=and
+#Text=* sql_statement: a SQL create view query in type Text
+#Text=* feature_tables: a list of names of the tables storing the features of the model.
+#Text=* variable_tables: a list of names of the tables storing the weights of the model.
+#Text=* feature_names: a list of lists, each of which has the actual names of features stored in each table.
+19-1	3703-3706	You	_	_	
+19-2	3707-3710	can	_	_	
+19-3	3711-3715	also	_	_	
+19-4	3716-3719	try	_	_	
+19-5	3720-3722	to	_	_	
+19-6	3723-3732	translate	_	_	
+19-7	3733-3743	individual	_	_	
+19-8	3744-3747	SQL	*	PROGLANG	
+19-9	3748-3755	queries	_	_	
+19-10	3756-3758	by	_	_	
+19-11	3759-3766	loading	_	_	
+19-12	3767-3770	the	_	_	
+19-13	3771-3788	sql4ml_translator	_	_	
+19-13.1	3771-3777	sql4ml	*	PROJECT	
+19-14	3789-3795	module	_	_	
+19-15	3796-3798	in	_	_	
+19-16	3799-3803	ghci	_	_	
+19-17	3804-3807	and	_	_	
+19-18	3808-3812	type	_	_	
+19-19	3812-3813	:	_	_	
+19-20	3819-3847	translateToTensorFlowCommand	_	_	
+19-20.1	3830-3840	TensorFlow	*	SOFTWARE	
+19-21	3848-3849	(	_	_	
+19-22	3849-3855	L.pack	_	_	
+19-23	3856-3857	"	_	_	
+19-24	3857-3863	CREATE	_	_	
+19-25	3864-3868	VIEW	_	_	
+19-26	3869-3882	squaredErrors	_	_	
+19-27	3883-3885	AS	_	_	
+19-28	3886-3892	SELECT	_	_	
+19-29	3893-3896	POW	_	_	
+19-30	3896-3897	(	_	_	
+19-31	3897-3914	errors.errorValue	_	_	
+19-32	3914-3915	,	_	_	
+19-33	3916-3917	2	_	_	
+19-34	3917-3918	)	_	_	
+19-35	3919-3921	AS	_	_	
+19-36	3922-3939	squaredErrorValue	_	_	
+19-37	3939-3940	,	_	_	
+19-38	3941-3961	errors.observationID	_	_	
+19-39	3962-3964	AS	_	_	
+19-40	3965-3978	observationID	_	_	
+19-41	3979-3983	FROM	_	_	
+19-42	3984-3990	errors	_	_	
+19-43	3990-3991	;	_	_	
+19-44	3991-3992	"	_	_	
+19-45	3992-3993	)	_	_	
+19-46	3994-3995	[	_	_	
+19-47	3995-3996	"	_	_	
+19-48	3996-4004	features	_	_	
+19-49	4004-4005	"	_	_	
+19-50	4005-4006	]	_	_	
+19-51	4007-4008	[	_	_	
+19-52	4008-4009	"	_	_	
+19-53	4009-4016	weights	_	_	
+19-54	4016-4017	"	_	_	
+19-55	4017-4018	]	_	_	
+19-56	4019-4020	[	_	_	
+19-57	4020-4021	[	_	_	
+19-58	4021-4022	"	_	_	
+19-59	4022-4024	f1	_	_	
+19-60	4024-4025	"	_	_	
+19-61	4025-4026	,	_	_	
+19-62	4027-4028	"	_	_	
+19-63	4028-4030	f2	_	_	
+19-64	4030-4031	"	_	_	
+19-65	4031-4032	]	_	_	
+19-66	4032-4033	]	_	_	
+19-67	4035-4040	where	_	_	
+19-68	4046-4074	translateToTensorFlowCommand	_	_	
+19-68.1	4057-4067	TensorFlow	*	SOFTWARE	
+19-69	4075-4076	:	_	_	
+19-70	4076-4077	:	_	_	
+19-71	4078-4084	L.Text	_	_	
+19-72	4085-4086	-	_	_	
+19-73	4086-4087	>	_	_	
+19-74	4088-4089	[	_	_	
+19-75	4089-4095	String	_	_	
+19-76	4095-4096	]	_	_	
+19-77	4097-4098	-	_	_	
+19-78	4098-4099	>	_	_	
+19-79	4100-4101	[	_	_	
+19-80	4101-4107	String	_	_	
+19-81	4107-4108	]	_	_	
+19-82	4109-4110	-	_	_	
+19-83	4110-4111	>	_	_	
+19-84	4112-4113	[	_	_	
+19-85	4113-4114	[	_	_	
+19-86	4114-4120	String	_	_	
+19-87	4120-4121	]	_	_	
+19-88	4121-4122	]	_	_	
+19-89	4123-4124	-	_	_	
+19-90	4124-4125	>	_	_	
+19-91	4126-4132	String	_	_	
+19-92	4137-4165	translateToTensorFlowCommand	_	_	
+19-92.1	4148-4158	TensorFlow	*	SOFTWARE	
+19-93	4166-4179	sql_statement	_	_	
+19-94	4180-4194	feature_tables	_	_	
+19-95	4195-4210	variable_tables	_	_	
+19-96	4211-4224	feature_names	_	_	
+19-97	4226-4229	and	_	_	
+19-98	4230-4231	*	_	_	
+19-99	4232-4245	sql_statement	_	_	
+19-100	4245-4246	:	_	_	
+19-101	4247-4248	a	_	_	
+19-102	4249-4252	SQL	*	PROGLANG	
+19-103	4253-4259	create	_	_	
+19-104	4260-4264	view	_	_	
+19-105	4265-4270	query	_	_	
+19-106	4271-4273	in	_	_	
+19-107	4274-4278	type	_	_	
+19-108	4279-4283	Text	_	_	
+19-109	4284-4285	*	_	_	
+19-110	4286-4300	feature_tables	_	_	
+19-111	4300-4301	:	_	_	
+19-112	4302-4303	a	_	_	
+19-113	4304-4308	list	_	_	
+19-114	4309-4311	of	_	_	
+19-115	4312-4317	names	_	_	
+19-116	4318-4320	of	_	_	
+19-117	4321-4324	the	_	_	
+19-118	4325-4331	tables	_	_	
+19-119	4332-4339	storing	_	_	
+19-120	4340-4343	the	_	_	
+19-121	4344-4352	features	_	_	
+19-122	4353-4355	of	_	_	
+19-123	4356-4359	the	_	_	
+19-124	4360-4365	model	_	_	
+19-125	4365-4366	.	_	_	
+19-126	4367-4368	*	_	_	
+19-127	4369-4384	variable_tables	_	_	
+19-128	4384-4385	:	_	_	
+19-129	4386-4387	a	_	_	
+19-130	4388-4392	list	_	_	
+19-131	4393-4395	of	_	_	
+19-132	4396-4401	names	_	_	
+19-133	4402-4404	of	_	_	
+19-134	4405-4408	the	_	_	
+19-135	4409-4415	tables	_	_	
+19-136	4416-4423	storing	_	_	
+19-137	4424-4427	the	_	_	
+19-138	4428-4435	weights	_	_	
+19-139	4436-4438	of	_	_	
+19-140	4439-4442	the	_	_	
+19-141	4443-4448	model	_	_	
+19-142	4448-4449	.	_	_	
+19-143	4450-4451	*	_	_	
+19-144	4452-4465	feature_names	_	_	
+19-145	4465-4466	:	_	_	
+19-146	4467-4468	a	_	_	
+19-147	4469-4473	list	_	_	
+19-148	4474-4476	of	_	_	
+19-149	4477-4482	lists	_	_	
+19-150	4482-4483	,	_	_	
+19-151	4484-4488	each	_	_	
+19-152	4489-4491	of	_	_	
+19-153	4492-4497	which	_	_	
+19-154	4498-4501	has	_	_	
+19-155	4502-4505	the	_	_	
+19-156	4506-4512	actual	_	_	
+19-157	4513-4518	names	_	_	
+19-158	4519-4521	of	_	_	
+19-159	4522-4530	features	_	_	
+19-160	4531-4537	stored	_	_	
+19-161	4538-4540	in	_	_	
+19-162	4541-4545	each	_	_	
+19-163	4546-4551	table	_	_	
+19-164	4551-4552	.	_	_	

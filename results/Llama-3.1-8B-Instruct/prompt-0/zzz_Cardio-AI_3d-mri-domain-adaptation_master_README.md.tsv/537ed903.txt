@@ -1,0 +1,1 @@
+The trained model is able to transform an <SOFTWARE>axial</SOFTWARE> (AX) CMR into the patient specific short-axis (<SOFTWARE>SAX</SOFTWARE>) direction.

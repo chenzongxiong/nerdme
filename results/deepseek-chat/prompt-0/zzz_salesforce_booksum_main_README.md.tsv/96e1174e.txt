@@ -1,0 +1,1 @@
+This is useful to inspect which links are actually unavailable and re-running the data collection scripts for those specific links. 3.

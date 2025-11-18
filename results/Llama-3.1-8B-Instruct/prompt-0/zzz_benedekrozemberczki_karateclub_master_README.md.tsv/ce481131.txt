@@ -1,0 +1,4 @@
+We are motivated to constantly make <PROJECT>Karate Club</PROJECT> even better.  
+--------------------------------------------------------------------------------  
+**Installation**  
+<PROJECT>Karate Club</PROJECT> can be installed with the following pip command.

@@ -1,0 +1,1 @@
+We have also integrated the rendering process into the framework.

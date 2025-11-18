@@ -1,0 +1,1 @@
+Other required parameters are:  - `image_dir`: The image directory - `detector_file_path`: Path to the MD file - `batch_size`: Batch size - `bbox_map`: Result obtained from `<SOFTWARE>BBoxMapper</SOFTWARE>`  For training the `label_file_path` is also required.

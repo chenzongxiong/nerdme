@@ -1,0 +1,1 @@
+The automated metrics results will be in `<SOFTWARE>checkpoints/sum/mlstm/yelp/</SOFTWARE><EVALMETRIC>hparams</EVALMETRIC><EVALMETRIC>_</EVALMETRIC><EVALMETRIC>additional_notes</EVALMETRIC>`.: `<PROGLANG>python</PROGLANG> <SOFTWARE>train_sum.py</SOFTWARE> --batch_size=16 --gpus=0,1,2,3 --notes=<additional_notes>`

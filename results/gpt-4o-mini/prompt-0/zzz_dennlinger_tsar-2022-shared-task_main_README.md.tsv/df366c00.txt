@@ -1,0 +1,1 @@
+A template can be found in `<SOFTWARE>config.py.template</SOFTWARE>`, which already contains the correct variable name and structure.

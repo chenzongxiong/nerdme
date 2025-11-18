@@ -1,0 +1,1 @@
+Upon holistic analysis of the papers, we introduce a novel taxonomy of the roles played by the crowds in combating misinformation: (i) crowds as annotators who actively identify misinformation; (ii) crowds as evaluators who assess counter-misinformation effectiveness; (iii) crowds as creators who create counter-misinformation.

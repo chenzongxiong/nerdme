@@ -1,0 +1,1 @@
+This function will display widgets to select the input field and the comma-separated list of <SOFTWARE>keywords</SOFTWARE>, which can be treated in a case-sensitive or case-insensitive manner. ``` msb.create_keyword_concept_model(sb) ```  <img src=".

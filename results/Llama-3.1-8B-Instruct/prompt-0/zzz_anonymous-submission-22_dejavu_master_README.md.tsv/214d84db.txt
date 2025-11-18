@@ -1,0 +1,1 @@
+Then, we average the similarities to <SOFTWARE>T2</SOFTWARE> if all units with their suspicious scores (of <SOFTWARE>T1</SOFTWARE>) as the weights.

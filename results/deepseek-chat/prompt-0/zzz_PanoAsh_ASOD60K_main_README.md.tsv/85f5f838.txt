@@ -1,0 +1,1 @@
+To this end, we propose a new task, panoramic audiovisual salient object detection (`<PUBLICATION>PAV-SOD</PUBLICATION>`), which aims to segment the objects grasping most of the human attention in 360° panoramic videos reflecting real-life daily scenes.

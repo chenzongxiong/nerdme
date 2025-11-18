@@ -1,0 +1,3 @@
+The text contains a DOI link and a citation. Here's the annotated text:
+
+`[DOI](https://zenodo.org/badge/DOI/10.48550/arXiv.2404.13971.svg)](<PUBLICATION>https://doi.org/10.48550/arXiv.2404.13971</PUBLICATION>)  # !`

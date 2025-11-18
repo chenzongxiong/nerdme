@@ -1,0 +1,12 @@
+Here's the annotated text in Markdown format:
+
+```
+In order to run one of the examples, the `<SOFTWARE>Graph2Vec</SOFTWARE>` snippet:  ```sh $ cd examples/whole_graph_embedding/ $ python `<PROGLANG>graph2vec_example.py</PROGLANG>` ```
+--------------------------------------------------------------------------------
+**Running tests**
+From the project's root-level directory:
+```sh $ pytest ```
+--------------------------------------------------------------------------------
+**License**
+- `<LICENSE>GNU General Public License v3.0</LICENSE>` (<URL>https://github.com/benedekrozemberczki/karateclub/blob/master/LICENSE</URL>)
+```

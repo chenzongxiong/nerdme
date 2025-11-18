@@ -1,0 +1,1 @@
+For other operating systems, see the full install instructions below. --> Due to the change of API, `$ conda install -c conda-forge <SOFTWARE>megaman</SOFTWARE>` is no longer supported.

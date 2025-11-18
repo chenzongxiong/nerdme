@@ -1,0 +1,3 @@
+```markdown
+E.},     title = {{<PROJECT>EarthPT</PROJECT>: a time series foundation model for Earth Observation}},     journal = {<PUBLICATION>arXiv</PUBLICATION>},     year = {2023},     eprint = {2309.07207},     doi = {10.48550/arXiv.2309.07207} } ```  This work is also in the [proceedings](https://www.climatechange.ai/papers/neurips2023/2) of the <CONFERENCE>2023 CCAI NeurIPS workshop</CONFERENCE>.
+```

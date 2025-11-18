@@ -1,0 +1,3 @@
+```markdown
+Use the Notebooks to interact (train, predict or evaluate) with the <PROGLANG>python</PROGLANG> functions.   ## Repository Structure      ├── <LICENSE>LICENSE</LICENSE>     ├── Makefile           <- Makefile with commands like 'make environment'     ├── README.md          <- The top-level README for developers using this project.     ├── data     │   ├── metadata       <- Excel and csv files with additional metadata are stored here     │   ├── interim        <- Intermediate data that has been transformed
+```

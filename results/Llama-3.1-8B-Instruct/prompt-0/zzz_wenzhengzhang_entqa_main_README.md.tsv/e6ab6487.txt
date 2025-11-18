@@ -1,0 +1,1 @@
+Or preprocess by yourself: 1. Download the <DATASET>Maules Creek</DATASET> dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip) and <SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the resource.

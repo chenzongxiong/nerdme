@@ -1,0 +1,9 @@
+The text contains the following named entities:
+
+- **DATASET**: `<DATASET>origin nuScenes dataset</DATASET>`
+- **URL**: `<URL>https://www.nuscenes.org/download</URL>`
+- **URL**: `<URL>https://mmdetection3d.readthedocs.io/en/v0.16.0/datasets/nuscenes_det.html</URL>`
+
+The annotated text is:
+
+As an alternative, you can also download the `<DATASET>origin nuScenes dataset</DATASET>` from `<URL>https://www.nuscenes.org/download</URL>`, and extract the object-level features refer to this `<URL>https://mmdetection3d.readthedocs.io/en/v0.16.0/datasets/nuscenes_det.html</URL>` with different backbones.

@@ -1,0 +1,3 @@
+```markdown
+</div>                                        | |                        | <EVALMETRIC>Faithfulness</EVALMETRIC> </br> (<EVALMETRIC>RDT-Fidelity</EVALMETRIC>) | $\mathcal{F}(\mathcal{E}_X)$ (see our paper) | <div style="width:500px"> Reflect how often the model's predictions are unchanged despite perturbations to the input, which would suggest that the explanation is effectively capturing the reasoning behind the model's predictions.
+```

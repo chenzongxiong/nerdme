@@ -1,0 +1,18 @@
+Here's the annotated text in Markdown format:
+
+```
+If you would like to use this feature, install LCOV using Homebrew (MacOS) or apt (Ubuntu):
+
+Install `<PROGLANG>lcov</PROGLANG>` on MacOS using Homebrew:
+```sh
+$ <SOFTWARE>brew</SOFTWARE> install lcov
+```
+Install `<PROGLANG>lcov</PROGLANG>` on Ubuntu using apt:
+```sh
+$ sudo apt install lcov
+```
+
+## Usage
+
+NetCov can be used seamlessly with `<SOFTWARE>pybatfish</SOFTWARE>`.
+```

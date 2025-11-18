@@ -1,0 +1,1 @@
+- One <SOFTWARE>dataframe</SOFTWARE> which orchestrates the <SOFTWARE>nrrd</SOFTWARE> files with the <SOFTWARE>metadata</SOFTWARE> and the <SOFTWARE>experiment</SOFTWARE> splitting

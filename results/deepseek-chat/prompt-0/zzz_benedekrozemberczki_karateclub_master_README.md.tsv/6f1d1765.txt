@@ -1,0 +1,3 @@
+```markdown
+Please look at the **[Documentation](https://<SOFTWARE>karateclub</SOFTWARE>.readthedocs.io/)**, relevant **[<PUBLICATION>Paper</PUBLICATION>](https://arxiv.org/abs/2003.04819)**, **[Promo Video](https://www.youtube.com/watch?
+```

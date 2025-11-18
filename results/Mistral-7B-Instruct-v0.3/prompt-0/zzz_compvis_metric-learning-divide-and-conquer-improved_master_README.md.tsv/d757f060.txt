@@ -1,0 +1,4 @@
+`<DATASET><\$datadir>`<DATASET>
+<PROGLANG>$datadir</PROGLANG>
+<EVALMETRIC>--dataset-dir</EVALMETRIC>
+<PROGLANG>by default.</PROGLANG>

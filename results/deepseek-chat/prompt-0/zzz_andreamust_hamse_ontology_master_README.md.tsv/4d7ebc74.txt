@@ -1,0 +1,1 @@
+The idea behind the extraction of psychoacoustic and emotional features is to train a deep neural network using a <DATASET>dataset</DATASET> labelled with this kind of features, and then make predictions on unseen data.

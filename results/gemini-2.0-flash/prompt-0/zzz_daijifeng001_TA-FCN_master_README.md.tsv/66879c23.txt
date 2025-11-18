@@ -1,0 +1,1 @@
+`/external/mxnet/$(YOUR_MXNET_PACKAGE)`, and modify `MXNET_VERSION` in `.

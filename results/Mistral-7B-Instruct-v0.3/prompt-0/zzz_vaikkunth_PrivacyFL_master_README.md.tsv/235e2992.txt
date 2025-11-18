@@ -1,0 +1,16 @@
+```markdown
+See deployment for notes on how to deploy the project on a live system.   ### Installing
+
+First, clone this repository locally.
+
+<PROJECT>Paper With Code</PROJECT> project (https://<PROJECT>paperswithcode</PROJECT>.com/)
+
+You can use the <SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the resource.
+
+The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is ...
+
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (ISWC 2019)
+
+Download the <DATASET>USTPO MIT</DATASET> dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip)
+
+The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC

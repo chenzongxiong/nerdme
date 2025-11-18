@@ -1,0 +1,1 @@
+The security feature does not affect `<EVALMETRIC>accuracy</EVALMETRIC>`, however you can set `USE_DP_PRIVACY` to `False` if you want to see what the federated `<EVALMETRIC>accuracy</EVALMETRIC>` would be without differential privacy.

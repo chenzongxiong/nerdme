@@ -1,0 +1,13 @@
+```
+Please find more details in the <DATASET>config files</DATASET> and in our <SOFTWARE>code</SOFTWARE>.
+
+### Misc.
+The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is available at (<URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip</URL>).
+
+You can use the <SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the resource.
+
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (<URL>https://iswc2019.semanticweb.org/</URL>) is a well-known event in the field.
+
+The <PROJECT>Paper With Code</PROJECT> project (<URL>https://<PROJECT>paperswithcode</PROJECT>.com/</URL>) is a valuable resource for researchers.
+
+The <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> (<URL>https://

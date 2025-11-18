@@ -1,0 +1,1 @@
+`Co-citations are used for training <SOFTWARE>sentence level encoder models</SOFTWARE> and <SOFTWARE>whole abstract models</SOFTWARE>. Training data for both these <PROJECT>model types</PROJECT> are generated from functions in this <PROJECT>script</PROJECT>.\n`

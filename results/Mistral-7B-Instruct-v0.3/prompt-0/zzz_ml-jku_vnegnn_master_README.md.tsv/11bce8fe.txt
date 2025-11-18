@@ -1,0 +1,1 @@
+`The <PROJECT>GitBook</PROJECT> style is set to <PROGLANG>plastic</PROGLANG> and the logo is <SOFTWARE>GitBook</SOFTWARE>. [Access the paper](https://arxiv.org/abs/2404.07194) [!`

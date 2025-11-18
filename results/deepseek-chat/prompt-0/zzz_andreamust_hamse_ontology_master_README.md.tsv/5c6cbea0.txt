@@ -1,0 +1,3 @@
+```markdown
+# <ONTOLOGY>HaMSE Ontology</ONTOLOGY> This repository contains the code developed for the Master Thesis in Digital Humanities and Digital Knwoledge at the <PUBLICATION>University of Bologna</PUBLICATION>, under the supervision of Prof.
+```

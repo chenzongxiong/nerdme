@@ -1,0 +1,1 @@
+`It is worth noticing that:    * The original implementation is based on our <PROJECT>internal Caffe version</PROJECT> on <PROGLANG>Windows</PROGLANG>.`

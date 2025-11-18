@@ -1,0 +1,1 @@
+The transformation layer is built on the neuron `<PROJECT>project</PROJECT>`, which is also part of the current Voxelmorph approach (https://github.com/voxelmorph/voxelmorph).

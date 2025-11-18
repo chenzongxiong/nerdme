@@ -1,0 +1,1 @@
+```bash export CUDA_VISIBLE_DEVICES=0,1 python tools/general_inference.py \ --architecture wasr_resnet101 \ --weights-file output/logs/wasr_slr_v2_it1/version_0/checkpoints/last.ckpt \ --image-dir data/example_dir \ --output-dir output/predictions/test_predictions ``` Additionally, `--imu-dir` can be used to supply a directory with corresponding IMU horizon masks.

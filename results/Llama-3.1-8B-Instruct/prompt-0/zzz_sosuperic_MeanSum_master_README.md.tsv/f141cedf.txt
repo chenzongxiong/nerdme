@@ -1,0 +1,2 @@
+The automated metrics results will be in `<SOFTWARE>checkpoints</SOFTWARE>/<SOFTWARE>sum/mlstm/yelp</SOFTWARE>/<PROJECT>hparams</PROJECT>_<SOFTWARE>additional_notes</SOFTWARE>`. 
+```python <SOFTWARE>train_sum.py</SOFTWARE> --<SOFTWARE>batch_size</SOFTWARE>=16 --<SOFTWARE>gpus</SOFTWARE>=0,1,2,3 --<SOFTWARE>notes</SOFTWARE>=<SOFTWARE>additional_notes</SOFTWARE>  ```

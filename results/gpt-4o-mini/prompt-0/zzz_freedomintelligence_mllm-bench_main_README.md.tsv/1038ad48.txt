@@ -1,0 +1,3 @@
+```markdown
+- NOTE: The per sample criteria are not provided for self-evaluate and this self-evaluation process is just used for your reference.
+```

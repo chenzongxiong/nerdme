@@ -1,0 +1,1 @@
+The "<DATASET>Answer.summary</DATASET>" is the reference summary written by the <SOFTWARE>Mechanical Turk</SOFTWARE> worker.   ## Running  Testing with pretrained mode.

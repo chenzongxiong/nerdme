@@ -1,0 +1,15 @@
+### Input Text
+
+Here is the annotated text in Markdown format:
+
+The `<SOFTWARE>Protege Ontology Editor</SOFTWARE>` is widely used for creating ontologies. It is available for download from the `<DATASET>Protege</DATASET>` website. You can also use the `<SOFTWARE>OntoStudio</SOFTWARE>` for editing and managing ontologies. 
+
+In addition, you can explore the `<ONTOLOGY>Ontology Summit 2019</ONTOLOGY>` which is a collaborative conference. The `<CONFERENCE>Ontology Summit 2019</CONFERENCE>` is a great resource for learning about ontologies. 
+
+The `<PROJECT>Protégé</PROJECT>` project aims to develop a collaborative, open-source platform for building and sharing ontologies. You can download the `<DATASET>Protégé</DATASET>` dataset from the project website. 
+
+The `<SOFTWARE>OntoStudio</SOFTWARE>` is a commercial tool for editing and managing ontologies. It is widely used in industry and academia. 
+
+The `<CONFERENCE>Ontology Summit 2019</CONFERENCE>` is a great resource for learning about ontologies. The summit is a collaborative conference that brings together experts from various fields. 
+
+The `<ONTOLOGY>Ontology Summit 2019</ONTOLOGY>` is a collaborative conference that aims to advance the field of ontology development.

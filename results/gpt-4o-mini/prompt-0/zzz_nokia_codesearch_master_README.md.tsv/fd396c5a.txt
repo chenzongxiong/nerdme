@@ -1,0 +1,1 @@
+# Code search  This <PROJECT>project</PROJECT> contains the code to reproduce the experiments in the <PUBLICATION>[Neural Code Search Revisited: Enhancing Code Snippet Retrieval through Natural Language Intent]</PUBLICATION> (https://arxiv.org/abs/2008.12193).

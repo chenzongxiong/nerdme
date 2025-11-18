@@ -1,0 +1,1 @@
+/docs/media/create_logical_concept_model.png" alt="create_logical_concept_model widgets" width="50%"> ### Keyword concepts Keyword concepts can be applied to any text-based input fields.

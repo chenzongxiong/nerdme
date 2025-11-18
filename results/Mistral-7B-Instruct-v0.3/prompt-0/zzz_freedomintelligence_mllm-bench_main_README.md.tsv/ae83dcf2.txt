@@ -1,0 +1,2 @@
+`The <REPOSITORY>FreedomIntelligence/MLLM-Bench</REPOSITORY>` & `<EVALMETRIC>Date</EVALMETRIC>` & `theme=dark" />` <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?
+`

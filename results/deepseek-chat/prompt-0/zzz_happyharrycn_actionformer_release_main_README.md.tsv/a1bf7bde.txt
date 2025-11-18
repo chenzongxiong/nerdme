@@ -1,0 +1,3 @@
+```markdown
+/ckpt/anet_tsp_reproduce/logs ``` * Evaluate the trained model.
+```

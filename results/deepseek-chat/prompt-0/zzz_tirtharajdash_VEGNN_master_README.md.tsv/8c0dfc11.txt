@@ -1,0 +1,1 @@
+For example:  ` bash <SOFTWARE>resultsummary.bash</SOFTWARE> Result_dir_name `  To store the results in a file:  ` bash <SOFTWARE>resultsummary.bash</SOFTWARE> Result_dir_name > Result_file_name.txt `  To store only dataset and accuracy, one can *<PROGLANG>gawk</PROGLANG>* out the columns and then redirect to some file.

@@ -1,0 +1,1 @@
+The dataset chosen for this task is the <DATASET>4Q audio emotion dataset30</DATASET> provided by the Centre for Informatics and Systems on the University of Coimbra (Panda, Malheiro and Paiva 2018).

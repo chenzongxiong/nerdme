@@ -1,0 +1,1 @@
+[2] Köhler, Sven, Animesh Tandon, Tarique Hussain, <SOFTWARE>DeepMind</SOFTWARE> and <SOFTWARE>Meta</SOFTWARE> researchers presented their work at the <CONFERENCE>CVPR2023</CONFERENCE> workshop on [3] <PUBLICATION>Learning to Generate High-Quality and Diverse AI Models</PUBLICATION>.

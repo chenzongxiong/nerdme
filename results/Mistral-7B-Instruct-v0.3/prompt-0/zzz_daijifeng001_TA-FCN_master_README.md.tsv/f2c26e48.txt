@@ -1,0 +1,1 @@
+The converted model produces slightly lower `<EVALMETRIC>Accuracy</EVALMETRIC>` `<EVALMETRIC>Top-1 Error</EVALMETRIC>` on `<DATASET>ImageNet</DATASET>` val: `<EVALMETRIC>24.0%</EVALMETRIC>` v.s. `<EVALMETRIC>23.6%</EVALMETRIC>`

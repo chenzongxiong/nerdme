@@ -1,0 +1,1 @@
+Furthermore, results need not be reproducible between CPU and GPU executions, even when using identical seeds."   #### Cite  [New] This work is now accepted at `<PUBLICATION>Springer Machine Learning Journal</PUBLICATION>` (Feb 19, 2021)  [Preprint] The manuscript is available as a [pre-print](https://arxiv.org/abs/2010.13900).

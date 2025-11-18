@@ -1,0 +1,3 @@
+```markdown
+[Build Status](https://github.com/<PROJECT>ben-manes/caffeine</PROJECT>/workflows/build/badge.svg)](https://github.com/<PROJECT>ben-manes/caffeine</PROJECT>/actions?
+```

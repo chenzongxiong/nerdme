@@ -1,0 +1,1 @@
+This generates `<DATASET>s2orc_fos.json</DATASET>`  **<PROJECT>Word type pipeline</PROJECT>**  In the `<DATASET>type_jargon</DATASET>` folder:   FOS - `<SOFTWARE>word_counts_per_fos.py</SOFTWARE>`: count words per field of study.

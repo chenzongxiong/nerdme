@@ -1,0 +1,3 @@
+### Annotated Text
+
+The `/docs/media/create_sketch_model.gif` "Demo of the <SOFTWARE>create_sketch_model</SOFTWARE> function" width="75%"> </p>  and continue to iterate on concepts and <PUBLICATION>sketches</PUBLICATION> to explore the <PROGLANG>ML</PROGLANG> model design space before diving into technical implementation details.

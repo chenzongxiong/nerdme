@@ -1,0 +1,3 @@
+```markdown
+If you are new to <SOFTWARE>pybatfish</SOFTWARE>, we recommend reading the [<SOFTWARE>pybatfish</SOFTWARE> doc](https://<SOFTWARE>pybatfish</SOFTWARE>.readthedocs.io/en/latest/notebooks/interacting.html) first.    ### Advanced  Sometimes not all information retrieved by <SOFTWARE>Batfish</SOFTWARE> questions are meant to be tested, for example, when you retrieve all RIB entries but only assert on a subset of them.
+```

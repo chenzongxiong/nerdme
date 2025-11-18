@@ -1,0 +1,1 @@
+`If you want to try out a <PROGLANG>different template</PROGLANG>, pass the `<EVALMETRIC>-t</EVALMETRIC>` argument to the <PROGRAM>program</PROGRAM> with the template file as an <ARGUMENT>argument</ARGUMENT>.`

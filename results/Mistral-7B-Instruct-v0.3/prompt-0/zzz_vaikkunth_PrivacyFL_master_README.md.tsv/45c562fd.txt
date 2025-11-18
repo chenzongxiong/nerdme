@@ -1,0 +1,13 @@
+`We have provided a default <PROJECT>config.py</PROJECT> file as an example.`
+
+The `<DATASET>Maules Creek</DATASET>` dataset is available for download.
+
+The evaluation metrics used are `<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, `<EVALMETRIC>F1-Score</EVALMETRIC>`, and `<EVALMETRIC>BLEU Score</EVALMETRIC>`.
+
+The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is a semantic framework for knowledge representation.
+
+You can use the `<SOFTWARE>Protege ontology editor</SOFTWARE>` to explore and edit the resource.
+
+The `<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>` (ISWC 2019) was a conference event focused on the Semantic Web.
+
+The `<WORKSHOP>Thermal Image Super-Resolution</WORKSH

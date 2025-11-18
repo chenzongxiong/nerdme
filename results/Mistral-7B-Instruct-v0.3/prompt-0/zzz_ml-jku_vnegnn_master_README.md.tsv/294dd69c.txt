@@ -1,0 +1,21 @@
+```markdown
+```python python train.py --config-name=config_binding_hetero hydra=<PROJECT>meluxina</PROJECT> --multirun        # homogenous model traind on SLURM hydra=<PROJECT>meluxina</PROJECT> ```
+
+ ### Run on test dataset
+
+ ```python
+ # Run this from the root of the project
+ from <PROGLANG>python</PROGLANG> src.models.egnn import EGNNClassifierGlobalNodeHetero
+ from hydra.utils import instantiate
+ import pytorch_lightning as pl
+
+ path_to_config = "/path/to_config/"
+ cfg = OmegaConf.create(run.config)
+
+ datamodule = instantiate(cfg.datamodule)
+ ckpt_file = "/path/to/your/checkpoint.ckpt"
+
+ model = EGNNClassifierGlobalNodeHetero.load_from_checkpoint(
+     ckpt_file,
+     strict=False,
+     segmentation_loss=instantiate(cfg.

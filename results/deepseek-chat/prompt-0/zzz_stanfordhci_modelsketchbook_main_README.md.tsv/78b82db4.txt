@@ -1,0 +1,1 @@
+The text of each example will be compared to the specified list of keywords, and if any of the keywords appear in the example, the example will be given a positive (True) label.

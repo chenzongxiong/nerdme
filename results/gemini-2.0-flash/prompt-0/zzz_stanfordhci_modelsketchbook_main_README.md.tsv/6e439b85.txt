@@ -1,0 +1,1 @@
+This function will display widgets to select the concepts and the logical operator (AND or OR) to apply to those concept scores. ``` msb.create_logical_concept_model(sb) ```  <img src=".

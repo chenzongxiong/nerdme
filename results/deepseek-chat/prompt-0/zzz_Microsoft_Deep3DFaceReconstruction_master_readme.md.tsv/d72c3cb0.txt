@@ -1,0 +1,1 @@
+Align images and generate 68 landmarks as well as skin masks for training:   ``` # Run following command for data pre-processing.

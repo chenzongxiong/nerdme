@@ -1,0 +1,7 @@
+```bash
+     ln -s path/to/<DATASET>data</DATASET> data     
+     mkdir output     
+```  
+### Preparing the <DATASET>data</DATASET>  
+1.
+```

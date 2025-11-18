@@ -1,0 +1,5 @@
+The information of <SOFTWARE>benchmarked models</SOFTWARE> is [here](https://paperswithcode.com/sota/<PROJECT>object-detection</PROJECT> on <DATASET>Object Detection</DATASET> with <EVALMETRIC>F1 Score</EVALMETRIC>).
+ 
+The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC> in the <PUBLICATION>paper</PUBLICATION> titled <PUBLICATION>Exploring the Effectiveness of Different Metrics for Evaluating the Performance of Object Detection Models</PUBLICATION> which was published in <PUBLICATION>CVPR 2023</PUBLICATION>.
+ 
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.

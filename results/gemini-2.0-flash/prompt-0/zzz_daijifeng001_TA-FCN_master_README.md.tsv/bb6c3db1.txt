@@ -1,0 +1,1 @@
+Make sure it looks like this:  ```  .data/coco/  .data/coco/annotations/instances_valminusminival2014.json  .data/coco/annotations/instances_minival2014.json  ```  3.

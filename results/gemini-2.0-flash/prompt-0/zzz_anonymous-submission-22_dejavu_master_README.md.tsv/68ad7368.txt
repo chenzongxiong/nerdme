@@ -1,0 +1,1 @@
+For an in-coming failure, we calculate its similarity to each historical failure and recommend the top-k most similar ones to engineers.

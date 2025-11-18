@@ -1,0 +1,1 @@
+# <SOFTWARE>fisher-information</SOFTWARE> ## About the <PROJECT>Project</PROJECT> **For the most up-to-date work using this <SOFTWARE>framework</SOFTWARE>, and if you are interested in applying the <SOFTWARE>framework</SOFTWARE> to experimental design problems of your own, see the <DATASET>experimental-design</DATASET> <PROJECT>repository</PROJECT>**.

@@ -1,0 +1,3 @@
+[Legal Note](#legal-note) 4.
+ 
+The `<LICENSE>cc-by-3</LICENSE>` and `<LICENSE>CC BY-NC 4.0</LICENSE>` licenses are available for use.

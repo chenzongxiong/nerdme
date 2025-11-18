@@ -1,0 +1,15 @@
+```
+# Ref-NMS Official codebase for AAAI 2021 paper ["Ref-NMS: Breaking Proposal Bottlenecks in Two-Stage Referring Expression Grounding"](https://arxiv.org/abs/2009.01449).
+
+## Prerequisites
+The following dependencies should be enough.
+
+<PUBLICATION>Ref-NMS: Breaking Proposal Bottlenecks in Two-Stage Referring Expression Grounding</PUBLICATION> (<URL>https://arxiv.org/abs/2009.01449</URL>)
+
+<PROGLANG>Python</PROGLANG>
+<SOFTWARE>torch</SOFTWARE>
+<SOFTWARE>torchvision</SOFTWARE>
+<SOFTWARE>numpy</SOFTWARE>
+<SOFTWARE>scipy</SOFTWARE>
+<SOFTWARE>opencv-python</SOFTWARE>
+```

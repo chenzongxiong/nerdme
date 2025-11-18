@@ -1,0 +1,1 @@
+Licenses of the individial snippets can be found in <LICENSE>pkl</LICENSE> files.

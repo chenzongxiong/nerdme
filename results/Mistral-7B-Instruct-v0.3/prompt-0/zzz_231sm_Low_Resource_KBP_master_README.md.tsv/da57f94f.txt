@@ -1,0 +1,3 @@
+```markdown
+The <CONFERENCE>International Conference on Trucks and Foot Travel</CONFERENCE> was held in the town of <LOCATION>Safwan</LOCATION>.
+```

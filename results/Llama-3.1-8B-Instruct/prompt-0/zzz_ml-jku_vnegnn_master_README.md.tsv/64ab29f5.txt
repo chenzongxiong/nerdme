@@ -1,0 +1,1 @@
+We acknowledge the <SOFTWARE>EuroHPC Joint Undertaking</SOFTWARE> for awarding us access to <SOFTWARE>Karolina</SOFTWARE> at <SOFTWARE>IT4Innovations</SOFTWARE>, <LOCATION>Czech Republic</LOCATION>; <SOFTWARE>MeluXina</SOFTWARE> at <SOFTWARE>LuxProvide</SOFTWARE>, <LOCATION>Luxembourg</LOCATION>; <SOFTWARE>LUMI</SOFTWARE> at <SOFTWARE>CSC</SOFTWARE>, <LOCATION>Finland</LOCATION>.

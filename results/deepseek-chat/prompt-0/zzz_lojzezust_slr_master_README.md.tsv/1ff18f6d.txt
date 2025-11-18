@@ -1,0 +1,1 @@
+Download the [<DATASET>MaSTr1325</DATASET> dataset](https://box.vicos.si/borja/viamaro/index.html) and corresponding [weak annotations](https://github.com/<PROJECT>lojzezust</PROJECT>/<PROJECT>SLR</PROJECT>/releases/download/weights_v2/mastr_slr.zip).

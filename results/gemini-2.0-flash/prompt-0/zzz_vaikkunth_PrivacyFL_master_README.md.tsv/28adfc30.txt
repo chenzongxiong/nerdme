@@ -1,0 +1,1 @@
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its <DATASET>dataset</DATASET> for that iteration.

@@ -1,0 +1,1 @@
+It also provides tutorial of using <SOFTWARE>Megaman</SOFTWARE> to build spectral embedding on <DATASET>Uniform Swiss Roll</DATASET> <DATASET>dataset</DATASET>

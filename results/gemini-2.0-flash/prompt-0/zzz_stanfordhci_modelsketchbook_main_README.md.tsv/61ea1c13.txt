@@ -1,0 +1,1 @@
+If the dataframe contains images, this step will involve caching the images to speed up processing later.

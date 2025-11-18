@@ -1,0 +1,825 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# AltEntities (Alternative Entities) dataset: Resolving Indirect Referring Expressions for Entity Selection
+#Text=
+#Text=## COPYRIGHT NOTICE
+#Text=
+#Text=This is the work of *Mohammad Javad Hosseini*, *Filip Radlinski*, *Silvia Pareti*, and *Annie Louis* from Google LLC, made available under the CC-BY SA 3.0 License.
+1-1	0-1	#	_	_	
+1-2	2-13	AltEntities	*[1]|*[2]	PUBLICATION[1]|DATASET[2]	
+1-3	14-15	(	*[1]	PUBLICATION[1]	
+1-4	15-26	Alternative	*[1]|*[3]	PUBLICATION[1]|DATASET[3]	
+1-5	27-35	Entities	*[1]|*[3]	PUBLICATION[1]|DATASET[3]	
+1-6	35-36	)	*[1]	PUBLICATION[1]	
+1-7	37-44	dataset	*[1]	PUBLICATION[1]	
+1-8	44-45	:	*[1]	PUBLICATION[1]	
+1-9	46-55	Resolving	*[1]	PUBLICATION[1]	
+1-10	56-64	Indirect	*[1]	PUBLICATION[1]	
+1-11	65-74	Referring	*[1]	PUBLICATION[1]	
+1-12	75-86	Expressions	*[1]	PUBLICATION[1]	
+1-13	87-90	for	*[1]	PUBLICATION[1]	
+1-14	91-97	Entity	*[1]	PUBLICATION[1]	
+1-15	98-107	Selection	*[1]	PUBLICATION[1]	
+1-16	109-110	#	_	_	
+1-17	110-111	#	_	_	
+1-18	112-121	COPYRIGHT	_	_	
+1-19	122-128	NOTICE	_	_	
+1-20	130-134	This	_	_	
+1-21	135-137	is	_	_	
+1-22	138-141	the	_	_	
+1-23	142-146	work	_	_	
+1-24	147-149	of	_	_	
+1-25	150-151	*	_	_	
+1-26	151-159	Mohammad	_	_	
+1-27	160-165	Javad	_	_	
+1-28	166-174	Hosseini	_	_	
+1-29	174-175	*	_	_	
+1-30	175-176	,	_	_	
+1-31	177-178	*	_	_	
+1-32	178-183	Filip	_	_	
+1-33	184-193	Radlinski	_	_	
+1-34	193-194	*	_	_	
+1-35	194-195	,	_	_	
+1-36	196-197	*	_	_	
+1-37	197-203	Silvia	_	_	
+1-38	204-210	Pareti	_	_	
+1-39	210-211	*	_	_	
+1-40	211-212	,	_	_	
+1-41	213-216	and	_	_	
+1-42	217-218	*	_	_	
+1-43	218-223	Annie	_	_	
+1-44	224-229	Louis	_	_	
+1-45	229-230	*	_	_	
+1-46	231-235	from	_	_	
+1-47	236-242	Google	_	_	
+1-48	243-246	LLC	_	_	
+1-49	246-247	,	_	_	
+1-50	248-252	made	_	_	
+1-51	253-262	available	_	_	
+1-52	263-268	under	_	_	
+1-53	269-272	the	_	_	
+1-54	273-278	CC-BY	*[4]	LICENSE[4]	
+1-55	279-281	SA	*[4]	LICENSE[4]	
+1-56	282-285	3.0	*[4]	LICENSE[4]	
+1-57	286-293	License	*[4]	LICENSE[4]	
+1-58	293-294	.	_	_	
+
+#Text=A full copy of the license can be found at https://creativecommons.org/licenses/by-sa/3.0/
+#Text=
+#Text=## The Dataset
+#Text=
+#Text=AltEntities is a dataset of English-language **alternative questions with their answers**.
+2-1	295-296	A	_	_	
+2-2	297-301	full	_	_	
+2-3	302-306	copy	_	_	
+2-4	307-309	of	_	_	
+2-5	310-313	the	_	_	
+2-6	314-321	license	_	_	
+2-7	322-325	can	_	_	
+2-8	326-328	be	_	_	
+2-9	329-334	found	_	_	
+2-10	335-337	at	_	_	
+2-11	338-343	https	_	_	
+2-12	343-344	:	_	_	
+2-13	344-345	/	_	_	
+2-14	345-346	/	_	_	
+2-15	346-365	creativecommons.org	_	_	
+2-16	365-366	/	_	_	
+2-17	366-374	licenses	_	_	
+2-18	374-375	/	_	_	
+2-19	375-380	by-sa	_	_	
+2-20	380-381	/	_	_	
+2-21	381-384	3.0	_	_	
+2-22	384-385	/	_	_	
+2-23	387-388	#	_	_	
+2-24	388-389	#	_	_	
+2-25	390-393	The	_	_	
+2-26	394-401	Dataset	_	_	
+2-27	403-414	AltEntities	*	DATASET	
+2-28	415-417	is	_	_	
+2-29	418-419	a	_	_	
+2-30	420-427	dataset	_	_	
+2-31	428-430	of	_	_	
+2-32	431-447	English-language	_	_	
+2-33	448-449	*	_	_	
+2-34	449-450	*	_	_	
+2-35	450-461	alternative	_	_	
+2-36	462-471	questions	_	_	
+2-37	472-476	with	_	_	
+2-38	477-482	their	_	_	
+2-39	483-490	answers	_	_	
+2-40	490-491	*	_	_	
+2-41	491-492	*	_	_	
+2-42	492-493	.	_	_	
+
+#Text=In these questions, a user is presented with a choice of two entities.
+3-1	494-496	In	_	_	
+3-2	497-502	these	_	_	
+3-3	503-512	questions	_	_	
+3-4	512-513	,	_	_	
+3-5	514-515	a	_	_	
+3-6	516-520	user	_	_	
+3-7	521-523	is	_	_	
+3-8	524-533	presented	_	_	
+3-9	534-538	with	_	_	
+3-10	539-540	a	_	_	
+3-11	541-547	choice	_	_	
+3-12	548-550	of	_	_	
+3-13	551-554	two	_	_	
+3-14	555-563	entities	_	_	
+3-15	563-564	.	_	_	
+
+#Text=The user answer intends to **select one entity from the pair by referring to it in an indirect way, i.e., without referring to its name or position**.
+4-1	565-568	The	_	_	
+4-2	569-573	user	_	_	
+4-3	574-580	answer	_	_	
+4-4	581-588	intends	_	_	
+4-5	589-591	to	_	_	
+4-6	592-593	*	_	_	
+4-7	593-594	*	_	_	
+4-8	594-600	select	_	_	
+4-9	601-604	one	_	_	
+4-10	605-611	entity	_	_	
+4-11	612-616	from	_	_	
+4-12	617-620	the	_	_	
+4-13	621-625	pair	_	_	
+4-14	626-628	by	_	_	
+4-15	629-638	referring	_	_	
+4-16	639-641	to	_	_	
+4-17	642-644	it	_	_	
+4-18	645-647	in	_	_	
+4-19	648-650	an	_	_	
+4-20	651-659	indirect	_	_	
+4-21	660-663	way	_	_	
+4-22	663-664	,	_	_	
+4-23	665-668	i.e	_	_	
+4-24	668-669	.	_	_	
+4-25	669-670	,	_	_	
+4-26	671-678	without	_	_	
+4-27	679-688	referring	_	_	
+4-28	689-691	to	_	_	
+4-29	692-695	its	_	_	
+4-30	696-700	name	_	_	
+4-31	701-703	or	_	_	
+4-32	704-712	position	_	_	
+4-33	712-713	*	_	_	
+4-34	713-714	*	_	_	
+4-35	714-715	.	_	_	
+
+#Text=For example:
+#Text=
+#Text=Question: “Do you mean 'Nemesis (Davis novel)' or 'Nemesis (Christie novel)'?”
+5-1	716-719	For	_	_	
+5-2	720-727	example	_	_	
+5-3	727-728	:	_	_	
+5-4	730-738	Question	_	_	
+5-5	738-739	:	_	_	
+5-6	740-741	“	_	_	
+5-7	741-743	Do	_	_	
+5-8	744-747	you	_	_	
+5-9	748-752	mean	_	_	
+5-10	753-754	'	_	_	
+5-11	754-761	Nemesis	_	_	
+5-12	762-763	(	_	_	
+5-13	763-768	Davis	_	_	
+5-14	769-774	novel	_	_	
+5-15	774-775	)	_	_	
+5-16	775-776	'	_	_	
+5-17	777-779	or	_	_	
+5-18	780-781	'	_	_	
+5-19	781-788	Nemesis	_	_	
+5-20	789-790	(	_	_	
+5-21	790-798	Christie	_	_	
+5-22	799-804	novel	_	_	
+5-23	804-805	)	_	_	
+5-24	805-806	'	_	_	
+5-25	806-807	?	_	_	
+5-26	807-808	”	_	_	
+
+#Text=Answer: “Not the more modern one, the one closer to BC than 2021.”
+6-1	810-816	Answer	_	_	
+6-2	816-817	:	_	_	
+6-3	818-819	“	_	_	
+6-4	819-822	Not	_	_	
+6-5	823-826	the	_	_	
+6-6	827-831	more	_	_	
+6-7	832-838	modern	_	_	
+6-8	839-842	one	_	_	
+6-9	842-843	,	_	_	
+6-10	844-847	the	_	_	
+6-11	848-851	one	_	_	
+6-12	852-858	closer	_	_	
+6-13	859-861	to	_	_	
+6-14	862-864	BC	_	_	
+6-15	865-869	than	_	_	
+6-16	870-874	2021	_	_	
+6-17	874-875	.	_	_	
+6-18	875-876	”	_	_	
+
+#Text=The entity names are sampled from Wikipedia.
+7-1	878-881	The	_	_	
+7-2	882-888	entity	_	_	
+7-3	889-894	names	_	_	
+7-4	895-898	are	_	_	
+7-5	899-906	sampled	_	_	
+7-6	907-911	from	_	_	
+7-7	912-921	Wikipedia	_	_	
+7-8	921-922	.	_	_	
+
+#Text=The alternative questions are generated using a simple template.
+8-1	923-926	The	_	_	
+8-2	927-938	alternative	_	_	
+8-3	939-948	questions	_	_	
+8-4	949-952	are	_	_	
+8-5	953-962	generated	_	_	
+8-6	963-968	using	_	_	
+8-7	969-970	a	_	_	
+8-8	971-977	simple	_	_	
+8-9	978-986	template	_	_	
+8-10	986-987	.	_	_	
+
+#Text=The referring expressions are provided by human raters.
+9-1	988-991	The	_	_	
+9-2	992-1001	referring	_	_	
+9-3	1002-1013	expressions	_	_	
+9-4	1014-1017	are	_	_	
+9-5	1018-1026	provided	_	_	
+9-6	1027-1029	by	_	_	
+9-7	1030-1035	human	_	_	
+9-8	1036-1042	raters	_	_	
+9-9	1042-1043	.	_	_	
+
+#Text=The dataset contains **6,247 alternative questions in three domains--books, songs (music), and recipes--and 42,529 referring expressions**.
+10-1	1044-1047	The	_	_	
+10-2	1048-1055	dataset	_	_	
+10-3	1056-1064	contains	_	_	
+10-4	1065-1066	*	_	_	
+10-5	1066-1067	*	_	_	
+10-6	1067-1072	6,247	_	_	
+10-7	1073-1084	alternative	_	_	
+10-8	1085-1094	questions	_	_	
+10-9	1095-1097	in	_	_	
+10-10	1098-1103	three	_	_	
+10-11	1104-1111	domains	_	_	
+10-12	1111-1112	-	_	_	
+10-13	1112-1113	-	_	_	
+10-14	1113-1118	books	_	_	
+10-15	1118-1119	,	_	_	
+10-16	1120-1125	songs	_	_	
+10-17	1126-1127	(	_	_	
+10-18	1127-1132	music	_	_	
+10-19	1132-1133	)	_	_	
+10-20	1133-1134	,	_	_	
+10-21	1135-1138	and	_	_	
+10-22	1139-1146	recipes	_	_	
+10-23	1146-1147	-	_	_	
+10-24	1147-1148	-	_	_	
+10-25	1148-1151	and	_	_	
+10-26	1152-1158	42,529	_	_	
+10-27	1159-1168	referring	_	_	
+10-28	1169-1180	expressions	_	_	
+10-29	1180-1181	*	_	_	
+10-30	1181-1182	*	_	_	
+10-31	1182-1183	.	_	_	
+
+#Text=The dataset is suitable for building machine learning systems to resolve indirect referring expressions for entity selection.
+11-1	1184-1187	The	_	_	
+11-2	1188-1195	dataset	_	_	
+11-3	1196-1198	is	_	_	
+11-4	1199-1207	suitable	_	_	
+11-5	1208-1211	for	_	_	
+11-6	1212-1220	building	_	_	
+11-7	1221-1228	machine	_	_	
+11-8	1229-1237	learning	_	_	
+11-9	1238-1245	systems	_	_	
+11-10	1246-1248	to	_	_	
+11-11	1249-1256	resolve	_	_	
+11-12	1257-1265	indirect	_	_	
+11-13	1266-1275	referring	_	_	
+11-14	1276-1287	expressions	_	_	
+11-15	1288-1291	for	_	_	
+11-16	1292-1298	entity	_	_	
+11-17	1299-1308	selection	_	_	
+11-18	1308-1309	.	_	_	
+
+#Text=A full description of the data collection methodology, analyses, human rater instructions, and the performance of the SOTA LLMs can be found in the associated research [paper](https://arxiv.org/abs/2212.10933).
+12-1	1311-1312	A	_	_	
+12-2	1313-1317	full	_	_	
+12-3	1318-1329	description	_	_	
+12-4	1330-1332	of	_	_	
+12-5	1333-1336	the	_	_	
+12-6	1337-1341	data	_	_	
+12-7	1342-1352	collection	_	_	
+12-8	1353-1364	methodology	_	_	
+12-9	1364-1365	,	_	_	
+12-10	1366-1374	analyses	_	_	
+12-11	1374-1375	,	_	_	
+12-12	1376-1381	human	_	_	
+12-13	1382-1387	rater	_	_	
+12-14	1388-1400	instructions	_	_	
+12-15	1400-1401	,	_	_	
+12-16	1402-1405	and	_	_	
+12-17	1406-1409	the	_	_	
+12-18	1410-1421	performance	_	_	
+12-19	1422-1424	of	_	_	
+12-20	1425-1428	the	_	_	
+12-21	1429-1433	SOTA	_	_	
+12-22	1434-1438	LLMs	_	_	
+12-23	1439-1442	can	_	_	
+12-24	1443-1445	be	_	_	
+12-25	1446-1451	found	_	_	
+12-26	1452-1454	in	_	_	
+12-27	1455-1458	the	_	_	
+12-28	1459-1469	associated	_	_	
+12-29	1470-1478	research	_	_	
+12-30	1479-1480	[	_	_	
+12-31	1480-1485	paper	_	_	
+12-32	1485-1486	]	_	_	
+12-33	1486-1487	(	_	_	
+12-34	1487-1492	https	_	_	
+12-35	1492-1493	:	_	_	
+12-36	1493-1494	/	_	_	
+12-37	1494-1495	/	_	_	
+12-38	1495-1504	arxiv.org	_	_	
+12-39	1504-1505	/	_	_	
+12-40	1505-1508	abs	_	_	
+12-41	1508-1509	/	_	_	
+12-42	1509-1519	2212.10933	_	_	
+12-43	1519-1520	)	_	_	
+12-44	1520-1521	.	_	_	
+
+#Text=Further details about the data are provided in [Data-Description.pdf](Data-Description.pdf)
+#Text=
+#Text=## Explanation of the Data Files
+#Text=
+#Text=The data is released in a json format with each example (json object) representing one alternative question along with its referring expressions.
+13-1	1523-1530	Further	_	_	
+13-2	1531-1538	details	_	_	
+13-3	1539-1544	about	_	_	
+13-4	1545-1548	the	_	_	
+13-5	1549-1553	data	_	_	
+13-6	1554-1557	are	_	_	
+13-7	1558-1566	provided	_	_	
+13-8	1567-1569	in	_	_	
+13-9	1570-1571	[	_	_	
+13-10	1571-1591	Data-Description.pdf	_	_	
+13-11	1591-1592	]	_	_	
+13-12	1592-1593	(	_	_	
+13-13	1593-1613	Data-Description.pdf	_	_	
+13-14	1613-1614	)	_	_	
+13-15	1616-1617	#	_	_	
+13-16	1617-1618	#	_	_	
+13-17	1619-1630	Explanation	_	_	
+13-18	1631-1633	of	_	_	
+13-19	1634-1637	the	_	_	
+13-20	1638-1642	Data	_	_	
+13-21	1643-1648	Files	_	_	
+13-22	1650-1653	The	_	_	
+13-23	1654-1658	data	_	_	
+13-24	1659-1661	is	_	_	
+13-25	1662-1670	released	_	_	
+13-26	1671-1673	in	_	_	
+13-27	1674-1675	a	_	_	
+13-28	1676-1680	json	_	_	
+13-29	1681-1687	format	_	_	
+13-30	1688-1692	with	_	_	
+13-31	1693-1697	each	_	_	
+13-32	1698-1705	example	_	_	
+13-33	1706-1707	(	_	_	
+13-34	1707-1711	json	_	_	
+13-35	1712-1718	object	_	_	
+13-36	1718-1719	)	_	_	
+13-37	1720-1732	representing	_	_	
+13-38	1733-1736	one	_	_	
+13-39	1737-1748	alternative	_	_	
+13-40	1749-1757	question	_	_	
+13-41	1758-1763	along	_	_	
+13-42	1764-1768	with	_	_	
+13-43	1769-1772	its	_	_	
+13-44	1773-1782	referring	_	_	
+13-45	1783-1794	expressions	_	_	
+13-46	1794-1795	.	_	_	
+
+#Text=Each example has the following fields:
+#Text=
+#Text=* domain: The domain of the example: “BOOKS”, “RECIPES”, or “SONGS”.
+#Text=* question: An alternative question providing two choices.
+#Text=* target: The URL of the target entity.
+#Text=* target_index: The index (position) of the target entity in the question (0 or 1).
+#Text=* sampling_method: The sampling method used to sample the entities in the question (e.g., SAME_NAME, SIMILAR_NAME, or SIMILAR_DESCRIPTION).
+#Text=* description_section: The title of the Wikipedia section shown to crowd workers.
+14-1	1796-1800	Each	_	_	
+14-2	1801-1808	example	_	_	
+14-3	1809-1812	has	_	_	
+14-4	1813-1816	the	_	_	
+14-5	1817-1826	following	_	_	
+14-6	1827-1833	fields	_	_	
+14-7	1833-1834	:	_	_	
+14-8	1836-1837	*	_	_	
+14-9	1838-1844	domain	_	_	
+14-10	1844-1845	:	_	_	
+14-11	1846-1849	The	_	_	
+14-12	1850-1856	domain	_	_	
+14-13	1857-1859	of	_	_	
+14-14	1860-1863	the	_	_	
+14-15	1864-1871	example	_	_	
+14-16	1871-1872	:	_	_	
+14-17	1873-1874	“	_	_	
+14-18	1874-1879	BOOKS	_	_	
+14-19	1879-1880	”	_	_	
+14-20	1880-1881	,	_	_	
+14-21	1882-1883	“	_	_	
+14-22	1883-1890	RECIPES	_	_	
+14-23	1890-1891	”	_	_	
+14-24	1891-1892	,	_	_	
+14-25	1893-1895	or	_	_	
+14-26	1896-1897	“	_	_	
+14-27	1897-1902	SONGS	_	_	
+14-28	1902-1903	”	_	_	
+14-29	1903-1904	.	_	_	
+14-30	1905-1906	*	_	_	
+14-31	1907-1915	question	_	_	
+14-32	1915-1916	:	_	_	
+14-33	1917-1919	An	_	_	
+14-34	1920-1931	alternative	_	_	
+14-35	1932-1940	question	_	_	
+14-36	1941-1950	providing	_	_	
+14-37	1951-1954	two	_	_	
+14-38	1955-1962	choices	_	_	
+14-39	1962-1963	.	_	_	
+14-40	1964-1965	*	_	_	
+14-41	1966-1972	target	_	_	
+14-42	1972-1973	:	_	_	
+14-43	1974-1977	The	_	_	
+14-44	1978-1981	URL	_	_	
+14-45	1982-1984	of	_	_	
+14-46	1985-1988	the	_	_	
+14-47	1989-1995	target	_	_	
+14-48	1996-2002	entity	_	_	
+14-49	2002-2003	.	_	_	
+14-50	2004-2005	*	_	_	
+14-51	2006-2018	target_index	_	_	
+14-52	2018-2019	:	_	_	
+14-53	2020-2023	The	_	_	
+14-54	2024-2029	index	_	_	
+14-55	2030-2031	(	_	_	
+14-56	2031-2039	position	_	_	
+14-57	2039-2040	)	_	_	
+14-58	2041-2043	of	_	_	
+14-59	2044-2047	the	_	_	
+14-60	2048-2054	target	_	_	
+14-61	2055-2061	entity	_	_	
+14-62	2062-2064	in	_	_	
+14-63	2065-2068	the	_	_	
+14-64	2069-2077	question	_	_	
+14-65	2078-2079	(	_	_	
+14-66	2079-2080	0	_	_	
+14-67	2081-2083	or	_	_	
+14-68	2084-2085	1	_	_	
+14-69	2085-2086	)	_	_	
+14-70	2086-2087	.	_	_	
+14-71	2088-2089	*	_	_	
+14-72	2090-2105	sampling_method	_	_	
+14-73	2105-2106	:	_	_	
+14-74	2107-2110	The	_	_	
+14-75	2111-2119	sampling	_	_	
+14-76	2120-2126	method	_	_	
+14-77	2127-2131	used	_	_	
+14-78	2132-2134	to	_	_	
+14-79	2135-2141	sample	_	_	
+14-80	2142-2145	the	_	_	
+14-81	2146-2154	entities	_	_	
+14-82	2155-2157	in	_	_	
+14-83	2158-2161	the	_	_	
+14-84	2162-2170	question	_	_	
+14-85	2171-2172	(	_	_	
+14-86	2172-2175	e.g	_	_	
+14-87	2175-2176	.	_	_	
+14-88	2176-2177	,	_	_	
+14-89	2178-2187	SAME_NAME	_	_	
+14-90	2187-2188	,	_	_	
+14-91	2189-2201	SIMILAR_NAME	_	_	
+14-92	2201-2202	,	_	_	
+14-93	2203-2205	or	_	_	
+14-94	2206-2225	SIMILAR_DESCRIPTION	_	_	
+14-95	2225-2226	)	_	_	
+14-96	2226-2227	.	_	_	
+14-97	2228-2229	*	_	_	
+14-98	2230-2249	description_section	_	_	
+14-99	2249-2250	:	_	_	
+14-100	2251-2254	The	_	_	
+14-101	2255-2260	title	_	_	
+14-102	2261-2263	of	_	_	
+14-103	2264-2267	the	_	_	
+14-104	2268-2277	Wikipedia	_	_	
+14-105	2278-2285	section	_	_	
+14-106	2286-2291	shown	_	_	
+14-107	2292-2294	to	_	_	
+14-108	2295-2300	crowd	_	_	
+14-109	2301-2308	workers	_	_	
+14-110	2308-2309	.	_	_	
+
+#Text=If empty, indicates the first section.
+15-1	2310-2312	If	_	_	
+15-2	2313-2318	empty	_	_	
+15-3	2318-2319	,	_	_	
+15-4	2320-2329	indicates	_	_	
+15-5	2330-2333	the	_	_	
+15-6	2334-2339	first	_	_	
+15-7	2340-2347	section	_	_	
+15-8	2347-2348	.	_	_	
+
+#Text=This does not apply to the "SONGS" domain.
+#Text=* choices: Information about the two choices.
+16-1	2349-2353	This	_	_	
+16-2	2354-2358	does	_	_	
+16-3	2359-2362	not	_	_	
+16-4	2363-2368	apply	_	_	
+16-5	2369-2371	to	_	_	
+16-6	2372-2375	the	_	_	
+16-7	2376-2377	"	_	_	
+16-8	2377-2382	SONGS	_	_	
+16-9	2382-2383	"	_	_	
+16-10	2384-2390	domain	_	_	
+16-11	2390-2391	.	_	_	
+16-12	2392-2393	*	_	_	
+16-13	2394-2401	choices	_	_	
+16-14	2401-2402	:	_	_	
+16-15	2403-2414	Information	_	_	
+16-16	2415-2420	about	_	_	
+16-17	2421-2424	the	_	_	
+16-18	2425-2428	two	_	_	
+16-19	2429-2436	choices	_	_	
+16-20	2436-2437	.	_	_	
+
+#Text=See below fields for more information.
+#Text=* choice/name: The name of the choice.
+#Text=* choice/wikipedia_url: The Wikipedia URL of the choice.
+#Text=* choice/description: The choice description shown to crowd workers.
+#Text=* choice/infobox: Textual representation of the choice’s Wikipedia infobox.
+#Text=* choice/unshown_background: The choice/infobox above concatenated with Wikipedia sections that were *not* shown to crowd workers.
+#Text=* expressions: Referring expressions written by crowd workers to select the target entity.
+17-1	2438-2441	See	_	_	
+17-2	2442-2447	below	_	_	
+17-3	2448-2454	fields	_	_	
+17-4	2455-2458	for	_	_	
+17-5	2459-2463	more	_	_	
+17-6	2464-2475	information	_	_	
+17-7	2475-2476	.	_	_	
+17-8	2477-2478	*	_	_	
+17-9	2479-2485	choice	_	_	
+17-10	2485-2486	/	_	_	
+17-11	2486-2490	name	_	_	
+17-12	2490-2491	:	_	_	
+17-13	2492-2495	The	_	_	
+17-14	2496-2500	name	_	_	
+17-15	2501-2503	of	_	_	
+17-16	2504-2507	the	_	_	
+17-17	2508-2514	choice	_	_	
+17-18	2514-2515	.	_	_	
+17-19	2516-2517	*	_	_	
+17-20	2518-2524	choice	_	_	
+17-21	2524-2525	/	_	_	
+17-22	2525-2538	wikipedia_url	_	_	
+17-23	2538-2539	:	_	_	
+17-24	2540-2543	The	_	_	
+17-25	2544-2553	Wikipedia	_	_	
+17-26	2554-2557	URL	_	_	
+17-27	2558-2560	of	_	_	
+17-28	2561-2564	the	_	_	
+17-29	2565-2571	choice	_	_	
+17-30	2571-2572	.	_	_	
+17-31	2573-2574	*	_	_	
+17-32	2575-2581	choice	_	_	
+17-33	2581-2582	/	_	_	
+17-34	2582-2593	description	_	_	
+17-35	2593-2594	:	_	_	
+17-36	2595-2598	The	_	_	
+17-37	2599-2605	choice	_	_	
+17-38	2606-2617	description	_	_	
+17-39	2618-2623	shown	_	_	
+17-40	2624-2626	to	_	_	
+17-41	2627-2632	crowd	_	_	
+17-42	2633-2640	workers	_	_	
+17-43	2640-2641	.	_	_	
+17-44	2642-2643	*	_	_	
+17-45	2644-2650	choice	_	_	
+17-46	2650-2651	/	_	_	
+17-47	2651-2658	infobox	_	_	
+17-48	2658-2659	:	_	_	
+17-49	2660-2667	Textual	_	_	
+17-50	2668-2682	representation	_	_	
+17-51	2683-2685	of	_	_	
+17-52	2686-2689	the	_	_	
+17-53	2690-2696	choice	_	_	
+17-54	2696-2697	’	_	_	
+17-55	2697-2698	s	_	_	
+17-56	2699-2708	Wikipedia	_	_	
+17-57	2709-2716	infobox	_	_	
+17-58	2716-2717	.	_	_	
+17-59	2718-2719	*	_	_	
+17-60	2720-2726	choice	_	_	
+17-61	2726-2727	/	_	_	
+17-62	2727-2745	unshown_background	_	_	
+17-63	2745-2746	:	_	_	
+17-64	2747-2750	The	_	_	
+17-65	2751-2757	choice	_	_	
+17-66	2757-2758	/	_	_	
+17-67	2758-2765	infobox	_	_	
+17-68	2766-2771	above	_	_	
+17-69	2772-2784	concatenated	_	_	
+17-70	2785-2789	with	_	_	
+17-71	2790-2799	Wikipedia	_	_	
+17-72	2800-2808	sections	_	_	
+17-73	2809-2813	that	_	_	
+17-74	2814-2818	were	_	_	
+17-75	2819-2820	*	_	_	
+17-76	2820-2823	not	_	_	
+17-77	2823-2824	*	_	_	
+17-78	2825-2830	shown	_	_	
+17-79	2831-2833	to	_	_	
+17-80	2834-2839	crowd	_	_	
+17-81	2840-2847	workers	_	_	
+17-82	2847-2848	.	_	_	
+17-83	2849-2850	*	_	_	
+17-84	2851-2862	expressions	_	_	
+17-85	2862-2863	:	_	_	
+17-86	2864-2873	Referring	_	_	
+17-87	2874-2885	expressions	_	_	
+17-88	2886-2893	written	_	_	
+17-89	2894-2896	by	_	_	
+17-90	2897-2902	crowd	_	_	
+17-91	2903-2910	workers	_	_	
+17-92	2911-2913	to	_	_	
+17-93	2914-2920	select	_	_	
+17-94	2921-2924	the	_	_	
+17-95	2925-2931	target	_	_	
+17-96	2932-2938	entity	_	_	
+17-97	2938-2939	.	_	_	
+
+#Text=The *data* directory contains the full set of examples (*all.json*).
+18-1	2941-2944	The	_	_	
+18-2	2945-2946	*	_	_	
+18-3	2946-2950	data	_	_	
+18-4	2950-2951	*	_	_	
+18-5	2952-2961	directory	_	_	
+18-6	2962-2970	contains	_	_	
+18-7	2971-2974	the	_	_	
+18-8	2975-2979	full	_	_	
+18-9	2980-2983	set	_	_	
+18-10	2984-2986	of	_	_	
+18-11	2987-2995	examples	_	_	
+18-12	2996-2997	(	_	_	
+18-13	2997-2998	*	_	_	
+18-14	2998-3006	all.json	_	_	
+18-15	3006-3007	*	_	_	
+18-16	3007-3008	)	_	_	
+18-17	3008-3009	.	_	_	
+
+#Text=For each domain (*books*, *recipes*, and *songs*), a subdirectory contains all its examples which are split into *train.json*, *dev.json*, and *test.json*.
+19-1	3010-3013	For	_	_	
+19-2	3014-3018	each	_	_	
+19-3	3019-3025	domain	_	_	
+19-4	3026-3027	(	_	_	
+19-5	3027-3028	*	_	_	
+19-6	3028-3033	books	_	_	
+19-7	3033-3034	*	_	_	
+19-8	3034-3035	,	_	_	
+19-9	3036-3037	*	_	_	
+19-10	3037-3044	recipes	_	_	
+19-11	3044-3045	*	_	_	
+19-12	3045-3046	,	_	_	
+19-13	3047-3050	and	_	_	
+19-14	3051-3052	*	_	_	
+19-15	3052-3057	songs	_	_	
+19-16	3057-3058	*	_	_	
+19-17	3058-3059	)	_	_	
+19-18	3059-3060	,	_	_	
+19-19	3061-3062	a	_	_	
+19-20	3063-3075	subdirectory	_	_	
+19-21	3076-3084	contains	_	_	
+19-22	3085-3088	all	_	_	
+19-23	3089-3092	its	_	_	
+19-24	3093-3101	examples	_	_	
+19-25	3102-3107	which	_	_	
+19-26	3108-3111	are	_	_	
+19-27	3112-3117	split	_	_	
+19-28	3118-3122	into	_	_	
+19-29	3123-3124	*	_	_	
+19-30	3124-3134	train.json	_	_	
+19-31	3134-3135	*	_	_	
+19-32	3135-3136	,	_	_	
+19-33	3137-3138	*	_	_	
+19-34	3138-3146	dev.json	_	_	
+19-35	3146-3147	*	_	_	
+19-36	3147-3148	,	_	_	
+19-37	3149-3152	and	_	_	
+19-38	3153-3154	*	_	_	
+19-39	3154-3163	test.json	_	_	
+19-40	3163-3164	*	_	_	
+19-41	3164-3165	.	_	_	
+
+#Text=In addition, the mixed subdirectory contains the mix of examples in the three domains.
+#Text=
+#Text=## Citation
+#Text=The paper and the dataset can be cited as:
+#Text=
+#Text=```
+#Text=@article{hosseini2022resolving,
+#Text=  title={Resolving Indirect Referring Expressions for Entity Selection},
+#Text=  author={Hosseini, Mohammad Javad and Radlinski, Filip and Pareti, Silvia and Louis, Annie},
+#Text=  journal={arXiv preprint arXiv:2212.10933},
+#Text=  year={2022}
+#Text=}
+#Text=```
+20-1	3166-3168	In	_	_	
+20-2	3169-3177	addition	_	_	
+20-3	3177-3178	,	_	_	
+20-4	3179-3182	the	_	_	
+20-5	3183-3188	mixed	_	_	
+20-6	3189-3201	subdirectory	_	_	
+20-7	3202-3210	contains	_	_	
+20-8	3211-3214	the	_	_	
+20-9	3215-3218	mix	_	_	
+20-10	3219-3221	of	_	_	
+20-11	3222-3230	examples	_	_	
+20-12	3231-3233	in	_	_	
+20-13	3234-3237	the	_	_	
+20-14	3238-3243	three	_	_	
+20-15	3244-3251	domains	_	_	
+20-16	3251-3252	.	_	_	
+20-17	3254-3255	#	_	_	
+20-18	3255-3256	#	_	_	
+20-19	3257-3265	Citation	_	_	
+20-20	3266-3269	The	_	_	
+20-21	3270-3275	paper	_	_	
+20-22	3276-3279	and	_	_	
+20-23	3280-3283	the	_	_	
+20-24	3284-3291	dataset	_	_	
+20-25	3292-3295	can	_	_	
+20-26	3296-3298	be	_	_	
+20-27	3299-3304	cited	_	_	
+20-28	3305-3307	as	_	_	
+20-29	3307-3308	:	_	_	
+20-30	3310-3311	`	_	_	
+20-31	3311-3312	`	_	_	
+20-32	3312-3313	`	_	_	
+20-33	3314-3315	@	_	_	
+20-34	3315-3322	article	_	_	
+20-35	3322-3323	{	_	_	
+20-36	3323-3344	hosseini2022resolving	_	_	
+20-37	3344-3345	,	_	_	
+20-38	3348-3353	title	_	_	
+20-39	3353-3354	=	_	_	
+20-40	3354-3355	{	_	_	
+20-41	3355-3364	Resolving	*[5]	PUBLICATION[5]	
+20-42	3365-3373	Indirect	*[5]	PUBLICATION[5]	
+20-43	3374-3383	Referring	*[5]	PUBLICATION[5]	
+20-44	3384-3395	Expressions	*[5]	PUBLICATION[5]	
+20-45	3396-3399	for	*[5]	PUBLICATION[5]	
+20-46	3400-3406	Entity	*[5]	PUBLICATION[5]	
+20-47	3407-3416	Selection	*[5]	PUBLICATION[5]	
+20-48	3416-3417	}	_	_	
+20-49	3417-3418	,	_	_	
+20-50	3421-3427	author	_	_	
+20-51	3427-3428	=	_	_	
+20-52	3428-3429	{	_	_	
+20-53	3429-3437	Hosseini	_	_	
+20-54	3437-3438	,	_	_	
+20-55	3439-3447	Mohammad	_	_	
+20-56	3448-3453	Javad	_	_	
+20-57	3454-3457	and	_	_	
+20-58	3458-3467	Radlinski	_	_	
+20-59	3467-3468	,	_	_	
+20-60	3469-3474	Filip	_	_	
+20-61	3475-3478	and	_	_	
+20-62	3479-3485	Pareti	_	_	
+20-63	3485-3486	,	_	_	
+20-64	3487-3493	Silvia	_	_	
+20-65	3494-3497	and	_	_	
+20-66	3498-3503	Louis	_	_	
+20-67	3503-3504	,	_	_	
+20-68	3505-3510	Annie	_	_	
+20-69	3510-3511	}	_	_	
+20-70	3511-3512	,	_	_	
+20-71	3515-3522	journal	_	_	
+20-72	3522-3523	=	_	_	
+20-73	3523-3524	{	_	_	
+20-74	3524-3529	arXiv	_	_	
+20-75	3530-3538	preprint	_	_	
+20-76	3539-3544	arXiv	_	_	
+20-77	3544-3545	:	_	_	
+20-78	3545-3555	2212.10933	_	_	
+20-79	3555-3556	}	_	_	
+20-80	3556-3557	,	_	_	
+20-81	3560-3564	year	_	_	
+20-82	3564-3565	=	_	_	
+20-83	3565-3566	{	_	_	
+20-84	3566-3570	2022	_	_	
+20-85	3570-3571	}	_	_	
+20-86	3572-3573	}	_	_	
+20-87	3574-3575	`	_	_	
+20-88	3575-3576	`	_	_	
+20-89	3576-3577	`	_	_	

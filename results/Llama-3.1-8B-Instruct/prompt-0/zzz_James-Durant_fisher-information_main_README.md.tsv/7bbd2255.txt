@@ -1,0 +1,1 @@
+In neutron reflectometry experiments, the <SOFTWARE>FI</SOFTWARE> can be analytically calculated and used to provide sub-second predictions of parameter uncertainties.

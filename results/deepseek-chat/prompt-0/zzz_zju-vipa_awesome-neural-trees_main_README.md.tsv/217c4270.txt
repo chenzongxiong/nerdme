@@ -1,0 +1,22 @@
+```markdown
+- ***DeViSE method that utilizes unannotated Wikipedia text***  
+  - **"<PUBLICATION>DeViSE: A Deep Visual-Semantic Embedding Model</PUBLICATION>"**, <CONFERENCE>NIPS</CONFERENCE>, 2013  
+    - Andrea Frome *et al.*  
+    - [[Paper]](https://proceedings.neurips.cc/paper/2013/hash/7cce53cf90577442771720a370c3c723-Abstract.html) [[Code]](https://github.com/jean4599/DeViSE)  
+- ***Embeddings whose pair-wise dot products correspond to semantic similarity between classes***  
+  - **"<PUBLICATION>Hierarchy-Based Image Embeddings for Semantic Image Retrieval</PUBLICATION>"**, <CONFERENCE>WACV</CONFERENCE>, 2019  
+    - Björn Barz, Joachim Denzler  
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8658633) [[Code]](https://github.com/cvjena/semantic-embeddings)  
+- **Employ the entailment cones to learn order-preserving embeddings**  
+  - **"<PUBLICATION>Hierarchical Image Classification Using Entailment Cone Embeddings</PUBLICATION>"**, <CONFERENCE>CVPR</CONFERENCE>, 2020  
+    - Ankit Dhall *et al.*  
+    - [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2020/html/w50/Dhall_Hierarchical_Image_Classification_Using_Entailment_Cone_Embeddings_CVPRW_2020_paper.html) [[Code]](https://github.com/ankitdhall/learning_embeddings)  
+- ***Label embeddings in zero-shot classification***  
+  - **"<PUBLICATION>Latent Embeddings for Zero-Shot Classification</PUBLICATION>"**, <CONFERENCE>CVPR</CONFERENCE>, 2016  
+    - Yongqin Xian *et al.*  
+    - [[Paper]](https://openaccess.thecvf.com/content_cvpr_2016/html/Xian_Latent_Embeddings_for_CVPR_2016_paper.html)  
+  - **"<PUBLICATION>Evaluation of Output Embeddings for Fine-Grained Image Classification</PUBLICATION>"**, <CONFERENCE>CVPR</CONFERENCE>, 2015  
+    - Zeynep Akata *et al.*  
+    - [[Paper]](https://openaccess.thecvf.com/content_cvpr_2015/html/Akata_Evaluation_of_Output_2015_CVPR_paper.html)  
+### 3.
+```

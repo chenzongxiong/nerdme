@@ -1,0 +1,1 @@
+The reference part, which is optional, utilizes a <SOFTWARE>noiseless simulator</SOFTWARE> to find the scoring curve.

@@ -1,0 +1,3 @@
+```markdown
+[<PROJECT>SLR Architecture</PROJECT>](resources/slr.png)  <PROJECT>SLR</PROJECT> is comprised of three steps. 1) The model is warmed-up using object-wise and global objectives derived from weak annotations and <SOFTWARE>IMU</SOFTWARE>. 2) he learned encoder features and model predictions are used to estimate the pseudo labels. 3) The network is fine-tuned on the estimated pseudo labels.
+```

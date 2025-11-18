@@ -1,0 +1,3 @@
+```markdown
+style=flat)](https://<PROJECT>travis-ci</PROJECT>.org/<PROJECT>mmp2</PROJECT>/<PROJECT>megaman</PROJECT>) [!
+```

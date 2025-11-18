@@ -1,0 +1,1 @@
+`/tsar_eval.py --gold_file <SOFTWARE>tsar</SOFTWARE> <DATASET>gold_file</DATASET>`

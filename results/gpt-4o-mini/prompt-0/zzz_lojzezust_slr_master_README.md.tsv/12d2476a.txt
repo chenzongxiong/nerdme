@@ -1,0 +1,1 @@
+The weak annotation archive also includes automatically generated prior obstacle segmentation masks (i.e. using <SOFTWARE>DEXTR</SOFTWARE>). 2.

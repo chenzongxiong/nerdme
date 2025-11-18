@@ -1,0 +1,3 @@
+```markdown
+/datasets/<DATASET>data_matrix_1_S_Set.mat</DATASET>        2> Please enter number of processors:  16        3> Please set the value of alpha:  1        4> Please enter computing time limit (seconds):  40    ### (3) Result  The training iteration and computation time log is saved in Para_DPMM_output.txt, the clustering result is saved in Para_DPMM_result.mat, where z is the clustering result of Para_DPMM model, label is the ground truth cluster label, AR is Adjusted Random Index, RI is Random Index benchmark, MI is "<EVALMETRIC>Mirkin's</EVALMETRIC>" index and HI is "<EVALMETRIC>Hubert's</EVALMETRIC>" index
+```

@@ -1,0 +1,2 @@
+```python trainer.fit(<DATASET>train_dataset</DATASET>, <DATASET>val_dataset</DATASET>) ```  ### 05: Evaluating a model  Due to our cascaded MD approach.
+```

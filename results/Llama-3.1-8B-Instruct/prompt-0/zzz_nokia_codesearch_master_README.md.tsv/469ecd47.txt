@@ -1,0 +1,4 @@
+The <SOFTWARE>codesearchnet-python-valid</SOFTWARE> dataset is used for training models. The different models we implement use different kinds of training data. 
+```python
+queries, query2ids = load_eval_dataset("<DATASET>Codesearchnet</DATASET>-<PROGLANG>python</PROGLANG>-<CONFERENCE>valid</CONFERENCE>")
+```

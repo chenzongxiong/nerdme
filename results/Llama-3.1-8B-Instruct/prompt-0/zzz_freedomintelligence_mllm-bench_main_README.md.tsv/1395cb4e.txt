@@ -1,0 +1,8 @@
+- Modify the parameters in `<SOFTWARE>evaluate.sh</SOFTWARE>`.
+  - Change the `<EVALMETRIC>precision</EVALMETRIC>` to `<EVALMETRIC>recall</EVALMETRIC>` in the `<PUBLICATION>paper</PUBLICATION>`.
+  - Use the `<DATASET>test dataset</DATASET>` for the evaluation.
+  - Ensure the code is compatible with the latest version of the `<PROGLANG>Python</PROGLANG>` programming language.
+  - Run the script using the `<SOFTWARE>bash</SOFTWARE>` shell.
+  - The results will be compared to the `<PUBLICATION>baseline</PUBLICATION>` results.
+  - This is a part of the `<PROJECT>research project</PROJECT>`.
+  - The code is available on the `<SOFTWARE>GitHub</SOFTWARE>` repository.

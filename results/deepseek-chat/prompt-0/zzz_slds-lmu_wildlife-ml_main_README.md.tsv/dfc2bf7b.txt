@@ -1,0 +1,1 @@
+This is contained in the  `<SOFTWARE>Evaluator</SOFTWARE>`, which computes metrics by incorporating the decision of the MD and respecting the multiple-boxes-per-image dilemma.

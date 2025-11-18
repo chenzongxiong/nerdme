@@ -1,0 +1,1 @@
+# UniHD at <CONFERENCE>TSAR-2022 Shared Task</CONFERENCE>: Is Compute All We Need for Lexical Simplification?

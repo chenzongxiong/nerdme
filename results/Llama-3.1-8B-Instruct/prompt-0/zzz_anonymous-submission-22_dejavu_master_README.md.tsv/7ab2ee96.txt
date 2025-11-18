@@ -1,0 +1,1 @@
+Note that sometimes the most similar historical failures may have different failure classes to the <SOFTWARE>localization results</SOFTWARE> due to imperfect similarity calculation.

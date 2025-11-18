@@ -1,0 +1,1 @@
+# Cross-lingual analysis  This repository contains the translation codes used in the paper `<PUBLICATION>[A cost-benefit analysis of cross-lingual transfer methods](https://arxiv.org/abs/2105.06813)</PUBLICATION>`.

@@ -1,0 +1,1 @@
+`In this survey, we first identify <PUBLICATION>88 papers related to crowd-based efforts</PUBLICATION>, following a meticulous <ONTOLOGY>annotation process</ONTOLOGY> adhering to the <ONTOLOGY>PRISMA framework</ONTOLOGY> (<ONTOLOGY>preferred reporting items for systematic reviews and meta-analyses</ONTOLOGY>).`

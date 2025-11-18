@@ -1,0 +1,309 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# VerifiNER
+#Text=Official code for ACL 2024 paper: [VerifiNER: Verification-augmented NER via Knowledge-grounded Reasoning with Large Language Models](https://arxiv.org/abs/2402.18374).
+#Text=
+#Text=## Overview
+#Text=!
+1-1	0-1	#	_	_	
+1-2	2-11	VerifiNER	_	_	
+1-3	12-20	Official	_	_	
+1-4	21-25	code	_	_	
+1-5	26-29	for	_	_	
+1-6	30-33	ACL	*[1]	CONFERENCE[1]	
+1-7	34-38	2024	*[1]	CONFERENCE[1]	
+1-8	39-44	paper	_	_	
+1-9	44-45	:	_	_	
+1-10	46-47	[	_	_	
+1-11	47-56	VerifiNER	*[2]	PUBLICATION[2]	
+1-12	56-57	:	*[2]	PUBLICATION[2]	
+1-13	58-80	Verification-augmented	*[2]	PUBLICATION[2]	
+1-14	81-84	NER	*[2]	PUBLICATION[2]	
+1-15	85-88	via	*[2]	PUBLICATION[2]	
+1-16	89-107	Knowledge-grounded	*[2]	PUBLICATION[2]	
+1-17	108-117	Reasoning	*[2]	PUBLICATION[2]	
+1-18	118-122	with	*[2]	PUBLICATION[2]	
+1-19	123-128	Large	*[2]	PUBLICATION[2]	
+1-20	129-137	Language	*[2]	PUBLICATION[2]	
+1-21	138-144	Models	*[2]	PUBLICATION[2]	
+1-22	144-145	]	_	_	
+1-23	145-146	(	_	_	
+1-24	146-151	https	_	_	
+1-25	151-152	:	_	_	
+1-26	152-153	/	_	_	
+1-27	153-154	/	_	_	
+1-28	154-163	arxiv.org	_	_	
+1-29	163-164	/	_	_	
+1-30	164-167	abs	_	_	
+1-31	167-168	/	_	_	
+1-32	168-178	2402.18374	_	_	
+1-33	178-179	)	_	_	
+1-34	179-180	.	_	_	
+1-35	182-183	#	_	_	
+1-36	183-184	#	_	_	
+1-37	185-193	Overview	_	_	
+1-38	194-195	!	_	_	
+
+#Text=[](https://github.com/user-attachments/files/15546047/main_figure.pdf)
+#Text=
+#Text=This is the overview of VerifiNER framework.
+#Text=1.
+2-1	195-196	[	_	_	
+2-2	196-197	]	_	_	
+2-3	197-198	(	_	_	
+2-4	198-203	https	_	_	
+2-5	203-204	:	_	_	
+2-6	204-205	/	_	_	
+2-7	205-206	/	_	_	
+2-8	206-216	github.com	_	_	
+2-9	216-217	/	_	_	
+2-10	217-233	user-attachments	_	_	
+2-11	233-234	/	_	_	
+2-12	234-239	files	_	_	
+2-13	239-240	/	_	_	
+2-14	240-248	15546047	_	_	
+2-15	248-249	/	_	_	
+2-16	249-264	main_figure.pdf	_	_	
+2-17	264-265	)	_	_	
+2-18	267-271	This	_	_	
+2-19	272-274	is	_	_	
+2-20	275-278	the	_	_	
+2-21	279-287	overview	_	_	
+2-22	288-290	of	_	_	
+2-23	291-300	VerifiNER	_	_	
+2-24	301-310	framework	_	_	
+2-25	310-311	.	_	_	
+2-26	312-313	1	_	_	
+2-27	313-314	.	_	_	
+
+#Text=Using entity prediction by existing models, we (a) extract candidate spans to retrieve knowledge from KB and verify factuality of span accordingly.
+3-1	315-320	Using	_	_	
+3-2	321-327	entity	_	_	
+3-3	328-338	prediction	_	_	
+3-4	339-341	by	_	_	
+3-5	342-350	existing	_	_	
+3-6	351-357	models	_	_	
+3-7	357-358	,	_	_	
+3-8	359-361	we	_	_	
+3-9	362-363	(	_	_	
+3-10	363-364	a	_	_	
+3-11	364-365	)	_	_	
+3-12	366-373	extract	_	_	
+3-13	374-383	candidate	_	_	
+3-14	384-389	spans	_	_	
+3-15	390-392	to	_	_	
+3-16	393-401	retrieve	_	_	
+3-17	402-411	knowledge	_	_	
+3-18	412-416	from	_	_	
+3-19	417-419	KB	_	_	
+3-20	420-423	and	_	_	
+3-21	424-430	verify	_	_	
+3-22	431-441	factuality	_	_	
+3-23	442-444	of	_	_	
+3-24	445-449	span	_	_	
+3-25	450-461	accordingly	_	_	
+3-26	461-462	.	_	_	
+
+#Text=Then (b) using retrieved knowledge, we verify factuality of type by generating knowledge-grounded evidence.
+#Text=2.
+4-1	463-467	Then	_	_	
+4-2	468-469	(	_	_	
+4-3	469-470	b	_	_	
+4-4	470-471	)	_	_	
+4-5	472-477	using	_	_	
+4-6	478-487	retrieved	_	_	
+4-7	488-497	knowledge	_	_	
+4-8	497-498	,	_	_	
+4-9	499-501	we	_	_	
+4-10	502-508	verify	_	_	
+4-11	509-519	factuality	_	_	
+4-12	520-522	of	_	_	
+4-13	523-527	type	_	_	
+4-14	528-530	by	_	_	
+4-15	531-541	generating	_	_	
+4-16	542-560	knowledge-grounded	_	_	
+4-17	561-569	evidence	_	_	
+4-18	569-570	.	_	_	
+4-19	571-572	2	_	_	
+4-20	572-573	.	_	_	
+
+#Text=We take consistency voting to select a candidate that is the most contextually relevant, with the help of the reasoning ability of LLMs.
+5-1	574-576	We	_	_	
+5-2	577-581	take	_	_	
+5-3	582-593	consistency	_	_	
+5-4	594-600	voting	_	_	
+5-5	601-603	to	_	_	
+5-6	604-610	select	_	_	
+5-7	611-612	a	_	_	
+5-8	613-622	candidate	_	_	
+5-9	623-627	that	_	_	
+5-10	628-630	is	_	_	
+5-11	631-634	the	_	_	
+5-12	635-639	most	_	_	
+5-13	640-652	contextually	_	_	
+5-14	653-661	relevant	_	_	
+5-15	661-662	,	_	_	
+5-16	663-667	with	_	_	
+5-17	668-671	the	_	_	
+5-18	672-676	help	_	_	
+5-19	677-679	of	_	_	
+5-20	680-683	the	_	_	
+5-21	684-693	reasoning	_	_	
+5-22	694-701	ability	_	_	
+5-23	702-704	of	_	_	
+5-24	705-709	LLMs	_	_	
+5-25	709-710	.	_	_	
+
+#Text=Please refer to the paper for details.
+#Text=
+#Text=## Usage
+#Text=```
+#Text=export OPENAI_API_KEY="your-api-key" \\
+#Text=sh scripts/verification.sh
+#Text=```
+#Text=This shell script allows you to run preprocessing, verification, and evaluation all at once. 
+#Text=
+#Text=## Citation
+#Text=If you find our work useful, please cite our paper:
+#Text=```
+#Text=@misc{kim2024verifiner,
+#Text=      title={VerifiNER: Verification-augmented NER via Knowledge-grounded Reasoning with Large Language Models}, 
+#Text=      author={Seoyeon Kim and Kwangwook Seo and Hyungjoo Chae and Jinyoung Yeo and Dongha Lee},
+#Text=      year={2024},
+#Text=      eprint={2402.18374},
+#Text=      archivePrefix={arXiv},
+#Text=      primaryClass={cs.CL}
+#Text=}
+#Text=```
+6-1	712-718	Please	_	_	
+6-2	719-724	refer	_	_	
+6-3	725-727	to	_	_	
+6-4	728-731	the	_	_	
+6-5	732-737	paper	_	_	
+6-6	738-741	for	_	_	
+6-7	742-749	details	_	_	
+6-8	749-750	.	_	_	
+6-9	752-753	#	_	_	
+6-10	753-754	#	_	_	
+6-11	755-760	Usage	_	_	
+6-12	761-762	`	_	_	
+6-13	762-763	`	_	_	
+6-14	763-764	`	_	_	
+6-15	765-771	export	_	_	
+6-16	772-786	OPENAI_API_KEY	_	_	
+6-17	786-787	=	_	_	
+6-18	787-788	"	_	_	
+6-19	788-800	your-api-key	_	_	
+6-20	800-801	"	_	_	
+6-21	802-803	\	_	_	
+6-22	804-806	sh	_	_	
+6-23	807-814	scripts	_	_	
+6-24	814-815	/	_	_	
+6-25	815-830	verification.sh	_	_	
+6-26	831-832	`	_	_	
+6-27	832-833	`	_	_	
+6-28	833-834	`	_	_	
+6-29	835-839	This	_	_	
+6-30	840-845	shell	_	_	
+6-31	846-852	script	_	_	
+6-32	853-859	allows	_	_	
+6-33	860-863	you	_	_	
+6-34	864-866	to	_	_	
+6-35	867-870	run	_	_	
+6-36	871-884	preprocessing	_	_	
+6-37	884-885	,	_	_	
+6-38	886-898	verification	_	_	
+6-39	898-899	,	_	_	
+6-40	900-903	and	_	_	
+6-41	904-914	evaluation	_	_	
+6-42	915-918	all	_	_	
+6-43	919-921	at	_	_	
+6-44	922-926	once	_	_	
+6-45	926-927	.	_	_	
+6-46	930-931	#	_	_	
+6-47	931-932	#	_	_	
+6-48	933-941	Citation	_	_	
+6-49	942-944	If	_	_	
+6-50	945-948	you	_	_	
+6-51	949-953	find	_	_	
+6-52	954-957	our	_	_	
+6-53	958-962	work	_	_	
+6-54	963-969	useful	_	_	
+6-55	969-970	,	_	_	
+6-56	971-977	please	_	_	
+6-57	978-982	cite	_	_	
+6-58	983-986	our	_	_	
+6-59	987-992	paper	_	_	
+6-60	992-993	:	_	_	
+6-61	994-995	`	_	_	
+6-62	995-996	`	_	_	
+6-63	996-997	`	_	_	
+6-64	998-999	@	_	_	
+6-65	999-1003	misc	_	_	
+6-66	1003-1004	{	_	_	
+6-67	1004-1020	kim2024verifiner	_	_	
+6-68	1020-1021	,	_	_	
+6-69	1028-1033	title	_	_	
+6-70	1033-1034	=	_	_	
+6-71	1034-1035	{	_	_	
+6-72	1035-1044	VerifiNER	*[3]	PUBLICATION[3]	
+6-73	1044-1045	:	*[3]	PUBLICATION[3]	
+6-74	1046-1068	Verification-augmented	*[3]	PUBLICATION[3]	
+6-75	1069-1072	NER	*[3]	PUBLICATION[3]	
+6-76	1073-1076	via	*[3]	PUBLICATION[3]	
+6-77	1077-1095	Knowledge-grounded	*[3]	PUBLICATION[3]	
+6-78	1096-1105	Reasoning	*[3]	PUBLICATION[3]	
+6-79	1106-1110	with	*[3]	PUBLICATION[3]	
+6-80	1111-1116	Large	*[3]	PUBLICATION[3]	
+6-81	1117-1125	Language	*[3]	PUBLICATION[3]	
+6-82	1126-1132	Models	*[3]	PUBLICATION[3]	
+6-83	1132-1133	}	_	_	
+6-84	1133-1134	,	_	_	
+6-85	1142-1148	author	_	_	
+6-86	1148-1149	=	_	_	
+6-87	1149-1150	{	_	_	
+6-88	1150-1157	Seoyeon	_	_	
+6-89	1158-1161	Kim	_	_	
+6-90	1162-1165	and	_	_	
+6-91	1166-1175	Kwangwook	_	_	
+6-92	1176-1179	Seo	_	_	
+6-93	1180-1183	and	_	_	
+6-94	1184-1192	Hyungjoo	_	_	
+6-95	1193-1197	Chae	_	_	
+6-96	1198-1201	and	_	_	
+6-97	1202-1210	Jinyoung	_	_	
+6-98	1211-1214	Yeo	_	_	
+6-99	1215-1218	and	_	_	
+6-100	1219-1225	Dongha	_	_	
+6-101	1226-1229	Lee	_	_	
+6-102	1229-1230	}	_	_	
+6-103	1230-1231	,	_	_	
+6-104	1238-1242	year	_	_	
+6-105	1242-1243	=	_	_	
+6-106	1243-1244	{	_	_	
+6-107	1244-1248	2024	_	_	
+6-108	1248-1249	}	_	_	
+6-109	1249-1250	,	_	_	
+6-110	1257-1263	eprint	_	_	
+6-111	1263-1264	=	_	_	
+6-112	1264-1265	{	_	_	
+6-113	1265-1275	2402.18374	_	_	
+6-114	1275-1276	}	_	_	
+6-115	1276-1277	,	_	_	
+6-116	1284-1297	archivePrefix	_	_	
+6-117	1297-1298	=	_	_	
+6-118	1298-1299	{	_	_	
+6-119	1299-1304	arXiv	_	_	
+6-120	1304-1305	}	_	_	
+6-121	1305-1306	,	_	_	
+6-122	1313-1325	primaryClass	_	_	
+6-123	1325-1326	=	_	_	
+6-124	1326-1327	{	_	_	
+6-125	1327-1332	cs.CL	_	_	
+6-126	1332-1333	}	_	_	
+6-127	1334-1335	}	_	_	
+6-128	1336-1337	`	_	_	
+6-129	1337-1338	`	_	_	
+6-130	1338-1339	`	_	_	

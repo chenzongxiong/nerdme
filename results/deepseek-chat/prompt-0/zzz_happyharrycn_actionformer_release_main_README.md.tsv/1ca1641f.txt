@@ -1,0 +1,1 @@
+In addition, `<SOFTWARE>ActionFormer</SOFTWARE>` is the backbone for many winning solutions in the `<CONFERENCE>Ego4D Moment Queries Challenge 2022</CONFERENCE>`.

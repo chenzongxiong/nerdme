@@ -1,0 +1,1 @@
+We propose <PROJECT>Drill-down</PROJECT>, an effective framework for encoding multiple queries with an efficient compact state representation that significantly extends current methods for single-round image retrieval.

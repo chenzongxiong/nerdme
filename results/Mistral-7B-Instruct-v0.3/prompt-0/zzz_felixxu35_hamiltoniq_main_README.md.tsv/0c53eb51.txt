@@ -1,0 +1,9 @@
+<SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+
+The <PROJECT>HamilToniQ</PROJECT> primarily comprises two components: the reference part, also known as ground truth, and the scoring part, as depicted in the figure below.
+
+<PUBLICATION>Benchmarking Scheme for Evaluating Question Answering Systems</PUBLICATION>
+
+<FIGURE>
+<IMG src="/figures/benchmarking_scheme.png" alt="scheme" width="400" />
+</FIGURE>

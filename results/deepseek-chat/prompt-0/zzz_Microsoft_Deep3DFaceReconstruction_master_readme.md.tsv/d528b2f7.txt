@@ -1,0 +1,1 @@
+We assume a `<SOFTWARE>pinhole camera model</SOFTWARE>` for face projection.

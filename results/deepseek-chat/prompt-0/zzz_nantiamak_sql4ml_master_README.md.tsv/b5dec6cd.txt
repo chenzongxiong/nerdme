@@ -1,0 +1,1 @@
+To compile it you need to install the `<SOFTWARE>Haskell Platform</SOFTWARE>` (https://www.haskell.org/platform/).

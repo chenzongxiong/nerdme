@@ -1,0 +1,1 @@
+### Trial dataset The <DATASET>Trial dataset</DATASET> The trial <DATASET>dataset</DATASET> consists of a set of 10 instances (for English and Portuguese) and 12 instances (for Spanish) of a sentence, a target complex word.

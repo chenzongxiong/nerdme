@@ -1,0 +1,1 @@
+The security feature `<ONTOLOGY>does not affect accuracy</ONTOLOGY>`, however you can set `<PROGLANG>USE_DP_PRIVACY</PROGLANG>` to `<PROGLANG>False</PROGLANG>` if you want to see what the federated accuracy would be without differential privacy.

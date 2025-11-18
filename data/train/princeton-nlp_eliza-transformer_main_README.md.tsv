@@ -1,0 +1,830 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Representing Rule-based Chatbots with Transformers
+#Text=
+#Text=This repository contains the code for our paper, [Representing Rule-based Chatbots with Transformers](https://arxiv.org/abs/2407.10949).
+1-1	0-1	#	_	_	
+1-2	2-14	Representing	*[1]	PUBLICATION[1]	
+1-3	15-25	Rule-based	*[1]	PUBLICATION[1]	
+1-4	26-34	Chatbots	*[1]	PUBLICATION[1]	
+1-5	35-39	with	*[1]	PUBLICATION[1]	
+1-6	40-52	Transformers	*[1]	PUBLICATION[1]	
+1-7	54-58	This	_	_	
+1-8	59-69	repository	_	_	
+1-9	70-78	contains	_	_	
+1-10	79-82	the	_	_	
+1-11	83-87	code	_	_	
+1-12	88-91	for	_	_	
+1-13	92-95	our	_	_	
+1-14	96-101	paper	_	_	
+1-15	101-102	,	_	_	
+1-16	103-104	[	_	_	
+1-17	104-116	Representing	*[2]	PUBLICATION[2]	
+1-18	117-127	Rule-based	*[2]	PUBLICATION[2]	
+1-19	128-136	Chatbots	*[2]	PUBLICATION[2]	
+1-20	137-141	with	*[2]	PUBLICATION[2]	
+1-21	142-154	Transformers	*[2]	PUBLICATION[2]	
+1-22	154-155	]	_	_	
+1-23	155-156	(	_	_	
+1-24	156-161	https	_	_	
+1-25	161-162	:	_	_	
+1-26	162-163	/	_	_	
+1-27	163-164	/	_	_	
+1-28	164-173	arxiv.org	_	_	
+1-29	173-174	/	_	_	
+1-30	174-177	abs	_	_	
+1-31	177-178	/	_	_	
+1-32	178-188	2407.10949	_	_	
+1-33	188-189	)	_	_	
+1-34	189-190	.	_	_	
+
+#Text=The code can be used to generate synthetic ELIZA training data, train and evaluate Transformers on ELIZA transcripts, and conduct some analysis of the learned mechanisms.
+2-1	191-194	The	_	_	
+2-2	195-199	code	_	_	
+2-3	200-203	can	_	_	
+2-4	204-206	be	_	_	
+2-5	207-211	used	_	_	
+2-6	212-214	to	_	_	
+2-7	215-223	generate	_	_	
+2-8	224-233	synthetic	_	_	
+2-9	234-239	ELIZA	*	SOFTWARE	
+2-10	240-248	training	_	_	
+2-11	249-253	data	_	_	
+2-12	253-254	,	_	_	
+2-13	255-260	train	_	_	
+2-14	261-264	and	_	_	
+2-15	265-273	evaluate	_	_	
+2-16	274-286	Transformers	_	_	
+2-17	287-289	on	_	_	
+2-18	290-295	ELIZA	*	SOFTWARE	
+2-19	296-307	transcripts	_	_	
+2-20	307-308	,	_	_	
+2-21	309-312	and	_	_	
+2-22	313-320	conduct	_	_	
+2-23	321-325	some	_	_	
+2-24	326-334	analysis	_	_	
+2-25	335-337	of	_	_	
+2-26	338-341	the	_	_	
+2-27	342-349	learned	_	_	
+2-28	350-360	mechanisms	_	_	
+2-29	360-361	.	_	_	
+
+#Text=Please see [our paper](https://arxiv.org/abs/2407.10949) for more details.
+#Text=
+#Text=## Quick links
+#Text=* [Setup](#Setup)
+#Text=* [Generating data](#Generating-data)
+#Text=* [Training](#Training)
+#Text=* [Analysis](#Analysis)
+#Text=  * [Error analysis](#Error-analysis)
+#Text=  * [Probing copying mechanisms](#Probing-copying-mechanisms)
+#Text=  * [Generating counterfactuals](#Generating-counterfactuals)
+#Text=* [Questions?]
+3-1	362-368	Please	_	_	
+3-2	369-372	see	_	_	
+3-3	373-374	[	_	_	
+3-4	374-377	our	_	_	
+3-5	378-383	paper	_	_	
+3-6	383-384	]	_	_	
+3-7	384-385	(	_	_	
+3-8	385-390	https	_	_	
+3-9	390-391	:	_	_	
+3-10	391-392	/	_	_	
+3-11	392-393	/	_	_	
+3-12	393-402	arxiv.org	_	_	
+3-13	402-403	/	_	_	
+3-14	403-406	abs	_	_	
+3-15	406-407	/	_	_	
+3-16	407-417	2407.10949	_	_	
+3-17	417-418	)	_	_	
+3-18	419-422	for	_	_	
+3-19	423-427	more	_	_	
+3-20	428-435	details	_	_	
+3-21	435-436	.	_	_	
+3-22	438-439	#	_	_	
+3-23	439-440	#	_	_	
+3-24	441-446	Quick	_	_	
+3-25	447-452	links	_	_	
+3-26	453-454	*	_	_	
+3-27	455-456	[	_	_	
+3-28	456-461	Setup	_	_	
+3-29	461-462	]	_	_	
+3-30	462-463	(	_	_	
+3-31	463-464	#	_	_	
+3-32	464-469	Setup	_	_	
+3-33	469-470	)	_	_	
+3-34	471-472	*	_	_	
+3-35	473-474	[	_	_	
+3-36	474-484	Generating	_	_	
+3-37	485-489	data	_	_	
+3-38	489-490	]	_	_	
+3-39	490-491	(	_	_	
+3-40	491-492	#	_	_	
+3-41	492-507	Generating-data	_	_	
+3-42	507-508	)	_	_	
+3-43	509-510	*	_	_	
+3-44	511-512	[	_	_	
+3-45	512-520	Training	_	_	
+3-46	520-521	]	_	_	
+3-47	521-522	(	_	_	
+3-48	522-523	#	_	_	
+3-49	523-531	Training	_	_	
+3-50	531-532	)	_	_	
+3-51	533-534	*	_	_	
+3-52	535-536	[	_	_	
+3-53	536-544	Analysis	_	_	
+3-54	544-545	]	_	_	
+3-55	545-546	(	_	_	
+3-56	546-547	#	_	_	
+3-57	547-555	Analysis	_	_	
+3-58	555-556	)	_	_	
+3-59	559-560	*	_	_	
+3-60	561-562	[	_	_	
+3-61	562-567	Error	_	_	
+3-62	568-576	analysis	_	_	
+3-63	576-577	]	_	_	
+3-64	577-578	(	_	_	
+3-65	578-579	#	_	_	
+3-66	579-593	Error-analysis	_	_	
+3-67	593-594	)	_	_	
+3-68	597-598	*	_	_	
+3-69	599-600	[	_	_	
+3-70	600-607	Probing	_	_	
+3-71	608-615	copying	_	_	
+3-72	616-626	mechanisms	_	_	
+3-73	626-627	]	_	_	
+3-74	627-628	(	_	_	
+3-75	628-629	#	_	_	
+3-76	629-655	Probing-copying-mechanisms	_	_	
+3-77	655-656	)	_	_	
+3-78	659-660	*	_	_	
+3-79	661-662	[	_	_	
+3-80	662-672	Generating	_	_	
+3-81	673-688	counterfactuals	_	_	
+3-82	688-689	]	_	_	
+3-83	689-690	(	_	_	
+3-84	690-691	#	_	_	
+3-85	691-717	Generating-counterfactuals	_	_	
+3-86	717-718	)	_	_	
+3-87	719-720	*	_	_	
+3-88	721-722	[	_	_	
+3-89	722-731	Questions	_	_	
+3-90	731-732	?	_	_	
+3-91	732-733	]	_	_	
+
+#Text=(#Questions)
+#Text=* [Citation](#Citation)
+#Text=
+#Text=## Setup
+#Text=Install [PyTorch](https://pytorch.org/get-started/locally/) and then install the remaining requirements: `pip install -r requirements.txt`.
+4-1	733-734	(	_	_	
+4-2	734-735	#	_	_	
+4-3	735-744	Questions	_	_	
+4-4	744-745	)	_	_	
+4-5	746-747	*	_	_	
+4-6	748-749	[	_	_	
+4-7	749-757	Citation	_	_	
+4-8	757-758	]	_	_	
+4-9	758-759	(	_	_	
+4-10	759-760	#	_	_	
+4-11	760-768	Citation	_	_	
+4-12	768-769	)	_	_	
+4-13	771-772	#	_	_	
+4-14	772-773	#	_	_	
+4-15	774-779	Setup	_	_	
+4-16	780-787	Install	_	_	
+4-17	788-789	[	_	_	
+4-18	789-796	PyTorch	*	SOFTWARE	
+4-19	796-797	]	_	_	
+4-20	797-798	(	_	_	
+4-21	798-803	https	_	_	
+4-22	803-804	:	_	_	
+4-23	804-805	/	_	_	
+4-24	805-806	/	_	_	
+4-25	806-817	pytorch.org	_	_	
+4-26	817-818	/	_	_	
+4-27	818-829	get-started	_	_	
+4-28	829-830	/	_	_	
+4-29	830-837	locally	_	_	
+4-30	837-838	/	_	_	
+4-31	838-839	)	_	_	
+4-32	840-843	and	_	_	
+4-33	844-848	then	_	_	
+4-34	849-856	install	_	_	
+4-35	857-860	the	_	_	
+4-36	861-870	remaining	_	_	
+4-37	871-883	requirements	_	_	
+4-38	883-884	:	_	_	
+4-39	885-886	`	_	_	
+4-40	886-889	pip	*	SOFTWARE	
+4-41	890-897	install	_	_	
+4-42	898-899	-	_	_	
+4-43	899-900	r	_	_	
+4-44	901-917	requirements.txt	_	_	
+4-45	917-918	`	_	_	
+4-46	918-919	.	_	_	
+
+#Text=This code was tested using Python 3.12 and PyTorch version 2.2.2.
+#Text=
+#Text=## Generating data
+#Text=
+#Text=The code we used to generate the data is in [src/generate_data.py](src/generate_data.py).
+5-1	920-924	This	_	_	
+5-2	925-929	code	_	_	
+5-3	930-933	was	_	_	
+5-4	934-940	tested	_	_	
+5-5	941-946	using	_	_	
+5-6	947-953	Python	_	_	
+5-7	954-958	3.12	_	_	
+5-8	959-962	and	_	_	
+5-9	963-970	PyTorch	*[3]	SOFTWARE[3]	
+5-10	971-978	version	*[3]	SOFTWARE[3]	
+5-11	979-984	2.2.2	*[3]	SOFTWARE[3]	
+5-12	984-985	.	_	_	
+5-13	987-988	#	_	_	
+5-14	988-989	#	_	_	
+5-15	990-1000	Generating	_	_	
+5-16	1001-1005	data	_	_	
+5-17	1007-1010	The	_	_	
+5-18	1011-1015	code	_	_	
+5-19	1016-1018	we	_	_	
+5-20	1019-1023	used	_	_	
+5-21	1024-1026	to	_	_	
+5-22	1027-1035	generate	_	_	
+5-23	1036-1039	the	_	_	
+5-24	1040-1044	data	_	_	
+5-25	1045-1047	is	_	_	
+5-26	1048-1050	in	_	_	
+5-27	1051-1052	[	_	_	
+5-28	1052-1055	src	_	_	
+5-29	1055-1056	/	_	_	
+5-30	1056-1072	generate_data.py	_	_	
+5-31	1072-1073	]	_	_	
+5-32	1073-1074	(	_	_	
+5-33	1074-1077	src	_	_	
+5-34	1077-1078	/	_	_	
+5-35	1078-1094	generate_data.py	_	_	
+5-36	1094-1095	)	_	_	
+5-37	1095-1096	.	_	_	
+
+#Text=The [scripts](scripts/) directory contains the configurations for the datasets we used in our paper.
+#Text=- Multi-turn conversations: [scripts/generate_multi_turn_data.sh](scripts/generate_multi_turn_data.sh)
+#Text=- Single-turn conversations, varying the amount of repetition in the copying segments: [scripts/generate_single_turn_data.sh](scripts/generate_single_turn_data.sh)
+#Text=
+#Text=The datasets we used in our experiments can also be downloaded directly from HuggingFace via this link: https://huggingface.co/datasets/danf0/eliza.
+#Text=
+#Text=## Training models
+#Text=
+#Text=To train Transformers on ELIZA conversations, see [src/run.py](src/run.py).
+6-1	1097-1100	The	_	_	
+6-2	1101-1102	[	_	_	
+6-3	1102-1109	scripts	_	_	
+6-4	1109-1110	]	_	_	
+6-5	1110-1111	(	_	_	
+6-6	1111-1118	scripts	_	_	
+6-7	1118-1119	/	_	_	
+6-8	1119-1120	)	_	_	
+6-9	1121-1130	directory	_	_	
+6-10	1131-1139	contains	_	_	
+6-11	1140-1143	the	_	_	
+6-12	1144-1158	configurations	_	_	
+6-13	1159-1162	for	_	_	
+6-14	1163-1166	the	_	_	
+6-15	1167-1175	datasets	_	_	
+6-16	1176-1178	we	_	_	
+6-17	1179-1183	used	_	_	
+6-18	1184-1186	in	_	_	
+6-19	1187-1190	our	_	_	
+6-20	1191-1196	paper	_	_	
+6-21	1196-1197	.	_	_	
+6-22	1198-1199	-	_	_	
+6-23	1200-1210	Multi-turn	_	_	
+6-24	1211-1224	conversations	_	_	
+6-25	1224-1225	:	_	_	
+6-26	1226-1227	[	_	_	
+6-27	1227-1234	scripts	_	_	
+6-28	1234-1235	/	_	_	
+6-29	1235-1262	generate_multi_turn_data.sh	_	_	
+6-30	1262-1263	]	_	_	
+6-31	1263-1264	(	_	_	
+6-32	1264-1271	scripts	_	_	
+6-33	1271-1272	/	_	_	
+6-34	1272-1299	generate_multi_turn_data.sh	_	_	
+6-35	1299-1300	)	_	_	
+6-36	1301-1302	-	_	_	
+6-37	1303-1314	Single-turn	_	_	
+6-38	1315-1328	conversations	_	_	
+6-39	1328-1329	,	_	_	
+6-40	1330-1337	varying	_	_	
+6-41	1338-1341	the	_	_	
+6-42	1342-1348	amount	_	_	
+6-43	1349-1351	of	_	_	
+6-44	1352-1362	repetition	_	_	
+6-45	1363-1365	in	_	_	
+6-46	1366-1369	the	_	_	
+6-47	1370-1377	copying	_	_	
+6-48	1378-1386	segments	_	_	
+6-49	1386-1387	:	_	_	
+6-50	1388-1389	[	_	_	
+6-51	1389-1396	scripts	_	_	
+6-52	1396-1397	/	_	_	
+6-53	1397-1425	generate_single_turn_data.sh	_	_	
+6-54	1425-1426	]	_	_	
+6-55	1426-1427	(	_	_	
+6-56	1427-1434	scripts	_	_	
+6-57	1434-1435	/	_	_	
+6-58	1435-1463	generate_single_turn_data.sh	_	_	
+6-59	1463-1464	)	_	_	
+6-60	1466-1469	The	_	_	
+6-61	1470-1478	datasets	_	_	
+6-62	1479-1481	we	_	_	
+6-63	1482-1486	used	_	_	
+6-64	1487-1489	in	_	_	
+6-65	1490-1493	our	_	_	
+6-66	1494-1505	experiments	_	_	
+6-67	1506-1509	can	_	_	
+6-68	1510-1514	also	_	_	
+6-69	1515-1517	be	_	_	
+6-70	1518-1528	downloaded	_	_	
+6-71	1529-1537	directly	_	_	
+6-72	1538-1542	from	_	_	
+6-73	1543-1554	HuggingFace	_	_	
+6-74	1555-1558	via	_	_	
+6-75	1559-1563	this	_	_	
+6-76	1564-1568	link	_	_	
+6-77	1568-1569	:	_	_	
+6-78	1570-1575	https	_	_	
+6-79	1575-1576	:	_	_	
+6-80	1576-1577	/	_	_	
+6-81	1577-1578	/	_	_	
+6-82	1578-1592	huggingface.co	_	_	
+6-83	1592-1593	/	_	_	
+6-84	1593-1601	datasets	_	_	
+6-85	1601-1602	/	_	_	
+6-86	1602-1607	danf0	_	_	
+6-87	1607-1608	/	_	_	
+6-88	1608-1613	eliza	_	_	
+6-89	1613-1614	.	_	_	
+6-90	1616-1617	#	_	_	
+6-91	1617-1618	#	_	_	
+6-92	1619-1627	Training	_	_	
+6-93	1628-1634	models	_	_	
+6-94	1636-1638	To	_	_	
+6-95	1639-1644	train	_	_	
+6-96	1645-1657	Transformers	_	_	
+6-97	1658-1660	on	_	_	
+6-98	1661-1666	ELIZA	*	SOFTWARE	
+6-99	1667-1680	conversations	_	_	
+6-100	1680-1681	,	_	_	
+6-101	1682-1685	see	_	_	
+6-102	1686-1687	[	_	_	
+6-103	1687-1690	src	_	_	
+6-104	1690-1691	/	_	_	
+6-105	1691-1697	run.py	_	_	
+6-106	1697-1698	]	_	_	
+6-107	1698-1699	(	_	_	
+6-108	1699-1702	src	_	_	
+6-109	1702-1703	/	_	_	
+6-110	1703-1709	run.py	_	_	
+6-111	1709-1710	)	_	_	
+6-112	1710-1711	.	_	_	
+
+#Text=The [scripts](scripts/) directory contains the configurations for the datasets we used in our paper, for [multi-turn conversations](scripts/train_multi_turn.sh) and [single-turn conversations](scripts/train_single_turn.sh).
+7-1	1712-1715	The	_	_	
+7-2	1716-1717	[	_	_	
+7-3	1717-1724	scripts	_	_	
+7-4	1724-1725	]	_	_	
+7-5	1725-1726	(	_	_	
+7-6	1726-1733	scripts	_	_	
+7-7	1733-1734	/	_	_	
+7-8	1734-1735	)	_	_	
+7-9	1736-1745	directory	_	_	
+7-10	1746-1754	contains	_	_	
+7-11	1755-1758	the	_	_	
+7-12	1759-1773	configurations	_	_	
+7-13	1774-1777	for	_	_	
+7-14	1778-1781	the	_	_	
+7-15	1782-1790	datasets	_	_	
+7-16	1791-1793	we	_	_	
+7-17	1794-1798	used	_	_	
+7-18	1799-1801	in	_	_	
+7-19	1802-1805	our	_	_	
+7-20	1806-1811	paper	_	_	
+7-21	1811-1812	,	_	_	
+7-22	1813-1816	for	_	_	
+7-23	1817-1818	[	_	_	
+7-24	1818-1828	multi-turn	_	_	
+7-25	1829-1842	conversations	_	_	
+7-26	1842-1843	]	_	_	
+7-27	1843-1844	(	_	_	
+7-28	1844-1851	scripts	_	_	
+7-29	1851-1852	/	_	_	
+7-30	1852-1871	train_multi_turn.sh	_	_	
+7-31	1871-1872	)	_	_	
+7-32	1873-1876	and	_	_	
+7-33	1877-1878	[	_	_	
+7-34	1878-1889	single-turn	_	_	
+7-35	1890-1903	conversations	_	_	
+7-36	1903-1904	]	_	_	
+7-37	1904-1905	(	_	_	
+7-38	1905-1912	scripts	_	_	
+7-39	1912-1913	/	_	_	
+7-40	1913-1933	train_single_turn.sh	_	_	
+7-41	1933-1934	)	_	_	
+7-42	1934-1935	.	_	_	
+
+#Text=We ran our experiments on NVIDIA GeForce RTX 2080 Ti GPUs with 11GB of memory.
+8-1	1936-1938	We	_	_	
+8-2	1939-1942	ran	_	_	
+8-3	1943-1946	our	_	_	
+8-4	1947-1958	experiments	_	_	
+8-5	1959-1961	on	_	_	
+8-6	1962-1968	NVIDIA	_	_	
+8-7	1969-1976	GeForce	_	_	
+8-8	1977-1980	RTX	_	_	
+8-9	1981-1985	2080	_	_	
+8-10	1986-1988	Ti	_	_	
+8-11	1989-1993	GPUs	_	_	
+8-12	1994-1998	with	_	_	
+8-13	1999-2003	11GB	_	_	
+8-14	2004-2006	of	_	_	
+8-15	2007-2013	memory	_	_	
+8-16	2013-2014	.	_	_	
+
+#Text=The single-turn models were trained for approximately 12 hours each, and the multi-turn models were trained for approximately 48 hours.
+#Text=
+#Text=## Analysis
+#Text=
+#Text=### Error analysis
+#Text=
+#Text=The training code saves predictions on the validation set throughout training.
+9-1	2015-2018	The	_	_	
+9-2	2019-2030	single-turn	_	_	
+9-3	2031-2037	models	_	_	
+9-4	2038-2042	were	_	_	
+9-5	2043-2050	trained	_	_	
+9-6	2051-2054	for	_	_	
+9-7	2055-2068	approximately	_	_	
+9-8	2069-2071	12	_	_	
+9-9	2072-2077	hours	_	_	
+9-10	2078-2082	each	_	_	
+9-11	2082-2083	,	_	_	
+9-12	2084-2087	and	_	_	
+9-13	2088-2091	the	_	_	
+9-14	2092-2102	multi-turn	_	_	
+9-15	2103-2109	models	_	_	
+9-16	2110-2114	were	_	_	
+9-17	2115-2122	trained	_	_	
+9-18	2123-2126	for	_	_	
+9-19	2127-2140	approximately	_	_	
+9-20	2141-2143	48	_	_	
+9-21	2144-2149	hours	_	_	
+9-22	2149-2150	.	_	_	
+9-23	2152-2153	#	_	_	
+9-24	2153-2154	#	_	_	
+9-25	2155-2163	Analysis	_	_	
+9-26	2165-2166	#	_	_	
+9-27	2166-2167	#	_	_	
+9-28	2167-2168	#	_	_	
+9-29	2169-2174	Error	_	_	
+9-30	2175-2183	analysis	_	_	
+9-31	2185-2188	The	_	_	
+9-32	2189-2197	training	_	_	
+9-33	2198-2202	code	_	_	
+9-34	2203-2208	saves	_	_	
+9-35	2209-2220	predictions	_	_	
+9-36	2221-2223	on	_	_	
+9-37	2224-2227	the	_	_	
+9-38	2228-2238	validation	_	_	
+9-39	2239-2242	set	_	_	
+9-40	2243-2253	throughout	_	_	
+9-41	2254-2262	training	_	_	
+9-42	2262-2263	.	_	_	
+
+#Text=[src/utils/analysis_utils.py](src/utils/analysis_utils.py) contains a number of utilities for analyzing these predictions.
+10-1	2264-2265	[	_	_	
+10-2	2265-2268	src	_	_	
+10-3	2268-2269	/	_	_	
+10-4	2269-2274	utils	_	_	
+10-5	2274-2275	/	_	_	
+10-6	2275-2292	analysis_utils.py	_	_	
+10-7	2292-2293	]	_	_	
+10-8	2293-2294	(	_	_	
+10-9	2294-2297	src	_	_	
+10-10	2297-2298	/	_	_	
+10-11	2298-2303	utils	_	_	
+10-12	2303-2304	/	_	_	
+10-13	2304-2321	analysis_utils.py	_	_	
+10-14	2321-2322	)	_	_	
+10-15	2323-2331	contains	_	_	
+10-16	2332-2333	a	_	_	
+10-17	2334-2340	number	_	_	
+10-18	2341-2343	of	_	_	
+10-19	2344-2353	utilities	_	_	
+10-20	2354-2357	for	_	_	
+10-21	2358-2367	analyzing	_	_	
+10-22	2368-2373	these	_	_	
+10-23	2374-2385	predictions	_	_	
+10-24	2385-2386	.	_	_	
+
+#Text=These can be used to measure performance as a function of various properties of the prediction, such as the turn type, the template, and the state of the memory queue.
+#Text=
+#Text=### Probing copying mechanisms
+#Text=
+#Text=[src/probing.py](src/probing.py) contains code examinging attention embeddings, to investigate whether attentions scores are influenced more by content or position.
+11-1	2387-2392	These	_	_	
+11-2	2393-2396	can	_	_	
+11-3	2397-2399	be	_	_	
+11-4	2400-2404	used	_	_	
+11-5	2405-2407	to	_	_	
+11-6	2408-2415	measure	_	_	
+11-7	2416-2427	performance	_	_	
+11-8	2428-2430	as	_	_	
+11-9	2431-2432	a	_	_	
+11-10	2433-2441	function	_	_	
+11-11	2442-2444	of	_	_	
+11-12	2445-2452	various	_	_	
+11-13	2453-2463	properties	_	_	
+11-14	2464-2466	of	_	_	
+11-15	2467-2470	the	_	_	
+11-16	2471-2481	prediction	_	_	
+11-17	2481-2482	,	_	_	
+11-18	2483-2487	such	_	_	
+11-19	2488-2490	as	_	_	
+11-20	2491-2494	the	_	_	
+11-21	2495-2499	turn	_	_	
+11-22	2500-2504	type	_	_	
+11-23	2504-2505	,	_	_	
+11-24	2506-2509	the	_	_	
+11-25	2510-2518	template	_	_	
+11-26	2518-2519	,	_	_	
+11-27	2520-2523	and	_	_	
+11-28	2524-2527	the	_	_	
+11-29	2528-2533	state	_	_	
+11-30	2534-2536	of	_	_	
+11-31	2537-2540	the	_	_	
+11-32	2541-2547	memory	_	_	
+11-33	2548-2553	queue	_	_	
+11-34	2553-2554	.	_	_	
+11-35	2556-2557	#	_	_	
+11-36	2557-2558	#	_	_	
+11-37	2558-2559	#	_	_	
+11-38	2560-2567	Probing	_	_	
+11-39	2568-2575	copying	_	_	
+11-40	2576-2586	mechanisms	_	_	
+11-41	2588-2589	[	_	_	
+11-42	2589-2592	src	_	_	
+11-43	2592-2593	/	_	_	
+11-44	2593-2603	probing.py	_	_	
+11-45	2603-2604	]	_	_	
+11-46	2604-2605	(	_	_	
+11-47	2605-2608	src	_	_	
+11-48	2608-2609	/	_	_	
+11-49	2609-2619	probing.py	_	_	
+11-50	2619-2620	)	_	_	
+11-51	2621-2629	contains	_	_	
+11-52	2630-2634	code	_	_	
+11-53	2635-2645	examinging	_	_	
+11-54	2646-2655	attention	_	_	
+11-55	2656-2666	embeddings	_	_	
+11-56	2666-2667	,	_	_	
+11-57	2668-2670	to	_	_	
+11-58	2671-2682	investigate	_	_	
+11-59	2683-2690	whether	_	_	
+11-60	2691-2701	attentions	_	_	
+11-61	2702-2708	scores	_	_	
+11-62	2709-2712	are	_	_	
+11-63	2713-2723	influenced	_	_	
+11-64	2724-2728	more	_	_	
+11-65	2729-2731	by	_	_	
+11-66	2732-2739	content	_	_	
+11-67	2740-2742	or	_	_	
+11-68	2743-2751	position	_	_	
+11-69	2751-2752	.	_	_	
+
+#Text=To run this analysis with the configuration used in the paper, see [scripts/run_attention_probe.sh](scripts/run_attention_probe.sh).
+#Text=
+#Text=### Counterfactual data
+#Text=
+#Text=We generated counterfactual datasets to examine the memory mechanisms learned by the models we trained.
+12-1	2753-2755	To	_	_	
+12-2	2756-2759	run	_	_	
+12-3	2760-2764	this	_	_	
+12-4	2765-2773	analysis	_	_	
+12-5	2774-2778	with	_	_	
+12-6	2779-2782	the	_	_	
+12-7	2783-2796	configuration	_	_	
+12-8	2797-2801	used	_	_	
+12-9	2802-2804	in	_	_	
+12-10	2805-2808	the	_	_	
+12-11	2809-2814	paper	_	_	
+12-12	2814-2815	,	_	_	
+12-13	2816-2819	see	_	_	
+12-14	2820-2821	[	_	_	
+12-15	2821-2828	scripts	_	_	
+12-16	2828-2829	/	_	_	
+12-17	2829-2851	run_attention_probe.sh	_	_	
+12-18	2851-2852	]	_	_	
+12-19	2852-2853	(	_	_	
+12-20	2853-2860	scripts	_	_	
+12-21	2860-2861	/	_	_	
+12-22	2861-2883	run_attention_probe.sh	_	_	
+12-23	2883-2884	)	_	_	
+12-24	2884-2885	.	_	_	
+12-25	2887-2888	#	_	_	
+12-26	2888-2889	#	_	_	
+12-27	2889-2890	#	_	_	
+12-28	2891-2905	Counterfactual	_	_	
+12-29	2906-2910	data	_	_	
+12-30	2912-2914	We	_	_	
+12-31	2915-2924	generated	_	_	
+12-32	2925-2939	counterfactual	_	_	
+12-33	2940-2948	datasets	_	_	
+12-34	2949-2951	to	_	_	
+12-35	2952-2959	examine	_	_	
+12-36	2960-2963	the	_	_	
+12-37	2964-2970	memory	_	_	
+12-38	2971-2981	mechanisms	_	_	
+12-39	2982-2989	learned	_	_	
+12-40	2990-2992	by	_	_	
+12-41	2993-2996	the	_	_	
+12-42	2997-3003	models	_	_	
+12-43	3004-3006	we	_	_	
+12-44	3007-3014	trained	_	_	
+12-45	3014-3015	.	_	_	
+
+#Text=The code for generating these datasets is in [src/counterfactuals.py](src/counterfactuals.py).
+13-1	3016-3019	The	_	_	
+13-2	3020-3024	code	_	_	
+13-3	3025-3028	for	_	_	
+13-4	3029-3039	generating	_	_	
+13-5	3040-3045	these	_	_	
+13-6	3046-3054	datasets	_	_	
+13-7	3055-3057	is	_	_	
+13-8	3058-3060	in	_	_	
+13-9	3061-3062	[	_	_	
+13-10	3062-3065	src	_	_	
+13-11	3065-3066	/	_	_	
+13-12	3066-3084	counterfactuals.py	_	_	
+13-13	3084-3085	]	_	_	
+13-14	3085-3086	(	_	_	
+13-15	3086-3089	src	_	_	
+13-16	3089-3090	/	_	_	
+13-17	3090-3108	counterfactuals.py	_	_	
+13-18	3108-3109	)	_	_	
+13-19	3109-3110	.	_	_	
+
+#Text=The datasets we used in our experiments can also be downloaded directly from HuggingFace (see https://huggingface.co/datasets/danf0/eliza).
+14-1	3111-3114	The	_	_	
+14-2	3115-3123	datasets	_	_	
+14-3	3124-3126	we	_	_	
+14-4	3127-3131	used	_	_	
+14-5	3132-3134	in	_	_	
+14-6	3135-3138	our	_	_	
+14-7	3139-3150	experiments	_	_	
+14-8	3151-3154	can	_	_	
+14-9	3155-3159	also	_	_	
+14-10	3160-3162	be	_	_	
+14-11	3163-3173	downloaded	_	_	
+14-12	3174-3182	directly	_	_	
+14-13	3183-3187	from	_	_	
+14-14	3188-3199	HuggingFace	_	_	
+14-15	3200-3201	(	_	_	
+14-16	3201-3204	see	_	_	
+14-17	3205-3210	https	_	_	
+14-18	3210-3211	:	_	_	
+14-19	3211-3212	/	_	_	
+14-20	3212-3213	/	_	_	
+14-21	3213-3227	huggingface.co	_	_	
+14-22	3227-3228	/	_	_	
+14-23	3228-3236	datasets	_	_	
+14-24	3236-3237	/	_	_	
+14-25	3237-3242	danf0	_	_	
+14-26	3242-3243	/	_	_	
+14-27	3243-3248	eliza	_	_	
+14-28	3248-3249	)	_	_	
+14-29	3249-3250	.	_	_	
+
+#Text=After generating a counterfactual dataset, a model can be evaluated using [src/run.py](src/run.py), using the `--eval_only` flag.
+#Text=
+#Text=## Questions?
+15-1	3251-3256	After	_	_	
+15-2	3257-3267	generating	_	_	
+15-3	3268-3269	a	_	_	
+15-4	3270-3284	counterfactual	_	_	
+15-5	3285-3292	dataset	_	_	
+15-6	3292-3293	,	_	_	
+15-7	3294-3295	a	_	_	
+15-8	3296-3301	model	_	_	
+15-9	3302-3305	can	_	_	
+15-10	3306-3308	be	_	_	
+15-11	3309-3318	evaluated	_	_	
+15-12	3319-3324	using	_	_	
+15-13	3325-3326	[	_	_	
+15-14	3326-3329	src	_	_	
+15-15	3329-3330	/	_	_	
+15-16	3330-3336	run.py	_	_	
+15-17	3336-3337	]	_	_	
+15-18	3337-3338	(	_	_	
+15-19	3338-3341	src	_	_	
+15-20	3341-3342	/	_	_	
+15-21	3342-3348	run.py	_	_	
+15-22	3348-3349	)	_	_	
+15-23	3349-3350	,	_	_	
+15-24	3351-3356	using	_	_	
+15-25	3357-3360	the	_	_	
+15-26	3361-3362	`	_	_	
+15-27	3362-3363	-	_	_	
+15-28	3363-3364	-	_	_	
+15-29	3364-3373	eval_only	_	_	
+15-30	3373-3374	`	_	_	
+15-31	3375-3379	flag	_	_	
+15-32	3379-3380	.	_	_	
+15-33	3382-3383	#	_	_	
+15-34	3383-3384	#	_	_	
+15-35	3385-3394	Questions	_	_	
+15-36	3394-3395	?	_	_	
+
+#Text=If you have any questions about the code or paper, please email Dan (dfriedman@cs.princeton.edu) or open an issue.
+#Text=
+#Text=## Citation
+#Text=```bibtex
+#Text=@article{friedman2024representing,
+#Text=  title={Representing Rule-based Chatbots with Transformers},
+#Text=  author={Friedman, Dan and Panigrahi, Abhishek and Chen, Danqi},
+#Text=  year={2024}
+#Text=}
+#Text=```
+16-1	3397-3399	If	_	_	
+16-2	3400-3403	you	_	_	
+16-3	3404-3408	have	_	_	
+16-4	3409-3412	any	_	_	
+16-5	3413-3422	questions	_	_	
+16-6	3423-3428	about	_	_	
+16-7	3429-3432	the	_	_	
+16-8	3433-3437	code	_	_	
+16-9	3438-3440	or	_	_	
+16-10	3441-3446	paper	_	_	
+16-11	3446-3447	,	_	_	
+16-12	3448-3454	please	_	_	
+16-13	3455-3460	email	_	_	
+16-14	3461-3464	Dan	_	_	
+16-15	3465-3466	(	_	_	
+16-16	3466-3475	dfriedman	_	_	
+16-17	3475-3476	@	_	_	
+16-18	3476-3492	cs.princeton.edu	_	_	
+16-19	3492-3493	)	_	_	
+16-20	3494-3496	or	_	_	
+16-21	3497-3501	open	_	_	
+16-22	3502-3504	an	_	_	
+16-23	3505-3510	issue	_	_	
+16-24	3510-3511	.	_	_	
+16-25	3513-3514	#	_	_	
+16-26	3514-3515	#	_	_	
+16-27	3516-3524	Citation	_	_	
+16-28	3525-3526	`	_	_	
+16-29	3526-3527	`	_	_	
+16-30	3527-3528	`	_	_	
+16-31	3528-3534	bibtex	_	_	
+16-32	3535-3536	@	_	_	
+16-33	3536-3543	article	_	_	
+16-34	3543-3544	{	_	_	
+16-35	3544-3568	friedman2024representing	_	_	
+16-36	3568-3569	,	_	_	
+16-37	3572-3577	title	_	_	
+16-38	3577-3578	=	_	_	
+16-39	3578-3579	{	_	_	
+16-40	3579-3591	Representing	*[4]	PUBLICATION[4]	
+16-41	3592-3602	Rule-based	*[4]	PUBLICATION[4]	
+16-42	3603-3611	Chatbots	*[4]	PUBLICATION[4]	
+16-43	3612-3616	with	*[4]	PUBLICATION[4]	
+16-44	3617-3629	Transformers	*[4]	PUBLICATION[4]	
+16-45	3629-3630	}	_	_	
+16-46	3630-3631	,	_	_	
+16-47	3634-3640	author	_	_	
+16-48	3640-3641	=	_	_	
+16-49	3641-3642	{	_	_	
+16-50	3642-3650	Friedman	_	_	
+16-51	3650-3651	,	_	_	
+16-52	3652-3655	Dan	_	_	
+16-53	3656-3659	and	_	_	
+16-54	3660-3669	Panigrahi	_	_	
+16-55	3669-3670	,	_	_	
+16-56	3671-3679	Abhishek	_	_	
+16-57	3680-3683	and	_	_	
+16-58	3684-3688	Chen	_	_	
+16-59	3688-3689	,	_	_	
+16-60	3690-3695	Danqi	_	_	
+16-61	3695-3696	}	_	_	
+16-62	3696-3697	,	_	_	
+16-63	3700-3704	year	_	_	
+16-64	3704-3705	=	_	_	
+16-65	3705-3706	{	_	_	
+16-66	3706-3710	2024	_	_	
+16-67	3710-3711	}	_	_	
+16-68	3712-3713	}	_	_	
+16-69	3714-3715	`	_	_	
+16-70	3715-3716	`	_	_	
+16-71	3716-3717	`	_	_	

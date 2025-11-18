@@ -1,0 +1,9 @@
+`by <PUBLICATION>Mingxuan Ju</PUBLICATION></a>`
+
+>The <PROJECT>Paper With Code</PROJECT> project (<a href="https://<PROJECT>paperswithcode</PROJECT>.com/">https://paperswithcode.com/</a>) is a platform for sharing and evaluating machine learning algorithms.
+
+>The <PROJECT>Paper With Code</PROJECT> project provides a large collection of <DATASET>datasets</DATASET> for various tasks, such as object detection, semantic segmentation, and image classification.
+
+>In this paper, we focus on the <CONFERENCE>International Conference on Learning Representations (ICLR)</CONFERENCE> 2023 and present our work on <PROJECT>Paper With Code</PROJECT> for the <CONFERENCE>ICLR</CONFERENCE> 2023 <WORKSHOP>Workshop on Large-scale Vision and Language Understanding</WORKSHOP>.
+
+>Our work involves the development of a new <SOFTWARE>model</SOFTWARE> for the task of <

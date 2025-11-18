@@ -1,0 +1,1 @@
+Despite a **<SOFTWARE>signifficant reduction in annotation time (20x)</SOFTWARE>**, SLR training **<PUBLICATION>improves robustness</PUBLICATION>** of networks for obstacle detection, which is a remarkable result.

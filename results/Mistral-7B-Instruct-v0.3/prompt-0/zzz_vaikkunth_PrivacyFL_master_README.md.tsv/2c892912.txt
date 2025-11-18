@@ -1,0 +1,1 @@
+`For example, in the example simulation there are three client agents named `<PROJECT>client_agent0</PROJECT>`, `<PROJECT>client_agent1</PROJECT>`, and `<PROJECT>client_agent2</PROJECT>`.`

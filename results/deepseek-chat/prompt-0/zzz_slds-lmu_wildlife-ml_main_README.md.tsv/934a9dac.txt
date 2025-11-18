@@ -1,0 +1,1 @@
+Additionally, we make the assumption that an image does only carry one label.

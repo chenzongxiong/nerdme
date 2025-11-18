@@ -1,0 +1,1 @@
+Given a set of <SOFTWARE>Batfish</SOFTWARE> queries, it analyzes which lines of configurations has/has not been covered.

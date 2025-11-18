@@ -1,0 +1,3 @@
+```markdown
+On macOS, you can install it by `brew install <PROGLANG>coreutils</PROGLANG>`. 5.
+```

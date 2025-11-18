@@ -1,0 +1,1 @@
+NOTE] > The IMU dir has to be provided for models architectures relying on IMU data (i.e.

@@ -1,0 +1,3 @@
+```markdown
+/pretrained/anet_tsp_reproduce/ ``` * The results (<EVALMETRIC>mAP</EVALMETRIC> at tIoUs) should be  | Method            |  0.5  |  0.75 |  0.95 |  Avg  | |-------------------|-------|-------|-------|-------| | <SOFTWARE>ActionFormer</SOFTWARE>      | 54.67 | 37.81 |  8.36 | 36.56 |   **[Optional] Reproducing Our Results with I3D Features**  * Download *<DATASET>anet_1.3_i3d.tar.gz</DATASET>* (`md5sum e649425954e0123401650312dd0d56a7`) from [this Google Drive Link](https://drive.google.com/file/d/16239kUT2Z-j6S6PXIT1b_31OJi35QW_o/view?
+```

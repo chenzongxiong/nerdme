@@ -1,0 +1,3 @@
+```markdown
+Table 2 in our <PUBLICATION>paper</PUBLICATION>).
+```

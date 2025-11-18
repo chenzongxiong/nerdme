@@ -1,0 +1,15 @@
+Since the provided input text is incomplete and lacks meaningful content for Named Entity Recognition (NER), I cannot perform the task as requested. Please provide a complete text with identifiable entities for accurate annotation. 
+
+For example, if the input were:
+
+```
+The International Semantic Web Conference 2019 featured a workshop on the Intelligence Task Ontology. Researchers used Python to analyze the Maules Creek dataset.
+```
+
+The annotated output would be:
+
+```
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> featured a workshop on the <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>. Researchers used <PROGLANG>Python</PROGLANG> to analyze the <DATASET>Maules Creek</DATASET> dataset.
+```
+
+Please provide the complete text you'd like annotated.

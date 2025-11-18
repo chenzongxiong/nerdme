@@ -1,0 +1,1 @@
+The <SOFTWARE>Directory</SOFTWARE> class contains a mapping of agent names to agent instances that allows agents to invoke other agents' methods by only having their name.

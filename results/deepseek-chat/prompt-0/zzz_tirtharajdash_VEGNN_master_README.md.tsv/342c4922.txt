@@ -1,0 +1,3 @@
+```markdown
+` bash <SOFTWARE>createressum.bash</SOFTWARE> --help `   **added 2:** Added a <PROGLANG>Python</PROGLANG> script to load a (trained) saved model and print the structure  ` <PROGLANG>python</PROGLANG> <SOFTWARE>modelsummary.py</SOFTWARE> `  **added 3:** Code to load the saved models for deployment.
+```

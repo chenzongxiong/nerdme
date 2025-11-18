@@ -1,0 +1,1 @@
+Model graph description either as `<DATASET>json</DATASET>` or `<DATASET>tensorflow protobuf</DATASET>` file and the corresponding model weights as `<DATASET>h5</DATASET>` file.

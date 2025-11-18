@@ -1,0 +1,1 @@
+🎉 🎉 🎉   ## Leaderboard We present the results of voting using <SOFTWARE>LLaVA-v1.5-13B</SOFTWARE> as anchor.

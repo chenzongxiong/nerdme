@@ -1,0 +1,1 @@
+Download summarization model and place in  `<SOFTWARE>stable_checkpoints/sum/mlstm/yelp/batch_size_16-notes_cycloss_honly-sum_lr_0.0005-tau_2.0</SOFTWARE>`:  [link](https://s3.us-east-2.amazonaws.com/unsup-sum/<SOFTWARE>sum_e0_tot3.32_r1f0.27.pt</SOFTWARE>) 2.

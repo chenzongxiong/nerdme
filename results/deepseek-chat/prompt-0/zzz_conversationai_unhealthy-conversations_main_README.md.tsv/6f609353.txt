@@ -1,0 +1,1 @@
+We use the same test sets to compute the `<EVALMETRIC>ROC AUC</EVALMETRIC>` of the trained `<SOFTWARE>BERT</SOFTWARE>` model and average those scores as well.

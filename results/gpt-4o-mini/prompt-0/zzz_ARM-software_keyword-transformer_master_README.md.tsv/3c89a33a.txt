@@ -1,0 +1,3 @@
+```markdown
+To install dependencies, run ```shell pip install -r <DATASET>requirements.txt</DATASET> ``` Tested using <SOFTWARE>Tensorflow</SOFTWARE> <SOFTWARE>2.4.0rc1</SOFTWARE> with <SOFTWARE>CUDA</SOFTWARE> <SOFTWARE>11</SOFTWARE>.
+```

@@ -1,0 +1,1 @@
+Code-only models are trained on pairs of code snippets and descriptions.

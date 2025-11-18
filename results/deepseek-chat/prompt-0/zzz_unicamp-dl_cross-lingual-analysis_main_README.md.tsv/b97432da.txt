@@ -1,0 +1,1 @@
+)             | EN & PT       |   <DATASET>ASSIN2</DATASET>        |   <EVALMETRIC>0.8850</EVALMETRIC>     |   <EVALMETRIC>0.8860</EVALMETRIC>    | | <SOFTWARE>BERTimbau Large</SOFTWARE> (<PUBLICATION>Souza et al</PUBLICATION>

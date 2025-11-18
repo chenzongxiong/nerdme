@@ -1,0 +1,1 @@
+We also contribute a multi-label `<DATASET>Medical Forum Question Classification (MFQC)</DATASET>` dataset for the `<DATASET>MFQC</DATASET>` task.

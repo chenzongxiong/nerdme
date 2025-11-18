@@ -1,0 +1,7 @@
+```markdown
+- `get_discipline_specific.py`: get <PROJECT>discipline specific journals and their papers</PROJECT>, for the audience design experiment
+- `jargonyness_per_paper.py`: calculate <EVALMETRIC>amount of jargon per abstract</EVALMETRIC>  Example usage:  ``` python jargonyness_per_paper.py --cutoff 0.1 --exp_name general_specific  python jargonyness_per_paper.py --cutoff 0.1 --exp_name regression_sample ```
+- `expected_max_npmi.py`: expected max <EVALMETRIC>NPMI over token positions in abstract</EVALMETRIC>, for audience design experiment
+- `Paper Jargon Rate.ipynb`: audience design plots
+- `get_paper_time_and_place.py`: get <ONTOLOGY>FOS</ONTOLOGY> and year of potential papers that may cite the papers in regression study
+- `General Dataset Statistics`: get

@@ -1,0 +1,40 @@
+```bash
+<DATASET>path/to/data</DATASET> `ln -s` <DATASET>data</DATASET> `mkdir output`
+```
+
+---
+Input Text:
+
+```bash
+cd path/to/project
+python3 main.py --dataset Maules Creek --output output
+```
+
+### Running the project
+
+1.
+
+---
+Input Text:
+
+```bash
+cd path/to/project
+python3 main.py --dataset Maules Creek --output output
+
+The <PROJECT>path/to/project</PROJECT> contains the code for the project. The <DATASET>Maules Creek</DATASET> dataset is used, and the output is saved in the <DIRECTORY>output</DIRECTORY> directory.
+```
+
+---
+Input Text:
+
+```bash
+cd path/to/project
+python3 main.py --dataset Maules Creek --output output --evaluation-metrics Precision Recall F1-Score BLEU Score
+```
+
+### Running the project with evaluation metrics
+
+1.
+
+---
+Input Text:

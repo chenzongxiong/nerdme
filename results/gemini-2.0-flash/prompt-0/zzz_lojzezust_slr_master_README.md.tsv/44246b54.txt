@@ -1,0 +1,1 @@
+Creates a <DATASET>dataset</DATASET> file `all_weak.yaml`, which links the prepared <DATASET>dataset</DATASET> directories for training. ### SLR Training Use the utility script `tools/train_slr.sh` to train a model using the entire SLR pipeline.

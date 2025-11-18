@@ -1,0 +1,5 @@
+Here is the annotated text in Markdown format:
+
+```markdown
+Please refer to the metrics reported in [<PUBLICATION>Uncertainty-aware Panoptic Segmentation</PUBLICATION>](https://arxiv.org/abs/2206.14554) when making comparisons.  ## Acknowledgements We have used utility functions from other open-source projects.
+```

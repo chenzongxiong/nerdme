@@ -1,0 +1,9 @@
+Here's the annotated text in Markdown format:
+
+```markdown
+Usage (two options):  ## Option 1: Run Source Code   Enter the "<PROJECT>Para_DPMM_Source_Code</PROJECT>" Directory  We tested the code with Matlab2015a and gcc/4.8.4 (gcc/4.6.X and gcc/4.7.X should also work), the installation of following two libraries is needed:
+  1) "<ONTOLOGY>GNU Scientific Library</ONTOLOGY>": <URL>http://www.gnu.org/software/gsl/</URL>
+  2) "<ONTOLOGY>Eigen library</ONTOLOGY>": <URL>http://eigen.tuxfamily.org/</URL>
+Steps:
+  (1) Install the packages mentioned above (for the Eigen library, you only need to place the unzipped files inside the "<DIRECTORY>eigen</DIRECTORY>");
+  (2) Start Matlab, enter the "<DIRECTORY>main</DIRECTORY>" sub directory in

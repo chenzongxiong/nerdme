@@ -1,0 +1,2 @@
+`We tested our code on <SOFTWARE>MXNet</SOFTWARE>@(commit <CONFERENCE>62ecb60</CONFERENCE>)<SOFTWARE>.<br>
+You can find it at <URL>https://github.com/dmlc/mxnet/tree/62ecb60</URL>`.

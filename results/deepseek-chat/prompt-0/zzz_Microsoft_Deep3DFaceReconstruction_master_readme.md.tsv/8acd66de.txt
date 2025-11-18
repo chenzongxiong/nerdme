@@ -1,0 +1,3 @@
+```markdown
+Monitoring the training process via <SOFTWARE>tensorboard</SOFTWARE>: ``` <PROGLANG>tensorboard</PROGLANG> --logdir=result/<custom_model_name> --port=10001 ``` 3.
+```

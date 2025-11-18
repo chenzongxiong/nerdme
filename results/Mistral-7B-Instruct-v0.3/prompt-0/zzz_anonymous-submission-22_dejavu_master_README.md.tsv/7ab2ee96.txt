@@ -1,0 +1,1 @@
+`Note that sometimes the most similar historical <FAILURE>failures</FAILURE> may have different <FAILURE_CLASS>failure classes</FAILURE_CLASS> to the localization results due to imperfect similarity calculation.`

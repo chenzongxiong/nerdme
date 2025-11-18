@@ -1,0 +1,1 @@
+# `<SOFTWARE>LinConGauss</SOFTWARE>` ### _<PUBLICATION>Integrals and samples of Gaussians under linear domain constraints</PUBLICATION>_ !

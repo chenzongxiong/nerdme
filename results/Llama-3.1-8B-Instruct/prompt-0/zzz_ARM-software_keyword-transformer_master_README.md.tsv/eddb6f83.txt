@@ -1,0 +1,1 @@
+It takes the <SOFTWARE>mel scale spectrogram</SOFTWARE> as input, which has shape 98 x 40 using the default settings, corresponding to the 98 <SOFTWARE>time windows</SOFTWARE> with 40 <SOFTWARE>frequency coefficients</SOFTWARE>.

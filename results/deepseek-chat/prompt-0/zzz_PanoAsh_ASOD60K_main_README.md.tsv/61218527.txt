@@ -1,0 +1,3 @@
+```markdown
+/figures/fig_dataset_examples.jpg"/> <br />     <em>      Figure 3: Examples of challenging attributes on equirectangular images from our <DATASET>PAVS10K</DATASET>, with instance-level ground truth and fixations as annotation guidance.
+```

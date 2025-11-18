@@ -1,0 +1,1 @@
+- Model graph description either as `<PROGLANG>json</PROGLANG>` or `<PROGLANG>tensorflow</PROGLANG>` protobuf file and the corresponding model weights as `<PROGLANG>h5</PROGLANG>` file.

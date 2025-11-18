@@ -1,0 +1,3 @@
+```markdown
+</div>               | |                        | <EVALMETRIC>Mean Absolute Error (MAE)</EVALMETRIC> | $\ell_1 (\hat{x}, x) = \frac{1}{mn} \sum\limits_{j=1}^{m} \sum\limits_{i=1}^{n} \| \hat{x}_i^j - x_i^j \|,$                          | <div style="width:500px"> Gives an overview of how accurately an attack can reconstruct private inputs by averaging the absolute differences across all samples and features.
+```

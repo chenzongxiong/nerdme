@@ -1,0 +1,1 @@
+We treat these symbolic relations as hyperedges meaning any relation or a relational feature is a hyperedge.

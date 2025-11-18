@@ -1,0 +1,1 @@
+They extract rules from the trained <SOFTWARE>NN</SOFTWARE> at the level of  individual neurons, thus gaining insight into their inner structures

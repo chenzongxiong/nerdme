@@ -1,0 +1,3 @@
+```markdown
+* [Design of a Modern Cache: part #1][modern-cache-1], [part #2][modern-cache-2] ([slides][modern-cache-slides]) at <PUBLICATION>HighScalability</PUBLICATION>  * <SOFTWARE>Caffeine</SOFTWARE> is presented as part of research papers evaluating its novel eviction policy
+```

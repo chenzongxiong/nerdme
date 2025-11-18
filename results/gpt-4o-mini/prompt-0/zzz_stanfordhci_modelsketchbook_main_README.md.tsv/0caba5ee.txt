@@ -1,0 +1,1 @@
+You can load CSVs to dataframes using the <PROGLANG>Pandas</PROGLANG> [`read_csv` function](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html).

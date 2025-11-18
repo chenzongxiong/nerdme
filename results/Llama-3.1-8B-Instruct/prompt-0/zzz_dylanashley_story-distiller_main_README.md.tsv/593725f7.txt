@@ -1,0 +1,3 @@
+[templates.jpg](https://github.com/dylanashley/<SOFTWARE>story-distiller</SOFTWARE>/blob/main/<SOFTWARE>templates.jpg</SOFTWARE>)
+
+The <SOFTWARE>Story Distiller</SOFTWARE> is a web-based tool that can be used for various applications, including <SOFTWARE>text summarization</SOFTWARE> and <SOFTWARE>text generation</SOFTWARE>.

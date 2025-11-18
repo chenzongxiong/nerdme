@@ -1,0 +1,1 @@
+[local interpretation](figures/local_interpretation.png)   Since the <SOFTWARE>DejaVu</SOFTWARE> model is trained with historical failures, it is straightforward to interpret how it diagnoses a given failure by figuring out from which historical failures it learns to localize the root causes.

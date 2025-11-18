@@ -1,0 +1,2 @@
+```bash     ln -s path/to/data data     mkdir output     ```  ### Preparing the data  1.
+```

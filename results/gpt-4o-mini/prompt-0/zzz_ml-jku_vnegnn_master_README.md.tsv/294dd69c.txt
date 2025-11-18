@@ -1,0 +1,45 @@
+```markdown
+```python
+python train.py --config-name=config_binding_hetero hydra=meluxina --multirun        # homogenous model traind on SLURM hydra=meluxina
+```
+### Run on test <DATASET>dataset</DATASET>
+```python
+# Run this from the root of the <PROJECT>project</PROJECT>
+from src.models.egnn import EGNNClassifierGlobalNodeHetero
+from hydra.utils import instantiate
+import pytorch_lightning as pl
+
+path_to_config = "/path/to_config/"
+cfg = OmegaConf.create(run.config)
+
+datamodule = instantiate(cfg.datamodule)
+ckpt_file = "/path/to/your/checkpoint.ckpt"
+
+model = EGNNClassifierGlobalNodeHetero.load_from_checkpoint(
+    ckpt_file,
+    strict=False,
+    segmentation_loss=instantiate(cfg.model.segmentation_loss),
+    global_node_pos_loss=instantiate(cfg.model.global_node_pos_loss),
+)
+model.eval()
+
+trainer = pl.Trainer(devices=1)
+loader = datamodule.named_test_loaders["test_coach420"]  # name of dataloader ["test_coach420", "test_pdbbind2020", "test_holo4k"]
+trainer.test(model, dataloaders=loader)                 # CAUTION: for the test_holo4k <DATASET>dataset</DATASET>, if you evalute it like this you will get lower scores than reported in the <PUBLICATION>paper</PUBLICATION>, # For the results in the <PUBLICATION>paper</PUBLICATION> we splitted the proteins into chains, run the predictions and combined them (clean code for this procedure will be released in future) # The intuition behind this step is explained in the <PUBLICATION>paper</PUBLICATION>.
+```
+## Citation
+```bibtex
+@misc{sestak2024vnegnn,
+    title={VN-EGNN: E(3)-Equivariant Graph Neural Networks with Virtual Nodes Enhance Protein Binding Site Identification},
+    author={Florian Sestak and Lisa Schneckenreiter and Johannes Brandstetter and Sepp Hochreiter and Andreas Mayr and Günter Klambauer},
+    year={2024},
+    eprint={2404.07194},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+```
+## <LICENSE>License</LICENSE>
+MIT
+## Acknowledgements
+The ELLIS Unit Linz, the LIT AI Lab, the Institute for Machine Learning, are supported by the Federal State Upper Austria.
+```

@@ -1,0 +1,3 @@
+```markdown
+/configs/<DATASET>thumos_i3d</DATASET>.yaml --output reproduce ``` * [Optional] Monitor the training using <SOFTWARE>TensorBoard</SOFTWARE> ```shell <SOFTWARE>tensorboard</SOFTWARE> --logdir=.
+```

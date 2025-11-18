@@ -1,0 +1,3 @@
+```markdown
+Move ```inst, cls, img``` folders to <PROJECT>VOCdevit</PROJECT> and make sure it looks like this:     Please use the train&val split in this repo, which follows the protocal of [<PROJECT>SDS</PROJECT>](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/shape/<PROJECT>sds</PROJECT>/).   ```  .data/<PROJECT>VOCdevkit</PROJECT>/<PROJECT>VOCSDS</PROJECT>/img/  .data/<PROJECT>VOCdevkit</PROJECT>/<PROJECT>VOCSDS</PROJECT>/inst/  .data/<PROJECT>VOCdevkit</PROJECT>/<PROJECT>VOCSDS</PROJECT>/cls/  ```   2.
+```

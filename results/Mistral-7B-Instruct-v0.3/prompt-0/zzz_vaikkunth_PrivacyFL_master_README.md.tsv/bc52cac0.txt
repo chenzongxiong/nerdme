@@ -1,0 +1,8 @@
+The current example is about an `Initializer` class that initializes the agents and model evaluator.
+
+```markdown
+The client returns a message to the server agent through the `<METHOD>receive_weights</METHOD>` method indicating whether its weights have converged.
+
+### Initializer
+An instance of the `<CLASS>Initializer</CLASS>` class is used to initialize the agents and model evaluator.
+```

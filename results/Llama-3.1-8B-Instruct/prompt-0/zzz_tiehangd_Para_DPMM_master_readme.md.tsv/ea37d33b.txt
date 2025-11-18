@@ -1,0 +1,24 @@
+## Option 1: Run Source Code
+Enter the "<SOFTWARE>Para_DPMM_Source_Code</SOFTWARE>" Directory
+We tested the code with Matlab2015a and gcc/4.8.4 (<SOFTWARE>gcc</SOFTWARE>/4.8.4 (<SOFTWARE>gcc</SOFTWARE>/4.6.X and <SOFTWARE>gcc</SOFTWARE>/4.7.X should also work), the installation of following two libraries is needed:
+1) <SOFTWARE>GNU Scientific Library</SOFTWARE>: <DATASET>http://www.gnu.org/software/gsl/</DATASET>
+2) <SOFTWARE>Eigen library</SOFTWARE>: <DATASET>http://eigen.tuxfamily.org/</DATASET>
+Steps:
+(1) Install the packages mentioned above (for the <SOFTWARE>Eigen library</SOFTWARE>, you only need to place the unzipped files inside the "eigen" directory);
+(2) Start <SOFTWARE>Matlab</SOFTWARE>, enter the "main" sub directory in <SOFTWARE>Matlab</SOFTWARE>;
+(3) In <SOFTWARE>Matlab</SOFTWARE>, run compile_MEX.m;
+(4) Run Para_DPMM.m, follow the guidelines given in the program (an example):
+    1> Please enter dataset path:  <DATASET>data_matrix_1_S_Set.mat</DATASET>
+    2> Please enter number of processors:  16
+    3> Please set the value of alpha:  1
+    4> Please enter computing time limit (seconds):  20
+(5) Result: The training iteration and computation time log is saved in <DATASET>Para_DPMM_output.txt</DATASET>, the clustering result is saved in <DATASET>Para_DPMM_result.mat</DATASET>, where z is the clustering result of <SOFTWARE>Para_DPMM</SOFTWARE> model, label is the ground truth cluster label, AR is Adjusted Random Index, RI is Random Index benchmark, MI is "Mirkin's" index and HI is "Hubert's" index.
+
+## Option 2: Run Compiled Package
+The execution of compiled package is tested on <SOFTWARE>HPC</SOFTWARE> clusters with module <SOFTWARE>gcc/6.1.0</SOFTWARE>, <SOFTWARE>gsl/2.3</SOFTWARE> and <SOFTWARE>Matlab/r2017b</SOFTWARE> loaded;
+Steps:
+### (1) On <SOFTWARE>HPC</SOFTWARE> command line:
+    1> module load <SOFTWARE>gcc/6.1.0</SOFTWARE>
+    2> module load <SOFTWARE>gsl/2.3</SOFTWARE>
+    3> module load <SOFTWARE>Matlab/r2017b</SOFTWARE>
+    4>.

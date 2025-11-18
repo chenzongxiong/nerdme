@@ -1,0 +1,2 @@
+`src/pre_process/pre_proc_gorc.py:`
+Code to gather full text articles from the `<SOFTWARE>S2ORC</SOFTWARE>` corpus, exclude noisy data, and gather co-citations for different domains used in the paper (biomedical papers and `<PROJECT>computer science</PROJECT>` papers).

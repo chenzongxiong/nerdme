@@ -1,0 +1,3 @@
+```markdown
+You can use the image path and the caption path separately in the code.  ## Evaluate pretrained models  NOTE: the current implementation of plausible match <EVALMETRIC>R-Precision</EVALMETRIC> (<EVALMETRIC>PMRP</EVALMETRIC>) is not efficient: <br> It first dumps all ranked items for each item to a local file, and compute <EVALMETRIC>R-precision</EVALMETRIC>.
+```

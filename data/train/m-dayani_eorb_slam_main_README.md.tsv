@@ -1,0 +1,1234 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# EORB-SLAM: An Event-based ORB-SLAM
+#Text=
+#Text=This project is a feature-based odometry/SLAM algorithm that is used to estimate the 6DoF pose of a robot and reconstruct the 3D point cloud of the scene using a variety of sensors.
+1-1	0-1	#	_	_	
+1-2	2-11	EORB-SLAM	*	PROJECT	
+1-3	11-12	:	_	_	
+1-4	13-15	An	_	_	
+1-5	16-27	Event-based	_	_	
+1-6	28-36	ORB-SLAM	*	SOFTWARE	
+1-7	38-42	This	_	_	
+1-8	43-50	project	_	_	
+1-9	51-53	is	_	_	
+1-10	54-55	a	_	_	
+1-11	56-69	feature-based	_	_	
+1-12	70-78	odometry	_	_	
+1-13	78-79	/	_	_	
+1-14	79-83	SLAM	_	_	
+1-15	84-93	algorithm	_	_	
+1-16	94-98	that	_	_	
+1-17	99-101	is	_	_	
+1-18	102-106	used	_	_	
+1-19	107-109	to	_	_	
+1-20	110-118	estimate	_	_	
+1-21	119-122	the	_	_	
+1-22	123-127	6DoF	_	_	
+1-23	128-132	pose	_	_	
+1-24	133-135	of	_	_	
+1-25	136-137	a	_	_	
+1-26	138-143	robot	_	_	
+1-27	144-147	and	_	_	
+1-28	148-159	reconstruct	_	_	
+1-29	160-163	the	_	_	
+1-30	164-166	3D	_	_	
+1-31	167-172	point	_	_	
+1-32	173-178	cloud	_	_	
+1-33	179-181	of	_	_	
+1-34	182-185	the	_	_	
+1-35	186-191	scene	_	_	
+1-36	192-197	using	_	_	
+1-37	198-199	a	_	_	
+1-38	200-207	variety	_	_	
+1-39	208-210	of	_	_	
+1-40	211-218	sensors	_	_	
+1-41	218-219	.	_	_	
+
+#Text=This project is built on an older version of the [ORB-SLAM](https://github.com/UZ-SLAMLab/ORB_SLAM3) algorithm.
+2-1	220-224	This	_	_	
+2-2	225-232	project	_	_	
+2-3	233-235	is	_	_	
+2-4	236-241	built	_	_	
+2-5	242-244	on	_	_	
+2-6	245-247	an	_	_	
+2-7	248-253	older	_	_	
+2-8	254-261	version	_	_	
+2-9	262-264	of	_	_	
+2-10	265-268	the	_	_	
+2-11	269-270	[	_	_	
+2-12	270-278	ORB-SLAM	_	_	
+2-13	278-279	]	_	_	
+2-14	279-280	(	_	_	
+2-15	280-285	https	_	_	
+2-16	285-286	:	_	_	
+2-17	286-287	/	_	_	
+2-18	287-288	/	_	_	
+2-19	288-298	github.com	_	_	
+2-20	298-299	/	_	_	
+2-21	299-309	UZ-SLAMLab	_	_	
+2-22	309-310	/	_	_	
+2-23	310-319	ORB_SLAM3	_	_	
+2-24	319-320	)	_	_	
+2-25	321-330	algorithm	_	_	
+2-26	330-331	.	_	_	
+
+#Text=It extends ORB-SLAM, which allows simultaneous localization and mapping using a monocular [DAVIS event camera](https://en.wikipedia.org/wiki/Event_camera).
+3-1	332-334	It	_	_	
+3-2	335-342	extends	_	_	
+3-3	343-351	ORB-SLAM	*	SOFTWARE	
+3-4	351-352	,	_	_	
+3-5	353-358	which	_	_	
+3-6	359-365	allows	_	_	
+3-7	366-378	simultaneous	_	_	
+3-8	379-391	localization	_	_	
+3-9	392-395	and	_	_	
+3-10	396-403	mapping	_	_	
+3-11	404-409	using	_	_	
+3-12	410-411	a	_	_	
+3-13	412-421	monocular	_	_	
+3-14	422-423	[	_	_	
+3-15	423-428	DAVIS	_	_	
+3-16	429-434	event	_	_	
+3-17	435-441	camera	_	_	
+3-18	441-442	]	_	_	
+3-19	442-443	(	_	_	
+3-20	443-448	https	_	_	
+3-21	448-449	:	_	_	
+3-22	449-450	/	_	_	
+3-23	450-451	/	_	_	
+3-24	451-467	en.wikipedia.org	_	_	
+3-25	467-468	/	_	_	
+3-26	468-472	wiki	_	_	
+3-27	472-473	/	_	_	
+3-28	473-485	Event_camera	_	_	
+3-29	485-486	)	_	_	
+3-30	486-487	.	_	_	
+
+#Text=In addition to the configurations in the original work, this project supports Event-only, Event-IMU, Event-Image, and Event-Image-IMU modes.
+4-1	488-490	In	_	_	
+4-2	491-499	addition	_	_	
+4-3	500-502	to	_	_	
+4-4	503-506	the	_	_	
+4-5	507-521	configurations	_	_	
+4-6	522-524	in	_	_	
+4-7	525-528	the	_	_	
+4-8	529-537	original	_	_	
+4-9	538-542	work	_	_	
+4-10	542-543	,	_	_	
+4-11	544-548	this	_	_	
+4-12	549-556	project	_	_	
+4-13	557-565	supports	_	_	
+4-14	566-576	Event-only	_	_	
+4-15	576-577	,	_	_	
+4-16	578-587	Event-IMU	_	_	
+4-17	587-588	,	_	_	
+4-18	589-600	Event-Image	_	_	
+4-19	600-601	,	_	_	
+4-20	602-605	and	_	_	
+4-21	606-621	Event-Image-IMU	_	_	
+4-22	622-627	modes	_	_	
+4-23	627-628	.	_	_	
+
+#Text=Please refer to [this article](https://arxiv.org/abs/2301.00618) for an explanation of the event-based configuration (no image).
+5-1	629-635	Please	_	_	
+5-2	636-641	refer	_	_	
+5-3	642-644	to	_	_	
+5-4	645-646	[	_	_	
+5-5	646-650	this	_	_	
+5-6	651-658	article	_	_	
+5-7	658-659	]	_	_	
+5-8	659-660	(	_	_	
+5-9	660-665	https	_	_	
+5-10	665-666	:	_	_	
+5-11	666-667	/	_	_	
+5-12	667-668	/	_	_	
+5-13	668-677	arxiv.org	_	_	
+5-14	677-678	/	_	_	
+5-15	678-681	abs	_	_	
+5-16	681-682	/	_	_	
+5-17	682-692	2301.00618	_	_	
+5-18	692-693	)	_	_	
+5-19	694-697	for	_	_	
+5-20	698-700	an	_	_	
+5-21	701-712	explanation	_	_	
+5-22	713-715	of	_	_	
+5-23	716-719	the	_	_	
+5-24	720-731	event-based	_	_	
+5-25	732-745	configuration	_	_	
+5-26	746-747	(	_	_	
+5-27	747-749	no	_	_	
+5-28	750-755	image	_	_	
+5-29	755-756	)	_	_	
+5-30	756-757	.	_	_	
+
+#Text=**Contributions**:
+#Text=
+#Text=- Support for DAVIS event cameras
+#Text=- Added these modes to the original algorithm: Event-only, Event-Image (monocular), Event-Image-Inertial (monocular), Event-Inertial (monocular)
+#Text=- Dataset loader can automatically load different datasets and configuration parameters
+#Text=- Introducing sensor configuration object
+#Text=- Mixed key point tracking (in addition to ORB features, the proposed algorithm can use both the AKAZE and ORB features for image-based SLAM)
+#Text=
+#Text=## Dependencies
+#Text=
+#Text=Since this project is an extension of the ORB-SLAM algorithm, it inherits all its dependencies in addition to new ones.
+6-1	759-760	*	_	_	
+6-2	760-761	*	_	_	
+6-3	761-774	Contributions	_	_	
+6-4	774-775	*	_	_	
+6-5	775-776	*	_	_	
+6-6	776-777	:	_	_	
+6-7	779-780	-	_	_	
+6-8	781-788	Support	_	_	
+6-9	789-792	for	_	_	
+6-10	793-798	DAVIS	_	_	
+6-11	799-804	event	_	_	
+6-12	805-812	cameras	_	_	
+6-13	813-814	-	_	_	
+6-14	815-820	Added	_	_	
+6-15	821-826	these	_	_	
+6-16	827-832	modes	_	_	
+6-17	833-835	to	_	_	
+6-18	836-839	the	_	_	
+6-19	840-848	original	_	_	
+6-20	849-858	algorithm	_	_	
+6-21	858-859	:	_	_	
+6-22	860-870	Event-only	_	_	
+6-23	870-871	,	_	_	
+6-24	872-883	Event-Image	_	_	
+6-25	884-885	(	_	_	
+6-26	885-894	monocular	_	_	
+6-27	894-895	)	_	_	
+6-28	895-896	,	_	_	
+6-29	897-917	Event-Image-Inertial	_	_	
+6-30	918-919	(	_	_	
+6-31	919-928	monocular	_	_	
+6-32	928-929	)	_	_	
+6-33	929-930	,	_	_	
+6-34	931-945	Event-Inertial	_	_	
+6-35	946-947	(	_	_	
+6-36	947-956	monocular	_	_	
+6-37	956-957	)	_	_	
+6-38	958-959	-	_	_	
+6-39	960-967	Dataset	_	_	
+6-40	968-974	loader	_	_	
+6-41	975-978	can	_	_	
+6-42	979-992	automatically	_	_	
+6-43	993-997	load	_	_	
+6-44	998-1007	different	_	_	
+6-45	1008-1016	datasets	_	_	
+6-46	1017-1020	and	_	_	
+6-47	1021-1034	configuration	_	_	
+6-48	1035-1045	parameters	_	_	
+6-49	1046-1047	-	_	_	
+6-50	1048-1059	Introducing	_	_	
+6-51	1060-1066	sensor	_	_	
+6-52	1067-1080	configuration	_	_	
+6-53	1081-1087	object	_	_	
+6-54	1088-1089	-	_	_	
+6-55	1090-1095	Mixed	_	_	
+6-56	1096-1099	key	_	_	
+6-57	1100-1105	point	_	_	
+6-58	1106-1114	tracking	_	_	
+6-59	1115-1116	(	_	_	
+6-60	1116-1118	in	_	_	
+6-61	1119-1127	addition	_	_	
+6-62	1128-1130	to	_	_	
+6-63	1131-1134	ORB	_	_	
+6-64	1135-1143	features	_	_	
+6-65	1143-1144	,	_	_	
+6-66	1145-1148	the	_	_	
+6-67	1149-1157	proposed	_	_	
+6-68	1158-1167	algorithm	_	_	
+6-69	1168-1171	can	_	_	
+6-70	1172-1175	use	_	_	
+6-71	1176-1180	both	_	_	
+6-72	1181-1184	the	_	_	
+6-73	1185-1190	AKAZE	_	_	
+6-74	1191-1194	and	_	_	
+6-75	1195-1198	ORB	_	_	
+6-76	1199-1207	features	_	_	
+6-77	1208-1211	for	_	_	
+6-78	1212-1223	image-based	_	_	
+6-79	1224-1228	SLAM	_	_	
+6-80	1228-1229	)	_	_	
+6-81	1231-1232	#	_	_	
+6-82	1232-1233	#	_	_	
+6-83	1234-1246	Dependencies	_	_	
+6-84	1248-1253	Since	_	_	
+6-85	1254-1258	this	_	_	
+6-86	1259-1266	project	_	_	
+6-87	1267-1269	is	_	_	
+6-88	1270-1272	an	_	_	
+6-89	1273-1282	extension	_	_	
+6-90	1283-1285	of	_	_	
+6-91	1286-1289	the	_	_	
+6-92	1290-1298	ORB-SLAM	*	SOFTWARE	
+6-93	1299-1308	algorithm	_	_	
+6-94	1308-1309	,	_	_	
+6-95	1310-1312	it	_	_	
+6-96	1313-1321	inherits	_	_	
+6-97	1322-1325	all	_	_	
+6-98	1326-1329	its	_	_	
+6-99	1330-1342	dependencies	_	_	
+6-100	1343-1345	in	_	_	
+6-101	1346-1354	addition	_	_	
+6-102	1355-1357	to	_	_	
+6-103	1358-1361	new	_	_	
+6-104	1362-1366	ones	_	_	
+6-105	1366-1367	.	_	_	
+
+#Text=These instructions are for Ubuntu 20.04 LTS.
+7-1	1368-1373	These	_	_	
+7-2	1374-1386	instructions	_	_	
+7-3	1387-1390	are	_	_	
+7-4	1391-1394	for	_	_	
+7-5	1395-1401	Ubuntu	*[1]	SOFTWARE[1]	
+7-6	1402-1407	20.04	*[1]	SOFTWARE[1]	
+7-7	1408-1411	LTS	*[1]	SOFTWARE[1]	
+7-8	1411-1412	.	_	_	
+
+#Text=A successful build requires a stable internet connection (downloads more than 2 GB of data!)
+8-1	1413-1414	A	_	_	
+8-2	1415-1425	successful	_	_	
+8-3	1426-1431	build	_	_	
+8-4	1432-1440	requires	_	_	
+8-5	1441-1442	a	_	_	
+8-6	1443-1449	stable	_	_	
+8-7	1450-1458	internet	_	_	
+8-8	1459-1469	connection	_	_	
+8-9	1470-1471	(	_	_	
+8-10	1471-1480	downloads	_	_	
+8-11	1481-1485	more	_	_	
+8-12	1486-1490	than	_	_	
+8-13	1491-1492	2	_	_	
+8-14	1493-1495	GB	_	_	
+8-15	1496-1498	of	_	_	
+8-16	1499-1503	data	_	_	
+8-17	1503-1504	!	_	_	
+8-18	1504-1505	)	_	_	
+
+#Text=and a powerful machine with about 16 GB RAM.
+#Text=
+#Text=### C++11 or C++0x Compiler
+#Text=
+#Text=[Install g++-7 and gcc-7 along with version 9 on Ubuntu 20.04](https://vegastack.com/tutorials/how-to-install-gcc-compiler-on-ubuntu-20-04/)
+#Text=
+#Text=### Install the necessary tools
+#Text=
+#Text=```bash
+#Text=sudo apt install -y make cmake pkg-config unzip yasm git gfortran nano wget curl
+#Text=```
+#Text=
+#Text=### Pangolin
+#Text=
+#Text=[Pangolin project page](https://github.com/stevenlovegrove/Pangolin)
+#Text=
+#Text=### Eigen3
+#Text=
+#Text=`sudo apt install libeigen3-dev`
+#Text=
+#Text=### Ceres-solver 1.14
+#Text=
+#Text=Follow [these steps](http://ceres-solver.org/installation.html) to install Ceres-solver 1.14.
+9-1	1506-1509	and	_	_	
+9-2	1510-1511	a	_	_	
+9-3	1512-1520	powerful	_	_	
+9-4	1521-1528	machine	_	_	
+9-5	1529-1533	with	_	_	
+9-6	1534-1539	about	_	_	
+9-7	1540-1542	16	_	_	
+9-8	1543-1545	GB	_	_	
+9-9	1546-1549	RAM	_	_	
+9-10	1549-1550	.	_	_	
+9-11	1552-1553	#	_	_	
+9-12	1553-1554	#	_	_	
+9-13	1554-1555	#	_	_	
+9-14	1556-1557	C	*[2]	PROGLANG[2]	
+9-15	1557-1558	+	*[2]	PROGLANG[2]	
+9-16	1558-1559	+	*[2]	PROGLANG[2]	
+9-17	1559-1561	11	*[2]	PROGLANG[2]	
+9-18	1562-1564	or	_	_	
+9-19	1565-1566	C	*[3]	PROGLANG[3]	
+9-20	1566-1567	+	*[3]	PROGLANG[3]	
+9-21	1567-1568	+	*[3]	PROGLANG[3]	
+9-22	1568-1570	0x	*[3]	PROGLANG[3]	
+9-23	1571-1579	Compiler	_	_	
+9-24	1581-1582	[	_	_	
+9-25	1582-1589	Install	_	_	
+9-26	1590-1591	g	*[4]	SOFTWARE[4]	
+9-27	1591-1592	+	*[4]	SOFTWARE[4]	
+9-28	1592-1593	+	*[4]	SOFTWARE[4]	
+9-29	1593-1594	-	*[4]	SOFTWARE[4]	
+9-30	1594-1595	7	*[4]	SOFTWARE[4]	
+9-31	1596-1599	and	_	_	
+9-32	1600-1603	gcc	*[5]	SOFTWARE[5]	
+9-33	1603-1604	-	*[5]	SOFTWARE[5]	
+9-34	1604-1605	7	*[5]	SOFTWARE[5]	
+9-35	1606-1611	along	_	_	
+9-36	1612-1616	with	_	_	
+9-37	1617-1624	version	_	_	
+9-38	1625-1626	9	_	_	
+9-39	1627-1629	on	_	_	
+9-40	1630-1636	Ubuntu	*[6]	SOFTWARE[6]	
+9-41	1637-1642	20.04	*[6]	SOFTWARE[6]	
+9-42	1642-1643	]	_	_	
+9-43	1643-1644	(	_	_	
+9-44	1644-1649	https	_	_	
+9-45	1649-1650	:	_	_	
+9-46	1650-1651	/	_	_	
+9-47	1651-1652	/	_	_	
+9-48	1652-1665	vegastack.com	_	_	
+9-49	1665-1666	/	_	_	
+9-50	1666-1675	tutorials	_	_	
+9-51	1675-1676	/	_	_	
+9-52	1676-1713	how-to-install-gcc-compiler-on-ubuntu	_	_	
+9-53	1713-1714	-	_	_	
+9-54	1714-1716	20	_	_	
+9-55	1716-1717	-	_	_	
+9-56	1717-1719	04	_	_	
+9-57	1719-1720	/	_	_	
+9-58	1720-1721	)	_	_	
+9-59	1723-1724	#	_	_	
+9-60	1724-1725	#	_	_	
+9-61	1725-1726	#	_	_	
+9-62	1727-1734	Install	_	_	
+9-63	1735-1738	the	_	_	
+9-64	1739-1748	necessary	_	_	
+9-65	1749-1754	tools	_	_	
+9-66	1756-1757	`	_	_	
+9-67	1757-1758	`	_	_	
+9-68	1758-1759	`	_	_	
+9-69	1759-1763	bash	*	PROGLANG	
+9-70	1764-1768	sudo	_	_	
+9-71	1769-1772	apt	_	_	
+9-72	1773-1780	install	_	_	
+9-73	1781-1782	-	_	_	
+9-74	1782-1783	y	_	_	
+9-75	1784-1788	make	_	_	
+9-76	1789-1794	cmake	*	SOFTWARE	
+9-77	1795-1805	pkg-config	_	_	
+9-78	1806-1811	unzip	_	_	
+9-79	1812-1816	yasm	_	_	
+9-80	1817-1820	git	_	_	
+9-81	1821-1829	gfortran	_	_	
+9-82	1830-1834	nano	_	_	
+9-83	1835-1839	wget	_	_	
+9-84	1840-1844	curl	_	_	
+9-85	1845-1846	`	_	_	
+9-86	1846-1847	`	_	_	
+9-87	1847-1848	`	_	_	
+9-88	1850-1851	#	_	_	
+9-89	1851-1852	#	_	_	
+9-90	1852-1853	#	_	_	
+9-91	1854-1862	Pangolin	*	SOFTWARE	
+9-92	1864-1865	[	_	_	
+9-93	1865-1873	Pangolin	*	PROJECT	
+9-94	1874-1881	project	_	_	
+9-95	1882-1886	page	_	_	
+9-96	1886-1887	]	_	_	
+9-97	1887-1888	(	_	_	
+9-98	1888-1893	https	_	_	
+9-99	1893-1894	:	_	_	
+9-100	1894-1895	/	_	_	
+9-101	1895-1896	/	_	_	
+9-102	1896-1906	github.com	_	_	
+9-103	1906-1907	/	_	_	
+9-104	1907-1922	stevenlovegrove	_	_	
+9-105	1922-1923	/	_	_	
+9-106	1923-1931	Pangolin	*	PROJECT	
+9-107	1931-1932	)	_	_	
+9-108	1934-1935	#	_	_	
+9-109	1935-1936	#	_	_	
+9-110	1936-1937	#	_	_	
+9-111	1938-1944	Eigen3	*	SOFTWARE	
+9-112	1946-1947	`	_	_	
+9-113	1947-1951	sudo	_	_	
+9-114	1952-1955	apt	_	_	
+9-115	1956-1963	install	_	_	
+9-116	1964-1973	libeigen3	*[7]	SOFTWARE[7]	
+9-117	1973-1974	-	*[7]	SOFTWARE[7]	
+9-118	1974-1977	dev	*[7]	SOFTWARE[7]	
+9-119	1977-1978	`	_	_	
+9-120	1980-1981	#	_	_	
+9-121	1981-1982	#	_	_	
+9-122	1982-1983	#	_	_	
+9-123	1984-1996	Ceres-solver	*[8]	SOFTWARE[8]	
+9-124	1997-2001	1.14	*[8]	SOFTWARE[8]	
+9-125	2003-2009	Follow	_	_	
+9-126	2010-2011	[	_	_	
+9-127	2011-2016	these	_	_	
+9-128	2017-2022	steps	_	_	
+9-129	2022-2023	]	_	_	
+9-130	2023-2024	(	_	_	
+9-131	2024-2028	http	_	_	
+9-132	2028-2029	:	_	_	
+9-133	2029-2030	/	_	_	
+9-134	2030-2031	/	_	_	
+9-135	2031-2047	ceres-solver.org	_	_	
+9-135.1	2031-2043	ceres-solver	*	SOFTWARE	
+9-136	2047-2048	/	_	_	
+9-137	2048-2065	installation.html	_	_	
+9-138	2065-2066	)	_	_	
+9-139	2067-2069	to	_	_	
+9-140	2070-2077	install	_	_	
+9-141	2078-2090	Ceres-solver	*[9]	SOFTWARE[9]	
+9-142	2091-2095	1.14	*[9]	SOFTWARE[9]	
+9-143	2095-2096	.	_	_	
+
+#Text=Note the version; it won't work with newer versions!
+10-1	2097-2101	Note	_	_	
+10-2	2102-2105	the	_	_	
+10-3	2106-2113	version	_	_	
+10-4	2113-2114	;	_	_	
+10-5	2115-2117	it	_	_	
+10-6	2118-2123	won't	_	_	
+10-7	2124-2128	work	_	_	
+10-8	2129-2133	with	_	_	
+10-9	2134-2139	newer	_	_	
+10-10	2140-2148	versions	_	_	
+10-11	2148-2149	!	_	_	
+
+#Text=(Also see [this post in Medium](https://yunusmuhammad007.medium.com/jetson-tk1-install-ceres-solver-2-2-68787e237649))
+#Text=
+#Text=### Boost
+#Text=
+#Text=`sudo apt-get install -y libboost-all-dev`
+#Text=
+#Text=### The OpenCV hell!
+11-1	2150-2151	(	_	_	
+11-2	2151-2155	Also	_	_	
+11-3	2156-2159	see	_	_	
+11-4	2160-2161	[	_	_	
+11-5	2161-2165	this	_	_	
+11-6	2166-2170	post	_	_	
+11-7	2171-2173	in	_	_	
+11-8	2174-2180	Medium	_	_	
+11-9	2180-2181	]	_	_	
+11-10	2181-2182	(	_	_	
+11-11	2182-2187	https	_	_	
+11-12	2187-2188	:	_	_	
+11-13	2188-2189	/	_	_	
+11-14	2189-2190	/	_	_	
+11-15	2190-2206	yunusmuhammad007	_	_	
+11-16	2206-2207	.	_	_	
+11-17	2207-2217	medium.com	_	_	
+11-18	2217-2218	/	_	_	
+11-19	2218-2228	jetson-tk1	_	_	
+11-20	2228-2229	-	_	_	
+11-21	2229-2249	install-ceres-solver	_	_	
+11-21.1	2237-2249	ceres-solver	*	SOFTWARE	
+11-22	2249-2250	-	_	_	
+11-23	2250-2251	2	_	_	
+11-24	2251-2252	-	_	_	
+11-25	2252-2253	2	_	_	
+11-26	2253-2254	-	_	_	
+11-27	2254-2266	68787e237649	_	_	
+11-28	2266-2267	)	_	_	
+11-29	2267-2268	)	_	_	
+11-30	2270-2271	#	_	_	
+11-31	2271-2272	#	_	_	
+11-32	2272-2273	#	_	_	
+11-33	2274-2279	Boost	*	SOFTWARE	
+11-34	2281-2282	`	_	_	
+11-35	2282-2286	sudo	_	_	
+11-36	2287-2294	apt-get	_	_	
+11-37	2295-2302	install	_	_	
+11-38	2303-2304	-	_	_	
+11-39	2304-2305	y	_	_	
+11-40	2306-2322	libboost-all-dev	*	SOFTWARE	
+11-41	2322-2323	`	_	_	
+11-42	2325-2326	#	_	_	
+11-43	2326-2327	#	_	_	
+11-44	2327-2328	#	_	_	
+11-45	2329-2332	The	_	_	
+11-46	2333-2339	OpenCV	*	SOFTWARE	
+11-47	2340-2344	hell	_	_	
+11-48	2344-2345	!	_	_	
+
+#Text=Follow the steps in [Install OpenCV-3.4.1 with CUDA](https://gist.github.com/raulqf/a3caa97db3f8760af33266a1475d0e5e) and [Install OpenCV-3.4.1 on Ubuntu 17.10](https://gist.github.com/okanon/c09669f3ff3351c864742bc2754b01ea) to install `OpenCV 3.4.1` on your machine.
+#Text=
+#Text=### ROS (optional)
+#Text=
+#Text=The original code uses ROS `melodic` on Ubuntu 18.04.
+12-1	2347-2353	Follow	_	_	
+12-2	2354-2357	the	_	_	
+12-3	2358-2363	steps	_	_	
+12-4	2364-2366	in	_	_	
+12-5	2367-2368	[	_	_	
+12-6	2368-2375	Install	_	_	
+12-7	2376-2382	OpenCV	*[10]	SOFTWARE[10]	
+12-8	2382-2383	-	*[10]	SOFTWARE[10]	
+12-9	2383-2388	3.4.1	*[10]	SOFTWARE[10]	
+12-10	2389-2393	with	_	_	
+12-11	2394-2398	CUDA	*	SOFTWARE	
+12-12	2398-2399	]	_	_	
+12-13	2399-2400	(	_	_	
+12-14	2400-2405	https	_	_	
+12-15	2405-2406	:	_	_	
+12-16	2406-2407	/	_	_	
+12-17	2407-2408	/	_	_	
+12-18	2408-2423	gist.github.com	_	_	
+12-19	2423-2424	/	_	_	
+12-20	2424-2430	raulqf	_	_	
+12-21	2430-2431	/	_	_	
+12-22	2431-2463	a3caa97db3f8760af33266a1475d0e5e	_	_	
+12-23	2463-2464	)	_	_	
+12-24	2465-2468	and	_	_	
+12-25	2469-2470	[	_	_	
+12-26	2470-2477	Install	_	_	
+12-27	2478-2484	OpenCV	*[11]	SOFTWARE[11]	
+12-28	2484-2485	-	*[11]	SOFTWARE[11]	
+12-29	2485-2490	3.4.1	*[11]	SOFTWARE[11]	
+12-30	2491-2493	on	_	_	
+12-31	2494-2500	Ubuntu	*[12]	SOFTWARE[12]	
+12-32	2501-2506	17.10	*[12]	SOFTWARE[12]	
+12-33	2506-2507	]	_	_	
+12-34	2507-2508	(	_	_	
+12-35	2508-2513	https	_	_	
+12-36	2513-2514	:	_	_	
+12-37	2514-2515	/	_	_	
+12-38	2515-2516	/	_	_	
+12-39	2516-2531	gist.github.com	_	_	
+12-40	2531-2532	/	_	_	
+12-41	2532-2538	okanon	_	_	
+12-42	2538-2539	/	_	_	
+12-43	2539-2571	c09669f3ff3351c864742bc2754b01ea	_	_	
+12-44	2571-2572	)	_	_	
+12-45	2573-2575	to	_	_	
+12-46	2576-2583	install	_	_	
+12-47	2584-2585	`	_	_	
+12-48	2585-2591	OpenCV	*[13]	SOFTWARE[13]	
+12-49	2592-2597	3.4.1	*[13]	SOFTWARE[13]	
+12-50	2597-2598	`	_	_	
+12-51	2599-2601	on	_	_	
+12-52	2602-2606	your	_	_	
+12-53	2607-2614	machine	_	_	
+12-54	2614-2615	.	_	_	
+12-55	2617-2618	#	_	_	
+12-56	2618-2619	#	_	_	
+12-57	2619-2620	#	_	_	
+12-58	2621-2624	ROS	*	SOFTWARE	
+12-59	2625-2626	(	_	_	
+12-60	2626-2634	optional	_	_	
+12-61	2634-2635	)	_	_	
+12-62	2637-2640	The	_	_	
+12-63	2641-2649	original	_	_	
+12-64	2650-2654	code	_	_	
+12-65	2655-2659	uses	_	_	
+12-66	2660-2663	ROS	*	SOFTWARE	
+12-67	2664-2665	`	_	_	
+12-68	2665-2672	melodic	_	_	
+12-69	2672-2673	`	_	_	
+12-70	2674-2676	on	_	_	
+12-71	2677-2683	Ubuntu	*[14]	SOFTWARE[14]	
+12-72	2684-2689	18.04	*[14]	SOFTWARE[14]	
+12-73	2689-2690	.	_	_	
+
+#Text=However, ROS `noetic` is supported on Ubuntu 20.04.
+13-1	2691-2698	However	_	_	
+13-2	2698-2699	,	_	_	
+13-3	2700-2703	ROS	*	SOFTWARE	
+13-4	2704-2705	`	_	_	
+13-5	2705-2711	noetic	_	_	
+13-6	2711-2712	`	_	_	
+13-7	2713-2715	is	_	_	
+13-8	2716-2725	supported	_	_	
+13-9	2726-2728	on	_	_	
+13-10	2729-2735	Ubuntu	*[15]	SOFTWARE[15]	
+13-11	2736-2741	20.04	*[15]	SOFTWARE[15]	
+13-12	2741-2742	.	_	_	
+
+#Text=Integration of this project with ROS is possible, but it requires compiling and installing the core project first and then linking it to your ROS logic.
+#Text=
+#Text=## Installation
+#Text=
+#Text=Once you installed all the dependencies, you can download and install the project:
+#Text=
+#Text=```bash
+#Text=git clone https://github.com/m-dayani/EORB_SLAM.git
+#Text=cd EORB_SLAM
+#Text=
+#Text=mkdir build
+#Text=cd build
+#Text=cmake ..
+#Text=make -j4
+#Text=```
+#Text=
+#Text=To make life easier for you, I included a bash script (`build_eorb_slam.sh`) and a Docker file that contains all the necessary commands to download and install the required packages.
+#Text=
+#Text=## Usage
+#Text=
+#Text=1.
+14-1	2743-2754	Integration	_	_	
+14-2	2755-2757	of	_	_	
+14-3	2758-2762	this	_	_	
+14-4	2763-2770	project	_	_	
+14-5	2771-2775	with	_	_	
+14-6	2776-2779	ROS	*	SOFTWARE	
+14-7	2780-2782	is	_	_	
+14-8	2783-2791	possible	_	_	
+14-9	2791-2792	,	_	_	
+14-10	2793-2796	but	_	_	
+14-11	2797-2799	it	_	_	
+14-12	2800-2808	requires	_	_	
+14-13	2809-2818	compiling	_	_	
+14-14	2819-2822	and	_	_	
+14-15	2823-2833	installing	_	_	
+14-16	2834-2837	the	_	_	
+14-17	2838-2842	core	_	_	
+14-18	2843-2850	project	_	_	
+14-19	2851-2856	first	_	_	
+14-20	2857-2860	and	_	_	
+14-21	2861-2865	then	_	_	
+14-22	2866-2873	linking	_	_	
+14-23	2874-2876	it	_	_	
+14-24	2877-2879	to	_	_	
+14-25	2880-2884	your	_	_	
+14-26	2885-2888	ROS	*	SOFTWARE	
+14-27	2889-2894	logic	_	_	
+14-28	2894-2895	.	_	_	
+14-29	2897-2898	#	_	_	
+14-30	2898-2899	#	_	_	
+14-31	2900-2912	Installation	_	_	
+14-32	2914-2918	Once	_	_	
+14-33	2919-2922	you	_	_	
+14-34	2923-2932	installed	_	_	
+14-35	2933-2936	all	_	_	
+14-36	2937-2940	the	_	_	
+14-37	2941-2953	dependencies	_	_	
+14-38	2953-2954	,	_	_	
+14-39	2955-2958	you	_	_	
+14-40	2959-2962	can	_	_	
+14-41	2963-2971	download	_	_	
+14-42	2972-2975	and	_	_	
+14-43	2976-2983	install	_	_	
+14-44	2984-2987	the	_	_	
+14-45	2988-2995	project	_	_	
+14-46	2995-2996	:	_	_	
+14-47	2998-2999	`	_	_	
+14-48	2999-3000	`	_	_	
+14-49	3000-3001	`	_	_	
+14-50	3001-3005	bash	*	PROGLANG	
+14-51	3006-3009	git	*	SOFTWARE	
+14-52	3010-3015	clone	_	_	
+14-53	3016-3021	https	_	_	
+14-54	3021-3022	:	_	_	
+14-55	3022-3023	/	_	_	
+14-56	3023-3024	/	_	_	
+14-57	3024-3034	github.com	_	_	
+14-58	3034-3035	/	_	_	
+14-59	3035-3043	m-dayani	_	_	
+14-60	3043-3044	/	_	_	
+14-61	3044-3057	EORB_SLAM.git	_	_	
+14-61.1	3044-3053	EORB_SLAM	*	PROJECT	
+14-62	3058-3060	cd	_	_	
+14-63	3061-3070	EORB_SLAM	_	_	
+14-64	3072-3077	mkdir	_	_	
+14-65	3078-3083	build	_	_	
+14-66	3084-3086	cd	_	_	
+14-67	3087-3092	build	_	_	
+14-68	3093-3098	cmake	_	_	
+14-69	3099-3100	.	_	_	
+14-70	3100-3101	.	_	_	
+14-71	3102-3106	make	_	_	
+14-72	3107-3108	-	_	_	
+14-73	3108-3110	j4	_	_	
+14-74	3111-3112	`	_	_	
+14-75	3112-3113	`	_	_	
+14-76	3113-3114	`	_	_	
+14-77	3116-3118	To	_	_	
+14-78	3119-3123	make	_	_	
+14-79	3124-3128	life	_	_	
+14-80	3129-3135	easier	_	_	
+14-81	3136-3139	for	_	_	
+14-82	3140-3143	you	_	_	
+14-83	3143-3144	,	_	_	
+14-84	3145-3146	I	_	_	
+14-85	3147-3155	included	_	_	
+14-86	3156-3157	a	_	_	
+14-87	3158-3162	bash	*	PROGLANG	
+14-88	3163-3169	script	_	_	
+14-89	3170-3171	(	_	_	
+14-90	3171-3172	`	_	_	
+14-91	3172-3190	build_eorb_slam.sh	_	_	
+14-92	3190-3191	`	_	_	
+14-93	3191-3192	)	_	_	
+14-94	3193-3196	and	_	_	
+14-95	3197-3198	a	_	_	
+14-96	3199-3205	Docker	*	SOFTWARE	
+14-97	3206-3210	file	_	_	
+14-98	3211-3215	that	_	_	
+14-99	3216-3224	contains	_	_	
+14-100	3225-3228	all	_	_	
+14-101	3229-3232	the	_	_	
+14-102	3233-3242	necessary	_	_	
+14-103	3243-3251	commands	_	_	
+14-104	3252-3254	to	_	_	
+14-105	3255-3263	download	_	_	
+14-106	3264-3267	and	_	_	
+14-107	3268-3275	install	_	_	
+14-108	3276-3279	the	_	_	
+14-109	3280-3288	required	_	_	
+14-110	3289-3297	packages	_	_	
+14-111	3297-3298	.	_	_	
+14-112	3300-3301	#	_	_	
+14-113	3301-3302	#	_	_	
+14-114	3303-3308	Usage	_	_	
+14-115	3310-3311	1	_	_	
+14-116	3311-3312	.	_	_	
+
+#Text=Download an event-based dataset:
+#Text=    - [The Public Event dataset](https://rpg.ifi.uzh.ch/davis_data.html)
+#Text=    - [The MVSEC dataset](https://daniilidis-group.github.io/mvsec/)
+#Text=2.
+15-1	3313-3321	Download	_	_	
+15-2	3322-3324	an	_	_	
+15-3	3325-3336	event-based	_	_	
+15-4	3337-3344	dataset	_	_	
+15-5	3344-3345	:	_	_	
+15-6	3350-3351	-	_	_	
+15-7	3352-3353	[	_	_	
+15-8	3353-3356	The	_	_	
+15-9	3357-3363	Public	*[16]	DATASET[16]	
+15-10	3364-3369	Event	*[16]	DATASET[16]	
+15-11	3370-3377	dataset	_	_	
+15-12	3377-3378	]	_	_	
+15-13	3378-3379	(	_	_	
+15-14	3379-3384	https	_	_	
+15-15	3384-3385	:	_	_	
+15-16	3385-3386	/	_	_	
+15-17	3386-3387	/	_	_	
+15-18	3387-3401	rpg.ifi.uzh.ch	_	_	
+15-19	3401-3402	/	_	_	
+15-20	3402-3417	davis_data.html	_	_	
+15-21	3417-3418	)	_	_	
+15-22	3423-3424	-	_	_	
+15-23	3425-3426	[	_	_	
+15-24	3426-3429	The	_	_	
+15-25	3430-3435	MVSEC	*	DATASET	
+15-26	3436-3443	dataset	_	_	
+15-27	3443-3444	]	_	_	
+15-28	3444-3445	(	_	_	
+15-29	3445-3450	https	_	_	
+15-30	3450-3451	:	_	_	
+15-31	3451-3452	/	_	_	
+15-32	3452-3453	/	_	_	
+15-33	3453-3479	daniilidis-group.github.io	_	_	
+15-34	3479-3480	/	_	_	
+15-35	3480-3485	mvsec	*	DATASET	
+15-36	3485-3486	/	_	_	
+15-37	3486-3487	)	_	_	
+15-38	3488-3489	2	_	_	
+15-39	3489-3490	.	_	_	
+
+#Text=You can also use a non-event-based dataset to explore the visual and inertial modes:
+#Text=    - [The EuRoC dataset](https://projects.asl.ethz.ch/datasets/doku.php?
+16-1	3491-3494	You	_	_	
+16-2	3495-3498	can	_	_	
+16-3	3499-3503	also	_	_	
+16-4	3504-3507	use	_	_	
+16-5	3508-3509	a	_	_	
+16-6	3510-3525	non-event-based	_	_	
+16-7	3526-3533	dataset	_	_	
+16-8	3534-3536	to	_	_	
+16-9	3537-3544	explore	_	_	
+16-10	3545-3548	the	_	_	
+16-11	3549-3555	visual	_	_	
+16-12	3556-3559	and	_	_	
+16-13	3560-3568	inertial	_	_	
+16-14	3569-3574	modes	_	_	
+16-15	3574-3575	:	_	_	
+16-16	3580-3581	-	_	_	
+16-17	3582-3583	[	_	_	
+16-18	3583-3586	The	_	_	
+16-19	3587-3592	EuRoC	*	DATASET	
+16-20	3593-3600	dataset	_	_	
+16-21	3600-3601	]	_	_	
+16-22	3601-3602	(	_	_	
+16-23	3602-3607	https	_	_	
+16-24	3607-3608	:	_	_	
+16-25	3608-3609	/	_	_	
+16-26	3609-3610	/	_	_	
+16-27	3610-3630	projects.asl.ethz.ch	_	_	
+16-28	3630-3631	/	_	_	
+16-29	3631-3639	datasets	_	_	
+16-30	3639-3640	/	_	_	
+16-31	3640-3648	doku.php	_	_	
+16-32	3648-3649	?	_	_	
+
+#Text=id=kmavvisualinertialdatasets)
+#Text=3.
+17-1	3649-3651	id	_	_	
+17-2	3651-3652	=	_	_	
+17-3	3652-3678	kmavvisualinertialdatasets	_	_	
+17-4	3678-3679	)	_	_	
+17-5	3680-3681	3	_	_	
+17-6	3681-3682	.	_	_	
+
+#Text=Extract the ORB Vocabulary file in the Vocabulary directory
+#Text=4.
+18-1	3683-3690	Extract	_	_	
+18-2	3691-3694	the	_	_	
+18-3	3695-3698	ORB	_	_	
+18-4	3699-3709	Vocabulary	_	_	
+18-5	3710-3714	file	_	_	
+18-6	3715-3717	in	_	_	
+18-7	3718-3721	the	_	_	
+18-8	3722-3732	Vocabulary	_	_	
+18-9	3733-3742	directory	_	_	
+18-10	3743-3744	4	_	_	
+18-11	3744-3745	.	_	_	
+
+#Text=Edit a configuration file (listed in `Examples/Event/*.yaml`)
+#Text=5.
+19-1	3746-3750	Edit	_	_	
+19-2	3751-3752	a	_	_	
+19-3	3753-3766	configuration	_	_	
+19-4	3767-3771	file	_	_	
+19-5	3772-3773	(	_	_	
+19-6	3773-3779	listed	_	_	
+19-7	3780-3782	in	_	_	
+19-8	3783-3784	`	_	_	
+19-9	3784-3792	Examples	_	_	
+19-10	3792-3793	/	_	_	
+19-11	3793-3798	Event	_	_	
+19-12	3798-3799	/	_	_	
+19-13	3799-3800	*	_	_	
+19-14	3800-3801	.	_	_	
+19-15	3801-3805	yaml	_	_	
+19-16	3805-3806	`	_	_	
+19-17	3806-3807	)	_	_	
+19-18	3808-3809	5	_	_	
+19-19	3809-3810	.	_	_	
+
+#Text=Disable the visualization mode in the configuration file if running a Docker container.
+#Text=6.
+20-1	3811-3818	Disable	_	_	
+20-2	3819-3822	the	_	_	
+20-3	3823-3836	visualization	_	_	
+20-4	3837-3841	mode	_	_	
+20-5	3842-3844	in	_	_	
+20-6	3845-3848	the	_	_	
+20-7	3849-3862	configuration	_	_	
+20-8	3863-3867	file	_	_	
+20-9	3868-3870	if	_	_	
+20-10	3871-3878	running	_	_	
+20-11	3879-3880	a	_	_	
+20-12	3881-3887	Docker	*	SOFTWARE	
+20-13	3888-3897	container	_	_	
+20-14	3897-3898	.	_	_	
+20-15	3899-3900	6	_	_	
+20-16	3900-3901	.	_	_	
+
+#Text=Run an example:
+#Text=  `.
+21-1	3902-3905	Run	_	_	
+21-2	3906-3908	an	_	_	
+21-3	3909-3916	example	_	_	
+21-4	3916-3917	:	_	_	
+21-5	3920-3921	`	_	_	
+21-6	3921-3922	.	_	_	
+
+#Text=/Examples/Event/fmt_ev_ethz .
+22-1	3922-3923	/	_	_	
+22-2	3923-3931	Examples	_	_	
+22-3	3931-3932	/	_	_	
+22-4	3932-3937	Event	_	_	
+22-5	3937-3938	/	_	_	
+22-6	3938-3949	fmt_ev_ethz	_	_	
+22-7	3950-3951	.	_	_	
+
+#Text=/Examples/Event/EvETHZ.yaml`
+#Text=
+#Text=## Troubleshooting
+#Text=
+#Text=1.
+23-1	3951-3952	/	_	_	
+23-2	3952-3960	Examples	_	_	
+23-3	3960-3961	/	_	_	
+23-4	3961-3966	Event	_	_	
+23-5	3966-3967	/	_	_	
+23-6	3967-3978	EvETHZ.yaml	_	_	
+23-7	3978-3979	`	_	_	
+23-8	3981-3982	#	_	_	
+23-9	3982-3983	#	_	_	
+23-10	3984-3999	Troubleshooting	_	_	
+23-11	4001-4002	1	_	_	
+23-12	4002-4003	.	_	_	
+
+#Text=Are all dependencies installed correctly?
+24-1	4004-4007	Are	_	_	
+24-2	4008-4011	all	_	_	
+24-3	4012-4024	dependencies	_	_	
+24-4	4025-4034	installed	_	_	
+24-5	4035-4044	correctly	_	_	
+24-6	4044-4045	?	_	_	
+
+#Text=2.
+25-1	4046-4047	2	_	_	
+25-2	4047-4048	.	_	_	
+
+#Text=Can you install the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3)?
+26-1	4049-4052	Can	_	_	
+26-2	4053-4056	you	_	_	
+26-3	4057-4064	install	_	_	
+26-4	4065-4068	the	_	_	
+26-5	4069-4070	[	_	_	
+26-6	4070-4079	ORB-SLAM3	*	SOFTWARE	
+26-7	4079-4080	]	_	_	
+26-8	4080-4081	(	_	_	
+26-9	4081-4086	https	_	_	
+26-10	4086-4087	:	_	_	
+26-11	4087-4088	/	_	_	
+26-12	4088-4089	/	_	_	
+26-13	4089-4099	github.com	_	_	
+26-14	4099-4100	/	_	_	
+26-15	4100-4110	UZ-SLAMLab	_	_	
+26-16	4110-4111	/	_	_	
+26-17	4111-4120	ORB_SLAM3	*	SOFTWARE	
+26-18	4120-4121	)	_	_	
+26-19	4121-4122	?	_	_	
+
+#Text=3.
+27-1	4123-4124	3	_	_	
+27-2	4124-4125	.	_	_	
+
+#Text=Do you use `g++ 7.5` and `gcc 7.5` to compile packages?
+28-1	4126-4128	Do	_	_	
+28-2	4129-4132	you	_	_	
+28-3	4133-4136	use	_	_	
+28-4	4137-4138	`	_	_	
+28-5	4138-4139	g	*[17]	SOFTWARE[17]	
+28-6	4139-4140	+	*[17]	SOFTWARE[17]	
+28-7	4140-4141	+	*[17]	SOFTWARE[17]	
+28-8	4142-4145	7.5	*[17]	SOFTWARE[17]	
+28-9	4145-4146	`	_	_	
+28-10	4147-4150	and	_	_	
+28-11	4151-4152	`	_	_	
+28-12	4152-4155	gcc	*[18]	SOFTWARE[18]	
+28-13	4156-4159	7.5	*[18]	SOFTWARE[18]	
+28-14	4159-4160	`	_	_	
+28-15	4161-4163	to	_	_	
+28-16	4164-4171	compile	_	_	
+28-17	4172-4180	packages	_	_	
+28-18	4180-4181	?	_	_	
+
+#Text=4.
+29-1	4182-4183	4	_	_	
+29-2	4183-4184	.	_	_	
+
+#Text=Is the Ceres version `1.14`?
+30-1	4185-4187	Is	_	_	
+30-2	4188-4191	the	_	_	
+30-3	4192-4197	Ceres	*	SOFTWARE	
+30-4	4198-4205	version	_	_	
+30-5	4206-4207	`	_	_	
+30-6	4207-4211	1.14	_	_	
+30-7	4211-4212	`	_	_	
+30-8	4212-4213	?	_	_	
+
+#Text=5.
+31-1	4214-4215	5	_	_	
+31-2	4215-4216	.	_	_	
+
+#Text=Did you build and install the OpenCV last so that it compiles the library with the necessary packages (`sfm::reconstruct`)?
+32-1	4217-4220	Did	_	_	
+32-2	4221-4224	you	_	_	
+32-3	4225-4230	build	_	_	
+32-4	4231-4234	and	_	_	
+32-5	4235-4242	install	_	_	
+32-6	4243-4246	the	_	_	
+32-7	4247-4253	OpenCV	*	SOFTWARE	
+32-8	4254-4258	last	_	_	
+32-9	4259-4261	so	_	_	
+32-10	4262-4266	that	_	_	
+32-11	4267-4269	it	_	_	
+32-12	4270-4278	compiles	_	_	
+32-13	4279-4282	the	_	_	
+32-14	4283-4290	library	_	_	
+32-15	4291-4295	with	_	_	
+32-16	4296-4299	the	_	_	
+32-17	4300-4309	necessary	_	_	
+32-18	4310-4318	packages	_	_	
+32-19	4319-4320	(	_	_	
+32-20	4320-4321	`	_	_	
+32-21	4321-4324	sfm	_	_	
+32-22	4324-4325	:	_	_	
+32-23	4325-4326	:	_	_	
+32-24	4326-4337	reconstruct	_	_	
+32-25	4337-4338	`	_	_	
+32-26	4338-4339	)	_	_	
+32-27	4339-4340	?	_	_	
+
+#Text=## Issues
+#Text=
+#Text=**DISCLAIMER**:
+#Text=Although this app is tested on various emulated and physical devices, some specific hardware or unpredicted practical situations might affect its performance.
+33-1	4342-4343	#	_	_	
+33-2	4343-4344	#	_	_	
+33-3	4345-4351	Issues	_	_	
+33-4	4353-4354	*	_	_	
+33-5	4354-4355	*	_	_	
+33-6	4355-4365	DISCLAIMER	_	_	
+33-7	4365-4366	*	_	_	
+33-8	4366-4367	*	_	_	
+33-9	4367-4368	:	_	_	
+33-10	4369-4377	Although	_	_	
+33-11	4378-4382	this	_	_	
+33-12	4383-4386	app	_	_	
+33-13	4387-4389	is	_	_	
+33-14	4390-4396	tested	_	_	
+33-15	4397-4399	on	_	_	
+33-16	4400-4407	various	_	_	
+33-17	4408-4416	emulated	_	_	
+33-18	4417-4420	and	_	_	
+33-19	4421-4429	physical	_	_	
+33-20	4430-4437	devices	_	_	
+33-21	4437-4438	,	_	_	
+33-22	4439-4443	some	_	_	
+33-23	4444-4452	specific	_	_	
+33-24	4453-4461	hardware	_	_	
+33-25	4462-4464	or	_	_	
+33-26	4465-4476	unpredicted	_	_	
+33-27	4477-4486	practical	_	_	
+33-28	4487-4497	situations	_	_	
+33-29	4498-4503	might	_	_	
+33-30	4504-4510	affect	_	_	
+33-31	4511-4514	its	_	_	
+33-32	4515-4526	performance	_	_	
+33-33	4526-4527	.	_	_	
+
+#Text=Use it at your own risk!
+34-1	4528-4531	Use	_	_	
+34-2	4532-4534	it	_	_	
+34-3	4535-4537	at	_	_	
+34-4	4538-4542	your	_	_	
+34-5	4543-4546	own	_	_	
+34-6	4547-4551	risk	_	_	
+34-7	4551-4552	!	_	_	
+
+#Text=- Generally, __this app is not stable__.
+35-1	4554-4555	-	_	_	
+35-2	4556-4565	Generally	_	_	
+35-3	4565-4566	,	_	_	
+35-4	4567-4568	_	_	_	
+35-5	4568-4569	_	_	_	
+35-6	4569-4573	this	_	_	
+35-7	4574-4577	app	_	_	
+35-8	4578-4580	is	_	_	
+35-9	4581-4584	not	_	_	
+35-10	4585-4591	stable	_	_	
+35-11	4591-4592	_	_	_	
+35-12	4592-4593	_	_	_	
+35-13	4593-4594	.	_	_	
+
+#Text=There are some issues in the ORB-SLAM3 algorithm itself.
+36-1	4595-4600	There	_	_	
+36-2	4601-4604	are	_	_	
+36-3	4605-4609	some	_	_	
+36-4	4610-4616	issues	_	_	
+36-5	4617-4619	in	_	_	
+36-6	4620-4623	the	_	_	
+36-7	4624-4633	ORB-SLAM3	*	SOFTWARE	
+36-8	4634-4643	algorithm	_	_	
+36-9	4644-4650	itself	_	_	
+36-10	4650-4651	.	_	_	
+
+#Text=The original algorithm is designed for larger images of datasets like `EuRoC`.
+37-1	4652-4655	The	_	_	
+37-2	4656-4664	original	_	_	
+37-3	4665-4674	algorithm	_	_	
+37-4	4675-4677	is	_	_	
+37-5	4678-4686	designed	_	_	
+37-6	4687-4690	for	_	_	
+37-7	4691-4697	larger	_	_	
+37-8	4698-4704	images	_	_	
+37-9	4705-4707	of	_	_	
+37-10	4708-4716	datasets	_	_	
+37-11	4717-4721	like	_	_	
+37-12	4722-4723	`	_	_	
+37-13	4723-4728	EuRoC	*	DATASET	
+37-14	4728-4729	`	_	_	
+37-15	4729-4730	.	_	_	
+
+#Text=If you try to run it on small images of an event-based dataset (especially the hdr_boxes of The Public Event dataset) the backend (optimizer) throws unhandled exceptions.
+38-1	4731-4733	If	_	_	
+38-2	4734-4737	you	_	_	
+38-3	4738-4741	try	_	_	
+38-4	4742-4744	to	_	_	
+38-5	4745-4748	run	_	_	
+38-6	4749-4751	it	_	_	
+38-7	4752-4754	on	_	_	
+38-8	4755-4760	small	_	_	
+38-9	4761-4767	images	_	_	
+38-10	4768-4770	of	_	_	
+38-11	4771-4773	an	_	_	
+38-12	4774-4785	event-based	_	_	
+38-13	4786-4793	dataset	_	_	
+38-14	4794-4795	(	_	_	
+38-15	4795-4805	especially	_	_	
+38-16	4806-4809	the	_	_	
+38-17	4810-4819	hdr_boxes	_	_	
+38-18	4820-4822	of	_	_	
+38-19	4823-4826	The	_	_	
+38-20	4827-4833	Public	*[19]	DATASET[19]	
+38-21	4834-4839	Event	*[19]	DATASET[19]	
+38-22	4840-4847	dataset	_	_	
+38-23	4847-4848	)	_	_	
+38-24	4849-4852	the	_	_	
+38-25	4853-4860	backend	_	_	
+38-26	4861-4862	(	_	_	
+38-27	4862-4871	optimizer	_	_	
+38-28	4871-4872	)	_	_	
+38-29	4873-4879	throws	_	_	
+38-30	4880-4889	unhandled	_	_	
+38-31	4890-4900	exceptions	_	_	
+38-32	4900-4901	.	_	_	
+
+#Text=Such optimization exceptions might randomly happen for the EORB-SLAM algorithm.
+#Text=- For performance, most main components of this algorithm are executed in parallel threads.
+39-1	4902-4906	Such	_	_	
+39-2	4907-4919	optimization	_	_	
+39-3	4920-4930	exceptions	_	_	
+39-4	4931-4936	might	_	_	
+39-5	4937-4945	randomly	_	_	
+39-6	4946-4952	happen	_	_	
+39-7	4953-4956	for	_	_	
+39-8	4957-4960	the	_	_	
+39-9	4961-4970	EORB-SLAM	*	SOFTWARE	
+39-10	4971-4980	algorithm	_	_	
+39-11	4980-4981	.	_	_	
+39-12	4982-4983	-	_	_	
+39-13	4984-4987	For	_	_	
+39-14	4988-4999	performance	_	_	
+39-15	4999-5000	,	_	_	
+39-16	5001-5005	most	_	_	
+39-17	5006-5010	main	_	_	
+39-18	5011-5021	components	_	_	
+39-19	5022-5024	of	_	_	
+39-20	5025-5029	this	_	_	
+39-21	5030-5039	algorithm	_	_	
+39-22	5040-5043	are	_	_	
+39-23	5044-5052	executed	_	_	
+39-24	5053-5055	in	_	_	
+39-25	5056-5064	parallel	_	_	
+39-26	5065-5072	threads	_	_	
+39-27	5072-5073	.	_	_	
+
+#Text=Unexpected race conditions and deadlocks are other issues of this algorithm.
+40-1	5074-5084	Unexpected	_	_	
+40-2	5085-5089	race	_	_	
+40-3	5090-5100	conditions	_	_	
+40-4	5101-5104	and	_	_	
+40-5	5105-5114	deadlocks	_	_	
+40-6	5115-5118	are	_	_	
+40-7	5119-5124	other	_	_	
+40-8	5125-5131	issues	_	_	
+40-9	5132-5134	of	_	_	
+40-10	5135-5139	this	_	_	
+40-11	5140-5149	algorithm	_	_	
+40-12	5149-5150	.	_	_	

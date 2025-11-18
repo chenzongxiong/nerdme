@@ -1,0 +1,1 @@
+/venv3/bin/activate ```  To install dependencies, run  ```shell pip install -r requirements.txt ```  Tested using <SOFTWARE>Tensorflow</SOFTWARE> 2.4.0rc1 with CUDA 11.

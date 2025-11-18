@@ -1,0 +1,3 @@
+```markdown
+Before installation, first, ensure you have a recent version of <PROGLANG>Python</PROGLANG> and pip, then clone the repository using the `--sparse` option: ```bash git clone --sparse git@github.com:dylanashley/story-distiller.git ```  Afterwards, install the <PROGLANG>Python</PROGLANG> dependencies using pip: ```bash pip install -r requirements.txt ```  To use the full suite of file types supported by the tool, it is also necessary to separately install the <SOFTWARE>ffmpeg</SOFTWARE> tool by following the instructions for your operating system provided on [their website](https://ffmpeg.org/download.html).
+```

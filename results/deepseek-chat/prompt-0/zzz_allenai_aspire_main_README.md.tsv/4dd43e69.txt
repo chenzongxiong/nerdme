@@ -1,0 +1,1 @@
+- `<PROJECT>SciDocs</PROJECT>` is obtained from: [link](https://github.com/allenai/<PROJECT>scidocs</PROJECT>).

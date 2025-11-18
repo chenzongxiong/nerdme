@@ -1,0 +1,1 @@
+# `LinConGauss` ### _Integrals and samples of Gaussians under linear domain constraints_  !

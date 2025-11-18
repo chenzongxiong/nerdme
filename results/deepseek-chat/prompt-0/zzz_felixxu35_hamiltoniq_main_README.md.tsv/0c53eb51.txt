@@ -1,0 +1,3 @@
+```markdown
+/figures/benchmarking_scheme.png" alt="scheme" width="400" /></p>  <SOFTWARE>HamilToniQ</SOFTWARE> primarily comprises two components: the reference part, also known as ground truth, and the scoring part, as depicted in the figure below.
+```

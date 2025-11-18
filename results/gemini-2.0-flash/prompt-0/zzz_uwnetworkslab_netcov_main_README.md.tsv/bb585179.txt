@@ -1,0 +1,1 @@
+```sh $ pip install netcov ``` NetCov leverages [<SOFTWARE>LCOV</SOFTWARE>](https://github.com/linux-test-project/lcov) to generate HTML report.

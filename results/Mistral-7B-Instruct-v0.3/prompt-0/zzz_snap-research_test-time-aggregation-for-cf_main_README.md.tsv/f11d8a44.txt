@@ -1,0 +1,21 @@
+# TAG-CF: Test-time Aggregation for CF  Source code for the paper **[How Does Message Passing Improve Collaborative Filtering?]**
+
+The source code for the paper `<PUBLICATION>How Does Message Passing Improve Collaborative Filtering?</PUBLICATION>` can be found at [this link](https://github.com/<PROJECT>tag-cf</PROJECT>).
+
+The project `<PROJECT>tag-cf</PROJECT>` is a collaborative filtering approach that uses message passing to improve its performance.
+
+The project's `<SOFTWARE>source code</SOFTWARE>` is written in `<PROGLANG>Python</PROGLANG>`.
+
+To run the code, you'll need to have `<SOFTWARE>Python</SOFTWARE>` installed on your machine.
+
+You can install the required dependencies using the following command:
+
+```
+pip install -r requirements.txt
+```
+
+After installing the dependencies, you can run the code using the following command:
+
+```
+python main.py
+```

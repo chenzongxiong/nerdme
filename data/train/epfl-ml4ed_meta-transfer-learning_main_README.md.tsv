@@ -1,0 +1,1621 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Meta Transfer Learning for Early Success Prediction in MOOCs
+#Text=This repository is the official implementation of the L@S 2022 Paper entitled ["Meta Transfer Learning for Early Success Prediction in MOOCs"](https://arxiv.org/pdf/2205.01064.pdf) written by [Vinitra Swamy](http://github.com/vinitra), [Mirko Marras](https://www.mirkomarras.com/), and [Tanja Käser](https://people.epfl.ch/tanja.kaeser/?
+1-1	0-1	#	_	_	
+1-2	2-6	Meta	*[1]	PUBLICATION[1]	
+1-3	7-15	Transfer	*[1]	PUBLICATION[1]	
+1-4	16-24	Learning	*[1]	PUBLICATION[1]	
+1-5	25-28	for	*[1]	PUBLICATION[1]	
+1-6	29-34	Early	*[1]	PUBLICATION[1]	
+1-7	35-42	Success	*[1]	PUBLICATION[1]	
+1-8	43-53	Prediction	*[1]	PUBLICATION[1]	
+1-9	54-56	in	*[1]	PUBLICATION[1]	
+1-10	57-62	MOOCs	*[1]	PUBLICATION[1]	
+1-11	63-67	This	_	_	
+1-12	68-78	repository	_	_	
+1-13	79-81	is	_	_	
+1-14	82-85	the	_	_	
+1-15	86-94	official	_	_	
+1-16	95-109	implementation	_	_	
+1-17	110-112	of	_	_	
+1-18	113-116	the	_	_	
+1-19	117-118	L	*[2]	CONFERENCE[2]	
+1-20	118-119	@	*[2]	CONFERENCE[2]	
+1-21	119-120	S	*[2]	CONFERENCE[2]	
+1-22	121-125	2022	*[2]	CONFERENCE[2]	
+1-23	126-131	Paper	_	_	
+1-24	132-140	entitled	_	_	
+1-25	141-142	[	_	_	
+1-26	142-143	"	_	_	
+1-27	143-147	Meta	*[3]	PUBLICATION[3]	
+1-28	148-156	Transfer	*[3]	PUBLICATION[3]	
+1-29	157-165	Learning	*[3]	PUBLICATION[3]	
+1-30	166-169	for	*[3]	PUBLICATION[3]	
+1-31	170-175	Early	*[3]	PUBLICATION[3]	
+1-32	176-183	Success	*[3]	PUBLICATION[3]	
+1-33	184-194	Prediction	*[3]	PUBLICATION[3]	
+1-34	195-197	in	*[3]	PUBLICATION[3]	
+1-35	198-203	MOOCs	*[3]	PUBLICATION[3]	
+1-36	203-204	"	_	_	
+1-37	204-205	]	_	_	
+1-38	205-206	(	_	_	
+1-39	206-211	https	_	_	
+1-40	211-212	:	_	_	
+1-41	212-213	/	_	_	
+1-42	213-214	/	_	_	
+1-43	214-223	arxiv.org	_	_	
+1-44	223-224	/	_	_	
+1-45	224-227	pdf	_	_	
+1-46	227-228	/	_	_	
+1-47	228-238	2205.01064	_	_	
+1-48	238-239	.	_	_	
+1-49	239-242	pdf	_	_	
+1-50	242-243	)	_	_	
+1-51	244-251	written	_	_	
+1-52	252-254	by	_	_	
+1-53	255-256	[	_	_	
+1-54	256-263	Vinitra	_	_	
+1-55	264-269	Swamy	_	_	
+1-56	269-270	]	_	_	
+1-57	270-271	(	_	_	
+1-58	271-275	http	_	_	
+1-59	275-276	:	_	_	
+1-60	276-277	/	_	_	
+1-61	277-278	/	_	_	
+1-62	278-288	github.com	_	_	
+1-63	288-289	/	_	_	
+1-64	289-296	vinitra	_	_	
+1-65	296-297	)	_	_	
+1-66	297-298	,	_	_	
+1-67	299-300	[	_	_	
+1-68	300-305	Mirko	_	_	
+1-69	306-312	Marras	_	_	
+1-70	312-313	]	_	_	
+1-71	313-314	(	_	_	
+1-72	314-319	https	_	_	
+1-73	319-320	:	_	_	
+1-74	320-321	/	_	_	
+1-75	321-322	/	_	_	
+1-76	322-341	www.mirkomarras.com	_	_	
+1-77	341-342	/	_	_	
+1-78	342-343	)	_	_	
+1-79	343-344	,	_	_	
+1-80	345-348	and	_	_	
+1-81	349-350	[	_	_	
+1-82	350-355	Tanja	_	_	
+1-83	356-361	Käser	_	_	
+1-84	361-362	]	_	_	
+1-85	362-363	(	_	_	
+1-86	363-368	https	_	_	
+1-87	368-369	:	_	_	
+1-88	369-370	/	_	_	
+1-89	370-371	/	_	_	
+1-90	371-385	people.epfl.ch	_	_	
+1-91	385-386	/	_	_	
+1-92	386-398	tanja.kaeser	_	_	
+1-93	398-399	/	_	_	
+1-94	399-400	?	_	_	
+
+#Text=lang=en).
+2-1	400-404	lang	_	_	
+2-2	404-405	=	_	_	
+2-3	405-407	en	_	_	
+2-4	407-408	)	_	_	
+2-5	408-409	.	_	_	
+
+#Text=Experiments are located in `scripts/`, corresponding directly to the experimental methodology mentioned in the paper.
+3-1	411-422	Experiments	_	_	
+3-2	423-426	are	_	_	
+3-3	427-434	located	_	_	
+3-4	435-437	in	_	_	
+3-5	438-439	`	_	_	
+3-6	439-446	scripts	_	_	
+3-7	446-447	/	_	_	
+3-8	447-448	`	_	_	
+3-9	448-449	,	_	_	
+3-10	450-463	corresponding	_	_	
+3-11	464-472	directly	_	_	
+3-12	473-475	to	_	_	
+3-13	476-479	the	_	_	
+3-14	480-492	experimental	_	_	
+3-15	493-504	methodology	_	_	
+3-16	505-514	mentioned	_	_	
+3-17	515-517	in	_	_	
+3-18	518-521	the	_	_	
+3-19	522-527	paper	_	_	
+3-20	527-528	.	_	_	
+
+#Text=At the beginning of each script, you will find the research question this experiment targets and a short objective statement regarding the model the script generates.
+4-1	529-531	At	_	_	
+4-2	532-535	the	_	_	
+4-3	536-545	beginning	_	_	
+4-4	546-548	of	_	_	
+4-5	549-553	each	_	_	
+4-6	554-560	script	_	_	
+4-7	560-561	,	_	_	
+4-8	562-565	you	_	_	
+4-9	566-570	will	_	_	
+4-10	571-575	find	_	_	
+4-11	576-579	the	_	_	
+4-12	580-588	research	_	_	
+4-13	589-597	question	_	_	
+4-14	598-602	this	_	_	
+4-15	603-613	experiment	_	_	
+4-16	614-621	targets	_	_	
+4-17	622-625	and	_	_	
+4-18	626-627	a	_	_	
+4-19	628-633	short	_	_	
+4-20	634-643	objective	_	_	
+4-21	644-653	statement	_	_	
+4-22	654-663	regarding	_	_	
+4-23	664-667	the	_	_	
+4-24	668-673	model	_	_	
+4-25	674-677	the	_	_	
+4-26	678-684	script	_	_	
+4-27	685-694	generates	_	_	
+4-28	694-695	.	_	_	
+
+#Text=For more information about each experiment, please reference the paper directly.
+5-1	696-699	For	_	_	
+5-2	700-704	more	_	_	
+5-3	705-716	information	_	_	
+5-4	717-722	about	_	_	
+5-5	723-727	each	_	_	
+5-6	728-738	experiment	_	_	
+5-7	738-739	,	_	_	
+5-8	740-746	please	_	_	
+5-9	747-756	reference	_	_	
+5-10	757-760	the	_	_	
+5-11	761-766	paper	_	_	
+5-12	767-775	directly	_	_	
+5-13	775-776	.	_	_	
+
+#Text=The best behavior-only (`BO`), behavior-timewise-meta (`BTM`), and behavior-static-meta (`BSM`) models for each early prediction setting (40% and 60%) can be found in `models/`.
+6-1	779-782	The	_	_	
+6-2	783-787	best	_	_	
+6-3	788-801	behavior-only	_	_	
+6-4	802-803	(	_	_	
+6-5	803-804	`	_	_	
+6-6	804-806	BO	_	_	
+6-7	806-807	`	_	_	
+6-8	807-808	)	_	_	
+6-9	808-809	,	_	_	
+6-10	810-832	behavior-timewise-meta	_	_	
+6-11	833-834	(	_	_	
+6-12	834-835	`	_	_	
+6-13	835-838	BTM	_	_	
+6-14	838-839	`	_	_	
+6-15	839-840	)	_	_	
+6-16	840-841	,	_	_	
+6-17	842-845	and	_	_	
+6-18	846-866	behavior-static-meta	_	_	
+6-19	867-868	(	_	_	
+6-20	868-869	`	_	_	
+6-21	869-872	BSM	_	_	
+6-22	872-873	`	_	_	
+6-23	873-874	)	_	_	
+6-24	875-881	models	_	_	
+6-25	882-885	for	_	_	
+6-26	886-890	each	_	_	
+6-27	891-896	early	_	_	
+6-28	897-907	prediction	_	_	
+6-29	908-915	setting	_	_	
+6-30	916-917	(	_	_	
+6-31	917-920	40%	_	_	
+6-32	921-924	and	_	_	
+6-33	925-928	60%	_	_	
+6-34	928-929	)	_	_	
+6-35	930-933	can	_	_	
+6-36	934-936	be	_	_	
+6-37	937-942	found	_	_	
+6-38	943-945	in	_	_	
+6-39	946-947	`	_	_	
+6-40	947-953	models	_	_	
+6-41	953-954	/	_	_	
+6-42	954-955	`	_	_	
+6-43	955-956	.	_	_	
+
+#Text=These models can be used to warm-start downstream student performance predictions for new or ongoing courses.
+#Text=
+#Text=## Usage guide
+#Text=
+#Text=0.
+7-1	957-962	These	_	_	
+7-2	963-969	models	_	_	
+7-3	970-973	can	_	_	
+7-4	974-976	be	_	_	
+7-5	977-981	used	_	_	
+7-6	982-984	to	_	_	
+7-7	985-995	warm-start	_	_	
+7-8	996-1006	downstream	_	_	
+7-9	1007-1014	student	_	_	
+7-10	1015-1026	performance	_	_	
+7-11	1027-1038	predictions	_	_	
+7-12	1039-1042	for	_	_	
+7-13	1043-1046	new	_	_	
+7-14	1047-1049	or	_	_	
+7-15	1050-1057	ongoing	_	_	
+7-16	1058-1065	courses	_	_	
+7-17	1065-1066	.	_	_	
+7-18	1068-1069	#	_	_	
+7-19	1069-1070	#	_	_	
+7-20	1071-1076	Usage	_	_	
+7-21	1077-1082	guide	_	_	
+7-22	1084-1085	0	_	_	
+7-23	1085-1086	.	_	_	
+
+#Text=Install relevant dependencies with `pip install -r requirements.txt`.
+#Text=
+#Text=1.
+8-1	1087-1094	Install	_	_	
+8-2	1095-1103	relevant	_	_	
+8-3	1104-1116	dependencies	_	_	
+8-4	1117-1121	with	_	_	
+8-5	1122-1123	`	_	_	
+8-6	1123-1126	pip	*	SOFTWARE	
+8-7	1127-1134	install	_	_	
+8-8	1135-1136	-	_	_	
+8-9	1136-1137	r	_	_	
+8-10	1138-1154	requirements.txt	_	_	
+8-11	1154-1155	`	_	_	
+8-12	1155-1156	.	_	_	
+8-13	1158-1159	1	_	_	
+8-14	1159-1160	.	_	_	
+
+#Text=Extract relevant features sets (`BouroujeniEtAl`, `MarrasEtAl`, `LalleConati`, and `ChenCui`) through our lab's EDM 2021 contribution on [benchmarks for feature predictive power](https://github.com/epfl-ml4ed/flipped-classroom).
+9-1	1161-1168	Extract	_	_	
+9-2	1169-1177	relevant	_	_	
+9-3	1178-1186	features	_	_	
+9-4	1187-1191	sets	_	_	
+9-5	1192-1193	(	_	_	
+9-6	1193-1194	`	_	_	
+9-7	1194-1208	BouroujeniEtAl	*	DATASET	
+9-8	1208-1209	`	_	_	
+9-9	1209-1210	,	_	_	
+9-10	1211-1212	`	_	_	
+9-11	1212-1222	MarrasEtAl	*	DATASET	
+9-12	1222-1223	`	_	_	
+9-13	1223-1224	,	_	_	
+9-14	1225-1226	`	_	_	
+9-15	1226-1237	LalleConati	*	DATASET	
+9-16	1237-1238	`	_	_	
+9-17	1238-1239	,	_	_	
+9-18	1240-1243	and	_	_	
+9-19	1244-1245	`	_	_	
+9-20	1245-1252	ChenCui	*	DATASET	
+9-21	1252-1253	`	_	_	
+9-22	1253-1254	)	_	_	
+9-23	1255-1262	through	_	_	
+9-24	1263-1266	our	_	_	
+9-25	1267-1272	lab's	_	_	
+9-26	1273-1276	EDM	*[4]	CONFERENCE[4]	
+9-27	1277-1281	2021	*[4]	CONFERENCE[4]	
+9-28	1282-1294	contribution	_	_	
+9-29	1295-1297	on	_	_	
+9-30	1298-1299	[	_	_	
+9-31	1299-1309	benchmarks	_	_	
+9-32	1310-1313	for	_	_	
+9-33	1314-1321	feature	_	_	
+9-34	1322-1332	predictive	_	_	
+9-35	1333-1338	power	_	_	
+9-36	1338-1339	]	_	_	
+9-37	1339-1340	(	_	_	
+9-38	1340-1345	https	_	_	
+9-39	1345-1346	:	_	_	
+9-40	1346-1347	/	_	_	
+9-41	1347-1348	/	_	_	
+9-42	1348-1358	github.com	_	_	
+9-43	1358-1359	/	_	_	
+9-44	1359-1369	epfl-ml4ed	_	_	
+9-45	1369-1370	/	_	_	
+9-46	1370-1387	flipped-classroom	_	_	
+9-47	1387-1388	)	_	_	
+9-48	1388-1389	.	_	_	
+
+#Text=Place the results of these feature extraction scripts in `data/`.
+10-1	1390-1395	Place	_	_	
+10-2	1396-1399	the	_	_	
+10-3	1400-1407	results	_	_	
+10-4	1408-1410	of	_	_	
+10-5	1411-1416	these	_	_	
+10-6	1417-1424	feature	_	_	
+10-7	1425-1435	extraction	_	_	
+10-8	1436-1443	scripts	_	_	
+10-9	1444-1446	in	_	_	
+10-10	1447-1448	`	_	_	
+10-11	1448-1452	data	_	_	
+10-12	1452-1453	/	_	_	
+10-13	1453-1454	`	_	_	
+10-14	1454-1455	.	_	_	
+
+#Text=A toy course example of extracted features is included in the `data/` folder.
+#Text=
+#Text=2.
+11-1	1456-1457	A	_	_	
+11-2	1458-1461	toy	_	_	
+11-3	1462-1468	course	_	_	
+11-4	1469-1476	example	_	_	
+11-5	1477-1479	of	_	_	
+11-6	1480-1489	extracted	_	_	
+11-7	1490-1498	features	_	_	
+11-8	1499-1501	is	_	_	
+11-9	1502-1510	included	_	_	
+11-10	1511-1513	in	_	_	
+11-11	1514-1517	the	_	_	
+11-12	1518-1519	`	_	_	
+11-13	1519-1523	data	_	_	
+11-14	1523-1524	/	_	_	
+11-15	1524-1525	`	_	_	
+11-16	1526-1532	folder	_	_	
+11-17	1532-1533	.	_	_	
+11-18	1535-1536	2	_	_	
+11-19	1536-1537	.	_	_	
+
+#Text=Fill out the `data/metadata.csv` file with relevant meta information about your course(s).
+12-1	1538-1542	Fill	_	_	
+12-2	1543-1546	out	_	_	
+12-3	1547-1550	the	_	_	
+12-4	1551-1552	`	_	_	
+12-5	1552-1556	data	_	_	
+12-6	1556-1557	/	_	_	
+12-7	1557-1569	metadata.csv	_	_	
+12-8	1569-1570	`	_	_	
+12-9	1571-1575	file	_	_	
+12-10	1576-1580	with	_	_	
+12-11	1581-1589	relevant	_	_	
+12-12	1590-1594	meta	_	_	
+12-13	1595-1606	information	_	_	
+12-14	1607-1612	about	_	_	
+12-15	1613-1617	your	_	_	
+12-16	1618-1624	course	_	_	
+12-17	1624-1625	(	_	_	
+12-18	1625-1626	s	_	_	
+12-19	1626-1627	)	_	_	
+12-20	1627-1628	.	_	_	
+
+#Text=One example of course metadata is currently showcased in the file.
+13-1	1629-1632	One	_	_	
+13-2	1633-1640	example	_	_	
+13-3	1641-1643	of	_	_	
+13-4	1644-1650	course	_	_	
+13-5	1651-1659	metadata	_	_	
+13-6	1660-1662	is	_	_	
+13-7	1663-1672	currently	_	_	
+13-8	1673-1682	showcased	_	_	
+13-9	1683-1685	in	_	_	
+13-10	1686-1689	the	_	_	
+13-11	1690-1694	file	_	_	
+13-12	1694-1695	.	_	_	
+
+#Text=This information is necessary for extracting the meta features in the BTM and BSM models.
+#Text=
+#Text=3.
+14-1	1696-1700	This	_	_	
+14-2	1701-1712	information	_	_	
+14-3	1713-1715	is	_	_	
+14-4	1716-1725	necessary	_	_	
+14-5	1726-1729	for	_	_	
+14-6	1730-1740	extracting	_	_	
+14-7	1741-1744	the	_	_	
+14-8	1745-1749	meta	_	_	
+14-9	1750-1758	features	_	_	
+14-10	1759-1761	in	_	_	
+14-11	1762-1765	the	_	_	
+14-12	1766-1769	BTM	_	_	
+14-13	1770-1773	and	_	_	
+14-14	1774-1777	BSM	_	_	
+14-15	1778-1784	models	_	_	
+14-16	1784-1785	.	_	_	
+14-17	1787-1788	3	_	_	
+14-18	1788-1789	.	_	_	
+
+#Text=Run your desired experiment from `scripts/` by executing the script with Python 3.7 or higher.
+#Text=
+#Text=## Models
+#Text=We present three model architectures to predict early pass / fail student performance prediction.
+15-1	1790-1793	Run	_	_	
+15-2	1794-1798	your	_	_	
+15-3	1799-1806	desired	_	_	
+15-4	1807-1817	experiment	_	_	
+15-5	1818-1822	from	_	_	
+15-6	1823-1824	`	_	_	
+15-7	1824-1831	scripts	_	_	
+15-8	1831-1832	/	_	_	
+15-9	1832-1833	`	_	_	
+15-10	1834-1836	by	_	_	
+15-11	1837-1846	executing	_	_	
+15-12	1847-1850	the	_	_	
+15-13	1851-1857	script	_	_	
+15-14	1858-1862	with	_	_	
+15-15	1863-1869	Python	*[5]	PROGLANG[5]	
+15-16	1870-1873	3.7	*[5]	PROGLANG[5]	
+15-17	1874-1876	or	_	_	
+15-18	1877-1883	higher	_	_	
+15-19	1883-1884	.	_	_	
+15-20	1886-1887	#	_	_	
+15-21	1887-1888	#	_	_	
+15-22	1889-1895	Models	_	_	
+15-23	1896-1898	We	_	_	
+15-24	1899-1906	present	_	_	
+15-25	1907-1912	three	_	_	
+15-26	1913-1918	model	_	_	
+15-27	1919-1932	architectures	_	_	
+15-28	1933-1935	to	_	_	
+15-29	1936-1943	predict	_	_	
+15-30	1944-1949	early	_	_	
+15-31	1950-1954	pass	_	_	
+15-32	1955-1956	/	_	_	
+15-33	1957-1961	fail	_	_	
+15-34	1962-1969	student	_	_	
+15-35	1970-1981	performance	_	_	
+15-36	1982-1992	prediction	_	_	
+15-37	1992-1993	.	_	_	
+
+#Text=The features used as input to each of these models is truncated to 40% or 60% of the duration of a course, in order to simulate downstream intervention for an ongoing course
+16-1	1994-1997	The	_	_	
+16-2	1998-2006	features	_	_	
+16-3	2007-2011	used	_	_	
+16-4	2012-2014	as	_	_	
+16-5	2015-2020	input	_	_	
+16-6	2021-2023	to	_	_	
+16-7	2024-2028	each	_	_	
+16-8	2029-2031	of	_	_	
+16-9	2032-2037	these	_	_	
+16-10	2038-2044	models	_	_	
+16-11	2045-2047	is	_	_	
+16-12	2048-2057	truncated	_	_	
+16-13	2058-2060	to	_	_	
+16-14	2061-2064	40%	_	_	
+16-15	2065-2067	or	_	_	
+16-16	2068-2071	60%	_	_	
+16-17	2072-2074	of	_	_	
+16-18	2075-2078	the	_	_	
+16-19	2079-2087	duration	_	_	
+16-20	2088-2090	of	_	_	
+16-21	2091-2092	a	_	_	
+16-22	2093-2099	course	_	_	
+16-23	2099-2100	,	_	_	
+16-24	2101-2103	in	_	_	
+16-25	2104-2109	order	_	_	
+16-26	2110-2112	to	_	_	
+16-27	2113-2121	simulate	_	_	
+16-28	2122-2132	downstream	_	_	
+16-29	2133-2145	intervention	_	_	
+16-30	2146-2149	for	_	_	
+16-31	2150-2152	an	_	_	
+16-32	2153-2160	ongoing	_	_	
+16-33	2161-2167	course	_	_	
+
+#Text=.
+17-1	2167-2168	.	_	_	
+
+#Text=- **Behavior Only** (`BO`): Models trained only using features about student behavior.
+#Text=- **Behavior + Time-wise Meta** (`BTM`): Models trained using behavior features and meta features, combined at each timestep and used together as model input.
+#Text=- **Behavior + Static Meta** (`BSM`): Models trained using behavior and meta features, combined statically at different layers of the model with attention and projection.
+#Text=
+#Text=!
+18-1	2170-2171	-	_	_	
+18-2	2172-2173	*	_	_	
+18-3	2173-2174	*	_	_	
+18-4	2174-2182	Behavior	_	_	
+18-5	2183-2187	Only	_	_	
+18-6	2187-2188	*	_	_	
+18-7	2188-2189	*	_	_	
+18-8	2190-2191	(	_	_	
+18-9	2191-2192	`	_	_	
+18-10	2192-2194	BO	_	_	
+18-11	2194-2195	`	_	_	
+18-12	2195-2196	)	_	_	
+18-13	2196-2197	:	_	_	
+18-14	2198-2204	Models	_	_	
+18-15	2205-2212	trained	_	_	
+18-16	2213-2217	only	_	_	
+18-17	2218-2223	using	_	_	
+18-18	2224-2232	features	_	_	
+18-19	2233-2238	about	_	_	
+18-20	2239-2246	student	_	_	
+18-21	2247-2255	behavior	_	_	
+18-22	2255-2256	.	_	_	
+18-23	2257-2258	-	_	_	
+18-24	2259-2260	*	_	_	
+18-25	2260-2261	*	_	_	
+18-26	2261-2269	Behavior	_	_	
+18-27	2270-2271	+	_	_	
+18-28	2272-2281	Time-wise	_	_	
+18-29	2282-2286	Meta	_	_	
+18-30	2286-2287	*	_	_	
+18-31	2287-2288	*	_	_	
+18-32	2289-2290	(	_	_	
+18-33	2290-2291	`	_	_	
+18-34	2291-2294	BTM	_	_	
+18-35	2294-2295	`	_	_	
+18-36	2295-2296	)	_	_	
+18-37	2296-2297	:	_	_	
+18-38	2298-2304	Models	_	_	
+18-39	2305-2312	trained	_	_	
+18-40	2313-2318	using	_	_	
+18-41	2319-2327	behavior	_	_	
+18-42	2328-2336	features	_	_	
+18-43	2337-2340	and	_	_	
+18-44	2341-2345	meta	_	_	
+18-45	2346-2354	features	_	_	
+18-46	2354-2355	,	_	_	
+18-47	2356-2364	combined	_	_	
+18-48	2365-2367	at	_	_	
+18-49	2368-2372	each	_	_	
+18-50	2373-2381	timestep	_	_	
+18-51	2382-2385	and	_	_	
+18-52	2386-2390	used	_	_	
+18-53	2391-2399	together	_	_	
+18-54	2400-2402	as	_	_	
+18-55	2403-2408	model	_	_	
+18-56	2409-2414	input	_	_	
+18-57	2414-2415	.	_	_	
+18-58	2416-2417	-	_	_	
+18-59	2418-2419	*	_	_	
+18-60	2419-2420	*	_	_	
+18-61	2420-2428	Behavior	_	_	
+18-62	2429-2430	+	_	_	
+18-63	2431-2437	Static	_	_	
+18-64	2438-2442	Meta	_	_	
+18-65	2442-2443	*	_	_	
+18-66	2443-2444	*	_	_	
+18-67	2445-2446	(	_	_	
+18-68	2446-2447	`	_	_	
+18-69	2447-2450	BSM	_	_	
+18-70	2450-2451	`	_	_	
+18-71	2451-2452	)	_	_	
+18-72	2452-2453	:	_	_	
+18-73	2454-2460	Models	_	_	
+18-74	2461-2468	trained	_	_	
+18-75	2469-2474	using	_	_	
+18-76	2475-2483	behavior	_	_	
+18-77	2484-2487	and	_	_	
+18-78	2488-2492	meta	_	_	
+18-79	2493-2501	features	_	_	
+18-80	2501-2502	,	_	_	
+18-81	2503-2511	combined	_	_	
+18-82	2512-2522	statically	_	_	
+18-83	2523-2525	at	_	_	
+18-84	2526-2535	different	_	_	
+18-85	2536-2542	layers	_	_	
+18-86	2543-2545	of	_	_	
+18-87	2546-2549	the	_	_	
+18-88	2550-2555	model	_	_	
+18-89	2556-2560	with	_	_	
+18-90	2561-2570	attention	_	_	
+18-91	2571-2574	and	_	_	
+18-92	2575-2585	projection	_	_	
+18-93	2585-2586	.	_	_	
+18-94	2588-2589	!	_	_	
+
+#Text=[all3](https://user-images.githubusercontent.com/72170466/164514087-fb49c213-8116-4ab6-9215-89d4b4ee052e.png)
+#Text=
+#Text=The best models of each architecture for the two early prediction levels (40% and 60%) are showcased in the `models/` folder, and can be produced with the `BO_Nto1_Diff.py`, `BSM_Nto1_Diff.py`, and `BTM_Nto1_Diff.py` scripts respectively.
+19-1	2589-2590	[	_	_	
+19-2	2590-2594	all3	_	_	
+19-3	2594-2595	]	_	_	
+19-4	2595-2596	(	_	_	
+19-5	2596-2601	https	_	_	
+19-6	2601-2602	:	_	_	
+19-7	2602-2603	/	_	_	
+19-8	2603-2604	/	_	_	
+19-9	2604-2637	user-images.githubusercontent.com	_	_	
+19-10	2637-2638	/	_	_	
+19-11	2638-2646	72170466	_	_	
+19-12	2646-2647	/	_	_	
+19-13	2647-2656	164514087	_	_	
+19-14	2656-2657	-	_	_	
+19-15	2657-2665	fb49c213	_	_	
+19-16	2665-2666	-	_	_	
+19-17	2666-2670	8116	_	_	
+19-18	2670-2671	-	_	_	
+19-19	2671-2675	4ab6	_	_	
+19-20	2675-2676	-	_	_	
+19-21	2676-2680	9215	_	_	
+19-22	2680-2681	-	_	_	
+19-23	2681-2697	89d4b4ee052e.png	_	_	
+19-24	2697-2698	)	_	_	
+19-25	2700-2703	The	_	_	
+19-26	2704-2708	best	_	_	
+19-27	2709-2715	models	_	_	
+19-28	2716-2718	of	_	_	
+19-29	2719-2723	each	_	_	
+19-30	2724-2736	architecture	_	_	
+19-31	2737-2740	for	_	_	
+19-32	2741-2744	the	_	_	
+19-33	2745-2748	two	_	_	
+19-34	2749-2754	early	_	_	
+19-35	2755-2765	prediction	_	_	
+19-36	2766-2772	levels	_	_	
+19-37	2773-2774	(	_	_	
+19-38	2774-2777	40%	_	_	
+19-39	2778-2781	and	_	_	
+19-40	2782-2785	60%	_	_	
+19-41	2785-2786	)	_	_	
+19-42	2787-2790	are	_	_	
+19-43	2791-2800	showcased	_	_	
+19-44	2801-2803	in	_	_	
+19-45	2804-2807	the	_	_	
+19-46	2808-2809	`	_	_	
+19-47	2809-2815	models	_	_	
+19-48	2815-2816	/	_	_	
+19-49	2816-2817	`	_	_	
+19-50	2818-2824	folder	_	_	
+19-51	2824-2825	,	_	_	
+19-52	2826-2829	and	_	_	
+19-53	2830-2833	can	_	_	
+19-54	2834-2836	be	_	_	
+19-55	2837-2845	produced	_	_	
+19-56	2846-2850	with	_	_	
+19-57	2851-2854	the	_	_	
+19-58	2855-2856	`	_	_	
+19-59	2856-2863	BO_Nto1	_	_	
+19-60	2863-2864	_	_	_	
+19-61	2864-2871	Diff.py	_	_	
+19-62	2871-2872	`	_	_	
+19-63	2872-2873	,	_	_	
+19-64	2874-2875	`	_	_	
+19-65	2875-2883	BSM_Nto1	_	_	
+19-66	2883-2884	_	_	_	
+19-67	2884-2891	Diff.py	_	_	
+19-68	2891-2892	`	_	_	
+19-69	2892-2893	,	_	_	
+19-70	2894-2897	and	_	_	
+19-71	2898-2899	`	_	_	
+19-72	2899-2907	BTM_Nto1	_	_	
+19-73	2907-2908	_	_	_	
+19-74	2908-2915	Diff.py	_	_	
+19-75	2915-2916	`	_	_	
+19-76	2917-2924	scripts	_	_	
+19-77	2925-2937	respectively	_	_	
+19-78	2937-2938	.	_	_	
+
+#Text=You can load a model and compute predictions (inference) with the following code snippet:
+#Text=```
+#Text=pretrained_model = 'BO_Nto1_Diff_0.4_lstm-bi-64-baseline_best_bidirectional_lstm_64_ep0.4_1641513647.8297'
+#Text=model = tf.keras.models.load_model('..
+20-1	2940-2943	You	_	_	
+20-2	2944-2947	can	_	_	
+20-3	2948-2952	load	_	_	
+20-4	2953-2954	a	_	_	
+20-5	2955-2960	model	_	_	
+20-6	2961-2964	and	_	_	
+20-7	2965-2972	compute	_	_	
+20-8	2973-2984	predictions	_	_	
+20-9	2985-2986	(	_	_	
+20-10	2986-2995	inference	_	_	
+20-11	2995-2996	)	_	_	
+20-12	2997-3001	with	_	_	
+20-13	3002-3005	the	_	_	
+20-14	3006-3015	following	_	_	
+20-15	3016-3020	code	_	_	
+20-16	3021-3028	snippet	_	_	
+20-17	3028-3029	:	_	_	
+20-18	3030-3031	`	_	_	
+20-19	3031-3032	`	_	_	
+20-20	3032-3033	`	_	_	
+20-21	3034-3050	pretrained_model	_	_	
+20-22	3051-3052	=	_	_	
+20-23	3053-3054	'	_	_	
+20-24	3054-3061	BO_Nto1	_	_	
+20-25	3061-3062	_	_	_	
+20-26	3062-3066	Diff	_	_	
+20-27	3066-3067	_	_	_	
+20-28	3067-3070	0.4	_	_	
+20-29	3070-3071	_	_	_	
+20-30	3071-3078	lstm-bi	_	_	
+20-31	3078-3079	-	_	_	
+20-32	3079-3081	64	_	_	
+20-33	3081-3082	-	_	_	
+20-34	3082-3114	baseline_best_bidirectional_lstm	_	_	
+20-35	3114-3115	_	_	_	
+20-36	3115-3117	64	_	_	
+20-37	3117-3118	_	_	_	
+20-38	3118-3123	ep0.4	_	_	
+20-39	3123-3124	_	_	_	
+20-40	3124-3139	1641513647.8297	_	_	
+20-41	3139-3140	'	_	_	
+20-42	3141-3146	model	_	_	
+20-43	3147-3148	=	_	_	
+20-44	3149-3175	tf.keras.models.load_model	_	_	
+20-45	3175-3176	(	_	_	
+20-46	3176-3177	'	_	_	
+20-47	3177-3178	.	_	_	
+20-48	3178-3179	.	_	_	
+
+#Text=/models/' + pretrained_model)
+#Text=predictions = model.predict(features)
+#Text=```
+#Text=
+#Text=## Scripts
+#Text=We extensively evaluate our models on a large data set including 26 MOOCs and 145,714 students in total, with millions of student interactions.
+21-1	3179-3180	/	_	_	
+21-2	3180-3186	models	_	_	
+21-3	3186-3187	/	_	_	
+21-4	3187-3188	'	_	_	
+21-5	3189-3190	+	_	_	
+21-6	3191-3207	pretrained_model	_	_	
+21-7	3207-3208	)	_	_	
+21-8	3209-3220	predictions	_	_	
+21-9	3221-3222	=	_	_	
+21-10	3223-3236	model.predict	_	_	
+21-11	3236-3237	(	_	_	
+21-12	3237-3245	features	_	_	
+21-13	3245-3246	)	_	_	
+21-14	3247-3248	`	_	_	
+21-15	3248-3249	`	_	_	
+21-16	3249-3250	`	_	_	
+21-17	3252-3253	#	_	_	
+21-18	3253-3254	#	_	_	
+21-19	3255-3262	Scripts	_	_	
+21-20	3263-3265	We	_	_	
+21-21	3266-3277	extensively	_	_	
+21-22	3278-3286	evaluate	_	_	
+21-23	3287-3290	our	_	_	
+21-24	3291-3297	models	_	_	
+21-25	3298-3300	on	_	_	
+21-26	3301-3302	a	_	_	
+21-27	3303-3308	large	_	_	
+21-28	3309-3313	data	_	_	
+21-29	3314-3317	set	_	_	
+21-30	3318-3327	including	_	_	
+21-31	3328-3330	26	_	_	
+21-32	3331-3336	MOOCs	_	_	
+21-33	3337-3340	and	_	_	
+21-34	3341-3348	145,714	_	_	
+21-35	3349-3357	students	_	_	
+21-36	3358-3360	in	_	_	
+21-37	3361-3366	total	_	_	
+21-38	3366-3367	,	_	_	
+21-39	3368-3372	with	_	_	
+21-40	3373-3381	millions	_	_	
+21-41	3382-3384	of	_	_	
+21-42	3385-3392	student	_	_	
+21-43	3393-3405	interactions	_	_	
+21-44	3405-3406	.	_	_	
+
+#Text=With our analyses, we target the following three research questions, addressed through experiments in this repository:
+#Text=
+#Text=- **RQ 1: Can student behavior transfer across iterations of the same course and across different courses?
+22-1	3407-3411	With	_	_	
+22-2	3412-3415	our	_	_	
+22-3	3416-3424	analyses	_	_	
+22-4	3424-3425	,	_	_	
+22-5	3426-3428	we	_	_	
+22-6	3429-3435	target	_	_	
+22-7	3436-3439	the	_	_	
+22-8	3440-3449	following	_	_	
+22-9	3450-3455	three	_	_	
+22-10	3456-3464	research	_	_	
+22-11	3465-3474	questions	_	_	
+22-12	3474-3475	,	_	_	
+22-13	3476-3485	addressed	_	_	
+22-14	3486-3493	through	_	_	
+22-15	3494-3505	experiments	_	_	
+22-16	3506-3508	in	_	_	
+22-17	3509-3513	this	_	_	
+22-18	3514-3524	repository	_	_	
+22-19	3524-3525	:	_	_	
+22-20	3527-3528	-	_	_	
+22-21	3529-3530	*	_	_	
+22-22	3530-3531	*	_	_	
+22-23	3531-3533	RQ	_	_	
+22-24	3534-3535	1	_	_	
+22-25	3535-3536	:	_	_	
+22-26	3537-3540	Can	_	_	
+22-27	3541-3548	student	_	_	
+22-28	3549-3557	behavior	_	_	
+22-29	3558-3566	transfer	_	_	
+22-30	3567-3573	across	_	_	
+22-31	3574-3584	iterations	_	_	
+22-32	3585-3587	of	_	_	
+22-33	3588-3591	the	_	_	
+22-34	3592-3596	same	_	_	
+22-35	3597-3603	course	_	_	
+22-36	3604-3607	and	_	_	
+22-37	3608-3614	across	_	_	
+22-38	3615-3624	different	_	_	
+22-39	3625-3632	courses	_	_	
+22-40	3632-3633	?	_	_	
+
+#Text=**
+#Text=  - `BO_1to1.py`: Train a model on one course's behavior features (behavior-only) and predicting on one course's behavior features
+23-1	3633-3634	*	_	_	
+23-2	3634-3635	*	_	_	
+23-3	3638-3639	-	_	_	
+23-4	3640-3641	`	_	_	
+23-5	3641-3643	BO	_	_	
+23-6	3643-3644	_	_	_	
+23-7	3644-3648	1to1	_	_	
+23-8	3648-3649	.	_	_	
+23-9	3649-3651	py	_	_	
+23-10	3651-3652	`	_	_	
+23-11	3652-3653	:	_	_	
+23-12	3654-3659	Train	_	_	
+23-13	3660-3661	a	_	_	
+23-14	3662-3667	model	_	_	
+23-15	3668-3670	on	_	_	
+23-16	3671-3674	one	_	_	
+23-17	3675-3683	course's	_	_	
+23-18	3684-3692	behavior	_	_	
+23-19	3693-3701	features	_	_	
+23-20	3702-3703	(	_	_	
+23-21	3703-3716	behavior-only	_	_	
+23-22	3716-3717	)	_	_	
+23-23	3718-3721	and	_	_	
+23-24	3722-3732	predicting	_	_	
+23-25	3733-3735	on	_	_	
+23-26	3736-3739	one	_	_	
+23-27	3740-3748	course's	_	_	
+23-28	3749-3757	behavior	_	_	
+23-29	3758-3766	features	_	_	
+
+#Text=.
+24-1	3766-3767	.	_	_	
+
+#Text=- `BO_Nto1_Diff.py`: Train a model on N courses' behavior features (behavior-only) and predicting on one course's (or multiple held out courses') behavior features
+25-1	3770-3771	-	_	_	
+25-2	3772-3773	`	_	_	
+25-3	3773-3780	BO_Nto1	_	_	
+25-4	3780-3781	_	_	_	
+25-5	3781-3788	Diff.py	_	_	
+25-6	3788-3789	`	_	_	
+25-7	3789-3790	:	_	_	
+25-8	3791-3796	Train	_	_	
+25-9	3797-3798	a	_	_	
+25-10	3799-3804	model	_	_	
+25-11	3805-3807	on	_	_	
+25-12	3808-3809	N	_	_	
+25-13	3810-3817	courses	_	_	
+25-14	3817-3818	'	_	_	
+25-15	3819-3827	behavior	_	_	
+25-16	3828-3836	features	_	_	
+25-17	3837-3838	(	_	_	
+25-18	3838-3851	behavior-only	_	_	
+25-19	3851-3852	)	_	_	
+25-20	3853-3856	and	_	_	
+25-21	3857-3867	predicting	_	_	
+25-22	3868-3870	on	_	_	
+25-23	3871-3874	one	_	_	
+25-24	3875-3883	course's	_	_	
+25-25	3884-3885	(	_	_	
+25-26	3885-3887	or	_	_	
+25-27	3888-3896	multiple	_	_	
+25-28	3897-3901	held	_	_	
+25-29	3902-3905	out	_	_	
+25-30	3906-3913	courses	_	_	
+25-31	3913-3914	'	_	_	
+25-32	3914-3915	)	_	_	
+25-33	3916-3924	behavior	_	_	
+25-34	3925-3933	features	_	_	
+
+#Text=.
+26-1	3933-3934	.	_	_	
+
+#Text=- `BO_Nto1_Same.py`: Train a model on behavior features (behavior-only) from previous iterations of a course and predict on behavior features from that course's current iteration
+27-1	3937-3938	-	_	_	
+27-2	3939-3940	`	_	_	
+27-3	3940-3947	BO_Nto1	_	_	
+27-4	3947-3948	_	_	_	
+27-5	3948-3955	Same.py	_	_	
+27-6	3955-3956	`	_	_	
+27-7	3956-3957	:	_	_	
+27-8	3958-3963	Train	_	_	
+27-9	3964-3965	a	_	_	
+27-10	3966-3971	model	_	_	
+27-11	3972-3974	on	_	_	
+27-12	3975-3983	behavior	_	_	
+27-13	3984-3992	features	_	_	
+27-14	3993-3994	(	_	_	
+27-15	3994-4007	behavior-only	_	_	
+27-16	4007-4008	)	_	_	
+27-17	4009-4013	from	_	_	
+27-18	4014-4022	previous	_	_	
+27-19	4023-4033	iterations	_	_	
+27-20	4034-4036	of	_	_	
+27-21	4037-4038	a	_	_	
+27-22	4039-4045	course	_	_	
+27-23	4046-4049	and	_	_	
+27-24	4050-4057	predict	_	_	
+27-25	4058-4060	on	_	_	
+27-26	4061-4069	behavior	_	_	
+27-27	4070-4078	features	_	_	
+27-28	4079-4083	from	_	_	
+27-29	4084-4088	that	_	_	
+27-30	4089-4097	course's	_	_	
+27-31	4098-4105	current	_	_	
+27-32	4106-4115	iteration	_	_	
+
+#Text=.
+28-1	4115-4116	.	_	_	
+
+#Text=- **RQ 2: Is a meta learning model trained on a combination of behavior and course metadata information more transferable?
+29-1	4118-4119	-	_	_	
+29-2	4120-4121	*	_	_	
+29-3	4121-4122	*	_	_	
+29-4	4122-4124	RQ	_	_	
+29-5	4125-4126	2	_	_	
+29-6	4126-4127	:	_	_	
+29-7	4128-4130	Is	_	_	
+29-8	4131-4132	a	_	_	
+29-9	4133-4137	meta	_	_	
+29-10	4138-4146	learning	_	_	
+29-11	4147-4152	model	_	_	
+29-12	4153-4160	trained	_	_	
+29-13	4161-4163	on	_	_	
+29-14	4164-4165	a	_	_	
+29-15	4166-4177	combination	_	_	
+29-16	4178-4180	of	_	_	
+29-17	4181-4189	behavior	_	_	
+29-18	4190-4193	and	_	_	
+29-19	4194-4200	course	_	_	
+29-20	4201-4209	metadata	_	_	
+29-21	4210-4221	information	_	_	
+29-22	4222-4226	more	_	_	
+29-23	4227-4239	transferable	_	_	
+29-24	4239-4240	?	_	_	
+
+#Text=**
+#Text=  - `BSM_Nto1_Diff.py`: Train a model on behavior and meta features from N courses, combined statically (with attention and projection), predict on one course (or multiple hold-out courses).
+30-1	4240-4241	*	_	_	
+30-2	4241-4242	*	_	_	
+30-3	4245-4246	-	_	_	
+30-4	4247-4248	`	_	_	
+30-5	4248-4256	BSM_Nto1	_	_	
+30-6	4256-4257	_	_	_	
+30-7	4257-4264	Diff.py	_	_	
+30-8	4264-4265	`	_	_	
+30-9	4265-4266	:	_	_	
+30-10	4267-4272	Train	_	_	
+30-11	4273-4274	a	_	_	
+30-12	4275-4280	model	_	_	
+30-13	4281-4283	on	_	_	
+30-14	4284-4292	behavior	_	_	
+30-15	4293-4296	and	_	_	
+30-16	4297-4301	meta	_	_	
+30-17	4302-4310	features	_	_	
+30-18	4311-4315	from	_	_	
+30-19	4316-4317	N	_	_	
+30-20	4318-4325	courses	_	_	
+30-21	4325-4326	,	_	_	
+30-22	4327-4335	combined	_	_	
+30-23	4336-4346	statically	_	_	
+30-24	4347-4348	(	_	_	
+30-25	4348-4352	with	_	_	
+30-26	4353-4362	attention	_	_	
+30-27	4363-4366	and	_	_	
+30-28	4367-4377	projection	_	_	
+30-29	4377-4378	)	_	_	
+30-30	4378-4379	,	_	_	
+30-31	4380-4387	predict	_	_	
+30-32	4388-4390	on	_	_	
+30-33	4391-4394	one	_	_	
+30-34	4395-4401	course	_	_	
+30-35	4402-4403	(	_	_	
+30-36	4403-4405	or	_	_	
+30-37	4406-4414	multiple	_	_	
+30-38	4415-4423	hold-out	_	_	
+30-39	4424-4431	courses	_	_	
+30-40	4431-4432	)	_	_	
+30-41	4432-4433	.	_	_	
+
+#Text=This script produces the final architecture, using FastText encoding
+31-1	4434-4438	This	_	_	
+31-2	4439-4445	script	_	_	
+31-3	4446-4454	produces	_	_	
+31-4	4455-4458	the	_	_	
+31-5	4459-4464	final	_	_	
+31-6	4465-4477	architecture	_	_	
+31-7	4477-4478	,	_	_	
+31-8	4479-4484	using	_	_	
+31-9	4485-4493	FastText	*	SOFTWARE	
+31-10	4494-4502	encoding	_	_	
+
+#Text=.
+32-1	4502-4503	.	_	_	
+
+#Text=- `BTM_Nto1_Diff.py`: Train a model on behavior and meta features from N courses, combined at each timestep, predict on one course (or multiple hold-out courses)
+33-1	4506-4507	-	_	_	
+33-2	4508-4509	`	_	_	
+33-3	4509-4517	BTM_Nto1	_	_	
+33-4	4517-4518	_	_	_	
+33-5	4518-4525	Diff.py	_	_	
+33-6	4525-4526	`	_	_	
+33-7	4526-4527	:	_	_	
+33-8	4528-4533	Train	_	_	
+33-9	4534-4535	a	_	_	
+33-10	4536-4541	model	_	_	
+33-11	4542-4544	on	_	_	
+33-12	4545-4553	behavior	_	_	
+33-13	4554-4557	and	_	_	
+33-14	4558-4562	meta	_	_	
+33-15	4563-4571	features	_	_	
+33-16	4572-4576	from	_	_	
+33-17	4577-4578	N	_	_	
+33-18	4579-4586	courses	_	_	
+33-19	4586-4587	,	_	_	
+33-20	4588-4596	combined	_	_	
+33-21	4597-4599	at	_	_	
+33-22	4600-4604	each	_	_	
+33-23	4605-4613	timestep	_	_	
+33-24	4613-4614	,	_	_	
+33-25	4615-4622	predict	_	_	
+33-26	4623-4625	on	_	_	
+33-27	4626-4629	one	_	_	
+33-28	4630-4636	course	_	_	
+33-29	4637-4638	(	_	_	
+33-30	4638-4640	or	_	_	
+33-31	4641-4649	multiple	_	_	
+33-32	4650-4658	hold-out	_	_	
+33-33	4659-4666	courses	_	_	
+33-34	4666-4667	)	_	_	
+
+#Text=.
+34-1	4667-4668	.	_	_	
+
+#Text=- **Encoding experiments**: encoding the course title and description text using different encoders
+35-1	4672-4673	-	_	_	
+35-2	4674-4675	*	_	_	
+35-3	4675-4676	*	_	_	
+35-4	4676-4684	Encoding	_	_	
+35-5	4685-4696	experiments	_	_	
+35-6	4696-4697	*	_	_	
+35-7	4697-4698	*	_	_	
+35-8	4698-4699	:	_	_	
+35-9	4700-4708	encoding	_	_	
+35-10	4709-4712	the	_	_	
+35-11	4713-4719	course	_	_	
+35-12	4720-4725	title	_	_	
+35-13	4726-4729	and	_	_	
+35-14	4730-4741	description	_	_	
+35-15	4742-4746	text	_	_	
+35-16	4747-4752	using	_	_	
+35-17	4753-4762	different	_	_	
+35-18	4763-4771	encoders	_	_	
+
+#Text=.
+36-1	4771-4772	.	_	_	
+
+#Text=- `BTM_Nto1_Diff_FastText.py`: Encode textual meta features with FastText, in a BTM model
+37-1	4779-4780	-	_	_	
+37-2	4781-4782	`	_	_	
+37-3	4782-4790	BTM_Nto1	_	_	
+37-4	4790-4791	_	_	_	
+37-5	4791-4807	Diff_FastText.py	_	_	
+37-6	4807-4808	`	_	_	
+37-7	4808-4809	:	_	_	
+37-8	4810-4816	Encode	_	_	
+37-9	4817-4824	textual	_	_	
+37-10	4825-4829	meta	_	_	
+37-11	4830-4838	features	_	_	
+37-12	4839-4843	with	_	_	
+37-13	4844-4852	FastText	_	_	
+37-14	4852-4853	,	_	_	
+37-15	4854-4856	in	_	_	
+37-16	4857-4858	a	_	_	
+37-17	4859-4862	BTM	_	_	
+37-18	4863-4868	model	_	_	
+
+#Text=.
+38-1	4868-4869	.	_	_	
+
+#Text=- `BTM_Nto1_Diff_SentenceBERT.py`: Encode textual meta features with SentenceBERT, in a BTM model
+39-1	4874-4875	-	_	_	
+39-2	4876-4877	`	_	_	
+39-3	4877-4885	BTM_Nto1	_	_	
+39-4	4885-4886	_	_	_	
+39-5	4886-4906	Diff_SentenceBERT.py	_	_	
+39-6	4906-4907	`	_	_	
+39-7	4907-4908	:	_	_	
+39-8	4909-4915	Encode	_	_	
+39-9	4916-4923	textual	_	_	
+39-10	4924-4928	meta	_	_	
+39-11	4929-4937	features	_	_	
+39-12	4938-4942	with	_	_	
+39-13	4943-4955	SentenceBERT	_	_	
+39-14	4955-4956	,	_	_	
+39-15	4957-4959	in	_	_	
+39-16	4960-4961	a	_	_	
+39-17	4962-4965	BTM	_	_	
+39-18	4966-4971	model	_	_	
+
+#Text=.
+40-1	4971-4972	.	_	_	
+
+#Text=- `BTM_Nto1_Diff_UniversalSentEncoder.py`: Encode textual meta features with SentenceBERT, in a BTM model
+41-1	4977-4978	-	_	_	
+41-2	4979-4980	`	_	_	
+41-3	4980-4988	BTM_Nto1	_	_	
+41-4	4988-4989	_	_	_	
+41-5	4989-5017	Diff_UniversalSentEncoder.py	_	_	
+41-6	5017-5018	`	_	_	
+41-7	5018-5019	:	_	_	
+41-8	5020-5026	Encode	_	_	
+41-9	5027-5034	textual	_	_	
+41-10	5035-5039	meta	_	_	
+41-11	5040-5048	features	_	_	
+41-12	5049-5053	with	_	_	
+41-13	5054-5066	SentenceBERT	_	_	
+41-14	5066-5067	,	_	_	
+41-15	5068-5070	in	_	_	
+41-16	5071-5072	a	_	_	
+41-17	5073-5076	BTM	_	_	
+41-18	5077-5082	model	_	_	
+
+#Text=.
+42-1	5082-5083	.	_	_	
+
+#Text=- **RQ 3: Can fine-tuning a combined model on past iterations of an unseen course lead to better transferable models?
+43-1	5085-5086	-	_	_	
+43-2	5087-5088	*	_	_	
+43-3	5088-5089	*	_	_	
+43-4	5089-5091	RQ	_	_	
+43-5	5092-5093	3	_	_	
+43-6	5093-5094	:	_	_	
+43-7	5095-5098	Can	_	_	
+43-8	5099-5110	fine-tuning	_	_	
+43-9	5111-5112	a	_	_	
+43-10	5113-5121	combined	_	_	
+43-11	5122-5127	model	_	_	
+43-12	5128-5130	on	_	_	
+43-13	5131-5135	past	_	_	
+43-14	5136-5146	iterations	_	_	
+43-15	5147-5149	of	_	_	
+43-16	5150-5152	an	_	_	
+43-17	5153-5159	unseen	_	_	
+43-18	5160-5166	course	_	_	
+43-19	5167-5171	lead	_	_	
+43-20	5172-5174	to	_	_	
+43-21	5175-5181	better	_	_	
+43-22	5182-5194	transferable	_	_	
+43-23	5195-5201	models	_	_	
+43-24	5201-5202	?	_	_	
+
+#Text=**
+#Text=  - `BO_Nto1_Diff_Finetune.py`: Finetune the model trained in `BO_Nto1_Diff.py` on one course
+44-1	5202-5203	*	_	_	
+44-2	5203-5204	*	_	_	
+44-3	5207-5208	-	_	_	
+44-4	5209-5210	`	_	_	
+44-5	5210-5217	BO_Nto1	_	_	
+44-6	5217-5218	_	_	_	
+44-7	5218-5234	Diff_Finetune.py	_	_	
+44-8	5234-5235	`	_	_	
+44-9	5235-5236	:	_	_	
+44-10	5237-5245	Finetune	_	_	
+44-11	5246-5249	the	_	_	
+44-12	5250-5255	model	_	_	
+44-13	5256-5263	trained	_	_	
+44-14	5264-5266	in	_	_	
+44-15	5267-5268	`	_	_	
+44-16	5268-5275	BO_Nto1	_	_	
+44-17	5275-5276	_	_	_	
+44-18	5276-5283	Diff.py	_	_	
+44-19	5283-5284	`	_	_	
+44-20	5285-5287	on	_	_	
+44-21	5288-5291	one	_	_	
+44-22	5292-5298	course	_	_	
+
+#Text=.
+45-1	5298-5299	.	_	_	
+
+#Text=- `BO_NtoC_Diff_Finetune.py`: Finetune the model trained in `BO_Nto1_Diff.py` on previous iterations of a course, predict on current iteration
+46-1	5302-5303	-	_	_	
+46-2	5304-5305	`	_	_	
+46-3	5305-5329	BO_NtoC_Diff_Finetune.py	_	_	
+46-4	5329-5330	`	_	_	
+46-5	5330-5331	:	_	_	
+46-6	5332-5340	Finetune	_	_	
+46-7	5341-5344	the	_	_	
+46-8	5345-5350	model	_	_	
+46-9	5351-5358	trained	_	_	
+46-10	5359-5361	in	_	_	
+46-11	5362-5363	`	_	_	
+46-12	5363-5370	BO_Nto1	_	_	
+46-13	5370-5371	_	_	_	
+46-14	5371-5378	Diff.py	_	_	
+46-15	5378-5379	`	_	_	
+46-16	5380-5382	on	_	_	
+46-17	5383-5391	previous	_	_	
+46-18	5392-5402	iterations	_	_	
+46-19	5403-5405	of	_	_	
+46-20	5406-5407	a	_	_	
+46-21	5408-5414	course	_	_	
+46-22	5414-5415	,	_	_	
+46-23	5416-5423	predict	_	_	
+46-24	5424-5426	on	_	_	
+46-25	5427-5434	current	_	_	
+46-26	5435-5444	iteration	_	_	
+
+#Text=.
+47-1	5444-5445	.	_	_	
+
+#Text=- `BSM_NtoC_Diff_Finetune.py`: Finetune the model trained in `BSM_Nto1_Diff.py` on previous iterations of a course, predict on current iteration
+48-1	5448-5449	-	_	_	
+48-2	5450-5451	`	_	_	
+48-3	5451-5476	BSM_NtoC_Diff_Finetune.py	_	_	
+48-4	5476-5477	`	_	_	
+48-5	5477-5478	:	_	_	
+48-6	5479-5487	Finetune	_	_	
+48-7	5488-5491	the	_	_	
+48-8	5492-5497	model	_	_	
+48-9	5498-5505	trained	_	_	
+48-10	5506-5508	in	_	_	
+48-11	5509-5510	`	_	_	
+48-12	5510-5518	BSM_Nto1	_	_	
+48-13	5518-5519	_	_	_	
+48-14	5519-5526	Diff.py	_	_	
+48-15	5526-5527	`	_	_	
+48-16	5528-5530	on	_	_	
+48-17	5531-5539	previous	_	_	
+48-18	5540-5550	iterations	_	_	
+48-19	5551-5553	of	_	_	
+48-20	5554-5555	a	_	_	
+48-21	5556-5562	course	_	_	
+48-22	5562-5563	,	_	_	
+48-23	5564-5571	predict	_	_	
+48-24	5572-5574	on	_	_	
+48-25	5575-5582	current	_	_	
+48-26	5583-5592	iteration	_	_	
+
+#Text=.
+49-1	5592-5593	.	_	_	
+
+#Text=- `BTM_NtoC_Diff_Finetune.py`: Finetune the model trained in `BTM_Nto1_Diff.py` on previous iterations of a course, predict on current iteration
+50-1	5596-5597	-	_	_	
+50-2	5598-5599	`	_	_	
+50-3	5599-5624	BTM_NtoC_Diff_Finetune.py	_	_	
+50-4	5624-5625	`	_	_	
+50-5	5625-5626	:	_	_	
+50-6	5627-5635	Finetune	_	_	
+50-7	5636-5639	the	_	_	
+50-8	5640-5645	model	_	_	
+50-9	5646-5653	trained	_	_	
+50-10	5654-5656	in	_	_	
+50-11	5657-5658	`	_	_	
+50-12	5658-5666	BTM_Nto1	_	_	
+50-13	5666-5667	_	_	_	
+50-14	5667-5674	Diff.py	_	_	
+50-15	5674-5675	`	_	_	
+50-16	5676-5678	on	_	_	
+50-17	5679-5687	previous	_	_	
+50-18	5688-5698	iterations	_	_	
+50-19	5699-5701	of	_	_	
+50-20	5702-5703	a	_	_	
+50-21	5704-5710	course	_	_	
+50-22	5710-5711	,	_	_	
+50-23	5712-5719	predict	_	_	
+50-24	5720-5722	on	_	_	
+50-25	5723-5730	current	_	_	
+50-26	5731-5740	iteration	_	_	
+
+#Text=.
+51-1	5740-5741	.	_	_	
+
+#Text=- **Helper Utilities**
+#Text=  - `predict_on_all_students.py`: Evaluate a trained model on all students, not just the subset of hard students.
+52-1	5743-5744	-	_	_	
+52-2	5745-5746	*	_	_	
+52-3	5746-5747	*	_	_	
+52-4	5747-5753	Helper	_	_	
+52-5	5754-5763	Utilities	_	_	
+52-6	5763-5764	*	_	_	
+52-7	5764-5765	*	_	_	
+52-8	5768-5769	-	_	_	
+52-9	5770-5771	`	_	_	
+52-10	5771-5797	predict_on_all_students.py	_	_	
+52-11	5797-5798	`	_	_	
+52-12	5798-5799	:	_	_	
+52-13	5800-5808	Evaluate	_	_	
+52-14	5809-5810	a	_	_	
+52-15	5811-5818	trained	_	_	
+52-16	5819-5824	model	_	_	
+52-17	5825-5827	on	_	_	
+52-18	5828-5831	all	_	_	
+52-19	5832-5840	students	_	_	
+52-20	5840-5841	,	_	_	
+52-21	5842-5845	not	_	_	
+52-22	5846-5850	just	_	_	
+52-23	5851-5854	the	_	_	
+52-24	5855-5861	subset	_	_	
+52-25	5862-5864	of	_	_	
+52-26	5865-5869	hard	_	_	
+52-27	5870-5878	students	_	_	
+52-28	5878-5879	.	_	_	
+
+#Text=This code can produce the results showcased in Figure 4
+53-1	5880-5884	This	_	_	
+53-2	5885-5889	code	_	_	
+53-3	5890-5893	can	_	_	
+53-4	5894-5901	produce	_	_	
+53-5	5902-5905	the	_	_	
+53-6	5906-5913	results	_	_	
+53-7	5914-5923	showcased	_	_	
+53-8	5924-5926	in	_	_	
+53-9	5927-5933	Figure	_	_	
+53-10	5934-5935	4	_	_	
+
+#Text=.
+54-1	5935-5936	.	_	_	
+
+#Text=- `rnn_models.py`: Bi-LSTM model architectures used in BO and BTM experiments.
+#Text=
+#Text=## Contributing 
+#Text=
+#Text=This code is provided for educational purposes and aims to facilitate reproduction of our results, and further research 
+#Text=in this direction.
+55-1	5939-5940	-	_	_	
+55-2	5941-5942	`	_	_	
+55-3	5942-5955	rnn_models.py	_	_	
+55-4	5955-5956	`	_	_	
+55-5	5956-5957	:	_	_	
+55-6	5958-5965	Bi-LSTM	_	_	
+55-7	5966-5971	model	_	_	
+55-8	5972-5985	architectures	_	_	
+55-9	5986-5990	used	_	_	
+55-10	5991-5993	in	_	_	
+55-11	5994-5996	BO	_	_	
+55-12	5997-6000	and	_	_	
+55-13	6001-6004	BTM	_	_	
+55-14	6005-6016	experiments	_	_	
+55-15	6016-6017	.	_	_	
+55-16	6019-6020	#	_	_	
+55-17	6020-6021	#	_	_	
+55-18	6022-6034	Contributing	_	_	
+55-19	6037-6041	This	_	_	
+55-20	6042-6046	code	_	_	
+55-21	6047-6049	is	_	_	
+55-22	6050-6058	provided	_	_	
+55-23	6059-6062	for	_	_	
+55-24	6063-6074	educational	_	_	
+55-25	6075-6083	purposes	_	_	
+55-26	6084-6087	and	_	_	
+55-27	6088-6092	aims	_	_	
+55-28	6093-6095	to	_	_	
+55-29	6096-6106	facilitate	_	_	
+55-30	6107-6119	reproduction	_	_	
+55-31	6120-6122	of	_	_	
+55-32	6123-6126	our	_	_	
+55-33	6127-6134	results	_	_	
+55-34	6134-6135	,	_	_	
+55-35	6136-6139	and	_	_	
+55-36	6140-6147	further	_	_	
+55-37	6148-6156	research	_	_	
+55-38	6158-6160	in	_	_	
+55-39	6161-6165	this	_	_	
+55-40	6166-6175	direction	_	_	
+55-41	6175-6176	.	_	_	
+
+#Text=We have done our best to document, refactor, and test the code before publication.
+56-1	6177-6179	We	_	_	
+56-2	6180-6184	have	_	_	
+56-3	6185-6189	done	_	_	
+56-4	6190-6193	our	_	_	
+56-5	6194-6198	best	_	_	
+56-6	6199-6201	to	_	_	
+56-7	6202-6210	document	_	_	
+56-8	6210-6211	,	_	_	
+56-9	6212-6220	refactor	_	_	
+56-10	6220-6221	,	_	_	
+56-11	6222-6225	and	_	_	
+56-12	6226-6230	test	_	_	
+56-13	6231-6234	the	_	_	
+56-14	6235-6239	code	_	_	
+56-15	6240-6246	before	_	_	
+56-16	6247-6258	publication	_	_	
+56-17	6258-6259	.	_	_	
+
+#Text=If you find any bugs or would like to contribute new models, training protocols, etc, please let us know.
+57-1	6261-6263	If	_	_	
+57-2	6264-6267	you	_	_	
+57-3	6268-6272	find	_	_	
+57-4	6273-6276	any	_	_	
+57-5	6277-6281	bugs	_	_	
+57-6	6282-6284	or	_	_	
+57-7	6285-6290	would	_	_	
+57-8	6291-6295	like	_	_	
+57-9	6296-6298	to	_	_	
+57-10	6299-6309	contribute	_	_	
+57-11	6310-6313	new	_	_	
+57-12	6314-6320	models	_	_	
+57-13	6320-6321	,	_	_	
+57-14	6322-6330	training	_	_	
+57-15	6331-6340	protocols	_	_	
+57-16	6340-6341	,	_	_	
+57-17	6342-6345	etc	_	_	
+57-18	6345-6346	,	_	_	
+57-19	6347-6353	please	_	_	
+57-20	6354-6357	let	_	_	
+57-21	6358-6360	us	_	_	
+57-22	6361-6365	know	_	_	
+57-23	6365-6366	.	_	_	
+
+#Text=Feel free to file issues and pull requests on the repo and we will address them as we can.
+#Text=
+#Text=## Citations
+#Text=If you find this code useful in your work, please cite our paper:
+#Text=
+#Text=```
+#Text=Swamy, V., Marras, M., Käser, T. (2022).
+58-1	6367-6371	Feel	_	_	
+58-2	6372-6376	free	_	_	
+58-3	6377-6379	to	_	_	
+58-4	6380-6384	file	_	_	
+58-5	6385-6391	issues	_	_	
+58-6	6392-6395	and	_	_	
+58-7	6396-6400	pull	_	_	
+58-8	6401-6409	requests	_	_	
+58-9	6410-6412	on	_	_	
+58-10	6413-6416	the	_	_	
+58-11	6417-6421	repo	_	_	
+58-12	6422-6425	and	_	_	
+58-13	6426-6428	we	_	_	
+58-14	6429-6433	will	_	_	
+58-15	6434-6441	address	_	_	
+58-16	6442-6446	them	_	_	
+58-17	6447-6449	as	_	_	
+58-18	6450-6452	we	_	_	
+58-19	6453-6456	can	_	_	
+58-20	6456-6457	.	_	_	
+58-21	6459-6460	#	_	_	
+58-22	6460-6461	#	_	_	
+58-23	6462-6471	Citations	_	_	
+58-24	6472-6474	If	_	_	
+58-25	6475-6478	you	_	_	
+58-26	6479-6483	find	_	_	
+58-27	6484-6488	this	_	_	
+58-28	6489-6493	code	_	_	
+58-29	6494-6500	useful	_	_	
+58-30	6501-6503	in	_	_	
+58-31	6504-6508	your	_	_	
+58-32	6509-6513	work	_	_	
+58-33	6513-6514	,	_	_	
+58-34	6515-6521	please	_	_	
+58-35	6522-6526	cite	_	_	
+58-36	6527-6530	our	_	_	
+58-37	6531-6536	paper	_	_	
+58-38	6536-6537	:	_	_	
+58-39	6539-6540	`	_	_	
+58-40	6540-6541	`	_	_	
+58-41	6541-6542	`	_	_	
+58-42	6543-6548	Swamy	_	_	
+58-43	6548-6549	,	_	_	
+58-44	6550-6551	V	_	_	
+58-45	6551-6552	.	_	_	
+58-46	6552-6553	,	_	_	
+58-47	6554-6560	Marras	_	_	
+58-48	6560-6561	,	_	_	
+58-49	6562-6563	M	_	_	
+58-50	6563-6564	.	_	_	
+58-51	6564-6565	,	_	_	
+58-52	6566-6571	Käser	_	_	
+58-53	6571-6572	,	_	_	
+58-54	6573-6574	T	_	_	
+58-55	6574-6575	.	_	_	
+58-56	6576-6577	(	_	_	
+58-57	6577-6581	2022	_	_	
+58-58	6581-6582	)	_	_	
+58-59	6582-6583	.	_	_	
+
+#Text=Meta Transfer Learning for Early Success Prediction in MOOCs.
+59-1	6585-6589	Meta	_	_	
+59-2	6590-6598	Transfer	_	_	
+59-3	6599-6607	Learning	_	_	
+59-4	6608-6611	for	_	_	
+59-5	6612-6617	Early	_	_	
+59-6	6618-6625	Success	_	_	
+59-7	6626-6636	Prediction	_	_	
+59-8	6637-6639	in	_	_	
+59-9	6640-6645	MOOCs	_	_	
+59-10	6645-6646	.	_	_	
+
+#Text=In: Proceedings of the 2022 ACM Conference on Learning at Scale (L@S 2022). 
+#Text=```
+#Text=
+#Text=## License
+#Text=This code is free software: you can redistribute it and/or modify it under the terms of the [MIT License](LICENSE).
+60-1	6648-6650	In	_	_	
+60-2	6650-6651	:	_	_	
+60-3	6652-6663	Proceedings	*[6]	PUBLICATION[6]	
+60-4	6664-6666	of	*[6]	PUBLICATION[6]	
+60-5	6667-6670	the	*[6]	PUBLICATION[6]	
+60-6	6671-6675	2022	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+60-7	6676-6679	ACM	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+60-8	6680-6690	Conference	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+60-9	6691-6693	on	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+60-10	6694-6702	Learning	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+60-11	6703-6705	at	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+60-12	6706-6711	Scale	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+60-13	6712-6713	(	*[6]	PUBLICATION[6]	
+60-14	6713-6714	L	*[6]|*[8]	PUBLICATION[6]|CONFERENCE[8]	
+60-15	6714-6715	@	*[6]|*[8]	PUBLICATION[6]|CONFERENCE[8]	
+60-16	6715-6716	S	*[6]|*[8]	PUBLICATION[6]|CONFERENCE[8]	
+60-17	6717-6721	2022	*[6]|*[8]	PUBLICATION[6]|CONFERENCE[8]	
+60-18	6721-6722	)	*[6]	PUBLICATION[6]	
+60-19	6722-6723	.	_	_	
+60-20	6725-6726	`	_	_	
+60-21	6726-6727	`	_	_	
+60-22	6727-6728	`	_	_	
+60-23	6730-6731	#	_	_	
+60-24	6731-6732	#	_	_	
+60-25	6733-6740	License	_	_	
+60-26	6741-6745	This	_	_	
+60-27	6746-6750	code	_	_	
+60-28	6751-6753	is	_	_	
+60-29	6754-6758	free	_	_	
+60-30	6759-6767	software	_	_	
+60-31	6767-6768	:	_	_	
+60-32	6769-6772	you	_	_	
+60-33	6773-6776	can	_	_	
+60-34	6777-6789	redistribute	_	_	
+60-35	6790-6792	it	_	_	
+60-36	6793-6796	and	_	_	
+60-37	6796-6797	/	_	_	
+60-38	6797-6799	or	_	_	
+60-39	6800-6806	modify	_	_	
+60-40	6807-6809	it	_	_	
+60-41	6810-6815	under	_	_	
+60-42	6816-6819	the	_	_	
+60-43	6820-6825	terms	_	_	
+60-44	6826-6828	of	_	_	
+60-45	6829-6832	the	_	_	
+60-46	6833-6834	[	_	_	
+60-47	6834-6837	MIT	*[9]	LICENSE[9]	
+60-48	6838-6845	License	*[9]	LICENSE[9]	
+60-49	6845-6846	]	_	_	
+60-50	6846-6847	(	_	_	
+60-51	6847-6854	LICENSE	_	_	
+60-52	6854-6855	)	_	_	
+60-53	6855-6856	.	_	_	
+
+#Text=This software is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.
+61-1	6858-6862	This	_	_	
+61-2	6863-6871	software	_	_	
+61-3	6872-6874	is	_	_	
+61-4	6875-6886	distributed	_	_	
+61-5	6887-6889	in	_	_	
+61-6	6890-6893	the	_	_	
+61-7	6894-6898	hope	_	_	
+61-8	6899-6903	that	_	_	
+61-9	6904-6906	it	_	_	
+61-10	6907-6911	will	_	_	
+61-11	6912-6914	be	_	_	
+61-12	6915-6921	useful	_	_	
+61-13	6921-6922	,	_	_	
+61-14	6923-6926	but	_	_	
+61-15	6927-6934	without	_	_	
+61-16	6935-6938	any	_	_	
+61-17	6939-6947	warranty	_	_	
+61-18	6947-6948	;	_	_	
+61-19	6949-6956	without	_	_	
+61-20	6957-6961	even	_	_	
+61-21	6962-6965	the	_	_	
+61-22	6966-6973	implied	_	_	
+61-23	6974-6982	warranty	_	_	
+61-24	6983-6985	of	_	_	
+61-25	6986-7001	merchantability	_	_	
+61-26	7002-7004	or	_	_	
+61-27	7005-7012	fitness	_	_	
+61-28	7013-7016	for	_	_	
+61-29	7017-7018	a	_	_	
+61-30	7019-7029	particular	_	_	
+61-31	7030-7037	purpose	_	_	
+61-32	7037-7038	.	_	_	
+
+#Text=See the [MIT License](LICENSE) for details.
+62-1	7039-7042	See	_	_	
+62-2	7043-7046	the	_	_	
+62-3	7047-7048	[	_	_	
+62-4	7048-7051	MIT	*[10]	LICENSE[10]	
+62-5	7052-7059	License	*[10]	LICENSE[10]	
+62-6	7059-7060	]	_	_	
+62-7	7060-7061	(	_	_	
+62-8	7061-7068	LICENSE	_	_	
+62-9	7068-7069	)	_	_	
+62-10	7070-7073	for	_	_	
+62-11	7074-7081	details	_	_	
+62-12	7081-7082	.	_	_	

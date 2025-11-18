@@ -1,0 +1,1 @@
+The models and `<DATASET>datasets</DATASET>` will be downloaded automatically when calling `load_model`, `load_snippet_collection`, etc.

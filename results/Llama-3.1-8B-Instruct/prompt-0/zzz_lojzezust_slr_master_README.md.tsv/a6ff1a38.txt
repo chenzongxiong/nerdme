@@ -1,0 +1,4 @@
+The <SOFTWARE>TIP</SOFTWARE> command provides information on available arguments and settings.
+### <CONFERENCE>Inference</CONFERENCE> 
+#### General inference 
+Run inference using a trained <SOFTWARE>model</SOFTWARE>.

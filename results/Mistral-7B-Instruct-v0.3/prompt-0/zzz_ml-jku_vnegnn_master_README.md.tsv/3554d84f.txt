@@ -1,0 +1,3 @@
+The original content with entities directly annotated using XML-style tags for their respective classes in Markdown format:
+
+Ligand Information: `<SOFTWARE><http://www.bindingmoad.org/files/csv/every_bind.csv></SOFTWARE>`  #### `<DATASET>PDBBind</DATASET>`  `<http://www.pdbbind.org.cn/download/PDBbind_v2020_other_PL.tar.gz>`  ## Replicate results  If you want to replicated the results from the paper, put the downloaded datasets in the specific `<PROJECT>`folders`</PROJECT>`

@@ -1,0 +1,1 @@
+Make sure to change the path within the <SOFTWARE>script</SOFTWARE> to convert the desired <SOFTWARE>model</SOFTWARE> to <SOFTWARE>torchscript</SOFTWARE> form.

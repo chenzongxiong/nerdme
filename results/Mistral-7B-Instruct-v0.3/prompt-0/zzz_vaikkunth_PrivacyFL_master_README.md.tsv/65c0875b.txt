@@ -1,0 +1,1 @@
+The file contains `<PROGLANG>Boolean</PROGLANG>` variables `<CONFERENCE>USE_SECURITY</CONFERENCE>` and `<CONFERENCE>USE_DP_PRIVACY</CONFERENCE>` to toggle `<ONTOLOGY>security</ONTOLOGY>` and `<ONTOLOGY>differential privacy</ONTOLOGY>` features.

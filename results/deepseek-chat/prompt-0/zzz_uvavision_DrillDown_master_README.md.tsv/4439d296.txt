@@ -1,0 +1,1 @@
+Please see `<SOFTWARE>tools/save_image_features.py</SOFTWARE>`, the `<SOFTWARE>FasterRCNN</SOFTWARE>` repo, and `<SOFTWARE>tools/save_region_features.py</SOFTWARE>` for more details

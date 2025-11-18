@@ -1,0 +1,1 @@
+First, it provides network embedding techniques at the node and graph level.

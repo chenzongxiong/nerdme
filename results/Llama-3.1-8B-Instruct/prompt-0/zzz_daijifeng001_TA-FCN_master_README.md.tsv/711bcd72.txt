@@ -1,0 +1,4 @@
+Slides in `<CONFERENCE>ImageNet ILSVRC and COCO workshop 2016</CONFERENCE>`: 
+[<SOFTWARE>OneDrive</SOFTWARE>](https://<SOFTWARE>OneDrive</SOFTWARE>.live.com/?)
+
+Note: I have only annotated the entities that match the given guidelines. If you want me to annotate other entities, please let me know.

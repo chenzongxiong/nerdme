@@ -1,0 +1,3 @@
+```markdown
+Sethi     - [[<PUBLICATION>Paper</PUBLICATION>]](https://ieeexplore.ieee.org/abstract/document/398685)  - ***Oblique trees version of entropy net:***   - **"A mapping from linear tree classifiers to neural net classifiers"**, <CONFERENCE>ICNN, 1994</CONFERENCE>     - Youngtae Park     - [[<PUBLICATION>Paper</PUBLICATION>]](https://ieeexplore.ieee.org/abstract/document/374145)   - **"Fast Training Algorithms for Multi-layer Neural Nets"**, <PUBLICATION>IEEE Transactions on Neural Networks, 1991</PUBLICATION>     - Richard P.
+```

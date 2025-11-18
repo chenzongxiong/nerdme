@@ -1,0 +1,1 @@
+For staqc-py and conala-curated we did some additional processing, for the codesearchnet collections we merely load the original <DATASET>dataset</DATASET> in a format that is consistent with our code.

@@ -1,0 +1,1159 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# EvPSNet: Evidential Panoptic Segmentation Network for Uncertainy-aware Panoptic Segmentation
+#Text=
+#Text=EvPSNet is the first approach to tackle the task of uncertainty-aware panoptic segmentation, with an aim to provide per-pixel semantic and instance label together with per-pixel panoptic uncertainty estimation.
+#Text=
+#Text=!
+1-1	0-1	#	_	_	
+1-2	2-9	EvPSNet	*	PROJECT	
+1-3	9-10	:	_	_	
+1-4	11-21	Evidential	_	_	
+1-5	22-30	Panoptic	_	_	
+1-6	31-43	Segmentation	_	_	
+1-7	44-51	Network	_	_	
+1-8	52-55	for	_	_	
+1-9	56-72	Uncertainy-aware	*[1]	PUBLICATION[1]	
+1-10	73-81	Panoptic	*[1]	PUBLICATION[1]	
+1-11	82-94	Segmentation	*[1]	PUBLICATION[1]	
+1-12	96-103	EvPSNet	*	PROJECT	
+1-13	104-106	is	_	_	
+1-14	107-110	the	_	_	
+1-15	111-116	first	_	_	
+1-16	117-125	approach	_	_	
+1-17	126-128	to	_	_	
+1-18	129-135	tackle	_	_	
+1-19	136-139	the	_	_	
+1-20	140-144	task	_	_	
+1-21	145-147	of	_	_	
+1-22	148-165	uncertainty-aware	_	_	
+1-23	166-174	panoptic	_	_	
+1-24	175-187	segmentation	_	_	
+1-25	187-188	,	_	_	
+1-26	189-193	with	_	_	
+1-27	194-196	an	_	_	
+1-28	197-200	aim	_	_	
+1-29	201-203	to	_	_	
+1-30	204-211	provide	_	_	
+1-31	212-221	per-pixel	_	_	
+1-32	222-230	semantic	_	_	
+1-33	231-234	and	_	_	
+1-34	235-243	instance	_	_	
+1-35	244-249	label	_	_	
+1-36	250-258	together	_	_	
+1-37	259-263	with	_	_	
+1-38	264-273	per-pixel	_	_	
+1-39	274-282	panoptic	_	_	
+1-40	283-294	uncertainty	_	_	
+1-41	295-305	estimation	_	_	
+1-42	305-306	.	_	_	
+1-43	308-309	!	_	_	
+
+#Text=[Illustration of EvPSNet](.
+2-1	309-310	[	_	_	
+2-2	310-322	Illustration	_	_	
+2-3	323-325	of	_	_	
+2-4	326-333	EvPSNet	*	PROJECT	
+2-5	333-334	]	_	_	
+2-6	334-335	(	_	_	
+2-7	335-336	.	_	_	
+
+#Text=/images/intro.png)
+#Text=
+#Text=This repository contains the **PyTorch implementation** of our RAL'2023 paper [Uncertainty-aware Panoptic Segmentation](https://arxiv.org/abs/2206.14554).
+3-1	336-337	/	_	_	
+3-2	337-343	images	_	_	
+3-3	343-344	/	_	_	
+3-4	344-353	intro.png	_	_	
+3-5	353-354	)	_	_	
+3-6	356-360	This	_	_	
+3-7	361-371	repository	_	_	
+3-8	372-380	contains	_	_	
+3-9	381-384	the	_	_	
+3-10	385-386	*	_	_	
+3-11	386-387	*	_	_	
+3-12	387-394	PyTorch	*	SOFTWARE	
+3-13	395-409	implementation	_	_	
+3-14	409-410	*	_	_	
+3-15	410-411	*	_	_	
+3-16	412-414	of	_	_	
+3-17	415-418	our	_	_	
+3-18	419-422	RAL	*[2]	CONFERENCE[2]	
+3-19	422-423	'	*[2]	CONFERENCE[2]	
+3-20	423-427	2023	*[2]	CONFERENCE[2]	
+3-21	428-433	paper	_	_	
+3-22	434-435	[	_	_	
+3-23	435-452	Uncertainty-aware	*[3]	PUBLICATION[3]	
+3-24	453-461	Panoptic	*[3]	PUBLICATION[3]	
+3-25	462-474	Segmentation	*[3]	PUBLICATION[3]	
+3-26	474-475	]	_	_	
+3-27	475-476	(	_	_	
+3-28	476-481	https	_	_	
+3-29	481-482	:	_	_	
+3-30	482-483	/	_	_	
+3-31	483-484	/	_	_	
+3-32	484-493	arxiv.org	_	_	
+3-33	493-494	/	_	_	
+3-34	494-497	abs	_	_	
+3-35	497-498	/	_	_	
+3-36	498-508	2206.14554	_	_	
+3-37	508-509	)	_	_	
+3-38	509-510	.	_	_	
+
+#Text=The repository builds on [EfficientPS](https://github.com/DeepSceneSeg/EfficientPS), [mmdetection](https://github.com/open-mmlab/mmdetection) and [gen-efficientnet-pytorch](https://github.com/rwightman/gen-efficientnet-pytorch) codebases.
+4-1	511-514	The	_	_	
+4-2	515-525	repository	_	_	
+4-3	526-532	builds	_	_	
+4-4	533-535	on	_	_	
+4-5	536-537	[	_	_	
+4-6	537-548	EfficientPS	*	PROJECT	
+4-7	548-549	]	_	_	
+4-8	549-550	(	_	_	
+4-9	550-555	https	_	_	
+4-10	555-556	:	_	_	
+4-11	556-557	/	_	_	
+4-12	557-558	/	_	_	
+4-13	558-568	github.com	_	_	
+4-14	568-569	/	_	_	
+4-15	569-581	DeepSceneSeg	_	_	
+4-16	581-582	/	_	_	
+4-17	582-593	EfficientPS	*	PROJECT	
+4-18	593-594	)	_	_	
+4-19	594-595	,	_	_	
+4-20	596-597	[	_	_	
+4-21	597-608	mmdetection	*	PROJECT	
+4-22	608-609	]	_	_	
+4-23	609-610	(	_	_	
+4-24	610-615	https	_	_	
+4-25	615-616	:	_	_	
+4-26	616-617	/	_	_	
+4-27	617-618	/	_	_	
+4-28	618-628	github.com	_	_	
+4-29	628-629	/	_	_	
+4-30	629-639	open-mmlab	_	_	
+4-31	639-640	/	_	_	
+4-32	640-651	mmdetection	*	PROJECT	
+4-33	651-652	)	_	_	
+4-34	653-656	and	_	_	
+4-35	657-658	[	_	_	
+4-36	658-682	gen-efficientnet-pytorch	_	_	
+4-36.1	675-682	pytorch	*	SOFTWARE	
+4-37	682-683	]	_	_	
+4-38	683-684	(	_	_	
+4-39	684-689	https	_	_	
+4-40	689-690	:	_	_	
+4-41	690-691	/	_	_	
+4-42	691-692	/	_	_	
+4-43	692-702	github.com	_	_	
+4-44	702-703	/	_	_	
+4-45	703-712	rwightman	_	_	
+4-46	712-713	/	_	_	
+4-47	713-737	gen-efficientnet-pytorch	_	_	
+4-47.1	730-737	pytorch	*	SOFTWARE	
+4-48	737-738	)	_	_	
+4-49	739-748	codebases	_	_	
+4-50	748-749	.	_	_	
+
+#Text=If you find the code useful for your research, please consider citing our paper:
+#Text=```
+#Text=@article{sirohi2023uncertainty,
+#Text=  title={Uncertainty-aware panoptic segmentation},
+#Text=  author={Sirohi, Kshitij and Marvi, Sajad and B{\\"u}scher, Daniel and Burgard, Wolfram},
+#Text=  journal={IEEE Robotics and Automation Letters},
+#Text=  volume={8},
+#Text=  number={5},
+#Text=  pages={2629--2636},
+#Text=  year={2023},
+#Text=  publisher={IEEE}
+#Text=}
+#Text=```
+#Text=
+#Text=## System Requirements
+#Text=* Linux 
+#Text=* Python 3.7
+#Text=* PyTorch 1.7
+#Text=* CUDA 10.2
+#Text=* GCC 7 or 8
+#Text=
+#Text=**IMPORTANT NOTE**: These requirements are not necessarily mandatory.
+5-1	751-753	If	_	_	
+5-2	754-757	you	_	_	
+5-3	758-762	find	_	_	
+5-4	763-766	the	_	_	
+5-5	767-771	code	_	_	
+5-6	772-778	useful	_	_	
+5-7	779-782	for	_	_	
+5-8	783-787	your	_	_	
+5-9	788-796	research	_	_	
+5-10	796-797	,	_	_	
+5-11	798-804	please	_	_	
+5-12	805-813	consider	_	_	
+5-13	814-820	citing	_	_	
+5-14	821-824	our	_	_	
+5-15	825-830	paper	_	_	
+5-16	830-831	:	_	_	
+5-17	832-833	`	_	_	
+5-18	833-834	`	_	_	
+5-19	834-835	`	_	_	
+5-20	836-837	@	_	_	
+5-21	837-844	article	_	_	
+5-22	844-845	{	_	_	
+5-23	845-866	sirohi2023uncertainty	_	_	
+5-24	866-867	,	_	_	
+5-25	870-875	title	_	_	
+5-26	875-876	=	_	_	
+5-27	876-877	{	_	_	
+5-28	877-894	Uncertainty-aware	*[4]	PUBLICATION[4]	
+5-29	895-903	panoptic	*[4]	PUBLICATION[4]	
+5-30	904-916	segmentation	*[4]	PUBLICATION[4]	
+5-31	916-917	}	_	_	
+5-32	917-918	,	_	_	
+5-33	921-927	author	_	_	
+5-34	927-928	=	_	_	
+5-35	928-929	{	_	_	
+5-36	929-935	Sirohi	_	_	
+5-37	935-936	,	_	_	
+5-38	937-944	Kshitij	_	_	
+5-39	945-948	and	_	_	
+5-40	949-954	Marvi	_	_	
+5-41	954-955	,	_	_	
+5-42	956-961	Sajad	_	_	
+5-43	962-965	and	_	_	
+5-44	966-967	B	_	_	
+5-45	967-968	{	_	_	
+5-46	968-969	\	_	_	
+5-47	969-970	"	_	_	
+5-48	970-971	u	_	_	
+5-49	971-972	}	_	_	
+5-50	972-977	scher	_	_	
+5-51	977-978	,	_	_	
+5-52	979-985	Daniel	_	_	
+5-53	986-989	and	_	_	
+5-54	990-997	Burgard	_	_	
+5-55	997-998	,	_	_	
+5-56	999-1006	Wolfram	_	_	
+5-57	1006-1007	}	_	_	
+5-58	1007-1008	,	_	_	
+5-59	1011-1018	journal	_	_	
+5-60	1018-1019	=	_	_	
+5-61	1019-1020	{	_	_	
+5-62	1020-1024	IEEE	_	_	
+5-63	1025-1033	Robotics	_	_	
+5-64	1034-1037	and	_	_	
+5-65	1038-1048	Automation	_	_	
+5-66	1049-1056	Letters	_	_	
+5-67	1056-1057	}	_	_	
+5-68	1057-1058	,	_	_	
+5-69	1061-1067	volume	_	_	
+5-70	1067-1068	=	_	_	
+5-71	1068-1069	{	_	_	
+5-72	1069-1070	8	_	_	
+5-73	1070-1071	}	_	_	
+5-74	1071-1072	,	_	_	
+5-75	1075-1081	number	_	_	
+5-76	1081-1082	=	_	_	
+5-77	1082-1083	{	_	_	
+5-78	1083-1084	5	_	_	
+5-79	1084-1085	}	_	_	
+5-80	1085-1086	,	_	_	
+5-81	1089-1094	pages	_	_	
+5-82	1094-1095	=	_	_	
+5-83	1095-1096	{	_	_	
+5-84	1096-1100	2629	_	_	
+5-85	1100-1101	-	_	_	
+5-86	1101-1102	-	_	_	
+5-87	1102-1106	2636	_	_	
+5-88	1106-1107	}	_	_	
+5-89	1107-1108	,	_	_	
+5-90	1111-1115	year	_	_	
+5-91	1115-1116	=	_	_	
+5-92	1116-1117	{	_	_	
+5-93	1117-1121	2023	_	_	
+5-94	1121-1122	}	_	_	
+5-95	1122-1123	,	_	_	
+5-96	1126-1135	publisher	_	_	
+5-97	1135-1136	=	_	_	
+5-98	1136-1137	{	_	_	
+5-99	1137-1141	IEEE	_	_	
+5-100	1141-1142	}	_	_	
+5-101	1143-1144	}	_	_	
+5-102	1145-1146	`	_	_	
+5-103	1146-1147	`	_	_	
+5-104	1147-1148	`	_	_	
+5-105	1150-1151	#	_	_	
+5-106	1151-1152	#	_	_	
+5-107	1153-1159	System	_	_	
+5-108	1160-1172	Requirements	_	_	
+5-109	1173-1174	*	_	_	
+5-110	1175-1180	Linux	_	_	
+5-111	1182-1183	*	_	_	
+5-112	1184-1190	Python	*[5]	SOFTWARE[5]	
+5-113	1191-1194	3.7	*[5]	SOFTWARE[5]	
+5-114	1195-1196	*	_	_	
+5-115	1197-1204	PyTorch	*[6]	SOFTWARE[6]	
+5-116	1205-1208	1.7	*[6]	SOFTWARE[6]	
+5-117	1209-1210	*	_	_	
+5-118	1211-1215	CUDA	*[7]	SOFTWARE[7]	
+5-119	1216-1220	10.2	*[7]	SOFTWARE[7]	
+5-120	1221-1222	*	_	_	
+5-121	1223-1226	GCC	*[8]	SOFTWARE[8]	
+5-122	1227-1228	7	*[8]	SOFTWARE[8]	
+5-123	1229-1231	or	_	_	
+5-124	1232-1233	8	_	_	
+5-125	1235-1236	*	_	_	
+5-126	1236-1237	*	_	_	
+5-127	1237-1246	IMPORTANT	_	_	
+5-128	1247-1251	NOTE	_	_	
+5-129	1251-1252	*	_	_	
+5-130	1252-1253	*	_	_	
+5-131	1253-1254	:	_	_	
+5-132	1255-1260	These	_	_	
+5-133	1261-1273	requirements	_	_	
+5-134	1274-1277	are	_	_	
+5-135	1278-1281	not	_	_	
+5-136	1282-1293	necessarily	_	_	
+5-137	1294-1303	mandatory	_	_	
+5-138	1303-1304	.	_	_	
+
+#Text=However, we have only tested the code under the above settings and cannot provide support for other setups.
+#Text=
+#Text=## Installation
+#Text=a.
+6-1	1305-1312	However	_	_	
+6-2	1312-1313	,	_	_	
+6-3	1314-1316	we	_	_	
+6-4	1317-1321	have	_	_	
+6-5	1322-1326	only	_	_	
+6-6	1327-1333	tested	_	_	
+6-7	1334-1337	the	_	_	
+6-8	1338-1342	code	_	_	
+6-9	1343-1348	under	_	_	
+6-10	1349-1352	the	_	_	
+6-11	1353-1358	above	_	_	
+6-12	1359-1367	settings	_	_	
+6-13	1368-1371	and	_	_	
+6-14	1372-1378	cannot	_	_	
+6-15	1379-1386	provide	_	_	
+6-16	1387-1394	support	_	_	
+6-17	1395-1398	for	_	_	
+6-18	1399-1404	other	_	_	
+6-19	1405-1411	setups	_	_	
+6-20	1411-1412	.	_	_	
+6-21	1414-1415	#	_	_	
+6-22	1415-1416	#	_	_	
+6-23	1417-1429	Installation	_	_	
+6-24	1430-1431	a	_	_	
+6-25	1431-1432	.	_	_	
+
+#Text=Create a conda virtual environment from the provided environment.yml and activate it.
+7-1	1433-1439	Create	_	_	
+7-2	1440-1441	a	_	_	
+7-3	1442-1447	conda	_	_	
+7-4	1448-1455	virtual	_	_	
+7-5	1456-1467	environment	_	_	
+7-6	1468-1472	from	_	_	
+7-7	1473-1476	the	_	_	
+7-8	1477-1485	provided	_	_	
+7-9	1486-1501	environment.yml	_	_	
+7-10	1502-1505	and	_	_	
+7-11	1506-1514	activate	_	_	
+7-12	1515-1517	it	_	_	
+7-13	1517-1518	.	_	_	
+
+#Text=```shell
+#Text=git clone https://github.com/kshitij3112/EvPSNet.git
+#Text=cd EvPSNet
+#Text=conda env create -n EvPSnet_env --file=environment.yml
+#Text=conda activate EvPSnet_env
+#Text=```
+#Text=b.
+8-1	1519-1520	`	_	_	
+8-2	1520-1521	`	_	_	
+8-3	1521-1522	`	_	_	
+8-4	1522-1527	shell	_	_	
+8-5	1528-1531	git	_	_	
+8-6	1532-1537	clone	_	_	
+8-7	1538-1543	https	_	_	
+8-8	1543-1544	:	_	_	
+8-9	1544-1545	/	_	_	
+8-10	1545-1546	/	_	_	
+8-11	1546-1556	github.com	_	_	
+8-12	1556-1557	/	_	_	
+8-13	1557-1568	kshitij3112	_	_	
+8-14	1568-1569	/	_	_	
+8-15	1569-1580	EvPSNet.git	_	_	
+8-15.1	1569-1576	EvPSNet	*	PROJECT	
+8-16	1581-1583	cd	_	_	
+8-17	1584-1591	EvPSNet	*	PROJECT	
+8-18	1592-1597	conda	_	_	
+8-19	1598-1601	env	_	_	
+8-20	1602-1608	create	_	_	
+8-21	1609-1610	-	_	_	
+8-22	1610-1611	n	_	_	
+8-23	1612-1623	EvPSnet_env	_	_	
+8-23.1	1612-1619	EvPSnet	*	PROJECT	
+8-24	1624-1625	-	_	_	
+8-25	1625-1626	-	_	_	
+8-26	1626-1630	file	_	_	
+8-27	1630-1631	=	_	_	
+8-28	1631-1646	environment.yml	_	_	
+8-29	1647-1652	conda	_	_	
+8-30	1653-1661	activate	_	_	
+8-31	1662-1673	EvPSnet_env	_	_	
+8-31.1	1662-1669	EvPSnet	*	PROJECT	
+8-32	1674-1675	`	_	_	
+8-33	1675-1676	`	_	_	
+8-34	1676-1677	`	_	_	
+8-35	1678-1679	b	_	_	
+8-36	1679-1680	.	_	_	
+
+#Text=Install all other dependencies using pip:
+#Text=```bash
+#Text=pip install -r requirements.txt
+#Text=```
+#Text=c.
+9-1	1681-1688	Install	_	_	
+9-2	1689-1692	all	_	_	
+9-3	1693-1698	other	_	_	
+9-4	1699-1711	dependencies	_	_	
+9-5	1712-1717	using	_	_	
+9-6	1718-1721	pip	_	_	
+9-7	1721-1722	:	_	_	
+9-8	1723-1724	`	_	_	
+9-9	1724-1725	`	_	_	
+9-10	1725-1726	`	_	_	
+9-11	1726-1730	bash	_	_	
+9-12	1731-1734	pip	_	_	
+9-13	1735-1742	install	_	_	
+9-14	1743-1744	-	_	_	
+9-15	1744-1745	r	_	_	
+9-16	1746-1762	requirements.txt	_	_	
+9-17	1763-1764	`	_	_	
+9-18	1764-1765	`	_	_	
+9-19	1765-1766	`	_	_	
+9-20	1767-1768	c	_	_	
+9-21	1768-1769	.	_	_	
+
+#Text=Install EfficientNet implementation
+#Text=```bash
+#Text=cd efficientNet
+#Text=python setup.py develop
+#Text=```
+#Text=d.
+10-1	1770-1777	Install	_	_	
+10-2	1778-1790	EfficientNet	*	PROJECT	
+10-3	1791-1805	implementation	_	_	
+10-4	1806-1807	`	_	_	
+10-5	1807-1808	`	_	_	
+10-6	1808-1809	`	_	_	
+10-7	1809-1813	bash	_	_	
+10-8	1814-1816	cd	_	_	
+10-9	1817-1829	efficientNet	*	PROJECT	
+10-10	1830-1836	python	*	PROGLANG	
+10-11	1837-1845	setup.py	_	_	
+10-12	1846-1853	develop	_	_	
+10-13	1854-1855	`	_	_	
+10-14	1855-1856	`	_	_	
+10-15	1856-1857	`	_	_	
+10-16	1858-1859	d	_	_	
+10-17	1859-1860	.	_	_	
+
+#Text=Install EvPSNet implementation
+#Text=```bash
+#Text=cd ..
+#Text=python setup.py develop
+#Text=```
+#Text=## Prepare datasets
+#Text=It is recommended to symlink the dataset root to `$EvPSNet/data`.
+11-1	1861-1868	Install	_	_	
+11-2	1869-1876	EvPSNet	*	PROJECT	
+11-3	1877-1891	implementation	_	_	
+11-4	1892-1893	`	_	_	
+11-5	1893-1894	`	_	_	
+11-6	1894-1895	`	_	_	
+11-7	1895-1899	bash	_	_	
+11-8	1900-1902	cd	_	_	
+11-9	1903-1904	.	_	_	
+11-10	1904-1905	.	_	_	
+11-11	1906-1912	python	*	SOFTWARE	
+11-12	1913-1921	setup.py	_	_	
+11-13	1922-1929	develop	_	_	
+11-14	1930-1931	`	_	_	
+11-15	1931-1932	`	_	_	
+11-16	1932-1933	`	_	_	
+11-17	1934-1935	#	_	_	
+11-18	1935-1936	#	_	_	
+11-19	1937-1944	Prepare	_	_	
+11-20	1945-1953	datasets	_	_	
+11-21	1954-1956	It	_	_	
+11-22	1957-1959	is	_	_	
+11-23	1960-1971	recommended	_	_	
+11-24	1972-1974	to	_	_	
+11-25	1975-1982	symlink	_	_	
+11-26	1983-1986	the	_	_	
+11-27	1987-1994	dataset	_	_	
+11-28	1995-1999	root	_	_	
+11-29	2000-2002	to	_	_	
+11-30	2003-2004	`	_	_	
+11-31	2004-2005	$	_	_	
+11-32	2005-2012	EvPSNet	_	_	
+11-33	2012-2013	/	_	_	
+11-34	2013-2017	data	_	_	
+11-35	2017-2018	`	_	_	
+11-36	2018-2019	.	_	_	
+
+#Text=If your folder structure is different, you may need to change the corresponding paths in config files.
+#Text=
+#Text=```
+#Text=EvPSNet
+#Text=├── mmdet
+#Text=├── tools
+#Text=├── configs
+#Text=└── data
+#Text=    └── cityscapes
+#Text=        ├── annotations
+#Text=        ├── train
+#Text=        ├── val
+#Text=        ├── stuffthingmaps
+#Text=        ├── cityscapes_panoptic_val.json
+#Text=        └── cityscapes_panoptic_val
+#Text=```
+#Text=The cityscapes annotations have to be converted into the aforementioned format using
+#Text=`tools/convert_datasets/cityscapes.py`:
+#Text=```shell
+#Text=python tools/convert_cityscapes.py ROOT_DIRECTORY_OF_CITYSCAPES .
+12-1	2020-2022	If	_	_	
+12-2	2023-2027	your	_	_	
+12-3	2028-2034	folder	_	_	
+12-4	2035-2044	structure	_	_	
+12-5	2045-2047	is	_	_	
+12-6	2048-2057	different	_	_	
+12-7	2057-2058	,	_	_	
+12-8	2059-2062	you	_	_	
+12-9	2063-2066	may	_	_	
+12-10	2067-2071	need	_	_	
+12-11	2072-2074	to	_	_	
+12-12	2075-2081	change	_	_	
+12-13	2082-2085	the	_	_	
+12-14	2086-2099	corresponding	_	_	
+12-15	2100-2105	paths	_	_	
+12-16	2106-2108	in	_	_	
+12-17	2109-2115	config	_	_	
+12-18	2116-2121	files	_	_	
+12-19	2121-2122	.	_	_	
+12-20	2124-2125	`	_	_	
+12-21	2125-2126	`	_	_	
+12-22	2126-2127	`	_	_	
+12-23	2128-2135	EvPSNet	*	PROJECT	
+12-24	2136-2137	├	_	_	
+12-25	2137-2138	─	_	_	
+12-26	2138-2139	─	_	_	
+12-27	2140-2145	mmdet	_	_	
+12-28	2146-2147	├	_	_	
+12-29	2147-2148	─	_	_	
+12-30	2148-2149	─	_	_	
+12-31	2150-2155	tools	_	_	
+12-32	2156-2157	├	_	_	
+12-33	2157-2158	─	_	_	
+12-34	2158-2159	─	_	_	
+12-35	2160-2167	configs	_	_	
+12-36	2168-2169	└	_	_	
+12-37	2169-2170	─	_	_	
+12-38	2170-2171	─	_	_	
+12-39	2172-2176	data	_	_	
+12-40	2181-2182	└	_	_	
+12-41	2182-2183	─	_	_	
+12-42	2183-2184	─	_	_	
+12-43	2185-2195	cityscapes	_	_	
+12-44	2204-2205	├	_	_	
+12-45	2205-2206	─	_	_	
+12-46	2206-2207	─	_	_	
+12-47	2208-2219	annotations	_	_	
+12-48	2228-2229	├	_	_	
+12-49	2229-2230	─	_	_	
+12-50	2230-2231	─	_	_	
+12-51	2232-2237	train	_	_	
+12-52	2246-2247	├	_	_	
+12-53	2247-2248	─	_	_	
+12-54	2248-2249	─	_	_	
+12-55	2250-2253	val	_	_	
+12-56	2262-2263	├	_	_	
+12-57	2263-2264	─	_	_	
+12-58	2264-2265	─	_	_	
+12-59	2266-2280	stuffthingmaps	_	_	
+12-60	2289-2290	├	_	_	
+12-61	2290-2291	─	_	_	
+12-62	2291-2292	─	_	_	
+12-63	2293-2321	cityscapes_panoptic_val.json	_	_	
+12-64	2330-2331	└	_	_	
+12-65	2331-2332	─	_	_	
+12-66	2332-2333	─	_	_	
+12-67	2334-2357	cityscapes_panoptic_val	_	_	
+12-68	2358-2359	`	_	_	
+12-69	2359-2360	`	_	_	
+12-70	2360-2361	`	_	_	
+12-71	2362-2365	The	_	_	
+12-72	2366-2376	cityscapes	_	_	
+12-73	2377-2388	annotations	_	_	
+12-74	2389-2393	have	_	_	
+12-75	2394-2396	to	_	_	
+12-76	2397-2399	be	_	_	
+12-77	2400-2409	converted	_	_	
+12-78	2410-2414	into	_	_	
+12-79	2415-2418	the	_	_	
+12-80	2419-2433	aforementioned	_	_	
+12-81	2434-2440	format	_	_	
+12-82	2441-2446	using	_	_	
+12-83	2447-2448	`	_	_	
+12-84	2448-2453	tools	_	_	
+12-85	2453-2454	/	_	_	
+12-86	2454-2470	convert_datasets	_	_	
+12-87	2470-2471	/	_	_	
+12-88	2471-2484	cityscapes.py	_	_	
+12-89	2484-2485	`	_	_	
+12-90	2485-2486	:	_	_	
+12-91	2487-2488	`	_	_	
+12-92	2488-2489	`	_	_	
+12-93	2489-2490	`	_	_	
+12-94	2490-2495	shell	*	PROGLANG	
+12-95	2496-2502	python	*	SOFTWARE	
+12-96	2503-2508	tools	_	_	
+12-97	2508-2509	/	_	_	
+12-98	2509-2530	convert_cityscapes.py	_	_	
+12-99	2531-2559	ROOT_DIRECTORY_OF_CITYSCAPES	_	_	
+12-100	2560-2561	.	_	_	
+
+#Text=/data/cityscapes/
+#Text=cd ..
+#Text=git clone https://github.com/mcordts/cityscapesScripts.git
+#Text=cd cityscapesScripts/cityscapesscripts/preparation
+#Text=python createPanopticImgs.py --dataset-folder path_to_cityscapes_gtFine_folder --output-folder ../../..
+13-1	2561-2562	/	_	_	
+13-2	2562-2566	data	_	_	
+13-3	2566-2567	/	_	_	
+13-4	2567-2577	cityscapes	_	_	
+13-5	2577-2578	/	_	_	
+13-6	2579-2581	cd	_	_	
+13-7	2582-2583	.	_	_	
+13-8	2583-2584	.	_	_	
+13-9	2585-2588	git	_	_	
+13-10	2589-2594	clone	_	_	
+13-11	2595-2600	https	_	_	
+13-12	2600-2601	:	_	_	
+13-13	2601-2602	/	_	_	
+13-14	2602-2603	/	_	_	
+13-15	2603-2613	github.com	_	_	
+13-16	2613-2614	/	_	_	
+13-17	2614-2621	mcordts	_	_	
+13-18	2621-2622	/	_	_	
+13-19	2622-2643	cityscapesScripts.git	_	_	
+13-20	2644-2646	cd	_	_	
+13-21	2647-2664	cityscapesScripts	_	_	
+13-22	2664-2665	/	_	_	
+13-23	2665-2682	cityscapesscripts	_	_	
+13-24	2682-2683	/	_	_	
+13-25	2683-2694	preparation	_	_	
+13-26	2695-2701	python	*	SOFTWARE	
+13-27	2702-2723	createPanopticImgs.py	_	_	
+13-28	2724-2725	-	_	_	
+13-29	2725-2726	-	_	_	
+13-30	2726-2740	dataset-folder	_	_	
+13-31	2741-2773	path_to_cityscapes_gtFine_folder	_	_	
+13-32	2774-2775	-	_	_	
+13-33	2775-2776	-	_	_	
+13-34	2776-2789	output-folder	_	_	
+13-35	2790-2791	.	_	_	
+13-36	2791-2792	.	_	_	
+13-37	2792-2793	/	_	_	
+13-38	2793-2794	.	_	_	
+13-39	2794-2795	.	_	_	
+13-40	2795-2796	/	_	_	
+13-41	2796-2797	.	_	_	
+13-42	2797-2798	.	_	_	
+
+#Text=/EvPSNet/data/cityscapes --set-names val
+#Text=```
+#Text=
+#Text=## Training and Evaluation
+#Text=### Training Procedure
+#Text=Edit the config file appropriately in configs folder.
+14-1	2798-2799	/	_	_	
+14-2	2799-2806	EvPSNet	_	_	
+14-3	2806-2807	/	_	_	
+14-4	2807-2811	data	_	_	
+14-5	2811-2812	/	_	_	
+14-6	2812-2822	cityscapes	_	_	
+14-7	2823-2824	-	_	_	
+14-8	2824-2825	-	_	_	
+14-9	2825-2834	set-names	_	_	
+14-10	2835-2838	val	_	_	
+14-11	2839-2840	`	_	_	
+14-12	2840-2841	`	_	_	
+14-13	2841-2842	`	_	_	
+14-14	2844-2845	#	_	_	
+14-15	2845-2846	#	_	_	
+14-16	2847-2855	Training	_	_	
+14-17	2856-2859	and	_	_	
+14-18	2860-2870	Evaluation	_	_	
+14-19	2871-2872	#	_	_	
+14-20	2872-2873	#	_	_	
+14-21	2873-2874	#	_	_	
+14-22	2875-2883	Training	_	_	
+14-23	2884-2893	Procedure	_	_	
+14-24	2894-2898	Edit	_	_	
+14-25	2899-2902	the	_	_	
+14-26	2903-2909	config	_	_	
+14-27	2910-2914	file	_	_	
+14-28	2915-2928	appropriately	_	_	
+14-29	2929-2931	in	_	_	
+14-30	2932-2939	configs	_	_	
+14-31	2940-2946	folder	_	_	
+14-32	2946-2947	.	_	_	
+
+#Text=Train with a single GPU:
+#Text=```
+#Text=python tools/train.py configs/EvPSNet_unc_singlegpu.py --work_dir work_dirs/checkpoints --validate 
+#Text=```
+#Text=Train with multiple GPUS:
+#Text=```
+#Text=.
+15-1	2948-2953	Train	_	_	
+15-2	2954-2958	with	_	_	
+15-3	2959-2960	a	_	_	
+15-4	2961-2967	single	_	_	
+15-5	2968-2971	GPU	_	_	
+15-6	2971-2972	:	_	_	
+15-7	2973-2974	`	_	_	
+15-8	2974-2975	`	_	_	
+15-9	2975-2976	`	_	_	
+15-10	2977-2983	python	*	SOFTWARE	
+15-11	2984-2989	tools	_	_	
+15-12	2989-2990	/	_	_	
+15-13	2990-2998	train.py	_	_	
+15-14	2999-3006	configs	_	_	
+15-15	3006-3007	/	_	_	
+15-16	3007-3031	EvPSNet_unc_singlegpu.py	_	_	
+15-16.1	3007-3014	EvPSNet	*	PROJECT	
+15-17	3032-3033	-	_	_	
+15-18	3033-3034	-	_	_	
+15-19	3034-3042	work_dir	_	_	
+15-20	3043-3052	work_dirs	_	_	
+15-21	3052-3053	/	_	_	
+15-22	3053-3064	checkpoints	_	_	
+15-23	3065-3066	-	_	_	
+15-24	3066-3067	-	_	_	
+15-25	3067-3075	validate	_	_	
+15-26	3077-3078	`	_	_	
+15-27	3078-3079	`	_	_	
+15-28	3079-3080	`	_	_	
+15-29	3081-3086	Train	_	_	
+15-30	3087-3091	with	_	_	
+15-31	3092-3100	multiple	_	_	
+15-32	3101-3105	GPUS	_	_	
+15-33	3105-3106	:	_	_	
+15-34	3107-3108	`	_	_	
+15-35	3108-3109	`	_	_	
+15-36	3109-3110	`	_	_	
+15-37	3111-3112	.	_	_	
+
+#Text=/tools/dist_train.sh configs/EvPSNet_unc_mutigpu.py ${GPU_NUM} --work_dir work_dirs/checkpoints --validate 
+#Text=```
+#Text=* --resume_from ${CHECKPOINT_FILE}: Resume from a previous checkpoint file.
+#Text=### Evaluation Procedure
+#Text=Test with a single GPU:
+#Text=```
+#Text=python tools/test.py configs/EvPSNet_unc_singlegpu.py ${CHECKPOINT_FILE} --eval panoptic
+#Text=```
+#Text=Test with multiple GPUS:
+#Text=```
+#Text=.
+16-1	3112-3113	/	_	_	
+16-2	3113-3118	tools	_	_	
+16-3	3118-3119	/	_	_	
+16-4	3119-3132	dist_train.sh	_	_	
+16-5	3133-3140	configs	_	_	
+16-6	3140-3141	/	_	_	
+16-7	3141-3163	EvPSNet_unc_mutigpu.py	_	_	
+16-7.1	3141-3148	EvPSNet	*	PROJECT	
+16-8	3164-3165	$	_	_	
+16-9	3165-3166	{	_	_	
+16-10	3166-3173	GPU_NUM	_	_	
+16-11	3173-3174	}	_	_	
+16-12	3175-3176	-	_	_	
+16-13	3176-3177	-	_	_	
+16-14	3177-3185	work_dir	_	_	
+16-15	3186-3195	work_dirs	_	_	
+16-16	3195-3196	/	_	_	
+16-17	3196-3207	checkpoints	_	_	
+16-18	3208-3209	-	_	_	
+16-19	3209-3210	-	_	_	
+16-20	3210-3218	validate	_	_	
+16-21	3220-3221	`	_	_	
+16-22	3221-3222	`	_	_	
+16-23	3222-3223	`	_	_	
+16-24	3224-3225	*	_	_	
+16-25	3226-3227	-	_	_	
+16-26	3227-3228	-	_	_	
+16-27	3228-3239	resume_from	_	_	
+16-28	3240-3241	$	_	_	
+16-29	3241-3242	{	_	_	
+16-30	3242-3257	CHECKPOINT_FILE	_	_	
+16-31	3257-3258	}	_	_	
+16-32	3258-3259	:	_	_	
+16-33	3260-3266	Resume	_	_	
+16-34	3267-3271	from	_	_	
+16-35	3272-3273	a	_	_	
+16-36	3274-3282	previous	_	_	
+16-37	3283-3293	checkpoint	_	_	
+16-38	3294-3298	file	_	_	
+16-39	3298-3299	.	_	_	
+16-40	3300-3301	#	_	_	
+16-41	3301-3302	#	_	_	
+16-42	3302-3303	#	_	_	
+16-43	3304-3314	Evaluation	_	_	
+16-44	3315-3324	Procedure	_	_	
+16-45	3325-3329	Test	_	_	
+16-46	3330-3334	with	_	_	
+16-47	3335-3336	a	_	_	
+16-48	3337-3343	single	_	_	
+16-49	3344-3347	GPU	_	_	
+16-50	3347-3348	:	_	_	
+16-51	3349-3350	`	_	_	
+16-52	3350-3351	`	_	_	
+16-53	3351-3352	`	_	_	
+16-54	3353-3359	python	*	SOFTWARE	
+16-55	3360-3365	tools	_	_	
+16-56	3365-3366	/	_	_	
+16-57	3366-3373	test.py	_	_	
+16-58	3374-3381	configs	_	_	
+16-59	3381-3382	/	_	_	
+16-60	3382-3406	EvPSNet_unc_singlegpu.py	_	_	
+16-60.1	3382-3389	EvPSNet	*	PROJECT	
+16-61	3407-3408	$	_	_	
+16-62	3408-3409	{	_	_	
+16-63	3409-3424	CHECKPOINT_FILE	_	_	
+16-64	3424-3425	}	_	_	
+16-65	3426-3427	-	_	_	
+16-66	3427-3428	-	_	_	
+16-67	3428-3432	eval	_	_	
+16-68	3433-3441	panoptic	_	_	
+16-69	3442-3443	`	_	_	
+16-70	3443-3444	`	_	_	
+16-71	3444-3445	`	_	_	
+16-72	3446-3450	Test	_	_	
+16-73	3451-3455	with	_	_	
+16-74	3456-3464	multiple	_	_	
+16-75	3465-3469	GPUS	_	_	
+16-76	3469-3470	:	_	_	
+16-77	3471-3472	`	_	_	
+16-78	3472-3473	`	_	_	
+16-79	3473-3474	`	_	_	
+16-80	3475-3476	.	_	_	
+
+#Text=/tools/dist_test.sh configs/EvPSNet_unc_mutigpu.py ${CHECKPOINT_FILE} ${GPU_NUM} --eval panoptic
+#Text=```
+#Text=
+#Text=## Additional Notes:
+#Text=   * tool/cityscapes_inference.py: saves predictions in the official cityscapes panoptic format
+17-1	3476-3477	/	_	_	
+17-2	3477-3482	tools	_	_	
+17-3	3482-3483	/	_	_	
+17-4	3483-3495	dist_test.sh	_	_	
+17-5	3496-3503	configs	_	_	
+17-6	3503-3504	/	_	_	
+17-7	3504-3526	EvPSNet_unc_mutigpu.py	_	_	
+17-7.1	3504-3511	EvPSNet	*	PROJECT	
+17-8	3527-3528	$	_	_	
+17-9	3528-3529	{	_	_	
+17-10	3529-3544	CHECKPOINT_FILE	_	_	
+17-11	3544-3545	}	_	_	
+17-12	3546-3547	$	_	_	
+17-13	3547-3548	{	_	_	
+17-14	3548-3555	GPU_NUM	_	_	
+17-15	3555-3556	}	_	_	
+17-16	3557-3558	-	_	_	
+17-17	3558-3559	-	_	_	
+17-18	3559-3563	eval	_	_	
+17-19	3564-3572	panoptic	_	_	
+17-20	3573-3574	`	_	_	
+17-21	3574-3575	`	_	_	
+17-22	3575-3576	`	_	_	
+17-23	3578-3579	#	_	_	
+17-24	3579-3580	#	_	_	
+17-25	3581-3591	Additional	_	_	
+17-26	3592-3597	Notes	_	_	
+17-27	3597-3598	:	_	_	
+17-28	3602-3603	*	_	_	
+17-29	3604-3608	tool	_	_	
+17-30	3608-3609	/	_	_	
+17-31	3609-3632	cityscapes_inference.py	_	_	
+17-32	3632-3633	:	_	_	
+17-33	3634-3639	saves	_	_	
+17-34	3640-3651	predictions	_	_	
+17-35	3652-3654	in	_	_	
+17-36	3655-3658	the	_	_	
+17-37	3659-3667	official	_	_	
+17-38	3668-3678	cityscapes	*	DATASET	
+17-39	3679-3687	panoptic	_	_	
+17-40	3688-3694	format	_	_	
+
+#Text=.
+18-1	3694-3695	.	_	_	
+
+#Text=* tool/cityscapes_save_predictions.py: saves color visualizations
+19-1	3699-3700	*	_	_	
+19-2	3701-3705	tool	_	_	
+19-3	3705-3706	/	_	_	
+19-4	3706-3736	cityscapes_save_predictions.py	_	_	
+19-5	3736-3737	:	_	_	
+19-6	3738-3743	saves	_	_	
+19-7	3744-3749	color	_	_	
+19-8	3750-3764	visualizations	_	_	
+
+#Text=.
+20-1	3764-3765	.	_	_	
+
+#Text=* This is an impmentation of EvPSNet in PyTorch.
+21-1	3769-3770	*	_	_	
+21-2	3771-3775	This	_	_	
+21-3	3776-3778	is	_	_	
+21-4	3779-3781	an	_	_	
+21-5	3782-3794	impmentation	_	_	
+21-6	3795-3797	of	_	_	
+21-7	3798-3805	EvPSNet	*	PROJECT	
+21-8	3806-3808	in	_	_	
+21-9	3809-3816	PyTorch	*	SOFTWARE	
+21-10	3816-3817	.	_	_	
+
+#Text=Please refer to the metrics reported in [Uncertainty-aware Panoptic Segmentation](https://arxiv.org/abs/2206.14554) when making comparisons.
+#Text=
+#Text=## Acknowledgements
+#Text=We have used utility functions from other open-source projects.
+22-1	3818-3824	Please	_	_	
+22-2	3825-3830	refer	_	_	
+22-3	3831-3833	to	_	_	
+22-4	3834-3837	the	_	_	
+22-5	3838-3845	metrics	_	_	
+22-6	3846-3854	reported	_	_	
+22-7	3855-3857	in	_	_	
+22-8	3858-3859	[	_	_	
+22-9	3859-3876	Uncertainty-aware	*[9]	PUBLICATION[9]	
+22-10	3877-3885	Panoptic	*[9]	PUBLICATION[9]	
+22-11	3886-3898	Segmentation	*[9]	PUBLICATION[9]	
+22-12	3898-3899	]	_	_	
+22-13	3899-3900	(	_	_	
+22-14	3900-3905	https	_	_	
+22-15	3905-3906	:	_	_	
+22-16	3906-3907	/	_	_	
+22-17	3907-3908	/	_	_	
+22-18	3908-3917	arxiv.org	_	_	
+22-19	3917-3918	/	_	_	
+22-20	3918-3921	abs	_	_	
+22-21	3921-3922	/	_	_	
+22-22	3922-3932	2206.14554	_	_	
+22-23	3932-3933	)	_	_	
+22-24	3934-3938	when	_	_	
+22-25	3939-3945	making	_	_	
+22-26	3946-3957	comparisons	_	_	
+22-27	3957-3958	.	_	_	
+22-28	3960-3961	#	_	_	
+22-29	3961-3962	#	_	_	
+22-30	3963-3979	Acknowledgements	_	_	
+22-31	3980-3982	We	_	_	
+22-32	3983-3987	have	_	_	
+22-33	3988-3992	used	_	_	
+22-34	3993-4000	utility	_	_	
+22-35	4001-4010	functions	_	_	
+22-36	4011-4015	from	_	_	
+22-37	4016-4021	other	_	_	
+22-38	4022-4033	open-source	_	_	
+22-39	4034-4042	projects	_	_	
+22-40	4042-4043	.	_	_	
+
+#Text=We especially thank the authors of:
+#Text=- [EfficientPS](https://github.com/DeepSceneSeg/EfficientPS)
+#Text=- [mmdetection](https://github.com/open-mmlab/mmdetection)
+#Text=- [gen-efficientnet-pytorch](https://github.com/rwightman/gen-efficientnet-pytorch)
+#Text=- [seamseg](https://github.com/mapillary/seamseg.git)
+#Text=
+#Text=## Contacts
+#Text=* [Kshitij Sirohi](http://www2.informatik.uni-freiburg.de/~sirohik/)
+#Text=* [Sajad Marvi](http://www2.informatik.uni-freiburg.de/~sirohik/)
+#Text=* [Daniel Büscher](http://www2.informatik.uni-freiburg.de/~buescher/)
+#Text=
+#Text=## License
+#Text=For academic usage, the code is released under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
+23-1	4044-4046	We	_	_	
+23-2	4047-4057	especially	_	_	
+23-3	4058-4063	thank	_	_	
+23-4	4064-4067	the	_	_	
+23-5	4068-4075	authors	_	_	
+23-6	4076-4078	of	_	_	
+23-7	4078-4079	:	_	_	
+23-8	4080-4081	-	_	_	
+23-9	4082-4083	[	_	_	
+23-10	4083-4094	EfficientPS	*	PROJECT	
+23-11	4094-4095	]	_	_	
+23-12	4095-4096	(	_	_	
+23-13	4096-4101	https	_	_	
+23-14	4101-4102	:	_	_	
+23-15	4102-4103	/	_	_	
+23-16	4103-4104	/	_	_	
+23-17	4104-4114	github.com	_	_	
+23-18	4114-4115	/	_	_	
+23-19	4115-4127	DeepSceneSeg	_	_	
+23-20	4127-4128	/	_	_	
+23-21	4128-4139	EfficientPS	*	PROJECT	
+23-22	4139-4140	)	_	_	
+23-23	4141-4142	-	_	_	
+23-24	4143-4144	[	_	_	
+23-25	4144-4155	mmdetection	*	PROJECT	
+23-26	4155-4156	]	_	_	
+23-27	4156-4157	(	_	_	
+23-28	4157-4162	https	_	_	
+23-29	4162-4163	:	_	_	
+23-30	4163-4164	/	_	_	
+23-31	4164-4165	/	_	_	
+23-32	4165-4175	github.com	_	_	
+23-33	4175-4176	/	_	_	
+23-34	4176-4186	open-mmlab	_	_	
+23-35	4186-4187	/	_	_	
+23-36	4187-4198	mmdetection	*	PROJECT	
+23-37	4198-4199	)	_	_	
+23-38	4200-4201	-	_	_	
+23-39	4202-4203	[	_	_	
+23-40	4203-4227	gen-efficientnet-pytorch	*	PROJECT	
+23-40.1	4220-4227	pytorch	*	SOFTWARE	
+23-41	4227-4228	]	_	_	
+23-42	4228-4229	(	_	_	
+23-43	4229-4234	https	_	_	
+23-44	4234-4235	:	_	_	
+23-45	4235-4236	/	_	_	
+23-46	4236-4237	/	_	_	
+23-47	4237-4247	github.com	_	_	
+23-48	4247-4248	/	_	_	
+23-49	4248-4257	rwightman	_	_	
+23-50	4257-4258	/	_	_	
+23-51	4258-4282	gen-efficientnet-pytorch	*	PROJECT	
+23-51.1	4275-4282	pytorch	*	SOFTWARE	
+23-52	4282-4283	)	_	_	
+23-53	4284-4285	-	_	_	
+23-54	4286-4287	[	_	_	
+23-55	4287-4294	seamseg	*	PROJECT	
+23-56	4294-4295	]	_	_	
+23-57	4295-4296	(	_	_	
+23-58	4296-4301	https	_	_	
+23-59	4301-4302	:	_	_	
+23-60	4302-4303	/	_	_	
+23-61	4303-4304	/	_	_	
+23-62	4304-4314	github.com	_	_	
+23-63	4314-4315	/	_	_	
+23-64	4315-4324	mapillary	_	_	
+23-65	4324-4325	/	_	_	
+23-66	4325-4336	seamseg.git	_	_	
+23-66.1	4325-4332	seamseg	*	PROJECT	
+23-67	4336-4337	)	_	_	
+23-68	4339-4340	#	_	_	
+23-69	4340-4341	#	_	_	
+23-70	4342-4350	Contacts	_	_	
+23-71	4351-4352	*	_	_	
+23-72	4353-4354	[	_	_	
+23-73	4354-4361	Kshitij	_	_	
+23-74	4362-4368	Sirohi	_	_	
+23-75	4368-4369	]	_	_	
+23-76	4369-4370	(	_	_	
+23-77	4370-4374	http	_	_	
+23-78	4374-4375	:	_	_	
+23-79	4375-4376	/	_	_	
+23-80	4376-4377	/	_	_	
+23-81	4377-4381	www2	_	_	
+23-82	4381-4382	.	_	_	
+23-83	4382-4408	informatik.uni-freiburg.de	_	_	
+23-84	4408-4409	/	_	_	
+23-85	4409-4410	~	_	_	
+23-86	4410-4417	sirohik	_	_	
+23-87	4417-4418	/	_	_	
+23-88	4418-4419	)	_	_	
+23-89	4420-4421	*	_	_	
+23-90	4422-4423	[	_	_	
+23-91	4423-4428	Sajad	_	_	
+23-92	4429-4434	Marvi	_	_	
+23-93	4434-4435	]	_	_	
+23-94	4435-4436	(	_	_	
+23-95	4436-4440	http	_	_	
+23-96	4440-4441	:	_	_	
+23-97	4441-4442	/	_	_	
+23-98	4442-4443	/	_	_	
+23-99	4443-4447	www2	_	_	
+23-100	4447-4448	.	_	_	
+23-101	4448-4474	informatik.uni-freiburg.de	_	_	
+23-102	4474-4475	/	_	_	
+23-103	4475-4476	~	_	_	
+23-104	4476-4483	sirohik	_	_	
+23-105	4483-4484	/	_	_	
+23-106	4484-4485	)	_	_	
+23-107	4486-4487	*	_	_	
+23-108	4488-4489	[	_	_	
+23-109	4489-4495	Daniel	_	_	
+23-110	4496-4503	Büscher	_	_	
+23-111	4503-4504	]	_	_	
+23-112	4504-4505	(	_	_	
+23-113	4505-4509	http	_	_	
+23-114	4509-4510	:	_	_	
+23-115	4510-4511	/	_	_	
+23-116	4511-4512	/	_	_	
+23-117	4512-4516	www2	_	_	
+23-118	4516-4517	.	_	_	
+23-119	4517-4543	informatik.uni-freiburg.de	_	_	
+23-120	4543-4544	/	_	_	
+23-121	4544-4545	~	_	_	
+23-122	4545-4553	buescher	_	_	
+23-123	4553-4554	/	_	_	
+23-124	4554-4555	)	_	_	
+23-125	4557-4558	#	_	_	
+23-126	4558-4559	#	_	_	
+23-127	4560-4567	License	_	_	
+23-128	4568-4571	For	_	_	
+23-129	4572-4580	academic	_	_	
+23-130	4581-4586	usage	_	_	
+23-131	4586-4587	,	_	_	
+23-132	4588-4591	the	_	_	
+23-133	4592-4596	code	_	_	
+23-134	4597-4599	is	_	_	
+23-135	4600-4608	released	_	_	
+23-136	4609-4614	under	_	_	
+23-137	4615-4618	the	_	_	
+23-138	4619-4620	[	_	_	
+23-139	4620-4625	GPLv3	*	LICENSE	
+23-140	4625-4626	]	_	_	
+23-141	4626-4627	(	_	_	
+23-142	4627-4632	https	_	_	
+23-143	4632-4633	:	_	_	
+23-144	4633-4634	/	_	_	
+23-145	4634-4635	/	_	_	
+23-146	4635-4646	www.gnu.org	_	_	
+23-147	4646-4647	/	_	_	
+23-148	4647-4655	licenses	_	_	
+23-149	4655-4656	/	_	_	
+23-150	4656-4659	gpl	*[10]	LICENSE[10]	
+23-151	4659-4660	-	*[10]	LICENSE[10]	
+23-152	4660-4663	3.0	*[10]	LICENSE[10]	
+23-153	4663-4664	.	_	_	
+23-154	4664-4671	en.html	_	_	
+23-155	4671-4672	)	_	_	
+23-156	4673-4680	license	_	_	
+23-157	4680-4681	.	_	_	
+
+#Text=For any commercial purpose, please contact the authors.
+24-1	4682-4685	For	_	_	
+24-2	4686-4689	any	_	_	
+24-3	4690-4700	commercial	_	_	
+24-4	4701-4708	purpose	_	_	
+24-5	4708-4709	,	_	_	
+24-6	4710-4716	please	_	_	
+24-7	4717-4724	contact	_	_	
+24-8	4725-4728	the	_	_	
+24-9	4729-4736	authors	_	_	
+24-10	4736-4737	.	_	_	

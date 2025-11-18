@@ -1,0 +1,4 @@
+```
+Usage example for S2ORC:  ``` `<PROGLANG>python</PROGLANG>` `<SOFTWARE>write_mask_preds.py</SOFTWARE>` `--data_dir` `<DATASET>/data/actual_data</DATASET>` `--out_dir` `<DATASET>/output</DATASET>` `--dataset` `<DATASET>s2orc</DATASET>` `--model` `<PROGLANG>scholarBERT</PROGLANG>` `--max_tokens_per_batch` `16384` `--write_specific_replacements` `--vocab_path` `<DATASET>/data/wsi_vocab_set_98_50.txt</DATASET>` `--overwrite_cache` `--files_range` `0-24` ```
+
+Usage example for Wikipedia:  ``` `<PROGLANG>python</PROGLANG>` `<SOFTWARE>write_mask_preds.py</SOFTWARE>` `--data_dir` `<DATASET>/data/

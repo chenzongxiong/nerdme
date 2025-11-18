@@ -1,0 +1,7 @@
+The <PUBLICATION>Parallel Clustering of Single Cell Transcriptomic Data with Split-Merge Sampling on Dirichlet Process Mixtures</PUBLICATION> paper, published in <PUBLICATION>arXiv</PUBLICATION>, by Tiehang Duan; José P. <PUBLICATION>Castro</PUBLICATION> and <PUBLICATION>Aravind Subramanya</PUBLICATION>, is available at <PUBLICATION>arXiv</PUBLICATION> (<PUBLICATION>https://arxiv.org/pdf/1812.10048.pdf</PUBLICATION>).
+
+The <SOFTWARE>Para-DPMM</SOFTWARE> model is used for single cell transcriptomic clustering. The <DATASET>single cell transcriptomic data</DATASET> is used to reproduce the results. The <PUBLICATION>paper</PUBLICATION> presents a method for parallel clustering of single cell transcriptomic data using split-merge sampling on Dirichlet process mixtures.
+
+The <SOFTWARE>Para-DPMM</SOFTWARE> model is implemented in <PROGLANG>Python</PROGLANG> and can be used for <PUBLICATION>clustering</PUBLICATION> of single cell transcriptomic data. The <DATASET>data</DATASET> used in the <PUBLICATION>paper</PUBLICATION> can be downloaded from the <PROJECT>paper's</PROJECT> website.
+
+To reproduce the results, you can use the <SOFTWARE>Para-DPMM</SOFTWARE> model and the <DATASET>single cell transcriptomic data</DATASET> used in the <PUBLICATION>paper</PUBLICATION>. The <PUBLICATION>paper</PUBLICATION> provides a detailed description of the method and the <DATASET>data</DATASET> used in the experiment.

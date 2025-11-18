@@ -1,0 +1,3 @@
+```markdown
+You can print a summary of the results with `<PROGLANG>python</PROGLANG> browse_results <log path>`.     ### Datasets:  The method is tested on the following datasets:  * <DATASET>CUB200-2011</DATASET> (http://www.vision.caltech.edu/visipedia/CUB-200.html) * <DATASET>CARS196</DATASET> (https://ai.stanford.edu/~jkrause/cars/car_dataset.html) * <DATASET>Stanford Online Products</DATASET> (http://cvgl.stanford.edu/projects/lifted_struct/) * <DATASET>In-shop Clothes Retrieval Benchmark</DATASET> (http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html) * <DATASET>PKU VehicleID</DATASET> (https://www.pkuml.org/resources/pku-vehicleid.html)  Assuming your folder is placed in e.g.
+```

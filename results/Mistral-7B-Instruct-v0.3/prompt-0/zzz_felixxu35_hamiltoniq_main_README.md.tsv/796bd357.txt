@@ -1,0 +1,10 @@
+The text provided does not contain any of the specified named entities (CONFERENCE, DATASET, EVALMETRIC, LICENSE, ONTOLOGY, PROGLANG, PROJECT, PUBLICATION, SOFTWARE, WORKSHOP). However, I can annotate the entities that are present in the text, which are QPU and H-Score.
+
+Here's the annotated text:
+
+```
+Highlighted features include:
+  - Easy to use: Users only need to call <PROGLANG>QPUs</PROGLANG>, run the main function, and get the scores.
+  - Comprehensive scoring system: The toolkit generates a single score, termed <EVALMETRIC>H-Score</EVALMETRIC>, capturing all relevant <PROGLANG>QPU</PROGLANG> performance factors such as error rates, circuit compilation, and quantum error mitigation.
+  - Standardized and comparable results: <EVALMETRIC>H-Scores</EVALMETRIC> ensure consistent and comparable evaluation across different platforms.
+  - Focusing on real-world application: The toolkit is

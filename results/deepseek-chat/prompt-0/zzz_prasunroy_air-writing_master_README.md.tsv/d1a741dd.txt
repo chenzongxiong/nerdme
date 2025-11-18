@@ -1,0 +1,3 @@
+```markdown
+# Air-Writing **A CNN Based Framework for Unistroke Numeral Recognition in Air-Writing.**  *Accepted in The <CONFERENCE>IEEE International Conference on Frontiers in Handwriting Recognition (ICFHR) 2018</CONFERENCE>.*  **[[arXiv]](https://arxiv.org/abs/2303.07989)** <img align='right' height='100' src='https://github.com/prasunroy/air-writing/blob/master/assets/logo.png' />  !
+```

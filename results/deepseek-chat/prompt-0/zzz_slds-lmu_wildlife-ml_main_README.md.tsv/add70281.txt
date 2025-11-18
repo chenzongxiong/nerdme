@@ -1,0 +1,1 @@
+The trainer first loads a pretrained `<SOFTWARE>model_backbone</SOFTWARE>` from the `<SOFTWARE>Keras hub</SOFTWARE>` and then conducts training in two stages.

@@ -1,0 +1,20 @@
+```markdown
+- ***Hierarchical multi-label classification using local neural networks***  
+  - **"<PUBLICATION>An integrated approach of neural network and decision tree to classification</PUBLICATION>"**, <CONFERENCE>ICMLC</CONFERENCE>, 2014  
+    - Ricardo Cerri, Rodrigo C Barros, André CPLF De Carvalho  
+    - [[Paper]](https://www.sciencedirect.com/science/article/pii/S0022000013000718)  
+  - **"<PUBLICATION>Reduction strategies for hierarchical multi-label classification in protein function prediction</PUBLICATION>"**, <PUBLICATION>BMC Bioinformatics</PUBLICATION>, 2016  
+    - Ricardo Cerri *et al.*  
+    - [[Paper]](https://link.springer.com/article/10.1186/s12859-016-1232-1)  
+  - **"<PUBLICATION>HD-CNN: Hierarchical Deep Convolutional Neural Networks for Large Scale Visual Recognition</PUBLICATION>"**, <CONFERENCE>ICCV</CONFERENCE>, 2015  
+    - Zhicheng Yan *et al.*  
+    - [[Paper]](https://openaccess.thecvf.com/content_iccv_2015/html/Yan_HD-CNN_Hierarchical_Deep_ICCV_2015_paper.html) [[Code]](https://github.com/Changgang-Zheng/HD-CNN)  
+  - **"<PUBLICATION>Your "Flamingo" is My "Bird": Fine-Grained, or Not</PUBLICATION>"**, <CONFERENCE>CVPR</CONFERENCE>, 2021  
+    - Dongliang Chang *et al.* *(disentangle coarse and fine features)*  
+    - [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Chang_Your_Flamingo_is_My_Bird_Fine-Grained_or_Not_CVPR_2021_paper.html) [[Code]](https://github.com/PRIS-CV/Fine-Grained-or-Not)  
+- ***Branch the network after a shared trunk***  
+  - **"<PUBLICATION>Learning to Make Better Mistakes: Semantics-aware Visual Food Recognition</PUBLICATION>"**, <CONFERENCE>ACM international conference on Multimedia</CONFERENCE>, 2016  
+    - Hui Wu *et al.* *(a single network backbone shared by multiple fully-connected layers)*  
+    - [[Paper]](https://dl.acm.org/doi/abs/10.1145/2964284.2967205)  
+  - **"<PUBLICATION>Do Convolutional Neural Networks Learn Class Hierarchy?</PUBLICATION>"
+```

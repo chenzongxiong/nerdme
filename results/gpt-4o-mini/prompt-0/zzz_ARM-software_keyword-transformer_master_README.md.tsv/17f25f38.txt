@@ -1,0 +1,1 @@
+Some source files are derived from the <DATASET>KWS streaming repository</DATASET> (https://github.com/google-research/google-research/tree/master/kws_streaming) by Google Research.

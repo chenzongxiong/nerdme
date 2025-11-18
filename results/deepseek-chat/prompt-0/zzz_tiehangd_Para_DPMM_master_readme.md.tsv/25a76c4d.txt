@@ -1,0 +1,3 @@
+```markdown
+Note: The <PROJECT>Para-DPMM</PROJECT> project depend heavily on the open source <SOFTWARE>Dirichlet Process Mixtures package</SOFTWARE>(http://people.csail.mit.edu/jchang7/code.php) written by Jason Chang.  ###############################################################################
+```

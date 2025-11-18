@@ -1,0 +1,3 @@
+```markdown
+- `MASTR_DIR`: Location of the <DATASET>dataset</DATASET> used for training. - `ARCHITECTURE`: Which architecture to use (use `<SOFTWARE>python tools/train.py</SOFTWARE> warmup --help` for more info). - `MODEL_NAME`: Name of the model.
+```

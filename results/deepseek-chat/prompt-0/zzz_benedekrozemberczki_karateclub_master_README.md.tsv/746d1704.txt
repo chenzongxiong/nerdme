@@ -1,0 +1,1 @@
+These can accessed [here](https://<SOFTWARE>karateclub</SOFTWARE>.readthedocs.io/en/latest/notes/introduction.html) with detailed line-by-line explanations.

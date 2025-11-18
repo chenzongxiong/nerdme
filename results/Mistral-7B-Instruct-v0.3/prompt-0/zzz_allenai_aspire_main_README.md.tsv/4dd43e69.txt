@@ -1,0 +1,15 @@
+- SciDocs is obtained from: [link](https://github.com/<ORGANIZATION>allenai</ORGANIZATION>/<PROJECT>scidocs</PROJECT>).
+
+- The <SOFTWARE>scidocs</SOFTWARE> package provides a set of tools for processing scientific documents.
+
+- The <DATASET>scidocs</DATASET> dataset contains a collection of scientific documents.
+
+- The <ONTOLOGY>scidocs</ONTOLOGY> ontology defines the concepts and relationships within the scientific document domain.
+
+- The <LICENSE>MIT License</LICENSE> is used for the scidocs project.
+
+- The <PROGLANG>Python</PROGLANG> and <PROGLANG>JavaScript</PROGLANG> programming languages are used in the scidocs project.
+
+- The <CONFERENCE>AAAI</CONFERENCE> conference proceedings include papers related to the scidocs project.
+
+- The <PUBLICATION>A Systematic Review of Scientific Document Processing Systems</PUBLICATION> discusses the scidoc

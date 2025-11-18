@@ -1,0 +1,74 @@
+The folder structure should be organized as follows before training.  ``` NuScenes-QA 
+<PROJECT>NuScenes-QA</PROJECT> 
++-- configs/ 
+    |   +-- <CONFERENCE>butd.yaml</CONFERENCE> 
+    |   +-- <CONFERENCE>mcan_small.yaml</CONFERENCE> 
++-- data/ 
+    |   +-- questions/    # downloaded 
+    |   |   +-- <DATASET>NuScenes_train_questions.json</DATASET> 
+    |   |   +-- <DATASET>NuScenes_val_questions.json</DATASET> 
+    |   +-- features/     # downloaded or extracted 
+    |   |   +-- <SOFTWARE>CenterPoint</SOFTWARE>/ 
+    |   |   |   +-- xxx.npz 
+    |   |   |   +--... 
+    |   |   +-- <SOFTWARE>BEVDet</SOFTWARE>/ 
+    |   |   |   +-- xxx.npz 
+    |   |   |   +--... 
+    |   |   +-- <SOFTWARE>MSMDFusion</SOFTWARE>/ 
+    |   |   |   +-- xxx.npz 
+    |   |   |   +--... 
++-- src/ 
++-- <SOFTWARE>run.py</SOFTWARE> 
+
+### Installation 
+ The following packages are required to build the project: 
+ ```bash 
+<PROGLANG>python</PROGLANG> >= 3.5 
+<CUDA>CUDA</CUDA> >= 9.0 
+<PROGLANG>PyTorch</PROGLANG> >= 1.4.0 
+<PROGLANG>SpaCy</PROGLANG> == 2.1.0 
+``` 
+ For the <PROGLANG>SpaCy</PROGLANG>, you can install it by: 
+ ```bash 
+wget https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.1.0/en_core_web_lg-2.1.0.tar.gz 
+<PROGLANG>pip</PROGLANG> install en_core_web_lg-2.1.0.tar.gz 
+``` 
+
+### Training 
+ The following script will start training a `man_small` model with `CenterPoint` feature on `2` GPUs: 
+ ```bash 
+<PROGLANG>python3</PROGLANG> <SOFTWARE>run.py</SOFTWARE> --RUN='train' --MODEL='mcan_small' --VIS_FEAT='CenterPoint' --GPU='0, 1' 
+``` 
+ All checkpoint files and the training logs will be saved to the following paths respectively: 
+ ```bash 
+outputs/<SOFTWARE>ckpts</SOFTWARE>/<CONFERENCE>ckpt_<VERSION></CONFERENCE>/epoch<EPOCH_INDEX>.pkl 
+outputs/<SOFTWARE>log</SOFTWARE>/<SOFTWARE>log_run_<VERSION>.txt</SOFTWARE> 
+``` 
+
+### Testing 
+ For testing, you can use the following script: 
+ ```bash 
+<PROGLANG>python3</PROGLANG> <SOFTWARE>run.py</SOFTWARE> --RUN='val' --MODEL='mcan_small' --VIS_FEAT='CenterPoint' --<SOFTWARE>CKPT_PATH</SOFTWARE>'path/to/ckpt.pkl' 
+``` 
+ The evaluation results and the answers for all questions will ba saved to the following paths respectively: 
+ ```bash 
+outputs/<SOFTWARE>log</SOFTWARE>/<SOFTWARE>log_run_xxx.txt</SOFTWARE> 
+outputs/<SOFTWARE>result</SOFTWARE>/<SOFTWARE>result_run_xxx.txt</SOFTWARE> 
+``` 
+
+## :star: Others 
+ If you have any questions about the <DATASET>dataset</DATASET> and its generation or the object-level feature extraction, feel free to cantact me with `<EMAIL>twqian19@fudan.edu.cn</EMAIL>`. 
+
+## :book: Citation 
+ If you find our <PUBLICATION>NuScenes-QA: A Multi-modal Visual Question Answering Benchmark for Autonomous Driving Scenario</PUBLICATION></PUBLICATION>, please consider citing: 
+ ```bibtex 
+@article{qian2023nuscenes, 
+   title={NuScenes-QA: A Multi-modal Visual Question Answering Benchmark for Autonomous Driving Scenario}, 
+   author={Qian, Tianwen and Chen, Jingjing and Zhuo, Linhai and Jiao, Yang and Jiang, Yu-Gang}, 
+   journal={arXiv preprint arXiv:2305.14836}, 
+   year={2023} 
+} 
+``` 
+
+## Acknowlegement 
+ We sincerely thank the authors of [<SOFTWARE>MMDetection3D</SOFTWARE>](https://github.com/open-mmlab/mmdetection3d) and [<SOFTWARE>OpenVQA</SOFTWARE>](https://github.com/MILVLG/openvqa) for open sourcing their methods.

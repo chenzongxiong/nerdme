@@ -1,0 +1,1 @@
+In this work, we analyze cross-lingual methods on three tasks in terms of their effectiveness (e.g., `<EVALMETRIC>accuracy</EVALMETRIC>`), development and deployment costs, as well as their latencies at inference time.

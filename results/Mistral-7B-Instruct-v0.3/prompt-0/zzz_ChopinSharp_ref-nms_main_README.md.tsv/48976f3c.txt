@@ -1,0 +1,10 @@
+The log file can be found in `<FOLDER>tb</FOLDER>`.
+
+**Evaluate Recall**
+
+`<EVALMETRIC>Save Ref-NMS proposals:</EVALMETRIC>`:
+```
+<PROGLANG>PYTHON</PROGLANG>PATH=$PWD python tools/save_ref_nms_proposals.py --dataset refcoco --split-by unc --tid <tid> --m <loss_type>
+```
+
+`<EVALMETRIC><loss_type></loss_type></EVALMETRIC>` can be either `<EVALMETRIC>att_vanilla</EVALMETRIC>` for binary XE loss or `<EVALMETRIC>att_rank</EVALMETRIC>` for rank loss.

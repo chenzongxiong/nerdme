@@ -1,0 +1,9 @@
+`See <DATASET>Datasets/Kitti_loader.py</DATASET>`)  The <DATASET>Dataset structure</DATASET> should look like this:
+```
+|--depth selection
+|-- <DATASET>Depth</DATASET>
+|-- <DATASET>train</DATASET>
+|   |--<DATASET>date</DATASET>
+|   |   |--<DATASET>sequence1</DATASET>
+|   |       ...
+```

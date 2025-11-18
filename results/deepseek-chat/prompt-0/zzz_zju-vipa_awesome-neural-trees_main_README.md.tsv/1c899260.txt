@@ -1,0 +1,3 @@
+```markdown
+(extended work of tree regularization that encourage a deep model to be approximated by several separate DTs specific to pre-defined regions of the input space)*     - [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/6112)  - ***L1-orthogonal regularization***   - **"<PUBLICATION>Enhancing Decision Tree Based Interpretation of Deep Neural Networks through L1-Orthogonal Regularization</PUBLICATION>"**, <CONFERENCE>ICMLA</CONFERENCE>, 2019     - Nina Schaaf, Marco Huber, Johannes Maucher *(so that they do not need a surrogate network to estimate the tree loss)*     - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8999213)  #### 1.3 NNs for Designing DTs.
+```

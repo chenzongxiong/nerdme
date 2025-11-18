@@ -1,0 +1,1 @@
+If this is not supported by your device, set `<PROGLANG>downcast_bf16</PROGLANG>` to `<PROGLANG>false</PROGLANG>` and `<PROGLANG>mixed_precision</PROGLANG>` to `<PROGLANG>fp16</PROGLANG>`

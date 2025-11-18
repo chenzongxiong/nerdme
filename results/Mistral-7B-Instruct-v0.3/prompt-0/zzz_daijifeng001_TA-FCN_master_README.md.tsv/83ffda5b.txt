@@ -1,0 +1,9 @@
+```
+Move `<SOFTWARE>VOCdevit</SOFTWARE>` `<FOLDER>inst</FOLDER>`, `<FOLDER>cls</FOLDER>`, and `<FOLDER>img</FOLDER>` folders to `<SOFTWARE>VOCdevit</SOFTWARE>` and make sure it looks like this:
+
+Please use the `<DATASET>train&val split</DATASET>` in this repo, which follows the `<PUBLICATION>protocol of SDS</PUBLICATION>` (https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/shape/sds/).
+
+```
+.data/<SOFTWARE>VOCdevkit</SOFTWARE>/<DATASET>VOCSDS</DATASET>/<FOLDER>img</FOLDER>
+.data/<SOFTWARE>VOCdevkit</SOFTWARE>/<DATASET>VOCSDS</DATASET>/<FOLDER>inst</FOLDER>
+.data/<SOFTWARE>VOCdevkit</SOFTWARE>/

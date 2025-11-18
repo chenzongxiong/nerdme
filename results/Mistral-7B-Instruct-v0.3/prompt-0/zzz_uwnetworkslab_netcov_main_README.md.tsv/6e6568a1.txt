@@ -1,0 +1,6 @@
+The `<SOFTWARE>NetCov</SOFTWARE>` reports configuration coverage as the percentage of configuration lines that are covered, such as: `<IMAGERY>screenshot_aggregate.png</IMAGERY>` (width="500")<br>
+`<SOFTWARE>NetCov</SOFTWARE>` can also report fine-grained coverage results as colored annotations on source configurations (lines in blue are covered, lines in red are not covered): `<IMAGERY>screenshot_annotation.png</IMAGERY>` (width="500")<br>
+You can find an example of the coverage report [here](https://rawcdn.githack.com/UWNetworksLab/netcov/main/examples/fattree4/coverage/HTML_REPORT/index.html).<br>
+<br>
+## Installing `<PROGLANG>NetCov</PROGLANG>`<br>
+Install `<PROGLANG>NetCov</PROGLANG>` using `<PROGLANG>pip</PROGLANG>

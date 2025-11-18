@@ -1,0 +1,3 @@
+```markdown
+| Model                           | Pre-train     | Fine-tune       | F1           | Accuracy    |  | ------------------------------- | ------------- | --------------- | ------------ | ----------- |  | <SOFTWARE>mBERT</SOFTWARE> (<PUBLICATION>Souza et al</PUBLICATION>
+```

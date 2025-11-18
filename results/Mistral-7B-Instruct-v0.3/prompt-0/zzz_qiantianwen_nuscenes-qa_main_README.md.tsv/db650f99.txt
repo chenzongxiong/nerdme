@@ -1,0 +1,9 @@
+# [AAAI 2024] NuScenes-QA  Official repository for the AAAI 2024 paper **[<PUBLICATION>NuScenes-QA: A Multi-modal Visual Question Answering Benchmark for Autonomous Driving Scenario</PUBLICATION></URL>]**.
+
+The repository contains the data and code for the **<PUBLICATION>NuScenes-QA</PUBLICATION>** paper.
+
+You can find the **<DATASET>NuScenes</DATASET>** dataset in the following link: **<URL>https://nuscenes.org/</URL>**
+
+The evaluation metrics used are **<EVALMETRIC>Accuracy</EVALMETRIC>**, **<EVALMETRIC>F1-Score</EVALMETRIC>**, and **<EVALMETRIC>Mean Reciprocal Rank</EVALMETRIC>**.
+
+The **<CONFERENCE>AAAI 2024</CONFERENCE>** conference will be held in **<CITY>New York

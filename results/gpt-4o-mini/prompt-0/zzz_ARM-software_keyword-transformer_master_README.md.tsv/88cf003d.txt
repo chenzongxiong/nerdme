@@ -1,0 +1,3 @@
+```markdown
+/speech_commands_v0.02.tar.gz cd ../ ```  And similarly for <DATASET>V1</DATASET>:  ```shell wget http://download.tensorflow.org/data/<DATASET>speech_commands_v0.01</DATASET>.tar.gz mkdir data1 mv .
+```

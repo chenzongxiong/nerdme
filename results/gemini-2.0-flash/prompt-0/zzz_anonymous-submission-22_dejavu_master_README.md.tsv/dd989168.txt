@@ -1,0 +1,1 @@
+`FDG.pkl` is a pickle of the FDG object, which contains all the above data.

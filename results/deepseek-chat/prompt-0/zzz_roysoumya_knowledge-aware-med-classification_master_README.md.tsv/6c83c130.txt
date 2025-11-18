@@ -1,0 +1,1 @@
+`/examples/ichi/run_ichi.py --model_type bert --model_name_or_path <PROGLANG>bert-base-uncased</PROGLANG> --do_lower_case --do_train --do_eval --data_dir .`

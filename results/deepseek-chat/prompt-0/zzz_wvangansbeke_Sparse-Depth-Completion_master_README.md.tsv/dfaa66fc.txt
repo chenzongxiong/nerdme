@@ -1,0 +1,3 @@
+```markdown
+If you find this interesting or relevant to your work, consider citing:  ``` @inproceedings{wvangansbeke_depth_2019,     author={Van Gansbeke, Wouter and Neven, Davy and De Brabandere, Bert and Van Gool, Luc},     booktitle={<CONFERENCE>2019 16th International Conference on Machine Vision Applications (MVA)</CONFERENCE>},     title={<PUBLICATION>Sparse and Noisy LiDAR Completion with RGB Guidance and Uncertainty</PUBLICATION>},     year={2019},     pages={1-6},     organization={<PROJECT>IEEE</PROJECT>} } ```  ## License  This software is released under a <LICENSE>creative commons license</LICENSE> which allows for personal and research use only.
+```

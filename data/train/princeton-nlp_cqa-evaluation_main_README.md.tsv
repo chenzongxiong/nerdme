@@ -1,0 +1,2204 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+
+
+#Text=# Ditch the Gold Standard: Re-evaluating Conversational Question Answering
+#Text=This is the repository for our ACL'2022 paper [Ditch the Gold Standard: Re-evaluating Conversational Question Answering](https://arxiv.org/pdf/2112.08812.pdf).
+1-1	0-1	#	_	_	
+1-2	2-7	Ditch	*[1]	PUBLICATION[1]	
+1-3	8-11	the	*[1]	PUBLICATION[1]	
+1-4	12-16	Gold	*[1]	PUBLICATION[1]	
+1-5	17-25	Standard	*[1]	PUBLICATION[1]	
+1-6	25-26	:	*[1]	PUBLICATION[1]	
+1-7	27-40	Re-evaluating	*[1]	PUBLICATION[1]	
+1-8	41-55	Conversational	*[1]	PUBLICATION[1]	
+1-9	56-64	Question	*[1]	PUBLICATION[1]	
+1-10	65-74	Answering	*[1]	PUBLICATION[1]	
+1-11	75-79	This	_	_	
+1-12	80-82	is	_	_	
+1-13	83-86	the	_	_	
+1-14	87-97	repository	_	_	
+1-15	98-101	for	_	_	
+1-16	102-105	our	_	_	
+1-17	106-109	ACL	*[2]	CONFERENCE[2]	
+1-18	109-110	'	*[2]	CONFERENCE[2]	
+1-19	110-114	2022	*[2]	CONFERENCE[2]	
+1-20	115-120	paper	_	_	
+1-21	121-122	[	_	_	
+1-22	122-127	Ditch	*[3]	PUBLICATION[3]	
+1-23	128-131	the	*[3]	PUBLICATION[3]	
+1-24	132-136	Gold	*[3]	PUBLICATION[3]	
+1-25	137-145	Standard	*[3]	PUBLICATION[3]	
+1-26	145-146	:	*[3]	PUBLICATION[3]	
+1-27	147-160	Re-evaluating	*[3]	PUBLICATION[3]	
+1-28	161-175	Conversational	*[3]	PUBLICATION[3]	
+1-29	176-184	Question	*[3]	PUBLICATION[3]	
+1-30	185-194	Answering	*[3]	PUBLICATION[3]	
+1-31	194-195	]	_	_	
+1-32	195-196	(	_	_	
+1-33	196-201	https	_	_	
+1-34	201-202	:	_	_	
+1-35	202-203	/	_	_	
+1-36	203-204	/	_	_	
+1-37	204-213	arxiv.org	_	_	
+1-38	213-214	/	_	_	
+1-39	214-217	pdf	_	_	
+1-40	217-218	/	_	_	
+1-41	218-228	2112.08812	_	_	
+1-42	228-229	.	_	_	
+1-43	229-232	pdf	_	_	
+1-44	232-233	)	_	_	
+1-45	233-234	.	_	_	
+
+#Text=The slides for our ACL presentation can be found [here](https://github.com/princeton-nlp/EvalConvQA/blob/main/ACL%202022%20Video%20talk.pdf).
+#Text=
+#Text=## Quick links
+#Text=* [Overview](#Overview)
+#Text=* [Human Evaluation Dataset](#Human-Evaluation-Dataset)
+#Text=* [Automatic model evaluation interface](#Automatic-model-evaluation-interface)
+#Text=* [Setup](#Setup)
+#Text=  * [Install dependencies](#Install-dependencies)
+#Text=  * [Download the datasets](#Download-the-datasets)
+#Text=* [Evaluating existing models](#Evaluating-existing-models)
+#Text=  * [BERT](#BERT)
+#Text=  * [GraphFlow](#GraphFlow)
+#Text=  * [HAM](#HAM)
+#Text=  * [ExCorD](#ExCorD)
+#Text=* [Evaluating your own model](#Evaluating-your-own-model)
+#Text=* [Citation](#Citation)
+#Text=
+#Text=## Overview
+#Text=
+#Text=In this work, we conduct the first large-scale human evaluation of state-of-the-art conversational QA systems.
+2-1	235-238	The	_	_	
+2-2	239-245	slides	_	_	
+2-3	246-249	for	_	_	
+2-4	250-253	our	_	_	
+2-5	254-257	ACL	*	CONFERENCE	
+2-6	258-270	presentation	_	_	
+2-7	271-274	can	_	_	
+2-8	275-277	be	_	_	
+2-9	278-283	found	_	_	
+2-10	284-285	[	_	_	
+2-11	285-289	here	_	_	
+2-12	289-290	]	_	_	
+2-13	290-291	(	_	_	
+2-14	291-296	https	_	_	
+2-15	296-297	:	_	_	
+2-16	297-298	/	_	_	
+2-17	298-299	/	_	_	
+2-18	299-309	github.com	_	_	
+2-19	309-310	/	_	_	
+2-20	310-323	princeton-nlp	_	_	
+2-21	323-324	/	_	_	
+2-22	324-334	EvalConvQA	_	_	
+2-23	334-335	/	_	_	
+2-24	335-339	blob	_	_	
+2-25	339-340	/	_	_	
+2-26	340-344	main	_	_	
+2-27	344-345	/	_	_	
+2-28	345-348	ACL	*	CONFERENCE	
+2-29	348-349	%	_	_	
+2-30	349-356	202022%	_	_	
+2-31	356-363	20Video	_	_	
+2-32	363-364	%	_	_	
+2-33	364-374	20talk.pdf	_	_	
+2-34	374-375	)	_	_	
+2-35	375-376	.	_	_	
+2-36	378-379	#	_	_	
+2-37	379-380	#	_	_	
+2-38	381-386	Quick	_	_	
+2-39	387-392	links	_	_	
+2-40	393-394	*	_	_	
+2-41	395-396	[	_	_	
+2-42	396-404	Overview	_	_	
+2-43	404-405	]	_	_	
+2-44	405-406	(	_	_	
+2-45	406-407	#	_	_	
+2-46	407-415	Overview	_	_	
+2-47	415-416	)	_	_	
+2-48	417-418	*	_	_	
+2-49	419-420	[	_	_	
+2-50	420-425	Human	_	_	
+2-51	426-436	Evaluation	_	_	
+2-52	437-444	Dataset	_	_	
+2-53	444-445	]	_	_	
+2-54	445-446	(	_	_	
+2-55	446-447	#	_	_	
+2-56	447-471	Human-Evaluation-Dataset	_	_	
+2-57	471-472	)	_	_	
+2-58	473-474	*	_	_	
+2-59	475-476	[	_	_	
+2-60	476-485	Automatic	_	_	
+2-61	486-491	model	_	_	
+2-62	492-502	evaluation	_	_	
+2-63	503-512	interface	_	_	
+2-64	512-513	]	_	_	
+2-65	513-514	(	_	_	
+2-66	514-515	#	_	_	
+2-67	515-551	Automatic-model-evaluation-interface	_	_	
+2-68	551-552	)	_	_	
+2-69	553-554	*	_	_	
+2-70	555-556	[	_	_	
+2-71	556-561	Setup	_	_	
+2-72	561-562	]	_	_	
+2-73	562-563	(	_	_	
+2-74	563-564	#	_	_	
+2-75	564-569	Setup	_	_	
+2-76	569-570	)	_	_	
+2-77	573-574	*	_	_	
+2-78	575-576	[	_	_	
+2-79	576-583	Install	_	_	
+2-80	584-596	dependencies	_	_	
+2-81	596-597	]	_	_	
+2-82	597-598	(	_	_	
+2-83	598-599	#	_	_	
+2-84	599-619	Install-dependencies	_	_	
+2-85	619-620	)	_	_	
+2-86	623-624	*	_	_	
+2-87	625-626	[	_	_	
+2-88	626-634	Download	_	_	
+2-89	635-638	the	_	_	
+2-90	639-647	datasets	_	_	
+2-91	647-648	]	_	_	
+2-92	648-649	(	_	_	
+2-93	649-650	#	_	_	
+2-94	650-671	Download-the-datasets	_	_	
+2-95	671-672	)	_	_	
+2-96	673-674	*	_	_	
+2-97	675-676	[	_	_	
+2-98	676-686	Evaluating	_	_	
+2-99	687-695	existing	_	_	
+2-100	696-702	models	_	_	
+2-101	702-703	]	_	_	
+2-102	703-704	(	_	_	
+2-103	704-705	#	_	_	
+2-104	705-731	Evaluating-existing-models	_	_	
+2-105	731-732	)	_	_	
+2-106	735-736	*	_	_	
+2-107	737-738	[	_	_	
+2-108	738-742	BERT	*	SOFTWARE	
+2-109	742-743	]	_	_	
+2-110	743-744	(	_	_	
+2-111	744-745	#	_	_	
+2-112	745-749	BERT	_	_	
+2-113	749-750	)	_	_	
+2-114	753-754	*	_	_	
+2-115	755-756	[	_	_	
+2-116	756-765	GraphFlow	*	SOFTWARE	
+2-117	765-766	]	_	_	
+2-118	766-767	(	_	_	
+2-119	767-768	#	_	_	
+2-120	768-777	GraphFlow	_	_	
+2-121	777-778	)	_	_	
+2-122	781-782	*	_	_	
+2-123	783-784	[	_	_	
+2-124	784-787	HAM	*	SOFTWARE	
+2-125	787-788	]	_	_	
+2-126	788-789	(	_	_	
+2-127	789-790	#	_	_	
+2-128	790-793	HAM	_	_	
+2-129	793-794	)	_	_	
+2-130	797-798	*	_	_	
+2-131	799-800	[	_	_	
+2-132	800-806	ExCorD	*	SOFTWARE	
+2-133	806-807	]	_	_	
+2-134	807-808	(	_	_	
+2-135	808-809	#	_	_	
+2-136	809-815	ExCorD	_	_	
+2-137	815-816	)	_	_	
+2-138	817-818	*	_	_	
+2-139	819-820	[	_	_	
+2-140	820-830	Evaluating	_	_	
+2-141	831-835	your	_	_	
+2-142	836-839	own	_	_	
+2-143	840-845	model	_	_	
+2-144	845-846	]	_	_	
+2-145	846-847	(	_	_	
+2-146	847-848	#	_	_	
+2-147	848-873	Evaluating-your-own-model	_	_	
+2-148	873-874	)	_	_	
+2-149	875-876	*	_	_	
+2-150	877-878	[	_	_	
+2-151	878-886	Citation	_	_	
+2-152	886-887	]	_	_	
+2-153	887-888	(	_	_	
+2-154	888-889	#	_	_	
+2-155	889-897	Citation	_	_	
+2-156	897-898	)	_	_	
+2-157	900-901	#	_	_	
+2-158	901-902	#	_	_	
+2-159	903-911	Overview	_	_	
+2-160	913-915	In	_	_	
+2-161	916-920	this	_	_	
+2-162	921-925	work	_	_	
+2-163	925-926	,	_	_	
+2-164	927-929	we	_	_	
+2-165	930-937	conduct	_	_	
+2-166	938-941	the	_	_	
+2-167	942-947	first	_	_	
+2-168	948-959	large-scale	_	_	
+2-169	960-965	human	_	_	
+2-170	966-976	evaluation	_	_	
+2-171	977-979	of	_	_	
+2-172	980-996	state-of-the-art	_	_	
+2-173	997-1011	conversational	_	_	
+2-174	1012-1014	QA	_	_	
+2-175	1015-1022	systems	_	_	
+2-176	1022-1023	.	_	_	
+
+#Text=In our evaluation, human annotators chat with conversational QA models about passages from the [QuAC](https://quac.ai) development set, and after that the annotators judge the correctness of model answers.
+3-1	1024-1026	In	_	_	
+3-2	1027-1030	our	_	_	
+3-3	1031-1041	evaluation	_	_	
+3-4	1041-1042	,	_	_	
+3-5	1043-1048	human	_	_	
+3-6	1049-1059	annotators	_	_	
+3-7	1060-1064	chat	_	_	
+3-8	1065-1069	with	_	_	
+3-9	1070-1084	conversational	_	_	
+3-10	1085-1087	QA	_	_	
+3-11	1088-1094	models	_	_	
+3-12	1095-1100	about	_	_	
+3-13	1101-1109	passages	_	_	
+3-14	1110-1114	from	_	_	
+3-15	1115-1118	the	_	_	
+3-16	1119-1120	[	_	_	
+3-17	1120-1124	QuAC	*	DATASET	
+3-18	1124-1125	]	_	_	
+3-19	1125-1126	(	_	_	
+3-20	1126-1131	https	_	_	
+3-21	1131-1132	:	_	_	
+3-22	1132-1133	/	_	_	
+3-23	1133-1134	/	_	_	
+3-24	1134-1141	quac.ai	_	_	
+3-24.1	1134-1138	quac	*	DATASET	
+3-25	1141-1142	)	_	_	
+3-26	1143-1154	development	_	_	
+3-27	1155-1158	set	_	_	
+3-28	1158-1159	,	_	_	
+3-29	1160-1163	and	_	_	
+3-30	1164-1169	after	_	_	
+3-31	1170-1174	that	_	_	
+3-32	1175-1178	the	_	_	
+3-33	1179-1189	annotators	_	_	
+3-34	1190-1195	judge	_	_	
+3-35	1196-1199	the	_	_	
+3-36	1200-1211	correctness	_	_	
+3-37	1212-1214	of	_	_	
+3-38	1215-1220	model	_	_	
+3-39	1221-1228	answers	_	_	
+3-40	1228-1229	.	_	_	
+
+#Text=We release the human annotated dataset in the following section.
+4-1	1230-1232	We	_	_	
+4-2	1233-1240	release	_	_	
+4-3	1241-1244	the	_	_	
+4-4	1245-1250	human	_	_	
+4-5	1251-1260	annotated	_	_	
+4-6	1261-1268	dataset	_	_	
+4-7	1269-1271	in	_	_	
+4-8	1272-1275	the	_	_	
+4-9	1276-1285	following	_	_	
+4-10	1286-1293	section	_	_	
+4-11	1293-1294	.	_	_	
+
+#Text=We also identify a critical issue with the current automatic evaluation, which pre-collectes human-human conversations and uses ground-truth answers as conversational history (differences between different evaluations are shown in the following figure).
+5-1	1297-1299	We	_	_	
+5-2	1300-1304	also	_	_	
+5-3	1305-1313	identify	_	_	
+5-4	1314-1315	a	_	_	
+5-5	1316-1324	critical	_	_	
+5-6	1325-1330	issue	_	_	
+5-7	1331-1335	with	_	_	
+5-8	1336-1339	the	_	_	
+5-9	1340-1347	current	_	_	
+5-10	1348-1357	automatic	_	_	
+5-11	1358-1368	evaluation	_	_	
+5-12	1368-1369	,	_	_	
+5-13	1370-1375	which	_	_	
+5-14	1376-1389	pre-collectes	_	_	
+5-15	1390-1401	human-human	_	_	
+5-16	1402-1415	conversations	_	_	
+5-17	1416-1419	and	_	_	
+5-18	1420-1424	uses	_	_	
+5-19	1425-1437	ground-truth	_	_	
+5-20	1438-1445	answers	_	_	
+5-21	1446-1448	as	_	_	
+5-22	1449-1463	conversational	_	_	
+5-23	1464-1471	history	_	_	
+5-24	1472-1473	(	_	_	
+5-25	1473-1484	differences	_	_	
+5-26	1485-1492	between	_	_	
+5-27	1493-1502	different	_	_	
+5-28	1503-1514	evaluations	_	_	
+5-29	1515-1518	are	_	_	
+5-30	1519-1524	shown	_	_	
+5-31	1525-1527	in	_	_	
+5-32	1528-1531	the	_	_	
+5-33	1532-1541	following	_	_	
+5-34	1542-1548	figure	_	_	
+5-35	1548-1549	)	_	_	
+5-36	1549-1550	.	_	_	
+
+#Text=By comparison, we find that the automatic evaluation does not always agree with the human evaluation.
+6-1	1551-1553	By	_	_	
+6-2	1554-1564	comparison	_	_	
+6-3	1564-1565	,	_	_	
+6-4	1566-1568	we	_	_	
+6-5	1569-1573	find	_	_	
+6-6	1574-1578	that	_	_	
+6-7	1579-1582	the	_	_	
+6-8	1583-1592	automatic	_	_	
+6-9	1593-1603	evaluation	_	_	
+6-10	1604-1608	does	_	_	
+6-11	1609-1612	not	_	_	
+6-12	1613-1619	always	_	_	
+6-13	1620-1625	agree	_	_	
+6-14	1626-1630	with	_	_	
+6-15	1631-1634	the	_	_	
+6-16	1635-1640	human	_	_	
+6-17	1641-1651	evaluation	_	_	
+6-18	1651-1652	.	_	_	
+
+#Text=We propose a new evaluation protocol that is based on predicted history and question rewriting.
+7-1	1653-1655	We	_	_	
+7-2	1656-1663	propose	_	_	
+7-3	1664-1665	a	_	_	
+7-4	1666-1669	new	_	_	
+7-5	1670-1680	evaluation	_	_	
+7-6	1681-1689	protocol	_	_	
+7-7	1690-1694	that	_	_	
+7-8	1695-1697	is	_	_	
+7-9	1698-1703	based	_	_	
+7-10	1704-1706	on	_	_	
+7-11	1707-1716	predicted	_	_	
+7-12	1717-1724	history	_	_	
+7-13	1725-1728	and	_	_	
+7-14	1729-1737	question	_	_	
+7-15	1738-1747	rewriting	_	_	
+7-16	1747-1748	.	_	_	
+
+#Text=Our experiments show that the new protocol better reflects real-world performance compared to the original automatic evaluation.
+8-1	1749-1752	Our	_	_	
+8-2	1753-1764	experiments	_	_	
+8-3	1765-1769	show	_	_	
+8-4	1770-1774	that	_	_	
+8-5	1775-1778	the	_	_	
+8-6	1779-1782	new	_	_	
+8-7	1783-1791	protocol	_	_	
+8-8	1792-1798	better	_	_	
+8-9	1799-1807	reflects	_	_	
+8-10	1808-1818	real-world	_	_	
+8-11	1819-1830	performance	_	_	
+8-12	1831-1839	compared	_	_	
+8-13	1840-1842	to	_	_	
+8-14	1843-1846	the	_	_	
+8-15	1847-1855	original	_	_	
+8-16	1856-1865	automatic	_	_	
+8-17	1866-1876	evaluation	_	_	
+8-18	1876-1877	.	_	_	
+
+#Text=We also provide the new evaluation protocol code in the following.
+#Text=
+#Text=!
+9-1	1878-1880	We	_	_	
+9-2	1881-1885	also	_	_	
+9-3	1886-1893	provide	_	_	
+9-4	1894-1897	the	_	_	
+9-5	1898-1901	new	_	_	
+9-6	1902-1912	evaluation	_	_	
+9-7	1913-1921	protocol	_	_	
+9-8	1922-1926	code	_	_	
+9-9	1927-1929	in	_	_	
+9-10	1930-1933	the	_	_	
+9-11	1934-1943	following	_	_	
+9-12	1943-1944	.	_	_	
+9-13	1946-1947	!	_	_	
+
+#Text=[Different evaluation protocols](figs/example.png)
+#Text=
+#Text=## Human Evaluation Dataset
+#Text=You can download the human annotation dataset from `data/human_annotation_data.json`.
+10-1	1947-1948	[	_	_	
+10-2	1948-1957	Different	_	_	
+10-3	1958-1968	evaluation	_	_	
+10-4	1969-1978	protocols	_	_	
+10-5	1978-1979	]	_	_	
+10-6	1979-1980	(	_	_	
+10-7	1980-1984	figs	_	_	
+10-8	1984-1985	/	_	_	
+10-9	1985-1996	example.png	_	_	
+10-10	1996-1997	)	_	_	
+10-11	1999-2000	#	_	_	
+10-12	2000-2001	#	_	_	
+10-13	2002-2007	Human	_	_	
+10-14	2008-2018	Evaluation	_	_	
+10-15	2019-2026	Dataset	_	_	
+10-16	2027-2030	You	_	_	
+10-17	2031-2034	can	_	_	
+10-18	2035-2043	download	_	_	
+10-19	2044-2047	the	_	_	
+10-20	2048-2053	human	_	_	
+10-21	2054-2064	annotation	_	_	
+10-22	2065-2072	dataset	_	_	
+10-23	2073-2077	from	_	_	
+10-24	2078-2079	`	_	_	
+10-25	2079-2083	data	_	_	
+10-26	2083-2084	/	_	_	
+10-27	2084-2110	human_annotation_data.json	_	_	
+10-28	2110-2111	`	_	_	
+10-29	2111-2112	.	_	_	
+
+#Text=The json file is structured as follows:
+#Text=
+#Text=```
+#Text={"data": 
+#Text=      [{
+#Text=       # The model evaluated.
+11-1	2113-2116	The	_	_	
+11-2	2117-2121	json	_	_	
+11-3	2122-2126	file	_	_	
+11-4	2127-2129	is	_	_	
+11-5	2130-2140	structured	_	_	
+11-6	2141-2143	as	_	_	
+11-7	2144-2151	follows	_	_	
+11-8	2151-2152	:	_	_	
+11-9	2154-2155	`	_	_	
+11-10	2155-2156	`	_	_	
+11-11	2156-2157	`	_	_	
+11-12	2158-2159	{	_	_	
+11-13	2159-2160	"	_	_	
+11-14	2160-2164	data	_	_	
+11-15	2164-2165	"	_	_	
+11-16	2165-2166	:	_	_	
+11-17	2174-2175	[	_	_	
+11-18	2175-2176	{	_	_	
+11-19	2184-2185	#	_	_	
+11-20	2186-2189	The	_	_	
+11-21	2190-2195	model	_	_	
+11-22	2196-2205	evaluated	_	_	
+11-23	2205-2206	.	_	_	
+
+#Text=One of `bert4quac`, `graphflow`, `ham`, `excord`
+#Text=       "model_name": "graphflow",
+#Text=
+#Text=       # The passage used in this conversation.
+12-1	2207-2210	One	_	_	
+12-2	2211-2213	of	_	_	
+12-3	2214-2215	`	_	_	
+12-4	2215-2224	bert4quac	_	_	
+12-5	2224-2225	`	_	_	
+12-6	2225-2226	,	_	_	
+12-7	2227-2228	`	_	_	
+12-8	2228-2237	graphflow	_	_	
+12-9	2237-2238	`	_	_	
+12-10	2238-2239	,	_	_	
+12-11	2240-2241	`	_	_	
+12-12	2241-2244	ham	_	_	
+12-13	2244-2245	`	_	_	
+12-14	2245-2246	,	_	_	
+12-15	2247-2248	`	_	_	
+12-16	2248-2254	excord	_	_	
+12-17	2254-2255	`	_	_	
+12-18	2263-2264	"	_	_	
+12-19	2264-2274	model_name	_	_	
+12-20	2274-2275	"	_	_	
+12-21	2275-2276	:	_	_	
+12-22	2277-2278	"	_	_	
+12-23	2278-2287	graphflow	_	_	
+12-24	2287-2288	"	_	_	
+12-25	2288-2289	,	_	_	
+12-26	2298-2299	#	_	_	
+12-27	2300-2303	The	_	_	
+12-28	2304-2311	passage	_	_	
+12-29	2312-2316	used	_	_	
+12-30	2317-2319	in	_	_	
+12-31	2320-2324	this	_	_	
+12-32	2325-2337	conversation	_	_	
+12-33	2337-2338	.	_	_	
+
+#Text="context": "Azaria wrote and directed the 2004 short film Nobody's Perfect, ...",
+#Text=
+#Text=       # The ID from the original QuAC dataset.
+13-1	2346-2347	"	_	_	
+13-2	2347-2354	context	_	_	
+13-3	2354-2355	"	_	_	
+13-4	2355-2356	:	_	_	
+13-5	2357-2358	"	_	_	
+13-6	2358-2364	Azaria	_	_	
+13-7	2365-2370	wrote	_	_	
+13-8	2371-2374	and	_	_	
+13-9	2375-2383	directed	_	_	
+13-10	2384-2387	the	_	_	
+13-11	2388-2392	2004	_	_	
+13-12	2393-2398	short	_	_	
+13-13	2399-2403	film	_	_	
+13-14	2404-2412	Nobody's	_	_	
+13-15	2413-2420	Perfect	_	_	
+13-16	2420-2421	,	_	_	
+13-17	2422-2423	.	_	_	
+13-18	2423-2424	.	_	_	
+13-19	2424-2425	.	_	_	
+13-20	2425-2426	"	_	_	
+13-21	2426-2427	,	_	_	
+13-22	2436-2437	#	_	_	
+13-23	2438-2441	The	_	_	
+13-24	2442-2444	ID	_	_	
+13-25	2445-2449	from	_	_	
+13-26	2450-2453	the	_	_	
+13-27	2454-2462	original	_	_	
+13-28	2463-2467	QuAC	*	DATASET	
+13-29	2468-2475	dataset	_	_	
+13-30	2475-2476	.	_	_	
+
+#Text="dialog_id": "C_f0555dd820d84564a189474bbfffd4a1_1_0",
+#Text=
+#Text=       # The conversation, which contains a list of QA pairs.
+14-1	2484-2485	"	_	_	
+14-2	2485-2494	dialog_id	_	_	
+14-3	2494-2495	"	_	_	
+14-4	2495-2496	:	_	_	
+14-5	2497-2498	"	_	_	
+14-6	2498-2532	C_f0555dd820d84564a189474bbfffd4a1	_	_	
+14-7	2532-2533	_	_	_	
+14-8	2533-2534	1	_	_	
+14-9	2534-2535	_	_	_	
+14-10	2535-2536	0	_	_	
+14-11	2536-2537	"	_	_	
+14-12	2537-2538	,	_	_	
+14-13	2547-2548	#	_	_	
+14-14	2549-2552	The	_	_	
+14-15	2553-2565	conversation	_	_	
+14-16	2565-2566	,	_	_	
+14-17	2567-2572	which	_	_	
+14-18	2573-2581	contains	_	_	
+14-19	2582-2583	a	_	_	
+14-20	2584-2588	list	_	_	
+14-21	2589-2591	of	_	_	
+14-22	2592-2594	QA	_	_	
+14-23	2595-2600	pairs	_	_	
+14-24	2600-2601	.	_	_	
+
+#Text="qas": [{
+#Text=
+#Text=         # The number of the turn
+#Text=         "turn_id": 0,
+#Text=
+#Text=         # The question from the human annotator
+#Text=         "question": "What is some voice work he's done?"
+15-1	2609-2610	"	_	_	
+15-2	2610-2613	qas	_	_	
+15-3	2613-2614	"	_	_	
+15-4	2614-2615	:	_	_	
+15-5	2616-2617	[	_	_	
+15-6	2617-2618	{	_	_	
+15-7	2629-2630	#	_	_	
+15-8	2631-2634	The	_	_	
+15-9	2635-2641	number	_	_	
+15-10	2642-2644	of	_	_	
+15-11	2645-2648	the	_	_	
+15-12	2649-2653	turn	_	_	
+15-13	2663-2664	"	_	_	
+15-14	2664-2671	turn_id	_	_	
+15-15	2671-2672	"	_	_	
+15-16	2672-2673	:	_	_	
+15-17	2674-2675	0	_	_	
+15-18	2675-2676	,	_	_	
+15-19	2687-2688	#	_	_	
+15-20	2689-2692	The	_	_	
+15-21	2693-2701	question	_	_	
+15-22	2702-2706	from	_	_	
+15-23	2707-2710	the	_	_	
+15-24	2711-2716	human	_	_	
+15-25	2717-2726	annotator	_	_	
+15-26	2736-2737	"	_	_	
+15-27	2737-2745	question	_	_	
+15-28	2745-2746	"	_	_	
+15-29	2746-2747	:	_	_	
+15-30	2748-2749	"	_	_	
+15-31	2749-2753	What	_	_	
+15-32	2754-2756	is	_	_	
+15-33	2757-2761	some	_	_	
+15-34	2762-2767	voice	_	_	
+15-35	2768-2772	work	_	_	
+15-36	2773-2777	he's	_	_	
+15-37	2778-2782	done	_	_	
+15-38	2782-2783	?	_	_	
+15-39	2783-2784	"	_	_	
+
+#Text=,
+#Text=
+#Text=         # The answer from the model
+#Text=         "answer": "Azaria wrote and directed the 2004 short film Nobody's Perfect,",
+#Text=
+#Text=         # Whether the question is valid (annotated by our human annotator)
+#Text=         "valid": "y",
+#Text=
+#Text=         # Whether the question is answerable (annotated by our human annotator)
+#Text=         "answerable": "y",
+#Text=
+#Text=         # Whether the model's answer is correct (annotated by our human annotator)
+#Text=         "correct": "y",
+#Text=         
+#Text=         # Human annotator selects an answer, ONLY IF they marked the answer as incorrect
+#Text=         "gold_anno": ["Azaria wrote and directed ..."]
+#Text=         },
+#Text=         ...
+#Text=       ]
+#Text=      },
+#Text=      ...
+#Text=]
+#Text=```
+#Text=
+#Text=## Automatic model evaluation interface
+#Text=
+#Text=We provide a convenient interface to test model performance on a few evaluation protocols compared in our paper, including `Auto-Pred`, `Auto-Replace` and our proposed evaluation protocol, `Auto-Rewrite`, which better demonstrates models' performance in human-model conversations.
+16-1	2784-2785	,	_	_	
+16-2	2796-2797	#	_	_	
+16-3	2798-2801	The	_	_	
+16-4	2802-2808	answer	_	_	
+16-5	2809-2813	from	_	_	
+16-6	2814-2817	the	_	_	
+16-7	2818-2823	model	_	_	
+16-8	2833-2834	"	_	_	
+16-9	2834-2840	answer	_	_	
+16-10	2840-2841	"	_	_	
+16-11	2841-2842	:	_	_	
+16-12	2843-2844	"	_	_	
+16-13	2844-2850	Azaria	_	_	
+16-14	2851-2856	wrote	_	_	
+16-15	2857-2860	and	_	_	
+16-16	2861-2869	directed	_	_	
+16-17	2870-2873	the	_	_	
+16-18	2874-2878	2004	_	_	
+16-19	2879-2884	short	_	_	
+16-20	2885-2889	film	_	_	
+16-21	2890-2898	Nobody's	_	_	
+16-22	2899-2906	Perfect	_	_	
+16-23	2906-2907	,	_	_	
+16-24	2907-2908	"	_	_	
+16-25	2908-2909	,	_	_	
+16-26	2920-2921	#	_	_	
+16-27	2922-2929	Whether	_	_	
+16-28	2930-2933	the	_	_	
+16-29	2934-2942	question	_	_	
+16-30	2943-2945	is	_	_	
+16-31	2946-2951	valid	_	_	
+16-32	2952-2953	(	_	_	
+16-33	2953-2962	annotated	_	_	
+16-34	2963-2965	by	_	_	
+16-35	2966-2969	our	_	_	
+16-36	2970-2975	human	_	_	
+16-37	2976-2985	annotator	_	_	
+16-38	2985-2986	)	_	_	
+16-39	2996-2997	"	_	_	
+16-40	2997-3002	valid	_	_	
+16-41	3002-3003	"	_	_	
+16-42	3003-3004	:	_	_	
+16-43	3005-3006	"	_	_	
+16-44	3006-3007	y	_	_	
+16-45	3007-3008	"	_	_	
+16-46	3008-3009	,	_	_	
+16-47	3020-3021	#	_	_	
+16-48	3022-3029	Whether	_	_	
+16-49	3030-3033	the	_	_	
+16-50	3034-3042	question	_	_	
+16-51	3043-3045	is	_	_	
+16-52	3046-3056	answerable	_	_	
+16-53	3057-3058	(	_	_	
+16-54	3058-3067	annotated	_	_	
+16-55	3068-3070	by	_	_	
+16-56	3071-3074	our	_	_	
+16-57	3075-3080	human	_	_	
+16-58	3081-3090	annotator	_	_	
+16-59	3090-3091	)	_	_	
+16-60	3101-3102	"	_	_	
+16-61	3102-3112	answerable	_	_	
+16-62	3112-3113	"	_	_	
+16-63	3113-3114	:	_	_	
+16-64	3115-3116	"	_	_	
+16-65	3116-3117	y	_	_	
+16-66	3117-3118	"	_	_	
+16-67	3118-3119	,	_	_	
+16-68	3130-3131	#	_	_	
+16-69	3132-3139	Whether	_	_	
+16-70	3140-3143	the	_	_	
+16-71	3144-3151	model's	_	_	
+16-72	3152-3158	answer	_	_	
+16-73	3159-3161	is	_	_	
+16-74	3162-3169	correct	_	_	
+16-75	3170-3171	(	_	_	
+16-76	3171-3180	annotated	_	_	
+16-77	3181-3183	by	_	_	
+16-78	3184-3187	our	_	_	
+16-79	3188-3193	human	_	_	
+16-80	3194-3203	annotator	_	_	
+16-81	3203-3204	)	_	_	
+16-82	3214-3215	"	_	_	
+16-83	3215-3222	correct	_	_	
+16-84	3222-3223	"	_	_	
+16-85	3223-3224	:	_	_	
+16-86	3225-3226	"	_	_	
+16-87	3226-3227	y	_	_	
+16-88	3227-3228	"	_	_	
+16-89	3228-3229	,	_	_	
+16-90	3249-3250	#	_	_	
+16-91	3251-3256	Human	_	_	
+16-92	3257-3266	annotator	_	_	
+16-93	3267-3274	selects	_	_	
+16-94	3275-3277	an	_	_	
+16-95	3278-3284	answer	_	_	
+16-96	3284-3285	,	_	_	
+16-97	3286-3290	ONLY	_	_	
+16-98	3291-3293	IF	_	_	
+16-99	3294-3298	they	_	_	
+16-100	3299-3305	marked	_	_	
+16-101	3306-3309	the	_	_	
+16-102	3310-3316	answer	_	_	
+16-103	3317-3319	as	_	_	
+16-104	3320-3329	incorrect	_	_	
+16-105	3339-3340	"	_	_	
+16-106	3340-3349	gold_anno	_	_	
+16-107	3349-3350	"	_	_	
+16-108	3350-3351	:	_	_	
+16-109	3352-3353	[	_	_	
+16-110	3353-3354	"	_	_	
+16-111	3354-3360	Azaria	_	_	
+16-112	3361-3366	wrote	_	_	
+16-113	3367-3370	and	_	_	
+16-114	3371-3379	directed	_	_	
+16-115	3380-3381	.	_	_	
+16-116	3381-3382	.	_	_	
+16-117	3382-3383	.	_	_	
+16-118	3383-3384	"	_	_	
+16-119	3384-3385	]	_	_	
+16-120	3395-3396	}	_	_	
+16-121	3396-3397	,	_	_	
+16-122	3407-3408	.	_	_	
+16-123	3408-3409	.	_	_	
+16-124	3409-3410	.	_	_	
+16-125	3418-3419	]	_	_	
+16-126	3426-3427	}	_	_	
+16-127	3427-3428	,	_	_	
+16-128	3435-3436	.	_	_	
+16-129	3436-3437	.	_	_	
+16-130	3437-3438	.	_	_	
+16-131	3439-3440	]	_	_	
+16-132	3441-3442	`	_	_	
+16-133	3442-3443	`	_	_	
+16-134	3443-3444	`	_	_	
+16-135	3446-3447	#	_	_	
+16-136	3447-3448	#	_	_	
+16-137	3449-3458	Automatic	_	_	
+16-138	3459-3464	model	_	_	
+16-139	3465-3475	evaluation	_	_	
+16-140	3476-3485	interface	_	_	
+16-141	3487-3489	We	_	_	
+16-142	3490-3497	provide	_	_	
+16-143	3498-3499	a	_	_	
+16-144	3500-3510	convenient	_	_	
+16-145	3511-3520	interface	_	_	
+16-146	3521-3523	to	_	_	
+16-147	3524-3528	test	_	_	
+16-148	3529-3534	model	_	_	
+16-149	3535-3546	performance	_	_	
+16-150	3547-3549	on	_	_	
+16-151	3550-3551	a	_	_	
+16-152	3552-3555	few	_	_	
+16-153	3556-3566	evaluation	_	_	
+16-154	3567-3576	protocols	_	_	
+16-155	3577-3585	compared	_	_	
+16-156	3586-3588	in	_	_	
+16-157	3589-3592	our	_	_	
+16-158	3593-3598	paper	_	_	
+16-159	3598-3599	,	_	_	
+16-160	3600-3609	including	_	_	
+16-161	3610-3611	`	_	_	
+16-162	3611-3620	Auto-Pred	_	_	
+16-163	3620-3621	`	_	_	
+16-164	3621-3622	,	_	_	
+16-165	3623-3624	`	_	_	
+16-166	3624-3636	Auto-Replace	_	_	
+16-167	3636-3637	`	_	_	
+16-168	3638-3641	and	_	_	
+16-169	3642-3645	our	_	_	
+16-170	3646-3654	proposed	_	_	
+16-171	3655-3665	evaluation	_	_	
+16-172	3666-3674	protocol	_	_	
+16-173	3674-3675	,	_	_	
+16-174	3676-3677	`	_	_	
+16-175	3677-3689	Auto-Rewrite	_	_	
+16-176	3689-3690	`	_	_	
+16-177	3690-3691	,	_	_	
+16-178	3692-3697	which	_	_	
+16-179	3698-3704	better	_	_	
+16-180	3705-3717	demonstrates	_	_	
+16-181	3718-3724	models	_	_	
+16-182	3724-3725	'	_	_	
+16-183	3726-3737	performance	_	_	
+16-184	3738-3740	in	_	_	
+16-185	3741-3752	human-model	_	_	
+16-186	3753-3766	conversations	_	_	
+16-187	3766-3767	.	_	_	
+
+#Text=Please refer to our paper for more details.
+17-1	3768-3774	Please	_	_	
+17-2	3775-3780	refer	_	_	
+17-3	3781-3783	to	_	_	
+17-4	3784-3787	our	_	_	
+17-5	3788-3793	paper	_	_	
+17-6	3794-3797	for	_	_	
+17-7	3798-3802	more	_	_	
+17-8	3803-3810	details	_	_	
+17-9	3810-3811	.	_	_	
+
+#Text=Following is a figure describing how Auto-Rewrite works.
+#Text=
+#Text=!
+18-1	3812-3821	Following	_	_	
+18-2	3822-3824	is	_	_	
+18-3	3825-3826	a	_	_	
+18-4	3827-3833	figure	_	_	
+18-5	3834-3844	describing	_	_	
+18-6	3845-3848	how	_	_	
+18-7	3849-3861	Auto-Rewrite	_	_	
+18-8	3862-3867	works	_	_	
+18-9	3867-3868	.	_	_	
+18-10	3870-3871	!	_	_	
+
+#Text=[Auto-rewrite](figs/autorewrite.png)
+#Text=
+#Text=## Setup
+#Text=
+#Text=### Install dependencies
+#Text=
+#Text=Please install all dependency packages using the following command:
+#Text=```bash
+#Text=pip install -r requirements.txt
+#Text=```
+#Text=
+#Text=### Download the datasets
+#Text=
+#Text=Our experiments use [QuAC dataset](https://quac.ai) for passages and conversations, and the test set of [CANARD dataset](https://sites.google.com/view/qanta/projects/canard) for context-independent questions in `Auto-Replace`.
+#Text=
+#Text=## Evaluating existing models
+#Text=
+#Text=We provide our implementations for the four models that we used in our paper: BERT, [GraphFlow](https://www.ijcai.org/Proceedings/2020/171), [HAM](https://dl.acm.org/doi/abs/10.1145/3357384.3357905), [ExCorD](https://aclanthology.org/2021.acl-long.478/).
+19-1	3871-3872	[	_	_	
+19-2	3872-3884	Auto-rewrite	_	_	
+19-3	3884-3885	]	_	_	
+19-4	3885-3886	(	_	_	
+19-5	3886-3890	figs	_	_	
+19-6	3890-3891	/	_	_	
+19-7	3891-3906	autorewrite.png	_	_	
+19-8	3906-3907	)	_	_	
+19-9	3909-3910	#	_	_	
+19-10	3910-3911	#	_	_	
+19-11	3912-3917	Setup	_	_	
+19-12	3919-3920	#	_	_	
+19-13	3920-3921	#	_	_	
+19-14	3921-3922	#	_	_	
+19-15	3923-3930	Install	_	_	
+19-16	3931-3943	dependencies	_	_	
+19-17	3945-3951	Please	_	_	
+19-18	3952-3959	install	_	_	
+19-19	3960-3963	all	_	_	
+19-20	3964-3974	dependency	_	_	
+19-21	3975-3983	packages	_	_	
+19-22	3984-3989	using	_	_	
+19-23	3990-3993	the	_	_	
+19-24	3994-4003	following	_	_	
+19-25	4004-4011	command	_	_	
+19-26	4011-4012	:	_	_	
+19-27	4013-4014	`	_	_	
+19-28	4014-4015	`	_	_	
+19-29	4015-4016	`	_	_	
+19-30	4016-4020	bash	*	PROGLANG	
+19-31	4021-4024	pip	*	SOFTWARE	
+19-32	4025-4032	install	_	_	
+19-33	4033-4034	-	_	_	
+19-34	4034-4035	r	_	_	
+19-35	4036-4052	requirements.txt	_	_	
+19-36	4053-4054	`	_	_	
+19-37	4054-4055	`	_	_	
+19-38	4055-4056	`	_	_	
+19-39	4058-4059	#	_	_	
+19-40	4059-4060	#	_	_	
+19-41	4060-4061	#	_	_	
+19-42	4062-4070	Download	_	_	
+19-43	4071-4074	the	_	_	
+19-44	4075-4083	datasets	_	_	
+19-45	4085-4088	Our	_	_	
+19-46	4089-4100	experiments	_	_	
+19-47	4101-4104	use	_	_	
+19-48	4105-4106	[	_	_	
+19-49	4106-4110	QuAC	*	DATASET	
+19-50	4111-4118	dataset	_	_	
+19-51	4118-4119	]	_	_	
+19-52	4119-4120	(	_	_	
+19-53	4120-4125	https	_	_	
+19-54	4125-4126	:	_	_	
+19-55	4126-4127	/	_	_	
+19-56	4127-4128	/	_	_	
+19-57	4128-4135	quac.ai	_	_	
+19-57.1	4128-4132	quac	*	DATASET	
+19-58	4135-4136	)	_	_	
+19-59	4137-4140	for	_	_	
+19-60	4141-4149	passages	_	_	
+19-61	4150-4153	and	_	_	
+19-62	4154-4167	conversations	_	_	
+19-63	4167-4168	,	_	_	
+19-64	4169-4172	and	_	_	
+19-65	4173-4176	the	_	_	
+19-66	4177-4181	test	_	_	
+19-67	4182-4185	set	_	_	
+19-68	4186-4188	of	_	_	
+19-69	4189-4190	[	_	_	
+19-70	4190-4196	CANARD	*	DATASET	
+19-71	4197-4204	dataset	_	_	
+19-72	4204-4205	]	_	_	
+19-73	4205-4206	(	_	_	
+19-74	4206-4211	https	_	_	
+19-75	4211-4212	:	_	_	
+19-76	4212-4213	/	_	_	
+19-77	4213-4214	/	_	_	
+19-78	4214-4230	sites.google.com	_	_	
+19-79	4230-4231	/	_	_	
+19-80	4231-4235	view	_	_	
+19-81	4235-4236	/	_	_	
+19-82	4236-4241	qanta	_	_	
+19-83	4241-4242	/	_	_	
+19-84	4242-4250	projects	_	_	
+19-85	4250-4251	/	_	_	
+19-86	4251-4257	canard	_	_	
+19-87	4257-4258	)	_	_	
+19-88	4259-4262	for	_	_	
+19-89	4263-4282	context-independent	_	_	
+19-90	4283-4292	questions	_	_	
+19-91	4293-4295	in	_	_	
+19-92	4296-4297	`	_	_	
+19-93	4297-4309	Auto-Replace	_	_	
+19-94	4309-4310	`	_	_	
+19-95	4310-4311	.	_	_	
+19-96	4313-4314	#	_	_	
+19-97	4314-4315	#	_	_	
+19-98	4316-4326	Evaluating	_	_	
+19-99	4327-4335	existing	_	_	
+19-100	4336-4342	models	_	_	
+19-101	4344-4346	We	_	_	
+19-102	4347-4354	provide	_	_	
+19-103	4355-4358	our	_	_	
+19-104	4359-4374	implementations	_	_	
+19-105	4375-4378	for	_	_	
+19-106	4379-4382	the	_	_	
+19-107	4383-4387	four	_	_	
+19-108	4388-4394	models	_	_	
+19-109	4395-4399	that	_	_	
+19-110	4400-4402	we	_	_	
+19-111	4403-4407	used	_	_	
+19-112	4408-4410	in	_	_	
+19-113	4411-4414	our	_	_	
+19-114	4415-4420	paper	_	_	
+19-115	4420-4421	:	_	_	
+19-116	4422-4426	BERT	*	SOFTWARE	
+19-117	4426-4427	,	_	_	
+19-118	4428-4429	[	_	_	
+19-119	4429-4438	GraphFlow	*	SOFTWARE	
+19-120	4438-4439	]	_	_	
+19-121	4439-4440	(	_	_	
+19-122	4440-4445	https	_	_	
+19-123	4445-4446	:	_	_	
+19-124	4446-4447	/	_	_	
+19-125	4447-4448	/	_	_	
+19-126	4448-4461	www.ijcai.org	_	_	
+19-126.1	4452-4457	ijcai	*	CONFERENCE	
+19-127	4461-4462	/	_	_	
+19-128	4462-4473	Proceedings	_	_	
+19-129	4473-4474	/	_	_	
+19-130	4474-4478	2020	_	_	
+19-131	4478-4479	/	_	_	
+19-132	4479-4482	171	_	_	
+19-133	4482-4483	)	_	_	
+19-134	4483-4484	,	_	_	
+19-135	4485-4486	[	_	_	
+19-136	4486-4489	HAM	*	SOFTWARE	
+19-137	4489-4490	]	_	_	
+19-138	4490-4491	(	_	_	
+19-139	4491-4496	https	_	_	
+19-140	4496-4497	:	_	_	
+19-141	4497-4498	/	_	_	
+19-142	4498-4499	/	_	_	
+19-143	4499-4509	dl.acm.org	_	_	
+19-144	4509-4510	/	_	_	
+19-145	4510-4513	doi	_	_	
+19-146	4513-4514	/	_	_	
+19-147	4514-4517	abs	_	_	
+19-148	4517-4518	/	_	_	
+19-149	4518-4525	10.1145	_	_	
+19-150	4525-4526	/	_	_	
+19-151	4526-4541	3357384.3357905	_	_	
+19-152	4541-4542	)	_	_	
+19-153	4542-4543	,	_	_	
+19-154	4544-4545	[	_	_	
+19-155	4545-4551	ExCorD	*	SOFTWARE	
+19-156	4551-4552	]	_	_	
+19-157	4552-4553	(	_	_	
+19-158	4553-4558	https	_	_	
+19-159	4558-4559	:	_	_	
+19-160	4559-4560	/	_	_	
+19-161	4560-4561	/	_	_	
+19-162	4561-4577	aclanthology.org	_	_	
+19-163	4577-4578	/	_	_	
+19-164	4578-4582	2021	_	_	
+19-165	4582-4583	.	_	_	
+19-166	4583-4591	acl-long	_	_	
+19-166.1	4583-4586	acl	*	CONFERENCE	
+19-167	4591-4595	.478	_	_	
+19-168	4595-4596	/	_	_	
+19-169	4596-4597	)	_	_	
+19-170	4597-4598	.	_	_	
+
+#Text=We modified exisiting implementation online to use model predictions as conversation history.
+20-1	4599-4601	We	_	_	
+20-2	4602-4610	modified	_	_	
+20-3	4611-4620	exisiting	_	_	
+20-4	4621-4635	implementation	_	_	
+20-5	4636-4642	online	_	_	
+20-6	4643-4645	to	_	_	
+20-7	4646-4649	use	_	_	
+20-8	4650-4655	model	_	_	
+20-9	4656-4667	predictions	_	_	
+20-10	4668-4670	as	_	_	
+20-11	4671-4683	conversation	_	_	
+20-12	4684-4691	history	_	_	
+20-13	4691-4692	.	_	_	
+
+#Text=Below are the instructions to run evaluation script on each of these models.
+#Text=
+#Text=### BERT
+#Text=We implemented and trained our own BERT model.
+21-1	4693-4698	Below	_	_	
+21-2	4699-4702	are	_	_	
+21-3	4703-4706	the	_	_	
+21-4	4707-4719	instructions	_	_	
+21-5	4720-4722	to	_	_	
+21-6	4723-4726	run	_	_	
+21-7	4727-4737	evaluation	_	_	
+21-8	4738-4744	script	_	_	
+21-9	4745-4747	on	_	_	
+21-10	4748-4752	each	_	_	
+21-11	4753-4755	of	_	_	
+21-12	4756-4761	these	_	_	
+21-13	4762-4768	models	_	_	
+21-14	4768-4769	.	_	_	
+21-15	4771-4772	#	_	_	
+21-16	4772-4773	#	_	_	
+21-17	4773-4774	#	_	_	
+21-18	4775-4779	BERT	_	_	
+21-19	4780-4782	We	_	_	
+21-20	4783-4794	implemented	_	_	
+21-21	4795-4798	and	_	_	
+21-22	4799-4806	trained	_	_	
+21-23	4807-4810	our	_	_	
+21-24	4811-4814	own	_	_	
+21-25	4815-4819	BERT	_	_	
+21-26	4820-4825	model	_	_	
+21-27	4825-4826	.	_	_	
+
+#Text=```bash
+#Text=# Run Training
+#Text=python run_quac_train.py \\
+#Text=  --type bert \\
+#Text=  --model_name_or_path bert-base-uncased \\
+#Text=  --do_train \\
+#Text=  --output_dir ${directory_to_save_model} \\
+#Text=  --overwrite_output_dir \\
+#Text=  --train_file ${path_to_quac_train_file} \\
+#Text=  --train_batch_size 8 \\
+#Text=  --gradient_accumulation_steps 4 \\
+#Text=  --max_seq_length 512 \\
+#Text=  --learning_rate 3e-5 \\
+#Text=  --history_len 2 \\
+#Text=  --warmup_proportion 0.1 \\
+#Text=  --max_grad_norm -1 \\
+#Text=  --weight_decay 0.01 \\
+#Text=  --rationale_beta 0 \\ # important for BERT
+#Text=
+#Text=# Run Evaluation (Auto-Rewrite as example)
+#Text=python run_quac_eval.py \\
+#Text=  --type bert \\
+#Text=  --output_dir ${directory-to-model-checkpoint} \\
+#Text=  --write_dir ${directory-to-write-evaluation-result} \\
+#Text=  --predict_file val_v0.2.json \\
+#Text=  --max_seq_length 512 \\
+#Text=  --doc_stride 128 \\
+#Text=  --max_query_length 64 \\
+#Text=  --match_metric f1 \\
+#Text=  --add_background \\
+#Text=  --skip_entity \\
+#Text=  --rewrite \\
+#Text=  --start_i ${index_of_first_passage_to_eval} \\
+#Text=  --end_i ${index_of_last_passage_to_eval_exclusive} \\
+#Text=```
+#Text=
+#Text=
+#Text=### GraphFlow
+#Text=We did not find an uploaded model checkpoint so we trained our own using [their training script](https://github.com/hugochan/GraphFlow).
+22-1	4827-4828	`	_	_	
+22-2	4828-4829	`	_	_	
+22-3	4829-4830	`	_	_	
+22-4	4830-4834	bash	*	PROGLANG	
+22-5	4835-4836	#	_	_	
+22-6	4837-4840	Run	_	_	
+22-7	4841-4849	Training	_	_	
+22-8	4850-4856	python	*	SOFTWARE	
+22-9	4857-4874	run_quac_train.py	_	_	
+22-10	4875-4876	\	_	_	
+22-11	4879-4880	-	_	_	
+22-12	4880-4881	-	_	_	
+22-13	4881-4885	type	_	_	
+22-14	4886-4890	bert	_	_	
+22-15	4891-4892	\	_	_	
+22-16	4895-4896	-	_	_	
+22-17	4896-4897	-	_	_	
+22-18	4897-4915	model_name_or_path	_	_	
+22-19	4916-4933	bert-base-uncased	_	_	
+22-20	4934-4935	\	_	_	
+22-21	4938-4939	-	_	_	
+22-22	4939-4940	-	_	_	
+22-23	4940-4948	do_train	_	_	
+22-24	4949-4950	\	_	_	
+22-25	4953-4954	-	_	_	
+22-26	4954-4955	-	_	_	
+22-27	4955-4965	output_dir	_	_	
+22-28	4966-4967	$	_	_	
+22-29	4967-4968	{	_	_	
+22-30	4968-4991	directory_to_save_model	_	_	
+22-31	4991-4992	}	_	_	
+22-32	4993-4994	\	_	_	
+22-33	4997-4998	-	_	_	
+22-34	4998-4999	-	_	_	
+22-35	4999-5019	overwrite_output_dir	_	_	
+22-36	5020-5021	\	_	_	
+22-37	5024-5025	-	_	_	
+22-38	5025-5026	-	_	_	
+22-39	5026-5036	train_file	_	_	
+22-40	5037-5038	$	_	_	
+22-41	5038-5039	{	_	_	
+22-42	5039-5062	path_to_quac_train_file	_	_	
+22-43	5062-5063	}	_	_	
+22-44	5064-5065	\	_	_	
+22-45	5068-5069	-	_	_	
+22-46	5069-5070	-	_	_	
+22-47	5070-5086	train_batch_size	_	_	
+22-48	5087-5088	8	_	_	
+22-49	5089-5090	\	_	_	
+22-50	5093-5094	-	_	_	
+22-51	5094-5095	-	_	_	
+22-52	5095-5122	gradient_accumulation_steps	_	_	
+22-53	5123-5124	4	_	_	
+22-54	5125-5126	\	_	_	
+22-55	5129-5130	-	_	_	
+22-56	5130-5131	-	_	_	
+22-57	5131-5145	max_seq_length	_	_	
+22-58	5146-5149	512	_	_	
+22-59	5150-5151	\	_	_	
+22-60	5154-5155	-	_	_	
+22-61	5155-5156	-	_	_	
+22-62	5156-5169	learning_rate	_	_	
+22-63	5170-5172	3e	_	_	
+22-64	5172-5173	-	_	_	
+22-65	5173-5174	5	_	_	
+22-66	5175-5176	\	_	_	
+22-67	5179-5180	-	_	_	
+22-68	5180-5181	-	_	_	
+22-69	5181-5192	history_len	_	_	
+22-70	5193-5194	2	_	_	
+22-71	5195-5196	\	_	_	
+22-72	5199-5200	-	_	_	
+22-73	5200-5201	-	_	_	
+22-74	5201-5218	warmup_proportion	_	_	
+22-75	5219-5222	0.1	_	_	
+22-76	5223-5224	\	_	_	
+22-77	5227-5228	-	_	_	
+22-78	5228-5229	-	_	_	
+22-79	5229-5242	max_grad_norm	_	_	
+22-80	5243-5244	-	_	_	
+22-81	5244-5245	1	_	_	
+22-82	5246-5247	\	_	_	
+22-83	5250-5251	-	_	_	
+22-84	5251-5252	-	_	_	
+22-85	5252-5264	weight_decay	_	_	
+22-86	5265-5269	0.01	_	_	
+22-87	5270-5271	\	_	_	
+22-88	5274-5275	-	_	_	
+22-89	5275-5276	-	_	_	
+22-90	5276-5290	rationale_beta	_	_	
+22-91	5291-5292	0	_	_	
+22-92	5293-5294	\	_	_	
+22-93	5295-5296	#	_	_	
+22-94	5297-5306	important	_	_	
+22-95	5307-5310	for	_	_	
+22-96	5311-5315	BERT	_	_	
+22-97	5317-5318	#	_	_	
+22-98	5319-5322	Run	_	_	
+22-99	5323-5333	Evaluation	_	_	
+22-100	5334-5335	(	_	_	
+22-101	5335-5347	Auto-Rewrite	_	_	
+22-102	5348-5350	as	_	_	
+22-103	5351-5358	example	_	_	
+22-104	5358-5359	)	_	_	
+22-105	5360-5366	python	*	SOFTWARE	
+22-106	5367-5383	run_quac_eval.py	_	_	
+22-107	5384-5385	\	_	_	
+22-108	5388-5389	-	_	_	
+22-109	5389-5390	-	_	_	
+22-110	5390-5394	type	_	_	
+22-111	5395-5399	bert	_	_	
+22-112	5400-5401	\	_	_	
+22-113	5404-5405	-	_	_	
+22-114	5405-5406	-	_	_	
+22-115	5406-5416	output_dir	_	_	
+22-116	5417-5418	$	_	_	
+22-117	5418-5419	{	_	_	
+22-118	5419-5448	directory-to-model-checkpoint	_	_	
+22-119	5448-5449	}	_	_	
+22-120	5450-5451	\	_	_	
+22-121	5454-5455	-	_	_	
+22-122	5455-5456	-	_	_	
+22-123	5456-5465	write_dir	_	_	
+22-124	5466-5467	$	_	_	
+22-125	5467-5468	{	_	_	
+22-126	5468-5504	directory-to-write-evaluation-result	_	_	
+22-127	5504-5505	}	_	_	
+22-128	5506-5507	\	_	_	
+22-129	5510-5511	-	_	_	
+22-130	5511-5512	-	_	_	
+22-131	5512-5524	predict_file	_	_	
+22-132	5525-5533	val_v0.2	_	_	
+22-133	5533-5534	.	_	_	
+22-134	5534-5538	json	_	_	
+22-135	5539-5540	\	_	_	
+22-136	5543-5544	-	_	_	
+22-137	5544-5545	-	_	_	
+22-138	5545-5559	max_seq_length	_	_	
+22-139	5560-5563	512	_	_	
+22-140	5564-5565	\	_	_	
+22-141	5568-5569	-	_	_	
+22-142	5569-5570	-	_	_	
+22-143	5570-5580	doc_stride	_	_	
+22-144	5581-5584	128	_	_	
+22-145	5585-5586	\	_	_	
+22-146	5589-5590	-	_	_	
+22-147	5590-5591	-	_	_	
+22-148	5591-5607	max_query_length	_	_	
+22-149	5608-5610	64	_	_	
+22-150	5611-5612	\	_	_	
+22-151	5615-5616	-	_	_	
+22-152	5616-5617	-	_	_	
+22-153	5617-5629	match_metric	_	_	
+22-154	5630-5632	f1	_	_	
+22-155	5633-5634	\	_	_	
+22-156	5637-5638	-	_	_	
+22-157	5638-5639	-	_	_	
+22-158	5639-5653	add_background	_	_	
+22-159	5654-5655	\	_	_	
+22-160	5658-5659	-	_	_	
+22-161	5659-5660	-	_	_	
+22-162	5660-5671	skip_entity	_	_	
+22-163	5672-5673	\	_	_	
+22-164	5676-5677	-	_	_	
+22-165	5677-5678	-	_	_	
+22-166	5678-5685	rewrite	_	_	
+22-167	5686-5687	\	_	_	
+22-168	5690-5691	-	_	_	
+22-169	5691-5692	-	_	_	
+22-170	5692-5699	start_i	_	_	
+22-171	5700-5701	$	_	_	
+22-172	5701-5702	{	_	_	
+22-173	5702-5732	index_of_first_passage_to_eval	_	_	
+22-174	5732-5733	}	_	_	
+22-175	5734-5735	\	_	_	
+22-176	5738-5739	-	_	_	
+22-177	5739-5740	-	_	_	
+22-178	5740-5745	end_i	_	_	
+22-179	5746-5747	$	_	_	
+22-180	5747-5748	{	_	_	
+22-181	5748-5787	index_of_last_passage_to_eval_exclusive	_	_	
+22-182	5787-5788	}	_	_	
+22-183	5789-5790	\	_	_	
+22-184	5791-5792	`	_	_	
+22-185	5792-5793	`	_	_	
+22-186	5793-5794	`	_	_	
+22-187	5797-5798	#	_	_	
+22-188	5798-5799	#	_	_	
+22-189	5799-5800	#	_	_	
+22-190	5801-5810	GraphFlow	*	SOFTWARE	
+22-191	5811-5813	We	_	_	
+22-192	5814-5817	did	_	_	
+22-193	5818-5821	not	_	_	
+22-194	5822-5826	find	_	_	
+22-195	5827-5829	an	_	_	
+22-196	5830-5838	uploaded	_	_	
+22-197	5839-5844	model	_	_	
+22-198	5845-5855	checkpoint	_	_	
+22-199	5856-5858	so	_	_	
+22-200	5859-5861	we	_	_	
+22-201	5862-5869	trained	_	_	
+22-202	5870-5873	our	_	_	
+22-203	5874-5877	own	_	_	
+22-204	5878-5883	using	_	_	
+22-205	5884-5885	[	_	_	
+22-206	5885-5890	their	_	_	
+22-207	5891-5899	training	_	_	
+22-208	5900-5906	script	_	_	
+22-209	5906-5907	]	_	_	
+22-210	5907-5908	(	_	_	
+22-211	5908-5913	https	_	_	
+22-212	5913-5914	:	_	_	
+22-213	5914-5915	/	_	_	
+22-214	5915-5916	/	_	_	
+22-215	5916-5926	github.com	_	_	
+22-216	5926-5927	/	_	_	
+22-217	5927-5935	hugochan	_	_	
+22-218	5935-5936	/	_	_	
+22-219	5936-5945	GraphFlow	_	_	
+22-220	5945-5946	)	_	_	
+22-221	5946-5947	.	_	_	
+
+#Text=```bash
+#Text=
+#Text=# Download Stanford CoreNLP package
+#Text=wget https://nlp.stanford.edu/software/stanford-corenlp-latest.zip
+#Text=unzip stanford-corenlp-latest.zip
+#Text=rm -f stanford-corenlp-latest.zip
+#Text=
+#Text=# Start StanfordCoreNLP server
+#Text=java -mx4g -cp "${directory_to_standford_corenlp_package}" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 &
+#Text=
+#Text=# Run Evaluation (Auto-Rewrite as example)
+#Text=python run_quac_eval.py \\
+#Text=    --type graphflow \\
+#Text=    --predict_file ${path-to-annotated-dev-json-file} \\
+#Text=    --output_dir ${directory-to-model-checkpoint} \\
+#Text=    --saved_vocab_file ${directory-to-saved-model-vocab} \\
+#Text=    --pretrained ${directory-to-model-checkpoint} \\
+#Text=    --write_dir /n/fs/scratch/huihanl/unified/graphflow/write \\
+#Text=    --match_metric f1 \\
+#Text=    --add_background \\
+#Text=    --skip_entity \\
+#Text=    --rewrite \\
+#Text=    --fix_vocab_embed \\
+#Text=    --f_qem \\
+#Text=    --f_pos \\
+#Text=    --f_ner \\
+#Text=    --use_ques_marker \\
+#Text=    --use_gnn \\
+#Text=    --temporal_gnn \\
+#Text=    --use_bert \\
+#Text=    --use_bert_weight \\
+#Text=    --shuffle \\
+#Text=    --out_predictions \\
+#Text=    --predict_raw_text \\
+#Text=    --out_pred_in_folder \\
+#Text=    --optimizer adamax \\
+#Text=    --start_i ${index_of_first_passage_to_eval} \\
+#Text=    --end_i ${index_of_last_passage_to_eval_exclusive} \\
+#Text=```
+#Text=
+#Text=
+#Text=### HAM
+#Text=The orgininal model checkpoint can be downloaded from [CodaLab](https://worksheets.codalab.org/rest/bundles/0x5c08cb0fb90c4afd8a2811bb63023cce/contents/blob/)
+#Text=
+#Text=```bash
+#Text=# Run Evaluation (Auto-Rewrite as example)
+#Text=python run_quac_eval.py \\
+#Text=  --type ham \\
+#Text=  --output_dir ${directory-to-model-checkpoint} \\
+#Text=  --write_dir ${directory-to-write-evaluation-result} \\
+#Text=  --predict_file val_v0.2.json \\
+#Text=  --max_seq_length 512 \\
+#Text=  --doc_stride 128 \\
+#Text=  --max_query_length 64 \\
+#Text=  --do_lower_case \\
+#Text=  --history_len 6 \\
+#Text=  --match_metric f1 \\
+#Text=  --add_background \\
+#Text=  --skip_entity \\
+#Text=  --replace \\
+#Text=  --init_checkpoint ${directory-to-model-checkpoint}/model_52000.ckpt \\
+#Text=  --bert_config_file ${directory-to-pretrained-bert-large-uncased}/bert_config.json \\
+#Text=  --vocab_file ${directory-to-model-checkpoint}/vocab.txt \\
+#Text=  --MTL_mu 0.8 \\
+#Text=  --MTL_lambda 0.1 \\
+#Text=  --mtl_input reduce_mean \\
+#Text=  --max_answer_length 40 \\
+#Text=  --max_considered_history_turns 4 \\
+#Text=  --bert_hidden 1024 \\
+#Text=  --fine_grained_attention \\
+#Text=  --better_hae \\
+#Text=  --MTL \\
+#Text=  --use_history_answer_marker \\
+#Text=  --start_i ${index_of_first_passage_to_eval} \\
+#Text=  --end_i ${index_of_last_passage_to_eval_exclusive} \\
+#Text=```
+#Text=
+#Text=
+#Text=### ExCorD
+#Text=The original model checkpoint can be downloaded from [their repo](https://drive.google.com/file/d/1Xf0-XUvGi7jgiAAdA5BQLk7p5ikc_wOl/view?
+23-1	5948-5949	`	_	_	
+23-2	5949-5950	`	_	_	
+23-3	5950-5951	`	_	_	
+23-4	5951-5955	bash	*	PROGLANG	
+23-5	5957-5958	#	_	_	
+23-6	5959-5967	Download	_	_	
+23-7	5968-5976	Stanford	*[4]	SOFTWARE[4]	
+23-8	5977-5984	CoreNLP	*[4]	SOFTWARE[4]	
+23-9	5985-5992	package	_	_	
+23-10	5993-5997	wget	*	SOFTWARE	
+23-11	5998-6003	https	_	_	
+23-12	6003-6004	:	_	_	
+23-13	6004-6005	/	_	_	
+23-14	6005-6006	/	_	_	
+23-15	6006-6022	nlp.stanford.edu	_	_	
+23-16	6022-6023	/	_	_	
+23-17	6023-6031	software	_	_	
+23-18	6031-6032	/	_	_	
+23-19	6032-6059	stanford-corenlp-latest.zip	_	_	
+23-19.1	6032-6048	stanford-corenlp	*	SOFTWARE	
+23-20	6060-6065	unzip	_	_	
+23-21	6066-6093	stanford-corenlp-latest.zip	_	_	
+23-21.1	6066-6082	stanford-corenlp	*	SOFTWARE	
+23-22	6094-6096	rm	_	_	
+23-23	6097-6098	-	_	_	
+23-24	6098-6099	f	_	_	
+23-25	6100-6127	stanford-corenlp-latest.zip	_	_	
+23-25.1	6100-6116	stanford-corenlp	*	SOFTWARE	
+23-26	6129-6130	#	_	_	
+23-27	6131-6136	Start	_	_	
+23-28	6137-6152	StanfordCoreNLP	*	SOFTWARE	
+23-29	6153-6159	server	_	_	
+23-30	6160-6164	java	*	PROGLANG	
+23-31	6165-6166	-	_	_	
+23-32	6166-6170	mx4g	_	_	
+23-33	6171-6172	-	_	_	
+23-34	6172-6174	cp	_	_	
+23-35	6175-6176	"	_	_	
+23-36	6176-6177	$	_	_	
+23-37	6177-6178	{	_	_	
+23-38	6178-6216	directory_to_standford_corenlp_package	_	_	
+23-38.1	6191-6208	standford_corenlp	*	SOFTWARE	
+23-39	6216-6217	}	_	_	
+23-40	6217-6218	"	_	_	
+23-41	6219-6266	edu.stanford.nlp.pipeline.StanfordCoreNLPServer	_	_	
+23-41.1	6245-6266	StanfordCoreNLPServer	*	SOFTWARE	
+23-42	6267-6268	-	_	_	
+23-43	6268-6272	port	_	_	
+23-44	6273-6277	9000	_	_	
+23-45	6278-6279	&	_	_	
+23-46	6281-6282	#	_	_	
+23-47	6283-6286	Run	_	_	
+23-48	6287-6297	Evaluation	_	_	
+23-49	6298-6299	(	_	_	
+23-50	6299-6311	Auto-Rewrite	_	_	
+23-51	6312-6314	as	_	_	
+23-52	6315-6322	example	_	_	
+23-53	6322-6323	)	_	_	
+23-54	6324-6330	python	*	SOFTWARE	
+23-55	6331-6347	run_quac_eval.py	_	_	
+23-56	6348-6349	\	_	_	
+23-57	6354-6355	-	_	_	
+23-58	6355-6356	-	_	_	
+23-59	6356-6360	type	_	_	
+23-60	6361-6370	graphflow	_	_	
+23-61	6371-6372	\	_	_	
+23-62	6377-6378	-	_	_	
+23-63	6378-6379	-	_	_	
+23-64	6379-6391	predict_file	_	_	
+23-65	6392-6393	$	_	_	
+23-66	6393-6394	{	_	_	
+23-67	6394-6425	path-to-annotated-dev-json-file	_	_	
+23-68	6425-6426	}	_	_	
+23-69	6427-6428	\	_	_	
+23-70	6433-6434	-	_	_	
+23-71	6434-6435	-	_	_	
+23-72	6435-6445	output_dir	_	_	
+23-73	6446-6447	$	_	_	
+23-74	6447-6448	{	_	_	
+23-75	6448-6477	directory-to-model-checkpoint	_	_	
+23-76	6477-6478	}	_	_	
+23-77	6479-6480	\	_	_	
+23-78	6485-6486	-	_	_	
+23-79	6486-6487	-	_	_	
+23-80	6487-6503	saved_vocab_file	_	_	
+23-81	6504-6505	$	_	_	
+23-82	6505-6506	{	_	_	
+23-83	6506-6536	directory-to-saved-model-vocab	_	_	
+23-84	6536-6537	}	_	_	
+23-85	6538-6539	\	_	_	
+23-86	6544-6545	-	_	_	
+23-87	6545-6546	-	_	_	
+23-88	6546-6556	pretrained	_	_	
+23-89	6557-6558	$	_	_	
+23-90	6558-6559	{	_	_	
+23-91	6559-6588	directory-to-model-checkpoint	_	_	
+23-92	6588-6589	}	_	_	
+23-93	6590-6591	\	_	_	
+23-94	6596-6597	-	_	_	
+23-95	6597-6598	-	_	_	
+23-96	6598-6607	write_dir	_	_	
+23-97	6608-6609	/	_	_	
+23-98	6609-6610	n	_	_	
+23-99	6610-6611	/	_	_	
+23-100	6611-6613	fs	_	_	
+23-101	6613-6614	/	_	_	
+23-102	6614-6621	scratch	_	_	
+23-103	6621-6622	/	_	_	
+23-104	6622-6629	huihanl	_	_	
+23-105	6629-6630	/	_	_	
+23-106	6630-6637	unified	_	_	
+23-107	6637-6638	/	_	_	
+23-108	6638-6647	graphflow	_	_	
+23-109	6647-6648	/	_	_	
+23-110	6648-6653	write	_	_	
+23-111	6654-6655	\	_	_	
+23-112	6660-6661	-	_	_	
+23-113	6661-6662	-	_	_	
+23-114	6662-6674	match_metric	_	_	
+23-115	6675-6677	f1	_	_	
+23-116	6678-6679	\	_	_	
+23-117	6684-6685	-	_	_	
+23-118	6685-6686	-	_	_	
+23-119	6686-6700	add_background	_	_	
+23-120	6701-6702	\	_	_	
+23-121	6707-6708	-	_	_	
+23-122	6708-6709	-	_	_	
+23-123	6709-6720	skip_entity	_	_	
+23-124	6721-6722	\	_	_	
+23-125	6727-6728	-	_	_	
+23-126	6728-6729	-	_	_	
+23-127	6729-6736	rewrite	_	_	
+23-128	6737-6738	\	_	_	
+23-129	6743-6744	-	_	_	
+23-130	6744-6745	-	_	_	
+23-131	6745-6760	fix_vocab_embed	_	_	
+23-132	6761-6762	\	_	_	
+23-133	6767-6768	-	_	_	
+23-134	6768-6769	-	_	_	
+23-135	6769-6774	f_qem	_	_	
+23-136	6775-6776	\	_	_	
+23-137	6781-6782	-	_	_	
+23-138	6782-6783	-	_	_	
+23-139	6783-6788	f_pos	_	_	
+23-140	6789-6790	\	_	_	
+23-141	6795-6796	-	_	_	
+23-142	6796-6797	-	_	_	
+23-143	6797-6802	f_ner	_	_	
+23-144	6803-6804	\	_	_	
+23-145	6809-6810	-	_	_	
+23-146	6810-6811	-	_	_	
+23-147	6811-6826	use_ques_marker	_	_	
+23-148	6827-6828	\	_	_	
+23-149	6833-6834	-	_	_	
+23-150	6834-6835	-	_	_	
+23-151	6835-6842	use_gnn	_	_	
+23-152	6843-6844	\	_	_	
+23-153	6849-6850	-	_	_	
+23-154	6850-6851	-	_	_	
+23-155	6851-6863	temporal_gnn	_	_	
+23-156	6864-6865	\	_	_	
+23-157	6870-6871	-	_	_	
+23-158	6871-6872	-	_	_	
+23-159	6872-6880	use_bert	_	_	
+23-160	6881-6882	\	_	_	
+23-161	6887-6888	-	_	_	
+23-162	6888-6889	-	_	_	
+23-163	6889-6904	use_bert_weight	_	_	
+23-164	6905-6906	\	_	_	
+23-165	6911-6912	-	_	_	
+23-166	6912-6913	-	_	_	
+23-167	6913-6920	shuffle	_	_	
+23-168	6921-6922	\	_	_	
+23-169	6927-6928	-	_	_	
+23-170	6928-6929	-	_	_	
+23-171	6929-6944	out_predictions	_	_	
+23-172	6945-6946	\	_	_	
+23-173	6951-6952	-	_	_	
+23-174	6952-6953	-	_	_	
+23-175	6953-6969	predict_raw_text	_	_	
+23-176	6970-6971	\	_	_	
+23-177	6976-6977	-	_	_	
+23-178	6977-6978	-	_	_	
+23-179	6978-6996	out_pred_in_folder	_	_	
+23-180	6997-6998	\	_	_	
+23-181	7003-7004	-	_	_	
+23-182	7004-7005	-	_	_	
+23-183	7005-7014	optimizer	_	_	
+23-184	7015-7021	adamax	_	_	
+23-185	7022-7023	\	_	_	
+23-186	7028-7029	-	_	_	
+23-187	7029-7030	-	_	_	
+23-188	7030-7037	start_i	_	_	
+23-189	7038-7039	$	_	_	
+23-190	7039-7040	{	_	_	
+23-191	7040-7070	index_of_first_passage_to_eval	_	_	
+23-192	7070-7071	}	_	_	
+23-193	7072-7073	\	_	_	
+23-194	7078-7079	-	_	_	
+23-195	7079-7080	-	_	_	
+23-196	7080-7085	end_i	_	_	
+23-197	7086-7087	$	_	_	
+23-198	7087-7088	{	_	_	
+23-199	7088-7127	index_of_last_passage_to_eval_exclusive	_	_	
+23-200	7127-7128	}	_	_	
+23-201	7129-7130	\	_	_	
+23-202	7131-7132	`	_	_	
+23-203	7132-7133	`	_	_	
+23-204	7133-7134	`	_	_	
+23-205	7137-7138	#	_	_	
+23-206	7138-7139	#	_	_	
+23-207	7139-7140	#	_	_	
+23-208	7141-7144	HAM	*	SOFTWARE	
+23-209	7145-7148	The	_	_	
+23-210	7149-7158	orgininal	_	_	
+23-211	7159-7164	model	_	_	
+23-212	7165-7175	checkpoint	_	_	
+23-213	7176-7179	can	_	_	
+23-214	7180-7182	be	_	_	
+23-215	7183-7193	downloaded	_	_	
+23-216	7194-7198	from	_	_	
+23-217	7199-7200	[	_	_	
+23-218	7200-7207	CodaLab	_	_	
+23-219	7207-7208	]	_	_	
+23-220	7208-7209	(	_	_	
+23-221	7209-7214	https	_	_	
+23-222	7214-7215	:	_	_	
+23-223	7215-7216	/	_	_	
+23-224	7216-7217	/	_	_	
+23-225	7217-7239	worksheets.codalab.org	_	_	
+23-226	7239-7240	/	_	_	
+23-227	7240-7244	rest	_	_	
+23-228	7244-7245	/	_	_	
+23-229	7245-7252	bundles	_	_	
+23-230	7252-7253	/	_	_	
+23-231	7253-7287	0x5c08cb0fb90c4afd8a2811bb63023cce	_	_	
+23-232	7287-7288	/	_	_	
+23-233	7288-7296	contents	_	_	
+23-234	7296-7297	/	_	_	
+23-235	7297-7301	blob	_	_	
+23-236	7301-7302	/	_	_	
+23-237	7302-7303	)	_	_	
+23-238	7305-7306	`	_	_	
+23-239	7306-7307	`	_	_	
+23-240	7307-7308	`	_	_	
+23-241	7308-7312	bash	_	_	
+23-242	7313-7314	#	_	_	
+23-243	7315-7318	Run	_	_	
+23-244	7319-7329	Evaluation	_	_	
+23-245	7330-7331	(	_	_	
+23-246	7331-7343	Auto-Rewrite	_	_	
+23-247	7344-7346	as	_	_	
+23-248	7347-7354	example	_	_	
+23-249	7354-7355	)	_	_	
+23-250	7356-7362	python	*	SOFTWARE	
+23-251	7363-7379	run_quac_eval.py	_	_	
+23-252	7380-7381	\	_	_	
+23-253	7384-7385	-	_	_	
+23-254	7385-7386	-	_	_	
+23-255	7386-7390	type	_	_	
+23-256	7391-7394	ham	_	_	
+23-257	7395-7396	\	_	_	
+23-258	7399-7400	-	_	_	
+23-259	7400-7401	-	_	_	
+23-260	7401-7411	output_dir	_	_	
+23-261	7412-7413	$	_	_	
+23-262	7413-7414	{	_	_	
+23-263	7414-7443	directory-to-model-checkpoint	_	_	
+23-264	7443-7444	}	_	_	
+23-265	7445-7446	\	_	_	
+23-266	7449-7450	-	_	_	
+23-267	7450-7451	-	_	_	
+23-268	7451-7460	write_dir	_	_	
+23-269	7461-7462	$	_	_	
+23-270	7462-7463	{	_	_	
+23-271	7463-7499	directory-to-write-evaluation-result	_	_	
+23-272	7499-7500	}	_	_	
+23-273	7501-7502	\	_	_	
+23-274	7505-7506	-	_	_	
+23-275	7506-7507	-	_	_	
+23-276	7507-7519	predict_file	_	_	
+23-277	7520-7528	val_v0.2	_	_	
+23-278	7528-7529	.	_	_	
+23-279	7529-7533	json	_	_	
+23-280	7534-7535	\	_	_	
+23-281	7538-7539	-	_	_	
+23-282	7539-7540	-	_	_	
+23-283	7540-7554	max_seq_length	_	_	
+23-284	7555-7558	512	_	_	
+23-285	7559-7560	\	_	_	
+23-286	7563-7564	-	_	_	
+23-287	7564-7565	-	_	_	
+23-288	7565-7575	doc_stride	_	_	
+23-289	7576-7579	128	_	_	
+23-290	7580-7581	\	_	_	
+23-291	7584-7585	-	_	_	
+23-292	7585-7586	-	_	_	
+23-293	7586-7602	max_query_length	_	_	
+23-294	7603-7605	64	_	_	
+23-295	7606-7607	\	_	_	
+23-296	7610-7611	-	_	_	
+23-297	7611-7612	-	_	_	
+23-298	7612-7625	do_lower_case	_	_	
+23-299	7626-7627	\	_	_	
+23-300	7630-7631	-	_	_	
+23-301	7631-7632	-	_	_	
+23-302	7632-7643	history_len	_	_	
+23-303	7644-7645	6	_	_	
+23-304	7646-7647	\	_	_	
+23-305	7650-7651	-	_	_	
+23-306	7651-7652	-	_	_	
+23-307	7652-7664	match_metric	_	_	
+23-308	7665-7667	f1	_	_	
+23-309	7668-7669	\	_	_	
+23-310	7672-7673	-	_	_	
+23-311	7673-7674	-	_	_	
+23-312	7674-7688	add_background	_	_	
+23-313	7689-7690	\	_	_	
+23-314	7693-7694	-	_	_	
+23-315	7694-7695	-	_	_	
+23-316	7695-7706	skip_entity	_	_	
+23-317	7707-7708	\	_	_	
+23-318	7711-7712	-	_	_	
+23-319	7712-7713	-	_	_	
+23-320	7713-7720	replace	_	_	
+23-321	7721-7722	\	_	_	
+23-322	7725-7726	-	_	_	
+23-323	7726-7727	-	_	_	
+23-324	7727-7742	init_checkpoint	_	_	
+23-325	7743-7744	$	_	_	
+23-326	7744-7745	{	_	_	
+23-327	7745-7774	directory-to-model-checkpoint	_	_	
+23-328	7774-7775	}	_	_	
+23-329	7775-7776	/	_	_	
+23-330	7776-7781	model	_	_	
+23-331	7781-7782	_	_	_	
+23-332	7782-7787	52000	_	_	
+23-333	7787-7788	.	_	_	
+23-334	7788-7792	ckpt	_	_	
+23-335	7793-7794	\	_	_	
+23-336	7797-7798	-	_	_	
+23-337	7798-7799	-	_	_	
+23-338	7799-7815	bert_config_file	_	_	
+23-339	7816-7817	$	_	_	
+23-340	7817-7818	{	_	_	
+23-341	7818-7860	directory-to-pretrained-bert-large-uncased	_	_	
+23-342	7860-7861	}	_	_	
+23-343	7861-7862	/	_	_	
+23-344	7862-7878	bert_config.json	_	_	
+23-345	7879-7880	\	_	_	
+23-346	7883-7884	-	_	_	
+23-347	7884-7885	-	_	_	
+23-348	7885-7895	vocab_file	_	_	
+23-349	7896-7897	$	_	_	
+23-350	7897-7898	{	_	_	
+23-351	7898-7927	directory-to-model-checkpoint	_	_	
+23-352	7927-7928	}	_	_	
+23-353	7928-7929	/	_	_	
+23-354	7929-7938	vocab.txt	_	_	
+23-355	7939-7940	\	_	_	
+23-356	7943-7944	-	_	_	
+23-357	7944-7945	-	_	_	
+23-358	7945-7951	MTL_mu	_	_	
+23-359	7952-7955	0.8	_	_	
+23-360	7956-7957	\	_	_	
+23-361	7960-7961	-	_	_	
+23-362	7961-7962	-	_	_	
+23-363	7962-7972	MTL_lambda	_	_	
+23-364	7973-7976	0.1	_	_	
+23-365	7977-7978	\	_	_	
+23-366	7981-7982	-	_	_	
+23-367	7982-7983	-	_	_	
+23-368	7983-7992	mtl_input	_	_	
+23-369	7993-8004	reduce_mean	_	_	
+23-370	8005-8006	\	_	_	
+23-371	8009-8010	-	_	_	
+23-372	8010-8011	-	_	_	
+23-373	8011-8028	max_answer_length	_	_	
+23-374	8029-8031	40	_	_	
+23-375	8032-8033	\	_	_	
+23-376	8036-8037	-	_	_	
+23-377	8037-8038	-	_	_	
+23-378	8038-8066	max_considered_history_turns	_	_	
+23-379	8067-8068	4	_	_	
+23-380	8069-8070	\	_	_	
+23-381	8073-8074	-	_	_	
+23-382	8074-8075	-	_	_	
+23-383	8075-8086	bert_hidden	_	_	
+23-384	8087-8091	1024	_	_	
+23-385	8092-8093	\	_	_	
+23-386	8096-8097	-	_	_	
+23-387	8097-8098	-	_	_	
+23-388	8098-8120	fine_grained_attention	_	_	
+23-389	8121-8122	\	_	_	
+23-390	8125-8126	-	_	_	
+23-391	8126-8127	-	_	_	
+23-392	8127-8137	better_hae	_	_	
+23-393	8138-8139	\	_	_	
+23-394	8142-8143	-	_	_	
+23-395	8143-8144	-	_	_	
+23-396	8144-8147	MTL	_	_	
+23-397	8148-8149	\	_	_	
+23-398	8152-8153	-	_	_	
+23-399	8153-8154	-	_	_	
+23-400	8154-8179	use_history_answer_marker	_	_	
+23-401	8180-8181	\	_	_	
+23-402	8184-8185	-	_	_	
+23-403	8185-8186	-	_	_	
+23-404	8186-8193	start_i	_	_	
+23-405	8194-8195	$	_	_	
+23-406	8195-8196	{	_	_	
+23-407	8196-8226	index_of_first_passage_to_eval	_	_	
+23-408	8226-8227	}	_	_	
+23-409	8228-8229	\	_	_	
+23-410	8232-8233	-	_	_	
+23-411	8233-8234	-	_	_	
+23-412	8234-8239	end_i	_	_	
+23-413	8240-8241	$	_	_	
+23-414	8241-8242	{	_	_	
+23-415	8242-8281	index_of_last_passage_to_eval_exclusive	_	_	
+23-416	8281-8282	}	_	_	
+23-417	8283-8284	\	_	_	
+23-418	8285-8286	`	_	_	
+23-419	8286-8287	`	_	_	
+23-420	8287-8288	`	_	_	
+23-421	8291-8292	#	_	_	
+23-422	8292-8293	#	_	_	
+23-423	8293-8294	#	_	_	
+23-424	8295-8301	ExCorD	_	_	
+23-425	8302-8305	The	_	_	
+23-426	8306-8314	original	_	_	
+23-427	8315-8320	model	_	_	
+23-428	8321-8331	checkpoint	_	_	
+23-429	8332-8335	can	_	_	
+23-430	8336-8338	be	_	_	
+23-431	8339-8349	downloaded	_	_	
+23-432	8350-8354	from	_	_	
+23-433	8355-8356	[	_	_	
+23-434	8356-8361	their	_	_	
+23-435	8362-8366	repo	_	_	
+23-436	8366-8367	]	_	_	
+23-437	8367-8368	(	_	_	
+23-438	8368-8373	https	_	_	
+23-439	8373-8374	:	_	_	
+23-440	8374-8375	/	_	_	
+23-441	8375-8376	/	_	_	
+23-442	8376-8392	drive.google.com	_	_	
+23-443	8392-8393	/	_	_	
+23-444	8393-8397	file	_	_	
+23-445	8397-8398	/	_	_	
+23-446	8398-8399	d	_	_	
+23-447	8399-8400	/	_	_	
+23-448	8400-8404	1Xf0	_	_	
+23-449	8404-8405	-	_	_	
+23-450	8405-8433	XUvGi7jgiAAdA5BQLk7p5ikc_wOl	_	_	
+23-451	8433-8434	/	_	_	
+23-452	8434-8438	view	_	_	
+23-453	8438-8439	?	_	_	
+
+#Text=usp=sharing)
+#Text=
+#Text=```bash
+#Text=# Run Evaluation (Auto-Rewrite as example)
+#Text=python run_quac_eval.py \\
+#Text=  --type excord \\
+#Text=  --output_dir ${directory-to-model-checkpoint} \\
+#Text=  --write_dir ${directory-to-write-evaluation-result} \\
+#Text=  --predict_file val_v0.2.json \\
+#Text=  --max_seq_length 512 \\
+#Text=  --doc_stride 128 \\
+#Text=  --max_query_length 64 \\
+#Text=  --match_metric f1 \\
+#Text=  --add_background \\
+#Text=  --skip_entity \\
+#Text=  --rewrite \\
+#Text=  --start_i ${index_of_first_passage_to_eval} \\
+#Text=  --end_i ${index_of_last_passage_to_eval_exclusive} \\
+#Text=```
+#Text=
+#Text=## Evaluating your own model
+#Text=One can follow our existing implementations for the four models to implement evaluation for their own models.
+24-1	8439-8442	usp	_	_	
+24-2	8442-8443	=	_	_	
+24-3	8443-8450	sharing	_	_	
+24-4	8450-8451	)	_	_	
+24-5	8453-8454	`	_	_	
+24-6	8454-8455	`	_	_	
+24-7	8455-8456	`	_	_	
+24-8	8456-8460	bash	*	PROGLANG	
+24-9	8461-8462	#	_	_	
+24-10	8463-8466	Run	_	_	
+24-11	8467-8477	Evaluation	_	_	
+24-12	8478-8479	(	_	_	
+24-13	8479-8491	Auto-Rewrite	_	_	
+24-14	8492-8494	as	_	_	
+24-15	8495-8502	example	_	_	
+24-16	8502-8503	)	_	_	
+24-17	8504-8510	python	*	SOFTWARE	
+24-18	8511-8527	run_quac_eval.py	_	_	
+24-19	8528-8529	\	_	_	
+24-20	8532-8533	-	_	_	
+24-21	8533-8534	-	_	_	
+24-22	8534-8538	type	_	_	
+24-23	8539-8545	excord	_	_	
+24-24	8546-8547	\	_	_	
+24-25	8550-8551	-	_	_	
+24-26	8551-8552	-	_	_	
+24-27	8552-8562	output_dir	_	_	
+24-28	8563-8564	$	_	_	
+24-29	8564-8565	{	_	_	
+24-30	8565-8594	directory-to-model-checkpoint	_	_	
+24-31	8594-8595	}	_	_	
+24-32	8596-8597	\	_	_	
+24-33	8600-8601	-	_	_	
+24-34	8601-8602	-	_	_	
+24-35	8602-8611	write_dir	_	_	
+24-36	8612-8613	$	_	_	
+24-37	8613-8614	{	_	_	
+24-38	8614-8650	directory-to-write-evaluation-result	_	_	
+24-39	8650-8651	}	_	_	
+24-40	8652-8653	\	_	_	
+24-41	8656-8657	-	_	_	
+24-42	8657-8658	-	_	_	
+24-43	8658-8670	predict_file	_	_	
+24-44	8671-8679	val_v0.2	_	_	
+24-45	8679-8680	.	_	_	
+24-46	8680-8684	json	_	_	
+24-47	8685-8686	\	_	_	
+24-48	8689-8690	-	_	_	
+24-49	8690-8691	-	_	_	
+24-50	8691-8705	max_seq_length	_	_	
+24-51	8706-8709	512	_	_	
+24-52	8710-8711	\	_	_	
+24-53	8714-8715	-	_	_	
+24-54	8715-8716	-	_	_	
+24-55	8716-8726	doc_stride	_	_	
+24-56	8727-8730	128	_	_	
+24-57	8731-8732	\	_	_	
+24-58	8735-8736	-	_	_	
+24-59	8736-8737	-	_	_	
+24-60	8737-8753	max_query_length	_	_	
+24-61	8754-8756	64	_	_	
+24-62	8757-8758	\	_	_	
+24-63	8761-8762	-	_	_	
+24-64	8762-8763	-	_	_	
+24-65	8763-8775	match_metric	_	_	
+24-66	8776-8778	f1	_	_	
+24-67	8779-8780	\	_	_	
+24-68	8783-8784	-	_	_	
+24-69	8784-8785	-	_	_	
+24-70	8785-8799	add_background	_	_	
+24-71	8800-8801	\	_	_	
+24-72	8804-8805	-	_	_	
+24-73	8805-8806	-	_	_	
+24-74	8806-8817	skip_entity	_	_	
+24-75	8818-8819	\	_	_	
+24-76	8822-8823	-	_	_	
+24-77	8823-8824	-	_	_	
+24-78	8824-8831	rewrite	_	_	
+24-79	8832-8833	\	_	_	
+24-80	8836-8837	-	_	_	
+24-81	8837-8838	-	_	_	
+24-82	8838-8845	start_i	_	_	
+24-83	8846-8847	$	_	_	
+24-84	8847-8848	{	_	_	
+24-85	8848-8878	index_of_first_passage_to_eval	_	_	
+24-86	8878-8879	}	_	_	
+24-87	8880-8881	\	_	_	
+24-88	8884-8885	-	_	_	
+24-89	8885-8886	-	_	_	
+24-90	8886-8891	end_i	_	_	
+24-91	8892-8893	$	_	_	
+24-92	8893-8894	{	_	_	
+24-93	8894-8933	index_of_last_passage_to_eval_exclusive	_	_	
+24-94	8933-8934	}	_	_	
+24-95	8935-8936	\	_	_	
+24-96	8937-8938	`	_	_	
+24-97	8938-8939	`	_	_	
+24-98	8939-8940	`	_	_	
+24-99	8942-8943	#	_	_	
+24-100	8943-8944	#	_	_	
+24-101	8945-8955	Evaluating	_	_	
+24-102	8956-8960	your	_	_	
+24-103	8961-8964	own	_	_	
+24-104	8965-8970	model	_	_	
+24-105	8971-8974	One	_	_	
+24-106	8975-8978	can	_	_	
+24-107	8979-8985	follow	_	_	
+24-108	8986-8989	our	_	_	
+24-109	8990-8998	existing	_	_	
+24-110	8999-9014	implementations	_	_	
+24-111	9015-9018	for	_	_	
+24-112	9019-9022	the	_	_	
+24-113	9023-9027	four	_	_	
+24-114	9028-9034	models	_	_	
+24-115	9035-9037	to	_	_	
+24-116	9038-9047	implement	_	_	
+24-117	9048-9058	evaluation	_	_	
+24-118	9059-9062	for	_	_	
+24-119	9063-9068	their	_	_	
+24-120	9069-9072	own	_	_	
+24-121	9073-9079	models	_	_	
+24-122	9079-9080	.	_	_	
+
+#Text=To do so, please add a directory under `models` and write a customized model class following the template `interface.py` and our example implementations.
+#Text=
+#Text=## Citation
+#Text=
+#Text=```bibtex
+#Text=@inproceedings{li2022ditch,
+#Text=    title = "Ditch the Gold Standard: Re-evaluating Conversational Question Answering",
+#Text=    author = "Li, Huihan  and
+#Text=      Gao, Tianyu  and
+#Text=      Goenka, Manan  and
+#Text=      Chen, Danqi",
+#Text=    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+#Text=    year = "2022",
+#Text=    url = "https://aclanthology.org/2022.acl-long.555",
+#Text=    pages = "8074--8085",
+#Text=}
+#Text=```
+25-1	9081-9083	To	_	_	
+25-2	9084-9086	do	_	_	
+25-3	9087-9089	so	_	_	
+25-4	9089-9090	,	_	_	
+25-5	9091-9097	please	_	_	
+25-6	9098-9101	add	_	_	
+25-7	9102-9103	a	_	_	
+25-8	9104-9113	directory	_	_	
+25-9	9114-9119	under	_	_	
+25-10	9120-9121	`	_	_	
+25-11	9121-9127	models	_	_	
+25-12	9127-9128	`	_	_	
+25-13	9129-9132	and	_	_	
+25-14	9133-9138	write	_	_	
+25-15	9139-9140	a	_	_	
+25-16	9141-9151	customized	_	_	
+25-17	9152-9157	model	_	_	
+25-18	9158-9163	class	_	_	
+25-19	9164-9173	following	_	_	
+25-20	9174-9177	the	_	_	
+25-21	9178-9186	template	_	_	
+25-22	9187-9188	`	_	_	
+25-23	9188-9200	interface.py	_	_	
+25-24	9200-9201	`	_	_	
+25-25	9202-9205	and	_	_	
+25-26	9206-9209	our	_	_	
+25-27	9210-9217	example	_	_	
+25-28	9218-9233	implementations	_	_	
+25-29	9233-9234	.	_	_	
+25-30	9236-9237	#	_	_	
+25-31	9237-9238	#	_	_	
+25-32	9239-9247	Citation	_	_	
+25-33	9249-9250	`	_	_	
+25-34	9250-9251	`	_	_	
+25-35	9251-9252	`	_	_	
+25-36	9252-9258	bibtex	_	_	
+25-37	9259-9260	@	_	_	
+25-38	9260-9273	inproceedings	_	_	
+25-39	9273-9274	{	_	_	
+25-40	9274-9285	li2022ditch	_	_	
+25-41	9285-9286	,	_	_	
+25-42	9291-9296	title	_	_	
+25-43	9297-9298	=	_	_	
+25-44	9299-9300	"	_	_	
+25-45	9300-9305	Ditch	*[5]	PUBLICATION[5]	
+25-46	9306-9309	the	*[5]	PUBLICATION[5]	
+25-47	9310-9314	Gold	*[5]	PUBLICATION[5]	
+25-48	9315-9323	Standard	*[5]	PUBLICATION[5]	
+25-49	9323-9324	:	*[5]	PUBLICATION[5]	
+25-50	9325-9338	Re-evaluating	*[5]	PUBLICATION[5]	
+25-51	9339-9353	Conversational	*[5]	PUBLICATION[5]	
+25-52	9354-9362	Question	*[5]	PUBLICATION[5]	
+25-53	9363-9372	Answering	*[5]	PUBLICATION[5]	
+25-54	9372-9373	"	_	_	
+25-55	9373-9374	,	_	_	
+25-56	9379-9385	author	_	_	
+25-57	9386-9387	=	_	_	
+25-58	9388-9389	"	_	_	
+25-59	9389-9391	Li	_	_	
+25-60	9391-9392	,	_	_	
+25-61	9393-9399	Huihan	_	_	
+25-62	9401-9404	and	_	_	
+25-63	9411-9414	Gao	_	_	
+25-64	9414-9415	,	_	_	
+25-65	9416-9422	Tianyu	_	_	
+25-66	9424-9427	and	_	_	
+25-67	9434-9440	Goenka	_	_	
+25-68	9440-9441	,	_	_	
+25-69	9442-9447	Manan	_	_	
+25-70	9449-9452	and	_	_	
+25-71	9459-9463	Chen	_	_	
+25-72	9463-9464	,	_	_	
+25-73	9465-9470	Danqi	_	_	
+25-74	9470-9471	"	_	_	
+25-75	9471-9472	,	_	_	
+25-76	9477-9486	booktitle	_	_	
+25-77	9487-9488	=	_	_	
+25-78	9489-9490	"	_	_	
+25-79	9490-9501	Proceedings	*[6]	PUBLICATION[6]	
+25-80	9502-9504	of	*[6]	PUBLICATION[6]	
+25-81	9505-9508	the	*[6]	PUBLICATION[6]	
+25-82	9509-9513	60th	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+25-83	9514-9520	Annual	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+25-84	9521-9528	Meeting	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+25-85	9529-9531	of	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+25-86	9532-9535	the	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+25-87	9536-9547	Association	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+25-88	9548-9551	for	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+25-89	9552-9565	Computational	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+25-90	9566-9577	Linguistics	*[6]|*[7]	PUBLICATION[6]|CONFERENCE[7]	
+25-91	9578-9579	(	*[6]	PUBLICATION[6]	
+25-92	9579-9585	Volume	*[6]	PUBLICATION[6]	
+25-93	9586-9587	1	*[6]	PUBLICATION[6]	
+25-94	9587-9588	:	*[6]	PUBLICATION[6]	
+25-95	9589-9593	Long	*[6]	PUBLICATION[6]	
+25-96	9594-9600	Papers	*[6]	PUBLICATION[6]	
+25-97	9600-9601	)	*[6]	PUBLICATION[6]	
+25-98	9601-9602	"	_	_	
+25-99	9602-9603	,	_	_	
+25-100	9608-9612	year	_	_	
+25-101	9613-9614	=	_	_	
+25-102	9615-9616	"	_	_	
+25-103	9616-9620	2022	_	_	
+25-104	9620-9621	"	_	_	
+25-105	9621-9622	,	_	_	
+25-106	9627-9630	url	_	_	
+25-107	9631-9632	=	_	_	
+25-108	9633-9634	"	_	_	
+25-109	9634-9639	https	_	_	
+25-110	9639-9640	:	_	_	
+25-111	9640-9641	/	_	_	
+25-112	9641-9642	/	_	_	
+25-113	9642-9658	aclanthology.org	_	_	
+25-114	9658-9659	/	_	_	
+25-115	9659-9663	2022	_	_	
+25-116	9663-9664	.	_	_	
+25-117	9664-9672	acl-long	_	_	
+25-117.1	9664-9667	acl	*	CONFERENCE	
+25-118	9672-9676	.555	_	_	
+25-119	9676-9677	"	_	_	
+25-120	9677-9678	,	_	_	
+25-121	9683-9688	pages	_	_	
+25-122	9689-9690	=	_	_	
+25-123	9691-9692	"	_	_	
+25-124	9692-9696	8074	_	_	
+25-125	9696-9697	-	_	_	
+25-126	9697-9698	-	_	_	
+25-127	9698-9702	8085	_	_	
+25-128	9702-9703	"	_	_	
+25-129	9703-9704	,	_	_	
+25-130	9705-9706	}	_	_	
+25-131	9707-9708	`	_	_	
+25-132	9708-9709	`	_	_	
+25-133	9709-9710	`	_	_	

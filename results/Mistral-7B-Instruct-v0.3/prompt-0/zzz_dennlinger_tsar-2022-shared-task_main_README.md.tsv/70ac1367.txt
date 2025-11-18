@@ -1,0 +1,1 @@
+`Later additions of the <PUBLICATION>Spanish and Portuguese predictions</PUBLICATION> are in the respective folders `es/` (for <PROJECT>Spanish</PROJECT>) and `pt/` (<PROJECT>Portuguese</PROJECT>).`

@@ -1,0 +1,1 @@
+Further, you have to uncomment the respective reasoners in the `getReasoners()` function of the `<PROGLANG>java</PROGLANG>` file `org.unima.nheist.App`.

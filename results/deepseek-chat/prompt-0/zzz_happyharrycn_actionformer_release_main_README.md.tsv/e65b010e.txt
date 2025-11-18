@@ -1,0 +1,1 @@
+For example, training on `<DATASET>Omnivore</DATASET>` and `<DATASET>EgoVLP</DATASET>` features will create an experiment folder under *.

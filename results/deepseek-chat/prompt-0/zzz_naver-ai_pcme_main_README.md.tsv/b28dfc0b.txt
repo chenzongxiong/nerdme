@@ -1,0 +1,3 @@
+```markdown
+/config/cub/<DATASET>pcme_cub</DATASET>.yaml \     --dataset_root <your_dataset_path> \     --caption_root <your_caption_path> \     --dataset_name <DATASET>cub_trainval1</DATASET> \     # --model__cache_dir /vector_cache # if you use my docker image ```  Similarly, you can use `<DATASET>cub_trainval2</DATASET>` and `<DATASET>cub_trainval3</DATASET>` as well.  #### training with full training classes  ``` <PROGLANG>python</PROGLANG> train_cub.py .
+```

@@ -1,0 +1,3 @@
+```markdown
+[Introduction](#introduction) 2. The <PROJECT>Paper With Code</PROJECT> project (https://<PROJECT>paperswithcode</PROJECT>.com/) provides a platform for researchers to share their code and datasets. The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (ISWC 2019) workshop on <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> focused on the development of ontologies for intelligent systems. The evaluation metrics used were <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, and <EVALMETRIC>F1-Score</EVALMETRIC>. The <SOFTWARE>Protege ontology editor</SOFTWARE> was used to explore and edit the resource.
+```

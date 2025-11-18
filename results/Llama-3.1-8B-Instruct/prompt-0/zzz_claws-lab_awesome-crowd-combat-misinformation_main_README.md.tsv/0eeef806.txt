@@ -1,0 +1,1 @@
+Complementary to these approaches, recent research has increasingly concentrated on utilizing the power of ordinary social media users, a.k.a. the <SOFTWARE>CrowdTangle</SOFTWARE> and <SOFTWARE>Brandwatch</SOFTWARE> for extracting social media information.

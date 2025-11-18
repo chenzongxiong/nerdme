@@ -1,0 +1,1 @@
+The client is also passed an `<EVALMETRIC>evaluator</EVALMETRIC>` which it will use in the simulation to evaluate its own weights and the federated weights.

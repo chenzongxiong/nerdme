@@ -1,0 +1,3 @@
+```markdown
+- Put your OpenAI API key in [<SOFTWARE>evaluate.py</SOFTWARE>](.
+```

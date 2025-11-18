@@ -1,0 +1,3 @@
+```markdown
+/libs/utils: Utility functions for training, inference, and postprocessing.  ## Installation * Follow INSTALL.md for installing necessary dependencies and compiling the code.  ## Frequently Asked Questions * See FAQ.md.   ## To Reproduce Our Results on <DATASET>THUMOS14</DATASET> **Download Features and Annotations** * Download *thumos.tar.gz* (`md5sum 375f76ffbf7447af1035e694971ec9b2`) from [this Box link](https://uwmadison.box.com/s/glpuxadymf3gd01m1cj6g5c3bn39qbgr) or [this Google Drive link](https://drive.google.com/file/d/1zt2eoldshf99vJMDuu8jqxda55dCyhZP/view?
+```

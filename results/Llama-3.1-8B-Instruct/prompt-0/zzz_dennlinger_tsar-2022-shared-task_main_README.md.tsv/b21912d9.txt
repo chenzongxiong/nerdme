@@ -1,0 +1,2 @@
+The <LICENSE>CC-BY-NC-SA-4.0</LICENSE> licensed <DATASET> datasets </DATASET> (under the /datasets directory) are available for use.  
+## Contact <SOFTWARE>https://taln.upf.edu/pages/</SOFTWARE><SOFTWARE>tsar2022-st</SOFTWARE><SOFTWARE>/#contact</SOFTWARE>

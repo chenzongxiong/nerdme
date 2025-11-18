@@ -1,0 +1,1 @@
+`For each <PROJECT>model</PROJECT>, we mention based on what <EVALMETRIC>information</EVALMETRIC> it computes a <SOFTWARE>snippet embedding</SOFTWARE>: the <PUBLICATION>description</PUBLICATION> and/or the <PROGLANG>code</PROGLANG>`

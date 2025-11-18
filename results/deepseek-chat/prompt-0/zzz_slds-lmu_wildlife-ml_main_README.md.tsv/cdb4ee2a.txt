@@ -1,0 +1,3 @@
+Since the input text is empty (only contains a single period), there is nothing to annotate. Here is the output:
+
+.
